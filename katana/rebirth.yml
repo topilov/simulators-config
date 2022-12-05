@@ -1,0 +1,576 @@
+hover:
+  - ""
+  - "§7Думаешь ты уже готов начать всё"
+  - "§7сначала? Не бойся! Это будет также"
+  - "§7увлекательно, как и до этого. К "
+  - "§7тому же ты получишь награду в виде"
+  - "§7вечных бустеров статиктики:"
+  - ""
+  - "§7 ⊠§c Убийств§f %boost_kills%"     
+  - "§7 ⊠§e Монеты§f %boost_money%"
+  - "§7 ⊠§6 Ударов§f %boost_hits%"       
+  - "§7 ⊠§b Опыт§f %boost_exp%"
+  - ""
+  - "§aДополнительная награда:"
+  - " §6✪ §f+§d 25 Битсов"
+  - " §6✪ §710% на§b Слот для Питомца"
+  - ""
+  - "§6Необходимая статистика"
+  - "§7 ⊠ §fМонеты:%ready_money% %current_money%/%need_money%"
+  - "§7 ⊠ §fУровень:%ready_level% %current_level%/%need_level%"
+  - ""
+  - "§e▶ Нажмите, чтобы переродиться"
+messages:
+  max: "Вы достигли максимального ребитха!"
+  moreMoney: "Вам нужно больше монет для перерождения!"
+  moreLevel: "Ваш уровень слишком мал, чтобы переродиться!"
+  success: "§dВы переродились!\n§7Начните жизнь с нуля, с бустером!"
+default-booster:
+  kills: 0.25
+  money: 0.25
+  hits: 0.25
+  exp: 0.25
+rebirth: # upgrade to
+  1:
+    price: 1000000
+    level: 7
+    boosters: *booster_25
+  2:
+    price: 2000000
+    level: 7
+    boosters: *booster_25
+  3:
+    price: 3000000
+    level: 7
+    boosters: *booster_25
+  4:
+    price: 4000000
+    level: 7
+    boosters: *booster_25
+  5:
+    price: 5000000
+    level: 8
+    boosters: *booster_25
+  6:
+    price: 6000000
+    level: 8
+    boosters: *booster_25
+  7:
+    price: 7000000
+    level: 8
+    boosters: *booster_25
+  8:
+    price: 8000000
+    level: 8
+    boosters: *booster_25
+  9:
+    price: 9000000
+    level: 8
+    boosters: *booster_25
+  10:
+    price: 10000000
+    level: 8
+    boosters: *booster_25
+  11:
+    price: 11000000
+    level: 8
+    boosters: *booster_25
+  12:
+    price: 12000000
+    level: 8
+    boosters: *booster_25
+  13:
+    price: 13000000
+    level: 8
+    boosters: *booster_25
+  14:
+    price: 14000000
+    level: 8
+    boosters: *booster_25
+  15:
+    price: 25000000
+    level: 9
+    boosters: *booster_25
+  16:
+    price: 30000000
+    level: 9
+    boosters: *booster_25
+  17:
+    price: 35000000
+    level: 9
+    boosters: *booster_25
+  18:
+    price: 40000000
+    level: 9
+    boosters: *booster_25
+  19:
+    price: 45000000
+    level: 9
+    boosters: *booster_25
+  20:
+    price: 50000000
+    level: 9
+    boosters: *booster_25
+  21:
+    price: 60000000
+    level: 9
+    boosters: *booster_25
+  22:
+    price: 70000000
+    level: 9
+    boosters: *booster_25
+  23:
+    price: 80000000
+    level: 9
+    boosters: *booster_25
+  24:
+    price: 90000000
+    level: 9
+    boosters: *booster_25
+  25:
+    price: 100000000
+    level: 9
+    boosters: *booster_25
+  26:
+    price: 125000000
+    level: 9
+    boosters: *booster_25
+  27:
+    price: 150000000
+    level: 9
+    boosters: *booster_25
+  28:
+    price: 175000000
+    level: 9
+    boosters: *booster_25
+  29:
+    price: 300000000
+    level: 9
+    boosters: *booster_25
+  30:
+    price: 400000000
+    level: 9
+    boosters: *booster_25
+  31:
+    price: 500000000
+    level: 9
+    boosters: *booster_25
+  32:
+    price: 600000000
+    level: 9
+    boosters: *booster_25
+  33:
+    price: 700000000
+    level: 9
+    boosters: *booster_25
+  34:
+    price: 800000000
+    level: 9
+    boosters: *booster_25
+  35:
+    price: 1000000000
+    level: 9
+    boosters: *booster_25
+  36:
+    price: 1500000000
+    level: 9
+    boosters: *booster_25
+  37:
+    price: 2000000000
+    level: 9
+    boosters: *booster_25
+  38:
+    price: 2100000000
+    level: 9
+    boosters: *booster_25
+  39:
+    price: 2400000000
+    level: 9
+    boosters: *booster_25
+  40:
+    price: 2800000000
+    level: 9
+    boosters: *booster_25
+  41:
+    price: 3200000000
+    level: 9
+    boosters: *booster_25
+  42:
+    price: 4000000000
+    level: 9
+    boosters: *booster_25
+  43:
+    price: 4500000000
+    level: 9
+    boosters: *booster_25
+  44:
+    price: 5000000000
+    level: 9
+    boosters: *booster_25
+  45:
+    price: 5500000000
+    level: 9
+    boosters: *booster_25
+  46:
+    price: 6000000000
+    level: 9
+    boosters: *booster_25
+  47:
+    price: 6500000000
+    level: 9
+    boosters: *booster_25
+  48:
+    price: 7000000000
+    level: 9
+    boosters: *booster_25
+  49:
+    price: 8000000000
+    level: 9
+    boosters: *booster_25
+  50:
+    price: 9000000000
+    level: 9
+    boosters: *booster_25
+  51:
+    price: 12000000000
+    level: 9
+    boosters: *booster_25
+  52:
+    price: 15000000000
+    level: 9
+    boosters: *booster_25
+  53:
+    price: 20000000000
+    level: 9
+    boosters: *booster_25
+  54:
+    price: 25000000000
+    level: 9
+    boosters: *booster_25
+  55:
+    price: 30000000000
+    level: 9
+    boosters: *booster_25
+  56:
+    price: 35000000000
+    level: 9
+    boosters: *booster_25
+  57:
+    price: 40000000000
+    level: 9
+    boosters: *booster_25
+  58:
+    price: 45000000000
+    level: 9
+    boosters: *booster_25
+  59:
+    price: 50000000000
+    level: 9
+    boosters: *booster_25
+  60:
+    price: 55000000000
+    level: 9
+    boosters: *booster_25
+  61:
+    price: 60000000000
+    level: 9
+    boosters: *booster_25
+  62:
+    price: 65000000000
+    level: 9
+    boosters: *booster_25
+  63:
+    price: 70000000000
+    level: 9
+    boosters: *booster_25
+  64:
+    price: 75000000000
+    level: 9
+    boosters: *booster_25
+  65:
+    price: 80000000000
+    level: 9
+    boosters: *booster_25
+  66:
+    price: 90000000000
+    level: 9
+    boosters: *booster_25
+  67:
+    price: 95000000000
+    level: 9
+    boosters: *booster_25
+  68:
+    price: 100000000000
+    level: 9
+    boosters: *booster_25
+  69:
+    price: 105000000000
+    level: 9
+    boosters: *booster_25
+  70:
+    price: 125000000000
+    level: 9
+    boosters: *booster_25
+  71:
+    price: 145000000000
+    level: 9
+    boosters: *booster_25
+  72:
+    price: 165000000000
+    level: 9
+    boosters: *booster_25
+  73:
+    price: 200000000000
+    level: 9
+    boosters: *booster_25
+  74:
+    price: 250000000000
+    level: 9
+    boosters: *booster_25
+  75:
+    price: 275000000000
+    level: 9
+    boosters: *booster_25
+  76:
+    price: 300000000000
+    level: 9
+    boosters: *booster_25
+  77:
+    price: 350000000000
+    level: 9
+    boosters: *booster_25
+  78:
+    price: 400000000000
+    level: 9
+    boosters: *booster_25
+  79:
+    price: 450000000000
+    level: 9
+    boosters: *booster_25
+  80:
+    price: 500000000000
+    level: 9
+    boosters: *booster_25
+  81:
+    price: 600000000000
+    level: 9
+    boosters:
+      kills: -10
+      money: -10
+      hits: -10
+      exp: 0.25       
+  82:
+    price: 400000000000
+    level: 9
+    boosters:
+      kills: -10
+      money: -10
+      hits: -10
+      exp: 0.25      
+  83:
+    price: 200000000000
+    level: 9
+    boosters:
+      kills: -10
+      money: -10
+      hits: -10
+      exp: 0.25  
+  84:
+    price: 100000000000
+    level: 9
+    boosters:
+      kills: 20
+      money: 20
+      hits: 20
+      exp: 0.25   
+  85:
+    price: 300000000000
+    level: 9
+    boosters:
+      kills: 20
+      money: 20
+      hits: 20
+      exp: 0.25              
+  86:
+    price: 800000000000
+    level: 9
+    boosters:
+      kills: -30
+      money: -30
+      hits: -30
+      exp: 0.25        
+  87:
+    price: 10000000000
+    level: 9
+    boosters:
+      kills: 50
+      money: 50
+      hits: 50
+      exp: 0.25 
+  88:
+    price: 1000000000000
+    level: 9
+    boosters:
+      kills: 50
+      money: 50
+      hits: 50
+      exp: 0.25
+  89:
+    price: 2000000000000
+    level: 9
+    boosters:
+      kills: 50
+      money: 50
+      hits: 50
+      exp: 0.25          
+  90:
+    price: 5000000000000
+    level: 9 
+    boosters:
+      kills: -126
+      money: -126
+      hits: -126
+      exp: 0.25
+ 
+
+crystalAddNbt: "rebirth_add_crystals"
+crystalNbt: "rebirth_crystals"
+crystalhover: "§dУровень после ребитха:§f %crystals% уровень"
+crystalNotSupported:
+- "et %player% Вы не можете наложить§d Кристалл Сохранения§f на этот предмет!"
+crystalOk:
+- "st %player% Вы успешно наложили§d Кристалл Сохранения§f на предмет!"
+crystalMaxLevel:
+- "et %player% Ваш предмет имеет максимальное количество§d Кристаллов Сохранения§f в себе!"
+spawnX: 0.0
+spawnY: 70.0
+spawnZ: 0.0
+spawnYaw: 0.0
+spawnPitch: 0.0
+spawnWorld: "world"
+placeholderReplace: "%rebirth%"
+placeholderZeroLevel: "§cНет"
+chatReplace: "%rebirth%"
+chat: "%rebirth%"
+chatMapping:
+- "§aI "
+- "§aII "
+- "§aIII "
+- "§aIV "
+- "§eV "
+- "§eVI "
+- "§eVII "
+- "§eVIII "
+- "§6IX "
+- "§6X "
+- "§6XI "
+- "§6XII "
+- "§cXIII "
+- "§cXIV "
+- "§cXV "
+- "§cXVI "
+- "§3XVII "
+- "§3XVIII " 
+- "§3XIX "
+- "§3XX "
+- "§dXXI "
+- "§dXXII "
+- "§dXXIII "
+- "§dXXIV "
+- "§2XXV "
+- "§2XXVI "
+- "§2XXVII "
+- "§2XXVIII "
+- "§4XXIX "
+- "§4XXX "
+- "§4XXXI "
+- "§4XXXII "
+- "§4XXXIII "
+- "§5XXXIV "
+- "§5XXXV "
+- "§5XXXVI "
+- "§5XXXVII "
+- "§e§lXXXVIII "
+- "§e§lXXXIX "
+- "§e§lXL "
+- "§e§lXLI "
+- "§6§lXLII "
+- "§6§lXLIII "
+- "§6§lXLIV "
+- "§6§lXLV "
+- "§c§lXLVI "
+- "§c§lXLVII "
+- "§c§lXLVIII "
+- "§c§lXLIX "
+- "§d§lL "
+- "§d§lLI "
+- "§d§lLII "
+- "§d§lLIII "
+- "§d§lLIV "
+- "§d§lLV "
+- "§d§lLVI "
+- "§5§lLVII "
+- "§5§lLVIII " 
+- "§5§lLIX "
+- "§5§lLX "
+- "§5§lLXI "
+- "§5§lLXII "
+- "§3§lLXIII "
+- "§3§lLXIV "
+- "§3§lLXV "
+- "§3§lLXVI "
+- "§3§lLXVII "
+- "§3§lLXVIII " 
+- "§3§lLXIX "
+- "§3§lLXX "
+- "§4§lLXXI "
+- "§4§lLXXII "
+- "§4§lLXXIII "
+- "§4§lLXXIV "
+- "§4§lLXXV "
+- "§4§lLXXVI "
+- "§f§lLXXVII "
+- "§f§lLXXVIII " 
+- "§f§lLXXIX "
+- "§f§lLXXX "
+- "§f§lLXXXI "
+- "§f§lLXXXII "
+- "§f§lLXXXIII "
+- "§f§lLXXXIV "
+- "§f§lLXXXV "
+- "§f§lLXXXVI "
+- "§f§lLXXXVII "
+- "§f§lLXXXVIII "
+- "§f§lLXXXIX "
+- "§f§lXC "
+rebirthUsedAllCrystals: "§fИспользовано максимум§d Кристаллов Сохранения"
+rebirthAllowedCrystals: "§c✖ §fУ Вас не использовано §d%allowed%§d Кристаллов Сохранения"
+crystalAlreadyUsed:
+- "et %player% Вы уже наложили§d Кристалл Сохранения§f на этот предмет, в следующий раз сможете сделать это после ребитха!"
+usedCrystalNbt: "used_crystal"
+maxCrystalUsed:
+- "et %player% Вы не можете накладывать больше§d Кристаллов Сохранения§f в этой жизни!"
+usedCrystalsStat: "used_crystals"
+crystalsByRebirth:
+  0: 5
+  1: 5
+  2: 5
+  3: 5
+  4: 5
+  5: 4
+  6: 4
+  7: 4
+  8: 4
+  9: 4
+  10: 3
+  11: 3
+  12: 3
+  13: 3
+  14: 3 
+  15: 2
+  16: 2
+  17: 2
+  18: 2
+  20: 2     
+crystalsByRebirthDefault: 5
+upgradehover: "%rebirth_crystals%"
