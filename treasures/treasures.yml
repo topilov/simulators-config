@@ -1,95 +1,59 @@
 locations:
   1:
-    treasures:
-      SNOW_CROWN: 1.5
-      KATANA: 3.5
-      SCROLL: 5
-      CUP: 5
-      SINK: 5
-      CROWN: 5
-      MEDAL: 10
-      DISH: 15
-      SHIELD: 15
-      COIN: 15
-      BONE: 20
+    chances:
+      SILVER: 80
+      GOLDEN: 15
+      CRYSTAL: 5
   2:
-    treasures:
-      SNOW_CROWN: 2.5
-      KATANA: 4.5
-      SCROLL: 6
-      CUP: 6
-      SINK: 6
-      CROWN: 6
-      MEDAL: 11
-      DISH: 13.25
-      SHIELD: 13.25
-      COIN: 13.25
-      BONE: 18.25
+    chances:
+      SILVER: 75
+      GOLDEN: 20
+      CRYSTAL: 5
   3:
-    treasures:
-      SNOW_CROWN: 3.5
-      KATANA: 5.5
-      SCROLL: 7
-      CUP: 7
-      SINK: 7
-      CROWN: 7
-      MEDAL: 12
-      DISH: 12
-      SHIELD: 12
-      COIN: 12
-      BONE: 15
+    chances:
+      SILVER: 70
+      GOLDEN: 20
+      CRYSTAL: 10
   4:
-    treasures:
-      SNOW_CROWN: 4.5
-      KATANA: 6.5
-      SCROLL: 8
-      CUP: 8
-      SINK: 8
-      CROWN: 8
-      MEDAL: 11
-      DISH: 11
-      SHIELD: 11
-      COIN: 11
-      BONE: 13
+    chances:
+      SILVER: 65
+      GOLDEN: 25
+      CRYSTAL: 10
   5:
-    treasures:
-      SNOW_CROWN: 5.5
-      KATANA: 7.5
-      SCROLL: 9
-      CUP: 9
-      SINK: 9
-      CROWN: 9
-      MEDAL: 10
-      DISH: 10
-      SHIELD: 10
-      COIN: 10
-      BONE: 11
+    chances:
+      SILVER: 60
+      GOLDEN: 25
+      CRYSTAL: 15
   6:
-    treasures:
-      SNOW_CROWN: 6.5
-      KATANA: 8.5
-      SCROLL: 10
-      CUP: 10
-      SINK: 10
-      CROWN: 10
-      MEDAL: 9
-      DISH: 9
-      SHIELD: 9
-      COIN: 9
-      BONE: 9
+    chances:
+      SILVER: 55
+      GOLDEN: 25
+      CRYSTAL: 20
   7:
-    treasures:
-      SNOW_CROWN: 7.5
-      KATANA: 9.5
-      SCROLL: 11
-      CUP: 11
-      SINK: 11
-      CROWN: 11
-      MEDAL: 8
-      DISH: 8
-      SHIELD: 8
-      COIN: 8
-      BONE: 7
+    chances:
+      SILVER: 50
+      GOLDEN: 25
+      CRYSTAL: 25
+chests:
+  SILVER:
+    drops:
+      - "BOOK"
+      - "COIN"
+      - "MEDAL"
+      - "RUNE"
+  GOLDEN:
+    drops:
+      - "CROWN"
+      - "ARMOR"
+      - "CUP"
+      - "SCROLL"
+  CRYSTAL:
+    drops:
+      - "HAT_SNOW"
+      - "FISH"
+      - "KATANA"
+      - "SNOW_CROWN"
+
 treasures:
   SNOW_CROWN:
     price: 1500
@@ -111,8 +75,30 @@ treasures:
       - "§7Дорогое и древнее сокровище!"
       - "§7Продай сокровище у §6Пирата"
       - ""
-      - "§6Редкий предмет"
-    nbt: "weapons:claymore"
+      - "§dЭпический предмет"
+    nbt: "sim_sword:sw15"
+  FISH:
+    price: 1200
+    type: "CLAY_BALL"
+    title: "§eАквариум с Рыбкой"
+    lore:
+      - ""
+      - "§7Дорогое и древнее сокровище!"
+      - "§7Продай сокровище у §6Пирата"
+      - ""
+      - "§dЭпический предмет"
+    nbt: "other:pets1"
+  HAT_SNOW:
+    price: 1150
+    type: "CLAY_BALL"
+    title: "§eШапка Деда Мороза"
+    lore:
+      - ""
+      - "§7Дорогое и древнее сокровище!"
+      - "§7Продай сокровище у §6Пирата"
+      - ""
+      - "§dЭпический предмет"
+    nbt: "other:new_year"
   SCROLL:
     price: 900
     type: "CLAY_BALL"
@@ -135,17 +121,17 @@ treasures:
       - ""
       - "§6Редкий предмет"
     nbt: "other:collection"
-  SINK:
+  ARMOR:
     price: 850
     type: "CLAY_BALL"
-    title: "§7Раковина Наутилуса"
+    title: "§7Щит Рыцаря"
     lore:
       - ""
       - "§7Дорогое и древнее сокровище!"
       - "§7Продай сокровище у §6Пирата"
       - ""
       - "§6Редкий предмет"
-    nbt: "museum:sink"
+    nbt: "other:guild"
   CROWN:
     price: 750
     type: "STICK"
@@ -156,9 +142,20 @@ treasures:
       - "§7Продай сокровище у §6Пирата"
       - ""
       - "§6Редкий предмет"
-    nbt: "skotoboinya:crown"
+    nbt: "other:new_booster_2"
+  RUNE:
+    price: 500
+    type: "CLAY_BALL"
+    title: "§eОбычная руна"
+    lore:
+      - ""
+      - "§7Дорогое и древнее сокровище!"
+      - "§7Продай сокровище у §6Пирата"
+      - ""
+      - "§aОбычный предмет"
+    nbt: "other:quest_games"
   MEDAL:
-    price: 650
+    price: 350
     type: "CLAY_BALL"
     title: "§eЗолотая медаль"
     lore:
@@ -166,30 +163,8 @@ treasures:
       - "§7Дорогое и древнее сокровище!"
       - "§7Продай сокровище у §6Пирата"
       - ""
-      - "§6Редкий предмет"
+      - "§aОбычный предмет"
     nbt: "other:achievements"
-  DISH:
-    price: 500
-    type: "BOWL"
-    title: "§7Древняя миска"
-    lore:
-      - ""
-      - "§7Дорогое и древнее сокровище!"
-      - "§7Продай сокровище у §6Пирата"
-      - ""
-      - "§6Редкий предмет"
-    nbt: "skotoboinya:bowl"
-  SHIELD:
-    price: 455
-    type: "CLAY_BALL"
-    title: "§eЩиток древней черепахи"
-    lore:
-      - ""
-      - "§7Дорогое и древнее сокровище!"
-      - "§7Продай сокровище у §6Пирата"
-      - ""
-      - "§6Редкий предмет"
-    nbt: "anarcy:scute"
   COIN:
     price: 300
     type: "CLAY_BALL"
@@ -199,16 +174,16 @@ treasures:
       - "§7Дорогое и древнее сокровище!"
       - "§7Продай сокровище у §6Пирата"
       - ""
-      - "§6Редкий предмет"
+      - "§aОбычный предмет"
     nbt: "other:coin"
-  BONE:
+  BOOK:
     price: 250
-    type: "EMERALD"
-    title: "§7Кость"
+    type: "CLAY_BALL"
+    title: "§7Обычная книга"
     lore:
       - ""
       - "§7Дорогое и древнее сокровище!"
       - "§7Продай сокровище у §6Пирата"
       - ""
-      - "§6Редкий предмет"
-    nbt: "skotoboinya:loot0"
+      - "§aОбычный предмет"
+    nbt: "other:quest_day"
