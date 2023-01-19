@@ -747,6 +747,86 @@ rebirth: # upgrade to
       hits: -125
       exp: 1.25
   91:
+    price: 100000000000000000000000000
+    level: 9
+    boosters:
+      kills: 2.0
+      money: 2.0
+      hits: 2.0
+      exp: 2.0
+  92:
+    price: 200000000000000000000000000
+    level: 9
+    boosters:
+      kills: 2.25
+      money: 2.25
+      hits: 2.25
+      exp: 2.25
+  93:
+    price: 300000000000000000000000000
+    level: 9
+    boosters:
+      kills: 2.5
+      money: 2.5
+      hits: 2.5
+      exp: 2.5
+  94:
+    price: 400000000000000000000000000
+    level: 9
+    boosters:
+      kills: 2.75
+      money: 2.75
+      hits: 2.75
+      exp: 2.75
+  95:
+    price: 500000000000000000000000000
+    level: 9
+    boosters:
+      kills: 3.0
+      money: 3.0
+      hits: 3.0
+      exp: 3.0
+  96:
+    price: 600000000000000000000000000
+    level: 9
+    boosters:
+      kills: 3.25
+      money: 3.25
+      hits: 3.25
+      exp: 3.25
+  97:
+    price: 700000000000000000000000000
+    level: 9
+    boosters:
+      kills: 3.5
+      money: 3.5
+      hits: 3.5
+      exp: 3.5
+  98:
+    price: 800000000000000000000000000
+    level: 9
+    boosters:
+      kills: 3.75
+      money: 3.75
+      hits: 3.75
+      exp: 3.75
+  99:
+    price: 900000000000000000000000000
+    level: 9
+    boosters:
+      kills: 4.0
+      money: 4.0
+      hits: 4.0
+      exp: 4.0
+  100:
+    price: 1000000000000000000000000000
+    level: 9
+    boosters:
+      kills: 10.0
+      money: 10.0
+      hits: 10.0
+      exp: 10.0
+  101:
     price: -1
     level: -1
     boosters:
@@ -756,25 +836,12 @@ rebirth: # upgrade to
       exp: -1
 
 
-crystalAddNbt: "rebirth_add_crystals"
-crystalNbt: "rebirth_crystals"
-crystalhover: "§dУровень после ребитха:§f %crystals% уровень"
 crystalNotSupported:
 - "et %player% Вы не можете наложить§d Кристалл Сохранения§f на этот предмет!"
 crystalOk:
 - "st %player% Вы успешно наложили§d Кристалл Сохранения§f на предмет!"
 crystalMaxLevel:
 - "et %player% Ваш предмет имеет максимальное количество§d Кристаллов Сохранения§f в себе!"
-spawnX: 0.0
-spawnY: 70.0
-spawnZ: 0.0
-spawnYaw: 0.0
-spawnPitch: 0.0
-spawnWorld: "world"
-placeholderReplace: "%rebirth%"
-placeholderZeroLevel: "§cНет"
-chatReplace: "%rebirth%"
-chat: "%rebirth%"
 chatMapping:
   0: "§cНет"
   1: "¨00ff00I"
@@ -867,6 +934,16 @@ chatMapping:
   88: "¨cf151aLXXXVIII"
   89: "¨cf151aLXXXIX"
   90: "¨8b0000§lXC"
+  91: "¨8b0000§lXCI"
+  92: "¨8b0000§lXCII"
+  93: "¨8b0000§lXCIII"
+  94: "¨8b0000§lXCIV"
+  95: "¨8b0000§lXCV"
+  96: "¨8b0000§lXCVI"
+  97: "¨8b0000§lXCVII"
+  98: "¨8b0000§lXCVIII"
+  99: "¨8b0000§lXCIX"
+  100: "§b§lC"
 
 rebirthUsedAllCrystals: "§fИспользовано максимум§d Кристаллов Сохранения"
 rebirthAllowedCrystals: "§c✖ §fУ Вас не использовано §d%allowed%§d Кристаллов Сохранения"
@@ -875,27 +952,3 @@ crystalAlreadyUsed:
 usedCrystalNbt: "used_crystal"
 maxCrystalUsed:
 - "et %player% Вы не можете накладывать больше§d Кристаллов Сохранения§f в этой жизни!"
-usedCrystalsStat: "used_crystals"
-crystalsByRebirth:
-  0: 5
-  1: 5
-  2: 5
-  3: 5
-  4: 5
-  5: 4
-  6: 4
-  7: 4
-  8: 4
-  9: 4
-  10: 3
-  11: 3
-  12: 3
-  13: 3
-  14: 3 
-  15: 2
-  16: 2
-  17: 2
-  18: 2
-  20: 2     
-crystalsByRebirthDefault: 5
-upgradehover: "%rebirth_crystals%"
