@@ -1,0 +1,86 @@
+{
+  "maxSaveCrystals": 26,
+  "items": {
+    "CLEVER": {
+      "type": "DOUBLE_PLANT",
+      "name": "treasures.items.clever.name",
+      "lore": "treasures.items.clever.lore",
+      "unbreakable": true,
+      "enchantments": {
+        "DAMAGE_ALL": 1
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ],
+      "data": {
+        "additional-chance-nbt": 1.15,
+        "no-clear": 1
+      }
+    },
+    "MAP": {
+      "type": "PAPER",
+      "name": "treasures.items.map.name",
+      "lore": "treasures.items.map.lore",
+      "unbreakable": true,
+      "enchantments": {
+        "DAMAGE_ALL": 1
+      },
+      "data": {
+        "additional-chance-nbt": 1.1,
+        "no-clear": 1
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "SAVE_CRYSTAL": {
+      "type": "CHORUS_FRUIT_POPPED",
+      "name": "treasures.items.save-crystal.name",
+      "lore": "treasures.items.save-crystal.lore",
+      "unbreakable": true,
+      "data": {
+        "crystal": 1,
+        "no-clear": 1
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "MENU": {
+      "type": "CLAY_BALL",
+      "name": "treasures.items.menu.name",
+      "unbreakable": true,
+      "data": {
+        "other": "info"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    }
+  },
+  "message": {
+    "maxUsedCrystalsPerRebirth": "treasures.items.message.error.max-user-crystals-per-rebirth",
+    "maxUsedCrystals": "treasures.items.message.error.max-user-crystals"
+  },
+  "nbt": {
+    "crystals": "crystals",
+    "crystalsPerRebirth": "crystals-per-rebirth",
+    "noClear": "no-clear",
+    "saveCrystal": "crystal",
+    "boosterChance": "chance",
+    "additionalBoosterChance": "additional-chance-nbt",
+    "level": "level",
+    "pipeline": "pipeline",
+    "toolType": "tool-type",
+    "dnkBooster": "dnk-booster",
+    "strength": "strength"
+  }
+}

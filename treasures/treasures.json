@@ -1,0 +1,278 @@
+{
+  "locations": {
+    "1": {
+      "chances": {
+        "SILVER": 80,
+        "GOLDEN": 15,
+        "CRYSTAL": 5
+      }
+    },
+    "2": {
+      "chances": {
+        "SILVER": 75,
+        "GOLDEN": 20,
+        "CRYSTAL": 5
+      }
+    },
+    "3": {
+      "chances": {
+        "SILVER": 70,
+        "GOLDEN": 20,
+        "CRYSTAL": 10
+      }
+    },
+    "4": {
+      "chances": {
+        "SILVER": 65,
+        "GOLDEN": 25,
+        "CRYSTAL": 10
+      }
+    },
+    "5": {
+      "chances": {
+        "SILVER": 60,
+        "GOLDEN": 25,
+        "CRYSTAL": 15
+      }
+    },
+    "6": {
+      "chances": {
+        "SILVER": 55,
+        "GOLDEN": 25,
+        "CRYSTAL": 20
+      }
+    },
+    "7": {
+      "chances": {
+        "SILVER": 50,
+        "GOLDEN": 25,
+        "CRYSTAL": 25
+      }
+    }
+  },
+  "sounds": {
+    "SILVER": "ENTITY_PLAYER_LEVELUP",
+    "GOLDEN": "ENTITY_PLAYER_LEVELUP",
+    "CRYSTAL": "UI_TOAST_CHALLENGE_COMPLETE"
+  },
+  "chests": {
+    "SILVER": {
+      "drops": [
+        "BOOK",
+        "COIN",
+        "MEDAL",
+        "RUNE"
+      ]
+    },
+    "GOLDEN": {
+      "drops": [
+        "CROWN",
+        "ARMOR",
+        "CUP",
+        "SCROLL"
+      ]
+    },
+    "CRYSTAL": {
+      "drops": [
+        "HAT_SNOW",
+        "FISH",
+        "KATANA",
+        "SNOW_CROWN"
+      ]
+    }
+  },
+  "treasures": {
+    "SNOW_CROWN": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.snow-crown.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.epic.name",
+      "data": {
+        "price": 1500,
+        "other": "new_booster_2",
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "KATANA": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.katana.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.epic.name",
+      "data": {
+        "sim_sword": "sw15",
+        "price": 1255,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "FISH": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.fish.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.epic.name",
+      "data": {
+        "other": "pets1",
+        "price": 1200,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "HAT_SNOW": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.hat_snow.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.epic.name",
+      "data": {
+        "other": "new_year",
+        "price": 1150,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "SCROLL": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.scroll.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.rare.name",
+      "data": {
+        "other": "quests",
+        "price": 900,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "CUP": {
+      "type": "CLAY_BALL",
+      "name": "§eКубок",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.rare.name",
+      "data": {
+        "other": "collection",
+        "price": 900,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "ARMOR": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.armor.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.rare.name",
+      "data": {
+        "other": "guild",
+        "price": 850,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "CROWN": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.crown.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.rare.name",
+      "data": {
+        "other": "win",
+        "price": 750,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "RUNE": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.rune.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.common.name",
+      "data": {
+        "other": "quest_games",
+        "price": 500,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "MEDAL": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.medal.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.common.name",
+      "data": {
+        "other": "achievements",
+        "price": 350,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "COIN": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.coin.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.common.name",
+      "data": {
+        "other": "coin",
+        "price": 300,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "BOOK": {
+      "type": "CLAY_BALL",
+      "name": "treasures.treasures.book.name",
+      "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.common.name",
+      "data": {
+        "other": "quest_day",
+        "price": 250,
+        "treasure": 1
+      },
+      "unbreakable": true,
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    }
+  }
+}

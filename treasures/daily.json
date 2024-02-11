@@ -1,0 +1,108 @@
+{
+  "message": {
+    "takeReward": "treasures.daily.message.take-reward"
+  },
+  "animateTitle": {
+    "title": "treasures.daily.animate-title.title",
+    "subtitle": "treasures.daily.animate-title.subtitle"
+  },
+  "rewards": {
+    "1": {
+      "hover": "treasures.daily.reward.1.hover",
+      "texture": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "donate"
+        }
+      },
+      "onSuccess": [
+        "earn-money %player% 25 false",
+        "take-daily %player% 1"
+      ]
+    },
+    "2": {
+      "hover": "treasures.daily.reward.2.hover",
+      "texture": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "gem_amethyst"
+        }
+      },
+      "onSuccess": [
+        "earn-bits %player% 25",
+        "take-daily %player% 2"
+      ]
+    },
+    "3": {
+      "hover": "treasures.daily.reward.3.hover",
+      "texture": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "key"
+        }
+      },
+      "onSuccess": [
+        "give-key %player% DEFAULT 1",
+        "take-daily %player% 3"
+      ]
+    },
+    "4": {
+      "hover": "treasures.daily.reward.4.hover",
+      "texture": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "gem_amethyst"
+        }
+      },
+      "onSuccess": [
+        "earn-bits %player% 50",
+        "take-daily %player% 4"
+      ]
+    },
+    "5": {
+      "hover": "treasures.daily.reward.5.hover",
+      "texture": {
+        "type": "CLAY_BALL",
+        "enchantments": {
+          "DAMAGE_ALL": 1
+        },
+        "data": {
+          "other": "key"
+        }
+      },
+      "onSuccess": [
+        "give-key %player% PET 1",
+        "take-daily %player% 5"
+      ]
+    },
+    "6": {
+      "hover": "treasures.daily.reward.6.hover",
+      "texture": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "gem_amethyst"
+        }
+      },
+      "onSuccess": [
+        "earn-bits %player% 75",
+        "take-daily %player% 6"
+      ]
+    },
+    "7": {
+      "hover": "treasures.daily.reward.7.hover",
+      "texture": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "achievements_many_rare"
+        }
+      },
+      "onSuccess": [
+        "local-booster %player% blocks 2 3600",
+        "local-booster %player% explosions 2 3600",
+        "local-booster %player% exp 2 3600",
+        "local-booster %player% money 2 3600",
+        "take-daily %player% 7"
+      ]
+    }
+  }
+}

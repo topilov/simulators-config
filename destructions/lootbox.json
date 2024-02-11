@@ -1,0 +1,1485 @@
+{
+  "lootboxes": [
+    {
+      "id": "default",
+      "title": "destruction.lootbox.default.title",
+      "keyTitle": "destruction.lootbox.default.key-title",
+      "giveMessage": "i18n.destruction.lootbox.default.give-message|!|§8[§ai§8]§f|!|destruction.lootbox.default.key-title",
+      "alertMessage": "destruction.lootbox.default.message.alert",
+      "useMessage": "i18n.destruction.lootbox.message.use|!|§8[§ci§8]§f|!|destruction.lootbox.default.key-title",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "destruction.lootbox.default.key-title",
+        "lore": "destruction.lootbox.default.key-description",
+        "enchantments": {
+          "DAMAGE_ALL": 1
+        },
+        "data": {
+          "other": "key",
+          "no-clear": 1
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      },
+      "type": "GOLDEN",
+      "location": {
+        "name": "lootbox",
+        "tag": "default",
+        "yaw": 0
+      },
+      "alertRarities": [
+        "LEGENDARY"
+      ],
+      "rewards": [
+        {
+          "chance": 60,
+          "title": "i18n.destruction.lootbox.reward.percent-money.title|!|5%",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "donate"
+            }
+          },
+          "onDrop": [
+            "random-money %player% 5 5.01"
+          ]
+        },
+        {
+          "chance": 35,
+          "title": "i18n.destruction.lootbox.reward.percent-money.title|!|10%",
+          "rare": "RARE",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "donate"
+            }
+          },
+          "onDrop": [
+            "random-money %player% 10 10.01"
+          ]
+        },
+        {
+          "chance": 5,
+          "title": "destruction.items.save-crystal.name",
+          "rare": "MYTHIC",
+          "item": {
+            "type": "CHORUS_FRUIT_POPPED"
+          },
+          "onDrop": [
+            "give-item %player% SAVE_CRYSTAL 1"
+          ]
+        },
+        {
+          "chance": 0.5,
+          "title": "destruction.tool.dynamite.luck.title",
+          "rare": "LEGENDARY",
+          "item": {
+            "type": "TNT"
+          },
+          "onDrop": [
+            "give-tool %player% DYNAMITE LUCKY_DYNAMITE"
+          ]
+        },
+        {
+          "chance": 0.5,
+          "title": "destruction.tool.fire_charge.luck.title",
+          "rare": "LEGENDARY",
+          "item": {
+            "type": "FIREBALL"
+          },
+          "onDrop": [
+            "give-tool %player% FIRE_CHARGE LUCKY_FIRE_CHARGE"
+          ]
+        }
+      ],
+      "menuInfo": {
+        "title": "destruction.lootbox.default.menu.title",
+        "rows": 4,
+        "buttons": [
+          {
+            "title": "i18n.destruction.lootbox.reward.percent-money.subtitle|!|5%",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          {
+            "title": "i18n.destruction.lootbox.reward.percent-money.subtitle|!|10%",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          {
+            "title": "destruction.items.save-crysta.name.multiline",
+            "hover": "destruction.items.save-crystal.lore",
+            "item": {
+              "type": "CHORUS_FRUIT_POPPED"
+            }
+          },
+          {
+            "title": "destruction.tool.fire_charge.luck.title.multiline",
+            "hover": "i18n.destruction.tool.fire_charge.luck.description|!|1|!|2|!|1",
+            "item": {
+              "type": "FIREBALL"
+            }
+          },
+          {
+            "title": "destruction.tool.dynamite.luck.title.multiline",
+            "hover": "i18n.destruction.tool.dynamite.luck.description|!|1|!|2|!|1",
+            "item": {
+              "type": "TNT"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "pets",
+      "title": "destruction.lootbox.pets.title",
+      "keyTitle": "destruction.lootbox.pets.key-title",
+      "giveMessage": "i18n.destruction.lootbox.default.give-message|!|§8[§ai§8]§f|!|destruction.lootbox.pets.key-title",
+      "alertMessage": "destruction.lootbox.pets.message.alert",
+      "useMessage": "i18n.destruction.lootbox.message.use|!|§8[§ci§8]§f|!|destruction.lootbox.pets.key-title",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "destruction.lootbox.pets.key-title",
+        "lore": "destruction.lootbox.pets.key-description",
+        "enchantments": {
+          "DAMAGE_ALL": 1
+        },
+        "data": {
+          "other": "key",
+          "no-clear": 1
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      },
+      "type": "CRYSTAL",
+      "location": {
+        "name": "lootbox",
+        "tag": "pets",
+        "yaw": 180
+      },
+      "alertRarities": [
+        "LEGENDARY"
+      ],
+      "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "rewards": [
+        {
+          "chance": 12,
+          "title": "destruction.pet.chest.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyMDE1YTcwNWU0ZTVhMDRiMGU5OTQ3MzgxMTdkMDYyMzkxYjBlOWI1MDU5NmQ2NjE1YTlhMTlkY2Y1N2YyNiJ9fX0"
+          },
+          "onDrop": [
+            "give-pet %player% CHEST 1 100000"
+          ]
+        },
+        {
+          "chance": 12,
+          "rare": "COMMON",
+          "title": "destruction.pet.elephant.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3MWE3NmY2NjlkYjVlZDZkMzJiNDhiYjJkYmE1NWQ1MzE3ZDdmNDUyMjVjYjMyNjdlYzQzNWNmYTUxNCJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% ELEPHANT 1 100000"
+          ]
+        },
+        {
+          "chance": 12,
+          "rare": "COMMON",
+          "title": "destruction.pet.chick.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWYyNjg4M2RjMjhhNDljYjU4MmI2MGM2ZGNjZGNhMTczZDQ1ZjdiMWE3Yjg2OTBjYThjZTQzY2RlMGUxMzU4OSJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% CHICK 1 100000"
+          ]
+        },
+        {
+          "chance": 12,
+          "rare": "COMMON",
+          "title": "destruction.pet.pirate-parrot.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWEyMGNjM2Y4Y2M0ZmM1MTQyOWM4Mjg4ZTZjMWNmZjY1YzU1ODg0YzU1NjE0OTVmYzFkNmFhYWVlM2M2ZGQyZiJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% PIRATE_PARROT 1 100000"
+          ]
+        },
+        {
+          "chance": 12,
+          "rare": "COMMON",
+          "title": "destruction.pet.hedgehog.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJkYWE2YmZiZWYyMDQ0MTk3NmIxZTUxNzk2MmUyNzQ0NGRiYjBhZmVmN2VlYjkwMWQzZWNmNjhjMWViNDllNiJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% HEDGEHOG 1 100000"
+          ]
+        },
+        {
+          "chance": 12,
+          "rare": "COMMON",
+          "title": "destruction.pet.fox.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=="
+          },
+          "onDrop": [
+            "give-pet %player% FOX 1 100000"
+          ]
+        },
+        {
+          "chance": 5,
+          "rare": "RARE",
+          "title": "destruction.pet.treasure.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVhNWU4MDQxMzQ1YmEyNGJmYzg5NTQ2ZjRjODJiZThjZjlmOWJhNWE4ZTU1MzY1NDUzNDNhZTU5YjkzN2U5MiJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% TREASURE 1 500000"
+          ]
+        },
+        {
+          "chance": 5,
+          "rare": "RARE",
+          "title": "destruction.pet.pirate.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzZGMyY2UyOTA5ZjM1MjViMmQwNGQxMTEzYmUxMjQ5MzlmYTJiN2I5ZmIxYzY4NzZhMTk3ZDE2ODJhIn19fQ=="
+          },
+          "onDrop": [
+            "give-pet %player% PIRATE 1 500000"
+          ]
+        },
+        {
+          "chance": 5,
+          "rare": "RARE",
+          "title": "destruction.pet.fish.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMTQ5ZTRkNDk5OTI5NjcyZTI3Njg5NDllNjQ3Nzk1OWMyMWU2NTI1NDYxM2IzMjdiNTM4ZGYxZTRkZiJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% FISH 1 500000"
+          ]
+        },
+        {
+          "chance": 5,
+          "rare": "RARE",
+          "title": "destruction.pet.captain.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlY2I4NGJkYjkzNDZmMTI1YTM1MTJlNDE1MDA0YWM3MjQyZGVjNDNkNmY3NGUxZTg1MzkzZWQxZTFiIn19fQ=="
+          },
+          "onDrop": [
+            "give-pet %player% CAPTAIN 1 500000"
+          ]
+        },
+        {
+          "chance": 5,
+          "rare": "RARE",
+          "title": "destruction.pet.pug.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk1MTgzY2E0Y2RkMjk2MjhmZTZjNzIyZjc3OTA4N2I4M2MyMWJhOTdmNDIyNWU0YWQ5YjNlNjE4ZWNjZDMwIn19fQ=="
+          },
+          "onDrop": [
+            "give-pet %player% PUG 1 500000"
+          ]
+        },
+        {
+          "chance": 0.75,
+          "rare": "MYTHIC",
+          "title": "destruction.pet.ninja.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0"
+          },
+          "onDrop": [
+            "give-pet %player% NINJA 1 1000000"
+          ]
+        },
+        {
+          "chance": 0.75,
+          "rare": "MYTHIC",
+          "title": "destruction.pet.cookie.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmEzOWJiMjIxZWRmMTM3NjdhODBkNTU2MTJlOGI0NTk3ZjI2Y2NhYjdjOWQ0NWM4MDQwMGQ2Yjg1MDgzYTZkZSJ9fX0"
+          },
+          "onDrop": [
+            "give-pet %player% COOKIE 1 1000000"
+          ]
+        },
+        {
+          "chance": 1.25,
+          "rare": "MYTHIC",
+          "title": "destruction.pet.mushroom.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ5MDk4Nzk2MmYzYThiZjk0YTE5N2QyYjk1MGNkZjFkZDc4ZDhiOTcyNTc3YmNhY2Q0ZDU4MzhmNzBhNDcyOSJ9fX0"
+          },
+          "onDrop": [
+            "give-pet %player% MUSHROOM 1 1000000"
+          ]
+        },
+        {
+          "chance": 0.75,
+          "rare": "MYTHIC",
+          "title": "destruction.pet.rune.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZmMzNiMjk3YTk4MWI1MjdiZWMzOTMxNjg0MDFkOGEyZWNhZGViOWYxNjAzYmE1ZTI3NmY0MmQ2NDQ3NTExNiJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% RUNE 1 1000000"
+          ]
+        },
+        {
+          "chance": 0.1,
+          "rare": "LEGENDARY",
+          "title": "destruction.pet.bee.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% BEE 1 5000000"
+          ]
+        },
+        {
+          "chance": 0.1,
+          "rare": "LEGENDARY",
+          "title": "destruction.pet.fugue.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% FUGUE 1 5000000"
+          ]
+        },
+        {
+          "chance": 0.1,
+          "rare": "LEGENDARY",
+          "title": "destruction.pet.earth.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIwZjNhM2Q2ZjBjZTI0Mjc2MzdmZTYwZGE5ZDZkMGZlYjJkOGRmMGJjZmIyNzI5MWJiNzhjNjAwNjBlZmUzZSJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% EARTH 1 5000000"
+          ]
+        },
+        {
+          "chance": 0.1,
+          "rare": "LEGENDARY",
+          "title": "destruction.pet.owl.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDNlYzVhOWYxODkxYTU1ZjI5MWQwMjdhM2MxMzMzYjUyMjk1MWUxMTNjNWViZjM1NTcwMDM3NmU3NDYzM2MzNyJ9fX0="
+          },
+          "onDrop": [
+            "give-pet %player% OWL 1 5000000"
+          ]
+        },
+        {
+          "chance": 0.1,
+          "rare": "LEGENDARY",
+          "title": "destruction.pet.treasures.name",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNzk5NTRkMzUwYTk4YzcyMTcyNTY4MzFmNjVjNjJhNDI4MDc0YjZlNGFlOWVlZGU3YTQ0ZjlkZTRhNyJ9fX0"
+          },
+          "onDrop": [
+            "give-pet %player% CHEST_TREASURES 1 5000000"
+          ]
+        }
+      ],
+      "menuInfo": {
+        "title": "destruction.lootbox.pets.menu.title",
+        "rows": 5,
+        "buttons": [
+          {
+            "title": "destruction.pet.chest.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyMDE1YTcwNWU0ZTVhMDRiMGU5OTQ3MzgxMTdkMDYyMzkxYjBlOWI1MDU5NmQ2NjE1YTlhMTlkY2Y1N2YyNiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.pet.elephant.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.money",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3MWE3NmY2NjlkYjVlZDZkMzJiNDhiYjJkYmE1NWQ1MzE3ZDdmNDUyMjVjYjMyNjdlYzQzNWNmYTUxNCJ9fX0="
+            }
+          },
+          {
+            "title": "destruction.pet.chick.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.exp",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWYyNjg4M2RjMjhhNDljYjU4MmI2MGM2ZGNjZGNhMTczZDQ1ZjdiMWE3Yjg2OTBjYThjZTQzY2RlMGUxMzU4OSJ9fX0="
+            }
+          },
+          {
+            "title": "destruction.pet.pirate-parrot.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.exp",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWEyMGNjM2Y4Y2M0ZmM1MTQyOWM4Mjg4ZTZjMWNmZjY1YzU1ODg0YzU1NjE0OTVmYzFkNmFhYWVlM2M2ZGQyZiJ9fX0="
+            }
+          },
+          {
+            "title": "destruction.pet.hedgehog.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.blocks",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJkYWE2YmZiZWYyMDQ0MTk3NmIxZTUxNzk2MmUyNzQ0NGRiYjBhZmVmN2VlYjkwMWQzZWNmNjhjMWViNDllNiJ9fX0="
+            }
+          },
+          {
+            "title": "destruction.pet.fox.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.blocks",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=="
+            }
+          },
+          {
+            "title": "destruction.pet.treasure.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.money-exp",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVhNWU4MDQxMzQ1YmEyNGJmYzg5NTQ2ZjRjODJiZThjZjlmOWJhNWE4ZTU1MzY1NDUzNDNhZTU5YjkzN2U5MiJ9fX0="
+            }
+          },
+          {
+            "title": "destruction.pet.pirate.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.money-exp",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzZGMyY2UyOTA5ZjM1MjViMmQwNGQxMTEzYmUxMjQ5MzlmYTJiN2I5ZmIxYzY4NzZhMTk3ZDE2ODJhIn19fQ=="
+            }
+          },
+          {
+            "title": "destruction.pet.fish.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.blocks-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMTQ5ZTRkNDk5OTI5NjcyZTI3Njg5NDllNjQ3Nzk1OWMyMWU2NTI1NDYxM2IzMjdiNTM4ZGYxZTRkZiJ9fX0="
+            }
+          },
+          {
+            "title": "destruction.pet.captain.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.money-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlY2I4NGJkYjkzNDZmMTI1YTM1MTJlNDE1MDA0YWM3MjQyZGVjNDNkNmY3NGUxZTg1MzkzZWQxZTFiIn19fQ=="
+            }
+          },
+          {
+            "title": "destruction.pet.pug.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.exp-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk1MTgzY2E0Y2RkMjk2MjhmZTZjNzIyZjc3OTA4N2I4M2MyMWJhOTdmNDIyNWU0YWQ5YjNlNjE4ZWNjZDMwIn19fQ=="
+            }
+          },
+          {
+            "title": "destruction.pet.ninja.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.mythic|!|destruction.pet.booster.money-exp-blocks",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.pet.cookie.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.mythic|!|destruction.pet.booster.money-exp-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmEzOWJiMjIxZWRmMTM3NjdhODBkNTU2MTJlOGI0NTk3ZjI2Y2NhYjdjOWQ0NWM4MDQwMGQ2Yjg1MDgzYTZkZSJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.pet.mushroom.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.mythic|!|destruction.pet.booster.money-blocks-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ5MDk4Nzk2MmYzYThiZjk0YTE5N2QyYjk1MGNkZjFkZDc4ZDhiOTcyNTc3YmNhY2Q0ZDU4MzhmNzBhNDcyOSJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.pet.rune.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.mythic|!|destruction.pet.booster.blocks-exp-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZmMzNiMjk3YTk4MWI1MjdiZWMzOTMxNjg0MDFkOGEyZWNhZGViOWYxNjAzYmE1ZTI3NmY0MmQ2NDQ3NTExNiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.pet.bee.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.pet.fugue.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.pet.earth.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIwZjNhM2Q2ZjBjZTI0Mjc2MzdmZTYwZGE5ZDZkMGZlYjJkOGRmMGJjZmIyNzI5MWJiNzhjNjAwNjBlZmUzZSJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.pet.owl.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDNlYzVhOWYxODkxYTU1ZjI5MWQwMjdhM2MxMzMzYjUyMjk1MWUxMTNjNWViZjM1NTcwMDM3NmU3NDYzM2MzNyJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.pet.treasures.name",
+            "hover": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNzk5NTRkMzUwYTk4YzcyMTcyNTY4MzFmNjVjNjJhNDI4MDc0YjZlNGFlOWVlZGU3YTQ0ZjlkZTRhNyJ9fX0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "rune",
+      "title": "destruction.lootbox.runes.title",
+      "keyTitle": "destruction.lootbox.runes.key-title",
+      "giveMessage": "i18n.destruction.lootbox.default.give-message|!|§8[§ai§8]§f|!|destruction.lootbox.runes.key-title",
+      "alertMessage": "destruction.lootbox.runes.message.alert",
+      "useMessage": "i18n.destruction.lootbox.message.use|!|§8[§ci§8]§f|!|destruction.lootbox.runes.key-title",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "destruction.lootbox.runes.key-title",
+        "lore": "destruction.lootbox.runes.key-description",
+        "enchantments": {
+          "DAMAGE_ALL": 1
+        },
+        "data": {
+          "other": "key",
+          "no-clear": 1
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      },
+      "type": "SILVER",
+      "location": {
+        "name": "lootbox",
+        "tag": "runes",
+        "yaw": 180
+      },
+      "alertRarities": [
+        "LEGENDARY"
+      ],
+      "rewards": [
+        {
+          "chance": 26.5,
+          "title": "destruction.runes.seller.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+          },
+          "onDrop": [
+            "give-rune %player% SELLER 100000"
+          ]
+        },
+        {
+          "chance": 26.5,
+          "title": "destruction.runes.miner.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+          },
+          "onDrop": [
+            "give-rune %player% MINER 100000"
+          ]
+        },
+        {
+          "chance": 15.5,
+          "title": "destruction.runes.digger.name",
+          "rare": "RARE",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+          },
+          "onDrop": [
+            "give-rune %player% DIGGER 500000"
+          ]
+        },
+        {
+          "chance": 15,
+          "title": "destruction.runes.bits.name",
+          "rare": "RARE",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+          },
+          "onDrop": [
+            "give-rune %player% BITS 500000"
+          ]
+        },
+        {
+          "chance": 5,
+          "title": "destruction.runes.blacksmith.name",
+          "rare": "MYTHIC",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+          },
+          "onDrop": [
+            "give-rune %player% BLACKSMITH 1000000"
+          ]
+        },
+        {
+          "chance": 5,
+          "title": "destruction.runes.explosion.name",
+          "rare": "MYTHIC",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+          },
+          "onDrop": [
+            "give-rune %player% EXPLOSION 1000000"
+          ]
+        },
+        {
+          "chance": 5,
+          "title": "destruction.runes.lucky.name",
+          "rare": "MYTHIC",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+          },
+          "onDrop": [
+            "give-rune %player% LUCKY 1000000"
+          ]
+        },
+        {
+          "chance": 0.5,
+          "title": "destruction.runes.pet.name",
+          "rare": "LEGENDARY",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+          },
+          "onDrop": [
+            "give-rune %player% PET 5000000"
+          ]
+        },
+        {
+          "chance": 0.5,
+          "title": "destruction.runes.super_player.name",
+          "rare": "LEGENDARY",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+          },
+          "onDrop": [
+            "give-rune %player% SUPER_PLAYER 5000000"
+          ]
+        },
+        {
+          "chance": 0.5,
+          "title": "destruction.runes.upgrade.name",
+          "rare": "LEGENDARY",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+          },
+          "onDrop": [
+            "give-rune %player% UPGRADE 5000000"
+          ]
+        }
+      ],
+      "menuInfo": {
+        "title": "destruction.lootbox.runes.menu.title",
+        "rows": 5,
+        "buttons": [
+          {
+            "title": "destruction.runes.seller.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.common|!|destruction.runes.seller.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.runes.miner.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.common|!|destruction.runes.miner.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.runes.digger.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.rare|!|destruction.runes.digger.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.runes.bits.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.rare|!|destruction.runes.bits.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.runes.blacksmith.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.mythic|!|destruction.runes.blacksmith.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.runes.explosion.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.mythic|!|destruction.runes.explosion.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.runes.lucky.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.mythic|!|destruction.runes.lucky.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+            }
+          },
+          {
+            "title": "destruction.runes.pet.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.legendary|!|destruction.runes.pet.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.runes.super_player.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.legendary|!|destruction.runes.super_player.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            }
+          },
+          {
+            "title": "destruction.runes.upgrade.name",
+            "hover": "i18n.destruction.runes.description|!|destruction.rare.legendary|!|destruction.runes.upgrade.ability.name",
+            "item": {
+              "type": "SKULL_ITEM",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "title",
+      "title": "destruction.lootbox.titles.title",
+      "keyTitle": "destruction.lootbox.titles.key-title",
+      "giveMessage": "i18n.destruction.lootbox.default.give-message|!|§8[§ai§8]§f|!|destruction.lootbox.titles.key-title",
+      "alertMessage": "destruction.lootbox.titles.message.alert",
+      "useMessage": "i18n.destruction.lootbox.message.use|!|§8[§ci§8]§f|!|destruction.lootbox.titles.key-title",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "destruction.lootbox.titles.key-title",
+        "lore": "destruction.lootbox.titles.key-description",
+        "enchantments": {
+          "DAMAGE_ALL": 1
+        },
+        "data": {
+          "other": "key",
+          "no-clear": 1
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      },
+      "type": "GOLDEN",
+      "location": {
+        "name": "lootbox",
+        "tag": "titles",
+        "yaw": 0
+      },
+      "alertRarities": [
+        "LEGENDARY"
+      ],
+      "rewards": [
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.wrecker.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% WRECKER 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.disassembler.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% DISASSEMBLER 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.seismic.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% SEISMIC 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.cataclysm.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% CATACLYSM 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.bombardier.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% BOMBARDIER 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.kamikaze.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% KAMIKAZE 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.earthquake.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% EARTHQUAKE 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.collapse.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% COLLAPSE 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.storm.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% STORM 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.meteorite.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% METEORITE 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.breakage.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% BREAKAGE 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.mess.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% MESS 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.annihilation.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% ANNIHILATION 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.destroyer.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% DESTROYER 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.explosion.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% EXPLOSION 500000"
+          ]
+        },
+        {
+          "chance": 4.3125,
+          "title": "destruction.titles.smasher.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% SMASHER 500000"
+          ]
+        },
+        {
+          "chance": 10,
+          "title": "destruction.titles.ruin.name",
+          "rare": "COMMON",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% RUIN 500000"
+          ]
+        },
+        {
+          "chance": 5,
+          "title": "destruction.titles.siege.name",
+          "rare": "RARE",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% SIEGE 500000"
+          ]
+        },
+        {
+          "chance": 5,
+          "title": "destruction.titles.chaos.name",
+          "rare": "RARE",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% CHAOS 500000"
+          ]
+        },
+        {
+          "chance": 5,
+          "title": "destruction.titles.demolition.name",
+          "rare": "RARE",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% DEMOLITION 500000"
+          ]
+        },
+        {
+          "chance": 2,
+          "title": "destruction.titles.bomber.name",
+          "rare": "MYTHIC",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% BOMBER 500000"
+          ]
+        },
+        {
+          "chance": 2,
+          "title": "destruction.titles.bearer.name",
+          "rare": "MYTHIC",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% BEARER 500000"
+          ]
+        },
+        {
+          "chance": 2,
+          "title": "destruction.titles.vortex.name",
+          "rare": "MYTHIC",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "cup"
+            }
+          },
+          "onDrop": [
+            "give-title %player% VORTEX 500000"
+          ]
+        }
+      ],
+      "menuInfo": {
+        "title": "destruction.lootbox.titles.menu.title",
+        "rows": 5,
+        "buttons": [
+          {
+            "title": "destruction.titles.wrecker.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.disassembler.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.seismic.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.cataclysm.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.bombardier.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.kamikaze.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.earthquake.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.collapse.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.storm.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.meteorite.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.breakage.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.mess.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.annihilation.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.destroyer.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.explosion.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.smasher.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.ruin.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.common|!|destruction.titles.ability.none",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.siege.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.rare|!|destruction.titles.ability.siege",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.chaos.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.rare|!|destruction.titles.ability.chaos",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.demolition.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.rare|!|destruction.titles.ability.demolition",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.bomber.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.mythic|!|destruction.titles.ability.bomber",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.bearer.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.mythic|!|destruction.titles.ability.bearer",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          },
+          {
+            "title": "destruction.titles.vortex.name",
+            "hover": "i18n.destruction.titles.description|!|destruction.rare.mythic|!|destruction.titles.ability.vortex",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "cup"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

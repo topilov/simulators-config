@@ -1,0 +1,33 @@
+{
+    "requiredLevelMessage": "destruction.location.message.required-level",
+    "requiredRebirthMessage": "destruction.location.message.required-rebirth",
+    "locations": {
+        "SPAWN": {
+            "id": 1,
+            "slots": 125,
+            "map": "newmap",
+            "title": "spawn",
+            "description": "",
+            "lockButton": {
+                "title": "spawn",
+                "description": "",
+                "item": {
+                    "type": "CLAY_BALL",
+                    "data": {
+                        "other": "lock",
+                        "color": 16735067
+                    }
+                }
+            },
+            "texture": {
+                "type": "IRON_PICKAXE",
+                "data": {
+                    "color": 16449295
+                }
+            },
+            "requiredLevel": 1,
+            "requiredRebirth": 0,
+            "show": false
+        }
+    }
+}

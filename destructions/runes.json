@@ -1,0 +1,617 @@
+{
+    "buttonLength": 4,
+    "hover": "destruction.rune.hover",
+    "menu": {
+        "title": "destruction.rune.menu.title",
+        "description": "destruction.menu.description",
+        "command": "runes",
+        "rows": 4
+    },
+    "notExistButton": {
+        "title": "destruction.rune.menu.not-exist-button.title",
+        "hover": "destruction.rune.menu.not-exist-button.hover",
+        "item": {
+            "type": "CLAY_BALL",
+            "data": {
+                "other": "lock",
+                "color": 16735067
+            }
+        }
+    },
+    "text": {
+        "title": "destruction.rune.text.title",
+        "level": "destruction.rune.text.level",
+        "activate": "destruction.rune.text.activate",
+        "takeHover": "destruction.rune.text.hover.take",
+        "wearHover": "destruction.rune.text.hover.wear",
+        "take": "destruction.rune.text.take",
+        "wear": "destruction.rune.text.wear",
+        "totalMax": "destruction.rune.text.total-max",
+        "alreadyMax": "destruction.rune.text.already-max",
+        "alreadyExists": "destruction.lootbox.runes.message.already-exists"
+    },
+    "price": {
+        "1": 500000,
+        "2": 1000000,
+        "3": 2500000,
+        "4": 4000000,
+        "5": 5000000,
+        "6": 10000000,
+        "7": 25000000,
+        "8": 1000000000,
+        "9": 100000000000,
+        "10": 1000000000000
+    },
+    "pipeline": {
+        "menuTitle": "destruction.runes.pipeline.menu-title",
+        "menuDescription": "destruction.runes.pipeline.menu-description",
+        "title": "destruction.runes.pipeline.title",
+        "description": "destruction.runes.pipeline.description",
+        "messages": {
+            "moreMoney": "destruction.message.more-money",
+            "success": "destruction.runes.pipeline.message.success"
+        }
+    },
+    "runes": {
+        "SELLER": {
+            "id": "seller",
+            "title": "destruction.runes.seller.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.common|!|destruction.runes.seller.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "rare": "COMMON",
+            "notify": true,
+            "canDrop": false,
+            "upgradeText": "destruction.runes.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 1.5,
+                    "readableStat": "1.5%"
+                },
+                "2": {
+                    "stat": 3.0,
+                    "readableStat": "3%"
+                },
+                "3": {
+                    "stat": 4.5,
+                    "readableStat": "4.5%"
+                },
+                "4": {
+                    "stat": 6.0,
+                    "readableStat": "6%"
+                },
+                "5": {
+                    "stat": 7.5,
+                    "readableStat": "7.5%"
+                },
+                "6": {
+                    "stat": 9.0,
+                    "readableStat": "9%"
+                },
+                "7": {
+                    "stat": 10.5,
+                    "readableStat": "10.5%"
+                },
+                "8": {
+                    "stat": 12.0,
+                    "readableStat": "12%"
+                },
+                "9": {
+                    "stat": 13.5,
+                    "readableStat": "13.5%"
+                },
+                "10": {
+                    "stat": 15.0,
+                    "readableStat": "15%"
+                }
+            }
+        },
+        "MINER": {
+            "id": "miner",
+            "title": "destruction.runes.miner.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.common|!|destruction.runes.miner.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "rare": "COMMON",
+            "notify": false,
+            "canDrop": true,
+            "upgradeText": "destruction.runes.miner.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 1.1,
+                    "readableStat": "+10%"
+                },
+                "2": {
+                    "stat": 1.2,
+                    "readableStat": "+20%"
+                },
+                "3": {
+                    "stat": 1.3,
+                    "readableStat": "+30%"
+                },
+                "4": {
+                    "stat": 1.4,
+                    "readableStat": "+40%"
+                },
+                "5": {
+                    "stat": 1.5,
+                    "readableStat": "+50%"
+                },
+                "6": {
+                    "stat": 1.6,
+                    "readableStat": "+60%"
+                },
+                "7": {
+                    "stat": 1.7,
+                    "readableStat": "+70%"
+                },
+                "8": {
+                    "stat": 1.8,
+                    "readableStat": "+80%"
+                },
+                "9": {
+                    "stat": 1.9,
+                    "readableStat": "+90%"
+                },
+                "10": {
+                    "stat": 2.0,
+                    "readableStat": "+100%"
+                }
+            }
+        },
+        "DIGGER": {
+            "id": "digger",
+            "title": "destruction.runes.digger.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.rare|!|destruction.runes.digger.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "rare": "RARE",
+            "notify": false,
+            "canDrop": true,
+            "upgradeText": "destruction.runes.digger.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 1.25,
+                    "readableStat": "+25%"
+                },
+                "2": {
+                    "stat": 1.5,
+                    "readableStat": "+50%"
+                },
+                "3": {
+                    "stat": 1.75,
+                    "readableStat": "+75%"
+                },
+                "4": {
+                    "stat": 2.0,
+                    "readableStat": "+100%"
+                },
+                "5": {
+                    "stat": 2.25,
+                    "readableStat": "+125%"
+                },
+                "6": {
+                    "stat": 2.5,
+                    "readableStat": "+150%"
+                },
+                "7": {
+                    "stat": 2.75,
+                    "readableStat": "+175%"
+                },
+                "8": {
+                    "stat": 3.0,
+                    "readableStat": "+200%"
+                },
+                "9": {
+                    "stat": 3.25,
+                    "readableStat": "+225%"
+                },
+                "10": {
+                    "stat": 3.5,
+                    "readableStat": "+250%"
+                }
+            }
+        },
+        "BITS": {
+            "id": "bits",
+            "title": "destruction.runes.bits.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.rare|!|destruction.runes.bits.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "rare": "RARE",
+            "notify": true,
+            "canDrop": true,
+            "upgradeText": "destruction.runes.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 2.0,
+                    "readableStat": "2%"
+                },
+                "2": {
+                    "stat": 4.0,
+                    "readableStat": "4%"
+                },
+                "3": {
+                    "stat": 6.0,
+                    "readableStat": "6%"
+                },
+                "4": {
+                    "stat": 8.0,
+                    "readableStat": "8%"
+                },
+                "5": {
+                    "stat": 10.0,
+                    "readableStat": "10%"
+                },
+                "6": {
+                    "stat": 12.0,
+                    "readableStat": "12%"
+                },
+                "7": {
+                    "stat": 14.0,
+                    "readableStat": "14%"
+                },
+                "8": {
+                    "stat": 16.0,
+                    "readableStat": "16%"
+                },
+                "9": {
+                    "stat": 18.0,
+                    "readableStat": "18%"
+                },
+                "10": {
+                    "stat": 20.0,
+                    "readableStat": "20%"
+                }
+            }
+        },
+        "BLACKSMITH": {
+            "id": "blacksmith",
+            "title": "destruction.runes.blacksmith.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.mythic|!|destruction.runes.blacksmith.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "rare": "MYTHIC",
+            "notify": false,
+            "canDrop": true,
+            "upgradeText": "destruction.runes.blacksmith.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 1.5,
+                    "readableStat": "1.5%"
+                },
+                "2": {
+                    "stat": 3.0,
+                    "readableStat": "3%"
+                },
+                "3": {
+                    "stat": 4.5,
+                    "readableStat": "4.5%"
+                },
+                "4": {
+                    "stat": 6.0,
+                    "readableStat": "6%"
+                },
+                "5": {
+                    "stat": 7.5,
+                    "readableStat": "7.5%"
+                },
+                "6": {
+                    "stat": 9.0,
+                    "readableStat": "9%"
+                },
+                "7": {
+                    "stat": 10.5,
+                    "readableStat": "10.5%"
+                },
+                "8": {
+                    "stat": 12.0,
+                    "readableStat": "12%"
+                },
+                "9": {
+                    "stat": 13.5,
+                    "readableStat": "13.5%"
+                },
+                "10": {
+                    "stat": 15.0,
+                    "readableStat": "15%"
+                }
+            }
+        },
+        "EXPLOSION": {
+            "id": "rune_explosion",
+            "title": "destruction.runes.explosion.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.mythic|!|destruction.runes.explosion.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "rare": "MYTHIC",
+            "notify": false,
+            "canDrop": true,
+            "upgradeText": "destruction.runes.explosion.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 1.25,
+                    "readableStat": "+25%"
+                },
+                "2": {
+                    "stat": 1.5,
+                    "readableStat": "+50%"
+                },
+                "3": {
+                    "stat": 1.75,
+                    "readableStat": "+75%"
+                },
+                "4": {
+                    "stat": 2.0,
+                    "readableStat": "+100%"
+                },
+                "5": {
+                    "stat": 2.25,
+                    "readableStat": "+125%"
+                },
+                "6": {
+                    "stat": 2.5,
+                    "readableStat": "+150%"
+                },
+                "7": {
+                    "stat": 2.75,
+                    "readableStat": "+175%"
+                },
+                "8": {
+                    "stat": 3.0,
+                    "readableStat": "+200%"
+                },
+                "9": {
+                    "stat": 3.25,
+                    "readableStat": "+225%"
+                },
+                "10": {
+                    "stat": 3.5,
+                    "readableStat": "+250%"
+                }
+            }
+        },
+        "LUCKY": {
+            "id": "lucky",
+            "title": "destruction.runes.lucky.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.mythic|!|destruction.runes.lucky.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+            },
+            "rare": "MYTHIC",
+            "notify": true,
+            "canDrop": true,
+            "upgradeText": "destruction.runes.lucky.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 1.1,
+                    "readableStat": "+10%"
+                },
+                "2": {
+                    "stat": 1.2,
+                    "readableStat": "+20%"
+                },
+                "3": {
+                    "stat": 1.3,
+                    "readableStat": "+30%"
+                },
+                "4": {
+                    "stat": 1.4,
+                    "readableStat": "+40%"
+                },
+                "5": {
+                    "stat": 1.5,
+                    "readableStat": "+50%"
+                },
+                "6": {
+                    "stat": 1.6,
+                    "readableStat": "+60%"
+                },
+                "7": {
+                    "stat": 1.7,
+                    "readableStat": "+70%"
+                },
+                "8": {
+                    "stat": 1.8,
+                    "readableStat": "+80%"
+                },
+                "9": {
+                    "stat": 1.9,
+                    "readableStat": "+90%"
+                },
+                "10": {
+                    "stat": 2.0,
+                    "readableStat": "+100%"
+                }
+            }
+        },
+        "PET": {
+            "id": "pet",
+            "title": "destruction.runes.pet.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.legendary|!|destruction.runes.pet.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "rare": "LEGENDARY",
+            "notify": false,
+            "canDrop": true,
+            "upgradeText": "destruction.runes.pet.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 11.0,
+                    "readableStat": "+1%"
+                },
+                "2": {
+                    "stat": 12.0,
+                    "readableStat": "+2%"
+                },
+                "3": {
+                    "stat": 13.0,
+                    "readableStat": "+3%"
+                },
+                "4": {
+                    "stat": 14.0,
+                    "readableStat": "+4%"
+                },
+                "5": {
+                    "stat": 15.0,
+                    "readableStat": "+5%"
+                },
+                "6": {
+                    "stat": 16.0,
+                    "readableStat": "+6%"
+                },
+                "7": {
+                    "stat": 17.0,
+                    "readableStat": "+7%"
+                },
+                "8": {
+                    "stat": 18.0,
+                    "readableStat": "+8%"
+                },
+                "9": {
+                    "stat": 19.0,
+                    "readableStat": "+9%"
+                },
+                "10": {
+                    "stat": 20.0,
+                    "readableStat": "+10%"
+                }
+            }
+        },
+        "SUPER_PLAYER": {
+            "id": "super_player",
+            "title": "destruction.runes.super_player.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.legendary|!|destruction.runes.super_player.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "rare": "LEGENDARY",
+            "notify": false,
+            "canDrop": true,
+            "upgradeText": "destruction.runes.super_player.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 6.0,
+                    "readableStat": "+1%"
+                },
+                "2": {
+                    "stat": 7.0,
+                    "readableStat": "+2%"
+                },
+                "3": {
+                    "stat": 8.0,
+                    "readableStat": "+3%"
+                },
+                "4": {
+                    "stat": 9.0,
+                    "readableStat": "+4%"
+                },
+                "5": {
+                    "stat": 10.0,
+                    "readableStat": "+5%"
+                },
+                "6": {
+                    "stat": 11.0,
+                    "readableStat": "+6%"
+                },
+                "7": {
+                    "stat": 12.0,
+                    "readableStat": "+7%"
+                },
+                "8": {
+                    "stat": 13.0,
+                    "readableStat": "+8%"
+                },
+                "9": {
+                    "stat": 14.0,
+                    "readableStat": "+9%"
+                },
+                "10": {
+                    "stat": 15.0,
+                    "readableStat": "+10%"
+                }
+            }
+        },
+        "UPGRADE": {
+            "id": "upgrade",
+            "title": "destruction.runes.upgrade.name",
+            "description": "i18n.destruction.runes.description|!|destruction.rare.legendary|!|destruction.runes.upgrade.ability.name|!|destruction.text.click-to-upgrade",
+            "texture": {
+                "type": "SKULL_ITEM",
+                "damage": 3,
+                "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "rare": "LEGENDARY",
+            "notify": true,
+            "canDrop": false,
+            "upgradeText": "destruction.runes.ability.upgrade.name",
+            "levels": {
+                "1": {
+                    "stat": 1.5,
+                    "readableStat": "1.5%"
+                },
+                "2": {
+                    "stat": 3.0,
+                    "readableStat": "3%"
+                },
+                "3": {
+                    "stat": 4.5,
+                    "readableStat": "4.5%"
+                },
+                "4": {
+                    "stat": 6.0,
+                    "readableStat": "6%"
+                },
+                "5": {
+                    "stat": 7.5,
+                    "readableStat": "7.5%"
+                },
+                "6": {
+                    "stat": 9.0,
+                    "readableStat": "9%"
+                },
+                "7": {
+                    "stat": 10.5,
+                    "readableStat": "10.5%"
+                },
+                "8": {
+                    "stat": 12.0,
+                    "readableStat": "12%"
+                },
+                "9": {
+                    "stat": 13.5,
+                    "readableStat": "13.5%"
+                },
+                "10": {
+                    "stat": 15.0,
+                    "readableStat": "15%"
+                }
+            }
+        }
+    }
+}

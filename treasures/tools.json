@@ -1,0 +1,736 @@
+{
+  "defaultChance": 7,
+  "tools": {
+    "PICKAXE": {
+      "tag": "pickaxe",
+      "pipeline": {
+        "menuTitle": "treasures.tool.pipeline.menu-title",
+        "menuDescription": "treasures.tool.pipeline.menu-description",
+        "title": "treasures.tool.pickaxe.pipeline.title",
+        "description": "treasures.tool.pipeline.description",
+        "messages": {
+          "moreMoney": "treasures.tool.pickaxe.pipeline.message.more-money",
+          "success": "treasures.tool.pickaxe.pipeline.message.success"
+        }
+      },
+      "rares": {
+        "DEFAULT": {
+          "name": "DEFAULT_PICKAXE",
+          "hover": "treasures.tool.pickaxe.default.hover",
+          "title": "treasures.tool.pickaxe.default.title",
+          "description": "treasures.tool.pickaxe.default.description",
+          "levels": {
+            "1": {
+              "price": 100,
+              "strength": 1,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:c2"
+            },
+            "2": {
+              "price": 250,
+              "strength": 2,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:1"
+            },
+            "3": {
+              "price": 600,
+              "strength": 3,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:3"
+            },
+            "4": {
+              "price": 2100,
+              "strength": 4,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:b3"
+            },
+            "5": {
+              "price": 8800,
+              "strength": 5,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:2"
+            },
+            "6": {
+              "price": 24000,
+              "strength": 7,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:a1"
+            },
+            "7": {
+              "price": 40000,
+              "strength": 10,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:d1"
+            },
+            "8": {
+              "price": 65000,
+              "strength": 15,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:d3"
+            },
+            "9": {
+              "price": 185000,
+              "strength": 20,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:b1"
+            },
+            "10": {
+              "price": 250000,
+              "strength": 50,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:f1"
+            },
+            "11": {
+              "price": 500000,
+              "strength": 75,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:d2"
+            },
+            "12": {
+              "price": 1500000,
+              "strength": 100,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:j3"
+            },
+            "13": {
+              "price": 3000000,
+              "strength": 150,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:j2"
+            },
+            "14": {
+              "price": 10000000,
+              "strength": 250,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:f3"
+            },
+            "15": {
+              "price": 22000000,
+              "strength": 500,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:f2"
+            },
+            "16": {
+              "price": 45000000,
+              "strength": 750,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:e1"
+            },
+            "17": {
+              "price": 250000000,
+              "strength": 1000,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:j1"
+            },
+            "18": {
+              "price": 300000000,
+              "strength": 2000,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:donate2"
+            },
+            "19": {
+              "price": 1000000000,
+              "strength": 2500,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:donate3"
+            },
+            "20": {
+              "price": 3000000000,
+              "strength": 3000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate3"
+            },
+            "21": {
+              "price": 10000000000,
+              "strength": 4000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate3"
+            },
+            "22": {
+              "price": 20000000000,
+              "strength": 5000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate3"
+            },
+            "23": {
+              "price": 80000000000,
+              "strength": 5500,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate3"
+            },
+            "24": {
+              "price": 100000000000,
+              "strength": 5800,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate3"
+            },
+            "25": {
+              "price": 125000000000,
+              "strength": 6000,
+              "type": "STONE_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate3"
+            },
+            "26": {
+              "price": 250000000000,
+              "strength": 6150,
+              "type": "STONE_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate3"
+            },
+            "27": {
+              "price": 500000000000,
+              "strength": 6500,
+              "type": "STONE_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate3"
+            }
+          }
+        },
+        "LUCK": {
+          "name": "LUCKY_PICKAXE",
+          "hover": "treasures.tool.pickaxe.luck.hover",
+          "title": "treasures.tool.pickaxe.luck.title",
+          "description": "treasures.tool.pickaxe.luck.description",
+          "levels": {
+            "1": {
+              "price": 100,
+              "strength": 1,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:c2",
+              "boosterChance": 1.15,
+              "readableChance": "15%"
+            },
+            "2": {
+              "price": 250,
+              "strength": 2,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:c2",
+              "boosterChance": 1.16,
+              "readableChance": "16%"
+            },
+            "3": {
+              "price": 600,
+              "strength": 3,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:c2",
+              "boosterChance": 1.17,
+              "readableChance": "17%"
+            },
+            "4": {
+              "price": 2100,
+              "strength": 4,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:c2",
+              "boosterChance": 1.18,
+              "readableChance": "18%"
+            },
+            "5": {
+              "price": 8800,
+              "strength": 5,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:1",
+              "boosterChance": 1.19,
+              "readableChance": "19%"
+            },
+            "6": {
+              "price": 24000,
+              "strength": 7,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:1",
+              "boosterChance": 1.2,
+              "readableChance": "20%"
+            },
+            "7": {
+              "price": 40000,
+              "strength": 10,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:1",
+              "boosterChance": 1.21,
+              "readableChance": "21%"
+            },
+            "8": {
+              "price": 65000,
+              "strength": 15,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:1",
+              "boosterChance": 1.22,
+              "readableChance": "22%"
+            },
+            "9": {
+              "price": 185000,
+              "strength": 20,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:3",
+              "boosterChance": 1.23,
+              "readableChance": "23%"
+            },
+            "10": {
+              "price": 250000,
+              "strength": 50,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:3",
+              "boosterChance": 1.24,
+              "readableChance": "24%"
+            },
+            "11": {
+              "price": 500000,
+              "strength": 75,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:3",
+              "boosterChance": 1.25,
+              "readableChance": "25%"
+            },
+            "12": {
+              "price": 1500000,
+              "strength": 100,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:3",
+              "boosterChance": 1.26,
+              "readableChance": "26%"
+            },
+            "13": {
+              "price": 3000000,
+              "strength": 150,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:3",
+              "boosterChance": 1.27,
+              "readableChance": "27%"
+            },
+            "14": {
+              "price": 10000000,
+              "strength": 250,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.28,
+              "readableChance": "28%"
+            },
+            "15": {
+              "price": 22000000,
+              "strength": 500,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.29,
+              "readableChance": "29%"
+            },
+            "16": {
+              "price": 45000000,
+              "strength": 750,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.3,
+              "readableChance": "30%"
+            },
+            "17": {
+              "price": 250000000,
+              "strength": 1000,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.31,
+              "readableChance": "31%"
+            },
+            "18": {
+              "price": 300000000,
+              "strength": 2000,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.32,
+              "readableChance": "32%"
+            },
+            "19": {
+              "price": 1000000000,
+              "strength": 2500,
+              "type": "IRON_PICKAXE",
+              "enchantment": 0,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.33,
+              "readableChance": "33%"
+            },
+            "20": {
+              "price": 3000000000,
+              "strength": 3000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.34,
+              "readableChance": "34%"
+            },
+            "21": {
+              "price": 10000000000,
+              "strength": 4000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.35,
+              "readableChance": "35%"
+            },
+            "22": {
+              "price": 20000000000,
+              "strength": 5000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.36,
+              "readableChance": "36%"
+            },
+            "23": {
+              "price": 80000000000,
+              "strength": 5500,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.37,
+              "readableChance": "37%"
+            },
+            "24": {
+              "price": 100000000000,
+              "strength": 5800,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.38,
+              "readableChance": "38%"
+            },
+            "25": {
+              "price": 125000000000,
+              "strength": 6000,
+              "type": "STONE_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.39,
+              "readableChance": "39%"
+            },
+            "26": {
+              "price": 250000000000,
+              "strength": 6150,
+              "type": "STONE_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.395,
+              "readableChance": "39.5%"
+            },
+            "27": {
+              "price": 500000000000,
+              "strength": 6500,
+              "type": "STONE_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:2",
+              "boosterChance": 1.4,
+              "readableChance": "40%"
+            }
+          }
+        },
+        "DONATE": {
+          "name": "LUCKY_PICKAXE",
+          "hover": "treasures.tool.pickaxe.donate.hover",
+          "title": "treasures.tool.pickaxe.donate.title",
+          "description": "treasures.tool.pickaxe.donate.description",
+          "levels": {
+            "1": {
+              "price": 100,
+              "strength": 2,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.5,
+              "readableChance": "50%"
+            },
+            "2": {
+              "price": 250,
+              "strength": 4,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.51,
+              "readableChance": "51%"
+            },
+            "3": {
+              "price": 600,
+              "strength": 6,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.52,
+              "readableChance": "52%"
+            },
+            "4": {
+              "price": 2100,
+              "strength": 8,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.53,
+              "readableChance": "53%"
+            },
+            "5": {
+              "price": 8800,
+              "strength": 10,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.54,
+              "readableChance": "54%"
+            },
+            "6": {
+              "price": 24000,
+              "strength": 14,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.55,
+              "readableChance": "55%"
+            },
+            "7": {
+              "price": 40000,
+              "strength": 20,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.56,
+              "readableChance": "56%"
+            },
+            "8": {
+              "price": 65000,
+              "strength": 30,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.57,
+              "readableChance": "57%"
+            },
+            "9": {
+              "price": 185000,
+              "strength": 40,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.58,
+              "readableChance": "58%"
+            },
+            "10": {
+              "price": 250000,
+              "strength": 100,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.59,
+              "readableChance": "59%"
+            },
+            "11": {
+              "price": 500000,
+              "strength": 150,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.6,
+              "readableChance": "60%"
+            },
+            "12": {
+              "price": 1500000,
+              "strength": 200,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.61,
+              "readableChance": "61%"
+            },
+            "13": {
+              "price": 3000000,
+              "strength": 300,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.62,
+              "readableChance": "62%"
+            },
+            "14": {
+              "price": 10000000,
+              "strength": 500,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.63,
+              "readableChance": "63%"
+            },
+            "15": {
+              "price": 22000000,
+              "strength": 1000,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.64,
+              "readableChance": "64%"
+            },
+            "16": {
+              "price": 45000000,
+              "strength": 1500,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.65,
+              "readableChance": "65%"
+            },
+            "17": {
+              "price": 250000000,
+              "strength": 2000,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.66,
+              "readableChance": "66%"
+            },
+            "18": {
+              "price": 300000000,
+              "strength": 4000,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.67,
+              "readableChance": "67%"
+            },
+            "19": {
+              "price": 1000000000,
+              "strength": 5000,
+              "type": "IRON_PICKAXE",
+              "enchantment": 1,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.68,
+              "readableChance": "68%"
+            },
+            "20": {
+              "price": 3000000000,
+              "strength": 6000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 3,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.69,
+              "readableChance": "69%"
+            },
+            "21": {
+              "price": 10000000000,
+              "strength": 8000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 3,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.7,
+              "readableChance": "70%"
+            },
+            "22": {
+              "price": 20000000000,
+              "strength": 10000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 3,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.71,
+              "readableChance": "71%"
+            },
+            "23": {
+              "price": 80000000000,
+              "strength": 11000,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 3,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.72,
+              "readableChance": "72%"
+            },
+            "24": {
+              "price": 100000000000,
+              "strength": 11600,
+              "type": "WOOD_PICKAXE",
+              "enchantment": 3,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.73,
+              "readableChance": "73%"
+            },
+            "25": {
+              "price": 125000000000,
+              "strength": 12000,
+              "type": "STONE_PICKAXE",
+              "enchantment": 3,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.74,
+              "readableChance": "74%"
+            },
+            "26": {
+              "price": 250000000000,
+              "strength": 12300,
+              "type": "STONE_PICKAXE",
+              "enchantment": 3,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 1.75,
+              "readableChance": "75%"
+            },
+            "27": {
+              "price": 500000000000,
+              "strength": 15000,
+              "type": "DIAMOND_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:donate1",
+              "boosterChance": 2,
+              "readableChance": "100%"
+            }
+          }
+        },
+        "ATTENTIVE": {
+          "name": "LUCKY_PICKAXE",
+          "hover": "treasures.tool.pickaxe.uniq.hover",
+          "title": "treasures.tool.pickaxe.uniq.title",
+          "description": "treasures.tool.pickaxe.uniq.description",
+          "levels": {
+            "1": {
+              "price": 0,
+              "strength": 6500,
+              "type": "DIAMOND_PICKAXE",
+              "enchantment": 2,
+              "nbt": "sim_pickaxe:j2",
+              "boosterChance": 1.4,
+              "readableChance": "40%"
+            }
+          }
+        }
+      }
+    }
+  }
+}

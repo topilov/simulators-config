@@ -1,0 +1,31 @@
+{
+  "settings": {
+    "DISABLE_PETS": {
+      "id": "pets",
+      "title": "treasures.settings.disable-pets.title",
+      "description": "treasures.settings.disable-pets.description",
+      "onEnable": [
+        "set-view-pets %player% false"
+      ],
+      "onDisable": [
+        "set-view-pets %player% true"
+      ]
+    },
+    "DISABLE_NOTIFICATION": {
+      "id": "notification",
+      "title": "treasures.settings.disable-notification.title",
+      "description": "treasures.settings.disable-notification.description"
+    },
+    "DISABLE_PLAYERS": {
+      "id": "players",
+      "title": "treasures.settings.disable-players.title",
+      "description": "treasures.settings.disable-players.description",
+      "onEnable": [
+        "set-view-players %player% false"
+      ],
+      "onDisable": [
+        "set-view-players %player% true"
+      ]
+    }
+  }
+}

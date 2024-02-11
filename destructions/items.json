@@ -1,0 +1,53 @@
+{
+    "maxSaveCrystals": 26,
+    "items": {
+        "SAVE_CRYSTAL": {
+            "type": "CHORUS_FRUIT_POPPED",
+            "name": "destruction.items.save-crystal.name",
+            "lore": "destruction.items.save-crystal.lore",
+            "unbreakable": true,
+            "data": {
+                "crystal": 1,
+                "no-clear": 1
+            },
+            "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+            ]
+        },
+        "MENU": {
+            "type": "CLAY_BALL",
+            "name": "destruction.items.menu.name",
+            "unbreakable": true,
+            "data": {
+                "other": "info"
+            },
+            "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+            ]
+        }
+    },
+    "message": {
+        "maxUsedCrystalsPerRebirth": "destruction.items.message.error.max-user-crystals-per-rebirth",
+        "maxUsedCrystals": "destruction.items.message.error.max-user-crystals"
+    },
+    "nbt": {
+        "crystals": "crystals",
+        "crystalsPerRebirth": "crystals-per-rebirth",
+        "noClear": "no-clear",
+        "saveCrystal": "crystal",
+        "boosterChance": "chance",
+        "additionalBoosterChance": "additional-chance-nbt",
+        "level": "level",
+        "pipeline": "pipeline",
+        "boomDnkPerBlock": "dnk-per-block",
+        "boomPower": "boom-power",
+        "boomCooldown": "boom-cooldown",
+        "boomKeyChance": "boom-key-chance",
+        "boomDelay": "boom-delay",
+        "toolType": "tool-type"
+    }
+}
