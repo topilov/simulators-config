@@ -1,2 +1,2 @@
 # simulators-config
-Конфигурация модулей
+Module configuration
