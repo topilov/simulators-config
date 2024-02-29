@@ -3,193 +3,88 @@
   "requiredRebirthMessage": "treasures.location.message.required-rebirth",
   "locations": {
     "BEACH": {
-      "id": 1,
       "slots": 125,
       "map": "map1",
-      "title": "treasures.location.beach.title",
-      "description": "i18n.treasures.location.description|!|1",
-      "lockButton": {
+      "button": {
+        "id": 1,
         "title": "treasures.location.beach.title",
-        "description": "i18n.treasures.location.lock-button.required-level.description|!|1",
-        "item": {
-          "type": "CLAY_BALL",
-          "data": {
-            "other": "lock",
-            "color": 16735067
-          }
-        }
+        "texture": "locations/1.png",
+        "hint": "Перейти",
+        "requiredLevel": 1
       },
-      "texture": {
-        "type": "IRON_PICKAXE",
-        "data": {
-          "color": 16449295
-        }
-      },
-      "requiredLevel": 1,
-      "requiredRebirth": 0,
-      "show": true
+      "requiredRebirth": 0
     },
     "HELL": {
-      "id": 2,
       "slots": 125,
       "map": "map5",
-      "title": "treasures.location.hell.title",
-      "description": "i18n.treasures.location.description|!|2",
-      "lockButton": {
+      "button": {
+        "id": 2,
         "title": "treasures.location.hell.title",
-        "description": "i18n.treasures.location.lock-button.required-level.description|!|2",
-        "item": {
-          "type": "CLAY_BALL",
-          "data": {
-            "other": "lock",
-            "color": 16735067
-          }
-        }
+        "texture": "locations/1.png",
+        "hint": "Перейти",
+        "requiredLevel": 2
       },
-      "texture": {
-        "type": "IRON_PICKAXE",
-        "data": {
-          "color": 12718610
-        }
-      },
-      "requiredLevel": 2,
-      "requiredRebirth": 0,
-      "show": true
+      "requiredRebirth": 0
     },
     "FROZEN_CAVE": {
-      "id": 3,
       "slots": 125,
       "map": "map2",
-      "title": "treasures.location.frozen-cave.title",
-      "description": "i18n.treasures.location.description|!|3",
-      "lockButton": {
-        "title": "treasures.location.frozen-cave.title",
-        "description": "i18n.treasures.location.lock-button.required-level.description|!|3",
-        "item": {
-          "type": "CLAY_BALL",
-          "data": {
-            "other": "lock",
-            "color": 16735067
-          }
-        }
+      "button": {
+        "id": 3,
+        "title": "treasures.location.beach.title",
+        "texture": "locations/1.png",
+        "hint": "Перейти",
+        "requiredLevel": 3
       },
-      "texture": {
-        "type": "IRON_PICKAXE",
-        "data": {
-          "color": 1816009
-        }
-      },
-      "requiredLevel": 3,
-      "requiredRebirth": 0,
-      "show": true
+      "requiredRebirth": 0
     },
     "DESERT": {
-      "id": 4,
       "slots": 125,
       "map": "map6",
-      "title": "treasures.location.desert.title",
-      "description": "i18n.treasures.location.description|!|4",
-      "lockButton": {
+      "button": {
+        "id": 4,
         "title": "treasures.location.desert.title",
-        "description": "i18n.treasures.location.lock-button.required-level.description|!|4",
-        "item": {
-          "type": "CLAY_BALL",
-          "data": {
-            "other": "lock",
-            "color": 16735067
-          }
-        }
+        "texture": "locations/1.png",
+        "hint": "Перейти",
+        "requiredLevel": 4
       },
-      "texture": {
-        "type": "IRON_PICKAXE",
-        "data": {
-          "color": 13411351
-        }
-      },
-      "requiredLevel": 4,
-      "requiredRebirth": 0,
-      "show": true
+      "requiredRebirth": 0
     },
     "CAVE": {
-      "id": 5,
       "slots": 125,
       "map": "map3",
-      "title": "treasures.location.cave.title",
-      "description": "i18n.treasures.location.description|!|5",
-      "lockButton": {
+      "button": {
+        "id": 5,
         "title": "treasures.location.cave.title",
-        "description": "i18n.treasures.location.lock-button.required-level.description|!|5",
-        "item": {
-          "type": "CLAY_BALL",
-          "data": {
-            "other": "lock",
-            "color": 16735067
-          }
-        }
+        "texture": "locations/1.png",
+        "hint": "Перейти",
+        "requiredLevel": 5
       },
-      "texture": {
-        "type": "IRON_PICKAXE",
-        "data": {
-          "color": 7038052
-        }
-      },
-      "requiredLevel": 5,
-      "requiredRebirth": 0,
-      "show": true
+      "requiredRebirth": 0
     },
     "DARK_CASTLE": {
-      "id": 6,
       "slots": 125,
       "map": "map4",
-      "title": "treasures.location.dark-castle.title",
-      "description": "i18n.treasures.location.description|!|6",
-      "lockButton": {
+      "button": {
+        "id": 6,
         "title": "treasures.location.dark-castle.title",
-        "description": "i18n.treasures.location.lock-button.required-level-rebirth.description|!|6|!|5",
-        "item": {
-          "type": "CLAY_BALL",
-          "data": {
-            "other": "lock",
-            "color": 16735067
-          }
-        }
+        "texture": "locations/1.png",
+        "hint": "Перейти",
+        "requiredLevel": 6
       },
-      "texture": {
-        "type": "IRON_PICKAXE",
-        "data": {
-          "color": 4868420
-        }
-      },
-      "requiredLevel": 6,
-      "requiredRebirth": 5,
-      "show": true
+      "requiredRebirth": 5
     },
     "EDGE": {
-      "id": 7,
       "slots": 125,
       "map": "map8",
-      "title": "treasures.location.edge.title",
-      "description": "i18n.treasures.location.description|!|7",
-      "lockButton": {
+      "button": {
+        "id": 7,
         "title": "treasures.location.edge.title",
-        "description": "i18n.treasures.location.lock-button.required-level-rebirth.description|!|7|!|15",
-        "item": {
-          "type": "CLAY_BALL",
-          "data": {
-            "other": "lock",
-            "color": 16735067
-          }
-        }
+        "texture": "locations/1.png",
+        "hint": "Перейти",
+        "requiredLevel": 4
       },
-      "texture": {
-        "type": "IRON_PICKAXE",
-        "data": {
-          "color": 14405524
-        }
-      },
-      "requiredLevel": 7,
-      "requiredRebirth": 15,
-      "show": true
+      "requiredRebirth": 15
     }
   }
 }
