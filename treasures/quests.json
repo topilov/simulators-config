@@ -1,230 +1,282 @@
 {
-  "quests": {
-    "EXP_1": {
-      "id": "exp1",
-      "group": "EXP",
-      "title": "treasures.quest.exp1.title",
-      "description": "treasures.quest.exp2.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "EXP_BOTTLE"
+  "menu": {
+    "title": "",
+    "categories": [
+      {
+        "title": "Статистика",
+        "questsData": [
+          {
+            "title": "Опыт",
+            "quests": [
+              {
+                "title": "treasures.quest.exp1.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|5K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.exp1.title",
+                    "goal": 5000.0,
+                    "current": "exp1"
+                  }
+                ]
+              },
+              {
+                "title": "treasures.quest.exp2.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|15K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.exp2.title",
+                    "goal": 50000.0,
+                    "current": "exp2"
+                  }
+                ]
+              },
+              {
+                "title": "treasures.quest.exp3.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|40K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.exp3.title",
+                    "goal": 125000.0,
+                    "current": "exp3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Уровень",
+            "quests": [
+              {
+                "title": "treasures.quest.level1.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|25K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.level1.title",
+                    "goal": 2,
+                    "current": "level1"
+                  }
+                ]
+              },
+              {
+                "title": "treasures.quest.level2.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|45K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.level2.title",
+                    "goal": 4,
+                    "current": "level2"
+                  }
+                ]
+              },
+              {
+                "title": "treasures.quest.level3.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|90K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.level3.title",
+                    "goal": 6,
+                    "current": "level3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Блоки",
+            "quests": [
+              {
+                "title": "treasures.quest.blocks1.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|2.5K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.blocks1.title",
+                    "goal": 1500,
+                    "current": "blocks1"
+                  }
+                ]
+              },
+              {
+                "title": "treasures.quest.blocks2.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|12.5K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.blocks2.title",
+                    "goal": 5000,
+                    "current": "blocks2"
+                  }
+                ]
+              },
+              {
+                "title": "treasures.quest.blocks3.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|25K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.blocks3.title",
+                    "goal": 15000,
+                    "current": "blocks3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Сокровища",
+            "quests": [
+              {
+                "title": "treasures.quest.treasures1.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|2.5K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.treasures1.title",
+                    "goal": 100,
+                    "current": "treasures1"
+                  }
+                ]
+              },
+              {
+                "title": "treasures.quest.treasures2.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|12.5K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.treasures2.title",
+                    "goal": 500,
+                    "current": "treasures2"
+                  }
+                ]
+              },
+              {
+                "title": "treasures.quest.treasures3.title",
+                "icon": "swords.png",
+                "reward": "i18n.treasures.quest.reward.money|!|25K",
+                "tasks": [
+                  {
+                    "name": "treasures.quest.treasures3.title",
+                    "goal": 1500,
+                    "current": "treasures3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "EXP": [
+      {
+        "id": "exp1",
+        "title": "treasures.quest.exp1.title",
+        "goal": 5000,
+        "onComplete": [
+          "earn-money %player% 5000 true"
+        ]
       },
-      "required": 20000,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 5000 true",
-        "earn-exp %player% 2000 true"
-      ]
-    },
-    "EXP_2": {
-      "id": "exp2",
-      "group": "EXP",
-      "title": "treasures.quest.exp2.title",
-      "description": "treasures.quest.exp2.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "EXP_BOTTLE"
+      {
+        "id": "exp2",
+        "title": "treasures.quest.exp2.title",
+        "goal": 50000,
+        "onComplete": [
+          "earn-money %player% 15000 true"
+        ]
       },
-      "required": 50000,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 15000 true",
-        "earn-exp %player% 5000 true",
-        "earn-bits %player% 10"
-      ]
-    },
-    "EXP_3": {
-      "id": "exp3",
-      "group": "EXP",
-      "title": "treasures.quest.exp3.title",
-      "description": "treasures.quest.exp3.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "EXP_BOTTLE"
+      {
+        "id": "exp3",
+        "title": "treasures.quest.exp3.title",
+        "goal": 125000,
+        "onComplete": [
+          "earn-money %player% 40000 true"
+        ]
+      }
+    ],
+    "LEVEL": [
+      {
+        "id": "level1",
+        "title": "treasures.quest.level1.title",
+        "goal": 2,
+        "onComplete": [
+          "earn-money %player% 25000 true"
+        ]
       },
-      "required": 125000,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 40000 true",
-        "earn-exp %player% 12500 true",
-        "earn-bits %player% 15",
-        "give-key %player% PET 1"
-      ]
-    },
-    "LEVEL_1": {
-      "id": "level1",
-      "group": "LEVEL",
-      "title": "treasures.quest.level1.title",
-      "description": "treasures.quest.level1.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "guild_lvl"
-        }
+      {
+        "id": "level2",
+        "title": "treasures.quest.level2.title",
+        "goal": 4,
+        "onComplete": [
+          "earn-money %player% 45000 true"
+        ]
       },
-      "required": 2,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 25000 true",
-        "earn-exp %player% 10000 true",
-        "earn-bits %player% 5"
-      ]
-    },
-    "LEVEL_2": {
-      "id": "level2",
-      "group": "LEVEL",
-      "title": "treasures.quest.level2.title",
-      "description": "treasures.quest.level2.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "guild_lvl"
-        }
+      {
+        "id": "level3",
+        "title": "treasures.quest.level3.title",
+        "goal": 6,
+        "onComplete": [
+          "earn-money %player% 90000 true"
+        ]
+      }
+    ],
+    "BLOCKS": [
+      {
+        "id": "blocks1",
+        "title": "treasures.quest.blocks1.title",
+        "goal": 1500,
+        "onComplete": [
+          "earn-money %player% 2500 true"
+        ]
       },
-      "required": 4,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 45000 true",
-        "earn-exp %player% 20000 true",
-        "earn-bits %player% 15"
-      ]
-    },
-    "LEVEL_3": {
-      "id": "level3",
-      "group": "LEVEL",
-      "title": "treasures.quest.level3.title",
-      "description": "treasures.quest.level3.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "guild_lvl"
-        }
+      {
+        "id": "blocks2",
+        "title": "treasures.quest.blocks2.title",
+        "goal": 5000,
+        "onComplete": [
+          "earn-money %player% 12500 true"
+        ]
       },
-      "required": 6,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 90000 true",
-        "earn-exp %player% 40000 true",
-        "earn-bits %player% 25",
-        "give-key %player% PET 1"
-      ]
-    },
-    "BLOCKS_1": {
-      "id": "blocks1",
-      "group": "BLOCKS",
-      "title": "treasures.quest.blocks1.title",
-      "description": "treasures.quest.blocks1.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "SANDSTONE"
+      {
+        "id": "blocks3",
+        "title": "treasures.quest.blocks3.title",
+        "goal": 15000,
+        "onComplete": [
+          "earn-money %player% 25000 true"
+        ]
+      }
+    ],
+    "TREASURES": [
+      {
+        "id": "treasures1",
+        "title": "treasures.quest.treasures1.title",
+        "goal": 100,
+        "onComplete": [
+          "earn-money %player% 2500 true"
+        ]
       },
-      "required": 1500,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 2500 true",
-        "earn-exp %player% 1000 true"
-      ]
-    },
-    "BLOCKS_2": {
-      "id": "blocks2",
-      "group": "BLOCKS",
-      "title": "treasures.quest.blocks2.title",
-      "description": "treasures.quest.blocks2.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "SANDSTONE"
+      {
+        "id": "treasures2",
+        "title": "treasures.quest.treasures2.title",
+        "goal": 500,
+        "onComplete": [
+          "earn-money %player% 12500 true"
+        ]
       },
-      "required": 5000,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 12500 true",
-        "earn-exp %player% 5000 true",
-        "earn-bits %player% 5"
-      ]
-    },
-    "BLOCKS_3": {
-      "id": "blocks3",
-      "group": "BLOCKS",
-      "title": "treasures.quest.blocks3.title",
-      "description": "treasures.quest.blocks3.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "SANDSTONE"
-      },
-      "required": 15000,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 25000 true",
-        "earn-exp %player% 10000 true",
-        "earn-bits %player% 15",
-        "give-key %player% PET 1"
-      ]
-    },
-    "TREASURES_1": {
-      "id": "treasures1",
-      "group": "TREASURES",
-      "title": "treasures.quest.treasures1.title",
-      "description": "treasures.quest.treasures1.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "GOLD_INGOT"
-      },
-      "required": 100,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 2500 true",
-        "earn-exp %player% 1000 true"
-      ]
-    },
-    "TREASURES_2": {
-      "id": "treasures2",
-      "group": "TREASURES",
-      "title": "treasures.quest.treasures2.title",
-      "description": "treasures.quest.treasures2.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "GOLD_INGOT"
-      },
-      "required": 500,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 12500 true",
-        "earn-exp %player% 5000 true",
-        "earn-bits %player% 5"
-      ]
-    },
-    "TREASURES_3": {
-      "id": "treasures3",
-      "group": "TREASURES",
-      "title": "treasures.quest.treasures3.title",
-      "description": "treasures.quest.treasures3.description",
-      "info": "treasures.quest.progress.text",
-      "infoComplete": "treasures.quest.complete.text",
-      "texture": {
-        "type": "GOLD_INGOT"
-      },
-      "required": 1500,
-      "min": 0,
-      "onComplete": [
-        "earn-money %player% 25000 true",
-        "earn-exp %player% 10000 true",
-        "earn-bits %player% 15",
-        "give-key %player% PET 1"
-      ]
-    }
+      {
+        "id": "treasures3",
+        "title": "treasures.quest.treasures3.title",
+        "goal": 1500,
+        "onComplete": [
+          "earn-money %player% 25000 true"
+        ]
+      }
+    ]
   }
 }

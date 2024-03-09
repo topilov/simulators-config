@@ -16,9 +16,18 @@
     "description": "treasures.level.pipeline.description"
   },
   "requirement": {
-    "money": "treasures.level.requirement.money.content",
-    "blocks": "treasures.level.requirement.blocks.content",
-    "treasures": "treasures.level.requirement.treasures.content"
+    "money": {
+      "content": "treasures.level.requirement.money.content",
+      "icon": "money.png"
+    },
+    "blocks": {
+      "content": "treasures.level.requirement.blocks.content",
+      "icon": "money.png"
+    },
+    "treasures": {
+      "content": "treasures.level.requirement.treasures.content",
+      "icon": "money.png"
+    }
   },
   "commands": [
     "level"
