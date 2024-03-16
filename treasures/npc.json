@@ -1,0 +1,94 @@
+{
+  "npc": [
+    {
+      "name": "treasures.npc.sell.blocks.title",
+      "location": {
+        "name": "sell",
+        "tag": "blocks"
+      },
+      "skin": "",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dnksell %player% dnk"
+      ]
+    },
+    {
+      "name": "treasures.npc.sell.treasures.title",
+      "location": {
+        "name": "sell",
+        "tag": "treasures"
+      },
+      "skin": "",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dnksell %player% treasures"
+      ]
+    },
+    {
+      "name": "treasures.npc.upgrade.pickaxe.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "items"
+      },
+      "skin": "",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% upgrade"
+      ]
+    },
+    {
+      "name": "treasures.npc.upgrade.storage.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "storage"
+      },
+      "skin": "",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% storage"
+      ]
+    },
+    {
+      "name": "treasures.npc.upgrade.level.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "level"
+      },
+      "skin": "",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% level"
+      ]
+    },
+    {
+      "name": "treasures.npc.upgrade.rebirth.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "rebirth"
+      },
+      "skin": "",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% prestige"
+      ]
+    },
+    {
+      "name": "treasures.npc.locations.title",
+      "location": {
+        "name": "locations"
+      },
+      "skin": "",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% locations"
+      ]
+    }
+  ]
+}
