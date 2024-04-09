@@ -1,44 +1,6 @@
 {
   "maxSaveCrystals": 26,
   "items": {
-    "CLEVER": {
-      "type": "DOUBLE_PLANT",
-      "name": "treasures.items.clever.name",
-      "lore": "treasures.items.clever.lore",
-      "unbreakable": true,
-      "enchantments": {
-        "DAMAGE_ALL": 1
-      },
-      "flags": [
-        "HIDE_ATTRIBUTES",
-        "HIDE_ENCHANTS",
-        "HIDE_UNBREAKABLE"
-      ],
-      "data": {
-        "additional-chance-nbt": 1.15,
-        "no-clear": 1,
-        "hoverColor": "GREEN"
-      }
-    },
-    "MAP": {
-      "type": "PAPER",
-      "name": "treasures.items.map.name",
-      "lore": "treasures.items.map.lore",
-      "unbreakable": true,
-      "enchantments": {
-        "DAMAGE_ALL": 1
-      },
-      "data": {
-        "additional-chance-nbt": 1.1,
-        "no-clear": 1,
-        "hoverColor": "PURPLE"
-      },
-      "flags": [
-        "HIDE_ATTRIBUTES",
-        "HIDE_ENCHANTS",
-        "HIDE_UNBREAKABLE"
-      ]
-    },
     "SAVE_CRYSTAL": {
       "type": "CHORUS_FRUIT_POPPED",
       "name": "treasures.items.save-crystal.name",
@@ -48,19 +10,6 @@
         "crystal": 1,
         "no-clear": 1,
         "hoverColor": "PURPLE_LIGHT"
-      },
-      "flags": [
-        "HIDE_ATTRIBUTES",
-        "HIDE_ENCHANTS",
-        "HIDE_UNBREAKABLE"
-      ]
-    },
-    "MENU": {
-      "type": "CLAY_BALL",
-      "name": "treasures.items.menu.name",
-      "unbreakable": true,
-      "data": {
-        "other": "info"
       },
       "flags": [
         "HIDE_ATTRIBUTES",
