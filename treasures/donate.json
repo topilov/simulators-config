@@ -415,7 +415,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% exp 2 3600"
+        "global-booster %player% EXP 2 3600"
       ]
     },
     "LOCAL_EXP": {
@@ -434,7 +434,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% exp 2 14400"
+        "local-booster %player% EXP 2 14400"
       ]
     },
     "GLOBAL_TREASURES": {
@@ -457,7 +457,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% treasures 2 3600"
+        "global-booster %player% TREASURES 2 3600"
       ]
     },
     "LOCAL_TREASURES": {
@@ -479,7 +479,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% treasures 2 14400"
+        "local-booster %player% TREASURES 2 14400"
       ]
     },
     "GLOBAL_BLOCKS": {
@@ -502,7 +502,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% blocks 2 3600"
+        "global-booster %player% BLOCKS 2 3600"
       ]
     },
     "LOCAL_BLOCKS": {
@@ -524,7 +524,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% blocks 2 14400"
+        "local-booster %player% BLOCKS 2 14400"
       ]
     },
     "GLOBAL_MONEY": {
@@ -543,7 +543,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% money 2 3600"
+        "global-booster %player% MONEY 2 3600"
       ]
     },
     "LOCAL_MONEY": {
@@ -562,7 +562,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% money 2 14400"
+        "local-booster %player% MONEY 2 14400"
       ]
     },
     "GLOBAL_ALL": {
@@ -581,10 +581,10 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% blocks 2 3600",
-        "global-booster %player% treasures 2 3600",
-        "global-booster %player% exp 2 3600",
-        "global-booster %player% money 2 3600"
+        "global-booster %player% BLOCKS 2 3600",
+        "global-booster %player% TREASURES 2 3600",
+        "global-booster %player% EXP 2 3600",
+        "global-booster %player% MONEY 2 3600"
       ]
     },
     "LOCAL_ALL": {
@@ -602,10 +602,10 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% blocks 2 14400",
-        "local-booster %player% treasures 2 14400",
-        "local-booster %player% exp 2 14400",
-        "local-booster %player% money 2 14400"
+        "local-booster %player% BLOCKS 2 14400",
+        "local-booster %player% TREASURES 2 14400",
+        "local-booster %player% EXP 14400",
+        "local-booster %player% MONEY 2 14400"
       ]
     }
   }
