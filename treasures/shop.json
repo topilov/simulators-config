@@ -6,44 +6,76 @@
             {
                 "title": "treasures.shop.bits.product.money_booster.title",
                 "icon": "achievements_many_rare.png",
-                "price": 110.0,
+                "price": 75.0,
                 "needSubscription": true,
-                "onBuy": []
+                "onBuy": [
+                    "local-booster %player% MONEY 2 7200"
+                ]
             },
             {
                 "title": "treasures.shop.bits.product.exp_booster.title",
                 "icon": "achievements_many_rare.png",
-                "price": 110.0,
+                "price": 75.0,
                 "needSubscription": true,
-                "onBuy": []
+                "onBuy": [
+                    "local-booster %player% EXP 2 7200"
+                ]
             },
             {
                 "title": "treasures.shop.bits.product.blocks_booster.title",
                 "icon": "achievements_many_rare.png",
-                "price": 110.0,
+                "price": 75.0,
                 "needSubscription": true,
-                "onBuy": []
+                "onBuy": [
+                    "local-booster %player% BLOCKS 2 7200"
+                ]
             },
             {
                 "title": "treasures.shop.bits.product.treasures_booster.title",
                 "icon": "achievements_many_rare.png",
-                "price": 110.0,
+                "price": 75.0,
                 "needSubscription": true,
-                "onBuy": []
+                "onBuy": [
+                    "local-booster %player% TREASURES 2 7200"
+                ]
             },
             {
                 "title": "treasures.shop.bits.product.default_key.title",
                 "icon": "achievements_many_rare.png",
-                "price": 200.0,
+                "price": 149.0,
                 "needSubscription": true,
-                "onBuy": []
+                "onBuy": [
+                    "give-key %player% DEFAULT 1"
+                ]
             },
             {
                 "title": "treasures.shop.bits.product.pet_key.title",
                 "icon": "achievements_many_rare.png",
-                "price": 200.0,
+                "price": 149.0,
                 "needSubscription": true,
-                "onBuy": []
+                "onBuy": [
+                    "give-key %player% PET 1"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.map.title",
+                "hover": "treasures.items.map.lore",
+                "icon": "achievements_many_rare.png",
+                "price": 249.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-perk %player% MAP"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.clever.title",
+                "hover": "treasures.items.clever.lore",
+                "icon": "achievements_many_rare.png",
+                "price": 249.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-perk %player% CLEVER"
+                ]
             }
         ]
     }
