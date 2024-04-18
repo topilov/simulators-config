@@ -94,12 +94,7 @@
       "confirmationTitle": "treasures.donate.element.pet-slot.title",
       "title": "treasures.donate.element.pet-slot.title",
       "description": "treasures.donate.element.pet-slot.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "pets"
-        }
-      },
+      "texture": "pet_slot.png",
       "category": "OTHER",
       "price": 99,
       "sale": 0,
@@ -183,9 +178,12 @@
       "title": "treasures.donate.element.legendary-tools.title",
       "description": "treasures.donate.element.legendary-tools.description",
       "item": {
-        "type": "GOLD_PICKAXE",
+        "type": "IRON_PICKAXE",
         "enchantments": {
           "DIG_SPEED": 1
+        },
+        "data": {
+          "sim_pickaxe": "donate1"
         }
       },
       "category": "GAME_ITEMS",
@@ -387,9 +385,7 @@
       "donateName": "treasures.donate.element.global-exp.donate-name",
       "title": "treasures.donate.element.global-exp.title",
       "description": "treasures.donate.element.global-exp.description",
-      "item": {
-        "type": "DRAGONS_BREATH"
-      },
+      "texture": "xp_booster.png",
       "category": "BOOSTERS",
       "price": 199,
       "sale": 0,
@@ -407,9 +403,7 @@
       "donateName": "treasures.donate.element.local-exp.donate-name",
       "title": "treasures.donate.element.local-exp.title",
       "description": "treasures.donate.element.local-exp.description",
-      "item": {
-        "type": "DRAGONS_BREATH"
-      },
+      "texture": "xp_booster.png",
       "category": "BOOSTERS",
       "price": 149,
       "sale": 0,
@@ -426,12 +420,7 @@
       "donateName": "treasures.donate.element.global-treasures.donate-name",
       "title": "treasures.donate.element.global-treasures.title",
       "description": "treasures.donate.element.global-treasures.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "win"
-        }
-      },
+      "texture": "red_chest.png",
       "category": "BOOSTERS",
       "price": 169,
       "sale": 0,
@@ -449,12 +438,7 @@
       "donateName": "treasures.donate.element.local-treasures.donate-name",
       "title": "treasures.donate.element.local-treasures.title",
       "description": "treasures.donate.element.local-treasures.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "win"
-        }
-      },
+      "texture": "red_chest.png",
       "category": "BOOSTERS",
       "price": 119,
       "sale": 0,
@@ -554,9 +538,7 @@
       "donateName": "treasures.donate.element.global-all.donate-name",
       "title": "treasures.donate.element.global-all.title",
       "description": "treasures.donate.element.global-all.description",
-      "item": {
-        "type": "CHEST"
-      },
+      "texture": "all_boost.png",
       "category": "BOOSTERS",
       "price": 399,
       "alert": true,
@@ -576,9 +558,7 @@
       "donateName": "treasures.donate.element.local-all.donate-name",
       "title": "treasures.donate.element.local-all.title",
       "description": "treasures.donate.element.local-all.description",
-      "item": {
-        "type": "CHEST"
-      },
+      "texture": "all_boost.png",
       "category": "BOOSTERS",
       "price": 349,
       "count": [
