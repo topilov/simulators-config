@@ -1,112 +1,92 @@
 {
-    "shops": [
-        {
-            "id": "bits",
-            "title": "destruction.shop.bits.title",
-            "description": "destruction.shop.bits.description",
-            "rows": 3,
-            "command": "bits",
-            "products": [
-                {
-                    "title": "destruction.shop.bits.local-booster-money.title",
-                    "description": "",
-                    "hover": "destruction.shop.bits.local-booster-money.hover",
-                    "itemStack": {
-                        "type": "GOLD_NUGGET"
-                    },
-                    "onTryBuy": [
-                        "buy-product %player% true 75 1 local-booster %player% money 2 7200"
-                    ],
-                    "placeholders": [
-                        1,
-                        75
-                    ]
-                },
-                {
-                    "title": "destruction.shop.bits.local-booster-exp.title",
-                    "description": "",
-                    "hover": "destruction.shop.bits.local-booster-exp.hover",
-                    "itemStack": {
-                        "type": "DRAGONS_BREATH"
-                    },
-                    "onTryBuy": [
-                        "buy-product %player% true 75 1 local-booster %player% exp 2 7200"
-                    ],
-                    "placeholders": [
-                        1,
-                        75
-                    ]
-                },
-                {
-                    "title": "destruction.shop.bits.local-booster-blocks.title",
-                    "description": "",
-                    "hover": "destruction.shop.bits.local-booster-blocks.hover",
-                    "itemStack": {
-                        "type": "CLAY_BALL",
-                        "data": {
-                            "other": "blocks"
-                        }
-                    },
-                    "onTryBuy": [
-                        "buy-product %player% true 75 1 local-booster %player% blocks 2 7200"
-                    ],
-                    "placeholders": [
-                        1,
-                        75
-                    ]
-                },
-                {
-                    "title": "destruction.shop.bits.local-booster-explosions.title",
-                    "description": "",
-                    "hover": "destruction.shop.bits.local-booster-explosions.hover",
-                    "itemStack": {
-                        "type": "TNT"
-                    },
-                    "onTryBuy": [
-                        "buy-product %player% true 75 1 local-booster %player% explosions 2 7200"
-                    ],
-                    "placeholders": [
-                        75,
-                        1
-                    ]
-                },
-                {
-                    "title": "destruction.shop.bits.default-key.title",
-                    "description": "",
-                    "hover": "destruction.shop.bits.default-key.hover",
-                    "itemStack": {
-                        "type": "TRIPWIRE_HOOK",
-                        "enchantments": {
-                            "DAMAGE_ALL": 1
-                        }
-                    },
-                    "onTryBuy": [
-                        "buy-product %player% true 149 1 give-key %player% DEFAULT 1"
-                    ],
-                    "placeholders": [
-                        1,
-                        149
-                    ]
-                },
-                {
-                    "title": "destruction.shop.bits.pet-key.title",
-                    "description": "",
-                    "hover": "destruction.shop.bits.pet-key.hover",
-                    "itemStack": {
-                        "type": "TRIPWIRE_HOOK",
-                        "enchantments": {
-                            "DAMAGE_ALL": 1
-                        }
-                    },
-                    "onTryBuy": [
-                        "buy-product %player% true 149 1 give-key %player% PET 1"
-                    ],
-                    "placeholders": [
-                        1,
-                        149
-                    ]
-                }
-            ]
-        }
-    ]
+    "bitsShop": {
+        "title": "treasures.shop.bits.title",
+        "vault": "\uE1D1",
+        "products": [
+            {
+                "title": "treasures.shop.bits.product.money_booster.title",
+                "hover": "treasures.shop.bits.product.money_booster.hover",
+                "icon": "money_boost.png",
+                "price": 75.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "local-booster %player% MONEY 2 7200"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.exp_booster.title",
+                "hover": "treasures.shop.bits.product.exp_booster.hover",
+                "icon": "xp_booster.png",
+                "price": 75.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "local-booster %player% EXP 2 7200"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.blocks_booster.title",
+                "hover": "treasures.shop.bits.product.blocks_booster.hover",
+                "icon": "achievements_many_rare.png",
+                "price": 75.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "local-booster %player% BLOCKS 2 7200"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.treasures_booster.title",
+                "hover": "treasures.shop.bits.product.treasures_booster.hover",
+                "icon": "red_chest.png",
+                "price": 75.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "local-booster %player% TREASURES 2 7200"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.default_key.title",
+                "hover": "treasures.lootbox.default.key-description",
+                "icon": "goldkey.png",
+                "price": 149.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-key %player% DEFAULT 1"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.pet_key.title",
+                "hover": "treasures.lootbox.pets.key-description",
+                "icon": "fox_key.png",
+                "price": 149.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-key %player% PET 1"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.map.title",
+                "hover": "treasures.items.map.lore",
+                "icon": "iron_bracelet.png",
+                "price": 249.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-perk %player% MAP"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.clever.title",
+                "hover": "treasures.items.clever.lore",
+                "icon": "gold_bracelet.png",
+                "price": 349.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-perk %player% CLEVER"
+                ]
+            }
+        ]
+    },
+    "messages": {
+        "moreMoney": "treasures.shop.messages.more-money",
+        "noSubscription": "treasures.shop.messages.no-subscription"
+    }
 }

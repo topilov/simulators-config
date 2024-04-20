@@ -3,18 +3,15 @@
     "default": {
       "title": "treasures.lootbox.default.title",
       "keyTitle": "treasures.lootbox.default.key-title",
-      "giveMessage": "i18n.treasures.lootbox.default.give-message|!|§8[§ai§8]§f|!|treasures.lootbox.default.key-title",
+      "giveMessage": "i18n.treasures.lootbox.default.give-message|!|treasures.lootbox.default.key-title",
       "alertMessage": "treasures.lootbox.default.message.alert",
-      "useMessage": "i18n.treasures.lootbox.message.use|!|§8[§ci§8]§f|!|treasures.lootbox.default.key-title",
+      "useMessage": "i18n.treasures.lootbox.message.use|!|treasures.lootbox.default.key-title",
       "keyStack": {
         "type": "CLAY_BALL",
         "name": "treasures.lootbox.default.key-title",
         "lore": "treasures.lootbox.default.key-description",
-        "enchantments": {
-          "DAMAGE_ALL": 1
-        },
         "data": {
-          "other": "key",
+          "sim": "goldkey",
           "no-clear": 1
         },
         "flags": [
@@ -38,7 +35,7 @@
         "texture": "lootboxes.png",
         "elements": [
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
               "name": "i18n.treasures.lootbox.reward.percent-money.title|!|5%",
@@ -57,7 +54,7 @@
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
               "name": "i18n.treasures.lootbox.reward.percent-money.title|!|10%",
@@ -76,10 +73,10 @@
             ]
           },
           {
-            "rare": "MYTHIC",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "CHORUS_FRUIT_POPPED",
-              "name": "treasures.itemStacks.save-crystal.name",
+              "name": "treasures.items.save-crystal.name",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -88,11 +85,11 @@
             },
             "chance": 5,
             "onDrop": [
-              "give-itemStack %player% SAVE_CRYSTAL 1"
+              "give-item %player% SAVE_CRYSTAL 1"
             ]
           },
           {
-            "rare": "LEGENDARY",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "WOOD_PICKAXE",
               "name": "treasures.tool.pickaxe.luck.title",
@@ -113,18 +110,15 @@
     "pets": {
       "title": "treasures.lootbox.pets.title",
       "keyTitle": "treasures.lootbox.pets.key-title",
-      "giveMessage": "i18n.treasures.lootbox.default.give-message|!|§8[§ai§8]§f|!|treasures.lootbox.pets.key-title",
+      "giveMessage": "i18n.treasures.lootbox.default.give-message|!|treasures.lootbox.pets.key-title",
       "alertMessage": "treasures.lootbox.pets.message.alert",
       "useMessage": "i18n.treasures.lootbox.message.use|!|§8[§ci§8]§f|!|treasures.lootbox.pets.key-title",
       "keyStack": {
         "type": "CLAY_BALL",
         "name": "treasures.lootbox.pets.key-title",
         "lore": "treasures.lootbox.pets.key-description",
-        "enchantments": {
-          "DAMAGE_ALL": 1
-        },
         "data": {
-          "other": "key",
+          "sim": "fox_key",
           "no-clear": 1
         },
         "flags": [
@@ -145,11 +139,11 @@
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "menu": {
         "id": "pets",
-        "title": "pets.lootbox.pets.menu.title",
+        "title": "treasures.lootbox.pets.menu.title",
         "texture": "lootboxes.png",
         "elements": [
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.chest.name",
@@ -162,7 +156,7 @@
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.elephant.name",
@@ -175,7 +169,7 @@
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.chick.name",
@@ -188,7 +182,7 @@
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.pirate-parrot.name",
@@ -201,7 +195,7 @@
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.hedgehog.name",
@@ -214,7 +208,7 @@
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.fox.name",
@@ -227,7 +221,7 @@
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.treasure.name",
@@ -240,7 +234,7 @@
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.pirate.name",
@@ -253,7 +247,7 @@
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.fish.name",
@@ -266,7 +260,7 @@
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.captain.name",
@@ -279,7 +273,7 @@
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.pug.name",
@@ -292,7 +286,7 @@
             ]
           },
           {
-            "rare": "MYTHIC",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.ninja.name",
@@ -305,7 +299,7 @@
             ]
           },
           {
-            "rare": "MYTHIC",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.cookie.name",
@@ -318,7 +312,7 @@
             ]
           },
           {
-            "rare": "MYTHIC",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.mushroom.name",
@@ -331,7 +325,7 @@
             ]
           },
           {
-            "rare": "MYTHIC",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.rune.name",
@@ -344,7 +338,7 @@
             ]
           },
           {
-            "rare": "LEGENDARY",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.bee.name",
@@ -357,7 +351,7 @@
             ]
           },
           {
-            "rare": "LEGENDARY",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.fugue.name",
@@ -370,7 +364,7 @@
             ]
           },
           {
-            "rare": "LEGENDARY",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.earth.name",
@@ -383,7 +377,7 @@
             ]
           },
           {
-            "rare": "LEGENDARY",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.owl.name",
@@ -396,7 +390,7 @@
             ]
           },
           {
-            "rare": "LEGENDARY",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.pet.treasures.name",
@@ -414,18 +408,15 @@
     "rune": {
       "title": "treasures.lootbox.runes.title",
       "keyTitle": "treasures.lootbox.runes.key-title",
-      "giveMessage": "i18n.treasures.lootbox.default.give-message|!|§8[§ai§8]§f|!|treasures.lootbox.runes.key-title",
+      "giveMessage": "i18n.treasures.lootbox.default.give-message|!|treasures.lootbox.runes.key-title",
       "alertMessage": "treasures.lootbox.runes.message.alert",
       "useMessage": "i18n.treasures.lootbox.message.use|!|§8[§ci§8]§f|!|treasures.lootbox.runes.key-title",
       "keyStack": {
         "type": "CLAY_BALL",
         "name": "treasures.lootbox.runes.key-title",
         "lore": "treasures.lootbox.runes.key-description",
-        "enchantments": {
-          "DAMAGE_ALL": 1
-        },
         "data": {
-          "other": "key",
+          "sim": "rune_key",
           "no-clear": 1
         },
         "flags": [
@@ -445,11 +436,11 @@
       ],
       "menu": {
         "id": "rune",
-        "title": "treasures.lootbox.rune.menu.title",
+        "title": "treasures.lootbox.runes.menu.title",
         "texture": "lootboxes.png",
         "elements": [
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.seller.name",
@@ -462,7 +453,7 @@
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.miner.name",
@@ -475,7 +466,7 @@
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.digger.name",
@@ -488,7 +479,7 @@
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.bits.name",
@@ -501,7 +492,85 @@
             ]
           },
           {
-            "rare": "MYTHIC",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "treasures.runes.pirate.name",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 5,
+            "onDrop": [
+              "give-rune %player% PIRATE 1000000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "treasures.runes.haste.name",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+            },
+            "chance": 5,
+            "onDrop": [
+              "give-rune %player% HASTE 1000000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "treasures.runes.luck.name",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+            },
+            "chance": 5,
+            "onDrop": [
+              "give-rune %player% LUCK 1000000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "treasures.runes.boom.name",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+            },
+            "chance": 5,
+            "onDrop": [
+              "give-rune %player% BOOM 1000000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "treasures.runes.boom.name",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+            },
+            "chance": 5,
+            "onDrop": [
+              "give-rune %player% BOOM 1000000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "treasures.runes.treasure.name",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 5,
+            "onDrop": [
+              "give-rune %player% TREASURE 1000000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.blacksmith.name",
@@ -514,20 +583,7 @@
             ]
           },
           {
-            "rare": "MYTHIC",
-            "itemStack": {
-              "type": "SKULL_ITEM",
-              "name": "treasures.runes.explosion.name",
-              "damage": 3,
-              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-            },
-            "chance": 5,
-            "onDrop": [
-              "give-rune %player% EXPLOSION 1000000"
-            ]
-          },
-          {
-            "rare": "MYTHIC",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.lucky.name",
@@ -540,7 +596,20 @@
             ]
           },
           {
-            "rare": "LEGENDARY",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "treasures.runes.collector.name",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 0.5,
+            "onDrop": [
+              "give-rune %player% COLLECTOR 5000000"
+            ]
+          },
+          {
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.pet.name",
@@ -553,10 +622,10 @@
             ]
           },
           {
-            "rare": "LEGENDARY",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
-              "name": "treasures.runes.super_player.name",
+              "name": "treasures.runes.super-player.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -566,7 +635,7 @@
             ]
           },
           {
-            "rare": "LEGENDARY",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.upgrade.name",
@@ -584,18 +653,15 @@
     "title": {
       "title": "treasures.lootbox.titles.title",
       "keyTitle": "treasures.lootbox.titles.key-title",
-      "giveMessage": "i18n.treasures.lootbox.default.give-message|!|§8[§ai§8]§f|!|treasures.lootbox.titles.key-title",
+      "giveMessage": "i18n.treasures.lootbox.default.give-message|!|treasures.lootbox.titles.key-title",
       "alertMessage": "treasures.lootbox.titles.message.alert",
       "useMessage": "i18n.treasures.lootbox.message.use|!|§8[§ci§8]§f|!|treasures.lootbox.titles.key-title",
       "keyStack": {
         "type": "CLAY_BALL",
         "name": "treasures.lootbox.titles.key-title",
         "lore": "treasures.lootbox.titles.key-description",
-        "enchantments": {
-          "DAMAGE_ALL": 1
-        },
         "data": {
-          "other": "key",
+          "sim": "purple_crystal_key",
           "no-clear": 1
         },
         "flags": [
@@ -615,329 +681,427 @@
       ],
       "menu": {
         "id": "title",
-        "title": "treasures.lootbox.title.menu.title",
+        "title": "treasures.lootbox.titles.menu.title",
         "texture": "lootboxes.png",
         "elements": [
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.wrecker.name",
+              "name": "treasures.titles.longboat.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% WRECKER 500000"
+              "give-title %player% LONGBOAT 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.disassembler.name",
+              "name": "treasures.titles.raider.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% DISASSEMBLER 500000"
+              "give-title %player% RAIDER 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.seismic.name",
+              "name": "treasures.titles.pilot.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% SEISMIC 500000"
+              "give-title %player% PILOT 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.cataclysm.name",
+              "name": "treasures.titles.tramp.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% CATACLYSM 500000"
+              "give-title %player% TRAMP 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.bombardier.name",
+              "name": "treasures.titles.earner.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% BOMBARDIER 500000"
+              "give-title %player% EARNER 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.kamikaze.name",
+              "name": "treasures.titles.treasure-hunter.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% KAMIKAZE 500000"
+              "give-title %player% TREASURE_HUNTER 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.earthquake.name",
+              "name": "treasures.titles.skipper.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% EARTHQUAKE 500000"
+              "give-title %player% SKIPPER 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.collapse.name",
+              "name": "treasures.titles.outlaw.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% COLLAPSE 500000"
+              "give-title %player% OUTLAW 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.storm.name",
+              "name": "treasures.titles.sand-walker.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% STORM 500000"
+              "give-title %player% SAND_WALKER 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.meteorite.name",
+              "name": "treasures.titles.silversmith.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% METEORITE 500000"
+              "give-title %player% SILVERSMITH 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.breakage.name",
+              "name": "treasures.titles.rarity-stone.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% BREAKAGE 500000"
+              "give-title %player% RARE_STONE 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.mess.name",
+              "name": "treasures.titles.invader.name",
               "data": {
                 "other": "cup"
               }
             },
             "name": 4.3125,
             "onDrop": [
-              "give-title %player% MESS 500000"
+              "give-title %player% INVADER 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.annihilation.name",
+              "name": "treasures.titles.stonemason.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% ANNIHILATION 500000"
+              "give-title %player% STONEMASON 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.destroyer.name",
+              "name": "treasures.titles.breakwater.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% DESTROYER 500000"
+              "give-title %player% BREAKWATER 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.explosion.name",
+              "name": "treasures.titles.grotto.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% EXPLOSION 500000"
+              "give-title %player% GROTTO 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.smasher.name",
+              "name": "treasures.titles.galleon.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 4.3125,
             "onDrop": [
-              "give-title %player% SMASHER 500000"
+              "give-title %player% GALLEON 500000"
             ]
           },
           {
-            "rare": "COMMON",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.ruin.name",
+              "name": "treasures.titles.messenger.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 10,
             "onDrop": [
-              "give-title %player% RUIN 500000"
+              "give-title %player% MESSENGER 500000"
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.siege.name",
+              "name": "treasures.titles.filibuster.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 5,
             "onDrop": [
-              "give-title %player% SIEGE 500000"
+              "give-title %player% FILIBUSTER 500000"
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.chaos.name",
+              "name": "treasures.titles.corsair.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 5,
             "onDrop": [
-              "give-title %player% CHAOS 500000"
+              "give-title %player% CORSAIR 500000"
             ]
           },
           {
-            "rare": "RARE",
+            "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.demolition.name",
+              "name": "treasures.titles.islander.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 5,
             "onDrop": [
-              "give-title %player% DEMOLITION 500000"
+              "give-title %player% ISLANDER 500000"
             ]
           },
           {
-            "rare": "MYTHIC",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.bomber.name",
+              "name": "treasures.titles.sailor.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 2,
             "onDrop": [
-              "give-title %player% BOMBER 500000"
+              "give-title %player% SAILOR 500000"
             ]
           },
           {
-            "rare": "MYTHIC",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.bearer.name",
+              "name": "treasures.titles.privateer.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 2,
             "onDrop": [
-              "give-title %player% BEARER 500000"
+              "give-title %player% PRIVATEER 500000"
             ]
           },
           {
-            "rare": "MYTHIC",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "treasures.titles.vortex.name",
+              "name": "treasures.titles.buccaneer.name",
               "data": {
                 "other": "cup"
               }
             },
             "chance": 2,
             "onDrop": [
-              "give-title %player% VORTEX 500000"
+              "give-title %player% BUCCANEER 500000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "treasures.titles.gold-miner.name",
+              "data": {
+                "other": "cup"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% GOLD_MINER 500000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "treasures.titles.cartographer.name",
+              "data": {
+                "other": "cup"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% CARTOGRAPHER 500000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "treasures.titles.boarder.name",
+              "data": {
+                "other": "cup"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% BOARDER 500000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "treasures.titles.turtle.name",
+              "data": {
+                "other": "cup"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% TURTLE 500000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "treasures.titles.chest-specialist.name",
+              "data": {
+                "other": "cup"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% CHEST_SPECIALIST 500000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "treasures.titles.navigator.name",
+              "data": {
+                "other": "cup"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% NAVIGATOR 500000"
+            ]
+          },
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "treasures.titles.caravel.name",
+              "data": {
+                "other": "cup"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% CARAVEL 500000"
             ]
           }
         ]

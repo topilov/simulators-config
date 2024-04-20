@@ -4,22 +4,16 @@
   "tools": {
     "PICKAXE": {
       "tag": "pickaxe",
-      "pipeline": {
-        "menuTitle": "treasures.tool.pipeline.menu-title",
-        "menuDescription": "treasures.tool.pipeline.menu-description",
-        "title": "treasures.tool.pickaxe.pipeline.title",
-        "description": "treasures.tool.pipeline.description",
-        "messages": {
-          "moreMoney": "treasures.tool.pickaxe.pipeline.message.more-money",
-          "success": "treasures.tool.pickaxe.pipeline.message.success"
-        }
+      "messages": {
+        "moreMoney": "treasures.tool.pickaxe.pipeline.message.more-money",
+        "success": "treasures.tool.pickaxe.pipeline.message.success",
+        "max": "treasures.tool.pickaxe.pipeline.message.max"
       },
       "rares": {
         "DEFAULT": {
           "rare": "COMMON",
-          "name": "DEFAULT_PICKAXE",
-          "hover": "treasures.tool.pickaxe.default.hover",
           "title": "treasures.tool.pickaxe.default.title",
+          "formattedTitle": "i18n.treasures.tool.pickaxe.default.title|!|§7",
           "description": "treasures.tool.pickaxe.default.description",
           "levels": {
             "1": {
@@ -214,10 +208,9 @@
           }
         },
         "LUCK": {
-          "rare": "MYTHIC",
-          "name": "LUCKY_PICKAXE",
-          "hover": "treasures.tool.pickaxe.luck.hover",
+          "rare": "EPIC",
           "title": "treasures.tool.pickaxe.luck.title",
+          "formattedTitle": "i18n.treasures.tool.pickaxe.luck.title|!|§d",
           "description": "treasures.tool.pickaxe.luck.description",
           "levels": {
             "1": {
@@ -466,10 +459,9 @@
           }
         },
         "DONATE": {
-          "rare": "IMMORTAL",
-          "name": "LUCKY_PICKAXE",
-          "hover": "treasures.tool.pickaxe.donate.hover",
+          "rare": "MYTHIC",
           "title": "treasures.tool.pickaxe.donate.title",
+          "formattedTitle": "i18n.treasures.tool.pickaxe.donate.title|!|§e",
           "description": "treasures.tool.pickaxe.donate.description",
           "levels": {
             "1": {
@@ -718,10 +710,9 @@
           }
         },
         "ATTENTIVE": {
-          "rare": "IMMORTAL",
-          "name": "LUCKY_PICKAXE",
-          "hover": "treasures.tool.pickaxe.uniq.hover",
+          "rare": "MYTHIC",
           "title": "treasures.tool.pickaxe.uniq.title",
+          "formattedTitle": "i18n.treasures.tool.pickaxe.uniq.title|!|§c",
           "description": "treasures.tool.pickaxe.uniq.description",
           "levels": {
             "1": {

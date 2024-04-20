@@ -94,12 +94,7 @@
       "confirmationTitle": "treasures.donate.element.pet-slot.title",
       "title": "treasures.donate.element.pet-slot.title",
       "description": "treasures.donate.element.pet-slot.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "pets"
-        }
-      },
+      "texture": "pet_slot.png",
       "category": "OTHER",
       "price": 99,
       "sale": 0,
@@ -107,7 +102,7 @@
         1
       ],
       "onBuy": [
-        "morestat %player% add 1 maxPets"
+        "unlock-pet-slot %player%"
       ]
     },
     "RUNE_SLOT": {
@@ -127,7 +122,7 @@
         1
       ],
       "onBuy": [
-        "morestat %player% add 1 maxRunes"
+        "unlock-rune-slot %player%"
       ]
     },
     "MONEY_BAG": {
@@ -135,12 +130,7 @@
       "confirmationTitle": "treasures.donate.element.money-bag.title",
       "title": "treasures.donate.element.money-bag.title",
       "description": "treasures.donate.element.money-bag.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "bag1"
-        }
-      },
+      "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 39,
       "sale": 0,
@@ -159,12 +149,7 @@
       "confirmationTitle": "treasures.donate.element.money-handful.title",
       "title": "treasures.donate.element.money-handful.title",
       "description": "treasures.donate.element.money-handful.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "bag1"
-        }
-      },
+      "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 9,
       "sale": 0,
@@ -183,9 +168,12 @@
       "title": "treasures.donate.element.legendary-tools.title",
       "description": "treasures.donate.element.legendary-tools.description",
       "item": {
-        "type": "GOLD_PICKAXE",
+        "type": "IRON_PICKAXE",
         "enchantments": {
           "DIG_SPEED": 1
+        },
+        "data": {
+          "sim_pickaxe": "donate1"
         }
       },
       "category": "GAME_ITEMS",
@@ -224,15 +212,7 @@
       "confirmationTitle": "treasures.donate.element.default-key.title",
       "title": "treasures.donate.element.default-key.title",
       "description": "treasures.donate.element.default-key.description",
-      "item": {
-        "type": "TRIPWIRE_HOOK",
-        "enchantments": {
-          "DIG_SPEED": 1
-        },
-        "data": {
-          "other": "key"
-        }
-      },
+      "texture": "goldkey.png",
       "category": "GAME_ITEMS",
       "price": 39,
       "sale": 0,
@@ -251,9 +231,7 @@
       "confirmationTitle": "treasures.donate.element.title-key.title",
       "title": "treasures.donate.element.title-key.title",
       "description": "treasures.donate.element.title-key.description",
-      "item": {
-        "type": "TRIPWIRE_HOOK"
-      },
+      "texture": "purple_cristal_key.png",
       "category": "GAME_ITEMS",
       "price": 129,
       "sale": 0,
@@ -272,15 +250,7 @@
       "confirmationTitle": "treasures.donate.element.pet-key.title",
       "title": "treasures.donate.element.pet-key.title",
       "description": "treasures.donate.element.pet-key.description",
-      "item": {
-        "type": "TRIPWIRE_HOOK",
-        "enchantments": {
-          "DIG_SPEED": 1
-        },
-        "data": {
-          "other": "key"
-        }
-      },
+      "texture": "fox_key.png",
       "category": "GAME_ITEMS",
       "price": 49,
       "sale": 0,
@@ -299,9 +269,7 @@
       "confirmationTitle": "treasures.donate.element.rune-key.title",
       "title": "treasures.donate.element.rune-key.title",
       "description": "treasures.donate.element.rune-key.description",
-      "item": {
-        "type": "TRIPWIRE_HOOK"
-      },
+      "texture": "rune_key.png",
       "category": "GAME_ITEMS",
       "price": 129,
       "sale": 0,
@@ -315,39 +283,12 @@
         "give-key %player% RUNE 1"
       ]
     },
-    "INSTANTLY_OPEN": {
-      "donateName": "treasures.donate.element.instantly-open.donate-name",
-      "confirmationTitle": "treasures.donate.element.instantly-open.title",
-      "title": "treasures.donate.element.instantly-open.title",
-      "description": "treasures.donate.element.instantly-open.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "new_lvl_rare_close"
-        }
-      },
-      "category": "OTHER_FEATURES",
-      "price": 199,
-      "sale": 0,
-      "max": 1,
-      "count": [
-        1
-      ],
-      "onBuy": [
-        "morestat %player% set true instantlyOpenLootbox"
-      ]
-    },
     "AUTO_OPEN": {
       "donateName": "treasures.donate.element.auto-open.donate-name",
       "confirmationTitle": "treasures.donate.element.auto-open.title",
       "title": "treasures.donate.element.auto-open.title",
       "description": "treasures.donate.element.auto-open.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "skyblock": "skills"
-        }
-      },
+      "texture": "autocase.png",
       "category": "OTHER_FEATURES",
       "price": 999,
       "sale": 0,
@@ -364,13 +305,7 @@
       "confirmationTitle": "treasures.donate.element.infinity-storage.title",
       "title": "treasures.donate.element.infinity-storage.title",
       "description": "treasures.donate.element.infinity-storage.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "bag",
-          "color": 9521389
-        }
-      },
+      "texture": "storage.png",
       "category": "OTHER_FEATURES",
       "price": 199,
       "sale": 0,
@@ -386,9 +321,7 @@
       "donateName": "treasures.donate.element.super-player.donate-name",
       "title": "treasures.donate.element.super-player.title",
       "description": "treasures.donate.element.super-player.description",
-      "item": {
-        "type": "END_CRYSTAL"
-      },
+      "texture": "vip.png",
       "category": "OTHER_FEATURES",
       "price": 69,
       "sale": 0,
@@ -404,9 +337,7 @@
       "confirmationTitle": "treasures.donate.element.speed-perk.title",
       "title": "treasures.donate.element.speed-perk.title",
       "description": "treasures.donate.element.speed-perk.description",
-      "item": {
-        "type": "FEATHER"
-      },
+      "texture": "speed.png",
       "category": "OTHER_FEATURES",
       "price": 49,
       "sale": 0,
@@ -424,9 +355,7 @@
       "donateName": "treasures.donate.element.global-exp.donate-name",
       "title": "treasures.donate.element.global-exp.title",
       "description": "treasures.donate.element.global-exp.description",
-      "item": {
-        "type": "DRAGONS_BREATH"
-      },
+      "texture": "xp_booster.png",
       "category": "BOOSTERS",
       "price": 199,
       "sale": 0,
@@ -437,16 +366,14 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% exp 2 3600"
+        "global-booster %player% EXP 2 3600"
       ]
     },
     "LOCAL_EXP": {
       "donateName": "treasures.donate.element.local-exp.donate-name",
       "title": "treasures.donate.element.local-exp.title",
       "description": "treasures.donate.element.local-exp.description",
-      "item": {
-        "type": "DRAGONS_BREATH"
-      },
+      "texture": "xp_booster.png",
       "category": "BOOSTERS",
       "price": 149,
       "sale": 0,
@@ -456,19 +383,14 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% exp 2 14400"
+        "local-booster %player% EXP 2 14400"
       ]
     },
     "GLOBAL_TREASURES": {
       "donateName": "treasures.donate.element.global-treasures.donate-name",
       "title": "treasures.donate.element.global-treasures.title",
       "description": "treasures.donate.element.global-treasures.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "win"
-        }
-      },
+      "texture": "red_chest.png",
       "category": "BOOSTERS",
       "price": 169,
       "sale": 0,
@@ -479,19 +401,14 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% treasures 2 3600"
+        "global-booster %player% TREASURES 2 3600"
       ]
     },
     "LOCAL_TREASURES": {
       "donateName": "treasures.donate.element.local-treasures.donate-name",
       "title": "treasures.donate.element.local-treasures.title",
       "description": "treasures.donate.element.local-treasures.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "win"
-        }
-      },
+      "texture": "red_chest.png",
       "category": "BOOSTERS",
       "price": 119,
       "sale": 0,
@@ -501,7 +418,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% treasures 2 14400"
+        "local-booster %player% TREASURES 2 14400"
       ]
     },
     "GLOBAL_BLOCKS": {
@@ -524,7 +441,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% blocks 2 3600"
+        "global-booster %player% BLOCKS 2 3600"
       ]
     },
     "LOCAL_BLOCKS": {
@@ -546,16 +463,14 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% blocks 2 14400"
+        "local-booster %player% BLOCKS 2 14400"
       ]
     },
     "GLOBAL_MONEY": {
       "donateName": "treasures.donate.element.global-money.donate-name",
       "title": "treasures.donate.element.global-money.title",
       "description": "treasures.donate.element.global-money.description",
-      "item": {
-        "type": "GOLD_NUGGET"
-      },
+      "texture": "money_boost.png",
       "category": "BOOSTERS",
       "price": 169,
       "alert": true,
@@ -565,7 +480,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% money 2 3600"
+        "global-booster %player% MONEY 2 3600"
       ]
     },
     "LOCAL_MONEY": {
@@ -573,9 +488,7 @@
       "confirmationTitle": "treasures.donate.element.local-money.title",
       "title": "treasures.donate.element.local-money.title",
       "description": "treasures.donate.element.local-money.description",
-      "item": {
-        "type": "GOLD_NUGGET"
-      },
+      "texture": "money_boost.png",
       "category": "BOOSTERS",
       "price": 119,
       "count": [
@@ -584,16 +497,14 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% money 2 14400"
+        "local-booster %player% MONEY 2 14400"
       ]
     },
     "GLOBAL_ALL": {
       "donateName": "treasures.donate.element.global-all.donate-name",
       "title": "treasures.donate.element.global-all.title",
       "description": "treasures.donate.element.global-all.description",
-      "item": {
-        "type": "CHEST"
-      },
+      "texture": "all_boost.png",
       "category": "BOOSTERS",
       "price": 399,
       "alert": true,
@@ -603,19 +514,17 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% blocks 2 3600",
-        "global-booster %player% treasures 2 3600",
-        "global-booster %player% exp 2 3600",
-        "global-booster %player% money 2 3600"
+        "global-booster %player% BLOCKS 2 3600",
+        "global-booster %player% TREASURES 2 3600",
+        "global-booster %player% EXP 2 3600",
+        "global-booster %player% MONEY 2 3600"
       ]
     },
     "LOCAL_ALL": {
       "donateName": "treasures.donate.element.local-all.donate-name",
       "title": "treasures.donate.element.local-all.title",
       "description": "treasures.donate.element.local-all.description",
-      "item": {
-        "type": "CHEST"
-      },
+      "texture": "all_boost.png",
       "category": "BOOSTERS",
       "price": 349,
       "count": [
@@ -624,10 +533,10 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% blocks 2 14400",
-        "local-booster %player% treasures 2 14400",
-        "local-booster %player% exp 2 14400",
-        "local-booster %player% money 2 14400"
+        "local-booster %player% BLOCKS 2 14400",
+        "local-booster %player% TREASURES 2 14400",
+        "local-booster %player% EXP 14400",
+        "local-booster %player% MONEY 2 14400"
       ]
     }
   }
