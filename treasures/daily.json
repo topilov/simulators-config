@@ -30,6 +30,7 @@
       },
       "onSuccess": [
         "earn-bits %player% 25",
+        "give-key %player% TITLE 1",
         "take-daily %player% 2"
       ]
     },
@@ -43,6 +44,7 @@
       },
       "onSuccess": [
         "give-key %player% DEFAULT 1",
+        "give-key %player% TITLE 1",
         "take-daily %player% 3"
       ]
     },
@@ -56,6 +58,7 @@
       },
       "onSuccess": [
         "earn-bits %player% 50",
+        "give-key %player% TITLE 1",
         "take-daily %player% 4"
       ]
     },
@@ -72,6 +75,7 @@
       },
       "onSuccess": [
         "give-key %player% PET 1",
+        "give-key %player% TITLE 1",
         "take-daily %player% 5"
       ]
     },
@@ -85,6 +89,7 @@
       },
       "onSuccess": [
         "earn-bits %player% 75",
+        "give-key %player% TITLE 1",
         "take-daily %player% 6"
       ]
     },
@@ -97,6 +102,7 @@
         }
       },
       "onSuccess": [
+        "give-key %player% TITLE 1",
         "local-booster %player% blocks 2 3600",
         "local-booster %player% explosions 2 3600",
         "local-booster %player% exp 2 3600",
