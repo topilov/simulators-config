@@ -32,9 +32,7 @@
       "price": 129,
       "sale": 0,
       "count": [
-        1,
-        3,
-        5
+        1
       ],
       "onBuy": [
         "payload gifts-default"
@@ -55,9 +53,7 @@
       "price": 119,
       "sale": 0,
       "count": [
-        1,
-        3,
-        5
+        1
       ],
       "onBuy": [
         "payload gifts-pet"
@@ -78,9 +74,7 @@
       "price": 199,
       "sale": 0,
       "count": [
-        1,
-        3,
-        5
+        1
       ],
       "onBuy": [
         "payload gifts-rune"
@@ -176,11 +170,13 @@
       "category": "GAME_ITEMS",
       "price": 499,
       "sale": 0,
+      "max": 1,
       "count": [
         1
       ],
       "onBuy": [
-        "give-tool %player% PICKAXE DONATE_PICKAXE"
+        "give-tool %player% PICKAXE DONATE_PICKAXE",
+        "morestat %player% set true hasLegendaryTools"
       ]
     },
     "SAVE_CRYSTAL": {
