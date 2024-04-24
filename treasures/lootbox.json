@@ -101,19 +101,22 @@
             },
             "chance": 10,
             "onDrop": [
-              "give-tnt %player% 1"
+              "give-tnt %player% 8"
             ]
           },
           {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "WOOD_PICKAXE",
-              "name": "treasures.tool.pickaxe.luck.title",
+              "name": "i18n.treasures.tool.pickaxe.luck.title|!|§d",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
-              ]
+              ],
+              "data": {
+                "sim_pickaxe": "c2"
+              }
             },
             "chance": 5.5,
             "onDrop": [
