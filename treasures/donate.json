@@ -175,7 +175,8 @@
         1
       ],
       "onBuy": [
-        "give-tool %player% PICKAXE DONATE_PICKAXE"
+        "give-tool %player% PICKAXE DONATE_PICKAXE",
+        "morestat %player% set true hasLegendaryTools"
       ]
     },
     "SAVE_CRYSTAL": {
