@@ -132,7 +132,7 @@
         10
       ],
       "onBuy": [
-        "random-money %player% 15 35"
+        "random-money %player% 15 35 %count%"
       ]
     },
     "MONEY_HANDFUL": {
@@ -151,7 +151,7 @@
         10
       ],
       "onBuy": [
-        "random-money %player% 1 10"
+        "random-money %player% 1 10 %count%"
       ]
     },
     "LEGENDARY_TOOLS": {
@@ -197,7 +197,7 @@
         5
       ],
       "onBuy": [
-        "give-item %player% SAVE_CRYSTAL 1"
+        "give-item %player% SAVE_CRYSTAL %count%"
       ]
     },
     "DEFAULT_KEY": {
@@ -216,7 +216,7 @@
         5
       ],
       "onBuy": [
-        "give-key %player% DEFAULT 1"
+        "give-key %player% DEFAULT %count%"
       ]
     },
     "TITLE_KEY": {
@@ -235,7 +235,7 @@
         5
       ],
       "onBuy": [
-        "give-key %player% TITLE 1"
+        "give-key %player% TITLE %count%"
       ]
     },
     "PET_KEY": {
@@ -254,7 +254,7 @@
         5
       ],
       "onBuy": [
-        "give-key %player% PET 1"
+        "give-key %player% PET %count%"
       ]
     },
     "RUNE_KEY": {
@@ -273,7 +273,7 @@
         5
       ],
       "onBuy": [
-        "give-key %player% RUNE 1"
+        "give-key %player% RUNE %count%"
       ]
     },
     "AUTO_OPEN": {
@@ -358,7 +358,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% EXP 2 3600"
+        "global-booster %player% EXP 2 3600 %count%"
       ]
     },
     "LOCAL_EXP": {
@@ -375,7 +375,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% EXP 2 14400"
+        "local-booster %player% EXP 2 14400 %count%"
       ]
     },
     "GLOBAL_TREASURES": {
@@ -392,7 +392,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% TREASURES 2 3600"
+        "global-booster %player% TREASURES 2 3600 %count%"
       ]
     },
     "LOCAL_TREASURES": {
@@ -409,7 +409,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% TREASURES 2 14400"
+        "local-booster %player% TREASURES 2 14400 %count%"
       ]
     },
     "GLOBAL_BLOCKS": {
@@ -431,7 +431,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% BLOCKS 2 3600"
+        "global-booster %player% BLOCKS 2 3600 %count%"
       ]
     },
     "LOCAL_BLOCKS": {
@@ -453,7 +453,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% BLOCKS 2 14400"
+        "local-booster %player% BLOCKS 2 14400 %count%"
       ]
     },
     "GLOBAL_MONEY": {
@@ -469,7 +469,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% MONEY 2 3600"
+        "global-booster %player% MONEY 2 3600 %count%"
       ]
     },
     "LOCAL_MONEY": {
@@ -486,7 +486,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% MONEY 2 14400"
+        "local-booster %player% MONEY 2 14400 %count%"
       ]
     },
     "GLOBAL_ALL": {
@@ -502,10 +502,10 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% BLOCKS 2 3600",
-        "global-booster %player% TREASURES 2 3600",
-        "global-booster %player% EXP 2 3600",
-        "global-booster %player% MONEY 2 3600"
+        "global-booster %player% BLOCKS 2 3600 %count%",
+        "global-booster %player% TREASURES 2 3600 %count%",
+        "global-booster %player% EXP 2 3600 %count%",
+        "global-booster %player% MONEY 2 3600 %count%"
       ]
     },
     "LOCAL_ALL": {
@@ -521,10 +521,10 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% BLOCKS 2 14400",
-        "local-booster %player% TREASURES 2 14400",
-        "local-booster %player% EXP 2 14400",
-        "local-booster %player% MONEY 2 14400"
+        "local-booster %player% BLOCKS 2 14400 %count%",
+        "local-booster %player% TREASURES 2 14400 %count%",
+        "local-booster %player% EXP 2 14400 %count%",
+        "local-booster %player% MONEY 2 14400 %count%"
       ]
     }
   }
