@@ -89,6 +89,22 @@
             ]
           },
           {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "TNT",
+              "name": "treasures.items.tnt.name",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ]
+            },
+            "chance": 6.5,
+            "onDrop": [
+              "give-tnt %player% 1"
+            ]
+          },
+          {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "WOOD_PICKAXE",
