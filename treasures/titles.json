@@ -301,7 +301,13 @@
       },
       "rare": "RARE",
       "stat": 10,
-      "notification": ""
+      "notification": "",
+      "onWear": [
+        "boost-storage %player% 10"
+      ],
+      "onUnwear": [
+        "unboost-storage %player%"
+      ]
     },
     "SAILOR": {
       "menuTitle": "treasures.titles.sailor.name",
@@ -343,7 +349,13 @@
       },
       "rare": "EPIC",
       "stat": 15,
-      "notification": ""
+      "notification": "",
+      "onWear": [
+        "boost-storage %player% 15"
+      ],
+      "onUnwear": [
+        "unboost-storage %player%"
+      ]
     },
     "GOLD_MINER": {
       "menuTitle": "treasures.titles.gold-miner.name",
