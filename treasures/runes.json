@@ -24,10 +24,11 @@
       "rare": "EPIC",
       "notify": true,
       "canDrop": true,
-      "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 1.1,
-      "per": 0.1,
-      "max": 20.1
+      "upgradeText": "treasures.runes.lucky.ability.upgrade.name",
+      "current": 10,
+      "per": 10,
+      "max": 210,
+      "isPercent": true
     },
     "HASTE": {
       "id": "haste",
@@ -43,7 +44,8 @@
       "canDrop": false,
       "upgradeText": "treasures.runes.ability.upgrade.name",
       "current": 0.1,
-      "per": 0.1
+      "per": 0.1,
+      "isPercent": true
     },
     "LUCK": {
       "id": "luck",
@@ -57,10 +59,11 @@
       "rare": "EPIC",
       "notify": true,
       "canDrop": true,
-      "upgradeText": "treasures.runes.ability.upgrade.name",
+      "upgradeText": "treasures.runes.lucky.ability.upgrade.name",
       "current": 2,
       "per": 2,
-      "max": 34.0
+      "max": 34.0,
+      "isPercent": true
     },
     "BOOM": {
       "id": "boom",
@@ -77,7 +80,8 @@
       "canDrop": false,
       "current": 0.1,
       "per": 0.1,
-      "max": 2.1
+      "max": 2.1,
+      "isPercent": true
     },
     "PET": {
       "id": "pet",
@@ -93,7 +97,8 @@
       "canDrop": true,
       "upgradeText": "treasures.runes.ability.upgrade.name",
       "current": 11,
-      "per": 1
+      "per": 1,
+      "isPercent": true
     },
     "SUPER_PLAYER": {
       "id": "super_player",
@@ -109,7 +114,8 @@
       "canDrop": true,
       "upgradeText": "treasures.runes.ability.upgrade.name",
       "current": 6,
-      "per": 1
+      "per": 1,
+      "isPercent": true
     },
     "SELLER": {
       "id": "seller",
@@ -126,7 +132,8 @@
       "upgradeText": "treasures.runes.ability.upgrade.name",
       "current": 1.5,
       "per": 1.5,
-      "max": 31.5
+      "max": 31.5,
+      "isPercent": true
     },
     "MINER": {
       "id": "miner",
@@ -141,8 +148,9 @@
       "notify": false,
       "canDrop": true,
       "upgradeText": "treasures.runes.miner.ability.upgrade.name",
-      "current": 1.1,
-      "per": 0.1
+      "current": 10,
+      "per": 10,
+      "isPercent": true
     },
     "DIGGER": {
       "id": "digger",
@@ -156,9 +164,10 @@
       "rare": "RARE",
       "notify": false,
       "canDrop": true,
-      "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 1.25,
-      "per": 0.25
+      "upgradeText": "treasures.runes.miner.ability.upgrade.name",
+      "current": 25,
+      "per": 25,
+      "isPercent": true
     },
     "TREASURE": {
       "id": "rune_treasure",
@@ -172,9 +181,10 @@
       "rare": "EPIC",
       "notify": false,
       "canDrop": true,
-      "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 1.25,
-      "per": 0.25
+      "upgradeText": "treasures.runes.miner.ability.upgrade.name",
+      "current": 25,
+      "per": 25,
+      "isPercent": true
     },
     "PIRATE": {
       "id": "rune_pirate",
@@ -191,7 +201,8 @@
       "upgradeText": "treasures.runes.ability.upgrade.name",
       "current": 1.1,
       "per": 1,
-      "max": 35.1
+      "max": 35.1,
+      "isPercent": true
     },
     "COLLECTOR": {
       "id": "collector",
@@ -208,7 +219,8 @@
       "upgradeText": "treasures.runes.ability.upgrade.name",
       "current": 1.5,
       "per": 1.5,
-      "max": 31.5
+      "max": 31.5,
+      "isPercent": true
     },
     "UPGRADE": {
       "id": "upgrade",
@@ -225,7 +237,8 @@
       "upgradeText": "treasures.runes.ability.upgrade.name",
       "current": 1.5,
       "per": 1.5,
-      "max": 55.0
+      "max": 55.0,
+      "isPercent": true
     },
     "BLACKSMITH": {
       "id": "blacksmith",
@@ -242,7 +255,8 @@
       "upgradeText": "treasures.runes.blacksmith.ability.upgrade.name",
       "current": 1.5,
       "per": 1.5,
-      "max": 55.5
+      "max": 55.5,
+      "isPercent": true
     },
     "BITS": {
       "id": "bits",
@@ -259,7 +273,8 @@
       "upgradeText": "treasures.runes.ability.upgrade.name",
       "current": 2,
       "per": 2,
-      "max": "55.5"
+      "max": 55.5,
+      "isPercent": true
     }
   }
 }
