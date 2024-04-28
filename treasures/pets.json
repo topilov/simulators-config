@@ -19,11 +19,14 @@
     "CHEST": {
       "id": "CHEST",
       "title": "treasures.pet.chest.name",
-      "description": "i18n.treasures.pet.menu.hover.1|!|treasures.pet.booster.treasures",
+      "description": "treasures.pet.menu.hover.1",
       "rare": "COMMON",
       "boostersTypes": ["TREASURES"],
       "boosters": {
-        "TREASURES": 1.25
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -38,7 +41,10 @@
       "rare": "COMMON",
       "boostersTypes": ["MONEY"],
       "boosters": {
-        "MONEY": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -53,7 +59,10 @@
       "rare": "COMMON",
       "boostersTypes": ["EXP"],
       "boosters": {
-        "EXP": 1.25
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -68,7 +77,10 @@
       "rare": "COMMON",
       "boostersTypes": ["EXP"],
       "boosters": {
-        "EXP": 1.25
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -83,7 +95,10 @@
       "rare": "COMMON",
       "boostersTypes": ["BLOCKS"],
       "boosters": {
-        "BLOCKS": 1.25
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -98,7 +113,10 @@
       "rare": "COMMON",
       "boostersTypes": ["BLOCKS"],
       "boosters": {
-        "BLOCKS": 1.25
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -116,8 +134,14 @@
         "EXP"
       ],
       "boosters": {
-        "MONEY": 1.25,
-        "EXP": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -135,8 +159,14 @@
         "EXP"
       ],
       "boosters": {
-        "MONEY": 1.25,
-        "EXP": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -154,8 +184,14 @@
         "TREASURES"
       ],
       "boosters": {
-        "BLOCKS": 1.25,
-        "TREASURES": 1.25
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -170,8 +206,14 @@
       "rare": "RARE",
       "boostersTypes": ["MONEY", "TREASURES"],
       "boosters": {
-        "MONEY": 1.25,
-        "TREASURES": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -186,8 +228,14 @@
       "rare": "RARE",
       "boostersTypes": ["EXP", "TREASURES"],
       "boosters": {
-        "EXP": 1.25,
-        "TREASURES": 1.25
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -202,9 +250,18 @@
       "rare": "EPIC",
       "boostersTypes": ["MONEY", "EXP", "BLOCKS"],
       "boosters": {
-        "MONEY": 1.25,
-        "EXP": 1.25,
-        "BLOCKS": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        },
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -219,9 +276,18 @@
       "rare": "EPIC",
       "boostersTypes": ["MONEY", "EXP", "TREASURES"],
       "boosters": {
-        "MONEY": 1.25,
-        "EXP": 1.25,
-        "TREASURES": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -236,9 +302,18 @@
       "rare": "EPIC",
       "boostersTypes": ["MONEY", "BLOCKS", "TREASURES"],
       "boosters": {
-        "MONEY": 1.25,
-        "BLOCKS": 1.25,
-        "TREASURES": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -253,9 +328,18 @@
       "rare": "EPIC",
       "boostersTypes": ["BLOCKS", "EXP", "TREASURES"],
       "boosters": {
-        "BLOCKS": 1.25,
-        "EXP": 1.25,
-        "TREASURES": 1.25
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -270,10 +354,22 @@
       "rare": "LEGENDARY",
       "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
       "boosters": {
-        "MONEY": 1.25,
-        "BLOCKS": 1.25,
-        "EXP": 1.25,
-        "TREASURES": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -288,10 +384,22 @@
       "rare": "LEGENDARY",
       "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
       "boosters": {
-        "MONEY": 1.25,
-        "BLOCKS": 1.25,
-        "EXP": 1.25,
-        "TREASURES": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -306,10 +414,22 @@
       "rare": "LEGENDARY",
       "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
       "boosters": {
-        "MONEY": 1.25,
-        "BLOCKS": 1.25,
-        "EXP": 1.25,
-        "TREASURES": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -324,10 +444,22 @@
       "rare": "LEGENDARY",
       "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
       "boosters": {
-        "MONEY": 1.25,
-        "BLOCKS": 1.25,
-        "EXP": 1.25,
-        "TREASURES": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
@@ -342,10 +474,22 @@
       "rare": "LEGENDARY",
       "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
       "boosters": {
-        "MONEY": 1.25,
-        "BLOCKS": 1.25,
-        "EXP": 1.25,
-        "TREASURES": 1.25
+        "MONEY": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.money"
+        },
+        "BLOCKS": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.blocks"
+        },
+        "EXP": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.exp"
+        },
+        "TREASURES": {
+          "boost": 1.25,
+          "text": "treasures.pet.booster.treasures"
+        }
       },
       "texture": {
         "type": "SKULL_ITEM",
