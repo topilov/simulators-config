@@ -17,10 +17,10 @@
     "removeWhenFarAway": false,
     "name": "katana.livesey.name",
     "onDamage": [
-      "give money"
+      "livesey-damage %damager%"
     ],
     "onDeath": [
-      "end event"
+      "end-local-event LIVESEY"
     ]
   }
 }
