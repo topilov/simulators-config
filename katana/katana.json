@@ -274,7 +274,7 @@
       "canDrop": true,
       "canSell": false,
       "onDamage": [
-
+        "polearm %killer% %victim%"
       ]
     },
     "DRAGON": {
@@ -288,7 +288,7 @@
       "canDrop": true,
       "canSell": false,
       "onCrit": [
-
+        "dragon %killer% %victim%"
       ]
     },
     "BLOODYVENGEANCE": {
@@ -302,7 +302,7 @@
       "canDrop": true,
       "canSell": false,
       "onCrit": [
-
+        "recovery %killer%"
       ]
     },
     "NATURE": {
@@ -316,7 +316,7 @@
       "canDrop": true,
       "canSell": false,
       "onCrit": [
-
+        "nature %killer% %victim%"
       ]
     },
     "SABRE": {
@@ -330,7 +330,7 @@
       "canDrop": true,
       "canSell": false,
       "onCrit": [
-
+        "freeze %killer% %victim%"
       ]
     },
     "CLEAVER": {
@@ -344,7 +344,7 @@
       "canDrop": true,
       "canSell": false,
       "onCrit": [
-
+        "ninja %killer%"
       ]
     },
     "VINDICATOR": {
@@ -358,7 +358,7 @@
       "canDrop": true,
       "canSell": false,
       "onCrit": [
-
+        "lightning %killer% %victim%"
       ]
     },
     "MACE": {
@@ -372,7 +372,7 @@
       "canDrop": true,
       "canSell": false,
       "onCrit": [
-
+        "blindness %killer% %victim%"
       ]
     },
     "SIZE": {
@@ -386,7 +386,7 @@
       "canDrop": true,
       "canSell": false,
       "onCrit": [
-
+        "reduction %killer%"
       ]
     },
     "MAGIC": {
@@ -400,7 +400,7 @@
       "canDrop": true,
       "canSell": false,
       "onCrit": [
-
+        "magic %killer% %victim%"
       ]
     },
     "AZURE": {
@@ -414,7 +414,7 @@
       "canDrop": false,
       "canSell": true,
       "onCrit": [
-
+        "azure %killer% %victim%"
       ]
     },
     "SKELETONAXE": {
@@ -428,7 +428,7 @@
       "canDrop": false,
       "canSell": true,
       "onCrit": [
-
+        "money %killer% 0.3 0.5"
       ]
     },
     "BLUDGEON": {
@@ -442,7 +442,7 @@
       "canDrop": false,
       "canSell": true,
       "onCrit": [
-
+        "stun %killer% %victim%"
       ]
     },
     "RUNIC": {
@@ -456,7 +456,7 @@
       "canDrop": false,
       "canSell": true,
       "onDamage": [
-
+        "earn-hits %killer% 1.0"
       ]
     },
     "DEVIL": {
@@ -470,7 +470,7 @@
       "canDrop": false,
       "canSell": false,
       "onKill": [
-
+        "earn-kills %killer% 1.0"
       ]
     },
     "LEGENDARY": {
@@ -484,13 +484,13 @@
       "canDrop": false,
       "canSell": false,
       "onDamage": [
-
+        "random-katana %killer% %victim% damage"
       ],
       "onKill": [
-
+        "random-katana %killer% %victim% kill"
       ],
       "onCrit": [
-
+        "random-katana %killer% %victim% crit"
       ]
     }
   }
