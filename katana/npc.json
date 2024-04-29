@@ -1,10 +1,9 @@
 {
   "npc": [
     {
-      "name": "treasures.npc.sell.blocks.title",
+      "name": "katana.npc.sell.dnk.title",
       "location": {
-        "name": "sell",
-        "tag": "blocks"
+        "name": "sell"
       },
       "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/sell_blocks.png",
       "skinType": "SLIM",
@@ -14,10 +13,9 @@
       ]
     },
     {
-      "name": "treasures.npc.upgrade.pickaxe.title",
+      "name": "katana.npc.upgrade.items.title",
       "location": {
-        "name": "upgrade",
-        "tag": "items"
+        "name": "upgrade"
       },
       "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/upgrade.png",
       "skinType": "SLIM",
@@ -27,10 +25,9 @@
       ]
     },
     {
-      "name": "treasures.npc.upgrade.storage.title",
+      "name": "katana.npc.upgrade.storage.title",
       "location": {
-        "name": "upgrade",
-        "tag": "storage"
+        "name": "upgrade-dnk"
       },
       "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/upgrade_storage.png",
       "skinType": "SLIM",
@@ -40,10 +37,9 @@
       ]
     },
     {
-      "name": "treasures.npc.upgrade.level.title",
+      "name": "katana.npc.upgrade.level.title",
       "location": {
-        "name": "upgrade",
-        "tag": "level"
+        "name": "level"
       },
       "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/upgrade_level.png",
       "skinType": "SLIM",
@@ -53,20 +49,19 @@
       ]
     },
     {
-      "name": "treasures.npc.upgrade.rebirth.title",
+      "name": "katana.npc.upgrade.rebirth.title",
       "location": {
-        "name": "upgrade",
-        "tag": "rebirth"
+        "name": "rebirth"
       },
       "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/upgrade_rebirth.png",
       "skinType": "SLIM",
       "lookAtPlayer": true,
       "onClick": [
-        "sudo %player% prestige"
+        "sudo %player% rebirth"
       ]
     },
     {
-      "name": "treasures.npc.locations.title",
+      "name": "katana.npc.locations.title",
       "location": {
         "name": "locations"
       },
@@ -75,6 +70,18 @@
       "lookAtPlayer": true,
       "onClick": [
         "sudo %player% locations"
+      ]
+    },
+    {
+      "name": "katana.npc.tp.back.title",
+      "location": {
+        "name": "tp-end"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/locations.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "label %player% end 180 0.0 10.0 0.0"
       ]
     }
   ]
