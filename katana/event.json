@@ -3,7 +3,7 @@
     "HITS": {
       "id": "hits",
       "topEntries": 3,
-      "end": 300,
+      "duration": 300,
       "start": [
         "0:0:0",
         "2:0:0",
@@ -33,12 +33,13 @@
           "give-key %player% DEFAULT",
           "random-money %player% 25.0 100.0 2147483647"
         ]
-      }
+      },
+      "isGlobal": true
     },
     "KILLS": {
       "id": "kills",
       "topEntries": 3,
-      "end": 300,
+      "duration": 300,
       "start": [
         "1:0:0",
         "3:0:0",
@@ -68,12 +69,13 @@
           "give-key %player% DEFAULT",
           "random-money %player% 25.0 100.0 2147483647"
         ]
-      }
+      },
+      "isGlobal": true
     },
     "BOSS": {
       "id": "boss",
       "topEntries": 5,
-      "end": 3600,
+      "duration": 3600,
       "start": [
         "18:45:0",
         "4:45:0"
@@ -96,12 +98,16 @@
         "5": [
           "give 1 rune keys"
         ]
-      }
+      },
+      "isGlobal": true,
+      "onStart": [
+        "spawn-boss"
+      ]
     },
     "LIVESEY": {
       "id": "livesey",
       "topEntries": 3,
-      "end": 1800,
+      "duration": 1800,
       "start": [
         "0:0:0",
         "0:30:0",
@@ -165,7 +171,11 @@
         "3": [
           "give 1 pet key"
         ]
-      }
+      },
+      "isGlobal": true,
+      "onStart": [
+        "spawn-livesey"
+      ]
     }
   }
 }
