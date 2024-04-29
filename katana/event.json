@@ -102,6 +102,9 @@
       "isGlobal": true,
       "onStart": [
         "spawn-boss"
+      ],
+      "onEnd": [
+        "despawn-boss"
       ]
     },
     "LIVESEY": {
@@ -175,6 +178,9 @@
       "isGlobal": true,
       "onStart": [
         "spawn-livesey"
+      ],
+      "onEnd": [
+        "despawn-livesey"
       ]
     }
   }
