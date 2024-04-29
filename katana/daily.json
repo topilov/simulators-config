@@ -1,0 +1,112 @@
+{
+  "message": {
+    "takeReward": "katana.daily.message.take-reward"
+  },
+  "animateTitle": {
+    "title": "katana.daily.animate-title.title",
+    "subtitle": "katana.daily.animate-title.subtitle"
+  },
+  "rewards": {
+    "1": {
+      "hover": "katana.daily.reward.1.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "bag"
+        }
+      },
+      "onSuccess": [
+        "earn-money %player% 25 false",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 1"
+      ]
+    },
+    "2": {
+      "hover": "katana.daily.reward.2.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "gem_amethyst"
+        }
+      },
+      "onSuccess": [
+        "earn-bits %player% 25",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 2"
+      ]
+    },
+    "3": {
+      "hover": "katana.daily.reward.3.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "goldkey"
+        }
+      },
+      "onSuccess": [
+        "give-key %player% DEFAULT 1",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 3"
+      ]
+    },
+    "4": {
+      "hover": "katana.daily.reward.4.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "gem_amethyst"
+        }
+      },
+      "onSuccess": [
+        "earn-bits %player% 50",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 4"
+      ]
+    },
+    "5": {
+      "hover": "katana.daily.reward.5.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "fox_key"
+        }
+      },
+      "onSuccess": [
+        "give-key %player% PET 1",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 5"
+      ]
+    },
+    "6": {
+      "hover": "katana.daily.reward.6.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "gem_amethyst"
+        }
+      },
+      "onSuccess": [
+        "earn-bits %player% 75",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 6"
+      ]
+    },
+    "7": {
+      "hover": "katana.daily.reward.7.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "all_boost"
+        }
+      },
+      "onSuccess": [
+        "local-booster %player% blocks 2 3600",
+        "local-booster %player% explosions 2 3600",
+        "local-booster %player% exp 2 3600",
+        "local-booster %player% money 2 3600",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 7"
+      ]
+    }
+  }
+}

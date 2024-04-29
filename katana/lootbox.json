@@ -1,0 +1,235 @@
+{
+  "lootboxes": {
+    "katana": {
+      "title": "katana.lootbox.katana.title",
+      "keyTitle": "katana.lootbox.katana.key.title",
+      "giveMessage": "i18n.katana.lootbox.message.give|!|§8[§ai§8]§f|!|katana.lootbox.katana.key.title",
+      "alertMessage": "katana.lootbox.katana.message.alert",
+      "useMessage": "i18n.katana.lootbox.message.use|!|§8[§ci§8]§f|!|katana.lootbox.katana.key.title",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "katana.lootbox.katana.key.title",
+        "lore": "katana.lootbox.katana.key.description",
+        "enchantments": {
+          "DAMAGE_ALL": 1
+        },
+        "data": {
+          "other": "key",
+          "no-clear": 1
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      },
+      "location": {
+        "name": "lootbox",
+        "tag": "katana",
+        "yaw": 90
+      },
+      "type": "GOLDEN",
+      "alertRarities": [
+        "LEGENDARY",
+        "IMMORTAL"
+      ],
+      "menu": {
+        "id": "katana",
+        "title": "katana.lootbox.katana.menu.title",
+        "item": "lootboxes.png",
+        "elements": [
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.polearm.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "polearm"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% POLEARM"
+            ]
+          },
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.dragon.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "dragon"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% DRAGON"
+            ]
+          },
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.bloodyvengeance.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "bloodyvengeance"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% BLOODYVENGEANCE"
+            ]
+          },
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.nature.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "nature"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% NATURE"
+            ]
+          },
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.sabre.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "azure_sabre"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% SABRE"
+            ]
+          },
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.cleaver.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "cleaver"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% CLEAVER"
+            ]
+          },
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.vindicator.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "vindicator"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% VINDICATOR"
+            ]
+          },
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.mace.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "mace"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% MACE"
+            ]
+          },
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.size.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "crimsoncleaver"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% SIZE"
+            ]
+          },
+          {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.magic.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "bludgeon"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-katana %player% MAGIC"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

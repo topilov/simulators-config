@@ -1,0 +1,51 @@
+{
+  "maxSaveCrystals": 26,
+  "items": {
+    "SAVE_CRYSTAL": {
+      "type": "CHORUS_FRUIT_POPPED",
+      "name": "katana.items.save-crystal.name",
+      "lore": "katana.items.save-crystal.lore",
+      "unbreakable": true,
+      "data": {
+        "crystal": 1,
+        "no-clear": 1,
+        "hoverColor": "PURPLE_LIGHT"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "MENU": {
+      "type": "CLAY_BALL",
+      "name": "katana.items.menu.name",
+      "unbreakable": true,
+      "data": {
+        "other": "info"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    }
+  },
+  "message": {
+    "maxUsedCrystalsPerRebirth": "katana.items.message.error.max-user-crystals-per-rebirth",
+    "maxUsedCrystals": "katana.items.message.error.max-user-crystals"
+  },
+  "nbt": {
+    "crystals": "crystals",
+    "crystalsPerRebirth": "crystals-per-rebirth",
+    "noClear": "no-clear",
+    "saveCrystal": "crystal",
+    "boosterChance": "chance",
+    "additionalBoosterChance": "additional-chance-nbt",
+    "level": "level",
+    "pipeline": "pipeline",
+    "toolType": "tool-type",
+    "dnkBooster": "dnk-booster",
+    "strength": "strength"
+  }
+}

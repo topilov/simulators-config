@@ -1,0 +1,646 @@
+{
+  "categories": {
+    "OTHER": {
+      "title": "katana.donate.category.other.title"
+    },
+    "GAME_ITEMS": {
+      "title": "katana.donate.category.game-items.title"
+    },
+    "GAME_BALANCE": {
+      "title": "katana.donate.category.game-balance.title"
+    },
+    "OTHER_FEATURES": {
+      "title": "katana.donate.category.other-features.title"
+    },
+    "BOOSTERS": {
+      "title": "katana.donate.category.boosters.title"
+    }
+  },
+  "elements": {
+    "GIFTS_KATANA": {
+      "donateName": "katana.donate.element.gifts-katana.donate-name",
+      "confirmationTitle": "katana.donate.element.gifts-katana.title",
+      "title": "katana.donate.element.gifts-katana.title",
+      "description": "katana.donate.element.gifts-katana.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 99,
+      "sale": 0,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "payload gifts-katana"
+      ]
+    },
+    "GIFTS_PET": {
+      "donateName": "katana.donate.element.gifts-pet.donate-name",
+      "confirmationTitle": "katana.donate.element.gifts-pet.title",
+      "title": "katana.donate.element.gifts-pet.title",
+      "description": "katana.donate.element.gifts-pet.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 119,
+      "sale": 0,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "payload gifts-pet"
+      ]
+    },
+    "GIFTS_RUNE": {
+      "donateName": "katana.donate.element.gifts-rune.donate-name",
+      "confirmationTitle": "katana.donate.element.gifts-rune.title",
+      "title": "katana.donate.element.gifts-rune.title",
+      "description": "katana.donate.element.gifts-rune.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 199,
+      "sale": 0,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "payload gifts-rune"
+      ]
+    },
+    "PET_SLOT": {
+      "donateName": "katana.donate.element.pet-slot.donate-name",
+      "confirmationTitle": "katana.donate.element.pet-slot.title",
+      "title": "katana.donate.element.pet-slot.title",
+      "description": "katana.donate.element.pet-slot.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "pets"
+        }
+      },
+      "category": "OTHER",
+      "price": 99,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% add 1 maxPets"
+      ]
+    },
+    "RUNE_SLOT": {
+      "donateName": "katana.donate.element.rune-slot.donate-name",
+      "confirmationTitle": "katana.donate.element.rune-slot.title",
+      "title": "katana.donate.element.rune-slot.title",
+      "description": "katana.donate.element.rune-slot.description",
+      "item": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+      },
+      "category": "OTHER",
+      "price": 199,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% add 1 maxRunes"
+      ]
+    },
+    "MONEY_BAG": {
+      "donateName": "katana.donate.element.money-bag.donate-name",
+      "confirmationTitle": "katana.donate.element.money-bag.title",
+      "title": "katana.donate.element.money-bag.title",
+      "description": "katana.donate.element.money-bag.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "bag1"
+        }
+      },
+      "category": "GAME_BALANCE",
+      "price": 39,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "random-money %player% 15 35 2147483647"
+      ]
+    },
+    "MONEY_HANDFUL": {
+      "donateName": "katana.donate.element.money-handful.donate-name",
+      "confirmationTitle": "katana.donate.element.money-handful.title",
+      "title": "katana.donate.element.money-handful.title",
+      "description": "katana.donate.element.money-handful.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "bag1"
+        }
+      },
+      "category": "GAME_BALANCE",
+      "price": 9,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "random-money %player% 1 10 2147483647"
+      ]
+    },
+    "SAVE_CRYSTAL": {
+      "donateName": "katana.donate.element.save-crystal.donate-name",
+      "confirmationTitle": "katana.donate.element.save-crystal.title",
+      "title": "katana.donate.element.save-crystal.title",
+      "description": "katana.donate.element.save-crystal.description",
+      "item": {
+        "type": "CHORUS_FRUIT_POPPED"
+      },
+      "category": "GAME_ITEMS",
+      "price": 39,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-item %player% SAVE_CRYSTAL 1"
+      ]
+    },
+    "KATANA_KEY": {
+      "donateName": "katana.donate.element.katana-key.donate-name",
+      "confirmationTitle": "katana.donate.element.katana-key.title",
+      "title": "katana.donate.element.katana-key.title",
+      "description": "katana.donate.element.katana-key.description",
+      "item": {
+        "type": "TRIPWIRE_HOOK",
+        "enchantments": {
+          "DIG_SPEED": 1
+        },
+        "data": {
+          "other": "key"
+        }
+      },
+      "category": "GAME_ITEMS",
+      "price": 39,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-key %player% DEFAULT 1"
+      ]
+    },
+    "TITLE_KEY": {
+      "donateName": "katana.donate.element.title-key.donate-name",
+      "confirmationTitle": "katana.donate.element.title-key.title",
+      "title": "katana.donate.element.title-key.title",
+      "description": "katana.donate.element.title-key.description",
+      "item": {
+        "type": "TRIPWIRE_HOOK"
+      },
+      "category": "GAME_ITEMS",
+      "price": 129,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-key %player% TITLE 1"
+      ]
+    },
+    "PET_KEY": {
+      "donateName": "katana.donate.element.pet-key.donate-name",
+      "confirmationTitle": "katana.donate.element.pet-key.title",
+      "title": "katana.donate.element.pet-key.title",
+      "description": "katana.donate.element.pet-key.description",
+      "item": {
+        "type": "TRIPWIRE_HOOK",
+        "enchantments": {
+          "DIG_SPEED": 1
+        },
+        "data": {
+          "other": "key"
+        }
+      },
+      "category": "GAME_ITEMS",
+      "price": 49,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-key %player% PET 1"
+      ]
+    },
+    "RUNE_KEY": {
+      "donateName": "katana.donate.element.rune-key.donate-name",
+      "confirmationTitle": "katana.donate.element.rune-key.title",
+      "title": "katana.donate.element.rune-key.title",
+      "description": "katana.donate.element.rune-key.description",
+      "item": {
+        "type": "TRIPWIRE_HOOK"
+      },
+      "category": "GAME_ITEMS",
+      "price": 129,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-key %player% RUNE 1"
+      ]
+    },
+    "INFINITY_STORAGE": {
+      "donateName": "katana.donate.element.infinity-storage.donate-name",
+      "confirmationTitle": "katana.donate.element.infinity-storage.title",
+      "title": "katana.donate.element.infinity-storage.title",
+      "description": "katana.donate.element.infinity-storage.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "bag",
+          "color": 9521389
+        }
+      },
+      "category": "OTHER_FEATURES",
+      "price": 199,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasInfinityStorage"
+      ]
+    },
+    "SPEED_PERK": {
+      "donateName": "katana.donate.element.speed-perk.donate-name",
+      "confirmationTitle": "katana.donate.element.speed-perk.title",
+      "title": "katana.donate.element.speed-perk.title",
+      "description": "katana.donate.element.speed-perk.description",
+      "item": {
+        "type": "FEATHER"
+      },
+      "category": "OTHER_FEATURES",
+      "price": 49,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasSpeedPerk",
+        "morestat %player% set 0.4 speed",
+        "set-speed %player% 0.4"
+      ]
+    },
+    "SUPER_PLAYER": {
+      "donateName": "katana.donate.element.super-player.donate-name",
+      "title": "katana.donate.element.super-player.title",
+      "description": "katana.donate.element.super-player.description",
+      "item": {
+        "type": "END_CRYSTAL"
+      },
+      "category": "OTHER_FEATURES",
+      "price": 69,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true sub"
+      ]
+    },
+    "MONEY_BOX": {
+      "donateName": "katana.donate.element.money-box.donate-name",
+      "title": "katana.donate.element.money-box.title",
+      "description": "katana.donate.element.money-box.description",
+      "item": {
+        "type": "GOLD_INGOT"
+      },
+      "category": "OTHER",
+      "price": 79,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "payload livesey"
+      ]
+    },
+    "LEGENDARY_KATANA": {
+      "donateName": "katana.donate.element.legendary-katana.donate-name",
+      "title": "katana.donate.element.legendary-katana.title",
+      "description": "katana.donate.element.legendary-katana.description",
+      "item": {
+        "type": "GOLD_INGOT"
+      },
+      "category": "GAME_ITEMS",
+      "price": 399,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "give legendary katana"
+      ]
+    },
+    "STRONG_HIT": {
+      "donateName": "katana.donate.element.strong-hit.donate-name",
+      "title": "katana.donate.element.strong-hit.title",
+      "description": "katana.donate.element.strong-hit.description",
+      "item": {
+        "type": "IRON_SWORD"
+      },
+      "category": "OTHER_FEATURES",
+      "price": 139,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "give strong hit"
+      ]
+    },
+    "MECHANIC_HAND": {
+      "donateName": "katana.donate.element.mechanic-hand.donate-name",
+      "title": "katana.donate.element.mechanic-hand.title",
+      "description": "katana.donate.element.mechanic-hand.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "bank"
+        }
+      },
+      "category": "OTHER_FEATURES",
+      "price": 199,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "give mechanic hand"
+      ]
+    },
+    "NEW_WALLET": {
+      "donateName": "katana.donate.element.new-wallet.donate-name",
+      "title": "katana.donate.element.new-wallet.title",
+      "description": "katana.donate.element.new-wallet.description",
+      "item": {
+        "type": "YELLOW_GLAZED_TERRACOTTA"
+      },
+      "category": "OTHER_FEATURES",
+      "price": 149,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "give new wallet"
+      ]
+    },
+    "GLOBAL_EXP": {
+      "donateName": "katana.donate.element.global-exp.donate-name",
+      "title": "katana.donate.element.global-exp.title",
+      "description": "katana.donate.element.global-exp.description",
+      "item": {
+        "type": "DRAGONS_BREATH"
+      },
+      "category": "BOOSTERS",
+      "price": 199,
+      "sale": 0,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% exp 2 3600"
+      ]
+    },
+    "LOCAL_EXP": {
+      "donateName": "katana.donate.element.local-exp.donate-name",
+      "title": "katana.donate.element.local-exp.title",
+      "description": "katana.donate.element.local-exp.description",
+      "item": {
+        "type": "DRAGONS_BREATH"
+      },
+      "category": "BOOSTERS",
+      "price": 149,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% exp 2 14400"
+      ]
+    },
+    "GLOBAL_HITS": {
+      "donateName": "katana.donate.element.global-hits.donate-name",
+      "title": "katana.donate.element.global-hits.title",
+      "description": "katana.donate.element.global-hits.description",
+      "item": {
+        "type": "STONE_SWORD"
+      },
+      "category": "BOOSTERS",
+      "price": 169,
+      "sale": 0,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% hits 2 3600"
+      ]
+    },
+    "LOCAL_HITS": {
+      "donateName": "katana.donate.element.local-hits.donate-name",
+      "title": "katana.donate.element.local-hits.title",
+      "description": "katana.donate.element.local-hits.description",
+      "item": {
+        "type": "STONE_SWORD"
+      },
+      "category": "BOOSTERS",
+      "price": 119,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% hits 2 14400"
+      ]
+    },
+    "GLOBAL_KILLS": {
+      "donateName": "katana.donate.element.global-kills.donate-name",
+      "title": "katana.donate.element.global-kills.title",
+      "description": "katana.donate.element.global-kills.description",
+      "item": {
+        "type": "SKULL_ITEM"
+      },
+      "category": "BOOSTERS",
+      "price": 169,
+      "sale": 0,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% blocks 2 3600"
+      ]
+    },
+    "LOCAL_KILLS": {
+      "donateName": "katana.donate.element.local-kills.donate-name",
+      "title": "katana.donate.element.local-kills.title",
+      "description": "katana.donate.element.local-kills.description",
+      "item": {
+        "type": "SKULL_ITEM"
+      },
+      "category": "BOOSTERS",
+      "price": 119,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% blocks 2 14400"
+      ]
+    },
+    "GLOBAL_MONEY": {
+      "donateName": "katana.donate.element.global-money.donate-name",
+      "title": "katana.donate.element.global-money.title",
+      "description": "katana.donate.element.global-money.description",
+      "item": {
+        "type": "GOLD_NUGGET"
+      },
+      "category": "BOOSTERS",
+      "price": 169,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% money 2 3600"
+      ]
+    },
+    "LOCAL_MONEY": {
+      "donateName": "katana.donate.element.local-money.donate-name",
+      "confirmationTitle": "katana.donate.element.local-money.title",
+      "title": "katana.donate.element.local-money.title",
+      "description": "katana.donate.element.local-money.description",
+      "item": {
+        "type": "GOLD_NUGGET"
+      },
+      "category": "BOOSTERS",
+      "price": 119,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% money 2 14400"
+      ]
+    },
+    "GLOBAL_ALL": {
+      "donateName": "katana.donate.element.global-all.donate-name",
+      "title": "katana.donate.element.global-all.title",
+      "description": "katana.donate.element.global-all.description",
+      "item": {
+        "type": "CHEST"
+      },
+      "category": "BOOSTERS",
+      "price": 399,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% kills 2 3600",
+        "global-booster %player% hits 2 3600",
+        "global-booster %player% exp 2 3600",
+        "global-booster %player% money 2 3600"
+      ]
+    },
+    "LOCAL_ALL": {
+      "donateName": "katana.donate.element.local-all.donate-name",
+      "title": "katana.donate.element.local-all.title",
+      "description": "katana.donate.element.local-all.description",
+      "item": {
+        "type": "CHEST"
+      },
+      "category": "BOOSTERS",
+      "price": 349,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% kills 2 14400",
+        "local-booster %player% hits 2 14400",
+        "local-booster %player% exp 2 14400",
+        "local-booster %player% money 2 14400"
+      ]
+    }
+  }
+}

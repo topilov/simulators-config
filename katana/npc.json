@@ -1,0 +1,81 @@
+{
+  "npc": [
+    {
+      "name": "treasures.npc.sell.blocks.title",
+      "location": {
+        "name": "sell",
+        "tag": "blocks"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/sell_blocks.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dnksell %player% dnk"
+      ]
+    },
+    {
+      "name": "treasures.npc.upgrade.pickaxe.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "items"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/upgrade.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% upgrade"
+      ]
+    },
+    {
+      "name": "treasures.npc.upgrade.storage.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "storage"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/upgrade_storage.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% storage"
+      ]
+    },
+    {
+      "name": "treasures.npc.upgrade.level.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "level"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/upgrade_level.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% level"
+      ]
+    },
+    {
+      "name": "treasures.npc.upgrade.rebirth.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "rebirth"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/upgrade_rebirth.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% prestige"
+      ]
+    },
+    {
+      "name": "treasures.npc.locations.title",
+      "location": {
+        "name": "locations"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/locations.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% locations"
+      ]
+    }
+  ]
+}

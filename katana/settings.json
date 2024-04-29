@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "DISABLE_DNK_NOTIFICATION": {
+      "id": "dnk",
+      "title": "katana.settings.disable-dnk-notification.title"
+    },
+    "DISABLE_STREAK": {
+      "id": "streak",
+      "title": "katana.settings.disable-streak.title"
+    },
+    "DISABLE_PETS": {
+      "id": "pets",
+      "title": "katana.settings.disable-pets.title",
+      "onEnable": [
+        "set-view-pets %player% false"
+      ],
+      "onDisable": [
+        "set-view-pets %player% true"
+      ]
+    },
+    "DISABLE_PLAYERS": {
+      "id": "players",
+      "title": "katana.settings.disable-players.title",
+      "onEnable": [
+        "set-view-players %player% false"
+      ],
+      "onDisable": [
+        "set-view-players %player% true"
+      ]
+    }
+  }
+}
