@@ -527,6 +527,94 @@
           }
         ]
       }
+    },
+    "rune": {
+      "title": "katana.lootbox.runes.title",
+      "keyTitle": "katana.lootbox.runes.key-title",
+      "giveMessage": "i18n.katana.lootbox.default.give-message|!|katana.lootbox.runes.key-title",
+      "alertMessage": "katana.lootbox.runes.message.alert",
+      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.runes.key-title",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "katana.lootbox.runes.key-title",
+        "lore": "katana.lootbox.runes.key-description",
+        "data": {
+          "sim": "rune_key",
+          "no-clear": 1
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      },
+      "type": "SILVER",
+      "location": {
+        "name": "lootbox",
+        "tag": "runes",
+        "yaw": 0
+      },
+      "alertRarities": [
+        "LEGENDARY"
+      ],
+      "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "menu": {
+        "id": "rune",
+        "title": "katana.lootbox.runes.menu.title",
+        "texture": "lootboxes.png",
+        "elements": [
+          {
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "katana.runes.boom.name",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 18,
+            "onDrop": [
+              "give-rune %player% BOOM 100000"
+            ]
+          }
+        ]
+      }
+    },
+    "title": {
+      "title": "katana.lootbox.titles.title",
+      "keyTitle": "katana.lootbox.titles.key-title",
+      "giveMessage": "i18n.katana.lootbox.default.give-message|!|katana.lootbox.titles.key-title",
+      "alertMessage": "katana.lootbox.titles.message.alert",
+      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.titles.key-title",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "katana.lootbox.titles.key-title",
+        "lore": "katana.lootbox.titles.key-description",
+        "data": {
+          "sim": "purple_crystal_key",
+          "no-clear": 1
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      },
+      "type": "GOLDEN",
+      "location": {
+        "name": "lootbox",
+        "tag": "titles",
+        "yaw": 0
+      },
+      "alertRarities": [
+        "LEGENDARY"
+      ],
+      "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "menu": {
+        "id": "title",
+        "title": "katana.lootbox.titles.menu.title",
+        "texture": "lootboxes.png",
+        "elements": []
+      }
     }
   }
 }
