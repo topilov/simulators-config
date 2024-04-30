@@ -1,0 +1,139 @@
+{
+  "npc": [
+    {
+      "name": "katana.npc.sell.dnk.title",
+      "location": {
+        "name": "sell",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/sell-dnk.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dnksell %player% dnk"
+      ]
+    },
+    {
+      "name": "katana.npc.upgrade.items.title",
+      "location": {
+        "name": "upgrade"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/upgrade-item.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% upgrade"
+      ]
+    },
+    {
+      "name": "katana.npc.upgrade.storage.title",
+      "location": {
+        "name": "upgrade-dnk"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/upgrade-dnk.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% storage"
+      ]
+    },
+    {
+      "name": "katana.npc.upgrade.level.title",
+      "location": {
+        "name": "level"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/upgrade-level.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% level"
+      ]
+    },
+    {
+      "name": "katana.npc.upgrade.rebirth.title",
+      "location": {
+        "name": "rebirth"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/upgrade-rebirth.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% rebirth"
+      ]
+    },
+    {
+      "name": "katana.npc.locations.title",
+      "location": {
+        "name": "locations"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/locations.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% locations"
+      ]
+    },
+    {
+      "name": "katana.npc.tp.back.title",
+      "location": {
+        "name": "tp-end"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/tp-end.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "label %player% end 180 0.0 10.0 0.0"
+      ]
+    },
+    {
+      "name": "katana.npc.sell.katana",
+      "location": {
+        "name": "sell-katana"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/sell-katana.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-katana %player%"
+      ]
+    },
+    {
+      "name": "katana.npc.shop.epic.katana.title",
+      "location": {
+        "name": "buy-katana",
+        "offset": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/buy-katana.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "buy-katana %player%"
+      ]
+    },
+    {
+      "name": "katana.npc.shop.epic.armor.title",
+      "location": {
+        "name": "buy-armor",
+        "offset": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/buy-armor.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "buy-armor %player%"
+      ]
+    }
+  ]
+}

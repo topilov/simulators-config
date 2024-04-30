@@ -1,0 +1,283 @@
+{
+  "bitsShop": {
+    "title": "katana.shop.bits.title",
+    "vault": "\uE1D1",
+    "products": [
+      {
+        "title": "katana.shop.bits.product.money_booster.title",
+        "hover": "katana.shop.bits.product.money_booster.hover",
+        "icon": "money_boost.png",
+        "price": 75.0,
+        "needSubscription": true,
+        "onBuy": [
+          "local-booster %player% MONEY 2 7200"
+        ]
+      },
+      {
+        "title": "katana.shop.bits.product.exp_booster.title",
+        "hover": "katana.shop.bits.product.exp_booster.hover",
+        "icon": "xp_booster.png",
+        "price": 75.0,
+        "needSubscription": true,
+        "onBuy": [
+          "local-booster %player% EXP 2 7200"
+        ]
+      },
+      {
+        "title": "katana.shop.bits.product.hits_booster.title",
+        "hover": "katana.shop.bits.product.hits_booster.hover",
+        "icon": "blocks_booster.png",
+        "price": 75.0,
+        "needSubscription": true,
+        "onBuy": [
+          "local-booster %player% BLOCKS 2 7200"
+        ]
+      },
+      {
+        "title": "katana.shop.bits.product.kills_booster.title",
+        "hover": "katana.shop.bits.product.kills_booster.hover",
+        "icon": "red_chest.png",
+        "price": 75.0,
+        "needSubscription": true,
+        "onBuy": [
+          "local-booster %player% TREASURES 2 7200"
+        ]
+      },
+      {
+        "title": "katana.shop.bits.product.default_key.title",
+        "hover": "katana.lootbox.default.key-description",
+        "icon": "goldkey.png",
+        "price": 149.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-key %player% DEFAULT 1"
+        ]
+      },
+      {
+        "title": "katana.shop.bits.product.pet_key.title",
+        "hover": "katana.lootbox.pets.key-description",
+        "icon": "fox_key.png",
+        "price": 149.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-key %player% PET 1"
+        ]
+      }
+    ]
+  },
+  "katanaShop": {
+    "title": "katana.shop.katana.title",
+    "vault": "\uE1D1",
+    "products": [
+      {
+        "title": "katana.shop.katana.runic.title",
+        "hover": "katana.katana.runic.possibility",
+        "item": {
+          "type": "IRON_SWORD",
+          "data": {
+            "weapons": "runic"
+          }
+        },
+        "price": 150.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% RUNIC"
+        ]
+      },
+      {
+        "title": "katana.shop.katana.azure.title",
+        "hover": "katana.katana.azure.possibility",
+        "item": {
+          "type": "IRON_SWORD",
+          "data": {
+            "weapons": "azure_scythe"
+          }
+        },
+        "price": 175.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% AZURE"
+        ]
+      },
+      {
+        "title": "katana.shop.katana.devil.title",
+        "hover": "katana.katana.devil.possibility",
+        "item": {
+          "type": "IRON_SWORD",
+          "data": {
+            "weapons": "devil"
+          }
+        },
+        "price": 250.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% DEVIL"
+        ]
+      },
+      {
+        "title": "katana.shop.katana.bludgeon.title",
+        "hover": "katana.katana.bludgeon.possibility",
+        "item": {
+          "type": "IRON_SWORD",
+          "data": {
+            "weapons": "crimsoncleaver"
+          }
+        },
+        "price": 350.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% BLUDGEON"
+        ]
+      },
+      {
+        "title": "katana.shop.katana.skeletonaxe.title",
+        "hover": "katana.katana.skeletonaxe.possibility",
+        "item": {
+          "type": "IRON_SWORD",
+          "data": {
+            "weapons": "skeletonaxe"
+          }
+        },
+        "price": 500.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% SKELETONAXE"
+        ]
+      }
+    ]
+  },
+  "armorShop": {
+    "title": "katana.shop.armor.title",
+    "vault": "\uE1D1",
+    "products": [
+      {
+        "title": "katana.shop.armor.golden.helmet.title",
+        "hover": "katana.shop.armor.golden.hover",
+        "item": {
+          "type": "SKULL_ITEM",
+          "damage": 3,
+          "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY5ZjExMzU5NjEzMTdhMDRjYWQ4Yjc1YWIyMmE2YTE1NjExZjg5ZjQxNzg5Mjg4OWI2MTNhZjVhNTVhM2UyMyJ9fX0"
+        },
+        "price": 300.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% GOLDEN_NINJA_HELMET"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.golden.chestplate.title",
+        "hover": "katana.shop.armor.golden.hover",
+        "item": {
+          "type": "LEATHER_CHESTPLATE",
+          "damage": 3,
+          "data": {
+            "color": 16766464
+          }
+        },
+        "price": 400.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% GOLDEN_NINJA_CHESTPLATE"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.golden.leggings.title",
+        "hover": "katana.shop.armor.golden.hover",
+        "item": {
+          "type": "LEATHER_LEGGINGS",
+          "damage": 3,
+          "data": {
+            "color": 16766464
+          }
+        },
+        "price": 400.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% GOLDEN_NINJA_LEGGINGS"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.golden.boots.title",
+        "hover": "katana.shop.armor.golden.hover",
+        "item": {
+          "type": "LEATHER_BOOTS",
+          "damage": 3,
+          "data": {
+            "color": 16766464
+          }
+        },
+        "price": 300.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% GOLDEN_NINJA_BOOTS"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.black.helmet.title",
+        "hover": "katana.shop.armor.black.hover",
+        "item": {
+          "type": "SKULL_ITEM",
+          "damage": 3,
+          "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0="
+        },
+        "price": 150.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% BLACK_NINJA_HELMET"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.black.chestplate.title",
+        "hover": "katana.shop.armor.black.hover",
+        "item": {
+          "type": "LEATHER_CHESTPLATE",
+          "damage": 3,
+          "data": {
+            "color": 0
+          }
+        },
+        "price": 200.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% BLACK_NINJA_CHESTPLATE"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.black.leggings.title",
+        "hover": "katana.shop.armor.black.hover",
+        "item": {
+          "type": "LEATHER_LEGGINGS",
+          "damage": 3,
+          "data": {
+            "color": 0
+          }
+        },
+        "price": 200.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% BLACK_NINJA_LEGGINGS"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.black.boots.title",
+        "hover": "katana.shop.armor.black.hover",
+        "item": {
+          "type": "LEATHER_BOOTS",
+          "damage": 3,
+          "data": {
+            "color": 0
+          }
+        },
+        "price": 150.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% BLACK_NINJA_BOOTS"
+        ]
+      }
+    ]
+  },
+  "messages": {
+    "moreMoney": "katana.shop.messages.more-money",
+    "noSubscription": "katana.shop.messages.no-subscription"
+  }
+}

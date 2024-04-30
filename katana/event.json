@@ -1,0 +1,187 @@
+{
+  "event": {
+    "HITS": {
+      "id": "hits",
+      "topEntries": 3,
+      "duration": 300,
+      "start": [
+        "0:0:0",
+        "2:0:0",
+        "4:0:0",
+        "6:0:0",
+        "8:0:0",
+        "10:0:0",
+        "12:0:0",
+        "14:0:0",
+        "16:0:0",
+        "18:0:0",
+        "20:0:0",
+        "22:0:0"
+      ],
+      "startMessage": "katana.event.hits.start_message",
+      "endMessage": "katana.event.hits.end_message",
+      "reward": {
+        "1": [
+          "give-key %player% PET",
+          "random-money %player% 50.0 150.0 2147483647"
+        ],
+        "2": [
+          "give-key %player% DEFAULT",
+          "random-money %player% 50.0 100.0 2147483647"
+        ],
+        "3": [
+          "give-key %player% DEFAULT",
+          "random-money %player% 25.0 100.0 2147483647"
+        ]
+      },
+      "isGlobal": true
+    },
+    "KILLS": {
+      "id": "kills",
+      "topEntries": 3,
+      "duration": 300,
+      "start": [
+        "1:0:0",
+        "3:0:0",
+        "5:0:0",
+        "7:0:0",
+        "9:0:0",
+        "11:0:0",
+        "13:0:0",
+        "15:0:0",
+        "17:0:0",
+        "19:0:0",
+        "21:0:0",
+        "23:0:0"
+      ],
+      "startMessage": "katana.event.kills.start_message",
+      "endMessage": "katana.event.kills.end_message",
+      "reward": {
+        "1": [
+          "give-key %player% PET",
+          "random-money %player% 50.0 150.0 2147483647"
+        ],
+        "2": [
+          "give-key %player% DEFAULT",
+          "random-money %player% 50.0 100.0 2147483647"
+        ],
+        "3": [
+          "give-key %player% DEFAULT",
+          "random-money %player% 25.0 100.0 2147483647"
+        ]
+      },
+      "isGlobal": true
+    },
+    "BOSS": {
+      "id": "boss",
+      "topEntries": 5,
+      "duration": 43195,
+      "start": [
+        "0:45:0",
+        "12:45:0"
+      ],
+      "startMessage": "katana.event.boss.start_message",
+      "endMessage": "katana.event.boss.end_message",
+      "reward": {
+        "1": [
+          "give-key %player% RUNE 3"
+        ],
+        "2": [
+          "give-key %player% RUNE 2"
+        ],
+        "3": [
+          "give-key %player% RUNE 2"
+        ],
+        "4": [
+          "give-key %player% RUNE 1"
+        ],
+        "5": [
+          "give-key %player% RUNE 1"
+        ]
+      },
+      "isGlobal": true,
+      "onStart": [
+        "spawn-boss"
+      ],
+      "onEnd": [
+        "despawn-boss"
+      ]
+    },
+    "LIVESEY": {
+      "id": "livesey",
+      "topEntries": 3,
+      "duration": 1795,
+      "start": [
+        "0:0:0",
+        "0:30:0",
+        "1:0:0",
+        "1:30:0",
+        "2:0:0",
+        "2:30:0",
+        "3:0:0",
+        "3:30:0",
+        "4:0:0",
+        "4:30:0",
+        "5:0:0",
+        "5:30:0",
+        "6:0:0",
+        "6:30:0",
+        "7:0:0",
+        "7:30:0",
+        "8:0:0",
+        "8:30:0",
+        "9:0:0",
+        "9:30:0",
+        "10:0:0",
+        "10:30:0",
+        "11:0:0",
+        "11:30:0",
+        "12:0:0",
+        "12:30:0",
+        "13:0:0",
+        "13:30:0",
+        "14:0:0",
+        "14:30:0",
+        "15:0:0",
+        "15:30:0",
+        "16:0:0",
+        "16:30:0",
+        "17:0:0",
+        "17:30:0",
+        "18:0:0",
+        "18:30:0",
+        "19:0:0",
+        "19:30:0",
+        "20:0:0",
+        "20:30:0",
+        "21:0:0",
+        "21:30:0",
+        "22:0:0",
+        "22:30:0",
+        "23:0:0",
+        "23:30:0"
+      ],
+      "startMessage": "katana.event.livesey.start_message",
+      "endMessage": "katana.event.livesey.end_message",
+      "reward": {
+        "1": [
+          "give-key %player% KATANA 1",
+          "give-key %player% PET 1"
+        ],
+        "2": [
+          "give-key %player% PET 1"
+        ],
+        "3": [
+          "give-key %player% PET 1"
+        ]
+      },
+      "isGlobal": true,
+      "onStart": [
+        "spawn-livesey"
+      ],
+      "onEnd": [
+        "despawn-livesey"
+      ]
+    }
+  }
+}

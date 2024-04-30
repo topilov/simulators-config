@@ -1,0 +1,24 @@
+{
+  "message": {
+    "onCapture": "katana.point_invader.message.on_capture",
+    "onConflict": "katana.point_invader.message.on_conflict",
+    "onReset": "katana.point_invader.message.on_reset",
+    "onEnd": "katana.point_invader.message.on_end",
+    "beforeInvadePoint": "katana.point_invader.message.before_invade_point",
+    "beforeResetPoint": "katana.point_invader.message.before_reset_point",
+    "wasFree": "katana.point_invader.message.point_was_free",
+    "wasInvadeBy": "katana.point_invader.message.point_was_invade_by"
+  },
+  "invadingTime": 10000,
+  "rewardEvery": 1200,
+  "invadePoint": {
+    "angles": 45,
+    "size": 4.0,
+    "color": "NEUTRAL",
+    "title": "katana.point_invader.message.point_was_free"
+  },
+  "reward": [
+    "random-money %player% 1.0 10.0",
+    "point-lootbox-reward %player% PET 35.0 1"
+  ]
+}
