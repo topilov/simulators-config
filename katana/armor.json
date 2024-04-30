@@ -48,6 +48,10 @@
       "lore": "katana.armor.golden.description",
       "rare": "LEGENDARY",
       "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY5ZjExMzU5NjEzMTdhMDRjYWQ4Yjc1YWIyMmE2YTE1NjExZjg5ZjQxNzg5Mjg4OWI2MTNhZjVhNTVhM2UyMyJ9fX0=",
+      "message": {
+        "victim": "katana.armor.golden.message.killer",
+        "killer": "katana.armor.golden.message.victim"
+      },
       "onCrit": [
         "reflect-and-dodge %killer% %victim% %damage%"
       ]
@@ -59,6 +63,10 @@
       "rare": "LEGENDARY",
       "data": {
         "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.golden.message.killer",
+        "killer": "katana.armor.golden.message.victim"
       },
       "onCrit": [
         "reflect-and-dodge %killer% %victim% %damage%"
@@ -72,6 +80,10 @@
       "data": {
         "color": 16766464
       },
+      "message": {
+        "victim": "katana.armor.golden.message.killer",
+        "killer": "katana.armor.golden.message.victim"
+      },
       "onCrit": [
         "reflect-and-dodge %killer% %victim% %damage%"
       ]
@@ -84,6 +96,10 @@
       "data": {
         "color": 16766464
       },
+      "message": {
+        "victim": "katana.armor.golden.message.killer",
+        "killer": "katana.armor.golden.message.victim"
+      },
       "onCrit": [
         "reflect-and-dodge %killer% %victim% %damage%"
       ]
@@ -94,6 +110,10 @@
       "lore": "katana.armor.black.description",
       "rare": "EPIC",
       "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0=",
+      "message": {
+        "victim": "katana.armor.black.message.killer",
+        "killer": "katana.armor.black.message.victim"
+      },
       "onCrit": [
         "reflect %killer% %victim% %damage%"
       ]
@@ -105,6 +125,10 @@
       "rare": "EPIC",
       "data": {
         "color": 0
+      },
+      "message": {
+        "victim": "katana.armor.black.message.killer",
+        "killer": "katana.armor.black.message.victim"
       },
       "onCrit": [
         "reflect %killer% %victim% %damage%"
@@ -118,6 +142,10 @@
       "data": {
         "color": 0
       },
+      "message": {
+        "victim": "katana.armor.black.message.killer",
+        "killer": "katana.armor.black.message.victim"
+      },
       "onCrit": [
         "reflect %killer% %victim% %damage%"
       ]
@@ -129,6 +157,10 @@
       "rare": "EPIC",
       "data": {
         "color": 0
+      },
+      "message": {
+        "victim": "katana.armor.black.message.killer",
+        "killer": "katana.armor.black.message.victim"
       },
       "onCrit": [
         "reflect %killer% %victim% %damage%"
@@ -142,9 +174,7 @@
       "data": {
         "armors": "ninja"
       },
-      "onCrit": [
-        "dodge %killer% %victim%"
-      ]
+      "onCrit": []
     },
     "NINJA_CHESTPLATE": {
       "type": "CHAINMAIL_CHESTPLATE",
@@ -154,9 +184,7 @@
       "data": {
         "armors": "ninja"
       },
-      "onCrit": [
-        "dodge %killer% %victim%"
-      ]
+      "onCrit": []
     },
     "NINJA_LEGGINGS": {
       "type": "CHAINMAIL_LEGGINGS",
@@ -166,9 +194,7 @@
       "data": {
         "armors": "ninja"
       },
-      "onCrit": [
-        "dodge %killer% %victim%"
-      ]
+      "onCrit": []
     },
     "NINJA_BOOTS": {
       "type": "CHAINMAIL_BOOTS",
@@ -178,9 +204,7 @@
       "data": {
         "armors": "ninja"
       },
-      "onCrit": [
-        "dodge %killer% %victim%"
-      ]
+      "onCrit": []
     }
   }
 }
