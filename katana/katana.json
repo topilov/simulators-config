@@ -288,11 +288,11 @@
       "canDrop": true,
       "canSell": true,
       "message": {
-        "VICTIM": "katana.katana.dragon.message.victim",
-        "KILLER": "katana.katana.dragon.message.killer"
+        "victim": "katana.katana.dragon.message.victim",
+        "killer": "katana.katana.dragon.message.killer"
       },
       "onCrit": [
-        "dragon %killer% %victim%"
+        "dragon %victim%"
       ]
     },
     "BLOODYVENGEANCE": {
@@ -306,7 +306,7 @@
       "canDrop": true,
       "canSell": true,
       "message": {
-        "KILLER": "katana.katana.recovery.message.killer"
+        "killer": "katana.katana.recovery.message.killer"
       },
       "onCrit": [
         "recovery %killer%"
@@ -323,11 +323,11 @@
       "canDrop": true,
       "canSell": true,
       "message": {
-        "VICTIM": "katana.katana.nature.message.victim",
-        "KILLER": "katana.katana.nature.message.killer"
+        "victim": "katana.katana.nature.message.victim",
+        "killer": "katana.katana.nature.message.killer"
       },
       "onCrit": [
-        "nature %killer% %victim%"
+        "nature %victim%"
       ]
     },
     "SABRE": {
@@ -341,11 +341,11 @@
       "canDrop": true,
       "canSell": true,
       "message": {
-        "VICTIM": "katana.katana.sabre.message.victim",
-        "KILLER": "katana.katana.sabre.message.killer"
+        "victim": "katana.katana.sabre.message.victim",
+        "killer": "katana.katana.sabre.message.killer"
       },
       "onCrit": [
-        "freeze %killer% %victim%"
+        "freeze %victim%"
       ]
     },
     "CLEAVER": {
@@ -359,7 +359,7 @@
       "canDrop": true,
       "canSell": true,
       "message": {
-        "KILLER": "katana.katana.ninja.message.killer"
+        "killer": "katana.katana.ninja.message.killer"
       },
       "onCrit": [
         "ninja %killer%"
@@ -376,8 +376,8 @@
       "canDrop": true,
       "canSell": true,
       "message": {
-        "VICTIM": "katana.katana.vindicator.message.victim",
-        "KILLER": "katana.katana.vindicator.message.killer"
+        "victim": "katana.katana.vindicator.message.victim",
+        "killer": "katana.katana.vindicator.message.killer"
       },
       "onCrit": [
         "lightning %killer% %victim%"
@@ -394,11 +394,11 @@
       "canDrop": true,
       "canSell": true,
       "message": {
-        "VICTIM": "katana.katana.blindness.message.victim",
-        "KILLER": "katana.katana.blindness.message.killer"
+        "victim": "katana.katana.blindness.message.victim",
+        "killer": "katana.katana.blindness.message.killer"
       },
       "onCrit": [
-        "blindness %killer% %victim%"
+        "blindness %victim%"
       ]
     },
     "SIZE": {
@@ -412,7 +412,7 @@
       "canDrop": true,
       "canSell": true,
       "message": {
-        "KILLER": "katana.katana.size.message.killer"
+        "killer": "katana.katana.size.message.killer"
       },
       "onCrit": [
         "reduction %killer%"
@@ -429,11 +429,11 @@
       "canDrop": true,
       "canSell": true,
       "message": {
-        "VICTIM": "katana.katana.victim.message.victim",
-        "KILLER": "katana.katana.victim.message.killer"
+        "victim": "katana.katana.victim.message.victim",
+        "killer": "katana.katana.victim.message.killer"
       },
       "onCrit": [
-        "magic %killer% %victim%"
+        "magic %victim%"
       ]
     },
     "AZURE": {
@@ -447,11 +447,11 @@
       "canDrop": false,
       "canSell": false,
       "message": {
-        "VICTIM": "katana.katana.azure.message.victim",
-        "KILLER": "katana.katana.azure.message.killer"
+        "victim": "katana.katana.azure.message.victim",
+        "killer": "katana.katana.azure.message.killer"
       },
       "onCrit": [
-        "azure %killer% %victim%"
+        "murder %killer% %victim%"
       ]
     },
     "SKELETONAXE": {
@@ -479,8 +479,8 @@
       "canDrop": false,
       "canSell": false,
       "message": {
-        "VICTIM": "katana.katana.bludgeon.message.victim",
-        "KILLER": "katana.katana.bludgeon.message.killer"
+        "victim": "katana.katana.bludgeon.message.victim",
+        "killer": "katana.katana.bludgeon.message.killer"
       },
       "onCrit": [
         "stun %killer% %victim%"
