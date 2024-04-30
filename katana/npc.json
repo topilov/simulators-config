@@ -88,6 +88,30 @@
       "onClick": [
         "label %player% end 180 0.0 10.0 0.0"
       ]
+    },
+    {
+      "name": "katana.npc.sell.katana",
+      "location": {
+        "name": "sell-katana"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/tp-end.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-katana %player%"
+      ]
+    },
+    {
+      "name": "katana.npc.shop.epic.title",
+      "location": {
+        "name": "buy-katana"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/tp-end.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-katana %player%"
+      ]
     }
   ]
 }
