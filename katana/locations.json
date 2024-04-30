@@ -22,6 +22,46 @@
       "ninjaName": "",
       "enablePvp": true
     },
+    "VILLAGE": {
+      "slots": 300,
+      "map": "map11",
+      "button": {
+        "id": 11,
+        "title": "katana.location.village.title",
+        "texture": "map11.png",
+        "hint": "Перейти",
+        "requiredLevel": 1
+      },
+      "pvpBox": {
+        "name": "pvp",
+        "tag": "1"
+      },
+      "damage": 0.0,
+      "boost": 1.2,
+      "ninjaSkin": "",
+      "ninjaName": "",
+      "enablePvp": false
+    },
+    "EVENTS": {
+      "slots": 300,
+      "map": "map10",
+      "button": {
+        "id": 10,
+        "title": "katana.location.event.title",
+        "texture": "map10.png",
+        "hint": "Перейти",
+        "requiredLevel": 1
+      },
+      "pvpBox": {
+        "name": "pvp",
+        "tag": "1"
+      },
+      "damage": 3.0,
+      "boost": 1.2,
+      "ninjaSkin": "",
+      "ninjaName": "",
+      "enablePvp": true
+    },
     "BEACH": {
       "slots": 125,
       "map": "map4",
@@ -50,7 +90,7 @@
         "title": "katana.location.cyberpunk.title",
         "texture": "map3.png",
         "hint": "Перейти",
-        "requiredLevel": 1
+        "requiredLevel": 3
       },
       "pvpBox": {
         "name": "pvp",
@@ -181,46 +221,6 @@
       "ninjaSkin": "https://storage.c7x.dev/topil_ov/katana/skins/library.png",
       "ninjaName": "",
       "enablePvp": true
-    },
-    "EVENTS": {
-      "slots": 300,
-      "map": "map10",
-      "button": {
-        "id": 10,
-        "title": "katana.location.event.title",
-        "texture": "map10.png",
-        "hint": "Перейти",
-        "requiredLevel": 1
-      },
-      "pvpBox": {
-        "name": "pvp",
-        "tag": "1"
-      },
-      "damage": 3.0,
-      "boost": 1.2,
-      "ninjaSkin": "",
-      "ninjaName": "",
-      "enablePvp": true
-    },
-    "VILLAGE": {
-      "slots": 300,
-      "map": "map11",
-      "button": {
-        "id": 11,
-        "title": "katana.location.village.title",
-        "texture": "map11.png",
-        "hint": "Перейти",
-        "requiredLevel": 1
-      },
-      "pvpBox": {
-        "name": "pvp",
-        "tag": "1"
-      },
-      "damage": 0.0,
-      "boost": 1.2,
-      "ninjaSkin": "",
-      "ninjaName": "",
-      "enablePvp": false
     }
   }
 }
