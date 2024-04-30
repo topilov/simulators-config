@@ -94,7 +94,7 @@
       "location": {
         "name": "sell-katana"
       },
-      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/tp-end.png",
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/sell-katana.png",
       "skinType": "SLIM",
       "lookAtPlayer": true,
       "onClick": [
@@ -102,20 +102,37 @@
       ]
     },
     {
-      "name": "katana.npc.shop.epic.title",
+      "name": "katana.npc.shop.epic.katana.title",
       "location": {
         "name": "buy-katana",
         "offset": {
           "x": 0.0,
           "y": -1.0,
-          "z": 0.5
+          "z": 0.0
         }
       },
-      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/tp-end.png",
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/buy-katana.png",
       "skinType": "SLIM",
       "lookAtPlayer": true,
       "onClick": [
-        "sell-katana %player%"
+        "buy-katana %player%"
+      ]
+    },
+    {
+      "name": "katana.npc.shop.epic.armor.title",
+      "location": {
+        "name": "buy-armor",
+        "offset": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/buy-armor.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "buy-armor %player%"
       ]
     }
   ]
