@@ -70,7 +70,7 @@
     "vault": "\uE1D1",
     "products": [
       {
-        "title": "katana.katana.runic.title",
+        "title": "katana.shop.katana.runic.title",
         "hover": "katana.katana.runic.possibility",
         "icon": "money_boost.png",
         "price": 150.0,
@@ -80,7 +80,7 @@
         ]
       },
       {
-        "title": "katana.katana.azure.title",
+        "title": "katana.shop.katana.azure.title",
         "hover": "katana.katana.azure.possibility",
         "icon": "money_boost.png",
         "price": 175.0,
@@ -90,7 +90,7 @@
         ]
       },
       {
-        "title": "katana.katana.devil.title",
+        "title": "katana.shop.katana.devil.title",
         "hover": "katana.katana.devil.possibility",
         "icon": "money_boost.png",
         "price": 250.0,
@@ -100,7 +100,7 @@
         ]
       },
       {
-        "title": "katana.katana.bludgeon.title",
+        "title": "katana.shop.katana.bludgeon.title",
         "hover": "katana.katana.bludgeon.possibility",
         "icon": "money_boost.png",
         "price": 350.0,
@@ -110,13 +110,59 @@
         ]
       },
       {
-        "title": "katana.katana.skeletonaxe.title",
+        "title": "katana.shop.katana.skeletonaxe.title",
         "hover": "katana.katana.skeletonaxe.possibility",
         "icon": "money_boost.png",
         "price": 500.0,
         "needSubscription": true,
         "onBuy": [
           "give-katana %player% SKELETONAXE"
+        ]
+      }
+    ]
+  },
+  "armorShop": {
+    "title": "katana.shop.armor.title",
+    "vault": "\uE1D1",
+    "products": [
+      {
+        "title": "katana.shop.armor.golden.helmet.title",
+        "hover": "katana.shop.armor.golden.hover",
+        "icon": "money_boost.png",
+        "price": 300.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% GOLDEN_NINJA_HELMET"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.golden.chestplate.title",
+        "hover": "katana.shop.armor.golden.hover",
+        "icon": "money_boost.png",
+        "price": 400.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% GOLDEN_NINJA_CHESTPLATE"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.golden.leggings.title",
+        "hover": "katana.shop.armor.golden.hover",
+        "icon": "money_boost.png",
+        "price": 400.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% GOLDEN_NINJA_LEGGINGS"
+        ]
+      },
+      {
+        "title": "katana.shop.armor.golden.boots.title",
+        "hover": "katana.shop.armor.golden.hover",
+        "icon": "money_boost.png",
+        "price": 300.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-armor %player% GOLDEN_NINJA_BOOTS"
         ]
       }
     ]
