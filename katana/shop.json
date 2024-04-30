@@ -24,8 +24,8 @@
         ]
       },
       {
-        "title": "katana.shop.bits.product.blocks_booster.title",
-        "hover": "katana.shop.bits.product.blocks_booster.hover",
+        "title": "katana.shop.bits.product.hits_booster.title",
+        "hover": "katana.shop.bits.product.hits_booster.hover",
         "icon": "blocks_booster.png",
         "price": 75.0,
         "needSubscription": true,
@@ -34,8 +34,8 @@
         ]
       },
       {
-        "title": "katana.shop.bits.product.treasures_booster.title",
-        "hover": "katana.shop.bits.product.treasures_booster.hover",
+        "title": "katana.shop.bits.product.kills_booster.title",
+        "hover": "katana.shop.bits.product.kills_booster.hover",
         "icon": "red_chest.png",
         "price": 75.0,
         "needSubscription": true,
@@ -61,6 +61,62 @@
         "needSubscription": true,
         "onBuy": [
           "give-key %player% PET 1"
+        ]
+      }
+    ]
+  },
+  "katanaShop": {
+    "title": "katana.shop.katana.title",
+    "vault": "\uE1D1",
+    "products": [
+      {
+        "title": "katana.katana.runic.title",
+        "hover": "katana.katana.runic.possibility",
+        "icon": "money_boost.png",
+        "price": 150.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% RUNIC"
+        ]
+      },
+      {
+        "title": "katana.katana.azure.title",
+        "hover": "katana.katana.azure.possibility",
+        "icon": "money_boost.png",
+        "price": 175.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% AZURE"
+        ]
+      },
+      {
+        "title": "katana.katana.devil.title",
+        "hover": "katana.katana.devil.possibility",
+        "icon": "money_boost.png",
+        "price": 250.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% DEVIL"
+        ]
+      },
+      {
+        "title": "katana.katana.bludgeon.title",
+        "hover": "katana.katana.bludgeon.possibility",
+        "icon": "money_boost.png",
+        "price": 350.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% BLUDGEON"
+        ]
+      },
+      {
+        "title": "katana.katana.skeletonaxe.title",
+        "hover": "katana.katana.skeletonaxe.possibility",
+        "icon": "money_boost.png",
+        "price": 500.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-katana %player% SKELETONAXE"
         ]
       }
     ]
