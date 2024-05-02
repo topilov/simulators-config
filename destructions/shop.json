@@ -24,8 +24,8 @@
         ]
       },
       {
-        "title": "destruction.shop.bits.product.hits_booster.title",
-        "hover": "destruction.shop.bits.product.hits_booster.hover",
+        "title": "destruction.shop.bits.product.blocks_booster.title",
+        "hover": "destruction.shop.bits.product.blocks_booster.hover",
         "icon": "blocks_booster.png",
         "price": 75.0,
         "needSubscription": true,
@@ -34,13 +34,13 @@
         ]
       },
       {
-        "title": "destruction.shop.bits.product.kills_booster.title",
-        "hover": "destruction.shop.bits.product.kills_booster.hover",
+        "title": "destruction.shop.bits.product.explosions_booster.title",
+        "hover": "destruction.shop.bits.product.explosions_booster.hover",
         "icon": "red_chest.png",
         "price": 75.0,
         "needSubscription": true,
         "onBuy": [
-          "local-booster %player% TREASURES 2 7200"
+          "local-booster %player% EXPLOSIONS 2 7200"
         ]
       },
       {
@@ -66,7 +66,7 @@
     ]
   },
   "messages": {
-    "moreMoney": "treasures.shop.messages.more-money",
-    "noSubscription": "treasures.shop.messages.no-subscription"
+    "moreMoney": "destruction.shop.messages.more-money",
+    "noSubscription": "destruction.shop.messages.no-subscription"
   }
 }
