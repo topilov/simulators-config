@@ -1,0 +1,74 @@
+{
+  "npc": [
+    {
+      "name": "destruction.npc.sell.blocks.title",
+      "location": {
+        "name": "sell",
+        "tag": "blocks",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/sell-dnk.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dnksell %player% dnk"
+      ]
+    },
+    {
+      "name": "destruction.npc.upgrade.dynamite.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "dynamite"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/upgrade-item.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% upgrade"
+      ]
+    },
+    {
+      "name": "destruction.npc.upgrade.storage.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "storage"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/upgrade-dnk.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% storage"
+      ]
+    },
+    {
+      "name": "destruction.npc.upgrade.level.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "level"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/upgrade-level.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% level"
+      ]
+    },
+    {
+      "name": "destruction.npc.upgrade.rebirth.title",
+      "location": {
+        "name": "upgrade",
+        "tag": "prestige"
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/upgrade-rebirth.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% rebirth"
+      ]
+    }
+  ]
+}

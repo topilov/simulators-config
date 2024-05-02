@@ -1,472 +1,476 @@
 {
-    "notEnoughLevelMessage": "destruction.box.message.not-enough-level",
-    "teleportInsidePlace": {
-        "title": "destruction.box.enter",
-        "color": "GREEN_MIDDLE"
+  "notEnoughLevelMessage": "destruction.box.message.not-enough-level",
+  "teleportInsidePlace": {
+    "color": {
+      "hex": "#EFAC00"
     },
-    "teleportBackPlace": {
-        "title": "destruction.box.exit",
-        "color": "RED_MIDDLE"
+    "size": 2.0
+  },
+  "teleportBackPlace": {
+    "color": {
+      "hex": "#EFAC00"
     },
-    "infoBanner": {
-        "content": "destruction.box.info-banner.content",
-        "height": 40,
-        "weight": 40,
-        "opacity": 0.0,
-        "resizeLine": {
-            "0": 4
-        }
-    },
-    "boxes": {
-        "1": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 1,
-            "name": "destruction.box.1.name",
-            "boosters": {
-                "EXPLOSIONS": 10,
-                "BLOCKS": 10
-            }
-        },
-        "2": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 2,
-            "name": "destruction.box.2.name",
-            "boosters": {
-                "EXPLOSIONS": 20,
-                "BLOCKS": 20
-            }
-        },
-        "3": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 3,
-            "name": "destruction.box.3.name",
-            "boosters": {
-                "EXPLOSIONS": 30,
-                "BLOCKS": 30
-            }
-        },
-        "4": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 4,
-            "name": "destruction.box.4.name",
-            "boosters": {
-                "EXPLOSIONS": 40,
-                "BLOCKS": 40
-            }
-        },
-        "5": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 5,
-            "name": "destruction.box.5.name",
-            "boosters": {
-                "EXPLOSIONS": 50,
-                "BLOCKS": 50
-            }
-        },
-        "6": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 6,
-            "name": "destruction.box.6.name",
-            "boosters": {
-                "EXPLOSIONS": 60,
-                "BLOCKS": 60
-            }
-        },
-        "7": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 7,
-            "name": "destruction.box.7.name",
-            "boosters": {
-                "EXPLOSIONS": 70,
-                "BLOCKS": 70
-            }
-        },
-        "8": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 8,
-            "name": "destruction.box.8.name",
-            "boosters": {
-                "EXPLOSIONS": 80,
-                "BLOCKS": 80
-            }
-        },
-        "9": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 9,
-            "name": "destruction.box.9.name",
-            "boosters": {
-                "EXPLOSIONS": 90,
-                "BLOCKS": 90
-            }
-        },
-        "10": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 10,
-            "name": "destruction.box.10.name",
-            "boosters": {
-                "EXPLOSIONS": 100,
-                "BLOCKS": 100
-            }
-        },
-        "11": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 11,
-            "name": "destruction.box.11.name",
-            "boosters": {
-                "EXPLOSIONS": 110,
-                "BLOCKS": 110
-            }
-        },
-        "12": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 12,
-            "name": "destruction.box.12.name",
-            "boosters": {
-                "EXPLOSIONS": 120,
-                "BLOCKS": 120
-            }
-        },
-        "13": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 13,
-            "name": "destruction.box.13.name",
-            "boosters": {
-                "EXPLOSIONS": 130,
-                "BLOCKS": 130
-            }
-        },
-        "14": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 14,
-            "name": "destruction.box.14.name",
-            "boosters": {
-                "EXPLOSIONS": 140,
-                "BLOCKS": 140
-            }
-        },
-        "15": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 15,
-            "name": "destruction.box.15.name",
-            "boosters": {
-                "EXPLOSIONS": 150,
-                "BLOCKS": 150
-            }
-        },
-        "16": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 16,
-            "name": "destruction.box.16.name",
-            "boosters": {
-                "EXPLOSIONS": 160,
-                "BLOCKS": 160
-            }
-        },
-        "17": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 17,
-            "name": "destruction.box.17.name",
-            "boosters": {
-                "EXPLOSIONS": 170,
-                "BLOCKS": 170
-            }
-        },
-        "18": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 18,
-            "name": "destruction.box.18.name",
-            "boosters": {
-                "EXPLOSIONS": 180,
-                "BLOCKS": 180
-            }
-        },
-        "19": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 19,
-            "name": "destruction.box.19.name",
-            "boosters": {
-                "EXPLOSIONS": 190,
-                "BLOCKS": 190
-            }
-        },
-        "20": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 20,
-            "name": "destruction.box.20.name",
-            "boosters": {
-                "EXPLOSIONS": 200,
-                "BLOCKS": 200
-            }
-        },
-        "21": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 21,
-            "name": "destruction.box.21.name",
-            "boosters": {
-                "EXPLOSIONS": 210,
-                "BLOCKS": 210
-            }
-        },
-        "22": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 22,
-            "name": "destruction.box.22.name",
-            "boosters": {
-                "EXPLOSIONS": 220,
-                "BLOCKS": 220
-            }
-        },
-        "23": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 23,
-            "name": "destruction.box.23.name",
-            "boosters": {
-                "EXPLOSIONS": 230,
-                "BLOCKS": 230
-            }
-        },
-        "24": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 24,
-            "name": "destruction.box.24.name",
-            "boosters": {
-                "EXPLOSIONS": 240,
-                "BLOCKS": 240
-            }
-        },
-        "25": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 25,
-            "name": "destruction.box.25.name",
-            "boosters": {
-                "EXPLOSIONS": 250,
-                "BLOCKS": 250
-            }
-        },
-        "26": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 26,
-            "name": "destruction.box.26.name",
-            "boosters": {
-                "EXPLOSIONS": 260,
-                "BLOCKS": 260
-            }
-        },
-        "27": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 27,
-            "name": "destruction.box.27.name",
-            "boosters": {
-                "EXPLOSIONS": 270,
-                "BLOCKS": 270
-            }
-        },
-        "28": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 28,
-            "name": "destruction.box.28.name",
-            "boosters": {
-                "EXPLOSIONS": 280,
-                "BLOCKS": 280
-            }
-        },
-        "29": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 29,
-            "name": "destruction.box.29.name",
-            "boosters": {
-                "EXPLOSIONS": 290,
-                "BLOCKS": 290
-            }
-        },
-        "30": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 30,
-            "name": "destruction.box.30.name",
-            "boosters": {
-                "EXPLOSIONS": 300,
-                "BLOCKS": 300
-            }
-        },
-        "31": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 31,
-            "name": "destruction.box.31.name",
-            "boosters": {
-                "EXPLOSIONS": 310,
-                "BLOCKS": 310
-            }
-        },
-        "32": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 32,
-            "name": "destruction.box.32.name",
-            "boosters": {
-                "EXPLOSIONS": 320,
-                "BLOCKS": 320
-            }
-        },
-        "33": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 33,
-            "name": "destruction.box.33.name",
-            "boosters": {
-                "EXPLOSIONS": 330,
-                "BLOCKS": 330
-            }
-        },
-        "34": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 34,
-            "name": "destruction.box.34.name",
-            "boosters": {
-                "EXPLOSIONS": 340,
-                "BLOCKS": 340
-            }
-        },
-        "35": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 35,
-            "name": "destruction.box.35.name",
-            "boosters": {
-                "EXPLOSIONS": 350,
-                "BLOCKS": 350
-            }
-        },
-        "36": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 36,
-            "name": "destruction.box.36.name",
-            "boosters": {
-                "EXPLOSIONS": 360,
-                "BLOCKS": 360
-            }
-        },
-        "37": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 37,
-            "name": "destruction.box.37.name",
-            "boosters": {
-                "EXPLOSIONS": 370,
-                "BLOCKS": 370
-            }
-        },
-        "38": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 38,
-            "name": "destruction.box.38.name",
-            "boosters": {
-                "EXPLOSIONS": 380,
-                "BLOCKS": 380
-            }
-        },
-        "39": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 39,
-            "name": "destruction.box.39.name",
-            "boosters": {
-                "EXPLOSIONS": 390,
-                "BLOCKS": 390
-            }
-        },
-        "40": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 40,
-            "name": "destruction.box.40.name",
-            "boosters": {
-                "EXPLOSIONS": 400,
-                "BLOCKS": 400
-            }
-        },
-        "41": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 41,
-            "name": "destruction.box.41.name",
-            "boosters": {
-                "EXPLOSIONS": 410,
-                "BLOCKS": 410
-            }
-        },
-        "42": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 42,
-            "name": "destruction.box.42.name",
-            "boosters": {
-                "EXPLOSIONS": 420,
-                "BLOCKS": 420
-            }
-        },
-        "43": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 43,
-            "name": "destruction.box.43.name",
-            "boosters": {
-                "EXPLOSIONS": 430,
-                "BLOCKS": 430
-            }
-        },
-        "44": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 44,
-            "name": "destruction.box.44.name",
-            "boosters": {
-                "EXPLOSIONS": 440,
-                "BLOCKS": 440
-            }
-        },
-        "45": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 45,
-            "name": "destruction.box.45.name",
-            "boosters": {
-                "EXPLOSIONS": 450,
-                "BLOCKS": 450
-            }
-        },
-        "46": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 46,
-            "name": "destruction.box.46.name",
-            "boosters": {
-                "EXPLOSIONS": 460,
-                "BLOCKS": 460
-            }
-        },
-        "47": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 47,
-            "name": "destruction.box.47.name",
-            "boosters": {
-                "EXPLOSIONS": 470,
-                "BLOCKS": 470
-            }
-        },
-        "48": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 48,
-            "name": "destruction.box.48.name",
-            "boosters": {
-                "EXPLOSIONS": 480,
-                "BLOCKS": 480
-            }
-        },
-        "49": {
-            "infoBannerYaw": 0,
-            "requiredLevel": 49,
-            "name": "destruction.box.49.name",
-            "boosters": {
-                "EXPLOSIONS": 490,
-                "BLOCKS": 490
-            }
-        },
-        "50": {
-            "infoBannerYaw": 180,
-            "requiredLevel": 50,
-            "name": "destruction.box.50.name",
-            "boosters": {
-                "EXPLOSIONS": 500,
-                "BLOCKS": 500
-            }
-        }
+    "size": 2.0
+  },
+  "infoBanner": {
+    "content": "destruction.box.info-banner.content",
+    "height": 40,
+    "weight": 40,
+    "opacity": 0.0,
+    "resizeLine": {
+      "0": 4
     }
+  },
+  "boxes": {
+    "1": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 1,
+      "name": "destruction.box.1.name",
+      "boosters": {
+        "EXPLOSIONS": 10,
+        "BLOCKS": 10
+      }
+    },
+    "2": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 2,
+      "name": "destruction.box.2.name",
+      "boosters": {
+        "EXPLOSIONS": 20,
+        "BLOCKS": 20
+      }
+    },
+    "3": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 3,
+      "name": "destruction.box.3.name",
+      "boosters": {
+        "EXPLOSIONS": 30,
+        "BLOCKS": 30
+      }
+    },
+    "4": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 4,
+      "name": "destruction.box.4.name",
+      "boosters": {
+        "EXPLOSIONS": 40,
+        "BLOCKS": 40
+      }
+    },
+    "5": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 5,
+      "name": "destruction.box.5.name",
+      "boosters": {
+        "EXPLOSIONS": 50,
+        "BLOCKS": 50
+      }
+    },
+    "6": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 6,
+      "name": "destruction.box.6.name",
+      "boosters": {
+        "EXPLOSIONS": 60,
+        "BLOCKS": 60
+      }
+    },
+    "7": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 7,
+      "name": "destruction.box.7.name",
+      "boosters": {
+        "EXPLOSIONS": 70,
+        "BLOCKS": 70
+      }
+    },
+    "8": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 8,
+      "name": "destruction.box.8.name",
+      "boosters": {
+        "EXPLOSIONS": 80,
+        "BLOCKS": 80
+      }
+    },
+    "9": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 9,
+      "name": "destruction.box.9.name",
+      "boosters": {
+        "EXPLOSIONS": 90,
+        "BLOCKS": 90
+      }
+    },
+    "10": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 10,
+      "name": "destruction.box.10.name",
+      "boosters": {
+        "EXPLOSIONS": 100,
+        "BLOCKS": 100
+      }
+    },
+    "11": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 11,
+      "name": "destruction.box.11.name",
+      "boosters": {
+        "EXPLOSIONS": 110,
+        "BLOCKS": 110
+      }
+    },
+    "12": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 12,
+      "name": "destruction.box.12.name",
+      "boosters": {
+        "EXPLOSIONS": 120,
+        "BLOCKS": 120
+      }
+    },
+    "13": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 13,
+      "name": "destruction.box.13.name",
+      "boosters": {
+        "EXPLOSIONS": 130,
+        "BLOCKS": 130
+      }
+    },
+    "14": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 14,
+      "name": "destruction.box.14.name",
+      "boosters": {
+        "EXPLOSIONS": 140,
+        "BLOCKS": 140
+      }
+    },
+    "15": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 15,
+      "name": "destruction.box.15.name",
+      "boosters": {
+        "EXPLOSIONS": 150,
+        "BLOCKS": 150
+      }
+    },
+    "16": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 16,
+      "name": "destruction.box.16.name",
+      "boosters": {
+        "EXPLOSIONS": 160,
+        "BLOCKS": 160
+      }
+    },
+    "17": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 17,
+      "name": "destruction.box.17.name",
+      "boosters": {
+        "EXPLOSIONS": 170,
+        "BLOCKS": 170
+      }
+    },
+    "18": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 18,
+      "name": "destruction.box.18.name",
+      "boosters": {
+        "EXPLOSIONS": 180,
+        "BLOCKS": 180
+      }
+    },
+    "19": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 19,
+      "name": "destruction.box.19.name",
+      "boosters": {
+        "EXPLOSIONS": 190,
+        "BLOCKS": 190
+      }
+    },
+    "20": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 20,
+      "name": "destruction.box.20.name",
+      "boosters": {
+        "EXPLOSIONS": 200,
+        "BLOCKS": 200
+      }
+    },
+    "21": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 21,
+      "name": "destruction.box.21.name",
+      "boosters": {
+        "EXPLOSIONS": 210,
+        "BLOCKS": 210
+      }
+    },
+    "22": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 22,
+      "name": "destruction.box.22.name",
+      "boosters": {
+        "EXPLOSIONS": 220,
+        "BLOCKS": 220
+      }
+    },
+    "23": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 23,
+      "name": "destruction.box.23.name",
+      "boosters": {
+        "EXPLOSIONS": 230,
+        "BLOCKS": 230
+      }
+    },
+    "24": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 24,
+      "name": "destruction.box.24.name",
+      "boosters": {
+        "EXPLOSIONS": 240,
+        "BLOCKS": 240
+      }
+    },
+    "25": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 25,
+      "name": "destruction.box.25.name",
+      "boosters": {
+        "EXPLOSIONS": 250,
+        "BLOCKS": 250
+      }
+    },
+    "26": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 26,
+      "name": "destruction.box.26.name",
+      "boosters": {
+        "EXPLOSIONS": 260,
+        "BLOCKS": 260
+      }
+    },
+    "27": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 27,
+      "name": "destruction.box.27.name",
+      "boosters": {
+        "EXPLOSIONS": 270,
+        "BLOCKS": 270
+      }
+    },
+    "28": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 28,
+      "name": "destruction.box.28.name",
+      "boosters": {
+        "EXPLOSIONS": 280,
+        "BLOCKS": 280
+      }
+    },
+    "29": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 29,
+      "name": "destruction.box.29.name",
+      "boosters": {
+        "EXPLOSIONS": 290,
+        "BLOCKS": 290
+      }
+    },
+    "30": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 30,
+      "name": "destruction.box.30.name",
+      "boosters": {
+        "EXPLOSIONS": 300,
+        "BLOCKS": 300
+      }
+    },
+    "31": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 31,
+      "name": "destruction.box.31.name",
+      "boosters": {
+        "EXPLOSIONS": 310,
+        "BLOCKS": 310
+      }
+    },
+    "32": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 32,
+      "name": "destruction.box.32.name",
+      "boosters": {
+        "EXPLOSIONS": 320,
+        "BLOCKS": 320
+      }
+    },
+    "33": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 33,
+      "name": "destruction.box.33.name",
+      "boosters": {
+        "EXPLOSIONS": 330,
+        "BLOCKS": 330
+      }
+    },
+    "34": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 34,
+      "name": "destruction.box.34.name",
+      "boosters": {
+        "EXPLOSIONS": 340,
+        "BLOCKS": 340
+      }
+    },
+    "35": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 35,
+      "name": "destruction.box.35.name",
+      "boosters": {
+        "EXPLOSIONS": 350,
+        "BLOCKS": 350
+      }
+    },
+    "36": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 36,
+      "name": "destruction.box.36.name",
+      "boosters": {
+        "EXPLOSIONS": 360,
+        "BLOCKS": 360
+      }
+    },
+    "37": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 37,
+      "name": "destruction.box.37.name",
+      "boosters": {
+        "EXPLOSIONS": 370,
+        "BLOCKS": 370
+      }
+    },
+    "38": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 38,
+      "name": "destruction.box.38.name",
+      "boosters": {
+        "EXPLOSIONS": 380,
+        "BLOCKS": 380
+      }
+    },
+    "39": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 39,
+      "name": "destruction.box.39.name",
+      "boosters": {
+        "EXPLOSIONS": 390,
+        "BLOCKS": 390
+      }
+    },
+    "40": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 40,
+      "name": "destruction.box.40.name",
+      "boosters": {
+        "EXPLOSIONS": 400,
+        "BLOCKS": 400
+      }
+    },
+    "41": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 41,
+      "name": "destruction.box.41.name",
+      "boosters": {
+        "EXPLOSIONS": 410,
+        "BLOCKS": 410
+      }
+    },
+    "42": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 42,
+      "name": "destruction.box.42.name",
+      "boosters": {
+        "EXPLOSIONS": 420,
+        "BLOCKS": 420
+      }
+    },
+    "43": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 43,
+      "name": "destruction.box.43.name",
+      "boosters": {
+        "EXPLOSIONS": 430,
+        "BLOCKS": 430
+      }
+    },
+    "44": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 44,
+      "name": "destruction.box.44.name",
+      "boosters": {
+        "EXPLOSIONS": 440,
+        "BLOCKS": 440
+      }
+    },
+    "45": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 45,
+      "name": "destruction.box.45.name",
+      "boosters": {
+        "EXPLOSIONS": 450,
+        "BLOCKS": 450
+      }
+    },
+    "46": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 46,
+      "name": "destruction.box.46.name",
+      "boosters": {
+        "EXPLOSIONS": 460,
+        "BLOCKS": 460
+      }
+    },
+    "47": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 47,
+      "name": "destruction.box.47.name",
+      "boosters": {
+        "EXPLOSIONS": 470,
+        "BLOCKS": 470
+      }
+    },
+    "48": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 48,
+      "name": "destruction.box.48.name",
+      "boosters": {
+        "EXPLOSIONS": 480,
+        "BLOCKS": 480
+      }
+    },
+    "49": {
+      "infoBannerYaw": 0,
+      "requiredLevel": 49,
+      "name": "destruction.box.49.name",
+      "boosters": {
+        "EXPLOSIONS": 490,
+        "BLOCKS": 490
+      }
+    },
+    "50": {
+      "infoBannerYaw": 180,
+      "requiredLevel": 50,
+      "name": "destruction.box.50.name",
+      "boosters": {
+        "EXPLOSIONS": 500,
+        "BLOCKS": 500
+      }
+    }
+  }
 }

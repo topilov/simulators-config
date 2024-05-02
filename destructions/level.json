@@ -1,274 +1,877 @@
 {
-    "messages": {
-        "max": "destruction.level.message.max",
-        "moreMoney": "destruction.level.message.more-money",
-        "moreBlocks": "destruction.level.message.more-blocks",
-        "moreExplosions": "destruction.level.message.more-explosions",
-        "success": "destruction.level.message.success",
-        "successWithPrestige": "destruction.level.message.success-with-prestige",
-        "error": "destruction.level.message.error",
-        "unknownError": "destruction.simulator.unknown-error"
+  "messages": {
+    "max": "destruction.level.message.max",
+    "moreMoney": "destruction.level.message.more-money",
+    "moreBlocks": "destruction.level.message.more-blocks",
+    "moreExplosions": "destruction.level.message.more-explosions",
+    "success": "destruction.level.message.success",
+    "successWithPrestige": "destruction.level.message.success-with-prestige",
+    "error": "destruction.level.message.error",
+    "unknownError": "destruction.simulator.unknown-error"
+  },
+  "pipeline": {
+    "menuTitle": "destruction.level.pipeline.menu-title",
+    "menuDescription": "destruction.level.pipeline.menu-description",
+    "title": "destruction.level.pipeline.title",
+    "description": "destruction.level.pipeline.description"
+  },
+  "requirement": {
+    "money": {
+      "content": "destruction.level.requirement.money.content",
+      "icon": "money.png"
     },
-    "pipeline": {
-        "menuTitle": "destruction.level.pipeline.menu-title",
-        "menuDescription": "destruction.level.pipeline.menu-description",
-        "title": "destruction.level.pipeline.title",
-        "description": "destruction.level.pipeline.description"
+    "blocks": {
+      "content": "destruction.level.requirement.blocks.content",
+      "icon": "money.png"
     },
-    "commands": [
-        "level"
-    ],
-    "hover": "destruction.level.hover",
-    "level": {
-        "1": {
-            "price": 200,
-            "blocks": 500,
-            "explosions": 50
-        },
-        "2": {
-            "price": 600,
-            "blocks": 4000,
-            "explosions": 100
-        },
-        "3": {
-            "price": 1000,
-            "blocks": 10000,
-            "explosions": 150
-        },
-        "4": {
-            "price": 3500,
-            "blocks": 40000,
-            "explosions": 200
-        },
-        "5": {
-            "price": 6000,
-            "blocks": 100000,
-            "explosions": 250
-        },
-        "6": {
-            "price": 10600,
-            "blocks": 150000,
-            "explosions": 300
-        },
-        "7": {
-            "price": 16580,
-            "blocks": 250000,
-            "explosions": 350
-        },
-        "8": {
-            "price": 20563,
-            "blocks": 450000,
-            "explosions": 450
-        },
-        "9": {
-            "price": 60000,
-            "blocks": 1000000,
-            "explosions": 550
-        },
-        "10": {
-            "price": 100000,
-            "blocks": 2500000,
-            "explosions": 650
-        },
-        "11": {
-            "price": 150000,
-            "blocks": 4000000,
-            "explosions": 750
-        },
-        "12": {
-            "price": 250000,
-            "blocks": 8100000,
-            "explosions": 850
-        },
-        "13": {
-            "price": 300000,
-            "blocks": 15000000,
-            "explosions": 1000
-        },
-        "14": {
-            "price": 320000,
-            "blocks": 22500000,
-            "explosions": 1200
-        },
-        "15": {
-            "price": 350000,
-            "blocks": 33750000,
-            "explosions": 1300
-        },
-        "16": {
-            "price": 400000,
-            "blocks": 50600000,
-            "explosions": 1500
-        },
-        "17": {
-            "price": 500000,
-            "blocks": 75000000,
-            "explosions": 1650
-        },
-        "18": {
-            "price": 600000,
-            "blocks": 130000000,
-            "explosions": 1750
-        },
-        "19": {
-            "price": 700000,
-            "blocks": 150000000,
-            "explosions": 2000
-        },
-        "20": {
-            "price": 800000,
-            "blocks": 210000000,
-            "explosions": 2200
-        },
-        "21": {
-            "price": 180000,
-            "blocks": 65000000,
-            "explosions": 10500
-        },
-        "22": {
-            "price": 190000,
-            "blocks": 60000,
-            "explosions": 90
-        },
-        "23": {
-            "price": 200000,
-            "blocks": 75000,
-            "explosions": 140
-        },
-        "24": {
-            "price": 210000,
-            "blocks": 125000,
-            "explosions": 200
-        },
-        "25": {
-            "price": 220000,
-            "blocks": 1000,
-            "explosions": 15
-        },
-        "26": {
-            "price": 230000,
-            "blocks": 1000,
-            "explosions": 15
-        },
-        "27": {
-            "price": 240000,
-            "blocks": 5000,
-            "explosions": 30
-        },
-        "28": {
-            "price": 250000,
-            "blocks": 17500,
-            "explosions": 60
-        },
-        "29": {
-            "price": 260000,
-            "blocks": 60000,
-            "explosions": 90
-        },
-        "30": {
-            "price": 270000,
-            "blocks": 75000,
-            "explosions": 140
-        },
-        "31": {
-            "price": 280000,
-            "blocks": 125000,
-            "explosions": 200
-        },
-        "32": {
-            "price": 290000,
-            "blocks": 1000,
-            "explosions": 15
-        },
-        "33": {
-            "price": 300000,
-            "blocks": 5000,
-            "explosions": 30
-        },
-        "34": {
-            "price": 310000,
-            "blocks": 17500,
-            "explosions": 60
-        },
-        "35": {
-            "price": 320000,
-            "blocks": 60000,
-            "explosions": 90
-        },
-        "36": {
-            "price": 330000,
-            "blocks": 75000,
-            "explosions": 140
-        },
-        "37": {
-            "price": 340000,
-            "blocks": 125000,
-            "explosions": 200
-        },
-        "38": {
-            "price": 350000,
-            "blocks": 1000,
-            "explosions": 15
-        },
-        "39": {
-            "price": 360000,
-            "blocks": 5000,
-            "explosions": 30
-        },
-        "40": {
-            "price": 370000,
-            "blocks": 17500,
-            "explosions": 60
-        },
-        "41": {
-            "price": 380000,
-            "blocks": 60000,
-            "explosions": 90
-        },
-        "42": {
-            "price": 390000,
-            "blocks": 75000,
-            "explosions": 140
-        },
-        "43": {
-            "price": 400000,
-            "blocks": 125000,
-            "explosions": 200
-        },
-        "44": {
-            "price": 410000,
-            "blocks": 1000,
-            "explosions": 15
-        },
-        "45": {
-            "price": 420000,
-            "blocks": 5000,
-            "explosions": 30
-        },
-        "46": {
-            "price": 430000,
-            "blocks": 17500,
-            "explosions": 60
-        },
-        "47": {
-            "price": 440000,
-            "blocks": 60000,
-            "explosions": 90
-        },
-        "48": {
-            "price": 450000,
-            "blocks": 75000,
-            "explosions": 140
-        },
-        "49": {
-            "price": 460000,
-            "blocks": 125000,
-            "explosions": 200
-        },
-        "50": {
-            "price": -1,
-            "blocks": -1,
-            "explosions": -1
-        }
+    "explosions": {
+      "content": "destruction.level.requirement.explosions.content",
+      "icon": "money.png"
     }
+  },
+  "commands": [
+    "level"
+  ],
+  "hover": "destruction.level.hover",
+  "level": {
+    "1": {
+      "price": 200,
+      "blocks": 500,
+      "explosions": 50,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "2": {
+      "price": 600,
+      "blocks": 4000,
+      "explosions": 100,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "3": {
+      "price": 1000,
+      "blocks": 10000,
+      "explosions": 150,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "4": {
+      "price": 3500,
+      "blocks": 40000,
+      "explosions": 200,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "5": {
+      "price": 6000,
+      "blocks": 100000,
+      "explosions": 250,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "6": {
+      "price": 10600,
+      "blocks": 150000,
+      "explosions": 300,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "7": {
+      "price": 16580,
+      "blocks": 250000,
+      "explosions": 350,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "8": {
+      "price": 20563,
+      "blocks": 450000,
+      "explosions": 450,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "9": {
+      "price": 60000,
+      "blocks": 1000000,
+      "explosions": 550,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "10": {
+      "price": 100000,
+      "blocks": 2500000,
+      "explosions": 650,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "11": {
+      "price": 150000,
+      "blocks": 4000000,
+      "explosions": 750,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "12": {
+      "price": 250000,
+      "blocks": 8100000,
+      "explosions": 850,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "13": {
+      "price": 300000,
+      "blocks": 15000000,
+      "explosions": 1000,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "14": {
+      "price": 320000,
+      "blocks": 22500000,
+      "explosions": 1200,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "15": {
+      "price": 350000,
+      "blocks": 33750000,
+      "explosions": 1300,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "16": {
+      "price": 400000,
+      "blocks": 50600000,
+      "explosions": 1500,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "17": {
+      "price": 500000,
+      "blocks": 75000000,
+      "explosions": 1650,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "18": {
+      "price": 600000,
+      "blocks": 130000000,
+      "explosions": 1750,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "19": {
+      "price": 700000,
+      "blocks": 150000000,
+      "explosions": 2000,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "20": {
+      "price": 800000,
+      "blocks": 210000000,
+      "explosions": 2200,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "21": {
+      "price": 1000000,
+      "blocks": 310000000,
+      "explosions": 2400,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "22": {
+      "price": 1300000,
+      "blocks": 465000000,
+      "explosions": 2600,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "23": {
+      "price": 1800000,
+      "blocks": 697000000,
+      "explosions": 2800,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "24": {
+      "price": 2100000,
+      "blocks": 10455000000,
+      "explosions": 3000,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "25": {
+      "price": 2500000,
+      "blocks": 15680500000,
+      "explosions": 3200,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "26": {
+      "price": 2800000,
+      "blocks": 1000,
+      "explosions": 3400,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "27": {
+      "price": 240000,
+      "blocks": 5000,
+      "explosions": 3600,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "28": {
+      "price": 250000,
+      "blocks": 17500,
+      "explosions": 3800,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "29": {
+      "price": 260000,
+      "blocks": 60000,
+      "explosions": 4000,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "30": {
+      "price": 270000,
+      "blocks": 75000,
+      "explosions": 4200,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "31": {
+      "price": 280000,
+      "blocks": 125000,
+      "explosions": 4400,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "32": {
+      "price": 290000,
+      "blocks": 1000,
+      "explosions": 4600,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "33": {
+      "price": 300000,
+      "blocks": 5000,
+      "explosions": 4800,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "34": {
+      "price": 310000,
+      "blocks": 17500,
+      "explosions": 5000,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "35": {
+      "price": 320000,
+      "blocks": 60000,
+      "explosions": 5200,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "36": {
+      "price": 330000,
+      "blocks": 75000,
+      "explosions": 5400,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "37": {
+      "price": 340000,
+      "blocks": 125000,
+      "explosions": 5600,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "38": {
+      "price": 350000,
+      "blocks": 1000,
+      "explosions": 5800,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "39": {
+      "price": 360000,
+      "blocks": 5000,
+      "explosions": 6000,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "40": {
+      "price": 370000,
+      "blocks": 17500,
+      "explosions": 6200,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "41": {
+      "price": 380000,
+      "blocks": 60000,
+      "explosions": 6400,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "42": {
+      "price": 390000,
+      "blocks": 75000,
+      "explosions": 6600,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "43": {
+      "price": 400000,
+      "blocks": 125000,
+      "explosions": 6800,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "44": {
+      "price": 410000,
+      "blocks": 1000,
+      "explosions": 7000,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "45": {
+      "price": 420000,
+      "blocks": 5000,
+      "explosions": 7200,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "46": {
+      "price": 430000,
+      "blocks": 17500,
+      "explosions": 7400,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "47": {
+      "price": 440000,
+      "blocks": 60000,
+      "explosions": 7600,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "48": {
+      "price": 450000,
+      "blocks": 75000,
+      "explosions": 7800,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "49": {
+      "price": 460000,
+      "blocks": 125000,
+      "explosions": 8000,
+      "rewards": [
+        {
+          "emoji": "\uE1F0",
+          "title": "Локация §eПляж",
+          "subtitle": ""
+        },
+        {
+          "emoji": "\uE040",
+          "title": "§b5000 §fопыта",
+          "subtitle": ""
+        }
+      ]
+    },
+    "50": {
+      "price": -1,
+      "blocks": -1,
+      "explosions": -1,
+      "rewards": []
+    }
+  }
 }

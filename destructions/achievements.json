@@ -1,0 +1,282 @@
+{
+  "menu": {
+    "title": "",
+    "categories": [
+      {
+        "title": "Статистика",
+        "questsData": [
+          {
+            "title": "Опыт",
+            "quests": [
+              {
+                "title": "destruction.quest.exp1.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|5K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.exp1.title",
+                    "goal": 5000.0,
+                    "current": "exp1"
+                  }
+                ]
+              },
+              {
+                "title": "destruction.quest.exp2.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|15K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.exp2.title",
+                    "goal": 50000.0,
+                    "current": "exp2"
+                  }
+                ]
+              },
+              {
+                "title": "destruction.quest.exp3.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|40K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.exp3.title",
+                    "goal": 125000.0,
+                    "current": "exp3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Уровень",
+            "quests": [
+              {
+                "title": "destruction.quest.level1.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|25K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.level1.title",
+                    "goal": 2,
+                    "current": "level1"
+                  }
+                ]
+              },
+              {
+                "title": "destruction.quest.level2.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|45K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.level2.title",
+                    "goal": 4,
+                    "current": "level2"
+                  }
+                ]
+              },
+              {
+                "title": "destruction.quest.level3.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|90K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.level3.title",
+                    "goal": 6,
+                    "current": "level3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Блоки",
+            "quests": [
+              {
+                "title": "destruction.quest.blocks1.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|2.5K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.blocks1.title",
+                    "goal": 1500,
+                    "current": "blocks1"
+                  }
+                ]
+              },
+              {
+                "title": "destruction.quest.blocks2.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|12.5K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.blocks2.title",
+                    "goal": 5000,
+                    "current": "blocks2"
+                  }
+                ]
+              },
+              {
+                "title": "destruction.quest.blocks3.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|25K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.blocks3.title",
+                    "goal": 15000,
+                    "current": "blocks3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Взрывы",
+            "quests": [
+              {
+                "title": "destruction.quest.explosions1.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|2.5K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.explosions1.title",
+                    "goal": 100,
+                    "current": "explosions1"
+                  }
+                ]
+              },
+              {
+                "title": "destruction.quest.explosions2.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|12.5K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.explosions2.title",
+                    "goal": 500,
+                    "current": "explosions2"
+                  }
+                ]
+              },
+              {
+                "title": "destruction.quest.explosions3.title",
+                "icon": "swords.png",
+                "reward": "i18n.destruction.quest.reward.money|!|25K",
+                "tasks": [
+                  {
+                    "name": "destruction.quest.explosions3.title",
+                    "goal": 1500,
+                    "current": "explosions3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "EXP": [
+      {
+        "id": "exp1",
+        "title": "destruction.quest.exp1.title",
+        "goal": 5000,
+        "onComplete": [
+          "earn-money %player% 5000 true"
+        ]
+      },
+      {
+        "id": "exp2",
+        "title": "destruction.quest.exp2.title",
+        "goal": 50000,
+        "onComplete": [
+          "earn-money %player% 15000 true"
+        ]
+      },
+      {
+        "id": "exp3",
+        "title": "destruction.quest.exp3.title",
+        "goal": 125000,
+        "onComplete": [
+          "earn-money %player% 40000 true"
+        ]
+      }
+    ],
+    "LEVEL": [
+      {
+        "id": "level1",
+        "title": "destruction.quest.level1.title",
+        "goal": 2,
+        "onComplete": [
+          "earn-money %player% 25000 true"
+        ]
+      },
+      {
+        "id": "level2",
+        "title": "destruction.quest.level2.title",
+        "goal": 4,
+        "onComplete": [
+          "earn-money %player% 45000 true"
+        ]
+      },
+      {
+        "id": "level3",
+        "title": "destruction.quest.level3.title",
+        "goal": 6,
+        "onComplete": [
+          "earn-money %player% 90000 true"
+        ]
+      }
+    ],
+    "BLOCKS": [
+      {
+        "id": "blocks1",
+        "title": "destruction.quest.blocks1.title",
+        "goal": 1500,
+        "onComplete": [
+          "earn-money %player% 2500 true"
+        ]
+      },
+      {
+        "id": "blocks2",
+        "title": "destruction.quest.blocks2.title",
+        "goal": 5000,
+        "onComplete": [
+          "earn-money %player% 12500 true"
+        ]
+      },
+      {
+        "id": "blocks3",
+        "title": "destruction.quest.blocks3.title",
+        "goal": 15000,
+        "onComplete": [
+          "earn-money %player% 25000 true"
+        ]
+      }
+    ],
+    "EXPLOSIONS": [
+      {
+        "id": "explosions1",
+        "title": "katana.quest.explosions1.title",
+        "goal": 100,
+        "onComplete": [
+          "earn-money %player% 2500 true"
+        ]
+      },
+      {
+        "id": "explosions2",
+        "title": "katana.quest.explosions2.title",
+        "goal": 500,
+        "onComplete": [
+          "earn-money %player% 12500 true"
+        ]
+      },
+      {
+        "id": "explosions3",
+        "title": "katana.quest.explosions3.title",
+        "goal": 1500,
+        "onComplete": [
+          "earn-money %player% 25000 true"
+        ]
+      }
+    ]
+  }
+}

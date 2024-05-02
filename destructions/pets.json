@@ -2,28 +2,21 @@
     "message": {
         "alreadyExists": "destruction.lootbox.pets.message.already-exists"
     },
-    "hover": "destruction.pet.hover",
-    "maxLevelMessage": "destruction.pet.message.max-level",
-    "pipeline": {
-      "menuTitle": "destruction.pet.pipeline.menu-title",
-      "menuDescription": "destruction.pet.pipeline.menu-description",
-      "title": "destruction.pet.pipeline.title",
-      "description": "destruction.pet.pipeline.description",
-      "messages": {
-        "moreMoney": "destruction.message.more-money",
-        "moreRebirth": "destruction.message.more-rebirth",
-        "success": "destruction.pet.pipeline.message.success"
-      }
-    },
     "pets": {
         "CHEST": {
-            "id": "chest",
+            "id": "CHEST",
             "title": "destruction.pet.chest.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.1",
             "rare": "COMMON",
-            "boosters": [
+            "boostersTypes": [
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -31,13 +24,19 @@
             }
         },
         "ELEPHANT": {
-            "id": "elephant",
+            "id": "ELEPHANT",
             "title": "destruction.pet.elephant.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.money|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.1",
             "rare": "COMMON",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -45,13 +44,19 @@
             }
         },
         "CHICK": {
-            "id": "chick",
+            "id": "CHICK",
             "title": "destruction.pet.chick.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.exp|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.1",
             "rare": "COMMON",
-            "boosters": [
+            "boostersTypes": [
                 "EXP"
             ],
+            "boosters": {
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -59,13 +64,19 @@
             }
         },
         "PIRATE_PARROT": {
-            "id": "pirate_parrot",
+            "id": "PIRATE_PARROT",
             "title": "destruction.pet.pirate-parrot.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.exp|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.1",
             "rare": "COMMON",
-            "boosters": [
+            "boostersTypes": [
                 "EXP"
             ],
+            "boosters": {
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -73,13 +84,19 @@
             }
         },
         "HEDGEHOG": {
-            "id": "hedgehog",
+            "id": "HEDGEHOG",
             "title": "destruction.pet.hedgehog.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.blocks|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.1",
             "rare": "COMMON",
-            "boosters": [
+            "boostersTypes": [
                 "BLOCKS"
             ],
+            "boosters": {
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -87,13 +104,19 @@
             }
         },
         "FOX": {
-            "id": "fox",
+            "id": "FOX",
             "title": "destruction.pet.fox.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.common|!|destruction.pet.booster.blocks|!|destruction.text.click-to-upgrade",
+            "description": "i18n.destruction.pet.menu.hover.1",
             "rare": "COMMON",
-            "boosters": [
+            "boostersTypes": [
                 "BLOCKS"
             ],
+            "boosters": {
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -101,14 +124,24 @@
             }
         },
         "TREASURE": {
-            "id": "pet_treasure",
+            "id": "TREASURE",
             "title": "destruction.pet.treasure.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.money-exp|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.2",
             "rare": "RARE",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "EXP"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -116,14 +149,24 @@
             }
         },
         "PIRATE": {
-            "id": "pet_pirate",
+            "id": "PIRATE",
             "title": "destruction.pet.pirate.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.money-exp|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.2",
             "rare": "RARE",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "EXP"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -131,14 +174,24 @@
             }
         },
         "FISH": {
-            "id": "fish",
+            "id": "FISH",
             "title": "destruction.pet.fish.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.blocks-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.2",
             "rare": "RARE",
-            "boosters": [
+            "boostersTypes": [
                 "BLOCKS",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -146,14 +199,24 @@
             }
         },
         "CAPTAIN": {
-            "id": "captain",
+            "id": "CAPTAIN",
             "title": "destruction.pet.captain.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.money-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.2",
             "rare": "RARE",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -161,14 +224,24 @@
             }
         },
         "PUG": {
-            "id": "pug",
+            "id": "PUG",
             "title": "destruction.pet.pug.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.rare|!|destruction.pet.booster.exp-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.2",
             "rare": "RARE",
-            "boosters": [
+            "boostersTypes": [
                 "EXP",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -176,15 +249,29 @@
             }
         },
         "NINJA": {
-            "id": "ninja",
+            "id": "NINJA",
             "title": "destruction.pet.ninja.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.mythic|!|destruction.pet.booster.money-exp-blocks|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.3",
             "rare": "EPIC",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "EXP",
                 "BLOCKS"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                },
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -192,15 +279,29 @@
             }
         },
         "COOKIE": {
-            "id": "cookie",
+            "id": "COOKIE",
             "title": "destruction.pet.cookie.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.mythic|!|destruction.pet.booster.money-exp-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.3",
             "rare": "EPIC",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "EXP",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -208,15 +309,29 @@
             }
         },
         "MUSHROOM": {
-            "id": "mushroom",
+            "id": "MUSHROOM",
             "title": "destruction.pet.mushroom.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.mythic|!|destruction.pet.booster.money-blocks-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.3",
             "rare": "EPIC",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "BLOCKS",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -224,15 +339,29 @@
             }
         },
         "RUNE": {
-            "id": "rune",
+            "id": "RUNE",
             "title": "destruction.pet.rune.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.mythic|!|destruction.pet.booster.blocks-exp-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.3",
             "rare": "EPIC",
-            "boosters": [
+            "boostersTypes": [
                 "BLOCKS",
                 "EXP",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -240,16 +369,34 @@
             }
         },
         "BEE": {
-            "id": "bee",
+            "id": "BEE",
             "title": "destruction.pet.bee.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.4",
             "rare": "LEGENDARY",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "BLOCKS",
                 "EXP",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -257,16 +404,34 @@
             }
         },
         "FUGUE": {
-            "id": "fugue",
+            "id": "FUGUE",
             "title": "destruction.pet.fugue.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.4",
             "rare": "LEGENDARY",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "BLOCKS",
                 "EXP",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -274,16 +439,34 @@
             }
         },
         "EARTH": {
-            "id": "earth",
+            "id": "EARTH",
             "title": "destruction.pet.earth.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.4",
             "rare": "LEGENDARY",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "BLOCKS",
                 "EXP",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -291,16 +474,34 @@
             }
         },
         "OWL": {
-            "id": "owl",
+            "id": "OWL",
             "title": "destruction.pet.owl.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions|!|destruction.text.click-to-upgrade",
+            "description": "destruction.pet.menu.hover.4",
             "rare": "LEGENDARY",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "BLOCKS",
                 "EXP",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
@@ -308,16 +509,34 @@
             }
         },
         "CHEST_TREASURES": {
-            "id": "chest_treasures",
-            "title": "destruction.pet.treasures.name",
-            "description": "i18n.destruction.pet.menu.hover|!|destruction.rare.legendary|!|destruction.pet.booster.money-blocks-exp-explosions|!|destruction.text.click-to-upgrade",
+            "id": "CHEST_TREASURES",
+            "title": "destruction.pet.destruction.name",
+            "description": "destruction.pet.menu.hover.4",
             "rare": "LEGENDARY",
-            "boosters": [
+            "boostersTypes": [
                 "MONEY",
                 "BLOCKS",
                 "EXP",
                 "EXPLOSIONS"
             ],
+            "boosters": {
+                "MONEY": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.money"
+                },
+                "BLOCKS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.blocks"
+                },
+                "EXP": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.exp"
+                },
+                "EXPLOSIONS": {
+                    "boost": 1.25,
+                    "text": "destruction.pet.booster.explosions"
+                }
+            },
             "texture": {
                 "type": "SKULL_ITEM",
                 "damage": 3,
