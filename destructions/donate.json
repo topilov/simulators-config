@@ -29,13 +29,11 @@
         }
       },
       "category": "OTHER",
-      "price": 129,
+      "price": 199,
       "sale": 0,
       "alert": true,
       "count": [
-        1,
-        3,
-        5
+        1
       ],
       "onBuy": [
         "payload gifts-default"
@@ -53,13 +51,11 @@
         }
       },
       "category": "OTHER",
-      "price": 119,
+      "price": 249,
       "sale": 0,
       "alert": true,
       "count": [
-        1,
-        3,
-        5
+        1
       ],
       "onBuy": [
         "payload gifts-pet"
@@ -77,13 +73,11 @@
         }
       },
       "category": "OTHER",
-      "price": 199,
+      "price": 399,
       "sale": 0,
       "alert": true,
       "count": [
-        1,
-        3,
-        5
+        1
       ],
       "onBuy": [
         "payload gifts-rune"
@@ -94,12 +88,7 @@
       "confirmationTitle": "destruction.donate.element.pet-slot.title",
       "title": "destruction.donate.element.pet-slot.title",
       "description": "destruction.donate.element.pet-slot.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "pets"
-        }
-      },
+      "texture": "pet_slot.png",
       "category": "OTHER",
       "price": 99,
       "sale": 0,
@@ -135,12 +124,7 @@
       "confirmationTitle": "destruction.donate.element.money-bag.title",
       "title": "destruction.donate.element.money-bag.title",
       "description": "destruction.donate.element.money-bag.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "bag1"
-        }
-      },
+      "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 39,
       "sale": 0,
@@ -151,7 +135,7 @@
         10
       ],
       "onBuy": [
-        "random-money %player% 15 35 2147483647"
+        "random-money %player% 15 35 %count%"
       ]
     },
     "MONEY_HANDFUL": {
@@ -159,12 +143,7 @@
       "confirmationTitle": "destruction.donate.element.money-handful.title",
       "title": "destruction.donate.element.money-handful.title",
       "description": "destruction.donate.element.money-handful.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "bag1"
-        }
-      },
+      "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 9,
       "sale": 0,
@@ -175,7 +154,7 @@
         10
       ],
       "onBuy": [
-        "random-money %player% 1 10 2147483647"
+        "random-money %player% 1 10 %count%"
       ]
     },
     "SAVE_CRYSTAL": {
@@ -196,7 +175,7 @@
         5
       ],
       "onBuy": [
-        "give-item %player% SAVE_CRYSTAL 1"
+        "give-item %player% SAVE_CRYSTAL %count%"
       ]
     },
     "DEFAULT_KEY": {
@@ -204,17 +183,9 @@
       "confirmationTitle": "destruction.donate.element.default-key.title",
       "title": "destruction.donate.element.default-key.title",
       "description": "destruction.donate.element.default-key.description",
-      "item": {
-        "type": "TRIPWIRE_HOOK",
-        "enchantments": {
-          "DIG_SPEED": 1
-        },
-        "data": {
-          "other": "key"
-        }
-      },
+      "texture": "goldkey.png",
       "category": "GAME_ITEMS",
-      "price": 39,
+      "price": 79,
       "sale": 0,
       "max": -1,
       "count": [
@@ -223,7 +194,7 @@
         5
       ],
       "onBuy": [
-        "give-key %player% DEFAULT 1"
+        "give-key %player% DEFAULT %count%"
       ]
     },
     "TITLE_KEY": {
@@ -231,11 +202,9 @@
       "confirmationTitle": "destruction.donate.element.title-key.title",
       "title": "destruction.donate.element.title-key.title",
       "description": "destruction.donate.element.title-key.description",
-      "item": {
-        "type": "TRIPWIRE_HOOK"
-      },
+      "texture": "purple_cristal_key.png",
       "category": "GAME_ITEMS",
-      "price": 129,
+      "price": 499,
       "sale": 0,
       "max": -1,
       "count": [
@@ -244,7 +213,7 @@
         5
       ],
       "onBuy": [
-        "give-key %player% TITLE 1"
+        "give-key %player% TITLE %count%"
       ]
     },
     "PET_KEY": {
@@ -252,17 +221,9 @@
       "confirmationTitle": "destruction.donate.element.pet-key.title",
       "title": "destruction.donate.element.pet-key.title",
       "description": "destruction.donate.element.pet-key.description",
-      "item": {
-        "type": "TRIPWIRE_HOOK",
-        "enchantments": {
-          "DIG_SPEED": 1
-        },
-        "data": {
-          "other": "key"
-        }
-      },
+      "texture": "fox_key.png",
       "category": "GAME_ITEMS",
-      "price": 49,
+      "price": 149,
       "sale": 0,
       "max": -1,
       "count": [
@@ -271,7 +232,7 @@
         5
       ],
       "onBuy": [
-        "give-key %player% PET 1"
+        "give-key %player% PET %count%"
       ]
     },
     "RUNE_KEY": {
@@ -279,11 +240,9 @@
       "confirmationTitle": "destruction.donate.element.rune-key.title",
       "title": "destruction.donate.element.rune-key.title",
       "description": "destruction.donate.element.rune-key.description",
-      "item": {
-        "type": "TRIPWIRE_HOOK"
-      },
+      "texture": "rune_key.png",
       "category": "GAME_ITEMS",
-      "price": 129,
+      "price": 299,
       "sale": 0,
       "max": -1,
       "count": [
@@ -292,29 +251,7 @@
         5
       ],
       "onBuy": [
-        "give-key %player% RUNE 1"
-      ]
-    },
-    "INSTANTLY_OPEN": {
-      "donateName": "destruction.donate.element.instantly-open.donate-name",
-      "confirmationTitle": "destruction.donate.element.instantly-open.title",
-      "title": "destruction.donate.element.instantly-open.title",
-      "description": "destruction.donate.element.instantly-open.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "new_lvl_rare_close"
-        }
-      },
-      "category": "OTHER_FEATURES",
-      "price": 199,
-      "sale": 0,
-      "max": 1,
-      "count": [
-        1
-      ],
-      "onBuy": [
-        "morestat %player% set true instantlyOpenLootbox"
+        "give-key %player% RUNE %count%"
       ]
     },
     "INFINITY_STORAGE": {
@@ -322,15 +259,9 @@
       "confirmationTitle": "destruction.donate.element.infinity-storage.title",
       "title": "destruction.donate.element.infinity-storage.title",
       "description": "destruction.donate.element.infinity-storage.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "bag",
-          "color": 9521389
-        }
-      },
+      "texture": "storage.png",
       "category": "OTHER_FEATURES",
-      "price": 199,
+      "price": 399,
       "sale": 0,
       "max": 1,
       "count": [
@@ -340,16 +271,29 @@
         "morestat %player% set true hasInfinityStorage"
       ]
     },
+    "SUPER_PLAYER": {
+      "donateName": "destruction.donate.element.super-player.donate-name",
+      "title": "destruction.donate.element.super-player.title",
+      "description": "destruction.donate.element.super-player.description",
+      "texture": "vip.png",
+      "category": "OTHER_FEATURES",
+      "price": 149,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true sub"
+      ]
+    },
     "SPEED_PERK": {
       "donateName": "destruction.donate.element.speed-perk.donate-name",
       "confirmationTitle": "destruction.donate.element.speed-perk.title",
       "title": "destruction.donate.element.speed-perk.title",
       "description": "destruction.donate.element.speed-perk.description",
-      "item": {
-        "type": "FEATHER"
-      },
+      "texture": "speed.png",
       "category": "OTHER_FEATURES",
-      "price": 49,
+      "price": 99,
       "sale": 0,
       "max": 1,
       "count": [
@@ -361,30 +305,11 @@
         "set-speed %player% 0.4"
       ]
     },
-    "SUPER_PLAYER": {
-      "donateName": "destruction.donate.element.super-player.donate-name",
-      "title": "destruction.donate.element.super-player.title",
-      "description": "destruction.donate.element.super-player.description",
-      "item": {
-        "type": "END_CRYSTAL"
-      },
-      "category": "OTHER_FEATURES",
-      "price": 69,
-      "sale": 0,
-      "count": [
-        1
-      ],
-      "onBuy": [
-        "morestat %player% set true sub"
-      ]
-    },
     "GLOBAL_EXP": {
       "donateName": "destruction.donate.element.global-exp.donate-name",
       "title": "destruction.donate.element.global-exp.title",
       "description": "destruction.donate.element.global-exp.description",
-      "item": {
-        "type": "DRAGONS_BREATH"
-      },
+      "texture": "xp_booster.png",
       "category": "BOOSTERS",
       "price": 199,
       "sale": 0,
@@ -395,16 +320,14 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% exp 2 3600"
+        "global-booster %player% exp 2 3600 %count%"
       ]
     },
     "LOCAL_EXP": {
       "donateName": "destruction.donate.element.local-exp.donate-name",
       "title": "destruction.donate.element.local-exp.title",
       "description": "destruction.donate.element.local-exp.description",
-      "item": {
-        "type": "DRAGONS_BREATH"
-      },
+      "texture": "xp_booster.png",
       "category": "BOOSTERS",
       "price": 149,
       "sale": 0,
@@ -414,7 +337,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% exp 2 14400"
+        "local-booster %player% exp 2 14400 %count%"
       ]
     },
     "GLOBAL_EXPLOSIONS": {
@@ -437,7 +360,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% explosions 2 3600"
+        "global-booster %player% explosions 2 3600 %count%"
       ]
     },
     "LOCAL_EXPLOSIONS": {
@@ -459,19 +382,14 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% explosions 2 14400"
+        "local-booster %player% explosions 2 14400 %count%"
       ]
     },
     "GLOBAL_BLOCKS": {
       "donateName": "destruction.donate.element.global-blocks.donate-name",
       "title": "destruction.donate.element.global-blocks.title",
       "description": "destruction.donate.element.global-blocks.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "blocks"
-        }
-      },
+      "texture": "blocks_booster.png",
       "category": "BOOSTERS",
       "price": 169,
       "sale": 0,
@@ -482,19 +400,14 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% blocks 2 3600"
+        "global-booster %player% blocks 2 3600 %count%"
       ]
     },
     "LOCAL_BLOCKS": {
       "donateName": "destruction.donate.element.local-blocks.donate-name",
       "title": "destruction.donate.element.local-blocks.title",
       "description": "destruction.donate.element.local-blocks.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "blocks"
-        }
-      },
+      "texture": "blocks_booster.png",
       "category": "BOOSTERS",
       "price": 119,
       "sale": 0,
@@ -504,16 +417,14 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% blocks 2 14400"
+        "local-booster %player% blocks 2 14400 %count%"
       ]
     },
     "GLOBAL_MONEY": {
       "donateName": "destruction.donate.element.global-money.donate-name",
       "title": "destruction.donate.element.global-money.title",
       "description": "destruction.donate.element.global-money.description",
-      "item": {
-        "type": "GOLD_NUGGET"
-      },
+      "texture": "money_boost.png",
       "category": "BOOSTERS",
       "price": 169,
       "alert": true,
@@ -523,7 +434,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% money 2 3600"
+        "global-booster %player% money 2 3600 %count%"
       ]
     },
     "LOCAL_MONEY": {
@@ -531,9 +442,7 @@
       "confirmationTitle": "destruction.donate.element.local-money.title",
       "title": "destruction.donate.element.local-money.title",
       "description": "destruction.donate.element.local-money.description",
-      "item": {
-        "type": "GOLD_NUGGET"
-      },
+      "texture": "money_boost.png",
       "category": "BOOSTERS",
       "price": 119,
       "count": [
@@ -542,16 +451,14 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% money 2 14400"
+        "local-booster %player% money 2 14400 %count%"
       ]
     },
     "GLOBAL_ALL": {
       "donateName": "destruction.donate.element.global-all.donate-name",
       "title": "destruction.donate.element.global-all.title",
       "description": "destruction.donate.element.global-all.description",
-      "item": {
-        "type": "CHEST"
-      },
+      "texture": "all_boost.png",
       "category": "BOOSTERS",
       "price": 399,
       "alert": true,
@@ -561,19 +468,17 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% blocks 2 3600",
-        "global-booster %player% explosions 2 3600",
-        "global-booster %player% exp 2 3600",
-        "global-booster %player% money 2 3600"
+        "global-booster %player% blocks 2 3600 %count%",
+        "global-booster %player% explosions 2 3600 %count%",
+        "global-booster %player% exp 2 3600 %count%",
+        "global-booster %player% money 2 3600 %count%"
       ]
     },
     "LOCAL_ALL": {
       "donateName": "destruction.donate.element.local-all.donate-name",
       "title": "destruction.donate.element.local-all.title",
       "description": "destruction.donate.element.local-all.description",
-      "item": {
-        "type": "CHEST"
-      },
+      "texture": "all_boost.png",
       "category": "BOOSTERS",
       "price": 349,
       "count": [
@@ -582,10 +487,10 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% blocks 2 14400",
-        "local-booster %player% explosions 2 14400",
-        "local-booster %player% exp 2 14400",
-        "local-booster %player% money 2 14400"
+        "local-booster %player% blocks 2 14400 %count%",
+        "local-booster %player% explosions 2 14400 %count%",
+        "local-booster %player% exp 2 14400 %count%",
+        "local-booster %player% money 2 14400 %count%"
       ]
     }
   }
