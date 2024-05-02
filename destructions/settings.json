@@ -1,26 +1,24 @@
 {
-    "settings": {
-        "DISABLE_PETS": {
-            "id": "pets",
-            "title": "destruction.settings.disable-pets.title",
-            "description": "destruction.settings.disable-pets.description",
-            "onEnable": [
-                "set-view-pets %player% false"
-            ],
-            "onDisable": [
-                "set-view-pets %player% true"
-            ]
-        },
-        "DISABLE_PLAYERS": {
-            "id": "players",
-            "title": "destruction.settings.disable-players.title",
-            "description": "destruction.settings.disable-players.description",
-            "onEnable": [
-                "set-view-players %player% false"
-            ],
-            "onDisable": [
-                "set-view-players %player% true"
-            ]
-        }
+  "settings": {
+    "DISABLE_PETS": {
+      "id": "pets",
+      "title": "destruction.settings.disable-pets.title",
+      "onEnable": [
+        "set-view-pets %player% false"
+      ],
+      "onDisable": [
+        "set-view-pets %player% true"
+      ]
+    },
+    "DISABLE_PLAYERS": {
+      "id": "players",
+      "title": "destruction.settings.disable-players.title",
+      "onEnable": [
+        "set-view-players %player% false"
+      ],
+      "onDisable": [
+        "set-view-players %player% true"
+      ]
     }
+  }
 }

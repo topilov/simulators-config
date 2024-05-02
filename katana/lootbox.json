@@ -3,18 +3,15 @@
     "katana": {
       "title": "katana.lootbox.katana.title",
       "keyTitle": "katana.lootbox.katana.key.title",
-      "giveMessage": "i18n.katana.lootbox.message.give|!|§8[§ai§8]§f|!|katana.lootbox.katana.key.title",
+      "giveMessage": "i18n.katana.lootbox.message.give|!|katana.lootbox.katana.key.title",
       "alertMessage": "katana.lootbox.katana.message.alert",
-      "useMessage": "i18n.katana.lootbox.message.use|!|§8[§ci§8]§f|!|katana.lootbox.katana.key.title",
+      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.katana.key.title",
       "keyStack": {
         "type": "CLAY_BALL",
         "name": "katana.lootbox.katana.key.title",
         "lore": "katana.lootbox.katana.key.description",
-        "enchantments": {
-          "DAMAGE_ALL": 1
-        },
         "data": {
-          "other": "key",
+          "sim": "goldkey",
           "no-clear": 1
         },
         "flags": [
@@ -35,7 +32,7 @@
       "menu": {
         "id": "katana",
         "title": "katana.lootbox.katana.menu.title",
-        "item": "lootboxes.png",
+        "texture": "lootboxes.png",
         "elements": [
           {
             "rarity": "RARE",
@@ -171,7 +168,7 @@
             ]
           },
           {
-            "rarity": "RARE",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
               "name": "katana.katana.mace.title",
@@ -190,7 +187,7 @@
             ]
           },
           {
-            "rarity": "RARE",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
               "name": "katana.katana.size.title",
@@ -209,7 +206,7 @@
             ]
           },
           {
-            "rarity": "RARE",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
               "name": "katana.katana.magic.title",
@@ -232,14 +229,14 @@
     },
     "pets": {
       "title": "katana.lootbox.pets.title",
-      "keyTitle": "katana.lootbox.pets.key-title",
-      "giveMessage": "i18n.katana.lootbox.default.give-message|!|katana.lootbox.pets.key-title",
+      "keyTitle": "katana.lootbox.pets.key.title",
+      "giveMessage": "i18n.katana.lootbox.message.give|!|katana.lootbox.pets.key.title",
       "alertMessage": "katana.lootbox.pets.message.alert",
-      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.pets.key-title",
+      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.pets.key.title",
       "keyStack": {
         "type": "CLAY_BALL",
-        "name": "katana.lootbox.pets.key-title",
-        "lore": "katana.lootbox.pets.key-description",
+        "name": "katana.lootbox.pets.key.title",
+        "lore": "katana.lootbox.pets.key.description",
         "data": {
           "sim": "fox_key",
           "no-clear": 1
@@ -530,14 +527,14 @@
     },
     "rune": {
       "title": "katana.lootbox.runes.title",
-      "keyTitle": "katana.lootbox.runes.key-title",
-      "giveMessage": "i18n.katana.lootbox.default.give-message|!|katana.lootbox.runes.key-title",
+      "keyTitle": "katana.lootbox.runes.key.title",
+      "giveMessage": "i18n.katana.lootbox.message.give|!|katana.lootbox.runes.key.title",
       "alertMessage": "katana.lootbox.runes.message.alert",
-      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.runes.key-title",
+      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.runes.key.title",
       "keyStack": {
         "type": "CLAY_BALL",
-        "name": "katana.lootbox.runes.key-title",
-        "lore": "katana.lootbox.runes.key-description",
+        "name": "katana.lootbox.runes.key.title",
+        "lore": "katana.lootbox.runes.key.description",
         "data": {
           "sim": "rune_key",
           "no-clear": 1
@@ -588,7 +585,8 @@
             "onDrop": [
               "give-rune %player% REINCARNATION 100000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -600,7 +598,8 @@
             "onDrop": [
               "give-rune %player% MIRROR 100000"
             ]
-          },{
+          },
+          {
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -612,7 +611,8 @@
             "onDrop": [
               "give-rune %player% BERSERK 100000"
             ]
-          },{
+          },
+          {
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -624,7 +624,8 @@
             "onDrop": [
               "give-rune %player% SHIELD 100000"
             ]
-          },{
+          },
+          {
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -636,7 +637,8 @@
             "onDrop": [
               "give-rune %player% INVADER 100000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -648,7 +650,8 @@
             "onDrop": [
               "give-rune %player% COLLECTOR 100000"
             ]
-          },{
+          },
+          {
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -660,7 +663,8 @@
             "onDrop": [
               "give-rune %player% LIVESEY 100000"
             ]
-          },{
+          },
+          {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -698,7 +702,8 @@
             "onDrop": [
               "give-rune %player% KEEPER 100000"
             ]
-          },{
+          },
+          {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -710,7 +715,8 @@
             "onDrop": [
               "give-rune %player% PET 100000"
             ]
-          },{
+          },
+          {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -722,7 +728,8 @@
             "onDrop": [
               "give-rune %player% SUPER_PLAYER 100000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -734,7 +741,8 @@
             "onDrop": [
               "give-rune %player% SELLER 100000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -746,7 +754,8 @@
             "onDrop": [
               "give-rune %player% KILLER 100000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -758,7 +767,8 @@
             "onDrop": [
               "give-rune %player% BOXER 100000"
             ]
-          },{
+          },
+          {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -770,7 +780,8 @@
             "onDrop": [
               "give-rune %player% UPGRADE 100000"
             ]
-          },{
+          },
+          {
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -782,7 +793,8 @@
             "onDrop": [
               "give-rune %player% BLACKSMITH 100000"
             ]
-          },{
+          },
+          {
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -800,14 +812,14 @@
     },
     "title": {
       "title": "katana.lootbox.titles.title",
-      "keyTitle": "katana.lootbox.titles.key-title",
-      "giveMessage": "i18n.katana.lootbox.default.give-message|!|katana.lootbox.titles.key-title",
+      "keyTitle": "katana.lootbox.titles.key.title",
+      "giveMessage": "i18n.katana.lootbox.message.give|!|katana.lootbox.titles.key.title",
       "alertMessage": "katana.lootbox.titles.message.alert",
-      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.titles.key-title",
+      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.titles.key.title",
       "keyStack": {
         "type": "CLAY_BALL",
-        "name": "katana.lootbox.titles.key-title",
-        "lore": "katana.lootbox.titles.key-description",
+        "name": "katana.lootbox.titles.key.title",
+        "lore": "katana.lootbox.titles.key.description",
         "data": {
           "sim": "purple_crystal_key",
           "no-clear": 1
@@ -846,7 +858,8 @@
             "onDrop": [
               "give-title %player% MAGE 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -859,7 +872,8 @@
             "onDrop": [
               "give-title %player% DRAGON 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -872,7 +886,8 @@
             "onDrop": [
               "give-title %player% LORD 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -885,7 +900,8 @@
             "onDrop": [
               "give-title %player% SNIPER 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -898,7 +914,8 @@
             "onDrop": [
               "give-title %player% SAMURAI 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -911,7 +928,8 @@
             "onDrop": [
               "give-title %player% PALLADIN 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -924,7 +942,8 @@
             "onDrop": [
               "give-title %player% PREDATOR 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -937,7 +956,8 @@
             "onDrop": [
               "give-title %player% SPY 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -950,7 +970,8 @@
             "onDrop": [
               "give-title %player% MONK 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -963,7 +984,8 @@
             "onDrop": [
               "give-title %player% NECROMANCER 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -976,7 +998,8 @@
             "onDrop": [
               "give-title %player% DAEMON 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -989,7 +1012,8 @@
             "onDrop": [
               "give-title %player% WARLOCK 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1002,7 +1026,8 @@
             "onDrop": [
               "give-title %player% EMPEROR 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1015,7 +1040,8 @@
             "onDrop": [
               "give-title %player% MUTANT 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1028,7 +1054,8 @@
             "onDrop": [
               "give-title %player% PIRATE 500000"
             ]
-          },{
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1055,7 +1082,8 @@
             "onDrop": [
               "give-title %player% BANKER 500000"
             ]
-          },{
+          },
+          {
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1068,7 +1096,8 @@
             "onDrop": [
               "give-title %player% DODGER 500000"
             ]
-          },{
+          },
+          {
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1081,7 +1110,8 @@
             "onDrop": [
               "give-title %player% LIVELY 500000"
             ]
-          },{
+          },
+          {
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1094,7 +1124,8 @@
             "onDrop": [
               "give-title %player% ASSASSIN 500000"
             ]
-          },{
+          },
+          {
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1107,7 +1138,8 @@
             "onDrop": [
               "give-title %player% MESSENGER 500000"
             ]
-          },{
+          },
+          {
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1120,7 +1152,8 @@
             "onDrop": [
               "give-title %player% TANK 500000"
             ]
-          },{
+          },
+          {
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1133,7 +1166,8 @@
             "onDrop": [
               "give-title %player% CHAMPION 500000"
             ]
-          },{
+          },
+          {
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1146,7 +1180,8 @@
             "onDrop": [
               "give-title %player% VAMPIRE 500000"
             ]
-          },{
+          },
+          {
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1159,7 +1194,8 @@
             "onDrop": [
               "give-title %player% HERO 500000"
             ]
-          },{
+          },
+          {
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1172,7 +1208,8 @@
             "onDrop": [
               "give-title %player% TREASURE_HUNTER 500000"
             ]
-          },{
+          },
+          {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1185,7 +1222,8 @@
             "onDrop": [
               "give-title %player% DEXTEROUS_HANDLES 500000"
             ]
-          },{
+          },
+          {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1198,7 +1236,8 @@
             "onDrop": [
               "give-title %player% LUCKY 500000"
             ]
-          },{
+          },
+          {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1211,7 +1250,8 @@
             "onDrop": [
               "give-title %player% HUNTER 500000"
             ]
-          },{
+          },
+          {
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
