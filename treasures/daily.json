@@ -101,10 +101,10 @@
       },
       "onSuccess": [
         "give-key %player% TITLE 1",
-        "local-booster %player% blocks 2 3600",
-        "local-booster %player% explosions 2 3600",
-        "local-booster %player% exp 2 3600",
-        "local-booster %player% money 2 3600",
+        "local-booster %player% BLOCKS 2 3600",
+        "local-booster %player% EXPLOSIONS 2 3600",
+        "local-booster %player% EXP 2 3600",
+        "local-booster %player% MONEY 2 3600",
         "take-daily %player% 7"
       ]
     }
