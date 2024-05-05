@@ -404,7 +404,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% exp 2 3600 %count%"
+        "global-booster %player% EXP 2 3600 %count%"
       ]
     },
     "LOCAL_EXP": {
@@ -421,7 +421,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% exp 2 14400 %count%"
+        "local-booster %player% EXP 2 14400 %count%"
       ]
     },
     "GLOBAL_HITS": {
@@ -440,7 +440,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% hits 2 3600 %count%"
+        "global-booster %player% HITS 2 3600 %count%"
       ]
     },
     "LOCAL_HITS": {
@@ -459,7 +459,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% hits 2 14400 %count%"
+        "local-booster %player% HITS 2 14400 %count%"
       ]
     },
     "GLOBAL_KILLS": {
@@ -479,7 +479,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% blocks 2 3600 %count%"
+        "global-booster %player% KILLS 2 3600 %count%"
       ]
     },
     "LOCAL_KILLS": {
@@ -498,7 +498,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% blocks 2 14400 %count%"
+        "local-booster %player% KILLS 2 14400 %count%"
       ]
     },
     "GLOBAL_MONEY": {
@@ -515,7 +515,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% money 2 3600 %count%"
+        "global-booster %player% MONEY 2 3600 %count%"
       ]
     },
     "LOCAL_MONEY": {
@@ -532,7 +532,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% money 2 14400 %count%"
+        "local-booster %player% MONEY 2 14400 %count%"
       ]
     },
     "GLOBAL_ALL": {
@@ -549,10 +549,10 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% kills 2 3600 %count%",
-        "global-booster %player% hits 2 3600 %count%",
-        "global-booster %player% exp 2 3600 %count%",
-        "global-booster %player% money 2 3600 %count%"
+        "global-booster %player% KILLS 2 3600 %count%",
+        "global-booster %player% HITS 2 3600 %count%",
+        "global-booster %player% EXP 2 3600 %count%",
+        "global-booster %player% MONEY 2 3600 %count%"
       ]
     },
     "LOCAL_ALL": {
@@ -568,10 +568,10 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% kills 2 14400 %count%",
-        "local-booster %player% hits 2 14400 %count%",
-        "local-booster %player% exp 2 14400 %count%",
-        "local-booster %player% money 2 14400 %count%"
+        "local-booster %player% KILLS 2 14400 %count%",
+        "local-booster %player% HITS 2 14400 %count%",
+        "local-booster %player% EXP 2 14400 %count%",
+        "local-booster %player% MONEY 2 14400 %count%"
       ]
     }
   }
