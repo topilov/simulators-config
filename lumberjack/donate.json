@@ -1,0 +1,507 @@
+{
+  "categories": {
+    "OTHER": {
+      "title": "lumberjack.donate.category.other.title"
+    },
+    "GAME_ITEMS": {
+      "title": "lumberjack.donate.category.game-items.title"
+    },
+    "GAME_BALANCE": {
+      "title": "lumberjack.donate.category.game-balance.title"
+    },
+    "OTHER_FEATURES": {
+      "title": "lumberjack.donate.category.other-features.title"
+    },
+    "BOOSTERS": {
+      "title": "lumberjack.donate.category.boosters.title"
+    }
+  },
+  "elements": {
+    "GIFTS_DEFAULT": {
+      "donateName": "lumberjack.donate.element.gifts-default.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.gifts-default.title",
+      "title": "lumberjack.donate.element.gifts-default.title",
+      "description": "lumberjack.donate.element.gifts-defaukt.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 199,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "payload gifts-default"
+      ]
+    },
+    "GIFTS_PET": {
+      "donateName": "lumberjack.donate.element.gifts-pet.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.gifts-pet.title",
+      "title": "lumberjack.donate.element.gifts-pet.title",
+      "description": "lumberjack.donate.element.gifts-pet.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 249,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "payload gifts-pet"
+      ]
+    },
+    "GIFTS_RUNE": {
+      "donateName": "lumberjack.donate.element.gifts-rune.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.gifts-rune.title",
+      "title": "lumberjack.donate.element.gifts-rune.title",
+      "description": "lumberjack.donate.element.gifts-rune.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 399,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "payload gifts-rune"
+      ]
+    },
+    "PET_SLOT": {
+      "donateName": "lumberjack.donate.element.pet-slot.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.pet-slot.title",
+      "title": "lumberjack.donate.element.pet-slot.title",
+      "description": "lumberjack.donate.element.pet-slot.description",
+      "texture": "pet_slot.png",
+      "category": "OTHER",
+      "price": 399,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "unlock-pet-slot %player%"
+      ]
+    },
+    "RUNE_SLOT": {
+      "donateName": "lumberjack.donate.element.rune-slot.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.rune-slot.title",
+      "title": "lumberjack.donate.element.rune-slot.title",
+      "description": "lumberjack.donate.element.rune-slot.description",
+      "item": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+      },
+      "category": "OTHER",
+      "price": 499,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "unlock-rune-slot %player%"
+      ]
+    },
+    "MONEY_BAG": {
+      "donateName": "lumberjack.donate.element.money-bag.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.money-bag.title",
+      "title": "lumberjack.donate.element.money-bag.title",
+      "description": "lumberjack.donate.element.money-bag.description",
+      "texture": "bag.png",
+      "category": "GAME_BALANCE",
+      "price": 39,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "random-money %player% 15 35 %count%"
+      ]
+    },
+    "MONEY_HANDFUL": {
+      "donateName": "lumberjack.donate.element.money-handful.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.money-handful.title",
+      "title": "lumberjack.donate.element.money-handful.title",
+      "description": "lumberjack.donate.element.money-handful.description",
+      "texture": "bag.png",
+      "category": "GAME_BALANCE",
+      "price": 9,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "random-money %player% 1 10 %count%"
+      ]
+    },
+    "LEGENDARY_AXE": {
+      "donateName": "lumberjack.donate.element.legendary-axe.donate-name",
+      "title": "lumberjack.donate.element.legendary-axe.title",
+      "description": "lumberjack.donate.element.legendary-axe.description",
+      "item": {
+        "type": "GOLD_INGOT"
+      },
+      "category": "GAME_ITEMS",
+      "price": 399,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "give legendary lumberjack"
+      ]
+    },
+    "SAVE_CRYSTAL": {
+      "donateName": "lumberjack.donate.element.save-crystal.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.save-crystal.title",
+      "title": "lumberjack.donate.element.save-crystal.title",
+      "description": "lumberjack.donate.element.save-crystal.description",
+      "item": {
+        "type": "CHORUS_FRUIT_POPPED"
+      },
+      "category": "GAME_ITEMS",
+      "price": 39,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-item %player% SAVE_CRYSTAL %count%"
+      ]
+    },
+    "DEFAULT_KEY": {
+      "donateName": "lumberjack.donate.element.default-key.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.default-key.title",
+      "title": "lumberjack.donate.element.default-key.title",
+      "description": "lumberjack.donate.element.default-key.description",
+      "texture": "goldkey.png",
+      "category": "GAME_ITEMS",
+      "price": 79,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-key %player% DEFAULT %count%"
+      ]
+    },
+    "TITLE_KEY": {
+      "donateName": "lumberjack.donate.element.title-key.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.title-key.title",
+      "title": "lumberjack.donate.element.title-key.title",
+      "description": "lumberjack.donate.element.title-key.description",
+      "texture": "purple_cristal_key.png",
+      "category": "GAME_ITEMS",
+      "price": 499,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-key %player% TITLE %count%"
+      ]
+    },
+    "PET_KEY": {
+      "donateName": "lumberjack.donate.element.pet-key.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.pet-key.title",
+      "title": "lumberjack.donate.element.pet-key.title",
+      "description": "lumberjack.donate.element.pet-key.description",
+      "texture": "fox_key.png",
+      "category": "GAME_ITEMS",
+      "price": 149,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-key %player% PET %count%"
+      ]
+    },
+    "RUNE_KEY": {
+      "donateName": "lumberjack.donate.element.rune-key.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.rune-key.title",
+      "title": "lumberjack.donate.element.rune-key.title",
+      "description": "lumberjack.donate.element.rune-key.description",
+      "texture": "rune_key.png",
+      "category": "GAME_ITEMS",
+      "price": 299,
+      "sale": 0,
+      "max": -1,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "give-key %player% RUNE %count%"
+      ]
+    },
+    "INFINITY_STORAGE": {
+      "donateName": "lumberjack.donate.element.infinity-storage.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.infinity-storage.title",
+      "title": "lumberjack.donate.element.infinity-storage.title",
+      "description": "lumberjack.donate.element.infinity-storage.description",
+      "texture": "storage.png",
+      "category": "OTHER_FEATURES",
+      "price": 399,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasInfinityStorage"
+      ]
+    },
+    "SUPER_PLAYER": {
+      "donateName": "lumberjack.donate.element.super-player.donate-name",
+      "title": "lumberjack.donate.element.super-player.title",
+      "description": "lumberjack.donate.element.super-player.description",
+      "texture": "vip.png",
+      "category": "OTHER_FEATURES",
+      "price": 149,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true sub"
+      ]
+    },
+    "SPEED_PERK": {
+      "donateName": "lumberjack.donate.element.speed-perk.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.speed-perk.title",
+      "title": "lumberjack.donate.element.speed-perk.title",
+      "description": "lumberjack.donate.element.speed-perk.description",
+      "texture": "speed.png",
+      "category": "OTHER_FEATURES",
+      "price": 99,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasSpeedPerk",
+        "morestat %player% set 0.4 speed",
+        "set-speed %player% 0.4"
+      ]
+    },
+    "GLOBAL_EXP": {
+      "donateName": "lumberjack.donate.element.global-exp.donate-name",
+      "title": "lumberjack.donate.element.global-exp.title",
+      "description": "lumberjack.donate.element.global-exp.description",
+      "texture": "xp_booster.png",
+      "category": "BOOSTERS",
+      "price": 199,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% EXP 2 3600 %count%"
+      ]
+    },
+    "LOCAL_EXP": {
+      "donateName": "lumberjack.donate.element.local-exp.donate-name",
+      "title": "lumberjack.donate.element.local-exp.title",
+      "description": "lumberjack.donate.element.local-exp.description",
+      "texture": "xp_booster.png",
+      "category": "BOOSTERS",
+      "price": 149,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% EXP 2 14400 %count%"
+      ]
+    },
+    "GLOBAL_BLOCKS": {
+      "donateName": "lumberjack.donate.element.global-blocks.donate-name",
+      "title": "lumberjack.donate.element.global-blocks.title",
+      "description": "lumberjack.donate.element.global-blocks.description",
+      "item": {
+        "type": "STONE_SWORD"
+      },
+      "category": "BOOSTERS",
+      "price": 199,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% BLOCKS 2 3600 %count%"
+      ]
+    },
+    "LOCAL_BLOCKS": {
+      "donateName": "lumberjack.donate.element.local-blocks.donate-name",
+      "title": "lumberjack.donate.element.local-blocks.title",
+      "description": "lumberjack.donate.element.local-blocks.description",
+      "item": {
+        "type": "STONE_SWORD"
+      },
+      "category": "BOOSTERS",
+      "price": 149,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% BLOCKS 2 14400 %count%"
+      ]
+    },
+    "GLOBAL_MOBS": {
+      "donateName": "lumberjack.donate.element.global-mobs.donate-name",
+      "title": "lumberjack.donate.element.global-mobs.title",
+      "description": "lumberjack.donate.element.global-mobs.description",
+      "item": {
+        "type": "SKULL_ITEM"
+      },
+      "category": "BOOSTERS",
+      "price": 199,
+      "sale": 0,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% MOBS 2 3600 %count%"
+      ]
+    },
+    "LOCAL_MOBS": {
+      "donateName": "lumberjack.donate.element.local-mobs.donate-name",
+      "title": "lumberjack.donate.element.local-mobs.title",
+      "description": "lumberjack.donate.element.local-mobs.description",
+      "item": {
+        "type": "SKULL_ITEM"
+      },
+      "category": "BOOSTERS",
+      "price": 149,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% MOBS 2 14400 %count%"
+      ]
+    },
+    "GLOBAL_MONEY": {
+      "donateName": "lumberjack.donate.element.global-money.donate-name",
+      "title": "lumberjack.donate.element.global-money.title",
+      "description": "lumberjack.donate.element.global-money.description",
+      "texture": "money_boost.png",
+      "category": "BOOSTERS",
+      "price": 199,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_MONEY": {
+      "donateName": "lumberjack.donate.element.local-money.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.local-money.title",
+      "title": "lumberjack.donate.element.local-money.title",
+      "description": "lumberjack.donate.element.local-money.description",
+      "texture": "money_boost.png",
+      "category": "BOOSTERS",
+      "price": 149,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% MONEY 2 14400 %count%"
+      ]
+    },
+    "GLOBAL_ALL": {
+      "donateName": "lumberjack.donate.element.global-all.donate-name",
+      "title": "lumberjack.donate.element.global-all.title",
+      "description": "lumberjack.donate.element.global-all.description",
+      "texture": "all_boost.png",
+      "category": "BOOSTERS",
+      "price": 599,
+      "alert": true,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "global-booster %player% MOBS 2 3600 %count%",
+        "global-booster %player% BLOCKS 2 3600 %count%",
+        "global-booster %player% EXP 2 3600 %count%",
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_ALL": {
+      "donateName": "lumberjack.donate.element.local-all.donate-name",
+      "title": "lumberjack.donate.element.local-all.title",
+      "description": "lumberjack.donate.element.local-all.description",
+      "texture": "all_boost.png",
+      "category": "BOOSTERS",
+      "price": 449,
+      "count": [
+        1,
+        3,
+        5
+      ],
+      "onBuy": [
+        "local-booster %player% MOBS 2 14400 %count%",
+        "local-booster %player% BLOCKS 2 14400 %count%",
+        "local-booster %player% EXP 2 14400 %count%",
+        "local-booster %player% MONEY 2 14400 %count%"
+      ]
+    }
+  }
+}

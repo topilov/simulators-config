@@ -1,0 +1,112 @@
+{
+  "message": {
+    "takeReward": "lumberjack.daily.message.take-reward"
+  },
+  "animateTitle": {
+    "title": "lumberjack.daily.animate-title.title",
+    "subtitle": "lumberjack.daily.animate-title.subtitle"
+  },
+  "rewards": {
+    "1": {
+      "hover": "lumberjack.daily.reward.1.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "bag"
+        }
+      },
+      "onSuccess": [
+        "earn-money %player% 25 false",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 1"
+      ]
+    },
+    "2": {
+      "hover": "lumberjack.daily.reward.2.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "gem_amethyst"
+        }
+      },
+      "onSuccess": [
+        "earn-bits %player% 25",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 2"
+      ]
+    },
+    "3": {
+      "hover": "lumberjack.daily.reward.3.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "goldkey"
+        }
+      },
+      "onSuccess": [
+        "give-key %player% DEFAULT 1",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 3"
+      ]
+    },
+    "4": {
+      "hover": "lumberjack.daily.reward.4.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "gem_amethyst"
+        }
+      },
+      "onSuccess": [
+        "earn-bits %player% 50",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 4"
+      ]
+    },
+    "5": {
+      "hover": "lumberjack.daily.reward.5.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "fox_key"
+        }
+      },
+      "onSuccess": [
+        "give-key %player% PET 1",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 5"
+      ]
+    },
+    "6": {
+      "hover": "lumberjack.daily.reward.6.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "gem_amethyst"
+        }
+      },
+      "onSuccess": [
+        "earn-bits %player% 75",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 6"
+      ]
+    },
+    "7": {
+      "hover": "lumberjack.daily.reward.7.hover",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "all_boost"
+        }
+      },
+      "onSuccess": [
+        "local-booster %player% BLOCKS 2 3600",
+        "local-booster %player% MOBS 2 3600",
+        "local-booster %player% EXP 2 3600",
+        "local-booster %player% MONEY 2 3600",
+        "give-key %player% TITLE 1",
+        "take-daily %player% 7"
+      ]
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "bitsShop": {
+    "title": "lumberjack.shop.bits.title",
+    "vault": "\uE1D1",
+    "products": [
+      {
+        "title": "lumberjack.shop.bits.product.money_booster.title",
+        "hover": "lumberjack.shop.bits.product.money_booster.hover",
+        "icon": "money_boost.png",
+        "price": 75.0,
+        "needSubscription": true,
+        "onBuy": [
+          "local-booster %player% MONEY 2 7200"
+        ]
+      },
+      {
+        "title": "lumberjack.shop.bits.product.exp_booster.title",
+        "hover": "lumberjack.shop.bits.product.exp_booster.hover",
+        "icon": "xp_booster.png",
+        "price": 75.0,
+        "needSubscription": true,
+        "onBuy": [
+          "local-booster %player% EXP 2 7200"
+        ]
+      },
+      {
+        "title": "lumberjack.shop.bits.product.blocks_booster.title",
+        "hover": "lumberjack.shop.bits.product.blocks_booster.hover",
+        "icon": "blocks_booster.png",
+        "price": 75.0,
+        "needSubscription": true,
+        "onBuy": [
+          "local-booster %player% BLOCKS 2 7200"
+        ]
+      },
+      {
+        "title": "lumberjack.shop.bits.product.mobs_booster.title",
+        "hover": "lumberjack.shop.bits.product.mobs_booster.hover",
+        "icon": "red_chest.png",
+        "price": 75.0,
+        "needSubscription": true,
+        "onBuy": [
+          "local-booster %player% MOBS 2 7200"
+        ]
+      },
+      {
+        "title": "lumberjack.shop.bits.product.default_key.title",
+        "hover": "lumberjack.lootbox.lumberjack.key.description",
+        "icon": "goldkey.png",
+        "price": 149.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-key %player% DEFAULT 1"
+        ]
+      },
+      {
+        "title": "lumberjack.shop.bits.product.pet_key.title",
+        "hover": "lumberjack.lootbox.pets.key.description",
+        "icon": "fox_key.png",
+        "price": 149.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-key %player% PET 1"
+        ]
+      }
+    ]
+  },
+  "messages": {
+    "moreMoney": "lumberjack.shop.messages.more-money",
+    "noSubscription": "lumberjack.shop.messages.no-subscription"
+  }
+}
