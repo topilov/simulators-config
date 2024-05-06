@@ -1,14 +1,14 @@
 {
   "message": {
-    "takeReward": "destruction.daily.message.take-reward"
+    "takeReward": "lumberjack.daily.message.take-reward"
   },
   "animateTitle": {
-    "title": "destruction.daily.animate-title.title",
-    "subtitle": "destruction.daily.animate-title.subtitle"
+    "title": "lumberjack.daily.animate-title.title",
+    "subtitle": "lumberjack.daily.animate-title.subtitle"
   },
   "rewards": {
     "1": {
-      "hover": "destruction.daily.reward.1.hover",
+      "hover": "lumberjack.daily.reward.1.hover",
       "item": {
         "type": "CLAY_BALL",
         "data": {
@@ -22,7 +22,7 @@
       ]
     },
     "2": {
-      "hover": "destruction.daily.reward.2.hover",
+      "hover": "lumberjack.daily.reward.2.hover",
       "item": {
         "type": "CLAY_BALL",
         "data": {
@@ -36,7 +36,7 @@
       ]
     },
     "3": {
-      "hover": "destruction.daily.reward.3.hover",
+      "hover": "lumberjack.daily.reward.3.hover",
       "item": {
         "type": "CLAY_BALL",
         "data": {
@@ -50,7 +50,7 @@
       ]
     },
     "4": {
-      "hover": "destruction.daily.reward.4.hover",
+      "hover": "lumberjack.daily.reward.4.hover",
       "item": {
         "type": "CLAY_BALL",
         "data": {
@@ -64,12 +64,9 @@
       ]
     },
     "5": {
-      "hover": "destruction.daily.reward.5.hover",
+      "hover": "lumberjack.daily.reward.5.hover",
       "item": {
         "type": "CLAY_BALL",
-        "enchantments": {
-          "DAMAGE_ALL": 1
-        },
         "data": {
           "sim": "fox_key"
         }
@@ -81,7 +78,7 @@
       ]
     },
     "6": {
-      "hover": "destruction.daily.reward.6.hover",
+      "hover": "lumberjack.daily.reward.6.hover",
       "item": {
         "type": "CLAY_BALL",
         "data": {
@@ -95,7 +92,7 @@
       ]
     },
     "7": {
-      "hover": "destruction.daily.reward.7.hover",
+      "hover": "lumberjack.daily.reward.7.hover",
       "item": {
         "type": "CLAY_BALL",
         "data": {
@@ -104,7 +101,7 @@
       },
       "onSuccess": [
         "local-booster %player% BLOCKS 2 3600",
-        "local-booster %player% EXPLOSIONS 2 3600",
+        "local-booster %player% MOBS 2 3600",
         "local-booster %player% EXP 2 3600",
         "local-booster %player% MONEY 2 3600",
         "give-key %player% TITLE 1",

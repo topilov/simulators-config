@@ -96,7 +96,7 @@
         1
       ],
       "onBuy": [
-        "morestat %player% add 1 maxPets"
+        "unlock-pet-slot %player%"
       ]
     },
     "RUNE_SLOT": {
@@ -116,7 +116,7 @@
         1
       ],
       "onBuy": [
-        "morestat %player% add 1 maxRunes"
+        "unlock-rune-slot %player%"
       ]
     },
     "MONEY_BAG": {
@@ -320,7 +320,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% exp 2 3600 %count%"
+        "global-booster %player% EXP 2 3600 %count%"
       ]
     },
     "LOCAL_EXP": {
@@ -337,7 +337,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% exp 2 14400 %count%"
+        "local-booster %player% EXP 2 14400 %count%"
       ]
     },
     "GLOBAL_EXPLOSIONS": {
@@ -360,7 +360,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% explosions 2 3600 %count%"
+        "global-booster %player% EXPLOSIONS 2 3600 %count%"
       ]
     },
     "LOCAL_EXPLOSIONS": {
@@ -382,7 +382,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% explosions 2 14400 %count%"
+        "local-booster %player% EXPLOSIONS 2 14400 %count%"
       ]
     },
     "GLOBAL_BLOCKS": {
@@ -400,7 +400,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% blocks 2 3600 %count%"
+        "global-booster %player% BLOCKS 2 3600 %count%"
       ]
     },
     "LOCAL_BLOCKS": {
@@ -417,7 +417,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% blocks 2 14400 %count%"
+        "local-booster %player% BLOCKS 2 14400 %count%"
       ]
     },
     "GLOBAL_MONEY": {
@@ -434,7 +434,7 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% money 2 3600 %count%"
+        "global-booster %player% MONEY 2 3600 %count%"
       ]
     },
     "LOCAL_MONEY": {
@@ -451,7 +451,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% money 2 14400 %count%"
+        "local-booster %player% MONEY 2 14400 %count%"
       ]
     },
     "GLOBAL_ALL": {
@@ -468,10 +468,10 @@
         5
       ],
       "onBuy": [
-        "global-booster %player% blocks 2 3600 %count%",
-        "global-booster %player% explosions 2 3600 %count%",
-        "global-booster %player% exp 2 3600 %count%",
-        "global-booster %player% money 2 3600 %count%"
+        "global-booster %player% BLOCKS 2 3600 %count%",
+        "global-booster %player% EXPLOSIONS 2 3600 %count%",
+        "global-booster %player% EXP 2 3600 %count%",
+        "global-booster %player% MONEY 2 3600 %count%"
       ]
     },
     "LOCAL_ALL": {
@@ -487,10 +487,10 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% blocks 2 14400 %count%",
-        "local-booster %player% explosions 2 14400 %count%",
-        "local-booster %player% exp 2 14400 %count%",
-        "local-booster %player% money 2 14400 %count%"
+        "local-booster %player% BLOCKS 2 14400 %count%",
+        "local-booster %player% EXPLOSIONS 2 14400 %count%",
+        "local-booster %player% EXP 2 14400 %count%",
+        "local-booster %player% MONEY 2 14400 %count%"
       ]
     }
   }

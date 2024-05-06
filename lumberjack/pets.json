@@ -1,31 +1,20 @@
 {
   "message": {
-    "alreadyExists": "treasures.lootbox.pets.message.already-exists"
-  },
-  "hover": "treasures.pet.hover",
-  "maxLevelMessage": "treasures.pet.message.max-level",
-  "pipeline": {
-    "menuTitle": "treasures.pet.pipeline.menu-title",
-    "menuDescription": "treasures.pet.pipeline.menu-description",
-    "title": "treasures.pet.pipeline.title",
-    "description": "treasures.pet.pipeline.description",
-    "messages": {
-      "moreMoney": "treasures.message.more-money",
-      "moreRebirth": "treasures.message.more-rebirth",
-      "success": "treasures.pet.pipeline.message.success"
-    }
+    "alreadyExists": "lumberjack.lootbox.pets.message.already-exists"
   },
   "pets": {
     "CHEST": {
       "id": "CHEST",
-      "title": "treasures.pet.chest.name",
-      "description": "treasures.pet.menu.hover.1",
+      "title": "lumberjack.pet.chest.name",
+      "description": "lumberjack.pet.menu.hover.1",
       "rare": "COMMON",
-      "boostersTypes": ["TREASURES"],
+      "boostersTypes": [
+        "MOBS"
+      ],
       "boosters": {
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -36,14 +25,16 @@
     },
     "ELEPHANT": {
       "id": "ELEPHANT",
-      "title": "treasures.pet.elephant.name",
-      "description": "i18n.treasures.pet.menu.hover.1",
+      "title": "lumberjack.pet.elephant.name",
+      "description": "lumberjack.pet.menu.hover.1",
       "rare": "COMMON",
-      "boostersTypes": ["MONEY"],
+      "boostersTypes": [
+        "MONEY"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         }
       },
       "texture": {
@@ -54,14 +45,16 @@
     },
     "CHICK": {
       "id": "CHICK",
-      "title": "treasures.pet.chick.name",
-      "description": "i18n.treasures.pet.menu.hover.1",
+      "title": "lumberjack.pet.chick.name",
+      "description": "lumberjack.pet.menu.hover.1",
       "rare": "COMMON",
-      "boostersTypes": ["EXP"],
+      "boostersTypes": [
+        "EXP"
+      ],
       "boosters": {
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         }
       },
       "texture": {
@@ -72,14 +65,16 @@
     },
     "PIRATE_PARROT": {
       "id": "PIRATE_PARROT",
-      "title": "treasures.pet.pirate-parrot.name",
-      "description": "i18n.treasures.pet.menu.hover.1",
+      "title": "lumberjack.pet.pirate-parrot.name",
+      "description": "lumberjack.pet.menu.hover.1",
       "rare": "COMMON",
-      "boostersTypes": ["EXP"],
+      "boostersTypes": [
+        "EXP"
+      ],
       "boosters": {
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         }
       },
       "texture": {
@@ -90,14 +85,16 @@
     },
     "HEDGEHOG": {
       "id": "HEDGEHOG",
-      "title": "treasures.pet.hedgehog.name",
-      "description": "i18n.treasures.pet.menu.hover.1",
+      "title": "lumberjack.pet.hedgehog.name",
+      "description": "lumberjack.pet.menu.hover.1",
       "rare": "COMMON",
-      "boostersTypes": ["BLOCKS"],
+      "boostersTypes": [
+        "BLOCKS"
+      ],
       "boosters": {
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         }
       },
       "texture": {
@@ -108,14 +105,16 @@
     },
     "FOX": {
       "id": "FOX",
-      "title": "treasures.pet.fox.name",
-      "description": "i18n.treasures.pet.menu.hover.1",
+      "title": "lumberjack.pet.fox.name",
+      "description": "i18n.lumberjack.pet.menu.hover.1",
       "rare": "COMMON",
-      "boostersTypes": ["BLOCKS"],
+      "boostersTypes": [
+        "BLOCKS"
+      ],
       "boosters": {
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         }
       },
       "texture": {
@@ -126,8 +125,8 @@
     },
     "TREASURE": {
       "id": "TREASURE",
-      "title": "treasures.pet.treasure.name",
-      "description": "i18n.treasures.pet.menu.hover.2",
+      "title": "lumberjack.pet.treasure.name",
+      "description": "lumberjack.pet.menu.hover.2",
       "rare": "RARE",
       "boostersTypes": [
         "MONEY",
@@ -136,11 +135,11 @@
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         }
       },
       "texture": {
@@ -151,8 +150,8 @@
     },
     "PIRATE": {
       "id": "PIRATE",
-      "title": "treasures.pet.pirate.name",
-      "description": "i18n.treasures.pet.menu.hover.2",
+      "title": "lumberjack.pet.pirate.name",
+      "description": "lumberjack.pet.menu.hover.2",
       "rare": "RARE",
       "boostersTypes": [
         "MONEY",
@@ -161,11 +160,11 @@
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         }
       },
       "texture": {
@@ -176,21 +175,21 @@
     },
     "FISH": {
       "id": "FISH",
-      "title": "treasures.pet.fish.name",
-      "description": "i18n.treasures.pet.menu.hover.2",
+      "title": "lumberjack.pet.fish.name",
+      "description": "lumberjack.pet.menu.hover.2",
       "rare": "RARE",
       "boostersTypes": [
         "BLOCKS",
-        "TREASURES"
+        "MOBS"
       ],
       "boosters": {
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -201,18 +200,21 @@
     },
     "CAPTAIN": {
       "id": "CAPTAIN",
-      "title": "treasures.pet.captain.name",
-      "description": "i18n.treasures.pet.menu.hover.2",
+      "title": "lumberjack.pet.captain.name",
+      "description": "lumberjack.pet.menu.hover.2",
       "rare": "RARE",
-      "boostersTypes": ["MONEY", "TREASURES"],
+      "boostersTypes": [
+        "MONEY",
+        "MOBS"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -223,18 +225,21 @@
     },
     "PUG": {
       "id": "PUG",
-      "title": "treasures.pet.pug.name",
-      "description": "i18n.treasures.pet.menu.hover.2",
+      "title": "lumberjack.pet.pug.name",
+      "description": "lumberjack.pet.menu.hover.2",
       "rare": "RARE",
-      "boostersTypes": ["EXP", "TREASURES"],
+      "boostersTypes": [
+        "EXP",
+        "MOBS"
+      ],
       "boosters": {
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -245,22 +250,26 @@
     },
     "NINJA": {
       "id": "NINJA",
-      "title": "treasures.pet.ninja.name",
-      "description": "i18n.treasures.pet.menu.hover.3",
+      "title": "lumberjack.pet.ninja.name",
+      "description": "lumberjack.pet.menu.hover.3",
       "rare": "EPIC",
-      "boostersTypes": ["MONEY", "EXP", "BLOCKS"],
+      "boostersTypes": [
+        "MONEY",
+        "EXP",
+        "BLOCKS"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         },
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         }
       },
       "texture": {
@@ -271,22 +280,26 @@
     },
     "COOKIE": {
       "id": "COOKIE",
-      "title": "treasures.pet.cookie.name",
-      "description": "i18n.treasures.pet.menu.hover.3",
+      "title": "lumberjack.pet.cookie.name",
+      "description": "lumberjack.pet.menu.hover.3",
       "rare": "EPIC",
-      "boostersTypes": ["MONEY", "EXP", "TREASURES"],
+      "boostersTypes": [
+        "MONEY",
+        "EXP",
+        "MOBS"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.blocks"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -297,22 +310,26 @@
     },
     "MUSHROOM": {
       "id": "MUSHROOM",
-      "title": "treasures.pet.mushroom.name",
-      "description": "i18n.treasures.pet.menu.hover.3",
+      "title": "lumberjack.pet.mushroom.name",
+      "description": "lumberjack.pet.menu.hover.3",
       "rare": "EPIC",
-      "boostersTypes": ["MONEY", "BLOCKS", "TREASURES"],
+      "boostersTypes": [
+        "MONEY",
+        "BLOCKS",
+        "MOBS"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -320,25 +337,29 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ5MDk4Nzk2MmYzYThiZjk0YTE5N2QyYjk1MGNkZjFkZDc4ZDhiOTcyNTc3YmNhY2Q0ZDU4MzhmNzBhNDcyOSJ9fX0"
       }
-      },
+    },
     "RUNE": {
       "id": "RUNE",
-      "title": "treasures.pet.rune.name",
-      "description": "i18n.treasures.pet.menu.hover.3",
+      "title": "lumberjack.pet.rune.name",
+      "description": "lumberjack.pet.menu.hover.3",
       "rare": "EPIC",
-      "boostersTypes": ["BLOCKS", "EXP", "TREASURES"],
+      "boostersTypes": [
+        "BLOCKS",
+        "EXP",
+        "MOBS"
+      ],
       "boosters": {
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -349,26 +370,31 @@
     },
     "BEE": {
       "id": "BEE",
-      "title": "treasures.pet.bee.name",
-      "description": "i18n.treasures.pet.menu.hover.4",
+      "title": "lumberjack.pet.bee.name",
+      "description": "lumberjack.pet.menu.hover.4",
       "rare": "LEGENDARY",
-      "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
+      "boostersTypes": [
+        "MONEY",
+        "BLOCKS",
+        "EXP",
+        "MOBS"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -379,26 +405,31 @@
     },
     "FUGUE": {
       "id": "FUGUE",
-      "title": "treasures.pet.fugue.name",
-      "description": "i18n.treasures.pet.menu.hover.4",
+      "title": "lumberjack.pet.fugue.name",
+      "description": "lumberjack.pet.menu.hover.4",
       "rare": "LEGENDARY",
-      "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
+      "boostersTypes": [
+        "MONEY",
+        "BLOCKS",
+        "EXP",
+        "MOBS"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -409,26 +440,31 @@
     },
     "EARTH": {
       "id": "EARTH",
-      "title": "treasures.pet.earth.name",
-      "description": "i18n.treasures.pet.menu.hover.4",
+      "title": "lumberjack.pet.earth.name",
+      "description": "lumberjack.pet.menu.hover.4",
       "rare": "LEGENDARY",
-      "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
+      "boostersTypes": [
+        "MONEY",
+        "BLOCKS",
+        "EXP",
+        "MOBS"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -439,26 +475,31 @@
     },
     "OWL": {
       "id": "OWL",
-      "title": "treasures.pet.owl.name",
-      "description": "i18n.treasures.pet.menu.hover.4",
+      "title": "lumberjack.pet.owl.name",
+      "description": "lumberjack.pet.menu.hover.4",
       "rare": "LEGENDARY",
-      "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
+      "boostersTypes": [
+        "MONEY",
+        "BLOCKS",
+        "EXP",
+        "MOBS"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
@@ -469,26 +510,31 @@
     },
     "CHEST_TREASURES": {
       "id": "CHEST_TREASURES",
-      "title": "treasures.pet.treasures.name",
-      "description": "i18n.treasures.pet.menu.hover.4",
+      "title": "lumberjack.pet.lumberjack.name",
+      "description": "lumberjack.pet.menu.hover.4",
       "rare": "LEGENDARY",
-      "boostersTypes": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
+      "boostersTypes": [
+        "MONEY",
+        "BLOCKS",
+        "EXP",
+        "MOBS"
+      ],
       "boosters": {
         "MONEY": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.money"
+          "text": "lumberjack.pet.booster.money"
         },
         "BLOCKS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.blocks"
+          "text": "lumberjack.pet.booster.blocks"
         },
         "EXP": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.exp"
+          "text": "lumberjack.pet.booster.exp"
         },
-        "TREASURES": {
+        "MOBS": {
           "boost": 1.25,
-          "text": "treasures.pet.booster.treasures"
+          "text": "lumberjack.pet.booster.mobs"
         }
       },
       "texture": {
