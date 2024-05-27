@@ -22,12 +22,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
-      "rare": "EPIC",
+      "rare": "RARE",
       "notify": true,
       "canDrop": false,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
       "current": 1.0,
-      "per": 1.0,
+      "per": 0.5,
+      "max": 15.0,
       "isPercent": true
     },
     "REINCARNATION": {
@@ -62,8 +63,9 @@
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 13.0,
-      "per": 3.0,
+      "current": 10.0,
+      "per": 0.5,
+      "max": 20.0,
       "isPercent": true
     },
     "BERSERK": {
@@ -76,12 +78,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
-      "rare": "RARE",
+      "rare": "EPIC",
       "notify": true,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
       "current": 2.5,
-      "per": 2.5,
+      "per": 2.0,
+      "max": 26.5,
       "isPercent": true
     },
     "SHIELD": {
@@ -94,12 +97,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
-      "rare": "RARE",
+      "rare": "EPIC",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.reduce.ability.upgrade.name",
       "current": 2.5,
-      "per": 2.5,
+      "per": 2.0,
+      "max": 26.5,
       "isPercent": true
     },
     "INVADER": {
@@ -116,8 +120,9 @@
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 40.0,
-      "per": 2.5,
+      "current": 25.0,
+      "per": 1.25,
+      "max": 60.0,
       "isPercent": true
     },
     "COLLECTOR": {
@@ -130,12 +135,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
       },
-      "rare": "COMMON",
+      "rare": "RARE",
       "notify": true,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
       "current": 25,
-      "per": 25,
+      "per": 15,
+      "max": 250,
       "isPercent": true
     },
     "LIVESEY": {
@@ -153,7 +159,8 @@
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
       "current": 5.2,
-      "per": 0.2,
+      "per": 0.4,
+      "max": 10.0,
       "isPercent": true
     },
     "SAMURAI": {
@@ -174,7 +181,7 @@
       "per": 5,
       "isPercent": true
     },
-    "BATTLESHIP": {
+    "BATTLESHIP":   {
       "id": "battleship",
       "title": "katana.runes.battleship.name",
       "description": "katana.runes.description",
@@ -190,6 +197,7 @@
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
       "current": 20.0,
       "per": 20.0,
+      "max": 300.0,
       "isPercent": true
     },
     "KEEPER": {
@@ -257,7 +265,7 @@
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
       "rare": "COMMON",
-      "notify": false,
+      "notify": true,
       "canDrop": true,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
       "current": 1.5,
@@ -281,6 +289,7 @@
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
       "current": 10,
       "per": 10,
+      "max": 210,
       "isPercent": true
     },
     "BOXER": {
@@ -297,8 +306,9 @@
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 1.1,
-      "per": 0.1,
+      "current": 5.0,
+      "per": 0.25,
+      "max": 10.0,
       "isPercent": true
     },
     "UPGRADE": {
