@@ -170,7 +170,8 @@
         1
       ],
       "onBuy": [
-        "give-katana %player% LEGENDARY"
+        "give-katana %player% LEGENDARY",
+        "morestat %player% set true hasLegendaryKatana"
       ]
     },
     "SAVE_CRYSTAL": {
@@ -427,6 +428,7 @@
       "category": "BOOSTERS",
       "price": 199,
       "sale": 0,
+      "alert": true,
       "count": [
         1,
         3,
@@ -461,6 +463,7 @@
       "category": "BOOSTERS",
       "price": 199,
       "sale": 0,
+      "alert": true,
       "count": [
         1,
         3,
