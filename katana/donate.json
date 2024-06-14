@@ -104,11 +104,7 @@
       "confirmationTitle": "katana.donate.element.rune-slot.title",
       "title": "katana.donate.element.rune-slot.title",
       "description": "katana.donate.element.rune-slot.description",
-      "item": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
-      },
+      "texture": "rune.png",
       "category": "OTHER",
       "price": 499,
       "sale": 0,
@@ -162,7 +158,10 @@
       "title": "katana.donate.element.legendary-katana.title",
       "description": "katana.donate.element.legendary-katana.description",
       "item": {
-        "type": "GOLD_INGOT"
+        "type": "IRON_SWORD",
+        "data": {
+          "weapons": "spider"
+        }
       },
       "category": "GAME_ITEMS",
       "price": 399,
@@ -171,7 +170,8 @@
         1
       ],
       "onBuy": [
-        "give-katana %player% LEGENDARY"
+        "give-katana %player% LEGENDARY",
+        "morestat %player% set true hasLegendaryKatana"
       ]
     },
     "SAVE_CRYSTAL": {
@@ -360,9 +360,7 @@
       "donateName": "katana.donate.element.money-box.donate-name",
       "title": "katana.donate.element.money-box.title",
       "description": "katana.donate.element.money-box.description",
-      "item": {
-        "type": "GOLD_INGOT"
-      },
+      "texture": "livesey.png",
       "category": "OTHER",
       "price": 79,
       "sale": 0,
@@ -378,9 +376,7 @@
       "donateName": "katana.donate.element.strong-hit.donate-name",
       "title": "katana.donate.element.strong-hit.title",
       "description": "katana.donate.element.strong-hit.description",
-      "item": {
-        "type": "IRON_SWORD"
-      },
+      "texture": "strong-hit.png",
       "category": "OTHER_FEATURES",
       "price": 139,
       "sale": 0,
@@ -396,12 +392,7 @@
       "donateName": "katana.donate.element.mechanic-hand.donate-name",
       "title": "katana.donate.element.mechanic-hand.title",
       "description": "katana.donate.element.mechanic-hand.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "bank"
-        }
-      },
+      "texture": "mechanic-hand.png",
       "category": "OTHER_FEATURES",
       "price": 199,
       "sale": 0,
@@ -417,9 +408,7 @@
       "donateName": "katana.donate.element.new-wallet.donate-name",
       "title": "katana.donate.element.new-wallet.title",
       "description": "katana.donate.element.new-wallet.description",
-      "item": {
-        "type": "YELLOW_GLAZED_TERRACOTTA"
-      },
+      "texture": "new-wallet.png",
       "category": "OTHER_FEATURES",
       "price": 149,
       "sale": 0,
@@ -435,10 +424,11 @@
       "donateName": "katana.donate.element.global-exp.donate-name",
       "title": "katana.donate.element.global-exp.title",
       "description": "katana.donate.element.global-exp.description",
-      "texture": "xp_booster.png",
+      "texture": "exp-booster.png",
       "category": "BOOSTERS",
       "price": 199,
       "sale": 0,
+      "alert": true,
       "count": [
         1,
         3,
@@ -452,7 +442,7 @@
       "donateName": "katana.donate.element.local-exp.donate-name",
       "title": "katana.donate.element.local-exp.title",
       "description": "katana.donate.element.local-exp.description",
-      "texture": "xp_booster.png",
+      "texture": "exp-booster.png",
       "category": "BOOSTERS",
       "price": 149,
       "sale": 0,
@@ -469,12 +459,11 @@
       "donateName": "katana.donate.element.global-hits.donate-name",
       "title": "katana.donate.element.global-hits.title",
       "description": "katana.donate.element.global-hits.description",
-      "item": {
-        "type": "STONE_SWORD"
-      },
+      "texture": "hits-booster.png",
       "category": "BOOSTERS",
       "price": 199,
       "sale": 0,
+      "alert": true,
       "count": [
         1,
         3,
@@ -488,9 +477,7 @@
       "donateName": "katana.donate.element.local-hits.donate-name",
       "title": "katana.donate.element.local-hits.title",
       "description": "katana.donate.element.local-hits.description",
-      "item": {
-        "type": "STONE_SWORD"
-      },
+      "texture": "hits-booster.png",
       "category": "BOOSTERS",
       "price": 149,
       "sale": 0,
@@ -507,9 +494,7 @@
       "donateName": "katana.donate.element.global-kills.donate-name",
       "title": "katana.donate.element.global-kills.title",
       "description": "katana.donate.element.global-kills.description",
-      "item": {
-        "type": "SKULL_ITEM"
-      },
+      "texture": "kills-booster.png",
       "category": "BOOSTERS",
       "price": 199,
       "sale": 0,
@@ -527,9 +512,7 @@
       "donateName": "katana.donate.element.local-kills.donate-name",
       "title": "katana.donate.element.local-kills.title",
       "description": "katana.donate.element.local-kills.description",
-      "item": {
-        "type": "SKULL_ITEM"
-      },
+      "texture": "kills-booster.png",
       "category": "BOOSTERS",
       "price": 149,
       "sale": 0,
@@ -546,7 +529,7 @@
       "donateName": "katana.donate.element.global-money.donate-name",
       "title": "katana.donate.element.global-money.title",
       "description": "katana.donate.element.global-money.description",
-      "texture": "money_boost.png",
+      "texture": "money-booster.png",
       "category": "BOOSTERS",
       "price": 199,
       "alert": true,
@@ -564,7 +547,7 @@
       "confirmationTitle": "katana.donate.element.local-money.title",
       "title": "katana.donate.element.local-money.title",
       "description": "katana.donate.element.local-money.description",
-      "texture": "money_boost.png",
+      "texture": "money-booster.png",
       "category": "BOOSTERS",
       "price": 149,
       "count": [
@@ -580,7 +563,7 @@
       "donateName": "katana.donate.element.global-all.donate-name",
       "title": "katana.donate.element.global-all.title",
       "description": "katana.donate.element.global-all.description",
-      "texture": "all_boost.png",
+      "texture": "all-booster.png",
       "category": "BOOSTERS",
       "price": 599,
       "alert": true,
@@ -600,7 +583,7 @@
       "donateName": "katana.donate.element.local-all.donate-name",
       "title": "katana.donate.element.local-all.title",
       "description": "katana.donate.element.local-all.description",
-      "texture": "all_boost.png",
+      "texture": "all-booster.png",
       "category": "BOOSTERS",
       "price": 449,
       "count": [

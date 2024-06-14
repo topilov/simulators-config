@@ -86,12 +86,12 @@
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-                "weapons": "bloodyvengeance"
+                "weapons": "mace"
               }
             },
             "chance": 13.6,
             "onDrop": [
-              "give-katana %player% BLOODYVENGEANCE"
+              "give-katana %player% MACE"
             ]
           },
           {
@@ -186,12 +186,12 @@
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-                "weapons": "mace"
+                "weapons": "bloodyvengeance"
               }
             },
             "chance": 1.6,
             "onDrop": [
-              "give-katana %player% MACE"
+              "give-katana %player% BLOODYVENGEANCE"
             ]
           },
           {
@@ -543,7 +543,7 @@
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
-              "name": "katana.pet.treasure.name",
+              "name": "katana.pet.katana.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNzk5NTRkMzUwYTk4YzcyMTcyNTY4MzFmNjVjNjJhNDI4MDc0YjZlNGFlOWVlZGU3YTQ0ZjlkZTRhNyJ9fX0"
             },

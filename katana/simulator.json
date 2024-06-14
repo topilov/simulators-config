@@ -1,252 +1,137 @@
 {
-    "logging": false,
-    "name": "Симулятор Катаны",
-    "id": "katana",
-    "showLocation": false,
-    "isWhitelisted": true,
-    "isTest": true,
-    "hasPrivateAccess": false,
-    "privateAccessGroups": [
-        "HELPER",
-        "MODERATOR",
-        "CURATOR",
-        "ADMIN",
-        "DEVELOPER",
-        "OWNER",
-        "TESTER",
-        "SENIOR_MODERATOR"
-    ],
-    "enableSpectatorsByReport": true,
-    "owners": [
-        "baca20f4-ffa9-11ec-bc0d-1cb72caa35fd",
-        "eb800d67-6684-11e9-8374-1cb72caa35fd"
-    ],
-    "localStaff": [
-        "c9cff4a7-089c-11ea-8b8a-1cb72caa35fd",
-        "307db8f5-2c69-11e8-b5ea-1cb72caa35fd",
-        "eb800d67-6684-11e9-8374-1cb72caa35fd",
-        "6f830aa8-063b-11ef-990f-1cb72cb014ae",
-        "436cad1b-b165-11eb-acca-1cb72caa35fd",
-        "b13f0bce-5b6a-11ec-acca-1cb72caa35fd"
-    ],
-    "map": {
-        "id": "KATANA"
-    },
-    "realm": {
-        "main": "KTNL",
-        "service": "KTN"
-    },
-    "text": {
-        "cooldown": "katana.text.cooldown",
-        "unavailableData": "katana.text.unavailable-data",
-        "no": "katana.text.no",
-        "restart": "katana.text.restart"
-    },
-    "realms": {
-        "text": {
-            "menuTitle": "katana.realms.menu.title",
-            "clickToTeleport": "katana.realms.menu.text.click-to-teleport"
-        },
-        "message": {
-            "teleporting": "katana.realms.menu.message.teleporting"
-        }
-    },
-    "resourcePack": {
-        "url": "https://storage.c7x.dev/topil_ov/katana/rp11.zip",
-        "hash": "b3ebd2614d0023f846e8a51ae928095e"
-    },
-    "mod": {
-        "file": "katana-mod.jar",
-        "folder": "mods"
-    },
-    "bot": {
-        "chatId": -1002113216081
-    },
-    "cooldown": {
-        "command": 250,
-        "key": 250,
-        "consumedItem": 250
-    },
-    "violation": {
-        "message": {
-            "ban": "katana.simulator.message.ban"
-        }
-    },
-    "upgrade": {
-        "messages": {
-            "unknownLevel": "katana.upgrade.message.unknown-level",
-            "unknownPipeline": "katana.upgrade.message.unknown-pipeline"
-        }
-    },
-    "booster": {
-        "command": {
-            "list": [
-                "boosters"
-            ],
-            "thanks": [
-                "thanks",
-                "thx"
-            ]
-        },
-        "message": {
-            "empty": "katana.booster.message.empty",
-            "unknown": "katana.booster.message.unknown",
-            "selfish": "katana.booster.message.selfish",
-            "already": "katana.booster.message.already"
-        },
-        "notification": {
-            "type": "notify",
-            "title": "katana.booster.notification.title",
-            "timeout": 10000,
-            "timeoutBarColor": "BLUE_LIGHT",
-            "backgroundColor": "BLUE",
-            "button": {
-                "title": "katana.booster.notification.button.title",
-                "executeCommand": "/boosters",
-                "color": "BLUE_MIDDLE"
-            }
-        },
-        "menu": {
-            "title": "katana.booster.menu.title",
-            "hint": "katana.booster.menu.hint",
-            "rows": 4,
-            "columns": 2
-        },
-        "button": {
-            "title": "katana.booster.menu.button.title",
-            "description": "katana.booster.menu.button.description"
-        },
-        "alert": {
-            "startTitle": "katana.booster.alert.start-title",
-            "startSubtitle": "katana.booster.alert.start-subtitle",
-            "startDuration": 1.0,
-            "expireTitle": "katana.booster.expire-title",
-            "expireDuration": 3.8
-        }
-    },
-    "chat": {
-        "cooldown": 5.0,
-        "cooldownMessage": "katana.chat.message.cooldown",
-        "globalStartChar": "!",
-        "globalPrefix": "",
-        "localPrefix": "§8[§aL§8]"
-    },
-    "daily": {
-        "nextTakeReward": 86400000,
-        "command": [
-            "daily"
-        ]
-    },
-    "donate": {
-        "nextTakeDiscount": 86400000,
-        "discount": {
-            "min": 10,
-            "max": 30
-        },
-        "notify": "katana.donate.notify",
-        "notifyDonateNameColor": "§e",
-        "menuTitle": "katana.donate.menu.title",
-        "message": {
-            "buy": "katana.donate.message.buy",
-            "max": "katana.donate.message.max",
-            "disabled": "katana.donate.message.disabled"
-        },
-        "plurals": {
-            "crystal": {
-                "one": "katana.donate.plurals.crystal.one",
-                "two": "katana.donate.plurals.crystal.two",
-                "five": "katana.donate.plurals.crystal.five"
-            }
-        },
-        "text": {
-            "confirmationBuyFor": "katana.donate.text.confirmation-buy-for",
-            "buyFor": "katana.donate.text.buy-for",
-            "crystals": "katana.donate.text.crystals",
-            "open": "katana.donate.text.open"
-        },
-        "command": [
-            "donate"
-        ],
-        "disabled": false
-    },
-    "locations": {
-        "message": {
-            "find": "katana.locations.message.find",
-            "failed": "katana.locations.message.find-failed"
-        }
-    },
-    "lootBox": {
-        "message": {
-            "empty": "katana.lootbox.message.empty",
-            "use": "katana.lootbox.message.use"
-        },
-        "banner": {
-            "height": 17,
-            "weight": 60,
-            "content": "katana.banner.content",
-            "resize": {
-                "0": 0.5
-            }
-        }
-    },
-    "trash": {
-        "command": [
-            "trash"
-        ],
-        "title": "katana.trash.title",
-        "size": 54
-    },
-    "rares": {
-        "COMMON": {
-            "stars": "\uE0D2\uE0D3\uE0D3\uE0D3\uE0D3"
-        },
-        "RARE": {
-            "stars": "\uE0D2\uE0D2\uE0D3\uE0D3\uE0D3"
-        },
-        "EPIC": {
-            "stars": "\uE0D2\uE0D2\uE0D2\uE0D3\uE0D3"
-        },
-        "LEGENDARY": {
-            "stars": "\uE0D2\uE0D2\uE0D2\uE0D2\uE0D3"
-        },
-        "MYTHIC": {
-            "stars": "\uE0D2\uE0D2\uE0D2\uE0D2\uE0D2"
-        }
-    },
-    "pet": {
-        "maxPets": 5,
-        "titleFormat": "katana.pet.title-format",
-        "menu": {
-            "title": "katana.pet.menu.title",
-            "description": "katana.pet.menu.description",
-            "command": "pet"
-        },
-        "existButton": {
-            "title": "katana.pet.exist-button.title",
-            "description": "katana.pet.exist-button.description",
-            "wearHover": "katana.pet.exist-button.hover.wear",
-            "notWearHover": "katana.pet.exist-button.hover.not-wear"
-        },
-        "notExistButton": {
-            "title": "katana.pet.not-exist-button.title",
-            "hover": "katana.pet.not-exist-button.hover",
-            "item": {
-                "type": "CLAY_BALL",
-                "data": {
-                    "other": "lock",
-                    "color": 16735067
-                }
-            }
-        },
-        "message": {
-            "unwear": "katana.pet.message.unwear",
-            "wear": "katana.pet.message.wear",
-            "maxPets": "katana.pet.message.max-pets",
-            "enoughPets": "katana.pet.message.enough-pets"
-        }
-    },
-    "quests": {
-        "nextResetQuests": 86400000,
-        "completeAlert": "katana.quests.complete.alert"
+  "logging": false,
+  "name": "Симулятор Катаны",
+  "id": "katana",
+  "showLocation": false,
+  "isWhitelisted": true,
+  "isTest": true,
+  "hasPrivateAccess": true,
+  "privateAccessGroups": [
+    "HELPER",
+    "MODERATOR",
+    "CURATOR",
+    "ADMIN",
+    "DEVELOPER",
+    "OWNER",
+    "TESTER",
+    "GRAND_MODERATOR"
+  ],
+  "enableSpectatorsByReport": true,
+  "owners": [
+    "baca20f4-ffa9-11ec-bc0d-1cb72caa35fd",
+    "eb800d67-6684-11e9-8374-1cb72caa35fd"
+  ],
+  "localStaff": [
+    "c9cff4a7-089c-11ea-8b8a-1cb72caa35fd",
+    "307db8f5-2c69-11e8-b5ea-1cb72caa35fd",
+    "eb800d67-6684-11e9-8374-1cb72caa35fd",
+    "6f830aa8-063b-11ef-990f-1cb72cb014ae",
+    "436cad1b-b165-11eb-acca-1cb72caa35fd",
+    "b13f0bce-5b6a-11ec-acca-1cb72caa35fd"
+  ],
+  "map": {
+    "id": "KATANA"
+  },
+  "realm": {
+    "main": "KTNL",
+    "service": "KTN"
+  },
+  "text": {
+    "cooldown": "katana.text.cooldown",
+    "no": "katana.text.no"
+  },
+  "resourcePack": {
+    "url": "https://storage.c7x.dev/topil_ov/katana/rp11.zip",
+    "hash": "b3ebd2614d0023f846e8a51ae928095e"
+  },
+  "bot": {
+    "chatId": -1002113216081
+  },
+  "cooldown": {
+    "command": 250,
+    "key": 250,
+    "consumedItem": 250
+  },
+  "violation": {
+    "message": {
+      "ban": "katana.simulator.message.ban"
     }
+  },
+  "booster": {
+    "command": {
+      "thanks": [
+        "thanks",
+        "thx"
+      ]
+    },
+    "message": {
+      "empty": "katana.booster.message.empty"
+    },
+    "alert": {
+      "startTitle": "katana.booster.alert.start-title",
+      "startSubtitle": "katana.booster.alert.start-subtitle",
+      "startDuration": 1.0,
+      "expireTitle": "katana.booster.expire-title",
+      "expireDuration": 3.8
+    }
+  },
+  "chat": {
+    "cooldown": 5.0,
+    "cooldownMessage": "katana.chat.message.cooldown",
+    "globalStartChar": "!",
+    "globalPrefix": "",
+    "localPrefix": "§8[§aL§8]"
+  },
+  "daily": {
+    "nextTakeReward": 86400000,
+    "command": [
+      "daily"
+    ]
+  },
+  "donate": {
+    "nextTakeDiscount": 86400000,
+    "discount": {
+      "min": 0,
+      "max": 1
+    },
+    "notify": "katana.donate.notify",
+    "notifyDonateNameColor": "§e",
+    "message": {
+      "buy": "katana.donate.message.buy"
+    },
+    "command": [
+      "donate"
+    ],
+    "disabled": false
+  },
+  "locations": {
+    "message": {
+      "find": "katana.locations.message.find",
+      "failed": "katana.locations.message.find-failed"
+    }
+  },
+  "lootBox": {
+    "message": {
+      "empty": "katana.lootbox.message.empty"
+    },
+    "banner": {
+      "height": 17,
+      "weight": 60,
+      "content": "katana.banner.content",
+      "resize": {
+        "0": 0.5
+      }
+    }
+  },
+  "trash": {
+    "command": [
+      "trash"
+    ],
+    "title": "katana.trash.title",
+    "size": 54
+  },
+  "quests": {
+    "nextResetQuests": 86400000,
+    "completeAlert": "katana.quests.complete.alert"
+  }
 }
