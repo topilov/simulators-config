@@ -233,6 +233,26 @@
             "onDrop": [
               "give-katana %player% MAGIC"
             ]
+          },
+          {
+            "id": "levitation",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.levitation.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons_other": "45"
+              }
+            },
+            "chance": 1.6,
+            "onDrop": [
+              "give-katana %player% LEVITATION"
+            ]
           }
         ]
       }
