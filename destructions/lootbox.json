@@ -1029,6 +1029,51 @@
             "onDrop": [
               "give-title %player% VORTEX 500000"
             ]
+          },
+          {
+            "id": "runner",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "destruction.titles.runner.name",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% RUNNER 500000"
+            ]
+          },
+          {
+            "id": "assassin",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "destruction.titles.assassin.name",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 5,
+            "onDrop": [
+              "give-title %player% ASSASSIN 500000"
+            ]
+          },
+          {
+            "id": "messenger",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "destruction.titles.messenger.name",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-title %player% MESSENGER 500000"
+            ]
           }
         ]
       }
