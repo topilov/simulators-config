@@ -336,6 +336,66 @@
       "onUnwear": [
         "unboost-storage %player%"
       ]
+    },
+    "RUNNER": {
+      "menuTitle": "destruction.titles.runner.name",
+      "title": "destruction.titles.runner.name",
+      "description": "i18n.destruction.titles.description|!|destruction.titles.ability.runner",
+      "texture": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "cup"
+        }
+      },
+      "rare": "EPIC",
+      "stat": 15.0,
+      "notification": "",
+      "onWear": [
+        "add-speed %player% 15"
+      ],
+      "onUnwear": [
+        "add-speed %player% -15"
+      ]
+    },
+    "ASSASSIN": {
+      "menuTitle": "destruction.titles.assassin.name",
+      "title": "destruction.titles.assassin.name",
+      "description": "i18n.destruction.titles.description|!|destruction.titles.ability.assassin",
+      "texture": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "cup"
+        }
+      },
+      "rare": "RARE",
+      "stat": 10.0,
+      "notification": "",
+      "onWear": [
+        "add-speed %player% 10"
+      ],
+      "onUnwear": [
+        "add-speed %player% -10"
+      ]
+    },
+    "MESSENGER": {
+      "menuTitle": "destruction.titles.messenger.name",
+      "title": "destruction.titles.messenger.name",
+      "description": "i18n.destruction.titles.description|!|destruction.titles.ability.messenger",
+      "texture": {
+        "type": "CLAY_BALL",
+        "data": {
+          "other": "cup"
+        }
+      },
+      "rare": "COMMON",
+      "stat": 5.0,
+      "notification": "",
+      "onWear": [
+        "add-speed %player% 5"
+      ],
+      "onUnwear": [
+        "add-speed %player% -5"
+      ]
     }
   }
 }

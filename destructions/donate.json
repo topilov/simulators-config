@@ -305,6 +305,24 @@
         "set-speed %player% 0.4"
       ]
     },
+    "FLY": {
+      "donateName": "destruction.donate.element.fly.donate-name",
+      "confirmationTitle": "destruction.donate.element.fly.title",
+      "title": "destruction.donate.element.fly.title",
+      "description": "destruction.donate.element.fly.description",
+      "texture": "fly.png",
+      "category": "OTHER_FEATURES",
+      "price": 99,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasFly",
+        "fly %player%"
+      ]
+    },
     "GLOBAL_EXP": {
       "donateName": "destruction.donate.element.global-exp.donate-name",
       "title": "destruction.donate.element.global-exp.title",
