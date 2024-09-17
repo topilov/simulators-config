@@ -2,14 +2,36 @@
   "requiredLevelMessage": "destruction.location.message.required-level",
   "requiredRebirthMessage": "destruction.location.message.required-rebirth",
   "locations": {
-    "SPAWN": {
+    "EARTH": {
       "slots": 125,
-      "map": "newmap",
+      "map": "EARTH",
       "button": {
         "id": 1,
-        "title": "Spawn",
+        "title": "destruction.location.earth.title",
         "texture": "map1.png",
         "requiredLevel": 1
+      }
+    },
+    "HELL": {
+      "slots": 125,
+      "map": "ad",
+      "button": {
+        "id": 2,
+        "title": "destruction.location.hell.title",
+        "texture": "map2.png",
+        "requiredLevel": 1,
+        "requiredRebirth": 15
+      }
+    },
+    "END": {
+      "slots": 125,
+      "map": "end",
+      "button": {
+        "id": 3,
+        "title": "destruction.location.end.title",
+        "texture": "map3.png",
+        "requiredLevel": 1,
+        "requiredRebirth": 30
       }
     }
   }

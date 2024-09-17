@@ -35,6 +35,7 @@
         "texture": "lootboxes.png",
         "elements": [
           {
+            "id": "polearm",
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
@@ -48,12 +49,13 @@
                 "weapons": "polearm"
               }
             },
-            "chance": 10,
+            "chance": 13.6,
             "onDrop": [
               "give-katana %player% POLEARM"
             ]
           },
           {
+            "id": "dragon",
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
@@ -67,31 +69,33 @@
                 "weapons": "dragon"
               }
             },
-            "chance": 10,
+            "chance": 13.6,
             "onDrop": [
               "give-katana %player% DRAGON"
             ]
           },
           {
+            "id": "mace",
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.bloodyvengeance.title",
+              "name": "katana.katana.mace.title",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-                "weapons": "bloodyvengeance"
+                "weapons": "mace"
               }
             },
-            "chance": 10,
+            "chance": 13.6,
             "onDrop": [
-              "give-katana %player% BLOODYVENGEANCE"
+              "give-katana %player% MACE"
             ]
           },
           {
+            "id": "nature",
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
@@ -105,12 +109,13 @@
                 "weapons": "nature"
               }
             },
-            "chance": 10,
+            "chance": 13.6,
             "onDrop": [
               "give-katana %player% NATURE"
             ]
           },
           {
+            "id": "sabre",
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
@@ -124,12 +129,13 @@
                 "weapons": "azure_sabre"
               }
             },
-            "chance": 10,
+            "chance": 13.6,
             "onDrop": [
               "give-katana %player% SABRE"
             ]
           },
           {
+            "id": "cleaver",
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
@@ -143,12 +149,13 @@
                 "weapons": "cleaver"
               }
             },
-            "chance": 10,
+            "chance": 13.6,
             "onDrop": [
               "give-katana %player% CLEAVER"
             ]
           },
           {
+            "id": "vindicator",
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
@@ -162,31 +169,33 @@
                 "weapons": "vindicator"
               }
             },
-            "chance": 10,
+            "chance": 13.6,
             "onDrop": [
               "give-katana %player% VINDICATOR"
             ]
           },
           {
+            "id": "bloodyvengeance",
             "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.mace.title",
+              "name": "katana.katana.bloodyvengeance.title",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-                "weapons": "mace"
+                "weapons": "bloodyvengeance"
               }
             },
-            "chance": 10,
+            "chance": 0.96,
             "onDrop": [
-              "give-katana %player% MACE"
+              "give-katana %player% BLOODYVENGEANCE"
             ]
           },
           {
+            "id": "size",
             "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
@@ -200,12 +209,13 @@
                 "weapons": "crimsoncleaver"
               }
             },
-            "chance": 10,
+            "chance": 0.96,
             "onDrop": [
               "give-katana %player% SIZE"
             ]
           },
           {
+            "id": "magic",
             "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
@@ -219,9 +229,49 @@
                 "weapons": "bludgeon"
               }
             },
-            "chance": 10,
+            "chance": 0.96,
             "onDrop": [
               "give-katana %player% MAGIC"
+            ]
+          },
+          {
+            "id": "levitation",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.levitation.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons_other": "45"
+              }
+            },
+            "chance": 0.96,
+            "onDrop": [
+              "give-katana %player% LEVITATION"
+            ]
+          },
+          {
+            "id": "giant",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "IRON_SWORD",
+              "name": "katana.katana.giant.title",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons_other": "5"
+              }
+            },
+            "chance": 0.96,
+            "onDrop": [
+              "give-katana %player% GIANT"
             ]
           }
         ]
@@ -263,6 +313,7 @@
         "texture": "lootboxes.png",
         "elements": [
           {
+            "id": "chest",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -270,12 +321,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyMDE1YTcwNWU0ZTVhMDRiMGU5OTQ3MzgxMTdkMDYyMzkxYjBlOWI1MDU5NmQ2NjE1YTlhMTlkY2Y1N2YyNiJ9fX0"
             },
-            "chance": 10,
+            "chance": 9.65,
             "onDrop": [
               "give-pet %player% CHEST 1 100000"
             ]
           },
           {
+            "id": "elephant",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -283,12 +335,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3MWE3NmY2NjlkYjVlZDZkMzJiNDhiYjJkYmE1NWQ1MzE3ZDdmNDUyMjVjYjMyNjdlYzQzNWNmYTUxNCJ9fX0="
             },
-            "chance": 10,
+            "chance": 9.65,
             "onDrop": [
               "give-pet %player% ELEPHANT 1 100000"
             ]
           },
           {
+            "id": "chick",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -296,12 +349,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWYyNjg4M2RjMjhhNDljYjU4MmI2MGM2ZGNjZGNhMTczZDQ1ZjdiMWE3Yjg2OTBjYThjZTQzY2RlMGUxMzU4OSJ9fX0="
             },
-            "chance": 9,
+            "chance": 9.65,
             "onDrop": [
               "give-pet %player% CHICK 1 100000"
             ]
           },
           {
+            "id": "pirate-parrot",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -309,12 +363,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWEyMGNjM2Y4Y2M0ZmM1MTQyOWM4Mjg4ZTZjMWNmZjY1YzU1ODg0YzU1NjE0OTVmYzFkNmFhYWVlM2M2ZGQyZiJ9fX0="
             },
-            "chance": 9,
+            "chance": 9.65,
             "onDrop": [
               "give-pet %player% PIRATE_PARROT 1 100000"
             ]
           },
           {
+            "id": "hedgehog",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -322,12 +377,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJkYWE2YmZiZWYyMDQ0MTk3NmIxZTUxNzk2MmUyNzQ0NGRiYjBhZmVmN2VlYjkwMWQzZWNmNjhjMWViNDllNiJ9fX0="
             },
-            "chance": 9,
+            "chance": 9.65,
             "onDrop": [
               "give-pet %player% HEDGEHOG 1 100000"
             ]
           },
           {
+            "id": "fox",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -335,12 +391,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=="
             },
-            "chance": 9,
+            "chance": 9.65,
             "onDrop": [
               "give-pet %player% FOX 1 100000"
             ]
           },
           {
+            "id": "treasure",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -348,12 +405,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVhNWU4MDQxMzQ1YmEyNGJmYzg5NTQ2ZjRjODJiZThjZjlmOWJhNWE4ZTU1MzY1NDUzNDNhZTU5YjkzN2U5MiJ9fX0="
             },
-            "chance": 5.6,
+            "chance": 5.5,
             "onDrop": [
               "give-pet %player% TREASURE 1 500000"
             ]
           },
           {
+            "id": "pirate",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -361,12 +419,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzZGMyY2UyOTA5ZjM1MjViMmQwNGQxMTEzYmUxMjQ5MzlmYTJiN2I5ZmIxYzY4NzZhMTk3ZDE2ODJhIn19fQ=="
             },
-            "chance": 5.6,
+            "chance": 5.5,
             "onDrop": [
               "give-pet %player% PIRATE 1 500000"
             ]
           },
           {
+            "id": "fish",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -374,12 +433,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMTQ5ZTRkNDk5OTI5NjcyZTI3Njg5NDllNjQ3Nzk1OWMyMWU2NTI1NDYxM2IzMjdiNTM4ZGYxZTRkZiJ9fX0="
             },
-            "chance": 5.6,
+            "chance": 5.5,
             "onDrop": [
               "give-pet %player% FISH 1 500000"
             ]
           },
           {
+            "id": "captain",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -393,6 +453,7 @@
             ]
           },
           {
+            "id": "pug",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -406,6 +467,7 @@
             ]
           },
           {
+            "id": "ninja",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -419,6 +481,7 @@
             ]
           },
           {
+            "id": "cookie",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -432,6 +495,7 @@
             ]
           },
           {
+            "id": "mushroom",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -445,6 +509,7 @@
             ]
           },
           {
+            "id": "rune",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -458,6 +523,7 @@
             ]
           },
           {
+            "id": "bee",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -465,12 +531,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0="
             },
-            "chance": 1.6,
+            "chance": 0.8,
             "onDrop": [
               "give-pet %player% BEE 1 5000000"
             ]
           },
           {
+            "id": "fugue",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -478,12 +545,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0="
             },
-            "chance": 1,
+            "chance": 0.8,
             "onDrop": [
               "give-pet %player% FUGUE 1 5000000"
             ]
           },
           {
+            "id": "earth",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -491,12 +559,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIwZjNhM2Q2ZjBjZTI0Mjc2MzdmZTYwZGE5ZDZkMGZlYjJkOGRmMGJjZmIyNzI5MWJiNzhjNjAwNjBlZmUzZSJ9fX0="
             },
-            "chance": 1,
+            "chance": 0.8,
             "onDrop": [
               "give-pet %player% EARTH 1 5000000"
             ]
           },
           {
+            "id": "owl",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -504,12 +573,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDNlYzVhOWYxODkxYTU1ZjI5MWQwMjdhM2MxMzMzYjUyMjk1MWUxMTNjNWViZjM1NTcwMDM3NmU3NDYzM2MzNyJ9fX0="
             },
-            "chance": 1,
+            "chance": 0.8,
             "onDrop": [
               "give-pet %player% OWL 1 5000000"
             ]
           },
           {
+            "id": "chest_treasures",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -517,7 +587,7 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNzk5NTRkMzUwYTk4YzcyMTcyNTY4MzFmNjVjNjJhNDI4MDc0YjZlNGFlOWVlZGU3YTQ0ZjlkZTRhNyJ9fX0"
             },
-            "chance": 1,
+            "chance": 0.8,
             "onDrop": [
               "give-pet %player% CHEST_TREASURES 1 5000000"
             ]
@@ -561,19 +631,21 @@
         "texture": "lootboxes.png",
         "elements": [
           {
-            "rarity": "EPIC",
+            "id": "boom",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.boom.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 18,
+            "chance": 6.9,
             "onDrop": [
               "give-rune %player% BOOM 100000"
             ]
           },
           {
+            "id": "reincarnation",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -581,12 +653,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 1,
             "onDrop": [
               "give-rune %player% REINCARNATION 100000"
             ]
           },
           {
+            "id": "mirror",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -594,38 +667,41 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 9.7,
             "onDrop": [
               "give-rune %player% MIRROR 100000"
             ]
           },
           {
-            "rarity": "RARE",
+            "id": "berserk",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.berserk.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 3,
             "onDrop": [
               "give-rune %player% BERSERK 100000"
             ]
           },
           {
-            "rarity": "RARE",
+            "id": "shield",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.shield.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 3,
             "onDrop": [
               "give-rune %player% SHIELD 100000"
             ]
           },
           {
+            "id": "invader",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -633,25 +709,27 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 6.9,
             "onDrop": [
               "give-rune %player% INVADER 100000"
             ]
           },
           {
-            "rarity": "COMMON",
+            "id": "collector",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.collector.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
             },
-            "chance": 5.26,
+            "chance": 6.9,
             "onDrop": [
               "give-rune %player% COLLECTOR 100000"
             ]
           },
           {
+            "id": "livesey",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -659,12 +737,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 3,
             "onDrop": [
               "give-rune %player% LIVESEY 100000"
             ]
           },
           {
+            "id": "samurai",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -672,12 +751,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 1,
             "onDrop": [
               "give-rune %player% SAMURAI 100000"
             ]
           },
           {
+            "id": "battleship",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -685,12 +765,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 6.9,
             "onDrop": [
               "give-rune %player% BATTLESHIP 100000"
             ]
           },
           {
+            "id": "keeper",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -698,12 +779,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 9.7,
             "onDrop": [
               "give-rune %player% KEEPER 100000"
             ]
           },
           {
+            "id": "pet",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -711,12 +793,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 1,
             "onDrop": [
               "give-rune %player% PET 100000"
             ]
           },
           {
+            "id": "super_player",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -724,12 +807,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.26,
+            "chance": 1,
             "onDrop": [
               "give-rune %player% SUPER_PLAYER 100000"
             ]
           },
           {
+            "id": "seller",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -737,12 +821,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.27,
+            "chance": 9.7,
             "onDrop": [
               "give-rune %player% SELLER 100000"
             ]
           },
           {
+            "id": "killer",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -750,12 +835,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.27,
+            "chance": 9.7,
             "onDrop": [
               "give-rune %player% KILLER 100000"
             ]
           },
           {
+            "id": "boxer",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -763,12 +849,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.27,
+            "chance": 9.7,
             "onDrop": [
               "give-rune %player% BOXER 100000"
             ]
           },
           {
+            "id": "upgrade",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -776,12 +863,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.27,
+            "chance": 1,
             "onDrop": [
               "give-rune %player% UPGRADE 100000"
             ]
           },
           {
+            "id": "blacksmith",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -789,12 +877,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.27,
+            "chance": 3,
             "onDrop": [
               "give-rune %player% BLACKSMITH 100000"
             ]
           },
           {
+            "id": "bits",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -802,7 +891,7 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5.27,
+            "chance": 6.9,
             "onDrop": [
               "give-rune %player% BITS 100000"
             ]
@@ -846,6 +935,7 @@
         "texture": "lootboxes.png",
         "elements": [
           {
+            "id": "mage",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -860,6 +950,7 @@
             ]
           },
           {
+            "id": "dragon",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -874,6 +965,7 @@
             ]
           },
           {
+            "id": "lord",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -888,6 +980,7 @@
             ]
           },
           {
+            "id": "sniper",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -902,6 +995,7 @@
             ]
           },
           {
+            "id": "samurai",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -916,6 +1010,7 @@
             ]
           },
           {
+            "id": "palladin",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -930,6 +1025,7 @@
             ]
           },
           {
+            "id": "predator",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -944,6 +1040,7 @@
             ]
           },
           {
+            "id": "spy",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -958,6 +1055,7 @@
             ]
           },
           {
+            "id": "monk",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -972,6 +1070,7 @@
             ]
           },
           {
+            "id": "necromancer",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -986,6 +1085,7 @@
             ]
           },
           {
+            "id": "daemon",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1000,6 +1100,7 @@
             ]
           },
           {
+            "id": "warlock",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1014,6 +1115,7 @@
             ]
           },
           {
+            "id": "emperor",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1028,6 +1130,7 @@
             ]
           },
           {
+            "id": "mutant",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1042,6 +1145,7 @@
             ]
           },
           {
+            "id": "pirate",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1056,6 +1160,7 @@
             ]
           },
           {
+            "id": "blogger",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1070,6 +1175,7 @@
             ]
           },
           {
+            "id": "banker",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1078,12 +1184,13 @@
                 "sim": "titles"
               }
             },
-            "chance": 2,
+            "chance": 6.6,
             "onDrop": [
               "give-title %player% BANKER 500000"
             ]
           },
           {
+            "id": "dogger",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1092,12 +1199,13 @@
                 "sim": "titles"
               }
             },
-            "chance": 7.75,
+            "chance": 6.6,
             "onDrop": [
               "give-title %player% DODGER 500000"
             ]
           },
           {
+            "id": "lively",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1106,12 +1214,13 @@
                 "sim": "titles"
               }
             },
-            "chance": 7.75,
+            "chance": 6.6,
             "onDrop": [
               "give-title %player% LIVELY 500000"
             ]
           },
           {
+            "id": "assassin",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1120,12 +1229,13 @@
                 "sim": "titles"
               }
             },
-            "chance": 7.75,
+            "chance": 6.6,
             "onDrop": [
               "give-title %player% ASSASSIN 500000"
             ]
           },
           {
+            "id": "messenger",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1134,12 +1244,13 @@
                 "sim": "titles"
               }
             },
-            "chance": 7.75,
+            "chance": 6.6,
             "onDrop": [
               "give-title %player% MESSENGER 500000"
             ]
           },
           {
+            "id": "tank",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1154,6 +1265,7 @@
             ]
           },
           {
+            "id": "champion",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1168,6 +1280,7 @@
             ]
           },
           {
+            "id": "vampire",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1182,6 +1295,7 @@
             ]
           },
           {
+            "id": "hero",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1196,6 +1310,7 @@
             ]
           },
           {
+            "id": "treasure_hunter",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1210,6 +1325,7 @@
             ]
           },
           {
+            "id": "dexterous_handles",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1224,6 +1340,7 @@
             ]
           },
           {
+            "id": "lucky",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1238,6 +1355,7 @@
             ]
           },
           {
+            "id": "hunter",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1252,6 +1370,7 @@
             ]
           },
           {
+            "id": "hedgehog",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",

@@ -1,0 +1,35 @@
+{
+  "maxSaveCrystals": 26,
+  "items": {
+    "SAVE_CRYSTAL": {
+      "type": "CHORUS_FRUIT_POPPED",
+      "name": "lumberjack.items.save-crystal.name",
+      "lore": "lumberjack.items.save-crystal.lore",
+      "unbreakable": true,
+      "data": {
+        "crystal": 1,
+        "no-clear": 1,
+        "hoverColor": "PURPLE_LIGHT"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    }
+  },
+  "message": {
+    "maxUsedCrystalsPerRebirth": "lumberjack.items.message.error.max-used-crystals-per-rebirth",
+    "maxUsedCrystals": "lumberjack.items.message.error.max-user-crystals"
+  },
+  "nbt": {
+    "crystals": "crystals",
+    "crystalsPerRebirth": "crystals-per-rebirth",
+    "noClear": "no-clear",
+    "saveCrystal": "crystal",
+    "level": "level",
+    "pipeline": "pipeline",
+    "toolType": "tool-type",
+    "strength": "strength"
+  }
+}

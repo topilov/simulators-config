@@ -305,11 +305,29 @@
         "set-speed %player% 0.4"
       ]
     },
+    "FLY": {
+      "donateName": "destruction.donate.element.fly.donate-name",
+      "confirmationTitle": "destruction.donate.element.fly.title",
+      "title": "destruction.donate.element.fly.title",
+      "description": "destruction.donate.element.fly.description",
+      "texture": "fly.png",
+      "category": "OTHER_FEATURES",
+      "price": 99,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasFly",
+        "fly %player%"
+      ]
+    },
     "GLOBAL_EXP": {
       "donateName": "destruction.donate.element.global-exp.donate-name",
       "title": "destruction.donate.element.global-exp.title",
       "description": "destruction.donate.element.global-exp.description",
-      "texture": "xp_booster.png",
+      "texture": "exp_booster.png",
       "category": "BOOSTERS",
       "price": 199,
       "sale": 0,
@@ -327,7 +345,7 @@
       "donateName": "destruction.donate.element.local-exp.donate-name",
       "title": "destruction.donate.element.local-exp.title",
       "description": "destruction.donate.element.local-exp.description",
-      "texture": "xp_booster.png",
+      "texture": "exp_booster.png",
       "category": "BOOSTERS",
       "price": 149,
       "sale": 0,
@@ -344,12 +362,7 @@
       "donateName": "destruction.donate.element.global-explosions.donate-name",
       "title": "destruction.donate.element.global-explosions.title",
       "description": "destruction.donate.element.global-explosions.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "win"
-        }
-      },
+      "texture": "explosion_booster.png",
       "category": "BOOSTERS",
       "price": 169,
       "sale": 0,
@@ -367,12 +380,7 @@
       "donateName": "destruction.donate.element.local-explosions.donate-name",
       "title": "destruction.donate.element.local-explosions.title",
       "description": "destruction.donate.element.local-explosions.description",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "win"
-        }
-      },
+      "texture": "explosion_booster.png",
       "category": "BOOSTERS",
       "price": 119,
       "sale": 0,
@@ -389,7 +397,7 @@
       "donateName": "destruction.donate.element.global-blocks.donate-name",
       "title": "destruction.donate.element.global-blocks.title",
       "description": "destruction.donate.element.global-blocks.description",
-      "texture": "blocks_booster.png",
+      "texture": "block_booster.png",
       "category": "BOOSTERS",
       "price": 169,
       "sale": 0,
@@ -407,7 +415,7 @@
       "donateName": "destruction.donate.element.local-blocks.donate-name",
       "title": "destruction.donate.element.local-blocks.title",
       "description": "destruction.donate.element.local-blocks.description",
-      "texture": "blocks_booster.png",
+      "texture": "block_booster.png",
       "category": "BOOSTERS",
       "price": 119,
       "sale": 0,
@@ -424,7 +432,7 @@
       "donateName": "destruction.donate.element.global-money.donate-name",
       "title": "destruction.donate.element.global-money.title",
       "description": "destruction.donate.element.global-money.description",
-      "texture": "money_boost.png",
+      "texture": "money_booster.png",
       "category": "BOOSTERS",
       "price": 169,
       "alert": true,
@@ -442,7 +450,7 @@
       "confirmationTitle": "destruction.donate.element.local-money.title",
       "title": "destruction.donate.element.local-money.title",
       "description": "destruction.donate.element.local-money.description",
-      "texture": "money_boost.png",
+      "texture": "money_booster.png",
       "category": "BOOSTERS",
       "price": 119,
       "count": [
@@ -458,7 +466,7 @@
       "donateName": "destruction.donate.element.global-all.donate-name",
       "title": "destruction.donate.element.global-all.title",
       "description": "destruction.donate.element.global-all.description",
-      "texture": "all_boost.png",
+      "texture": "boosters_all.png",
       "category": "BOOSTERS",
       "price": 399,
       "alert": true,
@@ -478,7 +486,7 @@
       "donateName": "destruction.donate.element.local-all.donate-name",
       "title": "destruction.donate.element.local-all.title",
       "description": "destruction.donate.element.local-all.description",
-      "texture": "all_boost.png",
+      "texture": "boosters_all.png",
       "category": "BOOSTERS",
       "price": 349,
       "count": [
