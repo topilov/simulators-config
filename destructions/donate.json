@@ -271,6 +271,40 @@
         "morestat %player% set true hasInfinityStorage"
       ]
     },
+    "MULTIPLE_CASE": {
+      "donateName": "destruction.donate.element.multiple-case.donate-name",
+      "confirmationTitle": "destruction.donate.element.multiple-case.title",
+      "title": "destruction.donate.element.multiple-case.title",
+      "description": "destruction.donate.element.multiple-case.description",
+      "texture": "case5.png",
+      "category": "OTHER_FEATURES",
+      "price": 249,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true multipleOpenLootBox"
+      ]
+    },
+    "AUTO_CASE": {
+      "donateName": "destruction.donate.element.auto-case.donate-name",
+      "confirmationTitle": "destruction.donate.element.auto-case.title",
+      "title": "destruction.donate.element.auto-case.title",
+      "description": "destruction.donate.element.auto-case.description",
+      "texture": "autocase.png",
+      "category": "OTHER_FEATURES",
+      "price": 449,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true autoOpenLootBox"
+      ]
+    },
     "SUPER_PLAYER": {
       "donateName": "destruction.donate.element.super-player.donate-name",
       "title": "destruction.donate.element.super-player.title",
