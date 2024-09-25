@@ -108,9 +108,9 @@
       ]
     },
     {
-      "name": "destruction.npc.locations.title",
+      "name": "destruction.npc.trader.title",
       "location": {
-        "name": "locations",
+        "name": "trader",
         "offset": {
           "x": 0.5,
           "y": 0.0,
@@ -119,10 +119,7 @@
       },
       "skin": "https://storage.c7x.dev/topil_ov/katana/skins/locations.png",
       "skinType": "SLIM",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sudo %player% locations"
-      ]
+      "lookAtPlayer": true
     }
   ]
 }
