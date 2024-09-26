@@ -119,7 +119,10 @@
       },
       "skin": "https://storage.c7x.dev/topil_ov/katana/skins/locations.png",
       "skinType": "SLIM",
-      "lookAtPlayer": true
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-tool %player%"
+      ]
     }
   ]
 }
