@@ -1,4 +1,9 @@
 {
+  "message": {
+    "sell": "destruction.sell.tool.title",
+    "hold": "destruction.sell.tool.message.hold",
+    "cannot": "destruction.sell.tool.message.cannot"
+  },
   "tools": {
     "DYNAMITE": {
       "tag": "dynamite",
@@ -363,7 +368,8 @@
               "keyChance": 0.015,
               "type": "TNT"
             }
-          }
+          },
+          "canSell": false
         },
         "LUCK": {
           "rarity": "EPIC",
@@ -560,7 +566,8 @@
               "keyChance": 0.08,
               "type": "TNT"
             }
-          }
+          },
+          "canSell": true
         },
         "DONATE": {
           "rarity": "LEGENDARY",
@@ -758,7 +765,8 @@
               "keyChance": 0.1,
               "type": "TNT"
             }
-          }
+          },
+          "canSell": true
         },
         "ATTENTIVE": {
           "rarity": "MYTHIC",
@@ -1140,7 +1148,8 @@
               "keyChance": 0.015,
               "type": "FIREBALL"
             }
-          }
+          },
+          "canSell": false
         },
         "LUCK": {
           "rarity": "EPIC",
@@ -1310,7 +1319,8 @@
               "boomDnkPerBlock": 200,
               "type": "FIREBALL"
             }
-          }
+          },
+          "canSell": true
         },
         "DONATE": {
           "rarity": "LEGENDARY",
@@ -1508,7 +1518,8 @@
               "keyChance": 2,
               "type": "FIREBALL"
             }
-          }
+          },
+          "canSell": true
         },
         "ATTENTIVE": {
           "rarity": "MYTHIC",
@@ -1523,7 +1534,8 @@
               "keyChance": 2,
               "type": "FIREBALL"
             }
-          }
+          },
+          "canSell": true
         }
       }
     }

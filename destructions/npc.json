@@ -106,6 +106,23 @@
       "onClick": [
         "sudo %player% locations"
       ]
+    },
+    {
+      "name": "destruction.npc.trader.title",
+      "location": {
+        "name": "trader",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/locations.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-tool %player%"
+      ]
     }
   ]
 }
