@@ -95,13 +95,16 @@
             "id": "luck-dynamite",
             "rarity": "LEGENDARY",
             "itemStack": {
-              "type": "TNT",
+              "type": "CLAY_BALL",
               "name": "destruction.tool.dynamite.luck.title",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
-              ]
+              ],
+              "data": {
+                "sim": "lucky_tnt"
+              }
             },
             "chance": 1.5,
             "onDrop": [
@@ -118,7 +121,10 @@
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
-              ]
+              ],
+              "data": {
+                "sim": "lucky_fire_ball"
+              }
             },
             "chance": 1.5,
             "onDrop": [
