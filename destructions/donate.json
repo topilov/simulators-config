@@ -179,6 +179,29 @@
         "random-money %player% 1 10 %count%"
       ]
     },
+
+    "LEGENDARY_TNT": {
+      "donateName": "destruction.donate.element.legendary-tnt.donate-name",
+      "title": "destruction.donate.element.legendary-tnt.title",
+      "description": "destruction.donate.element.legendary-tnt.description",
+      "item": {
+        "type": "TNT",
+        "data": {
+          "sim": "legendary_tnt"
+        }
+      },
+      "category": "GAME_ITEMS",
+      "price": 399,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "give-tool %player% DONATE_DYNAMITE",
+        "morestat %player% set true hasLegendaryTNT"
+      ]
+    },
+
     "SAVE_CRYSTAL": {
       "donateName": "destruction.donate.element.save-crystal.donate-name",
       "confirmationTitle": "destruction.donate.element.save-crystal.title",
