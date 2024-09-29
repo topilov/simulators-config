@@ -179,13 +179,12 @@
         "random-money %player% 1 10 %count%"
       ]
     },
-
     "LEGENDARY_TNT": {
       "donateName": "destruction.donate.element.legendary-tnt.donate-name",
       "title": "destruction.donate.element.legendary-tnt.title",
       "description": "destruction.donate.element.legendary-tnt.description",
       "item": {
-        "type": "TNT",
+        "type": "CLAY_BALL",
         "data": {
           "sim": "legendary_tnt"
         }
@@ -197,11 +196,31 @@
         1
       ],
       "onBuy": [
-        "give-tool %player% DONATE_DYNAMITE",
+        "give-tool %player% DYNAMITE DONATE_DYNAMITE",
         "morestat %player% set true hasLegendaryTNT"
       ]
     },
-
+    "LEGENDARY_FIRE_BALL": {
+      "donateName": "destruction.donate.element.legendary-fire-ball.donate-name",
+      "title": "destruction.donate.element.legendary-fire-ball.title",
+      "description": "destruction.donate.element.legendary-fire-ball.description",
+      "item": {
+        "type": "FIREBALL",
+        "data": {
+          "sim": "legendary_fire_ball"
+        }
+      },
+      "category": "GAME_ITEMS",
+      "price": 399,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "give-tool %player% FIRE_CHARGE DONATE_FIRE_CHARGE",
+        "morestat %player% set true hasLegendaryFireBall"
+      ]
+    },
     "SAVE_CRYSTAL": {
       "donateName": "destruction.donate.element.save-crystal.donate-name",
       "confirmationTitle": "destruction.donate.element.save-crystal.title",
