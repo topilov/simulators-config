@@ -9,7 +9,10 @@
         "id": 1,
         "title": "destruction.location.earth.title",
         "texture": "map1.png",
-        "requiredLevel": 1
+        "requiredLevel": 1,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     },
     "HELL": {
@@ -20,7 +23,10 @@
         "title": "destruction.location.hell.title",
         "texture": "map2.png",
         "requiredLevel": 1,
-        "requiredRebirth": 15
+        "requiredRebirth": 15,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     },
     "END": {
@@ -31,7 +37,10 @@
         "title": "destruction.location.end.title",
         "texture": "map3.png",
         "requiredLevel": 1,
-        "requiredRebirth": 30
+        "requiredRebirth": 30,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     }
   }
