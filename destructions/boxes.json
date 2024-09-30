@@ -24,18 +24,30 @@
   "boxes": {
     "1": {
       "1": {
-        "infoBannerYaw": 0,
+        "id": 1,
+        "title": "destruction.box.1.name",
         "requiredLevel": 1,
-        "name": "destruction.box.1.name",
+        "requiredRebirth": 0,
+        "texture": "box_1.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 10,
           "BLOCKS": 10
         }
       },
       "2": {
-        "infoBannerYaw": 180,
+        "id": 2,
+        "title": "destruction.box.2.name",
         "requiredLevel": 2,
-        "name": "destruction.box.2.name",
+        "requiredRebirth": 0,
+        "texture": "box_2.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 20,
           "BLOCKS": 20
