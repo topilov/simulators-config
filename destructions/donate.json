@@ -201,6 +201,24 @@
         "morestat %player% set true hasLegendaryExplosives"
       ]
     },
+    "TELEPORT": {
+      "donateName": "destruction.donate.element.teleport.donate-name",
+      "title": "destruction.donate.element.teleport.title",
+      "description": "destruction.donate.element.teleport.description",
+      "item": {
+        "type": "ENDER_PEARL"
+
+      },
+      "category": "GAME_ITEMS",
+      "price": 399,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasTeleport"
+      ]
+    },
     "SAVE_CRYSTAL": {
       "donateName": "destruction.donate.element.save-crystal.donate-name",
       "confirmationTitle": "destruction.donate.element.save-crystal.title",
