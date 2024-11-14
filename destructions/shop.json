@@ -7,7 +7,7 @@
         "title": "destruction.shop.bits.product.money_booster.title",
         "hover": "destruction.shop.bits.product.money_booster.hover",
         "icon": "money_booster.png",
-        "price": 75.0,
+        "price": 199.0,
         "needSubscription": true,
         "onBuy": [
           "local-booster %player% MONEY 2 7200"
@@ -17,7 +17,7 @@
         "title": "destruction.shop.bits.product.exp_booster.title",
         "hover": "destruction.shop.bits.product.exp_booster.hover",
         "icon": "exp_booster.png",
-        "price": 75.0,
+        "price": 199.0,
         "needSubscription": true,
         "onBuy": [
           "local-booster %player% EXP 2 7200"
@@ -27,7 +27,7 @@
         "title": "destruction.shop.bits.product.blocks_booster.title",
         "hover": "destruction.shop.bits.product.blocks_booster.hover",
         "icon": "block_booster.png",
-        "price": 75.0,
+        "price": 199.0,
         "needSubscription": true,
         "onBuy": [
           "local-booster %player% BLOCKS 2 7200"
@@ -37,7 +37,7 @@
         "title": "destruction.shop.bits.product.explosions_booster.title",
         "hover": "destruction.shop.bits.product.explosions_booster.hover",
         "icon": "explosion_booster.png",
-        "price": 75.0,
+        "price": 199.0,
         "needSubscription": true,
         "onBuy": [
           "local-booster %player% EXPLOSIONS 2 7200"
@@ -47,7 +47,7 @@
         "title": "destruction.shop.bits.product.default_key.title",
         "hover": "destruction.lootbox.default.key.description",
         "icon": "goldkey.png",
-        "price": 149.0,
+        "price": 29.0,
         "needSubscription": true,
         "onBuy": [
           "give-key %player% DEFAULT 1"
@@ -57,10 +57,30 @@
         "title": "destruction.shop.bits.product.pet_key.title",
         "hover": "destruction.lootbox.pets.key.description",
         "icon": "fox_key.png",
-        "price": 149.0,
+        "price": 49.0,
         "needSubscription": true,
         "onBuy": [
           "give-key %player% PET 1"
+        ]
+      },
+      {
+        "title": "destruction.shop.bits.product.rune_key.title",
+        "hover": "destruction.lootbox.runes.key.description",
+        "icon": "rune_key.png",
+        "price": 79.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-key %player% RUNE 1"
+        ]
+      },
+      {
+        "title": "destruction.shop.bits.product.crystal.title",
+        "hover": "destruction.shop.bits.product.crystal.hover",
+        "icon": "save_crystal.png",
+        "price": 79.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-item %player% SAVE_CRYSTAL 1"
         ]
       }
     ]

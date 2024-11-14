@@ -1,5 +1,8 @@
 {
-  "notEnoughLevelMessage": "destruction.box.message.not-enough-level",
+  "messages": {
+    "notEnoughLevel": "destruction.box.message.not-enough-level",
+    "notPurchasedTeleport": "destruction.box.message.not-purchased-teleport"
+  },
   "teleportInsidePlace": {
     "color": {
       "hex": "#22AE49"
@@ -14,190 +17,308 @@
   },
   "infoBanner": {
     "content": "destruction.box.info-banner.content",
-    "height": 40,
-    "weight": 40,
-    "opacity": 0.0,
-    "resizeLine": {
-      "0": 4
-    }
+    "color": {
+      "hex": "#1E1E1E"
+    },
+    "scale": 4.0
   },
   "boxes": {
     "1": {
       "1": {
-        "infoBannerYaw": 0,
+        "id": 1,
+        "title": "destruction.box.1.name",
         "requiredLevel": 1,
-        "name": "destruction.box.1.name",
+        "requiredRebirth": 0,
+        "texture": "box_1.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 10,
           "BLOCKS": 10
         }
       },
       "2": {
-        "infoBannerYaw": 180,
+        "id": 2,
+        "title": "destruction.box.2.name",
         "requiredLevel": 2,
-        "name": "destruction.box.2.name",
+        "requiredRebirth": 0,
+        "texture": "box_2.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 20,
           "BLOCKS": 20
         }
       },
       "3": {
-        "infoBannerYaw": 0,
+        "id": 3,
+        "title": "destruction.box.3.name",
         "requiredLevel": 3,
-        "name": "destruction.box.3.name",
+        "requiredRebirth": 0,
+        "texture": "box_3.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 30,
           "BLOCKS": 30
         }
       },
       "4": {
-        "infoBannerYaw": 180,
+        "id": 4,
+        "title": "destruction.box.4.name",
         "requiredLevel": 4,
-        "name": "destruction.box.4.name",
+        "requiredRebirth": 0,
+        "texture": "box_4.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 40,
           "BLOCKS": 40
         }
       },
       "5": {
-        "infoBannerYaw": 0,
+        "id": 5,
+        "title": "destruction.box.5.name",
         "requiredLevel": 5,
-        "name": "destruction.box.5.name",
+        "requiredRebirth": 0,
+        "texture": "box_5.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 50,
           "BLOCKS": 50
         }
       },
       "6": {
-        "infoBannerYaw": 180,
+        "id": 6,
+        "title": "destruction.box.6.name",
         "requiredLevel": 6,
-        "name": "destruction.box.6.name",
+        "requiredRebirth": 0,
+        "texture": "box_6.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 60,
           "BLOCKS": 60
         }
       },
       "7": {
-        "infoBannerYaw": 0,
+        "id": 7,
+        "title": "destruction.box.7.name",
         "requiredLevel": 7,
-        "name": "destruction.box.7.name",
+        "requiredRebirth": 0,
+        "texture": "box_7.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 70,
           "BLOCKS": 70
         }
       },
       "8": {
-        "infoBannerYaw": 180,
+        "id": 8,
+        "title": "destruction.box.8.name",
         "requiredLevel": 8,
-        "name": "destruction.box.8.name",
+        "requiredRebirth": 0,
+        "texture": "box_8.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 80,
           "BLOCKS": 80
         }
       },
       "9": {
-        "infoBannerYaw": 0,
+        "id": 9,
+        "title": "destruction.box.9.name",
         "requiredLevel": 9,
-        "name": "destruction.box.9.name",
+        "requiredRebirth": 0,
+        "texture": "box_9.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 90,
           "BLOCKS": 90
         }
       },
       "10": {
-        "infoBannerYaw": 180,
+        "id": 10,
+        "title": "destruction.box.10.name",
         "requiredLevel": 10,
-        "name": "destruction.box.10.name",
+        "requiredRebirth": 0,
+        "texture": "box_10.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 100,
           "BLOCKS": 100
         }
       },
       "11": {
-        "infoBannerYaw": 0,
+        "id": 11,
+        "title": "destruction.box.11.name",
         "requiredLevel": 11,
-        "name": "destruction.box.11.name",
+        "requiredRebirth": 0,
+        "texture": "box_11.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 110,
           "BLOCKS": 110
         }
       },
       "12": {
-        "infoBannerYaw": 180,
+        "id": 12,
+        "title": "destruction.box.12.name",
         "requiredLevel": 12,
-        "name": "destruction.box.12.name",
+        "requiredRebirth": 0,
+        "texture": "box_12.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 120,
           "BLOCKS": 120
         }
       },
       "13": {
-        "infoBannerYaw": 0,
+        "id": 13,
+        "title": "destruction.box.13.name",
         "requiredLevel": 13,
-        "name": "destruction.box.13.name",
+        "requiredRebirth": 0,
+        "texture": "box_13.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 130,
           "BLOCKS": 130
         }
       },
       "14": {
-        "infoBannerYaw": 180,
+        "id": 14,
+        "title": "destruction.box.14.name",
         "requiredLevel": 14,
-        "name": "destruction.box.14.name",
+        "requiredRebirth": 0,
+        "texture": "box_14.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 140,
           "BLOCKS": 140
         }
       },
       "15": {
-        "infoBannerYaw": 0,
+        "id": 15,
+        "title": "destruction.box.15.name",
         "requiredLevel": 15,
-        "name": "destruction.box.15.name",
+        "requiredRebirth": 0,
+        "texture": "box_15.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 150,
           "BLOCKS": 150
         }
       },
       "16": {
-        "infoBannerYaw": 180,
+        "id": 16,
+        "title": "destruction.box.16.name",
         "requiredLevel": 16,
-        "name": "destruction.box.16.name",
+        "requiredRebirth": 0,
+        "texture": "box_16.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 160,
           "BLOCKS": 160
         }
       },
       "17": {
-        "infoBannerYaw": 0,
+        "id": 17,
+        "title": "destruction.box.17.name",
         "requiredLevel": 17,
-        "name": "destruction.box.17.name",
+        "requiredRebirth": 0,
+        "texture": "box_17.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 170,
           "BLOCKS": 170
         }
       },
       "18": {
-        "infoBannerYaw": 180,
+        "id": 18,
+        "title": "destruction.box.18.name",
         "requiredLevel": 18,
-        "name": "destruction.box.18.name",
+        "requiredRebirth": 0,
+        "texture": "box_18.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 180,
           "BLOCKS": 180
         }
       },
       "19": {
-        "infoBannerYaw": 0,
+        "id": 19,
+        "title": "destruction.box.19.name",
         "requiredLevel": 19,
-        "name": "destruction.box.19.name",
+        "requiredRebirth": 0,
+        "texture": "box_19.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 190,
           "BLOCKS": 190
         }
       },
       "20": {
-        "infoBannerYaw": 180,
+        "id": 20,
+        "title": "destruction.box.20.name",
         "requiredLevel": 20,
-        "name": "destruction.box.20.name",
+        "requiredRebirth": 0,
+        "texture": "box_20.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 200,
           "BLOCKS": 200
@@ -206,180 +327,300 @@
     },
     "2": {
       "21": {
-        "infoBannerYaw": 0,
+        "id": 21,
+        "title": "destruction.box.21.name",
         "requiredLevel": 21,
-        "name": "destruction.box.21.name",
+        "requiredRebirth": 0,
+        "texture": "box_21.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 210,
           "BLOCKS": 210
         }
       },
       "22": {
-        "infoBannerYaw": 180,
+        "id": 22,
+        "title": "destruction.box.22.name",
         "requiredLevel": 22,
-        "name": "destruction.box.22.name",
+        "requiredRebirth": 0,
+        "texture": "box_22.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 220,
           "BLOCKS": 220
         }
       },
       "23": {
-        "infoBannerYaw": 0,
+        "id": 23,
+        "title": "destruction.box.23.name",
         "requiredLevel": 23,
-        "name": "destruction.box.23.name",
+        "requiredRebirth": 0,
+        "texture": "box_23.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 230,
           "BLOCKS": 230
         }
       },
       "24": {
-        "infoBannerYaw": 180,
+        "id": 24,
+        "title": "destruction.box.24.name",
         "requiredLevel": 24,
-        "name": "destruction.box.24.name",
+        "requiredRebirth": 0,
+        "texture": "box_24.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 240,
           "BLOCKS": 240
         }
       },
       "25": {
-        "infoBannerYaw": 0,
+        "id": 25,
+        "title": "destruction.box.25.name",
         "requiredLevel": 25,
-        "name": "destruction.box.25.name",
+        "requiredRebirth": 0,
+        "texture": "box_25.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 250,
           "BLOCKS": 250
         }
       },
       "26": {
-        "infoBannerYaw": 180,
+        "id": 26,
+        "title": "destruction.box.26.name",
         "requiredLevel": 26,
-        "name": "destruction.box.26.name",
+        "requiredRebirth": 0,
+        "texture": "box_26.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 260,
           "BLOCKS": 260
         }
       },
       "27": {
-        "infoBannerYaw": 0,
+        "id": 27,
+        "title": "destruction.box.27.name",
         "requiredLevel": 27,
-        "name": "destruction.box.27.name",
+        "requiredRebirth": 0,
+        "texture": "box_27.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 270,
           "BLOCKS": 270
         }
       },
       "28": {
-        "infoBannerYaw": 180,
+        "id": 28,
+        "title": "destruction.box.28.name",
         "requiredLevel": 28,
-        "name": "destruction.box.28.name",
+        "requiredRebirth": 0,
+        "texture": "box_28.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 280,
           "BLOCKS": 280
         }
       },
       "29": {
-        "infoBannerYaw": 0,
+        "id": 29,
+        "title": "destruction.box.29.name",
         "requiredLevel": 29,
-        "name": "destruction.box.29.name",
+        "requiredRebirth": 0,
+        "texture": "box_29.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 290,
           "BLOCKS": 290
         }
       },
       "30": {
-        "infoBannerYaw": 180,
+        "id": 30,
+        "title": "destruction.box.30.name",
         "requiredLevel": 30,
-        "name": "destruction.box.30.name",
+        "requiredRebirth": 0,
+        "texture": "box_30.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 300,
           "BLOCKS": 300
         }
       },
       "31": {
-        "infoBannerYaw": 0,
+        "id": 31,
+        "title": "destruction.box.31.name",
         "requiredLevel": 31,
-        "name": "destruction.box.31.name",
+        "requiredRebirth": 0,
+        "texture": "box_31.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 310,
           "BLOCKS": 310
         }
       },
       "32": {
-        "infoBannerYaw": 180,
+        "id": 32,
+        "title": "destruction.box.32.name",
         "requiredLevel": 32,
-        "name": "destruction.box.32.name",
+        "requiredRebirth": 0,
+        "texture": "box_32.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 320,
           "BLOCKS": 320
         }
       },
       "33": {
-        "infoBannerYaw": 0,
+        "id": 33,
+        "title": "destruction.box.33.name",
         "requiredLevel": 33,
-        "name": "destruction.box.33.name",
+        "requiredRebirth": 0,
+        "texture": "box_33.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 330,
           "BLOCKS": 330
         }
       },
       "34": {
-        "infoBannerYaw": 180,
+        "id": 34,
+        "title": "destruction.box.34.name",
         "requiredLevel": 34,
-        "name": "destruction.box.34.name",
+        "requiredRebirth": 0,
+        "texture": "box_34.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 340,
           "BLOCKS": 340
         }
       },
       "35": {
-        "infoBannerYaw": 0,
+        "id": 35,
+        "title": "destruction.box.35.name",
         "requiredLevel": 35,
-        "name": "destruction.box.35.name",
+        "requiredRebirth": 0,
+        "texture": "box_35.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 350,
           "BLOCKS": 350
         }
       },
       "36": {
-        "infoBannerYaw": 180,
+        "id": 36,
+        "title": "destruction.box.36.name",
         "requiredLevel": 36,
-        "name": "destruction.box.36.name",
+        "requiredRebirth": 0,
+        "texture": "box_36.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 360,
           "BLOCKS": 360
         }
       },
       "37": {
-        "infoBannerYaw": 0,
+        "id": 37,
+        "title": "destruction.box.37.name",
         "requiredLevel": 37,
-        "name": "destruction.box.37.name",
+        "requiredRebirth": 0,
+        "texture": "box_37.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 370,
           "BLOCKS": 370
         }
       },
       "38": {
-        "infoBannerYaw": 180,
+        "id": 38,
+        "title": "destruction.box.38.name",
         "requiredLevel": 38,
-        "name": "destruction.box.38.name",
+        "requiredRebirth": 0,
+        "texture": "box_38.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 380,
           "BLOCKS": 380
         }
       },
       "39": {
-        "infoBannerYaw": 0,
+        "id": 39,
+        "title": "destruction.box.39.name",
         "requiredLevel": 39,
-        "name": "destruction.box.39.name",
+        "requiredRebirth": 0,
+        "texture": "box_39.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 390,
           "BLOCKS": 390
         }
       },
       "40": {
-        "infoBannerYaw": 180,
+        "id": 40,
+        "title": "destruction.box.40.name",
         "requiredLevel": 40,
-        "name": "destruction.box.40.name",
+        "requiredRebirth": 0,
+        "texture": "box_40.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 400,
           "BLOCKS": 400
@@ -388,90 +629,150 @@
     },
     "3": {
       "41": {
-        "infoBannerYaw": 0,
+        "id": 41,
+        "title": "destruction.box.41.name",
         "requiredLevel": 41,
-        "name": "destruction.box.41.name",
+        "requiredRebirth": 0,
+        "texture": "box_41.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 410,
           "BLOCKS": 410
         }
       },
       "42": {
-        "infoBannerYaw": 180,
+        "id": 42,
+        "title": "destruction.box.42.name",
         "requiredLevel": 42,
-        "name": "destruction.box.42.name",
+        "requiredRebirth": 0,
+        "texture": "box_42.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 420,
           "BLOCKS": 420
         }
       },
       "43": {
-        "infoBannerYaw": 0,
+        "id": 43,
+        "title": "destruction.box.43.name",
         "requiredLevel": 43,
-        "name": "destruction.box.43.name",
+        "requiredRebirth": 0,
+        "texture": "box_43.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 430,
           "BLOCKS": 430
         }
       },
       "44": {
-        "infoBannerYaw": 180,
+        "id": 44,
+        "title": "destruction.box.44.name",
         "requiredLevel": 44,
-        "name": "destruction.box.44.name",
+        "requiredRebirth": 0,
+        "texture": "box_44.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 440,
           "BLOCKS": 440
         }
       },
       "45": {
-        "infoBannerYaw": 0,
+        "id": 45,
+        "title": "destruction.box.45.name",
         "requiredLevel": 45,
-        "name": "destruction.box.45.name",
+        "requiredRebirth": 0,
+        "texture": "box_45.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 450,
           "BLOCKS": 450
         }
       },
       "46": {
-        "infoBannerYaw": 180,
+        "id": 46,
+        "title": "destruction.box.46.name",
         "requiredLevel": 46,
-        "name": "destruction.box.46.name",
+        "requiredRebirth": 0,
+        "texture": "box_46.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 460,
           "BLOCKS": 460
         }
       },
       "47": {
-        "infoBannerYaw": 0,
+        "id": 47,
+        "title": "destruction.box.47.name",
         "requiredLevel": 47,
-        "name": "destruction.box.47.name",
+        "requiredRebirth": 0,
+        "texture": "box_47.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 470,
           "BLOCKS": 470
         }
       },
       "48": {
-        "infoBannerYaw": 180,
+        "id": 48,
+        "title": "destruction.box.48.name",
         "requiredLevel": 48,
-        "name": "destruction.box.48.name",
+        "requiredRebirth": 0,
+        "texture": "box_48.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 480,
           "BLOCKS": 480
         }
       },
       "49": {
-        "infoBannerYaw": 0,
+        "id": 49,
+        "title": "destruction.box.49.name",
         "requiredLevel": 49,
-        "name": "destruction.box.49.name",
+        "requiredRebirth": 0,
+        "texture": "box_49.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 0,
         "boosters": {
           "EXPLOSIONS": 490,
           "BLOCKS": 490
         }
       },
       "50": {
-        "infoBannerYaw": 180,
+        "id": 50,
+        "title": "destruction.box.50.name",
         "requiredLevel": 50,
-        "name": "destruction.box.50.name",
+        "requiredRebirth": 0,
+        "texture": "box_50.png",
+        "onClick": [
+          "enter-box %player% %id%"
+        ],
+        "infoBannerYaw": 180,
         "boosters": {
           "EXPLOSIONS": 500,
           "BLOCKS": 500
