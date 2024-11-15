@@ -80,6 +80,28 @@
         "payload gifts-rune"
       ]
     },
+    "GIFTS_TITLE": {
+      "donateName": "lumberjack.donate.element.gifts-title.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.gifts-title.title",
+      "title": "lumberjack.donate.element.gifts-title.title",
+      "description": "lumberjack.donate.element.gifts-title.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 399,
+      "sale": 0,
+      "alert": true,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "payload gifts-title"
+      ]
+    },
     "PET_SLOT": {
       "donateName": "lumberjack.donate.element.pet-slot.donate-name",
       "confirmationTitle": "lumberjack.donate.element.pet-slot.title",
@@ -350,7 +372,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% EXP 2 14400 %count%"
+        "local-booster %player% EXP 2 3600 %count%"
       ]
     },
     "GLOBAL_BLOCKS": {
@@ -384,7 +406,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% BLOCKS 2 14400 %count%"
+        "local-booster %player% BLOCKS 2 3600 %count%"
       ]
     },
     "GLOBAL_MOBS": {
@@ -419,7 +441,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% MOBS 2 14400 %count%"
+        "local-booster %player% MOBS 2 3600 %count%"
       ]
     },
     "GLOBAL_MONEY": {
@@ -453,7 +475,7 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% MONEY 2 14400 %count%"
+        "local-booster %player% MONEY 2 3600 %count%"
       ]
     },
     "GLOBAL_ALL": {
@@ -489,10 +511,10 @@
         5
       ],
       "onBuy": [
-        "local-booster %player% MOBS 2 14400 %count%",
-        "local-booster %player% BLOCKS 2 14400 %count%",
-        "local-booster %player% EXP 2 14400 %count%",
-        "local-booster %player% MONEY 2 14400 %count%"
+        "local-booster %player% MOBS 2 3600 %count%",
+        "local-booster %player% BLOCKS 2 3600 %count%",
+        "local-booster %player% EXP 2 3600 %count%",
+        "local-booster %player% MONEY 2 3600 %count%"
       ]
     }
   }
