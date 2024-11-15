@@ -307,6 +307,57 @@
         "morestat %player% set true hasInfinityStorage"
       ]
     },
+    "MULTIPLE_CASE": {
+      "donateName": "lumberjack.donate.element.multiple-case.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.multiple-case.title",
+      "title": "lumberjack.donate.element.multiple-case.title",
+      "description": "lumberjack.donate.element.multiple-case.description",
+      "texture": "case5.png",
+      "category": "OTHER_FEATURES",
+      "price": 249,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true multipleOpenLootBox"
+      ]
+    },
+    "AUTO_CASE": {
+      "donateName": "lumberjack.donate.element.auto-case.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.auto-case.title",
+      "title": "lumberjack.donate.element.auto-case.title",
+      "description": "lumberjack.donate.element.auto-case.description",
+      "texture": "autocase.png",
+      "category": "OTHER_FEATURES",
+      "price": 449,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true autoOpenLootBox"
+      ]
+    },
+    "AUTO_MERGE": {
+      "donateName": "lumberjack.donate.element.auto-merge.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.auto-merge.title",
+      "title": "lumberjack.donate.element.auto-merge.title",
+      "description": "lumberjack.donate.element.auto-merge.description",
+      "texture": "auto_merge.png",
+      "category": "OTHER_FEATURES",
+      "price": 299,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasAutoMerge"
+      ]
+    },
     "SUPER_PLAYER": {
       "donateName": "lumberjack.donate.element.super-player.donate-name",
       "title": "lumberjack.donate.element.super-player.title",
