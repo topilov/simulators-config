@@ -62,6 +62,26 @@
         "onBuy": [
           "give-key %player% PET 1"
         ]
+      },
+      {
+        "title": "lumberjack.shop.bits.product.rune_key.title",
+        "hover": "lumberjack.lootbox.runes.key.description",
+        "icon": "rune_key.png",
+        "price": 79.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-key %player% RUNE 1"
+        ]
+      },
+      {
+        "title": "lumberjack.shop.bits.product.crystal.title",
+        "hover": "lumberjack.shop.bits.product.crystal.hover",
+        "icon": "save_crystal.png",
+        "price": 79.0,
+        "needSubscription": true,
+        "onBuy": [
+          "give-item %player% SAVE_CRYSTAL 1"
+        ]
       }
     ]
   },
