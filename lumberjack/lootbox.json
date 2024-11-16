@@ -683,6 +683,20 @@
             ]
           },
           {
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "lumberjack.titles.trader.name",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.3125,
+            "onDrop": [
+              "give-title %player% TRADER 500000"
+            ]
+          },
+          {
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
