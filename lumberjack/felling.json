@@ -1,4 +1,7 @@
 {
+  "messages": {
+    "blockDrop": "lumberjack.felling.messages.block-drop"
+  },
   "locations": {
     "1": {
       "blocks": {
@@ -19,7 +22,22 @@
           }
         }
       },
-      "drops": []
+      "drops": [
+        {
+          "chance": 20,
+          "itemStack": null
+        },
+        {
+          "chance": 80,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.titles.trader.name",
+            "data": {
+              "sim": "titles"
+            }
+          }
+        }
+      ]
     },
     "2": {
       "blocks": {
