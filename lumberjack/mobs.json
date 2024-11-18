@@ -1,4 +1,7 @@
 {
+  "messages": {
+    "drop": "lumberjack.mobs.messages.drop"
+  },
   "locations": {
     "1": {
       "mobs": {
@@ -7,6 +10,22 @@
           "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/rabbit.png",
           "health": 20,
           "pointTag": "rabbit",
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 50,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.rabbit-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ],
           "armor": [
             {
               "type": "LEATHER_BOOTS",
@@ -41,6 +60,22 @@
           "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/fox.png",
           "health": 20,
           "pointTag": "fox",
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 50,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.fox-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ],
           "armor": [
             {
               "type": "LEATHER_BOOTS",
