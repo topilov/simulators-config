@@ -16,7 +16,17 @@
               "itemStack": null
             },
             {
-              "chance": 50,
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.fried-rabbit-meat.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
               "itemStack": {
                 "type": "CLAY_BALL",
                 "name": "lumberjack.mobs.drop.rabbit-head.name",
@@ -66,7 +76,17 @@
               "itemStack": null
             },
             {
-              "chance": 50,
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.fox-fur.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
               "itemStack": {
                 "type": "CLAY_BALL",
                 "name": "lumberjack.mobs.drop.fox-head.name",
@@ -114,14 +134,64 @@
           "health": 30,
           "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
           "pointTag": "ocelot",
-          "drops": []
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.cod-fish.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.fox-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ]
         },
         "BUFFALO": {
           "name": "lumberjack.mobs.buffalo.name",
           "health": 30,
           "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
           "pointTag": "buffalo",
-          "drops": []
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.buffalo-meat.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.fox-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ]
         }
       }
     },
