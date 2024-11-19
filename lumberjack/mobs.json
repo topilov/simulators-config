@@ -9,6 +9,7 @@
           "name": "lumberjack.mobs.rabbit.name",
           "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/rabbit.png",
           "health": 20,
+          "damage": 0.0,
           "pointTag": "rabbit",
           "drops": [
             {
@@ -69,6 +70,7 @@
           "name": "lumberjack.mobs.fox.name",
           "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/fox.png",
           "health": 20,
+          "damage": 0.0,
           "pointTag": "fox",
           "drops": [
             {
@@ -132,6 +134,7 @@
         "OCELOT": {
           "name": "lumberjack.mobs.ocelot.name",
           "health": 30,
+          "damage": 0.0,
           "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
           "pointTag": "ocelot",
           "drops": [
@@ -164,6 +167,7 @@
         "BUFFALO": {
           "name": "lumberjack.mobs.buffalo.name",
           "health": 30,
+          "damage": 0.0,
           "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
           "pointTag": "buffalo",
           "drops": [
@@ -200,6 +204,7 @@
         "PONY": {
           "name": "lumberjack.mobs.pony.name",
           "health": 50,
+          "damage": 0.0,
           "pointTag": "pony",
           "drops": []
         },
@@ -207,6 +212,7 @@
           "name": "lumberjack.mobs.grape-picker.name",
           "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/grape-picker.png",
           "health": 50,
+          "damage": 5.0,
           "pointTag": "gpicker",
           "itemInMainHand": {"type": "SHEARS"},
           "drops": [],
@@ -243,10 +249,18 @@
     },
     "4": {
       "mobs": {
+        "TREE_WOLF": {
+          "name": "lumberjack.mobs.tree-wolf.name",
+          "health": 125,
+          "damage": 7.0,
+          "pointTag": "tree-wolf",
+          "drops": []
+        },
         "POACHER": {
           "name": "lumberjack.mobs.poacher.name",
           "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/poacher.png",
           "health": 125,
+          "damage": 7.0,
           "pointTag": "poacher",
           "itemInMainHand": {
             "type": "DIAMOND_SWORD",
