@@ -5,7 +5,7 @@
   "locations": {
     "1": {
       "mobs": {
-        "RABBIT": {
+        "RABBIT":  {
           "name": "lumberjack.mobs.rabbit.name",
           "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/rabbit.png",
           "health": 20,
@@ -156,7 +156,7 @@
               "chance": 10,
               "itemStack": {
                 "type": "CLAY_BALL",
-                "name": "lumberjack.mobs.drop.fox-head.name",
+                "name": "lumberjack.mobs.drop.ocelot-head.name",
                 "data": {
                   "price": 10000.0
                 }
@@ -189,7 +189,7 @@
               "chance": 10,
               "itemStack": {
                 "type": "CLAY_BALL",
-                "name": "lumberjack.mobs.drop.fox-head.name",
+                "name": "lumberjack.mobs.drop.buffalo-head.name",
                 "data": {
                   "price": 10000.0
                 }
@@ -206,7 +206,32 @@
           "health": 50,
           "damage": 0.0,
           "pointTag": "pony",
-          "drops": []
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.leather.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.pony-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ]
         },
         "GRAPE_PICKER": {
           "name": "lumberjack.mobs.grape-picker.name",
@@ -215,7 +240,32 @@
           "damage": 5.0,
           "pointTag": "gpicker",
           "itemInMainHand": {"type": "SHEARS"},
-          "drops": [],
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.berries.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.grape-picker-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ],
           "armor": [
             {
               "type": "LEATHER_BOOTS",
@@ -254,7 +304,32 @@
           "health": 125,
           "damage": 7.0,
           "pointTag": "tree-wolf",
-          "drops": []
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.wolf-hair.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.tree-wolf-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ]
         },
         "POACHER": {
           "name": "lumberjack.mobs.poacher.name",
@@ -271,7 +346,32 @@
               "weapons": "stone_short_sword"
             }
           },
-          "drops": [],
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.iron.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.poacher-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ],
           "armor": [
             {
               "type": "LEATHER_BOOTS",
@@ -310,7 +410,32 @@
           "health": 50,
           "damage": 8.0,
           "pointTag": "nightmare",
-          "drops": []
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.ender-pearl.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.nightmare-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ]
         },
         "GHOST": {
           "name": "lumberjack.mobs.ghost.name",
@@ -318,7 +443,32 @@
           "damage": 8.0,
           "isInvisible": true,
           "pointTag": "ghost",
-          "drops": [],
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.particle-spirit.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.ghost-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ],
           "armor": [
             {"type": "DIAMOND_BLOCK"},
             {"type": "DIAMOND_BLOCK"},
@@ -352,7 +502,32 @@
           "itemInOffHand": {
             "type": "RAW_FISH"
           },
-          "drops": [],
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.ice.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.eskimo-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ],
           "armor": [
             {
               "type": "LEATHER_BOOTS",
@@ -388,7 +563,32 @@
           "health": 100,
           "damage": 9.0,
           "pointTag": "arctic-fox",
-          "drops": [],
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.crucian.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.arctic-fox-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ],
           "armor": [
             {
               "type": "LEATHER_BOOTS",
