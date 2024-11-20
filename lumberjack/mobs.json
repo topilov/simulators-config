@@ -621,7 +621,23 @@
       }
     },
     "7": {
-      "mobs": {}
+      "mobs": {
+        "POISON_SPIDER": {
+          "name": "lumberjack.mobs.poison-spider.name",
+          "health": 50,
+          "damage": 15.0,
+          "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
+          "pointTag": "pspider",
+          "drops": []
+        },
+        "SPIDER": {
+          "name": "lumberjack.mobs.spider.name",
+          "health": 125,
+          "damage": 8.0,
+          "pointTag": "spider",
+          "drops": []
+        }
+      }
     }
   }
 }
