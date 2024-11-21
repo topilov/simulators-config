@@ -181,7 +181,10 @@
       "title": "lumberjack.donate.element.legendary-axe.title",
       "description": "lumberjack.donate.element.legendary-axe.description",
       "item": {
-        "type": "GOLD_INGOT"
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "legendary_axe"
+        }
       },
       "category": "GAME_ITEMS",
       "price": 399,
@@ -190,7 +193,8 @@
         1
       ],
       "onBuy": [
-        "give legendary lumberjack"
+        "give-tool %player% DONATE",
+        "morestat %player% set true hasLegendaryAxe"
       ]
     },
     "SAVE_CRYSTAL": {
