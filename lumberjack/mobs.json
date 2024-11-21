@@ -628,14 +628,64 @@
           "damage": 15.0,
           "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
           "pointTag": "pspider",
-          "drops": []
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.spider_eye.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.poison-spider-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ]
         },
         "SPIDER": {
           "name": "lumberjack.mobs.spider.name",
           "health": 125,
           "damage": 8.0,
           "pointTag": "spider",
-          "drops": []
+          "drops": [
+            {
+              "chance": 50,
+              "itemStack": null
+            },
+            {
+              "chance": 40,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.string.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            },
+            {
+              "chance": 10,
+              "itemStack": {
+                "type": "CLAY_BALL",
+                "name": "lumberjack.mobs.drop.spider-head.name",
+                "data": {
+                  "price": 10000.0
+                }
+              }
+            }
+          ]
         }
       }
     }
