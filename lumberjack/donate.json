@@ -197,6 +197,27 @@
         "morestat %player% set true hasLegendaryAxe"
       ]
     },
+    "AUTO_SELL": {
+      "donateName": "lumberjack.donate.element.auto_sell.donate-name",
+      "title": "lumberjack.donate.element.auto_sell.title",
+      "description": "lumberjack.donate.element.auto_sell.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "auto_sell"
+        }
+      },
+      "category": "OTHER_FEATURES",
+      "price": 999,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasLegendaryAxe",
+        "morestat %player% set true hasAutoSell"
+      ]
+    },
     "SAVE_CRYSTAL": {
       "donateName": "lumberjack.donate.element.save-crystal.donate-name",
       "confirmationTitle": "lumberjack.donate.element.save-crystal.title",
