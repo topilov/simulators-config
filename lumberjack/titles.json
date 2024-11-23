@@ -249,8 +249,14 @@
         }
       },
       "rare": "RARE",
-      "stat": 10.0,
-      "notification": ""
+      "stat": 0.01,
+      "notification": "",
+      "onWear": [
+        "add-speed %player% 0.01"
+      ],
+      "onUnwear": [
+        "add-speed %player% -0.01"
+      ]
     },
     "DEMOLITION": {
       "menuTitle": "lumberjack.titles.demolition.name",
@@ -264,7 +270,13 @@
       },
       "rare": "RARE",
       "stat": 10.0,
-      "notification": ""
+      "notification": "",
+      "onWear": [
+        "boost-storage %player% 10"
+      ],
+      "onUnwear": [
+        "unboost-storage %player%"
+      ]
     },
     "CHAOS": {
       "menuTitle": "lumberjack.titles.chaos.name",
