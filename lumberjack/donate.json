@@ -332,6 +332,28 @@
         "morestat %player% set true hasInfinityStorage"
       ]
     },
+    "ANTI_HUNGER": {
+      "donateName": "lumberjack.donate.element.anti-hunger.donate-name",
+      "confirmationTitle": "lumberjack.donate.element.anti-hunger.title",
+      "title": "lumberjack.donate.element.anti-hunger.title",
+      "description": "lumberjack.donate.element.anti-hunger.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "anti_hunger"
+        }
+      },
+      "category": "OTHER_FEATURES",
+      "price": 499,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasAntiHunger"
+      ]
+    },
     "MULTIPLE_CASE": {
       "donateName": "lumberjack.donate.element.multiple-case.donate-name",
       "confirmationTitle": "lumberjack.donate.element.multiple-case.title",
