@@ -1,6 +1,10 @@
 {
   "requiredLevelMessage": "lumberjack.location.message.required-level",
   "requiredRebirthMessage": "lumberjack.location.message.required-rebirth",
+  "saveBox": {
+    "name": "safe",
+    "tag": ""
+  },
   "locations": {
     "FOREST": {
       "slots": 125,
@@ -13,7 +17,8 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": true
     },
     "SAVANNAH": {
       "slots": 125,
@@ -26,7 +31,8 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": true
     },
     "TUSCANY": {
       "slots": 125,
@@ -39,7 +45,8 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": true
     },
     "MADAGASCAR": {
       "slots": 125,
@@ -52,7 +59,8 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": true
     },
     "DARK_FOREST": {
       "slots": 125,
@@ -65,7 +73,11 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "saveBox":{
+        "radius": 1.5
+      },
+      "enablePvp": true
     },
     "TAIGA": {
       "slots": 125,
@@ -78,7 +90,8 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": true
     },
     "JUNGLES": {
       "slots": 125,
@@ -91,7 +104,8 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": true
     }
   }
 }
