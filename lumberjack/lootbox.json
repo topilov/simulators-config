@@ -198,7 +198,26 @@
             "onDrop": [
               "give-tool %player% VIKING"
             ]
+          },
+          {
+            "id": "tool-lucky",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "WOOD_AXE",
+              "name": "i18n.lumberjack.tool.axe.lucky.title|!|§7",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {}
+            },
+            "chance": 1.5,
+            "onDrop": [
+              "give-tool %player% LUCKY"
+            ]
           }
+
         ]
       }
     },
