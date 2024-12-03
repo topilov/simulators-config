@@ -46,7 +46,7 @@
                 "HIDE_UNBREAKABLE"
               ]
             },
-            "chance": 55,
+            "chance": 25,
             "onDrop": [
               "give %player% minecraft:bread 16"
             ]
@@ -56,16 +56,16 @@
             "rarity": "COMMON",
             "itemStack": {
               "type": "GOLDEN_APPLE",
-              "name": "i18n.lumberjack.lootbox.reward.gold_apple.title|!|5%",
+              "name": "i18n.lumberjack.lootbox.reward.golden_apple.title|!|5%",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
               ]
             },
-            "chance": 55,
+            "chance": 25,
             "onDrop": [
-              "give %player% minecraft:gold_apple 1"
+              "give %player% minecraft:golden_apple 1"
             ]
           },
           {
@@ -123,7 +123,7 @@
                 "sim": "blocks_booster"
               }
             },
-            "chance": 35,
+            "chance": 25,
             "onDrop": [
               "tellraw %player% \"Разработка...\""
             ]
@@ -143,7 +143,7 @@
                 "sim": "booster_money"
               }
             },
-            "chance": 35,
+            "chance": 10,
             "onDrop": [
               "tellraw %player% \"Разработка...\""
             ]
@@ -163,7 +163,7 @@
                 "sim": "booster_mobs"
               }
             },
-            "chance": 35,
+            "chance": 10,
             "onDrop": [
               "tellraw %player% \"Разработка...\""
             ]
