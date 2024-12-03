@@ -35,6 +35,40 @@
         "texture": "lootboxes.png",
         "elements": [
           {
+            "id": "bread",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "BREAD",
+              "name": "i18n.lumberjack.lootbox.reward.bread.title|!|5%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ]
+            },
+            "chance": 55,
+            "onDrop": [
+              "give %player% minecraft:bread 16"
+            ]
+          },
+          {
+            "id": "gold_apple",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "GOLD_APPLE",
+              "name": "i18n.lumberjack.lootbox.reward.gold_apple.title|!|5%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ]
+            },
+            "chance": 55,
+            "onDrop": [
+              "give %player% minecraft:gold_apple 1"
+            ]
+          },
+          {
             "id": "percent-money-5",
             "rarity": "COMMON",
             "itemStack": {
@@ -72,6 +106,66 @@
             "chance": 35,
             "onDrop": [
               "random-money %player% 10 10.01"
+            ]
+          },
+          {
+            "id": "booster_blocks",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_blocks.title|!|10%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "blocks_booster"
+              }
+            },
+            "chance": 35,
+            "onDrop": [
+              "tellraw %player% \"Разработка...\""
+            ]
+          },
+          {
+            "id": "booster_money",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_money.title|!|10%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "booster_money"
+              }
+            },
+            "chance": 35,
+            "onDrop": [
+              "tellraw %player% \"Разработка...\""
+            ]
+          },
+          {
+            "id": "booster_mobs",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_mobs.title|!|10%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "booster_mobs"
+              }
+            },
+            "chance": 35,
+            "onDrop": [
+              "tellraw %player% \"Разработка...\""
             ]
           },
           {
@@ -161,6 +255,26 @@
             "chance": 1.5,
             "onDrop": [
               "give-armor %player% EPIC_BOOTS"
+            ]
+          },
+          {
+            "id": "haste",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.haste.title|!|§7",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+
+              }
+            },
+            "chance": 1.5,
+            "onDrop": [
+              "tellraw %player% \"Разработка...\""
             ]
           },
           {
