@@ -35,6 +35,40 @@
         "texture": "lootboxes.png",
         "elements": [
           {
+            "id": "bread",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "BREAD",
+              "name": "i18n.lumberjack.lootbox.reward.bread.title|!|5%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ]
+            },
+            "chance": 25,
+            "onDrop": [
+              "give %player% minecraft:bread 16"
+            ]
+          },
+          {
+            "id": "gold_apple",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "GOLDEN_APPLE",
+              "name": "i18n.lumberjack.lootbox.reward.golden_apple.title|!|5%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ]
+            },
+            "chance": 25,
+            "onDrop": [
+              "give %player% minecraft:golden_apple 1"
+            ]
+          },
+          {
             "id": "percent-money-5",
             "rarity": "COMMON",
             "itemStack": {
@@ -72,6 +106,66 @@
             "chance": 35,
             "onDrop": [
               "random-money %player% 10 10.01"
+            ]
+          },
+          {
+            "id": "booster_blocks",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_blocks.title|!|10%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "blocks_booster"
+              }
+            },
+            "chance": 25,
+            "onDrop": [
+              "local-booster %player% BLOCKS 1.2 1200"
+            ]
+          },
+          {
+            "id": "booster_money",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_money.title|!|10%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "booster_money"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "local-booster %player% MONEY 1.2 1200"
+            ]
+          },
+          {
+            "id": "booster_mobs",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_mobs.title|!|10%",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "booster_mobs"
+              }
+            },
+            "chance": 10,
+            "onDrop": [
+              "local-booster %player% MOBS 1.2 1200"
             ]
           },
           {
@@ -164,6 +258,26 @@
             ]
           },
           {
+            "id": "haste",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.haste.title|!|§7",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+
+              }
+            },
+            "chance": 1.5,
+            "onDrop": [
+              "tellraw %player% \"Разработка...\""
+            ]
+          },
+          {
             "id": "tool-speed",
             "rarity": "LEGENDARY",
             "itemStack": {
@@ -198,7 +312,26 @@
             "onDrop": [
               "give-tool %player% VIKING"
             ]
+          },
+          {
+            "id": "tool-lucky",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "WOOD_AXE",
+              "name": "i18n.lumberjack.tool.axe.lucky.title|!|§7",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {}
+            },
+            "chance": 1.5,
+            "onDrop": [
+              "give-tool %player% LUCKY"
+            ]
           }
+
         ]
       }
     },
@@ -238,6 +371,7 @@
         "texture": "lootboxes.png",
         "elements": [
           {
+            "id": "chest",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -251,6 +385,7 @@
             ]
           },
           {
+            "id": "elephant",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -264,6 +399,7 @@
             ]
           },
           {
+            "id": "chick",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -277,6 +413,7 @@
             ]
           },
           {
+            "id": "pirate-parrot",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -290,6 +427,7 @@
             ]
           },
           {
+            "id": "hedgehog",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -303,6 +441,7 @@
             ]
           },
           {
+            "id": "fox",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -316,6 +455,7 @@
             ]
           },
           {
+            "id": "treasure",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -329,6 +469,7 @@
             ]
           },
           {
+            "id": "pirate",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -342,6 +483,7 @@
             ]
           },
           {
+            "id": "fish",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -355,6 +497,7 @@
             ]
           },
           {
+            "id": "captain",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -368,6 +511,7 @@
             ]
           },
           {
+            "id": "pug",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -381,6 +525,7 @@
             ]
           },
           {
+            "id": "ninja",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -394,6 +539,7 @@
             ]
           },
           {
+            "id": "cookie",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -407,6 +553,7 @@
             ]
           },
           {
+            "id": "mushroom",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -420,6 +567,7 @@
             ]
           },
           {
+            "id": "rune",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -433,6 +581,21 @@
             ]
           },
           {
+            "id": "mini-miner",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "lumberjack.pet.mini-miner.name",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY4MmRiMmUyOGQ2YzlmZjcyNzI1ZmI4MGMyZGY4NDg4YzdlMzdkNTQ3YmE2YjY4ZDJmMTQyODg4NjBkNjgwIn19fQ=="
+            },
+            "chance": 2.65,
+            "onDrop": [
+              "give-pet %player% MINI_MINER 1 1000000"
+            ]
+          },
+          {
+            "id": "bee",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -446,6 +609,7 @@
             ]
           },
           {
+            "id": "fugue",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -459,6 +623,7 @@
             ]
           },
           {
+            "id": "earth",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -472,6 +637,7 @@
             ]
           },
           {
+            "id": "owl",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -485,6 +651,7 @@
             ]
           },
           {
+            "id": "lumberjack",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -536,6 +703,7 @@
         "texture": "lootboxes.png",
         "elements": [
           {
+            "id": "miner",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -549,6 +717,7 @@
             ]
           },
           {
+            "id": "seller",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -562,6 +731,7 @@
             ]
           },
           {
+            "id": "digger",
             "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -575,6 +745,7 @@
             ]
           },
           {
+            "id": "upgrade",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -588,6 +759,7 @@
             ]
           },
           {
+            "id": "bits",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -601,6 +773,7 @@
             ]
           },
           {
+            "id": "berserk",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -614,6 +787,7 @@
             ]
           },
           {
+            "id": "lucky",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -627,6 +801,7 @@
             ]
           },
           {
+            "id": "collector",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -640,6 +815,7 @@
             ]
           },
           {
+            "id": "blacksmith",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -653,6 +829,7 @@
             ]
           },
           {
+            "id": "lumberjack",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -666,6 +843,7 @@
             ]
           },
           {
+            "id": "time",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -679,6 +857,7 @@
             ]
           },
           {
+            "id": "pet",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -692,6 +871,7 @@
             ]
           },
           {
+            "id": "super_player",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -743,6 +923,7 @@
         "texture": "lootboxes.png",
         "elements": [
           {
+            "id": "forest_master",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -757,6 +938,7 @@
             ]
           },
           {
+            "id": "lord_forest",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -771,6 +953,7 @@
             ]
           },
           {
+            "id": "timbercutter",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -785,6 +968,7 @@
             ]
           },
           {
+            "id": "woodcutter",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -799,6 +983,7 @@
             ]
           },
           {
+            "id": "seeker",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -813,6 +998,7 @@
             ]
           },
           {
+            "id": "wind",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -827,6 +1013,7 @@
             ]
           },
           {
+            "id": "soul",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -841,6 +1028,7 @@
             ]
           },
           {
+            "id": "carver",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -855,6 +1043,7 @@
             ]
           },
           {
+            "id": "forest_artisan",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -869,6 +1058,7 @@
             ]
           },
           {
+            "id": "great_woodsman",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -883,6 +1073,7 @@
             ]
           },
           {
+            "id": "forest_enchanter",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -897,6 +1088,7 @@
             ]
           },
           {
+            "id": "watchman",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -911,6 +1103,7 @@
             ]
           },
           {
+            "id": "slasher",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -925,6 +1118,7 @@
             ]
           },
           {
+            "id": "king_logs",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -939,6 +1133,7 @@
             ]
           },
           {
+            "id": "guardian",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -953,6 +1148,7 @@
             ]
           },
           {
+            "id": "axe_wielder_legend",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -967,6 +1163,7 @@
             ]
           },
           {
+            "id": "cleaver",
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -981,6 +1178,7 @@
             ]
           },
           {
+            "id": "trader",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -995,6 +1193,7 @@
             ]
           },
           {
+            "id": "assassin",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1009,6 +1208,7 @@
             ]
           },
           {
+            "id": "demolition",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1023,6 +1223,7 @@
             ]
           },
           {
+            "id": "chaos",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1037,6 +1238,7 @@
             ]
           },
           {
+            "id": "siege",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1051,6 +1253,7 @@
             ]
           },
           {
+            "id": "forester",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1065,6 +1268,7 @@
             ]
           },
           {
+            "id": "lumberjack",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1079,6 +1283,7 @@
             ]
           },
           {
+            "id": "harvester",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1093,6 +1298,7 @@
             ]
           },
           {
+            "id": "whirlwind",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1107,6 +1313,7 @@
             ]
           },
           {
+            "id": "demolisher",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1121,6 +1328,7 @@
             ]
           },
           {
+            "id": "gatherer",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1135,6 +1343,7 @@
             ]
           },
           {
+            "id": "chopper",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1149,6 +1358,7 @@
             ]
           },
           {
+            "id": "worker",
             "rarity": "EPIC",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1163,6 +1373,7 @@
             ]
           },
           {
+            "id": "hunter",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1177,6 +1388,7 @@
             ]
           },
           {
+            "id": "lucky",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1191,6 +1403,7 @@
             ]
           },
           {
+            "id": "cutthroat",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
@@ -1205,6 +1418,7 @@
             ]
           },
           {
+            "id": "chainsaw",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
