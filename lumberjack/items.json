@@ -7,8 +7,24 @@
       "lore": "lumberjack.items.save-crystal.lore",
       "unbreakable": true,
       "data": {
+        "sim": "save_crystal",
         "crystal": 1,
         "no-clear": 1,
+        "hoverColor": "PURPLE_LIGHT"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "HASTE": {
+      "type": "PAPER",
+      "name": "lumberjack.items.haste.name",
+      "lore": "lumberjack.items.haste.lore",
+      "unbreakable": true,
+      "data": {
+        "haste": 20,
         "hoverColor": "PURPLE_LIGHT"
       },
       "flags": [
@@ -27,9 +43,11 @@
     "crystalsPerRebirth": "crystals-per-rebirth",
     "noClear": "no-clear",
     "saveCrystal": "crystal",
+    "haste": "haste",
     "level": "level",
     "pipeline": "pipeline",
     "toolType": "tool-type",
-    "strength": "strength"
+    "strength": "strength",
+    "itemType": "item-type"
   }
 }

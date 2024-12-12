@@ -1,6 +1,10 @@
 {
   "requiredLevelMessage": "lumberjack.location.message.required-level",
   "requiredRebirthMessage": "lumberjack.location.message.required-rebirth",
+  "saveBox": {
+    "name": "safe",
+    "tag": ""
+  },
   "locations": {
     "FOREST": {
       "slots": 125,
@@ -13,24 +17,26 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": false
     },
     "SAVANNAH": {
       "slots": 125,
-      "map": "map4",
+      "map": "map1",
       "button": {
         "id": 2,
         "title": "lumberjack.location.savannah.title",
-        "texture": "map2.png",
+        "texture": "map5.png",
         "requiredLevel": 2,
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": false
     },
     "TUSCANY": {
       "slots": 125,
-      "map": "map7",
+      "map": "map1",
       "button": {
         "id": 3,
         "title": "lumberjack.location.tuscany.title",
@@ -39,11 +45,12 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": false
     },
     "MADAGASCAR": {
       "slots": 125,
-      "map": "map5",
+      "map": "map1",
       "button": {
         "id": 4,
         "title": "lumberjack.location.madagascar.title",
@@ -52,7 +59,8 @@
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": true
     },
     "DARK_FOREST": {
       "slots": 125,
@@ -60,64 +68,44 @@
       "button": {
         "id": 5,
         "title": "lumberjack.location.dark-forest.title",
-        "texture": "map5.png",
+        "texture": "map6.png",
         "requiredLevel": 5,
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "saveBox":{
+        "radius": 1.5
+      },
+      "enablePvp": true
     },
     "TAIGA": {
       "slots": 125,
-      "map": "map6",
+      "map": "map1",
       "button": {
         "id": 6,
         "title": "lumberjack.location.taiga.title",
-        "texture": "map6.png",
+        "texture": "map7.png",
         "requiredLevel": 6,
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
+      },
+      "enablePvp": true
     },
     "JUNGLES": {
       "slots": 125,
-      "map": "map3",
+      "map": "map1",
       "button": {
         "id": 7,
         "title": "lumberjack.location.jungles.title",
-        "texture": "map7.png",
+        "texture": "map2.png",
         "requiredLevel": 7,
         "onClick": [
           "location-tp %player% %id%"
         ]
-      }
-    },
-    "ALPS": {
-      "slots": 125,
-      "map": "map8",
-      "button": {
-        "id": 8,
-        "title": "lumberjack.location.alps.title",
-        "texture": "map8.png",
-        "requiredLevel": 8,
-        "onClick": [
-          "location-tp %player% %id%"
-        ]
-      }
-    },
-    "LAKES": {
-      "slots": 125,
-      "map": "map9",
-      "button": {
-        "id": 9,
-        "title": "lumberjack.location.lakes.title",
-        "texture": "map9.png",
-        "requiredLevel": 9,
-        "onClick": [
-          "location-tp %player% %id%"
-        ]
-      }
+      },
+      "enablePvp": true
     }
   }
 }

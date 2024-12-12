@@ -19,6 +19,24 @@
       ]
     },
     {
+      "name": "lumberjack.npc.sell.drops.title",
+      "location": {
+        "name": "sell",
+        "tag": "drops",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/lumberjack/skins/sell-drops.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-drops %player%"
+      ]
+    },
+    {
       "name": "lumberjack.npc.upgrade.items.title",
       "location": {
         "name": "upgrade",
