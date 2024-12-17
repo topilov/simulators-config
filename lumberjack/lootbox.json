@@ -140,7 +140,7 @@
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-                "sim": "booster_money"
+                "sim": "money_booster"
               }
             },
             "chance": 10,
@@ -160,7 +160,7 @@
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-                "sim": "booster_mobs"
+                "sim": "mobs_booster"
               }
             },
             "chance": 10,
@@ -172,13 +172,16 @@
             "id": "save-crystal",
             "rarity": "EPIC",
             "itemStack": {
-              "type": "CHORUS_FRUIT_POPPED",
+              "type": "CLAY_BALL",
               "name": "lumberjack.items.save-crystal.name",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
-              ]
+              ],
+              "data": {
+                "sim": "save_crystal"
+              }
             },
             "chance": 7,
             "onDrop": [
@@ -269,7 +272,7 @@
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-
+                "sim": "haste"
               }
             },
             "chance": 1.5,
