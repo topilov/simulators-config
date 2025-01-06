@@ -140,7 +140,7 @@
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-                "sim": "booster_money"
+                "sim": "money_booster"
               }
             },
             "chance": 10,
@@ -160,7 +160,7 @@
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-                "sim": "booster_mobs"
+                "sim": "mobs_booster"
               }
             },
             "chance": 10,
@@ -172,13 +172,16 @@
             "id": "save-crystal",
             "rarity": "EPIC",
             "itemStack": {
-              "type": "CHORUS_FRUIT_POPPED",
+              "type": "CLAY_BALL",
               "name": "lumberjack.items.save-crystal.name",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
-              ]
+              ],
+              "data": {
+                "sim": "save_crystal"
+              }
             },
             "chance": 7,
             "onDrop": [
@@ -261,7 +264,7 @@
             "id": "haste",
             "rarity": "EPIC",
             "itemStack": {
-              "type": "CLAY_BALL",
+              "type": "POTION",
               "name": "i18n.lumberjack.lootbox.reward.haste.title|!|§7",
               "flags": [
                 "HIDE_ATTRIBUTES",
@@ -269,7 +272,7 @@
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-
+                "sim": "speed_potion"
               }
             },
             "chance": 1.5,
@@ -288,7 +291,9 @@
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
               ],
-              "data": {}
+              "data": {
+                "sim": "speed_axe"
+              }
             },
             "chance": 1.5,
             "onDrop": [
@@ -306,7 +311,9 @@
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
               ],
-              "data": {}
+              "data": {
+                "sim": "viking_axe"
+              }
             },
             "chance": 1.5,
             "onDrop": [
@@ -324,14 +331,15 @@
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
               ],
-              "data": {}
+              "data": {
+                "sim": "lucky_axe"
+              }
             },
             "chance": 1.5,
             "onDrop": [
               "give-tool %player% LUCKY"
             ]
           }
-
         ]
       }
     },
