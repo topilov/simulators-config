@@ -218,7 +218,12 @@
       "confirmationTitle": "lumberjack.donate.element.save-crystal.title",
       "title": "lumberjack.donate.element.save-crystal.title",
       "description": "lumberjack.donate.element.save-crystal.description",
-      "texture": "save_crystal.png",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim": "save_crystal"
+        }
+      },
       "category": "GAME_ITEMS",
       "price": 39,
       "sale": 0,

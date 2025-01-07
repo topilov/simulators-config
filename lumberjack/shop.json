@@ -76,7 +76,12 @@
       {
         "title": "lumberjack.shop.bits.product.crystal.title",
         "hover": "lumberjack.shop.bits.product.crystal.hover",
-        "icon": "save_crystal.png",
+        "item": {
+          "type": "CLAY_BALL",
+          "data": {
+            "sim": "save_crystal"
+          }
+        },
         "price": 99.0,
         "needSubscription": true,
         "onBuy": [
