@@ -4,7 +4,7 @@
       "title": "lumberjack.lootbox.default.title",
       "keyTitle": "lumberjack.lootbox.default.key.title",
       "giveMessage": "i18n.lumberjack.lootbox.message.give|!|lumberjack.lootbox.default.key.title",
-      "alertMessage": "lumberjack.lootbox.lumberjack.message.alert",
+      "alertMessage": "lumberjack.lootbox.default.message.alert",
       "useMessage": "i18n.lumberjack.lootbox.message.use|!|lumberjack.lootbox.default.key.title",
       "keyStack": {
         "type": "CLAY_BALL",
@@ -48,7 +48,7 @@
             },
             "chance": 15.5,
             "onDrop": [
-              "give %player% minecraft:bread 16"
+              "give %player% minecraft:bread 4"
             ]
           },
           {
@@ -125,7 +125,7 @@
             },
             "chance": 5,
             "onDrop": [
-              "local-booster %player% BLOCKS 1.2 1200"
+              "local-booster %player% BLOCKS 1.1 1200"
             ]
           },
           {
@@ -145,7 +145,7 @@
             },
             "chance": 5,
             "onDrop": [
-              "local-booster %player% MONEY 1.2 1200"
+              "local-booster %player% MONEY 1.1 1200"
             ]
           },
           {
@@ -165,7 +165,7 @@
             },
             "chance": 5,
             "onDrop": [
-              "local-booster %player% MOBS 1.2 1200"
+              "local-booster %player% MOBS 1.1 1200"
             ]
           },
           {
