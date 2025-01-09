@@ -48,7 +48,7 @@
             },
             "chance": 15.5,
             "onDrop": [
-              "give %player% minecraft:bread 4"
+              "give-item %player% BREAD 4"
             ]
           },
           {
@@ -65,7 +65,7 @@
             },
             "chance": 15.5,
             "onDrop": [
-              "give %player% minecraft:golden_apple 1"
+              "give-item %player% GOLDEN_APPLE 1"
             ]
           },
           {
@@ -277,7 +277,7 @@
             },
             "chance": 2,
             "onDrop": [
-              "tellraw %player% \"Разработка...\""
+              "give-item %player% HASTE 1"
             ]
           },
           {
