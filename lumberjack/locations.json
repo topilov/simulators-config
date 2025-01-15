@@ -26,7 +26,7 @@
       "button": {
         "id": 2,
         "title": "lumberjack.location.savannah.title",
-        "texture": "map5.png",
+        "texture": "map2.png",
         "requiredLevel": 2,
         "onClick": [
           "location-tp %player% %id%"
@@ -68,7 +68,7 @@
       "button": {
         "id": 5,
         "title": "lumberjack.location.dark-forest.title",
-        "texture": "map6.png",
+        "texture": "map5.png",
         "requiredLevel": 5,
         "onClick": [
           "location-tp %player% %id%"
@@ -86,8 +86,9 @@
       "button": {
         "id": 6,
         "title": "lumberjack.location.taiga.title",
-        "texture": "map7.png",
+        "texture": "map6.png",
         "requiredLevel": 6,
+        "requiredRebirth": 10,
         "onClick": [
           "location-tp %player% %id%"
         ]
@@ -100,8 +101,9 @@
       "button": {
         "id": 7,
         "title": "lumberjack.location.jungles.title",
-        "texture": "map2.png",
+        "texture": "map7.png",
         "requiredLevel": 7,
+        "requiredRebirth": 25,
         "onClick": [
           "location-tp %player% %id%"
         ]

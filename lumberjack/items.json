@@ -2,7 +2,7 @@
   "maxSaveCrystals": 26,
   "items": {
     "SAVE_CRYSTAL": {
-      "type": "CHORUS_FRUIT_POPPED",
+      "type": "CLAY_BALL",
       "name": "lumberjack.items.save-crystal.name",
       "lore": "lumberjack.items.save-crystal.lore",
       "unbreakable": true,
@@ -27,6 +27,35 @@
         "haste": 20,
         "sim": "speed_potion",
         "hoverColor": "PURPLE_LIGHT"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE",
+        "HIDE_POTION_EFFECTS"
+      ]
+    },
+    "BREAD": {
+      "type": "BREAD",
+      "name": "lumberjack.items.bread.name",
+      "lore": "lumberjack.items.bread.lore",
+      "unbreakable": true,
+      "data": {
+        "hoverColor": "GREY"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "GOLDEN_APPLE": {
+      "type": "GOLDEN_APPLE",
+      "name": "lumberjack.items.golden_apple.name",
+      "lore": "lumberjack.items.golden_apple.lore",
+      "unbreakable": true,
+      "data": {
+        "hoverColor": "GREY"
       },
       "flags": [
         "HIDE_ATTRIBUTES",
