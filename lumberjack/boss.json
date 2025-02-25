@@ -97,7 +97,14 @@
                 "health": 50,
                 "damage": 10,
                 "speed": 0.3,
-                "location": { "name": "boss" },
+                "location": {
+                  "name": "boss",
+                  "offset": {
+                    "x": 2,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
                 "customName": "lumberjack.boss.polar-bear.name"
               }
             }
