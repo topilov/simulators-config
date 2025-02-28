@@ -108,7 +108,10 @@
           "y": 0.0,
           "z": 0.5
         }
-      }
+      },
+      "onStart": [
+        "give-key %player% DEFAULT"
+      ]
     },
     "OPEN_PET_LOOTBOX": {
       "stageId": 11,
@@ -121,7 +124,10 @@
           "y": 0.0,
           "z": 0.5
         }
-      }
+      },
+      "onStart": [
+        "give-key %player% PET"
+      ]
     },
     "OPEN_RUNE_LOOTBOX": {
       "stageId": 12,
@@ -134,7 +140,10 @@
           "y": 0.0,
           "z": 0.5
         }
-      }
+      },
+      "onStart": [
+        "give-key %player% RUNE"
+      ]
     },
     "TAKE_DAILY_REWARD": {
       "stageId": 13,
