@@ -10,11 +10,14 @@
     },
     "SELL_BLOCKS": {
       "stage": 2,
-      "required": 1,
       "content": [
         "Нажмите [B], чтоб телепортироваться на спавн.",
         "Продайте добытое дерево на спавне у NPC Продажа блоков."
-      ]
+      ],
+      "pathLocation": {
+        "name": "sell",
+        "tag": "dnk"
+      }
     },
     "GET_FELLING_DROP": {
       "stage": 3,
@@ -26,24 +29,33 @@
     },
     "SELL_DROPS": {
       "stage": 4,
-      "required": 1,
       "content": [
         "Продайте добытые ресурсы на спавне у NPC Продажа ресурсов."
-      ]
+      ],
+      "pathLocation": {
+        "name": "sell",
+        "tag": "drops"
+      }
     },
     "UPGRADE_TOOL": {
       "stage": 5,
-      "required": 1,
       "content": [
         "Улучшите свой топор на спавне у NPC Улучшение топора."
-      ]
+      ],
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "items"
+      }
     },
     "UPGRADE_STORAGE": {
       "stage": 6,
-      "required": 1,
       "content": [
         "Улучшите свой рюкзак на спавне у NPC Улучшение рюкзака."
-      ]
+      ],
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "dnk"
+      }
     }
   }
 }
