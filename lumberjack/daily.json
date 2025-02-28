@@ -18,7 +18,8 @@
       "onSuccess": [
         "earn-money %player% 25 false",
         "give-key %player% TITLE 1",
-        "take-daily %player% 1"
+        "take-daily %player% 1",
+        "earn-tutorial-stage-progress %player% TAKE_DAILY_REWARD"
       ]
     },
     "2": {
