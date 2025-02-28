@@ -3,10 +3,7 @@
     "FELL_TREE_BLOCKS": {
       "stageId": 1,
       "required": 10,
-      "content": [
-        "Подойдите к одному из деревьев.",
-        "Срубите 10 блоков дерева, чтобы заполнить Ваш рюкзак  \uE1DF"
-      ],
+      "content": "lumberjack.tutorial.fell-tree-blocks.content",
       "pathLocation": {
         "name": "tree",
         "offset": {
@@ -18,10 +15,7 @@
     },
     "SELL_BLOCKS": {
       "stageId": 2,
-      "content": [
-        "Нажмите [B], чтоб телепортироваться на спавн.",
-        "Продайте добытое дерево на спавне у NPC Продажа блоков."
-      ],
+      "content": "lumberjack.tutorial.sell-blocks.content",
       "pathLocation": {
         "name": "sell",
         "tag": "dnk",
@@ -35,16 +29,11 @@
     "GET_FELLING_DROP": {
       "stageId": 3,
       "required": 3,
-      "content": [
-        "С рубки деревьев могут выпасть ценные ресурсы.",
-        "Найдите 3 ресурса."
-      ]
+      "content": "lumberjack.tutorial.get-felling-drop.content"
     },
     "SELL_DROPS": {
       "stageId": 4,
-      "content": [
-        "Продайте добытые ресурсы на спавне у NPC Продажа ресурсов."
-      ],
+      "content": "lumberjack.tutorial.sell-drops.content",
       "pathLocation": {
         "name": "sell",
         "tag": "drops",
@@ -57,9 +46,7 @@
     },
     "UPGRADE_TOOL": {
       "stageId": 5,
-      "content": [
-        "Улучшите свой топор на спавне у NPC Улучшение топора."
-      ],
+      "content": "lumberjack.tutorial.upgrade-tool.content",
       "pathLocation": {
         "name": "upgrade",
         "tag": "items",
@@ -75,9 +62,7 @@
     },
     "UPGRADE_STORAGE": {
       "stageId": 6,
-      "content": [
-        "Улучшите свой рюкзак на спавне у NPC Улучшение рюкзака."
-      ],
+      "content": "lumberjack.tutorial.upgrade-storage.content",
       "pathLocation": {
         "name": "upgrade",
         "tag": "dnk",
