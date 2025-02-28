@@ -33,13 +33,19 @@
           },
           "reward": [
             [
-              "give-key %player% PET 64"
+              "give-key %player% DEFAULT 5",
+              "random-money %player% 40 40.01",
+              "earn-exp %player% 1500 true"
             ],
             [
-              "give-key %player% RUNE 64"
+              "give-key %player% DEFAULT 3",
+              "random-money %player% 30 30.01",
+              "earn-exp %player% 1000 true"
             ],
             [
-              "give-key %player% DEFAULT 64"
+              "give-key %player% DEFAULT 2",
+              "random-money %player% 20 20.01",
+              "earn-exp %player% 500 true"
             ]
           ],
           "children": []
@@ -66,13 +72,16 @@
           },
           "reward": [
             [
-              "give-key %player% PET 64"
+              "earn-bits %player% 15",
+              "earn-exp %player% 1500 true"
             ],
             [
-              "give-key %player% RUNE 64"
+              "earn-bits %player% 10",
+              "earn-exp %player% 1000 true"
             ],
             [
-              "give-key %player% DEFAULT 64"
+              "earn-bits %player% 5",
+              "earn-exp %player% 500 true"
             ]
           ],
           "children": []
@@ -98,13 +107,14 @@
           },
           "reward": [
             [
-              "give-key %player% PET 64"
+              "give-item %player% SAVE_CRYSTAL 1",
+              "earn-exp %player% 12500 true"
             ],
             [
-              "give-key %player% RUNE 64"
+              "earn-exp %player% 10000 true"
             ],
             [
-              "give-key %player% DEFAULT 64"
+              "earn-exp %player% 7500 true"
             ]
           ],
           "children": []
@@ -131,13 +141,16 @@
           },
           "reward": [
             [
-              "give-key %player% PET 64"
+              "random-money %player% 50 50.01",
+              "earn-exp %player% 2000 true"
             ],
             [
-              "give-key %player% RUNE 64"
+              "random-money %player% 40 40.01",
+              "earn-exp %player% 1500 true"
             ],
             [
-              "give-key %player% DEFAULT 64"
+              "random-money %player% 30 30.01",
+              "earn-exp %player% 1000 true"
             ]
           ],
           "children": []
@@ -164,13 +177,17 @@
           },
           "reward": [
             [
-              "give-key %player% PET 64"
+              "give-key %player% PET 1",
+              "give-key %player% RUNE 1",
+              "earn-exp %player% 2000 true"
             ],
             [
-              "give-key %player% RUNE 64"
+              "give-key %player% RUNE 1",
+              "earn-exp %player% 1500 true"
             ],
             [
-              "give-key %player% DEFAULT 64"
+              "give-key %player% PET 1",
+              "earn-exp %player% 1000 true"
             ]
           ],
           "children": []
@@ -196,13 +213,16 @@
           },
           "reward": [
             [
-              "give-key %player% PET 64"
+              "give-key %player% PET 3",
+              "earn-exp %player% 4000 true"
             ],
             [
-              "give-key %player% RUNE 64"
+              "give-key %player% PET 2",
+              "earn-exp %player% 3000 true"
             ],
             [
-              "give-key %player% DEFAULT 64"
+              "give-key %player% PET 1",
+              "earn-exp %player% 2000 true"
             ]
           ],
           "children": [
@@ -211,7 +231,7 @@
               "settings": {
                 "health": 5000,
                 "damage": 6,
-                "speed": 0.4,
+                "speed": 0.3,
                 "location": {
                   "name": "boss",
                   "offset": {
@@ -247,13 +267,16 @@
           },
           "reward": [
             [
-              "give-key %player% PET 64"
+              "give-key %player% RUNE 3",
+              "earn-exp %player% 10000 true"
             ],
             [
-              "give-key %player% RUNE 64"
+              "give-key %player% RUNE 2",
+              "earn-exp %player% 7500 true"
             ],
             [
-              "give-key %player% DEFAULT 64"
+              "give-key %player% RUNE 1",
+              "earn-exp %player% 5000 true"
             ]
           ],
           "children": []
