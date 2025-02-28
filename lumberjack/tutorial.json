@@ -1,0 +1,95 @@
+{
+  "stages": {
+    "FELL_TREE_BLOCKS": {
+      "stageId": 1,
+      "required": 10,
+      "content": [
+        "Подойдите к одному из деревьев.",
+        "Срубите 10 блоков дерева, чтобы заполнить Ваш рюкзак  \uE1DF"
+      ],
+      "pathLocation": {
+        "name": "tree",
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -1.0
+        }
+      }
+    },
+    "SELL_BLOCKS": {
+      "stageId": 2,
+      "content": [
+        "Нажмите [B], чтоб телепортироваться на спавн.",
+        "Продайте добытое дерево на спавне у NPC Продажа блоков."
+      ],
+      "pathLocation": {
+        "name": "sell",
+        "tag": "dnk",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "GET_FELLING_DROP": {
+      "stageId": 3,
+      "required": 3,
+      "content": [
+        "С рубки деревьев могут выпасть ценные ресурсы.",
+        "Найдите 3 ресурса."
+      ]
+    },
+    "SELL_DROPS": {
+      "stageId": 4,
+      "content": [
+        "Продайте добытые ресурсы на спавне у NPC Продажа ресурсов."
+      ],
+      "pathLocation": {
+        "name": "sell",
+        "tag": "drops",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "UPGRADE_TOOL": {
+      "stageId": 5,
+      "content": [
+        "Улучшите свой топор на спавне у NPC Улучшение топора."
+      ],
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "items",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 100 false"
+      ]
+    },
+    "UPGRADE_STORAGE": {
+      "stageId": 6,
+      "content": [
+        "Улучшите свой рюкзак на спавне у NPC Улучшение рюкзака."
+      ],
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "dnk",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 5000 false"
+      ]
+    }
+  }
+}
