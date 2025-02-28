@@ -16,7 +16,12 @@
       ],
       "pathLocation": {
         "name": "sell",
-        "tag": "dnk"
+        "tag": "dnk",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
       }
     },
     "GET_FELLING_DROP": {
@@ -34,7 +39,12 @@
       ],
       "pathLocation": {
         "name": "sell",
-        "tag": "drops"
+        "tag": "drops",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
       }
     },
     "UPGRADE_TOOL": {
@@ -44,8 +54,16 @@
       ],
       "pathLocation": {
         "name": "upgrade",
-        "tag": "items"
-      }
+        "tag": "items",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 100 false"
+      ]
     },
     "UPGRADE_STORAGE": {
       "stage": 6,
@@ -54,8 +72,16 @@
       ],
       "pathLocation": {
         "name": "upgrade",
-        "tag": "dnk"
-      }
+        "tag": "dnk",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 5000 false"
+      ]
     }
   }
 }
