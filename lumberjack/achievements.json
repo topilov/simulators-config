@@ -76,7 +76,7 @@
               {
                 "title": "lumberjack.quest.level3.title",
                 "icon": "achievements.png",
-                "reward": "i18n.lumberjack.quest.reward.3|!|250K \uE03F|!|Кристалл Сохранения|!|50K \uE1A6",
+                "reward": "i18n.lumberjack.quest.reward.2|!|250K \uE03F|!|50K \uE1A6",
                 "tasks": [
                   {
                     "name": "lumberjack.quest.level.subtitle",
@@ -233,7 +233,6 @@
         "goal": 6,
         "onComplete": [
           "earn-money %player% 250000 true",
-          "give-item %player% SAVE_CRYSTAL 1",
           "earn-exp %player% 50000 true"
         ]
       }
@@ -255,7 +254,6 @@
         "goal": 6000,
         "onComplete": [
           "earn-money %player% 25000 true",
-          "give-item %player% SAVE_CRYSTAL 1",
           "earn-exp %player% 25000 true"
         ]
       },
