@@ -366,7 +366,13 @@
       },
       "rare": "EPIC",
       "stat": 15.0,
-      "notification": ""
+      "notification": "",
+      "onWear": [
+        "boost-storage %player% 15"
+      ],
+      "onUnwear": [
+        "unboost-storage"
+      ]
     },
     "DEMOLISHER": {
       "menuTitle": "lumberjack.titles.demolisher.name",
