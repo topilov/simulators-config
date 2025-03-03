@@ -15,7 +15,7 @@
                 "tasks": [
                   {
                     "name": "lumberjack.quest.exp.subtitle",
-                    "goal": 25000.0,
+                    "goal": 10000.0,
                     "current": "exp1"
                   }
                 ]
@@ -27,7 +27,7 @@
                 "tasks": [
                   {
                     "name": "lumberjack.quest.exp.subtitle",
-                    "goal": 250000.0,
+                    "goal": 150000.0,
                     "current": "exp2"
                   }
                 ]
@@ -93,11 +93,11 @@
               {
                 "title": "lumberjack.quest.blocks1.title",
                 "icon": "achievements.png",
-                "reward": "i18n.lumberjack.quest.reward.money|!|2.5K",
+                "reward": "i18n.lumberjack.quest.reward.3|!|2.5K \uE03F|!|Обычный \uE349 х5|!|10K \uE1A6",
                 "tasks": [
                   {
                     "name": "lumberjack.quest.blocks.subtitle",
-                    "goal": 1500,
+                    "goal": 500,
                     "current": "blocks1"
                   }
                 ]
@@ -105,11 +105,11 @@
               {
                 "title": "lumberjack.quest.blocks2.title",
                 "icon": "achievements.png",
-                "reward": "i18n.lumberjack.quest.reward.money|!|12.5K",
+                "reward": "i18n.lumberjack.quest.reward.2|!|25K \uE03F|!|25K \uE1A6",
                 "tasks": [
                   {
                     "name": "lumberjack.quest.blocks.subtitle",
-                    "goal": 6000,
+                    "goal": 3500,
                     "current": "blocks2"
                   }
                 ]
@@ -117,11 +117,11 @@
               {
                 "title": "lumberjack.quest.blocks3.title",
                 "icon": "achievements.png",
-                "reward": "i18n.lumberjack.quest.reward.money|!|25K",
+                "reward": "i18n.lumberjack.quest.reward.3|!|250K \uE03F|!|\uE349 с рунами х3|!|50K \uE1A6",
                 "tasks": [
                   {
                     "name": "lumberjack.quest.blocks.subtitle",
-                    "goal": 30000,
+                    "goal": 25000,
                     "current": "blocks3"
                   }
                 ]
@@ -134,11 +134,11 @@
               {
                 "title": "lumberjack.quest.mobs1.title",
                 "icon": "achievements.png",
-                "reward": "i18n.lumberjack.quest.reward.money|!|2.5K",
+                "reward": "i18n.lumberjack.quest.reward.2|!|2.5K \uE03F|!|10K \uE1A6",
                 "tasks": [
                   {
                     "name": "lumberjack.quest.mobs.subtitle",
-                    "goal": 50,
+                    "goal": 30,
                     "current": "mobs1"
                   }
                 ]
@@ -146,11 +146,11 @@
               {
                 "title": "lumberjack.quest.mobs2.title",
                 "icon": "achievements.png",
-                "reward": "i18n.lumberjack.quest.reward.money|!|12.5K",
+                "reward": "i18n.lumberjack.quest.reward.3|!|25K \uE03F|!|Обычный \uE349 х5|!|25K \uE1A6",
                 "tasks": [
                   {
                     "name": "lumberjack.quest.mobs.subtitle",
-                    "goal": 250,
+                    "goal": 180,
                     "current": "mobs2"
                   }
                 ]
@@ -158,7 +158,7 @@
               {
                 "title": "lumberjack.quest.mobs3.title",
                 "icon": "achievements.png",
-                "reward": "i18n.lumberjack.quest.reward.money|!|25K",
+                "reward": "i18n.lumberjack.quest.reward.3|!|250K \uE03F|!|\uE349 с питомцами х3|!|50K \uE1A6",
                 "tasks": [
                   {
                     "name": "lumberjack.quest.mobs.subtitle",
@@ -178,7 +178,7 @@
       {
         "id": "exp1",
         "title": "lumberjack.quest.exp1.title",
-        "goal": 25000,
+        "goal": 10000,
         "onComplete": [
           "earn-money %player% 5000 true",
           "earn-bits %player% 10",
@@ -188,7 +188,7 @@
       {
         "id": "exp2",
         "title": "lumberjack.quest.exp2.title",
-        "goal": 250000,
+        "goal": 150000,
         "onComplete": [
           "earn-money %player% 25000 true",
           "earn-bits %player% 25",
@@ -241,7 +241,7 @@
       {
         "id": "blocks1",
         "title": "lumberjack.quest.blocks1.title",
-        "goal": 1500,
+        "goal": 500,
         "onComplete": [
           "earn-money %player% 2500 true",
           "give-key %player% DEFAULT 5",
@@ -251,7 +251,7 @@
       {
         "id": "blocks2",
         "title": "lumberjack.quest.blocks2.title",
-        "goal": 6000,
+        "goal": 3500,
         "onComplete": [
           "earn-money %player% 25000 true",
           "earn-exp %player% 25000 true"
@@ -260,7 +260,7 @@
       {
         "id": "blocks3",
         "title": "lumberjack.quest.blocks3.title",
-        "goal": 30000,
+        "goal": 25000,
         "onComplete": [
           "earn-money %player% 250000 true",
           "give-key %player% RUNE 3",
@@ -272,17 +272,16 @@
       {
         "id": "mobs1",
         "title": "lumberjack.quest.mobs1.title",
-        "goal": 50,
+        "goal": 30,
         "onComplete": [
           "earn-money %player% 2500 true",
-          "give-item %player% GOLDEN_APPLE 5",
           "earn-exp %player% 10000 true"
         ]
       },
       {
         "id": "mobs2",
         "title": "lumberjack.quest.mobs2.title",
-        "goal": 250,
+        "goal": 180,
         "onComplete": [
           "earn-money %player% 25000 true",
           "give-key %player% DEFAULT 5",
