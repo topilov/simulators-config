@@ -60,8 +60,29 @@
         "earn-money %player% 100 false"
       ]
     },
-    "UPGRADE_STORAGE": {
+    "KILL_RABBIT": {
       "stageId": 6,
+      "content": "lumberjack.tutorial.kill-rabbit.content"
+    },
+    "GET_MOB_DROP": {
+      "stageId": 7,
+      "content": "lumberjack.tutorial.get-mob-drop.content"
+    },
+    "SELL_MOB_DROP": {
+      "stageId": 8,
+      "content": "lumberjack.tutorial.sell-mob-drop.content",
+      "pathLocation": {
+        "name": "sell",
+        "tag": "drops",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "UPGRADE_STORAGE": {
+      "stageId": 9,
       "content": "lumberjack.tutorial.upgrade-storage.content",
       "pathLocation": {
         "name": "upgrade",
@@ -75,27 +96,6 @@
       "onStart": [
         "earn-money %player% 5000 false"
       ]
-    },
-    "KILL_RABBIT": {
-      "stageId": 7,
-      "content": "lumberjack.tutorial.kill-rabbit.content"
-    },
-    "GET_MOB_DROP": {
-      "stageId": 8,
-      "content": "lumberjack.tutorial.get-mob-drop.content"
-    },
-    "SELL_MOB_DROP": {
-      "stageId": 9,
-      "content": "lumberjack.tutorial.sell-mob-drop.content",
-      "pathLocation": {
-        "name": "sell",
-        "tag": "drops",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      }
     },
     "OPEN_DEFAULT_LOOTBOX": {
       "stageId": 10,
