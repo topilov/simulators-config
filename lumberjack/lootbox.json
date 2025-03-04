@@ -279,7 +279,8 @@
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
-                "HIDE_UNBREAKABLE"
+                "HIDE_UNBREAKABLE",
+                "HIDE_POTION_EFFECTS"
               ],
               "data": {
                 "sim": "speed_potion"
@@ -1477,7 +1478,7 @@
                 "sim": "titles"
               }
             },
-            "chance":  0.621875,
+            "chance": 0.621875,
             "onDrop": [
               "give-title %player% HUNTER 500000"
             ]
@@ -1493,7 +1494,7 @@
                 "sim": "titles"
               }
             },
-            "chance":  0.621875,
+            "chance": 0.621875,
             "onDrop": [
               "give-title %player% LUCKY 500000"
             ]
@@ -1509,7 +1510,7 @@
                 "sim": "titles"
               }
             },
-            "chance":  0.621875,
+            "chance": 0.621875,
             "onDrop": [
               "give-title %player% CUTTHROAT 500000"
             ]
