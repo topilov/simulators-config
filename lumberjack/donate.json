@@ -368,6 +368,22 @@
         "morestat %player% set true multipleOpenLootBox"
       ]
     },
+    "NEW_WALLET": {
+      "donateName": "lumberjack.donate.element.new-wallet.donate-name",
+      "title": "lumberjack.donate.element.new-wallet.title",
+      "description": "lumberjack.donate.element.new-wallet.description",
+      "texture": "new-wallet.png",
+      "category": "OTHER_FEATURES",
+      "price": 149,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasNewWallet"
+      ]
+    },
     "AUTO_CASE": {
       "donateName": "lumberjack.donate.element.auto-case.donate-name",
       "confirmationTitle": "lumberjack.donate.element.auto-case.title",
