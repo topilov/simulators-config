@@ -145,11 +145,77 @@
           "pointTag": "fox",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.fox.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.fox.name|!|§6",
               "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/fox.png",
               "health": 7,
               "speed": 0.2,
+              "damage": 0.0,
+              "expPerOne": 5,
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "lumberjack.mobs.drop.fox-fur.name",
+                    "lore": "lumberjack.mobs.drop.fox-fur.lore",
+                    "data": {
+                      "sim": "fox_tale",
+                      "price": 6.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.fox-head.name",
+                    "lore": "lumberjack.mobs.drop.fox-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ==",
+                    "data": {
+                      "price": 60.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ],
+              "armor": [
+                {
+                  "type": "LEATHER_BOOTS",
+                  "damage": 3,
+                  "data": {
+                    "color": 14842913
+                  }
+                },
+                {
+                  "type": "LEATHER_LEGGINGS",
+                  "damage": 3,
+                  "data": {
+                    "color": 14842913
+                  }
+                },
+                {
+                  "type": "LEATHER_CHESTPLATE",
+                  "damage": 3,
+                  "data": {
+                    "color": 14842913
+                  }
+                },
+                {
+                  "type": "SKULL_ITEM",
+                  "damage": 3,
+                  "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=="
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.fox.name|!|§4",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/fox.png",
+              "health": 70,
+              "speed": 0.4,
               "damage": 0.0,
               "expPerOne": 5,
               "aura": {
@@ -223,13 +289,53 @@
           "pointTag": "ocelot",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.ocelot.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.ocelot.name|!|§e",
               "health": 10,
               "speed": 0.3,
               "damage": 0.0,
               "expPerOne": 10,
               "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "RAW_FISH",
+                    "name": "lumberjack.mobs.drop.cod-fish.name",
+                    "lore": "lumberjack.mobs.drop.cod-fish.lore",
+                    "data": {
+                      "price": 20.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.ocelot-head.name",
+                    "lore": "lumberjack.mobs.drop.ocelot-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFmMDdlM2YyZTVmMjU2YmZhZGU2NjZhOGRlMWI1ZDMwMjUyYzk1ZTk4ZjhhOGVjYzZlM2M3YjdmNjcwOTUifX19",
+                    "data": {
+                      "price": 200.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.ocelot.name|!|§4",
+              "health": 100,
+              "speed": 0.6,
+              "damage": 0.0,
+              "expPerOne": 10,
+              "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "drops": [
                 {
                   "chance": 99.5,
@@ -265,13 +371,52 @@
           "pointTag": "buffalo",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.buffalo.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.buffalo.name|!|§e",
               "health": 15,
               "speed": 0.2,
               "damage": 0.0,
               "expPerOne": 10,
               "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "COOKED_BEEF",
+                    "name": "lumberjack.mobs.drop.buffalo-meat.name",
+                    "lore": "lumberjack.mobs.drop.buffalo-meat.lore",
+                    "data": {
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.buffalo-head.name",
+                    "lore": "lumberjack.mobs.drop.buffalo-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19",
+                    "data": {
+                      "price": 200.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.buffalo.name|!|§4",
+              "health": 150,
+              "speed": 0.4,
+              "damage": 0.0,
+              "expPerOne": 10,
+              "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "drops": [
                 {
                   "chance": 99.5,
@@ -310,12 +455,51 @@
           "pointTag": "pony",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.pony.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.pony.name|!|§5",
               "health": 20,
               "speed": 0.24,
               "damage": 0.0,
               "expPerOne": 15,
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "LEATHER",
+                    "name": "lumberjack.mobs.drop.leather.name",
+                    "lore": "lumberjack.mobs.drop.leather.lore",
+                    "data": {
+                      "price": 57.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.pony-head.name",
+                    "lore": "lumberjack.mobs.drop.pony-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiNGIyODg5OTFlZmI4Y2EwNzQzYmVjY2VmMzEyNThiMzFkMzlmMjQ5NTFlZmIxYzljMThhNDE3YmE0OGY5In19fQ==",
+                    "data": {
+                      "price": 570.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.pony.name|!|§4",
+              "health": 200,
+              "speed": 0.48,
+              "damage": 0.0,
+              "expPerOne": 15,
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "drops": [
                 {
                   "chance": 99.5,
@@ -351,13 +535,83 @@
           "pointTag": "grape-picker",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.grape-picker.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.grape-picker.name|!|§5",
               "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/grape-picker.png",
               "health": 20,
               "speed": 0.3,
               "damage": 3.0,
               "expPerOne": 15,
+              "itemInMainHand": {"type": "SHEARS"},
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "lumberjack.mobs.drop.berries.name",
+                    "lore": "lumberjack.mobs.drop.berries.lore",
+                    "data": {
+                      "sim": "grape",
+                      "price": 57.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.grape-picker-head.name",
+                    "lore": "lumberjack.mobs.drop.grape-picker-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDk2NGQ5NjEyNGY5OWMzNTU2N2MwY2NmNGNmY2I2YTFkY2NlZTgyZmI1MzQ1ZDdkMjNlMzhjOWYxZmIyOSJ9fX0=",
+                    "data": {
+                      "price": 570.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ],
+              "armor": [
+                {
+                  "type": "LEATHER_BOOTS",
+                  "damage": 3,
+                  "data": {
+                    "color": 5833047
+                  }
+                },
+                {
+                  "type": "LEATHER_LEGGINGS",
+                  "damage": 3,
+                  "data": {
+                    "color": 5724052
+                  }
+                },
+                {
+                  "type": "LEATHER_CHESTPLATE",
+                  "damage": 3,
+                  "data": {
+                    "color": 6186634
+                  }
+                },
+                {
+                  "type": "SKULL_ITEM",
+                  "damage": 3,
+                  "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDk2NGQ5NjEyNGY5OWMzNTU2N2MwY2NmNGNmY2I2YTFkY2NlZTgyZmI1MzQ1ZDdkMjNlMzhjOWYxZmIyOSJ9fX0="
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.grape-picker.name|!|§4",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/grape-picker.png",
+              "health": 200,
+              "speed": 0.6,
+              "damage": 3.0,
+              "expPerOne": 15,
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "itemInMainHand": {"type": "SHEARS"},
               "drops": [
                 {
@@ -427,12 +681,51 @@
           "pointTag": "tree-wolf",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.tree-wolf.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.tree-wolf.name|!|§9",
               "health": 30,
               "speed": 0.3,
               "damage": 5.0,
               "expPerOne": 20,
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "WOOL",
+                    "name": "lumberjack.mobs.drop.wolf-hair.name",
+                    "lore": "lumberjack.mobs.drop.wolf-hair.lore",
+                    "data": {
+                      "price": 105.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.tree-wolf-head.name",
+                    "lore": "lumberjack.mobs.drop.tree-wolf-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0=",
+                    "data": {
+                      "price": 1050.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.tree-wolf.name|!|§4",
+              "health": 300,
+              "speed": 0.6,
+              "damage": 5.0,
+              "expPerOne": 20,
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "drops": [
                 {
                   "chance": 99.5,
@@ -468,13 +761,90 @@
           "pointTag": "poacher",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.poacher.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.poacher.name|!|§9",
               "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/poacher.png",
               "health": 30,
               "speed": 0.3,
               "damage": 0.0,
               "expPerOne": 20,
+              "itemInMainHand": {
+                "type": "DIAMOND_SWORD",
+                "enchantments": {
+                  "DIG_SPEED": 1
+                },
+                "data": {
+                  "weapons": "stone_short_sword"
+                }
+              },
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "IRON_INGOT",
+                    "name": "lumberjack.mobs.drop.iron.name",
+                    "lore": "lumberjack.mobs.drop.iron.lore",
+                    "data": {
+                      "price": 105.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.poacher-head.name",
+                    "lore": "lumberjack.mobs.drop.poacher-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRjZmY0NjU4OGYzOTQ5ODc5NzliN2RkNzcwYWRlYTk0ZDhlZTFmYjFmN2I4NzA0ZTFiYWY5MTIyN2Y2YTRkIn19fQ==",
+                    "data": {
+                      "price": 1050.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ],
+              "armor": [
+                {
+                  "type": "LEATHER_BOOTS",
+                  "damage": 3,
+                  "data": {
+                    "color": 2693437
+                  }
+                },
+                {
+                  "type": "LEATHER_LEGGINGS",
+                  "damage": 3,
+                  "data": {
+                    "color": 82243
+                  }
+                },
+                {
+                  "type": "LEATHER_CHESTPLATE",
+                  "damage": 3,
+                  "data": {
+                    "color": 4604997
+                  }
+                },
+                {
+                  "type": "SKULL_ITEM",
+                  "damage": 3,
+                  "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRjZmY0NjU4OGYzOTQ5ODc5NzliN2RkNzcwYWRlYTk0ZDhlZTFmYjFmN2I4NzA0ZTFiYWY5MTIyN2Y2YTRkIn19fQ=="
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.poacher.name|!|§4",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/poacher.png",
+              "health": 300,
+              "speed": 0.6,
+              "damage": 0.0,
+              "expPerOne": 20,
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "itemInMainHand": {
                 "type": "DIAMOND_SWORD",
                 "enchantments": {
@@ -551,12 +921,51 @@
           "pointTag": "nightmare",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.nightmare.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.nightmare.name|!|§5",
               "health": 50,
               "speed": 0.3,
               "damage": 9.0,
               "expPerOne": 25,
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "ENDER_PEARL",
+                    "name": "lumberjack.mobs.drop.ender-pearl.name",
+                    "lore": "lumberjack.mobs.drop.ender-pearl.lore",
+                    "data": {
+                      "price": 225.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.nightmare-head.name",
+                    "lore": "lumberjack.mobs.drop.nightmare-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=",
+                    "data": {
+                      "price": 2250.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.nightmare.name|!|§4",
+              "health": 500,
+              "speed": 0.6,
+              "damage": 9.0,
+              "expPerOne": 25,
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "drops": [
                 {
                   "chance": 99.5,
@@ -593,7 +1002,7 @@
           "kinds": [
             {
               "chance": 100.0,
-              "name": "lumberjack.mobs.ghost.name",
+              "name": "i18n.lumberjack.mobs.ghost.name|!|§5",
               "health": 30,
               "speed": 0.4,
               "damage": 9.0,
@@ -655,13 +1064,88 @@
           "pointTag": "eskimo",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.eskimo.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.eskimo.name|!|§f",
               "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/eskimo.png",
               "health": 50,
               "speed": 0.2,
               "damage": 7.0,
               "expPerOne": 35,
+              "itemInMainHand": {
+                "type": "SNOW_BALL"
+              },
+              "itemInOffHand": {
+                "type": "RAW_FISH"
+              },
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "lumberjack.mobs.drop.ice.name",
+                    "lore": "lumberjack.mobs.drop.ice.lore",
+                    "data": {
+                      "sim": "ice",
+                      "price": 450.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.eskimo-head.name",
+                    "lore": "lumberjack.mobs.drop.eskimo-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU3MGJmNTdkNmYyNDI5NTY3NmRlMGFhODRmODM0NjkyYzQyZTJiMzcyNDRjYWY4NzY1NThjMjFjN2Q3Njc2ZSJ9fX0=",
+                    "data": {
+                      "price": 4500.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ],
+              "armor": [
+                {
+                  "type": "LEATHER_BOOTS",
+                  "damage": 3,
+                  "data": {
+                    "color": 2039322
+                  }
+                },
+                {
+                  "type": "LEATHER_LEGGINGS",
+                  "damage": 3,
+                  "data": {
+                    "color": 4604973
+                  }
+                },
+                {
+                  "type": "LEATHER_CHESTPLATE",
+                  "damage": 3,
+                  "data": {
+                    "color": 5650978
+                  }
+                },
+                {
+                  "type": "SKULL_ITEM",
+                  "damage": 3,
+                  "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU3MGJmNTdkNmYyNDI5NTY3NmRlMGFhODRmODM0NjkyYzQyZTJiMzcyNDRjYWY4NzY1NThjMjFjN2Q3Njc2ZSJ9fX0="
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.eskimo.name|!|§4",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/eskimo.png",
+              "health": 500,
+              "speed": 0.4,
+              "damage": 7.0,
+              "expPerOne": 35,
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "itemInMainHand": {
                 "type": "SNOW_BALL"
               },
@@ -732,13 +1216,82 @@
           "pointTag": "arctic-fox",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.arctic-fox.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.arctic-fox.name|!|§f",
               "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/arctic-fox.png",
               "health": 50,
               "speed": 0.35,
               "damage": 11.0,
               "expPerOne": 35,
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "RAW_FISH",
+                    "name": "lumberjack.mobs.drop.crucian.name",
+                    "lore": "lumberjack.mobs.drop.crucian.lore",
+                    "damage": 1,
+                    "data": {
+                      "price": 450.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.arctic-fox-head.name",
+                    "lore": "lumberjack.mobs.drop.arctic-fox-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM1YjdmYzMzZWFhOWZiMjBjMTZkYzhlOWRiMTg5Nzk2NmViZWNhZWUyZjAyMDkyMDUxMjM5MTBkYTk4ODZkNSJ9fX0=",
+                    "data": {
+                      "price": 4500.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ],
+              "armor": [
+                {
+                  "type": "LEATHER_BOOTS",
+                  "damage": 3,
+                  "data": {
+                    "color": 11119530
+                  }
+                },
+                {
+                  "type": "LEATHER_LEGGINGS",
+                  "damage": 3,
+                  "data": {
+                    "color": 6066624
+                  }
+                },
+                {
+                  "type": "LEATHER_CHESTPLATE",
+                  "damage": 3,
+                  "data": {
+                    "color": 9276300
+                  }
+                },
+                {
+                  "type": "SKULL_ITEM",
+                  "damage": 3,
+                  "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM1YjdmYzMzZWFhOWZiMjBjMTZkYzhlOWRiMTg5Nzk2NmViZWNhZWUyZjAyMDkyMDUxMjM5MTBkYTk4ODZkNSJ9fX0="
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.arctic-fox.name|!|§4",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/lumberjack/mobs/arctic-fox.png",
+              "health": 500,
+              "speed": 0.7,
+              "damage": 11.0,
+              "expPerOne": 35,
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "drops": [
                 {
                   "chance": 99.5,
@@ -807,12 +1360,52 @@
           "pointTag": "pspider",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.poison-spider.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.poison-spider.name|!|§a",
               "health": 65,
               "speed": 0.3,
               "damage": 13.0,
               "expPerOne": 50,
+              "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "SPIDER_EYE",
+                    "name": "lumberjack.mobs.drop.spider_eye.name",
+                    "lore": "lumberjack.mobs.drop.spider_eye.lore",
+                    "data": {
+                      "price": 750.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.poison-spider-head.name",
+                    "lore": "lumberjack.mobs.drop.poison-spider-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2NDVkZmQ3N2QwOTkyMzEwN2IzNDk2ZTk0ZWViNWMzMDMyOWY5N2VmYzk2ZWQ3NmUyMjZlOTgyMjQifX19",
+                    "data": {
+                      "price": 7500.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.poison-spider.name|!|§4",
+              "health": 650,
+              "speed": 0.6,
+              "damage": 13.0,
+              "expPerOne": 50,
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "scale": {"x": 1.5, "y": 1.5, "z": 1.5 },
               "drops": [
                 {
@@ -849,12 +1442,51 @@
           "pointTag": "spider",
           "kinds": [
             {
-              "chance": 100.0,
-              "name": "lumberjack.mobs.spider.name",
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.spider.name|!|§7",
               "health": 60,
               "speed": 0.3,
               "damage": 13.0,
               "expPerOne": 50,
+              "drops": [
+                {
+                  "chance": 99.5,
+                  "itemStack": {
+                    "type": "STRING",
+                    "name": "lumberjack.mobs.drop.string.name",
+                    "lore": "lumberjack.mobs.drop.string.lore",
+                    "data": {
+                      "price": 750.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "itemStack": {
+                    "type": "SKULL_ITEM",
+                    "name": "lumberjack.mobs.drop.spider-head.name",
+                    "lore": "lumberjack.mobs.drop.spider-head.lore",
+                    "damage": 3,
+                    "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ==",
+                    "data": {
+                      "price": 7500.0,
+                      "hoverColor": "YELLOW"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "chance": 50.0,
+              "name": "i18n.lumberjack.mobs.spider.name|!|§4",
+              "health": 600,
+              "speed": 0.6,
+              "damage": 13.0,
+              "expPerOne": 50,
+              "aura": {
+                "texture": "VAMPIRISM"
+              },
               "drops": [
                 {
                   "chance": 99.5,
