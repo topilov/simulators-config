@@ -44,7 +44,7 @@
           ],
           "type": "RABBIT_KILLER",
           "settings": {
-            "health": 100,
+            "health": 1000,
             "damage": 10,
             "speed": 0.7,
             "location": { "name": "boss" },
@@ -60,17 +60,17 @@
             [
               "give-key %player% DEFAULT 5",
               "random-money %player% 40 40.01",
-              "earn-exp %player% 1500 true"
+              "earn-exp %player% 2500 true"
             ],
             [
               "give-key %player% DEFAULT 3",
               "random-money %player% 30 30.01",
-              "earn-exp %player% 1000 true"
+              "earn-exp %player% 2000 true"
             ],
             [
               "give-key %player% DEFAULT 2",
               "random-money %player% 20 20.01",
-              "earn-exp %player% 500 true"
+              "earn-exp %player% 1500 true"
             ]
           ],
           "children": []
@@ -108,7 +108,7 @@
           ],
           "type": "MAD_VILLAGER",
           "settings": {
-            "health": 100,
+            "health": 2100,
             "damage": 7,
             "speed": 0.5,
             "location": { "name": "boss" },
@@ -123,15 +123,15 @@
           "reward": [
             [
               "earn-bits %player% 15",
-              "earn-exp %player% 1500 true"
+              "earn-exp %player% 2500 true"
             ],
             [
               "earn-bits %player% 10",
-              "earn-exp %player% 1000 true"
+              "earn-exp %player% 2000 true"
             ],
             [
               "earn-bits %player% 5",
-              "earn-exp %player% 500 true"
+              "earn-exp %player% 1500 true"
             ]
           ],
           "children": []
@@ -169,7 +169,7 @@
           ],
           "type": "GRAPE_MONSTER",
           "settings": {
-            "health": 100,
+            "health": 3700,
             "damage": 1,
             "speed": 0.0,
             "location": { "name": "boss" },
@@ -183,13 +183,13 @@
           "reward": [
             [
               "give-item %player% SAVE_CRYSTAL 1",
-              "earn-exp %player% 12500 true"
+              "earn-exp %player% 40000 true"
             ],
             [
-              "earn-exp %player% 10000 true"
+              "earn-exp %player% 32500 true"
             ],
             [
-              "earn-exp %player% 7500 true"
+              "earn-exp %player% 25000 true"
             ]
           ],
           "children": []
@@ -219,7 +219,7 @@
           ],
           "type": "GIANT_COCKROACH",
           "settings": {
-            "health": 100,
+            "health": 5000,
             "damage": 15,
             "speed": 0.3,
             "location": { "name": "boss" },
@@ -234,15 +234,15 @@
           "reward": [
             [
               "random-money %player% 50 50.01",
-              "earn-exp %player% 2000 true"
+              "earn-exp %player% 4000 true"
             ],
             [
               "random-money %player% 40 40.01",
-              "earn-exp %player% 1500 true"
+              "earn-exp %player% 3000 true"
             ],
             [
               "random-money %player% 30 30.01",
-              "earn-exp %player% 1000 true"
+              "earn-exp %player% 2000 true"
             ]
           ],
           "children": []
@@ -268,7 +268,7 @@
           ],
           "type": "SOUL_CONQUEROR",
           "settings": {
-            "health": 100,
+            "health": 6500,
             "damage": 11,
             "speed": 0.4,
             "location": { "name": "boss" },
@@ -284,15 +284,15 @@
             [
               "give-key %player% PET 1",
               "give-key %player% RUNE 1",
-              "earn-exp %player% 2000 true"
+              "earn-exp %player% 4000 true"
             ],
             [
               "give-key %player% RUNE 1",
-              "earn-exp %player% 1500 true"
+              "earn-exp %player% 3000 true"
             ],
             [
               "give-key %player% PET 1",
-              "earn-exp %player% 1000 true"
+              "earn-exp %player% 2000 true"
             ]
           ],
           "children": []
@@ -315,7 +315,7 @@
           ],
           "type": "ICE_ESKIMO",
           "settings": {
-            "health": 100,
+            "health": 8000,
             "damage": 10,
             "speed": 0.4,
             "location": { "name": "boss" },
@@ -329,15 +329,15 @@
           "reward": [
             [
               "give-key %player% PET 3",
-              "earn-exp %player% 4000 true"
+              "earn-exp %player% 20000 true"
             ],
             [
               "give-key %player% PET 2",
-              "earn-exp %player% 3000 true"
+              "earn-exp %player% 15000 true"
             ],
             [
               "give-key %player% PET 1",
-              "earn-exp %player% 2000 true"
+              "earn-exp %player% 7500 true"
             ]
           ],
           "children": [
@@ -378,7 +378,7 @@
           ],
           "type": "SLIMY_OGRE",
           "settings": {
-            "health": 100,
+            "health": 10000,
             "damage": 6,
             "speed": 0.3,
             "location": { "name": "boss" },
@@ -392,15 +392,15 @@
           "reward": [
             [
               "give-key %player% RUNE 3",
-              "earn-exp %player% 10000 true"
+              "earn-exp %player% 30000 true"
             ],
             [
               "give-key %player% RUNE 2",
-              "earn-exp %player% 7500 true"
+              "earn-exp %player% 20000 true"
             ],
             [
               "give-key %player% RUNE 1",
-              "earn-exp %player% 5000 true"
+              "earn-exp %player% 10000 true"
             ]
           ],
           "children": []
