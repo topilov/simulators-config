@@ -27,10 +27,21 @@
     "1": {
       "price": 5000,
       "blocks": 800,
-      "mobs": 15,
       "hp": 2.0,
-      "mobType": "RABBIT",
-      "mobName": "lumberjack.level.requirement.mobs.rabbit.content",
+      "mobs": [
+        {
+          "icon": "\uE33D",
+          "count": 8,
+          "type": "RABBIT",
+          "name": "lumberjack.level.requirement.mobs.rabbit.content"
+        },
+        {
+          "icon": "\uE343",
+          "count": 7,
+          "type": "FOX",
+          "name": "lumberjack.level.requirement.mobs.fox.content"
+        }
+      ],
       "rewards": [
         {
           "emoji": "\uE1F0",
@@ -42,10 +53,15 @@
     "2": {
       "price": 17500,
       "blocks": 1750,
-      "mobs": 20,
       "hp": 2.0,
-      "mobType": "BUFFALO",
-      "mobName": "lumberjack.level.requirement.mobs.buffalo.content",
+      "mobs": [
+        {
+          "icon": "\uE33D",
+          "count": 20,
+          "type": "BUFFALO",
+          "name": "lumberjack.level.requirement.mobs.buffalo.content"
+        }
+      ],
       "rewards": [
         {
           "emoji": "\uE1F0",
