@@ -45,7 +45,7 @@
           "type": "RABBIT_KILLER",
           "settings": {
             "health": 500,
-            "damage": 10,
+            "damage": 7,
             "speed": 0.7,
             "location": { "name": "boss" },
             "spawnBox": { "name": "spawn-box" },
@@ -58,18 +58,18 @@
           },
           "reward": [
             [
-              "give-key %player% DEFAULT 5",
-              "random-money %player% 40 40.01",
+              "give-key %player% DEFAULT 10",
+              "random-money %player% 20 20.01",
               "earn-exp %player% 2500 true"
             ],
             [
-              "give-key %player% DEFAULT 3",
-              "random-money %player% 30 30.01",
+              "give-key %player% DEFAULT 7",
+              "random-money %player% 15 15.01",
               "earn-exp %player% 2000 true"
             ],
             [
-              "give-key %player% DEFAULT 2",
-              "random-money %player% 20 20.01",
+              "give-key %player% DEFAULT 5",
+              "random-money %player% 10 10.01",
               "earn-exp %player% 1500 true"
             ]
           ],
@@ -222,7 +222,7 @@
           "type": "GIANT_COCKROACH",
           "settings": {
             "health": 2250,
-            "damage": 15,
+            "damage": 11,
             "speed": 0.3,
             "location": { "name": "boss" },
             "spawnBox": { "name": "spawn-box" },
@@ -235,15 +235,15 @@
           },
           "reward": [
             [
-              "random-money %player% 50 50.01",
+              "random-money %player% 35 35.01",
               "earn-exp %player% 4000 true"
             ],
             [
-              "random-money %player% 40 40.01",
+              "random-money %player% 25 25.01",
               "earn-exp %player% 3000 true"
             ],
             [
-              "random-money %player% 30 30.01",
+              "random-money %player% 20 20.01",
               "earn-exp %player% 2000 true"
             ]
           ],
@@ -284,16 +284,16 @@
           },
           "reward": [
             [
-              "give-key %player% PET 1",
-              "give-key %player% RUNE 1",
+              "give-key %player% PET 2",
+              "give-key %player% RUNE 2",
               "earn-exp %player% 4000 true"
             ],
             [
-              "give-key %player% RUNE 1",
+              "give-key %player% RUNE 2",
               "earn-exp %player% 3000 true"
             ],
             [
-              "give-key %player% PET 1",
+              "give-key %player% PET 2",
               "earn-exp %player% 2000 true"
             ]
           ],
@@ -330,15 +330,15 @@
           },
           "reward": [
             [
-              "give-key %player% PET 3",
+              "give-key %player% PET 4",
               "earn-exp %player% 20000 true"
             ],
             [
-              "give-key %player% PET 2",
+              "give-key %player% PET 3",
               "earn-exp %player% 15000 true"
             ],
             [
-              "give-key %player% PET 1",
+              "give-key %player% PET 2",
               "earn-exp %player% 7500 true"
             ]
           ],
@@ -393,15 +393,15 @@
           },
           "reward": [
             [
-              "give-key %player% RUNE 3",
+              "give-key %player% RUNE 4",
               "earn-exp %player% 30000 true"
             ],
             [
-              "give-key %player% RUNE 2",
+              "give-key %player% RUNE 3",
               "earn-exp %player% 20000 true"
             ],
             [
-              "give-key %player% RUNE 1",
+              "give-key %player% RUNE 2",
               "earn-exp %player% 10000 true"
             ]
           ],
