@@ -3,7 +3,9 @@
     "FELL_TREE_BLOCKS": {
       "stageId": 1,
       "required": 10,
-      "content": "lumberjack.tutorial.fell-tree-blocks.content",
+      "title": "lumberjack.tutorial.fell-tree-blocks.title",
+      "description": "lumberjack.tutorial.fell-tree-blocks.description",
+      "progressTitle": "lumberjack.tutorial.fell-tree-blocks.progress.title",
       "pathLocation": {
         "name": "tree",
         "offset": {
@@ -15,7 +17,8 @@
     },
     "SELL_BLOCKS": {
       "stageId": 2,
-      "content": "lumberjack.tutorial.sell-blocks.content",
+      "title": "lumberjack.tutorial.sell-blocks.title",
+      "description": "lumberjack.tutorial.sell-blocks.description",
       "pathLocation": {
         "name": "sell",
         "tag": "dnk",
@@ -29,11 +32,14 @@
     "GET_FELLING_DROP": {
       "stageId": 3,
       "required": 3,
-      "content": "lumberjack.tutorial.get-felling-drop.content"
+      "title": "lumberjack.tutorial.get-felling-drop.title",
+      "description": "lumberjack.tutorial.get-felling-drop.description",
+      "progressTitle": "lumberjack.tutorial.get-felling-drop.progress.title"
     },
     "SELL_FELLING_DROP": {
       "stageId": 4,
-      "content": "lumberjack.tutorial.sell-drops.content",
+      "title": "lumberjack.tutorial.sell-drops.title",
+      "description": "lumberjack.tutorial.sell-drops.description",
       "pathLocation": {
         "name": "sell",
         "tag": "drops",
@@ -46,7 +52,8 @@
     },
     "UPGRADE_TOOL": {
       "stageId": 5,
-      "content": "lumberjack.tutorial.upgrade-tool.content",
+      "title": "lumberjack.tutorial.upgrade-tool.title",
+      "description": "lumberjack.tutorial.upgrade-tool.description",
       "pathLocation": {
         "name": "upgrade",
         "tag": "items",
@@ -62,15 +69,22 @@
     },
     "KILL_RABBIT": {
       "stageId": 6,
-      "content": "lumberjack.tutorial.kill-rabbit.content"
+      "required": 2,
+      "title": "lumberjack.tutorial.kill-rabbit.title",
+      "description": "lumberjack.tutorial.kill-rabbit.description",
+      "progressTitle": "lumberjack.tutorial.kill-rabbit.progress.title"
     },
     "GET_MOB_DROP": {
       "stageId": 7,
-      "content": "lumberjack.tutorial.get-mob-drop.content"
+      "required": 2,
+      "title": "lumberjack.tutorial.get-mob-drop.title",
+      "description": "lumberjack.tutorial.get-mob-drop.description",
+      "progressTitle": "lumberjack.tutorial.get-mob-drop.progress.title"
     },
     "SELL_MOB_DROP": {
       "stageId": 8,
-      "content": "lumberjack.tutorial.sell-mob-drop.content",
+      "title": "lumberjack.tutorial.sell-mob-drop.title",
+      "description": "lumberjack.tutorial.sell-mob-drop.description",
       "pathLocation": {
         "name": "sell",
         "tag": "drops",
@@ -83,7 +97,8 @@
     },
     "UPGRADE_STORAGE": {
       "stageId": 9,
-      "content": "lumberjack.tutorial.upgrade-storage.content",
+      "title": "lumberjack.tutorial.upgrade-storage.title",
+      "description": "lumberjack.tutorial.upgrade-storage.description",
       "pathLocation": {
         "name": "upgrade",
         "tag": "dnk",
@@ -99,7 +114,8 @@
     },
     "OPEN_DEFAULT_LOOTBOX": {
       "stageId": 10,
-      "content": "lumberjack.tutorial.open-default-lootbox.content",
+      "title": "lumberjack.tutorial.open-default-lootbox.title",
+      "description": "lumberjack.tutorial.open-default-lootbox.description",
       "pathLocation": {
         "name": "lootbox",
         "tag": "default",
@@ -115,7 +131,8 @@
     },
     "OPEN_PET_LOOTBOX": {
       "stageId": 11,
-      "content": "lumberjack.tutorial.open-pet-lootbox.content",
+      "title": "lumberjack.tutorial.open-pet-lootbox.title",
+      "description": "lumberjack.tutorial.open-pet-lootbox.description",
       "pathLocation": {
         "name": "lootbox",
         "tag": "pets",
@@ -131,7 +148,8 @@
     },
     "OPEN_RUNE_LOOTBOX": {
       "stageId": 12,
-      "content": "lumberjack.tutorial.open-rune-lootbox.content",
+      "title": "lumberjack.tutorial.open-rune-lootbox.title",
+      "description": "lumberjack.tutorial.open-rune-lootbox.description",
       "pathLocation": {
         "name": "lootbox",
         "tag": "runes",
@@ -147,11 +165,13 @@
     },
     "TAKE_DAILY_REWARD": {
       "stageId": 13,
-      "content": "lumberjack.tutorial.take-daily-reward.content"
+      "title": "lumberjack.tutorial.take-daily-reward.title",
+      "description": "lumberjack.tutorial.take-daily-reward.description"
     },
     "OPEN_TITLE_LOOTBOX": {
       "stageId": 14,
-      "content": "lumberjack.tutorial.open-title-lootbox.content",
+      "title": "lumberjack.tutorial.open-title-lootbox.title",
+      "description": "lumberjack.tutorial.open-title-lootbox.description",
       "pathLocation": {
         "name": "lootbox",
         "tag": "titles",
@@ -164,11 +184,13 @@
     },
     "WEAR_EQUIPMENT": {
       "stageId": 15,
-      "content": "lumberjack.tutorial.wear-equipment.content"
+      "title": "lumberjack.tutorial.wear-equipment.title",
+      "description": "lumberjack.tutorial.wear-equipment.description"
     },
     "LEVEL_UP": {
       "stageId": 16,
-      "content": "lumberjack.tutorial.level-up.content",
+      "title": "lumberjack.tutorial.level-up.title",
+      "description": "lumberjack.tutorial.level-up.description",
       "pathLocation": {
         "name": "upgrade",
         "tag": "level",
@@ -181,7 +203,8 @@
     },
     "LOCATION_TELEPORT": {
       "stageId": 17,
-      "content": "lumberjack.tutorial.location-teleport.content",
+      "title": "lumberjack.tutorial.location-teleport.title",
+      "description": "lumberjack.tutorial.location-teleport.description",
       "pathLocation": {
         "name": "locations",
         "offset": {
@@ -193,7 +216,8 @@
     },
     "REBIRTH": {
       "stageId": 18,
-      "content": "lumberjack.tutorial.rebirth.content",
+      "title": "lumberjack.tutorial.rebirth.title",
+      "description": "lumberjack.tutorial.rebirth.description",
       "pathLocation": {
         "name": "upgrade",
         "tag": "rebirth",
