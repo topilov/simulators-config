@@ -1,30 +1,27 @@
 {
   "main": {
+    "banner": {
+      "icon": "banner.png",
+      "title": "Какой-то текст",
+      "description": "Еще текст",
+      "buttonName": "Кнопка",
+      "onClick": [
+        "sudo %player% equipment"
+      ]
+    },
     "elements": [
       {
-        "icon": "settings.png",
-        "title": "lumberjack.menu.main.buttons.settings.title",
-        "onSelect": [
-          "sudo %player% settings"
-        ]
-      },
-      {
-        "icon": "runes.png",
+        "icon": "equipment.png",
         "title": "lumberjack.menu.main.buttons.equipment.title",
+        "weight": 2,
         "onSelect": [
           "sudo %player% equipment"
         ]
       },
       {
-        "icon": "daily.png",
-        "title": "lumberjack.menu.main.buttons.daily.title",
-        "onSelect": [
-          "sudo %player% daily"
-        ]
-      },
-      {
         "icon": "donate.png",
         "title": "lumberjack.menu.main.buttons.donate.title",
+        "weight": 2,
         "onSelect": [
           "sudo %player% donate"
         ]
@@ -37,10 +34,24 @@
         ]
       },
       {
-        "icon": "bits.png",
+        "icon": "daily.png",
+        "title": "lumberjack.menu.main.buttons.daily.title",
+        "onSelect": [
+          "sudo %player% daily"
+        ]
+      },
+      {
+        "icon": "shop.png",
         "title": "lumberjack.menu.main.buttons.shop.title",
         "onSelect": [
           "sudo %player% bits"
+        ]
+      },
+      {
+        "icon": "settings.png",
+        "title": "lumberjack.menu.main.buttons.settings.title",
+        "onSelect": [
+          "sudo %player% settings"
         ]
       }
     ]
