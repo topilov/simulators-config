@@ -83,6 +83,28 @@
         "payload gifts-rune"
       ]
     },
+    "GIFTS_TITLE": {
+      "donateName": "treasures.donate.element.gifts-title.donate-name",
+      "confirmationTitle": "treasures.donate.element.gifts-title.title",
+      "title": "treasures.donate.element.gifts-title.title",
+      "description": "treasures.donate.element.gifts-title.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 399,
+      "sale": 0,
+      "alert": true,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "payload gifts-title"
+      ]
+    },
     "PET_SLOT": {
       "donateName": "treasures.donate.element.pet-slot.donate-name",
       "confirmationTitle": "treasures.donate.element.pet-slot.title",
@@ -176,6 +198,22 @@
       "onBuy": [
         "give-tool %player% PICKAXE DONATE_PICKAXE",
         "morestat %player% set true hasLegendaryTools"
+      ]
+    },
+    "AUTO_SELL": {
+      "donateName": "treasures.donate.element.auto_sell.donate-name",
+      "title": "treasures.donate.element.auto_sell.title",
+      "description": "treasures.donate.element.auto_sell.description",
+      "texture": "auto_sell.png",
+      "category": "OTHER_FEATURES",
+      "price": 999,
+      "sale": 0,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasInfinityStorage",
+        "morestat %player% set true hasAutoSell"
       ]
     },
     "SAVE_CRYSTAL": {
