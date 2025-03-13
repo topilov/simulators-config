@@ -76,6 +76,69 @@
             ]
           },
           {
+            "id": "booster_blocks",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.treasures.lootbox.reward.booster_blocks.title|!|¨46bfef",
+              "lore": "i18n.lumberjack.lootbox.reward.booster.description|!|10%|!|10 минут",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "blocks_booster"
+              }
+            },
+            "chance": 5.875,
+            "onDrop": [
+              "local-booster %player% BLOCKS 1.1 600"
+            ]
+          },
+          {
+            "id": "booster_money",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_money.title|!|¨46bfef",
+              "lore": "i18n.lumberjack.lootbox.reward.booster.description|!|10%|!|10 минут",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "money_booster"
+              }
+            },
+            "chance": 5.875,
+            "onDrop": [
+              "local-booster %player% MONEY 1.1 600"
+            ]
+          },
+          {
+            "id": "booster_mobs",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_treasures.title|!|¨46bfef",
+              "lore": "i18n.lumberjack.lootbox.reward.booster.description|!|10%|!|10 минут",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "mobs_booster"
+              }
+            },
+            "chance": 5.875,
+            "onDrop": [
+              "local-booster %player% MOBS 1.1 600"
+            ]
+          },
+          {
             "id": "save-crystal",
             "rarity": "EPIC",
             "itemStack": {
