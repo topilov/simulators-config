@@ -30,6 +30,7 @@
         "LEGENDARY"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "onOpen": [],
       "menu": {
         "id": "default",
         "title": "treasures.lootbox.default.menu.title",
@@ -79,13 +80,16 @@
             "id": "save-crystal",
             "rarity": "EPIC",
             "itemStack": {
-              "type": "CHORUS_FRUIT_POPPED",
+              "type": "CLAY_BALL",
               "name": "treasures.items.save-crystal.name",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_UNBREAKABLE"
-              ]
+              ],
+              "data": {
+                "sim": "save_crystal"
+              }
             },
             "chance": 5.5,
             "onDrop": [
@@ -162,6 +166,7 @@
         "LEGENDARY"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "onOpen": [],
       "menu": {
         "id": "pets",
         "title": "treasures.lootbox.pets.menu.title",
@@ -480,6 +485,7 @@
         "LEGENDARY"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "onOpen": [],
       "menu": {
         "id": "rune",
         "title": "treasures.lootbox.runes.menu.title",
@@ -728,6 +734,7 @@
         "LEGENDARY"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "onOpen": [],
       "menu": {
         "id": "title",
         "title": "treasures.lootbox.titles.menu.title",

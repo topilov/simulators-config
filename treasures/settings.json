@@ -10,10 +10,6 @@
         "set-view-pets %player% true"
       ]
     },
-    "DISABLE_NOTIFICATION": {
-      "id": "notification",
-      "title": "treasures.settings.disable-notification.title"
-    },
     "DISABLE_PLAYERS": {
       "id": "players",
       "title": "treasures.settings.disable-players.title",
@@ -23,6 +19,14 @@
       "onDisable": [
         "set-view-players %player% true"
       ]
+    },
+    "DISABLE_NOTIFICATION": {
+      "id": "notification",
+      "title": "treasures.settings.disable-notification.title"
+    },
+    "DISABLE_SOUNDS": {
+      "id": "sounds",
+      "title": "treasures.settings.disable-sounds.title"
     }
   }
 }
