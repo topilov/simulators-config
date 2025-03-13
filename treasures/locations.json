@@ -10,7 +10,10 @@
         "title": "treasures.location.beach.title",
         "texture": "map1.png",
         "requiredLevel": 1,
-        "requiredRebirth": 0
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     },
     "HELL": {
@@ -21,7 +24,10 @@
         "title": "treasures.location.hell.title",
         "texture": "map2.png",
         "requiredLevel": 2,
-        "requiredRebirth": 0
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     },
     "FROZEN_CAVE": {
@@ -32,7 +38,10 @@
         "title": "treasures.location.frozen-cave.title",
         "texture": "map3.png",
         "requiredLevel": 3,
-        "requiredRebirth": 0
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     },
     "DESERT": {
@@ -43,7 +52,10 @@
         "title": "treasures.location.desert.title",
         "texture": "map4.png",
         "requiredLevel": 4,
-        "requiredRebirth": 0
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     },
     "CAVE": {
@@ -54,7 +66,10 @@
         "title": "treasures.location.cave.title",
         "texture": "map5.png",
         "requiredLevel": 5,
-        "requiredRebirth": 0
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     },
     "DARK_CASTLE": {
@@ -65,7 +80,10 @@
         "title": "treasures.location.dark-castle.title",
         "texture": "map6.png",
         "requiredLevel": 6,
-        "requiredRebirth": 5
+        "requiredRebirth": 5,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     },
     "EDGE": {
@@ -76,7 +94,10 @@
         "title": "treasures.location.edge.title",
         "texture": "map7.png",
         "requiredLevel": 7,
-        "requiredRebirth": 15
+        "requiredRebirth": 15,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
       }
     }
   }
