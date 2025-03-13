@@ -64,6 +64,26 @@
                 ]
             },
             {
+                "title": "treasures.shop.bits.product.rune_key.title",
+                "hover": "treasures.lootbox.runes.key.description",
+                "icon": "rune_key.png",
+                "price": 79.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-key %player% RUNE 1"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.crystal.title",
+                "hover": "treasures.shop.bits.product.crystal.hover",
+                "icon": "save_crystal.png",
+                "price": 99.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-item %player% SAVE_CRYSTAL 1"
+                ]
+            },
+            {
                 "perkType": "MAP",
                 "title": "treasures.shop.bits.product.map.title",
                 "hover": "treasures.items.map.lore",
