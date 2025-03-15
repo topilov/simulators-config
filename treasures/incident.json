@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "trees": [
+      {
+        "treeNodes": [
+          {
+            "id": "1",
+            "title": "Инцидент",
+            "price": 10,
+            "maxProgress": 10,
+            "viewpoint": {"x": 0, "y": 0}
+          },
+          {
+            "parentId": "1",
+            "id": "2",
+            "title": "Инцидент 2",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": -1}
+          },
+          {
+            "parentId": "1",
+            "id": "3",
+            "title": "Инцидент 2",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": 0}
+          },
+          {
+            "parentId": "1",
+            "id": "4",
+            "title": "Инцидент 2",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": 1}
+          },
+          {
+            "parentId": "2",
+            "id": "5",
+            "title": "Инцидент 3",
+            "price": 100,
+            "maxProgress": 3,
+            "viewpoint": {"x": 2, "y": -1}
+          },
+          {
+            "parentId": "4",
+            "id": "6",
+            "title": "Инцидент 3",
+            "price": 100,
+            "maxProgress": 3,
+            "viewpoint": {"x": 2, "y": 1}
+          }
+        ]
+      },
+      {
+        "treeNodes": [
+          {
+            "id": "1",
+            "title": "Другой Инцидент",
+            "price": 10,
+            "maxProgress": 10,
+            "viewpoint": {"x": 0, "y": 0}
+          },
+          {
+            "parentId": "1",
+            "id": "2",
+            "title": "Другой Инцидент 2",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": -1}
+          },
+          {
+            "parentId": "1",
+            "id": "3",
+            "title": "Другой Инцидент 2",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": 0}
+          },
+          {
+            "parentId": "1",
+            "id": "4",
+            "title": "Другой Инцидент 2",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": 1}
+          },
+          {
+            "parentId": "2",
+            "id": "5",
+            "title": "Другой Инцидент 3",
+            "price": 100,
+            "maxProgress": 3,
+            "viewpoint": {"x": 2, "y": -1}
+          },
+          {
+            "parentId": "4",
+            "id": "6",
+            "title": "Другой Инцидент 3",
+            "price": 100,
+            "maxProgress": 3,
+            "viewpoint": {"x": 2, "y": 1}
+          }
+        ]
+      }
+    ]
+  }
+}
