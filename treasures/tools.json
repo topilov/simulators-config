@@ -1,6 +1,11 @@
 {
   "defaultChance": 1,
   "streakAdditionalChance": 3,
+  "messages": {
+    "sell": "treasures.tools.message.sell",
+    "hold": "treasures.tools.message.hold",
+    "cannot": "treasures.tools.message.cannot"
+  },
   "tools": {
     "PICKAXE": {
       "tag": "pickaxe",
@@ -12,6 +17,7 @@
       },
       "rares": {
         "DEFAULT": {
+          "canSell": false,
           "rare": "COMMON",
           "title": "treasures.tool.pickaxe.default.title",
           "formattedTitle": "i18n.treasures.tool.pickaxe.default.title|!|§7",
@@ -210,6 +216,7 @@
         },
         "LUCK": {
           "noTrash": false,
+          "canSell": true,
           "rare": "EPIC",
           "title": "treasures.tool.pickaxe.luck.title",
           "formattedTitle": "i18n.treasures.tool.pickaxe.luck.title|!|§d",
@@ -462,6 +469,7 @@
         },
         "DONATE": {
           "noTrash": true,
+          "canSell": false,
           "rare": "LEGENDARY",
           "title": "treasures.tool.pickaxe.donate.title",
           "formattedTitle": "i18n.treasures.tool.pickaxe.donate.title|!|§e",

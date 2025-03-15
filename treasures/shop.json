@@ -10,7 +10,7 @@
                 "price": 75.0,
                 "needSubscription": true,
                 "onBuy": [
-                    "local-booster %player% MONEY 2 7200"
+                    "local-booster %player% MONEY 2 1800"
                 ]
             },
             {
@@ -20,7 +20,7 @@
                 "price": 75.0,
                 "needSubscription": true,
                 "onBuy": [
-                    "local-booster %player% EXP 2 7200"
+                    "local-booster %player% EXP 2 1800"
                 ]
             },
             {
@@ -30,7 +30,7 @@
                 "price": 75.0,
                 "needSubscription": true,
                 "onBuy": [
-                    "local-booster %player% BLOCKS 2 7200"
+                    "local-booster %player% BLOCKS 2 1800"
                 ]
             },
             {
@@ -40,7 +40,7 @@
                 "price": 75.0,
                 "needSubscription": true,
                 "onBuy": [
-                    "local-booster %player% TREASURES 2 7200"
+                    "local-booster %player% TREASURES 2 1800"
                 ]
             },
             {
@@ -61,6 +61,26 @@
                 "needSubscription": true,
                 "onBuy": [
                     "give-key %player% PET 1"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.rune_key.title",
+                "hover": "treasures.lootbox.runes.key-description",
+                "icon": "rune_key.png",
+                "price": 79.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-key %player% RUNE 1"
+                ]
+            },
+            {
+                "title": "treasures.shop.bits.product.crystal.title",
+                "hover": "treasures.shop.bits.product.crystal.hover",
+                "icon": "save_crystal.png",
+                "price": 99.0,
+                "needSubscription": true,
+                "onBuy": [
+                    "give-item %player% SAVE_CRYSTAL 1"
                 ]
             },
             {

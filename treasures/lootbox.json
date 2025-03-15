@@ -77,6 +77,69 @@
             ]
           },
           {
+            "id": "booster_blocks",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.treasures.lootbox.reward.booster_blocks.title|!|¨46bfef",
+              "lore": "i18n.lumberjack.lootbox.reward.booster.description|!|10%|!|10 минут",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "blocks_booster"
+              }
+            },
+            "chance": 5.875,
+            "onDrop": [
+              "local-booster %player% BLOCKS 1.1 600"
+            ]
+          },
+          {
+            "id": "booster_money",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_money.title|!|¨46bfef",
+              "lore": "i18n.lumberjack.lootbox.reward.booster.description|!|10%|!|10 минут",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "money_booster"
+              }
+            },
+            "chance": 5.875,
+            "onDrop": [
+              "local-booster %player% MONEY 1.1 600"
+            ]
+          },
+          {
+            "id": "booster_mobs",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.lumberjack.lootbox.reward.booster_treasures.title|!|¨46bfef",
+              "lore": "i18n.lumberjack.lootbox.reward.booster.description|!|10%|!|10 минут",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "mobs_booster"
+              }
+            },
+            "chance": 5.875,
+            "onDrop": [
+              "local-booster %player% MOBS 1.1 600"
+            ]
+          },
+          {
             "id": "save-crystal",
             "rarity": "EPIC",
             "itemStack": {
@@ -521,14 +584,14 @@
           },
           {
             "id": "digger",
-            "rarity": "RARE",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.digger.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 10.5,
+            "chance": 16.25,
             "onDrop": [
               "give-rune %player% DIGGER 500000"
             ]
@@ -563,14 +626,14 @@
           },
           {
             "id": "haste",
-            "rarity": "EPIC",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.haste.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
             },
-            "chance": 5,
+            "chance": 10.5,
             "onDrop": [
               "give-rune %player% HASTE 1000000"
             ]
@@ -591,28 +654,28 @@
           },
           {
             "id": "boom",
-            "rarity": "EPIC",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.boom.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
             },
-            "chance": 5,
+            "chance": 1.5,
             "onDrop": [
               "give-rune %player% BOOM 1000000"
             ]
           },
           {
             "id": "treasure",
-            "rarity": "EPIC",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.treasure.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 5,
+            "chance": 16.25,
             "onDrop": [
               "give-rune %player% TREASURE 1000000"
             ]
@@ -647,14 +710,14 @@
           },
           {
             "id": "collector",
-            "rarity": "LEGENDARY",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.collector.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 1.5,
+            "chance": 5.0,
             "onDrop": [
               "give-rune %player% COLLECTOR 5000000"
             ]
@@ -689,14 +752,14 @@
           },
           {
             "id": "upgrade",
-            "rarity": "LEGENDARY",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "treasures.runes.upgrade.name",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 1.5,
+            "chance": 10.5,
             "onDrop": [
               "give-rune %player% UPGRADE 5000000"
             ]
