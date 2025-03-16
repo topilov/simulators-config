@@ -3,7 +3,7 @@
     "PRICE_REDUCTION": {
       "title": "заголовок 2",
       "description": "подзаголовок 2",
-      "duration": 11
+      "duration": 10
     }
   },
   "menu": {
@@ -15,7 +15,10 @@
             "title": "Инцидент",
             "price": 10,
             "maxProgress": 10,
-            "viewpoint": {"x": 0, "y": 0}
+            "viewpoint": {"x": 0, "y": 0 },
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "1",
@@ -23,7 +26,10 @@
             "title": "Инцидент 2",
             "price": 20,
             "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": -1}
+            "viewpoint": {"x": 1, "y": -1},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "1",
@@ -31,7 +37,10 @@
             "title": "Инцидент 2",
             "price": 20,
             "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": 0}
+            "viewpoint": {"x": 1, "y": 0},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "1",
@@ -39,7 +48,10 @@
             "title": "Инцидент 2",
             "price": 20,
             "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": 1}
+            "viewpoint": {"x": 1, "y": 1},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "2",
@@ -47,7 +59,10 @@
             "title": "Инцидент 3",
             "price": 100,
             "maxProgress": 3,
-            "viewpoint": {"x": 2, "y": -1}
+            "viewpoint": {"x": 2, "y": -1},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "4",
@@ -55,7 +70,10 @@
             "title": "Инцидент 3",
             "price": 100,
             "maxProgress": 3,
-            "viewpoint": {"x": 2, "y": 1}
+            "viewpoint": {"x": 2, "y": 1},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           }
         ]
       },
@@ -66,7 +84,10 @@
             "title": "Другой Инцидент",
             "price": 10,
             "maxProgress": 10,
-            "viewpoint": {"x": 0, "y": 0}
+            "viewpoint": {"x": 0, "y": 0},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "11",
@@ -74,7 +95,10 @@
             "title": "Другой Инцидент 2",
             "price": 20,
             "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": -1}
+            "viewpoint": {"x": 1, "y": -1},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "11",
@@ -82,7 +106,10 @@
             "title": "Другой Инцидент 2",
             "price": 20,
             "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": 0}
+            "viewpoint": {"x": 1, "y": 0},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "11",
@@ -90,7 +117,10 @@
             "title": "Другой Инцидент 2",
             "price": 20,
             "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": 1}
+            "viewpoint": {"x": 1, "y": 1},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "22",
@@ -98,7 +128,10 @@
             "title": "Другой Инцидент 3",
             "price": 100,
             "maxProgress": 3,
-            "viewpoint": {"x": 2, "y": -1}
+            "viewpoint": {"x": 2, "y": -1},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           },
           {
             "parentId": "44",
@@ -106,7 +139,10 @@
             "title": "Другой Инцидент 3",
             "price": 100,
             "maxProgress": 3,
-            "viewpoint": {"x": 2, "y": 1}
+            "viewpoint": {"x": 2, "y": 1},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+            ]
           }
         ]
       }
