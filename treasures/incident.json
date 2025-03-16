@@ -12,7 +12,7 @@
         "treeNodes": [
           {
             "id": "1",
-            "title": "Инцидент",
+            "title": "Супер Скидка I",
             "price": 10,
             "maxProgress": 10,
             "viewpoint": {"x": 0, "y": 0 },
@@ -23,56 +23,45 @@
           {
             "parentId": "1",
             "id": "2",
-            "title": "Инцидент 2",
-            "price": 20,
-            "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": -1},
-            "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
-            ]
-          },
-          {
-            "parentId": "1",
-            "id": "3",
-            "title": "Инцидент 2",
+            "title": "Супер Скидка II",
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0},
             "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+              "add-incident-stat %player% PRICE_REDUCTION 1 3"
             ]
           },
           {
             "parentId": "1",
-            "id": "4",
-            "title": "Инцидент 2",
+            "id": "2",
+            "title": "Максимальная Выгода",
             "price": 20,
             "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": 1},
+            "viewpoint": {"x": 1, "y": -1},
             "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+              "add-incident-stat %player% PRICE_REDUCTION 0 5"
+            ]
+          },
+          {
+            "parentId": "1",
+            "id": "2",
+            "title": "Супер Скидка II",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": -1},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 1 6"
             ]
           },
           {
             "parentId": "2",
-            "id": "5",
-            "title": "Инцидент 3",
-            "price": 100,
-            "maxProgress": 3,
-            "viewpoint": {"x": 2, "y": -1},
+            "id": "3",
+            "title": "Супер Скидка III",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 2, "y": 0},
             "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
-            ]
-          },
-          {
-            "parentId": "4",
-            "id": "6",
-            "title": "Инцидент 3",
-            "price": 100,
-            "maxProgress": 3,
-            "viewpoint": {"x": 2, "y": 1},
-            "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+              "add-incident-stat %player% PRICE_REDUCTION 1 8"
             ]
           }
         ]
