@@ -1,11 +1,19 @@
 {
   "containers": {
     "PRICE_REDUCTION": {
-      "title": "заголовок 2",
-      "description": "подзаголовок 2",
+      "title": "Супер Скидка",
+      "description": "Скидка во всех прокачках",
       "stat": [ 10, 20 ],
       "awaitAt": [
         "0:15:0"
+      ]
+    },
+    "INCREASED_LOOTBOX_CHANCES": {
+      "title": "Везунчик",
+      "description": "Увеличенные шансы в кейсах",
+      "stat": [ 10, 20 ],
+      "awaitAt": [
+        "0:45:0"
       ]
     }
   },
@@ -14,7 +22,7 @@
       {
         "treeNodes": [
           {
-            "id": "1",
+            "id": "sale_percent_1",
             "title": "Супер Скидка I",
             "price": 10,
             "maxProgress": 10,
@@ -24,8 +32,8 @@
             ]
           },
           {
-            "parentId": "1",
-            "id": "2",
+            "parentId": "sale_percent_1",
+            "id": "sale_percent_2",
             "title": "Супер Скидка II",
             "price": 20,
             "maxProgress": 5,
@@ -35,8 +43,8 @@
             ]
           },
           {
-            "parentId": "1",
-            "id": "2",
+            "parentId": "sale_percent_1",
+            "id": "sale_duration_1",
             "title": "Максимальная Выгода",
             "price": 20,
             "maxProgress": 5,
@@ -46,8 +54,8 @@
             ]
           },
           {
-            "parentId": "2",
-            "id": "3",
+            "parentId": "sale_percent_2",
+            "id": "sale_percent_3",
             "title": "Супер Скидка III",
             "price": 20,
             "maxProgress": 5,
@@ -61,68 +69,46 @@
       {
         "treeNodes": [
           {
-            "id": "11",
-            "title": "Другой Инцидент",
+            "id": "increased_chance_percent_1",
+            "title": "Везунчик I",
             "price": 10,
             "maxProgress": 10,
             "viewpoint": {"x": 0, "y": 0},
             "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+              "add-incident-stat %player% INCREASED_LOOTBOX_CHANCES 1 5"
             ]
           },
           {
-            "parentId": "11",
-            "id": "22",
-            "title": "Другой Инцидент 2",
-            "price": 20,
-            "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": -1},
-            "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
-            ]
-          },
-          {
-            "parentId": "11",
-            "id": "33",
-            "title": "Другой Инцидент 2",
+            "parentId": "increased_chance_percent_1",
+            "id": "increased_chance_percent_2",
+            "title": "Везунчик II",
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0},
             "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+              "add-incident-stat %player% INCREASED_LOOTBOX_CHANCES 1 5"
             ]
           },
           {
-            "parentId": "11",
-            "id": "44",
-            "title": "Другой Инцидент 2",
+            "parentId": "increased_chance_percent_1",
+            "id": "increased_chance_duration_1",
+            "title": "Везунчик Длительность",
             "price": 20,
             "maxProgress": 5,
-            "viewpoint": {"x": 1, "y": 1},
+            "viewpoint": {"x": 1, "y": -1},
             "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+              "add-incident-stat %player% INCREASED_LOOTBOX_CHANCES 0 5"
             ]
           },
           {
-            "parentId": "22",
-            "id": "55",
-            "title": "Другой Инцидент 3",
-            "price": 100,
-            "maxProgress": 3,
-            "viewpoint": {"x": 2, "y": -1},
+            "parentId": "increased_chance_percent_2",
+            "id": "increased_chance_percent_3",
+            "title": "Везунчик III",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 2, "y": 0},
             "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
-            ]
-          },
-          {
-            "parentId": "44",
-            "id": "66",
-            "title": "Другой Инцидент 3",
-            "price": 100,
-            "maxProgress": 3,
-            "viewpoint": {"x": 2, "y": 1},
-            "onUpgrade": [
-              "add-incident-stat %player% PRICE_REDUCTION 1 5"
+              "add-incident-stat %player% INCREASED_LOOTBOX_CHANCES 1 5"
             ]
           }
         ]
