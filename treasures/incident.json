@@ -44,6 +44,17 @@
           },
           {
             "parentId": "sale_percent_1",
+            "id": "sale_duration_4",
+            "title": "Максимальная Выгода",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": -3},
+            "onUpgrade": [
+              "add-incident-stat %player% PRICE_REDUCTION 0 5"
+            ]
+          },
+          {
+            "parentId": "sale_percent_1",
             "id": "sale_duration_3",
             "title": "Максимальная Выгода",
             "price": 20,
@@ -129,6 +140,17 @@
             "price": 20,
             "maxProgress": 6,
             "viewpoint": {"x": 1, "y": 2},
+            "onUpgrade": [
+              "add-incident-stat %player% INCREASED_LOOTBOX_CHANCES 0 5"
+            ]
+          },
+          {
+            "parentId": "increased_chance_percent_1",
+            "id": "increased_chance_duration_3",
+            "title": "Везунчик Длительность",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": -1},
             "onUpgrade": [
               "add-incident-stat %player% INCREASED_LOOTBOX_CHANCES 0 5"
             ]
