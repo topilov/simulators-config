@@ -33,8 +33,12 @@
       {
         "treeNodes": [
           {
+            "incidentId": "PRICE_REDUCTION",
             "id": "sale_percent_1",
             "title": "Супер Скидка I",
+            "description": "treasures.incident.upgrade.description",
+            "statId": 1,
+            "additional": 3,
             "price": 10,
             "maxProgress": 10,
             "viewpoint": {"x": 0, "y": 0 },
@@ -43,9 +47,13 @@
             ]
           },
           {
+            "incidentId": "PRICE_REDUCTION",
             "parentId": "sale_percent_1",
             "id": "sale_percent_2",
             "title": "Супер Скидка II",
+            "description": "treasures.incident.upgrade.description",
+            "statId": 1,
+            "additional": 5,
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0},
@@ -54,9 +62,13 @@
             ]
           },
           {
+            "incidentId": "PRICE_REDUCTION",
             "parentId": "sale_percent_1",
             "id": "sale_duration_1",
             "title": "Максимальная Выгода",
+            "description": "treasures.incident.upgrade.description",
+            "statId": 0,
+            "additional": 5,
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 1},
@@ -65,9 +77,13 @@
             ]
           },
           {
+            "incidentId": "PRICE_REDUCTION",
             "parentId": "sale_percent_2",
             "id": "sale_percent_3",
             "title": "Супер Скидка III",
+            "description": "treasures.incident.upgrade.description",
+            "statId": 1,
+            "additional": 8,
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 2, "y": 0},
@@ -80,8 +96,12 @@
       {
         "treeNodes": [
           {
+            "incidentId": "INCREASED_LOOTBOX_CHANCES",
             "id": "increased_chance_percent_1",
             "title": "Везунчик I",
+            "description": "treasures.incident.upgrade.description",
+            "statId": 1,
+            "additional": 5,
             "price": 10,
             "maxProgress": 10,
             "viewpoint": {"x": 0, "y": 0},
@@ -90,9 +110,13 @@
             ]
           },
           {
+            "incidentId": "INCREASED_LOOTBOX_CHANCES",
             "parentId": "increased_chance_percent_1",
             "id": "increased_chance_percent_2",
             "title": "Везунчик II",
+            "description": "treasures.incident.upgrade.description",
+            "statId": 1,
+            "additional": 5,
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0},
@@ -101,9 +125,13 @@
             ]
           },
           {
+            "incidentId": "INCREASED_LOOTBOX_CHANCES",
             "parentId": "increased_chance_percent_1",
             "id": "increased_chance_duration_1",
             "title": "Везунчик Длительность",
+            "description": "treasures.incident.upgrade.description",
+            "statId": 0,
+            "additional": 5,
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 1},
@@ -112,9 +140,13 @@
             ]
           },
           {
+            "incidentId": "INCREASED_LOOTBOX_CHANCES",
             "parentId": "increased_chance_percent_2",
             "id": "increased_chance_percent_3",
             "title": "Везунчик III",
+            "description": "treasures.incident.upgrade.description",
+            "statId": 1,
+            "additional": 5,
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 2, "y": 0},
