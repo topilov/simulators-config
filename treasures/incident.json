@@ -131,6 +131,57 @@
             "viewpoint": {"x": 2, "y": 0}
           }
         ]
+      },
+      {
+        "treeNodes": [
+          {
+            "incidentId": "SUPERCHARGING",
+            "id": "supercharging_percent_multiplier_1",
+            "title": "Суперзаряд I",
+            "description": "treasures.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 20,
+            "price": 10,
+            "maxProgress": 10,
+            "viewpoint": {"x": 0, "y": 0}
+          },
+          {
+            "incidentId": "SUPERCHARGING",
+            "parentId": "supercharging_percent_multiplier_1",
+            "id": "supercharging_percent_multiplier_2",
+            "title": "Суперзаряд II",
+            "description": "treasures.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 50,
+            "price": 10,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": 0}
+          },
+          {
+            "incidentId": "SUPERCHARGING",
+            "parentId": "supercharging_duration_1",
+            "id": "supercharging_duration_2",
+            "title": "Суперзаряд Длительность",
+            "description": "treasures.incident.upgrade.duration.description",
+            "statId": 0,
+            "additional": 25,
+            "price": 10,
+            "maxProgress": 10,
+            "viewpoint": {"x": 1, "y": 1}
+          },
+          {
+            "incidentId": "SUPERCHARGING",
+            "parentId": "supercharging_percent_multiplier_2",
+            "id": "supercharging_percent_multiplier_1",
+            "title": "Суперзаряд III",
+            "description": "treasures.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 100,
+            "price": 10,
+            "maxProgress": 3,
+            "viewpoint": {"x": 2, "y": 0}
+          }
+        ]
       }
     ]
   }
