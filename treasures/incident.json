@@ -101,6 +101,17 @@
             ]
           },
           {
+            "parentId": "increased_chance_percent_1",
+            "id": "increased_chance_duration_2",
+            "title": "Везунчик Длительность",
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": 1},
+            "onUpgrade": [
+              "add-incident-stat %player% INCREASED_LOOTBOX_CHANCES 0 5"
+            ]
+          },
+          {
             "parentId": "increased_chance_percent_2",
             "id": "increased_chance_percent_3",
             "title": "Везунчик III",
