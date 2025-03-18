@@ -1,0 +1,42 @@
+{
+  "expedition": {
+    "status": {
+      "waiting": {
+        "arenaStatus": "WAITING_PLAYERS",
+        "duration": 15
+      },
+      "game": {
+        "arenaStatus": "STARTED",
+        "duration": 120
+      },
+      "end": {
+        "arenaStatus": "TERMINATING",
+        "duration": 5
+      }
+    },
+    "settings": {
+      "items": [
+        {
+          "type": "DIAMOND_SPADE",
+          "name": "treasures.minigame.expedition.tool.title",
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ],
+          "enchantments": {
+            "DIG_SPEED": 10
+          }
+        }
+      ],
+      "chest": {
+        "max": 10,
+        "chance": 1.0
+      },
+      "message": {
+        "found": "treasures.minigame.expedition.message.found",
+        "foundLast": "treasures.minigame.expedition.message.found-last"
+      }
+    }
+  }
+}
