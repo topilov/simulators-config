@@ -3,7 +3,7 @@
     "PRICE_REDUCTION": {
       "title": "treasures.incident.price_reduction.title",
       "description": "treasures.incident.price_reduction.description",
-      "stat": [ 10, 20 ],
+      "stat": [ 60, 10 ],
       "awaitAt": [
         "0:15:0"
       ],
@@ -21,7 +21,7 @@
     "SUPERCHARGING": {
       "title": "treasures.incident.supercharging.title",
       "description": "treasures.incident.supercharging.description",
-      "stat": [ 60, 100 ],
+      "stat": [ 60, 50 ],
       "awaitAt": [
         "1:15:0"
       ],
@@ -38,7 +38,7 @@
             "title": "Супер Скидка I",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
-            "additional": 3,
+            "additional": 1,
             "price": 10,
             "maxProgress": 10,
             "viewpoint": {"x": 0, "y": 0 }
@@ -50,7 +50,7 @@
             "title": "Супер Скидка II",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
-            "additional": 5,
+            "additional": 3,
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0}
@@ -62,9 +62,9 @@
             "title": "Максимальная Выгода",
             "description": "treasures.incident.upgrade.duration.description",
             "statId": 0,
-            "additional": 5,
+            "additional": 24,
             "price": 20,
-            "maxProgress": 5,
+            "maxProgress": 10,
             "viewpoint": {"x": 1, "y": 1}
           },
           {
@@ -74,7 +74,7 @@
             "title": "Супер Скидка III",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
-            "additional": 8,
+            "additional": 5,
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 2, "y": 0}
@@ -89,7 +89,7 @@
             "title": "Везунчик I",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
-            "additional": 5,
+            "additional": 3,
             "price": 10,
             "maxProgress": 10,
             "viewpoint": {"x": 0, "y": 0}
@@ -113,9 +113,9 @@
             "title": "Везунчик Длительность",
             "description": "treasures.incident.upgrade.duration.description",
             "statId": 0,
-            "additional": 5,
+            "additional": 24,
             "price": 20,
-            "maxProgress": 5,
+            "maxProgress": 10,
             "viewpoint": {"x": 1, "y": 1}
           },
           {
@@ -140,7 +140,7 @@
             "title": "Суперзаряд I",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
-            "additional": 20,
+            "additional": 8,
             "price": 10,
             "maxProgress": 10,
             "viewpoint": {"x": 0, "y": 0}
@@ -152,7 +152,7 @@
             "title": "Суперзаряд II",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
-            "additional": 50,
+            "additional": 14,
             "price": 10,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0}
@@ -164,7 +164,7 @@
             "title": "Суперзаряд Длительность",
             "description": "treasures.incident.upgrade.duration.description",
             "statId": 0,
-            "additional": 25,
+            "additional": 24,
             "price": 10,
             "maxProgress": 10,
             "viewpoint": {"x": 1, "y": 1}
@@ -176,9 +176,9 @@
             "title": "Суперзаряд III",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
-            "additional": 100,
+            "additional": 20,
             "price": 10,
-            "maxProgress": 3,
+            "maxProgress": 5,
             "viewpoint": {"x": 2, "y": 0}
           }
         ]
