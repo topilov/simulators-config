@@ -99,6 +99,34 @@
           "location-tp %player% %id%"
         ]
       }
+    },
+    "GATES_OF_HELL": {
+      "slots": 100,
+      "map": "map8",
+      "button": {
+        "id": 8,
+        "title": "treasures.location.gates_of_hell.title",
+        "texture": "map8.png",
+        "requiredLevel": 8,
+        "requiredRebirth": 30,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "CRYSTAL_RUINS": {
+      "slots": 100,
+      "map": "map8",
+      "button": {
+        "id": 9,
+        "title": "treasures.location.crystal_ruins.title",
+        "texture": "map9.png",
+        "requiredLevel": 9,
+        "requiredRebirth": 50,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
     }
   }
 }
