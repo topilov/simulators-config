@@ -1,114 +1,180 @@
 {
-    "bitsShop": {
-        "title": "treasures.shop.bits.title",
-        "vault": "\uE1D1",
-        "products": [
-            {
-                "title": "treasures.shop.bits.product.money_booster.title",
-                "hover": "treasures.shop.bits.product.money_booster.hover",
-                "icon": "money_booster.png",
-                "price": 75.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "local-booster %player% MONEY 2 1800"
-                ]
-            },
-            {
-                "title": "treasures.shop.bits.product.exp_booster.title",
-                "hover": "treasures.shop.bits.product.exp_booster.hover",
-                "icon": "exp_booster.png",
-                "price": 75.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "local-booster %player% EXP 2 1800"
-                ]
-            },
-            {
-                "title": "treasures.shop.bits.product.blocks_booster.title",
-                "hover": "treasures.shop.bits.product.blocks_booster.hover",
-                "icon": "blocks_booster.png",
-                "price": 75.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "local-booster %player% BLOCKS 2 1800"
-                ]
-            },
-            {
-                "title": "treasures.shop.bits.product.treasures_booster.title",
-                "hover": "treasures.shop.bits.product.treasures_booster.hover",
-                "icon": "treasures_booster.png",
-                "price": 75.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "local-booster %player% TREASURES 2 1800"
-                ]
-            },
-            {
-                "title": "treasures.shop.bits.product.default_key.title",
-                "hover": "treasures.lootbox.default.key-description",
-                "icon": "goldkey.png",
-                "price": 149.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "give-key %player% DEFAULT 1"
-                ]
-            },
-            {
-                "title": "treasures.shop.bits.product.pet_key.title",
-                "hover": "treasures.lootbox.pets.key-description",
-                "icon": "fox_key.png",
-                "price": 149.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "give-key %player% PET 1"
-                ]
-            },
-            {
-                "title": "treasures.shop.bits.product.rune_key.title",
-                "hover": "treasures.lootbox.runes.key-description",
-                "icon": "rune_key.png",
-                "price": 79.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "give-key %player% RUNE 1"
-                ]
-            },
-            {
-                "title": "treasures.shop.bits.product.crystal.title",
-                "hover": "treasures.shop.bits.product.crystal.hover",
-                "icon": "save_crystal.png",
-                "price": 99.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "give-item %player% SAVE_CRYSTAL 1"
-                ]
-            },
-            {
-                "perkType": "MAP",
-                "title": "treasures.shop.bits.product.map.title",
-                "hover": "treasures.items.map.lore",
-                "icon": "iron_bracelet.png",
-                "price": 249.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "give-perk %player% MAP"
-                ]
-            },
-            {
-                "perkType": "CLEVER",
-                "title": "treasures.shop.bits.product.clever.title",
-                "hover": "treasures.items.clever.lore",
-                "icon": "gold_bracelet.png",
-                "price": 349.0,
-                "needSubscription": true,
-                "onBuy": [
-                    "give-perk %player% CLEVER"
-                ]
-            }
-        ]
+  "shops": {
+    "bits": {
+        "messages": {
+            "moreMoney": "treasures.shop.messages.more-money",
+            "noSubscription": "treasures.shop.messages.no-subscription"
+        },
+      "title": "treasures.shop.bits.title",
+      "vault": "\uE1D1",
+      "products": [
+        {
+          "title": "treasures.shop.bits.product.money_booster.title",
+          "hover": "treasures.shop.bits.product.money_booster.hover",
+          "icon": "money_booster.png",
+          "price": 75.0,
+          "needSubscription": true,
+          "onBuy": [
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.exp_booster.title",
+          "hover": "treasures.shop.bits.product.exp_booster.hover",
+          "icon": "exp_booster.png",
+          "price": 75.0,
+          "needSubscription": true,
+          "onBuy": [
+            "local-booster %player% EXP 2 1800"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.blocks_booster.title",
+          "hover": "treasures.shop.bits.product.blocks_booster.hover",
+          "icon": "blocks_booster.png",
+          "price": 75.0,
+          "needSubscription": true,
+          "onBuy": [
+            "local-booster %player% BLOCKS 2 1800"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.treasures_booster.title",
+          "hover": "treasures.shop.bits.product.treasures_booster.hover",
+          "icon": "treasures_booster.png",
+          "price": 75.0,
+          "needSubscription": true,
+          "onBuy": [
+            "local-booster %player% TREASURES 2 1800"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.default_key.title",
+          "hover": "treasures.lootbox.default.key-description",
+          "icon": "goldkey.png",
+          "price": 149.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-key %player% DEFAULT 1"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.pet_key.title",
+          "hover": "treasures.lootbox.pets.key-description",
+          "icon": "fox_key.png",
+          "price": 149.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-key %player% PET 1"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.rune_key.title",
+          "hover": "treasures.lootbox.runes.key-description",
+          "icon": "rune_key.png",
+          "price": 79.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-key %player% RUNE 1"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.crystal.title",
+          "hover": "treasures.shop.bits.product.crystal.hover",
+          "icon": "save_crystal.png",
+          "price": 99.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-item %player% SAVE_CRYSTAL 1"
+          ]
+        },
+        {
+          "perkType": "MAP",
+          "title": "treasures.shop.bits.product.map.title",
+          "hover": "treasures.items.map.lore",
+          "icon": "iron_bracelet.png",
+          "price": 249.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-perk %player% MAP"
+          ]
+        },
+        {
+          "perkType": "CLEVER",
+          "title": "treasures.shop.bits.product.clever.title",
+          "hover": "treasures.items.clever.lore",
+          "icon": "gold_bracelet.png",
+          "price": 349.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-perk %player% CLEVER"
+          ]
+        }
+      ]
     },
-    "messages": {
-        "moreMoney": "treasures.shop.messages.more-money",
-        "noSubscription": "treasures.shop.messages.no-subscription"
+    "minigame": {
+      "messages": {
+        "moreMoney": "treasures.shop.minigame.messages.more-money",
+        "noSubscription": "treasures.shop.minigame.minigame.messages.no-subscription"
+      },
+      "title": "treasures.shop.minigame.title",
+      "vault": "\uE1C2",
+      "products": [
+        {
+          "title": "treasures.shop.bits.product.rune_key.title",
+          "hover": "treasures.lootbox.runes.key-description",
+          "icon": "rune_key.png",
+          "price": 2.0,
+          "onBuy": [
+            "give-key %player% RUNE 1"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.rune_key.title",
+          "hover": "treasures.lootbox.runes.key-description",
+          "icon": "rune_key.png",
+          "price": 2.0,
+          "onBuy": [
+            "give-key %player% RUNE 1"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.rune_key.title",
+          "hover": "treasures.lootbox.runes.key-description",
+          "icon": "rune_key.png",
+          "price": 2.0,
+          "onBuy": [
+            "give-key %player% RUNE 1"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.rune_key.title",
+          "hover": "treasures.lootbox.runes.key-description",
+          "icon": "rune_key.png",
+          "price": 2.0,
+          "onBuy": [
+            "give-key %player% RUNE 1"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.rune_key.title",
+          "hover": "treasures.lootbox.runes.key-description",
+          "icon": "rune_key.png",
+          "price": 2.0,
+          "onBuy": [
+            "give-key %player% RUNE 1"
+          ]
+        },
+        {
+          "title": "treasures.shop.bits.product.rune_key.title",
+          "hover": "treasures.lootbox.runes.key-description",
+          "icon": "rune_key.png",
+          "price": 2.0,
+          "onBuy": [
+            "give-key %player% RUNE 1"
+          ]
+        }
+      ]
     }
+  }
 }
