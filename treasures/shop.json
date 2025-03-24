@@ -87,7 +87,17 @@
           "onBuy": [
             "give-item %player% SAVE_CRYSTAL 1"
           ]
-        },
+        }
+      ]
+    },
+    "minigame": {
+      "messages": {
+        "moreMoney": "treasures.shop.minigame.messages.more-money",
+        "noSubscription": "treasures.shop.minigame.minigame.messages.no-subscription"
+      },
+      "title": "treasures.shop.minigame.title",
+      "vault": "\uE1C2",
+      "products": [
         {
           "perkType": "MAP",
           "title": "treasures.shop.bits.product.map.title",
@@ -108,70 +118,6 @@
           "needSubscription": true,
           "onBuy": [
             "give-perk %player% CLEVER"
-          ]
-        }
-      ]
-    },
-    "minigame": {
-      "messages": {
-        "moreMoney": "treasures.shop.minigame.messages.more-money",
-        "noSubscription": "treasures.shop.minigame.minigame.messages.no-subscription"
-      },
-      "title": "treasures.shop.minigame.title",
-      "vault": "\uE1C2",
-      "products": [
-        {
-          "title": "treasures.shop.bits.product.rune_key.title",
-          "hover": "treasures.lootbox.runes.key-description",
-          "icon": "rune_key.png",
-          "price": 2.0,
-          "onBuy": [
-            "give-key %player% RUNE 1"
-          ]
-        },
-        {
-          "title": "treasures.shop.bits.product.rune_key.title",
-          "hover": "treasures.lootbox.runes.key-description",
-          "icon": "rune_key.png",
-          "price": 2.0,
-          "onBuy": [
-            "give-key %player% RUNE 1"
-          ]
-        },
-        {
-          "title": "treasures.shop.bits.product.rune_key.title",
-          "hover": "treasures.lootbox.runes.key-description",
-          "icon": "rune_key.png",
-          "price": 2.0,
-          "onBuy": [
-            "give-key %player% RUNE 1"
-          ]
-        },
-        {
-          "title": "treasures.shop.bits.product.rune_key.title",
-          "hover": "treasures.lootbox.runes.key-description",
-          "icon": "rune_key.png",
-          "price": 2.0,
-          "onBuy": [
-            "give-key %player% RUNE 1"
-          ]
-        },
-        {
-          "title": "treasures.shop.bits.product.rune_key.title",
-          "hover": "treasures.lootbox.runes.key-description",
-          "icon": "rune_key.png",
-          "price": 2.0,
-          "onBuy": [
-            "give-key %player% RUNE 1"
-          ]
-        },
-        {
-          "title": "treasures.shop.bits.product.rune_key.title",
-          "hover": "treasures.lootbox.runes.key-description",
-          "icon": "rune_key.png",
-          "price": 2.0,
-          "onBuy": [
-            "give-key %player% RUNE 1"
           ]
         }
       ]
