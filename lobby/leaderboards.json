@@ -1,24 +1,48 @@
 {
-  "leaderboards": [
-    {
-      "title": "lumberjack.top.exp.title",
-      "field": "exp",
-      "nickName": "lumberjack.top.nick-name",
-      "fieldName": "lumberjack.top.exp.field-name",
-      "fieldFormat": "§b%format%",
-      "fieldSize": 20,
-      "nameSize": 40,
-      "limit": 50,
-      "location": {
-        "name": "top",
-        "tag": "exp",
-        "yaw": -180,
-        "offset": {
-          "x": 0.5,
-          "y": 0.25,
-          "z": 0.01
+  "leaderboards": {
+    "lumberjack": [
+      {
+        "title": "lumberjack.top.exp.title",
+        "field": "exp",
+        "nickName": "lumberjack.top.nick-name",
+        "fieldName": "lumberjack.top.exp.field-name",
+        "fieldFormat": "§b%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "top",
+          "tag": "exp",
+          "yaw": -180,
+          "offset": {
+            "x": 0.5,
+            "y": 0.25,
+            "z": 0.01
+          }
         }
       }
-    }
-  ]
+    ],
+    "treasures": [
+      {
+        "title": "treasures.top.blocks.title",
+        "field": "blocks",
+        "nickName": "treasures.top.nick-name",
+        "fieldName": "treasures.top.blocks.field-name",
+        "fieldFormat": "§c%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "top",
+          "tag": "blocks",
+          "yaw": -90,
+          "offset": {
+            "x": 0.99,
+            "y": 0.25,
+            "z": 0.5
+          }
+        }
+      }
+    ]
+  }
 }
