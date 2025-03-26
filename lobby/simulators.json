@@ -1,0 +1,40 @@
+{
+  "simulators": {
+    "lumberjack": {
+      "database": {
+        "name": "lumberjack-test",
+        "usersCollectionName": "lumberjack_data"
+      },
+      "lobby": {
+        "typeName": "LBJL"
+      }
+    },
+    "treasures": {
+      "database": {
+        "name": "treasures-test",
+        "usersCollectionName": "treasures_data"
+      },
+      "lobby": {
+        "typeName": "TRSL"
+      }
+    },
+    "katana": {
+      "database": {
+        "name": "katana-test",
+        "usersCollectionName": "katana_data"
+      },
+      "lobby": {
+        "typeName": "KTNL"
+      }
+    },
+    "destruction": {
+      "database": {
+        "name": "destruction-test",
+        "usersCollectionName": "destruction_data"
+      },
+      "lobby": {
+        "typeName": "DSRL"
+      }
+    }
+  }
+}

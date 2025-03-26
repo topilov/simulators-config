@@ -1,0 +1,70 @@
+{
+  "leaderboards": {
+    "lumberjack": [
+      {
+        "title": "Симулятор Лесоруба",
+        "field": "exp",
+        "nickName": "lumberjack.top.nick-name",
+        "fieldName": "lumberjack.top.exp.field-name",
+        "fieldFormat": "§b%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "lbj-top",
+          "tag": "exp",
+          "yaw": -180,
+          "offset": {
+            "x": 0.5,
+            "y": 0.25,
+            "z": 0.01
+          }
+        }
+      }
+    ],
+    "destruction": [
+      {
+        "title": "Симулятор Разрушений",
+        "field": "exp",
+        "nickName": "destruction.top.nick-name",
+        "fieldName": "destruction.top.exp.field-name",
+        "fieldFormat": "§b%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "drs-top",
+          "tag": "exp",
+          "yaw": 125,
+          "offset": {
+            "x": 1.5,
+            "y": 0.25,
+            "z": -0.5
+          }
+        }
+      }
+    ],
+    "treasures": [
+      {
+        "title": "Симулятор Сокровищ",
+        "field": "exp",
+        "nickName": "treasures.top.nick-name",
+        "fieldName": "treasures.top.exp.field-name",
+        "fieldFormat": "§b%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "trs-top",
+          "tag": "exp",
+          "yaw": -125,
+          "offset": {
+            "x": -0.5,
+            "y": 0.25,
+            "z": -0.5
+          }
+        }
+      }
+    ]
+  }
+}

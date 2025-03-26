@@ -1,0 +1,21 @@
+{
+  "promocodes": {
+    "testpromocode": {
+      "expireAt": "25.03.2025 19:30",
+      "onUse": [
+        "give-key %player% DEFAULT 10"
+      ]
+    },
+    "test123": {
+      "expireAt": "25.03.2025 19:26",
+      "onUse": [
+        "give-key %player% DEFAULT 15"
+      ]
+    }
+  },
+  "message": {
+    "alreadyUsed": "Промокод уже использован",
+    "notExists": "Такого промокода не существует",
+    "expired": "Промокод истек"
+  }
+}

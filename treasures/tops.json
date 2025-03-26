@@ -1,84 +1,86 @@
 {
-  "leaderboards": [
-    {
-      "title": "treasures.top.exp.title",
-      "field": "exp",
-      "nickName": "treasures.top.nick-name",
-      "fieldName": "treasures.top.exp.field-name",
-      "fieldFormat": "§b%format%",
-      "fieldSize": 20,
-      "nameSize": 40,
-      "limit": 50,
-      "location": {
-        "name": "top",
-        "tag": "exp",
-        "yaw": 90,
-        "offset": {
-          "x": 0.01,
-          "y": 0.25,
-          "z": 0.5
+  "leaderboards": {
+    "treasures": [
+      {
+        "title": "treasures.top.exp.title",
+        "field": "exp",
+        "nickName": "treasures.top.nick-name",
+        "fieldName": "treasures.top.exp.field-name",
+        "fieldFormat": "§b%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "top",
+          "tag": "exp",
+          "yaw": 90,
+          "offset": {
+            "x": 0.01,
+            "y": 0.25,
+            "z": 0.5
+          }
+        }
+      },
+      {
+        "title": "treasures.top.rebirth.title",
+        "field": "rebirth",
+        "nickName": "treasures.top.nick-name",
+        "fieldName": "treasures.top.rebirth.field-name",
+        "fieldFormat": "§d%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "top",
+          "tag": "rebirth",
+          "yaw": 90,
+          "offset": {
+            "x": 0.01,
+            "y": 0.25,
+            "z": 0.5
+          }
+        }
+      },
+      {
+        "title": "treasures.top.money.title",
+        "field": "money",
+        "nickName": "treasures.top.nick-name",
+        "fieldName": "treasures.top.money.field-name",
+        "fieldFormat": "§6%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "top",
+          "tag": "money",
+          "yaw": -90,
+          "offset": {
+            "x": 0.99,
+            "y": 0.25,
+            "z": 0.5
+          }
+        }
+      },
+      {
+        "title": "treasures.top.blocks.title",
+        "field": "blocks",
+        "nickName": "treasures.top.nick-name",
+        "fieldName": "treasures.top.blocks.field-name",
+        "fieldFormat": "§c%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "top",
+          "tag": "blocks",
+          "yaw": -90,
+          "offset": {
+            "x": 0.99,
+            "y": 0.25,
+            "z": 0.5
+          }
         }
       }
-    },
-    {
-      "title": "treasures.top.rebirth.title",
-      "field": "rebirth",
-      "nickName": "treasures.top.nick-name",
-      "fieldName": "treasures.top.rebirth.field-name",
-      "fieldFormat": "§d%format%",
-      "fieldSize": 20,
-      "nameSize": 40,
-      "limit": 50,
-      "location": {
-        "name": "top",
-        "tag": "rebirth",
-        "yaw": 90,
-        "offset": {
-          "x": 0.01,
-          "y": 0.25,
-          "z": 0.5
-        }
-      }
-    },
-    {
-      "title": "treasures.top.money.title",
-      "field": "money",
-      "nickName": "treasures.top.nick-name",
-      "fieldName": "treasures.top.money.field-name",
-      "fieldFormat": "§6%format%",
-      "fieldSize": 20,
-      "nameSize": 40,
-      "limit": 50,
-      "location": {
-        "name": "top",
-        "tag": "money",
-        "yaw": -90,
-        "offset": {
-          "x": 0.99,
-          "y": 0.25,
-          "z": 0.5
-        }
-      }
-    },
-    {
-      "title": "treasures.top.blocks.title",
-      "field": "blocks",
-      "nickName": "treasures.top.nick-name",
-      "fieldName": "treasures.top.blocks.field-name",
-      "fieldFormat": "§c%format%",
-      "fieldSize": 20,
-      "nameSize": 40,
-      "limit": 50,
-      "location": {
-        "name": "top",
-        "tag": "blocks",
-        "yaw": -90,
-        "offset": {
-          "x": 0.99,
-          "y": 0.25,
-          "z": 0.5
-        }
-      }
-    }
-  ]
+    ]
+  }
 }
