@@ -7,5 +7,15 @@
   "map": {
     "type": "Simulators",
     "name": "hub"
+  },
+  "items": {
+    "0": {
+      "stack": {
+        "type": "COMPASS"
+      },
+      "onClick": [
+        "join-simulator %player% lumberjack"
+      ]
+    }
   }
 }
