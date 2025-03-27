@@ -1,46 +1,59 @@
 {
   "main": {
+    "banner": {
+      "texture": "banner.png",
+      "title": "Telegram канал Симуляторов",
+      "description": "Там все новости и обновления!",
+      "buttons": [
+        {
+          "name": "Перейти",
+          "openUrl": "https://t.me/crisimulators"
+        }
+      ]
+    },
     "elements": [
       {
-        "icon": "settings.png",
-        "title": "destruction.menu.main.buttons.settings.title",
-        "onSelect": [
-          "sudo %player% settings"
-        ]
-      },
-      {
-        "icon": "runes.png",
-        "title": "destruction.menu.main.buttons.equipment.title",
+        "icon": "equipment.png",
+        "title": "lumberjack.menu.main.buttons.equipment.title",
+        "weight": 2,
         "onSelect": [
           "sudo %player% equipment"
         ]
       },
       {
-        "icon": "daily.png",
-        "title": "destruction.menu.main.buttons.daily.title",
-        "onSelect": [
-          "sudo %player% daily"
-        ]
-      },
-      {
         "icon": "donate.png",
-        "title": "destruction.menu.main.buttons.donate.title",
+        "title": "lumberjack.menu.main.buttons.donate.title",
+        "weight": 2,
         "onSelect": [
           "sudo %player% donate"
         ]
       },
       {
         "icon": "quests.png",
-        "title": "destruction.menu.main.buttons.quests.title",
+        "title": "lumberjack.menu.main.buttons.quests.title",
         "onSelect": [
           "sudo %player% quest"
         ]
       },
       {
-        "icon": "bits.png",
-        "title": "destruction.menu.main.buttons.shop.title",
+        "icon": "daily.png",
+        "title": "lumberjack.menu.main.buttons.daily.title",
+        "onSelect": [
+          "sudo %player% daily"
+        ]
+      },
+      {
+        "icon": "shop.png",
+        "title": "lumberjack.menu.main.buttons.shop.title",
         "onSelect": [
           "sudo %player% bits"
+        ]
+      },
+      {
+        "icon": "settings.png",
+        "title": "lumberjack.menu.main.buttons.settings.title",
+        "onSelect": [
+          "sudo %player% settings"
         ]
       }
     ]
