@@ -18,6 +18,15 @@
       ],
       "printStat": [1]
     },
+    "DROPPER": {
+      "title": "treasures.incident.dropper.title",
+      "description": "treasures.incident.dropper.description",
+      "stat": [ 60, 0.5, 0.0, 100, 1 ],
+      "awaitAt": [
+        "1:45:0"
+      ],
+      "printStat": [1]
+    },
     "SUPERCHARGING": {
       "title": "treasures.incident.supercharging.title",
       "description": "treasures.incident.supercharging.description",
@@ -129,6 +138,81 @@
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 2, "y": 0}
+          }
+        ]
+      },
+      {
+        "treeNodes": [
+          {
+            "incidentId": "DROPPER",
+            "id": "dropper_worth_coin_1",
+            "title": "Ценность коина",
+            "description": "treasures.incident.upgrade.percent.description",
+            "statId": 3,
+            "additional": 100,
+            "price": 5,
+            "maxProgress": 10,
+            "viewpoint": {"x": 0, "y": 0}
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_worth_coin_1",
+            "id": "dropper_chance_bits_1",
+            "title": "Шанс на битс",
+            "description": "treasures.incident.upgrade.percent.description",
+            "statId": 2,
+            "additional": 2,
+            "price": 10,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": -1}
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_worth_coin_1",
+            "id": "dropper_duration_1",
+            "title": "Длительность",
+            "description": "treasures.incident.upgrade.duration.description",
+            "statId": 0,
+            "additional": 10,
+            "price": 10,
+            "maxProgress": 10,
+            "viewpoint": {"x": 1, "y": 0}
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_worth_coin_1",
+            "id": "dropper_spawn_every_1",
+            "title": "Спавн каждые",
+            "description": "treasures.incident.upgrade.duration.description",
+            "statId": 1,
+            "additional": -0.03,
+            "price": 10,
+            "maxProgress": 10,
+            "viewpoint": {"x": 1, "y": 1}
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_chance_bits_1",
+            "id": "dropper_worth_bits_1",
+            "title": "Ценность битс",
+            "description": "treasures.incident.upgrade.percent.description",
+            "statId": 4,
+            "additional": 2,
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 2, "y": -1}
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_spawn_every_1",
+            "id": "dropper_worth_coin_2",
+            "title": "Ценность коина II",
+            "description": "treasures.incident.upgrade.percent.description",
+            "statId": 3,
+            "additional": 1000,
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 2, "y": -1}
           }
         ]
       },
