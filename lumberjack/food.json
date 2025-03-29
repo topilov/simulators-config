@@ -1,0 +1,26 @@
+{
+  "messages": {
+    "cannotEat": "lumberjack.food.cannot-eat"
+  },
+  "onChange": {
+    "11-20": [
+      "remove-potion-effect %player% SLOW_DIGGING"
+    ],
+    "6-10": [
+      "add-potion-effect %player% SLOW_DIGGING 0"
+    ],
+    "3-5": [
+      "add-potion-effect %player% SLOW_DIGGING 1"
+    ],
+    "0-2": [
+      "add-potion-effect %player% SLOW_DIGGING 2"
+    ]
+  },
+  "food": [
+    "BREAD",
+    "GOLDEN_APPLE",
+    "POTION",
+    "COOKED_RABBIT",
+    "COOKED_BEEF"
+  ]
+}

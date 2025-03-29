@@ -1,0 +1,600 @@
+{
+  "messages": {
+    "blockDrop": "lumberjack.felling.messages.block-drop"
+  },
+  "cooldown": {
+    "respawn": 20
+  },
+  "locations": {
+    "1": {
+      "blocks": {
+        "LOG": {
+          "data": {
+            "1": {
+              "replacedType": "FENCE",
+              "blockPerOne": 1,
+              "expPerOne": 1
+            },
+            "12": {
+              "replacedType": "FENCE",
+              "blockPerOne": 1,
+              "expPerOne": 1
+            },
+            "13": {
+              "replacedType": "SPRUCE_FENCE",
+              "blockPerOne": 1,
+              "expPerOne": 1
+            }
+          }
+        }
+      },
+      "drops": [
+        {
+          "chance": 86,
+          "itemStack": null
+        },
+        {
+          "chance": 10,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.1.name",
+            "lore": "lumberjack.felling.drop.rare.lore",
+            "data": {
+              "sim": "branch",
+              "price": 25.0,
+              "hoverColor": "GREEN"
+            }
+          }
+        },
+        {
+          "chance": 3.2,
+          "itemStack": {
+            "type": "APPLE",
+            "name": "lumberjack.felling.drop.2.name",
+            "lore": "lumberjack.felling.drop.epic.lore",
+            "data": {
+              "sim": "apple",
+              "price": 60.0,
+              "hoverColor": "PURPLE"
+            }
+          }
+        },
+        {
+          "chance": 0.8,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.3.name",
+            "lore": "lumberjack.felling.drop.legendary.lore",
+            "data": {
+              "sim": "acorn",
+              "price": 100.0,
+              "hoverColor": "YELLOW"
+            }
+          }
+        }
+      ]
+    },
+    "2": {
+      "blocks": {
+        "LOG_2": {
+          "data": {
+            "12": {
+              "replacedType": "ACACIA_FENCE",
+              "blockPerOne": 1.2,
+              "expPerOne": 2
+            },
+            "0": {
+              "replacedType": "ACACIA_FENCE",
+              "blockPerOne": 1.2,
+              "expPerOne": 2
+            }
+          }
+        },
+        "WOOD": {
+          "data": {
+            "3": {
+              "replacedType": "ACACIA_FENCE",
+              "blockPerOne": 1.2,
+              "expPerOne": 2
+            },
+            "1": {
+              "replacedType": "ACACIA_FENCE",
+              "blockPerOne": 1.2,
+              "expPerOne": 2
+            }
+          }
+        },
+        "ACACIA_WOOD": {
+          "data": {
+            "0": {
+              "replacedType": "ACACIA_FENCE",
+              "blockPerOne": 1.2,
+              "expPerOne": 2
+            }
+          }
+        }
+      },
+      "drops": [
+        {
+          "chance": 86,
+          "itemStack": null
+        },
+        {
+          "chance": 10,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.10.name",
+            "lore": "lumberjack.felling.drop.rare.lore",
+            "data": {
+              "sim": "red_leaves",
+              "price": 65.0,
+              "hoverColor": "GREEN"
+            }
+          }
+        },
+        {
+          "chance": 3.2,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.11.name",
+            "lore": "lumberjack.felling.drop.epic.lore",
+            "data": {
+              "sim": "redwood_bark",
+              "price": 130.0,
+              "hoverColor": "PURPLE"
+            }
+          }
+        },
+        {
+          "chance": 0.8,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.12.name",
+            "lore": "lumberjack.felling.drop.legendary.lore",
+            "data": {
+              "sim": "redwood_plank",
+              "price": 210.0,
+              "hoverColor": "YELLOW"
+            }
+          }
+        }
+      ]
+    },
+    "3": {
+      "blocks": {
+        "LOG": {
+          "data": {
+            "12": {
+              "replacedType": "FENCE",
+              "blockPerOne": 1.4,
+              "expPerOne": 3
+            },
+            "0": {
+              "replacedType": "FENCE",
+              "blockPerOne": 1.4,
+              "expPerOne": 3
+            }
+          }
+        },
+        "FIR_BLOCK": {
+          "data": {
+            "0": {
+              "replacedType": "FIR_FENCE",
+              "blockPerOne": 1.4,
+              "expPerOne": 3
+            }
+          }
+        },
+        "WOOD": {
+          "data": {
+            "1": {
+              "replacedType": "FENCE",
+              "blockPerOne": 1.4,
+              "expPerOne": 3
+            }
+          }
+        }
+      },
+      "drops": [
+        {
+          "chance": 86,
+          "itemStack": null
+        },
+        {
+          "chance": 10,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.7.name",
+            "lore": "lumberjack.felling.drop.rare.lore",
+            "data": {
+              "sim": "birch_dust",
+              "price": 90.0,
+              "hoverColor": "GREEN"
+            }
+          }
+        },
+        {
+          "chance": 3.2,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.8.name",
+            "lore": "lumberjack.felling.drop.epic.lore",
+            "data": {
+              "sim": "small_sawdust",
+              "price": 180.0,
+              "hoverColor": "PURPLE"
+            }
+          }
+        },
+        {
+          "chance": 0.8,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.9.name",
+            "lore": "lumberjack.felling.drop.legendary.lore",
+            "data": {
+              "sim": "birch_sap",
+              "price": 370.0,
+              "hoverColor": "YELLOW"
+            }
+          }
+        }
+      ]
+    },
+    "4": {
+      "blocks": {
+        "STRIPPED_JUNGLE_WOOD": {
+          "data": {
+            "0": {
+              "replacedType": "BIRCH_FENCE",
+              "blockPerOne": 1.6,
+              "expPerOne": 4
+            },
+            "4": {
+              "replacedType": "BIRCH_FENCE",
+              "blockPerOne": 1.6,
+              "expPerOne": 4
+            },
+            "8": {
+              "replacedType": "BIRCH_FENCE",
+              "blockPerOne": 1.6,
+              "expPerOne": 4
+            }
+          }
+        },
+        "STRIPPED_OAK_WOOD": {
+          "data": {
+            "0": {
+              "replacedType": "BIRCH_FENCE",
+              "blockPerOne": 1.6,
+              "expPerOne": 4
+            },
+            "4": {
+              "replacedType": "BIRCH_FENCE",
+              "blockPerOne": 1.6,
+              "expPerOne": 4
+            },
+            "8": {
+              "replacedType": "BIRCH_FENCE",
+              "blockPerOne": 1.6,
+              "expPerOne": 4
+            }
+          }
+        },
+        "STRIPPED_BIRCH_WOOD": {
+          "data": {
+            "0": {
+              "replacedType": "BIRCH_FENCE",
+              "blockPerOne": 1.6,
+              "expPerOne": 4
+            },
+            "4": {
+              "replacedType": "BIRCH_FENCE",
+              "blockPerOne": 1.6,
+              "expPerOne": 4
+            }
+          }
+        },
+        "WOOD": {
+          "data": {
+            "3": {
+              "replacedType": "BIRCH_FENCE",
+              "blockPerOne": 1.6,
+              "expPerOne": 4
+            }
+          }
+        }
+      },
+      "drops": [
+        {
+          "chance": 86,
+          "itemStack": null
+        },
+        {
+          "chance": 10,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.4.name",
+            "lore": "lumberjack.felling.drop.rare.lore",
+            "data": {
+              "sim": "large_sawdust",
+              "price": 170.0,
+              "hoverColor": "GREEN"
+            }
+          }
+        },
+        {
+          "chance": 3.2,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.5.name",
+            "lore": "lumberjack.felling.drop.epic.lore",
+            "data": {
+              "sim": "acacia_bark",
+              "price": 330.0,
+              "hoverColor": "PURPLE"
+            }
+          }
+        },
+        {
+          "chance": 0.8,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.6.name",
+            "lore": "lumberjack.felling.drop.legendary.lore",
+            "data": {
+              "sim": "acacia_plank",
+              "price": 550.0,
+              "hoverColor": "YELLOW"
+            }
+          }
+        }
+      ]
+    },
+    "5": {
+      "blocks": {
+        "STRIPPED_DARK_OAK_WOOD": {
+          "data": {
+            "0": {
+              "replacedType": "DARK_OAK_FENCE",
+              "blockPerOne": 1.8,
+              "expPerOne": 5
+            },
+            "4": {
+              "replacedType": "DARK_OAK_FENCE",
+              "blockPerOne": 1.8,
+              "expPerOne": 5
+            },
+            "8": {
+              "replacedType": "DARK_OAK_FENCE",
+              "blockPerOne": 1.8,
+              "expPerOne": 5
+            }
+          }
+        },
+        "WOOD": {
+          "data": {
+            "5": {
+              "replacedType": "DARK_OAK_FENCE",
+              "blockPerOne": 1.8,
+              "expPerOne": 5
+            }
+          }
+        },
+        "LOG_2": {
+          "data": {
+            "1": {
+              "replacedType": "DARK_OAK_FENCE",
+              "blockPerOne": 1.8,
+              "expPerOne": 5
+            }
+          }
+        }
+      },
+      "drops": [
+        {
+          "chance": 86,
+          "itemStack": null
+        },
+        {
+          "chance": 10,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.13.name",
+            "lore": "lumberjack.felling.drop.rare.lore",
+            "data": {
+              "sim": "leaves",
+              "price": 365.0,
+              "hoverColor": "GREEN"
+            }
+          }
+        },
+        {
+          "chance": 3.2,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.14.name",
+            "lore": "lumberjack.felling.drop.epic.lore",
+            "data": {
+              "sim": "darkoak_shepka",
+              "price": 720.0,
+              "hoverColor": "PURPLE"
+            }
+          }
+        },
+        {
+          "chance": 0.8,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.15.name",
+            "lore": "lumberjack.felling.drop.legendary.lore",
+            "data": {
+              "sim": "darkoak_acorn",
+              "price": 1150.0,
+              "hoverColor": "YELLOW"
+            }
+          }
+        }
+      ]
+    },
+    "6": {
+      "blocks": {
+        "MANGROVE_WOOD": {
+          "data": {
+            "0": {
+              "replacedType": "DARK_OAK_FENCE",
+              "blockPerOne": 2.1,
+              "expPerOne": 7
+            },
+            "4": {
+              "replacedType": "DARK_OAK_FENCE",
+              "blockPerOne": 2.1,
+              "expPerOne": 7
+            },
+            "8": {
+              "replacedType": "DARK_OAK_FENCE",
+              "blockPerOne": 2.1,
+              "expPerOne": 7
+            }
+          }
+        },
+        "WOOD": {
+          "data": {
+            "5": {
+              "replacedType": "DARK_OAK_FENCE",
+              "blockPerOne": 2.1,
+              "expPerOne": 7
+            }
+          }
+        }
+      },
+      "drops": [
+        {
+          "chance": 86,
+          "itemStack": null
+        },
+        {
+          "chance": 10,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.16.name",
+            "lore": "lumberjack.felling.drop.rare.lore",
+            "data": {
+              "sim": "spruce_branch",
+              "price": 600.0,
+              "hoverColor": "GREEN"
+            }
+          }
+        },
+        {
+          "chance": 3.2,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.17.name",
+            "lore": "lumberjack.felling.drop.epic.lore",
+            "data": {
+              "sim": "spruce_cone",
+              "price": 1200.0,
+              "hoverColor": "PURPLE"
+            }
+          }
+        },
+        {
+          "chance": 0.8,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.18.name",
+            "lore": "lumberjack.felling.drop.legendary.lore",
+            "data": {
+              "sim": "spruce_sap",
+              "price": 1950.0,
+              "hoverColor": "YELLOW"
+            }
+          }
+        }
+      ]
+    },
+    "7": {
+      "blocks": {
+        "LOG": {
+          "data": {
+            "0": {
+              "replacedType": "JUNGLE_FENCE",
+              "blockPerOne": 2.5,
+              "expPerOne": 10
+            },
+            "3": {
+              "replacedType": "JUNGLE_FENCE",
+              "blockPerOne": 2.5,
+              "expPerOne": 10
+            },
+            "12": {
+              "replacedType": "JUNGLE_FENCE",
+              "blockPerOne": 2.5,
+              "expPerOne": 10
+            },
+            "15": {
+              "replacedType": "JUNGLE_FENCE",
+              "blockPerOne": 2.5,
+              "expPerOne": 10
+            }
+          }
+        },
+        "OAK_WOOD": {
+          "data": {
+            "0": {
+              "replacedType": "JUNGLE_FENCE",
+              "blockPerOne": 2.5,
+              "expPerOne": 10
+            }
+          }
+        }
+      },
+      "drops": [
+        {
+          "chance": 86,
+          "itemStack": null
+        },
+        {
+          "chance": 10,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.19.name",
+            "lore": "lumberjack.felling.drop.rare.lore",
+            "data": {
+              "sim": "jungle_branch",
+              "price": 900.0,
+              "hoverColor": "GREEN"
+            }
+          }
+        },
+        {
+          "chance": 3.2,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.20.name",
+            "lore": "lumberjack.felling.drop.epic.lore",
+            "data": {
+              "sim": "jungle_shepka",
+              "price": 1900.0,
+              "hoverColor": "PURPLE"
+            }
+          }
+        },
+        {
+          "chance": 0.8,
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "lumberjack.felling.drop.21.name",
+            "lore": "lumberjack.felling.drop.legendary.lore",
+            "data": {
+              "sim": "cocao_beans",
+              "price": 3050.0,
+              "hoverColor": "YELLOW"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -18,20 +18,20 @@
         "20:0:0",
         "22:0:0"
       ],
-      "startMessage": "lumberjack.event.blocks.start_message",
-      "endMessage": "lumberjack.event.blocks.end_message",
+      "startMessage": "lumberjack.event.blocks.start-message",
+      "endMessage": "lumberjack.event.blocks.end-message",
       "reward": {
         "1": [
-          "give-key %player% PET",
-          "random-money %player% 50.0 150.0 2147483647"
+          "give-key %player% RUNE 2",
+          "random-money %player% 70.0 70.1 1"
         ],
         "2": [
-          "give-key %player% DEFAULT",
-          "random-money %player% 50.0 100.0 2147483647"
+          "give-key %player% RUNE 1",
+          "random-money %player% 55.0 55.1 1"
         ],
         "3": [
-          "give-key %player% DEFAULT",
-          "random-money %player% 25.0 100.0 2147483647"
+          "give-key %player% RUNE 1",
+          "random-money %player% 40.0 40.1 1"
         ]
       },
       "isGlobal": true
@@ -54,20 +54,20 @@
         "21:0:0",
         "23:0:0"
       ],
-      "startMessage": "lumberjack.event.mobs.start_message",
-      "endMessage": "lumberjack.event.mobs.end_message",
+      "startMessage": "lumberjack.event.mobs.start-message",
+      "endMessage": "lumberjack.event.mobs.end-message",
       "reward": {
         "1": [
-          "give-key %player% PET",
-          "random-money %player% 50.0 150.0 2147483647"
+          "give-key %player% PET 2",
+          "random-money %player% 70.0 70.1 1"
         ],
         "2": [
-          "give-key %player% DEFAULT",
-          "random-money %player% 50.0 100.0 2147483647"
+          "give-key %player% PET 1",
+          "random-money %player% 55.0 55.1 1"
         ],
         "3": [
-          "give-key %player% DEFAULT",
-          "random-money %player% 25.0 100.0 2147483647"
+          "give-key %player% PET 1",
+          "random-money %player% 40.0 40.1 1"
         ]
       },
       "isGlobal": true

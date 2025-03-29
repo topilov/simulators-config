@@ -1,0 +1,225 @@
+{
+  "stages": {
+    "FELL_TREE_BLOCKS": {
+      "stageId": 1,
+      "required": 10,
+      "title": "lumberjack.tutorial.fell-tree-blocks.title",
+      "description": "lumberjack.tutorial.fell-tree-blocks.description",
+      "progressTitle": "lumberjack.tutorial.fell-tree-blocks.progress.title",
+      "pathLocation": {
+        "name": "tree",
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -1.0
+        }
+      }
+    },
+    "SELL_BLOCKS": {
+      "stageId": 2,
+      "title": "lumberjack.tutorial.sell-blocks.title",
+      "description": "lumberjack.tutorial.sell-blocks.description",
+      "pathLocation": {
+        "name": "sell",
+        "tag": "dnk",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "GET_FELLING_DROP": {
+      "stageId": 3,
+      "required": 3,
+      "title": "lumberjack.tutorial.get-felling-drop.title",
+      "description": "lumberjack.tutorial.get-felling-drop.description",
+      "progressTitle": "lumberjack.tutorial.get-felling-drop.progress.title"
+    },
+    "SELL_FELLING_DROP": {
+      "stageId": 4,
+      "title": "lumberjack.tutorial.sell-drops.title",
+      "description": "lumberjack.tutorial.sell-drops.description",
+      "pathLocation": {
+        "name": "sell",
+        "tag": "drops",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "UPGRADE_TOOL": {
+      "stageId": 5,
+      "title": "lumberjack.tutorial.upgrade-tool.title",
+      "description": "lumberjack.tutorial.upgrade-tool.description",
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "items",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 100 false"
+      ]
+    },
+    "KILL_RABBIT": {
+      "stageId": 6,
+      "required": 2,
+      "title": "lumberjack.tutorial.kill-rabbit.title",
+      "description": "lumberjack.tutorial.kill-rabbit.description",
+      "progressTitle": "lumberjack.tutorial.kill-rabbit.progress.title"
+    },
+    "GET_MOB_DROP": {
+      "stageId": 7,
+      "required": 2,
+      "title": "lumberjack.tutorial.get-mob-drop.title",
+      "description": "lumberjack.tutorial.get-mob-drop.description",
+      "progressTitle": "lumberjack.tutorial.get-mob-drop.progress.title"
+    },
+    "SELL_MOB_DROP": {
+      "stageId": 8,
+      "title": "lumberjack.tutorial.sell-mob-drop.title",
+      "description": "lumberjack.tutorial.sell-mob-drop.description",
+      "pathLocation": {
+        "name": "sell",
+        "tag": "drops",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "UPGRADE_STORAGE": {
+      "stageId": 9,
+      "title": "lumberjack.tutorial.upgrade-storage.title",
+      "description": "lumberjack.tutorial.upgrade-storage.description",
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "dnk",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 500 false"
+      ]
+    },
+    "OPEN_DEFAULT_LOOTBOX": {
+      "stageId": 10,
+      "title": "lumberjack.tutorial.open-default-lootbox.title",
+      "description": "lumberjack.tutorial.open-default-lootbox.description",
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "default",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "give-key %player% DEFAULT 1"
+      ]
+    },
+    "OPEN_PET_LOOTBOX": {
+      "stageId": 11,
+      "title": "lumberjack.tutorial.open-pet-lootbox.title",
+      "description": "lumberjack.tutorial.open-pet-lootbox.description",
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "pets",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "give-key %player% PET 1"
+      ]
+    },
+    "OPEN_RUNE_LOOTBOX": {
+      "stageId": 12,
+      "title": "lumberjack.tutorial.open-rune-lootbox.title",
+      "description": "lumberjack.tutorial.open-rune-lootbox.description",
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "runes",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "give-key %player% RUNE 1"
+      ]
+    },
+    "TAKE_DAILY_REWARD": {
+      "stageId": 13,
+      "isSaving": true,
+      "title": "lumberjack.tutorial.take-daily-reward.title",
+      "description": "lumberjack.tutorial.take-daily-reward.description"
+    },
+    "OPEN_TITLE_LOOTBOX": {
+      "stageId": 14,
+      "title": "lumberjack.tutorial.open-title-lootbox.title",
+      "description": "lumberjack.tutorial.open-title-lootbox.description",
+      "isSaving": true,
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "titles",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "WEAR_EQUIPMENT": {
+      "stageId": 15,
+      "title": "lumberjack.tutorial.wear-equipment.title",
+      "description": "lumberjack.tutorial.wear-equipment.description"
+    },
+    "LEVEL_UP": {
+      "stageId": 16,
+      "title": "lumberjack.tutorial.level-up.title",
+      "description": "lumberjack.tutorial.level-up.description",
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "level",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "LOCATION_TELEPORT": {
+      "stageId": 17,
+      "title": "lumberjack.tutorial.location-teleport.title",
+      "description": "lumberjack.tutorial.location-teleport.description",
+      "pathLocation": {
+        "name": "locations",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "REBIRTH": {
+      "stageId": 18,
+      "title": "lumberjack.tutorial.rebirth.title",
+      "description": "lumberjack.tutorial.rebirth.description"
+    }
+  }
+}

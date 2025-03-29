@@ -11,10 +11,6 @@
       "content": "lumberjack.level.requirement.money.content",
       "icon": "money.png"
     },
-    "mobs": {
-      "content": "lumberjack.level.requirement.mobs.content",
-      "icon": "mobs.png"
-    },
     "blocks": {
       "content": "lumberjack.level.requirement.blocks.content",
       "icon": "blocks.png"
@@ -25,185 +21,178 @@
   ],
   "level": {
     "1": {
-      "price": 8500,
-      "blocks": 1200,
-      "mobs": 35,
+      "price": 5000,
+      "blocks": 800,
+      "hp": 2.0,
+      "mobs": [
+        {
+          "icon": "\uE33D",
+          "texture": "rabbit.png",
+          "count": 8,
+          "type": "RABBIT",
+          "name": "lumberjack.level.requirement.mobs.rabbit.content"
+        },
+        {
+          "icon": "\uE342",
+          "texture": "fox.png",
+          "count": 8,
+          "type": "FOX",
+          "name": "lumberjack.level.requirement.mobs.fox.content"
+        }
+      ],
       "rewards": [
         {
           "emoji": "\uE1F0",
           "title": "lumberjack.level.rewards.location.title",
           "subtitle": "lumberjack.location.savannah.title"
-        },
-        {
-          "emoji": "\uE040",
-          "title": "5000",
-          "subtitle": ""
-        },
-        {
-          "emoji": "\uE1D1",
-          "title": "5",
-          "subtitle": ""
         }
       ]
     },
     "2": {
-      "price": 21500,
+      "price": 17500,
       "blocks": 1750,
-      "mobs": 45,
+      "hp": 2.0,
+      "mobs": [
+        {
+          "icon": "\uE33D",
+          "texture": "buffalo.png",
+          "count": 12,
+          "type": "BUFFALO",
+          "name": "lumberjack.level.requirement.mobs.buffalo.content"
+        },
+        {
+          "icon": "\uE342",
+          "texture": "ocelot.png",
+          "count": 12,
+          "type": "OCELOT",
+          "name": "lumberjack.level.requirement.mobs.ocelot.content"
+        }
+      ],
       "rewards": [
         {
           "emoji": "\uE1F0",
           "title": "lumberjack.level.rewards.location.title",
           "subtitle": "lumberjack.location.tuscany.title"
-        },
-        {
-          "emoji": "\uE040",
-          "title": "5000",
-          "subtitle": ""
-        },
-        {
-          "emoji": "\uE1D1",
-          "title": "5",
-          "subtitle": ""
         }
       ]
     },
     "3": {
-      "price": 53000,
-      "blocks": 4500,
-      "mobs": 75,
+      "price": 43000,
+      "blocks": 3700,
+      "hp": 2.0,
+      "mobs": [
+        {
+          "icon": "\uE33D",
+          "texture": "pony.png",
+          "count": 16,
+          "type": "PONY",
+          "name": "lumberjack.level.requirement.mobs.pony.content"
+        },
+        {
+          "icon": "\uE342",
+          "texture": "vintner.png",
+          "count": 16,
+          "type": "GRAPE_PICKER",
+          "name": "lumberjack.level.requirement.mobs.grape-picker.content"
+        }
+      ],
       "rewards": [
         {
           "emoji": "\uE1F0",
           "title": "lumberjack.level.rewards.location.title",
           "subtitle": "lumberjack.location.madagascar.title"
-        },
-        {
-          "emoji": "\uE040",
-          "title": "5000",
-          "subtitle": ""
-        },
-        {
-          "emoji": "\uE1D1",
-          "title": "5",
-          "subtitle": ""
         }
       ]
     },
     "4": {
-      "price": 130000,
+      "price": 90000,
       "blocks": 6500,
-      "mobs": 135,
+      "hp": 2.0,
+      "mobs": [
+        {
+          "icon": "\uE33D",
+          "texture": "wolf.png",
+          "count": 20,
+          "type": "TREE_WOLF",
+          "name": "lumberjack.level.requirement.mobs.tree-wolf.content"
+        },
+        {
+          "icon": "\uE342",
+          "texture": "braconier.png",
+          "count": 20,
+          "type": "POACHER",
+          "name": "lumberjack.level.requirement.mobs.poacher.content"
+        }
+      ],
       "rewards": [
         {
           "emoji": "\uE1F0",
           "title": "lumberjack.level.rewards.location.title",
           "subtitle": "lumberjack.location.dark-forest.title"
-        },
-        {
-          "emoji": "\uE040",
-          "title": "5000",
-          "subtitle": ""
-        },
-        {
-          "emoji": "\uE1D1",
-          "title": "5",
-          "subtitle": ""
         }
       ]
     },
     "5": {
-      "price": 330000,
+      "price": 280000,
       "blocks": 16400,
-      "mobs": 255,
+      "hp": 2.0,
+      "mobs": [
+        {
+          "icon": "\uE33D",
+          "texture": "nightmare.png",
+          "count": 70,
+          "type": "NIGHTMARE",
+          "name": "lumberjack.level.requirement.mobs.nightmare.content"
+        },
+        {
+          "icon": "\uE342",
+          "texture": "ghost.png",
+          "count": 20,
+          "type": "GHOST",
+          "name": "lumberjack.level.requirement.mobs.ghost.content"
+        }
+      ],
       "rewards": [
         {
           "emoji": "\uE1F0",
           "title": "lumberjack.level.rewards.location.title",
           "subtitle": "lumberjack.location.taiga.title"
-        },
-        {
-          "emoji": "\uE040",
-          "title": "5000",
-          "subtitle": ""
-        },
-        {
-          "emoji": "\uE1D1",
-          "title": "5",
-          "subtitle": ""
         }
       ]
     },
     "6": {
-      "price": 630000,
-      "blocks": 41000,
-      "mobs": 500,
+      "price": 600000,
+      "blocks": 38000,
+      "hp": 2.0,
+      "mobs": [
+        {
+          "icon": "\uE33D",
+          "texture": "arctic_fox.png",
+          "count": 75,
+          "type": "ARCTIC_FOX",
+          "name": "lumberjack.level.requirement.mobs.arctic-fox.content"
+        },
+        {
+          "icon": "\uE342",
+          "texture": "eskimo.png",
+          "count": 75,
+          "type": "ESKIMO",
+          "name": "lumberjack.level.requirement.mobs.eskimo.content"
+        }
+      ],
       "rewards": [
         {
           "emoji": "\uE1F0",
           "title": "lumberjack.level.rewards.location.title",
           "subtitle": "lumberjack.location.jungles.title"
-        },
-        {
-          "emoji": "\uE040",
-          "title": "5000",
-          "subtitle": ""
-        },
-        {
-          "emoji": "\uE1D1",
-          "title": "5",
-          "subtitle": ""
         }
       ]
     },
     "7": {
-      "price": 950000,
-      "blocks": 61500,
-      "mobs": 750,
-      "rewards": [
-        {
-          "emoji": "\uE1F0",
-          "title": "lumberjack.level.rewards.location.title",
-          "subtitle": "lumberjack.location.alps.title"
-        },
-        {
-          "emoji": "\uE040",
-          "title": "5000",
-          "subtitle": ""
-        },
-        {
-          "emoji": "\uE1D1",
-          "title": "5",
-          "subtitle": ""
-        }
-      ]
-    },
-    "8": {
-      "price": 1300000,
-      "blocks": 150000,
-      "mobs": 900,
-      "rewards": [
-        {
-          "emoji": "\uE1F0",
-          "title": "lumberjack.level.rewards.location.title",
-          "subtitle": "lumberjack.location.lakes.title"
-        },
-        {
-          "emoji": "\uE040",
-          "title": "5000",
-          "subtitle": ""
-        },
-        {
-          "emoji": "\uE1D1",
-          "title": "5",
-          "subtitle": ""
-        }
-      ]
-    },
-    "9": {
-      "price": -1,
+      "price": -2,
       "blocks": -1,
-      "mobs": -1,
+      "mobs": [],
+      "hp": 2.0,
       "rewards": []
     }
   }

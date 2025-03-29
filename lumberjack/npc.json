@@ -19,6 +19,24 @@
       ]
     },
     {
+      "name": "lumberjack.npc.sell.drops.title",
+      "location": {
+        "name": "sell",
+        "tag": "drops",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/lumberjack/skins/sell-drops.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-drops %player%"
+      ]
+    },
+    {
       "name": "lumberjack.npc.upgrade.items.title",
       "location": {
         "name": "upgrade",
@@ -29,7 +47,7 @@
           "z": 0.5
         }
       },
-      "skin": "https://storage.c7x.dev/topil_ov/lumberjack/skins/upgrade-item.png",
+      "skin": "https://storage.c7x.dev/topil_ov/lumberjack/skins/upgrade-items.png",
       "skinType": "SLIM",
       "lookAtPlayer": true,
       "onClick": [
@@ -105,6 +123,23 @@
       "lookAtPlayer": true,
       "onClick": [
         "sudo %player% locations"
+      ]
+    },
+    {
+      "name": "lumberjack.npc.trader.title",
+      "location": {
+        "name": "trader",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/lumberjack/skins/sell-item.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-tool %player%"
       ]
     }
   ]

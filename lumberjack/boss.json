@@ -1,0 +1,398 @@
+{
+  "text": {
+    "score": "lumberjack.boss.score.text",
+    "banner": "lumberjack.boss.banner.text"
+  },
+  "banner": {
+    "content": "",
+    "lookAtPlayerX": true,
+    "lookAtPlayerY": true,
+    "color": {
+      "hex": "#1E1E1E"
+    },
+    "scale": 2.0
+  },
+  "locations": {
+    "1": {
+      "bosses": {
+        "RABBIT_KILLER": {
+          "spawnAt": [
+            "0:0:0",
+            "1:0:0",
+            "2:0:0",
+            "3:0:0",
+            "4:0:0",
+            "5:0:0",
+            "6:0:0",
+            "7:0:0",
+            "8:0:0",
+            "9:0:0",
+            "10:0:0",
+            "11:0:0",
+            "12:0:0",
+            "13:0:0",
+            "14:0:0",
+            "15:0:0",
+            "16:0:0",
+            "17:0:0",
+            "18:0:0",
+            "19:0:0",
+            "20:0:0",
+            "21:0:0",
+            "22:0:0",
+            "23:0:0"
+          ],
+          "type": "RABBIT_KILLER",
+          "settings": {
+            "health": 500,
+            "damage": 7,
+            "speed": 0.7,
+            "location": { "name": "boss" },
+            "spawnBox": { "name": "spawn-box" },
+            "customName": "lumberjack.boss.rabbit-killer.name",
+            "scale": { "x": 4.0, "y": 4.0, "z": 4.0 }
+          },
+          "messages": {
+            "onSpawn": "lumberjack.boss.rabbit-killer.spawn-message",
+            "onDeath": "lumberjack.boss.rabbit-killer.death-message"
+          },
+          "reward": [
+            [
+              "give-key %player% DEFAULT 10",
+              "earn-exp %player% 2500 true"
+            ],
+            [
+              "give-key %player% DEFAULT 7",
+              "earn-exp %player% 2000 true"
+            ],
+            [
+              "give-key %player% DEFAULT 5",
+              "earn-exp %player% 1500 true"
+            ]
+          ],
+          "children": []
+        }
+      }
+    },
+    "2": {
+      "bosses": {
+        "MAD_VILLAGER": {
+          "spawnAt": [
+            "0:0:0",
+            "1:20:0",
+            "2:40:0",
+            "4:0:0",
+            "5:20:0",
+            "6:40:0",
+            "8:0:0",
+            "9:20:0",
+            "10:40:0",
+            "12:0:0",
+            "13:20:0",
+            "14:40:0",
+            "16:0:0",
+            "17:20:0",
+            "18:40:0",
+            "20:0:0",
+            "21:20:0",
+            "22:40:0"
+          ],
+          "type": "MAD_VILLAGER",
+          "settings": {
+            "health": 750,
+            "damage": 7,
+            "speed": 0.5,
+            "location": { "name": "boss" },
+            "spawnBox": { "name": "spawn-box" },
+            "customName": "lumberjack.boss.mad-villager.name",
+            "scale": { "x": 1.2, "y": 1.2, "z": 1.2 }
+          },
+          "messages": {
+            "onSpawn": "lumberjack.boss.mad-villager.spawn-message",
+            "onDeath": "lumberjack.boss.mad-villager.death-message"
+          },
+          "reward": [
+            [
+              "earn-bits %player% 15",
+              "earn-exp %player% 2500 true"
+            ],
+            [
+              "earn-bits %player% 10",
+              "earn-exp %player% 2000 true"
+            ],
+            [
+              "earn-bits %player% 5",
+              "earn-exp %player% 1500 true"
+            ]
+          ],
+          "children": []
+        }
+      }
+    },
+    "3": {
+      "bosses": {
+        "GRAPE_MONSTER": {
+          "spawnAt": [
+            "0:0:0",
+            "1:20:0",
+            "2:40:0",
+            "4:0:0",
+            "5:20:0",
+            "6:40:0",
+            "8:0:0",
+            "9:20:0",
+            "10:40:0",
+            "12:0:0",
+            "13:20:0",
+            "14:40:0",
+            "16:0:0",
+            "17:20:0",
+            "18:40:0",
+            "20:0:0",
+            "21:20:0",
+            "22:40:0"
+          ],
+          "type": "GRAPE_MONSTER",
+          "settings": {
+            "health": 1100,
+            "damage": 1,
+            "speed": 0.0,
+            "location": { "name": "boss" },
+            "spawnBox": { "name": "spawn-box" },
+            "customName": "lumberjack.boss.grape-monster.name"
+          },
+          "messages": {
+            "onSpawn": "lumberjack.boss.grape-monster.spawn-message",
+            "onDeath": "lumberjack.boss.grape-monster.death-message"
+          },
+          "reward": [
+            [
+              "give-item %player% SAVE_CRYSTAL 2",
+              "earn-exp %player% 40000 true"
+            ],
+            [
+              "give-item %player% SAVE_CRYSTAL 1",
+              "earn-exp %player% 32500 true"
+            ],
+            [
+              "give-item %player% SAVE_CRYSTAL 1",
+              "earn-exp %player% 25000 true"
+            ]
+          ],
+          "children": []
+        }
+      }
+    },
+    "4": {
+      "bosses": {
+        "GIANT_COCKROACH": {
+          "spawnAt": [
+            "0:0:0",
+            "1:30:0",
+            "3:00:0",
+            "4:30:0",
+            "6:0:0",
+            "7:30:0",
+            "9:0:0",
+            "10:30:0",
+            "12:00:0",
+            "13:30:0",
+            "15:00:0",
+            "16:30:0",
+            "18:00:0",
+            "19:30:0",
+            "21:0:0",
+            "22:30:0"
+          ],
+          "type": "GIANT_COCKROACH",
+          "settings": {
+            "health": 1400,
+            "damage": 11,
+            "speed": 0.3,
+            "location": { "name": "boss" },
+            "spawnBox": { "name": "spawn-box" },
+            "customName": "lumberjack.boss.giant-cockroach.name",
+            "scale": { "x": 3.0, "y": 3.0, "z": 3.0 }
+          },
+          "messages": {
+            "onSpawn": "lumberjack.boss.giant-cockroach.spawn-message",
+            "onDeath": "lumberjack.boss.giant-cockroach.death-message"
+          },
+          "reward": [
+            [
+              "random-money %player% 50 50.01",
+              "earn-exp %player% 4000 true"
+            ],
+            [
+              "random-money %player% 45 45.01",
+              "earn-exp %player% 3000 true"
+            ],
+            [
+              "random-money %player% 40 40.01",
+              "earn-exp %player% 2000 true"
+            ]
+          ],
+          "children": []
+        }
+      }
+    },
+    "5": {
+      "bosses": {
+        "SOUL_CONQUEROR": {
+          "spawnAt": [
+            "0:0:0",
+            "2:0:0",
+            "4:0:0",
+            "6:0:0",
+            "8:0:0",
+            "10:0:0",
+            "12:0:0",
+            "14:0:0",
+            "16:0:0",
+            "18:0:0",
+            "20:0:0",
+            "22:0:0"
+          ],
+          "type": "SOUL_CONQUEROR",
+          "settings": {
+            "health": 1750,
+            "damage": 11,
+            "speed": 0.4,
+            "location": { "name": "boss" },
+            "spawnBox": { "name": "spawn-box" },
+            "customName": "lumberjack.boss.conqueror-of-souls.name",
+            "scale": { "x": 1.2, "y": 1.2, "z": 1.2 }
+          },
+          "messages": {
+            "onSpawn": "lumberjack.boss.conqueror-of-souls.spawn-message",
+            "onDeath": "lumberjack.boss.conqueror-of-souls.death-message"
+          },
+          "reward": [
+            [
+              "give-key %player% PET 1",
+              "give-key %player% RUNE 1",
+              "earn-exp %player% 7000 true"
+            ],
+            [
+              "give-key %player% RUNE 1",
+              "earn-exp %player% 6000 true"
+            ],
+            [
+              "give-key %player% PET 1",
+              "earn-exp %player% 5000 true"
+            ]
+          ],
+          "children": []
+        }
+      }
+    },
+    "6": {
+      "bosses": {
+        "ICE_ESKIMO": {
+          "spawnAt": [
+            "0:0:0",
+            "2:40:0",
+            "5:20:0",
+            "8:0:0",
+            "10:40:0",
+            "13:20:0",
+            "16:0:0",
+            "18:40:0",
+            "21:20:0"
+          ],
+          "type": "ICE_ESKIMO",
+          "settings": {
+            "health": 2100,
+            "damage": 10,
+            "speed": 0.4,
+            "location": { "name": "boss" },
+            "spawnBox": { "name": "spawn-box" },
+            "customName": "lumberjack.boss.ice-eskimos.name"
+          },
+          "messages": {
+            "onSpawn": "lumberjack.boss.ice-eskimos.spawn-message",
+            "onDeath": "lumberjack.boss.ice-eskimos.death-message"
+          },
+          "reward": [
+            [
+              "give-key %player% PET 3",
+              "earn-exp %player% 20000 true"
+            ],
+            [
+              "give-key %player% PET 2",
+              "earn-exp %player% 15000 true"
+            ],
+            [
+              "give-key %player% PET 1",
+              "earn-exp %player% 7500 true"
+            ]
+          ],
+          "children": [
+            {
+              "childType": "POLAR_BEAR",
+              "settings": {
+                "health": 3000,
+                "damage": 10,
+                "speed": 0.3,
+                "location": {
+                  "name": "boss",
+                  "offset": {
+                    "x": 2,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "spawnBox": { "name": "spawn-box" },
+                "customName": "lumberjack.boss.polar-bear.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "7": {
+      "bosses": {
+        "SLIMY_OGRE": {
+          "spawnAt": [
+            "0:0:0",
+            "3:0:0",
+            "6:0:0",
+            "9:0:0",
+            "12:0:0",
+            "15:0:0",
+            "18:0:0",
+            "21:0:0"
+          ],
+          "type": "SLIMY_OGRE",
+          "settings": {
+            "health": 2750,
+            "damage": 12,
+            "speed": 0.45,
+            "location": { "name": "boss" },
+            "spawnBox": { "name": "spawn-box" },
+            "customName": "lumberjack.boss.the-slimy-ogre.name"
+          },
+          "messages": {
+            "onSpawn": "lumberjack.boss.the-slimy-ogre.spawn-message",
+            "onDeath": "lumberjack.boss.the-slimy-ogre.death-message"
+          },
+          "reward": [
+            [
+              "give-key %player% RUNE 3",
+              "earn-exp %player% 30000 true"
+            ],
+            [
+              "give-key %player% RUNE 2",
+              "earn-exp %player% 20000 true"
+            ],
+            [
+              "give-key %player% RUNE 1",
+              "earn-exp %player% 10000 true"
+            ]
+          ],
+          "children": []
+        }
+      }
+    }
+  }
+}

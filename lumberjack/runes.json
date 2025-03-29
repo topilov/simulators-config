@@ -1,253 +1,26 @@
 {
   "text": {
-    "activate": "lumberjack.rune.text.activate"
+    "activate": "lumberjack.rune.text.activate",
+    "alreadyExists": "lumberjack.lootbox.runes.message.already-exists"
   },
   "runes": {
-    "BOOM": {
-      "id": "boom",
-      "title": "lumberjack.runes.boom.name",
+    "MINER": {
+      "id": "miner",
+      "title": "lumberjack.runes.miner.name",
       "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.boom.ability.name",
+      "ability": "lumberjack.runes.miner.ability.name",
       "texture": {
         "type": "SKULL_ITEM",
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
-      "rare": "EPIC",
+      "rare": "COMMON",
       "notify": true,
       "canDrop": false,
       "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "REINCARNATION": {
-      "id": "reincarnation",
-      "title": "lumberjack.runes.reincarnation.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.reincarnation.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "LEGENDARY",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "MIRROR": {
-      "id": "mirror",
-      "title": "lumberjack.runes.mirror.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.mirror.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "COMMON",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "BERSERK": {
-      "id": "berserk",
-      "title": "lumberjack.runes.berserk.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.berserk.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "RARE",
-      "notify": true,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.increase.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "SHIELD": {
-      "id": "shield",
-      "title": "lumberjack.runes.shield.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.shield.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "RARE",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.reduce.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "INVADER": {
-      "id": "invader",
-      "title": "lumberjack.runes.invader.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.invader.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "RARE",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.increase.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "COLLECTOR": {
-      "id": "collector",
-      "title": "lumberjack.runes.collector.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.collector.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
-      },
-      "rare": "COMMON",
-      "notify": true,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.increase.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "LIVESEY": {
-      "id": "livesey",
-      "title": "lumberjack.runes.livesey.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.livesey.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "EPIC",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.increase.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "SAMURAI": {
-      "id": "samurai",
-      "title": "lumberjack.runes.samurai.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.samurai.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "LEGENDARY",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "BATTLESHIP": {
-      "id": "battleship",
-      "title": "lumberjack.runes.battleship.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.battleship.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "RARE",
-      "notify": true,
-      "canDrop": false,
-      "upgradeText": "lumberjack.runes.increase.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "KEEPER": {
-      "id": "keeper",
-      "title": "lumberjack.runes.keeper.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.keeper.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "COMMON",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.increase.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "PET": {
-      "id": "pet",
-      "title": "lumberjack.runes.pet.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.pet.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "LEGENDARY",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "SUPER_PLAYER": {
-      "id": "super_player",
-      "title": "lumberjack.runes.super_player.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.super_player.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "LEGENDARY",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
+      "current": 10.0,
+      "per": 4.5,
+      "max": 100.0,
       "isPercent": true
     },
     "SELLER": {
@@ -261,50 +34,31 @@
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
       "rare": "COMMON",
-      "notify": false,
-      "canDrop": true,
+      "notify": true,
+      "canDrop": false,
       "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
+      "current": 5.0,
+      "per": 1.0,
+      "max": 25.0,
       "isPercent": true
     },
-    "KILLER": {
-      "id": "killer",
-      "title": "lumberjack.runes.killer.name",
+    "DIGGER": {
+      "id": "digger",
+      "title": "lumberjack.runes.digger.name",
       "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.killer.ability.name",
+      "ability": "lumberjack.runes.digger.ability.name",
       "texture": {
         "type": "SKULL_ITEM",
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
       "rare": "COMMON",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.increase.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
-      "isPercent": true
-    },
-    "BOXER": {
-      "id": "boxer",
-      "title": "lumberjack.runes.boxer.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.boxer.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "COMMON",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.increase.ability.upgrade.name",
-      "current": 0.0,
-      "per": 0.0,
-      "max": 10.0,
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
+      "current": 20.0,
+      "per": 4.0,
+      "max": 100.0,
       "isPercent": true
     },
     "UPGRADE": {
@@ -317,32 +71,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
-      "rare": "LEGENDARY",
+      "rare": "RARE",
       "notify": true,
       "canDrop": false,
       "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
-      "current": 1.5,
-      "per": 1.5,
-      "max": 55.0,
-      "isPercent": true
-    },
-    "BLACKSMITH": {
-      "id": "blacksmith",
-      "title": "lumberjack.runes.blacksmith.name",
-      "description": "lumberjack.runes.description",
-      "ability": "lumberjack.runes.blacksmith.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-      },
-      "rare": "EPIC",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "lumberjack.runes.reduce.ability.upgrade.name",
-      "current": 1.5,
-      "per": 1.5,
-      "max": 55.5,
+      "current": 10.0,
+      "per": 0.625,
+      "max": 20.0,
       "isPercent": true
     },
     "BITS": {
@@ -357,11 +92,163 @@
       },
       "rare": "RARE",
       "notify": true,
-      "canDrop": true,
+      "canDrop": false,
       "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
-      "current": 2,
-      "per": 2,
-      "max": 55.5,
+      "current": 5.0,
+      "per": 1.0,
+      "max": 21.0,
+      "isPercent": true
+    },
+    "BERSERK": {
+      "id": "berserk",
+      "title": "lumberjack.runes.berserk.name",
+      "description": "lumberjack.runes.description",
+      "ability": "lumberjack.runes.berserk.ability.name",
+      "texture": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      },
+      "rare": "RARE",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
+      "current": 7.0,
+      "per": 0.5,
+      "max": 15.0,
+      "isPercent": true
+    },
+    "LUCKY": {
+      "id": "lucky",
+      "title": "lumberjack.runes.lucky.name",
+      "description": "lumberjack.runes.description",
+      "ability": "lumberjack.runes.lucky.ability.name",
+      "texture": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      },
+      "rare": "EPIC",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
+      "current": 10.0,
+      "per": 1.25,
+      "max": 25.0,
+      "isPercent": true
+    },
+    "BLACKSMITH": {
+      "id": "blacksmith",
+      "title": "lumberjack.runes.blacksmith.name",
+      "description": "lumberjack.runes.description",
+      "ability": "lumberjack.runes.blacksmith.ability.name",
+      "texture": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      },
+      "rare": "EPIC",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
+      "current": 5.0,
+      "per": 1.25,
+      "max": 20.0,
+      "isPercent": true
+    },
+    "COLLECTOR": {
+      "id": "collector",
+      "title": "lumberjack.runes.collector.name",
+      "description": "lumberjack.runes.description",
+      "ability": "lumberjack.runes.collector.ability.name",
+      "texture": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      },
+      "rare": "EPIC",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
+      "current": 5.0,
+      "per": 1.0,
+      "max": 17.0,
+      "isPercent": true
+    },
+    "SUPER_PLAYER": {
+      "id": "super_player",
+      "title": "lumberjack.runes.super_player.name",
+      "description": "lumberjack.runes.description",
+      "ability": "lumberjack.runes.super_player.ability.name",
+      "texture": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      },
+      "rare": "LEGENDARY",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
+      "current": 8.0,
+      "per": 0.375,
+      "max": 11.0,
+      "isPercent": true
+    },
+    "PET": {
+      "id": "pet",
+      "title": "lumberjack.runes.pet.name",
+      "description": "lumberjack.runes.description",
+      "ability": "lumberjack.runes.pet.ability.name",
+      "texture": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      },
+      "rare": "LEGENDARY",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
+      "current": 15.0,
+      "per": 0.5,
+      "max": 19.0,
+      "isPercent": true
+    },
+    "LUMBERJACK": {
+      "id": "lumberjack",
+      "title": "lumberjack.runes.lumberjack.name",
+      "description": "lumberjack.runes.description",
+      "ability": "lumberjack.runes.lumberjack.ability.name",
+      "texture": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      },
+      "rare": "LEGENDARY",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
+      "current": 3.0,
+      "per": 0.25,
+      "max": 5.0,
+      "isPercent": true
+    },
+    "TIME": {
+      "id": "time",
+      "title": "lumberjack.runes.time.name",
+      "description": "lumberjack.runes.description",
+      "ability": "lumberjack.runes.time.ability.name",
+      "texture": {
+        "type": "SKULL_ITEM",
+        "damage": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      },
+      "rare": "LEGENDARY",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "lumberjack.runes.chance.ability.upgrade.name",
+      "current": 10.0,
+      "per": 1.875,
+      "max": 25.0,
       "isPercent": true
     }
   }

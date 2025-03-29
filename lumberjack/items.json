@@ -1,15 +1,64 @@
 {
-  "maxSaveCrystals": 26,
+  "maxSaveCrystals": 24,
   "items": {
     "SAVE_CRYSTAL": {
-      "type": "CHORUS_FRUIT_POPPED",
+      "type": "CLAY_BALL",
       "name": "lumberjack.items.save-crystal.name",
       "lore": "lumberjack.items.save-crystal.lore",
       "unbreakable": true,
       "data": {
+        "sim": "save_crystal",
         "crystal": 1,
         "no-clear": 1,
         "hoverColor": "PURPLE_LIGHT"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "HASTE": {
+      "type": "POTION",
+      "name": "lumberjack.items.haste.name",
+      "lore": "lumberjack.items.haste.lore",
+      "unbreakable": true,
+      "data": {
+        "haste": 60,
+        "sim": "speed_potion",
+        "no-clear": 1,
+        "hoverColor": "PURPLE_LIGHT"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE",
+        "HIDE_POTION_EFFECTS"
+      ]
+    },
+    "BREAD": {
+      "type": "BREAD",
+      "name": "lumberjack.items.bread.name",
+      "lore": "lumberjack.items.bread.lore",
+      "unbreakable": true,
+      "data": {
+        "no-clear": 1,
+        "hoverColor": "GREY"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+    "GOLDEN_APPLE": {
+      "type": "GOLDEN_APPLE",
+      "name": "lumberjack.items.golden_apple.name",
+      "lore": "lumberjack.items.golden_apple.lore",
+      "unbreakable": true,
+      "data": {
+        "no-clear": 1,
+        "hoverColor": "GREY"
       },
       "flags": [
         "HIDE_ATTRIBUTES",
@@ -27,9 +76,11 @@
     "crystalsPerRebirth": "crystals-per-rebirth",
     "noClear": "no-clear",
     "saveCrystal": "crystal",
+    "haste": "haste",
     "level": "level",
     "pipeline": "pipeline",
     "toolType": "tool-type",
-    "strength": "strength"
+    "strength": "strength",
+    "itemType": "item-type"
   }
 }
