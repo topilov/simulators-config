@@ -2,7 +2,7 @@
   "enchantments": {
     "DIG_SPEED": {
       "id": "dig_speed",
-      "chance": 80,
+      "chance": 60,
       "title": "treasures.enchantment.dig_speed.title",
       "levels": [
         {
@@ -61,6 +61,38 @@
           "level": 5,
           "chance": 20,
           "stat": 3.0
+        }
+      ]
+    },
+    "INSTANT_STRENGTH": {
+      "id": "instant_strength",
+      "chance": 20,
+      "title": "treasures.enchantment.instant_strength.title",
+      "levels": [
+        {
+          "level": 1,
+          "chance": 20,
+          "stat": 10
+        },
+        {
+          "level": 2,
+          "chance": 20,
+          "stat": 20
+        },
+        {
+          "level": 3,
+          "chance": 20,
+          "stat": 40
+        },
+        {
+          "level": 4,
+          "chance": 20,
+          "stat": 60
+        },
+        {
+          "level": 5,
+          "chance": 20,
+          "stat": 80
         }
       ]
     }
