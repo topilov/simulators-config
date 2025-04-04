@@ -1,0 +1,22 @@
+{
+  "realmInfo": {
+    "typeName": "SIML",
+    "readableName": "Симулятор Лобби",
+    "maxPlayers": 200
+  },
+  "map": {
+    "type": "Simulators",
+    "name": "hub"
+  },
+  "items": {
+    "0": {
+      "stack": {
+        "type": "COMPASS",
+        "name": "Войти на Симулятор Лесоруба"
+      },
+      "onClick": [
+        "join-simulator %player% lumberjack"
+      ]
+    }
+  }
+}
