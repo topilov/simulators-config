@@ -78,30 +78,30 @@
       "bosses": {
         "MAD_VILLAGER": {
           "spawnAt": [
-            "0:0:0",
-            "1:0:0",
-            "2:0:0",
-            "3:0:0",
-            "4:0:0",
-            "5:0:0",
-            "6:0:0",
-            "7:0:0",
-            "8:0:0",
-            "9:0:0",
-            "10:0:0",
-            "11:0:0",
-            "12:0:0",
-            "13:0:0",
-            "14:0:0",
-            "15:0:0",
-            "16:0:0",
-            "17:0:0",
-            "18:0:0",
-            "19:0:0",
-            "20:0:0",
-            "21:0:0",
-            "22:0:0",
-            "23:0:0"
+            "0:15:0",
+            "1:15:0",
+            "2:15:0",
+            "3:15:0",
+            "4:15:0",
+            "5:15:0",
+            "6:15:0",
+            "7:15:0",
+            "8:15:0",
+            "9:15:0",
+            "10:15:0",
+            "11:15:0",
+            "12:15:0",
+            "13:15:0",
+            "14:15:0",
+            "15:15:0",
+            "16:15:0",
+            "17:15:0",
+            "18:15:0",
+            "19:15:0",
+            "20:15:0",
+            "21:15:0",
+            "22:15:0",
+            "23:15:0"
           ],
           "type": "MAD_VILLAGER",
           "settings": {
@@ -178,16 +178,19 @@
             [
               "give-item %player% SAVE_CRYSTAL 2",
               "give-key %player% PET 2",
+              "random-money %player% 60 60.01",
               "earn-exp %player% 4000 true"
             ],
             [
               "give-item %player% SAVE_CRYSTAL 1",
               "give-key %player% PET 1",
+              "random-money %player% 50 50.01",
               "earn-exp %player% 3000 true"
             ],
             [
               "give-item %player% SAVE_CRYSTAL 1",
               "give-key %player% PET 1",
+              "random-money %player% 45 45.01",
               "earn-exp %player% 2000 true"
             ]
           ],
@@ -199,24 +202,24 @@
       "bosses": {
         "GIANT_COCKROACH": {
           "spawnAt": [
-            "0:0:0",
-            "1:20:0",
-            "2:40:0",
-            "4:00:0",
-            "5:20:0",
-            "6:40:0",
-            "8:0:0",
-            "9:20:0",
-            "10:40:0",
-            "12:0:0",
-            "13:20:0",
-            "14:40:0",
-            "16:0:0",
-            "17:20:0",
-            "18:40:0",
-            "20:0:0",
-            "21:20:0",
-            "22:40:0"
+            "0:10:0",
+            "1:30:0",
+            "2:50:0",
+            "4:10:0",
+            "5:30:0",
+            "6:50:0",
+            "8:10:0",
+            "9:30:0",
+            "10:50:0",
+            "12:10:0",
+            "13:30:0",
+            "14:50:0",
+            "16:10:0",
+            "17:30:0",
+            "18:50:0",
+            "20:10:0",
+            "21:30:0",
+            "22:50:0"
           ],
           "type": "GIANT_COCKROACH",
           "settings": {
@@ -234,17 +237,17 @@
           },
           "reward": [
             [
-              "random-money %player% 5 5.01",
+              "random-money %player% 60 60.01",
               "give-key %player% PET 3",
               "earn-exp %player% 4000 true"
             ],
             [
-              "random-money %player% 5 5.01",
+              "random-money %player% 50 50.01",
               "give-key %player% PET 2",
               "earn-exp %player% 3000 true"
             ],
             [
-              "random-money %player% 5 5.01",
+              "random-money %player% 45 45.01",
               "give-key %player% PET 2",
               "earn-exp %player% 2000 true"
             ]
@@ -257,22 +260,22 @@
       "bosses": {
         "SOUL_CONQUEROR": {
           "spawnAt": [
-            "0:0:0",
-            "1:30:0",
-            "3:0:0",
-            "4:30:0",
-            "6:0:0",
-            "7:30:0",
-            "9:0:0",
-            "10:30:0",
-            "12:0:0",
-            "13:30:0",
-            "15:0:0",
-            "16:30:0",
-            "18:0:0",
-            "19:30:0",
-            "21:0:0",
-            "22:30:0"
+            "0:25:0",
+            "1:55:0",
+            "3:25:0",
+            "4:55:0",
+            "6:25:0",
+            "7:55:0",
+            "9:25:0",
+            "10:55:0",
+            "12:25:0",
+            "13:55:0",
+            "15:25:0",
+            "16:55:0",
+            "18:25:0",
+            "19:55:0",
+            "21:25:0",
+            "22:55:0"
           ],
           "type": "SOUL_CONQUEROR",
           "settings": {
@@ -291,17 +294,17 @@
           "reward": [
             [
               "give-key %player% RUNE 3",
-              "random-money %player% 5 5.01",
+              "random-money %player% 60 60.01",
               "earn-exp %player% 7000 true"
             ],
             [
               "give-key %player% RUNE 2",
-              "random-money %player% 5 5.01",
+              "random-money %player% 50 50.01",
               "earn-exp %player% 6000 true"
             ],
             [
               "give-key %player% RUNE 2",
-              "random-money %player% 5 5.01",
+              "random-money %player% 45 45.01",
               "earn-exp %player% 5000 true"
             ]
           ],
@@ -313,18 +316,18 @@
       "bosses": {
         "ICE_ESKIMO": {
           "spawnAt": [
-            "0:0:0",
-            "2:0:0",
-            "4:0:0",
-            "6:0:0",
-            "8:0:0",
-            "10:0:0",
-            "12:0:0",
-            "14:0:0",
-            "16:0:0",
-            "18:0:0",
-            "20:0:0",
-            "22:0:0"
+            "0:50:0",
+            "2:50:0",
+            "4:50:0",
+            "6:50:0",
+            "8:50:0",
+            "10:50:0",
+            "12:50:0",
+            "14:50:0",
+            "16:50:0",
+            "18:50:0",
+            "20:50:0",
+            "22:50:0"
           ],
           "type": "ICE_ESKIMO",
           "settings": {
@@ -342,17 +345,17 @@
           "reward": [
             [
               "give-key %player% PET 5",
-              "random-money %player% 10 10.01",
+              "random-money %player% 60 60.01",
               "earn-exp %player% 10000 true"
             ],
             [
               "give-key %player% PET 4",
-              "random-money %player% 10 10.01",
+              "random-money %player% 50 50.01",
               "earn-exp %player% 7000 true"
             ],
             [
               "give-key %player% PET 3",
-              "random-money %player% 10 10.01",
+              "random-money %player% 45 45.01",
               "earn-exp %player% 5000 true"
             ]
           ],
@@ -383,18 +386,18 @@
       "bosses": {
         "SLIMY_OGRE": {
           "spawnAt": [
-            "0:0:0",
-            "2:0:0",
-            "4:0:0",
-            "6:0:0",
-            "8:0:0",
-            "10:0:0",
-            "12:0:0",
-            "14:0:0",
-            "16:0:0",
-            "18:0:0",
-            "20:0:0",
-            "22:0:0"
+            "1:50:0",
+            "3:50:0",
+            "5:50:0",
+            "7:50:0",
+            "9:50:0",
+            "11:50:0",
+            "13:50:0",
+            "15:50:0",
+            "17:50:0",
+            "19:50:0",
+            "21:50:0",
+            "23:50:0"
           ],
           "type": "SLIMY_OGRE",
           "settings": {
@@ -412,17 +415,17 @@
           "reward": [
             [
               "give-key %player% RUNE 5",
-              "random-money %player% 10 10.01",
+              "random-money %player% 60 60.01",
               "earn-exp %player% 10000 true"
             ],
             [
               "give-key %player% RUNE 4",
-              "random-money %player% 10 10.01",
+              "random-money %player% 50 50.01",
               "earn-exp %player% 7000 true"
             ],
             [
               "give-key %player% RUNE 3",
-              "random-money %player% 10 10.01",
+              "random-money %player% 45 45.01",
               "earn-exp %player% 5000 true"
             ]
           ],
