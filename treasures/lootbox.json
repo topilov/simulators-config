@@ -53,7 +53,7 @@
                 "skyblock": "donate"
               }
             },
-            "chance": 50,
+            "chance": 30,
             "onDrop": [
               "random-money %player% 5 5.01"
             ]
@@ -94,7 +94,7 @@
                 "sim": "blocks_booster"
               }
             },
-            "chance": 5.875,
+            "chance": 5,
             "onDrop": [
               "local-booster %player% BLOCKS 1.1 600"
             ]
@@ -115,7 +115,7 @@
                 "sim": "money_booster"
               }
             },
-            "chance": 5.875,
+            "chance": 5,
             "onDrop": [
               "local-booster %player% MONEY 1.1 600"
             ]
@@ -136,7 +136,7 @@
                 "sim": "treasures_booster"
               }
             },
-            "chance": 5.875,
+            "chance": 5,
             "onDrop": [
               "local-booster %player% TREASURES 1.1 600"
             ]
@@ -157,7 +157,7 @@
                 "sim": "save_crystal"
               }
             },
-            "chance": 5.5,
+            "chance": 5,
             "onDrop": [
               "give-item %player% SAVE_CRYSTAL 1"
             ]
@@ -175,7 +175,7 @@
                 "HIDE_UNBREAKABLE"
               ]
             },
-            "chance": 12,
+            "chance": 20,
             "onDrop": [
               "give-tnt %player% 8"
             ]
@@ -196,7 +196,7 @@
                 "sim_pickaxe": "c2"
               }
             },
-            "chance": 2.5,
+            "chance": 0.5,
             "onDrop": [
               "give-tool %player% PICKAXE LUCKY_PICKAXE"
             ]
