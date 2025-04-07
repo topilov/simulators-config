@@ -106,18 +106,18 @@
           "price": 19.0,
           "needSubscription": true,
           "onBuy": [
-            "give-perk %player% MAP"
+            "give-perk %player% SILVER_BRACELET"
           ]
         },
         {
-          "perkType": "GOLDEN_BRACELET",
-          "title": "treasures.shop.minigame.product.golden_bracelet.title",
-          "hover": "treasures.items.golden_bracelet.lore",
+          "perkType": "GOLD_BRACELET",
+          "title": "treasures.shop.minigame.product.gold_bracelet.title",
+          "hover": "treasures.items.gold_bracelet.lore",
           "icon": "gold_bracelet.png",
           "price": 39.0,
           "needSubscription": true,
           "onBuy": [
-            "give-perk %player% CLEVER"
+              "give-perk %player% GOLD_BRACELET"
           ]
         },
         {
