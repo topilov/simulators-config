@@ -2,11 +2,14 @@
   "simulators": {
     "lumberjack": {
       "database": {
-        "name": "lumberjack-test",
+        "name": "lumberjack",
         "usersCollectionName": "lumberjack_data"
       },
       "lobby": {
         "typeName": "LBJL"
+      },
+      "game": {
+        "typeName": "LBJ"
       }
     },
     "treasures": {
@@ -16,24 +19,9 @@
       },
       "lobby": {
         "typeName": "TRSL"
-      }
-    },
-    "katana": {
-      "database": {
-        "name": "katana-test",
-        "usersCollectionName": "katana_data"
       },
-      "lobby": {
-        "typeName": "KTNL"
-      }
-    },
-    "destruction": {
-      "database": {
-        "name": "destruction-test",
-        "usersCollectionName": "destruction_data"
-      },
-      "lobby": {
-        "typeName": "DSRL"
+      "game": {
+        "typeName": "TRS"
       }
     }
   }

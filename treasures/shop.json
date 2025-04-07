@@ -99,25 +99,58 @@
       "vault": "\uE1C2",
       "products": [
         {
-          "perkType": "MAP",
-          "title": "treasures.shop.bits.product.map.title",
-          "hover": "treasures.items.map.lore",
-          "icon": "iron_bracelet.png",
+          "perkType": "SILVER_BRACELET",
+          "title": "treasures.shop.minigame.product.silver_bracelet.title",
+          "hover": "treasures.items.silver_bracelet.lore",
+          "icon": "silver_bracelet.png",
           "price": 19.0,
           "needSubscription": true,
           "onBuy": [
-            "give-perk %player% MAP"
+            "give-perk %player% SILVER_BRACELET"
           ]
         },
         {
-          "perkType": "CLEVER",
-          "title": "treasures.shop.bits.product.clever.title",
-          "hover": "treasures.items.clever.lore",
+          "perkType": "GOLD_BRACELET",
+          "title": "treasures.shop.minigame.product.gold_bracelet.title",
+          "hover": "treasures.items.gold_bracelet.lore",
           "icon": "gold_bracelet.png",
           "price": 39.0,
           "needSubscription": true,
           "onBuy": [
-            "give-perk %player% CLEVER"
+              "give-perk %player% GOLD_BRACELET"
+          ]
+        },
+        {
+          "perkType": "BRACELET_DOUBLE_REWARD",
+          "title": "treasures.shop.minigame.product.bracelet_double_reward.title",
+          "hover": "treasures.items.bracelet_double_reward.lore",
+          "icon": "bracelet_double_reward.png",
+          "price": 39.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-perk %player% BRACELET_DOUBLE_REWARD"
+          ]
+        },
+        {
+          "perkType": "GLOVES_GOLDEN_HANDS",
+          "title": "treasures.shop.minigame.product.gloves_golden_hands.title",
+          "hover": "treasures.items.gloves_golden_hands.lore",
+          "icon": "gloves_golden_hands.png",
+          "price": 39.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-perk %player% GLOVES_GOLDEN_HANDS"
+          ]
+        },
+        {
+          "perkType": "RANGERS_MEDALLION",
+          "title": "treasures.shop.minigame.product.rangers_medallion.title",
+          "hover": "treasures.items.rangers_medallion.lore",
+          "icon": "rangers_medallion.png",
+          "price": 39.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-perk %player% RANGERS_MEDALLION"
           ]
         }
       ]
