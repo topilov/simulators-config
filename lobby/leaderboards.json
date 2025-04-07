@@ -2,7 +2,7 @@
   "leaderboards": {
     "lumberjack": [
       {
-        "title": "Симулятор Лесоруба",
+        "title": "lumberjack.top.exp.title",
         "field": "exp",
         "nickName": "lumberjack.top.nick-name",
         "fieldName": "lumberjack.top.exp.field-name",
@@ -13,55 +13,71 @@
         "location": {
           "name": "lbj-top",
           "tag": "exp",
-          "yaw": -180,
+          "yaw": 90,
           "offset": {
-            "x": 0.5,
+            "x": 0.01,
             "y": 0.25,
-            "z": 0.01
+            "z": 0.5
           }
         }
-      }
-    ],
-    "destruction": [
+      },
       {
-        "title": "Симулятор Разрушений",
-        "field": "exp",
-        "nickName": "destruction.top.nick-name",
-        "fieldName": "destruction.top.exp.field-name",
+        "title": "lumberjack.top.rebirth.title",
+        "field": "rebirth",
+        "nickName": "lumberjack.top.nick-name",
+        "fieldName": "lumberjack.top.exp.field-name",
         "fieldFormat": "§b%format%",
         "fieldSize": 20,
         "nameSize": 40,
         "limit": 50,
         "location": {
-          "name": "drs-top",
-          "tag": "exp",
-          "yaw": 125,
+          "name": "lbj-top",
+          "tag": "rebirth",
+          "yaw": -90,
           "offset": {
-            "x": 1.5,
+            "x": 0.99,
             "y": 0.25,
-            "z": -0.5
+            "z": 0.5
           }
         }
-      }
-    ],
-    "treasures": [
+      },
       {
-        "title": "Симулятор Сокровищ",
-        "field": "exp",
-        "nickName": "treasures.top.nick-name",
-        "fieldName": "treasures.top.exp.field-name",
+        "title": "lumberjack.top.money.title",
+        "field": "money",
+        "nickName": "lumberjack.top.nick-name",
+        "fieldName": "lumberjack.top.exp.field-name",
         "fieldFormat": "§b%format%",
         "fieldSize": 20,
         "nameSize": 40,
         "limit": 50,
         "location": {
-          "name": "trs-top",
-          "tag": "exp",
-          "yaw": -125,
+          "name": "lbj-top",
+          "tag": "money",
+          "yaw": 90,
           "offset": {
-            "x": -0.5,
+            "x": 0.01,
             "y": 0.25,
-            "z": -0.5
+            "z": 0.5
+          }
+        }
+      },
+      {
+        "title": "lumberjack.top.mobs.title",
+        "field": "mobs",
+        "nickName": "lumberjack.top.nick-name",
+        "fieldName": "lumberjack.top.exp.field-name",
+        "fieldFormat": "§b%format%",
+        "fieldSize": 20,
+        "nameSize": 40,
+        "limit": 50,
+        "location": {
+          "name": "lbj-top",
+          "tag": "mobs",
+          "yaw": -90,
+          "offset": {
+            "x": 0.99,
+            "y": 0.25,
+            "z": 0.5
           }
         }
       }
