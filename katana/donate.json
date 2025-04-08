@@ -322,6 +322,23 @@
         "morestat %player% set true autoOpenLootBox"
       ]
     },
+    "AUTO_MERGE": {
+      "donateName": "katana.donate.element.auto-merge.donate-name",
+      "confirmationTitle": "katana.donate.element.auto-merge.title",
+      "title": "katana.donate.element.auto-merge.title",
+      "description": "katana.donate.element.auto-merge.description",
+      "texture": "auto_merge.png",
+      "category": "OTHER_FEATURES",
+      "price": 299,
+      "sale": 80,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasAutoMerge"
+      ]
+    },
     "SUPER_PLAYER": {
       "donateName": "katana.donate.element.super-player.donate-name",
       "title": "katana.donate.element.super-player.title",
