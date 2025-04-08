@@ -29,6 +29,9 @@
       "alertRarities": [
         "LEGENDARY"
       ],
+      "onOpen": [
+        "earn-tutorial-stage-progress %player% OPEN_DEFAULT_LOOTBOX"
+      ],
       "menu": {
         "id": "katana",
         "title": "katana.lootbox.katana.menu.title",
@@ -307,6 +310,9 @@
         "LEGENDARY"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "onOpen": [
+        "earn-tutorial-stage-progress %player% OPEN_PET_LOOTBOX"
+      ],
       "menu": {
         "id": "pets",
         "title": "katana.lootbox.pets.menu.title",
@@ -625,6 +631,9 @@
         "LEGENDARY"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "onOpen": [
+        "earn-tutorial-stage-progress %player% OPEN_RUNE_LOOTBOX"
+      ],
       "menu": {
         "id": "rune",
         "title": "katana.lootbox.runes.menu.title",
@@ -929,6 +938,9 @@
         "LEGENDARY"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "onOpen": [
+        "earn-tutorial-stage-progress %player% OPEN_TITLE_LOOTBOX"
+      ],
       "menu": {
         "id": "title",
         "title": "katana.lootbox.titles.menu.title",
