@@ -1,0 +1,336 @@
+{
+  "containers": {
+    "PRICE_REDUCTION": {
+      "title": "katana.incident.price_reduction.title",
+      "description": "katana.incident.price_reduction.description",
+      "stat": [ 60, 10 ],
+      "awaitAt": [
+        "0:15:0",
+        "2:15:0",
+        "4:15:0",
+        "6:15:0",
+        "8:15:0",
+        "10:15:0",
+        "12:15:0",
+        "14:15:0",
+        "16:15:0",
+        "18:15:0",
+        "20:15:0",
+        "22:15:0"
+      ],
+      "printStat": [1]
+    },
+    "INCREASED_LOOTBOX_CHANCES": {
+      "title": "katana.incident.increased_lootbox_chances.title",
+      "description": "katana.incident.increased_lootbox_chances.description",
+      "stat": [ 60, 20 ],
+      "awaitAt": [
+        "0:45:0",
+        "2:45:0",
+        "4:45:0",
+        "6:45:0",
+        "8:45:0",
+        "10:45:0",
+        "12:45:0",
+        "14:45:0",
+        "16:45:0",
+        "18:45:0",
+        "20:45:0",
+        "22:45:0"
+      ],
+      "printStat": [1]
+    },
+    "DROPPER": {
+      "title": "katana.incident.dropper.title",
+      "description": "katana.incident.dropper.description",
+      "stat": [ 60, 0.5, 0.0, 100, 1 ],
+      "awaitAt": [
+        "1:45:0",
+        "3:45:0",
+        "5:45:0",
+        "7:45:0",
+        "9:45:0",
+        "11:45:0",
+        "13:45:0",
+        "15:45:0",
+        "17:45:0",
+        "19:45:0",
+        "21:45:0",
+        "23:45:0"
+      ],
+      "printStat": [1]
+    },
+    "SUPERCHARGING": {
+      "title": "katana.incident.supercharging.title",
+      "description": "katana.incident.supercharging.description",
+      "stat": [ 60, 50 ],
+      "awaitAt": [
+        "1:15:0",
+        "3:15:0",
+        "5:15:0",
+        "7:15:0",
+        "9:15:0",
+        "11:15:0",
+        "13:15:0",
+        "15:15:0",
+        "17:15:0",
+        "19:15:0",
+        "21:15:0",
+        "23:15:0"
+      ],
+      "printStat": [1]
+    }
+  },
+  "settings": {
+    "dropper": {
+      "items": {
+        "coin": {
+          "type": "CLAY_BALL",
+          "data": {
+            "skyblock": "donate"
+          }
+        },
+        "bits": {
+          "type": "CLAY_BALL",
+          "data": {
+            "other": "gem_amethyst"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "trees": [
+      {
+        "treeNodes": [
+          {
+            "incidentId": "PRICE_REDUCTION",
+            "id": "sale_percent_1",
+            "title": "Суперскидка",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 1,
+            "price": 1,
+            "maxProgress": 10,
+            "viewpoint": {"x": 0, "y": 0 }
+          },
+          {
+            "incidentId": "PRICE_REDUCTION",
+            "parentId": "sale_percent_1",
+            "id": "sale_percent_2",
+            "title": "Грандиозная скидка",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 3,
+            "price": 5,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": 0}
+          },
+          {
+            "incidentId": "PRICE_REDUCTION",
+            "parentId": "sale_percent_1",
+            "id": "sale_duration_1",
+            "title": "Долговечность",
+            "description": "katana.incident.upgrade.duration.description",
+            "statId": 0,
+            "additional": 24,
+            "price": 20,
+            "maxProgress": 10,
+            "viewpoint": {"x": 1, "y": 1}
+          },
+          {
+            "incidentId": "PRICE_REDUCTION",
+            "parentId": "sale_percent_2",
+            "id": "sale_percent_3",
+            "title": "Скидкомания",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 5,
+            "price": 15,
+            "maxProgress": 5,
+            "viewpoint": {"x": 2, "y": 0}
+          }
+        ]
+      },
+      {
+        "treeNodes": [
+          {
+            "incidentId": "INCREASED_LOOTBOX_CHANCES",
+            "id": "increased_chance_percent_1",
+            "title": "Удача близко",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 3,
+            "price": 5,
+            "maxProgress": 10,
+            "viewpoint": {"x": 0, "y": 0}
+          },
+          {
+            "incidentId": "INCREASED_LOOTBOX_CHANCES",
+            "parentId": "increased_chance_percent_1",
+            "id": "increased_chance_percent_2",
+            "title": "Везунчик",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 5,
+            "price": 15,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": 0}
+          },
+          {
+            "incidentId": "INCREASED_LOOTBOX_CHANCES",
+            "parentId": "increased_chance_percent_1",
+            "id": "increased_chance_duration_1",
+            "title": "Дольше удачи",
+            "description": "katana.incident.upgrade.duration.description",
+            "statId": 0,
+            "additional": 24,
+            "price": 30,
+            "maxProgress": 10,
+            "viewpoint": {"x": 1, "y": 1}
+          },
+          {
+            "incidentId": "INCREASED_LOOTBOX_CHANCES",
+            "parentId": "increased_chance_percent_2",
+            "id": "increased_chance_percent_3",
+            "title": "Возвышенная удача",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 5,
+            "price": 25,
+            "maxProgress": 5,
+            "viewpoint": {"x": 2, "y": 0}
+          }
+        ]
+      },
+      {
+        "treeNodes": [
+          {
+            "incidentId": "DROPPER",
+            "id": "dropper_worth_coin_1",
+            "title": "Монетопад",
+            "description": "katana.incident.upgrade.description",
+            "statId": 3,
+            "additional": 1000,
+            "price": 2,
+            "maxProgress": 10,
+            "viewpoint": {"x": 0, "y": 0}
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_worth_coin_1",
+            "id": "dropper_chance_bits_1",
+            "title": "Джекпот",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 2,
+            "additional": 0.1,
+            "price": 12,
+            "maxProgress": 10,
+            "viewpoint": {"x": 1, "y": -1},
+            "isFormatting": false
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_worth_coin_1",
+            "id": "dropper_duration_1",
+            "title": "Изобилие",
+            "description": "katana.incident.upgrade.duration.description",
+            "statId": 0,
+            "additional": 24,
+            "price": 20,
+            "maxProgress": 10,
+            "viewpoint": {"x": 1, "y": 0}
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_worth_coin_1",
+            "id": "dropper_spawn_every_1",
+            "title": "Экспресс-добыча",
+            "description": "katana.incident.upgrade.duration.description",
+            "statId": 1,
+            "additional": -0.025,
+            "price": 20,
+            "maxProgress": 10,
+            "viewpoint": {"x": 1, "y": 1},
+            "isFormatting": false
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_chance_bits_1",
+            "id": "dropper_worth_bits_1",
+            "title": "Куш",
+            "description": "katana.incident.upgrade.description",
+            "statId": 4,
+            "additional": 1,
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 2, "y": -1}
+          },
+          {
+            "incidentId": "DROPPER",
+            "parentId": "dropper_spawn_every_1",
+            "id": "dropper_worth_coin_2",
+            "title": "Лавина золота",
+            "description": "katana.incident.upgrade.description",
+            "statId": 3,
+            "additional": 100000,
+            "price": 10,
+            "maxProgress": 10,
+            "viewpoint": {"x": 2, "y": 1}
+          }
+        ]
+      },
+      {
+        "treeNodes": [
+          {
+            "incidentId": "SUPERCHARGING",
+            "id": "supercharging_percent_multiplier_1",
+            "title": "Хватай бустеры",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 8,
+            "price": 6,
+            "maxProgress": 10,
+            "viewpoint": {"x": 0, "y": 0}
+          },
+          {
+            "incidentId": "SUPERCHARGING",
+            "parentId": "supercharging_percent_multiplier_1",
+            "id": "supercharging_percent_multiplier_2",
+            "title": "Больше бустеров",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 14,
+            "price": 20,
+            "maxProgress": 5,
+            "viewpoint": {"x": 1, "y": 0}
+          },
+          {
+            "incidentId": "SUPERCHARGING",
+            "parentId": "supercharging_percent_multiplier_1",
+            "id": "supercharging_duration_2",
+            "title": "Турбо время",
+            "description": "katana.incident.upgrade.duration.description",
+            "statId": 0,
+            "additional": 24,
+            "price": 30,
+            "maxProgress": 10,
+            "viewpoint": {"x": 1, "y": 1}
+          },
+          {
+            "incidentId": "SUPERCHARGING",
+            "parentId": "supercharging_percent_multiplier_2",
+            "id": "supercharging_percent_multiplier_3",
+            "title": "Полное усиление",
+            "description": "katana.incident.upgrade.percent.description",
+            "statId": 1,
+            "additional": 20,
+            "price": 30,
+            "maxProgress": 5,
+            "viewpoint": {"x": 2, "y": 0}
+          }
+        ]
+      }
+    ]
+  }
+}
