@@ -1,7 +1,7 @@
 {
   "text": {
-    "score": "lumberjack.boss.score.text",
-    "banner": "lumberjack.boss.banner.text"
+    "score": "katana.boss.score.text",
+    "banner": "katana.boss.banner.text"
   },
   "banner": {
     "content": "",
@@ -13,6 +13,40 @@
     "scale": 2.0
   },
   "locations": {
+    "1": {
+      "bosses": {
+        "LIVESEY": {
+          "spawnAt": [ "0:0:0" ],
+          "type": "LIVESEY",
+          "settings": {
+            "health": 1000,
+            "damage": 0.0,
+            "speed": 0.0,
+            "location": { "name": "livesey" },
+            "customName": "katana.boss.livesey.name"
+          },
+          "messages": {
+            "onSpawn": "katana.boss.livesey.spawn-message",
+            "onDeath": "katana.boss.livesey.death-message"
+          },
+          "reward": [
+            [
+              "give-key %player% DEFAULT 10",
+              "earn-exp %player% 2500 true"
+            ],
+            [
+              "give-key %player% DEFAULT 7",
+              "earn-exp %player% 2000 true"
+            ],
+            [
+              "give-key %player% DEFAULT 5",
+              "earn-exp %player% 1500 true"
+            ]
+          ],
+          "children": []
+        }
+      }
+    },
     "10": {
       "bosses": {
         "SAMURAI": {
@@ -24,7 +58,7 @@
             "speed": 0.3,
             "location": { "name": "boss" },
             "spawnBox": { "name": "boss-zone" },
-            "customName": "lumberjack.boss.samurai.name",
+            "customName": "katana.boss.samurai.name",
             "scale": { "x": 1.5, "y": 1.5, "z": 1.5 },
             "armor": [
               {
@@ -58,8 +92,8 @@
             ]
           },
           "messages": {
-            "onSpawn": "lumberjack.boss.samurai.spawn-message",
-            "onDeath": "lumberjack.boss.samurai.death-message"
+            "onSpawn": "katana.boss.samurai.spawn-message",
+            "onDeath": "katana.boss.samurai.death-message"
           },
           "reward": [
             [
