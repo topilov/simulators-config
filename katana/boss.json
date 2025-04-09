@@ -25,7 +25,37 @@
             "location": { "name": "boss" },
             "spawnBox": { "name": "boss-zone" },
             "customName": "lumberjack.boss.samurai.name",
-            "scale": { "x": 2.0, "y": 2.0, "z": 2.0 }
+            "scale": { "x": 2.0, "y": 2.0, "z": 2.0 },
+            "armor": [
+              {
+                "type": "CHAINMAIL_HELMET",
+                "data": {
+                  "armors": "wizard",
+                  "Unbreakable": 1
+                }
+              },
+              {
+                "type": "CHAINMAIL_CHESTPLATE",
+                "data": {
+                  "armors": "wizard",
+                  "Unbreakable": 1
+                }
+              },
+              {
+                "type": "CHAINMAIL_LEGGINGS",
+                "data": {
+                  "armors": "wizard",
+                  "Unbreakable": 1
+                }
+              },
+              {
+                "type": "CHAINMAIL_BOOTS",
+                "data": {
+                  "armors": "wizard",
+                  "Unbreakable": 1
+                }
+              }
+            ]
           },
           "messages": {
             "onSpawn": "lumberjack.boss.samurai.spawn-message",
