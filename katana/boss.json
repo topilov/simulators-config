@@ -1,16 +1,6 @@
 {
   "text": {
-    "score": "katana.boss.score.text",
-    "banner": "katana.boss.banner.text"
-  },
-  "banner": {
-    "content": "",
-    "lookAtPlayerX": true,
-    "lookAtPlayerY": true,
-    "color": {
-      "hex": "#1E1E1E"
-    },
-    "scale": 2.0
+    "score": "katana.boss.score.text"
   },
   "locations": {
     "1": {
@@ -18,7 +8,6 @@
         "LIVESEY": {
           "spawnAt": [ "0:0:0" ],
           "type": "LIVESEY",
-          "hasCountdownBanner": false,
           "settings": {
             "health": 1000,
             "damage": 0.0,
@@ -56,6 +45,15 @@
         "SAMURAI": {
           "spawnAt": [ "0:0:0" ],
           "type": "SAMURAI",
+          "banner": {
+            "content": "katana.boss.banner.text",
+            "lookAtPlayerX": true,
+            "lookAtPlayerY": true,
+            "color": {
+              "hex": "#1E1E1E"
+            },
+            "scale": 2.0
+          },
           "settings": {
             "health": 500,
             "damage": 5.0,
