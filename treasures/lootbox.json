@@ -123,27 +123,6 @@
             ]
           },
           {
-            "id": "key",
-            "rarity": "EPIC",
-            "itemStack": {
-              "type": "TNT",
-              "name": "i18n.treasures.donate.element.default-key.donate-name|!|1x",
-              "lore": "i18n.treasures.donate.element.default-key.title|!|1x",
-              "flags": [
-                "HIDE_ATTRIBUTES",
-                "HIDE_ENCHANTS",
-                "HIDE_UNBREAKABLE"
-              ],
-              "data": {
-                "sim": "goldkey"
-              }
-            },
-            "chance": 25,
-            "onDrop": [
-              "give-key %player% DEFAULT 1"
-            ]
-          },
-          {
             "id": "tnt",
             "rarity": "EPIC",
             "itemStack": {
@@ -156,7 +135,7 @@
                 "HIDE_UNBREAKABLE"
               ]
             },
-            "chance": 19,
+            "chance": 44,
             "onDrop": [
               "give-tnt %player% 6"
             ]
