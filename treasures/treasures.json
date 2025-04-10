@@ -2,10 +2,10 @@
   "locations": {
     "1": {
       "chances": {
-        "SILVER": 55,
+        "SILVER": 0.5,
         "GOLDEN": 29.5,
         "CRYSTAL": 15,
-        "LEGENDARY": 0.5
+        "LEGENDARY": 55
       },
       "chests": {
         "SILVER": {
@@ -210,7 +210,7 @@
         },
         "LEGENDARY": {
           "drops": [
-            "RAINBOW_BEEN",
+            "RAINBOW_BEAN",
             "RAINBOW_KEY"
           ]
         }
@@ -710,13 +710,13 @@
         "HIDE_UNBREAKABLE"
       ]
     },
-    "RAINBOW_BEEN": {
+    "RAINBOW_BEAN": {
       "type": "CLAY_BALL",
-      "name": "treasures.treasures.rainbow_been.name",
+      "name": "treasures.treasures.rainbow_bean.name",
       "lore": "i18n.treasures.treasures.lore|!|treasures.items.rare.epic.name",
       "data": {
         "price": 1470000,
-        "sim": "rainbow_been",
+        "sim": "rainbow_bean",
         "treasure": 1,
         "shards": 100,
         "hoverColor": "YELLOW"
