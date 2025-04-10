@@ -39,52 +39,12 @@
         "texture": "lootboxes.png",
         "elements": [
           {
-            "id": "percent-5",
-            "rarity": "COMMON",
-            "itemStack": {
-              "type": "CLAY_BALL",
-              "name": "i18n.treasures.lootbox.reward.percent-money.title|!|5%",
-              "flags": [
-                "HIDE_ATTRIBUTES",
-                "HIDE_ENCHANTS",
-                "HIDE_UNBREAKABLE"
-              ],
-              "data": {
-                "skyblock": "donate"
-              }
-            },
-            "chance": 30,
-            "onDrop": [
-              "random-money %player% 5 5.01"
-            ]
-          },
-          {
-            "id": "percent-10",
-            "rarity": "RARE",
-            "itemStack": {
-              "type": "CLAY_BALL",
-              "name": "i18n.treasures.lootbox.reward.percent-money.title|!|10%",
-              "flags": [
-                "HIDE_ATTRIBUTES",
-                "HIDE_ENCHANTS",
-                "HIDE_UNBREAKABLE"
-              ],
-              "data": {
-                "skyblock": "donate"
-              }
-            },
-            "chance": 30,
-            "onDrop": [
-              "random-money %player% 10 10.01"
-            ]
-          },
-          {
             "id": "booster_blocks",
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
               "name": "i18n.treasures.lootbox.reward.booster_blocks.title|!|¨46bfef",
-              "lore": "i18n.treasures.lootbox.reward.booster.description|!|10%|!|10 минут",
+              "lore": "i18n.treasures.lootbox.reward.booster.description|!|20%|!|10 минут",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -94,9 +54,9 @@
                 "sim": "blocks_booster"
               }
             },
-            "chance": 5,
+            "chance": 15,
             "onDrop": [
-              "local-booster %player% BLOCKS 1.1 600"
+              "local-booster %player% BLOCKS 1.2 600"
             ]
           },
           {
@@ -105,7 +65,7 @@
             "itemStack": {
               "type": "CLAY_BALL",
               "name": "i18n.treasures.lootbox.reward.booster_money.title|!|¨46bfef",
-              "lore": "i18n.treasures.lootbox.reward.booster.description|!|10%|!|10 минут",
+              "lore": "i18n.treasures.lootbox.reward.booster.description|!|20%|!|10 минут",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -115,9 +75,9 @@
                 "sim": "money_booster"
               }
             },
-            "chance": 5,
+            "chance": 15,
             "onDrop": [
-              "local-booster %player% MONEY 1.1 600"
+              "local-booster %player% MONEY 1.2 600"
             ]
           },
           {
@@ -126,7 +86,7 @@
             "itemStack": {
               "type": "CLAY_BALL",
               "name": "i18n.treasures.lootbox.reward.booster_treasures.title|!|¨46bfef",
-              "lore": "i18n.treasures.lootbox.reward.booster.description|!|10%|!|10 минут",
+              "lore": "i18n.treasures.lootbox.reward.booster.description|!|20%|!|10 минут",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -136,9 +96,9 @@
                 "sim": "treasures_booster"
               }
             },
-            "chance": 5,
+            "chance": 15,
             "onDrop": [
-              "local-booster %player% TREASURES 1.1 600"
+              "local-booster %player% TREASURES 1.2 600"
             ]
           },
           {
@@ -157,9 +117,30 @@
                 "sim": "save_crystal"
               }
             },
-            "chance": 5,
+            "chance": 10,
             "onDrop": [
               "give-item %player% SAVE_CRYSTAL 1"
+            ]
+          },
+          {
+            "id": "key",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "TNT",
+              "name": "i18n.treasures.donate.element.default-key.donate-name|!|1x",
+              "lore": "i18n.treasures.donate.element.default-key.title|!|1x",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "goldkey"
+              }
+            },
+            "chance": 25,
+            "onDrop": [
+              "give-key %player% DEFAULT 1"
             ]
           },
           {
@@ -177,7 +158,7 @@
             },
             "chance": 19,
             "onDrop": [
-              "give-tnt %player% 8"
+              "give-tnt %player% 6"
             ]
           },
           {
