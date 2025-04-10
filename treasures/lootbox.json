@@ -175,9 +175,30 @@
                 "HIDE_UNBREAKABLE"
               ]
             },
-            "chance": 19.5,
+            "chance": 19,
             "onDrop": [
               "give-tnt %player% 8"
+            ]
+          },
+          {
+            "id": "keys-pickaxe",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "WOOD_PICKAXE",
+              "name": "i18n.treasures.tool.pickaxe.keys.title.color",
+              "lore": "treasures.lootbox.tool.pickaxe.keys.description",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim_pickaxe": "h3"
+              }
+            },
+            "chance": 0.5,
+            "onDrop": [
+              "give-tool %player% PICKAXE KEYS_PICKAXE"
             ]
           },
           {
@@ -186,7 +207,7 @@
             "itemStack": {
               "type": "WOOD_PICKAXE",
               "name": "i18n.treasures.tool.pickaxe.luck.title.color",
-              "lore": "treasures.lootbox.tool.axe.lucky.description",
+              "lore": "treasures.lootbox.tool.pickaxe.lucky.description",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
