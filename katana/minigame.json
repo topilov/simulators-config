@@ -16,7 +16,12 @@
       "spawnAt": ["0:0:0"]
     },
     "TEAM_VS_TEAM": {
-      "title": "Команда vs Команда",
+      "title": "Командая битва",
+      "description": "Команда vs Команда",
+      "spawnAt": ["0:0:0"]
+    },
+    "TEAM_VS_TEAM_HARD": {
+      "title": "Командная битва Hard",
       "description": "Команда vs Команда",
       "spawnAt": ["0:0:0"]
     }
@@ -127,7 +132,7 @@
         },
         "description": {
           "title": "Командная\nбитва",
-          "description": "Убейте как можно больше вражеских игроков за отведенное время"
+          "description": "Останьтесь последней выжившей командой"
         }
       },
       "game": {
@@ -140,6 +145,48 @@
           "type": "TEAM",
           "positions": 3,
           "valueName": "игроков"
+        }
+      },
+      "end": {
+        "arenaStatus": "TERMINATING",
+        "duration": 5,
+        "isCloseAfterExpire": true
+      }
+    }
+  },
+  "teamVsTeamHard": {
+    "teams": {
+      "RED": {
+        "icon": "\uE05B",
+        "title": "Красные"
+      },
+      "BLUE": {
+        "icon": "\uE05A",
+        "title": "Синие"
+      }
+    },
+    "status": {
+      "waiting": {
+        "arenaStatus": "WAITING_PLAYERS",
+        "duration": 15,
+        "countdown": {
+          "title": "Игра начнется через"
+        },
+        "description": {
+          "title": "Командная\nбитва Hard",
+          "description": "Убейте как можно больше вражеских игроков за отведенное время"
+        }
+      },
+      "game": {
+        "arenaStatus": "STARTED",
+        "duration": 120,
+        "countdown": {
+          "title": "Игра закончится через"
+        },
+        "pointIndicator": {
+          "type": "TEAM",
+          "positions": 3,
+          "valueName": "убийств"
         }
       },
       "end": {
