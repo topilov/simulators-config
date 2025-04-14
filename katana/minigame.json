@@ -116,7 +116,7 @@
           "title": "Игра начнется через"
         },
         "description": {
-          "title": "Команда\nVs\nКоманда",
+          "title": "Командная\nбитва",
           "description": "Убейте как можно больше вражеских игроков за отведенное время"
         }
       },
@@ -125,6 +125,11 @@
         "duration": 120,
         "countdown": {
           "title": "Игра закончится через"
+        },
+        "pointIndicator": {
+          "type": "TEAM",
+          "positions": 3,
+          "valueName": "убийств"
         }
       },
       "end": {
