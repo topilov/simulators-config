@@ -67,13 +67,13 @@
         "earn-money %player% 5000 false"
       ]
     },
-    "OPEN_DEFAULT_LOOTBOX": {
+    "OPEN_KATANA_LOOTBOX": {
       "stageId": 6,
-      "title": "katana.tutorial.open-default-lootbox.title",
-      "description": "katana.tutorial.open-default-lootbox.description",
+      "title": "katana.tutorial.open-katana-lootbox.title",
+      "description": "katana.tutorial.open-katana-lootbox.description",
       "pathLocation": {
         "name": "lootbox",
-        "tag": "default",
+        "tag": "katana",
         "offset": {
           "x": 0.5,
           "y": 0.0,
@@ -81,7 +81,7 @@
         }
       },
       "onStart": [
-        "give-key %player% DEFAULT 1"
+        "give-key %player% KATANA 1"
       ]
     },
     "OPEN_PET_LOOTBOX": {
