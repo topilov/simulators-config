@@ -77,7 +77,8 @@
         "texture": "map2.png",
         "requiredLevel": 2,
         "onClick": [
-          "location-tp %player% %id%"
+          "location-tp %player% %id%",
+          "earn-tutorial-stage-progress %player% LOCATION_TELEPORT"
         ]
       },
       "pvpBox": {

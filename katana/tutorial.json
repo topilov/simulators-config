@@ -1,27 +1,18 @@
 {
   "stages": {
-    "DIG_BLOCKS": {
+    "DNK_MINING": {
       "stageId": 1,
       "required": 10,
-      "title": "katana.tutorial.dig-blocks.title",
-      "description": "katana.tutorial.dig-blocks.description",
-      "progressTitle": "katana.tutorial.dig-blocks.progress.title",
-      "pathLocation": {
-        "name": "block",
-        "offset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": -1.0
-        }
-      }
+      "title": "katana.tutorial.dna-mining.title",
+      "description": "katana.tutorial.dna-mining.description",
+      "progressTitle": "katana.tutorial.dna-mining.progress.title"
     },
-    "SELL_BLOCKS": {
+    "DNK_SELL": {
       "stageId": 2,
-      "title": "katana.tutorial.sell-blocks.title",
-      "description": "katana.tutorial.sell-blocks.description",
+      "title": "katana.tutorial.dna-sell.title",
+      "description": "katana.tutorial.dna-sell.description",
       "pathLocation": {
         "name": "sell",
-        "tag": "blocks",
         "offset": {
           "x": 0.5,
           "y": 0.0,
@@ -29,13 +20,12 @@
         }
       }
     },
-    "UPGRADE_PICKAXE": {
+    "UPGRADE_KATANA": {
       "stageId": 3,
-      "title": "katana.tutorial.upgrade-pickaxe.title",
-      "description": "katana.tutorial.upgrade-pickaxe.description",
+      "title": "katana.tutorial.upgrade-katana.title",
+      "description": "katana.tutorial.upgrade-katana.description",
       "pathLocation": {
         "name": "upgrade",
-        "tag": "items",
         "offset": {
           "x": 0.5,
           "y": 0.0,
@@ -43,23 +33,17 @@
         }
       },
       "onStart": [
-        "earn-money %player% 100 false"
+        "earn-money %player% 380 false"
       ]
     },
-    "GET_TREASURES": {
+    "KILL_PLAYERS": {
       "stageId": 4,
-      "required": 1,
-      "title": "katana.tutorial.get-treasures.title",
-      "description": "katana.tutorial.get-treasures.description",
-      "progressTitle": "katana.tutorial.get-treasures.progress.title"
-    },
-    "SELL_TREASURES": {
-      "stageId": 5,
-      "title": "katana.tutorial.sell-treasures.title",
-      "description": "katana.tutorial.sell-treasures.description",
+      "required": 2,
+      "title": "katana.tutorial.kill-players.title",
+      "description": "katana.tutorial.kill-players.description",
+      "progressTitle": "katana.tutorial.kill-players.progress.title",
       "pathLocation": {
-        "name": "sell",
-        "tag": "katana",
+        "name": "arena",
         "offset": {
           "x": 0.5,
           "y": 0.0,
@@ -68,12 +52,11 @@
       }
     },
     "UPGRADE_STORAGE": {
-      "stageId": 6,
+      "stageId": 5,
       "title": "katana.tutorial.upgrade-storage.title",
       "description": "katana.tutorial.upgrade-storage.description",
       "pathLocation": {
-        "name": "upgrade",
-        "tag": "storage",
+        "name": "upgrade-dnk",
         "offset": {
           "x": 0.5,
           "y": 0.0,
@@ -81,16 +64,16 @@
         }
       },
       "onStart": [
-        "earn-money %player% 500 false"
+        "earn-money %player% 5000 false"
       ]
     },
-    "OPEN_DEFAULT_LOOTBOX": {
-      "stageId": 7,
-      "title": "katana.tutorial.open-default-lootbox.title",
-      "description": "katana.tutorial.open-default-lootbox.description",
+    "OPEN_KATANA_LOOTBOX": {
+      "stageId": 6,
+      "title": "katana.tutorial.open-katana-lootbox.title",
+      "description": "katana.tutorial.open-katana-lootbox.description",
       "pathLocation": {
         "name": "lootbox",
-        "tag": "default",
+        "tag": "katana",
         "offset": {
           "x": 0.5,
           "y": 0.0,
@@ -98,11 +81,11 @@
         }
       },
       "onStart": [
-        "give-key %player% DEFAULT 1"
+        "give-key %player% KATANA 1"
       ]
     },
     "OPEN_PET_LOOTBOX": {
-      "stageId": 8,
+      "stageId": 7,
       "title": "katana.tutorial.open-pet-lootbox.title",
       "description": "katana.tutorial.open-pet-lootbox.description",
       "pathLocation": {
@@ -119,7 +102,7 @@
       ]
     },
     "OPEN_RUNE_LOOTBOX": {
-      "stageId": 9,
+      "stageId": 8,
       "title": "katana.tutorial.open-rune-lootbox.title",
       "description": "katana.tutorial.open-rune-lootbox.description",
       "pathLocation": {
@@ -136,13 +119,13 @@
       ]
     },
     "TAKE_DAILY_REWARD": {
-      "stageId": 10,
+      "stageId": 9,
       "isSaving": true,
       "title": "katana.tutorial.take-daily-reward.title",
       "description": "katana.tutorial.take-daily-reward.description"
     },
     "OPEN_TITLE_LOOTBOX": {
-      "stageId": 11,
+      "stageId": 10,
       "title": "katana.tutorial.open-title-lootbox.title",
       "description": "katana.tutorial.open-title-lootbox.description",
       "isSaving": true,
@@ -157,17 +140,18 @@
       }
     },
     "WEAR_EQUIPMENT": {
-      "stageId": 12,
+      "stageId": 11,
+      "required": 3,
       "title": "katana.tutorial.wear-equipment.title",
-      "description": "katana.tutorial.wear-equipment.description"
+      "description": "katana.tutorial.wear-equipment.description",
+      "progressTitle": "katana.tutorial.wear-equipment.progress.title"
     },
     "LEVEL_UP": {
-      "stageId": 13,
+      "stageId": 12,
       "title": "katana.tutorial.level-up.title",
       "description": "katana.tutorial.level-up.description",
       "pathLocation": {
-        "name": "upgrade",
-        "tag": "level",
+        "name": "level",
         "offset": {
           "x": 0.5,
           "y": 0.0,
@@ -176,12 +160,12 @@
       }
     },
     "LOCATION_TELEPORT": {
-      "stageId": 14,
+      "stageId": 13,
       "title": "katana.tutorial.location-teleport.title",
       "description": "katana.tutorial.location-teleport.description"
     },
     "REBIRTH": {
-      "stageId": 15,
+      "stageId": 14,
       "title": "katana.tutorial.rebirth.title",
       "description": "katana.tutorial.rebirth.description"
     }
