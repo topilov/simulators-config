@@ -23,15 +23,18 @@
       "reward": {
         "1": [
           "give-key %player% RUNE 3",
-          "random-money %player% 70.0 70.1 1"
+          "random-money %player% 70.0 70.1 1",
+          "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1"
         ],
         "2": [
           "give-key %player% RUNE 2",
-          "random-money %player% 55.0 55.1 1"
+          "random-money %player% 55.0 55.1 1",
+          "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1"
         ],
         "3": [
           "give-key %player% RUNE 2",
-          "random-money %player% 40.0 40.1 1"
+          "random-money %player% 40.0 40.1 1",
+          "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1"
         ]
       }
     },
@@ -58,15 +61,18 @@
       "reward": {
         "1": [
           "give-key %player% PET 3",
-          "random-money %player% 70.0 70.1 1"
+          "random-money %player% 70.0 70.1 1",
+          "add-achievement-progress %player% TAKE_TOP_TREASURES_EVENT 1"
         ],
         "2": [
           "give-key %player% PET 2",
-          "random-money %player% 55.0 55.1 1"
+          "random-money %player% 55.0 55.1 1",
+          "add-achievement-progress %player% TAKE_TOP_TREASURES_EVENT 1"
         ],
         "3": [
           "give-key %player% PET 2",
-          "random-money %player% 40.0 40.1 1"
+          "random-money %player% 40.0 40.1 1",
+          "add-achievement-progress %player% TAKE_TOP_TREASURES_EVENT 1"
         ]
       }
     }
