@@ -1,6 +1,7 @@
 {
   "achievements": {
     "OPEN_DEFAULT_LOOTBOX": {
+      "title": "Открытие обычного лутбокса",
       "texture": "treasures_booster.png",
       "maxStage": 3,
       "stages": [
@@ -28,9 +29,13 @@
             "earn-money %player% 12 true"
           ]
         }
-      ]
+      ],
+      "messages": {
+        "complete": "treasures.achievement.open_default_lootbox.messages.complete"
+      }
     },
     "OPEN_PET_LOOTBOX": {
+      "title": "Открытие  лутбокса с питомцами",
       "texture": "treasures_booster.png",
       "maxStage": 3,
       "stages": [
@@ -58,9 +63,13 @@
             "earn-money %player% 12 true"
           ]
         }
-      ]
+      ],
+      "messages": {
+        "complete": "treasures.achievement.open_pet_lootbox.messages.complete"
+      }
     },
     "OPEN_RUNE_LOOTBOX": {
+      "title": "Открытие лутбокса с рунами",
       "texture": "treasures_booster.png",
       "maxStage": 3,
       "stages": [
@@ -88,9 +97,13 @@
             "earn-money %player% 12 true"
           ]
         }
-      ]
+      ],
+      "messages": {
+        "complete": "treasures.achievement.open_rune_lootbox.messages.complete"
+      }
     },
     "OPEN_TITLE_LOOTBOX": {
+      "title": "Открытие лутбокса с титулами",
       "texture": "treasures_booster.png",
       "maxStage": 3,
       "stages": [
@@ -118,9 +131,13 @@
             "earn-money %player% 12 true"
           ]
         }
-      ]
+      ],
+      "messages": {
+        "complete": "treasures.achievement.open_title_lootbox.messages.complete"
+      }
     },
     "UPGRADE_LEVEL": {
+      "title": "Прокачка уровня",
       "texture": "blocks_booster.png",
       "maxStage": 3,
       "stages": [
@@ -148,7 +165,10 @@
             "earn-money %player% 12 true"
           ]
         }
-      ]
+      ],
+      "messages": {
+        "complete": "treasures.achievement.upgrade_level.messages.complete"
+      }
     }
   }
 }
