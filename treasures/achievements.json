@@ -400,6 +400,56 @@
         "complete": "treasures.achievement.get_treasure.messages.complete"
       }
     },
+    "GET_LEGENDARY_TREASURE": {
+      "title": "Поиск сокровищ",
+      "texture": "blocks_booster.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "Найти 100 сокровищ",
+          "description": "Награда: 1 поинт",
+          "required": 100.0,
+          "onTake": [
+            "earn-money %player% 12 true"
+          ]
+        },
+        {
+          "title": "Найти 1.2К сокровищ",
+          "description": "Награда: 1 поинт",
+          "required": 1200.0,
+          "onTake": [
+            "earn-money %player% 12 true"
+          ]
+        },
+        {
+          "title": "Найти 35К сокровищ",
+          "description": "Награда: 1 поинт",
+          "required": 35000.0,
+          "onTake": [
+            "earn-money %player% 12 true"
+          ]
+        },
+        {
+          "title": "Найти 250К сокровищ",
+          "description": "Награда: 1 поинт",
+          "required": 250000.0,
+          "onTake": [
+            "earn-money %player% 12 true"
+          ]
+        },
+        {
+          "title": "Найти 1.1М сокровищ",
+          "description": "Награда: 1 поинт",
+          "required": 1100000.0,
+          "onTake": [
+            "earn-money %player% 12 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.get_treasure.messages.complete"
+      }
+    },
     "COLLECT_MUSEUM_1": {
       "title": "Коллекция «Пляж»",
       "texture": "blocks_booster.png",
