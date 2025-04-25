@@ -1,0 +1,282 @@
+{
+  "menu": {
+    "title": "",
+    "categories": [
+      {
+        "title": "katana.quest.category.title",
+        "questsData": [
+          {
+            "title": "katana.stat.exp.text",
+            "quests": [
+              {
+                "title": "katana.quest.exp1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|5K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.exp.subtitle",
+                    "goal": 5000.0,
+                    "current": "exp1"
+                  }
+                ]
+              },
+              {
+                "title": "katana.quest.exp2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|15K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.exp.subtitle",
+                    "goal": 50000.0,
+                    "current": "exp2"
+                  }
+                ]
+              },
+              {
+                "title": "katana.quest.exp3.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|40K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.exp.subtitle",
+                    "goal": 125000.0,
+                    "current": "exp3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Уровень",
+            "quests": [
+              {
+                "title": "katana.quest.level1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|25K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.level.subtitle",
+                    "goal": 2,
+                    "current": "level1"
+                  }
+                ]
+              },
+              {
+                "title": "katana.quest.level2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|45K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.level.subtitle",
+                    "goal": 4,
+                    "current": "level2"
+                  }
+                ]
+              },
+              {
+                "title": "katana.quest.level3.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|90K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.level.subtitle",
+                    "goal": 6,
+                    "current": "level3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Удары",
+            "quests": [
+              {
+                "title": "katana.quest.hits1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|2.5K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.hits.subtitle",
+                    "goal": 1500,
+                    "current": "hits1"
+                  }
+                ]
+              },
+              {
+                "title": "katana.quest.hits2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|12.5K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.hits.subtitle",
+                    "goal": 5000,
+                    "current": "hits2"
+                  }
+                ]
+              },
+              {
+                "title": "katana.quest.hits3.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|25K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.hits.subtitle",
+                    "goal": 15000,
+                    "current": "hits3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Убийства",
+            "quests": [
+              {
+                "title": "katana.quest.kills1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|2.5K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.kills.subtitle",
+                    "goal": 100,
+                    "current": "kills1"
+                  }
+                ]
+              },
+              {
+                "title": "katana.quest.kills2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|12.5K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.kills.subtitle",
+                    "goal": 500,
+                    "current": "kills2"
+                  }
+                ]
+              },
+              {
+                "title": "katana.quest.kills3.title",
+                "icon": "achievements.png",
+                "reward": "i18n.katana.quest.reward.money|!|25K",
+                "tasks": [
+                  {
+                    "name": "katana.quest.kills.subtitle",
+                    "goal": 1500,
+                    "current": "kills3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "quests": {
+    "EXP": [
+      {
+        "id": "exp1",
+        "title": "katana.quest.exp1.title",
+        "goal": 5000,
+        "onComplete": [
+          "earn-money %player% 5000 true"
+        ]
+      },
+      {
+        "id": "exp2",
+        "title": "katana.quest.exp2.title",
+        "goal": 50000,
+        "onComplete": [
+          "earn-money %player% 15000 true"
+        ]
+      },
+      {
+        "id": "exp3",
+        "title": "katana.quest.exp3.title",
+        "goal": 125000,
+        "onComplete": [
+          "earn-money %player% 40000 true"
+        ]
+      }
+    ],
+    "LEVEL": [
+      {
+        "id": "level1",
+        "title": "katana.quest.level1.title",
+        "goal": 2,
+        "onComplete": [
+          "earn-money %player% 25000 true"
+        ]
+      },
+      {
+        "id": "level2",
+        "title": "katana.quest.level2.title",
+        "goal": 4,
+        "onComplete": [
+          "earn-money %player% 45000 true"
+        ]
+      },
+      {
+        "id": "level3",
+        "title": "katana.quest.level3.title",
+        "goal": 6,
+        "onComplete": [
+          "earn-money %player% 90000 true"
+        ]
+      }
+    ],
+    "HITS": [
+      {
+        "id": "hits1",
+        "title": "katana.quest.hits1.title",
+        "goal": 1500,
+        "onComplete": [
+          "earn-money %player% 2500 true"
+        ]
+      },
+      {
+        "id": "hits2",
+        "title": "katana.quest.hits2.title",
+        "goal": 5000,
+        "onComplete": [
+          "earn-money %player% 12500 true"
+        ]
+      },
+      {
+        "id": "hits3",
+        "title": "katana.quest.hits3.title",
+        "goal": 15000,
+        "onComplete": [
+          "earn-money %player% 25000 true"
+        ]
+      }
+    ],
+    "KILLS": [
+      {
+        "id": "kills1",
+        "title": "katana.quest.kills1.title",
+        "goal": 100,
+        "onComplete": [
+          "earn-money %player% 2500 true"
+        ]
+      },
+      {
+        "id": "kills2",
+        "title": "katana.quest.kills2.title",
+        "goal": 500,
+        "onComplete": [
+          "earn-money %player% 12500 true"
+        ]
+      },
+      {
+        "id": "kills3",
+        "title": "katana.quest.kills3.title",
+        "goal": 1500,
+        "onComplete": [
+          "earn-money %player% 25000 true"
+        ]
+      }
+    ]
+  }
+}
