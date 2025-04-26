@@ -1,6 +1,7 @@
 {
   "containers": {
     "PRICE_REDUCTION": {
+      "texture": "sale_percent_1.png",
       "title": "treasures.incident.price_reduction.title",
       "description": "treasures.incident.price_reduction.description",
       "stat": [ 60, 10 ],
@@ -21,6 +22,7 @@
       "printStat": [1]
     },
     "INCREASED_LOOTBOX_CHANCES": {
+      "texture": "event_icon.png",
       "title": "treasures.incident.increased_lootbox_chances.title",
       "description": "treasures.incident.increased_lootbox_chances.description",
       "stat": [ 60, 20 ],
@@ -41,6 +43,7 @@
       "printStat": [1]
     },
     "DROPPER": {
+      "texture": "event_icon.png",
       "title": "treasures.incident.dropper.title",
       "description": "treasures.incident.dropper.description",
       "stat": [ 60, 0.5, 0.0, 100, 1 ],
@@ -61,6 +64,7 @@
       "printStat": [1]
     },
     "SUPERCHARGING": {
+      "texture": "event_icon.png",
       "title": "treasures.incident.supercharging.title",
       "description": "treasures.incident.supercharging.description",
       "stat": [ 60, 50 ],
@@ -107,6 +111,7 @@
           {
             "incidentId": "PRICE_REDUCTION",
             "id": "sale_percent_1",
+            "texture": "sale_percent_1.png",
             "title": "Суперскидка",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -119,6 +124,7 @@
             "incidentId": "PRICE_REDUCTION",
             "parentId": "sale_percent_1",
             "id": "sale_percent_2",
+            "texture": "sale_percent_2.png",
             "title": "Грандиозная скидка",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -131,6 +137,7 @@
             "incidentId": "PRICE_REDUCTION",
             "parentId": "sale_percent_1",
             "id": "sale_duration_1",
+            "texture": "sale_duration_1.png",
             "title": "Долговечность",
             "description": "treasures.incident.upgrade.duration.description",
             "statId": 0,
@@ -143,6 +150,7 @@
             "incidentId": "PRICE_REDUCTION",
             "parentId": "sale_percent_2",
             "id": "sale_percent_3",
+            "texture": "sale_percent_3.png",
             "title": "Скидкомания",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -159,6 +167,7 @@
           {
             "incidentId": "INCREASED_LOOTBOX_CHANCES",
             "id": "increased_chance_percent_1",
+            "texture": "event_icon.png",
             "title": "Удача близко",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -171,6 +180,7 @@
             "incidentId": "INCREASED_LOOTBOX_CHANCES",
             "parentId": "increased_chance_percent_1",
             "id": "increased_chance_percent_2",
+            "texture": "event_icon.png",
             "title": "Везунчик",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -183,6 +193,7 @@
             "incidentId": "INCREASED_LOOTBOX_CHANCES",
             "parentId": "increased_chance_percent_1",
             "id": "increased_chance_duration_1",
+            "texture": "event_icon.png",
             "title": "Дольше удачи",
             "description": "treasures.incident.upgrade.duration.description",
             "statId": 0,
@@ -195,6 +206,7 @@
             "incidentId": "INCREASED_LOOTBOX_CHANCES",
             "parentId": "increased_chance_percent_2",
             "id": "increased_chance_percent_3",
+            "texture": "event_icon.png",
             "title": "Возвышенная удача",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -211,6 +223,7 @@
           {
             "incidentId": "DROPPER",
             "id": "dropper_worth_coin_1",
+            "texture": "event_icon.png",
             "title": "Монетопад",
             "description": "treasures.incident.upgrade.description",
             "statId": 3,
@@ -223,6 +236,7 @@
             "incidentId": "DROPPER",
             "parentId": "dropper_worth_coin_1",
             "id": "dropper_chance_bits_1",
+            "texture": "event_icon.png",
             "title": "Джекпот",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 2,
@@ -236,6 +250,7 @@
             "incidentId": "DROPPER",
             "parentId": "dropper_worth_coin_1",
             "id": "dropper_duration_1",
+            "texture": "event_icon.png",
             "title": "Изобилие",
             "description": "treasures.incident.upgrade.duration.description",
             "statId": 0,
@@ -248,6 +263,7 @@
             "incidentId": "DROPPER",
             "parentId": "dropper_worth_coin_1",
             "id": "dropper_spawn_every_1",
+            "texture": "event_icon.png",
             "title": "Экспресс-добыча",
             "description": "treasures.incident.upgrade.duration.description",
             "statId": 1,
@@ -261,6 +277,7 @@
             "incidentId": "DROPPER",
             "parentId": "dropper_chance_bits_1",
             "id": "dropper_worth_bits_1",
+            "texture": "event_icon.png",
             "title": "Куш",
             "description": "treasures.incident.upgrade.description",
             "statId": 4,
@@ -273,6 +290,7 @@
             "incidentId": "DROPPER",
             "parentId": "dropper_spawn_every_1",
             "id": "dropper_worth_coin_2",
+            "texture": "event_icon.png",
             "title": "Лавина золота",
             "description": "treasures.incident.upgrade.description",
             "statId": 3,
@@ -289,6 +307,7 @@
           {
             "incidentId": "SUPERCHARGING",
             "id": "supercharging_percent_multiplier_1",
+            "texture": "event_icon.png",
             "title": "Хватай бустеры",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -301,6 +320,7 @@
             "incidentId": "SUPERCHARGING",
             "parentId": "supercharging_percent_multiplier_1",
             "id": "supercharging_percent_multiplier_2",
+            "texture": "event_icon.png",
             "title": "Больше бустеров",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -313,6 +333,7 @@
             "incidentId": "SUPERCHARGING",
             "parentId": "supercharging_percent_multiplier_1",
             "id": "supercharging_duration_2",
+            "texture": "event_icon.png",
             "title": "Турбо время",
             "description": "treasures.incident.upgrade.duration.description",
             "statId": 0,
@@ -325,6 +346,7 @@
             "incidentId": "SUPERCHARGING",
             "parentId": "supercharging_percent_multiplier_2",
             "id": "supercharging_percent_multiplier_3",
+            "texture": "event_icon.png",
             "title": "Полное усиление",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
