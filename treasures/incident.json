@@ -43,7 +43,7 @@
       "printStat": [1]
     },
     "DROPPER": {
-      "texture": "event_icon.png",
+      "texture": "dropper_spawn_every_1.png",
       "title": "treasures.incident.dropper.title",
       "description": "treasures.incident.dropper.description",
       "stat": [ 60, 0.5, 0.0, 100, 1 ],
@@ -64,7 +64,7 @@
       "printStat": [1]
     },
     "SUPERCHARGING": {
-      "texture": "event_icon.png",
+      "texture": "supercharging_percent_multiplier_1.png",
       "title": "treasures.incident.supercharging.title",
       "description": "treasures.incident.supercharging.description",
       "stat": [ 60, 50 ],
@@ -307,7 +307,7 @@
           {
             "incidentId": "SUPERCHARGING",
             "id": "supercharging_percent_multiplier_1",
-            "texture": "event_icon.png",
+            "texture": "supercharging_percent_multiplier_1.png",
             "title": "Хватай бустеры",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -320,7 +320,7 @@
             "incidentId": "SUPERCHARGING",
             "parentId": "supercharging_percent_multiplier_1",
             "id": "supercharging_percent_multiplier_2",
-            "texture": "event_icon.png",
+            "texture": "supercharging_percent_multiplier_2.png",
             "title": "Больше бустеров",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
@@ -332,8 +332,8 @@
           {
             "incidentId": "SUPERCHARGING",
             "parentId": "supercharging_percent_multiplier_1",
-            "id": "supercharging_duration_2",
-            "texture": "event_icon.png",
+            "id": "supercharging_duration_1",
+            "texture": "supercharging_duration_1.png",
             "title": "Турбо время",
             "description": "treasures.incident.upgrade.duration.description",
             "statId": 0,
@@ -346,7 +346,7 @@
             "incidentId": "SUPERCHARGING",
             "parentId": "supercharging_percent_multiplier_2",
             "id": "supercharging_percent_multiplier_3",
-            "texture": "event_icon.png",
+            "texture": "supercharging_percent_multiplier_3.png",
             "title": "Полное усиление",
             "description": "treasures.incident.upgrade.percent.description",
             "statId": 1,
