@@ -36,11 +36,23 @@
     "status": {
       "waiting": {
         "arenaStatus": "WAITING_PLAYERS",
-        "duration": 15
+        "duration": 15,
+        "countdown": {
+          "title": "Игра начнется через"
+        },
+        "description": {
+          "title": "Раскопки",
+          "description": "Найдите как можно больше сокровищ за отведенное время"
+        }
       },
       "game": {
         "arenaStatus": "STARTED",
-        "duration": 120
+        "duration": 120,
+        "pointIndicator": {
+          "type": "COMMON",
+          "positions": 3,
+          "valueName": "сокровищ"
+        }
       },
       "end": {
         "arenaStatus": "TERMINATING",
