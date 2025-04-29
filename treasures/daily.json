@@ -17,8 +17,6 @@
       },
       "onSuccess": [
         "earn-money %player% 500 false",
-        "earn-shards %player% 600",
-        "earn-simcoin %player% 10",
         "earn-bits %player% 50",
         "give-key %player% DEFAULT 5",
         "give-key %player% TITLE 1",
@@ -53,7 +51,7 @@
       "onSuccess": [
         "give-key %player% PET 2",
         "earn-bits %player% 75",
-        "earn-shards %player% 600",
+        "morestat %player% add 600 shards",
         "give-key %player% TITLE 1",
         "take-daily %player% 3"
       ]
@@ -68,7 +66,7 @@
       },
       "onSuccess": [
         "earn-bits %player% 90",
-        "earn-simcoin %player% 10",
+        "morestat %player% add 10 minigamePoints",
         "random-money %player% 25 25.01",
         "give-key %player% TITLE 1",
         "take-daily %player% 4"
@@ -117,7 +115,7 @@
       "onSuccess": [
         "give-key %player% TITLE 1",
         "earn-bits %player% 200",
-        "earn-shards %player% 1000",
+        "morestat %player% add 1000 shards",
         "local-booster %player% BLOCKS 2 7200",
         "local-booster %player% EXPLOSIONS 2 7200",
         "local-booster %player% EXP 2 7200",
