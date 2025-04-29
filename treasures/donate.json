@@ -386,6 +386,23 @@
         "morestat %player% set true autoOpenLootBox"
       ]
     },
+    "AUTO_MERGE": {
+      "donateName": "treasures.donate.element.auto-merge.donate-name",
+      "confirmationTitle": "treasures.donate.element.auto-merge.title",
+      "title": "treasures.donate.element.auto-merge.title",
+      "description": "treasures.donate.element.auto-merge.description",
+      "texture": "auto_merge.png",
+      "category": "OTHER_FEATURES",
+      "price": 299,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasAutoMerge"
+      ]
+    },
     "SUPER_PLAYER": {
       "donateName": "treasures.donate.element.super-player.donate-name",
       "title": "treasures.donate.element.super-player.title",
