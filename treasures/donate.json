@@ -30,7 +30,7 @@
       },
       "category": "OTHER",
       "price": 79,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1
       ],
@@ -52,7 +52,7 @@
       },
       "category": "OTHER",
       "price": 119,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1
       ],
@@ -74,7 +74,7 @@
       },
       "category": "OTHER",
       "price": 199,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1
       ],
@@ -113,7 +113,7 @@
       "texture": "pet_slot.png",
       "category": "OTHER",
       "price": 149,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1
       ],
@@ -129,12 +129,34 @@
       "texture": "rune_slot.png",
       "category": "OTHER",
       "price": 399,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1
       ],
       "onBuy": [
         "unlock-rune-slot %player%"
+      ]
+    },
+    "INCIDENT_POINT": {
+      "donateName": "treasures.donate.element.incident-point.donate-name",
+      "confirmationTitle": "treasures.donate.element.incident-point.title",
+      "title": "treasures.donate.element.incident-point.title",
+      "description": "treasures.donate.element.incident-point.description",
+      "item": {
+        "type": "EMERALD"
+      },
+      "category": "GAME_BALANCE",
+      "price": 79,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5,
+        10,
+        25
+      ],
+      "onBuy": [
+        "give-incident-points %player% %count%"
       ]
     },
     "MONEY_BAG": {
@@ -145,7 +167,7 @@
       "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 39,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -164,7 +186,7 @@
       "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 9,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -190,7 +212,7 @@
       },
       "category": "GAME_ITEMS",
       "price": 599,
-      "sale": 80,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -230,7 +252,7 @@
       },
       "category": "GAME_ITEMS",
       "price": 99,
-      "sale": 80,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -249,7 +271,7 @@
       "texture": "goldkey.png",
       "category": "GAME_ITEMS",
       "price": 39,
-      "sale": 80,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -268,7 +290,7 @@
       "texture": "purple_cristal_key.png",
       "category": "GAME_ITEMS",
       "price": 199,
-      "sale": 80,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -287,7 +309,7 @@
       "texture": "fox_key.png",
       "category": "GAME_ITEMS",
       "price": 59,
-      "sale": 80,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -306,7 +328,7 @@
       "texture": "rune_key.png",
       "category": "GAME_ITEMS",
       "price": 99,
-      "sale": 80,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -325,7 +347,7 @@
       "texture": "autocase.png",
       "category": "OTHER_FEATURES",
       "price": 599,
-      "sale": 80,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -342,7 +364,7 @@
       "texture": "storage.png",
       "category": "OTHER_FEATURES",
       "price": 399,
-      "sale": 80,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -360,7 +382,7 @@
       "texture": "case5.png",
       "category": "OTHER_FEATURES",
       "price": 249,
-      "sale": 80,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -377,7 +399,7 @@
       "texture": "autocase.png",
       "category": "OTHER_FEATURES",
       "price": 349,
-      "sale": 80,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -410,7 +432,7 @@
       "texture": "vip.png",
       "category": "OTHER_FEATURES",
       "price": 149,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1
       ],
@@ -427,7 +449,7 @@
       "texture": "speed.png",
       "category": "OTHER_FEATURES",
       "price": 99,
-      "sale": 80,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -445,7 +467,7 @@
       "texture": "exp_booster.png",
       "category": "BOOSTERS",
       "price": 249,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -462,7 +484,7 @@
       "texture": "exp_booster.png",
       "category": "BOOSTERS",
       "price": 179,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -479,7 +501,7 @@
       "texture": "treasures_booster.png",
       "category": "BOOSTERS",
       "price": 249,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -496,7 +518,7 @@
       "texture": "treasures_booster.png",
       "category": "BOOSTERS",
       "price": 179,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -513,7 +535,7 @@
       "texture": "blocks_booster.png",
       "category": "BOOSTERS",
       "price": 249,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -530,7 +552,7 @@
       "texture": "blocks_booster.png",
       "category": "BOOSTERS",
       "price": 179,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -547,7 +569,7 @@
       "texture": "money_booster.png",
       "category": "BOOSTERS",
       "price": 249,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -565,7 +587,7 @@
       "texture": "money_booster.png",
       "category": "BOOSTERS",
       "price": 179,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -582,7 +604,7 @@
       "texture": "all_booster.png",
       "category": "BOOSTERS",
       "price": 749,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -602,7 +624,7 @@
       "texture": "all_booster.png",
       "category": "BOOSTERS",
       "price": 549,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
