@@ -41,7 +41,7 @@
         "elements": [
           {
             "id": "booster_blocks",
-            "rarity": "RARE",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
               "name": "i18n.treasures.lootbox.reward.booster_blocks.title|!|¨46bfef",
@@ -82,8 +82,8 @@
             ]
           },
           {
-            "id": "booster_mobs",
-            "rarity": "RARE",
+            "id": "booster_treasures",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
               "name": "i18n.treasures.lootbox.reward.booster_treasures.title|!|¨46bfef",
@@ -138,7 +138,7 @@
             },
             "chance": 44,
             "onDrop": [
-              "give-tnt %player% 6"
+              "give-tnt %player% 4"
             ]
           },
           {
