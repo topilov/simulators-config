@@ -44,7 +44,7 @@
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "i18n.treasures.lootbox.reward.booster_blocks.title|!|¨46bfef",
+              "name": "i18n.treasures.lootbox.reward.booster_blocks.title|!|¨58d47a",
               "lore": "i18n.treasures.lootbox.reward.booster.description|!|20%|!|10 минут",
               "flags": [
                 "HIDE_ATTRIBUTES",
@@ -55,7 +55,7 @@
                 "sim": "blocks_booster"
               }
             },
-            "chance": 15,
+            "chance": 35,
             "onDrop": [
               "local-booster %player% BLOCKS 1.2 600"
             ]
@@ -76,7 +76,7 @@
                 "sim": "money_booster"
               }
             },
-            "chance": 15,
+            "chance": 19,
             "onDrop": [
               "local-booster %player% MONEY 1.2 600"
             ]
@@ -86,7 +86,7 @@
             "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "i18n.treasures.lootbox.reward.booster_treasures.title|!|¨46bfef",
+              "name": "i18n.treasures.lootbox.reward.booster_treasures.title|!|¨58d47a",
               "lore": "i18n.treasures.lootbox.reward.booster.description|!|20%|!|10 минут",
               "flags": [
                 "HIDE_ATTRIBUTES",
@@ -97,7 +97,7 @@
                 "sim": "treasures_booster"
               }
             },
-            "chance": 15,
+            "chance": 35,
             "onDrop": [
               "local-booster %player% TREASURES 1.2 600"
             ]
@@ -118,7 +118,7 @@
                 "sim": "save_crystal"
               }
             },
-            "chance": 10,
+            "chance": 5,
             "onDrop": [
               "give-item %player% SAVE_CRYSTAL 1"
             ]
@@ -136,7 +136,7 @@
                 "HIDE_UNBREAKABLE"
               ]
             },
-            "chance": 44,
+            "chance": 5,
             "onDrop": [
               "give-tnt %player% 4"
             ]
