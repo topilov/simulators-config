@@ -101,6 +101,17 @@
       "vault": "\uE1C2",
       "products": [
         {
+          "perkType": "RANGERS_MEDALLION",
+          "title": "treasures.shop.minigame.product.rangers_medallion.title",
+          "hover": "treasures.items.rangers_medallion.lore",
+          "icon": "rangers_medallion.png",
+          "price": 15.0,
+          "needSubscription": false,
+          "onBuy": [
+            "give-perk %player% RANGERS_MEDALLION"
+          ]
+        },
+        {
           "perkType": "SILVER_BRACELET",
           "title": "treasures.shop.minigame.product.silver_bracelet.title",
           "hover": "treasures.items.silver_bracelet.lore",
@@ -109,17 +120,6 @@
           "needSubscription": false,
           "onBuy": [
             "give-perk %player% SILVER_BRACELET"
-          ]
-        },
-        {
-          "perkType": "GOLD_BRACELET",
-          "title": "treasures.shop.minigame.product.gold_bracelet.title",
-          "hover": "treasures.items.gold_bracelet.lore",
-          "icon": "gold_bracelet.png",
-          "price": 39.0,
-          "needSubscription": false,
-          "onBuy": [
-            "give-perk %player% GOLD_BRACELET"
           ]
         },
         {
@@ -145,14 +145,14 @@
           ]
         },
         {
-          "perkType": "RANGERS_MEDALLION",
-          "title": "treasures.shop.minigame.product.rangers_medallion.title",
-          "hover": "treasures.items.rangers_medallion.lore",
-          "icon": "rangers_medallion.png",
-          "price": 15.0,
+          "perkType": "GOLD_BRACELET",
+          "title": "treasures.shop.minigame.product.gold_bracelet.title",
+          "hover": "treasures.items.gold_bracelet.lore",
+          "icon": "gold_bracelet.png",
+          "price": 39.0,
           "needSubscription": false,
           "onBuy": [
-            "give-perk %player% RANGERS_MEDALLION"
+            "give-perk %player% GOLD_BRACELET"
           ]
         }
       ]
