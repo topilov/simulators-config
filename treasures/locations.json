@@ -26,7 +26,8 @@
         "requiredLevel": 2,
         "requiredRebirth": 0,
         "onClick": [
-          "location-tp %player% %id%"
+          "location-tp %player% %id%",
+          "earn-tutorial-stage-progress %player% LOCATION_TELEPORT"
         ]
       }
     },
