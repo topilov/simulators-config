@@ -1,12 +1,16 @@
 {
   "promocodes": {
-    "7MwAwR": {
-      "expireAt": "18.04.2025 09:00",
+    "VIPPROMO": {
+      "expireAt": "04.05.2025 00:00",
       "onUse": [
-        "local-booster %player% MOBS 2 18000 1",
-        "local-booster %player% BLOCKS 2 18000 1",
-        "local-booster %player% EXP 2 18000 1",
-        "local-booster %player% MONEY 2 18000 1"
+        "give-key %player% DEFAULT 3",
+        "give-key %player% PET 3",
+        "give-key %player% RUNE 3",
+        "give-key %player% TITLE",
+        "local-booster %player% MOBS 2 3600 1",
+        "local-booster %player% BLOCKS 2 3600 1",
+        "local-booster %player% EXP 2 3600 1",
+        "local-booster %player% MONEY 2 3600 1"
       ]
     }
   },
