@@ -2,8 +2,8 @@
   "minigames": {
     "EXPEDITION": {
       "texture": "expedition.png",
-      "title": "Раскопки",
-      "description": "Найдите все сокровища на карте",
+      "title": "treasures.minigame.expedition.title",
+      "description": "treasures.minigame.expedition.description",
       "spawnAt": [
         "0:30:0",
         "1:30:0",
@@ -38,11 +38,11 @@
         "arenaStatus": "WAITING_PLAYERS",
         "duration": 15,
         "countdown": {
-          "title": "Игра начнется через"
+          "title": "treasures.minigame.expedition.status.waiting.countdown.title"
         },
         "description": {
-          "title": "Раскопки",
-          "description": "Найдите как можно больше сокровищ, копая блоки лопатой. У Вас всего 2 минуты на поиски!"
+          "title": "treasures.minigame.expedition.status.description.title",
+          "description": "treasures.minigame.expedition.status.description.description"
         }
       },
       "game": {
@@ -51,10 +51,10 @@
         "pointIndicator": {
           "type": "COMMON",
           "positions": 3,
-          "valueName": "сокровищ"
+          "valueName": "treasures.minigame.expedition.game.valuename"
         },
         "countdown": {
-          "title": "Игра закончится через"
+          "title": "treasures.minigame.expedition.game.countdown.title"
         }
       },
       "end": {
