@@ -55,9 +55,9 @@
                 "sim": "blocks_booster"
               }
             },
-            "chance": 40,
+            "chance": 38,
             "onDrop": [
-              "local-booster %player% BLOCKS 1.2 600"
+              "local-booster %player% BLOCKS 1.1 600"
             ]
           },
           {
@@ -78,7 +78,7 @@
             },
             "chance": 15,
             "onDrop": [
-              "local-booster %player% MONEY 1.2 600"
+              "local-booster %player% MONEY 1.1 600"
             ]
           },
           {
@@ -97,9 +97,9 @@
                 "sim": "treasures_booster"
               }
             },
-            "chance": 37,
+            "chance": 38,
             "onDrop": [
-              "local-booster %player% TREASURES 1.2 600"
+              "local-booster %player% TREASURES 1.1 600"
             ]
           },
           {
@@ -118,7 +118,7 @@
                 "sim": "save_crystal"
               }
             },
-            "chance": 2,
+            "chance": 3,
             "onDrop": [
               "give-item %player% SAVE_CRYSTAL 1"
             ]
