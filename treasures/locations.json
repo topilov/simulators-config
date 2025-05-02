@@ -18,7 +18,7 @@
     },
     "HELL": {
       "slots": 100,
-      "map": "kfs",
+      "map": "map19",
       "button": {
         "id": 2,
         "title": "treasures.location.hell.title",
@@ -75,7 +75,7 @@
     },
     "DARK_CASTLE": {
       "slots": 100,
-      "map": "rainbow",
+      "map": "map18",
       "button": {
         "id": 6,
         "title": "treasures.location.dark-castle.title",
@@ -95,7 +95,7 @@
         "title": "treasures.location.edge.title",
         "texture": "map7.png",
         "requiredLevel": 7,
-        "requiredRebirth": 15,
+        "requiredRebirth": 25,
         "onClick": [
           "location-tp %player% %id%"
         ]
@@ -109,7 +109,7 @@
         "title": "treasures.location.gates_of_hell.title",
         "texture": "map8.png",
         "requiredLevel": 8,
-        "requiredRebirth": 50,
+        "requiredRebirth": 75,
         "onClick": [
           "location-tp %player% %id%"
         ]
@@ -123,7 +123,7 @@
         "title": "treasures.location.crystal_ruins.title",
         "texture": "map9.png",
         "requiredLevel": 9,
-        "requiredRebirth": 100,
+        "requiredRebirth": 150,
         "onClick": [
           "location-tp %player% %id%"
         ]
