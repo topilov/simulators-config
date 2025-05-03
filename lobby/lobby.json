@@ -1,7 +1,7 @@
 {
   "realmInfo": {
     "typeName": "SIML",
-    "readableName": "Симулятор Лесоруба",
+    "readableName": "Симулятор Сокровищ",
     "maxPlayers": 200
   },
   "map": {
@@ -12,10 +12,10 @@
     "0": {
       "stack": {
         "type": "COMPASS",
-        "name": "Войти на Симулятор Лесоруба"
+        "name": "Войти на Симулятор Сокровищ"
       },
       "onClick": [
-        "join-simulator %player% lumberjack"
+        "join-simulator %player% treasures"
       ]
     }
   }
