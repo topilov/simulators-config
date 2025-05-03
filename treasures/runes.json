@@ -27,8 +27,8 @@
       "canDrop": true,
       "upgradeText": "treasures.runes.lucky.ability.upgrade.name",
       "current": 10,
-      "per": 10,
-      "max": 210,
+      "per": 1.25,
+      "max": 25,
       "isPercent": true
     },
     "HASTE": {
@@ -41,12 +41,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
       },
-      "rare": "EPIC",
+      "rare": "RARE",
       "notify": true,
       "canDrop": false,
       "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 0.1,
-      "per": 0.1,
+      "current": 0.5,
+      "per": 0.125,
+      "max": 2.5,
       "isPercent": true
     },
     "LUCK": {
@@ -65,7 +66,7 @@
       "upgradeText": "treasures.runes.lucky.ability.upgrade.name",
       "current": 2,
       "per": 2,
-      "max": 34.0,
+      "max": 26.0,
       "isPercent": true
     },
     "BOOM": {
@@ -78,13 +79,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
       },
-      "rare": "EPIC",
+      "rare": "LEGENDARY",
       "notify": true,
       "upgradeText": "treasures.runes.ability.upgrade.name",
       "canDrop": false,
-      "current": 0.1,
-      "per": 0.1,
-      "max": 2.1,
+      "current": 0.2,
+      "per": 0.225,
+      "max": 2,
       "isPercent": true
     },
     "PET": {
@@ -101,8 +102,9 @@
       "notify": false,
       "canDrop": true,
       "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 11,
-      "per": 1,
+      "current": 15,
+      "per": 0.5,
+      "max": 19,
       "isPercent": true
     },
     "SUPER_PLAYER": {
@@ -119,8 +121,9 @@
       "notify": false,
       "canDrop": true,
       "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 6,
-      "per": 1,
+      "current": 8,
+      "per": 0.375,
+      "max": 11,
       "isPercent": true
     },
     "SELLER": {
@@ -137,9 +140,9 @@
       "notify": true,
       "canDrop": false,
       "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 1.5,
-      "per": 1.5,
-      "max": 31.5,
+      "current": 5,
+      "per": 1,
+      "max": 25,
       "isPercent": true
     },
     "MINER": {
@@ -157,8 +160,8 @@
       "canDrop": true,
       "upgradeText": "treasures.runes.miner.ability.upgrade.name",
       "current": 10,
-      "per": 5,
-      "max": 130,
+      "per": 4.5,
+      "max": 100,
       "isPercent": true
     },
     "DIGGER": {
@@ -171,12 +174,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
-      "rare": "RARE",
+      "rare": "COMMON",
       "notify": false,
       "canDrop": true,
       "upgradeText": "treasures.runes.miner.ability.upgrade.name",
-      "current": 25,
-      "per": 25,
+      "current": 20,
+      "per": 4,
+      "max": 100,
       "isPercent": true
     },
     "TREASURE": {
@@ -189,12 +193,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
-      "rare": "EPIC",
+      "rare": "COMMON",
       "notify": false,
       "canDrop": true,
       "upgradeText": "treasures.runes.miner.ability.upgrade.name",
-      "current": 25,
-      "per": 25,
+      "current": 20,
+      "per": 4,
+      "max": 100,
       "isPercent": true
     },
     "PIRATE": {
@@ -211,9 +216,9 @@
       "notify": true,
       "canDrop": true,
       "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 1.1,
+      "current": 5.0,
       "per": 1,
-      "max": 35.1,
+      "max": 25.0,
       "isPercent": true
     },
     "COLLECTOR": {
@@ -226,13 +231,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
-      "rare": "LEGENDARY",
+      "rare": "EPIC",
       "notify": true,
       "canDrop": true,
       "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 1.5,
-      "per": 1.5,
-      "max": 31.5,
+      "current": 5,
+      "per": 1.25,
+      "max": 20,
       "isPercent": true
     },
     "UPGRADE": {
@@ -245,13 +250,13 @@
         "damage": 3,
         "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
       },
-      "rare": "LEGENDARY",
+      "rare": "RARE",
       "notify": true,
       "canDrop": false,
       "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 1.5,
-      "per": 1.5,
-      "max": 55.0,
+      "current": 10,
+      "per": 0.625,
+      "max": 20,
       "isPercent": true
     },
     "BLACKSMITH": {
@@ -268,9 +273,9 @@
       "notify": false,
       "canDrop": true,
       "upgradeText": "treasures.runes.blacksmith.ability.upgrade.name",
-      "current": 1.5,
-      "per": 1.5,
-      "max": 55.5,
+      "current": 5,
+      "per": 1.25,
+      "max": 20,
       "isPercent": true
     },
     "BITS": {
@@ -287,9 +292,9 @@
       "notify": true,
       "canDrop": true,
       "upgradeText": "treasures.runes.ability.upgrade.name",
-      "current": 2,
-      "per": 2,
-      "max": 55.5,
+      "current": 5,
+      "per": 1,
+      "max": 21,
       "isPercent": true
     }
   }

@@ -1,0 +1,223 @@
+{
+  "messages": {
+    "takePickaxe": "treasures.enchantment.messages.take-pickaxe"
+  },
+  "menu": {
+    "title": "treasures.enchantment.menu.title",
+    "price": 69,
+    "doubleChance": 30,
+    "chances": [
+      {
+        "title": "treasures.enchantment.menu.chances.title.1",
+        "cost": 300,
+        "booster": 1.0,
+        "progress": 1
+      },
+      {
+        "title": "treasures.enchantment.menu.chances.title.2",
+        "cost": 600,
+        "booster": 1.75,
+        "progress": 2
+      },
+      {
+        "title": "treasures.enchantment.menu.chances.title.3",
+        "cost": 1500,
+        "booster": 2.5,
+        "progress": 5
+      },
+      {
+        "title": "treasures.enchantment.menu.chances.title.4",
+        "cost": 3000,
+        "booster": 4.0,
+        "progress": 10
+      }
+    ]
+  },
+  "enchantments": [
+    {
+      "type": "DIG_SPEED",
+      "chance": 10,
+      "title": "treasures.enchantment.dig_speed.title",
+      "levels": [
+        {
+          "level": 1,
+          "chance": 52.5,
+          "stat": [1],
+          "readableStat": ["100%"]
+        },
+        {
+          "level": 2,
+          "chance": 36,
+          "stat": [2],
+          "readableStat": ["200%"]
+        },
+        {
+          "level": 3,
+          "chance": 8.25,
+          "stat": [3],
+          "readableStat": ["300%"]
+        },
+        {
+          "level": 4,
+          "chance": 2.5,
+          "stat": [4],
+          "readableStat": ["400%"]
+        },
+        {
+          "level": 5,
+          "chance": 0.75,
+          "stat": [5],
+          "readableStat": ["500%"]
+        }
+      ]
+    },
+    {
+      "type": "STRENGTH",
+      "chance": 47,
+      "title": "treasures.enchantment.strength.title",
+      "levels": [
+        {
+          "level": 1,
+          "chance": 40,
+          "stat": [1.2],
+          "readableStat": ["+20%"]
+        },
+        {
+          "level": 2,
+          "chance": 30,
+          "stat": [1.4],
+          "readableStat": ["+40%"]
+        },
+        {
+          "level": 3,
+          "chance": 20,
+          "stat": [1.8],
+          "readableStat": ["+80%"]
+        },
+        {
+          "level": 4,
+          "chance": 7,
+          "stat": [2.3],
+          "readableStat": ["+130%"]
+        },
+        {
+          "level": 5,
+          "chance": 3,
+          "stat": [3.0],
+          "readableStat": ["+200%"]
+        }
+      ]
+    },
+    {
+      "type": "INSTANT_STRENGTH",
+      "chance": 35,
+      "title": "treasures.enchantment.instant_strength.title",
+      "levels": [
+        {
+          "level": 1,
+          "chance": 40,
+          "stat": [5],
+          "readableStat": ["5%"]
+        },
+        {
+          "level": 2,
+          "chance": 30,
+          "stat": [10],
+          "readableStat": ["10%"]
+        },
+        {
+          "level": 3,
+          "chance": 20,
+          "stat": [15],
+          "readableStat": ["15%"]
+        },
+        {
+          "level": 4,
+          "chance": 7,
+          "stat": [25],
+          "readableStat": ["25%"]
+        },
+        {
+          "level": 5,
+          "chance": 3,
+          "stat": [30],
+          "readableStat": ["30%"]
+        }
+      ]
+    },
+    {
+      "type": "DRILL",
+      "chance": 2,
+      "title": "treasures.enchantment.drill.title",
+      "levels": [
+        {
+          "level": 1,
+          "chance": 53,
+          "stat": [4],
+          "readableStat": ["4"]
+        },
+        {
+          "level": 2,
+          "chance": 37.5,
+          "stat": [7],
+          "readableStat": ["7"]
+        },
+        {
+          "level": 3,
+          "chance": 7,
+          "stat": [11],
+          "readableStat": ["10"]
+        },
+        {
+          "level": 4,
+          "chance": 2,
+          "stat": [18],
+          "readableStat": ["14"]
+        },
+        {
+          "level": 5,
+          "chance": 0.5,
+          "stat": [26],
+          "readableStat": ["18"]
+        }
+      ]
+    },
+    {
+      "type": "DESTROYER",
+      "chance": 6,
+      "title": "treasures.enchantment.destroyer.title",
+      "levels": [
+        {
+          "level": 1,
+          "chance": 51,
+          "stat": [0.15, 3],
+          "readableStat": ["0.15%", "7"]
+        },
+        {
+          "level": 2,
+          "chance": 37,
+          "stat": [0.15, 4],
+          "readableStat": ["0.15%", "9"]
+        },
+        {
+          "level": 3,
+          "chance": 9,
+          "stat": [0.15, 7],
+          "readableStat": ["0.15%", "15"]
+        },
+        {
+          "level": 4,
+          "chance": 2.5,
+          "stat": [0.15, 11],
+          "readableStat": ["0.15%", "23"]
+        },
+        {
+          "level": 5,
+          "chance": 0.5,
+          "stat": [0.15, 15],
+          "readableStat": ["0.15%", "31"]
+        }
+      ]
+    }
+  ]
+}

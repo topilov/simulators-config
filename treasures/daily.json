@@ -16,9 +16,12 @@
         }
       },
       "onSuccess": [
-        "earn-money %player% 25 false",
+        "earn-money %player% 500 false",
+        "earn-bits %player% 50",
+        "give-key %player% DEFAULT 5",
         "give-key %player% TITLE 1",
-        "take-daily %player% 1"
+        "take-daily %player% 1",
+        "earn-tutorial-stage-progress %player% TAKE_DAILY_REWARD"
       ]
     },
     "2": {
@@ -30,7 +33,9 @@
         }
       },
       "onSuccess": [
-        "earn-bits %player% 25",
+        "earn-bits %player% 60",
+        "give-key %player% PET 1",
+        "local-booster %player% MONEY 2 3600",
         "give-key %player% TITLE 1",
         "take-daily %player% 2"
       ]
@@ -44,7 +49,9 @@
         }
       },
       "onSuccess": [
-        "give-key %player% DEFAULT 1",
+        "give-key %player% PET 2",
+        "earn-bits %player% 75",
+        "morestat %player% add 750 shards",
         "give-key %player% TITLE 1",
         "take-daily %player% 3"
       ]
@@ -58,7 +65,9 @@
         }
       },
       "onSuccess": [
-        "earn-bits %player% 50",
+        "earn-bits %player% 90",
+        "morestat %player% add 10 minigamePoints",
+        "random-money %player% 50 99.99",
         "give-key %player% TITLE 1",
         "take-daily %player% 4"
       ]
@@ -72,7 +81,9 @@
         }
       },
       "onSuccess": [
-        "give-key %player% PET 1",
+        "earn-bits %player% 100",
+        "give-key %player% RUNE 3",
+        "local-booster %player% EXP 2 3600",
         "give-key %player% TITLE 1",
         "take-daily %player% 5"
       ]
@@ -86,7 +97,9 @@
         }
       },
       "onSuccess": [
-        "earn-bits %player% 75",
+        "earn-bits %player% 125",
+        "give-key %player% RUNE 5",
+        "give-key %player% PET 10",
         "give-key %player% TITLE 1",
         "take-daily %player% 6"
       ]
@@ -101,10 +114,12 @@
       },
       "onSuccess": [
         "give-key %player% TITLE 1",
-        "local-booster %player% BLOCKS 2 3600",
-        "local-booster %player% EXPLOSIONS 2 3600",
-        "local-booster %player% EXP 2 3600",
-        "local-booster %player% MONEY 2 3600",
+        "earn-bits %player% 200",
+        "morestat %player% add 3000 shards",
+        "local-booster %player% BLOCKS 2 7200",
+        "local-booster %player% EXPLOSIONS 2 7200",
+        "local-booster %player% EXP 2 7200",
+        "local-booster %player% MONEY 2 7200",
         "take-daily %player% 7"
       ]
     }

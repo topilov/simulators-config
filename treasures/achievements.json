@@ -1,282 +1,1138 @@
 {
-  "menu": {
-    "title": "",
-    "categories": [
-      {
-        "title": "treasures.quest.category.title",
-        "questsData": [
-          {
-            "title": "treasures.stat.exp.text",
-            "quests": [
-              {
-                "title": "treasures.quest.exp1.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|5K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.exp.subtitle",
-                    "goal": 5000.0,
-                    "current": "exp1"
-                  }
-                ]
-              },
-              {
-                "title": "treasures.quest.exp2.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|15K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.exp.subtitle",
-                    "goal": 50000.0,
-                    "current": "exp2"
-                  }
-                ]
-              },
-              {
-                "title": "treasures.quest.exp3.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|40K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.exp.subtitle",
-                    "goal": 125000.0,
-                    "current": "exp3"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "treasures.stat.level.text",
-            "quests": [
-              {
-                "title": "treasures.quest.level1.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|25K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.level.subtitle",
-                    "goal": 2,
-                    "current": "level1"
-                  }
-                ]
-              },
-              {
-                "title": "treasures.quest.level2.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|45K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.level.subtitle",
-                    "goal": 4,
-                    "current": "level2"
-                  }
-                ]
-              },
-              {
-                "title": "treasures.quest.level3.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|90K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.level.subtitle",
-                    "goal": 6,
-                    "current": "level3"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "treasures.stat.blocks.text",
-            "quests": [
-              {
-                "title": "treasures.quest.blocks1.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|2.5K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.blocks.subtitle",
-                    "goal": 1500,
-                    "current": "blocks1"
-                  }
-                ]
-              },
-              {
-                "title": "treasures.quest.blocks2.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|12.5K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.blocks.subtitle",
-                    "goal": 5000,
-                    "current": "blocks2"
-                  }
-                ]
-              },
-              {
-                "title": "treasures.quest.blocks3.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|25K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.blocks.subtitle",
-                    "goal": 15000,
-                    "current": "blocks3"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "treasures.stat.treasures.text",
-            "quests": [
-              {
-                "title": "treasures.quest.treasures1.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|2.5K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.treasures.subtitle",
-                    "goal": 100,
-                    "current": "treasures1"
-                  }
-                ]
-              },
-              {
-                "title": "treasures.quest.treasures2.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|12.5K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.treasures.subtitle",
-                    "goal": 500,
-                    "current": "treasures2"
-                  }
-                ]
-              },
-              {
-                "title": "treasures.quest.treasures3.title",
-                "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward.money|!|25K",
-                "tasks": [
-                  {
-                    "name": "treasures.quest.treasures.subtitle",
-                    "goal": 1500,
-                    "current": "treasures3"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
   "achievements": {
-    "EXP": [
-      {
-        "id": "exp1",
-        "title": "treasures.quest.exp1.title",
-        "goal": 5000,
-        "onComplete": [
-          "earn-money %player% 5000 true"
-        ]
-      },
-      {
-        "id": "exp2",
-        "title": "treasures.quest.exp2.title",
-        "goal": 50000,
-        "onComplete": [
-          "earn-money %player% 15000 true"
-        ]
-      },
-      {
-        "id": "exp3",
-        "title": "treasures.quest.exp3.title",
-        "goal": 125000,
-        "onComplete": [
-          "earn-money %player% 30000 true"
-        ]
+    "OPEN_DEFAULT_LOOTBOX": {
+      "title": "treasures.achievement.open_default_lootbox.title",
+      "texture": "open_default_lootbox.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.open_default_lootbox.stages.1.title",
+          "description": "treasures.achievement.open_default_lootbox.stages.1.description",
+          "required": 50.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_default_lootbox.stages.2.title",
+          "description": "treasures.achievement.open_default_lootbox.stages.2.description",
+          "required": 550.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_default_lootbox.stages.3.title",
+          "description": "treasures.achievement.open_default_lootbox.stages.3.description",
+          "required": 3000.0,
+          "onTake": [
+            "give-incident-points %player% 9 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_default_lootbox.stages.4.title",
+          "description": "treasures.achievement.open_default_lootbox.stages.4.description",
+          "required": 12500.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_default_lootbox.stages.5.title",
+          "description": "treasures.achievement.open_default_lootbox.stages.5.description",
+          "required": 35000.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.open_default_lootbox.messages.complete"
       }
-    ],
-    "LEVEL": [
-      {
-        "id": "level1",
-        "title": "treasures.quest.level1.title",
-        "goal": 2,
-        "onComplete": [
-          "earn-money %player% 15000 true"
-        ]
-      },
-      {
-        "id": "level2",
-        "title": "treasures.quest.level2.title",
-        "goal": 4,
-        "onComplete": [
-          "earn-money %player% 25000 true"
-        ]
-      },
-      {
-        "id": "level3",
-        "title": "treasures.quest.level3.title",
-        "goal": 6,
-        "onComplete": [
-          "earn-money %player% 60000 true"
-        ]
+    },
+    "OPEN_PET_LOOTBOX": {
+      "title": "treasures.achievement.open_pet_lootbox.title",
+      "texture": "open_pet_lootbox.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.open_pet_lootbox.stages.1.title",
+          "description": "treasures.achievement.open_pet_lootbox.stages.1.description",
+          "required": 5.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_pet_lootbox.stages.2.title",
+          "description": "treasures.achievement.open_pet_lootbox.stages.2.description",
+          "required": 40.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_pet_lootbox.stages.3.title",
+          "description": "treasures.achievement.open_pet_lootbox.stages.3.description",
+          "required": 150.0,
+          "onTake": [
+            "give-incident-points %player% 8 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_pet_lootbox.stages.4.title",
+          "description": "treasures.achievement.open_pet_lootbox.stages.4.description",
+          "required": 400.0,
+          "onTake": [
+            "give-incident-points %player% 18 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_pet_lootbox.stages.5.title",
+          "description": "treasures.achievement.open_pet_lootbox.stages.5.description",
+          "required": 1500.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.open_pet_lootbox.messages.complete"
       }
-    ],
-    "BLOCKS": [
-      {
-        "id": "blocks1",
-        "title": "treasures.quest.blocks1.title",
-        "goal": 1500,
-        "onComplete": [
-          "earn-money %player% 2500 true"
-        ]
-      },
-      {
-        "id": "blocks2",
-        "title": "treasures.quest.blocks2.title",
-        "goal": 5000,
-        "onComplete": [
-          "earn-money %player% 8500 true"
-        ]
-      },
-      {
-        "id": "blocks3",
-        "title": "treasures.quest.blocks3.title",
-        "goal": 15000,
-        "onComplete": [
-          "earn-money %player% 25000 true"
-        ]
+    },
+    "OPEN_RUNE_LOOTBOX": {
+      "title": "treasures.achievement.open_rune_lootbox.title",
+      "texture": "open_rune_lootbox.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.open_rune_lootbox.stages.1.title",
+          "description": "treasures.achievement.open_rune_lootbox.stages.1.description",
+          "required": 3.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_rune_lootbox.stages.2.title",
+          "description": "treasures.achievement.open_rune_lootbox.stages.2.description",
+          "required": 17.0,
+          "onTake": [
+            "give-incident-points %player% 4 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_rune_lootbox.stages.3.title",
+          "description": "treasures.achievement.open_rune_lootbox.stages.3.description",
+          "required": 75.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_rune_lootbox.stages.4.title",
+          "description": "treasures.achievement.open_rune_lootbox.stages.4.description",
+          "required": 225.0,
+          "onTake": [
+            "give-incident-points %player% 21 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_rune_lootbox.stages.5.title",
+          "description": "treasures.achievement.open_rune_lootbox.stages.5.description",
+          "required": 500.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.open_rune_lootbox.messages.complete"
       }
-    ],
-    "TREASURES": [
-      {
-        "id": "treasures1",
-        "title": "treasures.quest.treasures1.title",
-        "goal": 100,
-        "onComplete": [
-          "earn-money %player% 2500 true"
-        ]
-      },
-      {
-        "id": "treasures2",
-        "title": "treasures.quest.treasures2.title",
-        "goal": 500,
-        "onComplete": [
-          "earn-money %player% 10500 true"
-        ]
-      },
-      {
-        "id": "treasures3",
-        "title": "treasures.quest.treasures3.title",
-        "goal": 1500,
-        "onComplete": [
-          "earn-money %player% 20000 true"
-        ]
+    },
+    "OPEN_TITLE_LOOTBOX": {
+      "title": "treasures.achievement.open_title_lootbox.title",
+      "texture": "open_title_lootbox.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.open_title_lootbox.stages.1.title",
+          "description": "treasures.achievement.open_title_lootbox.stages.1.description",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_title_lootbox.stages.2.title",
+          "description": "treasures.achievement.open_title_lootbox.stages.2.description",
+          "required": 4.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_title_lootbox.stages.3.title",
+          "description": "treasures.achievement.open_title_lootbox.stages.3.description",
+          "required": 9.0,
+          "onTake": [
+            "give-incident-points %player% 12 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_title_lootbox.stages.4.title",
+          "description": "treasures.achievement.open_title_lootbox.stages.4.description",
+          "required": 15.0,
+          "onTake": [
+            "give-incident-points %player% 23 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.open_title_lootbox.stages.5.title",
+          "description": "treasures.achievement.open_title_lootbox.stages.5.description",
+          "required": 30.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.open_title_lootbox.messages.complete"
       }
-    ]
+    },
+    "UPGRADE_LEVEL": {
+      "title": "treasures.achievement.upgrade_level.title",
+      "texture": "upgrade_level.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.upgrade_level.stages.1.title",
+          "description": "treasures.achievement.upgrade_level.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.upgrade_level.stages.2.title",
+          "description": "treasures.achievement.upgrade_level.stages.2.description",
+          "required": 75.0,
+          "onTake": [
+            "give-incident-points %player% 4 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.upgrade_level.stages.3.title",
+          "description": "treasures.achievement.upgrade_level.stages.3.description",
+          "required": 250.0,
+          "onTake": [
+            "give-incident-points %player% 8 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.upgrade_level.stages.4.title",
+          "description": "treasures.achievement.upgrade_level.stages.4.description",
+          "required": 750.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.upgrade_level.stages.5.title",
+          "description": "treasures.achievement.upgrade_level.stages.5.description",
+          "required": 1900.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.upgrade_level.messages.complete"
+      }
+    },
+    "UPGRADE_REBIRTH": {
+      "title": "treasures.achievement.upgrade_rebirth.title",
+      "texture": "respawn.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.upgrade_rebirth.stages.1.title",
+          "description": "treasures.achievement.upgrade_rebirth.stages.1.description",
+          "required": 5.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.upgrade_rebirth.stages.2.title",
+          "description": "treasures.achievement.upgrade_rebirth.stages.2.description",
+          "required": 25.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.upgrade_rebirth.stages.3.title",
+          "description": "treasures.achievement.upgrade_rebirth.stages.3.description",
+          "required": 75.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.upgrade_rebirth.stages.4.title",
+          "description": "treasures.achievement.upgrade_rebirth.stages.4.description",
+          "required": 150.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.upgrade_rebirth.stages.5.title",
+          "description": "treasures.achievement.upgrade_rebirth.stages.5.description",
+          "required": 300.0,
+          "onTake": [
+            "give-incident-points %player% 40 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.upgrade_rebirth.messages.complete"
+      }
+    },
+    "BREAK_BLOCK": {
+      "title": "treasures.achievement.break_blocks.title",
+      "texture": "dig_blocks.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.break_blocks.stages.1.title",
+          "description": "treasures.achievement.break_blocks.stages.1.description",
+          "required": 3000.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.break_blocks.stages.2.title",
+          "description": "treasures.achievement.break_blocks.stages.2.description",
+          "required": 50000.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.break_blocks.stages.3.title",
+          "description": "treasures.achievement.break_blocks.stages.3.description",
+          "required": 1000000.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.break_blocks.stages.4.title",
+          "description": "treasures.achievement.break_blocks.stages.4.description",
+          "required": 20000000.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.break_blocks.stages.5.title",
+          "description": "treasures.achievement.break_blocks.stages.5.description",
+          "required": 50000000.0,
+          "onTake": [
+            "give-incident-points %player% 20 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.break_blocks.messages.complete"
+      }
+    },
+    "GET_TREASURE": {
+      "title": "treasures.achievement.get_treasure.title",
+      "texture": "find_treasures.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.get_treasure.stages.1.title",
+          "description": "treasures.achievement.get_treasure.stages.1.description",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_treasure.stages.2.title",
+          "description": "treasures.achievement.get_treasure.stages.2.description",
+          "required": 1200.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_treasure.stages.3.title",
+          "description": "treasures.achievement.get_treasure.stages.3.description",
+          "required": 35000.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_treasure.stages.4.title",
+          "description": "treasures.achievement.get_treasure.stages.4.description",
+          "required": 250000.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_treasure.stages.5.title",
+          "description": "treasures.achievement.get_treasure.stages.5.description",
+          "required": 1100000.0,
+          "onTake": [
+            "give-incident-points %player% 20 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.get_treasure.messages.complete"
+      }
+    },
+    "GET_LEGENDARY_TREASURE": {
+      "title": "treasures.achievement.get_legendary_treasure.title",
+      "texture": "find_legendary_treasure.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.get_legendary_treasure.stages.1.title",
+          "description": "treasures.achievement.get_legendary_treasure.stages.1.description",
+          "required": 2.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_legendary_treasure.stages.2.title",
+          "description": "treasures.achievement.get_legendary_treasure.stages.2.description",
+          "required": 9.0,
+          "onTake": [
+            "give-incident-points %player% 4 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_legendary_treasure.stages.3.title",
+          "description": "treasures.achievement.get_legendary_treasure.stages.3.description",
+          "required": 40.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_legendary_treasure.stages.4.title",
+          "description": "treasures.achievement.get_legendary_treasure.stages.4.description",
+          "required": 175.0,
+          "onTake": [
+            "give-incident-points %player% 17 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_legendary_treasure.stages.5.title",
+          "description": "treasures.achievement.get_legendary_treasure.stages.5.description",
+          "required": 500.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.get_legendary_treasure.messages.complete"
+      }
+    },
+    "COLLECT_MUSEUM_1": {
+      "title": "treasures.achievement.collect_museum_1.title",
+      "texture": "museum_beach.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.collect_museum_1.stages.1.title",
+          "description": "treasures.achievement.collect_museum_1.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.collect_museum_1.messages.complete"
+      }
+    },
+    "COLLECT_MUSEUM_2": {
+      "title": "treasures.achievement.collect_museum_2.title",
+      "texture": "museum_underwater_kingdom.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.collect_museum_2.stages.1.title",
+          "description": "treasures.achievement.collect_museum_2.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 12 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.collect_museum_2.messages.complete"
+      }
+    },
+    "COLLECT_MUSEUM_3": {
+      "title": "treasures.achievement.collect_museum_3.title",
+      "texture": "museum_dump.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.collect_museum_3.stages.1.title",
+          "description": "treasures.achievement.collect_museum_3.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 14 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.collect_museum_3.messages.complete"
+      }
+    },
+    "COLLECT_MUSEUM_4": {
+      "title": "treasures.achievement.collect_museum_4.title",
+      "texture": "museum_mine.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.collect_museum_4.stages.1.title",
+          "description": "treasures.achievement.collect_museum_4.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 16 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.collect_museum_4.messages.complete"
+      }
+    },
+    "COLLECT_MUSEUM_5": {
+      "title": "treasures.achievement.collect_museum_5.title",
+      "texture": "museum_lost_land.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.collect_museum_5.stages.1.title",
+          "description": "treasures.achievement.collect_museum_5.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 18 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.collect_museum_5.messages.complete"
+      }
+    },
+    "COLLECT_MUSEUM_6": {
+      "title": "treasures.achievement.collect_museum_6.title",
+      "texture": "museum_valley_seven_flowers.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.collect_museum_6.stages.1.title",
+          "description": "treasures.achievement.collect_museum_6.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 20 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.collect_museum_6.messages.complete"
+      }
+    },
+    "COLLECT_MUSEUM_7": {
+      "title": "treasures.achievement.collect_museum_7.title",
+      "texture": "museum_basalt_deltas.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.collect_museum_7.stages.1.title",
+          "description": "treasures.achievement.collect_museum_7.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 22 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.collect_museum_7.messages.complete"
+      }
+    },
+    "COLLECT_MUSEUM_8": {
+      "title": "treasures.achievement.collect_museum_8.title",
+      "texture": "museum_hell_gate.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.collect_museum_8.stages.1.title",
+          "description": "treasures.achievement.collect_museum_8.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 24 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.collect_museum_8.messages.complete"
+      }
+    },
+    "COLLECT_MUSEUM_9": {
+      "title": "treasures.achievement.collect_museum_9.title",
+      "texture": "museum_crystal_ruins.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.collect_museum_9.stages.1.title",
+          "description": "treasures.achievement.collect_museum_9.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 26 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.collect_museum_9.messages.complete"
+      }
+    },
+    "USE_TNT": {
+      "title": "treasures.achievement.use_tnt.title",
+      "texture": "use_dynamite.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.use_tnt.stages.1.title",
+          "description": "treasures.achievement.use_tnt.stages.1.description",
+          "required": 50.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.use_tnt.stages.2.title",
+          "description": "treasures.achievement.use_tnt.stages.2.description",
+          "required": 800.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.use_tnt.stages.3.title",
+          "description": "treasures.achievement.use_tnt.stages.3.description",
+          "required": 4000.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.use_tnt.stages.4.title",
+          "description": "treasures.achievement.use_tnt.stages.4.description",
+          "required": 13000.0,
+          "onTake": [
+            "give-incident-points %player% 20 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.use_tnt.stages.5.title",
+          "description": "treasures.achievement.use_tnt.stages.5.description",
+          "required": 40000.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.use_tnt.messages.complete"
+      }
+    },
+    "GET_EXPEDITION_TREASURE": {
+      "title": "treasures.achievement.get_expedition_treasure.title",
+      "texture": "find_treasures_excavation.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.get_expedition_treasure.stages.1.title",
+          "description": "treasures.achievement.get_expedition_treasure.stages.1.description",
+          "required": 3.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_expedition_treasure.stages.2.title",
+          "description": "treasures.achievement.get_expedition_treasure.stages.2.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_expedition_treasure.stages.3.title",
+          "description": "treasures.achievement.get_expedition_treasure.stages.3.description",
+          "required": 30.0,
+          "onTake": [
+            "give-incident-points %player% 11 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_expedition_treasure.stages.4.title",
+          "description": "treasures.achievement.get_expedition_treasure.stages.4.description",
+          "required": 75.0,
+          "onTake": [
+            "give-incident-points %player% 22 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.get_expedition_treasure.stages.5.title",
+          "description": "treasures.achievement.get_expedition_treasure.stages.5.description",
+          "required": 250.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.get_expedition_treasure.messages.complete"
+      }
+    },
+    "ENCHANT_PICKAXE": {
+      "title": "treasures.achievement.enchant_pickaxe.title",
+      "texture": "enchant_pickaxe.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.enchant_pickaxe.stages.1.title",
+          "description": "treasures.achievement.enchant_pickaxe.stages.1.description",
+          "required": 5.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_pickaxe.stages.2.title",
+          "description": "treasures.achievement.enchant_pickaxe.stages.2.description",
+          "required": 25.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_pickaxe.stages.3.title",
+          "description": "treasures.achievement.enchant_pickaxe.stages.3.description",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 12 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_pickaxe.stages.4.title",
+          "description": "treasures.achievement.enchant_pickaxe.stages.4.description",
+          "required": 395.0,
+          "onTake": [
+            "give-incident-points %player% 22 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_pickaxe.stages.5.title",
+          "description": "treasures.achievement.enchant_pickaxe.stages.5.description",
+          "required": 1050.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.enchant_pickaxe.messages.complete"
+      }
+    },
+    "UPGRADE_PRICE_REDUCTION_INCIDENT": {
+      "title": "treasures.achievement.upgrade_price_reduction_incident.title",
+      "texture": "upgrade_progress_festival_incident.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.upgrade_price_reduction_incident.stages.1.title",
+          "description": "treasures.achievement.upgrade_price_reduction_incident.stages.1.description",
+          "required": 18.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.upgrade_price_reduction_incident.messages.complete"
+      }
+    },
+    "UPGRADE_INCREASED_LOOTBOX_CHANCES_INCIDENT": {
+      "title": "treasures.achievement.upgrade_increased_lootbox_chances_incident.title",
+      "texture": "upgrade_magic_incident_lootboxes.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.upgrade_increased_lootbox_chances_incident.stages.1.title",
+          "description": "treasures.achievement.upgrade_increased_lootbox_chances_incident.stages.1.description",
+          "required": 18.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.upgrade_increased_lootbox_chances_incident.messages.complete"
+      }
+    },
+    "UPGRADE_DROPPER_INCIDENT": {
+      "title": "treasures.achievement.upgrade_dropper_incident.title",
+      "texture": "upgrade_gold_rush_incident.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.upgrade_dropper_incident.stages.1.title",
+          "description": "treasures.achievement.upgrade_dropper_incident.stages.1.description",
+          "required": 33.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.upgrade_dropper_incident.messages.complete"
+      }
+    },
+    "UPGRADE_SUPERCHARGING_INCIDENT": {
+      "title": "treasures.achievement.upgrade_supercharging_incident.title",
+      "texture": "upgrade_max_boosters_incident.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "treasures.achievement.upgrade_supercharging_incident.stages.1.title",
+          "description": "treasures.achievement.upgrade_supercharging_incident.stages.1.description",
+          "required": 18.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.upgrade_supercharging_incident.messages.complete"
+      }
+    },
+    "ENCHANT_PET": {
+      "title": "treasures.achievement.enchant_pet.title",
+      "texture": "upgrade_pet.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.enchant_pet.stages.1.title",
+          "description": "treasures.achievement.enchant_pet.stages.1.description",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_pet.stages.2.title",
+          "description": "treasures.achievement.enchant_pet.stages.2.description",
+          "required": 5.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_pet.stages.3.title",
+          "description": "treasures.achievement.enchant_pet.stages.3.description",
+          "required": 40.0,
+          "onTake": [
+            "give-incident-points %player% 8 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_pet.stages.4.title",
+          "description": "treasures.achievement.enchant_pet.stages.4.description",
+          "required": 120.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_pet.stages.5.title",
+          "description": "treasures.achievement.enchant_pet.stages.5.description",
+          "required": 450.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.enchant_pet.messages.complete"
+      }
+    },
+    "ENCHANT_RUNE": {
+      "title": "treasures.achievement.enchant_rune.title",
+      "texture": "upgrade_rune.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.enchant_rune.stages.1.title",
+          "description": "treasures.achievement.enchant_rune.stages.1.description",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_rune.stages.2.title",
+          "description": "treasures.achievement.enchant_rune.stages.2.description",
+          "required": 3.0,
+          "onTake": [
+            "give-incident-points %player% 4 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_rune.stages.3.title",
+          "description": "treasures.achievement.enchant_rune.stages.3.description",
+          "required": 17.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_rune.stages.4.title",
+          "description": "treasures.achievement.enchant_rune.stages.4.description",
+          "required": 60.0,
+          "onTake": [
+            "give-incident-points %player% 20 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.enchant_rune.stages.5.title",
+          "description": "treasures.achievement.enchant_rune.stages.5.description",
+          "required": 230.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.enchant_rune.messages.complete"
+      }
+    },
+    "USE_SAVE_CRYSTAL": {
+      "title": "treasures.achievement.use_save_crystal.title",
+      "texture": "use_save_crystal.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.use_save_crystal.stages.1.title",
+          "description": "treasures.achievement.use_save_crystal.stages.1.description",
+          "required": 3.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.use_save_crystal.stages.2.title",
+          "description": "treasures.achievement.use_save_crystal.stages.2.description",
+          "required": 7.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.use_save_crystal.stages.3.title",
+          "description": "treasures.achievement.use_save_crystal.stages.3.description",
+          "required": 25.0,
+          "onTake": [
+            "give-incident-points %player% 7 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.use_save_crystal.stages.4.title",
+          "description": "treasures.achievement.use_save_crystal.stages.4.description",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.use_save_crystal.stages.5.title",
+          "description": "treasures.achievement.use_save_crystal.stages.5.description",
+          "required": 250.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.use_save_crystal.messages.complete"
+      }
+    },
+    "ACTIVATE_INCIDENT": {
+      "title": "treasures.achievement.activate_incident.title",
+      "texture": "activate_incident.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.activate_incident.stages.1.title",
+          "description": "treasures.achievement.activate_incident.stages.1.description",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.activate_incident.stages.2.title",
+          "description": "treasures.achievement.activate_incident.stages.2.description",
+          "required": 50.0,
+          "onTake": [
+            "give-incident-points %player% 6 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.activate_incident.stages.3.title",
+          "description": "treasures.achievement.activate_incident.stages.3.description",
+          "required": 130.0,
+          "onTake": [
+            "give-incident-points %player% 13 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.activate_incident.stages.4.title",
+          "description": "treasures.achievement.activate_incident.stages.4.description",
+          "required": 200.0,
+          "onTake": [
+            "give-incident-points %player% 21 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.activate_incident.stages.5.title",
+          "description": "treasures.achievement.activate_incident.stages.5.description",
+          "required": 325.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.activate_incident.messages.complete"
+      }
+    },
+    "TAKE_TOP_BLOCKS_EVENT": {
+      "title": "treasures.achievement.take_top_blocks_event.title",
+      "texture": "top_digger.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.take_top_blocks_event.stages.1.title",
+          "description": "treasures.achievement.take_top_blocks_event.stages.1.description",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.take_top_blocks_event.stages.2.title",
+          "description": "treasures.achievement.take_top_blocks_event.stages.2.description",
+          "required": 4.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.take_top_blocks_event.stages.3.title",
+          "description": "treasures.achievement.take_top_blocks_event.stages.3.description",
+          "required": 12.0,
+          "onTake": [
+            "give-incident-points %player% 11 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.take_top_blocks_event.stages.4.title",
+          "description": "treasures.achievement.take_top_blocks_event.stages.4.description",
+          "required": 45.0,
+          "onTake": [
+            "give-incident-points %player% 22 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.take_top_blocks_event.stages.5.title",
+          "description": "treasures.achievement.take_top_blocks_event.stages.5.description",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.take_top_blocks_event.messages.complete"
+      }
+    },
+    "TAKE_TOP_TREASURES_EVENT": {
+      "title": "treasures.achievement.take_top_treasures_event.title",
+      "texture": "top_finder.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "treasures.achievement.take_top_treasures_event.stages.1.title",
+          "description": "treasures.achievement.take_top_treasures_event.stages.1.description",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.take_top_treasures_event.stages.2.title",
+          "description": "treasures.achievement.take_top_treasures_event.stages.2.description",
+          "required": 4.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.take_top_treasures_event.stages.3.title",
+          "description": "treasures.achievement.take_top_treasures_event.stages.3.description",
+          "required": 12.0,
+          "onTake": [
+            "give-incident-points %player% 11 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.take_top_treasures_event.stages.4.title",
+          "description": "treasures.achievement.take_top_treasures_event.stages.4.description",
+          "required": 45.0,
+          "onTake": [
+            "give-incident-points %player% 22 true"
+          ]
+        },
+        {
+          "title": "treasures.achievement.take_top_treasures_event.stages.5.title",
+          "description": "treasures.achievement.take_top_treasures_event.stages.5.description",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "treasures.achievement.take_top_treasures_event.messages.complete"
+      }
+    }
   }
 }

@@ -1,0 +1,98 @@
+{
+  "minigames": {
+    "EXPEDITION": {
+      "texture": "expedition.png",
+      "title": "treasures.minigame.expedition.title",
+      "description": "treasures.minigame.expedition.description",
+      "spawnAt": [
+        "0:30:0",
+        "1:30:0",
+        "2:30:0",
+        "3:30:0",
+        "4:30:0",
+        "5:30:0",
+        "6:30:0",
+        "7:30:0",
+        "8:30:0",
+        "9:30:0",
+        "10:30:0",
+        "11:30:0",
+        "12:30:0",
+        "13:30:0",
+        "14:30:0",
+        "15:30:0",
+        "16:30:0",
+        "17:30:0",
+        "18:30:0",
+        "19:30:0",
+        "20:30:0",
+        "21:30:0",
+        "22:30:0",
+        "23:30:0"
+      ]
+    }
+  },
+  "expedition": {
+    "status": {
+      "waiting": {
+        "arenaStatus": "WAITING_PLAYERS",
+        "duration": 15,
+        "countdown": {
+          "title": "treasures.minigame.expedition.status.waiting.countdown.title"
+        },
+        "description": {
+          "title": "treasures.minigame.expedition.status.description.title",
+          "description": "treasures.minigame.expedition.status.description.description"
+        }
+      },
+      "game": {
+        "arenaStatus": "STARTED",
+        "duration": 120,
+        "pointIndicator": {
+          "type": "COMMON",
+          "positions": 3,
+          "valueName": "treasures.minigame.expedition.game.valuename"
+        },
+        "countdown": {
+          "title": "treasures.minigame.expedition.game.countdown.title"
+        }
+      },
+      "end": {
+        "arenaStatus": "TERMINATING",
+        "duration": 5,
+        "isCloseAfterExpire": true
+      }
+    },
+    "settings": {
+      "items": [
+        {
+          "type": "DIAMOND_SPADE",
+          "name": "treasures.minigame.expedition.tool.title",
+          "lore": "treasures.minigame.expedition.tool.lore",
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ],
+          "unbreakable": true,
+          "enchantments": {
+            "DIG_SPEED": 10
+          }
+        }
+      ],
+      "chest": {
+        "max": 10,
+        "chance": 0.05
+      },
+      "message": {
+        "found": "treasures.minigame.expedition.message.found",
+        "foundLast": "treasures.minigame.expedition.message.found-last"
+      },
+      "blocks": {
+        "SAND": {
+          "data": 1
+        }
+      }
+    }
+  }
+}

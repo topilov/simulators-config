@@ -1,0 +1,198 @@
+{
+  "stages": {
+    "DIG_BLOCKS": {
+      "stageId": 1,
+      "required": 10,
+      "title": "treasures.tutorial.dig-blocks.title",
+      "description": "treasures.tutorial.dig-blocks.description",
+      "progressTitle": "treasures.tutorial.dig-blocks.progress.title",
+      "pathLocation": {
+        "name": "block",
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -1.0
+        }
+      }
+    },
+    "SELL_BLOCKS": {
+      "stageId": 2,
+      "title": "treasures.tutorial.sell-blocks.title",
+      "description": "treasures.tutorial.sell-blocks.description",
+      "pathLocation": {
+        "name": "sell",
+        "tag": "blocks",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "UPGRADE_PICKAXE": {
+      "stageId": 3,
+      "title": "treasures.tutorial.upgrade-pickaxe.title",
+      "description": "treasures.tutorial.upgrade-pickaxe.description",
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "items",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 100 false"
+      ]
+    },
+    "GET_TREASURES": {
+      "stageId": 4,
+      "required": 1,
+      "title": "treasures.tutorial.get-treasures.title",
+      "description": "treasures.tutorial.get-treasures.description",
+      "progressTitle": "treasures.tutorial.get-treasures.progress.title"
+    },
+    "SELL_TREASURES": {
+      "stageId": 5,
+      "title": "treasures.tutorial.sell-treasures.title",
+      "description": "treasures.tutorial.sell-treasures.description",
+      "pathLocation": {
+        "name": "sell",
+        "tag": "treasures",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "UPGRADE_STORAGE": {
+      "stageId": 6,
+      "isSaving": true,
+      "title": "treasures.tutorial.upgrade-storage.title",
+      "description": "treasures.tutorial.upgrade-storage.description",
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "storage",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 150 false"
+      ]
+    },
+    "OPEN_DEFAULT_LOOTBOX": {
+      "stageId": 7,
+      "title": "treasures.tutorial.open-default-lootbox.title",
+      "description": "treasures.tutorial.open-default-lootbox.description",
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "default",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "give-key %player% DEFAULT 1"
+      ]
+    },
+    "OPEN_PET_LOOTBOX": {
+      "stageId": 8,
+      "title": "treasures.tutorial.open-pet-lootbox.title",
+      "description": "treasures.tutorial.open-pet-lootbox.description",
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "pets",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "give-key %player% PET 1"
+      ]
+    },
+    "OPEN_RUNE_LOOTBOX": {
+      "stageId": 9,
+      "title": "treasures.tutorial.open-rune-lootbox.title",
+      "description": "treasures.tutorial.open-rune-lootbox.description",
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "runes",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "give-key %player% RUNE 1"
+      ]
+    },
+    "TAKE_DAILY_REWARD": {
+      "stageId": 10,
+      "isSaving": true,
+      "title": "treasures.tutorial.take-daily-reward.title",
+      "description": "treasures.tutorial.take-daily-reward.description"
+    },
+    "OPEN_TITLE_LOOTBOX": {
+      "stageId": 11,
+      "title": "treasures.tutorial.open-title-lootbox.title",
+      "description": "treasures.tutorial.open-title-lootbox.description",
+      "isSaving": true,
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "titles",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "WEAR_EQUIPMENT": {
+      "stageId": 12,
+      "title": "treasures.tutorial.wear-equipment.title",
+      "description": "treasures.tutorial.wear-equipment.description"
+    },
+    "LEVEL_UP": {
+      "stageId": 13,
+      "title": "treasures.tutorial.level-up.title",
+      "description": "treasures.tutorial.level-up.description",
+      "pathLocation": {
+        "name": "upgrade",
+        "tag": "level",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "LOCATION_TELEPORT": {
+      "stageId": 14,
+      "title": "treasures.tutorial.location-teleport.title",
+      "description": "treasures.tutorial.location-teleport.description",
+      "pathLocation": {
+        "name": "locations",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "REBIRTH": {
+      "stageId": 15,
+      "title": "treasures.tutorial.rebirth.title",
+      "description": "treasures.tutorial.rebirth.description"
+    }
+  }
+}

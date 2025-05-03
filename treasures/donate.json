@@ -29,8 +29,8 @@
         }
       },
       "category": "OTHER",
-      "price": 99,
-      "sale": 80,
+      "price": 39,
+      "sale": 0,
       "count": [
         1
       ],
@@ -51,8 +51,8 @@
         }
       },
       "category": "OTHER",
-      "price": 199,
-      "sale": 80,
+      "price": 119,
+      "sale": 0,
       "count": [
         1
       ],
@@ -74,7 +74,7 @@
       },
       "category": "OTHER",
       "price": 199,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1
       ],
@@ -112,8 +112,8 @@
       "description": "treasures.donate.element.pet-slot.description",
       "texture": "pet_slot.png",
       "category": "OTHER",
-      "price": 299,
-      "sale": 80,
+      "price": 149,
+      "sale": 0,
       "count": [
         1
       ],
@@ -129,12 +129,32 @@
       "texture": "rune_slot.png",
       "category": "OTHER",
       "price": 399,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1
       ],
       "onBuy": [
         "unlock-rune-slot %player%"
+      ]
+    },
+    "INCIDENT_POINT": {
+      "donateName": "treasures.donate.element.incident-point.donate-name",
+      "confirmationTitle": "treasures.donate.element.incident-point.title",
+      "title": "treasures.donate.element.incident-point.title",
+      "description": "treasures.donate.element.incident-point.description",
+      "texture": "incident_points.png",
+      "category": "GAME_BALANCE",
+      "price": 49,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5,
+        10,
+        25
+      ],
+      "onBuy": [
+        "give-incident-points %player% %count%"
       ]
     },
     "MONEY_BAG": {
@@ -145,12 +165,13 @@
       "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 39,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
         5,
-        10
+        10,
+        25
       ],
       "onBuy": [
         "random-money %player% 15 35 %count%"
@@ -164,12 +185,13 @@
       "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 9,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1,
         3,
         5,
-        10
+        10,
+        25
       ],
       "onBuy": [
         "random-money %player% 1 10 %count%"
@@ -189,8 +211,8 @@
         }
       },
       "category": "GAME_ITEMS",
-      "price": 699,
-      "sale": 80,
+      "price": 599,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -206,14 +228,15 @@
       "description": "treasures.donate.element.auto_sell.description",
       "texture": "auto_sell.png",
       "category": "OTHER_FEATURES",
-      "price": 999,
+      "price": 799,
       "sale": 0,
       "count": [
         1
       ],
       "onBuy": [
         "morestat %player% set true hasInfinityStorage",
-        "morestat %player% set true hasAutoSell"
+        "morestat %player% set true hasAutoSell",
+        "earn-tutorial-stage-progress %player% UPGRADE_STORAGE"
       ]
     },
     "SAVE_CRYSTAL": {
@@ -229,12 +252,13 @@
       },
       "category": "GAME_ITEMS",
       "price": 99,
-      "sale": 80,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "give-item %player% SAVE_CRYSTAL %count%"
@@ -247,13 +271,15 @@
       "description": "treasures.donate.element.default-key.description",
       "texture": "goldkey.png",
       "category": "GAME_ITEMS",
-      "price": 39,
-      "sale": 80,
+      "price": 19,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% DEFAULT %count%"
@@ -267,12 +293,14 @@
       "texture": "purple_cristal_key.png",
       "category": "GAME_ITEMS",
       "price": 199,
-      "sale": 80,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% TITLE %count%"
@@ -285,13 +313,15 @@
       "description": "treasures.donate.element.pet-key.description",
       "texture": "fox_key.png",
       "category": "GAME_ITEMS",
-      "price": 99,
-      "sale": 80,
+      "price": 59,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% PET %count%"
@@ -305,12 +335,14 @@
       "texture": "rune_key.png",
       "category": "GAME_ITEMS",
       "price": 99,
-      "sale": 80,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% RUNE %count%"
@@ -323,8 +355,8 @@
       "description": "treasures.donate.element.auto-open.description",
       "texture": "autocase.png",
       "category": "OTHER_FEATURES",
-      "price": 799,
-      "sale": 80,
+      "price": 599,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -340,14 +372,15 @@
       "description": "treasures.donate.element.infinity-storage.description",
       "texture": "storage.png",
       "category": "OTHER_FEATURES",
-      "price": 299,
-      "sale": 80,
+      "price": 399,
+      "sale": 0,
       "max": 1,
       "count": [
         1
       ],
       "onBuy": [
-        "morestat %player% set true hasInfinityStorage"
+        "morestat %player% set true hasInfinityStorage",
+        "earn-tutorial-stage-progress %player% UPGRADE_STORAGE"
       ]
     },
     "MULTIPLE_CASE": {
@@ -358,7 +391,7 @@
       "texture": "case5.png",
       "category": "OTHER_FEATURES",
       "price": 249,
-      "sale": 80,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -374,14 +407,31 @@
       "description": "treasures.donate.element.auto-case.description",
       "texture": "autocase.png",
       "category": "OTHER_FEATURES",
-      "price": 449,
-      "sale": 80,
+      "price": 349,
+      "sale": 0,
       "max": 1,
       "count": [
         1
       ],
       "onBuy": [
         "morestat %player% set true autoOpenLootBox"
+      ]
+    },
+    "AUTO_MERGE": {
+      "donateName": "treasures.donate.element.auto-merge.donate-name",
+      "confirmationTitle": "treasures.donate.element.auto-merge.title",
+      "title": "treasures.donate.element.auto-merge.title",
+      "description": "treasures.donate.element.auto-merge.description",
+      "texture": "auto_merge.png",
+      "category": "OTHER_FEATURES",
+      "price": 299,
+      "sale": 0,
+      "max": 1,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasAutoMerge"
       ]
     },
     "SUPER_PLAYER": {
@@ -391,7 +441,7 @@
       "texture": "vip.png",
       "category": "OTHER_FEATURES",
       "price": 149,
-      "sale": 80,
+      "sale": 0,
       "count": [
         1
       ],
@@ -408,7 +458,7 @@
       "texture": "speed.png",
       "category": "OTHER_FEATURES",
       "price": 99,
-      "sale": 80,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -425,12 +475,14 @@
       "description": "treasures.donate.element.global-exp.description",
       "texture": "exp_booster.png",
       "category": "BOOSTERS",
-      "price": 199,
-      "sale": 80,
+      "price": 249,
+      "sale": 0,
+      "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% EXP 2 3600 %count%"
@@ -442,15 +494,16 @@
       "description": "treasures.donate.element.local-exp.description",
       "texture": "exp_booster.png",
       "category": "BOOSTERS",
-      "price": 149,
-      "sale": 80,
+      "price": 179,
+      "sale": 0,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% EXP 2 14400 %count%"
+        "local-booster %player% EXP 2 7200 %count%"
       ]
     },
     "GLOBAL_TREASURES": {
@@ -459,12 +512,14 @@
       "description": "treasures.donate.element.global-treasures.description",
       "texture": "treasures_booster.png",
       "category": "BOOSTERS",
-      "price": 199,
-      "sale": 80,
+      "price": 249,
+      "sale": 0,
+      "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% TREASURES 2 3600 %count%"
@@ -476,15 +531,16 @@
       "description": "treasures.donate.element.local-treasures.description",
       "texture": "treasures_booster.png",
       "category": "BOOSTERS",
-      "price": 149,
-      "sale": 80,
+      "price": 179,
+      "sale": 0,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% TREASURES 2 14400 %count%"
+        "local-booster %player% TREASURES 2 7200 %count%"
       ]
     },
     "GLOBAL_BLOCKS": {
@@ -493,12 +549,14 @@
       "description": "treasures.donate.element.global-blocks.description",
       "texture": "blocks_booster.png",
       "category": "BOOSTERS",
-      "price": 199,
-      "sale": 80,
+      "price": 249,
+      "sale": 0,
+      "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% BLOCKS 2 3600 %count%"
@@ -510,15 +568,16 @@
       "description": "treasures.donate.element.local-blocks.description",
       "texture": "blocks_booster.png",
       "category": "BOOSTERS",
-      "price": 149,
-      "sale": 80,
+      "price": 179,
+      "sale": 0,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% BLOCKS 2 14400 %count%"
+        "local-booster %player% BLOCKS 2 7200 %count%"
       ]
     },
     "GLOBAL_MONEY": {
@@ -527,12 +586,14 @@
       "description": "treasures.donate.element.global-money.description",
       "texture": "money_booster.png",
       "category": "BOOSTERS",
-      "price": 199,
-      "sale": 80,
+      "price": 249,
+      "sale": 0,
+      "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% MONEY 2 3600 %count%"
@@ -545,15 +606,16 @@
       "description": "treasures.donate.element.local-money.description",
       "texture": "money_booster.png",
       "category": "BOOSTERS",
-      "price": 149,
-      "sale": 80,
+      "price": 179,
+      "sale": 0,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% MONEY 2 14400 %count%"
+        "local-booster %player% MONEY 2 7200 %count%"
       ]
     },
     "GLOBAL_ALL": {
@@ -562,12 +624,14 @@
       "description": "treasures.donate.element.global-all.description",
       "texture": "all_booster.png",
       "category": "BOOSTERS",
-      "price": 599,
-      "sale": 80,
+      "price": 749,
+      "sale": 0,
+      "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% BLOCKS 2 3600 %count%",
@@ -582,18 +646,19 @@
       "description": "treasures.donate.element.local-all.description",
       "texture": "all_booster.png",
       "category": "BOOSTERS",
-      "price": 449,
-      "sale": 80,
+      "price": 549,
+      "sale": 0,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% BLOCKS 2 14400 %count%",
-        "local-booster %player% TREASURES 2 14400 %count%",
-        "local-booster %player% EXP 2 14400 %count%",
-        "local-booster %player% MONEY 2 14400 %count%"
+        "local-booster %player% BLOCKS 2 7200 %count%",
+        "local-booster %player% TREASURES 2 7200 %count%",
+        "local-booster %player% EXP 2 7200 %count%",
+        "local-booster %player% MONEY 2 7200 %count%"
       ]
     }
   }
