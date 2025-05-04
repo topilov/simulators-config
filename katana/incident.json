@@ -1,6 +1,7 @@
 {
   "containers": {
 	"PRICE_REDUCTION": {
+	  "texture": "sale_percent_1.png",
 	  "title": "katana.incident.price_reduction.title",
 	  "description": "katana.incident.price_reduction.description",
 	  "stat": [ 60, 10 ],
@@ -21,6 +22,7 @@
 	  "printStat": [1]
 	},
 	"INCREASED_LOOTBOX_CHANCES": {
+	  "texture": "increased_lootbox_chance_percent_1.png",
 	  "title": "katana.incident.increased_lootbox_chances.title",
 	  "description": "katana.incident.increased_lootbox_chances.description",
 	  "stat": [ 60, 20 ],
@@ -41,6 +43,7 @@
 	  "printStat": [1]
 	},
 	"DROPPER": {
+	  "texture": "dropper_spawn_every_1.png",
 	  "title": "katana.incident.dropper.title",
 	  "description": "katana.incident.dropper.description",
 	  "stat": [ 60, 0.5, 0.0, 100, 1 ],
@@ -61,6 +64,7 @@
 	  "printStat": [1]
 	},
 	"SUPERCHARGING": {
+	  "texture": "supercharging_percent_multiplier_1.png",
 	  "title": "katana.incident.supercharging.title",
 	  "description": "katana.incident.supercharging.description",
 	  "stat": [ 60, 50 ],
@@ -102,10 +106,12 @@
   "menu": {
 	"trees": [
 	  {
+		"title": "title",
 		"treeNodes": [
 		  {
 			"incidentId": "PRICE_REDUCTION",
 			"id": "sale_percent_1",
+			"texture": "sale_percent_1.png",
 			"title": "Суперскидка",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 1,
@@ -118,6 +124,7 @@
 			"incidentId": "PRICE_REDUCTION",
 			"parentId": "sale_percent_1",
 			"id": "sale_percent_2",
+			"texture": "sale_percent_2.png",
 			"title": "Грандиозная скидка",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 1,
@@ -130,6 +137,7 @@
 			"incidentId": "PRICE_REDUCTION",
 			"parentId": "sale_percent_1",
 			"id": "sale_duration_1",
+			"texture": "sale_duration_1.png",
 			"title": "Долговечность",
 			"description": "katana.incident.upgrade.duration.description",
 			"statId": 0,
@@ -142,6 +150,7 @@
 			"incidentId": "PRICE_REDUCTION",
 			"parentId": "sale_percent_2",
 			"id": "sale_percent_3",
+			"texture": "sale_percent_3.png",
 			"title": "Скидкомания",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 1,
@@ -153,10 +162,12 @@
 		]
 	  },
 	  {
+		"title": "title",
 		"treeNodes": [
 		  {
 			"incidentId": "INCREASED_LOOTBOX_CHANCES",
 			"id": "increased_chance_percent_1",
+			"texture": "increased_lootbox_chance_percent_1.png",
 			"title": "Удача близко",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 1,
@@ -169,6 +180,7 @@
 			"incidentId": "INCREASED_LOOTBOX_CHANCES",
 			"parentId": "increased_chance_percent_1",
 			"id": "increased_chance_percent_2",
+			"texture": "increased_lootbox_chance_percent_2.png",
 			"title": "Везунчик",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 1,
@@ -181,6 +193,7 @@
 			"incidentId": "INCREASED_LOOTBOX_CHANCES",
 			"parentId": "increased_chance_percent_1",
 			"id": "increased_chance_duration_1",
+			"texture": "increased_lootbox_chance_duration_1.png",
 			"title": "Дольше удачи",
 			"description": "katana.incident.upgrade.duration.description",
 			"statId": 0,
@@ -193,6 +206,7 @@
 			"incidentId": "INCREASED_LOOTBOX_CHANCES",
 			"parentId": "increased_chance_percent_2",
 			"id": "increased_chance_percent_3",
+			"texture": "increased_lootbox_chance_percent_3.png",
 			"title": "Возвышенная удача",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 1,
@@ -204,10 +218,12 @@
 		]
 	  },
 	  {
+		"title": "title",
 		"treeNodes": [
 		  {
 			"incidentId": "DROPPER",
 			"id": "dropper_worth_coin_1",
+			"texture": "dropper_worth_coin_1.png",
 			"title": "Монетопад",
 			"description": "katana.incident.upgrade.description",
 			"statId": 3,
@@ -220,6 +236,7 @@
 			"incidentId": "DROPPER",
 			"parentId": "dropper_worth_coin_1",
 			"id": "dropper_chance_bits_1",
+			"texture": "dropper_chance_bits_1",
 			"title": "Джекпот",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 2,
@@ -233,6 +250,7 @@
 			"incidentId": "DROPPER",
 			"parentId": "dropper_worth_coin_1",
 			"id": "dropper_duration_1",
+			"texture": "dropper_duration_1.png",
 			"title": "Изобилие",
 			"description": "katana.incident.upgrade.duration.description",
 			"statId": 0,
@@ -245,6 +263,7 @@
 			"incidentId": "DROPPER",
 			"parentId": "dropper_worth_coin_1",
 			"id": "dropper_spawn_every_1",
+			"texture": "dropper_spawn_every_1.png",
 			"title": "Экспресс-добыча",
 			"description": "katana.incident.upgrade.duration.description",
 			"statId": 1,
@@ -258,6 +277,7 @@
 			"incidentId": "DROPPER",
 			"parentId": "dropper_chance_bits_1",
 			"id": "dropper_worth_bits_1",
+			"texture": "dropper_worth_bits_1.png",
 			"title": "Куш",
 			"description": "katana.incident.upgrade.description",
 			"statId": 4,
@@ -270,6 +290,7 @@
 			"incidentId": "DROPPER",
 			"parentId": "dropper_spawn_every_1",
 			"id": "dropper_worth_coin_2",
+			"texture": "dropper_worth_coin_2.png",
 			"title": "Лавина золота",
 			"description": "katana.incident.upgrade.description",
 			"statId": 3,
@@ -281,10 +302,12 @@
 		]
 	  },
 	  {
+		"title": "title",
 		"treeNodes": [
 		  {
 			"incidentId": "SUPERCHARGING",
 			"id": "supercharging_percent_multiplier_1",
+			"texture": "supercharging_percent_multiplier_1.png",
 			"title": "Хватай бустеры",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 1,
@@ -297,6 +320,7 @@
 			"incidentId": "SUPERCHARGING",
 			"parentId": "supercharging_percent_multiplier_1",
 			"id": "supercharging_percent_multiplier_2",
+			"texture": "supercharging_percent_multiplier_2.png",
 			"title": "Больше бустеров",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 1,
@@ -309,6 +333,7 @@
 			"incidentId": "SUPERCHARGING",
 			"parentId": "supercharging_percent_multiplier_1",
 			"id": "supercharging_duration_2",
+			"texture": "supercharging_duration_2.png",
 			"title": "Турбо время",
 			"description": "katana.incident.upgrade.duration.description",
 			"statId": 0,
@@ -321,6 +346,7 @@
 			"incidentId": "SUPERCHARGING",
 			"parentId": "supercharging_percent_multiplier_2",
 			"id": "supercharging_percent_multiplier_3",
+			"texture": "supercharging_percent_multiplier_3.png",
 			"title": "Полное усиление",
 			"description": "katana.incident.upgrade.percent.description",
 			"statId": 1,
