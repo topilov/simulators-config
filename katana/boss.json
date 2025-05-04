@@ -1,103 +1,146 @@
 {
-  "banner": {
-    "height": 8,
-    "weight": 40,
-    "watchingOnPlayer": true,
-    "resizeLine": {
-      "0": 0.5
-    },
-    "carveSize": 1.0,
-    "location": {
-      "name": "boss",
-      "offset": {
-        "y": 2.5,
-        "z": 1.0
-      }
-    }
-  },
-  "changeTargetEvery": 200,
   "text": {
-    "alreadyAlive": "katana.boss.message.already_alive",
-    "alive": "katana.boss.message.alive",
-    "zombie": "katana.boss.zombie.name"
+    "score": "katana.boss.score.text"
   },
-  "samuraiEntity": {
-    "type": "SKELETON",
-    "location": {
-      "name": "boss"
-    },
-    "helmet": {
-      "type": "CHAINMAIL_HELMET",
-      "data": {
-        "armors": "wizard",
-        "Unbreakable": 1
+  "locations": {
+    "1": {
+      "bosses": {
+        "LIVESEY": {
+          "spawnAt": [ "0:0:0" ],
+          "type": "LIVESEY",
+          "settings": {
+            "health": 1000,
+            "damage": 0.0,
+            "speed": 0.0,
+            "location": {
+              "name": "livesey",
+              "yaw": 180
+            },
+            "customName": "katana.boss.livesey.name"
+          },
+          "messages": {
+            "onSpawn": "katana.boss.livesey.spawn-message",
+            "onDeath": "katana.boss.livesey.death-message"
+          },
+          "reward": [
+            [
+              "give-key %player% DEFAULT 10",
+              "earn-exp %player% 2500 true"
+            ],
+            [
+              "give-key %player% DEFAULT 7",
+              "earn-exp %player% 2000 true"
+            ],
+            [
+              "give-key %player% DEFAULT 5",
+              "earn-exp %player% 1500 true"
+            ]
+          ],
+          "children": []
+        }
       }
     },
-    "chestplate": {
-      "type": "CHAINMAIL_CHESTPLATE",
-      "data": {
-        "armors": "wizard",
-        "Unbreakable": 1
+    "2": {
+      "bosses": {}
+    },
+    "3": {
+      "bosses": {}
+    },
+    "4": {
+      "bosses": {}
+    },
+    "5": {
+      "bosses": {}
+    },
+    "6": {
+      "bosses": {}
+    },
+    "7": {
+      "bosses": {}
+    },
+    "8": {
+      "bosses": {}
+    },
+    "9": {
+      "bosses": {}
+    },
+    "10": {
+      "bosses": {
+        "SAMURAI": {
+          "spawnAt": [ "0:0:0" ],
+          "type": "SAMURAI",
+          "banner": {
+            "content": "katana.boss.banner.text",
+            "lookAtPlayerX": true,
+            "lookAtPlayerY": true,
+            "color": {
+              "hex": "#1E1E1E"
+            },
+            "scale": 2.0
+          },
+          "settings": {
+            "health": 500,
+            "damage": 5.0,
+            "speed": 0.3,
+            "location": { "name": "boss" },
+            "spawnBox": { "name": "boss-zone" },
+            "customName": "katana.boss.samurai.name",
+            "scale": { "x": 1.5, "y": 1.5, "z": 1.5 },
+            "armor": [
+              {
+                "type": "CHAINMAIL_BOOTS",
+                "data": {
+                  "armors": "wizard",
+                  "Unbreakable": 1
+                }
+              },
+              {
+                "type": "CHAINMAIL_LEGGINGS",
+                "data": {
+                  "armors": "wizard",
+                  "Unbreakable": 1
+                }
+              },
+              {
+                "type": "CHAINMAIL_CHESTPLATE",
+                "data": {
+                  "armors": "wizard",
+                  "Unbreakable": 1
+                }
+              },
+              {
+                "type": "CHAINMAIL_HELMET",
+                "data": {
+                  "armors": "wizard",
+                  "Unbreakable": 1
+                }
+              }
+            ]
+          },
+          "messages": {
+            "onSpawn": "katana.boss.samurai.spawn-message",
+            "onDeath": "katana.boss.samurai.death-message"
+          },
+          "reward": [
+            [
+              "give-key %player% DEFAULT 10",
+              "earn-exp %player% 2500 true"
+            ],
+            [
+              "give-key %player% DEFAULT 7",
+              "earn-exp %player% 2000 true"
+            ],
+            [
+              "give-key %player% DEFAULT 5",
+              "earn-exp %player% 1500 true"
+            ]
+          ],
+          "children": []
+        }
       }
     },
-    "leggings": {
-      "type": "CHAINMAIL_LEGGINGS",
-      "data": {
-        "armors": "wizard",
-        "Unbreakable": 1
-      }
-    },
-    "boots": {
-      "type": "CHAINMAIL_BOOTS",
-      "data": {
-        "armors": "wizard",
-        "Unbreakable": 1
-      }
-    },
-    "allowBox": {
-      "name": "boss-zone"
-    },
-    "antiKnockBack": true,
-    "antiLighting": true,
-    "antiFire": true,
-    "removeWhenFarAway": false,
-    "health": 500.0,
-    "damage": 5.0,
-    "speed": 0.3,
-    "receivedDamage": 2.0,
-    "name": "katana.boss.name",
-    "onDamage": [
-      "give hits"
-    ],
-    "onHit": [
-      "random 10 to add potion effect",
-      "random 10 to spawn zombies",
-      "random 20 to magnit players"
-    ],
-    "onDeath": [
-      "end-local-event BOSS"
-    ],
-    "onKill": [
-      "remove potion effects",
-      "reset health"
-    ]
-  },
-  "zombieEntity": {
-    "type": "ZOMBIE",
-    "location": {
-      "name": "boss"
-    },
-    "allowBox": {
-      "name": "boss-zone"
-    },
-    "antiKnockBack": true,
-    "antiLighting": true,
-    "antiFire": true,
-    "removeWhenFarAway": false,
-    "health": 6.0,
-    "damage": 2.5,
-    "receivedDamage": 2.0,
-    "name": "katana.boss.zombie.name",
-    "speed": 0.25
+    "11": {
+      "bosses": {}
+    }
   }
 }

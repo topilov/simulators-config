@@ -1,84 +1,86 @@
 {
-    "leaderboards": [
-        {
-            "title": "katana.top.exp.title",
-            "field": "exp",
-            "nickName": "katana.top.nick-name",
-            "fieldName": "katana.top.exp.field-name",
-            "fieldFormat": "§b%format%",
-            "fieldSize": 20,
-            "nameSize": 40,
-            "limit": 50,
-            "location": {
-                "name": "top",
-                "tag": "exp",
-                "yaw": -90,
-                "offset": {
-                    "x": 0.99,
-                    "y": 0.25,
-                    "z": 0.5
+    "leaderboards": {
+        "katana": [
+            {
+                "title": "katana.top.exp.title",
+                "field": "exp",
+                "nickName": "katana.top.nick-name",
+                "fieldName": "katana.top.exp.field-name",
+                "fieldFormat": "§b%format%",
+                "fieldSize": 20,
+                "nameSize": 40,
+                "limit": 50,
+                "location": {
+                    "name": "top",
+                    "tag": "exp",
+                    "yaw": -90,
+                    "offset": {
+                        "x": 0.99,
+                        "y": 0.25,
+                        "z": 0.5
+                    }
+                }
+            },
+            {
+                "title": "katana.top.rebirth.title",
+                "field": "rebirth",
+                "nickName": "katana.top.nick-name",
+                "fieldName": "katana.top.rebirth.field-name",
+                "fieldFormat": "§d%format%",
+                "fieldSize": 20,
+                "nameSize": 40,
+                "limit": 50,
+                "location": {
+                    "name": "top",
+                    "tag": "rebirth",
+                    "yaw": -90,
+                    "offset": {
+                        "x": 0.99,
+                        "y": 0.25,
+                        "z": 0.5
+                    }
+                }
+            },
+            {
+                "title": "katana.top.money.title",
+                "field": "money",
+                "nickName": "katana.top.nick-name",
+                "fieldName": "katana.top.money.field-name",
+                "fieldFormat": "§6%format%",
+                "fieldSize": 20,
+                "nameSize": 40,
+                "limit": 50,
+                "location": {
+                    "name": "top",
+                    "tag": "money",
+                    "yaw": 90,
+                    "offset": {
+                        "x": 0.01,
+                        "y": 0.25,
+                        "z": 0.5
+                    }
+                }
+            },
+            {
+                "title": "katana.top.kills.title",
+                "field": "kills",
+                "nickName": "katana.top.nick-name",
+                "fieldName": "katana.top.kills.field-name",
+                "fieldFormat": "§c%format%",
+                "fieldSize": 20,
+                "nameSize": 40,
+                "limit": 50,
+                "location": {
+                    "name": "top",
+                    "tag": "kills",
+                    "yaw": 90,
+                    "offset": {
+                        "x": 0.01,
+                        "y": 0.25,
+                        "z": 0.5
+                    }
                 }
             }
-        },
-        {
-            "title": "katana.top.rebirth.title",
-            "field": "rebirth",
-            "nickName": "katana.top.nick-name",
-            "fieldName": "katana.top.rebirth.field-name",
-            "fieldFormat": "§d%format%",
-            "fieldSize": 20,
-            "nameSize": 40,
-            "limit": 50,
-            "location": {
-                "name": "top",
-                "tag": "rebirth",
-                "yaw": -90,
-                "offset": {
-                    "x": 0.99,
-                    "y": 0.25,
-                    "z": 0.5
-                }
-            }
-        },
-        {
-            "title": "katana.top.money.title",
-            "field": "money",
-            "nickName": "katana.top.nick-name",
-            "fieldName": "katana.top.money.field-name",
-            "fieldFormat": "§6%format%",
-            "fieldSize": 20,
-            "nameSize": 40,
-            "limit": 50,
-            "location": {
-                "name": "top",
-                "tag": "money",
-                "yaw": 90,
-                "offset": {
-                    "x": 0.01,
-                    "y": 0.25,
-                    "z": 0.5
-                }
-            }
-        },
-        {
-            "title": "katana.top.kills.title",
-            "field": "kills",
-            "nickName": "katana.top.nick-name",
-            "fieldName": "katana.top.kills.field-name",
-            "fieldFormat": "§c%format%",
-            "fieldSize": 20,
-            "nameSize": 40,
-            "limit": 50,
-            "location": {
-                "name": "top",
-                "tag": "kills",
-                "yaw": 90,
-                "offset": {
-                    "x": 0.01,
-                    "y": 0.25,
-                    "z": 0.5
-                }
-            }
-        }
-    ]
+        ]
+    }
 }
