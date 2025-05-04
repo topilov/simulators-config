@@ -672,6 +672,19 @@
         "local-booster %player% EXP 2 7200 %count%",
         "local-booster %player% MONEY 2 7200 %count%"
       ]
+    },
+    "SHARDS_BOOSTER": {
+      "donateName": "treasures.donate.element.shards-booster.donate-name",
+      "title": "treasures.donate.element.shards-booster.title",
+      "description": "treasures.donate.element.shards-booster.description",
+      "texture": "shards_booster.png",
+      "category": "BOOSTERS",
+      "price": 1279,
+      "sale": 0,
+      "count": [1],
+      "onBuy": [
+        "infinity-booster %player% SHARDS 2"
+      ]
     }
   }
 }
