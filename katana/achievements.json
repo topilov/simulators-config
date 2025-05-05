@@ -1,4 +1,576 @@
 {
   "achievements": {
+    "OPEN_DEFAULT_LOOTBOX": {
+      "title": "katana.achievement.open_default_lootbox.title",
+      "texture": "open_default_lootbox.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.open_default_lootbox.stages.title|!|50",
+          "description": "i18n.katana.achievement.reward.description|!|1",
+          "required": 50.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_default_lootbox.stages.title|!|550",
+          "description": "i18n.katana.achievement.reward.description|!|3",
+          "required": 550.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_default_lootbox.stages.title|!|3К",
+          "description": "i18n.katana.achievement.reward.description|!|9",
+          "required": 3000.0,
+          "onTake": [
+            "give-incident-points %player% 9 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_default_lootbox.stages.title|!|12.5К",
+          "description": "i18n.katana.achievement.reward.description|!|15",
+          "required": 12500.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_default_lootbox.stages.title|!|35К",
+          "description": "i18n.katana.achievement.reward.description|!|25",
+          "required": 35000.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.open_default_lootbox.title"
+      }
+    },
+    "OPEN_PET_LOOTBOX": {
+      "title": "katana.achievement.open_pet_lootbox.title",
+      "texture": "open_pet_lootbox.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.open_pet_lootbox.stages.title|!|5",
+          "description": "i18n.katana.achievement.reward.description|!|1",
+          "required": 5.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_pet_lootbox.stages.title|!|40",
+          "description": "i18n.katana.achievement.reward.description|!|3",
+          "required": 40.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_pet_lootbox.stages.title|!|150",
+          "description": "i18n.katana.achievement.reward.description|!|8",
+          "required": 150.0,
+          "onTake": [
+            "give-incident-points %player% 8 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_pet_lootbox.stages.title|!|400",
+          "description": "i18n.katana.achievement.reward.description|!|18",
+          "required": 400.0,
+          "onTake": [
+            "give-incident-points %player% 18 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_pet_lootbox.stages.title|!|1.5К",
+          "description": "i18n.katana.achievement.reward.description|!|30",
+          "required": 1500.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.open_pet_lootbox.title"
+      }
+    },
+    "OPEN_RUNE_LOOTBOX": {
+      "title": "katana.achievement.open_rune_lootbox.title",
+      "texture": "open_rune_lootbox.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.open_rune_lootbox.stages.title|!|3",
+          "description": "i18n.katana.achievement.reward.description|!|1",
+          "required": 3.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_rune_lootbox.stages.title|!|17",
+          "description": "i18n.katana.achievement.reward.description|!|4",
+          "required": 17.0,
+          "onTake": [
+            "give-incident-points %player% 4 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_rune_lootbox.stages.title|!|75",
+          "description": "i18n.katana.achievement.reward.description|!|10",
+          "required": 75.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_rune_lootbox.stages.title|!|225",
+          "description": "i18n.katana.achievement.reward.description|!|21",
+          "required": 225.0,
+          "onTake": [
+            "give-incident-points %player% 21 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_rune_lootbox.stages.title|!|500",
+          "description": "i18n.katana.achievement.reward.description|!|35",
+          "required": 500.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.open_rune_lootbox.title"
+      }
+    },
+    "OPEN_TITLE_LOOTBOX": {
+      "title": "katana.achievement.open_title_lootbox.title",
+      "texture": "open_title_lootbox.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.open_title_lootbox.stages.title|!|1",
+          "description": "i18n.katana.achievement.reward.description|!|1",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_title_lootbox.stages.title|!|4",
+          "description": "i18n.katana.achievement.reward.description|!|5",
+          "required": 4.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_title_lootbox.stages.title|!|9",
+          "description": "i18n.katana.achievement.reward.description|!|12",
+          "required": 9.0,
+          "onTake": [
+            "give-incident-points %player% 12 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_title_lootbox.stages.title|!|15",
+          "description": "i18n.katana.achievement.reward.description|!|23",
+          "required": 15.0,
+          "onTake": [
+            "give-incident-points %player% 23 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.open_title_lootbox.stages.title|!|30",
+          "description": "i18n.katana.achievement.reward.description|!|35",
+          "required": 30.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.open_title_lootbox.title"
+      }
+    },
+    "UPGRADE_LEVEL": {
+      "title": "katana.achievement.upgrade_level.title",
+      "texture": "upgrade_level.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.upgrade_level.stages.title|!|10",
+          "description": "i18n.katana.achievement.reward.description|!|1",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.upgrade_level.stages.title|!|75",
+          "description": "i18n.katana.achievement.reward.description|!|4",
+          "required": 75.0,
+          "onTake": [
+            "give-incident-points %player% 4 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.upgrade_level.stages.title|!|250",
+          "description": "i18n.katana.achievement.reward.description|!|8",
+          "required": 250.0,
+          "onTake": [
+            "give-incident-points %player% 8 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.upgrade_level.stages.title|!|750",
+          "description": "i18n.katana.achievement.reward.description|!|15",
+          "required": 750.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.upgrade_level.stages.title|!|1.9К",
+          "description": "i18n.katana.achievement.reward.description|!|25",
+          "required": 1900.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.upgrade_level.title"
+      }
+    },
+    "UPGRADE_REBIRTH": {
+      "title": "katana.achievement.upgrade_rebirth.title",
+      "texture": "respawn.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.upgrade_rebirth.stages.title|!|5",
+          "description": "i18n.katana.achievement.reward.description|!|2",
+          "required": 5.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.upgrade_rebirth.stages.title|!|25",
+          "description": "i18n.katana.achievement.reward.description|!|5",
+          "required": 25.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.upgrade_rebirth.stages.title|!|75",
+          "description": "i18n.katana.achievement.reward.description|!|10",
+          "required": 75.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.upgrade_rebirth.stages.title|!|150",
+          "description": "i18n.katana.achievement.reward.description|!|25",
+          "required": 150.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.upgrade_rebirth.stages.title|!|300",
+          "description": "i18n.katana.achievement.reward.description|!|40",
+          "required": 300.0,
+          "onTake": [
+            "give-incident-points %player% 40 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.upgrade_rebirth.title"
+      }
+    },
+    "UPGRADE_PRICE_REDUCTION_INCIDENT": {
+      "title": "katana.achievement.upgrade_price_reduction_incident.title",
+      "texture": "upgrade_progress_festival_incident.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.upgrade_price_reduction_incident.stages.title|!|18",
+          "description": "i18n.katana.achievement.reward.description|!|15",
+          "required": 18.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.upgrade_price_reduction_incident.title"
+      }
+    },
+    "UPGRADE_INCREASED_LOOTBOX_CHANCES_INCIDENT": {
+      "title": "katana.achievement.upgrade_increased_lootbox_chances_incident.title",
+      "texture": "upgrade_magic_incident_lootboxes.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.upgrade_increased_lootbox_chances_incident.stages.title|!|18",
+          "description": "i18n.katana.achievement.reward.description|!|15",
+          "required": 18.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.upgrade_increased_lootbox_chances_incident.title"
+      }
+    },
+    "UPGRADE_DROPPER_INCIDENT": {
+      "title": "katana.achievement.upgrade_dropper_incident.title",
+      "texture": "upgrade_gold_rush_incident.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.upgrade_dropper_incident.stages.title|!|33",
+          "description": "i18n.katana.achievement.reward.description|!|15",
+          "required": 33.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.upgrade_dropper_incident.title"
+      }
+    },
+    "UPGRADE_SUPERCHARGING_INCIDENT": {
+      "title": "katana.achievement.upgrade_supercharging_incident.title",
+      "texture": "upgrade_max_boosters_incident.png",
+      "maxStage": 1,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.upgrade_supercharging_incident.stages.title|!|18",
+          "description": "i18n.katana.achievement.reward.description|!|15",
+          "required": 18.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.upgrade_supercharging_incident.title"
+      }
+    },
+    "ENCHANT_PET": {
+      "title": "katana.achievement.enchant_pet.title",
+      "texture": "upgrade_pet.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.enchant_pet.stages.title|!|1",
+          "description": "i18n.katana.achievement.reward.description|!|1",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.enchant_pet.stages.title|!|5",
+          "description": "i18n.katana.achievement.reward.description|!|3",
+          "required": 5.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.enchant_pet.stages.title|!|40",
+          "description": "i18n.katana.achievement.reward.description|!|8",
+          "required": 40.0,
+          "onTake": [
+            "give-incident-points %player% 8 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.enchant_pet.stages.title|!|120",
+          "description": "i18n.katana.achievement.reward.description|!|15",
+          "required": 120.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.enchant_pet.stages.title|!|450",
+          "description": "i18n.katana.achievement.reward.description|!|30",
+          "required": 450.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.enchant_pet.title"
+      }
+    },
+    "ENCHANT_RUNE": {
+      "title": "katana.achievement.enchant_rune.title",
+      "texture": "upgrade_rune.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.enchant_rune.stages.title|!|1",
+          "description": "i18n.katana.achievement.reward.description|!|1",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.enchant_rune.stages.title|!|3",
+          "description": "i18n.katana.achievement.reward.description|!|4",
+          "required": 3.0,
+          "onTake": [
+            "give-incident-points %player% 4 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.enchant_rune.stages.title|!|17",
+          "description": "i18n.katana.achievement.reward.description|!|10",
+          "required": 17.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.enchant_rune.stages.title|!|60",
+          "description": "i18n.katana.achievement.reward.description|!|20",
+          "required": 60.0,
+          "onTake": [
+            "give-incident-points %player% 20 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.enchant_rune.stages.title|!|230",
+          "description": "i18n.katana.achievement.reward.description|!|30",
+          "required": 230.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.enchant_rune.title"
+      }
+    },
+    "USE_SAVE_CRYSTAL": {
+      "title": "katana.achievement.use_save_crystal.title",
+      "texture": "use_save_crystal.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.use_save_crystal.stages.title|!|3",
+          "description": "i18n.katana.achievement.reward.description|!|1",
+          "required": 3.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.use_save_crystal.stages.title|!|7",
+          "description": "i18n.katana.achievement.reward.description|!|3",
+          "required": 7.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.use_save_crystal.stages.title|!|25",
+          "description": "i18n.katana.achievement.reward.description|!|7",
+          "required": 25.0,
+          "onTake": [
+            "give-incident-points %player% 7 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.use_save_crystal.stages.title|!|100",
+          "description": "i18n.katana.achievement.reward.description|!|15",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.use_save_crystal.stages.title|!|250",
+          "description": "i18n.katana.achievement.reward.description|!|25",
+          "required": 250.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.use_save_crystal.title"
+      }
+    },
+    "ACTIVATE_INCIDENT": {
+      "title": "katana.achievement.activate_incident.title",
+      "texture": "activate_incident.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.activate_incident.stages.title|!|10",
+          "description": "i18n.katana.achievement.reward.description|!|2",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.activate_incident.stages.title|!|50",
+          "description": "i18n.katana.achievement.reward.description|!|6",
+          "required": 50.0,
+          "onTake": [
+            "give-incident-points %player% 6 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.activate_incident.stages.title|!|130",
+          "description": "i18n.katana.achievement.reward.description|!|13",
+          "required": 130.0,
+          "onTake": [
+            "give-incident-points %player% 13 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.activate_incident.stages.title|!|200",
+          "description": "i18n.katana.achievement.reward.description|!|21",
+          "required": 200.0,
+          "onTake": [
+            "give-incident-points %player% 21 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.activate_incident.stages.title|!|325",
+          "description": "i18n.katana.achievement.reward.description|!|30",
+          "required": 325.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.activate_incident.title"
+      }
+    }
   }
 }
