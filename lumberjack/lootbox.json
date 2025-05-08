@@ -30,7 +30,8 @@
         "LEGENDARY"
       ],
       "onOpen": [
-        "earn-tutorial-stage-progress %player% OPEN_DEFAULT_LOOTBOX"
+        "earn-tutorial-stage-progress %player% OPEN_DEFAULT_LOOTBOX",
+        "add-achievement-progress %player% OPEN_DEFAULT_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "default",
@@ -388,7 +389,8 @@
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [
-        "earn-tutorial-stage-progress %player% OPEN_PET_LOOTBOX"
+        "earn-tutorial-stage-progress %player% OPEN_PET_LOOTBOX",
+        "add-achievement-progress %player% OPEN_PET_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "pets",
@@ -744,7 +746,8 @@
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [
-        "earn-tutorial-stage-progress %player% OPEN_RUNE_LOOTBOX"
+        "earn-tutorial-stage-progress %player% OPEN_RUNE_LOOTBOX",
+        "add-achievement-progress %player% OPEN_RUNE_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "rune",
@@ -980,7 +983,8 @@
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [
-        "earn-tutorial-stage-progress %player% OPEN_TITLE_LOOTBOX"
+        "earn-tutorial-stage-progress %player% OPEN_TITLE_LOOTBOX",
+        "add-achievement-progress %player% OPEN_TITLE_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "title",
