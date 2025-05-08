@@ -1,92 +1,128 @@
 {
-  "bitsShop": {
-    "title": "lumberjack.shop.bits.title",
-    "vault": "\uE1D1",
-    "products": [
-      {
-        "title": "lumberjack.shop.bits.product.money_booster.title",
-        "hover": "lumberjack.shop.bits.product.money_booster.hover",
-        "icon": "money_booster.png",
-        "price": 229.0,
-        "needSubscription": true,
-        "onBuy": [
-          "local-booster %player% MONEY 2 1800"
-        ]
+  "shops": {
+    "bits": {
+      "messages": {
+        "moreMoney": "lumberjack.shop.messages.more-money",
+        "noSubscription": "lumberjack.shop.messages.no-subscription"
       },
-      {
-        "title": "lumberjack.shop.bits.product.exp_booster.title",
-        "hover": "lumberjack.shop.bits.product.exp_booster.hover",
-        "icon": "exp_booster.png",
-        "price": 229.0,
-        "needSubscription": true,
-        "onBuy": [
-          "local-booster %player% EXP 2 1800"
-        ]
+      "title": "lumberjack.shop.bits.title",
+      "vault": "\uE1D1",
+      "products": [
+        {
+          "title": "lumberjack.shop.bits.product.money_booster.title",
+          "hover": "lumberjack.shop.bits.product.money_booster.hover",
+          "icon": "money_booster.png",
+          "price": 229.0,
+          "needSubscription": true,
+          "onBuy": [
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "title": "lumberjack.shop.bits.product.exp_booster.title",
+          "hover": "lumberjack.shop.bits.product.exp_booster.hover",
+          "icon": "exp_booster.png",
+          "price": 229.0,
+          "needSubscription": true,
+          "onBuy": [
+            "local-booster %player% EXP 2 1800"
+          ]
+        },
+        {
+          "title": "lumberjack.shop.bits.product.blocks_booster.title",
+          "hover": "lumberjack.shop.bits.product.blocks_booster.hover",
+          "icon": "blocks_booster.png",
+          "price": 229.0,
+          "needSubscription": true,
+          "onBuy": [
+            "local-booster %player% BLOCKS 2 1800"
+          ]
+        },
+        {
+          "title": "lumberjack.shop.bits.product.mobs_booster.title",
+          "hover": "lumberjack.shop.bits.product.mobs_booster.hover",
+          "icon": "mobs_booster.png",
+          "price": 229.0,
+          "needSubscription": true,
+          "onBuy": [
+            "local-booster %player% MOBS 2 1800"
+          ]
+        },
+        {
+          "title": "lumberjack.shop.bits.product.default_key.title",
+          "hover": "lumberjack.lootbox.default.key.description",
+          "icon": "goldkey.png",
+          "price": 29.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-key %player% DEFAULT 1"
+          ]
+        },
+        {
+          "title": "lumberjack.shop.bits.product.pet_key.title",
+          "hover": "lumberjack.lootbox.pets.key.description",
+          "icon": "fox_key.png",
+          "price": 59.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-key %player% PET 1"
+          ]
+        },
+        {
+          "title": "lumberjack.shop.bits.product.rune_key.title",
+          "hover": "lumberjack.lootbox.runes.key.description",
+          "icon": "rune_key.png",
+          "price": 79.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-key %player% RUNE 1"
+          ]
+        },
+        {
+          "title": "lumberjack.shop.bits.product.crystal.title",
+          "hover": "lumberjack.shop.bits.product.crystal.hover",
+          "icon": "save_crystal.png",
+          "price": 99.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-item %player% SAVE_CRYSTAL 1"
+          ]
+        }
+      ]
+    },
+    "minigame": {
+      "messages": {
+        "moreMoney": "lumberjack.shop.minigame.messages.more-money",
+        "noSubscription": "lumberjack.shop.messages.no-subscription",
+        "hasPerk": "lumberjack.shop.minigame.minigame.messages.has-perk"
       },
-      {
-        "title": "lumberjack.shop.bits.product.blocks_booster.title",
-        "hover": "lumberjack.shop.bits.product.blocks_booster.hover",
-        "icon": "blocks_booster.png",
-        "price": 229.0,
-        "needSubscription": true,
-        "onBuy": [
-          "local-booster %player% BLOCKS 2 1800"
-        ]
-      },
-      {
-        "title": "lumberjack.shop.bits.product.mobs_booster.title",
-        "hover": "lumberjack.shop.bits.product.mobs_booster.hover",
-        "icon": "mobs_booster.png",
-        "price": 229.0,
-        "needSubscription": true,
-        "onBuy": [
-          "local-booster %player% MOBS 2 1800"
-        ]
-      },
-      {
-        "title": "lumberjack.shop.bits.product.default_key.title",
-        "hover": "lumberjack.lootbox.default.key.description",
-        "icon": "goldkey.png",
-        "price": 29.0,
-        "needSubscription": true,
-        "onBuy": [
-          "give-key %player% DEFAULT 1"
-        ]
-      },
-      {
-        "title": "lumberjack.shop.bits.product.pet_key.title",
-        "hover": "lumberjack.lootbox.pets.key.description",
-        "icon": "fox_key.png",
-        "price": 59.0,
-        "needSubscription": true,
-        "onBuy": [
-          "give-key %player% PET 1"
-        ]
-      },
-      {
-        "title": "lumberjack.shop.bits.product.rune_key.title",
-        "hover": "lumberjack.lootbox.runes.key.description",
-        "icon": "rune_key.png",
-        "price": 79.0,
-        "needSubscription": true,
-        "onBuy": [
-          "give-key %player% RUNE 1"
-        ]
-      },
-      {
-        "title": "lumberjack.shop.bits.product.crystal.title",
-        "hover": "lumberjack.shop.bits.product.crystal.hover",
-        "icon": "save_crystal.png",
-        "price": 99.0,
-        "needSubscription": true,
-        "onBuy": [
-          "give-item %player% SAVE_CRYSTAL 1"
-        ]
-      }
-    ]
-  },
-  "messages": {
-    "moreMoney": "lumberjack.shop.messages.more-money",
-    "noSubscription": "lumberjack.shop.messages.no-subscription"
+      "title": "lumberjack.shop.minigame.title",
+      "vault": "\uE1C2",
+      "products": [
+        {
+          "perkType": "BRACELET_DOUBLE_REWARD",
+          "title": "lumberjack.shop.minigame.product.bracelet_double_reward.title",
+          "hover": "lumberjack.items.bracelet_double_reward.lore",
+          "icon": "bracelet_double_reward.png",
+          "price": 29.0,
+          "needSubscription": false,
+          "onBuy": [
+            "give-perk %player% BRACELET_DOUBLE_REWARD"
+          ]
+        },
+        {
+          "perkType": "RANGERS_MEDALLION",
+          "title": "lumberjack.shop.minigame.product.rangers_medallion.title",
+          "hover": "lumberjack.items.rangers_medallion.lore",
+          "icon": "rangers_medallion.png",
+          "price": 15.0,
+          "needSubscription": false,
+          "onBuy": [
+            "give-perk %player% RANGERS_MEDALLION"
+          ]
+        }
+      ]
+    }
   }
+  
 }
