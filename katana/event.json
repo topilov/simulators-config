@@ -23,15 +23,18 @@
       "reward": {
         "1": [
           "give-key %player% PET",
-          "random-money %player% 50.0 150.0 2147483647"
+          "random-money %player% 50.0 150.0 2147483647",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_BOXER 1"
         ],
         "2": [
           "give-key %player% DEFAULT",
-          "random-money %player% 50.0 100.0 2147483647"
+          "random-money %player% 50.0 100.0 2147483647",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_BOXER 1"
         ],
         "3": [
           "give-key %player% DEFAULT",
-          "random-money %player% 25.0 100.0 2147483647"
+          "random-money %player% 25.0 100.0 2147483647",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_BOXER 1"
         ]
       },
       "isGlobal": true
@@ -59,15 +62,18 @@
       "reward": {
         "1": [
           "give-key %player% PET",
-          "random-money %player% 50.0 150.0 2147483647"
+          "random-money %player% 50.0 150.0 2147483647",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_KILLER 1"
         ],
         "2": [
           "give-key %player% DEFAULT",
-          "random-money %player% 50.0 100.0 2147483647"
+          "random-money %player% 50.0 100.0 2147483647",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_KILLER 1"
         ],
         "3": [
           "give-key %player% DEFAULT",
-          "random-money %player% 25.0 100.0 2147483647"
+          "random-money %player% 25.0 100.0 2147483647",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_KILLER 1"
         ]
       },
       "isGlobal": true
@@ -88,19 +94,24 @@
       "endMessage": "katana.event.boss.end_message",
       "reward": {
         "1": [
-          "give-key %player% RUNE 3"
+          "give-key %player% RUNE 3",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
         ],
         "2": [
-          "give-key %player% RUNE 2"
+          "give-key %player% RUNE 2",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
         ],
         "3": [
-          "give-key %player% RUNE 2"
+          "give-key %player% RUNE 2",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
         ],
         "4": [
-          "give-key %player% RUNE 1"
+          "give-key %player% RUNE 1",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
         ],
         "5": [
-          "give-key %player% RUNE 1"
+          "give-key %player% RUNE 1",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
         ]
       },
       "isGlobal": true,
@@ -170,13 +181,16 @@
       "reward": {
         "1": [
           "give-key %player% KATANA 1",
-          "give-key %player% PET 1"
+          "give-key %player% PET 1",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_LIVSI 1"
         ],
         "2": [
-          "give-key %player% PET 1"
+          "give-key %player% PET 1",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_LIVSI 1"
         ],
         "3": [
-          "give-key %player% PET 1"
+          "give-key %player% PET 1",
+          "add-achievement-progress %player% TAKE_TOP_EVENT_LIVSI 1"
         ]
       },
       "isGlobal": false,
