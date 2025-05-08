@@ -92,10 +92,7 @@
   },
   "booster": {
     "command": {
-      "thanks": [
-        "thanks",
-        "thx"
-      ]
+      "thanks": "thx"
     },
     "message": {
       "empty": "lumberjack.booster.message.empty"
@@ -117,24 +114,20 @@
   },
   "daily": {
     "nextTakeReward": 86400000,
-    "command": [
-      "daily"
-    ]
+    "command": "daily"
   },
   "donate": {
     "nextTakeDiscount": 86400000,
     "discount": {
-      "min": 10,
-      "max": 30
+      "min": 0,
+      "max": 1
     },
     "notify": "lumberjack.donate.notify",
     "notifyDonateNameColor": "§e",
     "message": {
       "buy": "lumberjack.donate.message.buy"
     },
-    "command": [
-      "donate"
-    ],
+    "command": "donate",
     "disabled": false
   },
   "locations": {
@@ -157,9 +150,7 @@
     }
   },
   "trash": {
-    "command": [
-      "trash"
-    ],
+    "command": "trash",
     "title": "lumberjack.trash.title",
     "size": 54
   },
