@@ -871,6 +871,56 @@
       "messages": {
         "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.take_series_of_murder.title"
       }
+    },
+    "TAKE_KILLS": {
+      "title": "katana.achievement.take_kills.title",
+      "texture": "take_series_of_murder.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.katana.achievement.take_kills.stages.title|!|50",
+          "description": "i18n.katana.achievement.reward.description|!|2",
+          "required": 500.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.take_kills.stages.title|!|100",
+          "description": "i18n.katana.achievement.reward.description|!|6",
+          "required": 1000.0,
+          "onTake": [
+            "give-incident-points %player% 6 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.take_kills.stages.title|!|250",
+          "description": "i18n.katana.achievement.reward.description|!|13",
+          "required": 2500.0,
+          "onTake": [
+            "give-incident-points %player% 13 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.take_kills.stages.title|!|500",
+          "description": "i18n.katana.achievement.reward.description|!|21",
+          "required": 5000.0,
+          "onTake": [
+            "give-incident-points %player% 21 true"
+          ]
+        },
+        {
+          "title": "i18n.katana.achievement.take_kills.stages.title|!|1000",
+          "description": "i18n.katana.achievement.reward.description|!|30",
+          "required": 10000.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.katana.achievement.messages.complete|!|katana.achievement.take_kills.title"
+      }
     }
     
     
