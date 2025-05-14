@@ -39,6 +39,14 @@
       "spawnAt": [
         "0:0:0"
       ]
+    },
+    "CARAVAN": {
+      "title": "Караван",
+      "description": "Караван",
+      "texture": "expedition.png",
+      "spawnAt": [
+        "0:0:0"
+      ]
     }
   },
   "captureTheFlag": {
@@ -210,6 +218,48 @@
         "description": {
           "title": "Командная\nбитва Hard",
           "description": "Останьтесь последней выжившей командой"
+        }
+      },
+      "game": {
+        "arenaStatus": "STARTED",
+        "duration": 120,
+        "countdown": {
+          "title": "Игра закончится через"
+        },
+        "pointIndicator": {
+          "type": "TEAM",
+          "positions": 3,
+          "valueName": "игроков"
+        }
+      },
+      "end": {
+        "arenaStatus": "TERMINATING",
+        "duration": 5,
+        "isCloseAfterExpire": true
+      }
+    }
+  },
+  "caravan": {
+    "teams": {
+      "RED": {
+        "icon": "\uE144",
+        "title": "Атакующие"
+      },
+      "BLUE": {
+        "icon": "\uE175",
+        "title": "Защищающие"
+      }
+    },
+    "status": {
+      "waiting": {
+        "arenaStatus": "WAITING_PLAYERS",
+        "duration": 15,
+        "countdown": {
+          "title": "Игра начнется через"
+        },
+        "description": {
+          "title": "Караван",
+          "description": "Караван"
         }
       },
       "game": {
