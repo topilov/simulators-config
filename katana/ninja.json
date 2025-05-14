@@ -5,14 +5,15 @@
   "center": {
     "name": "center"
   },
-  "ninjaEntity": {
-    "type": "VINDICATOR",
-    "location": {
-      "name": "center"
-    },
-    "attackRange": 50.0,
+  "settings": {
     "name": "katana.ninja.name",
-    "removeWhenFarAway": false,
-    "health": 20.0
+    "spawnBox": {
+      "name": "pvp",
+      "tag": "1"
+    },
+    "attributes": {
+      "FOLLOW_RANGE": 50.0,
+      "MAX_HEALTH": 20.0
+    }
   }
 }
