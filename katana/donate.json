@@ -33,11 +33,14 @@
       "price": 99,
       "sale": 0,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "alert": true,
       "onBuy": [
-        "payload gifts-katana"
+        "payload gifts-katana %count%"
       ]
     },
     "GIFTS_PET": {
@@ -56,11 +59,14 @@
       "price": 199,
       "sale": 0,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "alert": true,
       "onBuy": [
-        "payload gifts-pet"
+        "payload gifts-pet %count%"
       ]
     },
     "GIFTS_RUNE": {
@@ -79,11 +85,40 @@
       "price": 199,
       "sale": 0,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "alert": true,
       "onBuy": [
-        "payload gifts-rune"
+        "payload gifts-rune %count%"
+      ]
+    },
+    "GIFTS_TITLE": {
+      "readableName": "Подарочек с Титулами",
+      "donateName": "katana.donate.element.gifts-title.donate-name",
+      "confirmationTitle": "katana.donate.element.gifts-title.title",
+      "title": "katana.donate.element.gifts-title.title",
+      "description": "katana.donate.element.gifts-title.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 399,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "alert": true,
+      "onBuy": [
+        "payload gifts-title %count%"
       ]
     },
     "PET_SLOT": {
@@ -120,6 +155,26 @@
         "unlock-rune-slot %player%"
       ]
     },
+    "INCIDENT_POINT": {
+      "donateName": "katana.donate.element.incident-point.donate-name",
+      "confirmationTitle": "katana.donate.element.incident-point.title",
+      "title": "katana.donate.element.incident-point.title",
+      "description": "katana.donate.element.incident-point.description",
+      "texture": "incident_points.png",
+      "category": "GAME_BALANCE",
+      "price": 49,
+      "sale": 0,
+      "count": [
+        1,
+        3,
+        5,
+        10,
+        25
+      ],
+      "onBuy": [
+        "give-incident-points %player% %count%"
+      ]
+    },
     "MONEY_BAG": {
       "readableName": "Мешок монет",
       "donateName": "katana.donate.element.money-bag.donate-name",
@@ -134,7 +189,8 @@
         1,
         3,
         5,
-        10
+        10,
+        25
       ],
       "onBuy": [
         "random-money %player% 15 35 %count%"
@@ -154,7 +210,8 @@
         1,
         3,
         5,
-        10
+        10,
+        25
       ],
       "onBuy": [
         "random-money %player% 1 10 %count%"
@@ -196,7 +253,8 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "give-item %player% SAVE_CRYSTAL %count%"
@@ -216,7 +274,9 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% KATANA %count%"
@@ -236,7 +296,9 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% TITLE %count%"
@@ -256,7 +318,9 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% PET %count%"
@@ -276,7 +340,9 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% RUNE %count%"
@@ -472,7 +538,8 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% EXP 2 3600 %count%"
@@ -490,10 +557,11 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% EXP 2 14400 %count%"
+        "local-booster %player% EXP 2 7200 %count%"
       ]
     },
     "GLOBAL_HITS": {
@@ -509,7 +577,8 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% HITS 2 3600 %count%"
@@ -527,10 +596,11 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% HITS 2 14400 %count%"
+        "local-booster %player% HITS 2 7200 %count%"
       ]
     },
     "GLOBAL_KILLS": {
@@ -546,7 +616,8 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% KILLS 2 3600 %count%"
@@ -564,10 +635,11 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% KILLS 2 14400 %count%"
+        "local-booster %player% KILLS 2 7200 %count%"
       ]
     },
     "GLOBAL_MONEY": {
@@ -582,7 +654,8 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% MONEY 2 3600 %count%"
@@ -600,10 +673,11 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% MONEY 2 14400 %count%"
+        "local-booster %player% MONEY 2 7200 %count%"
       ]
     },
     "GLOBAL_ALL": {
@@ -618,7 +692,8 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% KILLS 2 3600 %count%",
@@ -638,7 +713,8 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "local-booster %player% KILLS 2 7200 %count%",
