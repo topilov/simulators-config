@@ -1,48 +1,48 @@
 {
   "minigames": {
     "CAPTURE_THE_FLAG": {
-      "title": "Захват Флага",
-      "description": "Захват Флага",
+      "title": "katana.minigames.capture_the_flag.title",
+      "description": "katana.minigames.capture_the_flag.description",
       "texture": "expedition.png",
       "spawnAt": [
         "0:0:0"
       ]
     },
     "FREE_FOR_ALL": {
-      "title": "Каждый сам за себя",
-      "description": "Каждый сам за себя",
+      "title": "katana.minigames.free_for_all.title",
+      "description": "katana.minigames.free_for_all.description",
       "texture": "expedition.png",
       "spawnAt": [
         "0:0:0"
       ]
     },
     "LAST_HERO": {
-      "title": "Последний герой",
-      "description": "Последний герой",
+      "title": "katana.minigames.last_hero.title",
+      "description": "katana.minigames.last_hero.description",
       "texture": "expedition.png",
       "spawnAt": [
         "0:0:0"
       ]
     },
     "TEAM_VS_TEAM": {
-      "title": "Командая битва",
-      "description": "Команда vs Команда",
+      "title": "katana.minigames.team_vs_team.title",
+      "description": "katana.minigames.team_vs_team.description",
       "texture": "expedition.png",
       "spawnAt": [
         "0:0:0"
       ]
     },
     "TEAM_VS_TEAM_HARD": {
-      "title": "Командная битва Hard",
-      "description": "Команда vs Команда",
+      "title": "katana.minigames.team_vs_team_hard.title",
+      "description": "katana.minigames.team_vs_team_hard.description",
       "texture": "expedition.png",
       "spawnAt": [
         "0:0:0"
       ]
     },
     "CARAVAN": {
-      "title": "Караван",
-      "description": "Караван",
+      "title": "katana.minigames.caravan.title",
+      "description": "katana.minigames.caravan.description",
       "texture": "expedition.png",
       "spawnAt": [
         "0:0:0"
@@ -53,11 +53,11 @@
     "teams": {
       "RED": {
         "icon": "\uE05B",
-        "title": "Красные"
+        "title": "katana.minigames.teams.red.title"
       },
       "BLUE": {
         "icon": "\uE05A",
-        "title": "Синие"
+        "title": "katana.minigames.teams.blue.title"
       }
     },
     "status": {
@@ -65,23 +65,23 @@
         "arenaStatus": "WAITING_PLAYERS",
         "duration": 15,
         "countdown": {
-          "title": "Игра начнется через"
+          "title": "katana.minigames.status.waiting.countdown.title"
         },
         "description": {
-          "title": "Захват флага",
-          "description": "Спиздите как можно больше флагов у вражеской команды за отведенное время"
+          "title": "katana.minigames.capture_the_flag.title",
+          "description": "katana.minigames.capture_the_flag.status.waiting.description"
         }
       },
       "game": {
         "arenaStatus": "STARTED",
         "duration": 120,
         "countdown": {
-          "title": "Игра закончится через"
+          "title": "katana.minigames.game.countdown.title"
         },
         "pointIndicator": {
           "type": "TEAM",
           "positions": 3,
-          "valueName": "флагов"
+          "valueName": "katana.minigames.capture_the_flag.game.name"
         }
       },
       "end": {
@@ -97,23 +97,23 @@
         "arenaStatus": "WAITING_PLAYERS",
         "duration": 15,
         "countdown": {
-          "title": "Игра начнется через"
+          "title": "katana.minigames.status.waiting.countdown.title"
         },
         "description": {
-          "title": "Каждый сам\nза себя",
-          "description": "Убейте как можно больше игроков за отведенное время"
+          "title": "katana.minigames.free_for_all.title",
+          "description": "katana.minigames.free_for_all.status.waiting.description"
         }
       },
       "game": {
         "arenaStatus": "STARTED",
         "duration": 120,
         "countdown": {
-          "title": "Игра закончится через"
+          "title": "katana.minigames.game.countdown.title"
         },
         "pointIndicator": {
           "type": "COMMON",
           "positions": 3,
-          "valueName": "убийств"
+          "valueName": "katana.minigames.free_for_all.game.name"
         }
       },
       "end": {
@@ -129,23 +129,23 @@
         "arenaStatus": "WAITING_PLAYERS",
         "duration": 15,
         "countdown": {
-          "title": "Игра начнется через"
+          "title": "katana.minigames.status.waiting.countdown.title"
         },
         "description": {
-          "title": "Последний\nгерой",
-          "description": "Останьтесь последним выжившим"
+          "title": "katana.minigames.last_hero.title",
+          "description": "katana.minigames.last_hero.status.waiting.description"
         }
       },
       "game": {
         "arenaStatus": "STARTED",
         "duration": 120,
         "countdown": {
-          "title": "Игра закончится через"
+          "title": "katana.minigames.game.countdown.title"
         },
         "pointIndicator": {
           "type": "COMMON",
           "positions": 3,
-          "valueName": "убийств"
+          "valueName": "katana.minigames.free_for_all.game.name"
         }
       },
       "end": {
@@ -159,11 +159,11 @@
     "teams": {
       "RED": {
         "icon": "\uE05B",
-        "title": "Красные"
+        "title": "katana.minigames.teams.red.title"
       },
       "BLUE": {
         "icon": "\uE05A",
-        "title": "Синие"
+        "title": "katana.minigames.teams.blue.title"
       }
     },
     "status": {
@@ -171,23 +171,23 @@
         "arenaStatus": "WAITING_PLAYERS",
         "duration": 15,
         "countdown": {
-          "title": "Игра начнется через"
+          "title": "katana.minigames.status.waiting.countdown.title"
         },
         "description": {
-          "title": "Командная\nбитва",
-          "description": "Убейте как можно больше вражеских игроков за отведенное время "
+          "title": "katana.minigames.team_vs_team.title",
+          "description": "katana.minigames.team_vs_team.status.waiting.description"
         }
       },
       "game": {
         "arenaStatus": "STARTED",
         "duration": 120,
         "countdown": {
-          "title": "Игра закончится через"
+          "title": "katana.minigames.game.countdown.title"
         },
         "pointIndicator": {
           "type": "TEAM",
           "positions": 3,
-          "valueName": "убийств"
+          "valueName": "katana.minigames.free_for_all.game.name"
         }
       },
       "end": {
@@ -201,11 +201,11 @@
     "teams": {
       "RED": {
         "icon": "\uE05B",
-        "title": "Красные"
+        "title": "katana.minigames.teams.red.title"
       },
       "BLUE": {
         "icon": "\uE05A",
-        "title": "Синие"
+        "title": "katana.minigames.teams.blue.title"
       }
     },
     "status": {
@@ -213,23 +213,23 @@
         "arenaStatus": "WAITING_PLAYERS",
         "duration": 15,
         "countdown": {
-          "title": "Игра начнется через"
+          "title": "katana.minigames.status.waiting.countdown.title"
         },
         "description": {
-          "title": "Командная\nбитва Hard",
-          "description": "Останьтесь последней выжившей командой"
+          "title": "katana.minigames.team_vs_team_hard.title",
+          "description": "katana.minigames.team_vs_team_hard.status.waiting.description"
         }
       },
       "game": {
         "arenaStatus": "STARTED",
         "duration": 120,
         "countdown": {
-          "title": "Игра закончится через"
+          "title": "katana.minigames.game.countdown.title"
         },
         "pointIndicator": {
           "type": "TEAM",
           "positions": 3,
-          "valueName": "игроков"
+          "valueName": "katana.minigames.team_vs_team_hard.game.name"
         }
       },
       "end": {
@@ -243,11 +243,11 @@
     "teams": {
       "RED": {
         "icon": "\uE144",
-        "title": "Атакующие"
+        "title": "katana.minigames.caravan.teams.red.title"
       },
       "BLUE": {
         "icon": "\uE175",
-        "title": "Защищающие"
+        "title": "katana.minigames.caravan.teams.blue.title"
       }
     },
     "status": {
@@ -255,23 +255,23 @@
         "arenaStatus": "WAITING_PLAYERS",
         "duration": 15,
         "countdown": {
-          "title": "Игра начнется через"
+          "title": "katana.minigames.status.waiting.countdown.title"
         },
         "description": {
-          "title": "Караван",
-          "description": "Караван"
+          "title": "katana.minigames.caravan.title",
+          "description": "katana.minigames.caravan.status.waiting.description"
         }
       },
       "game": {
         "arenaStatus": "STARTED",
         "duration": 120,
         "countdown": {
-          "title": "Игра закончится через"
+          "title": "katana.minigames.game.countdown.title"
         },
         "pointIndicator": {
           "type": "TEAM",
           "positions": 3,
-          "valueName": "игроков"
+          "valueName": "katana.minigames.team_vs_team_hard.game.name"
         }
       },
       "end": {
