@@ -16,7 +16,9 @@
         }
       },
       "onSuccess": [
-        "earn-money %player% 25 false",
+        "earn-money %player% 500 false",
+        "earn-bits %player% 50",
+        "give-key %player% KATANA 1",
         "give-key %player% TITLE 1",
         "take-daily %player% 1",
         "earn-tutorial-stage-progress %player% TAKE_DAILY_REWARD"
@@ -31,7 +33,9 @@
         }
       },
       "onSuccess": [
-        "earn-bits %player% 25",
+        "earn-bits %player% 60",
+        "give-key %player% PET 1",
+        "local-booster %player% MONEY 2 3600",
         "give-key %player% TITLE 1",
         "take-daily %player% 2"
       ]
@@ -45,7 +49,9 @@
         }
       },
       "onSuccess": [
-        "give-key %player% KATANA 1",
+        "give-key %player% PET 2",
+        "earn-bits %player% 75",
+        "give-key %player% KATANA 2",
         "give-key %player% TITLE 1",
         "take-daily %player% 3"
       ]
@@ -59,7 +65,9 @@
         }
       },
       "onSuccess": [
-        "earn-bits %player% 50",
+        "earn-bits %player% 90",
+        "morestat %player% add 20 minigamePoints",
+        "random-money %player% 50 99.99",
         "give-key %player% TITLE 1",
         "take-daily %player% 4"
       ]
@@ -73,7 +81,9 @@
         }
       },
       "onSuccess": [
-        "give-key %player% PET 1",
+        "earn-bits %player% 100",
+        "give-key %player% RUNE 3",
+        "local-booster %player% EXP 2 3600",
         "give-key %player% TITLE 1",
         "take-daily %player% 5"
       ]
@@ -87,7 +97,9 @@
         }
       },
       "onSuccess": [
-        "earn-bits %player% 75",
+        "earn-bits %player% 125",
+        "give-key %player% RUNE 5",
+        "give-key %player% PET 10",
         "give-key %player% TITLE 1",
         "take-daily %player% 6"
       ]
@@ -101,11 +113,13 @@
         }
       },
       "onSuccess": [
-        "local-booster %player% HITS 2 3600",
-        "local-booster %player% KILLS 2 3600",
-        "local-booster %player% EXP 2 3600",
-        "local-booster %player% MONEY 2 3600",
         "give-key %player% TITLE 1",
+        "earn-bits %player% 200",
+        "give-key %player% KATANA 3",
+        "local-booster %player% KILLS 2 7200",
+        "local-booster %player% HITS 2 7200",
+        "local-booster %player% EXP 2 7200",
+        "local-booster %player% MONEY 2 7200",
         "take-daily %player% 7"
       ]
     }
