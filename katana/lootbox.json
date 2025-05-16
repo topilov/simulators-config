@@ -43,7 +43,7 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.polearm.title",
+              "name": "i18n.katana.katana.polearm.title|!|¨46bfef",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -63,7 +63,7 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.dragon.title",
+              "name": "i18n.katana.katana.dragon.title|!|¨46bfef",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -83,7 +83,7 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.mace.title",
+              "name": "i18n.katana.katana.mace.title|!|¨46bfef",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -103,7 +103,7 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.nature.title",
+              "name": "i18n.katana.katana.nature.title|!|¨46bfef",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -123,7 +123,7 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.sabre.title",
+              "name": "i18n.katana.katana.sabre.title|!|¨46bfef",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -143,7 +143,7 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.cleaver.title",
+              "name": "i18n.katana.katana.cleaver.title|!|¨46bfef",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -160,10 +160,10 @@
           },
           {
             "id": "vindicator",
-            "rarity": "RARE",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.vindicator.title",
+              "name": "i18n.katana.katana.vindicator.title|!|%d",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -173,7 +173,7 @@
                 "weapons": "vindicator"
               }
             },
-            "chance": 13.6,
+            "chance": 0.96,
             "onDrop": [
               "give-katana %player% VINDICATOR"
             ]
@@ -183,7 +183,7 @@
             "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.bloodyvengeance.title",
+              "name": "i18n.katana.katana.bloodyvengeance.title|!|%d",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -203,7 +203,7 @@
             "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.size.title",
+              "name": "i18n.katana.katana.size.title|!|%d",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -223,7 +223,7 @@
             "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.magic.title",
+              "name": "i18n.katana.katana.magic.title|!|%d",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -240,10 +240,10 @@
           },
           {
             "id": "levitation",
-            "rarity": "EPIC",
+            "rarity": "RARE",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.levitation.title",
+              "name": "i18n.katana.katana.levitation.title|!|¨46bfef",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -253,7 +253,7 @@
                 "weapons_other": "45"
               }
             },
-            "chance": 0.96,
+            "chance": 13.6,
             "onDrop": [
               "give-katana %player% LEVITATION"
             ]
@@ -263,7 +263,7 @@
             "rarity": "EPIC",
             "itemStack": {
               "type": "IRON_SWORD",
-              "name": "katana.katana.giant.title",
+              "name": "i18n.katana.katana.giant.title|!|%d",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -326,6 +326,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.chest.name",
+              "lore": "i18n.katana.pet.menu.hover.1|!|(i18n.katana.pet.booster.kills|!|1.25)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyMDE1YTcwNWU0ZTVhMDRiMGU5OTQ3MzgxMTdkMDYyMzkxYjBlOWI1MDU5NmQ2NjE1YTlhMTlkY2Y1N2YyNiJ9fX0"
             },
@@ -340,6 +341,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.elephant.name",
+              "lore": "i18n.katana.pet.menu.hover.1|!|(i18n.katana.pet.booster.money|!|1.25)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3MWE3NmY2NjlkYjVlZDZkMzJiNDhiYjJkYmE1NWQ1MzE3ZDdmNDUyMjVjYjMyNjdlYzQzNWNmYTUxNCJ9fX0="
             },
@@ -354,6 +356,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.chick.name",
+              "lore": "i18n.katana.pet.menu.hover.1|!|(i18n.katana.pet.booster.exp|!|1.25)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWYyNjg4M2RjMjhhNDljYjU4MmI2MGM2ZGNjZGNhMTczZDQ1ZjdiMWE3Yjg2OTBjYThjZTQzY2RlMGUxMzU4OSJ9fX0="
             },
@@ -368,6 +371,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.pirate-parrot.name",
+              "lore": "i18n.katana.pet.menu.hover.1|!|(i18n.katana.pet.booster.exp|!|1.25)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWEyMGNjM2Y4Y2M0ZmM1MTQyOWM4Mjg4ZTZjMWNmZjY1YzU1ODg0YzU1NjE0OTVmYzFkNmFhYWVlM2M2ZGQyZiJ9fX0="
             },
@@ -382,6 +386,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.hedgehog.name",
+              "lore": "i18n.katana.pet.menu.hover.1|!|(i18n.katana.pet.booster.hits|!|1.25)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJkYWE2YmZiZWYyMDQ0MTk3NmIxZTUxNzk2MmUyNzQ0NGRiYjBhZmVmN2VlYjkwMWQzZWNmNjhjMWViNDllNiJ9fX0="
             },
@@ -396,6 +401,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.fox.name",
+              "lore": "i18n.katana.pet.menu.hover.1|!|(i18n.katana.pet.booster.hits|!|1.25)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=="
             },
@@ -410,6 +416,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.treasure.name",
+              "lore": "i18n.katana.pet.menu.hover.2|!|(i18n.katana.pet.booster.money|!|1.5)|!|(i18n.katana.pet.booster.exp|!|1.5)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVhNWU4MDQxMzQ1YmEyNGJmYzg5NTQ2ZjRjODJiZThjZjlmOWJhNWE4ZTU1MzY1NDUzNDNhZTU5YjkzN2U5MiJ9fX0="
             },
@@ -424,6 +431,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.pirate.name",
+              "lore": "i18n.katana.pet.menu.hover.2|!|(i18n.katana.pet.booster.money|!|1.5)|!|(i18n.katana.pet.booster.exp|!|1.5)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzZGMyY2UyOTA5ZjM1MjViMmQwNGQxMTEzYmUxMjQ5MzlmYTJiN2I5ZmIxYzY4NzZhMTk3ZDE2ODJhIn19fQ=="
             },
@@ -438,6 +446,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.fish.name",
+              "lore": "i18n.katana.pet.menu.hover.2|!|(i18n.katana.pet.booster.hits|!|1.5)|!|(i18n.katana.pet.booster.kills|!|1.5)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMTQ5ZTRkNDk5OTI5NjcyZTI3Njg5NDllNjQ3Nzk1OWMyMWU2NTI1NDYxM2IzMjdiNTM4ZGYxZTRkZiJ9fX0="
             },
@@ -452,6 +461,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.captain.name",
+              "lore": "i18n.katana.pet.menu.hover.2|!|(i18n.katana.pet.booster.money|!|1.5)|!|(i18n.katana.pet.booster.kills|!|1.5)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlY2I4NGJkYjkzNDZmMTI1YTM1MTJlNDE1MDA0YWM3MjQyZGVjNDNkNmY3NGUxZTg1MzkzZWQxZTFiIn19fQ=="
             },
@@ -466,6 +476,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.pug.name",
+              "lore": "i18n.katana.pet.menu.hover.2|!|(i18n.katana.pet.booster.exp|!|1.5)|!|(i18n.katana.pet.booster.kills|!|1.5)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk1MTgzY2E0Y2RkMjk2MjhmZTZjNzIyZjc3OTA4N2I4M2MyMWJhOTdmNDIyNWU0YWQ5YjNlNjE4ZWNjZDMwIn19fQ=="
             },
@@ -480,6 +491,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.ninja.name",
+              "lore": "i18n.katana.pet.menu.hover.3|!|(i18n.katana.pet.booster.money|!|3)|!|(i18n.katana.pet.booster.exp|!|3)|!|(i18n.katana.pet.booster.hits|!|3)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0"
             },
@@ -494,6 +506,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.cookie.name",
+              "lore": "i18n.katana.pet.menu.hover.3|!|(i18n.katana.pet.booster.money|!|3)|!|(i18n.katana.pet.booster.exp|!|3)|!|(i18n.katana.pet.booster.kills|!|3)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmEzOWJiMjIxZWRmMTM3NjdhODBkNTU2MTJlOGI0NTk3ZjI2Y2NhYjdjOWQ0NWM4MDQwMGQ2Yjg1MDgzYTZkZSJ9fX0"
             },
@@ -508,6 +521,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.mushroom.name",
+              "lore": "i18n.katana.pet.menu.hover.3|!|(i18n.katana.pet.booster.money|!|3)|!|(i18n.katana.pet.booster.hits|!|3)|!|(i18n.katana.pet.booster.kills|!|3)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ5MDk4Nzk2MmYzYThiZjk0YTE5N2QyYjk1MGNkZjFkZDc4ZDhiOTcyNTc3YmNhY2Q0ZDU4MzhmNzBhNDcyOSJ9fX0"
             },
@@ -522,6 +536,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.rune.name",
+              "lore": "i18n.katana.pet.menu.hover.3|!|(i18n.katana.pet.booster.hits|!|3)|!|(i18n.katana.pet.booster.exp|!|3)|!|(i18n.katana.pet.booster.kills|!|3)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZmMzNiMjk3YTk4MWI1MjdiZWMzOTMxNjg0MDFkOGEyZWNhZGViOWYxNjAzYmE1ZTI3NmY0MmQ2NDQ3NTExNiJ9fX0="
             },
@@ -551,6 +566,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.bee.name",
+              "lore": "i18n.katana.pet.menu.hover.4|!|(i18n.katana.pet.booster.money|!|6)|!|(i18n.katana.pet.booster.exp|!|6)|!|(i18n.katana.pet.booster.hits|!|6)|!|(i18n.katana.pet.booster.kills|!|6)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0="
             },
@@ -565,6 +581,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.fugue.name",
+              "lore": "i18n.katana.pet.menu.hover.4|!|(i18n.katana.pet.booster.money|!|6)|!|(i18n.katana.pet.booster.exp|!|6)|!|(i18n.katana.pet.booster.hits|!|6)|!|(i18n.katana.pet.booster.kills|!|6)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0="
             },
@@ -579,6 +596,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.earth.name",
+              "lore": "i18n.katana.pet.menu.hover.4|!|(i18n.katana.pet.booster.money|!|6)|!|(i18n.katana.pet.booster.exp|!|6)|!|(i18n.katana.pet.booster.hits|!|6)|!|(i18n.katana.pet.booster.kills|!|6)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIwZjNhM2Q2ZjBjZTI0Mjc2MzdmZTYwZGE5ZDZkMGZlYjJkOGRmMGJjZmIyNzI5MWJiNzhjNjAwNjBlZmUzZSJ9fX0="
             },
@@ -593,6 +611,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.owl.name",
+              "lore": "i18n.katana.pet.menu.hover.4|!|(i18n.katana.pet.booster.money|!|6)|!|(i18n.katana.pet.booster.exp|!|6)|!|(i18n.katana.pet.booster.hits|!|6)|!|(i18n.katana.pet.booster.kills|!|6)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDNlYzVhOWYxODkxYTU1ZjI5MWQwMjdhM2MxMzMzYjUyMjk1MWUxMTNjNWViZjM1NTcwMDM3NmU3NDYzM2MzNyJ9fX0="
             },
@@ -607,6 +626,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.pet.katana.name",
+              "lore": "i18n.katana.pet.menu.hover.4|!|(i18n.katana.pet.booster.money|!|6)|!|(i18n.katana.pet.booster.exp|!|6)|!|(i18n.katana.pet.booster.hits|!|6)|!|(i18n.katana.pet.booster.kills|!|6)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNzk5NTRkMzUwYTk4YzcyMTcyNTY4MzFmNjVjNjJhNDI4MDc0YjZlNGFlOWVlZGU3YTQ0ZjlkZTRhNyJ9fX0"
             },
@@ -663,7 +683,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.boom.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.boom.ability.name|!|3.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.boom.ability.name|!|3)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -678,7 +698,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.reincarnation.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.reincarnation.ability.name|!|5.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.reincarnation.ability.name|!|5)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -693,7 +713,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.mirror.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.mirror.ability.name|!|10.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.mirror.ability.name|!|10)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -708,7 +728,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.berserk.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.berserk.ability.name|!|3.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.berserk.ability.name|!|3)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -723,7 +743,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.shield.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.shield.ability.name|!|3.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.shield.ability.name|!|3)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -738,7 +758,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.invader.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.invader.ability.name|!|45.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.invader.ability.name|!|45)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -753,7 +773,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.collector.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.collector.ability.name|!|40.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.collector.ability.name|!|40)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
             },
@@ -768,7 +788,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.livesey.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.livesey.ability.name|!|8.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.livesey.ability.name|!|8)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -783,7 +803,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.samurai.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.samurai.ability.name|!|20.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.samurai.ability.name|!|20)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -798,7 +818,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.battleship.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.battleship.ability.name|!|10.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.battleship.ability.name|!|10)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -828,7 +848,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.pet.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.pet.ability.name|!|15.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.pet.ability.name|!|15)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -843,7 +863,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.super_player.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.super_player.ability.name|!|8.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.super_player.ability.name|!|8)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -858,7 +878,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.seller.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.seller.ability.name|!|5.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.seller.ability.name|!|5)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -873,7 +893,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.killer.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.killer.ability.name|!|10.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.killer.ability.name|!|10)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -888,7 +908,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.boxer.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.boxer.ability.name|!|10.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.boxer.ability.name|!|10)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -903,7 +923,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.upgrade.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.upgrade.ability.name|!|10.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.upgrade.ability.name|!|10)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -918,7 +938,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.blacksmith.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.blacksmith.ability.name|!|5.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.blacksmith.ability.name|!|5)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
@@ -933,7 +953,7 @@
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "katana.runes.bits.name",
-              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.bits.ability.name|!|5.0)",
+              "lore": "i18n.katana.runes.description|!|(i18n.katana.runes.bits.ability.name|!|5)",
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
