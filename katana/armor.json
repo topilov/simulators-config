@@ -45,71 +45,65 @@
     }
   },
   "armors": {
-    "GOLDEN_NINJA_HELMET": {
-      "type": "SKULL_ITEM",
-      "title": "i18n.katana.armor.golden.helmet.title|!|§6",
-      "rawTitle": "katana.armor.golden.helmet.title",
-      "lore": "katana.armor.golden.description",
-      "rare": "LEGENDARY",
-      "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY5ZjExMzU5NjEzMTdhMDRjYWQ4Yjc1YWIyMmE2YTE1NjExZjg5ZjQxNzg5Mjg4OWI2MTNhZjVhNTVhM2UyMyJ9fX0=",
-      "message": {
-        "victim": "katana.armor.golden.message.victim",
-        "killer": "katana.armor.golden.message.killer"
-      },
-      "onCrit": [
-        "reflect-and-dodge %killer% %victim% %damage%"
-      ]
-    },
-    "GOLDEN_NINJA_CHESTPLATE": {
-      "type": "LEATHER_CHESTPLATE",
-      "title": "i18n.katana.armor.golden.chestplate.title|!|§6",
-      "rawTitle": "katana.armor.golden.chestplate.title",
-      "lore": "katana.armor.golden.description",
-      "rare": "LEGENDARY",
+    "NINJA_HELMET": {
+      "type": "CHAINMAIL_HELMET",
+      "title": "i18n.katana.armor.common.helmet.title|!|§7",
+      "rawTitle": "katana.armor.common.helmet.title",
+      "lore": "katana.armor.common.description",
+      "rare": "COMMON",
       "data": {
-        "color": 16766464
+        "armors": "ninja"
       },
       "message": {
-        "victim": "katana.armor.golden.message.victim",
-        "killer": "katana.armor.golden.message.killer"
+        "victim": "katana.armor.common.message.victim",
+        "killer": "katana.armor.common.message.killer"
       },
-      "onCrit": [
-        "reflect-and-dodge %killer% %victim% %damage%"
-      ]
+      "onCrit": []
     },
-    "GOLDEN_NINJA_LEGGINGS": {
-      "type": "LEATHER_LEGGINGS",
-      "title": "i18n.katana.armor.golden.leggings.title|!|§6",
-      "rawTitle": "katana.armor.golden.leggings.title",
-      "lore": "katana.armor.golden.description",
-      "rare": "LEGENDARY",
+    "NINJA_CHESTPLATE": {
+      "type": "CHAINMAIL_CHESTPLATE",
+      "title": "i18n.katana.armor.common.chestplate.title|!|§7",
+      "rawTitle": "katana.armor.common.chestplate.title",
+      "lore": "katana.armor.common.description",
+      "rare": "COMMON",
       "data": {
-        "color": 16766464
+        "armors": "ninja"
       },
       "message": {
-        "victim": "katana.armor.golden.message.victim",
-        "killer": "katana.armor.golden.message.killer"
+        "victim": "katana.armor.common.message.victim",
+        "killer": "katana.armor.common.message.killer"
       },
-      "onCrit": [
-        "reflect-and-dodge %killer% %victim% %damage%"
-      ]
+      "onCrit": []
     },
-    "GOLDEN_NINJA_BOOTS": {
-      "type": "LEATHER_BOOTS",
-      "title": "i18n.katana.armor.golden.boots.title|!|§6",
-      "rawTitle": "katana.armor.golden.boots.title",
-      "lore": "katana.armor.golden.description",
-      "rare": "LEGENDARY",
+    "NINJA_LEGGINGS": {
+      "type": "CHAINMAIL_LEGGINGS",
+      "title": "i18n.katana.armor.common.leggings.title|!|§7",
+      "rawTitle": "katana.armor.common.leggings.title",
+      "lore": "katana.armor.common.description",
+      "rare": "COMMON",
       "data": {
-        "color": 16766464
+        "armors": "ninja"
       },
       "message": {
-        "victim": "katana.armor.golden.message.victim",
-        "killer": "katana.armor.golden.message.killer"
+        "victim": "katana.armor.common.message.victim",
+        "killer": "katana.armor.common.message.killer"
       },
-      "onCrit": [
-        "reflect-and-dodge %killer% %victim% %damage%"
-      ]
+      "onCrit": []
+    },
+    "NINJA_BOOTS": {
+      "type": "CHAINMAIL_BOOTS",
+      "title": "i18n.katana.armor.common.boots.title|!|§7",
+      "rawTitle": "katana.armor.common.boots.title",
+      "lore": "katana.armor.common.description",
+      "rare": "COMMON",
+      "data": {
+        "armors": "ninja"
+      },
+      "message": {
+        "victim": "katana.armor.common.message.victim",
+        "killer": "katana.armor.common.message.killer"
+      },
+      "onCrit": []
     },
     "BLACK_NINJA_HELMET": {
       "type": "SKULL_ITEM",
@@ -177,65 +171,273 @@
         "reflect %killer% %victim% %damage%"
       ]
     },
-    "NINJA_HELMET": {
-      "type": "CHAINMAIL_HELMET",
-      "title": "i18n.katana.armor.common.helmet.title|!|§7",
-      "rawTitle": "katana.armor.common.helmet.title",
-      "lore": "katana.armor.common.description",
-      "rare": "COMMON",
-      "data": {
-        "armors": "ninja"
-      },
+
+    "GOLDEN_NINJA_HELMET": {
+      "type": "SKULL_ITEM",
+      "title": "i18n.katana.armor.golden.helmet.title|!|§6",
+      "rawTitle": "katana.armor.golden.helmet.title",
+      "lore": "katana.armor.golden.description",
+      "rare": "LEGENDARY",
+      "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY5ZjExMzU5NjEzMTdhMDRjYWQ4Yjc1YWIyMmE2YTE1NjExZjg5ZjQxNzg5Mjg4OWI2MTNhZjVhNTVhM2UyMyJ9fX0=",
       "message": {
-        "victim": "katana.armor.common.message.victim",
-        "killer": "katana.armor.common.message.killer"
+        "victim": "katana.armor.golden.message.victim",
+        "killer": "katana.armor.golden.message.killer"
       },
-      "onCrit": []
+      "onCrit": [
+        "reflect-and-dodge %killer% %victim% %damage%"
+      ]
     },
-    "NINJA_CHESTPLATE": {
-      "type": "CHAINMAIL_CHESTPLATE",
-      "title": "i18n.katana.armor.common.chestplate.title|!|§7",
-      "rawTitle": "katana.armor.common.chestplate.title",
-      "lore": "katana.armor.common.description",
-      "rare": "COMMON",
+    "GOLDEN_NINJA_CHESTPLATE": {
+      "type": "LEATHER_CHESTPLATE",
+      "title": "i18n.katana.armor.golden.chestplate.title|!|§6",
+      "rawTitle": "katana.armor.golden.chestplate.title",
+      "lore": "katana.armor.golden.description",
+      "rare": "LEGENDARY",
       "data": {
-        "armors": "ninja"
+        "color": 16766464
       },
       "message": {
-        "victim": "katana.armor.common.message.victim",
-        "killer": "katana.armor.common.message.killer"
+        "victim": "katana.armor.golden.message.victim",
+        "killer": "katana.armor.golden.message.killer"
       },
-      "onCrit": []
+      "onCrit": [
+        "reflect-and-dodge %killer% %victim% %damage%"
+      ]
     },
-    "NINJA_LEGGINGS": {
-      "type": "CHAINMAIL_LEGGINGS",
-      "title": "i18n.katana.armor.common.leggings.title|!|§7",
-      "rawTitle": "katana.armor.common.leggings.title",
-      "lore": "katana.armor.common.description",
-      "rare": "COMMON",
+    "GOLDEN_NINJA_LEGGINGS": {
+      "type": "LEATHER_LEGGINGS",
+      "title": "i18n.katana.armor.golden.leggings.title|!|§6",
+      "rawTitle": "katana.armor.golden.leggings.title",
+      "lore": "katana.armor.golden.description",
+      "rare": "LEGENDARY",
       "data": {
-        "armors": "ninja"
+        "color": 16766464
       },
       "message": {
-        "victim": "katana.armor.common.message.victim",
-        "killer": "katana.armor.common.message.killer"
+        "victim": "katana.armor.golden.message.victim",
+        "killer": "katana.armor.golden.message.killer"
       },
-      "onCrit": []
+      "onCrit": [
+        "reflect-and-dodge %killer% %victim% %damage%"
+      ]
     },
-    "NINJA_BOOTS": {
-      "type": "CHAINMAIL_BOOTS",
-      "title": "i18n.katana.armor.common.boots.title|!|§7",
-      "rawTitle": "katana.armor.common.boots.title",
-      "lore": "katana.armor.common.description",
-      "rare": "COMMON",
+    "GOLDEN_NINJA_BOOTS": {
+      "type": "LEATHER_BOOTS",
+      "title": "i18n.katana.armor.golden.boots.title|!|§6",
+      "rawTitle": "katana.armor.golden.boots.title",
+      "lore": "katana.armor.golden.description",
+      "rare": "LEGENDARY",
       "data": {
-        "armors": "ninja"
+        "color": 16766464
       },
       "message": {
-        "victim": "katana.armor.common.message.victim",
-        "killer": "katana.armor.common.message.killer"
+        "victim": "katana.armor.golden.message.victim",
+        "killer": "katana.armor.golden.message.killer"
       },
-      "onCrit": []
+      "onCrit": [
+        "reflect-and-dodge %killer% %victim% %damage%"
+      ]
+    },
+
+    "VORTEX_HELMET": {
+      "type": "SKULL_ITEM",
+      "title": "i18n.katana.armor.vortex.helmet.title|!|§6",
+      "rawTitle": "katana.armor.vortex.helmet.title",
+      "lore": "katana.armor.vortex.description",
+      "rare": "LEGENDARY",
+      "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY5ZjExMzU5NjEzMTdhMDRjYWQ4Yjc1YWIyMmE2YTE1NjExZjg5ZjQxNzg5Mjg4OWI2MTNhZjVhNTVhM2UyMyJ9fX0=",
+      "message": {
+        "victim": "katana.armor.vortex.message.victim",
+        "killer": "katana.armor.vortex.message.killer"
+      },
+      "onCrit": [
+        "vortex %killer% %victim%"
+      ]
+    },
+    "VORTEX_CHESTPLATE": {
+      "type": "LEATHER_CHESTPLATE",
+      "title": "i18n.katana.armor.vortex.chestplate.title|!|§6",
+      "rawTitle": "katana.armor.vortex.chestplate.title",
+      "lore": "katana.armor.vortex.description",
+      "rare": "LEGENDARY",
+      "data": {
+        "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.vortex.message.victim",
+        "killer": "katana.armor.vortex.message.killer"
+      },
+      "onCrit": [
+        "vortex %killer% %victim%"
+      ]
+    },
+    "VORTEX_LEGGINGS": {
+      "type": "LEATHER_LEGGINGS",
+      "title": "i18n.katana.armor.vortex.leggings.title|!|§6",
+      "rawTitle": "katana.armor.vortex.leggings.title",
+      "lore": "katana.armor.vortex.description",
+      "rare": "LEGENDARY",
+      "data": {
+        "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.vortex.message.victim",
+        "killer": "katana.armor.vortex.message.killer"
+      },
+      "onCrit": [
+        "vortex %killer% %victim%"
+      ]
+    },
+    "VORTEX_BOOTS": {
+      "type": "LEATHER_BOOTS",
+      "title": "i18n.katana.armor.vortex.boots.title|!|§6",
+      "rawTitle": "katana.armor.vortex.boots.title",
+      "lore": "katana.armor.vortex.description",
+      "rare": "LEGENDARY",
+      "data": {
+        "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.vortex.message.victim",
+        "killer": "katana.armor.vortex.message.killer"
+      },
+      "onCrit": [
+        "vortex %killer% %victim%"
+      ]
+    },
+
+    "SETH_HELMET": {
+      "type": "SKULL_ITEM",
+      "title": "i18n.katana.armor.seth.helmet.title|!|§6",
+      "rawTitle": "katana.armor.seth.helmet.title",
+      "lore": "katana.armor.seth.description",
+      "rare": "LEGENDARY",
+      "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY5ZjExMzU5NjEzMTdhMDRjYWQ4Yjc1YWIyMmE2YTE1NjExZjg5ZjQxNzg5Mjg4OWI2MTNhZjVhNTVhM2UyMyJ9fX0=",
+      "message": {
+        "victim": "katana.armor.seth.message.victim",
+        "killer": "katana.armor.seth.message.killer"
+      },
+      "onCrit": [
+        "seth %killer% %victim%"
+      ]
+    },
+    "SETH_CHESTPLATE": {
+      "type": "LEATHER_CHESTPLATE",
+      "title": "i18n.katana.armor.seth.chestplate.title|!|§6",
+      "rawTitle": "katana.armor.seth.chestplate.title",
+      "lore": "katana.armor.seth.description",
+      "rare": "LEGENDARY",
+      "data": {
+        "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.seth.message.victim",
+        "killer": "katana.armor.seth.message.killer"
+      },
+      "onCrit": [
+        "seth %killer% %victim%"
+      ]
+    },
+    "SETH_LEGGINGS": {
+      "type": "LEATHER_LEGGINGS",
+      "title": "i18n.katana.armor.seth.leggings.title|!|§6",
+      "rawTitle": "katana.armor.seth.leggings.title",
+      "lore": "katana.armor.seth.description",
+      "rare": "LEGENDARY",
+      "data": {
+        "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.seth.message.victim",
+        "killer": "katana.armor.seth.message.killer"
+      },
+      "onCrit": [
+        "seth %killer% %victim%"
+      ]
+    },
+    "SETH_BOOTS": {
+      "type": "LEATHER_BOOTS",
+      "title": "i18n.katana.armor.seth.boots.title|!|§6",
+      "rawTitle": "katana.armor.seth.boots.title",
+      "lore": "katana.armor.seth.description",
+      "rare": "LEGENDARY",
+      "data": {
+        "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.seth.message.victim",
+        "killer": "katana.armor.seth.message.killer"
+      },
+      "onCrit": [
+        "seth %killer% %victim%"
+      ]
+    },
+
+    "BENEDICTION_HELMET": {
+      "type": "SKULL_ITEM",
+      "title": "i18n.katana.armor.benediction.helmet.title|!|§6",
+      "rawTitle": "katana.armor.benediction.helmet.title",
+      "lore": "katana.armor.benediction.description",
+      "rare": "LEGENDARY",
+      "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY5ZjExMzU5NjEzMTdhMDRjYWQ4Yjc1YWIyMmE2YTE1NjExZjg5ZjQxNzg5Mjg4OWI2MTNhZjVhNTVhM2UyMyJ9fX0=",
+      "message": {
+        "victim": "katana.armor.benediction.message.victim",
+        "killer": "katana.armor.benediction.message.killer"
+      },
+      "onCrit": [
+        "benediction %victim%"
+      ]
+    },
+    "BENEDICTION_CHESTPLATE": {
+      "type": "LEATHER_CHESTPLATE",
+      "title": "i18n.katana.armor.benediction.chestplate.title|!|§6",
+      "rawTitle": "katana.armor.benediction.chestplate.title",
+      "lore": "katana.armor.benediction.description",
+      "rare": "LEGENDARY",
+      "data": {
+        "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.benediction.message.victim",
+        "killer": "katana.armor.benediction.message.killer"
+      },
+      "onCrit": [
+        "benediction %victim%"
+      ]
+    },
+    "BENEDICTION_LEGGINGS": {
+      "type": "LEATHER_LEGGINGS",
+      "title": "i18n.katana.armor.benediction.leggings.title|!|§6",
+      "rawTitle": "katana.armor.benediction.leggings.title",
+      "lore": "katana.armor.benediction.description",
+      "rare": "LEGENDARY",
+      "data": {
+        "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.benediction.message.victim",
+        "killer": "katana.armor.benediction.message.killer"
+      },
+      "onCrit": [
+        "benediction %victim%"
+      ]
+    },
+    "BENEDICTION_BOOTS": {
+      "type": "LEATHER_BOOTS",
+      "title": "i18n.katana.armor.benediction.boots.title|!|§6",
+      "rawTitle": "katana.armor.benediction.boots.title",
+      "lore": "katana.armor.benediction.description",
+      "rare": "LEGENDARY",
+      "data": {
+        "color": 16766464
+      },
+      "message": {
+        "victim": "katana.armor.benediction.message.victim",
+        "killer": "katana.armor.benediction.message.killer"
+      },
+      "onCrit": [
+        "benediction %victim%"
+      ]
     }
   }
 }
