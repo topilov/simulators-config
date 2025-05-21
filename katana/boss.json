@@ -9,7 +9,7 @@
           "spawnAt": [ "0:0:0" ],
           "type": "LIVESEY",
           "settings": {
-            "health": 1000,
+            "health": 2000,
             "damage": 0.0,
             "speed": 0.0,
             "location": {
@@ -24,15 +24,18 @@
           },
           "reward": [
             [
-              "give-key %player% DEFAULT 10",
+              "give-key %player% KATANA 3",
+              "give-key %player% PET 1",
               "earn-exp %player% 2500 true"
             ],
             [
-              "give-key %player% DEFAULT 7",
+              "give-key %player% KATANA 2",
+              "give-key %player% PET 1",
               "earn-exp %player% 2000 true"
             ],
             [
-              "give-key %player% DEFAULT 5",
+              "give-key %player% KATANA 1",
+              "give-key %player% PET 1",
               "earn-exp %player% 1500 true"
             ]
           ],
@@ -79,7 +82,7 @@
             "scale": 2.0
           },
           "settings": {
-            "health": 500,
+            "health": 5000,
             "damage": 5.0,
             "speed": 0.3,
             "location": { "name": "boss" },
@@ -123,16 +126,29 @@
           },
           "reward": [
             [
-              "give-key %player% DEFAULT 10",
-              "earn-exp %player% 2500 true"
+              "give-key %player% RUNE 6",
+              "give-key %player% KATANA 1",
+              "earn-exp %player% 10000 true"
             ],
             [
-              "give-key %player% DEFAULT 7",
-              "earn-exp %player% 2000 true"
+              "give-key %player% RUNE 5",
+              "give-key %player% KATANA 1",
+              "earn-exp %player% 8500 true"
             ],
             [
-              "give-key %player% DEFAULT 5",
-              "earn-exp %player% 1500 true"
+              "give-key %player% RUNE 4",
+              "give-key %player% KATANA 1",
+              "earn-exp %player% 6000 true"
+            ],
+            [
+              "give-key %player% RUNE 3",
+              "give-key %player% KATANA 1",
+              "earn-exp %player% 5000 true"
+            ],
+            [
+              "give-key %player% RUNE 2",
+              "give-key %player% KATANA 1",
+              "earn-exp %player% 3500 true"
             ]
           ],
           "children": []
