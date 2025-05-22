@@ -11,7 +11,7 @@
   },
   "points": {
     "1": {
-      "invadingTime": 10000,
+      "invadingTime": 200,
       "rewardEvery": 1200,
       "invadePoint": {
         "size": 7.0,
@@ -39,7 +39,7 @@
       ]
     },
     "2": {
-      "invadingTime": 10000,
+      "invadingTime": 200,
       "rewardEvery": 1200,
       "invadePoint": {
         "size": 7.0,
@@ -67,7 +67,7 @@
       ]
     },
     "3": {
-      "invadingTime": 10000,
+      "invadingTime": 200,
       "rewardEvery": 1200,
       "invadePoint": {
         "size": 7.0,
@@ -92,6 +92,34 @@
       "reward": [
         "random-money %player% 2.0 8.0",
         "point-lootbox-reward %player% PET 40.0 1"
+      ]
+    },
+    "4": {
+      "invadingTime": 200,
+      "rewardEvery": 1200,
+      "invadePoint": {
+        "size": 7.0,
+        "color": {
+          "hex": "#4B4B4B"
+        }
+      },
+      "marker": {
+        "texture": "sword_emoji.png"
+      },
+      "color": {
+        "inactive": {
+          "hex": "#4B4B4B"
+        },
+        "capturedByMe": {
+          "hex": "#146229"
+        },
+        "capturedByOther": {
+          "hex": "#66131B"
+        }
+      },
+      "reward": [
+        "random-money %player% 2.0 8.0",
+        "point-lootbox-reward %player% RUNE 60.0 1"
       ]
     }
   }
