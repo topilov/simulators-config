@@ -120,7 +120,20 @@
       "reward": [
         "random-money %player% 2.0 8.0",
         "point-lootbox-reward %player% RUNE 60.0 1"
-      ]
+      ],
+      "openAt": [
+        "0:0:0"
+      ],
+      "openedDuration": 300,
+      "banner": {
+        "content": "katana.point.banner.text",
+        "lookAtPlayerX": true,
+        "lookAtPlayerY": true,
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "scale": 2.0
+      }
     }
   }
 }
