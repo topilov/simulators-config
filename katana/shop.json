@@ -350,6 +350,263 @@
           "onBuy": [
             "give-perk %player% GOLD_BRACELET"
           ]
+        },
+        {
+          "perkType": "RANGERS_MEDALLION",
+          "title": "katana.shop.minigame.product.rangers_medallion.title",
+          "hover": "katana.items.rangers_medallion.lore",
+          "icon": "rangers_medallion.png",
+          "price": 80.0,
+          "needSubscription": false,
+          "onBuy": [
+            "give-perk %player% RANGERS_MEDALLION"
+          ]
+        },
+        {
+          "title": "katana.shop.minigame.katana.butcher.title",
+          "hover": "katana.katana.butcher.possibility",
+          "item": {
+            "type": "IRON_SWORD",
+            "data": {
+              "weapons": "butcher"
+            }
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-katana %player% BUTCHER"
+          ]
+        },
+        {
+          "title": "katana.shop.minigame.katana.vortex.title",
+          "hover": "katana.katana.vortex.possibility",
+          "item": {
+            "type": "IRON_SWORD",
+            "data": {
+              "weapons": "vortex"
+            }
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-katana %player% VORTEX"
+          ]
+        },
+        {
+          "title": "katana.shop.minigame.katana.earthquake.title",
+          "hover": "katana.katana.earthquake.possibility",
+          "item": {
+            "type": "IRON_SWORD",
+            "data": {
+              "weapons": "earthquake"
+            }
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-katana %player% EARTHQUAKE"
+          ]
+        },
+        {
+          "title": "katana.shop.minigame.katana.gift.title",
+          "hover": "katana.katana.gift.possibility",
+          "item": {
+            "type": "IRON_SWORD",
+            "data": {
+              "weapons": "gift"
+            }
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-katana %player% GIFT"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.vortex.helmet.title",
+          "hover": "katana.shop.armor.vortex.hover",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0="
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% VORTEX_HELMET"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.vortex.chestplate.title",
+          "hover": "katana.shop.armor.vortex.hover",
+          "item": {
+            "type": "LEATHER_CHESTPLATE",
+            "damage": 3,
+            "data": {
+              "color": 0
+            }
+          },
+          "price": 200.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% VORTEX_CHESTPLATE"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.vortex.leggings.title",
+          "hover": "katana.shop.armor.vortex.hover",
+          "item": {
+            "type": "LEATHER_LEGGINGS",
+            "damage": 3,
+            "data": {
+              "color": 0
+            }
+          },
+          "price": 200.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% VORTEX_LEGGINGS"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.vortex.boots.title",
+          "hover": "katana.shop.armor.vortex.hover",
+          "item": {
+            "type": "LEATHER_BOOTS",
+            "damage": 3,
+            "data": {
+              "color": 0
+            }
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% VORTEX_BOOTS"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.seth.helmet.title",
+          "hover": "katana.shop.armor.seth.hover",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0="
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% SETH_HELMET"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.seth.chestplate.title",
+          "hover": "katana.shop.armor.seth.hover",
+          "item": {
+            "type": "LEATHER_CHESTPLATE",
+            "damage": 3,
+            "data": {
+              "color": 0
+            }
+          },
+          "price": 200.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% SETH_CHESTPLATE"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.seth.leggings.title",
+          "hover": "katana.shop.armor.seth.hover",
+          "item": {
+            "type": "LEATHER_LEGGINGS",
+            "damage": 3,
+            "data": {
+              "color": 0
+            }
+          },
+          "price": 200.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% SETH_LEGGINGS"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.seth.boots.title",
+          "hover": "katana.shop.armor.seth.hover",
+          "item": {
+            "type": "LEATHER_BOOTS",
+            "damage": 3,
+            "data": {
+              "color": 0
+            }
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% SETH_BOOTS"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.benediction.helmet.title",
+          "hover": "katana.shop.armor.benediction.hover",
+          "item": {
+            "type": "SKULL_ITEM",
+            "damage": 3,
+            "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0="
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% BENEDICTION_HELMET"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.benediction.chestplate.title",
+          "hover": "katana.shop.armor.benediction.hover",
+          "item": {
+            "type": "LEATHER_CHESTPLATE",
+            "damage": 3,
+            "data": {
+              "color": 0
+            }
+          },
+          "price": 200.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% BENEDICTION_CHESTPLATE"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.benediction.leggings.title",
+          "hover": "katana.shop.armor.benediction.hover",
+          "item": {
+            "type": "LEATHER_LEGGINGS",
+            "damage": 3,
+            "data": {
+              "color": 0
+            }
+          },
+          "price": 200.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% BENEDICTION_LEGGINGS"
+          ]
+        },
+        {
+          "title": "katana.shop.armor.benediction.boots.title",
+          "hover": "katana.shop.armor.benediction.hover",
+          "item": {
+            "type": "LEATHER_BOOTS",
+            "damage": 3,
+            "data": {
+              "color": 0
+            }
+          },
+          "price": 150.0,
+          "needSubscription": true,
+          "onBuy": [
+            "give-armor %player% BENEDICTION_BOOTS"
+          ]
         }
       ]
     }
