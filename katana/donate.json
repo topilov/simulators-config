@@ -364,7 +364,8 @@
         1
       ],
       "onBuy": [
-        "morestat %player% set true hasInfinityStorage"
+        "morestat %player% set true hasInfinityStorage",
+        "earn-tutorial-stage-progress %player% UPGRADE_STORAGE"
       ]
     },
     "MULTIPLE_CASE": {
