@@ -22,17 +22,17 @@
       "endMessage": "katana.event.hits.end_message",
       "reward": {
         "1": [
-          "give-key %player% PET",
+          "give-key %player% PET 1",
           "random-money %player% 50.0 150.0 2147483647",
           "add-achievement-progress %player% TAKE_TOP_EVENT_BOXER 1"
         ],
         "2": [
-          "give-key %player% DEFAULT",
+          "give-key %player% DEFAULT 1",
           "random-money %player% 50.0 100.0 2147483647",
           "add-achievement-progress %player% TAKE_TOP_EVENT_BOXER 1"
         ],
         "3": [
-          "give-key %player% DEFAULT",
+          "give-key %player% DEFAULT 1",
           "random-money %player% 25.0 100.0 2147483647",
           "add-achievement-progress %player% TAKE_TOP_EVENT_BOXER 1"
         ]
@@ -77,129 +77,6 @@
         ]
       },
       "isGlobal": true
-    },
-    "BOSS": {
-      "id": "boss",
-      "topEntries": 5,
-      "duration": 43000,
-      "start": [
-        "0:45:0",
-        "4:45:0",
-        "8:45:0",
-        "12:45:0",
-        "16:45:0",
-        "20:45:0"
-      ],
-      "startMessage": "katana.event.boss.start_message",
-      "endMessage": "katana.event.boss.end_message",
-      "reward": {
-        "1": [
-          "give-key %player% RUNE 3",
-          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
-        ],
-        "2": [
-          "give-key %player% RUNE 2",
-          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
-        ],
-        "3": [
-          "give-key %player% RUNE 2",
-          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
-        ],
-        "4": [
-          "give-key %player% RUNE 1",
-          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
-        ],
-        "5": [
-          "give-key %player% RUNE 1",
-          "add-achievement-progress %player% TAKE_TOP_EVENT_SAMURAI 1"
-        ]
-      },
-      "isGlobal": true,
-      "onStart": [
-        "spawn-boss"
-      ],
-      "onEnd": [
-        "despawn-boss"
-      ]
-    },
-    "LIVESEY": {
-      "id": "livesey",
-      "topEntries": 3,
-      "duration": 1700,
-      "start": [
-        "0:0:0",
-        "0:30:0",
-        "1:0:0",
-        "1:30:0",
-        "2:0:0",
-        "2:30:0",
-        "3:0:0",
-        "3:30:0",
-        "4:0:0",
-        "4:30:0",
-        "5:0:0",
-        "5:30:0",
-        "6:0:0",
-        "6:30:0",
-        "7:0:0",
-        "7:30:0",
-        "8:0:0",
-        "8:30:0",
-        "9:0:0",
-        "9:30:0",
-        "10:0:0",
-        "10:30:0",
-        "11:0:0",
-        "11:30:0",
-        "12:0:0",
-        "12:30:0",
-        "13:0:0",
-        "13:30:0",
-        "14:0:0",
-        "14:30:0",
-        "15:0:0",
-        "15:30:0",
-        "16:0:0",
-        "16:30:0",
-        "17:0:0",
-        "17:30:0",
-        "18:0:0",
-        "18:30:0",
-        "19:0:0",
-        "19:30:0",
-        "20:0:0",
-        "20:30:0",
-        "21:0:0",
-        "21:30:0",
-        "22:0:0",
-        "22:30:0",
-        "23:0:0",
-        "23:30:0"
-      ],
-      "startMessage": "katana.event.livesey.start_message",
-      "endMessage": "katana.event.livesey.end_message",
-      "reward": {
-        "1": [
-          "give-key %player% KATANA 1",
-          "give-key %player% PET 1",
-          "add-achievement-progress %player% TAKE_TOP_EVENT_LIVSI 1"
-        ],
-        "2": [
-          "give-key %player% PET 1",
-          "add-achievement-progress %player% TAKE_TOP_EVENT_LIVSI 1"
-        ],
-        "3": [
-          "give-key %player% PET 1",
-          "add-achievement-progress %player% TAKE_TOP_EVENT_LIVSI 1"
-        ]
-      },
-      "isGlobal": false,
-      "onStart": [
-        "spawn-livesey"
-      ],
-      "onEnd": [
-        "despawn-livesey"
-      ]
     }
   }
 }
