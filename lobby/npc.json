@@ -1,20 +1,20 @@
 {
   "npc": [
     {
-      "name": "Войти на Симулятор Сокровищ",
+      "name": "Войти на Симулятор Катаны",
       "location": {
         "name": "npc",
-        "tag": "treasures",
+        "tag": "katana",
         "offset": {
           "x": 0.5,
           "y": 0.0,
           "z": 0.5
         }
       },
-      "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/sell_treasures.png",
+      "skin": "https://storage.c7x.dev/topil_ov/katana/skins/upgrade-level.png",
       "lookAtPlayer": true,
       "onClick": [
-        "join-simulator %player% treasures"
+        "join-simulator %player% katana"
       ]
     }
   ]
