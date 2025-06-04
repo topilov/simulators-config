@@ -1,11 +1,12 @@
 {
   "logging": false,
   "name": "Симулятор Катаны",
-  "id": "katana",
+  "simulatorId": "katana",
+  "databaseId": "katana-test",
   "showLocation": false,
   "isWhitelisted": true,
-  "isTest": false,
-  "hasPrivateAccess": false,
+  "isTest": true,
+  "hasPrivateAccess": true,
   "privateAccessGroups": [
     "HELPER",
     "MODERATOR",
@@ -14,33 +15,68 @@
     "DEVELOPER",
     "OWNER",
     "TESTER",
-    "GRAND_MODERATOR"
+    "SENIOR_MODERATOR"
   ],
   "enableSpectatorsByReport": true,
   "owners": [
     "baca20f4-ffa9-11ec-bc0d-1cb72caa35fd",
-    "b13f0bce-5b6a-11ec-acca-1cb72caa35fd"
-  ],
-  "localStaff": [
-    "c9cff4a7-089c-11ea-8b8a-1cb72caa35fd",
-    "307db8f5-2c69-11e8-b5ea-1cb72caa35fd",
-    "eb800d67-6684-11e9-8374-1cb72caa35fd",
+    "b13f0bce-5b6a-11ec-acca-1cb72caa35fd",
     "436cad1b-b165-11eb-acca-1cb72caa35fd"
   ],
+  "localStaff": {
+    "436cad1b-b165-11eb-acca-1cb72caa35fd": "GAME_DESIGNER",
+    "eb800d67-6684-11e9-8374-1cb72caa35fd": "SENIOR_LOCAL_STAFF",
+    "c9cff4a7-089c-11ea-8b8a-1cb72caa35fd": "LOCAL_STAFF",
+    "44a2f79e-e390-11ec-bc0d-1cb72caa35fd": "LOCAL_STAFF",
+    "4b2ec4fc-2244-11e9-8374-1cb72caa35fd": "LOCAL_STAFF"
+  },
+  "groups": {
+    "LOCAL_STAFF": {
+      "id": "LOCAL_STAFF",
+      "prefix": "LS",
+      "prefixColor": "§c",
+      "nameColor": "§c",
+      "chatMessageColor": "§a",
+      "isStaffGroup": true,
+      "isDefault": false,
+      "priority": 2850
+    },
+    "SENIOR_LOCAL_STAFF": {
+      "id": "SENIOR_LOCAL_STAFF",
+      "prefix": "Sr.LS",
+      "prefixColor": "§c",
+      "nameColor": "§c",
+      "chatMessageColor": "§a",
+      "isStaffGroup": true,
+      "isDefault": false,
+      "priority": 2860
+    },
+    "GAME_DESIGNER": {
+      "id": "GAME_DESIGNER",
+      "prefix": "GDesigner",
+      "prefixColor": "¨c8a2c8",
+      "nameColor": "§c",
+      "chatMessageColor": "§a",
+      "isStaffGroup": true,
+      "isDefault": false,
+      "priority": 2860
+    }
+  },
   "map": {
     "id": "KATANA"
   },
   "realm": {
     "main": "KTNL",
-    "service": "KTN"
+    "service": "KTN",
+    "minigame": "KTNG"
   },
   "text": {
     "cooldown": "katana.text.cooldown",
     "no": "katana.text.no"
   },
   "resourcePack": {
-    "url": "https://storage.c7x.dev/topil_ov/katana/rp11.zip",
-    "hash": "b3ebd2614d0023f846e8a51ae928095e"
+    "url": "https://storage.c7x.dev/topil_ov/katana/rp19.zip",
+    "hash": "13dce05c5f1589e0d7491f089d02b93a"
   },
   "bot": {
     "chatId": -1002113216081
@@ -57,10 +93,7 @@
   },
   "booster": {
     "command": {
-      "thanks": [
-        "thanks",
-        "thx"
-      ]
+      "thanks": "thx"
     },
     "message": {
       "empty": "katana.booster.message.empty"
@@ -82,9 +115,7 @@
   },
   "daily": {
     "nextTakeReward": 86400000,
-    "command": [
-      "daily"
-    ]
+    "command": "daily"
   },
   "donate": {
     "nextTakeDiscount": 86400000,
@@ -97,9 +128,7 @@
     "message": {
       "buy": "katana.donate.message.buy"
     },
-    "command": [
-      "donate"
-    ],
+    "command": "donate",
     "disabled": false
   },
   "locations": {
@@ -122,9 +151,7 @@
     }
   },
   "trash": {
-    "command": [
-      "trash"
-    ],
+    "command": "trash",
     "title": "katana.trash.title",
     "size": 54
   },

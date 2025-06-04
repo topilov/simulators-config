@@ -18,6 +18,7 @@
   },
   "elements": {
     "GIFTS_KATANA": {
+      "readableName": "Подарочек с Катанами",
       "donateName": "katana.donate.element.gifts-katana.donate-name",
       "confirmationTitle": "katana.donate.element.gifts-katana.title",
       "title": "katana.donate.element.gifts-katana.title",
@@ -29,17 +30,22 @@
         }
       },
       "category": "OTHER",
-      "price": 99,
-      "sale": 80,
+      "price": 129,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "alert": true,
       "onBuy": [
-        "payload gifts-katana"
+        "payload gifts-default %count%"
       ]
     },
     "GIFTS_PET": {
+      "readableName": "Подарочек с Питомцами",
       "donateName": "katana.donate.element.gifts-pet.donate-name",
       "confirmationTitle": "katana.donate.element.gifts-pet.title",
       "title": "katana.donate.element.gifts-pet.title",
@@ -51,17 +57,22 @@
         }
       },
       "category": "OTHER",
-      "price": 199,
-      "sale": 80,
+      "price": 119,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "alert": true,
       "onBuy": [
-        "payload gifts-pet"
+        "payload gifts-pet %count%"
       ]
     },
     "GIFTS_RUNE": {
+      "readableName": "Подарочек с Рунами",
       "donateName": "katana.donate.element.gifts-rune.donate-name",
       "confirmationTitle": "katana.donate.element.gifts-rune.title",
       "title": "katana.donate.element.gifts-rune.title",
@@ -74,24 +85,57 @@
       },
       "category": "OTHER",
       "price": 199,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "alert": true,
       "onBuy": [
-        "payload gifts-rune"
+        "payload gifts-rune %count%"
+      ]
+    },
+    "GIFTS_TITLE": {
+      "readableName": "Подарочек с Титулами",
+      "donateName": "katana.donate.element.gifts-title.donate-name",
+      "confirmationTitle": "katana.donate.element.gifts-title.title",
+      "title": "katana.donate.element.gifts-title.title",
+      "description": "katana.donate.element.gifts-title.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 399,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "alert": true,
+      "onBuy": [
+        "payload gifts-title %count%"
       ]
     },
     "PET_SLOT": {
+      "readableName": "Слот для Питомца",
       "donateName": "katana.donate.element.pet-slot.donate-name",
       "confirmationTitle": "katana.donate.element.pet-slot.title",
       "title": "katana.donate.element.pet-slot.title",
       "description": "katana.donate.element.pet-slot.description",
       "texture": "pet_slot.png",
       "category": "OTHER",
-      "price": 299,
-      "sale": 80,
+      "price": 199,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1
       ],
@@ -100,14 +144,16 @@
       ]
     },
     "RUNE_SLOT": {
+      "readableName": "Слот для Руны",
       "donateName": "katana.donate.element.rune-slot.donate-name",
       "confirmationTitle": "katana.donate.element.rune-slot.title",
       "title": "katana.donate.element.rune-slot.title",
       "description": "katana.donate.element.rune-slot.description",
-      "texture": "rune.png",
+      "texture": "rune_slot.png",
       "category": "OTHER",
       "price": 399,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1
       ],
@@ -115,7 +161,30 @@
         "unlock-rune-slot %player%"
       ]
     },
+    "INCIDENT_POINT": {
+      "readableName": "Поинты Дерева прокачек",
+      "donateName": "katana.donate.element.incident-point.donate-name",
+      "confirmationTitle": "katana.donate.element.incident-point.title",
+      "title": "katana.donate.element.incident-point.title",
+      "description": "katana.donate.element.incident-point.description",
+      "texture": "incident_points.png",
+      "category": "GAME_BALANCE",
+      "price": 39,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
+      "count": [
+        1,
+        3,
+        5,
+        10,
+        25
+      ],
+      "onBuy": [
+        "give-incident-points %player% %count%"
+      ]
+    },
     "MONEY_BAG": {
+      "readableName": "Мешок монет",
       "donateName": "katana.donate.element.money-bag.donate-name",
       "confirmationTitle": "katana.donate.element.money-bag.title",
       "title": "katana.donate.element.money-bag.title",
@@ -123,18 +192,21 @@
       "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 39,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1,
         3,
         5,
-        10
+        10,
+        25
       ],
       "onBuy": [
         "random-money %player% 15 35 %count%"
       ]
     },
     "MONEY_HANDFUL": {
+      "readableName": "Горсть монет",
       "donateName": "katana.donate.element.money-handful.donate-name",
       "confirmationTitle": "katana.donate.element.money-handful.title",
       "title": "katana.donate.element.money-handful.title",
@@ -142,18 +214,21 @@
       "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 9,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1,
         3,
         5,
-        10
+        10,
+        25
       ],
       "onBuy": [
         "random-money %player% 1 10 %count%"
       ]
     },
     "LEGENDARY_KATANA": {
+      "readableName": "Легендарная катана",
       "donateName": "katana.donate.element.legendary-katana.donate-name",
       "title": "katana.donate.element.legendary-katana.title",
       "description": "katana.donate.element.legendary-katana.description",
@@ -164,8 +239,9 @@
         }
       },
       "category": "GAME_ITEMS",
-      "price": 399,
-      "sale": 80,
+      "price": 499,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1
       ],
@@ -175,46 +251,52 @@
       ]
     },
     "SAVE_CRYSTAL": {
+      "readableName": "Кристалл сохранения",
       "donateName": "katana.donate.element.save-crystal.donate-name",
       "confirmationTitle": "katana.donate.element.save-crystal.title",
       "title": "katana.donate.element.save-crystal.title",
       "description": "katana.donate.element.save-crystal.description",
-      "item": {
-        "type": "CHORUS_FRUIT_POPPED"
-      },
+      "texture": "save_crystal.png",
       "category": "GAME_ITEMS",
       "price": 99,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "give-item %player% SAVE_CRYSTAL %count%"
       ]
     },
     "KATANA_KEY": {
+      "readableName": "Ключ от лутбокса с Катанами",
       "donateName": "katana.donate.element.katana-key.donate-name",
       "confirmationTitle": "katana.donate.element.katana-key.title",
       "title": "katana.donate.element.katana-key.title",
       "description": "katana.donate.element.katana-key.description",
       "texture": "goldkey.png",
       "category": "GAME_ITEMS",
-      "price": 39,
-      "sale": 80,
+      "price": 89,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% KATANA %count%"
       ]
     },
     "TITLE_KEY": {
+      "readableName": "Ключ от лутбокса с Титулами",
       "donateName": "katana.donate.element.title-key.donate-name",
       "confirmationTitle": "katana.donate.element.title-key.title",
       "title": "katana.donate.element.title-key.title",
@@ -222,37 +304,45 @@
       "texture": "purple_cristal_key.png",
       "category": "GAME_ITEMS",
       "price": 199,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% TITLE %count%"
       ]
     },
     "PET_KEY": {
+      "readableName": "Ключ от лутбокса с Питомцами",
       "donateName": "katana.donate.element.pet-key.donate-name",
       "confirmationTitle": "katana.donate.element.pet-key.title",
       "title": "katana.donate.element.pet-key.title",
       "description": "katana.donate.element.pet-key.description",
       "texture": "fox_key.png",
       "category": "GAME_ITEMS",
-      "price": 99,
-      "sale": 80,
+      "price": 69,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% PET %count%"
       ]
     },
     "RUNE_KEY": {
+      "readableName": "Ключ от лутбокса с Рунами",
       "donateName": "katana.donate.element.rune-key.donate-name",
       "confirmationTitle": "katana.donate.element.rune-key.title",
       "title": "katana.donate.element.rune-key.title",
@@ -260,35 +350,42 @@
       "texture": "rune_key.png",
       "category": "GAME_ITEMS",
       "price": 99,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% RUNE %count%"
       ]
     },
     "INFINITY_STORAGE": {
+      "readableName": "Бесконечный рюкзак",
       "donateName": "katana.donate.element.infinity-storage.donate-name",
       "confirmationTitle": "katana.donate.element.infinity-storage.title",
       "title": "katana.donate.element.infinity-storage.title",
       "description": "katana.donate.element.infinity-storage.description",
       "texture": "storage.png",
       "category": "OTHER_FEATURES",
-      "price": 299,
-      "sale": 80,
+      "price": 349,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": 1,
       "count": [
         1
       ],
       "onBuy": [
-        "morestat %player% set true hasInfinityStorage"
+        "morestat %player% set true hasInfinityStorage",
+        "earn-tutorial-stage-progress %player% UPGRADE_STORAGE"
       ]
     },
     "MULTIPLE_CASE": {
+      "readableName": "Доступ к открытию любого кейса х5",
       "donateName": "katana.donate.element.multiple-case.donate-name",
       "confirmationTitle": "katana.donate.element.multiple-case.title",
       "title": "katana.donate.element.multiple-case.title",
@@ -296,7 +393,8 @@
       "texture": "case5.png",
       "category": "OTHER_FEATURES",
       "price": 249,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": 1,
       "count": [
         1
@@ -306,14 +404,16 @@
       ]
     },
     "AUTO_CASE": {
+      "readableName": "Автоматическое открытие кейсов",
       "donateName": "katana.donate.element.auto-case.donate-name",
       "confirmationTitle": "katana.donate.element.auto-case.title",
       "title": "katana.donate.element.auto-case.title",
       "description": "katana.donate.element.auto-case.description",
       "texture": "autocase.png",
       "category": "OTHER_FEATURES",
-      "price": 449,
-      "sale": 80,
+      "price": 299,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": 1,
       "count": [
         1
@@ -323,6 +423,7 @@
       ]
     },
     "AUTO_MERGE": {
+      "readableName": "Автослияние",
       "donateName": "katana.donate.element.auto-merge.donate-name",
       "confirmationTitle": "katana.donate.element.auto-merge.title",
       "title": "katana.donate.element.auto-merge.title",
@@ -330,7 +431,8 @@
       "texture": "auto_merge.png",
       "category": "OTHER_FEATURES",
       "price": 299,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": 1,
       "count": [
         1
@@ -340,13 +442,15 @@
       ]
     },
     "SUPER_PLAYER": {
+      "readableName": "Супер Игрок",
       "donateName": "katana.donate.element.super-player.donate-name",
       "title": "katana.donate.element.super-player.title",
       "description": "katana.donate.element.super-player.description",
       "texture": "vip.png",
       "category": "OTHER_FEATURES",
-      "price": 149,
-      "sale": 80,
+      "price": 199,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1
       ],
@@ -356,6 +460,7 @@
       ]
     },
     "SPEED_PERK": {
+      "readableName": "Перк Скорости",
       "donateName": "katana.donate.element.speed-perk.donate-name",
       "confirmationTitle": "katana.donate.element.speed-perk.title",
       "title": "katana.donate.element.speed-perk.title",
@@ -363,7 +468,8 @@
       "texture": "speed.png",
       "category": "OTHER_FEATURES",
       "price": 99,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": 1,
       "count": [
         1
@@ -375,29 +481,33 @@
       ]
     },
     "MONEY_BOX": {
+      "readableName": "Доктор Ливси",
       "donateName": "katana.donate.element.money-box.donate-name",
       "title": "katana.donate.element.money-box.title",
       "description": "katana.donate.element.money-box.description",
       "texture": "livesey.png",
       "category": "OTHER",
-      "price": 79,
-      "sale": 80,
+      "price": 99,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1
       ],
       "alert": true,
       "onBuy": [
-        "payload livesey"
+        "payload livesey 1"
       ]
     },
     "STRONG_HIT": {
+      "readableName": "Мощный удар",
       "donateName": "katana.donate.element.strong-hit.donate-name",
       "title": "katana.donate.element.strong-hit.title",
       "description": "katana.donate.element.strong-hit.description",
       "texture": "strong-hit.png",
       "category": "OTHER_FEATURES",
       "price": 139,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": 1,
       "count": [
         1
@@ -407,13 +517,15 @@
       ]
     },
     "MECHANIC_HAND": {
+      "readableName": "Механическая рука",
       "donateName": "katana.donate.element.mechanic-hand.donate-name",
       "title": "katana.donate.element.mechanic-hand.title",
       "description": "katana.donate.element.mechanic-hand.description",
       "texture": "mechanic-hand.png",
       "category": "OTHER_FEATURES",
       "price": 399,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": 1,
       "count": [
         1
@@ -423,13 +535,15 @@
       ]
     },
     "NEW_WALLET": {
+      "readableName": "Новый кошелек",
       "donateName": "katana.donate.element.new-wallet.donate-name",
       "title": "katana.donate.element.new-wallet.title",
       "description": "katana.donate.element.new-wallet.description",
       "texture": "new-wallet.png",
       "category": "OTHER_FEATURES",
       "price": 149,
-      "sale": 80,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "max": 1,
       "count": [
         1
@@ -439,160 +553,187 @@
       ]
     },
     "GLOBAL_EXP": {
+      "readableName": "Глобальный бустер опыта",
       "donateName": "katana.donate.element.global-exp.donate-name",
       "title": "katana.donate.element.global-exp.title",
       "description": "katana.donate.element.global-exp.description",
       "texture": "exp-booster.png",
       "category": "BOOSTERS",
-      "price": 199,
-      "sale": 80,
+      "price": 249,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% EXP 2 3600 %count%"
       ]
     },
     "LOCAL_EXP": {
+      "readableName": "Локальный бустер опыта",
       "donateName": "katana.donate.element.local-exp.donate-name",
       "title": "katana.donate.element.local-exp.title",
       "description": "katana.donate.element.local-exp.description",
       "texture": "exp-booster.png",
       "category": "BOOSTERS",
-      "price": 149,
-      "sale": 80,
+      "price": 179,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% EXP 2 14400 %count%"
+        "local-booster %player% EXP 2 7200 %count%"
       ]
     },
     "GLOBAL_HITS": {
+      "readableName": "Глоабльный бустер ударов",
       "donateName": "katana.donate.element.global-hits.donate-name",
       "title": "katana.donate.element.global-hits.title",
       "description": "katana.donate.element.global-hits.description",
       "texture": "hits-booster.png",
       "category": "BOOSTERS",
-      "price": 199,
-      "sale": 80,
+      "price": 249,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% HITS 2 3600 %count%"
       ]
     },
     "LOCAL_HITS": {
+      "readableName": "Локальный бустер ударов",
       "donateName": "katana.donate.element.local-hits.donate-name",
       "title": "katana.donate.element.local-hits.title",
       "description": "katana.donate.element.local-hits.description",
       "texture": "hits-booster.png",
       "category": "BOOSTERS",
-      "price": 149,
-      "sale": 80,
+      "price": 179,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% HITS 2 14400 %count%"
+        "local-booster %player% HITS 2 7200 %count%"
       ]
     },
     "GLOBAL_KILLS": {
+      "readableName": "Глобальный бустер убийств",
       "donateName": "katana.donate.element.global-kills.donate-name",
       "title": "katana.donate.element.global-kills.title",
       "description": "katana.donate.element.global-kills.description",
       "texture": "kills-booster.png",
       "category": "BOOSTERS",
-      "price": 199,
-      "sale": 80,
+      "price": 249,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
         "global-booster %player% KILLS 2 3600 %count%"
       ]
     },
     "LOCAL_KILLS": {
+      "readableName": "Локальный бустер убийств",
       "donateName": "katana.donate.element.local-kills.donate-name",
       "title": "katana.donate.element.local-kills.title",
       "description": "katana.donate.element.local-kills.description",
       "texture": "kills-booster.png",
       "category": "BOOSTERS",
-      "price": 149,
-      "sale": 80,
+      "price": 179,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% KILLS 2 14400 %count%"
+        "local-booster %player% KILLS 2 7200 %count%"
       ]
     },
     "GLOBAL_MONEY": {
+      "readableName": "Глобальный бустер монет",
       "donateName": "katana.donate.element.global-money.donate-name",
       "title": "katana.donate.element.global-money.title",
       "description": "katana.donate.element.global-money.description",
       "texture": "money-booster.png",
       "category": "BOOSTERS",
-      "price": 199,
-      "sale": 80,
-      "alert": true,
+      "price": 249,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
+      "alert": true,
       "onBuy": [
         "global-booster %player% MONEY 2 3600 %count%"
       ]
     },
     "LOCAL_MONEY": {
+      "readableName": "Локальный бустер монет",
       "donateName": "katana.donate.element.local-money.donate-name",
       "confirmationTitle": "katana.donate.element.local-money.title",
       "title": "katana.donate.element.local-money.title",
       "description": "katana.donate.element.local-money.description",
       "texture": "money-booster.png",
       "category": "BOOSTERS",
-      "price": 149,
-      "sale": 80,
+      "price": 179,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% MONEY 2 14400 %count%"
+        "local-booster %player% MONEY 2 7200 %count%"
       ]
     },
     "GLOBAL_ALL": {
+      "readableName": "Глобальный бустер статистики",
       "donateName": "katana.donate.element.global-all.donate-name",
       "title": "katana.donate.element.global-all.title",
       "description": "katana.donate.element.global-all.description",
       "texture": "all-booster.png",
       "category": "BOOSTERS",
-      "price": 599,
-      "sale": 80,
-      "alert": true,
+      "price": 749,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
+      "alert": true,
       "onBuy": [
         "global-booster %player% KILLS 2 3600 %count%",
         "global-booster %player% HITS 2 3600 %count%",
@@ -601,23 +742,26 @@
       ]
     },
     "LOCAL_ALL": {
+      "readableName": "Локальный бустер статистики",
       "donateName": "katana.donate.element.local-all.donate-name",
       "title": "katana.donate.element.local-all.title",
       "description": "katana.donate.element.local-all.description",
       "texture": "all-booster.png",
       "category": "BOOSTERS",
-      "price": 449,
-      "sale": 80,
+      "price": 549,
+      "sale": 10,
+      "ignoreServiceDiscount": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10
       ],
       "onBuy": [
-        "local-booster %player% KILLS 2 14400 %count%",
-        "local-booster %player% HITS 2 14400 %count%",
-        "local-booster %player% EXP 2 14400 %count%",
-        "local-booster %player% MONEY 2 14400 %count%"
+        "local-booster %player% KILLS 2 7200 %count%",
+        "local-booster %player% HITS 2 7200 %count%",
+        "local-booster %player% EXP 2 7200 %count%",
+        "local-booster %player% MONEY 2 7200 %count%"
       ]
     }
   }

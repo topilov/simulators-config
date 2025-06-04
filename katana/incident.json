@@ -1,0 +1,354 @@
+{
+  "containers": {
+	"PRICE_REDUCTION": {
+	  "texture": "sale_percent_1.png",
+	  "title": "katana.incident.price_reduction.title",
+	  "description": "katana.incident.price_reduction.description",
+	  "stat": [ 60, 10 ],
+	  "awaitAt": [
+		  "0:40:0",
+		  "4:40:0",
+		  "8:40:0",
+		  "12:40:0",
+		  "16:40:0",
+		  "20:40:0"
+	  ],
+	  "printStat": [1]
+	},
+	"INCREASED_LOOTBOX_CHANCES": {
+	  "texture": "increased_lootbox_chance_percent_1.png",
+	  "title": "katana.incident.increased_lootbox_chances.title",
+	  "description": "katana.incident.increased_lootbox_chances.description",
+	  "stat": [ 60, 20 ],
+	  "awaitAt": [
+		  "1:40:0",
+		  "5:40:0",
+		  "9:40:0",
+		  "13:40:0",
+		  "17:40:0",
+		  "21:40:0"
+	  ],
+	  "printStat": [1]
+	},
+	"DROPPER": {
+	  "texture": "dropper_spawn_every_1.png",
+	  "title": "katana.incident.dropper.title",
+	  "description": "katana.incident.dropper.description",
+	  "stat": [ 60, 0.5, 0.0, 100, 1 ],
+	  "awaitAt": [
+		  "2:40:0",
+		  "6:40:0",
+		  "10:40:0",
+		  "14:40:0",
+		  "18:40:0",
+		  "22:40:0"
+	  ],
+	  "printStat": [1]
+	},
+	"SUPERCHARGING": {
+	  "texture": "supercharging_percent_multiplier_1.png",
+	  "title": "katana.incident.supercharging.title",
+	  "description": "katana.incident.supercharging.description",
+	  "stat": [ 60, 50 ],
+	  "awaitAt": [
+		  "3:40:0",
+		  "7:40:0",
+		  "11:40:0",
+		  "15:40:0",
+		  "19:40:0",
+		  "23:40:0"
+	  ],
+	  "printStat": [1]
+	}
+  },
+  "settings": {
+	"dropper": {
+	  "items": {
+		"coin": {
+		  "type": "CLAY_BALL",
+		  "data": {
+			"skyblock": "donate"
+		  }
+		},
+		"bits": {
+		  "type": "CLAY_BALL",
+		  "data": {
+			"other": "gem_amethyst"
+		  }
+		}
+	  }
+	}
+  },
+  "menu": {
+	"trees": [
+	  {
+		"title": "katana.incident.menu.title.1",
+		"treeNodes": [
+		  {
+			"incidentId": "PRICE_REDUCTION",
+			"id": "sale_percent_1",
+			"texture": "sale_percent_1.png",
+			"title": "katana.incident.menu.sale_percent.title.1",
+			"description": "katana.incident.price_reduction.percent.description",
+			"statId": 1,
+			"additional": 1.25,
+			"price": 6,
+			"maxProgress": 5,
+			"viewpoint": {"x": 0, "y": 0 },
+			"isFormatting": false
+		  },
+		  {
+			"incidentId": "PRICE_REDUCTION",
+			"parentId": "sale_percent_1",
+			"id": "sale_percent_2",
+			"texture": "sale_percent_2.png",
+			"title": "katana.incident.menu.sale_percent.title.2",
+			"description": "katana.incident.price_reduction.percent.description",
+			"statId": 1,
+			"additional": 2,
+			"price": 10,
+			"maxProgress": 5,
+			"viewpoint": {"x": 1, "y": 0},
+			"isFormatting": false
+		  },
+		  {
+			"incidentId": "PRICE_REDUCTION",
+			"parentId": "sale_percent_1",
+			"id": "sale_duration_1",
+			"texture": "sale_duration_1.png",
+			"title": "katana.incident.menu.sale_duration.title.1",
+			"description": "katana.incident.upgrade.duration.description",
+			"statId": 0,
+			"additional": 48,
+			"price": 20,
+			"maxProgress": 5,
+			"viewpoint": {"x": 1, "y": 1}
+		  },
+		  {
+			"incidentId": "PRICE_REDUCTION",
+			"parentId": "sale_percent_2",
+			"id": "sale_percent_3",
+			"texture": "sale_percent_3.png",
+			"title": "katana.incident.menu.sale_percent.title.3",
+			"description": "katana.incident.price_reduction.percent.description",
+			"statId": 1,
+			"additional": 8,
+			"price": 20,
+			"maxProgress": 3,
+			"viewpoint": {"x": 2, "y": 0},
+			"isFormatting": false
+		  }
+		]
+	  },
+	  {
+		"title": "katana.incident.menu.title.2",
+		"treeNodes": [
+		  {
+			"incidentId": "INCREASED_LOOTBOX_CHANCES",
+			"id": "increased_chance_percent_1",
+			"texture": "increased_lootbox_chance_percent_1.png",
+			"title": "katana.incident.menu.increased_chance_percent.title.1",
+			"description": "katana.incident.increased_lootbox_chance.percent.description",
+			"statId": 1,
+			"additional": 3,
+			"price": 8,
+			"maxProgress": 5,
+			"viewpoint": {"x": 0, "y": 0}
+		  },
+		  {
+			"incidentId": "INCREASED_LOOTBOX_CHANCES",
+			"parentId": "increased_chance_percent_1",
+			"id": "increased_chance_percent_2",
+			"texture": "increased_lootbox_chance_percent_2.png",
+			"title": "katana.incident.menu.increased_chance_percent.title.2",
+			"description": "katana.incident.increased_lootbox_chance.percent.description",
+			"statId": 1,
+			"additional": 4,
+			"price": 14,
+			"maxProgress": 5,
+			"viewpoint": {"x": 1, "y": 0}
+		  },
+		  {
+			"incidentId": "INCREASED_LOOTBOX_CHANCES",
+			"parentId": "increased_chance_percent_1",
+			"id": "increased_chance_duration_1",
+			"texture": "increased_lootbox_chance_duration_1.png",
+			"title": "katana.incident.menu.increased_chance_duration.title",
+			"description": "katana.incident.upgrade.duration.description",
+			"statId": 0,
+			"additional": 48,
+			"price": 20,
+			"maxProgress": 5,
+			"viewpoint": {"x": 1, "y": 1}
+		  },
+		  {
+			"incidentId": "INCREASED_LOOTBOX_CHANCES",
+			"parentId": "increased_chance_percent_2",
+			"id": "increased_chance_percent_3",
+			"texture": "increased_lootbox_chance_percent_3.png",
+			"title": "katana.incident.menu.increased_chance_percent.title.3",
+			"description": "katana.incident.increased_lootbox_chance.percent.description",
+			"statId": 1,
+			"additional": 15,
+			"price": 50,
+			"maxProgress": 3,
+			"viewpoint": {"x": 2, "y": 0}
+		  }
+		]
+	  },
+	  {
+		"title": "katana.incident.menu.title.3",
+		"treeNodes": [
+		  {
+			"incidentId": "DROPPER",
+			"id": "dropper_worth_coin_1",
+			"texture": "dropper_worth_coin_1.png",
+			"title": "katana.incident.menu.dropper_worth_coin.title.1",
+			"description": "katana.incident.dropper_worth_coin.percent.description",
+			"statId": 3,
+			"additional": 500,
+			"price": 6,
+			"maxProgress": 5,
+			"viewpoint": {"x": 0, "y": 0}
+		  },
+		  {
+			"incidentId": "DROPPER",
+			"parentId": "dropper_worth_coin_1",
+			"id": "dropper_worth_coin_2",
+			"texture": "dropper_worth_coin_2.png",
+			"title": "katana.incident.menu.dropper_worth_coin.title.2",
+			"description": "katana.incident.dropper_worth_coin.percent.description",
+			"statId": 3,
+			"additional": 10000,
+			"price": 10,
+			"maxProgress": 5,
+			"viewpoint": {"x": 1, "y": 1}
+		  },
+		  {
+			"incidentId": "DROPPER",
+			"parentId": "dropper_worth_coin_1",
+			"id": "dropper_chance_bits_1",
+			"texture": "dropper_chance_bits_1.png",
+			"title": "katana.incident.menu.dropper_chacne_bits",
+			"description": "katana.incident.dropper_chance_bits.percent.description",
+			"statId": 2,
+			"additional": 0.2,
+			"price": 10,
+			"maxProgress": 5,
+			"viewpoint": {"x": 1, "y": -1},
+			"isFormatting": false
+		  },
+		  {
+			"incidentId": "DROPPER",
+			"parentId": "dropper_worth_coin_1",
+			"id": "dropper_duration_1",
+			"texture": "dropper_duration_1.png",
+			"title": "katana.incident.menu.dropper_duration",
+			"description": "katana.incident.upgrade.duration.description",
+			"statId": 0,
+			"additional": 48,
+			"price": 20,
+			"maxProgress": 5,
+			"viewpoint": {"x": 1, "y": 0}
+		  },
+		  {
+			"incidentId": "DROPPER",
+			"parentId": "dropper_duration_1",
+			"id": "dropper_spawn_every_1",
+			"texture": "dropper_spawn_every_1.png",
+			"title": "katana.incident.menu.dropper_spawn_every",
+			"description": "katana.incident.dropper_spawn_every.percent.description",
+			"statId": 1,
+			"additional": -0.05,
+			"price": 20,
+			"maxProgress": 5,
+			"viewpoint": {"x": 2, "y": 0},
+			"isFormatting": false
+		  },
+		  {
+			"incidentId": "DROPPER",
+			"parentId": "dropper_chance_bits_1",
+			"id": "dropper_worth_bits_1",
+			"texture": "dropper_worth_bits_1.png",
+			"title": "katana.incident.menu.dropper_worth_bits",
+			"description": "katana.incident.dropper_worth_bits.percent.description",
+			"statId": 4,
+			"additional": 3,
+			"price": 20,
+			"maxProgress": 5,
+			"viewpoint": {"x": 2, "y": -1}
+		  },
+		  {
+			"incidentId": "DROPPER",
+			"parentId": "dropper_worth_coin_2",
+			"id": "dropper_worth_coin_3",
+			"texture": "dropper_worth_coin_3.png",
+			"title": "katana.incident.menu.dropper_worth_coin.title.3",
+			"description": "katana.incident.dropper_worth_coin.percent.description",
+			"statId": 3,
+			"additional": 100000,
+			"price": 20,
+			"maxProgress": 3,
+			"viewpoint": {"x": 2, "y": 1}
+		  }
+		]
+	  },
+	  {
+		"title": "katana.incident.menu.title.4",
+		"treeNodes": [
+		  {
+			"incidentId": "SUPERCHARGING",
+			"id": "supercharging_percent_multiplier_1",
+			"texture": "supercharging_percent_multiplier_1.png",
+			"title": "katana.incident.menu.supercharging_percent_miltiplier.title.1",
+			"description": "katana.incident.supercharging_multiplier.percent.description",
+			"statId": 1,
+			"additional": 8,
+			"price": 6,
+			"maxProgress": 5,
+			"viewpoint": {"x": 0, "y": 0}
+		  },
+		  {
+			"incidentId": "SUPERCHARGING",
+			"parentId": "supercharging_percent_multiplier_1",
+			"id": "supercharging_percent_multiplier_2",
+			"texture": "supercharging_percent_multiplier_2.png",
+			"title": "katana.incident.menu.supercharging_percent_miltiplier.title.2",
+			"description": "katana.incident.supercharging_multiplier.percent.description",
+			"statId": 1,
+			"additional": 15,
+			"price": 10,
+			"maxProgress": 5,
+			"viewpoint": {"x": 1, "y": 0}
+		  },
+		  {
+			"incidentId": "SUPERCHARGING",
+			"parentId": "supercharging_percent_multiplier_1",
+			"id": "supercharging_duration_1",
+			"texture": "supercharging_duration_1.png",
+			"title": "katana.incident.menu.supercharging_duration.title",
+			"description": "katana.incident.upgrade.duration.description",
+			"statId": 0,
+			"additional": 48,
+			"price": 20,
+			"maxProgress": 5,
+			"viewpoint": {"x": 1, "y": 1}
+		  },
+		  {
+			"incidentId": "SUPERCHARGING",
+			"parentId": "supercharging_percent_multiplier_2",
+			"id": "supercharging_percent_multiplier_3",
+			"texture": "supercharging_percent_multiplier_3.png",
+			"title": "katana.incident.menu.supercharging_percent_miltiplier.title.3",
+			"description": "katana.incident.supercharging_multiplier.percent.description",
+			"statId": 1,
+			"additional": 45,
+			"price": 20,
+			"maxProgress": 3,
+			"viewpoint": {"x": 2, "y": 0}
+		  }
+		]
+	  }
+	]
+  }
+}

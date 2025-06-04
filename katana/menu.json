@@ -1,30 +1,29 @@
 {
   "main": {
+    "banner": {
+      "texture": "banner.png",
+      "title": "Telegram канал Симуляторов",
+      "description": "Там все новости и обновления!",
+      "buttons": [
+        {
+          "name": "Перейти",
+          "openUrl": "https://t.me/crisimulators"
+        }
+      ]
+    },
     "elements": [
       {
-        "icon": "settings.png",
-        "title": "katana.menu.main.buttons.settings.title",
-        "onSelect": [
-          "sudo %player% settings"
-        ]
-      },
-      {
-        "icon": "runes.png",
+        "icon": "equipment.png",
         "title": "katana.menu.main.buttons.equipment.title",
+        "weight": 298,
         "onSelect": [
           "sudo %player% equipment"
         ]
       },
       {
-        "icon": "daily.png",
-        "title": "katana.menu.main.buttons.daily.title",
-        "onSelect": [
-          "sudo %player% daily"
-        ]
-      },
-      {
         "icon": "donate.png",
         "title": "katana.menu.main.buttons.donate.title",
+        "weight": 298,
         "onSelect": [
           "sudo %player% donate"
         ]
@@ -32,13 +31,55 @@
       {
         "icon": "quests.png",
         "title": "katana.menu.main.buttons.quests.title",
+        "weight": 144,
         "onSelect": [
           "sudo %player% quest"
         ]
       },
       {
-        "icon": "bits.png",
+        "icon": "daily.png",
+        "title": "katana.menu.main.buttons.daily.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% daily"
+        ]
+      },
+      {
+        "icon": "achievements-menu.png",
+        "title": "katana.menu.main.buttons.achievements.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% achievements"
+        ]
+      },
+      {
+        "icon": "settings.png",
+        "title": "katana.menu.main.buttons.settings.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% settings"
+        ]
+      },
+      {
+        "icon": "minigame-shop.png",
+        "title": "katana.menu.main.buttons.minigame-shop.title",
+        "weight": 194,
+        "onSelect": [
+          "sudo %player% minigame-shop"
+        ]
+      },
+      {
+        "icon": "incidents.png",
+        "title": "katana.menu.main.buttons.incidents.title",
+        "weight": 198,
+        "onSelect": [
+          "sudo %player% incident-menu"
+        ]
+      },
+      {
+        "icon": "shop.png",
         "title": "katana.menu.main.buttons.shop.title",
+        "weight": 194,
         "onSelect": [
           "sudo %player% bits"
         ]

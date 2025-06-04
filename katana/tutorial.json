@@ -1,0 +1,174 @@
+{
+  "stages": {
+    "DNK_MINING": {
+      "stageId": 1,
+      "required": 50,
+      "title": "katana.tutorial.dnk-mining.title",
+      "description": "katana.tutorial.dnk-mining.description",
+      "progressTitle": "katana.tutorial.dnk-mining.progress.title"
+    },
+    "DNK_SELL": {
+      "stageId": 2,
+      "title": "katana.tutorial.dnk-sell.title",
+      "description": "katana.tutorial.dnk-sell.description",
+      "pathLocation": {
+        "name": "sell",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "UPGRADE_KATANA": {
+      "stageId": 3,
+      "title": "katana.tutorial.upgrade-katana.title",
+      "description": "katana.tutorial.upgrade-katana.description",
+      "pathLocation": {
+        "name": "upgrade",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 135 false"
+      ]
+    },
+    "KILL_PLAYERS": {
+      "stageId": 4,
+      "required": 2,
+      "title": "katana.tutorial.kill-players.title",
+      "description": "katana.tutorial.kill-players.description",
+      "progressTitle": "katana.tutorial.kill-players.progress.title",
+      "pathLocation": {
+        "name": "arena",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "UPGRADE_STORAGE": {
+      "stageId": 5,
+      "isSaving": true,
+      "title": "katana.tutorial.upgrade-storage.title",
+      "description": "katana.tutorial.upgrade-storage.description",
+      "pathLocation": {
+        "name": "upgrade-dnk",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "earn-money %player% 5000 false"
+      ]
+    },
+    "OPEN_KATANA_LOOTBOX": {
+      "stageId": 6,
+      "title": "katana.tutorial.open-katana-lootbox.title",
+      "description": "katana.tutorial.open-katana-lootbox.description",
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "katana",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "give-key %player% KATANA 1"
+      ]
+    },
+    "OPEN_PET_LOOTBOX": {
+      "stageId": 7,
+      "title": "katana.tutorial.open-pet-lootbox.title",
+      "description": "katana.tutorial.open-pet-lootbox.description",
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "pets",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "give-key %player% PET 1"
+      ]
+    },
+    "OPEN_RUNE_LOOTBOX": {
+      "stageId": 8,
+      "title": "katana.tutorial.open-rune-lootbox.title",
+      "description": "katana.tutorial.open-rune-lootbox.description",
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "runes",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "onStart": [
+        "give-key %player% RUNE 1"
+      ]
+    },
+    "TAKE_DAILY_REWARD": {
+      "stageId": 9,
+      "isSaving": true,
+      "title": "katana.tutorial.take-daily-reward.title",
+      "description": "katana.tutorial.take-daily-reward.description"
+    },
+    "OPEN_TITLE_LOOTBOX": {
+      "stageId": 10,
+      "title": "katana.tutorial.open-title-lootbox.title",
+      "description": "katana.tutorial.open-title-lootbox.description",
+      "isSaving": true,
+      "pathLocation": {
+        "name": "lootbox",
+        "tag": "titles",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "WEAR_EQUIPMENT": {
+      "stageId": 11,
+      "required": 1,
+      "title": "katana.tutorial.wear-equipment.title",
+      "description": "katana.tutorial.wear-equipment.description",
+      "progressTitle": "katana.tutorial.wear-equipment.progress.title"
+    },
+    "LEVEL_UP": {
+      "stageId": 12,
+      "title": "katana.tutorial.level-up.title",
+      "description": "katana.tutorial.level-up.description",
+      "pathLocation": {
+        "name": "level",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "LOCATION_TELEPORT": {
+      "stageId": 13,
+      "title": "katana.tutorial.location-teleport.title",
+      "description": "katana.tutorial.location-teleport.description"
+    },
+    "REBIRTH": {
+      "stageId": 14,
+      "title": "katana.tutorial.rebirth.title",
+      "description": "katana.tutorial.rebirth.description"
+    }
+  }
+}
