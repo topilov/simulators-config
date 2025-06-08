@@ -1,0 +1,89 @@
+{
+  "main": {
+    "banner": {
+      "texture": "banner.png",
+      "title": "Telegram канал Симуляторов",
+      "description": "Там все новости и обновления!",
+      "buttons": [
+        {
+          "name": "Перейти",
+          "openUrl": "https://t.me/crisimulators"
+        }
+      ]
+    },
+    "elements": [
+      {
+        "icon": "equipment.png",
+        "title": "rpg.menu.main.buttons.equipment.title",
+        "weight": 298,
+        "onSelect": [
+          "sudo %player% equipment"
+        ]
+      },
+      {
+        "icon": "donate.png",
+        "title": "rpg.menu.main.buttons.donate.title",
+        "weight": 298,
+        "onSelect": [
+          "sudo %player% donate"
+        ]
+      },
+      {
+        "icon": "quests.png",
+        "title": "rpg.menu.main.buttons.quests.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% quest"
+        ]
+      },
+      {
+        "icon": "daily.png",
+        "title": "rpg.menu.main.buttons.daily.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% daily"
+        ]
+      },
+      {
+        "icon": "achievements-menu.png",
+        "title": "rpg.menu.main.buttons.achievements.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% achievements"
+        ]
+      },
+      {
+        "icon": "settings.png",
+        "title": "rpg.menu.main.buttons.settings.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% settings"
+        ]
+      },
+      {
+        "icon": "minigame-shop.png",
+        "title": "rpg.menu.main.buttons.minigame-shop.title",
+        "weight": 194,
+        "onSelect": [
+          "sudo %player% minigame-shop"
+        ]
+      },
+      {
+        "icon": "incidents.png",
+        "title": "rpg.menu.main.buttons.incidents.title",
+        "weight": 198,
+        "onSelect": [
+          "sudo %player% incident-menu"
+        ]
+      },
+      {
+        "icon": "shop.png",
+        "title": "rpg.menu.main.buttons.shop.title",
+        "weight": 194,
+        "onSelect": [
+          "sudo %player% bits"
+        ]
+      }
+    ]
+  }
+}

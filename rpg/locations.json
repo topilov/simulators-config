@@ -1,0 +1,19 @@
+{
+  "requiredLevelMessage": "rpg.location.message.required-level",
+  "requiredRebirthMessage": "rpg.location.message.required-rebirth",
+  "locations": {
+    "SPAWN": {
+      "slots": 125,
+      "map": "map1",
+      "button": {
+        "id": 1,
+        "title": "rpg.location.spawn.title",
+        "texture": "map1.png",
+        "requiredLevel": 1,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    }
+  }
+}
