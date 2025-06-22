@@ -16,15 +16,38 @@
           ]
         },
         {
-          "text": "how are you?",
+          "text": "kill 10 shadow scouts",
           "answers": [
             {
-              "text": "im fine",
-              "nextPart": 0
+              "text": "im done",
+              "requirements": [
+                {
+                  "mobType": "SHADOW_SCOUT",
+                  "count": 10
+                }
+              ],
+              "fallbackPart": 2,
+              "nextPart": 3
             },
             {
-              "text": "byebye",
+              "text": "im come later",
               "nextPart": -1
+            }
+          ]
+        },
+        {
+          "text": "you not complete my task",
+          "answers": [
+            {
+              "text": "ok, im come later"
+            }
+          ]
+        },
+        {
+          "text": "done, you complete my task!!",
+          "answers": [
+            {
+              "text": "cool"
             }
           ]
         }
