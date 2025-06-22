@@ -1,0 +1,34 @@
+{
+  "dialogs": {
+    "1": {
+      "parts": [
+        {
+          "text": "hello!!",
+          "answers": [
+            {
+              "text": "hi",
+              "nextPart": 1
+            },
+            {
+              "text": "bye",
+              "nextPart": -1
+            }
+          ]
+        },
+        {
+          "text": "how are you?",
+          "answers": [
+            {
+              "text": "im fine",
+              "nextPart": 0
+            },
+            {
+              "text": "byebye",
+              "nextPart": -1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
