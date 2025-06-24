@@ -50,6 +50,23 @@
       "onClick": [
         "join-simulator %player% katana"
       ]
+    },
+    {
+      "name": "Войти на Симулятор Rpg",
+      "location": {
+        "name": "npc",
+        "tag": "rpg",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/npc/sell_blocks.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "join-simulator %player% rpg"
+      ]
     }
   ]
 }
