@@ -1,3 +1,22 @@
 {
-  "npc": []
+  "npc": [
+    {
+      "name": "rpg.npc.dialog.1.title",
+      "location": {
+        "name": "dialog",
+        "tag": "1",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/destructions/skins/sell-blocks.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dialog %player% MAXIM"
+      ]
+    }
+  ]
 }
