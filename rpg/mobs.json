@@ -13,9 +13,12 @@
               "type": "SHADOW_SCOUT",
               "name": "i18n.rpg.mobs.shadow_scout.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
-              "health": 5,
-              "damage": 3.0,
-              "speed": 0.3,
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 5.0,
+                "ATTACK_DAMAGE": 3.0,
+                "MOVEMENT_SPEED": 0.3
+              },
               "drops": []
             },
             {
@@ -23,12 +26,15 @@
               "type": "NIGHT_ASSASSIN",
               "name": "i18n.rpg.mobs.night_assassin.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png",
-              "health": 10,
-              "damage": 6.0,
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 10.0,
+                "ATTACK_DAMAGE": 6.0,
+                "MOVEMENT_SPEED": 0.4
+              },
               "itemInMainHand": {
                 "type": "DIAMOND_SWORD"
               },
-              "speed": 0.4,
               "drops": []
             }
           ]
@@ -41,9 +47,12 @@
               "type": "GHOST_OBSERVER",
               "name": "i18n.rpg.mobs.ghost_observer.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/ghost_observer.png",
-              "health": 20,
-              "damage": 4.0,
-              "speed": 0.3,
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 20.0,
+                "ATTACK_DAMAGE": 4.0,
+                "MOVEMENT_SPEED": 0.3
+              },
               "itemInMainHand": {
                 "type": "BOW"
               },
@@ -54,9 +63,12 @@
               "type": "FOG_SHOOTER",
               "name": "i18n.rpg.mobs.fog_shooter.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/fog_shooter.png",
-              "health": 50,
-              "damage": 5.0,
-              "speed": 0.45,
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 50.0,
+                "ATTACK_DAMAGE": 5.0,
+                "MOVEMENT_SPEED": 0.45
+              },
               "itemInMainHand": {
                 "type": "BOW"
               },
