@@ -1,34 +1,143 @@
 {
   "menu": {
-    "title": "Улучшение персонажа",
-    "skills": {
-      "STRENGTH": {
-        "title": "Сила",
-        "color": {"hex": "#66131B"},
-        "texture": "",
-        "levels": [
-          {
-            "price": 100,
-            "stats": [
-              {"title": "Уровень", "stat": 1},
-              {"title": "Сила", "stat": 5}
-            ]
+    "SWORDSMAN": {
+      "title": "Улучшение персонажа",
+      "skills": {
+        "STRENGTH": {
+          "title": "Сила",
+          "color": {
+            "hex": "#66131B"
           },
-          {
-            "price": 500,
-            "stats": [
-              {"title": "Уровень", "stat": 2},
-              {"title": "Сила", "stat": 20}
-            ]
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Сила", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Сила", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Сила", "stat": 50}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "THIEF": {
+      "title": "Улучшение персонажа",
+      "skills": {
+        "REGENERATION": {
+          "title": "Регенерация",
+          "color": {
+            "hex": "#66131B"
           },
-          {
-            "price": 1000,
-            "stats": [
-              {"title": "Уровень", "stat": 3},
-              {"title": "Сила", "stat": 50}
-            ]
-          }
-        ]
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Регенерация", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Регенерация", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Регенерация", "stat": 50}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ELF": {
+      "title": "Улучшение персонажа",
+      "skills": {
+        "REGENERATION": {
+          "title": "Регенерация",
+          "color": {
+            "hex": "#66131B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Регенерация", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Регенерация", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Регенерация", "stat": 50}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "MAGE": {
+      "title": "Улучшение персонажа",
+      "skills": {
+        "REGENERATION": {
+          "title": "Регенерация",
+          "color": {
+            "hex": "#66131B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Регенерация", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Регенерация", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Регенерация", "stat": 50}
+              ]
+            }
+          ]
+        }
       }
     }
   }
