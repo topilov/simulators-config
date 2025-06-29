@@ -32,14 +32,9 @@
               ]
             }
           ]
-        }
-      }
-    },
-    "THIEF": {
-      "title": "Улучшение персонажа",
-      "skills": {
-        "REGENERATION": {
-          "title": "Регенерация",
+        },
+        "HEALTH": {
+          "title": "Здоровье",
           "color": {
             "hex": "#66131B"
           },
@@ -49,21 +44,116 @@
               "price": 100,
               "stats": [
                 {"title": "Уровень", "stat": 1},
-                {"title": "Регенерация", "stat": 5}
+                {"title": "Здоровье", "stat": 5}
               ]
             },
             {
               "price": 500,
               "stats": [
                 {"title": "Уровень", "stat": 2},
-                {"title": "Регенерация", "stat": 20}
+                {"title": "Здоровье", "stat": 20}
               ]
             },
             {
               "price": 1000,
               "stats": [
                 {"title": "Уровень", "stat": 3},
-                {"title": "Регенерация", "stat": 50}
+                {"title": "Здоровье", "stat": 50}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "THIEF": {
+      "title": "Улучшение персонажа",
+      "skills": {
+        "VAMPIRISM": {
+          "title": "Вампиризм",
+          "color": {
+            "hex": "#66131B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Вампиризм", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Вампиризм", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Вампиризм", "stat": 50}
+              ]
+            }
+          ]
+        },
+        "SPEED": {
+          "title": "Скорость",
+          "color": {
+            "hex": "#66131B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Скорость", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Скорость", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Скорость", "stat": 50}
+              ]
+            }
+          ]
+        },
+        "EVASION": {
+          "title": "Уклонение",
+          "color": {
+            "hex": "#66131B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Уклонение", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Уклонение", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Уклонение", "stat": 50}
               ]
             }
           ]
@@ -73,6 +163,66 @@
     "ELF": {
       "title": "Улучшение персонажа",
       "skills": {
+        "STRENGTH": {
+          "title": "Сила",
+          "color": {
+            "hex": "#66131B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Сила", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Сила", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Сила", "stat": 50}
+              ]
+            }
+          ]
+        },
+        "RELOAD_SPEED": {
+          "title": "Скорость перезарядки",
+          "color": {
+            "hex": "#66131B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Скорость перезарядки", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Скорость перезарядки", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Скорость перезарядки", "stat": 50}
+              ]
+            }
+          ]
+        },
         "REGENERATION": {
           "title": "Регенерация",
           "color": {
@@ -108,6 +258,67 @@
     "MAGE": {
       "title": "Улучшение персонажа",
       "skills": {
+        "STRENGTH": {
+          "title": "Сила",
+          "color": {
+            "hex": "#66131B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Сила", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Сила", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Сила", "stat": 50}
+              ]
+            }
+          
+          ]
+        },
+        "CASTING_SPEED": {
+          "title": "Скорость кастования",
+          "color": {
+            "hex": "#66131B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Скорость кастования", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Скорость кастования", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Скорость кастования", "stat": 50}
+              ]
+            }
+          ]
+        },
         "REGENERATION": {
           "title": "Регенерация",
           "color": {
