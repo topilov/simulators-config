@@ -20,7 +20,35 @@
                 "MOVEMENT_SPEED": 0.3
               },
               "isAntiKnockback": true,
-              "drops": []
+              "drops": [
+                {
+                  "chance": 50
+                },
+                {
+                  "chance": 25,
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "название",
+                    "lore": "описание",
+                    "data": {
+                      "price": 10.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 25,
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "название",
+                    "lore": "описание",
+                    "data": {
+                      "price": 10.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                }
+              ]
             },
             {
               "chance": 50.0,
