@@ -6,269 +6,7 @@
         "STRENGTH": {
           "title": "Сила",
           "color": {
-            "hex": "#A91925"
-          },
-          "texture": "",
-          "levels": [
-            {
-              "price": 100,
-              "stats": [
-                {"title": "Уровень", "stat": 1, "readableStat": "1"},
-                {"title": "Сила", "stat": 5, "readableStat": "5"}
-              ]
-            },
-            {
-              "price": 500,
-              "stats": [
-                {"title": "Уровень", "stat": 2, "readableStat": "2"},
-                {"title": "Сила", "stat": 20, "readableStat": "20"}
-              ]
-            },
-            {
-              "price": 1000,
-              "stats": [
-                {"title": "Уровень", "stat": 3, "readableStat":"3"},
-                {"title": "Сила", "stat": 5, "readableStat": "50"}
-              ]
-            }
-          ]
-        },
-        "HEALTH": {
-          "title": "Здоровье",
-          "color": {
-            "hex": "#146229"
-          },
-          "texture": "",
-          "levels": [
-            {
-              "price": 100,
-              "stats": [
-                {"title": "Уровень", "stat": 1, "readableStat": "1"},
-                {"title": "Здоровье", "stat": 5, "readableStat": "5"}
-              ]
-            },
-            {
-              "price": 500,
-              "stats": [
-                {"title": "Уровень", "stat": 2, "readableStat": "2"},
-                {"title": "Здоровье", "stat": 20, "readableStat": "20"}
-              ]
-            },
-            {
-              "price": 1000,
-              "stats": [
-                {"title": "Уровень", "stat": 3, "readableStat":"3"},
-                {"title": "Здоровье", "stat": 5, "readableStat": "50"}
-              ]
-            }
-          ],
-          "onUpgrade": [
-            "add-max-health %player% %stat%"
-          ]
-        }
-      }
-    },
-    "THIEF": {
-      "title": "Улучшение персонажа",
-      "skills": {
-        "VAMPIRISM": {
-          "title": "Вампиризм",
-          "color": {
-            "hex": "#4A0F15"
-          },
-          "texture": "",
-          "levels": [
-            {
-              "price": 100,
-              "stats": [
-                {"title": "Уровень", "stat": 1, "readableStat": "1"},
-                {"title": "Вампиризм", "stat": 5, "readableStat": "5"}
-              ]
-            },
-            {
-              "price": 500,
-              "stats": [
-                {"title": "Уровень", "stat": 2, "readableStat": "2"},
-                {"title": "Вампиризм", "stat": 20, "readableStat": "20"}
-              ]
-            },
-            {
-              "price": 1000,
-              "stats": [
-                {"title": "Уровень", "stat": 3, "readableStat":"3"},
-                {"title": "Вампиризм", "stat": 5, "readableStat": "50"}
-              ]
-            }
-          ]
-        },
-        "SPEED": {
-          "title": "Скорость",
-          "color": {
-            "hex": "#4A8CEC"
-          },
-          "texture": "",
-          "levels": [
-            {
-              "price": 100,
-              "stats": [
-                {"title": "Уровень", "stat": 1, "readableStat": "1"},
-                {"title": "Скорость", "stat": 5, "readableStat": "5"}
-              ]
-            },
-            {
-              "price": 500,
-              "stats": [
-                {"title": "Уровень", "stat": 2, "readableStat": "2"},
-                {"title": "Скорость", "stat": 20, "readableStat": "20"}
-              ]
-            },
-            {
-              "price": 1000,
-              "stats": [
-                {"title": "Уровень", "stat": 3, "readableStat":"3"},
-                {"title": "Скорость", "stat": 5, "readableStat": "50"}
-              ]
-            }
-          ],
-          "onUpgrade": [
-            "add-speed %player% %stat%"
-          ]
-        },
-        "EVASION": {
-          "title": "Уклонение",
-          "color": {
-            "hex": "#22AE49"
-          },
-          "texture": "",
-          "levels": [
-            {
-              "price": 100,
-              "stats": [
-                {"title": "Уровень", "stat": 1, "readableStat": "1"},
-                {"title": "Уклонение", "stat": 5, "readableStat": "5"}
-              ]
-            },
-            {
-              "price": 500,
-              "stats": [
-                {"title": "Уровень", "stat": 2, "readableStat": "2"},
-                {"title": "Уклонение", "stat": 20, "readableStat": "20"}
-              ]
-            },
-            {
-              "price": 1000,
-              "stats": [
-                {"title": "Уровень", "stat": 3, "readableStat":"3"},
-                {"title": "Уклонение", "stat": 5, "readableStat": "50"}
-              ]
-            }
-          ]
-        }
-      }
-    },
-    "ELF": {
-      "title": "Улучшение персонажа",
-      "skills": {
-        "STRENGTH": {
-          "title": "Сила",
-          "color": {
-            "hex": "#A91925"
-          },
-          "texture": "",
-          "levels": [
-            {
-              "price": 100,
-              "stats": [
-                {"title": "Уровень", "stat": 1, "readableStat": "1"},
-                {"title": "Сила", "stat": 5, "readableStat": "5"}
-              ]
-            },
-            {
-              "price": 500,
-              "stats": [
-                {"title": "Уровень", "stat": 2, "readableStat": "2"},
-                {"title": "Сила", "stat": 20, "readableStat": "20"}
-              ]
-            },
-            {
-              "price": 1000,
-              "stats": [
-                {"title": "Уровень", "stat": 3, "readableStat":"3"},
-                {"title": "Сила", "stat": 5, "readableStat": "50"}
-              ]
-            }
-          ]
-        },
-        "RELOAD_SPEED": {
-          "title": "Скорость перезарядки",
-          "color": {
-            "hex": "#EFAC00"
-          },
-          "texture": "",
-          "levels": [
-            {
-              "price": 100,
-              "stats": [
-                {"title": "Уровень", "stat": 1},
-                {"title": "Скорость перезарядки", "stat": 5}
-              ]
-            },
-            {
-              "price": 500,
-              "stats": [
-                {"title": "Уровень", "stat": 2},
-                {"title": "Скорость перезарядки", "stat": 20}
-              ]
-            },
-            {
-              "price": 1000,
-              "stats": [
-                {"title": "Уровень", "stat": 3},
-                {"title": "Скорость перезарядки", "stat": 50}
-              ]
-            }
-          ]
-        },  
-
-        "REGENERATION": {
-          "title": "Регенерация",
-          "color": {
-            "hex": "#49DF74"
-          },
-          "texture": "",
-          "levels": [
-            {
-              "price": 100,
-              "stats": [
-                {"title": "Уровень", "stat": 1, "readableStat": "1"},
-                {"title": "Регенерация", "stat": 5, "readableStat": "5"}
-              ]
-            },
-            {
-              "price": 500,
-              "stats": [
-                {"title": "Уровень", "stat": 2, "readableStat": "2"},
-                {"title": "Регенерация", "stat": 20, "readableStat": "20"}
-              ]
-            },
-            {
-              "price": 1000,
-              "stats": [
-                {"title": "Уровень", "stat": 3, "readableStat":"3"},
-                {"title": "Регенерация", "stat": 5, "readableStat": "50"}
-              ]
-            }
-          ]
-        }
-      }
-    },
-    "MAGE": {
-      "title": "Улучшение персонажа",
-      "skills": {
-        "STRENGTH": {
-          "title": "Сила",
-          "color": {
-            "hex": "#A91925"
+            "hex": "##E73D4B"
           },
           "texture": "",
           "levels": [
@@ -293,13 +31,12 @@
                 {"title": "Сила", "stat": 50}
               ]
             }
-          
           ]
         },
-        "CASTING_SPEED": {
-          "title": "Скорость кастования",
+        "HEALTH": {
+          "title": "Здоровье",
           "color": {
-            "hex": "#EFAC00"
+            "hex": "##146229"
           },
           "texture": "",
           "levels": [
@@ -307,24 +44,1058 @@
               "price": 100,
               "stats": [
                 {"title": "Уровень", "stat": 1},
-                {"title": "Скорость кастования", "stat": 5}
+                {"title": "Здоровье", "stat": 5}
               ]
             },
             {
               "price": 500,
               "stats": [
                 {"title": "Уровень", "stat": 2},
-                {"title": "Скорость кастования", "stat": 20}
+                {"title": "Здоровье", "stat": 20}
               ]
             },
             {
               "price": 1000,
               "stats": [
                 {"title": "Уровень", "stat": 3},
-                {"title": "Скорость кастования", "stat": 50}
+                {"title": "Здоровье", "stat": 50}
               ]
             }
           ]
+        }
+      }
+    },
+    "THIEF": {
+      "title": "Улучшение персонажа",
+      "skills": {
+        "VAMPIRISM": {
+          "title": "Вампиризм",
+          "color": {
+            "hex": "##4A0F15"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Вампиризм", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Вампиризм", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Вампиризм", "stat": 50}
+              ]
+            }
+          ]
+        },
+        "SPEED": {
+          "title": "Скорость",
+          "color": {
+            "hex": "#4A8CEC"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Скорость", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Скорость", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Скорость", "stat": 50}
+              ]
+            }
+          ]
+        },
+        "EVASION": {
+          "title": "Уклонение",
+          "color": {
+            "hex": "#22AE49"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Уклонение", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Уклонение", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Уклонение", "stat": 50}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ELF": {
+      "title": "Улучшение персонажа",
+      "skills": {
+        "STRENGTH": {
+          "title": "Сила",
+          "color": {
+            "hex": "#E73D4B"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Сила", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Сила", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Сила", "stat": 50}
+              ]
+            }
+          ]
+        },
+        "RELOAD_SPEED": {
+          "title": "Скорость перезарядки",
+          "color": {
+            "hex": "#EFAC00"
+          },
+          "texture": "",
+          "levels": [[
+  {
+    "price": 100,
+    "stats": [
+      {"title": "Уровень", "stat": 1},
+      {"title": "Скорость перезарядки", "stat": 1.25}
+    ]
+  },
+  {
+    "price": 200,
+    "stats": [
+      {"title": "Уровень", "stat": 2},
+      {"title": "Скорость перезарядки", "stat": 2.5}
+    ]
+  },
+  {
+    "price": 300,
+    "stats": [
+      {"title": "Уровень", "stat": 3},
+      {"title": "Скорость перезарядки", "stat": 3.75}
+    ]
+  },
+  {
+    "price": 400,
+    "stats": [
+      {"title": "Уровень", "stat": 4},
+      {"title": "Скорость перезарядки", "stat": 5}
+    ]
+  },
+  {
+    "price": 500,
+    "stats": [
+      {"title": "Уровень", "stat": 5},
+      {"title": "Скорость перезарядки", "stat": 6.25}
+    ]
+  },
+  {
+    "price": 600,
+    "stats": [
+      {"title": "Уровень", "stat": 6},
+      {"title": "Скорость перезарядки", "stat": 7.5}
+    ]
+  },
+  {
+    "price": 700,
+    "stats": [
+      {"title": "Уровень", "stat": 7},
+      {"title": "Скорость перезарядки", "stat": 8.75}
+    ]
+  },
+  {
+    "price": 800,
+    "stats": [
+      {"title": "Уровень", "stat": 8},
+      {"title": "Скорость перезарядки", "stat": 10}
+    ]
+  },
+  {
+    "price": 900,
+    "stats": [
+      {"title": "Уровень", "stat": 9},
+      {"title": "Скорость перезарядки", "stat": 11.25}
+    ]
+  },
+  {
+    "price": 1000,
+    "stats": [
+      {"title": "Уровень", "stat": 10},
+      {"title": "Скорость перезарядки", "stat": 12.5}
+    ]
+  },
+  {
+    "price": 1100,
+    "stats": [
+      {"title": "Уровень", "stat": 11},
+      {"title": "Скорость перезарядки", "stat": 13.75}
+    ]
+  },
+  {
+    "price": 1200,
+    "stats": [
+      {"title": "Уровень", "stat": 12},
+      {"title": "Скорость перезарядки", "stat": 15}
+    ]
+  },
+  {
+    "price": 1300,
+    "stats": [
+      {"title": "Уровень", "stat": 13},
+      {"title": "Скорость перезарядки", "stat": 16.25}
+    ]
+  },
+  {
+    "price": 1400,
+    "stats": [
+      {"title": "Уровень", "stat": 14},
+      {"title": "Скорость перезарядки", "stat": 17.5}
+    ]
+  },
+  {
+    "price": 1500,
+    "stats": [
+      {"title": "Уровень", "stat": 15},
+      {"title": "Скорость перезарядки", "stat": 18.75}
+    ]
+  },
+  {
+    "price": 1600,
+    "stats": [
+      {"title": "Уровень", "stat": 16},
+      {"title": "Скорость перезарядки", "stat": 20}
+    ]
+  },
+  {
+    "price": 1700,
+    "stats": [
+      {"title": "Уровень", "stat": 17},
+      {"title": "Скорость перезарядки", "stat": 21.25}
+    ]
+  },
+  {
+    "price": 1800,
+    "stats": [
+      {"title": "Уровень", "stat": 18},
+      {"title": "Скорость перезарядки", "stat": 22.5}
+    ]
+  },
+  {
+    "price": 1900,
+    "stats": [
+      {"title": "Уровень", "stat": 19},
+      {"title": "Скорость перезарядки", "stat": 23.75}
+    ]
+  },
+  {
+    "price": 2000,
+    "stats": [
+      {"title": "Уровень", "stat": 20},
+      {"title": "Скорость перезарядки", "stat": 25}
+    ]
+  },
+  {
+    "price": 2100,
+    "stats": [
+      {"title": "Уровень", "stat": 21},
+      {"title": "Скорость перезарядки", "stat": 26.25}
+    ]
+  },
+  {
+    "price": 2200,
+    "stats": [
+      {"title": "Уровень", "stat": 22},
+      {"title": "Скорость перезарядки", "stat": 27.5}
+    ]
+  },
+  {
+    "price": 2300,
+    "stats": [
+      {"title": "Уровень", "stat": 23},
+      {"title": "Скорость перезарядки", "stat": 28.75}
+    ]
+  },
+  {
+    "price": 2400,
+    "stats": [
+      {"title": "Уровень", "stat": 24},
+      {"title": "Скорость перезарядки", "stat": 30}
+    ]
+  },
+  {
+    "price": 2500,
+    "stats": [
+      {"title": "Уровень", "stat": 25},
+      {"title": "Скорость перезарядки", "stat": 31.25}
+    ]
+  },
+  {
+    "price": 2600,
+    "stats": [
+      {"title": "Уровень", "stat": 26},
+      {"title": "Скорость перезарядки", "stat": 32.5}
+    ]
+  },
+  {
+    "price": 2700,
+    "stats": [
+      {"title": "Уровень", "stat": 27},
+      {"title": "Скорость перезарядки", "stat": 33.75}
+    ]
+  },
+  {
+    "price": 2800,
+    "stats": [
+      {"title": "Уровень", "stat": 28},
+      {"title": "Скорость перезарядки", "stat": 35}
+    ]
+  },
+  {
+    "price": 2900,
+    "stats": [
+      {"title": "Уровень", "stat": 29},
+      {"title": "Скорость перезарядки", "stat": 36.25}
+    ]
+  },
+  {
+    "price": 3000,
+    "stats": [
+      {"title": "Уровень", "stat": 30},
+      {"title": "Скорость перезарядки", "stat": 37.5}
+    ]
+  },
+  {
+    "price": 3100,
+    "stats": [
+      {"title": "Уровень", "stat": 31},
+      {"title": "Скорость перезарядки", "stat": 38.75}
+    ]
+  },
+  {
+    "price": 3200,
+    "stats": [
+      {"title": "Уровень", "stat": 32},
+      {"title": "Скорость перезарядки", "stat": 40}
+    ]
+  },
+  {
+    "price": 3300,
+    "stats": [
+      {"title": "Уровень", "stat": 33},
+      {"title": "Скорость перезарядки", "stat": 41.25}
+    ]
+  },
+  {
+    "price": 3400,
+    "stats": [
+      {"title": "Уровень", "stat": 34},
+      {"title": "Скорость перезарядки", "stat": 42.5}
+    ]
+  },
+  {
+    "price": 3500,
+    "stats": [
+      {"title": "Уровень", "stat": 35},
+      {"title": "Скорость перезарядки", "stat": 43.75}
+    ]
+  },
+  {
+    "price": 3600,
+    "stats": [
+      {"title": "Уровень", "stat": 36},
+      {"title": "Скорость перезарядки", "stat": 44.5}
+            
+          ]
+        },
+          {
+    "price": 3700,
+    "stats": [
+      {"title": "Уровень", "stat": 37},
+      {"title": "Скорость перезарядки", "stat": 46.25}
+    ]
+  },
+  {
+    "price": 3800,
+    "stats": [
+      {"title": "Уровень", "stat": 38},
+      {"title": "Скорость перезарядки", "stat": 47.5}
+    ]
+  },
+  {
+    "price": 3900,
+    "stats": [
+      {"title": "Уровень", "stat": 39},
+      {"title": "Скорость перезарядки", "stat": 48.75}
+    ]
+  },
+  {
+    "price": 4000,
+    "stats": [
+      {"title": "Уровень", "stat": 40},
+      {"title": "Скорость перезарядки", "stat": 50}
+    ]
+  }
+]
+          ]
+        },  
+
+        "REGENERATION": {
+          "title": "Регенерация",
+          "color": {
+            "hex": "#49DF74"
+          },
+          "texture": "",
+          "levels": [
+            {
+              "price": 100,
+              "stats": [
+                {"title": "Уровень", "stat": 1},
+                {"title": "Регенерация", "stat": 5}
+              ]
+            },
+            {
+              "price": 500,
+              "stats": [
+                {"title": "Уровень", "stat": 2},
+                {"title": "Регенерация", "stat": 20}
+              ]
+            },
+            {
+              "price": 1000,
+              "stats": [
+                {"title": "Уровень", "stat": 3},
+                {"title": "Регенерация", "stat": 50}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "MAGE": {
+      "title": "Улучшение персонажа",
+      "skills": {
+        "STRENGTH": {
+          "title": "Сила",
+          "color": {
+            "hex": "#E73D4B"
+          },
+          "texture": "",
+          "levels": [{
+    "price": 100,
+    "stats": [
+      {"title": "Уровень", "stat": 1},
+      {"title": "Сила", "stat": 0.3}
+    ]
+  },
+  {
+    "price": 200,
+    "stats": [
+      {"title": "Уровень", "stat": 2},
+      {"title": "Сила", "stat": 0.6}
+    ]
+  },
+  {
+    "price": 300,
+    "stats": [
+      {"title": "Уровень", "stat": 3},
+      {"title": "Сила", "stat": 0.9}
+    ]
+  },
+  {
+    "price": 400,
+    "stats": [
+      {"title": "Уровень", "stat": 4},
+      {"title": "Сила", "stat": 1.2}
+    ]
+  },
+  {
+    "price": 500,
+    "stats": [
+      {"title": "Уровень", "stat": 5},
+      {"title": "Сила", "stat": 1.5}
+    ]
+  },
+  {
+    "price": 600,
+    "stats": [
+      {"title": "Уровень", "stat": 6},
+      {"title": "Сила", "stat": 1.8}
+    ]
+  },
+  {
+    "price": 700,
+    "stats": [
+      {"title": "Уровень", "stat": 7},
+      {"title": "Сила", "stat": 2.1}
+    ]
+  },
+  {
+    "price": 800,
+    "stats": [
+      {"title": "Уровень", "stat": 8},
+      {"title": "Сила", "stat": 2.4}
+    ]
+  },
+  {
+    "price": 900,
+    "stats": [
+      {"title": "Уровень", "stat": 9},
+      {"title": "Сила", "stat": 2.7}
+    ]
+  },
+  {
+    "price": 1000,
+    "stats": [
+      {"title": "Уровень", "stat": 10},
+      {"title": "Сила", "stat": 3.0}
+    ]
+  },
+  {
+    "price": 1100,
+    "stats": [
+      {"title": "Уровень", "stat": 11},
+      {"title": "Сила", "stat": 3.3}
+    ]
+  },
+  {
+    "price": 1200,
+    "stats": [
+      {"title": "Уровень", "stat": 12},
+      {"title": "Сила", "stat": 3.6}
+    ]
+  },
+  {
+    "price": 1300,
+    "stats": [
+      {"title": "Уровень", "stat": 13},
+      {"title": "Сила", "stat": 3.9}
+    ]
+  },
+  {
+    "price": 1400,
+    "stats": [
+      {"title": "Уровень", "stat": 14},
+      {"title": "Сила", "stat": 4.2}
+    ]
+  },
+  {
+    "price": 1500,
+    "stats": [
+      {"title": "Уровень", "stat": 15},
+      {"title": "Сила", "stat": 4.5}
+    ]
+  },
+  {
+    "price": 1600,
+    "stats": [
+      {"title": "Уровень", "stat": 16},
+      {"title": "Сила", "stat": 4.8}
+    ]
+  },
+  {
+    "price": 1700,
+    "stats": [
+      {"title": "Уровень", "stat": 17},
+      {"title": "Сила", "stat": 5.1}
+    ]
+  },
+  {
+    "price": 1800,
+    "stats": [
+      {"title": "Уровень", "stat": 18},
+      {"title": "Сила", "stat": 5.4}
+    ]
+  },
+  {
+    "price": 1900,
+    "stats": [
+      {"title": "Уровень", "stat": 19},
+      {"title": "Сила", "stat": 5.7}
+    ]
+  },
+  {
+    "price": 2000,
+    "stats": [
+      {"title": "Уровень", "stat": 20},
+      {"title": "Сила", "stat": 6.0}
+    ]
+  },
+  {
+    "price": 2100,
+    "stats": [
+      {"title": "Уровень", "stat": 21},
+      {"title": "Сила", "stat": 6.3}
+    ]
+  },
+  {
+    "price": 2200,
+    "stats": [
+      {"title": "Уровень", "stat": 22},
+      {"title": "Сила", "stat": 6.6}
+    ]
+  },
+  {
+    "price": 2300,
+    "stats": [
+      {"title": "Уровень", "stat": 23},
+      {"title": "Сила", "stat": 6.9}
+    ]
+  },
+  {
+    "price": 2400,
+    "stats": [
+      {"title": "Уровень", "stat": 24},
+      {"title": "Сила", "stat": 7.2}
+    ]
+  },
+  {
+    "price": 2500,
+    "stats": [
+      {"title": "Уровень", "stat": 25},
+      {"title": "Сила", "stat": 7.5}
+    ]
+  },
+  {
+    "price": 2600,
+    "stats": [
+      {"title": "Уровень", "stat": 26},
+      {"title": "Сила", "stat": 7.8}
+    ]
+  },
+  {
+    "price": 2700,
+    "stats": [
+      {"title": "Уровень", "stat": 27},
+      {"title": "Сила", "stat": 8.1}
+    ]
+  },
+  {
+    "price": 2800,
+    "stats": [
+      {"title": "Уровень", "stat": 28},
+      {"title": "Сила", "stat": 8.4}
+    ]
+  },
+  {
+    "price": 2900,
+    "stats": [
+      {"title": "Уровень", "stat": 29},
+      {"title": "Сила", "stat": 8.7}
+    ]
+  },
+  {
+    "price": 3000,
+    "stats": [
+      {"title": "Уровень", "stat": 30},
+      {"title": "Сила", "stat": 9.0}
+    ]
+  },
+  {
+    "price": 3100,
+    "stats": [
+      {"title": "Уровень", "stat": 31},
+      {"title": "Сила", "stat": 9.3}
+    ]
+  },
+  {
+    "price": 3200,
+    "stats": [
+      {"title": "Уровень", "stat": 32},
+      {"title": "Сила", "stat": 9.6}
+    ]
+  },
+  {
+    "price": 3300,
+    "stats": [
+      {"title": "Уровень", "stat": 33},
+      {"title": "Сила", "stat": 9.9}
+    ]
+  },
+  {
+    "price": 3400,
+    "stats": [
+      {"title": "Уровень", "stat": 34},
+      {"title": "Сила", "stat": 10.2}
+    ]
+  },
+  {
+    "price": 3500,
+    "stats": [
+      {"title": "Уровень", "stat": 35},
+      {"title": "Сила", "stat": 10.5}
+    ]
+  },
+  {
+    "price": 3600,
+    "stats": [
+      {"title": "Уровень", "stat": 36},
+      {"title": "Сила", "stat": 10.8}
+    ]
+  },
+  {
+    "price": 3700,
+    "stats": [
+      {"title": "Уровень", "stat": 37},
+      {"title": "Сила", "stat": 11.1}
+    ]
+  },
+  {
+    "price": 3800,
+    "stats": [
+      {"title": "Уровень", "stat": 38},
+      {"title": "Сила", "stat": 11.4}
+    ]
+  },
+  {
+    "price": 3900,
+    "stats": [
+      {"title": "Уровень", "stat": 39},
+      {"title": "Сила", "stat": 11.7}
+    ]
+  },
+  {  "price": 4000,
+    "stats": [
+      {"title": "Уровень", "stat": 40},
+      {"title": "Сила", "stat": 12}
+          
+          ]
+        }
+      ]   
+         },
+        "CASTING_SPEED": {
+          "title": "Скорость кастования",
+          "color": {
+            "hex": "#EFAC00"
+          },
+          "texture": "",
+          "levels": [  {
+    "price": 100,
+    "stats": [
+      {"title": "Уровень", "stat": 1},
+      {"title": "Скорость перезарядки", "stat": 1.25}
+    ]
+  },
+  {
+    "price": 200,
+    "stats": [
+      {"title": "Уровень", "stat": 2},
+      {"title": "Скорость перезарядки", "stat": 2.5}
+    ]
+  },
+  {
+    "price": 300,
+    "stats": [
+      {"title": "Уровень", "stat": 3},
+      {"title": "Скорость перезарядки", "stat": 3.75}
+    ]
+  },
+  {
+    "price": 400,
+    "stats": [
+      {"title": "Уровень", "stat": 4},
+      {"title": "Скорость перезарядки", "stat": 5}
+    ]
+  },
+  {
+    "price": 500,
+    "stats": [
+      {"title": "Уровень", "stat": 5},
+      {"title": "Скорость перезарядки", "stat": 6.25}
+    ]
+  },
+  {
+    "price": 600,
+    "stats": [
+      {"title": "Уровень", "stat": 6},
+      {"title": "Скорость перезарядки", "stat": 7.5}
+    ]
+  },
+  {
+    "price": 700,
+    "stats": [
+      {"title": "Уровень", "stat": 7},
+      {"title": "Скорость перезарядки", "stat": 8.75}
+    ]
+  },
+  {
+    "price": 800,
+    "stats": [
+      {"title": "Уровень", "stat": 8},
+      {"title": "Скорость перезарядки", "stat": 10}
+    ]
+  },
+  {
+    "price": 900,
+    "stats": [
+      {"title": "Уровень", "stat": 9},
+      {"title": "Скорость перезарядки", "stat": 11.25}
+    ]
+  },
+  {
+    "price": 1000,
+    "stats": [
+      {"title": "Уровень", "stat": 10},
+      {"title": "Скорость перезарядки", "stat": 12.5}
+    ]
+  },
+  {
+    "price": 1100,
+    "stats": [
+      {"title": "Уровень", "stat": 11},
+      {"title": "Скорость перезарядки", "stat": 13.75}
+    ]
+  },
+  {
+    "price": 1200,
+    "stats": [
+      {"title": "Уровень", "stat": 12},
+      {"title": "Скорость перезарядки", "stat": 15}
+    ]
+  },
+  {
+    "price": 1300,
+    "stats": [
+      {"title": "Уровень", "stat": 13},
+      {"title": "Скорость перезарядки", "stat": 16.25}
+    ]
+  },
+  {
+    "price": 1400,
+    "stats": [
+      {"title": "Уровень", "stat": 14},
+      {"title": "Скорость перезарядки", "stat": 17.5}
+    ]
+  },
+  {
+    "price": 1500,
+    "stats": [
+      {"title": "Уровень", "stat": 15},
+      {"title": "Скорость перезарядки", "stat": 18.75}
+    ]
+  },
+  {
+    "price": 1600,
+    "stats": [
+      {"title": "Уровень", "stat": 16},
+      {"title": "Скорость перезарядки", "stat": 20}
+    ]
+  },
+  {
+    "price": 1700,
+    "stats": [
+      {"title": "Уровень", "stat": 17},
+      {"title": "Скорость перезарядки", "stat": 21.25}
+    ]
+  },
+  {
+    "price": 1800,
+    "stats": [
+      {"title": "Уровень", "stat": 18},
+      {"title": "Скорость перезарядки", "stat": 22.5}
+    ]
+  },
+  {
+    "price": 1900,
+    "stats": [
+      {"title": "Уровень", "stat": 19},
+      {"title": "Скорость перезарядки", "stat": 23.75}
+    ]
+  },
+  {
+    "price": 2000,
+    "stats": [
+      {"title": "Уровень", "stat": 20},
+      {"title": "Скорость перезарядки", "stat": 25}
+    ]
+  },
+  {
+    "price": 2100,
+    "stats": [
+      {"title": "Уровень", "stat": 21},
+      {"title": "Скорость перезарядки", "stat": 26.25}
+    ]
+  },
+  {
+    "price": 2200,
+    "stats": [
+      {"title": "Уровень", "stat": 22},
+      {"title": "Скорость перезарядки", "stat": 27.5}
+    ]
+  },
+  {
+    "price": 2300,
+    "stats": [
+      {"title": "Уровень", "stat": 23},
+      {"title": "Скорость перезарядки", "stat": 28.75}
+    ]
+  },
+  {
+    "price": 2400,
+    "stats": [
+      {"title": "Уровень", "stat": 24},
+      {"title": "Скорость перезарядки", "stat": 30}
+    ]
+  },
+  {
+    "price": 2500,
+    "stats": [
+      {"title": "Уровень", "stat": 25},
+      {"title": "Скорость перезарядки", "stat": 31.25}
+    ]
+  },
+  {
+    "price": 2600,
+    "stats": [
+      {"title": "Уровень", "stat": 26},
+      {"title": "Скорость перезарядки", "stat": 32.5}
+    ]
+  },
+  {
+    "price": 2700,
+    "stats": [
+      {"title": "Уровень", "stat": 27},
+      {"title": "Скорость перезарядки", "stat": 33.75}
+    ]
+  },
+  {
+    "price": 2800,
+    "stats": [
+      {"title": "Уровень", "stat": 28},
+      {"title": "Скорость перезарядки", "stat": 35}
+    ]
+  },
+  {
+    "price": 2900,
+    "stats": [
+      {"title": "Уровень", "stat": 29},
+      {"title": "Скорость перезарядки", "stat": 36.25}
+    ]
+  },
+  {
+    "price": 3000,
+    "stats": [
+      {"title": "Уровень", "stat": 30},
+      {"title": "Скорость перезарядки", "stat": 37.5}
+    ]
+  },
+  {
+    "price": 3100,
+    "stats": [
+      {"title": "Уровень", "stat": 31},
+      {"title": "Скорость перезарядки", "stat": 38.75}
+    ]
+  },
+  {
+    "price": 3200,
+    "stats": [
+      {"title": "Уровень", "stat": 32},
+      {"title": "Скорость перезарядки", "stat": 40}
+    ]
+  },
+  {
+    "price": 3300,
+    "stats": [
+      {"title": "Уровень", "stat": 33},
+      {"title": "Скорость перезарядки", "stat": 41.25}
+    ]
+  },
+  {
+    "price": 3400,
+    "stats": [
+      {"title": "Уровень", "stat": 34},
+      {"title": "Скорость перезарядки", "stat": 42.5}
+    ]
+  },
+  {
+    "price": 3500,
+    "stats": [
+      {"title": "Уровень", "stat": 35},
+      {"title": "Скорость перезарядки", "stat": 43.75}
+    ]
+  },
+  {
+    "price": 3600,
+    "stats": [
+      {"title": "Уровень", "stat": 36},
+      {"title": "Скорость перезарядки", "stat": 45}
+            
+          ]
+            },
+              {
+    "price": 3700,
+    "stats": [
+      {"title": "Уровень", "stat": 37},
+      {"title": "Скорость перезарядки", "stat": 46.25}
+    ]
+  },
+  {
+    "price": 3800,
+    "stats": [
+      {"title": "Уровень", "stat": 38},
+      {"title": "Скорость перезарядки", "stat": 47.5}
+    ]
+  },
+  {
+    "price": 3900,
+    "stats": [
+      {"title": "Уровень", "stat": 39},
+      {"title": "Скорость перезарядки", "stat": 48.75}
+    ]
+  },
+  {
+    "price": 4000,
+    "stats": [
+      {"title": "Уровень", "stat": 40},
+      {"title": "Скорость перезарядки", "stat": 50}
+    ]
+  }
+          ] 
         },
         "REGENERATION": {
           "title": "Регенерация",
@@ -336,22 +1107,22 @@
             {
               "price": 100,
               "stats": [
-                {"title": "Уровень", "stat": 1, "readableStat": "1"},
-                {"title": "Регенерация", "stat": 5, "readableStat": "5"}
+                {"title": "Уровень", "stat": 1},
+                {"title": "Регенерация", "stat": 5}
               ]
             },
             {
               "price": 500,
               "stats": [
-                {"title": "Уровень", "stat": 2, "readableStat": "2"},
-                {"title": "Регенерация", "stat": 20, "readableStat": "20"}
+                {"title": "Уровень", "stat": 2},
+                {"title": "Регенерация", "stat": 20}
               ]
             },
             {
               "price": 1000,
               "stats": [
-                {"title": "Уровень", "stat": 3, "readableStat": "3"},
-                {"title": "Регенерация", "stat": 5, "readableStat": "50"}
+                {"title": "Уровень", "stat": 3},
+                {"title": "Регенерация", "stat": 50}
               ]
             }
           ]
