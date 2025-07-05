@@ -3,19 +3,17 @@
     "MAXIM": {
       "parts": [
         {
-          "text": "Квест 1: Убей 5 Теневых Разведчиков",
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 5
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "SHADOW_SCOUT",
-                  "count": 5
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 50 true"
-              ],
               "fallbackPart": 1,
               "nextPart": 2
             },
@@ -39,35 +37,28 @@
               "text": "Далее",
               "nextPart": 3
             }
+          ],
+          "rewards": [
+            "earn-money %player% 50 true"
           ]
         },
         {
-          "text": "Квест 2: Убей 7 Теневых Разведчиков",
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 7
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "SHADOW_SCOUT",
-                  "count": 7
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 75 true"
-              ],
-              "fallbackPart": 4,
+              "fallbackPart": 1,
               "nextPart": 5
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -78,35 +69,28 @@
               "text": "Далее",
               "nextPart": 6
             }
+          ],
+          "rewards": [
+            "earn-money %player% 75 true"
           ]
         },
         {
-          "text": "Квест 3: Убей 9 Теневых Разведчиков",
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 9
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "SHADOW_SCOUT",
-                  "count": 9
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 100 true"
-              ],
-              "fallbackPart": 7,
+              "fallbackPart": 1,
               "nextPart": 8
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -117,35 +101,28 @@
               "text": "Далее",
               "nextPart": 9
             }
+          ],
+          "rewards": [
+            "earn-money %player% 100 true"
           ]
         },
         {
-          "text": "Квест 4: Убей 11 Теневых Разведчиков",
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 11
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "SHADOW_SCOUT",
-                  "count": 11
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 125 true"
-              ],
-              "fallbackPart": 10,
+              "fallbackPart": 1,
               "nextPart": 11
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -156,35 +133,28 @@
               "text": "Далее",
               "nextPart": 12
             }
+          ],
+          "rewards": [
+            "earn-money %player% 125 true"
           ]
         },
         {
-          "text": "Квест 5: Убей 13 Теневых Разведчиков",
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 13
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "SHADOW_SCOUT",
-                  "count": 13
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 150 true"
-              ],
-              "fallbackPart": 13,
+              "fallbackPart": 1,
               "nextPart": 14
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -195,35 +165,28 @@
               "text": "Далее",
               "nextPart": 15
             }
+          ],
+          "rewards": [
+            "earn-money %player% 150 true"
           ]
         },
         {
-          "text": "Квест 6: Убей 15 Теневых Разведчиков",
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 15
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "SHADOW_SCOUT",
-                  "count": 15
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 175 true"
-              ],
-              "fallbackPart": 16,
+              "fallbackPart": 1,
               "nextPart": 17
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -234,35 +197,28 @@
               "text": "Далее",
               "nextPart": 18
             }
+          ],
+          "rewards": [
+            "earn-money %player% 175 true"
           ]
         },
         {
-          "text": "Квест 7: Убей 17 Теневых Разведчиков",
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 17
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "SHADOW_SCOUT",
-                  "count": 17
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 200 true"
-              ],
-              "fallbackPart": 19,
+              "fallbackPart": 1,
               "nextPart": 20
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -273,35 +229,28 @@
               "text": "Далее",
               "nextPart": 21
             }
+          ],
+          "rewards": [
+            "earn-money %player% 200 true"
           ]
         },
         {
-          "text": "Квест 8: Убей 19 Теневых Разведчиков",
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 19
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "SHADOW_SCOUT",
-                  "count": 19
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 225 true"
-              ],
-              "fallbackPart": 22,
+              "fallbackPart": 1,
               "nextPart": 23
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -312,39 +261,28 @@
               "text": "Далее",
               "nextPart": 24
             }
+          ],
+          "rewards": [
+            "earn-money %player% 225 true"
           ]
         },
         {
-          "text": "Квест 9: Убей 21 Теневых Разведчиков и 1 Ассасина Ночи",
+          "text": "Убей %s/%s Ассасина Ночи",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "NIGHT_ASSASSIN",
+              "required": 1
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "SHADOW_SCOUT",
-                  "count": 21
-                },
-                {
-                  "mobType": "NIGHT_ASSASSIN",
-                  "count": 1
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 250 true"
-              ],
-              "fallbackPart": 25,
+              "fallbackPart": 1,
               "nextPart": 26
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -355,35 +293,28 @@
               "text": "Далее",
               "nextPart": 27
             }
+          ],
+          "rewards": [
+            "earn-money %player% 250 true"
           ]
         },
         {
-          "text": "Квест 10: Убей 5 Призрачных Наблюдателей",
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 5
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "GHOST_OBSERVER",
-                  "count": 5
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 275 true"
-              ],
-              "fallbackPart": 28,
+              "fallbackPart": 1,
               "nextPart": 29
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -394,35 +325,28 @@
               "text": "Далее",
               "nextPart": 30
             }
+          ],
+          "rewards": [
+            "earn-money %player% 275 true"
           ]
         },
         {
-          "text": "Квест 11: Убей 7 Призрачных Наблюдателей",
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 7
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "GHOST_OBSERVER",
-                  "count": 7
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 300 true"
-              ],
-              "fallbackPart": 31,
+              "fallbackPart": 1,
               "nextPart": 32
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -433,35 +357,28 @@
               "text": "Далее",
               "nextPart": 33
             }
+          ],
+          "rewards": [
+            "earn-money %player% 300 true"
           ]
         },
         {
-          "text": "Квест 12: Убей 9 Призрачных Наблюдателей",
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 9
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "GHOST_OBSERVER",
-                  "count": 9
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 325 true"
-              ],
-              "fallbackPart": 34,
+              "fallbackPart": 1,
               "nextPart": 35
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -472,35 +389,28 @@
               "text": "Далее",
               "nextPart": 36
             }
+          ],
+          "rewards": [
+            "earn-money %player% 325 true"
           ]
         },
         {
-          "text": "Квест 13: Убей 11 Призрачных Наблюдателей",
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 11
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "GHOST_OBSERVER",
-                  "count": 11
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 350 true"
-              ],
-              "fallbackPart": 37,
+              "fallbackPart": 1,
               "nextPart": 38
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -511,35 +421,28 @@
               "text": "Далее",
               "nextPart": 39
             }
+          ],
+          "rewards": [
+            "earn-money %player% 350 true"
           ]
         },
         {
-          "text": "Квест 14: Убей 13 Призрачных Наблюдателей",
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 13
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "GHOST_OBSERVER",
-                  "count": 13
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 375 true"
-              ],
-              "fallbackPart": 40,
+              "fallbackPart": 1,
               "nextPart": 41
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -550,35 +453,28 @@
               "text": "Далее",
               "nextPart": 42
             }
+          ],
+          "rewards": [
+            "earn-money %player% 375 true"
           ]
         },
         {
-          "text": "Квест 15: Убей 15 Призрачных Наблюдателей",
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 15
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "GHOST_OBSERVER",
-                  "count": 15
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 400 true"
-              ],
-              "fallbackPart": 43,
+              "fallbackPart": 1,
               "nextPart": 44
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -589,35 +485,28 @@
               "text": "Далее",
               "nextPart": 45
             }
+          ],
+          "rewards": [
+            "earn-money %player% 400 true"
           ]
         },
         {
-          "text": "Квест 16: Убей 17 Призрачных Наблюдателей",
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 17
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "GHOST_OBSERVER",
-                  "count": 17
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 425 true"
-              ],
-              "fallbackPart": 46,
+              "fallbackPart": 1,
               "nextPart": 47
             },
             {
               "text": "Я вернусь позже."
-            }
-          ]
-        },
-        {
-          "text": "Ты ещё не выполнил задание!",
-          "answers": [
-            {
-              "text": "Понял, ухожу."
             }
           ]
         },
@@ -628,27 +517,24 @@
               "text": "Далее",
               "nextPart": 48
             }
+          ],
+          "rewards": [
+            "earn-money %player% 425 true"
           ]
         },
         {
-          "text": "Квест 17: Убей 19 Призрачных Наблюдателей и 1 Стрелка из Тумана",
+          "text": "Убей %s/%s Призрачных Наблюдателей ",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 19
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
-              "requirements": [
-                {
-                  "mobType": "GHOST_OBSERVER",
-                  "count": 19
-                },
-                {
-                  "mobType": "FOG_SHOOTER",
-                  "count": 1
-                }
-              ],
-              "rewards": [
-                "earn-money %player% 450 true"
-              ],
-              "fallbackPart": 49,
+              "fallbackPart": 1,
               "nextPart": 50
             },
             {
@@ -657,19 +543,46 @@
           ]
         },
         {
-          "text": "Ты ещё не выполнил задание!",
+          "text": "Отлично! Задание 17 выполнено.",
+          "answers": [
+           {
+              "text": "Далее",
+              "nextPart": 50
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 450 true"
+          ]
+        },
+         {
+          "text": "Убей %s/%s стрелка из тумана",
+           "requirements": [
+             {
+               "use": "mob",
+               "type": "FOG_SHOOTER",
+               "required": 1
+             }
+           ],
           "answers": [
             {
-              "text": "Понял, ухожу."
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 52
+            },
+            {
+              "text": "Я вернусь позже."
             }
           ]
         },
         {
-          "text": "Отлично! Задание 17 выполнено.",
+          "text": "Отлично! Задание 18 выполнено.",
           "answers": [
             {
               "text": "Спасибо!"
             }
+          ],
+          "rewards": [
+            "earn-money %player% 500 true"
           ]
         }
       ]

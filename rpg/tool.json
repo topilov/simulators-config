@@ -1,50 +1,69 @@
 {
+  "messages": {
+    "maxLevel": "rpg.tool.axe.messages.max-level",
+    "sell": "rpg.items.message.sell",
+    "hold": "rpg.items.message.hold",
+    "cannot": "rpg.items.message.cannot"
+  },
   "tools": {
     "DEFAULT_SWORD": {
-      "type": "WOOD_SWORD",
+      "type": "DEFAULT_SWORD",
+      "material": "WOOD_SWORD",
       "title": "Обычный меч",
+      "rawTitle": "Обычный меч",
       "description": "Описание",
       "rare": "COMMON",
       "maxLevel": 5,
       "levels": {
-        "1": {"price": 100},
-        "2": {"price": 1000},
-        "3": {"price": 10000},
-        "4": {"price": 100000},
-        "5": {"price": 1000000}
+        "1": {"price": 100, "damage": 1.0},
+        "2": {"price": 1000, "damage": 2.0},
+        "3": {"price": 10000, "damage": 3.0},
+        "4": {"price": 100000,"damage": 4.0},
+        "5": {"price": 1000000, "damage": 5.0}
       }
     },
     "DEFAULT_KNIFE": {
-      "type": "STONE_SWORD",
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
       "title": "Обычный кинжал",
+      "rawTitle": "Обычный кинжал",
       "description": "Описание",
       "rare": "COMMON",
       "maxLevel": 5,
       "levels": {
-        "1": {"price": 100},
-        "2": {"price": 1000},
-        "3": {"price": 10000},
-        "4": {"price": 100000},
-        "5": {"price": 1000000}
+        "1": {"price": 100, "damage": 1.0},
+        "2": {"price": 1000, "damage": 2.0},
+        "3": {"price": 10000, "damage": 3.0},
+        "4": {"price": 100000,"damage": 4.0},
+        "5": {"price": 1000000, "damage": 5.0}
       }
     },
     "DEFAULT_BOW": {
-      "type": "BOW",
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
       "title": "Обычный лук",
+      "rawTitle": "Обычный лук",
       "description": "Описание",
       "rare": "COMMON",
       "maxLevel": 5,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      },
       "levels": {
-        "1": {"price": 100},
-        "2": {"price": 1000},
-        "3": {"price": 10000},
-        "4": {"price": 100000},
-        "5": {"price": 1000000}
+        "1": {"price": 100, "damage": 1.0},
+        "2": {"price": 1000, "damage": 2.0},
+        "3": {"price": 10000, "damage": 3.0},
+        "4": {"price": 100000,"damage": 4.0},
+        "5": {"price": 1000000, "damage": 5.0}
       }
     },
     "DEFAULT_STAFF": {
-      "type": "CLAY_BALL",
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
       "title": "Обычный посох",
+      "rawTitle": "Обычный посох",
       "description": "Описание",
       "rare": "COMMON",
       "maxLevel": 5,
@@ -54,11 +73,11 @@
         "cooldown": 40
       },
       "levels": {
-        "1": {"price": 100},
-        "2": {"price": 1000},
-        "3": {"price": 10000},
-        "4": {"price": 100000},
-        "5": {"price": 1000000}
+        "1": {"price": 100, "damage": 1.0},
+        "2": {"price": 1000, "damage": 2.0},
+        "3": {"price": 10000, "damage": 3.0},
+        "4": {"price": 100000,"damage": 4.0},
+        "5": {"price": 1000000, "damage": 5.0}
       }
     }
   }
