@@ -10,6 +10,7 @@
           },
           "texture": "",
           "levels": [
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Сила","stat":0,"readableStat":"0"}]},
               {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Сила","stat":0.3,"readableStat":"0.3"}]},
               {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Сила","stat":0.6,"readableStat":"0.6"}]},
               {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Сила","stat":0.9,"readableStat":"0.9"}]},
@@ -59,8 +60,7 @@
               {"price":4700,"stats":[{"title":"Уровень","stat":47,"readableStat":"47"},{"title":"Сила","stat":14.1,"readableStat":"14.1"}]},
               {"price":4800,"stats":[{"title":"Уровень","stat":48,"readableStat":"48"},{"title":"Сила","stat":14.4,"readableStat":"14.4"}]},
               {"price":4900,"stats":[{"title":"Уровень","stat":49,"readableStat":"49"},{"title":"Сила","stat":14.7,"readableStat":"14.7"}]},
-              {"price":5000,"stats":[{"title":"Уровень","stat":50,"readableStat":"50"},{"title":"Сила","stat":15.0,"readableStat":"15.0"}]},
-            {}
+              {"price":5000,"stats":[{"title":"Уровень","stat":50,"readableStat":"50"},{"title":"Сила","stat":15.0,"readableStat":"15.0"}]}
           ]
         },
         "HEALTH": {
@@ -70,6 +70,7 @@
           },
           "texture": "",
           "levels": [
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Здоровье","stat":0,"readableStat":"0"}]},
               {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Здоровье","stat":1,"readableStat":"1"}]},
               {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Здоровье","stat":2,"readableStat":"2"}]},
               {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Здоровье","stat":3,"readableStat":"3"}]},
@@ -119,9 +120,8 @@
               {"price":4700,"stats":[{"title":"Уровень","stat":47,"readableStat":"47"},{"title":"Здоровье","stat":47,"readableStat":"47"}]},
               {"price":4800,"stats":[{"title":"Уровень","stat":48,"readableStat":"48"},{"title":"Здоровье","stat":48,"readableStat":"48"}]},
               {"price":4900,"stats":[{"title":"Уровень","stat":49,"readableStat":"49"},{"title":"Здоровье","stat":49,"readableStat":"49"}]},
-              {"price":5000,"stats":[{"title":"Уровень","stat":50,"readableStat":"50"},{"title":"Здоровье","stat":50,"readableStat":"50"}]},
-            {}
-          ],
+              {"price":5000,"stats":[{"title":"Уровень","stat":50,"readableStat":"50"},{"title":"Здоровье","stat":50,"readableStat":"50"}]}
+           ],
           "onUpgrade": [
             "add-max-health %player% %stat%"
           ]
@@ -138,6 +138,7 @@
           },
           "texture": "",
           "levels": [
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Вампиризм","stat":0,"readableStat":"0"}]},
               {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Вампиризм","stat":0.1,"readableStat":"0.1"}]},
               {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Вампиризм","stat":0.2,"readableStat":"0.2"}]},
               {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Вампиризм","stat":0.3,"readableStat":"0.3"}]},
@@ -177,8 +178,7 @@
               {"price":3700,"stats":[{"title":"Уровень","stat":37,"readableStat":"37"},{"title":"Вампиризм","stat":3.7,"readableStat":"3.7"}]},
               {"price":3800,"stats":[{"title":"Уровень","stat":38,"readableStat":"38"},{"title":"Вампиризм","stat":3.8,"readableStat":"3.8"}]},
               {"price":3900,"stats":[{"title":"Уровень","stat":39,"readableStat":"39"},{"title":"Вампиризм","stat":3.9,"readableStat":"3.9"}]},
-              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Вампиризм","stat":4.0,"readableStat":"4.0"}]},
-            {}
+              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Вампиризм","stat":4.0,"readableStat":"4.0"}]}
           ]
         },
         "SPEED": {
@@ -188,27 +188,27 @@
           },
           "texture": "",
           "levels": [
-              {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Скорость","stat":0.002,"readableStat":"1.00%"}]},
-              {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Скорость","stat":0.004,"readableStat":"2.00%"}]},
-              {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Скорость","stat":0.006,"readableStat":"3.00%"}]},
-              {"price":400,"stats":[{"title":"Уровень","stat":4,"readableStat":"4"},{"title":"Скорость","stat":0.008,"readableStat":"4.00%"}]},
-              {"price":500,"stats":[{"title":"Уровень","stat":5,"readableStat":"5"},{"title":"Скорость","stat":0.01,"readableStat":"5.00%"}]},
-              {"price":600,"stats":[{"title":"Уровень","stat":6,"readableStat":"6"},{"title":"Скорость","stat":0.012,"readableStat":"6"}]},
-              {"price":700,"stats":[{"title":"Уровень","stat":7,"readableStat":"7"},{"title":"Скорость","stat":0.014,"readableStat":"7"}]},
-              {"price":800,"stats":[{"title":"Уровень","stat":8,"readableStat":"8"},{"title":"Скорость","stat":0.016,"readableStat":"8"}]},
-              {"price":900,"stats":[{"title":"Уровень","stat":9,"readableStat":"9"},{"title":"Скорость","stat":0.018,"readableStat":"9"}]},
-              {"price":1000,"stats":[{"title":"Уровень","stat":10,"readableStat":"10"},{"title":"Скорость","stat":0.02,"readableStat":"10"}]},
-              {"price":1100,"stats":[{"title":"Уровень","stat":11,"readableStat":"11"},{"title":"Скорость","stat":0.022,"readableStat":"11"}]},
-              {"price":1200,"stats":[{"title":"Уровень","stat":12,"readableStat":"12"},{"title":"Скорость","stat":0.024,"readableStat":"12"}]},
-              {"price":1300,"stats":[{"title":"Уровень","stat":13,"readableStat":"13"},{"title":"Скорость","stat":0.026,"readableStat":"13"}]},
-              {"price":1400,"stats":[{"title":"Уровень","stat":14,"readableStat":"14"},{"title":"Скорость","stat":0.028,"readableStat":"14"}]},
-              {"price":1500,"stats":[{"title":"Уровень","stat":15,"readableStat":"15"},{"title":"Скорость","stat":0.03,"readableStat":"15"}]},
-              {"price":1600,"stats":[{"title":"Уровень","stat":16,"readableStat":"16"},{"title":"Скорость","stat":0.032,"readableStat":"16"}]},
-              {"price":1700,"stats":[{"title":"Уровень","stat":17,"readableStat":"17"},{"title":"Скорость","stat":0.034,"readableStat":"17"}]},
-              {"price":1800,"stats":[{"title":"Уровень","stat":18,"readableStat":"18"},{"title":"Скорость","stat":0.036,"readableStat":"18"}]},
-              {"price":1900,"stats":[{"title":"Уровень","stat":19,"readableStat":"19"},{"title":"Скорость","stat":0.038,"readableStat":"19"}]},
-              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Скорость","stat":0.04,"readableStat":"20"}]},
-            {}
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Скорость","stat":0,"readableStat":"0%"}]},
+              {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Скорость","stat":0.002,"readableStat":"1%"}]},
+              {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Скорость","stat":0.004,"readableStat":"2%"}]},
+              {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Скорость","stat":0.006,"readableStat":"3%"}]},
+              {"price":400,"stats":[{"title":"Уровень","stat":4,"readableStat":"4"},{"title":"Скорость","stat":0.008,"readableStat":"4%"}]},
+              {"price":500,"stats":[{"title":"Уровень","stat":5,"readableStat":"5"},{"title":"Скорость","stat":0.01,"readableStat":"5%"}]},
+              {"price":600,"stats":[{"title":"Уровень","stat":6,"readableStat":"6"},{"title":"Скорость","stat":0.012,"readableStat":"6%"}]},
+              {"price":700,"stats":[{"title":"Уровень","stat":7,"readableStat":"7"},{"title":"Скорость","stat":0.014,"readableStat":"7%"}]},
+              {"price":800,"stats":[{"title":"Уровень","stat":8,"readableStat":"8"},{"title":"Скорость","stat":0.016,"readableStat":"8%"}]},
+              {"price":900,"stats":[{"title":"Уровень","stat":9,"readableStat":"9"},{"title":"Скорость","stat":0.018,"readableStat":"9%"}]},
+              {"price":1000,"stats":[{"title":"Уровень","stat":10,"readableStat":"10"},{"title":"Скорость","stat":0.02,"readableStat":"10%"}]},
+              {"price":1100,"stats":[{"title":"Уровень","stat":11,"readableStat":"11"},{"title":"Скорость","stat":0.022,"readableStat":"11%"}]},
+              {"price":1200,"stats":[{"title":"Уровень","stat":12,"readableStat":"12"},{"title":"Скорость","stat":0.024,"readableStat":"12%"}]},
+              {"price":1300,"stats":[{"title":"Уровень","stat":13,"readableStat":"13"},{"title":"Скорость","stat":0.026,"readableStat":"13%"}]},
+              {"price":1400,"stats":[{"title":"Уровень","stat":14,"readableStat":"14"},{"title":"Скорость","stat":0.028,"readableStat":"14%"}]},
+              {"price":1500,"stats":[{"title":"Уровень","stat":15,"readableStat":"15"},{"title":"Скорость","stat":0.03,"readableStat":"15%"}]},
+              {"price":1600,"stats":[{"title":"Уровень","stat":16,"readableStat":"16"},{"title":"Скорость","stat":0.032,"readableStat":"16%"}]},
+              {"price":1700,"stats":[{"title":"Уровень","stat":17,"readableStat":"17"},{"title":"Скорость","stat":0.034,"readableStat":"1%"}]},
+              {"price":1800,"stats":[{"title":"Уровень","stat":18,"readableStat":"18"},{"title":"Скорость","stat":0.036,"readableStat":"18%"}]},
+              {"price":1900,"stats":[{"title":"Уровень","stat":19,"readableStat":"19"},{"title":"Скорость","stat":0.038,"readableStat":"19%"}]},
+              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Скорость","stat":0.04,"readableStat":"20%"}]}
           ],
           "onUpgrade": [
             "add-speed %player% %stat%"
@@ -221,47 +221,47 @@
           },
           "texture": "",
           "levels": [
-              {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Уклонение","stat":0.75,"readableStat":"0.75"}]},
-              {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Уклонение","stat":1.5,"readableStat":"1.5"}]},
-              {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Уклонение","stat":2.25,"readableStat":"2.25"}]},
-              {"price":400,"stats":[{"title":"Уровень","stat":4,"readableStat":"4"},{"title":"Уклонение","stat":3.0,"readableStat":"3"}]},
-              {"price":500,"stats":[{"title":"Уровень","stat":5,"readableStat":"5"},{"title":"Уклонение","stat":3.75,"readableStat":"3.75"}]},
-              {"price":600,"stats":[{"title":"Уровень","stat":6,"readableStat":"6"},{"title":"Уклонение","stat":4.5,"readableStat":"4.5"}]},
-              {"price":700,"stats":[{"title":"Уровень","stat":7,"readableStat":"7"},{"title":"Уклонение","stat":5.25,"readableStat":"5.25"}]},
-              {"price":800,"stats":[{"title":"Уровень","stat":8,"readableStat":"8"},{"title":"Уклонение","stat":6.0,"readableStat":"6"}]},
-              {"price":900,"stats":[{"title":"Уровень","stat":9,"readableStat":"9"},{"title":"Уклонение","stat":6.75,"readableStat":"6.75"}]},
-              {"price":1000,"stats":[{"title":"Уровень","stat":10,"readableStat":"10"},{"title":"Уклонение","stat":7.5,"readableStat":"7.5"}]},
-              {"price":1100,"stats":[{"title":"Уровень","stat":11,"readableStat":"11"},{"title":"Уклонение","stat":8.25,"readableStat":"8.25"}]},
-              {"price":1200,"stats":[{"title":"Уровень","stat":12,"readableStat":"12"},{"title":"Уклонение","stat":9.0,"readableStat":"9"}]},
-              {"price":1300,"stats":[{"title":"Уровень","stat":13,"readableStat":"13"},{"title":"Уклонение","stat":9.75,"readableStat":"9.75"}]},
-              {"price":1400,"stats":[{"title":"Уровень","stat":14,"readableStat":"14"},{"title":"Уклонение","stat":10.5,"readableStat":"10.5"}]},
-              {"price":1500,"stats":[{"title":"Уровень","stat":15,"readableStat":"15"},{"title":"Уклонение","stat":11.25,"readableStat":"11.25"}]},
-              {"price":1600,"stats":[{"title":"Уровень","stat":16,"readableStat":"16"},{"title":"Уклонение","stat":12.0,"readableStat":"12"}]},
-              {"price":1700,"stats":[{"title":"Уровень","stat":17,"readableStat":"17"},{"title":"Уклонение","stat":12.75,"readableStat":"12.75"}]},
-              {"price":1800,"stats":[{"title":"Уровень","stat":18,"readableStat":"18"},{"title":"Уклонение","stat":13.5,"readableStat":"13.5"}]},
-              {"price":1900,"stats":[{"title":"Уровень","stat":19,"readableStat":"19"},{"title":"Уклонение","stat":14.25,"readableStat":"14.25"}]},
-              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Уклонение","stat":15.0,"readableStat":"15"}]},
-              {"price":2100,"stats":[{"title":"Уровень","stat":21,"readableStat":"21"},{"title":"Уклонение","stat":15.75,"readableStat":"15.75"}]},
-              {"price":2200,"stats":[{"title":"Уровень","stat":22,"readableStat":"22"},{"title":"Уклонение","stat":16.5,"readableStat":"16.5"}]},
-              {"price":2300,"stats":[{"title":"Уровень","stat":23,"readableStat":"23"},{"title":"Уклонение","stat":17.25,"readableStat":"17.25"}]},
-              {"price":2400,"stats":[{"title":"Уровень","stat":24,"readableStat":"24"},{"title":"Уклонение","stat":18.0,"readableStat":"18"}]},
-              {"price":2500,"stats":[{"title":"Уровень","stat":25,"readableStat":"25"},{"title":"Уклонение","stat":18.75,"readableStat":"18.75"}]},
-              {"price":2600,"stats":[{"title":"Уровень","stat":26,"readableStat":"26"},{"title":"Уклонение","stat":19.5,"readableStat":"19.5"}]},
-              {"price":2700,"stats":[{"title":"Уровень","stat":27,"readableStat":"27"},{"title":"Уклонение","stat":20.25,"readableStat":"20.25"}]},
-              {"price":2800,"stats":[{"title":"Уровень","stat":28,"readableStat":"28"},{"title":"Уклонение","stat":21.0,"readableStat":"21"}]},
-              {"price":2900,"stats":[{"title":"Уровень","stat":29,"readableStat":"29"},{"title":"Уклонение","stat":21.75,"readableStat":"21.75"}]},
-              {"price":3000,"stats":[{"title":"Уровень","stat":30,"readableStat":"30"},{"title":"Уклонение","stat":22.5,"readableStat":"22.5"}]},
-              {"price":3100,"stats":[{"title":"Уровень","stat":31,"readableStat":"31"},{"title":"Уклонение","stat":23.25,"readableStat":"23.25"}]},
-              {"price":3200,"stats":[{"title":"Уровень","stat":32,"readableStat":"32"},{"title":"Уклонение","stat":24.0,"readableStat":"24"}]},
-              {"price":3300,"stats":[{"title":"Уровень","stat":33,"readableStat":"33"},{"title":"Уклонение","stat":24.75,"readableStat":"24.75"}]},
-              {"price":3400,"stats":[{"title":"Уровень","stat":34,"readableStat":"34"},{"title":"Уклонение","stat":25.5,"readableStat":"25.5"}]},
-              {"price":3500,"stats":[{"title":"Уровень","stat":35,"readableStat":"35"},{"title":"Уклонение","stat":26.25,"readableStat":"26.25"}]},
-              {"price":3600,"stats":[{"title":"Уровень","stat":36,"readableStat":"36"},{"title":"Уклонение","stat":27.0,"readableStat":"27"}]},
-              {"price":3700,"stats":[{"title":"Уровень","stat":37,"readableStat":"37"},{"title":"Уклонение","stat":27.75,"readableStat":"27.75"}]},
-              {"price":3800,"stats":[{"title":"Уровень","stat":38,"readableStat":"38"},{"title":"Уклонение","stat":28.5,"readableStat":"28.5"}]},
-              {"price":3900,"stats":[{"title":"Уровень","stat":39,"readableStat":"39"},{"title":"Уклонение","stat":29.25,"readableStat":"29.25"}]},
-              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Уклонение","stat":30.0,"readableStat":"30"}]},
-            {}
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Уклонение","stat":0,"readableStat":"0%"}]},
+              {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Уклонение","stat":0.75,"readableStat":"0.75%"}]},
+              {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Уклонение","stat":1.5,"readableStat":"1.5%"}]},
+              {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Уклонение","stat":2.25,"readableStat":"2.25%"}]},
+              {"price":400,"stats":[{"title":"Уровень","stat":4,"readableStat":"4"},{"title":"Уклонение","stat":3.0,"readableStat":"3%"}]},
+              {"price":500,"stats":[{"title":"Уровень","stat":5,"readableStat":"5"},{"title":"Уклонение","stat":3.75,"readableStat":"3.75%"}]},
+              {"price":600,"stats":[{"title":"Уровень","stat":6,"readableStat":"6"},{"title":"Уклонение","stat":4.5,"readableStat":"4.5%"}]},
+              {"price":700,"stats":[{"title":"Уровень","stat":7,"readableStat":"7"},{"title":"Уклонение","stat":5.25,"readableStat":"5.25%"}]},
+              {"price":800,"stats":[{"title":"Уровень","stat":8,"readableStat":"8"},{"title":"Уклонение","stat":6.0,"readableStat":"6%"}]},
+              {"price":900,"stats":[{"title":"Уровень","stat":9,"readableStat":"9"},{"title":"Уклонение","stat":6.75,"readableStat":"6.75%"}]},
+              {"price":1000,"stats":[{"title":"Уровень","stat":10,"readableStat":"10"},{"title":"Уклонение","stat":7.5,"readableStat":"7.5%"}]},
+              {"price":1100,"stats":[{"title":"Уровень","stat":11,"readableStat":"11"},{"title":"Уклонение","stat":8.25,"readableStat":"8.25%"}]},
+              {"price":1200,"stats":[{"title":"Уровень","stat":12,"readableStat":"12"},{"title":"Уклонение","stat":9.0,"readableStat":"9%"}]},
+              {"price":1300,"stats":[{"title":"Уровень","stat":13,"readableStat":"13"},{"title":"Уклонение","stat":9.75,"readableStat":"9.75%"}]},
+              {"price":1400,"stats":[{"title":"Уровень","stat":14,"readableStat":"14"},{"title":"Уклонение","stat":10.5,"readableStat":"10.5%"}]},
+              {"price":1500,"stats":[{"title":"Уровень","stat":15,"readableStat":"15"},{"title":"Уклонение","stat":11.25,"readableStat":"11.25%"}]},
+              {"price":1600,"stats":[{"title":"Уровень","stat":16,"readableStat":"16"},{"title":"Уклонение","stat":12.0,"readableStat":"12%"}]},
+              {"price":1700,"stats":[{"title":"Уровень","stat":17,"readableStat":"17"},{"title":"Уклонение","stat":12.75,"readableStat":"12.75%"}]},
+              {"price":1800,"stats":[{"title":"Уровень","stat":18,"readableStat":"18"},{"title":"Уклонение","stat":13.5,"readableStat":"13.5%"}]},
+              {"price":1900,"stats":[{"title":"Уровень","stat":19,"readableStat":"19"},{"title":"Уклонение","stat":14.25,"readableStat":"14.25%"}]},
+              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Уклонение","stat":15.0,"readableStat":"15%"}]},
+              {"price":2100,"stats":[{"title":"Уровень","stat":21,"readableStat":"21"},{"title":"Уклонение","stat":15.75,"readableStat":"15.75%"}]},
+              {"price":2200,"stats":[{"title":"Уровень","stat":22,"readableStat":"22"},{"title":"Уклонение","stat":16.5,"readableStat":"16.5%"}]},
+              {"price":2300,"stats":[{"title":"Уровень","stat":23,"readableStat":"23"},{"title":"Уклонение","stat":17.25,"readableStat":"17.25%"}]},
+              {"price":2400,"stats":[{"title":"Уровень","stat":24,"readableStat":"24"},{"title":"Уклонение","stat":18.0,"readableStat":"18%"}]},
+              {"price":2500,"stats":[{"title":"Уровень","stat":25,"readableStat":"25"},{"title":"Уклонение","stat":18.75,"readableStat":"18.75%"}]},
+              {"price":2600,"stats":[{"title":"Уровень","stat":26,"readableStat":"26"},{"title":"Уклонение","stat":19.5,"readableStat":"19.5%"}]},
+              {"price":2700,"stats":[{"title":"Уровень","stat":27,"readableStat":"27"},{"title":"Уклонение","stat":20.25,"readableStat":"20.25%"}]},
+              {"price":2800,"stats":[{"title":"Уровень","stat":28,"readableStat":"28"},{"title":"Уклонение","stat":21.0,"readableStat":"21%"}]},
+              {"price":2900,"stats":[{"title":"Уровень","stat":29,"readableStat":"29"},{"title":"Уклонение","stat":21.75,"readableStat":"21.75%"}]},
+              {"price":3000,"stats":[{"title":"Уровень","stat":30,"readableStat":"30"},{"title":"Уклонение","stat":22.5,"readableStat":"22.5%"}]},
+              {"price":3100,"stats":[{"title":"Уровень","stat":31,"readableStat":"31"},{"title":"Уклонение","stat":23.25,"readableStat":"23.25%"}]},
+              {"price":3200,"stats":[{"title":"Уровень","stat":32,"readableStat":"32"},{"title":"Уклонение","stat":24.0,"readableStat":"24%"}]},
+              {"price":3300,"stats":[{"title":"Уровень","stat":33,"readableStat":"33"},{"title":"Уклонение","stat":24.75,"readableStat":"24.75%"}]},
+              {"price":3400,"stats":[{"title":"Уровень","stat":34,"readableStat":"34"},{"title":"Уклонение","stat":25.5,"readableStat":"25.5%"}]},
+              {"price":3500,"stats":[{"title":"Уровень","stat":35,"readableStat":"35"},{"title":"Уклонение","stat":26.25,"readableStat":"26.25%"}]},
+              {"price":3600,"stats":[{"title":"Уровень","stat":36,"readableStat":"36"},{"title":"Уклонение","stat":27.0,"readableStat":"27%"}]},
+              {"price":3700,"stats":[{"title":"Уровень","stat":37,"readableStat":"37"},{"title":"Уклонение","stat":27.75,"readableStat":"27.75%"}]},
+              {"price":3800,"stats":[{"title":"Уровень","stat":38,"readableStat":"38"},{"title":"Уклонение","stat":28.5,"readableStat":"28.5%"}]},
+              {"price":3900,"stats":[{"title":"Уровень","stat":39,"readableStat":"39"},{"title":"Уклонение","stat":29.25,"readableStat":"29.25%"}]},
+              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Уклонение","stat":30.0,"readableStat":"30%"}]}
           ]
         }
       }
@@ -276,6 +276,7 @@
           },
           "texture": "",
           "levels": [
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Сила","stat":0,"readableStat":"0"}]},
               {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Сила","stat":0.3,"readableStat":"0.3"}]},
               {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Сила","stat":0.6,"readableStat":"0.6"}]},
               {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Сила","stat":0.9,"readableStat":"0.9"}]},
@@ -315,8 +316,7 @@
               {"price":3700,"stats":[{"title":"Уровень","stat":37,"readableStat":"37"},{"title":"Сила","stat":11.1,"readableStat":"11.1"}]},
               {"price":3800,"stats":[{"title":"Уровень","stat":38,"readableStat":"38"},{"title":"Сила","stat":11.4,"readableStat":"11.4"}]},
               {"price":3900,"stats":[{"title":"Уровень","stat":39,"readableStat":"39"},{"title":"Сила","stat":11.7,"readableStat":"11.7"}]},
-              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Сила","stat":12.0,"readableStat":"12"}]},
-            {}
+              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Сила","stat":12.0,"readableStat":"12"}]}
           ]
         },
         "RELOAD_SPEED": {
@@ -326,47 +326,47 @@
           },
           "texture": "",
           "levels": [
-              {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Скорость перезарядки","stat":1.5,"readableStat":"1.5"}]},
-              {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Скорость перезарядки","stat":3,"readableStat":"3"}]},
-              {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Скорость перезарядки","stat":4.5,"readableStat":"4.5"}]},
-              {"price":400,"stats":[{"title":"Уровень","stat":4,"readableStat":"4"},{"title":"Скорость перезарядки","stat":6,"readableStat":"6"}]},
-              {"price":500,"stats":[{"title":"Уровень","stat":5,"readableStat":"5"},{"title":"Скорость перезарядки","stat":7.5,"readableStat":"7.5"}]},
-              {"price":600,"stats":[{"title":"Уровень","stat":6,"readableStat":"6"},{"title":"Скорость перезарядки","stat":9,"readableStat":"9"}]},
-              {"price":700,"stats":[{"title":"Уровень","stat":7,"readableStat":"7"},{"title":"Скорость перезарядки","stat":10.5,"readableStat":"10.5"}]},
-              {"price":800,"stats":[{"title":"Уровень","stat":8,"readableStat":"8"},{"title":"Скорость перезарядки","stat":12,"readableStat":"12"}]},
-              {"price":900,"stats":[{"title":"Уровень","stat":9,"readableStat":"9"},{"title":"Скорость перезарядки","stat":13.5,"readableStat":"13.5"}]},
-              {"price":1000,"stats":[{"title":"Уровень","stat":10,"readableStat":"10"},{"title":"Скорость перезарядки","stat":15,"readableStat":"15"}]},
-              {"price":1100,"stats":[{"title":"Уровень","stat":11,"readableStat":"11"},{"title":"Скорость перезарядки","stat":16.5,"readableStat":"16.5"}]},
-              {"price":1200,"stats":[{"title":"Уровень","stat":12,"readableStat":"12"},{"title":"Скорость перезарядки","stat":18,"readableStat":"18"}]},
-              {"price":1300,"stats":[{"title":"Уровень","stat":13,"readableStat":"13"},{"title":"Скорость перезарядки","stat":19.5,"readableStat":"19.5"}]},
-              {"price":1400,"stats":[{"title":"Уровень","stat":14,"readableStat":"14"},{"title":"Скорость перезарядки","stat":21,"readableStat":"21"}]},
-              {"price":1500,"stats":[{"title":"Уровень","stat":15,"readableStat":"15"},{"title":"Скорость перезарядки","stat":22.5,"readableStat":"22.5"}]},
-              {"price":1600,"stats":[{"title":"Уровень","stat":16,"readableStat":"16"},{"title":"Скорость перезарядки","stat":24,"readableStat":"24"}]},
-              {"price":1700,"stats":[{"title":"Уровень","stat":17,"readableStat":"17"},{"title":"Скорость перезарядки","stat":25.5,"readableStat":"25.5"}]},
-              {"price":1800,"stats":[{"title":"Уровень","stat":18,"readableStat":"18"},{"title":"Скорость перезарядки","stat":27,"readableStat":"27"}]},
-              {"price":1900,"stats":[{"title":"Уровень","stat":19,"readableStat":"19"},{"title":"Скорость перезарядки","stat":28.5,"readableStat":"28.5"}]},
-              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Скорость перезарядки","stat":30,"readableStat":"30"}]},
-              {"price":2100,"stats":[{"title":"Уровень","stat":21,"readableStat":"21"},{"title":"Скорость перезарядки","stat":31.5,"readableStat":"31.5"}]},
-              {"price":2200,"stats":[{"title":"Уровень","stat":22,"readableStat":"22"},{"title":"Скорость перезарядки","stat":33,"readableStat":"33"}]},
-              {"price":2300,"stats":[{"title":"Уровень","stat":23,"readableStat":"23"},{"title":"Скорость перезарядки","stat":34.5,"readableStat":"34.5"}]},
-              {"price":2400,"stats":[{"title":"Уровень","stat":24,"readableStat":"24"},{"title":"Скорость перезарядки","stat":36,"readableStat":"36"}]},
-              {"price":2500,"stats":[{"title":"Уровень","stat":25,"readableStat":"25"},{"title":"Скорость перезарядки","stat":37.5,"readableStat":"37.5"}]},
-              {"price":2600,"stats":[{"title":"Уровень","stat":26,"readableStat":"26"},{"title":"Скорость перезарядки","stat":39,"readableStat":"39"}]},
-              {"price":2700,"stats":[{"title":"Уровень","stat":27,"readableStat":"27"},{"title":"Скорость перезарядки","stat":40.5,"readableStat":"40.5"}]},
-              {"price":2800,"stats":[{"title":"Уровень","stat":28,"readableStat":"28"},{"title":"Скорость перезарядки","stat":42,"readableStat":"42"}]},
-              {"price":2900,"stats":[{"title":"Уровень","stat":29,"readableStat":"29"},{"title":"Скорость перезарядки","stat":43.5,"readableStat":"43.5"}]},
-              {"price":3000,"stats":[{"title":"Уровень","stat":30,"readableStat":"30"},{"title":"Скорость перезарядки","stat":45,"readableStat":"45"}]},
-              {"price":3100,"stats":[{"title":"Уровень","stat":31,"readableStat":"31"},{"title":"Скорость перезарядки","stat":46.5,"readableStat":"46.5"}]},
-              {"price":3200,"stats":[{"title":"Уровень","stat":32,"readableStat":"32"},{"title":"Скорость перезарядки","stat":48,"readableStat":"48"}]},
-              {"price":3300,"stats":[{"title":"Уровень","stat":33,"readableStat":"33"},{"title":"Скорость перезарядки","stat":49.5,"readableStat":"49.5"}]},
-              {"price":3400,"stats":[{"title":"Уровень","stat":34,"readableStat":"34"},{"title":"Скорость перезарядки","stat":51,"readableStat":"51"}]},
-              {"price":3500,"stats":[{"title":"Уровень","stat":35,"readableStat":"35"},{"title":"Скорость перезарядки","stat":52.5,"readableStat":"52.5"}]},
-              {"price":3600,"stats":[{"title":"Уровень","stat":36,"readableStat":"36"},{"title":"Скорость перезарядки","stat":54,"readableStat":"54"}]},
-              {"price":3700,"stats":[{"title":"Уровень","stat":37,"readableStat":"37"},{"title":"Скорость перезарядки","stat":55.5,"readableStat":"55.5"}]},
-              {"price":3800,"stats":[{"title":"Уровень","stat":38,"readableStat":"38"},{"title":"Скорость перезарядки","stat":57,"readableStat":"57"}]},
-              {"price":3900,"stats":[{"title":"Уровень","stat":39,"readableStat":"39"},{"title":"Скорость перезарядки","stat":58.5,"readableStat":"58.5"}]},
-              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Скорость перезарядки","stat":60,"readableStat":"60"}]},
-            {}
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Скорость перезарядки","stat":0,"readableStat":"0%"}]},
+              {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Скорость перезарядки","stat":1.5,"readableStat":"1.5%"}]},
+              {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Скорость перезарядки","stat":3,"readableStat":"3%"}]},
+              {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Скорость перезарядки","stat":4.5,"readableStat":"4.5%"}]},
+              {"price":400,"stats":[{"title":"Уровень","stat":4,"readableStat":"4"},{"title":"Скорость перезарядки","stat":6,"readableStat":"6%"}]},
+              {"price":500,"stats":[{"title":"Уровень","stat":5,"readableStat":"5"},{"title":"Скорость перезарядки","stat":7.5,"readableStat":"7.5%"}]},
+              {"price":600,"stats":[{"title":"Уровень","stat":6,"readableStat":"6"},{"title":"Скорость перезарядки","stat":9,"readableStat":"9%"}]},
+              {"price":700,"stats":[{"title":"Уровень","stat":7,"readableStat":"7"},{"title":"Скорость перезарядки","stat":10.5,"readableStat":"10.5%"}]},
+              {"price":800,"stats":[{"title":"Уровень","stat":8,"readableStat":"8"},{"title":"Скорость перезарядки","stat":12,"readableStat":"12%"}]},
+              {"price":900,"stats":[{"title":"Уровень","stat":9,"readableStat":"9"},{"title":"Скорость перезарядки","stat":13.5,"readableStat":"13.5%"}]},
+              {"price":1000,"stats":[{"title":"Уровень","stat":10,"readableStat":"10"},{"title":"Скорость перезарядки","stat":15,"readableStat":"15%"}]},
+              {"price":1100,"stats":[{"title":"Уровень","stat":11,"readableStat":"11"},{"title":"Скорость перезарядки","stat":16.5,"readableStat":"16.5%"}]},
+              {"price":1200,"stats":[{"title":"Уровень","stat":12,"readableStat":"12"},{"title":"Скорость перезарядки","stat":18,"readableStat":"18%"}]},
+              {"price":1300,"stats":[{"title":"Уровень","stat":13,"readableStat":"13"},{"title":"Скорость перезарядки","stat":19.5,"readableStat":"19.5%"}]},
+              {"price":1400,"stats":[{"title":"Уровень","stat":14,"readableStat":"14"},{"title":"Скорость перезарядки","stat":21,"readableStat":"21%"}]},
+              {"price":1500,"stats":[{"title":"Уровень","stat":15,"readableStat":"15"},{"title":"Скорость перезарядки","stat":22.5,"readableStat":"22.5%"}]},
+              {"price":1600,"stats":[{"title":"Уровень","stat":16,"readableStat":"16"},{"title":"Скорость перезарядки","stat":24,"readableStat":"24%"}]},
+              {"price":1700,"stats":[{"title":"Уровень","stat":17,"readableStat":"17"},{"title":"Скорость перезарядки","stat":25.5,"readableStat":"25.5%"}]},
+              {"price":1800,"stats":[{"title":"Уровень","stat":18,"readableStat":"18"},{"title":"Скорость перезарядки","stat":27,"readableStat":"27%"}]},
+              {"price":1900,"stats":[{"title":"Уровень","stat":19,"readableStat":"19"},{"title":"Скорость перезарядки","stat":28.5,"readableStat":"28.5%"}]},
+              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Скорость перезарядки","stat":30,"readableStat":"30%"}]},
+              {"price":2100,"stats":[{"title":"Уровень","stat":21,"readableStat":"21"},{"title":"Скорость перезарядки","stat":31.5,"readableStat":"31.5%"}]},
+              {"price":2200,"stats":[{"title":"Уровень","stat":22,"readableStat":"22"},{"title":"Скорость перезарядки","stat":33,"readableStat":"33%"}]},
+              {"price":2300,"stats":[{"title":"Уровень","stat":23,"readableStat":"23"},{"title":"Скорость перезарядки","stat":34.5,"readableStat":"34.5%"}]},
+              {"price":2400,"stats":[{"title":"Уровень","stat":24,"readableStat":"24"},{"title":"Скорость перезарядки","stat":36,"readableStat":"36%"}]},
+              {"price":2500,"stats":[{"title":"Уровень","stat":25,"readableStat":"25"},{"title":"Скорость перезарядки","stat":37.5,"readableStat":"37.5%"}]},
+              {"price":2600,"stats":[{"title":"Уровень","stat":26,"readableStat":"26"},{"title":"Скорость перезарядки","stat":39,"readableStat":"39%"}]},
+              {"price":2700,"stats":[{"title":"Уровень","stat":27,"readableStat":"27"},{"title":"Скорость перезарядки","stat":40.5,"readableStat":"40.5%"}]},
+              {"price":2800,"stats":[{"title":"Уровень","stat":28,"readableStat":"28"},{"title":"Скорость перезарядки","stat":42,"readableStat":"42%"}]},
+              {"price":2900,"stats":[{"title":"Уровень","stat":29,"readableStat":"29"},{"title":"Скорость перезарядки","stat":43.5,"readableStat":"43.5%"}]},
+              {"price":3000,"stats":[{"title":"Уровень","stat":30,"readableStat":"30"},{"title":"Скорость перезарядки","stat":45,"readableStat":"45%"}]},
+              {"price":3100,"stats":[{"title":"Уровень","stat":31,"readableStat":"31"},{"title":"Скорость перезарядки","stat":46.5,"readableStat":"46.5%"}]},
+              {"price":3200,"stats":[{"title":"Уровень","stat":32,"readableStat":"32"},{"title":"Скорость перезарядки","stat":48,"readableStat":"48%"}]},
+              {"price":3300,"stats":[{"title":"Уровень","stat":33,"readableStat":"33"},{"title":"Скорость перезарядки","stat":49.5,"readableStat":"49.5%"}]},
+              {"price":3400,"stats":[{"title":"Уровень","stat":34,"readableStat":"34"},{"title":"Скорость перезарядки","stat":51,"readableStat":"51%"}]},
+              {"price":3500,"stats":[{"title":"Уровень","stat":35,"readableStat":"35"},{"title":"Скорость перезарядки","stat":52.5,"readableStat":"52.5%"}]},
+              {"price":3600,"stats":[{"title":"Уровень","stat":36,"readableStat":"36"},{"title":"Скорость перезарядки","stat":54,"readableStat":"54%"}]},
+              {"price":3700,"stats":[{"title":"Уровень","stat":37,"readableStat":"37"},{"title":"Скорость перезарядки","stat":55.5,"readableStat":"55.5%"}]},
+              {"price":3800,"stats":[{"title":"Уровень","stat":38,"readableStat":"38"},{"title":"Скорость перезарядки","stat":57,"readableStat":"57%"}]},
+              {"price":3900,"stats":[{"title":"Уровень","stat":39,"readableStat":"39"},{"title":"Скорость перезарядки","stat":58.5,"readableStat":"58.5%"}]},
+              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Скорость перезарядки","stat":60,"readableStat":"60%"}]}
           ]
         },
         "REGENERATION": {
@@ -376,6 +376,7 @@
           },
           "texture": "",
           "levels": [
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Регенерация","stat":0,"readableStat":"0"}]},
               {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Регенерация","stat":0.2,"readableStat":"0.2"}]},
               {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Регенерация","stat":0.4,"readableStat":"0.4"}]},
               {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Регенерация","stat":0.6,"readableStat":"0.6"}]},
@@ -395,8 +396,7 @@
               {"price":1700,"stats":[{"title":"Уровень","stat":17,"readableStat":"17"},{"title":"Регенерация","stat":3.4,"readableStat":"3.4"}]},
               {"price":1800,"stats":[{"title":"Уровень","stat":18,"readableStat":"18"},{"title":"Регенерация","stat":3.6,"readableStat":"3.6"}]},
               {"price":1900,"stats":[{"title":"Уровень","stat":19,"readableStat":"19"},{"title":"Регенерация","stat":3.8,"readableStat":"3.8"}]},
-              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Регенерация","stat":4.0,"readableStat":"4.0"}]},
-            {}
+              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Регенерация","stat":4.0,"readableStat":"4.0"}]}
           ]
         }
       }
@@ -411,6 +411,7 @@
           },
           "texture": "",
           "levels": [
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Сила","stat":0,"readableStat":"0"}]},
               {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Сила","stat":0.5,"readableStat":"0.5"}]},
               {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Сила","stat":1.0,"readableStat":"1.0"}]},
               {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Сила","stat":1.5,"readableStat":"1.5"}]},
@@ -450,8 +451,7 @@
               {"price":3700,"stats":[{"title":"Уровень","stat":37,"readableStat":"37"},{"title":"Сила","stat":18.5,"readableStat":"18.5"}]},
               {"price":3800,"stats":[{"title":"Уровень","stat":38,"readableStat":"38"},{"title":"Сила","stat":19.0,"readableStat":"19.0"}]},
               {"price":3900,"stats":[{"title":"Уровень","stat":39,"readableStat":"39"},{"title":"Сила","stat":19.5,"readableStat":"19.5"}]},
-              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Сила","stat":20.0,"readableStat":"20.0"}]},
-            {}
+              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Сила","stat":20.0,"readableStat":"20.0"}]}
           ]
         },
         "CASTING_SPEED": {
@@ -461,6 +461,7 @@
           },
           "texture": "",
           "levels": [
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Скорость кастования","stat":0,"readableStat":"0"}]},
               {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Скорость кастования","stat":1.25,"readableStat":"1.25"}]},
               {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Скорость кастования","stat":2.5,"readableStat":"2.5"}]},
               {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Скорость кастования","stat":3.75,"readableStat":"3.75"}]},
@@ -500,8 +501,7 @@
               {"price":3700,"stats":[{"title":"Уровень","stat":37,"readableStat":"37"},{"title":"Скорость кастования","stat":46.25,"readableStat":"46.25"}]},
               {"price":3800,"stats":[{"title":"Уровень","stat":38,"readableStat":"38"},{"title":"Скорость кастования","stat":47.5,"readableStat":"47.5"}]},
               {"price":3900,"stats":[{"title":"Уровень","stat":39,"readableStat":"39"},{"title":"Скорость кастования","stat":48.75,"readableStat":"48.75"}]},
-              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Скорость кастования","stat":50.0,"readableStat":"50.0"}]},
-            {}
+              {"price":4000,"stats":[{"title":"Уровень","stat":40,"readableStat":"40"},{"title":"Скорость кастования","stat":50.0,"readableStat":"50.0"}]}
           ]
         },
         "REGENERATION": {
@@ -511,6 +511,7 @@
           },
           "texture": "",
           "levels": [
+              {"price":50,"stats":[{"title":"Уровень","stat":0,"readableStat":"0"},{"title":"Регенерация","stat":0,"readableStat":"0"}]},
               {"price":100,"stats":[{"title":"Уровень","stat":1,"readableStat":"1"},{"title":"Регенерация","stat":0.2,"readableStat":"0.2"}]},
               {"price":200,"stats":[{"title":"Уровень","stat":2,"readableStat":"2"},{"title":"Регенерация","stat":0.4,"readableStat":"0.4"}]},
               {"price":300,"stats":[{"title":"Уровень","stat":3,"readableStat":"3"},{"title":"Регенерация","stat":0.6,"readableStat":"0.6"}]},
@@ -530,8 +531,7 @@
               {"price":1700,"stats":[{"title":"Уровень","stat":17,"readableStat":"17"},{"title":"Регенерация","stat":3.4,"readableStat":"3.4"}]},
               {"price":1800,"stats":[{"title":"Уровень","stat":18,"readableStat":"18"},{"title":"Регенерация","stat":3.6,"readableStat":"3.6"}]},
               {"price":1900,"stats":[{"title":"Уровень","stat":19,"readableStat":"19"},{"title":"Регенерация","stat":3.8,"readableStat":"3.8"}]},
-              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Регенерация","stat":4.0,"readableStat":"4.0"}]},
-            {}
+              {"price":2000,"stats":[{"title":"Уровень","stat":20,"readableStat":"20"},{"title":"Регенерация","stat":4.0,"readableStat":"4.0"}]}
           ]
         }
       }
