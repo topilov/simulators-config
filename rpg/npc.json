@@ -17,6 +17,60 @@
       "onClick": [
         "dialog %player% MAXIM"
       ]
+    },
+    {
+      "name": "rpg.npc.sell.artefact.title",
+      "location": {
+        "name": "sell",
+        "tag": "artefact",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/destructions/skins/sell-blocks.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-drops %player%"
+      ]
+    },
+    {
+      "name": "rpg.npc.shop.artefact.title",
+      "location": {
+        "name": "shop",
+        "tag": "artefact",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/destructions/skins/sell-blocks.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "artefact-shop %player%"
+      ]
+    },
+    {
+      "name": "rpg.npc.shop.ability.title",
+      "location": {
+        "name": "shop",
+        "tag": "ability",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/destructions/skins/sell-blocks.png",
+      "skinType": "SLIM",
+      "lookAtPlayer": true,
+      "onClick": [
+        "ability-shop %player%"
+      ]
     }
   ]
 }
