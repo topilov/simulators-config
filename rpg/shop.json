@@ -23,7 +23,7 @@
           "title": "rpg.shop.ability.product.unshakable.title",
           "hover": "rpg.shop.ability.product.unshakable.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 40,
           "abilityType": "UNSHAKABLE",
           "characterType": "SWORDSMAN",
           "onBuy": [
@@ -34,7 +34,7 @@
           "title": "rpg.shop.ability.product.blood.title",
           "hover": "rpg.shop.ability.product.blood.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 20,
           "abilityType": "BLOOD",
           "characterType": "SWORDSMAN",
           "onBuy": [
@@ -45,18 +45,18 @@
           "title": "rpg.shop.ability.product.justice_blade.title",
           "hover": "rpg.shop.ability.product.justice_blade.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
-          "abilityType": "JUSTICE_BLADE",
+          "price": 40,
+          "abilityType": "IRON_WILL",
           "characterType": "SWORDSMAN",
           "onBuy": [
-            "give-ability %player% JUSTICE_BLADE"
+            "give-ability %player% IRON_WILL"
           ]
         },
         {
           "title": "rpg.shop.ability.product.hit_series.title",
           "hover": "rpg.shop.ability.product.hit_series.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 40,
           "abilityType": "HIT_SERIES",
           "characterType": "THIEF",
           "onBuy": [
@@ -67,7 +67,7 @@
           "title": "rpg.shop.ability.product.finisher.title",
           "hover": "rpg.shop.ability.product.finisher.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 20,
           "abilityType": "FINISHER",
           "characterType": "THIEF",
           "onBuy": [
@@ -78,7 +78,7 @@
           "title": "rpg.shop.ability.product.phantom_jerk.title",
           "hover": "rpg.shop.ability.product.phantom_jerk.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 40,
           "abilityType": "PHANTOM_JERK",
           "characterType": "THIEF",
           "onBuy": [
@@ -89,7 +89,7 @@
           "title": "rpg.shop.ability.product.triple_arrow.title",
           "hover": "rpg.shop.ability.product.triple_arrow.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 40,
           "abilityType": "TRIPLE_ARROW",
           "characterType": "ELF",
           "onBuy": [
@@ -100,7 +100,7 @@
           "title": "rpg.shop.ability.product.nature_spirit.title",
           "hover": "rpg.shop.ability.product.nature_spirit.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 40,
           "abilityType": "NATURE_SPIRIT",
           "characterType": "ELF",
           "onBuy": [
@@ -111,7 +111,7 @@
           "title": "rpg.shop.ability.product.unpredictable_rhythm.title",
           "hover": "rpg.shop.ability.product.unpredictable_rhythm.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 20,
           "abilityType": "UNPREDICTABLE_RHYTHM",
           "characterType": "ELF",
           "onBuy": [
@@ -122,7 +122,7 @@
           "title": "rpg.shop.ability.product.resonance.title",
           "hover": "rpg.shop.ability.product.resonance.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 40,
           "abilityType": "RESONANCE",
           "characterType": "MAGE",
           "onBuy": [
@@ -130,10 +130,21 @@
           ]
         },
         {
+          "title": "rpg.shop.ability.product.determination.title",
+          "hover": "rpg.shop.ability.product.determination.hover",
+          "icon": "money-booster.png",
+          "price": 40,
+          "abilityType": "DETERMINATION",
+          "characterType": "MAGE",
+          "onBuy": [
+            "give-ability %player% DETERMINATION"
+          ]
+        },
+           {
           "title": "rpg.shop.ability.product.clean.title",
           "hover": "rpg.shop.ability.product.clean.hover",
           "icon": "money-booster.png",
-          "price": 229.0,
+          "price": 40,
           "abilityType": "CLEAN",
           "characterType": "MAGE",
           "onBuy": [
