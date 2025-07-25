@@ -26,17 +26,13 @@
     "WARRIOR": {
       "isActive": false
     },
-
-
-    "KNOCK_WEAPON": {
-      "isActive": true,
-      "texture": ":texture",
-      "key": "R",
-      "duration": 3,
-      "cooldown": 18,
-      "isLocked": false
+     "STEELY_SPIRIT": {
+      "isActive": false
     },
     "POISON_TOUCH": {
+      "isActive": false
+    },
+    "LIGHT_FEET": {
       "isActive": false
     },
     "HIT_SERIES": {
@@ -45,25 +41,29 @@
     "FINISHER": {
       "isActive": false
     },
+    "KNOCK_WEAPON": {
+      "isActive": true,
+      "texture": ":texture",
+      "key": "R",
+      "duration": 3,
+      "cooldown": 18,
+      "isLocked": false
+    },
     "PHANTOM_JERK": {
       "isActive": true,
       "texture": ":texture",
       "key": "F",
-      "duration": 5,
-      "cooldown": 18,
+      "duration": 4,
+      "cooldown": 30,
       "isLocked": false
     },
-    "LIGHT_FEET": {
-      "isActive": false
-    },
-
 
     "FROZEN_SHOT": {
       "isActive": true,
       "texture": ":texture",
-      "key": "F",
-      "duration": 5,
-      "cooldown": 18,
+      "key": "R",
+      "duration": 3,
+      "cooldown": 30,
       "isLocked": false
     },
     "TRIPLE_ARROW": {
@@ -87,33 +87,34 @@
       "isActive": false
     },
 
+    "CLEAN": {
+      "isActive": true,
+      "texture": ":texture",
+      "key": "R",
+      "duration": 5,
+      "cooldown": 35,
+      "isLocked": false
+    },
+    "EXPLODE": {
+      "isActive": true,
+      "texture": ":texture",
+      "key": "F",
+      "duration": 3,
+      "cooldown": 30,
+      "isLocked": false
+    }, 
     "RANDOM_MAGIC": {
       "isActive": false
     },
     "RESONANCE": {
       "isActive": false
     },
-    "CLEAN": {
-      "isActive": true,
-      "texture": ":texture",
-      "key": "F",
-      "duration": 1,
-      "cooldown": 30,
-      "isLocked": false
-    },
     "THORN": {
       "isActive": false
-    },
-    "EXPLODE": {
-      "isActive": true,
-      "texture": ":texture",
-      "key": "F",
-      "duration": 1,
-      "cooldown": 30,
-      "isLocked": false
     },
     "DETERMINATION": {
       "isActive": false
     }
+  
   }
 }
