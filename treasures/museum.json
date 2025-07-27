@@ -2,9 +2,25 @@
   "locations": {
     "1": {
       "achievement": "COLLECT_MUSEUM_1",
+      "banner": {
+        "content": "Музей",
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "location": {
+          "name": "museum-banner",
+          "yaw": 90,
+          "offset": {
+            "x": 0.99,
+            "y": 0,
+            "z": 0.5
+          }
+        },
+        "scale": 4.0
+      },
       "frames": {
         "GOLD_COIN":  {
-          "title": "Золотая\nМонета",
+          "title": "§7Золотая\n§7Монета",
           "location": {
             "name": "treasure-frame",
             "tag": "1"
@@ -13,71 +29,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "ANCIENT_JAPANESE_KATANA":  {
-          "title": "Древняя\nЯпонская Катана",
-          "location": {
-            "name": "treasure-frame",
-            "tag": "2"
-          },
-          "bannerOffset": {
-            "x": 0.5,
-            "y": 1.5,
-            "z": 0.01
-          }
-        },
-        "QUEENS_CROWN":  {
-          "title": "Корона\nКоролевы",
-          "location": {
-            "name": "treasure-frame",
-            "tag": "3"
-          },
-          "bannerOffset": {
-            "x": 0.5,
-            "y": 1.5,
-            "z": 0.01
-          }
-        },
-        "GOLDEN_CUP":  {
-          "title": "Кубок",
-          "location": {
-            "name": "treasure-frame",
-            "tag": "4"
-          },
-          "bannerOffset": {
-            "x": 0.5,
-            "y": 1.5,
-            "z": 0.01
-          }
-        },
-        "MEDAL":  {
-          "title": "Обычная\nМедаль",
-          "location": {
-            "name": "treasure-frame",
-            "tag": "5"
-          },
-          "bannerOffset": {
-            "x": 0.5,
-            "y": 1.5,
-            "z": 0.01
-          }
-        },
-        "AQUARIUM":  {
-          "title": "Аквариум\nс Рыбкой",
-          "location": {
-            "name": "treasure-frame",
-            "tag": "6",
-            "yaw": 180
-          },
-          "bannerOffset": {
-            "x": 0.5,
-            "y": 1.5,
-            "z": 0.99
-          }
-        },
-        "ANCIENT_SCROLL":  {
-          "title": "Древний\nCвиток",
+          "title": "§dДревняя\n§dЯпонская Катана",
           "location": {
             "name": "treasure-frame",
             "tag": "7",
@@ -87,10 +43,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
-        "BOTTLE_WITH_MESSAGE":  {
-          "title": "Флакон\nс посланием",
+        "QUEENS_CROWN":  {
+          "title": "§dКорона\n§dКоролевы",
           "location": {
             "name": "treasure-frame",
             "tag": "8",
@@ -100,10 +57,64 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
-        "MYSTERIOUS_COMPASS":  {
-          "title": "Таинственный\nкомпас",
+        "GOLDEN_CUP":  {
+          "title": "¨46bfefКубок",
+          "location": {
+            "name": "treasure-frame",
+            "tag": "4"
+          },
+          "bannerOffset": {
+            "x": 0.5,
+            "y": 1.5,
+            "z": 0.01
+          },
+          "points": 1
+        },
+        "MEDAL":  {
+          "title": "§7Обычная\n§7Медаль",
+          "location": {
+            "name": "treasure-frame",
+            "tag": "2"
+          },
+          "bannerOffset": {
+            "x": 0.5,
+            "y": 1.5,
+            "z": 0.01
+          },
+          "points": 1
+        },
+        "AQUARIUM":  {
+          "title": "¨46bfefАквариум\n¨46bfefс Рыбкой",
+          "location": {
+            "name": "treasure-frame",
+            "tag": "6",
+            "yaw": 180
+          },
+          "bannerOffset": {
+            "x": 0.5,
+            "y": 1.5,
+            "z": 0.99
+          },
+          "points": 1
+        },
+        "ANCIENT_SCROLL":  {
+          "title": "§7Древний\n§7Cвиток",
+          "location": {
+            "name": "treasure-frame",
+            "tag": "3"
+          },
+          "bannerOffset": {
+            "x": 0.5,
+            "y": 1.5,
+            "z": 0.01
+          },
+          "points": 1
+        },
+        "BOTTLE_WITH_MESSAGE":  {
+          "title": "§eФлакон\n§eс посланием",
           "location": {
             "name": "treasure-frame",
             "tag": "9",
@@ -113,10 +124,24 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
+        },
+        "MYSTERIOUS_COMPASS":  {
+          "title": "¨46bfefТаинственный\n¨46bfefкомпас",
+          "location": {
+            "name": "treasure-frame",
+            "tag": "5"
+          },
+          "bannerOffset": {
+            "x": 0.5,
+            "y": 1.5,
+            "z": 0.01
+          },
+          "points": 1
         },
         "SHELL":  {
-          "title": "Ракушка",
+          "title": "§eРакушка",
           "location": {
             "name": "treasure-frame",
             "tag": "10",
@@ -126,15 +151,31 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
         }
       }
     },
     "2": {
       "achievement": "COLLECT_MUSEUM_2",
+      "banner": {
+        "content": "Музей",
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "location": {
+          "name": "museum-banner",
+          "offset": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.01
+          }
+        },
+        "scale": 4.0
+      },
       "frames": {
         "PEARL":  {
-          "title": "Жемчуг",
+          "title": "§7Жемчуг",
           "location": {
             "name": "treasure-frame",
             "tag": "11",
@@ -144,10 +185,11 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "SILVER_COVERED_CORALS":  {
-          "title": "Серебро покрытое\nкораллами",
+          "title": "§7Серебро покрытое\n§7кораллами",
           "location": {
             "name": "treasure-frame",
             "tag": "12",
@@ -157,10 +199,11 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "MAP":  {
-          "title": "Промокшая\nкарта",
+          "title": "§7Промокшая\n§7карта",
           "location": {
             "name": "treasure-frame",
             "tag": "13"
@@ -169,10 +212,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "SMALL_TREASURE_CHEST":  {
-          "title": "Маленький сундук\nс сокровищами",
+          "title": "¨46bfefМаленький сундук\n¨46bfefс сокровищами",
           "location": {
             "name": "treasure-frame",
             "tag": "14"
@@ -181,10 +225,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "GOLD_COVERED_CORALS":  {
-          "title": "Золото покрытое\nкораллами",
+          "title": "¨46bfefЗолото покрытое\n¨46bfefкораллами",
           "location": {
             "name": "treasure-frame",
             "tag": "15"
@@ -193,34 +238,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "AMULET_OCEAN":  {
-          "title": "Амулет\n«Океан»",
-          "location": {
-            "name": "treasure-frame",
-            "tag": "16"
-          },
-          "bannerOffset": {
-            "x": 0.5,
-            "y": 1.5,
-            "z": 0.01
-          }
-        },
-        "SCEPTER_OF_THE_SEA_KING":  {
-          "title": "Скипетр\nМорского Царя",
-          "location": {
-            "name": "treasure-frame",
-            "tag": "17"
-          },
-          "bannerOffset": {
-            "x": 0.5,
-            "y": 1.5,
-            "z": 0.01
-          }
-        },
-        "SHIELD_RICH":  {
-          "title": "Щит\nБогатства",
+          "title": "§dАмулет\n§d«Океан»",
           "location": {
             "name": "treasure-frame",
             "tag": "18"
@@ -229,23 +251,24 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
-        "ENCHANTED_SHELL":  {
-          "title": "Панцирь заколдованный\nМорской Ведьмой",
+        "SCEPTER_OF_THE_SEA_KING":  {
+          "title": "§dСкипетр\n§dМорского Царя",
           "location": {
             "name": "treasure-frame",
-            "tag": "19",
-            "yaw": 180
+            "tag": "17"
           },
           "bannerOffset": {
             "x": 0.5,
             "y": 1.5,
-            "z": 0.99
-          }
+            "z": 0.01
+          },
+          "points": 1
         },
-        "SHARK_TOOTH":  {
-          "title": "Зуб акулы",
+        "SHIELD_RICH":  {
+          "title": "§eЩит\n§eБогатства",
           "location": {
             "name": "treasure-frame",
             "tag": "20",
@@ -255,15 +278,59 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
+        },
+        "ENCHANTED_SHELL":  {
+          "title": "§eПанцирь заколдованный\n§eМорской Ведьмой",
+          "location": {
+            "name": "treasure-frame",
+            "tag": "19",
+            "yaw": 180
+          },
+          "bannerOffset": {
+            "x": 0.5,
+            "y": 1.5,
+            "z": 0.99
+          },
+          "points": 3
+        },
+        "SHARK_TOOTH":  {
+          "title": "¨46bfefЗуб акулы",
+          "location": {
+            "name": "treasure-frame",
+            "tag": "16"
+          },
+          "bannerOffset": {
+            "x": 0.5,
+            "y": 1.5,
+            "z": 0.01
+          },
+          "points": 1
         }
       }
     },
     "3": {
       "achievement": "COLLECT_MUSEUM_3",
+      "banner": {
+        "content": "Музей",
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "location": {
+          "name": "museum-banner",
+          "yaw": 90,
+          "offset": {
+            "x": 0.99,
+            "y": 0,
+            "z": 0.5
+          }
+        },
+        "scale": 4.0
+      },
       "frames": {
         "RED_CAR":  {
-          "title": "Заброшенная\nмашинка",
+          "title": "§7Заброшенная\n§7машинка",
           "location": {
             "name": "treasure-frame",
             "tag": "21"
@@ -272,10 +339,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "TEAPOT":  {
-          "title": "Сервизный чайник\nс трещинами",
+          "title": "§7Сервизный чайник\n§7с трещинами",
           "location": {
             "name": "treasure-frame",
             "tag": "22"
@@ -284,10 +352,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "NEWSPAPER":  {
-          "title": "Старая\nгазета",
+          "title": "§7Старая\n§7газета",
           "location": {
             "name": "treasure-frame",
             "tag": "23"
@@ -296,10 +365,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "CASSETTE":  {
-          "title": "Кассета",
+          "title": "¨46bfefКассета",
           "location": {
             "name": "treasure-frame",
             "tag": "24"
@@ -308,10 +378,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "WOODEN_DOLL":  {
-          "title": "Деревянная\nкукла",
+          "title": "¨46bfefДеревянная\n¨46bfefкукла",
           "location": {
             "name": "treasure-frame",
             "tag": "25"
@@ -320,10 +391,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "SYRINGE":  {
-          "title": "Шприц",
+          "title": "¨46bfefШприц",
           "location": {
             "name": "treasure-frame",
             "tag": "26",
@@ -333,10 +405,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "RUSTY_KNIFE":  {
-          "title": "Ржавый\nнож",
+          "title": "§dРжавый\n§dнож",
           "location": {
             "name": "treasure-frame",
             "tag": "27",
@@ -346,10 +419,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "BROKEN_STATUE":  {
-          "title": "Сломанная\nстатуэтка",
+          "title": "§dСломанная\n§dстатуэтка",
           "location": {
             "name": "treasure-frame",
             "tag": "28",
@@ -359,10 +433,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "DISC":  {
-          "title": "Пластинка",
+          "title": "§eПластинка",
           "location": {
             "name": "treasure-frame",
             "tag": "29",
@@ -372,10 +447,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
         },
         "OLD_PAINTING":  {
-          "title": "Старая\nкартина",
+          "title": "§eСтарая\n§eкартина",
           "location": {
             "name": "treasure-frame",
             "tag": "30",
@@ -385,15 +461,32 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
         }
       }
     },
     "4": {
       "achievement": "COLLECT_MUSEUM_4",
+      "banner": {
+        "content": "Музей",
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "location": {
+          "name": "museum-banner",
+          "yaw": 90,
+          "offset": {
+            "x": 0.99,
+            "y": 0,
+            "z": 1.0
+          }
+        },
+        "scale": 4.0
+      },
       "frames": {
         "DAMAGED_PICKAXE":  {
-          "title": "Поврежденная\nкирка",
+          "title": "§7Поврежденная\n§7кирка",
           "location": {
             "name": "treasure-frame",
             "tag": "31"
@@ -402,10 +495,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "MINERS_MAP":  {
-          "title": "Карта\nшахтеров",
+          "title": "§7Карта\n§7шахтеров",
           "location": {
             "name": "treasure-frame",
             "tag": "32"
@@ -414,10 +508,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "MINER_BACKPACK":  {
-          "title": "Старый рюкзак\nшахтера",
+          "title": "§7Старый рюкзак\n§7шахтера",
           "location": {
             "name": "treasure-frame",
             "tag": "33"
@@ -426,10 +521,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "STONE":  {
-          "title": "Камень\n\"Символ\"",
+          "title": "¨46bfefКамень\n¨46bfef\"Символ\"",
           "location": {
             "name": "treasure-frame",
             "tag": "34",
@@ -439,10 +535,11 @@
             "x": 0.99,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "MINERS_HELMET":  {
-          "title": "Шахтёрская каска\nс фонариком",
+          "title": "¨46bfefШахтёрская каска\n¨46bfefс фонариком",
           "location": {
             "name": "treasure-frame",
             "tag": "35",
@@ -452,10 +549,11 @@
             "x": 0.99,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "ANTIQUE_LAMP":  {
-          "title": "Старинная\nлампа",
+          "title": "¨46bfefСтаринная\n¨46bfefлампа",
           "location": {
             "name": "treasure-frame",
             "tag": "36",
@@ -465,10 +563,11 @@
             "x": 0.99,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "BOOK_OF_JEWELS":  {
-          "title": "Книга\nдрагоценностей",
+          "title": "§dКнига\n§dдрагоценностей",
           "location": {
             "name": "treasure-frame",
             "tag": "37",
@@ -478,10 +577,11 @@
             "x": 0.99,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "BLUE_CRYSTAL":  {
-          "title": "Синий\nкристалл",
+          "title": "§dСиний\n§dкристалл",
           "location": {
             "name": "treasure-frame",
             "tag": "38",
@@ -491,10 +591,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "AMULET_OF_MINERS":  {
-          "title": "Амулет\nГномов-шахтеров",
+          "title": "§eАмулет\n§eГномов-шахтеров",
           "location": {
             "name": "treasure-frame",
             "tag": "39",
@@ -504,10 +605,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
         },
         "DRILL":  {
-          "title": "Бур",
+          "title": "§eБур",
           "location": {
             "name": "treasure-frame",
             "tag": "40",
@@ -517,15 +619,32 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
         }
       }
     },
     "5": {
       "achievement": "COLLECT_MUSEUM_5",
+      "banner": {
+        "content": "Музей",
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "location": {
+          "name": "museum-banner",
+          "yaw": -90,
+          "offset": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0.5
+          }
+        },
+        "scale": 4.0
+      },
       "frames": {
         "STATUE_ENDERMAN":  {
-          "title": "Статуэтка\n\"Эндермен\"",
+          "title": "§7Статуэтка\n§7\"Эндермен\"",
           "location": {
             "name": "treasure-frame",
             "tag": "41",
@@ -535,10 +654,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "DRAGON_POTION":  {
-          "title": "Драконье\nзелье",
+          "title": "§7Драконье\n§7зелье",
           "location": {
             "name": "treasure-frame",
             "tag": "42",
@@ -548,10 +668,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "ENDER_PEARL":  {
-          "title": "Эндер-жемчуг",
+          "title": "§7Эндер-жемчуг",
           "location": {
             "name": "treasure-frame",
             "tag": "43",
@@ -561,10 +682,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "BOOTS_FROM_ENDER_PEARLS":  {
-          "title": "Ботинки из\nЭндер-жемчуга",
+          "title": "¨46bfefБотинки из\n¨46bfefЭндер-жемчуга",
           "location": {
             "name": "treasure-frame",
             "tag": "44",
@@ -574,10 +696,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "SHIP_IN_A_BOTTLE":  {
-          "title": "Корабль\nв бутылке",
+          "title": "¨46bfefКорабль\n¨46bfefв бутылке",
           "location": {
             "name": "treasure-frame",
             "tag": "45",
@@ -587,10 +710,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "OBSIDIAN_FLOWER":  {
-          "title": "Обсидиановый\nцветок",
+          "title": "¨46bfefОбсидиановый\n¨46bfefцветок",
           "location": {
             "name": "treasure-frame",
             "tag": "46"
@@ -599,10 +723,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "OBSIDIAN_KEY":  {
-          "title": "Обсидиановый\nключ",
+          "title": "§dОбсидиановый\n§dключ",
           "location": {
             "name": "treasure-frame",
             "tag": "47"
@@ -611,10 +736,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "END_CRYSTAL":  {
-          "title": "Кристалл\nЭнда",
+          "title": "§dКристалл\n§dЭнда",
           "location": {
             "name": "treasure-frame",
             "tag": "48"
@@ -623,10 +749,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "ENDER_FEATHER":  {
-          "title": "Эндер-перья",
+          "title": "§eЭндер-перья",
           "location": {
             "name": "treasure-frame",
             "tag": "49"
@@ -635,10 +762,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 3
         },
         "MAGIC_BALL":  {
-          "title": "Магический\nшар",
+          "title": "§eМагический\n§eшар",
           "location": {
             "name": "treasure-frame",
             "tag": "50"
@@ -647,15 +775,32 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 3
         }
       }
     },
     "6": {
       "achievement": "COLLECT_MUSEUM_6",
+      "banner": {
+        "content": "Музей",
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "location": {
+          "name": "museum-banner",
+          "yaw": -90,
+          "offset": {
+            "x": 0.0,
+            "y": 1,
+            "z": 0.5
+          }
+        },
+        "scale": 4.0
+      },
       "frames": {
         "RAINBOW_FLOWER":  {
-          "title": "Радужный\nцветок",
+          "title": "§7Радужный\n§7цветок",
           "location": {
             "name": "treasure-frame",
             "tag": "51",
@@ -665,10 +810,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "MIRROR_OF_MAGIC":  {
-          "title": "Зеркало\nмагии",
+          "title": "§7Зеркало\n§7магии",
           "location": {
             "name": "treasure-frame",
             "tag": "52",
@@ -678,10 +824,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "POT_OF_GOLD":  {
-          "title": "Горшочек\nзолота",
+          "title": "§7Горшочек\n§7золота",
           "location": {
             "name": "treasure-frame",
             "tag": "53",
@@ -691,10 +838,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "CRYSTAL_AMULET_RAINBOW":  {
-          "title": "Кристаллический\nамулет \"Радуга\"",
+          "title": "¨46bfefКристаллический\n¨46bfefамулет \"Радуга\"",
           "location": {
             "name": "treasure-frame",
             "tag": "54",
@@ -704,10 +852,11 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "TOY_UNICORN":  {
-          "title": "Игрушка\n\"Единорог\"",
+          "title": "¨46bfefИгрушка\n¨46bfef\"Единорог\"",
           "location": {
             "name": "treasure-frame",
             "tag": "55",
@@ -717,10 +866,11 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "MARMALADE_BEAR":  {
-          "title": "Мармеладный\nсахарный мишка",
+          "title": "¨46bfefМармеладный\n¨46bfefсахарный мишка",
           "location": {
             "name": "treasure-frame",
             "tag": "56",
@@ -730,10 +880,11 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "FAIRY_WINGS":  {
-          "title": "Крылья Феи",
+          "title": "§dКрылья Феи",
           "location": {
             "name": "treasure-frame",
             "tag": "57",
@@ -743,10 +894,11 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "MUSICAL_SWORD":  {
-          "title": "Музыкальный\nмеч",
+          "title": "§dМузыкальный\n§dмеч",
           "location": {
             "name": "treasure-frame",
             "tag": "58"
@@ -755,10 +907,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "RAINBOW_BEAN":  {
-          "title": "Семя солнечного\nдерева",
+          "title": "§eСемя солнечного\n§eдерева",
           "location": {
             "name": "treasure-frame",
             "tag": "59"
@@ -767,10 +920,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 3
         },
         "RAINBOW_KEY":  {
-          "title": "Ключ от\nрадужного сундука",
+          "title": "§eКлюч от\n§eрадужного сундука",
           "location": {
             "name": "treasure-frame",
             "tag": "60"
@@ -779,15 +933,32 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 3
         }
       }
     },
     "7": {
       "achievement": "COLLECT_MUSEUM_7",
+      "banner": {
+        "content": "Музей",
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "location": {
+          "name": "museum-banner",
+          "yaw": 90,
+          "offset": {
+            "x": 0.99,
+            "y": 1.0,
+            "z": 0.5
+          }
+        },
+        "scale": 4.0
+      },
       "frames": {
         "LAVA_STONE":  {
-          "title": "Лавовый\nкамень",
+          "title": "§7Лавовый\n§7камень",
           "location": {
             "name": "treasure-frame",
             "tag": "61"
@@ -796,10 +967,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "ASH":  {
-          "title": "Гора пепла",
+          "title": "§7Гора пепла",
           "location": {
             "name": "treasure-frame",
             "tag": "62"
@@ -808,10 +980,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "BURNT_SCROLL":  {
-          "title": "Подгоревший свиток\nс посланием",
+          "title": "§7Подгоревший свиток\n§7с посланием",
           "location": {
             "name": "treasure-frame",
             "tag": "63"
@@ -820,10 +993,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "LAVA_SPEAR":  {
-          "title": "Копье из\nлавового камня",
+          "title": "¨46bfefКопье из\n¨46bfefлавового камня",
           "location": {
             "name": "treasure-frame",
             "tag": "64"
@@ -832,10 +1006,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "MAP_OF_UNDERGROUND_CAVES":  {
-          "title": "Карта подземных\nпещер",
+          "title": "¨46bfefКарта подземных\n¨46bfefпещер",
           "location": {
             "name": "treasure-frame",
             "tag": "65"
@@ -844,10 +1019,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "ENCHANTED_LAVA_POTION":  {
-          "title": "Зачарованная колба\nс лавой",
+          "title": "¨46bfefЗачарованная колба\n¨46bfefс лавой",
           "location": {
             "name": "treasure-frame",
             "tag": "66",
@@ -857,10 +1033,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "LAVA_BRACELET":  {
-          "title": "Браслет\n\"Лава\"",
+          "title": "§dБраслет\n§d\"Лава\"",
           "location": {
             "name": "treasure-frame",
             "tag": "67",
@@ -870,10 +1047,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "RELIC_OF_AN_UNKNOWN_CULTURE":  {
-          "title": "Реликвия неизвестной\nкультуры",
+          "title": "§dРеликвия неизвестной\n§dкультуры",
           "location": {
             "name": "treasure-frame",
             "tag": "68",
@@ -883,10 +1061,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "BASALT_CLOCK":  {
-          "title": "Затемненные\nчасы",
+          "title": "§eЗатемненные\n§eчасы",
           "location": {
             "name": "treasure-frame",
             "tag": "69",
@@ -896,10 +1075,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
         },
         "BASALT_GLOVES":  {
-          "title": "Пепельные\nперчатки",
+          "title": "§eПепельные\n§eперчатки",
           "location": {
             "name": "treasure-frame",
             "tag": "70",
@@ -909,15 +1089,32 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
         }
       }
     },
     "8": {
       "achievement": "COLLECT_MUSEUM_8",
+      "banner": {
+        "content": "Музей",
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "location": {
+          "name": "museum-banner",
+          "yaw": 180,
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "scale": 4.0
+      },
       "frames": {
         "DEMONIC_SHARD":  {
-          "title": "Демонический\nосколок",
+          "title": "§7Демонический\n§7осколок",
           "location": {
             "name": "treasure-frame",
             "tag": "71",
@@ -927,10 +1124,11 @@
             "x": 0.99,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "SKULL":  {
-          "title": "Череп",
+          "title": "§7Череп",
           "location": {
             "name": "treasure-frame",
             "tag": "72",
@@ -940,10 +1138,11 @@
             "x": 0.99,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "DEMON_HORNS":  {
-          "title": "Демонические\nрога",
+          "title": "§7Демонические\n§7рога",
           "location": {
             "name": "treasure-frame",
             "tag": "73",
@@ -953,10 +1152,11 @@
             "x": 0.99,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "SOUL_CONTAINER":  {
-          "title": "Запечатанный\nконтейнер с душами",
+          "title": "¨46bfefЗапечатанный\n¨46bfefконтейнер с душами",
           "location": {
             "name": "treasure-frame",
             "tag": "74",
@@ -966,10 +1166,11 @@
             "x": 0.99,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "SULFUR_CRYSTAL":  {
-          "title": "Серный\nкристалл",
+          "title": "¨46bfefСерный\n¨46bfefкристалл",
           "location": {
             "name": "treasure-frame",
             "tag": "75",
@@ -979,10 +1180,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "CUP_WRATH":  {
-          "title": "Кубок гнева",
+          "title": "¨46bfefКубок гнева",
           "location": {
             "name": "treasure-frame",
             "tag": "76",
@@ -992,10 +1194,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "FIRE_BELT":  {
-          "title": "Огненный\nпояс",
+          "title": "§dОгненный\n§dпояс",
           "location": {
             "name": "treasure-frame",
             "tag": "77",
@@ -1005,10 +1208,11 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "ANGEL_WING":  {
-          "title": "Осколки ангельских\nкрыльев",
+          "title": "§dОсколки ангельских\n§dкрыльев",
           "location": {
             "name": "treasure-frame",
             "tag": "78",
@@ -1018,10 +1222,11 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 1
         },
         "HANGMAN_HOOK":  {
-          "title": "Крюк\nПалача",
+          "title": "§eКрюк\n§eПалача",
           "location": {
             "name": "treasure-frame",
             "tag": "79",
@@ -1031,10 +1236,11 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 3
         },
         "LAVA_KEY":  {
-          "title": "Ключ от\nАдских Врат",
+          "title": "§eКлюч от\n§eАдских Врат",
           "location": {
             "name": "treasure-frame",
             "tag": "80",
@@ -1044,15 +1250,32 @@
             "x": 0.01,
             "y": 1.5,
             "z": 0.5
-          }
+          },
+          "points": 3
         }
       }
     },
     "9": {
       "achievement": "COLLECT_MUSEUM_9",
+      "banner": {
+        "content": "Музей",
+        "color": {
+          "hex": "#1E1E1E"
+        },
+        "location": {
+          "name": "museum-banner",
+          "yaw": 90,
+          "offset": {
+            "x": 0.99,
+            "y": 1.0,
+            "z": 0.5
+          }
+        },
+        "scale": 4.0
+      },
       "frames": {
         "LIGHT_ORB":  {
-          "title": "Сфера света",
+          "title": "§7Сфера света",
           "location": {
             "name": "treasure-frame",
             "tag": "81"
@@ -1061,10 +1284,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "AMETHYST_CLOTH":  {
-          "title": "Аметистовая\nткань",
+          "title": "§7Аметистовая\n§7ткань",
           "location": {
             "name": "treasure-frame",
             "tag": "82"
@@ -1073,10 +1297,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "AMETHYST_DRUSE":  {
-          "title": "Аметистовая\nдруза",
+          "title": "§7Аметистовая\n§7друза",
           "location": {
             "name": "treasure-frame",
             "tag": "83"
@@ -1085,10 +1310,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "MYSTERIOUS_CHALICE":  {
-          "title": "Загадочная\nчаша",
+          "title": "¨46bfefЗагадочная\n¨46bfefчаша",
           "location": {
             "name": "treasure-frame",
             "tag": "84"
@@ -1097,10 +1323,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "ENCHANTED_SHARD":  {
-          "title": "Зачарованный\nосколок",
+          "title": "¨46bfefЗачарованный\n¨46bfefосколок",
           "location": {
             "name": "treasure-frame",
             "tag": "85"
@@ -1109,10 +1336,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.01
-          }
+          },
+          "points": 1
         },
         "AMETHYST_ARROW":  {
-          "title": "Кальцитовая\nстрела",
+          "title": "¨46bfefКальцитовая\n¨46bfefстрела",
           "location": {
             "name": "treasure-frame",
             "tag": "86",
@@ -1122,10 +1350,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "AMETHYST_NECKLACE":  {
-          "title": "Ожерелье\n\"Аметист\"",
+          "title": "§dОжерелье\n§d\"Аметист\"",
           "location": {
             "name": "treasure-frame",
             "tag": "87",
@@ -1135,10 +1364,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "REFLECTIVE_HEART":  {
-          "title": "Отражающее\nсердце",
+          "title": "§dОтражающее\n§dсердце",
           "location": {
             "name": "treasure-frame",
             "tag": "88",
@@ -1148,10 +1378,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 1
         },
         "AMETHYST_CHESTPLATE":  {
-          "title": "Аметистовый\nнагрудник",
+          "title": "§eАметистовый\n§eнагрудник",
           "location": {
             "name": "treasure-frame",
             "tag": "89",
@@ -1161,10 +1392,11 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
         },
         "AMETHYST_DISC":  {
-          "title": "Аметисто-кальцитовая\nпластинка",
+          "title": "§eАметисто-кальцитовая\n§eпластинка",
           "location": {
             "name": "treasure-frame",
             "tag": "90",
@@ -1174,7 +1406,8 @@
             "x": 0.5,
             "y": 1.5,
             "z": 0.99
-          }
+          },
+          "points": 3
         }
       }
     }
