@@ -338,6 +338,34 @@
               ]
             }
           ]
+        },
+        {
+          "pointTag": "illusion",
+          "kinds": [
+            {
+              "chance": 100.0,
+              "type": "ILLUSION_MASTER",
+              "name": "i18n.rpg.mobs.illusion_master.name|!|§a",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 50.0,
+                "ATTACK_DAMAGE": 5.0,
+                "MOVEMENT_SPEED": 0.45
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool-damage": 4.0
+                }
+              },
+              "drops": [
+                {
+                  "chance": 100.0
+                }
+              ]
+            }
+          ]
         }
       ]
     }
