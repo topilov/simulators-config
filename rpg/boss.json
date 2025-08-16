@@ -4,7 +4,62 @@
   },
   "locations": {
     "1": {
-      "bosses": {}
+      "bosses": {
+        "SHADOW": {
+          "spawnAt": ["0:0:0"],
+          "type": "SHADOW",
+          "settings": {
+            "health": 10000,
+            "damage": 5.0,
+            "speed": 0.2,
+            "location": {
+              "name": "boss",
+              "tag": "shadow",
+              "yaw": 180
+            },
+            "customName": "rpg.boss.shadow.name"
+          },
+          "messages": {
+            "onSpawn": "rpg.event.shadow.start_message",
+            "onDeath": "rpg.event.shadow.end_message"
+          },
+          "reward": [
+            [],
+            [],
+            []
+          ],
+          "children": [
+            {
+              "childType": "TWIN",
+              "settings": {
+                "health": 3000,
+                "damage": 10,
+                "speed": 0.3,
+                "location": {
+                  "name": "boss",
+                  "tag": "twin_1"
+                },
+                "spawnBox": { "name": "spawn-box" },
+                "customName": "rpg.boss.child.twin.name"
+              }
+            },
+            {
+              "childType": "TWIN",
+              "settings": {
+                "health": 3000,
+                "damage": 10,
+                "speed": 0.3,
+                "location": {
+                  "name": "boss",
+                  "tag": "twin_2"
+                },
+                "spawnBox": { "name": "spawn-box" },
+                "customName": "rpg.boss.child.twin.name"
+              }
+            }
+          ]
+        }
+      }
     }
   }
 }
