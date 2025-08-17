@@ -1,454 +1,589 @@
 {
-  "messages": {
-    "drop": "lumberjack.mobs.messages.drop"
-  },
-  "locations": {
-    "1": {
-      "mobs": [
+  "dialogs": {
+    "MAXIM": {
+      "parts": [
         {
-          "pointTag": "shadowsc",
-          "kinds": [
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
             {
-              "chance": 90,
+              "use": "mob",
               "type": "SHADOW_SCOUT",
-              "name": "i18n.rpg.mobs.shadow_scout.name|!|§a",
-              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
-              "attributes": {
-                "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 5.0,
-                "ATTACK_DAMAGE": 1,
-                "MOVEMENT_SPEED": 0.3
-              },
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "WOOD_SWORD",
-                "data": {
-                  "tool-damage": 2.0
-                }
-              },
-              "drops": [
-                {
-                  "chance": 58.83
-                },
-                {
-                  "chance": 16.47,
-                  "id": "cracked_amulet_of_rain",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Треснувший Амулет Дождя",
-                    "lore": "§7Амулет древнего жреца. После трещины больше\n§7не зовёт дождь, a притягивает зловещий туман.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 9.41,
-                  "id": "flag_of_fading_dynasty",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Флаг Угасающей Династии",
-                    "lore": "§7Последний флаг павшей династии. Пропитан страхом\n§7и памятью ночи падения.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 9.41,
-                  "id": "mirror_of_night_street",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Зеркало Ночной Улицы",
-                    "lore": "§7Старое зеркало, что отражает не тебя,\n§7а образы давно ушедших теней.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 5.89,
-                  "id": "ashen_mask_of_warrior",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Пепельная Маска Воина",
-                    "lore": "§7Обугленная маска защитника города.\n§7 В ней живёт его последний бой.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                }
+              "required": 5
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 2,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
               ]
             },
             {
-              "chance": 10,
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 1 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 7
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 5
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 2 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 6
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 75 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 9
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 8
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 3 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 9
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 100 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 11
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 11
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 4 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 12
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 125 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 13
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 14
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 5 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 15
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 150 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 15
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 17
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 6 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 18
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 175 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 17
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 20
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 7 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 21
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 200 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Теневых Разведчиков",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "SHADOW_SCOUT",
+              "required": 19
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 23
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 8 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 24
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 225 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Ассасина Ночи",
+          "requirements": [
+            {
+              "use": "mob",
               "type": "NIGHT_ASSASSIN",
-              "name": "i18n.rpg.mobs.night_assassin.name|!|§a",
-              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png",
-              "attributes": {
-                "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 10.0,
-                "ATTACK_DAMAGE": 1,
-                "MOVEMENT_SPEED": 0.4
-              },
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "DIAMOND_SWORD",
-                "data": {
-                  "tool-damage": 3.0
-                }
-              },
-              "drops": [
-                {
-                  "chance": 54.95
-                },
-                {
-                  "chance": 16.48,
-                  "id": "cracked_amulet_of_rain",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Треснувший Амулет Дождя",
-                    "lore": "§7Амулет древнего жреца. После трещины больше\n§7не зовёт дождь, a притягивает зловещий туман.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 12.09,
-                  "id": "flag_of_fading_dynasty",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Флаг Угасающей Династии",
-                    "lore": "§7Последний флаг павшей династии. Пропитан страхом\n§7и памятью ночи падения.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 8.79,
-                  "id": "mirror_of_night_street",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Зеркало Ночной Улицы",
-                    "lore": "§7Старое зеркало, что отражает не тебя,\n§7а образы давно ушедших теней.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 6.59,
-                  "id": "ashen_mask_of_warrior",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Пепельная Маска Воина",
-                    "lore": "§7Обугленная маска защитника города.\n§7 В ней живёт его последний бой.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 1.1,
-                  "id": "fang_of_ancestors_shadow",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Клык Тени Предков",
-                    "lore": "§7Ритуальный трофей. Несёт силу древнего духа\n§7— и его беспокойство.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                }
-              ]
+              "required": 1
             }
-          ]
-        },
-        {
-          "pointTag": "ghostobs",
-          "kinds": [
+          ],
+          "answers": [
             {
-              "chance": 90.0,
-              "type": "GHOST_OBSERVER",
-              "name": "i18n.rpg.mobs.ghost_observer.name|!|§a",
-              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/ghost_observer.png",
-              "attributes": {
-                "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 20.0,
-                "ATTACK_DAMAGE": 1.0,
-                "MOVEMENT_SPEED": 0.3
-              },
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "BOW",
-                "data": {
-                  "tool-damage": 4.0
-                }
-              },
-              "drops": [
-                {
-                  "chance": 55.56
-                },
-                {
-                  "chance": 15.56,
-                  "id": "cracked_amulet_of_rain",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Треснувший Амулет Дождя",
-                    "lore": "§7Амулет древнего жреца. После трещины больше\n§7не зовёт дождь, a притягивает зловещий туман.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 12.22,
-                  "id": "flag_of_fading_dynasty",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Флаг Угасающей Династии",
-                    "lore": "§7Последний флаг павшей династии. Пропитан страхом\n§7и памятью ночи падения.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 10.00,
-                  "id": "mirror_of_night_street",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Зеркало Ночной Улицы",
-                    "lore": "§7Старое зеркало, что отражает не тебя,\n§7а образы давно ушедших теней.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 5.56,
-                  "id": "ashen_mask_of_warrior",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Пепельная Маска Воина",
-                    "lore": "§7Обугленная маска защитника города.\n§7 В ней живёт его последний бой.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 1.11,
-                  "id": "fang_of_ancestors_shadow",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Клык Тени Предков",
-                    "lore": "§7Ритуальный трофей. Несёт силу древнего духа\n§7— и его беспокойство.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                }
-              ]
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 26
             },
             {
-              "chance": 10.0,
-              "type": "FOG_SHOOTER",
-              "name": "i18n.rpg.mobs.fog_shooter.name|!|§a",
-              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/fog_shooter.png",
-              "attributes": {
-                "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 50.0,
-                "ATTACK_DAMAGE": 5.0,
-                "MOVEMENT_SPEED": 0.45
-              },
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "BOW",
-                "data": {
-                  "tool-damage": 1.0
-                }
-              },
-              "drops": [
-                {
-                  "chance": 53.19
-                },
-                {
-                  "chance": 14.89,
-                  "id": "cracked_amulet_of_rain",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Треснувший Амулет Дождя",
-                    "lore": "§7Амулет древнего жреца. После трещины больше\n§7не зовёт дождь, a притягивает зловещий туман.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 12.77,
-                  "id": "flag_of_fading_dynasty",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Флаг Угасающей Династии",
-                    "lore": "§7Последний флаг павшей династии. Пропитан страхом\n§7и памятью ночи падения.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 10.64,
-                  "id": "mirror_of_night_street",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Зеркало Ночной Улицы",
-                    "lore": "§7Старое зеркало, что отражает не тебя,\n§7а образы давно ушедших теней.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 6.38,
-                  "id": "ashen_mask_of_warrior",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Пепельная Маска Воина",
-                    "lore": "§7Обугленная маска защитника города.\n§7 В ней живёт его последний бой.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 2.13,
-                  "id": "fang_of_ancestors_shadow",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Клык Тени Предков",
-                    "lore": "§7Ритуальный трофей. Несёт силу древнего духа\n§7— и его беспокойство.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                }
-              ]
+              "text": "Я вернусь позже."
             }
           ]
         },
         {
-          "pointTag": "illusion",
-          "kinds": [
+          "text": "Отлично! Задание 9 выполнено.",
+          "answers": [
             {
-              "chance": 100,
-              "type": "ILLUSION_MASTER",
-              "name": "i18n.rpg.mobs.illusion_master.name|!|§a",
-              "attributes": {
-                "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 50.0,
-                "ATTACK_DAMAGE": 5.0,
-                "MOVEMENT_SPEED": 0.45
-              },
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "BOW",
-                "data": {
-                  "tool-damage": 4.0
-                }
-              },
-              "drops": [
-                {
-                  "chance": 40.0
-                },
-                 {
-                  "chance": 21,
-                  "id": "cracked_amulet_of_rain",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Треснувший Амулет Дождя",
-                    "lore": "§7Амулет древнего жреца. После трещины больше\n§7не зовёт дождь, a притягивает зловещий туман.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 19,
-                  "id": "flag_of_fading_dynasty",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Флаг Угасающей Династии",
-                    "lore": "§7Последний флаг павшей династии. Пропитан страхом\n§7и памятью ночи падения.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 16,
-                  "id": "mirror_of_night_street",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Зеркало Ночной Улицы",
-                    "lore": "§7Старое зеркало, что отражает не тебя,\n§7а образы давно ушедших теней.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 9,
-                  "id": "ashen_mask_of_warrior",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Пепельная Маска Воина",
-                    "lore": "§7Обугленная маска защитника города.\n§7 В ней живёт его последний бой.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                },
-                {
-                  "chance": 5,
-                  "id": "fang_of_ancestors_shadow",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Клык Тени Предков",
-                    "lore": "§7Ритуальный трофей. Несёт силу древнего духа\n§7— и его беспокойство.",
-                    "data": {
-                      "price": 10.0,
-                      "hoverColor": "GREY"
-                    }
-                  }
-                }
-              ]
+              "text": "Далее",
+              "nextPart": 27
             }
+          ],
+          "rewards": [
+            "earn-money %player% 250 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 5
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 29
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 10 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 30
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 275 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 7
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 32
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 11 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 33
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 300 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 9
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 35
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 12 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 36
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 325 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 11
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 38
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 13 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 39
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 350 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 13
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 41
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 14 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 42
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 375 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 15
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 44
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 15 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 45
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 400 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 17
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 47
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 16 выполнено.",
+          "answers": [
+            {
+              "text": "Далее",
+              "nextPart": 48
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 425 true"
+          ]
+        },
+        {
+          "text": "Убей %s/%s Призрачных Наблюдателей ",
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 19
+            }
+          ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 50
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 17 выполнено.",
+          "answers": [
+           {
+              "text": "Далее",
+              "nextPart": 50
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 450 true"
+          ]
+        },
+         {
+          "text": "Убей %s/%s стрелка из тумана",
+           "requirements": [
+             {
+               "use": "mob",
+               "type": "FOG_SHOOTER",
+               "required": 1
+             }
+           ],
+          "answers": [
+            {
+              "text": "Готово",
+              "fallbackPart": 1,
+              "nextPart": 52
+            },
+            {
+              "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Отлично! Задание 18 выполнено.",
+          "answers": [
+            {
+              "text": "Спасибо!"
+            }
+          ],
+          "rewards": [
+            "earn-money %player% 500 true"
           ]
         }
       ]
