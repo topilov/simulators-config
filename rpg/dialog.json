@@ -15,7 +15,11 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 2
+              "nextPart": 2,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
@@ -37,9 +41,6 @@
               "text": "Далее",
               "nextPart": 3
             }
-          ],
-          "rewards": [
-            "earn-money %player% 50 true"
           ]
         },
         {
