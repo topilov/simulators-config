@@ -78,78 +78,7 @@
       }
     },
     "2": {
-      "bosses": {
-        "SHADOW": {
-          "spawnAt": ["0:0:0"],
-          "type": "SHADOW",
-          "banner": {
-            "content": "rpg.boss.banner.text",
-            "lookAtPlayerX": true,
-            "lookAtPlayerY": true,
-            "color": {
-              "hex": "#1E1E1E"
-            },
-            "scale": 2.0
-          },
-          "settings": {
-            "health": 100,
-            "damage": 5.0,
-            "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "shadow",
-              "yaw": 180
-            },
-            "spawnBox": { "name": "spawn-box" },
-            "damageableBox": { "name": "spawn-box" },
-            "customName": "rpg.boss.shadow.name",
-            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png"
-          },
-          "messages": {
-            "onSpawn": "rpg.event.shadow.start_message",
-            "onDeath": "rpg.event.shadow.end_message"
-          },
-          "reward": [
-            [],
-            [],
-            []
-          ],
-          "children": [
-            {
-              "childType": "TWIN",
-              "settings": {
-                "health": 30,
-                "damage": 10,
-                "speed": 0.3,
-                "location": {
-                  "name": "boss",
-                  "tag": "twin_1"
-                },
-                "spawnBox": { "name": "spawn-box" },
-                "damageableBox": { "name": "spawn-box" },
-                "customName": "rpg.boss.child.twin.name",
-                "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/twin.png"
-              }
-            },
-            {
-              "childType": "TWIN",
-              "settings": {
-                "health": 30,
-                "damage": 10,
-                "speed": 0.3,
-                "location": {
-                  "name": "boss",
-                  "tag": "twin_2"
-                },
-                "spawnBox": { "name": "spawn-box" },
-                "damageableBox": { "name": "spawn-box" },
-                "customName": "rpg.boss.child.twin.name",
-                "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/twin.png"
-              }
-            }
-          ]
-        }
-      }
+      
     }
   }
 }
