@@ -455,7 +455,35 @@
     },
     "2": {
       "mobs": [
-        
+        {
+          "pointTag": "shadowsc",
+          "kinds": [
+            {
+              "chance": 90,
+              "type": "DAO_STUDENT",
+              "name": "i18n.rpg.mobs.dao_student.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 10.0,
+                "ATTACK_DAMAGE": 1,
+                "MOVEMENT_SPEED": 0.4
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool-damage": 3.0
+                }
+              },
+              "drops": [
+                {
+                  "chance": 54.95
+                }
+              ]
+            }
+          ]
+        }
       ]
     }
   }
