@@ -2,7 +2,20 @@
   "requiredLevelMessage": "rpg.location.message.required-level",
   "requiredRebirthMessage": "rpg.location.message.required-rebirth",
   "locations": {
-    "CITY_OF_DAO": {
+    "SHADOW_CITY": {
+      "slots": 125,
+      "map": "rpg_1",
+      "button": {
+        "id": 1,
+        "title": "rpg.location.spawn.title",
+        "texture": "map1.png",
+        "requiredLevel": 1,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+     "CITY_OF_DAO": {
       "slots": 125,
       "map": "rpg_2",
       "button": {
