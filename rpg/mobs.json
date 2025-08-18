@@ -459,7 +459,7 @@
           "pointTag": "dao_sword",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "DAO_STUDENT",
               "name": "i18n.rpg.mobs.dao_student.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
@@ -546,7 +546,95 @@
                   }
                 }
               ]
-              
+            },
+            {
+              "chance": 10,
+              "type": "KATANA_INSTRUCTOR",
+              "name": "i18n.rpg.mobs.katana_instructor.name|!|§5",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 10.0,
+                "ATTACK_DAMAGE": 1,
+                "MOVEMENT_SPEED": 0.4
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
+                "data": {
+                  "tool-damage": 3.0
+                }
+              },
+              "drops": [
+                {
+                  "chance": 54.95
+                },
+                {
+                  "chance": 17.08,
+                  "id": "stone_of_disciple",
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "Камень Ученика",
+                    "lore": "§7Простой камень с вырезанным знаком Пути.§7Хранит тепло ладоней тех, кто только начал идти.",
+                    "data": {
+                      "price": 10.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 12.09,
+                  "id": "ring_of_fates",
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "Кольцо Судеб",
+                    "lore": "§7Тусклое кольцо с трещиной на ободке.§7Когда-то связывало клятвы, теперь — лишь воспоминания.",
+                    "data": {
+                      "price": 10.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 8.79,
+                  "id": "sharpened_fan_of_shaolin",
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "Заточенный Веер Шаолиня",
+                    "lore": "§7Старый тренировочный веер с острыми лезвиями.§7Каждая царапина — след удара, который не был забыт.",
+                    "data": {
+                      "price": 10.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 6.59,
+                  "id": "blood_of_path_master",
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "Кровь Мастера Пути",
+                    "lore": "§7Флакон с густой, почти засохшей жидкостью.§7Хранят как реликвию, хотя никто не знает — чью.",
+                    "data": {
+                      "price": 10.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                },
+                {
+                  "chance": 0.5,
+                  "id": "spirit_of_battle_master",
+                  "itemStack": {
+                    "type": "CLAY_BALL",
+                    "name": "Дух Боевого Мастера",
+                    "lore": "§7Обсидиановая фигурка с вырезанным лицом воина.§7Стоит молча, будто ждёт, когда её снова призовут.",
+                    "data": {
+                      "price": 10.0,
+                      "hoverColor": "GREY"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
