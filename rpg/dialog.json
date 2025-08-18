@@ -56,10 +56,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 5
+              "nextPart": 5,
+               "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -70,9 +82,6 @@
               "text": "Далее",
               "nextPart": 6
             }
-          ],
-          "rewards": [
-            "earn-money %player% 75 true"
           ]
         },
         {
@@ -88,10 +97,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 8
+              "nextPart": 8,
+                 "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -102,9 +123,6 @@
               "text": "Далее",
               "nextPart": 9
             }
-          ],
-          "rewards": [
-            "earn-money %player% 100 true"
           ]
         },
         {
