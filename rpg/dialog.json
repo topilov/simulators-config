@@ -14,7 +14,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 1,
+              "fallbackPart": 1,
+              "nextPart": 2,
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
@@ -30,7 +31,7 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 2
+              "nextPart": 3
             }
           ]
         },
@@ -46,11 +47,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 3,
-              "rewards": [
-                "earn-money %player% 75 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 5
             },
             {
               "text": "Я вернусь позже."
@@ -62,8 +60,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 4
+              "nextPart": 6
             }
+          ],
+          "rewards": [
+            "earn-money %player% 75 true"
           ]
         },
         {
@@ -78,11 +79,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 5,
-              "rewards": [
-                "earn-money %player% 100 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 8
             },
             {
               "text": "Я вернусь позже."
@@ -94,8 +92,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 6
+              "nextPart": 9
             }
+          ],
+          "rewards": [
+            "earn-money %player% 100 true"
           ]
         },
         {
@@ -110,11 +111,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 7,
-              "rewards": [
-                "earn-money %player% 125 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 11
             },
             {
               "text": "Я вернусь позже."
@@ -126,8 +124,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 8
+              "nextPart": 12
             }
+          ],
+          "rewards": [
+            "earn-money %player% 125 true"
           ]
         },
         {
@@ -142,11 +143,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 9,
-              "rewards": [
-                "earn-money %player% 150 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 14
             },
             {
               "text": "Я вернусь позже."
@@ -158,8 +156,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 10
+              "nextPart": 15
             }
+          ],
+          "rewards": [
+            "earn-money %player% 150 true"
           ]
         },
         {
@@ -174,11 +175,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 11,
-              "rewards": [
-                "earn-money %player% 175 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 17
             },
             {
               "text": "Я вернусь позже."
@@ -190,8 +188,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 12
+              "nextPart": 18
             }
+          ],
+          "rewards": [
+            "earn-money %player% 175 true"
           ]
         },
         {
@@ -206,11 +207,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 13,
-              "rewards": [
-                "earn-money %player% 200 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 20
             },
             {
               "text": "Я вернусь позже."
@@ -222,8 +220,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 14
+              "nextPart": 21
             }
+          ],
+          "rewards": [
+            "earn-money %player% 200 true"
           ]
         },
         {
@@ -238,11 +239,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 15,
-              "rewards": [
-                "earn-money %player% 225 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 23
             },
             {
               "text": "Я вернусь позже."
@@ -254,8 +252,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 16
+              "nextPart": 24
             }
+          ],
+          "rewards": [
+            "earn-money %player% 225 true"
           ]
         },
         {
@@ -270,11 +271,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 17,
-              "rewards": [
-                "earn-money %player% 250 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 26
             },
             {
               "text": "Я вернусь позже."
@@ -286,8 +284,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 18
+              "nextPart": 27
             }
+          ],
+          "rewards": [
+            "earn-money %player% 250 true"
           ]
         },
         {
@@ -302,11 +303,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 19,
-              "rewards": [
-                "earn-money %player% 275 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 29
             },
             {
               "text": "Я вернусь позже."
@@ -318,8 +316,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 20
+              "nextPart": 30
             }
+          ],
+          "rewards": [
+            "earn-money %player% 275 true"
           ]
         },
         {
@@ -334,11 +335,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 21,
-              "rewards": [
-                "earn-money %player% 300 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 32
             },
             {
               "text": "Я вернусь позже."
@@ -350,8 +348,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 22
+              "nextPart": 33
             }
+          ],
+          "rewards": [
+            "earn-money %player% 300 true"
           ]
         },
         {
@@ -366,11 +367,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 23,
-              "rewards": [
-                "earn-money %player% 325 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 35
             },
             {
               "text": "Я вернусь позже."
@@ -382,8 +380,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 24
+              "nextPart": 36
             }
+          ],
+          "rewards": [
+            "earn-money %player% 325 true"
           ]
         },
         {
@@ -398,11 +399,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 25,
-              "rewards": [
-                "earn-money %player% 350 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 38
             },
             {
               "text": "Я вернусь позже."
@@ -414,8 +412,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 26
+              "nextPart": 39
             }
+          ],
+          "rewards": [
+            "earn-money %player% 350 true"
           ]
         },
         {
@@ -430,11 +431,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 27,
-              "rewards": [
-                "earn-money %player% 375 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 41
             },
             {
               "text": "Я вернусь позже."
@@ -446,8 +444,11 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 28
+              "nextPart": 42
             }
+          ],
+          "rewards": [
+            "earn-money %player% 375 true"
           ]
         },
         {
@@ -462,11 +463,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 29,
-              "rewards": [
-                "earn-money %player% 400 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 44
             },
             {
               "text": "Я вернусь позже."
@@ -478,27 +476,27 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 30
+              "nextPart": 45
             }
+          ],
+          "rewards": [
+            "earn-money %player% 400 true"
           ]
         },
         {
-          "text": "Собери %s/%s Треснувших Амулетов Дождя",
+          "text": "Убей %s/%s Призрачных Наблюдателей",
           "requirements": [
             {
-              "use": "item",
-              "type": "cracked_amulet_of_rain",
-              "required": 3
+              "use": "mob",
+              "type": "GHOST_OBSERVER",
+              "required": 17
             }
           ],
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 31,
-              "rewards": [
-                "earn-money %player% 425 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 47
             },
             {
               "text": "Я вернусь позже."
@@ -510,12 +508,15 @@
           "answers": [
             {
               "text": "Далее",
-              "nextPart": 32
+              "nextPart": 48
             }
+          ],
+          "rewards": [
+            "earn-money %player% 425 true"
           ]
         },
         {
-          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "text": "Убей %s/%s Призрачных Наблюдателей ",
           "requirements": [
             {
               "use": "mob",
@@ -526,11 +527,8 @@
           "answers": [
             {
               "text": "Готово",
-              "nextPart": 33,
-              "rewards": [
-                "earn-money %player% 450 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 50
             },
             {
               "text": "Я вернусь позже."
@@ -540,28 +538,29 @@
         {
           "text": "Отлично! Задание 17 выполнено.",
           "answers": [
-            {
+           {
               "text": "Далее",
-              "nextPart": 34
-            }
-          ]
-        },
-        {
-          "text": "Убей %s/%s Стрелков из Тумана",
-          "requirements": [
-            {
-              "use": "mob",
-              "type": "FOG_SHOOTER",
-              "required": 1
+              "nextPart": 50
             }
           ],
+          "rewards": [
+            "earn-money %player% 450 true"
+          ]
+        },
+         {
+          "text": "Убей %s/%s стрелка из тумана",
+           "requirements": [
+             {
+               "use": "mob",
+               "type": "FOG_SHOOTER",
+               "required": 1
+             }
+           ],
           "answers": [
             {
               "text": "Готово",
-              "rewards": [
-                "earn-money %player% 500 true",
-                "earn-completed-quests %player% 1"
-              ]
+              "fallbackPart": 1,
+              "nextPart": 52
             },
             {
               "text": "Я вернусь позже."
@@ -574,6 +573,9 @@
             {
               "text": "Спасибо!"
             }
+          ],
+          "rewards": [
+            "earn-money %player% 500 true"
           ]
         }
       ]
