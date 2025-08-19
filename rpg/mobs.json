@@ -681,14 +681,17 @@
               "name": "i18n.rpg.mobs.dao_archer.name|!|§6",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
               "attributes": {
-                "FOLLOW_RANGE": 15.0,
-                "MAX_HEALTH": 30.0,
-                "ATTACK_DAMAGE": 4.0,
-                "MOVEMENT_SPEED": 0.25
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 50.0,
+                "ATTACK_DAMAGE": 5.0,
+                "MOVEMENT_SPEED": 0.45
               },
               "isAntiKnockback": true,
               "itemInMainHand": {
-                "type": "BOW"
+                "type": "BOW",
+                "data": {
+                  "tool-damage": 1.0
+                }
               },
               "drops": []
             }
