@@ -644,6 +644,38 @@
               ]
             }
           ]
+        },
+        {
+          "pointTag": "dao_guardian",
+          "kinds": [
+            {
+              "chance": 100,
+              "type": "DAO_GUARDIAN",
+              "name": "i18n.rpg.mobs.dao_guardian.name|!|§6",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
+              "attributes": {
+                "FOLLOW_RANGE": 10.0,
+                "MAX_HEALTH": 40.0,
+                "ATTACK_DAMAGE": 7.0,
+                "MOVEMENT_SPEED": 0.25
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "GOLD_SWORD",
+                "data": {
+                  "tool-damage": 5.0
+                }
+              },
+              "onHitEffects": [
+                {
+                  "type": "WITHER",
+                  "duration": 3,
+                  "amplifier": 0
+                }
+              ],
+              "drops": []
+            }
+          ]
         }
       ]
     }
