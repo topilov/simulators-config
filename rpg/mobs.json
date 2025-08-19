@@ -649,7 +649,7 @@
           "pointTag": "dao_guardian",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 0,
               "type": "DAO_GUARDIAN",
               "name": "i18n.rpg.mobs.dao_guardian.name|!|§6",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
@@ -674,7 +674,24 @@
                 }
               ],
               "drops": []
-            }
+            },
+            {
+              "chance": 100,
+              "type": "DAO_ARCHER",
+              "name": "i18n.rpg.mobs.dao_archer.name|!|§6",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
+              "attributes": {
+                "FOLLOW_RANGE": 15.0,
+                "MAX_HEALTH": 30.0,
+                "ATTACK_DAMAGE": 4.0,
+                "MOVEMENT_SPEED": 0.25
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW"
+              },
+              "drops": []
+            },
           ]
         }
       ]
