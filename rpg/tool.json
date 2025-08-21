@@ -8,18 +8,23 @@
   "tools": {
     "DEFAULT_SWORD": {
       "type": "DEFAULT_SWORD",
-      "material": "WOOD_SWORD",
+      "material": "IRON_SWORD",
       "title": "Обычный меч",
       "rawTitle": "Обычный меч",
       "description": "Описание",
       "rare": "COMMON",
-      "maxLevel": 5,
+      "maxLevel": 10,
       "levels": {
-        "1": {"price": 100, "damage": 1.0},
-        "2": {"price": 1000, "damage": 2.0},
-        "3": {"price": 10000, "damage": 3.0},
-        "4": {"price": 100000,"damage": 4.0},
-        "5": {"price": 1000000, "damage": 5.0}
+         "1": {"price": 100, "damage": 1.0},
+         "2": {"price": 300, "damage": 1.5},
+         "3": {"price": 500, "damage": 2.0},
+         "4": {"price": 1000, "damage": 2.5},
+         "5": {"price": 2000, "damage": 3.0},
+         "6": {"price": 4000, "damage": 4.0},
+         "7": {"price": 6500, "damage": 5.0},
+         "8": {"price": 8500, "damage": 6.5},
+         "9": {"price": 10000, "damage": 8.5},
+         "10": {"price": 15000, "damage": 10.0}
       }
     },
     "DEFAULT_KNIFE": {
@@ -29,13 +34,18 @@
       "rawTitle": "Обычный кинжал",
       "description": "Описание",
       "rare": "COMMON",
-      "maxLevel": 5,
+      "maxLevel": 10,
       "levels": {
-        "1": {"price": 100, "damage": 1.0},
-        "2": {"price": 1000, "damage": 2.0},
-        "3": {"price": 10000, "damage": 3.0},
-        "4": {"price": 100000,"damage": 4.0},
-        "5": {"price": 1000000, "damage": 5.0}
+         "1": {"price": 100, "damage": 1.0},
+         "2": {"price": 300, "damage": 1.5},
+         "3": {"price": 500, "damage": 2.0},
+         "4": {"price": 1000, "damage": 2.5},
+         "5": {"price": 2000, "damage": 3.0},
+         "6": {"price": 4000, "damage": 4.0},
+         "7": {"price": 6500, "damage": 5.0},
+         "8": {"price": 8500, "damage": 6.5},
+         "9": {"price": 10000, "damage": 8.5},
+         "10": {"price": 15000, "damage": 10.0}
       }
     },
     "DEFAULT_BOW": {
@@ -45,19 +55,24 @@
       "rawTitle": "Обычный лук",
       "description": "Описание",
       "rare": "COMMON",
-      "maxLevel": 5,
+      "maxLevel": 10,
       "data": {
         "bow": 1,
         "no-interact": 1,
         "cooldown": 10
       },
       "levels": {
-        "1": {"price": 100, "damage": 1.0},
-        "2": {"price": 1000, "damage": 2.0},
-        "3": {"price": 10000, "damage": 3.0},
-        "4": {"price": 100000,"damage": 4.0},
-        "5": {"price": 1000000, "damage": 5.0}
-      }
+         "1": {"price": 100, "damage": 1.0},
+         "2": {"price": 300, "damage": 1.5},
+         "3": {"price": 500, "damage": 2.0},
+         "4": {"price": 1000, "damage": 2.5},
+         "5": {"price": 2000, "damage": 3.0},
+         "6": {"price": 4000, "damage": 4.0},
+         "7": {"price": 6500, "damage": 5.0},
+         "8": {"price": 8500, "damage": 6.5},
+         "9": {"price": 10000, "damage": 8.5},
+         "10": {"price": 15000, "damage": 10.0}
+       }
     },
     "DEFAULT_STAFF": {
       "type": "DEFAULT_STAFF",
@@ -66,18 +81,23 @@
       "rawTitle": "Обычный посох",
       "description": "Описание",
       "rare": "COMMON",
-      "maxLevel": 5,
+      "maxLevel": 10,
       "data": {
         "staff": 1,
         "no-interact": 1,
         "cooldown": 40
       },
       "levels": {
-        "1": {"price": 100, "damage": 1.0},
-        "2": {"price": 1000, "damage": 2.0},
-        "3": {"price": 10000, "damage": 3.0},
-        "4": {"price": 100000,"damage": 4.0},
-        "5": {"price": 1000000, "damage": 5.0}
+         "1": {"price": 100, "damage": 1.0},
+         "2": {"price": 300, "damage": 1.5},
+         "3": {"price": 500, "damage": 2.0},
+         "4": {"price": 1000, "damage": 2.5},
+         "5": {"price": 2000, "damage": 3.0},
+         "6": {"price": 4000, "damage": 4.0},
+         "7": {"price": 6500, "damage": 5.0},
+         "8": {"price": 8500, "damage": 6.5},
+         "9": {"price": 10000, "damage": 8.5},
+         "10": {"price": 15000, "damage": 10.0}
       }
     }
   }

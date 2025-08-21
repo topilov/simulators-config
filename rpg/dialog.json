@@ -44,22 +44,34 @@
           ]
         },
         {
-          "text": "Убей %s/%s Теневых Разведчиков",
+          "text": "Принеси 2 треснувших амулетов дождя.",
           "requirements": [
             {
-              "use": "mob",
-              "type": "SHADOW_SCOUT",
-              "required": 7
+              "use": "artefact",
+              "artefactId": "cracked_amulet_of_rain",
+              "required": 2
             }
           ],
           "answers": [
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 5
+              "nextPart": 5,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -70,9 +82,6 @@
               "text": "Далее",
               "nextPart": 6
             }
-          ],
-          "rewards": [
-            "earn-money %player% 75 true"
           ]
         },
         {
@@ -88,10 +97,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 8
+              "nextPart": 8,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -102,28 +123,37 @@
               "text": "Далее",
               "nextPart": 9
             }
-          ],
-          "rewards": [
-            "earn-money %player% 100 true"
           ]
         },
         {
-          "text": "Убей %s/%s Теневых Разведчиков",
+          "text": "Принеси 1 флаг угасшей династии.",
           "requirements": [
             {
-              "use": "mob",
-              "type": "SHADOW_SCOUT",
-              "required": 11
+              "use": "artefact",
+              "artefactId": "flag_of_fading_dynasty",
+              "required": 1
             }
           ],
           "answers": [
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 11
+              "nextPart": 11,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -134,9 +164,6 @@
               "text": "Далее",
               "nextPart": 12
             }
-          ],
-          "rewards": [
-            "earn-money %player% 125 true"
           ]
         },
         {
@@ -152,10 +179,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 14
+              "nextPart": 14,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -166,28 +205,37 @@
               "text": "Далее",
               "nextPart": 15
             }
-          ],
-          "rewards": [
-            "earn-money %player% 150 true"
           ]
         },
         {
-          "text": "Убей %s/%s Теневых Разведчиков",
+          "text": "Принеси 5 треснувших амулетов дождя.",
           "requirements": [
             {
-              "use": "mob",
-              "type": "SHADOW_SCOUT",
-              "required": 15
+              "use": "artefact",
+              "artefactId": "cracked_amulet_of_rain",
+              "required": 5
             }
           ],
           "answers": [
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 17
+              "nextPart": 17,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -198,9 +246,6 @@
               "text": "Далее",
               "nextPart": 18
             }
-          ],
-          "rewards": [
-            "earn-money %player% 175 true"
           ]
         },
         {
@@ -216,10 +261,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 20
+              "nextPart": 20,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -230,28 +287,37 @@
               "text": "Далее",
               "nextPart": 21
             }
-          ],
-          "rewards": [
-            "earn-money %player% 200 true"
           ]
         },
         {
-          "text": "Убей %s/%s Теневых Разведчиков",
+          "text": "Принеси 1 зеркало ночной улицы.",
           "requirements": [
             {
-              "use": "mob",
-              "type": "SHADOW_SCOUT",
-              "required": 19
+              "use": "artefact",
+              "artefactId": "mirror_of_night_street",
+              "required": 1
             }
           ],
           "answers": [
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 23
+              "nextPart": 23,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -262,9 +328,6 @@
               "text": "Далее",
               "nextPart": 24
             }
-          ],
-          "rewards": [
-            "earn-money %player% 225 true"
           ]
         },
         {
@@ -280,10 +343,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 26
+              "nextPart": 26,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -294,9 +369,6 @@
               "text": "Далее",
               "nextPart": 27
             }
-          ],
-          "rewards": [
-            "earn-money %player% 250 true"
           ]
         },
         {
@@ -312,10 +384,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 29
+              "nextPart": 29,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -326,28 +410,37 @@
               "text": "Далее",
               "nextPart": 30
             }
-          ],
-          "rewards": [
-            "earn-money %player% 275 true"
           ]
         },
         {
-          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "text": "Принеси 2 еденицы Праха Серебряного Языка.",
           "requirements": [
             {
-              "use": "mob",
-              "type": "GHOST_OBSERVER",
-              "required": 7
+              "use": "artefact",
+              "artefactId": "silver_tongue_ashes",
+              "required": 2
             }
           ],
           "answers": [
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 32
+              "nextPart": 32,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -358,9 +451,6 @@
               "text": "Далее",
               "nextPart": 33
             }
-          ],
-          "rewards": [
-            "earn-money %player% 300 true"
           ]
         },
         {
@@ -376,10 +466,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 35
+              "nextPart": 35,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -390,28 +492,37 @@
               "text": "Далее",
               "nextPart": 36
             }
-          ],
-          "rewards": [
-            "earn-money %player% 325 true"
           ]
         },
         {
-          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "text": "Принеси 3 Ключа От Теней.",
           "requirements": [
             {
-              "use": "mob",
-              "type": "GHOST_OBSERVER",
-              "required": 11
+              "use": "artefact",
+              "artefactId": "key_from_shadows",
+              "required": 3
             }
           ],
           "answers": [
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 38
+              "nextPart": 38,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -422,9 +533,6 @@
               "text": "Далее",
               "nextPart": 39
             }
-          ],
-          "rewards": [
-            "earn-money %player% 350 true"
           ]
         },
         {
@@ -440,10 +548,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 41
+              "nextPart": 41,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -454,28 +574,37 @@
               "text": "Далее",
               "nextPart": 42
             }
-          ],
-          "rewards": [
-            "earn-money %player% 375 true"
           ]
         },
         {
-          "text": "Убей %s/%s Призрачных Наблюдателей",
+          "text": "Принеси 4 еденицы Праха Серебряного Языка .",
           "requirements": [
             {
-              "use": "mob",
-              "type": "GHOST_OBSERVER",
-              "required": 15
+              "use": "artefact",
+              "artefactId": "silver_tongue_ashes",
+              "required": 4
             }
           ],
           "answers": [
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 44
+              "nextPart": 44,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -486,13 +615,10 @@
               "text": "Далее",
               "nextPart": 45
             }
-          ],
-          "rewards": [
-            "earn-money %player% 400 true"
           ]
         },
         {
-          "text": "Получи %s/%s Треснувших Амулетов Дождя",
+          "text": "Убей %s/%s Призрачных Наблюдателей",
           "requirements": [
             {
               "use": "mob",
@@ -504,10 +630,22 @@
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 47
+              "nextPart": 47,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -518,60 +656,78 @@
               "text": "Далее",
               "nextPart": 48
             }
-          ],
-          "rewards": [
-            "earn-money %player% 425 true"
           ]
         },
         {
-          "text": "Убей %s/%s Призрачных Наблюдателей ",
+          "text": "Принеси 1 клык предков.",
           "requirements": [
             {
-              "use": "mob",
-              "type": "GHOST_OBSERVER",
-              "required": 19
+              "use": "artefact",
+              "artefactId": "fang_of_ancestors_shadow",
+              "required": 1
             }
           ],
           "answers": [
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 50
+              "nextPart": 50,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
         {
           "text": "Отлично! Задание 17 выполнено.",
           "answers": [
-           {
+            {
               "text": "Далее",
-              "nextPart": 50
+              "nextPart": 51
             }
-          ],
-          "rewards": [
-            "earn-money %player% 450 true"
           ]
         },
-         {
+        {
           "text": "Убей %s/%s стрелка из тумана",
-           "requirements": [
-             {
-               "use": "mob",
-               "type": "FOG_SHOOTER",
-               "required": 1
-             }
-           ],
+          "requirements": [
+            {
+              "use": "mob",
+              "type": "FOG_SHOOTER",
+              "required": 1
+            }
+          ],
           "answers": [
             {
               "text": "Готово",
               "fallbackPart": 1,
-              "nextPart": 52
+              "nextPart": 53,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "Я вернусь позже."
+            }
+          ]
+        },
+        {
+          "text": "Ты ещё не выполнил задание!",
+          "answers": [
+            {
+              "text": "Понял, ухожу."
             }
           ]
         },
@@ -581,9 +737,6 @@
             {
               "text": "Спасибо!"
             }
-          ],
-          "rewards": [
-            "earn-money %player% 500 true"
           ]
         }
       ]
