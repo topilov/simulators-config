@@ -79,6 +79,43 @@
     },
     "2": {
       "bosses": {
+        "DAO_MASTER": {
+          "spawnAt": ["0:00:00"],
+          "type": "DAO_MASTER",
+          "banner": {
+            "content": "rpg.boss.banner.text",
+            "lookAtPlayerX": true,
+            "lookAtPlayerY": true,
+            "color": {
+              "hex": "#1E1E1E"
+            },
+            "scale": 2.0
+          },
+          "settings": {
+            "health": 100,
+            "damage": 5.0,
+            "speed": 0.2,
+            "location": {
+              "name": "boss",
+              "tag": "dao_master",
+              "yaw": 180
+            },
+            "spawnBox": { "name": "spawn-box" },
+            "damageableBox": { "name": "spawn-box" },
+            "customName": "rpg.boss.dao_master.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png"
+          },
+          "messages": {
+            "onSpawn": "rpg.event.dao_master.start_message",
+            "onDeath": "rpg.event.dao_master.end_message"
+          },
+          "reward": [
+            [],
+            [],
+            []
+          ],
+          "children": []
+        }
       }
     }
   }
