@@ -1005,7 +1005,7 @@
           "pointTag": "district",
           "kinds": [
             {
-              "chance": 10,
+              "chance": 90,
               "type": "ELITE_MOBS",
               "name": "i18n.rpg.mobs.elite_mobs.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
@@ -1036,7 +1036,7 @@
               ]
             },
             {
-              "chance": 90,
+              "chance": 10,
               "type": "MASK_DESTROYER",
               "name": "i18n.rpg.mobs.mask_destroyer.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
@@ -1049,6 +1049,47 @@
               "isAntiKnockback": true,
               "itemInMainHand": {
                 "type": "IRON_SWORD",
+                "data": {
+                  "tool-damage": 3.0
+                }
+              },
+              "drops": [
+                {
+                  "chance": 54.95
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pointTag": "warlock",
+          "kinds": [
+            {
+              "chance": 100,
+              "type": "WARLOCK_GANGS",
+              "name": "i18n.rpg.mobs.warlock_gangs.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 10.0,
+                "ATTACK_DAMAGE": 1,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "onHitEffects": [
+                {
+                  "type": "CONFUSION",
+                  "duration": 40,
+                  "amplifier": 0
+                },
+                {
+                  "type": "SLOW",
+                  "duration": 20,
+                  "amplifier": 0
+                }
+              ],
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
                 "data": {
                   "tool-damage": 3.0
                 }
