@@ -945,7 +945,7 @@
           "pointTag": "street",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "STREET_FIGHTER",
               "name": "i18n.rpg.mobs.street_fighter.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
@@ -957,7 +957,98 @@
               },
               "isAntiKnockback": true,
               "itemInMainHand": {
-                "type": "WOOD_SWORD",
+                "type": "STONE_SWORD",
+                "data": {
+                  "tool-damage": 3.0
+                }
+              },
+              "drops": [
+                {
+                  "chance": 54.95
+                }
+              ]
+            },
+            {
+              "chance": 10,
+              "type": "LANE_LEADER",
+              "name": "i18n.rpg.mobs.lane_leader.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 10.0,
+                "ATTACK_DAMAGE": 1,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "onHitEffects": [
+                {
+                  "type": "SLOW",
+                  "duration": 3,
+                  "amplifier": 1
+                }
+              ],
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
+                "data": {
+                  "tool-damage": 3.0
+                }
+              },
+              "drops": [
+                {
+                  "chance": 54.95
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pointTag": "district",
+          "kinds": [
+            {
+              "chance": 90,
+              "type": "ELITE_MOBS",
+              "name": "i18n.rpg.mobs.elite_mobs.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 10.0,
+                "ATTACK_DAMAGE": 1,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "onHitEffects": [
+                {
+                  "type": "WITHER",
+                  "duration": 1,
+                  "amplifier": 1
+                }
+              ],
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
+                "data": {
+                  "tool-damage": 3.0
+                }
+              },
+              "drops": [
+                {
+                  "chance": 54.95
+                }
+              ]
+            },
+            {
+              "chance": 10,
+              "type": "MASK_DESTROYER",
+              "name": "i18n.rpg.mobs.mask_destroyer.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png", 
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 10.0,
+                "ATTACK_DAMAGE": 1,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
                 "data": {
                   "tool-damage": 3.0
                 }
