@@ -120,6 +120,55 @@
     },
     "3": {
       "bosses": {
+        "THUG": {
+          "spawnAt": ["0:00:00"],
+          "type": "THUG",
+          "banner": {
+            "content": "rpg.boss.banner.text",
+            "lookAtPlayerX": true,
+            "lookAtPlayerY": true,
+            "color": {
+              "hex": "#1E1E1E"
+            },
+            "scale": 2.0
+          },
+          "settings": {
+            "health": 100,
+            "damage": 5.0,
+            "speed": 0.2,
+            "itemInMainHand": {
+              "type": "IRON_SWORD",
+              "data": {
+                "tool-damage": 3.0
+              }
+            },
+            "itemInOffHand": {
+              "type": "IRON_SWORD",
+              "data": {
+                "tool-damage": 3.0
+              }
+            },
+            "location": {
+              "name": "boss",
+              "tag": "thug",
+              "yaw": 180
+            },
+            "spawnBox": { "name": "spawn-box" },
+            "damageableBox": { "name": "spawn-box" },
+            "customName": "rpg.boss.thug.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png"
+          },
+          "messages": {
+            "onSpawn": "rpg.event.thug.start_message",
+            "onDeath": "rpg.event.thug.end_message"
+          },
+          "reward": [
+            [],
+            [],
+            []
+          ],
+          "children": []
+        }
       }
     }
   }
