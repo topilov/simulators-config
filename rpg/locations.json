@@ -15,7 +15,7 @@
         ]
       }
     },
-     "CITY_OF_DAO": {
+    "CITY_OF_DAO": {
       "slots": 125,
       "map": "rpg_2",
       "button": {
@@ -28,13 +28,26 @@
         ]
       }
     },
-     "LAWLESS_VILLAGE": {
+    "LAWLESS_VILLAGE": {
       "slots": 125,
       "map": "rpg_3",
       "button": {
         "id": 3,
         "title": "rpg.location.lawless_village.title",
         "texture": "map3.png",
+        "requiredLevel": 1,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "ARCHIPELAGO_OF_OBLIVION": {
+      "slots": 125,
+      "map": "rpg_4",
+      "button": {
+        "id": 4,
+        "title": "rpg.location.archipelago_of_oblivion.title",
+        "texture": "map4.png",
         "requiredLevel": 1,
         "onClick": [
           "location-tp %player% %id%"
