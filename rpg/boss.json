@@ -160,7 +160,45 @@
       }
     },
     "4": {
-      "bosses": {}
+      "bosses": {
+        "STRING": {
+          "spawnAt": ["0:00:00"],
+          "type": "STRING",
+          "banner": {
+            "content": "rpg.boss.banner.text",
+            "lookAtPlayerX": true,
+            "lookAtPlayerY": true,
+            "color": {
+              "hex": "#1E1E1E"
+            },
+            "scale": 2.0
+          },
+          "settings": {
+            "health": 500,
+            "damage": 5.0,
+            "speed": 0.2,
+            "location": {
+              "name": "boss",
+              "tag": "string",
+              "yaw": 180
+            },
+            "spawnBox": { "name": "spawn-box" },
+            "damageableBox": { "name": "spawn-box" },
+            "customName": "rpg.boss.string.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/thug.png"
+          },
+          "messages": {
+            "onSpawn": "rpg.event.string.start_message",
+            "onDeath": "rpg.event.string.end_message"
+          },
+          "reward": [
+            [],
+            [],
+            []
+          ],
+          "children": []
+        }
+      }
     }
   }
 }
