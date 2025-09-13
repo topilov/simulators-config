@@ -391,19 +391,19 @@
         "texture": "lootboxes.png",
         "elements": [
           {
-            "id": "test_title",
+            "id": "test_rune",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "rpg.titles.test.name",
-              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "name": "rpg.runes.test.name",
+              "lore": "i18n.rpg.runes.description|!|rpg.runes.ability.none",
               "data": {
-                "sim": "titles"
+                "sim": "runes"
               }
             },
             "chance": 100.0,
             "onDrop": [
-              "give-title %player% TEST_TITLE 500000"
+              "give-runes %player% TEST_RUNE 500000"
             ]
           }
         ]
