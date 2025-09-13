@@ -389,104 +389,25 @@
         "id": "rune",
         "title": "rpg.lootbox.runes.menu.title",
         "texture": "lootboxes.png",
-        "elements": []
-      }
-    },
-    "title": {
-      "title": "rpg.lootbox.titles.title",
-      "keyTitle": "rpg.lootbox.titles.key.title",
-      "giveMessage": "i18n.rpg.lootbox.message.give|!|rpg.lootbox.titles.key.title",
-      "alertMessage": "rpg.lootbox.titles.message.alert",
-      "useMessage": "i18n.rpg.lootbox.message.use|!|rpg.lootbox.titles.key.title",
-      "keyStack": {
-        "type": "CLAY_BALL",
-        "name": "rpg.lootbox.titles.key.title",
-        "lore": "rpg.lootbox.titles.key.description",
-        "data": {
-          "sim": "purple_crystal_key",
-          "no-clear": 1
-        },
-        "flags": [
-          "HIDE_ATTRIBUTES",
-          "HIDE_ENCHANTS",
-          "HIDE_UNBREAKABLE"
+        "elements": [
+          {
+            "id": "test_title",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.test.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 100.0,
+            "onDrop": [
+              "give-title %player% TEST_TITLE 500000"
+            ]
+          }
         ]
-      },
-      "type": "LEGENDARY",
-      "location": {
-        "name": "lootbox",
-        "tag": "titles",
-        "yaw": 0
-      },
-      "alertRarities": [
-        "LEGENDARY"
-      ],
-      "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
-      "onOpen": [],
-      "menu": {
-        "id": "title",
-        "title": "rpg.lootbox.titles.menu.title",
-        "texture": "lootboxes.png",
-        "elements": []
       }
-    }
-  },
-    "title": {
-    "title": "rpg.lootbox.titles.test.title",
-    "keyTitle": "rpg.lootbox.titles.key.test",
-    "giveMessage": "i18n.rpg.lootbox.message.give|!|rpg.lootbox.titles.key.test",
-    "alertMessage": "rpg.lootbox.titles.message.alert",
-    "useMessage": "i18n.rpg.lootbox.message.use|!|rpg.lootbox.titles.key.test",
-    "keyStack": {
-      "type": "CLAY_BALL",
-      "name": "rpg.lootbox.titles.key.test",
-      "lore": "rpg.lootbox.titles.key.description",
-      "data": {
-        "sim": "purple_crystal_key",
-        "no-clear": 1
-      },
-      "flags": [
-        "HIDE_ATTRIBUTES",
-        "HIDE_ENCHANTS",
-        "HIDE_UNBREAKABLE"
-      ]
-    },
-    "type": "LEGENDARY",
-    "location": {
-      "name": "lootbox",
-      "tag": "titles",
-      "yaw": -90
-    },
-    "alertRarities": [
-      "LEGENDARY"
-    ],
-    "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
-    "onOpen": [
-      "earn-tutorial-stage-progress %player% OPEN_TEST_TITLE_LOOTBOX",
-      "add-achievement-progress %player% OPEN_TEST_TITLE_LOOTBOX %amount%"
-    ],
-    "menu": {
-      "id": "test_title",
-      "title": "rpg.lootbox.titles.menu.test",
-      "texture": "lootboxes.png",
-      "elements": [
-        {
-          "id": "test_title",
-          "rarity": "LEGENDARY",
-          "itemStack": {
-            "type": "CLAY_BALL",
-            "name": "rpg.titles.test.name",
-            "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
-            "data": {
-              "sim": "titles"
-            }
-          },
-          "chance": 100.0,
-          "onDrop": [
-            "give-title %player% TEST_TITLE 500000"
-          ]
-        }
-      ]
     }
   }
 }
