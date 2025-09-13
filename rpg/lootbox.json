@@ -391,19 +391,19 @@
         "texture": "lootboxes.png",
         "elements": [
           {
-            "id": "test_rune",
-            "rarity": "LEGENDARY",
+            "id": "mage",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "rpg.runes.test.name",
-              "lore": "i18n.rpg.runes.description|!|rpg.runes.ability.none",
+              "name": "rpg.titles.mage.name",
+              "lore": "i18n.katana.titles.description|!|katana.titles.ability.none",
               "data": {
-                "sim": "runes"
+                "sim": "titles"
               }
             },
-            "chance": 100.0,
+            "chance": 2.6125,
             "onDrop": [
-              "give-runes %player% TEST_RUNE 500000"
+              "give-title %player% MAGE 500000"
             ]
           }
         ]
