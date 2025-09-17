@@ -390,22 +390,6 @@
         "title": "rpg.lootbox.runes.menu.title",
         "texture": "lootboxes.png",
         "elements": [
-          {
-            "id": "mage",
-            "rarity": "COMMON",
-            "itemStack": {
-              "type": "CLAY_BALL",
-              "name": "rpg.titles.mage.name",
-              "lore": "i18n.katana.titles.description|!|katana.titles.ability.none",
-              "data": {
-                "sim": "titles"
-              }
-            },
-            "chance": 100.0,
-            "onDrop": [
-              "give-title %player% MAGE 500000"
-            ]
-          }
         ]
       }
     }
