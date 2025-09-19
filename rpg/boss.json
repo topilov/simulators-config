@@ -242,9 +242,9 @@
     },
     "7": {
       "bosses": {
-        "LOST_BOSS": {
+        "LOST": {
           "spawnAt": ["0:00:00"],
-          "type": "LOST_BOSS",
+          "type": "LOST",
           "banner": {
             "content": "rpg.boss.banner.text",
             "lookAtPlayerX": true,
@@ -277,7 +277,37 @@
     },
     "8": {
       "bosses": {
-        
+        "ASHEN": {
+          "spawnAt": ["0:00:00"],
+          "type": "ASHEN",
+          "banner": {
+            "content": "rpg.boss.banner.text",
+            "lookAtPlayerX": true,
+            "lookAtPlayerY": true,
+            "color": { "hex": "#1E1E1E" },
+            "scale": 2.0
+          },
+          "settings": {
+            "health": 100,
+            "damage": 5.0,
+            "speed": 0.2,
+            "location": {
+              "name": "boss",
+              "tag": "ashen",
+              "yaw": 180
+            },
+            "spawnBox": { "name": "spawn-box" },
+            "damageableBox": { "name": "spawn-box" },
+            "customName": "rpg.boss.lashen.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/ashen.png"
+          },
+          "messages": {
+            "onSpawn": "rpg.event.ashen.start_message",
+            "onDeath": "rpg.event.ashen.end_message"
+          },
+          "reward": [[], [], []],
+          "children": []
+        }
       }
     },
     "9": {
