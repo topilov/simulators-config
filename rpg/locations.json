@@ -54,6 +54,19 @@
         ]
       }
     },
+    "CRUCIFIED_VALLEY": {
+      "slots": 125,
+      "map": "rpg_5",
+      "button": {
+        "id": 5,
+        "title": "rpg.location.crucified_valley.title",
+        "texture": "map5.png",
+        "requiredLevel": 1,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
     "SUNKEN_ARCHIPELAGO": {
       "slots": 125,
       "map": "rpg_6",
