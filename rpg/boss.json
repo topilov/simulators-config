@@ -239,6 +239,41 @@
           "children": []
         }
       }
+    },
+    "7": {
+      "bosses": {
+        "LOST_BOSS": {
+          "spawnAt": ["0:00:00"],
+          "type": "LOST_BOSS",
+          "banner": {
+            "content": "rpg.boss.banner.text",
+            "lookAtPlayerX": true,
+            "lookAtPlayerY": true,
+            "color": { "hex": "#1E1E1E" },
+            "scale": 2.0
+          },
+          "settings": {
+            "health": 100,
+            "damage": 5.0,
+            "speed": 0.2,
+            "location": {
+              "name": "boss",
+              "tag": "lost",
+              "yaw": 180
+            },
+            "spawnBox": { "name": "spawn-box" },
+            "damageableBox": { "name": "spawn-box" },
+            "customName": "rpg.boss.lost.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/lost.png"
+          },
+          "messages": {
+            "onSpawn": "rpg.event.lost.start_message",
+            "onDeath": "rpg.event.lost.end_message"
+          },
+          "reward": [[], [], []],
+          "children": []
+        }
+      }
     }
   }
 }
