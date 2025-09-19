@@ -202,10 +202,42 @@
     },
     "5": {
       "bosses": {
+        "SEA_SIREN": {
+          "spawnAt": ["0:00:00"],
+          "type": "SEA_SIREN",
+          "banner": {
+            "content": "rpg.boss.banner.text",
+            "lookAtPlayerX": true,
+            "lookAtPlayerY": true,
+            "color": { "hex": "#1E1E1E" },
+            "scale": 2.0
+          },
+          "settings": {
+            "health": 100,
+            "damage": 5.0,
+            "speed": 0.2,
+            "location": {
+              "name": "boss",
+              "tag": "sea_siren",
+              "yaw": 180
+            },
+            "spawnBox": { "name": "spawn-box" },
+            "damageableBox": { "name": "spawn-box" },
+            "customName": "rpg.boss.sea_siren.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/sea_siren.png"
+          },
+          "messages": {
+            "onSpawn": "rpg.event.sea_siren.start_message",
+            "onDeath": "rpg.event.sea_siren.end_message"
+          },
+          "reward": [[], [], []],
+          "children": []
+        }
       }
     },
     "6": {
       "bosses": {
+
       }
     }
   }
