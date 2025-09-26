@@ -13,21 +13,9 @@
             "damage": 5.0,
             "speed": 0.2,
             "location": [
-              {
-                "name": "boss",
-                "tag": "shadow",
-                "yaw": 180
-              },
-              {
-                "name": "boss",
-                "tag": "shadow1",
-                "yaw": 180
-              },
-              {
-                "name": "boss",
-                "tag": "shadow2",
-                "yaw": 180
-              }
+              { "name": "boss", "tag": "shadow", "yaw": 180 },
+              { "name": "boss", "tag": "shadow1", "yaw": 180 },
+              { "name": "boss", "tag": "shadow2", "yaw": 180 }
             ],
             "customName": "rpg.boss.shadow.name",
             "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png"
@@ -36,9 +24,7 @@
             "onSpawn": "rpg.event.shadow.start_message",
             "onDeath": "rpg.event.shadow.end_message"
           },
-          "reward": [
-            []
-          ],
+          "reward": [[]],
           "children": [
             {
               "childType": "TWIN",
@@ -46,10 +32,9 @@
                 "health": 30,
                 "damage": 3,
                 "speed": 0.3,
-                "location": {
-                  "name": "boss",
-                  "tag": "twin_1"
-                },
+                "location": [
+                  { "name": "boss", "tag": "twin_1" }
+                ],
                 "customName": "rpg.boss.child.twin.name",
                 "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/twin.png"
               }
@@ -60,10 +45,9 @@
                 "health": 30,
                 "damage": 3,
                 "speed": 0.3,
-                "location": {
-                  "name": "boss",
-                  "tag": "twin_2"
-                },
+                "location": [
+                  { "name": "boss", "tag": "twin_2" }
+                ],
                 "customName": "rpg.boss.child.twin.name",
                 "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/twin.png"
               }
@@ -81,11 +65,9 @@
             "health": 10000,
             "damage": 6.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "dao_master",
-              "yaw": 180
-            },
+            "location": [
+              { "name": "boss", "tag": "dao_master", "yaw": 180 }
+            ],
             "spawnBox": { "name": "spawn-box" },
             "damageableBox": { "name": "spawn-box" },
             "customName": "rpg.boss.dao_master.name",
@@ -95,9 +77,7 @@
             "onSpawn": "rpg.event.dao_master.start_message",
             "onDeath": "rpg.event.dao_master.end_message"
           },
-          "reward": [
-            []
-          ],
+          "reward": [[]],
           "children": []
         }
       }
@@ -111,11 +91,9 @@
             "health": 120000,
             "damage": 7.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "thug",
-              "yaw": 180
-            },
+            "location": [
+              { "name": "boss", "tag": "thug", "yaw": 180 }
+            ],
             "spawnBox": { "name": "spawn-box" },
             "damageableBox": { "name": "spawn-box" },
             "customName": "rpg.boss.thug.name",
@@ -125,9 +103,7 @@
             "onSpawn": "rpg.event.thug.start_message",
             "onDeath": "rpg.event.thug.end_message"
           },
-          "reward": [
-            []
-          ],
+          "reward": [[]],
           "children": []
         }
       }
@@ -141,11 +117,9 @@
             "health": 1600000,
             "damage": 7.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "string",
-              "yaw": 180
-            },
+            "location": [
+              { "name": "boss", "tag": "string", "yaw": 180 }
+            ],
             "spawnBox": { "name": "spawn-box" },
             "damageableBox": { "name": "spawn-box" },
             "customName": "rpg.boss.string.name",
@@ -155,17 +129,13 @@
             "onSpawn": "rpg.event.string.start_message",
             "onDeath": "rpg.event.string.end_message"
           },
-          "reward": [
-            []
-          ],
+          "reward": [[]],
           "children": []
         }
       }
     },
     "5": {
-      "bosses": {
-        
-      }
+      "bosses": {}
     },
     "6": {
       "bosses": {
@@ -176,11 +146,9 @@
             "health": 100,
             "damage": 5.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "sea_siren",
-              "yaw": 180
-            },
+            "location": [
+              { "name": "boss", "tag": "sea_siren", "yaw": 180 }
+            ],
             "spawnBox": { "name": "spawn-box" },
             "damageableBox": { "name": "spawn-box" },
             "customName": "rpg.boss.sea_siren.name",
@@ -204,11 +172,9 @@
             "health": 100,
             "damage": 5.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "lost",
-              "yaw": 180
-            },
+            "location": [
+              { "name": "boss", "tag": "lost", "yaw": 180 }
+            ],
             "spawnBox": { "name": "spawn-box" },
             "damageableBox": { "name": "spawn-box" },
             "customName": "rpg.boss.lost.name",
@@ -218,16 +184,13 @@
             "onSpawn": "rpg.event.lost.start_message",
             "onDeath": "rpg.event.lost.end_message"
           },
-          "reward": [
-            []
-          ],
+          "reward": [[]],
           "children": []
         }
       }
     },
     "8": {
-      "bosses": {
-      }
+      "bosses": {}
     },
     "9": {
       "bosses": {
@@ -238,11 +201,9 @@
             "health": 100,
             "damage": 5.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "ashen",
-              "yaw": 180
-            },
+            "location": [
+              { "name": "boss", "tag": "ashen", "yaw": 180 }
+            ],
             "spawnBox": { "name": "spawn-box" },
             "damageableBox": { "name": "spawn-box" },
             "customName": "rpg.boss.ashen.name",
@@ -252,17 +213,13 @@
             "onSpawn": "rpg.event.ashen.start_message",
             "onDeath": "rpg.event.ashen.end_message"
           },
-          "reward": [
-            []
-          ],
+          "reward": [[]],
           "children": []
         }
       }
     },
     "10": {
-      "bosses": {
-        
-      }
+      "bosses": {}
     }
   }
 }
