@@ -3,11 +3,63 @@
     "1": {
       "drops": [
         {
-          "id": "cracked_amulet_of_rain",
+          "id": "shadow_cloak",
           "itemStack": {
             "type": "CLAY_BALL",
-            "name": "TEST",
-            "lore": "§7TEST",
+            "name": "Теневой плащ",
+            "lore": "§7Ткань, поглощающая свет и звуки, холодная на ощупь.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "poisoned_kunai",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Ядовитый Кунай",
+            "lore": "§7Клинок, покрытый липким, почти невидимым ядом.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "observers_eye",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Глаз Наблюдателя",
+            "lore": "§7Стеклянный шар, в глубине которого что-то шевелится.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "phantom_lens",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Призрачная линза",
+            "lore": "§7Линза, сквозь которую мир видится сквозь пелену тумана.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "shard_of_illusion",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Осколок иллюзии",
+            "lore": "§7Осколок, искажающий пространство вокруг себя.",
             "data": {
               "price": 1500000.0,
               "shards": 10.0,
@@ -19,12 +71,623 @@
     },
     "2": {
       "drops": [
-        
+        {
+          "id": "wooden_katana",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Деревянная катана",
+            "lore": "§7Простая, но идеально сбалансированная тренировочная катана.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "masters_scabbard",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Ножны Мастера",
+            "lore": "§7Потертые ножны, хранящие следы тысяч тренировок.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "nichirin_blade",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Клинок Ничирин",
+            "lore": "§7Клинок, отполированный до зеркального блеска.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "fire_arrow",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Огненная стрела",
+            "lore": "§7Стрела, наконечник которой всегда кажется тёплым.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "scroll_of_returning_qi",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Свиток возвратной ци",
+            "lore": "§7Старый свиток, испещрённый древними символами.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        }
       ]
     },
     "3": {
       "drops": [
-        
+        {
+          "id": "cracked_club",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Треснувшая дубина",
+            "lore": "§7Грубое оружие, усеянное занозами и следами крови.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "leaders_bandana",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Бандана Главаря",
+            "lore": "§7Грязная бандана, символизирующая власть.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "torn_chains",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Разорванные цепи",
+            "lore": "§7Обрывки тяжёлых цепей, которыми когда-то кого-то сковывали.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "bloodied_mask",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Окровавленная маска",
+            "lore": "§7Деревянная маска, испещрённая трещинами и пятнами крови.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "tome_of_dark_spells",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Том Темных Заклинаний",
+            "lore": "§7Книга, переплетённая из грубой кожи, испускающая зловещее свечение.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        }
+      ]
+    },
+    "4": {
+      "drops": [
+        {
+          "id": "medallion_of_cursed_death",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Медальон проклятой смерти",
+            "lore": "§7Медальон, холодный как лёд, несмотря на жару.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "diary_of_memories",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Дневник воспоминаний",
+            "lore": "§7Дневник с выцветшими от морской воды страницами.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "piece_of_rotten_flesh",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Кусок гнилой плоти",
+            "lore": "§7Кусок плоти, от которого исходит тошнотворный запах.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "sea_foam",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Морская пена",
+            "lore": "§7Призрачная пена, что не исчезает в руках.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "captains_compass",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Компас Капитана",
+            "lore": "§7Компас, стрелка которого указывает не на север.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        }
+      ]
+    },
+    "5": {
+      "drops": [
+        {
+          "id": "fragment_of_prayer",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Отрывок молитвы",
+            "lore": "§7Клочок пергамента с едва различимыми словами молитвы.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "rusted_chain",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Заржавевшая цепь",
+            "lore": "§7Тяжелая цепь, покрытая слоем рыжей ржавчины.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "bloodied_cross",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Окровавленный крестик",
+            "lore": "§7Маленький крестик, на котором засохли пятна крови.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "ritual_dagger",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Кинжал для ритуалов",
+            "lore": "§7Кинжал с витиеватой рукоятью, испещрённой странными узорами.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "drivers_tongs",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Щипцы Погонщика",
+            "lore": "§7Массивные щипцы, способные разорвать любую цепь.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        }
+      ]
+    },
+    "6": {
+      "drops": [
+        {
+          "id": "frozen_note",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Застывшая нота",
+            "lore": "§7Кусок пергамента, на котором застыла мелодия волн.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "worm_chest",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Сундук с червями",
+            "lore": "§7Сундук, изнутри которого доносится тихий скрежет.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "torn_sail",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Разорванный парус",
+            "lore": "§7Обрывок парусины, до сих пор пахнущий солью и штормом.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "cutlass",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Морская сабля",
+            "lore": "§7Кривая сабля, лезвие которой покрыто ракушками.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "trident_of_supremacy",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Трезубец всевластия",
+            "lore": "§7Трезубец, испускающий лёгкое давление глубины.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        }
+      ]
+    },
+    "7": {
+      "drops": [
+        {
+          "id": "alchemical_powder",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Алхимический порошок",
+            "lore": "§7Мерцающий порошок, который переливается на свету.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "warped_crystal",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Искаженный кристалл",
+            "lore": "§7Кристалл, искривляющий свет, проходящий сквозь него.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "book_of_immortality",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Книга бессмертия",
+            "lore": "§7Фолиант с бесконечным количеством страниц.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "shard_of_memories",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Осколок воспоминаний",
+            "lore": "§7Осколок стекла, хранящий чужие воспоминания.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "formula_of_dimensions",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Формула измерений",
+            "lore": "§7Чертёж, понять который способен не каждый разум.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        }
+      ]
+    },
+    "8": {
+      "drops": [
+        {
+          "id": "flask_of_centuries",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Колба Столетий",
+            "lore": "§7Колба, в которой медленно перетекает песок времени.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "grain_of_time",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Песчинка времени",
+            "lore": "§7Одна-единственная, но идеально отполированная песчинка.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "arbiters_gear",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Шестерёнка Арбитра",
+            "lore": "§7Шестерёнка, которая вращается сама по себе.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "chronomancers_pendulum",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Маятник хрономанта",
+            "lore": "§7Маятник, чей ход никогда не сбивается.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "blade_of_eternity",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Клинок Вечности",
+            "lore": "§7Клинок, на лезвии которого видны трещины распада.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        }
+      ]
+    },
+    "9": {
+      "drops": [
+        {
+          "id": "cyanide_pill",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Таблетка цианида",
+            "lore": "§7Маленькая таблетка, несущая тихий и спокойный конец.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "last_message_of_the_living",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Последнее сообщение живых",
+            "lore": "§7Записка, испещрённая торопливым почерком.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "charred_particles",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Обугленные частицы",
+            "lore": "§7Обугленные частицы, всё ещё излучающие жар.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "blazing_core",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Пылающее ядро",
+            "lore": "§7Ядро, пылающее нестерпимым внутренним огнём.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "molten_armor",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Оплавленный доспех",
+            "lore": "§7Оплавленные доспехи, ставшие саваном для своего владельца.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        }
+      ]
+    },
+    "10": {
+      "drops": [
+        {
+          "id": "phantom_glimmer",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Призрачный отсвет",
+            "lore": "§7Мерцающий отсвет, не отбрасывающий тени.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "mirror_shield",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Зеркальный щит",
+            "lore": "§7Щит, отражающий искажённое подобие реальности.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "crystal_of_oblivion",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Кристалл Забвения",
+            "lore": "§7Кристалл, поглощающий воспоминания при касании.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "rift_into_reality",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Щель в Реальность",
+            "lore": "§7Кусок пространства, запечатлевший момент разрыва.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        },
+        {
+          "id": "shattered_prism",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "Разбитая призма",
+            "lore": "§7Разбитая призма, рассеивающая свет в хаотичном порядке.",
+            "data": {
+              "price": 1500000.0,
+              "shards": 10.0,
+              "hoverColor": "GRAY"
+            }
+          }
+        }
       ]
     }
   }
