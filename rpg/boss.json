@@ -12,11 +12,23 @@
             "health": 800,
             "damage": 5.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "shadow",
-              "yaw": 180
-            },
+            "location": [
+              {
+                "name": "boss",
+                "tag": "shadow",
+                "yaw": 180
+              },
+              {
+                "name": "boss",
+                "tag": "shadow1",
+                "yaw": 180
+              },
+              {
+                "name": "boss",
+                "tag": "shadow2",
+                "yaw": 180
+              },
+            ],
             "spawnBox": { "name": "spawn-box" },
             "damageableBox": { "name": "spawn-box" },
             "customName": "rpg.boss.shadow.name",
