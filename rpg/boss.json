@@ -8,15 +8,15 @@
         "SHADOW": {
           "spawnAt": ["0:00:00"],
           "type": "SHADOW",
-          "location": {
-              "name": "boss",
-              "tag": "shadow",
-              "yaw": 180
-          },
           "settings": {
             "health": 800,
             "damage": 5.0,
             "speed": 0.2,
+            "location": {
+              "name": "boss",
+              "tag": "shadow",
+              "yaw": 180
+            },
             "customName": "rpg.boss.shadow.name",
             "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png"
           },
