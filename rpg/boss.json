@@ -8,38 +8,29 @@
         "SHADOW": {
           "spawnAt": ["0:00:00"],
           "type": "SHADOW",
+          "settings": {
+            "health": 800,
+            "damage": 5.0,
+            "speed": 0.2,
+            "locations": [ { "name": "boss", "tag": "shadow_1" }, { "name": "boss", "tag": "shadow_2" } ],
+            "customName": "rpg.boss.shadow.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png"
+          },
           "banner": {
             "content": "rpg.boss.banner.text",
             "lookAtPlayerX": true,
             "lookAtPlayerY": true,
+            "location": {
+              "name": "banner",
+              "tag": "shadow",
+              "yaw": 180
+            },
             "color": {
               "hex": "#1E1E1E"
             },
             "scale": 2.0
           },
-          "settings": {
-            "health": 800,
-            "damage": 5.0,
-            "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "shadow",
-              "yaw": 180
-            },
-            "spawnBox": { "name": "spawn-box" },
-            "damageableBox": { "name": "spawn-box" },
-            "customName": "rpg.boss.shadow.name",
-            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png"
-          },
-          "messages": {
-            "onSpawn": "rpg.event.shadow.start_message",
-            "onDeath": "rpg.event.shadow.end_message"
-          },
-          "reward": [
-            [],
-            [],
-            []
-          ],
+          "reward": [[]],
           "children": [
             {
               "childType": "TWIN",
@@ -47,12 +38,6 @@
                 "health": 30,
                 "damage": 3,
                 "speed": 0.3,
-                "location": {
-                  "name": "boss",
-                  "tag": "twin_1"
-                },
-                "spawnBox": { "name": "spawn-box" },
-                "damageableBox": { "name": "spawn-box" },
                 "customName": "rpg.boss.child.twin.name",
                 "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/twin.png"
               }
@@ -63,12 +48,6 @@
                 "health": 30,
                 "damage": 3,
                 "speed": 0.3,
-                "location": {
-                  "name": "boss",
-                  "tag": "twin_2"
-                },
-                "spawnBox": { "name": "spawn-box" },
-                "damageableBox": { "name": "spawn-box" },
                 "customName": "rpg.boss.child.twin.name",
                 "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/twin.png"
               }
@@ -82,38 +61,15 @@
         "DAO_MASTER": {
           "spawnAt": ["0:00:00"],
           "type": "DAO_MASTER",
-          "banner": {
-            "content": "rpg.boss.banner.text",
-            "lookAtPlayerX": true,
-            "lookAtPlayerY": true,
-            "color": {
-              "hex": "#1E1E1E"
-            },
-            "scale": 2.0
-          },
           "settings": {
             "health": 10000,
             "damage": 6.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "dao_master",
-              "yaw": 180
-            },
-            "spawnBox": { "name": "spawn-box" },
-            "damageableBox": { "name": "spawn-box" },
+            "locations": [ { "name": "boss", "tag": "dao_master" } ],
             "customName": "rpg.boss.dao_master.name",
             "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/dao_master.png"
           },
-          "messages": {
-            "onSpawn": "rpg.event.dao_master.start_message",
-            "onDeath": "rpg.event.dao_master.end_message"
-          },
-          "reward": [
-            [],
-            [],
-            []
-          ],
+          "reward": [[]],
           "children": []
         }
       }
@@ -123,38 +79,15 @@
         "THUG": {
           "spawnAt": ["0:00:00"],
           "type": "THUG",
-          "banner": {
-            "content": "rpg.boss.banner.text",
-            "lookAtPlayerX": true,
-            "lookAtPlayerY": true,
-            "color": {
-              "hex": "#1E1E1E"
-            },
-            "scale": 2.0
-          },
           "settings": {
             "health": 120000,
             "damage": 7.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "thug",
-              "yaw": 180
-            },
-            "spawnBox": { "name": "spawn-box" },
-            "damageableBox": { "name": "spawn-box" },
+            "locations": [ { "name": "boss", "tag": "thug" } ],
             "customName": "rpg.boss.thug.name",
             "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/thug.png"
           },
-          "messages": {
-            "onSpawn": "rpg.event.thug.start_message",
-            "onDeath": "rpg.event.thug.end_message"
-          },
-          "reward": [
-            [],
-            [],
-            []
-          ],
+          "reward": [[]],
           "children": []
         }
       }
@@ -164,76 +97,34 @@
         "STRING": {
           "spawnAt": ["0:00:00"],
           "type": "STRING",
-          "banner": {
-            "content": "rpg.boss.banner.text",
-            "lookAtPlayerX": true,
-            "lookAtPlayerY": true,
-            "color": {
-              "hex": "#1E1E1E"
-            },
-            "scale": 2.0
-          },
           "settings": {
             "health": 1600000,
             "damage": 7.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "string",
-              "yaw": 180
-            },
-            "spawnBox": { "name": "spawn-box" },
-            "damageableBox": { "name": "spawn-box" },
+            "locations": [ { "name": "boss", "tag": "string" } ],
             "customName": "rpg.boss.string.name",
             "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/thug.png"
           },
-          "messages": {
-            "onSpawn": "rpg.event.string.start_message",
-            "onDeath": "rpg.event.string.end_message"
-          },
-          "reward": [
-            [],
-            [],
-            []
-          ],
+          "reward": [[]],
           "children": []
         }
       }
     },
     "5": {
-      "bosses": {
-        
-      }
+      "bosses": {}
     },
     "6": {
       "bosses": {
         "SEA_SIREN": {
           "spawnAt": ["0:00:00"],
           "type": "SEA_SIREN",
-          "banner": {
-            "content": "rpg.boss.banner.text",
-            "lookAtPlayerX": true,
-            "lookAtPlayerY": true,
-            "color": { "hex": "#1E1E1E" },
-            "scale": 2.0
-          },
           "settings": {
             "health": 100,
             "damage": 5.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "sea_siren",
-              "yaw": 180
-            },
-            "spawnBox": { "name": "spawn-box" },
-            "damageableBox": { "name": "spawn-box" },
+            "locations": [ { "name": "boss", "tag": "sea_siren" } ],
             "customName": "rpg.boss.sea_siren.name",
             "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/sea_siren.png"
-          },
-          "messages": {
-            "onSpawn": "rpg.event.sea_siren.start_message",
-            "onDeath": "rpg.event.sea_siren.end_message"
           },
           "reward": [[], [], []],
           "children": []
@@ -245,63 +136,32 @@
         "LOST": {
           "spawnAt": ["0:00:00"],
           "type": "LOST",
-          "banner": {
-            "content": "rpg.boss.banner.text",
-            "lookAtPlayerX": true,
-            "lookAtPlayerY": true,
-            "color": { "hex": "#1E1E1E" },
-            "scale": 2.0
-          },
           "settings": {
             "health": 100,
             "damage": 5.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "lost",
-              "yaw": 180
-            },
-            "spawnBox": { "name": "spawn-box" },
-            "damageableBox": { "name": "spawn-box" },
+            "locations": [ { "name": "boss", "tag": "lost" } ],
             "customName": "rpg.boss.lost.name",
             "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/lost.png"
           },
-          "messages": {
-            "onSpawn": "rpg.event.lost.start_message",
-            "onDeath": "rpg.event.lost.end_message"
-          },
-          "reward": [[], [], []],
+          "reward": [[]],
           "children": []
         }
       }
     },
     "8": {
-      "bosses": {
-      }
+      "bosses": {}
     },
     "9": {
       "bosses": {
         "ASHEN": {
           "spawnAt": ["0:00:00"],
           "type": "ASHEN",
-          "banner": {
-            "content": "rpg.boss.banner.text",
-            "lookAtPlayerX": true,
-            "lookAtPlayerY": true,
-            "color": { "hex": "#1E1E1E" },
-            "scale": 2.0
-          },
           "settings": {
             "health": 100,
             "damage": 5.0,
             "speed": 0.2,
-            "location": {
-              "name": "boss",
-              "tag": "ashen",
-              "yaw": 180
-            },
-            "spawnBox": { "name": "spawn-box" },
-            "damageableBox": { "name": "spawn-box" },
+            "locations": [ { "name": "boss", "tag": "ashen" } ],
             "customName": "rpg.boss.ashen.name",
             "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/ashen.png"
           },
@@ -309,15 +169,13 @@
             "onSpawn": "rpg.event.ashen.start_message",
             "onDeath": "rpg.event.ashen.end_message"
           },
-          "reward": [[], [], []],
+          "reward": [[]],
           "children": []
         }
       }
     },
     "10": {
-      "bosses": {
-        
-      }
+      "bosses": {}
     }
   }
 }
