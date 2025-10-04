@@ -1555,6 +1555,22 @@
             "onDrop": [
               "give-title %player% CHAINSAW 500000"
             ]
+          },
+          {
+            "id": "omnipresent",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "lumberjack.titles.omnipresent.name",
+              "lore": "i18n.lumberjack.titles.description|!|lumberjack.titles.ability.omnipresent",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 0.621875,
+            "onDrop": [
+              "give-title %player% OMNIPRESENT 500000"
+            ]
           }
         ]
       }
