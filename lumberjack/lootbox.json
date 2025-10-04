@@ -354,6 +354,27 @@
             "onDrop": [
               "give-tool %player% LUCKY"
             ]
+          },
+          {
+            "id": "tool-lucky-mob",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "WOOD_AXE",
+              "name": "i18n.lumberjack.tool.axe.lucky_mob.title|!|§7",
+              "lore": "lumberjack.lootbox.tool.axe.lucky_mob.description",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "sim": "lucky_mob_axe"
+              }
+            },
+            "chance": 0.5,
+            "onDrop": [
+              "give-tool %player% LUCKY_MOB"
+            ]
           }
         ]
       }
