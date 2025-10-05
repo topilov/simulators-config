@@ -19,6 +19,7 @@
   "elements": {
     "GIFTS_DEFAULT": {
       "donateName": "lumberjack.donate.element.gifts-default.donate-name",
+      "readableName": "lumberjack.donate.element.gifts-default.donate-name",
       "confirmationTitle": "lumberjack.donate.element.gifts-default.title",
       "title": "lumberjack.donate.element.gifts-default.title",
       "description": "lumberjack.donate.element.gifts-default.description",
@@ -30,17 +31,19 @@
       },
       "category": "OTHER",
       "price": 79,
-      "sale": 70,
+      "sale": 0,
       "alert": true,
       "count": [
         1
       ],
       "onBuy": [
         "payload gifts-default"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "GIFTS_PET": {
       "donateName": "lumberjack.donate.element.gifts-pet.donate-name",
+      "readableName": "lumberjack.donate.element.gifts-pet.donate-name",
       "confirmationTitle": "lumberjack.donate.element.gifts-pet.title",
       "title": "lumberjack.donate.element.gifts-pet.title",
       "description": "lumberjack.donate.element.gifts-pet.description",
@@ -51,18 +54,20 @@
         }
       },
       "category": "OTHER",
-      "price": 119,
-      "sale": 70,
+      "price": 249,
+      "sale": 0,
       "alert": true,
       "count": [
         1
       ],
       "onBuy": [
         "payload gifts-pet"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "GIFTS_RUNE": {
       "donateName": "lumberjack.donate.element.gifts-rune.donate-name",
+      "readableName": "lumberjack.donate.element.gifts-rune.donate-name",
       "confirmationTitle": "lumberjack.donate.element.gifts-rune.title",
       "title": "lumberjack.donate.element.gifts-rune.title",
       "description": "lumberjack.donate.element.gifts-rune.description",
@@ -74,17 +79,19 @@
       },
       "category": "OTHER",
       "price": 199,
-      "sale": 70,
+      "sale": 0,
       "alert": true,
       "count": [
         1
       ],
       "onBuy": [
         "payload gifts-rune"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "GIFTS_TITLE": {
       "donateName": "lumberjack.donate.element.gifts-title.donate-name",
+      "readableName": "lumberjack.donate.element.gifts-title.donate-name",
       "confirmationTitle": "lumberjack.donate.element.gifts-title.title",
       "title": "lumberjack.donate.element.gifts-title.title",
       "description": "lumberjack.donate.element.gifts-title.description",
@@ -96,33 +103,37 @@
       },
       "category": "OTHER",
       "price": 399,
-      "sale": 70,
+      "sale": 0,
       "alert": true,
       "count": [
         1
       ],
       "onBuy": [
         "payload gifts-title"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "PET_SLOT": {
       "donateName": "lumberjack.donate.element.pet-slot.donate-name",
+      "readableName": "lumberjack.donate.element.pet-slot.donate-name",
       "confirmationTitle": "lumberjack.donate.element.pet-slot.title",
       "title": "lumberjack.donate.element.pet-slot.title",
       "description": "lumberjack.donate.element.pet-slot.description",
       "texture": "pet_slot.png",
       "category": "OTHER",
       "price": 149,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1
       ],
       "onBuy": [
         "unlock-pet-slot %player%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "RUNE_SLOT": {
       "donateName": "lumberjack.donate.element.rune-slot.donate-name",
+      "readableName": "lumberjack.donate.element.rune-slot.donate-name",
       "confirmationTitle": "lumberjack.donate.element.rune-slot.title",
       "title": "lumberjack.donate.element.rune-slot.title",
       "description": "lumberjack.donate.element.rune-slot.description",
@@ -133,23 +144,25 @@
       },
       "category": "OTHER",
       "price": 399,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1
       ],
       "onBuy": [
         "unlock-rune-slot %player%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "MONEY_BAG": {
       "donateName": "lumberjack.donate.element.money-bag.donate-name",
+      "readableName": "lumberjack.donate.element.money-bag.donate-name",
       "confirmationTitle": "lumberjack.donate.element.money-bag.title",
       "title": "lumberjack.donate.element.money-bag.title",
       "description": "lumberjack.donate.element.money-bag.description",
       "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 49,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -158,17 +171,19 @@
       ],
       "onBuy": [
         "random-money %player% 15 35 %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "MONEY_HANDFUL": {
       "donateName": "lumberjack.donate.element.money-handful.donate-name",
+      "readableName": "lumberjack.donate.element.money-handful.donate-name",
       "confirmationTitle": "lumberjack.donate.element.money-handful.title",
       "title": "lumberjack.donate.element.money-handful.title",
       "description": "lumberjack.donate.element.money-handful.description",
       "texture": "bag.png",
       "category": "GAME_BALANCE",
       "price": 10,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1,
         3,
@@ -177,10 +192,12 @@
       ],
       "onBuy": [
         "random-money %player% 1 10 %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "LEGENDARY_AXE": {
       "donateName": "lumberjack.donate.element.legendary-axe.donate-name",
+      "readableName": "lumberjack.donate.element.legendary-axe.donate-name",
       "title": "lumberjack.donate.element.legendary-axe.title",
       "description": "lumberjack.donate.element.legendary-axe.description",
       "item": {
@@ -191,33 +208,37 @@
       },
       "category": "GAME_ITEMS",
       "price": 599,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1
       ],
       "onBuy": [
         "give-tool %player% DONATE",
         "morestat %player% set true hasLegendaryAxe"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "AUTO_SELL": {
       "donateName": "lumberjack.donate.element.auto_sell.donate-name",
+      "readableName": "lumberjack.donate.element.auto_sell.donate-name",
       "title": "lumberjack.donate.element.auto_sell.title",
       "description": "lumberjack.donate.element.auto_sell.description",
       "texture": "auto_sell.png",
       "category": "OTHER_FEATURES",
       "price": 799,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1
       ],
       "onBuy": [
         "morestat %player% set true hasInfinityStorage",
         "morestat %player% set true hasAutoSell"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "SAVE_CRYSTAL": {
       "donateName": "lumberjack.donate.element.save-crystal.donate-name",
+      "readableName": "lumberjack.donate.element.save-crystal.donate-name",
       "confirmationTitle": "lumberjack.donate.element.save-crystal.title",
       "title": "lumberjack.donate.element.save-crystal.title",
       "description": "lumberjack.donate.element.save-crystal.description",
@@ -229,7 +250,7 @@
       },
       "category": "GAME_ITEMS",
       "price": 99,
-      "sale": 70,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -238,17 +259,19 @@
       ],
       "onBuy": [
         "give-item %player% SAVE_CRYSTAL %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "DEFAULT_KEY": {
       "donateName": "lumberjack.donate.element.default-key.donate-name",
+      "readableName": "lumberjack.donate.element.default-key.donate-name",
       "confirmationTitle": "lumberjack.donate.element.default-key.title",
       "title": "lumberjack.donate.element.default-key.title",
       "description": "lumberjack.donate.element.default-key.description",
       "texture": "goldkey.png",
       "category": "GAME_ITEMS",
       "price": 39,
-      "sale": 70,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -257,17 +280,19 @@
       ],
       "onBuy": [
         "give-key %player% DEFAULT %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "TITLE_KEY": {
       "donateName": "lumberjack.donate.element.title-key.donate-name",
+      "readableName": "lumberjack.donate.element.title-key.donate-name",
       "confirmationTitle": "lumberjack.donate.element.title-key.title",
       "title": "lumberjack.donate.element.title-key.title",
       "description": "lumberjack.donate.element.title-key.description",
       "texture": "purple_cristal_key.png",
       "category": "GAME_ITEMS",
       "price": 199,
-      "sale": 70,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -276,17 +301,19 @@
       ],
       "onBuy": [
         "give-key %player% TITLE %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "PET_KEY": {
       "donateName": "lumberjack.donate.element.pet-key.donate-name",
+      "readableName": "lumberjack.donate.element.pet-key.donate-name",
       "confirmationTitle": "lumberjack.donate.element.pet-key.title",
       "title": "lumberjack.donate.element.pet-key.title",
       "description": "lumberjack.donate.element.pet-key.description",
       "texture": "fox_key.png",
       "category": "GAME_ITEMS",
       "price": 59,
-      "sale": 70,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -295,17 +322,19 @@
       ],
       "onBuy": [
         "give-key %player% PET %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "RUNE_KEY": {
       "donateName": "lumberjack.donate.element.rune-key.donate-name",
+      "readableName": "lumberjack.donate.element.rune-key.donate-name",
       "confirmationTitle": "lumberjack.donate.element.rune-key.title",
       "title": "lumberjack.donate.element.rune-key.title",
       "description": "lumberjack.donate.element.rune-key.description",
       "texture": "rune_key.png",
       "category": "GAME_ITEMS",
       "price": 99,
-      "sale": 70,
+      "sale": 0,
       "max": -1,
       "count": [
         1,
@@ -314,34 +343,38 @@
       ],
       "onBuy": [
         "give-key %player% RUNE %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "INFINITY_STORAGE": {
       "donateName": "lumberjack.donate.element.infinity-storage.donate-name",
+      "readableName": "lumberjack.donate.element.infinity-storage.donate-name",
       "confirmationTitle": "lumberjack.donate.element.infinity-storage.title",
       "title": "lumberjack.donate.element.infinity-storage.title",
       "description": "lumberjack.donate.element.infinity-storage.description",
       "texture": "storage.png",
       "category": "OTHER_FEATURES",
       "price": 399,
-      "sale": 70,
+      "sale": 0,
       "max": 1,
       "count": [
         1
       ],
       "onBuy": [
         "morestat %player% set true hasInfinityStorage"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "ANTI_HUNGER": {
       "donateName": "lumberjack.donate.element.anti-hunger.donate-name",
+      "readableName": "lumberjack.donate.element.anti-hunger.donate-name",
       "confirmationTitle": "lumberjack.donate.element.anti-hunger.title",
       "title": "lumberjack.donate.element.anti-hunger.title",
       "description": "lumberjack.donate.element.anti-hunger.description",
       "texture": "anti_hungry.png",
       "category": "OTHER_FEATURES",
       "price": 199,
-      "sale": 70,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -349,99 +382,111 @@
       "onBuy": [
         "morestat %player% set true hasAntiHunger",
         "food-level %player% 20"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "MULTIPLE_CASE": {
       "donateName": "lumberjack.donate.element.multiple-case.donate-name",
+      "readableName": "lumberjack.donate.element.multiple-case.donate-name",
       "confirmationTitle": "lumberjack.donate.element.multiple-case.title",
       "title": "lumberjack.donate.element.multiple-case.title",
       "description": "lumberjack.donate.element.multiple-case.description",
       "texture": "case5.png",
       "category": "OTHER_FEATURES",
       "price": 249,
-      "sale": 70,
+      "sale": 0,
       "max": 1,
       "count": [
         1
       ],
       "onBuy": [
         "morestat %player% set true multipleOpenLootBox"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "NEW_WALLET": {
       "donateName": "lumberjack.donate.element.new-wallet.donate-name",
+      "readableName": "lumberjack.donate.element.new-wallet.donate-name",
       "title": "lumberjack.donate.element.new-wallet.title",
       "description": "lumberjack.donate.element.new-wallet.description",
       "texture": "new_wallet.png",
       "category": "OTHER_FEATURES",
       "price": 99,
-      "sale": 70,
+      "sale": 0,
       "max": 1,
       "count": [
         1
       ],
       "onBuy": [
         "morestat %player% set true hasNewWallet"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "AUTO_CASE": {
       "donateName": "lumberjack.donate.element.auto-case.donate-name",
+      "readableName": "lumberjack.donate.element.auto-case.donate-name",
       "confirmationTitle": "lumberjack.donate.element.auto-case.title",
       "title": "lumberjack.donate.element.auto-case.title",
       "description": "lumberjack.donate.element.auto-case.description",
       "texture": "autocase.png",
       "category": "OTHER_FEATURES",
       "price": 349,
-      "sale": 70,
+      "sale": 0,
       "max": 1,
       "count": [
         1
       ],
       "onBuy": [
         "morestat %player% set true autoOpenLootBox"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "AUTO_MERGE": {
       "donateName": "lumberjack.donate.element.auto-merge.donate-name",
+      "readableName": "lumberjack.donate.element.auto-merge.donate-name",
       "confirmationTitle": "lumberjack.donate.element.auto-merge.title",
       "title": "lumberjack.donate.element.auto-merge.title",
       "description": "lumberjack.donate.element.auto-merge.description",
       "texture": "auto_merge.png",
       "category": "OTHER_FEATURES",
       "price": 299,
-      "sale": 70,
+      "sale": 0,
       "max": 1,
       "count": [
         1
       ],
       "onBuy": [
         "morestat %player% set true hasAutoMerge"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "SUPER_PLAYER": {
       "donateName": "lumberjack.donate.element.super-player.donate-name",
+      "readableName": "lumberjack.donate.element.super-player.donate-name",
       "title": "lumberjack.donate.element.super-player.title",
       "description": "lumberjack.donate.element.super-player.description",
       "texture": "vip.png",
       "category": "OTHER_FEATURES",
       "price": 149,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1
       ],
       "onBuy": [
         "morestat %player% set true sub"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "SPEED_PERK": {
       "donateName": "lumberjack.donate.element.speed-perk.donate-name",
+      "readableName": "lumberjack.donate.element.speed-perk.donate-name",
       "confirmationTitle": "lumberjack.donate.element.speed-perk.title",
       "title": "lumberjack.donate.element.speed-perk.title",
       "description": "lumberjack.donate.element.speed-perk.description",
       "texture": "speed.png",
       "category": "OTHER_FEATURES",
       "price": 99,
-      "sale": 70,
+      "sale": 0,
       "max": 1,
       "count": [
         1
@@ -450,16 +495,18 @@
         "morestat %player% set true hasSpeedPerk",
         "morestat %player% set 0.4 speed",
         "set-speed %player% 0.4"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "GLOBAL_EXP": {
       "donateName": "lumberjack.donate.element.global-exp.donate-name",
+      "readableName": "lumberjack.donate.element.global-exp.donate-name",
       "title": "lumberjack.donate.element.global-exp.title",
       "description": "lumberjack.donate.element.global-exp.description",
       "texture": "exp_booster.png",
       "category": "BOOSTERS",
       "price": 249,
-      "sale": 70,
+      "sale": 0,
       "alert": true,
       "count": [
         1,
@@ -468,33 +515,37 @@
       ],
       "onBuy": [
         "global-booster %player% EXP 2 3600 %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "LOCAL_EXP": {
       "donateName": "lumberjack.donate.element.local-exp.donate-name",
+      "readableName": "lumberjack.donate.element.local-exp.donate-name",
       "title": "lumberjack.donate.element.local-exp.title",
       "description": "lumberjack.donate.element.local-exp.description",
       "texture": "exp_booster.png",
       "category": "BOOSTERS",
       "price": 179,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1,
         3,
         5
       ],
       "onBuy": [
-        "local-booster %player% EXP 2 7200 %count%"
-      ]
+        "local-booster %player% EXP 2 3600 %count%"
+      ],
+      "ignoreServiceDiscount": true
     },
     "GLOBAL_BLOCKS": {
       "donateName": "lumberjack.donate.element.global-blocks.donate-name",
+      "readableName": "lumberjack.donate.element.global-blocks.donate-name",
       "title": "lumberjack.donate.element.global-blocks.title",
       "description": "lumberjack.donate.element.global-blocks.description",
       "texture": "blocks_booster.png",
       "category": "BOOSTERS",
       "price": 249,
-      "sale": 70,
+      "sale": 0,
       "alert": true,
       "count": [
         1,
@@ -503,33 +554,37 @@
       ],
       "onBuy": [
         "global-booster %player% BLOCKS 2 3600 %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "LOCAL_BLOCKS": {
       "donateName": "lumberjack.donate.element.local-blocks.donate-name",
+      "readableName": "lumberjack.donate.element.local-blocks.donate-name",
       "title": "lumberjack.donate.element.local-blocks.title",
       "description": "lumberjack.donate.element.local-blocks.description",
       "texture": "blocks_booster.png",
       "category": "BOOSTERS",
       "price": 179,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1,
         3,
         5
       ],
       "onBuy": [
-        "local-booster %player% BLOCKS 2 7200 %count%"
-      ]
+        "local-booster %player% BLOCKS 2 3600 %count%"
+      ],
+      "ignoreServiceDiscount": true
     },
     "GLOBAL_MOBS": {
       "donateName": "lumberjack.donate.element.global-mobs.donate-name",
+      "readableName": "lumberjack.donate.element.global-mobs.donate-name",
       "title": "lumberjack.donate.element.global-mobs.title",
       "description": "lumberjack.donate.element.global-mobs.description",
       "texture": "mobs_booster.png",
       "category": "BOOSTERS",
       "price": 249,
-      "sale": 70,
+      "sale": 0,
       "alert": true,
       "count": [
         1,
@@ -538,33 +593,36 @@
       ],
       "onBuy": [
         "global-booster %player% MOBS 2 3600 %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "LOCAL_MOBS": {
       "donateName": "lumberjack.donate.element.local-mobs.donate-name",
+      "readableName": "lumberjack.donate.element.local-mobs.donate-name",
       "title": "lumberjack.donate.element.local-mobs.title",
       "description": "lumberjack.donate.element.local-mobs.description",
       "texture": "mobs_booster.png",
       "category": "BOOSTERS",
       "price": 179,
-      "sale": 70,
+      "sale": 0,
       "count": [
         1,
         3,
         5
       ],
       "onBuy": [
-        "local-booster %player% MOBS 2 7200 %count%"
-      ]
+        "local-booster %player% MOBS 2 3600 %count%"
+      ],
+      "ignoreServiceDiscount": true
     },
     "GLOBAL_MONEY": {
       "donateName": "lumberjack.donate.element.global-money.donate-name",
+      "readableName": "lumberjack.donate.element.global-money.donate-name",
       "title": "lumberjack.donate.element.global-money.title",
       "description": "lumberjack.donate.element.global-money.description",
       "texture": "money_booster.png",
       "category": "BOOSTERS",
       "price": 249,
-      "sale": 70,
       "alert": true,
       "count": [
         1,
@@ -573,34 +631,36 @@
       ],
       "onBuy": [
         "global-booster %player% MONEY 2 3600 %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "LOCAL_MONEY": {
       "donateName": "lumberjack.donate.element.local-money.donate-name",
+      "readableName": "lumberjack.donate.element.local-money.donate-name",
       "confirmationTitle": "lumberjack.donate.element.local-money.title",
       "title": "lumberjack.donate.element.local-money.title",
       "description": "lumberjack.donate.element.local-money.description",
       "texture": "money_booster.png",
       "category": "BOOSTERS",
       "price": 179,
-      "sale": 70,
       "count": [
         1,
         3,
         5
       ],
       "onBuy": [
-        "local-booster %player% MONEY 2 7200 %count%"
-      ]
+        "local-booster %player% MONEY 2 3600 %count%"
+      ],
+      "ignoreServiceDiscount": true
     },
     "GLOBAL_ALL": {
       "donateName": "lumberjack.donate.element.global-all.donate-name",
+      "readableName": "lumberjack.donate.element.global-all.donate-name",
       "title": "lumberjack.donate.element.global-all.title",
       "description": "lumberjack.donate.element.global-all.description",
       "texture": "all_booster.png",
       "category": "BOOSTERS",
       "price": 749,
-      "sale": 70,
       "alert": true,
       "count": [
         1,
@@ -612,27 +672,29 @@
         "global-booster %player% BLOCKS 2 3600 %count%",
         "global-booster %player% EXP 2 3600 %count%",
         "global-booster %player% MONEY 2 3600 %count%"
-      ]
+      ],
+      "ignoreServiceDiscount": true
     },
     "LOCAL_ALL": {
       "donateName": "lumberjack.donate.element.local-all.donate-name",
+      "readableName": "lumberjack.donate.element.local-all.donate-name",
       "title": "lumberjack.donate.element.local-all.title",
       "description": "lumberjack.donate.element.local-all.description",
       "texture": "all_booster.png",
       "category": "BOOSTERS",
       "price": 549,
-      "sale": 70,
       "count": [
         1,
         3,
         5
       ],
       "onBuy": [
-        "local-booster %player% MOBS 2 7200 %count%",
-        "local-booster %player% BLOCKS 2 7200 %count%",
-        "local-booster %player% EXP 2 7200 %count%",
-        "local-booster %player% MONEY 2 7200 %count%"
-      ]
+        "local-booster %player% MOBS 2 3600 %count%",
+        "local-booster %player% BLOCKS 2 3600 %count%",
+        "local-booster %player% EXP 2 3600 %count%",
+        "local-booster %player% MONEY 2 3600 %count%"
+      ],
+      "ignoreServiceDiscount": true
     }
   }
 }

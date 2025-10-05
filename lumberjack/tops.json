@@ -1,84 +1,86 @@
 {
-    "leaderboards": [
-        {
-            "title": "lumberjack.top.exp.title",
-            "field": "exp",
-            "nickName": "lumberjack.top.nick-name",
-            "fieldName": "lumberjack.top.exp.field-name",
-            "fieldFormat": "§b%format%",
-            "fieldSize": 20,
-            "nameSize": 40,
-            "limit": 50,
-            "location": {
-                "name": "top",
-                "tag": "exp",
-                "yaw": -180,
-                "offset": {
-                    "x": 0.5,
-                    "y": 0.25,
-                    "z": 0.01
+    "leaderboards": {
+        "lumberjack_2": [
+            {
+                "title": "lumberjack.top.exp.title",
+                "field": "exp",
+                "nickName": "lumberjack.top.nick-name",
+                "fieldName": "lumberjack.top.exp.field-name",
+                "fieldFormat": "§b%format%",
+                "fieldSize": 20,
+                "nameSize": 40,
+                "limit": 50,
+                "location": {
+                    "name": "top",
+                    "tag": "exp",
+                    "yaw": -180,
+                    "offset": {
+                        "x": 0.5,
+                        "y": 0.25,
+                        "z": 0.01
+                    }
+                }
+            },
+            {
+                "title": "lumberjack.top.rebirth.title",
+                "field": "rebirth",
+                "nickName": "lumberjack.top.nick-name",
+                "fieldName": "lumberjack.top.rebirth.field-name",
+                "fieldFormat": "§d%format%",
+                "fieldSize": 20,
+                "nameSize": 40,
+                "limit": 50,
+                "location": {
+                    "name": "top",
+                    "tag": "rebirth",
+                    "yaw": -180,
+                    "offset": {
+                        "x": 0.5,
+                        "y": 0.25,
+                        "z": 0.01
+                    }
+                }
+            },
+            {
+                "title": "lumberjack.top.money.title",
+                "field": "money",
+                "nickName": "lumberjack.top.nick-name",
+                "fieldName": "lumberjack.top.money.field-name",
+                "fieldFormat": "§6%format%",
+                "fieldSize": 20,
+                "nameSize": 40,
+                "limit": 50,
+                "location": {
+                    "name": "top",
+                    "tag": "money",
+                    "yaw": -90,
+                    "offset": {
+                        "x": 0.99,
+                        "y": 0.25,
+                        "z": 0.5
+                    }
+                }
+            },
+            {
+                "title": "lumberjack.top.mobs.title",
+                "field": "mobsCount",
+                "nickName": "lumberjack.top.nick-name",
+                "fieldName": "lumberjack.top.mobs.field-name",
+                "fieldFormat": "§c%format%",
+                "fieldSize": 20,
+                "nameSize": 40,
+                "limit": 50,
+                "location": {
+                    "name": "top",
+                    "tag": "mobs",
+                    "yaw": -90,
+                    "offset": {
+                        "x": 0.99,
+                        "y": 0.25,
+                        "z": 0.5
+                    }
                 }
             }
-        },
-        {
-            "title": "lumberjack.top.rebirth.title",
-            "field": "rebirth",
-            "nickName": "lumberjack.top.nick-name",
-            "fieldName": "lumberjack.top.rebirth.field-name",
-            "fieldFormat": "§d%format%",
-            "fieldSize": 20,
-            "nameSize": 40,
-            "limit": 50,
-            "location": {
-                "name": "top",
-                "tag": "rebirth",
-                "yaw": -180,
-                "offset": {
-                    "x": 0.5,
-                    "y": 0.25,
-                    "z": 0.01
-                }
-            }
-        },
-        {
-            "title": "lumberjack.top.money.title",
-            "field": "money",
-            "nickName": "lumberjack.top.nick-name",
-            "fieldName": "lumberjack.top.money.field-name",
-            "fieldFormat": "§6%format%",
-            "fieldSize": 20,
-            "nameSize": 40,
-            "limit": 50,
-            "location": {
-                "name": "top",
-                "tag": "money",
-                "yaw": -90,
-                "offset": {
-                    "x": 0.99,
-                    "y": 0.25,
-                    "z": 0.5
-                }
-            }
-        },
-        {
-            "title": "lumberjack.top.mobs.title",
-            "field": "mobsCount",
-            "nickName": "lumberjack.top.nick-name",
-            "fieldName": "lumberjack.top.mobs.field-name",
-            "fieldFormat": "§c%format%",
-            "fieldSize": 20,
-            "nameSize": 40,
-            "limit": 50,
-            "location": {
-                "name": "top",
-                "tag": "mobs",
-                "yaw": -90,
-                "offset": {
-                    "x": 0.99,
-                    "y": 0.25,
-                    "z": 0.5
-                }
-            }
-        }
-    ]
+        ]
+    }
 }

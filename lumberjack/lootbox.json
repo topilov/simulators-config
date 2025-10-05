@@ -30,7 +30,8 @@
         "LEGENDARY"
       ],
       "onOpen": [
-        "earn-tutorial-stage-progress %player% OPEN_DEFAULT_LOOTBOX"
+        "earn-tutorial-stage-progress %player% OPEN_DEFAULT_LOOTBOX",
+        "add-achievement-progress %player% OPEN_DEFAULT_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "default",
@@ -273,7 +274,7 @@
             "id": "haste",
             "rarity": "EPIC",
             "itemStack": {
-              "type": "CLAY_BALL",
+              "type": "POTION",
               "name": "i18n.lumberjack.lootbox.reward.haste.title|!|§7",
               "lore": "lumberjack.items.haste.lore",
               "flags": [
@@ -353,6 +354,27 @@
             "onDrop": [
               "give-tool %player% LUCKY"
             ]
+          },
+          {
+            "id": "tool-lucky-mob",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "WOOD_AXE",
+              "name": "i18n.lumberjack.tool.axe.lucky_mob.title|!|§7",
+              "lore": "lumberjack.lootbox.tool.axe.lucky_mob.description",
+              "flags": [
+                "HIDE_ATTRIBUTES",
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "data": {
+                "weapons": "life_axe"
+              }
+            },
+            "chance": 0.5,
+            "onDrop": [
+              "give-tool %player% LUCKY_MOB"
+            ]
           }
         ]
       }
@@ -388,7 +410,8 @@
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [
-        "earn-tutorial-stage-progress %player% OPEN_PET_LOOTBOX"
+        "earn-tutorial-stage-progress %player% OPEN_PET_LOOTBOX",
+        "add-achievement-progress %player% OPEN_PET_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "pets",
@@ -744,7 +767,8 @@
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [
-        "earn-tutorial-stage-progress %player% OPEN_RUNE_LOOTBOX"
+        "earn-tutorial-stage-progress %player% OPEN_RUNE_LOOTBOX",
+        "add-achievement-progress %player% OPEN_RUNE_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "rune",
@@ -945,6 +969,21 @@
             "onDrop": [
               "give-rune %player% SUPER_PLAYER 100000"
             ]
+          },
+          {
+            "id": "slowdown",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "lumberjack.runes.slowdown.name",
+              "lore": "i18n.lumberjack.runes.description|!|(i18n.lumberjack.runes.slowdown.ability.name|!|8.0)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 1,
+            "onDrop": [
+              "give-rune %player% SLOWDOWN 100000"
+            ]
           }
         ]
       }
@@ -980,7 +1019,8 @@
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [
-        "earn-tutorial-stage-progress %player% OPEN_TITLE_LOOTBOX"
+        "earn-tutorial-stage-progress %player% OPEN_TITLE_LOOTBOX",
+        "add-achievement-progress %player% OPEN_TITLE_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "title",
@@ -1529,6 +1569,22 @@
             "chance": 0.621875,
             "onDrop": [
               "give-title %player% CHAINSAW 500000"
+            ]
+          },
+          {
+            "id": "omnipresent",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "lumberjack.titles.omnipresent.name",
+              "lore": "i18n.lumberjack.titles.description|!|lumberjack.titles.ability.omnipresent",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 0.621875,
+            "onDrop": [
+              "give-title %player% OMNIPRESENT 500000"
             ]
           }
         ]
