@@ -571,6 +571,356 @@
       "messages": {
         "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.activate_incident.title"
       }
+    },
+    "HEAD_SHOT": {
+      "title": "lumberjack.achievement.head_shot.title",
+      "texture": "head_shot.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.head_shot.stages.title|!|100",
+          "description": "i18n.lumberjack.achievement.reward.description|!|2",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.head_shot.stages.title|!|300",
+          "description": "i18n.lumberjack.achievement.reward.description|!|5",
+          "required": 300.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.head_shot.stages.title|!|800",
+          "description": "i18n.lumberjack.achievement.reward.description|!|10",
+          "required": 800.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.head_shot.stages.title|!|2000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|20",
+          "required": 2000.0,
+          "onTake": [
+            "give-incident-points %player% 20 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.head_shot.stages.title|!|5000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|35",
+          "required": 5000.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.head_shot.title"
+      }
+    },
+    "KILL_PLAYERS": {
+      "title": "lumberjack.achievement.kill_players.title",
+      "texture": "kill_players.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.kill_players.stages.title|!|10",
+          "description": "i18n.lumberjack.achievement.reward.description|!|1",
+          "required": 10.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_players.stages.title|!|30",
+          "description": "i18n.lumberjack.achievement.reward.description|!|3",
+          "required": 30.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_players.stages.title|!|70",
+          "description": "i18n.lumberjack.achievement.reward.description|!|7",
+          "required": 70.0,
+          "onTake": [
+            "give-incident-points %player% 7 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_players.stages.title|!|130",
+          "description": "i18n.lumberjack.achievement.reward.description|!|15",
+          "required": 130.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_players.stages.title|!|200",
+          "description": "i18n.lumberjack.achievement.reward.description|!|25",
+          "required": 200.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.kill_players.title"
+      }
+    },
+    "KILL_MOBS": {
+      "title": "lumberjack.achievement.kill_mobs.title",
+      "texture": "kill_mobs.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.kill_mobs.stages.title|!|100",
+          "description": "i18n.lumberjack.achievement.reward.description|!|2",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_mobs.stages.title|!|400",
+          "description": "i18n.lumberjack.achievement.reward.description|!|5",
+          "required": 400.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_mobs.stages.title|!|700",
+          "description": "i18n.lumberjack.achievement.reward.description|!|10",
+          "required": 700.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_mobs.stages.title|!|1500",
+          "description": "i18n.lumberjack.achievement.reward.description|!|18",
+          "required": 1500.0,
+          "onTake": [
+            "give-incident-points %player% 18 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_mobs.stages.title|!|4000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|30",
+          "required": 4000.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.kill_mobs.title"
+      }
+    },
+    "KILL_BOSSES": {
+      "title": "lumberjack.achievement.kill_bosses.title",
+      "texture": "kill_bosses.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.kill_bosses.stages.title|!|20",
+          "description": "i18n.lumberjack.achievement.reward.description|!|3",
+          "required": 20.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_bosses.stages.title|!|50",
+          "description": "i18n.lumberjack.achievement.reward.description|!|7",
+          "required": 50.0,
+          "onTake": [
+            "give-incident-points %player% 7 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_bosses.stages.title|!|50",
+          "description": "i18n.lumberjack.achievement.reward.description|!|12",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 12 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_bosses.stages.title|!|200",
+          "description": "i18n.lumberjack.achievement.reward.description|!|20",
+          "required": 200.0,
+          "onTake": [
+            "give-incident-points %player% 20 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.kill_bosses.stages.title|!|300",
+          "description": "i18n.lumberjack.achievement.reward.description|!|35",
+          "required": 300.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.kill_bosses.title"
+      }
+    },
+    "UPGRADE_AXE": {
+      "title": "lumberjack.achievement.upgrade_axe.title",
+      "texture": "upgrade_axe.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.upgrade_axe.stages.title|!|40",
+          "description": "i18n.lumberjack.achievement.reward.description|!|2",
+          "required": 40.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.upgrade_axe.stages.title|!|100",
+          "description": "i18n.lumberjack.achievement.reward.description|!|5",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.upgrade_axe.stages.title|!|200",
+          "description": "i18n.lumberjack.achievement.reward.description|!|10",
+          "required": 200.0,
+          "onTake": [
+            "give-incident-points %player% 10 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.upgrade_axe.stages.title|!|350",
+          "description": "i18n.lumberjack.achievement.reward.description|!|18",
+          "required": 350.0,
+          "onTake": [
+            "give-incident-points %player% 18 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.upgrade_axe.stages.title|!|500",
+          "description": "i18n.lumberjack.achievement.reward.description|!|30",
+          "required": 500.0,
+          "onTake": [
+            "give-incident-points %player% 30 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.upgrade_axe.title"
+      }
+    },
+    "BREAK_TREES": {
+      "title": "lumberjack.achievement.break_trees.title",
+      "texture": "break_trees.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.break_trees.stages.title|!|10000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|3",
+          "required": 10000.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.break_trees.stages.title|!|250000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|8",
+          "required": 250000.0,
+          "onTake": [
+            "give-incident-points %player% 8 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.break_trees.stages.title|!|1000000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|15",
+          "required": 1000000.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.break_trees.stages.title|!|10000000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|25",
+          "required": 10000000.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.break_trees.stages.title|!|25000000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|40",
+          "required": 25000000.0,
+          "onTake": [
+            "give-incident-points %player% 40 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.break_trees.title"
+      }
+    },
+    "GET_TREE_DROPS": {
+      "title": "lumberjack.achievement.get_tree_drops.title",
+      "texture": "get_tree_drops.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.get_tree_drops.stages.title|!|100",
+          "description": "i18n.lumberjack.achievement.reward.description|!|1",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.get_tree_drops.stages.title|!|500",
+          "description": "i18n.lumberjack.achievement.reward.description|!|4",
+          "required": 500.0,
+          "onTake": [
+            "give-incident-points %player% 4 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.get_tree_drops.stages.title|!|2000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|9",
+          "required": 2000.0,
+          "onTake": [
+            "give-incident-points %player% 9 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.get_tree_drops.stages.title|!|5000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|16",
+          "required": 5000.0,
+          "onTake": [
+            "give-incident-points %player% 16 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.get_tree_drops.stages.title|!|20000",
+          "description": "i18n.lumberjack.achievement.reward.description|!|28",
+          "required": 20000.0,
+          "onTake": [
+            "give-incident-points %player% 28 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.get_tree_drops.title"
+      }
     }
   }
 }

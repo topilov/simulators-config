@@ -61,9 +61,17 @@
         ]
       },
       {
+        "icon": "minigame-shop.png",
+        "title": "lumberjack.menu.main.buttons.minigame-shop.title",
+        "weight": 194,
+        "onSelect": [
+          "sudo %player% minigame-shop"
+        ]
+      },
+      {
         "icon": "incidents.png",
         "title": "lumberjack.menu.main.buttons.incidents.title",
-        "weight": 298,
+        "weight": 198,
         "onSelect": [
           "sudo %player% incident-menu"
         ]
@@ -71,7 +79,7 @@
       {
         "icon": "shop.png",
         "title": "lumberjack.menu.main.buttons.shop.title",
-        "weight": 298,
+        "weight": 194,
         "onSelect": [
           "sudo %player% bits"
         ]
