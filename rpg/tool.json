@@ -5,14 +5,16 @@
     "hold": "rpg.items.message.hold",
     "cannot": "rpg.items.message.cannot"
   },
-  "tools": {
+  "default": {
     "DEFAULT_SWORD": {
       "type": "DEFAULT_SWORD",
       "material": "IRON_SWORD",
       "title": "Обычный меч",
       "rawTitle": "Обычный меч",
       "description": "Описание",
-      "rare": "COMMON"
+      "rare": "COMMON",
+      "damage": 1.0, 
+      "level": 1
     },
     "DEFAULT_KNIFE": {
       "type": "DEFAULT_KNIFE",
@@ -20,7 +22,9 @@
       "title": "Обычный кинжал",
       "rawTitle": "Обычный кинжал",
       "description": "Описание",
-      "rare": "COMMON"
+      "rare": "COMMON",
+      "damage": 1.0, 
+      "level": 1
     },
     "DEFAULT_BOW": {
       "type": "DEFAULT_BOW",
@@ -29,6 +33,8 @@
       "rawTitle": "Обычный лук",
       "description": "Описание",
       "rare": "COMMON",
+      "damage": 1.0, 
+      "level": 1,
       "data": {
         "bow": 1,
         "no-interact": 1,
@@ -42,6 +48,8 @@
       "rawTitle": "Обычный посох",
       "description": "Описание",
       "rare": "COMMON",
+      "damage": 1.0, 
+      "level": 1,
       "data": {
         "staff": 1,
         "no-interact": 1,
