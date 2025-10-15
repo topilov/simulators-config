@@ -28,10 +28,10 @@
               },
               "spawnAfter": 60,
               "drops": [
-                { "chance": 60.0, "id": "shadow_cloak" },
-                { "chance": 25.0, "id": "poisoned_kunai" },
-                { "chance": 10.0, "id": "cracked_amulet_of_rain" },
-                { "chance": 5.0, "id": "phantom_lens" }
+                { "chance": 60.0, "type": "ITEM", "id": "shadow_cloak" },
+                { "chance": 25.0, "type": "ITEM", "id": "poisoned_kunai" },
+                { "chance": 10.0, "type": "ITEM", "id": "cracked_amulet_of_rain" },
+                { "chance": 5.0, "type": "ITEM", "id": "phantom_lens" }
               ]
             },
             {
@@ -54,11 +54,11 @@
               },
               "spawnAfter": 60,
               "drops": [
-                { "chance": 40.0, "id": "poisoned_kunai" },
-                { "chance": 25.0, "id": "phantom_lens" },
-                { "chance": 20.0, "id": "shadow_cloak" },
-                { "chance": 10.0, "id": "shard_of_illusion" },
-                { "chance": 5.0, "id": "cracked_amulet_of_rain" }
+                { "chance": 40.0, "type": "ITEM", "id": "poisoned_kunai" },
+                { "chance": 25.0, "type": "ITEM", "id": "phantom_lens" },
+                { "chance": 20.0, "type": "ITEM", "id": "shadow_cloak" },
+                { "chance": 10.0, "type": "ITEM", "id": "shard_of_illusion" },
+                { "chance": 5.0, "type": "ITEM", "id": "cracked_amulet_of_rain" }
               ]
             }
           ]
@@ -86,10 +86,10 @@
               },
               "spawnAfter": 60,
               "drops": [
-                { "chance": 55.0, "id": "observers_eye" },
-                { "chance": 25.0, "id": "phantom_lens" },
-                { "chance": 15.0, "id": "cracked_amulet_of_rain" },
-                { "chance": 5.0, "id": "shard_of_illusion" }
+                { "chance": 55.0, "type": "ITEM", "id": "observers_eye" },
+                { "chance": 25.0, "type": "ITEM", "id": "phantom_lens" },
+                { "chance": 15.0, "type": "ITEM", "id": "cracked_amulet_of_rain" },
+                { "chance": 5.0, "type": "ITEM", "id": "shard_of_illusion" }
               ]
             },
             {
@@ -112,11 +112,11 @@
               },
               "spawnAfter": 60,
               "drops": [
-                { "chance": 40.0, "id": "phantom_lens" },
-                { "chance": 25.0, "id": "observers_eye" },
-                { "chance": 20.0, "id": "shard_of_illusion" },
-                { "chance": 10.0, "id": "shadow_cloak" },
-                { "chance": 5.0, "id": "cracked_amulet_of_rain" }
+                { "chance": 40.0, "type": "ITEM", "id": "phantom_lens" },
+                { "chance": 25.0, "type": "ITEM", "id": "observers_eye" },
+                { "chance": 20.0, "type": "ITEM", "id": "shard_of_illusion" },
+                { "chance": 10.0, "type": "ITEM", "id": "shadow_cloak" },
+                { "chance": 5.0, "type": "ITEM", "id": "cracked_amulet_of_rain" }
               ]
             }
           ]
@@ -143,12 +143,12 @@
               },
               "spawnAfter": 60,
               "drops": [
-                { "chance": 30.0, "id": "shard_of_illusion" },
-                { "chance": 25.0, "id": "phantom_lens" },
-                { "chance": 20.0, "id": "observers_eye" },
-                { "chance": 15.0, "id": "shadow_cloak" },
-                { "chance": 7.0, "id": "poisoned_kunai" },
-                { "chance": 3.0, "id": "cracked_amulet_of_rain" }
+                { "chance": 30.0, "type": "ITEM", "id": "shard_of_illusion" },
+                { "chance": 25.0, "type": "ITEM", "id": "phantom_lens" },
+                { "chance": 20.0, "type": "ITEM", "id": "observers_eye" },
+                { "chance": 15.0, "type": "ITEM", "id": "shadow_cloak" },
+                { "chance": 7.0, "type": "ITEM", "id": "poisoned_kunai" },
+                { "chance": 3.0, "type": "ITEM", "id": "cracked_amulet_of_rain" }
               ]
             }
           ]
@@ -185,22 +185,27 @@
                 },
                 {
                   "chance": 16.47,
+                  "type": "ITEM",
                   "id": "stone_of_disciple"
                 },
                 {
                   "chance": 9.41,
+                  "type": "ITEM",
                   "id": "ring_of_fates"
                 },
                 {
                   "chance": 9.4,
+                  "type": "ITEM",
                   "id": "sharpened_fan_of_shaolin"
                 },
                 {
                   "chance": 5.79,
+                  "type": "ITEM",
                   "id": "blood_of_path_master"
                 },
                 {
                   "chance": 0.1,
+                  "type": "ITEM",
                   "id": "spirit_of_battle_master"
                 }
               ]
@@ -237,22 +242,27 @@
                 },
                 {
                   "chance": 16.48,
+                  "type": "ITEM",
                   "id": "stone_of_disciple"
                 },
                 {
                   "chance": 12.09,
+                  "type": "ITEM",
                   "id": "ring_of_fates"
                 },
                 {
                   "chance": 8.79,
+                  "type": "ITEM",
                   "id": "sharpened_fan_of_shaolin"
                 },
                 {
                   "chance": 7.19,
+                  "type": "ITEM",
                   "id": "blood_of_path_master"
                 },
                 {
                   "chance": 0.5,
+                  "type": "ITEM",
                   "id": "spirit_of_battle_master"
                 }
               ]
@@ -294,22 +304,27 @@
                 },
                 {
                   "chance": 15.56,
+                  "type": "ITEM",
                   "id": "stone_of_disciple"
                 },
                 {
                   "chance": 14.22,
+                  "type": "ITEM",
                   "id": "ring_of_fates"
                 },
                 {
                   "chance": 8.0,
+                  "type": "ITEM",
                   "id": "silk_of_deaf_echo"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "awakened_root_of_wrath"
                 },
                 {
                   "chance": 1.1,
+                  "type": "ITEM",
                   "id": "spirit_of_battle_master"
                 }
               ]
@@ -339,22 +354,27 @@
                 },
                 {
                   "chance": 14.89,
+                  "type": "ITEM",
                   "id": "stone_of_disciple"
                 },
                 {
                   "chance": 15.23,
+                  "type": "ITEM",
                   "id": "ring_of_fates"
                 },
                 {
                   "chance": 9.0,
+                  "type": "ITEM",
                   "id": "silk_of_deaf_echo"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "awakened_root_of_wrath"
                 },
                 {
                   "chance": 2.13,
+                  "type": "ITEM",
                   "id": "spirit_of_battle_master"
                 }
               ]
@@ -397,22 +417,27 @@
                 },
                 {
                   "chance": 18,
+                  "type": "ITEM",
                   "id": "stone_of_disciple"
                 },
                 {
                   "chance": 18,
+                  "type": "ITEM",
                   "id": "ring_of_fates"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "silk_of_deaf_echo"
                 },
                 {
                   "chance": 10,
+                  "type": "ITEM",
                   "id": "awakened_root_of_wrath"
                 },
                 {
                   "chance": 4.0,
+                  "type": "ITEM",
                   "id": "spirit_of_battle_master"
                 }
               ]
@@ -452,31 +477,26 @@
                 {
                   "chance": 16.47,
                   "id": "fragment_of_cage",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Фрагмент Клетки",
-                    "lore": "§7Острые прутья сломанной клетки.\n§7Хранит следы отчаянных попыток вырваться на свободу.",
-                    "data": {
-                      "price": 12000.0,
-                      "shards": 10.0,
-                      "hoverColor": "GRAY"
-                    }
-                  }
+                  "type": "ITEM"
                 },
                 {
                   "chance": 9.41,
+                  "type": "ITEM",
                   "id": "charred_verdict_plank"
                 },
                 {
                   "chance": 9.4,
+                  "type": "ITEM",
                   "id": "bent_dagger_of_betrayal"
                 },
                 {
                   "chance": 5.79,
+                  "type": "ITEM",
                   "id": "chain_of_silent_herald"
                 },
                 {
                   "chance": 0.1,
+                  "type": "ITEM",
                   "id": "cursed_skull_of_faceless"
                 }
               ]
@@ -513,14 +533,17 @@
                 },
                 {
                   "chance": 16.48,
+                  "type": "ITEM",
                   "id": "fragment_of_cage"
                 },
                 {
                   "chance": 12.09,
+                  "type": "ITEM",
                   "id": "charred_verdict_plank"
                 },
                 {
                   "chance": 8.79,
+                  "type": "ITEM",
                   "id": "bent_dagger_of_betrayal"
                 },
                 {
@@ -529,6 +552,7 @@
                 },
                 {
                   "chance": 0.5,
+                  "type": "ITEM",
                   "id": "cursed_skull_of_faceless"
                 }
               ]
@@ -570,22 +594,27 @@
                 },
                 {
                   "chance": 15.56,
+                  "type": "ITEM",
                   "id": "fragment_of_cage"
                 },
                 {
                   "chance": 12.22,
+                  "type": "ITEM",
                   "id": "charred_verdict_plank"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "devil_possum_fur"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "tooth_of_woven_truth"
                 },
                 {
                   "chance": 0.1,
+                  "type": "ITEM",
                   "id": "cursed_skull_of_faceless"
                 }
               ]
@@ -615,22 +644,27 @@
                 },
                 {
                   "chance": 14.89,
+                  "type": "ITEM",
                   "id": "fragment_of_cage"
                 },
                 {
                   "chance": 14.23,
+                  "type": "ITEM",
                   "id": "charred_verdict_plank"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "devil_possum_fur"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "tooth_of_woven_truth"
                 },
                 {
                   "chance": 2.13,
+                  "type": "ITEM",
                   "id": "cursed_skull_of_faceless"
                 }
               ]
@@ -676,22 +710,27 @@
                 },
                 {
                   "chance": 18,
+                  "type": "ITEM",
                   "id": "fragment_of_cage"
                 },
                 {
                   "chance": 17,
+                  "type": "ITEM",
                   "id": "charred_verdict_plank"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "devil_possum_fur"
                 },
                 {
                   "chance": 10,
+                  "type": "ITEM",
                   "id": "tooth_of_woven_truth"
                 },
                 {
                   "chance": 5.0,
+                  "type": "ITEM",
                   "id": "cursed_skull_of_faceless"
                 }
               ]
@@ -730,22 +769,27 @@
                 },
                 {
                   "chance": 16.47,
+                  "type": "ITEM",
                   "id": "damp_ship_log"
                 },
                 {
                   "chance": 9.41,
+                  "type": "ITEM",
                   "id": "salted_midshipman_ring"
                 },
                 {
                   "chance": 9.4,
+                  "type": "ITEM",
                   "id": "cracked_beacon_eye"
                 },
                 {
                   "chance": 5.79,
+                  "type": "ITEM",
                   "id": "defiled_tide_crest"
                 },
                 {
                   "chance": 0.1,
+                  "type": "ITEM",
                   "id": "echo_of_drowned_captain"
                 }
               ]
@@ -782,22 +826,27 @@
                 },
                 {
                   "chance": 16.48,
+                  "type": "ITEM",
                   "id": "damp_ship_log"
                 },
                 {
                   "chance": 12.09,
+                  "type": "ITEM",
                   "id": "salted_midshipman_ring"
                 },
                 {
                   "chance": 8.79,
+                  "type": "ITEM",
                   "id": "cracked_beacon_eye"
                 },
                 {
                   "chance": 7.19,
+                  "type": "ITEM",
                   "id": "defiled_tide_crest"
                 },
                 {
                   "chance": 0.5,
+                  "type": "ITEM",
                   "id": "echo_of_drowned_captain"
                 }
               ]
@@ -839,22 +888,27 @@
                 },
                 {
                   "chance": 15.56,
+                  "type": "ITEM",
                   "id": "damp_ship_log"
                 },
                 {
                   "chance": 12.22,
+                  "type": "ITEM",
                   "id": "salted_midshipman_ring"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "anchor_of_the_abyss"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "map_of_the_blind_god"
                 },
                 {
                   "chance": 1.1,
+                  "type": "ITEM",
                   "id": "echo_of_drowned_captain"
                 }
               ]
@@ -884,22 +938,27 @@
                 },
                 {
                   "chance": 14.89,
+                  "type": "ITEM",
                   "id": "damp_ship_log"
                 },
                 {
                   "chance": 14.23,
+                  "type": "ITEM",
                   "id": "salted_midshipman_ring"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "anchor_of_the_abyss"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "map_of_the_blind_god"
                 },
                 {
                   "chance": 2.13,
+                  "type": "ITEM",
                   "id": "echo_of_drowned_captain"
                 }
               ]
@@ -946,22 +1005,27 @@
                 },
                 {
                   "chance": 18,
+                  "type": "ITEM",
                   "id": "damp_ship_log"
                 },
                 {
                   "chance": 17,
+                  "type": "ITEM",
                   "id": "salted_midshipman_ring"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "anchor_of_the_abyss"
                 },
                 {
                   "chance": 10,
+                  "type": "ITEM",
                   "id": "map_of_the_blind_god"
                 },
                 {
                   "chance": 5,
+                  "type": "ITEM",
                   "id": "echo_of_drowned_captain"
                 }
               ]
@@ -1000,22 +1064,27 @@
                 },
                 {
                   "chance": 16.47,
+                  "type": "ITEM",
                   "id": "prayer_stone_to_ashes"
                 },
                 {
                   "chance": 9.41,
+                  "type": "ITEM",
                   "id": "forgotten_priest_vestment"
                 },
                 {
                   "chance": 9.4,
+                  "type": "ITEM",
                   "id": "stone_statue_fragment"
                 },
                 {
                   "chance": 5.79,
+                  "type": "ITEM",
                   "id": "bloody_seal_of_crucifixion"
                 },
                 {
                   "chance": 0.1,
+                  "type": "ITEM",
                   "id": "last_apostle_ashes"
                 }
               ]
@@ -1050,22 +1119,27 @@
                 },
                 {
                   "chance": 16.48,
+                  "type": "ITEM",
                   "id": "prayer_stone_to_ashes"
                 },
                 {
                   "chance": 12.09,
+                  "type": "ITEM",
                   "id": "forgotten_priest_vestment"
                 },
                 {
                   "chance": 8.79,
+                  "type": "ITEM",
                   "id": "stone_statue_fragment"
                 },
                 {
                   "chance": 7.19,
+                  "type": "ITEM",
                   "id": "bloody_seal_of_crucifixion"
                 },
                 {
                   "chance": 0.5,
+                  "type": "ITEM",
                   "id": "last_apostle_ashes"
                 }
               ]
@@ -1100,22 +1174,27 @@
                 },
                 {
                   "chance": 15.56,
+                  "type": "ITEM",
                   "id": "prayer_stone_to_ashes"
                 },
                 {
                   "chance": 12.22,
+                  "type": "ITEM",
                   "id": "forgotten_priest_vestment"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "weeping_of_the_voiceless_angel"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "dust_of_the_sundered_altar"
                 },
                 {
                   "chance": 1.1,
+                  "type": "ITEM",
                   "id": "last_apostle_ashes"
                 }
               ]
@@ -1150,22 +1229,27 @@
                 },
                 {
                   "chance": 14.89,
+                  "type": "ITEM",
                   "id": "prayer_stone_to_ashes"
                 },
                 {
                   "chance": 14.23,
+                  "type": "ITEM",
                   "id": "forgotten_priest_vestment"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "weeping_of_the_voiceless_angel"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "dust_of_the_sundered_altar"
                 },
                 {
                   "chance": 2.13,
+                  "type": "ITEM",
                   "id": "last_apostle_ashes"
                 }
               ]
@@ -1200,22 +1284,27 @@
                 },
                 {
                   "chance": 20.44,
+                  "type": "ITEM",
                   "id": "prayer_stone_to_ashes"
                 },
                 {
                   "chance": 19.0,
+                  "type": "ITEM",
                   "id": "forgotten_priest_vestment"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "weeping_of_the_voiceless_angel"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "dust_of_the_sundered_altar"
                 },
                 {
                   "chance": 5.0,
+                  "type": "ITEM",
                   "id": "last_apostle_ashes"
                 }
               ]
@@ -1254,22 +1343,27 @@
                 },
                 {
                   "chance": 16.47,
+                  "type": "ITEM",
                   "id": "shard_of_the_sandy_lyre"
                 },
                 {
                   "chance": 9.41,
+                  "type": "ITEM",
                   "id": "coral_of_the_wandering_song"
                 },
                 {
                   "chance": 9.4,
+                  "type": "ITEM",
                   "id": "depths_bone_rattle"
                 },
                 {
                   "chance": 5.79,
+                  "type": "ITEM",
                   "id": "dead_oracle_conch"
                 },
                 {
                   "chance": 0.1,
+                  "type": "ITEM",
                   "id": "abyssal_sea_chant"
                 }
               ]
@@ -1304,22 +1398,27 @@
                 },
                 {
                   "chance": 16.48,
+                  "type": "ITEM",
                   "id": "shard_of_the_sandy_lyre"
                 },
                 {
                   "chance": 12.09,
+                  "type": "ITEM",
                   "id": "coral_of_the_wandering_song"
                 },
                 {
                   "chance": 8.79,
+                  "type": "ITEM",
                   "id": "depths_bone_rattle"
                 },
                 {
                   "chance": 7.19,
+                  "type": "ITEM",
                   "id": "dead_oracle_conch"
                 },
                 {
                   "chance": 0.5,
+                  "type": "ITEM",
                   "id": "abyssal_sea_chant"
                 }
               ]
@@ -1354,22 +1453,27 @@
                 },
                 {
                   "chance": 15.56,
+                  "type": "ITEM",
                   "id": "shard_of_the_sandy_lyre"
                 },
                 {
                   "chance": 12.22,
+                  "type": "ITEM",
                   "id": "coral_of_the_wandering_song"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "pearl_of_the_slumbering_leviathan"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "gossamer_of_salted_whispers"
                 },
                 {
                   "chance": 1.1,
+                  "type": "ITEM",
                   "id": "abyssal_sea_chant"
                 }
               ]
@@ -1404,22 +1508,27 @@
                 },
                 {
                   "chance": 14.89,
+                  "type": "ITEM",
                   "id": "shard_of_the_sandy_lyre"
                 },
                 {
                   "chance": 14.23,
+                  "type": "ITEM",
                   "id": "coral_of_the_wandering_song"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "pearl_of_the_slumbering_leviathan"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "gossamer_of_salted_whispers"
                 },
                 {
                   "chance": 2.13,
+                  "type": "ITEM",
                   "id": "abyssal_sea_chant"
                 }
               ]
@@ -1454,22 +1563,27 @@
                 },
                 {
                   "chance": 20.44,
+                  "type": "ITEM",
                   "id": "shard_of_the_sandy_lyre"
                 },
                 {
                   "chance": 19.0,
+                  "type": "ITEM",
                   "id": "coral_of_the_wandering_song"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "pearl_of_the_slumbering_leviathan"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "gossamer_of_salted_whispers"
                 },
                 {
                   "chance": 5.0,
+                  "type": "ITEM",
                   "id": "abyssal_sea_chant"
                 }
               ]
@@ -1508,22 +1622,27 @@
                 },
                 {
                   "chance": 16.47,
+                  "type": "ITEM",
                   "id": "tattered_research_scroll"
                 },
                 {
                   "chance": 9.41,
+                  "type": "ITEM",
                   "id": "aetherial_platform_fragment"
                 },
                 {
                   "chance": 9.4,
+                  "type": "ITEM",
                   "id": "rift_watcher_iris"
                 },
                 {
                   "chance": 5.79,
+                  "type": "ITEM",
                   "id": "medallion_of_warped_thought"
                 },
                 {
                   "chance": 0.1,
+                  "type": "ITEM",
                   "id": "crystal_of_collapsing_mind"
                 }
               ]
@@ -1558,22 +1677,27 @@
                 },
                 {
                   "chance": 16.48,
+                  "type": "ITEM",
                   "id": "tattered_research_scroll"
                 },
                 {
                   "chance": 12.09,
+                  "type": "ITEM",
                   "id": "aetherial_platform_fragment"
                 },
                 {
                   "chance": 8.79,
+                  "type": "ITEM",
                   "id": "rift_watcher_iris"
                 },
                 {
                   "chance": 7.19,
+                  "type": "ITEM",
                   "id": "medallion_of_warped_thought"
                 },
                 {
                   "chance": 0.5,
+                  "type": "ITEM",
                   "id": "crystal_of_collapsing_mind"
                 }
               ]
@@ -1608,22 +1732,27 @@
                 },
                 {
                   "chance": 15.56,
+                  "type": "ITEM",
                   "id": "tattered_research_scroll"
                 },
                 {
                   "chance": 12.22,
+                  "type": "ITEM",
                   "id": "aetherial_platform_fragment"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "tear_of_static_time"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "whisper_of_zero_point"
                 },
                 {
                   "chance": 1.1,
+                  "type": "ITEM",
                   "id": "crystal_of_collapsing_mind"
                 }
               ]
@@ -1658,22 +1787,27 @@
                 },
                 {
                   "chance": 14.89,
+                  "type": "ITEM",
                   "id": "tattered_research_scroll"
                 },
                 {
                   "chance": 14.23,
+                  "type": "ITEM",
                   "id": "aetherial_platform_fragment"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "tear_of_static_time"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "whisper_of_zero_point"
                 },
                 {
                   "chance": 2.13,
+                  "type": "ITEM",
                   "id": "crystal_of_collapsing_mind"
                 }
               ]
@@ -1708,22 +1842,27 @@
                 },
                 {
                   "chance": 20.44,
+                  "type": "ITEM",
                   "id": "tattered_research_scroll"
                 },
                 {
                   "chance": 19.0,
+                  "type": "ITEM",
                   "id": "aetherial_platform_fragment"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "tear_of_static_time"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "whisper_of_zero_point"
                 },
                 {
                   "chance": 5.0,
+                  "type": "ITEM",
                   "id": "crystal_of_collapsing_mind"
                 }
               ]
@@ -1762,22 +1901,27 @@
                 },
                 {
                   "chance": 16.47,
+                  "type": "ITEM",
                   "id": "weight_of_forgotten_time"
                 },
                 {
                   "chance": 9.41,
+                  "type": "ITEM",
                   "id": "pendulum_shard"
                 },
                 {
                   "chance": 9.4,
+                  "type": "ITEM",
                   "id": "fateful_tick_gear"
                 },
                 {
                   "chance": 5.79,
+                  "type": "ITEM",
                   "id": "charred_chronomancer_clot"
                 },
                 {
                   "chance": 0.1,
+                  "type": "ITEM",
                   "id": "rewritten_reality_mechanism"
                 }
               ]
@@ -1812,22 +1956,27 @@
                 },
                 {
                   "chance": 16.48,
+                  "type": "ITEM",
                   "id": "weight_of_forgotten_time"
                 },
                 {
                   "chance": 12.09,
+                  "type": "ITEM",
                   "id": "pendulum_shard"
                 },
                 {
                   "chance": 8.79,
+                  "type": "ITEM",
                   "id": "fateful_tick_gear"
                 },
                 {
                   "chance": 7.19,
+                  "type": "ITEM",
                   "id": "charred_chronomancer_clot"
                 },
                 {
                   "chance": 0.5,
+                  "type": "ITEM",
                   "id": "rewritten_reality_mechanism"
                 }
               ]
@@ -1862,22 +2011,27 @@
                 },
                 {
                   "chance": 15.56,
+                  "type": "ITEM",
                   "id": "weight_of_forgotten_time"
                 },
                 {
                   "chance": 12.22,
+                  "type": "ITEM",
                   "id": "pendulum_shard"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "sand_of_alternate_outcomes"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "heart_of_the_eternal_instant"
                 },
                 {
                   "chance": 1.1,
+                  "type": "ITEM",
                   "id": "rewritten_reality_mechanism"
                 }
               ]
@@ -1912,22 +2066,27 @@
                 },
                 {
                   "chance": 14.89,
+                  "type": "ITEM",
                   "id": "weight_of_forgotten_time"
                 },
                 {
                   "chance": 14.23,
+                  "type": "ITEM",
                   "id": "pendulum_shard"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "sand_of_alternate_outcomes"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "heart_of_the_eternal_instant"
                 },
                 {
                   "chance": 2.13,
+                  "type": "ITEM",
                   "id": "rewritten_reality_mechanism"
                 }
               ]
@@ -1962,22 +2121,27 @@
                 },
                 {
                   "chance": 20.44,
+                  "type": "ITEM",
                   "id": "weight_of_forgotten_time"
                 },
                 {
                   "chance": 19.0,
+                  "type": "ITEM",
                   "id": "pendulum_shard"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "sand_of_alternate_outcomes"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "heart_of_the_eternal_instant"
                 },
                 {
                   "chance": 5.0,
+                  "type": "ITEM",
                   "id": "rewritten_reality_mechanism"
                 }
               ]
@@ -2016,22 +2180,27 @@
                 },
                 {
                   "chance": 16.47,
+                  "type": "ITEM",
                   "id": "transport_panel_shard"
                 },
                 {
                   "chance": 9.41,
+                  "type": "ITEM",
                   "id": "cracked_life_biochip"
                 },
                 {
                   "chance": 9.4,
+                  "type": "ITEM",
                   "id": "radioactive_hammer_lantern"
                 },
                 {
                   "chance": 5.79,
+                  "type": "ITEM",
                   "id": "ashen_memory_matrix"
                 },
                 {
                   "chance": 0.1,
+                  "type": "ITEM",
                   "id": "last_impulse_core"
                 }
               ]
@@ -2066,22 +2235,27 @@
                 },
                 {
                   "chance": 16.48,
+                  "type": "ITEM",
                   "id": "transport_panel_shard"
                 },
                 {
                   "chance": 12.09,
+                  "type": "ITEM",
                   "id": "cracked_life_biochip"
                 },
                 {
                   "chance": 8.79,
+                  "type": "ITEM",
                   "id": "radioactive_hammer_lantern"
                 },
                 {
                   "chance": 7.19,
+                  "type": "ITEM",
                   "id": "ashen_memory_matrix"
                 },
                 {
                   "chance": 0.5,
+                  "type": "ITEM",
                   "id": "last_impulse_core"
                 }
               ]
@@ -2116,22 +2290,27 @@
                 },
                 {
                   "chance": 15.56,
+                  "type": "ITEM",
                   "id": "transport_panel_shard"
                 },
                 {
                   "chance": 12.22,
+                  "type": "ITEM",
                   "id": "cracked_life_biochip"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "seed_of_the_rust_sky"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "code_of_the_apocalyptic_sleep"
                 },
                 {
                   "chance": 1.1,
+                  "type": "ITEM",
                   "id": "last_impulse_core"
                 }
               ]
@@ -2166,22 +2345,27 @@
                 },
                 {
                   "chance": 14.89,
+                  "type": "ITEM",
                   "id": "transport_panel_shard"
                 },
                 {
                   "chance": 14.23,
+                  "type": "ITEM",
                   "id": "cracked_life_biochip"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "seed_of_the_rust_sky"
                 },
                 {
                   "chance": 5.57,
+                  "type": "ITEM",
                   "id": "code_of_the_apocalyptic_sleep"
                 },
                 {
                   "chance": 2.12,
+                  "type": "ITEM",
                   "id": "last_impulse_core"
                 }
               ]
@@ -2216,22 +2400,27 @@
                 },
                 {
                   "chance": 20.44,
+                  "type": "ITEM",
                   "id": "transport_panel_shard"
                 },
                 {
                   "chance": 19.0,
+                  "type": "ITEM",
                   "id": "cracked_life_biochip"
                 },
                 {
                   "chance": 10.0,
+                  "type": "ITEM",
                   "id": "seed_of_the_rust_sky"
                 },
                 {
                   "chance": 5.56,
+                  "type": "ITEM",
                   "id": "code_of_the_apocalyptic_sleep"
                 },
                 {
                   "chance": 5.0,
+                  "type": "ITEM",
                   "id": "last_impulse_core"
                 }
               ]
