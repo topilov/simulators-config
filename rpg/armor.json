@@ -1,32 +1,322 @@
 {
   "armors": {
-    "dao_1": {
-      "title": "i18n.lumberjack.armor.helmet.epic.title|!|§7",
-      "rawTitle": "lumberjack.armor.helmet.epic.title",
-      "description": "lumberjack.armor.helmet.epic.description",
-      "material": "LEATHER_HELMET",
-      "rare": "EPIC",
-      "skin": "other:53",
-      "level": 10,
-      "enchantment": 3
-    },
-    "dao_2": {
-      "title": "i18n.lumberjack.armor.chestplate.rare.title|!|§6",
-      "rawTitle": "lumberjack.armor.chestplate.rare.title",
-      "description": "lumberjack.armor.chestplate.rare.description",
-      "material": "LEATHER_HELMET",
-      "rare": "RARE",
-      "skin": "other:54",
-      "level": 5,
-      "enchantment": 2
-    },
-    "dao_3": {
-      "title": "i18n.lumberjack.armor.leggings.common.title|!|§7",
-      "rawTitle": "lumberjack.armor.leggings.common.title",
-      "description": "lumberjack.armor.leggings.common.description",
+    "PHANTOM_HELMET": {
+      "title": "i18n.lumberjack.armor.phantom.helmet.title|!|§7",
+      "description": "lumberjack.armor.phantom.helmet.description",
       "material": "LEATHER_HELMET",
       "rare": "COMMON",
-      "skin": "other:55",
+      "level": 1,
+      "enchantment": 0
+    },
+    "PHANTOM_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.phantom.chestplate.title|!|§7",
+      "description": "lumberjack.armor.phantom.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "PHANTOM_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.phantom.leggings.title|!|§7",
+      "description": "lumberjack.armor.phantom.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "PHANTOM_BOOTS": {
+      "title": "i18n.lumberjack.armor.phantom.boots.title|!|§7",
+      "description": "lumberjack.armor.phantom.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "MONK_HELMET": {
+      "title": "i18n.lumberjack.armor.monk.helmet.title|!|§7",
+      "description": "lumberjack.armor.monk.helmet.description",
+      "material": "LEATHER_HELMET",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "MONK_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.monk.chestplate.title|!|§7",
+      "description": "lumberjack.armor.monk.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "MONK_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.monk.leggings.title|!|§7",
+      "description": "lumberjack.armor.monk.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "MONK_BOOTS": {
+      "title": "i18n.lumberjack.armor.monk.boots.title|!|§7",
+      "description": "lumberjack.armor.monk.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "BANDIT_HELMET": {
+      "title": "i18n.lumberjack.armor.bandit.helmet.title|!|§7",
+      "description": "lumberjack.armor.bandit.helmet.description",
+      "material": "LEATHER_HELMET",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "BANDIT_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.bandit.chestplate.title|!|§7",
+      "description": "lumberjack.armor.bandit.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "BANDIT_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.bandit.leggings.title|!|§7",
+      "description": "lumberjack.armor.bandit.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "BANDIT_BOOTS": {
+      "title": "i18n.lumberjack.armor.bandit.boots.title|!|§7",
+      "description": "lumberjack.armor.bandit.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "CURSED_HELMET": {
+      "title": "i18n.lumberjack.armor.cursed.helmet.title|!|§7",
+      "description": "lumberjack.armor.cursed.helmet.description",
+      "material": "LEATHER_HELMET",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "CURSED_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.cursed.chestplate.title|!|§7",
+      "description": "lumberjack.armor.cursed.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "CURSED_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.cursed.leggings.title|!|§7",
+      "description": "lumberjack.armor.cursed.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "CURSED_BOOTS": {
+      "title": "i18n.lumberjack.armor.cursed.boots.title|!|§7",
+      "description": "lumberjack.armor.cursed.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "OATH_HELMET": {
+      "title": "i18n.lumberjack.armor.oath.helmet.title|!|§7",
+      "description": "lumberjack.armor.oath.helmet.description",
+      "material": "LEATHER_HELMET",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "OATH_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.oath.chestplate.title|!|§7",
+      "description": "lumberjack.armor.oath.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "OATH_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.oath.leggings.title|!|§7",
+      "description": "lumberjack.armor.oath.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "OATH_BOOTS": {
+      "title": "i18n.lumberjack.armor.oath.boots.title|!|§7",
+      "description": "lumberjack.armor.oath.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "EXILE_HELMET": {
+      "title": "i18n.lumberjack.armor.exile.helmet.title|!|§7",
+      "description": "lumberjack.armor.exile.helmet.description",
+      "material": "LEATHER_HELMET",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "EXILE_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.exile.chestplate.title|!|§7",
+      "description": "lumberjack.armor.exile.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "EXILE_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.exile.leggings.title|!|§7",
+      "description": "lumberjack.armor.exile.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "EXILE_BOOTS": {
+      "title": "i18n.lumberjack.armor.exile.boots.title|!|§7",
+      "description": "lumberjack.armor.exile.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "MINDSHARD_HELMET": {
+      "title": "i18n.lumberjack.armor.mindshard.helmet.title|!|§7",
+      "description": "lumberjack.armor.mindshard.helmet.description",
+      "material": "LEATHER_HELMET",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "MINDSHARD_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.mindshard.chestplate.title|!|§7",
+      "description": "lumberjack.armor.mindshard.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "MINDSHARD_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.mindshard.leggings.title|!|§7",
+      "description": "lumberjack.armor.mindshard.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "MINDSHARD_BOOTS": {
+      "title": "i18n.lumberjack.armor.mindshard.boots.title|!|§7",
+      "description": "lumberjack.armor.mindshard.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "TIMELESS_HELMET": {
+      "title": "i18n.lumberjack.armor.timeless.helmet.title|!|§7",
+      "description": "lumberjack.armor.timeless.helmet.description",
+      "material": "LEATHER_HELMET",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "TIMELESS_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.timeless.chestplate.title|!|§7",
+      "description": "lumberjack.armor.timeless.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "TIMELESS_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.timeless.leggings.title|!|§7",
+      "description": "lumberjack.armor.timeless.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "TIMELESS_BOOTS": {
+      "title": "i18n.lumberjack.armor.timeless.boots.title|!|§7",
+      "description": "lumberjack.armor.timeless.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "LASTSTAND_HELMET": {
+      "title": "i18n.lumberjack.armor.laststand.helmet.title|!|§7",
+      "description": "lumberjack.armor.laststand.helmet.description",
+      "material": "LEATHER_HELMET",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "LASTSTAND_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.laststand.chestplate.title|!|§7",
+      "description": "lumberjack.armor.laststand.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "LASTSTAND_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.laststand.leggings.title|!|§7",
+      "description": "lumberjack.armor.laststand.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "LASTSTAND_BOOTS": {
+      "title": "i18n.lumberjack.armor.laststand.boots.title|!|§7",
+      "description": "lumberjack.armor.laststand.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "APOCALYPSE_HELMET": {
+      "title": "i18n.lumberjack.armor.apocalypse.helmet.title|!|§7",
+      "description": "lumberjack.armor.apocalypse.helmet.description",
+      "material": "LEATHER_HELMET",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "APOCALYPSE_CHESTPLATE": {
+      "title": "i18n.lumberjack.armor.apocalypse.chestplate.title|!|§7",
+      "description": "lumberjack.armor.apocalypse.chestplate.description",
+      "material": "LEATHER_CHESTPLATE",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "APOCALYPSE_LEGGINGS": {
+      "title": "i18n.lumberjack.armor.apocalypse.leggings.title|!|§7",
+      "description": "lumberjack.armor.apocalypse.leggings.description",
+      "material": "LEATHER_LEGGINGS",
+      "rare": "COMMON",
+      "level": 1,
+      "enchantment": 0
+    },
+    "APOCALYPSE_BOOTS": {
+      "title": "i18n.lumberjack.armor.apocalypse.boots.title|!|§7",
+      "description": "lumberjack.armor.apocalypse.boots.description",
+      "material": "LEATHER_BOOTS",
+      "rare": "COMMON",
       "level": 1,
       "enchantment": 0
     }

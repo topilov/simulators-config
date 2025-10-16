@@ -54,14 +54,465 @@
     }
   },
   "drop": {
-    "DAO_MASTER_SWORD": {
+    "SHADOW_BLADE": {
       "type": "DEFAULT_SWORD",
       "material": "IRON_SWORD",
-      "title": "Обычный меч дао",
+      "title": "Теневой Клинок",
       "description": "Описание",
       "rare": "COMMON",
-      "damage": 1.0, 
+      "damage": 1.0,
       "level": 1
+    },
+    "RAVEN_CLAW": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Коготь Ворона",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "SPITTING_SNAKE": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Плюющийся Змей",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "SILENCE_ROD": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Жезл Безмолвия",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
+    },
+    "VOICE_OF_WIND": {
+      "type": "DEFAULT_SWORD",
+      "material": "IRON_SWORD",
+      "title": "Голос Ветра",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "STINGING_BEE": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Жалящая Пчела",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "FALCON_SIGH": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Вздох Сокола",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "QI_FLOW_STAFF": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Посох Потока Ци",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
+    },
+    "SLAUGHTER": {
+      "type": "DEFAULT_SWORD",
+      "material": "IRON_SWORD",
+      "title": "Бойня",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "GRAVEDIGGER_RAZOR": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Бритва Могильщика",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "BONECRUSHER": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Костолом",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "ROTTING_BONE_TOTEM": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Костяной тотем гниения",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
+    },
+    "TIDE_COMB": {
+      "type": "DEFAULT_SWORD",
+      "material": "IRON_SWORD",
+      "title": "Гребень Отлива",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "MORAY_FANG": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Клык Мурены",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "WHISPER_OF_DEPTHS": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Шёпот Глубин",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "CORAL_SCEPTER": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Коралловый Скипетр",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
+    },
+    "RECKONING_NAIL": {
+      "type": "DEFAULT_SWORD",
+      "material": "IRON_SWORD",
+      "title": "Гвоздь Расплаты",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "BURSTING_SHACKLES": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Разрывные Оковы",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "WIND_MOAN": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Стенание Ветра",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "DEFILED_CRYSTAL": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Оскверненный Кристалл",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
+    },
+    "STORM_COMB": {
+      "type": "DEFAULT_SWORD",
+      "material": "IRON_SWORD",
+      "title": "Гребень Шторма",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "JELLYFISH_STING": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Жало Медузы",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "HARPOON_OF_LONGING": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Гарпун Тоски",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "PEARL_OF_DEPTHS": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Жемчужина Глубин",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
+    },
+    "CHAOS_BLADE": {
+      "type": "DEFAULT_SWORD",
+      "material": "IRON_SWORD",
+      "title": "Клинок Хаоса",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "DISTORTED_THORN": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Искажённый Шип",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "INSTABILITY_BOW": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Лук Нестабильности",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "FOCUSING_SHARD": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Фокусирующий Осколок",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
+    },
+    "PENDULUM_OF_FATE": {
+      "type": "DEFAULT_SWORD",
+      "material": "IRON_SWORD",
+      "title": "Маятник Рока",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "TIME_SCYTHE": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Серп Времени",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "COUNTDOWN_CROSSBOW": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Арбалет Отсчёта",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "CHRONOS_ROD": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Стержень Хроноса",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
+    },
+    "ERA_FRAGMENT": {
+      "type": "DEFAULT_SWORD",
+      "material": "IRON_SWORD",
+      "title": "Обломок Эпохи",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "HOPE_SHARD": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Осколок Надежды",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "OBLIVION_STRING": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Тетива Забвения",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "DESTRUCTION_CORE": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Ядро Разрушения",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
+    },
+    "ECHO_OF_PAST_BATTLES": {
+      "type": "DEFAULT_SWORD",
+      "material": "IRON_SWORD",
+      "title": "Эхо Прошлых Битв",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "SHADOW_OF_FALLEN": {
+      "type": "DEFAULT_KNIFE",
+      "material": "STONE_SWORD",
+      "title": "Тень Павшего",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1
+    },
+    "BOW_OF_DOOM": {
+      "type": "DEFAULT_BOW",
+      "material": "BOW",
+      "title": "Лук Рока",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "bow": 1,
+        "no-interact": 1,
+        "cooldown": 10
+      }
+    },
+    "HEART_OF_STORM": {
+      "type": "DEFAULT_STAFF",
+      "material": "CLAY_BALL",
+      "title": "Сердце Бури",
+      "description": "Описание",
+      "rare": "COMMON",
+      "damage": 1.0,
+      "level": 1,
+      "data": {
+        "staff": 1,
+        "no-interact": 1,
+        "cooldown": 40
+      }
     }
   }
 }
