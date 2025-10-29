@@ -39,7 +39,7 @@
       "onBuy": [
         "payload gifts-default"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "GIFTS_PET": {
       "donateName": "lumberjack.donate.element.gifts-pet.donate-name",
@@ -63,7 +63,7 @@
       "onBuy": [
         "payload gifts-pet"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "GIFTS_RUNE": {
       "donateName": "lumberjack.donate.element.gifts-rune.donate-name",
@@ -87,7 +87,7 @@
       "onBuy": [
         "payload gifts-rune"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "GIFTS_TITLE": {
       "donateName": "lumberjack.donate.element.gifts-title.donate-name",
@@ -111,7 +111,7 @@
       "onBuy": [
         "payload gifts-title"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "PET_SLOT": {
       "donateName": "lumberjack.donate.element.pet-slot.donate-name",
@@ -129,7 +129,7 @@
       "onBuy": [
         "unlock-pet-slot %player%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "RUNE_SLOT": {
       "donateName": "lumberjack.donate.element.rune-slot.donate-name",
@@ -151,7 +151,7 @@
       "onBuy": [
         "unlock-rune-slot %player%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "MONEY_BAG": {
       "donateName": "lumberjack.donate.element.money-bag.donate-name",
@@ -172,7 +172,7 @@
       "onBuy": [
         "random-money %player% 15 35 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "MONEY_HANDFUL": {
       "donateName": "lumberjack.donate.element.money-handful.donate-name",
@@ -193,7 +193,7 @@
       "onBuy": [
         "random-money %player% 1 10 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "LEGENDARY_AXE": {
       "donateName": "lumberjack.donate.element.legendary-axe.donate-name",
@@ -216,7 +216,7 @@
         "give-tool %player% DONATE",
         "morestat %player% set true hasLegendaryAxe"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "AUTO_SELL": {
       "donateName": "lumberjack.donate.element.auto_sell.donate-name",
@@ -234,7 +234,7 @@
         "morestat %player% set true hasInfinityStorage",
         "morestat %player% set true hasAutoSell"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "SAVE_CRYSTAL": {
       "donateName": "lumberjack.donate.element.save-crystal.donate-name",
@@ -260,7 +260,7 @@
       "onBuy": [
         "give-item %player% SAVE_CRYSTAL %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "DEFAULT_KEY": {
       "donateName": "lumberjack.donate.element.default-key.donate-name",
@@ -281,7 +281,7 @@
       "onBuy": [
         "give-key %player% DEFAULT %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "TITLE_KEY": {
       "donateName": "lumberjack.donate.element.title-key.donate-name",
@@ -302,7 +302,7 @@
       "onBuy": [
         "give-key %player% TITLE %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "PET_KEY": {
       "donateName": "lumberjack.donate.element.pet-key.donate-name",
@@ -323,7 +323,7 @@
       "onBuy": [
         "give-key %player% PET %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "RUNE_KEY": {
       "donateName": "lumberjack.donate.element.rune-key.donate-name",
@@ -344,7 +344,7 @@
       "onBuy": [
         "give-key %player% RUNE %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "INFINITY_STORAGE": {
       "donateName": "lumberjack.donate.element.infinity-storage.donate-name",
@@ -363,7 +363,7 @@
       "onBuy": [
         "morestat %player% set true hasInfinityStorage"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "ANTI_HUNGER": {
       "donateName": "lumberjack.donate.element.anti-hunger.donate-name",
@@ -383,7 +383,7 @@
         "morestat %player% set true hasAntiHunger",
         "food-level %player% 20"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "MULTIPLE_CASE": {
       "donateName": "lumberjack.donate.element.multiple-case.donate-name",
@@ -402,7 +402,7 @@
       "onBuy": [
         "morestat %player% set true multipleOpenLootBox"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "NEW_WALLET": {
       "donateName": "lumberjack.donate.element.new-wallet.donate-name",
@@ -420,7 +420,7 @@
       "onBuy": [
         "morestat %player% set true hasNewWallet"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "AUTO_CASE": {
       "donateName": "lumberjack.donate.element.auto-case.donate-name",
@@ -439,7 +439,7 @@
       "onBuy": [
         "morestat %player% set true autoOpenLootBox"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "AUTO_MERGE": {
       "donateName": "lumberjack.donate.element.auto-merge.donate-name",
@@ -458,7 +458,7 @@
       "onBuy": [
         "morestat %player% set true hasAutoMerge"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "SUPER_PLAYER": {
       "donateName": "lumberjack.donate.element.super-player.donate-name",
@@ -475,7 +475,7 @@
       "onBuy": [
         "morestat %player% set true sub"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "SPEED_PERK": {
       "donateName": "lumberjack.donate.element.speed-perk.donate-name",
@@ -496,7 +496,7 @@
         "morestat %player% set 0.4 speed",
         "set-speed %player% 0.4"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "GLOBAL_EXP": {
       "donateName": "lumberjack.donate.element.global-exp.donate-name",
@@ -516,7 +516,7 @@
       "onBuy": [
         "global-booster %player% EXP 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "LOCAL_EXP": {
       "donateName": "lumberjack.donate.element.local-exp.donate-name",
@@ -535,7 +535,7 @@
       "onBuy": [
         "local-booster %player% EXP 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "GLOBAL_BLOCKS": {
       "donateName": "lumberjack.donate.element.global-blocks.donate-name",
@@ -555,7 +555,7 @@
       "onBuy": [
         "global-booster %player% BLOCKS 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "LOCAL_BLOCKS": {
       "donateName": "lumberjack.donate.element.local-blocks.donate-name",
@@ -574,7 +574,7 @@
       "onBuy": [
         "local-booster %player% BLOCKS 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "GLOBAL_MOBS": {
       "donateName": "lumberjack.donate.element.global-mobs.donate-name",
@@ -594,7 +594,7 @@
       "onBuy": [
         "global-booster %player% MOBS 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "LOCAL_MOBS": {
       "donateName": "lumberjack.donate.element.local-mobs.donate-name",
@@ -613,7 +613,7 @@
       "onBuy": [
         "local-booster %player% MOBS 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "GLOBAL_MONEY": {
       "donateName": "lumberjack.donate.element.global-money.donate-name",
@@ -632,7 +632,7 @@
       "onBuy": [
         "global-booster %player% MONEY 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "LOCAL_MONEY": {
       "donateName": "lumberjack.donate.element.local-money.donate-name",
@@ -651,7 +651,7 @@
       "onBuy": [
         "local-booster %player% MONEY 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "GLOBAL_ALL": {
       "donateName": "lumberjack.donate.element.global-all.donate-name",
@@ -673,7 +673,7 @@
         "global-booster %player% EXP 2 3600 %count%",
         "global-booster %player% MONEY 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     },
     "LOCAL_ALL": {
       "donateName": "lumberjack.donate.element.local-all.donate-name",
@@ -694,7 +694,7 @@
         "local-booster %player% EXP 2 3600 %count%",
         "local-booster %player% MONEY 2 3600 %count%"
       ],
-      "ignoreServiceDiscount": true
+      "ignoreServiceDiscount": false
     }
   }
 }
