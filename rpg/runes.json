@@ -1,79 +1,193 @@
-33{
-  "messages": {
-    "notEnoughMoney": "rpg.runes.messages.notEnoughMoney",
-    "noRuneInInventory": "rpg.runes.messages.noRuneInInventory",
-    "noItemInMainHand": "rpg.runes.messages.noItemInMainHand",
-    "noAvailableRunes": "rpg.runes.messages.noAvailableRunes",
-    "cannotEnchantThisItem": "rpg.runes.messages.cannotEnchantThisItem"
-  },
-  "enchantmentCost": 100000.0,
-  "runes": {
-    "FIRE_WEAPON": {
-      "type": "FIRE_WEAPON",
-      "name": "rpg.runes.fire_weapon.name",
-      "description": "rpg.runes.fire_weapon.description",
-      "levels": { 
-        "1": {
-          "chance": 1.0,
-          "power": 3.0
-        }, 
-        "2": 3.0, 
-        "3": 5.0 
-      }
+{
+    "messages": {
+        "notEnoughMoney": "rpg.runes.messages.notEnoughMoney",
+        "noRuneInInventory": "rpg.runes.messages.noRuneInInventory",
+        "noItemInMainHand": "rpg.runes.messages.noItemInMainHand",
+        "noAvailableRunes": "rpg.runes.messages.noAvailableRunes",
+        "cannotEnchantThisItem": "rpg.runes.messages.cannotEnchantThisItem"
     },
-    "COLD_WEAPON": {
-      "type": "COLD_WEAPON",
-      "name": "rpg.runes.cold_weapon.name",
-      "description": "rpg.runes.cold_weapon.description",
-      "levels": { "1": 2.0, "2": 4.0, "3": 6.0 }
-    },
-    "DAMAGE_WEAPON": {
-      "type": "DAMAGE_WEAPON",
-      "name": "rpg.runes.damage_weapon.name",
-      "description": "rpg.runes.damage_weapon.description",
-      "levels": { "1": 3.0, "2": 5.0, "3": 7.0 }
-    },
-    "BLEED_WEAPON": {
-      "type": "BLEED_WEAPON",
-      "name": "rpg.runes.bleed_weapon.name",
-      "description": "rpg.runes.bleed_weapon.description",
-      "levels": { "1": 2.0, "2": 4.0, "3": 6.0 }
-    },
-    "STUN_WEAPON": {
-      "type": "STUN_WEAPON",
-      "name": "rpg.runes.stun_weapon.name",
-      "description": "rpg.runes.stun_weapon.description",
-      "levels": { "1": 1.0, "2": 2.0, "3": 3.0 }
-    },
-    "DEFENSE_ARMOR": {
-      "type": "DEFENSE_ARMOR",
-      "name": "rpg.runes.defense_armor.name",
-      "description": "rpg.runes.defense_armor.description",
-      "levels": { "1": 4.0, "2": 8.0, "3": 12.0 }
-    },
-    "RESTORE_ARMOR": {
-      "type": "RESTORE_ARMOR",
-      "name": "rpg.runes.restore_armor.name",
-      "description": "rpg.runes.restore_armor.description",
-      "levels": { "1": 0.5, "2": 1.0, "3": 1.5 }
-    },
-    "HEALTH_ARMOR": {
-      "type": "HEALTH_ARMOR",
-      "name": "rpg.runes.health_armor.name",
-      "description": "rpg.runes.health_armor.description",
-      "levels": { "1": 5.0, "2": 10.0, "3": 15.0 }
-    },
-    "FIRE_ARMOR": {
-      "type": "FIRE_ARMOR",
-      "name": "rpg.runes.fire_armor.name",
-      "description": "rpg.runes.fire_armor.description",
-      "levels": { "1": 2.0, "2": 4.0, "3": 6.0 }
-    },
-    "FREEZE_ARMOR": {
-      "type": "FREEZE_ARMOR",
-      "name": "rpg.runes.freeze_armor.name",
-      "description": "rpg.runes.freeze_armor.description",
-      "levels": { "1": 2.0, "2": 4.0, "3": 6.0 }
+    "enchantmentCost": 100000.0,
+    "runes": {
+        "FIRE_WEAPON": {
+            "type": "FIRE_WEAPON",
+            "name": "rpg.runes.fire_weapon.name",
+            "description": "rpg.runes.fire_weapon.description",
+            "levels": {
+                "1": {
+                    "chance": 1.0,
+                    "power": 60.0
+                },
+                "2": {
+                    "chance": 3.0,
+                    "power": 60.0
+                },
+                "3": {
+                    "chance": 5.0,
+                    "power": 60.0
+                }
+            }
+        },
+        "COLD_WEAPON": {
+            "type": "COLD_WEAPON",
+            "name": "rpg.runes.cold_weapon.name",
+            "description": "rpg.runes.cold_weapon.description",
+            "levels": {
+                "1": {
+                    "chance": 2.0,
+                    "power": 40.0
+                },
+                "2": {
+                    "chance": 4.0,
+                    "power": 40.0
+                },
+                "3": {
+                    "chance": 6.0,
+                    "power": 40.0
+                }
+            }
+        },
+        "DAMAGE_WEAPON": {
+            "type": "DAMAGE_WEAPON",
+            "name": "rpg.runes.damage_weapon.name",
+            "description": "rpg.runes.damage_weapon.description",
+            "levels": {
+                "1": {
+                    "power": 3.0
+                },
+                "2": {
+                    "power": 5.0
+                },
+                "3": {
+                    "power": 7.0
+                }
+            }
+        },
+        "BLEED_WEAPON": {
+            "type": "BLEED_WEAPON",
+            "name": "rpg.runes.bleed_weapon.name",
+            "description": "rpg.runes.bleed_weapon.description",
+            "levels": {
+                "1": {
+                    "chance": 2.0,
+                    "power": 60.0
+                },
+                "2": {
+                    "chance": 4.0,
+                    "power": 60.0
+                },
+                "3": {
+                    "chance": 6.0,
+                    "power": 60.0
+                }
+            }
+        },
+        "STUN_WEAPON": {
+            "type": "STUN_WEAPON",
+            "name": "rpg.runes.stun_weapon.name",
+            "description": "rpg.runes.stun_weapon.description",
+            "levels": {
+                "1": {
+                    "chance": 1.0,
+                    "power": 16.0
+                },
+                "2": {
+                    "chance": 2.0,
+                    "power": 16.0
+                },
+                "3": {
+                    "chance": 3.0,
+                    "power": 16.0
+                }
+            }
+        },
+        "DEFENSE_ARMOR": {
+            "type": "DEFENSE_ARMOR",
+            "name": "rpg.runes.defense_armor.name",
+            "description": "rpg.runes.defense_armor.description",
+            "levels": {
+                "1": {
+                    "chance": 4.0,
+                    "power": 10.0
+                },
+                "2": {
+                    "chance": 8.0,
+                    "power": 15.0
+                },
+                "3": {
+                    "chance": 12.0,
+                    "power": 17.0
+                }
+            }
+        },
+        "RESTORE_ARMOR": {
+            "type": "RESTORE_ARMOR",
+            "name": "rpg.runes.restore_armor.name",
+            "description": "rpg.runes.restore_armor.description",
+            "levels": {
+                "1": {
+                    "power": 0.5
+                },
+                "2": {
+                    "power": 1.0
+                },
+                "3": {
+                    "power": 1.5
+                }
+            }
+        },
+        "HEALTH_ARMOR": {
+            "type": "HEALTH_ARMOR",
+            "name": "rpg.runes.health_armor.name",
+            "description": "rpg.runes.health_armor.description",
+            "levels": {
+                "1": {
+                    "power": 5.0
+                },
+                "2": {
+                    "power": 10.0
+                },
+                "3": {
+                    "power": 15.0
+                }
+            }
+        },
+        "FIRE_ARMOR": {
+            "type": "FIRE_ARMOR",
+            "name": "rpg.runes.fire_armor.name",
+            "description": "rpg.runes.fire_armor.description",
+            "levels": {
+                "1": {
+                    "chance": 2.0,
+                    "power": 60.0
+                },
+                "2": {
+                    "chance": 4.0,
+                    "power": 60.0
+                },
+                "3": {
+                    "chance": 6.0,
+                    "power": 60.0
+                }
+            }
+        },
+        "FREEZE_ARMOR": {
+            "type": "FREEZE_ARMOR",
+            "name": "rpg.runes.freeze_armor.name",
+            "description": "rpg.runes.freeze_armor.description",
+            "levels": {
+                "1": {
+                    "chance": 2.0,
+                    "power": 20.0
+                },
+                "2": {
+                    "chance": 4.0,
+                    "power": 40.0
+                },
+                "3": {
+                    "chance": 6.0,
+                    "power": 40.0
+                }
+            }
+        }
     }
-  }
 }
