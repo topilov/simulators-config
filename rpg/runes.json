@@ -12,7 +12,14 @@
       "type": "FIRE_WEAPON",
       "name": "rpg.runes.fire_weapon.name",
       "description": "rpg.runes.fire_weapon.description",
-      "levels": { "1": 1.0, "2": 3.0, "3": 5.0 }
+      "levels": { 
+        "1": {
+          "chance": 1.0,
+          "power": 3.0
+        }, 
+        "2": 3.0, 
+        "3": 5.0 
+      }
     },
     "COLD_WEAPON": {
       "type": "COLD_WEAPON",
