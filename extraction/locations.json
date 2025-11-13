@@ -1,0 +1,19 @@
+{
+  "requiredLevelMessage": "extraction.location.message.required-level",
+  "requiredRebirthMessage": "extraction.location.message.required-rebirth",
+  "locations": {
+    "SPAWN": {
+      "slots": 125,
+      "map": "extraction_1",
+      "button": {
+        "id": 1,
+        "title": "extraction.location.spawn.title",
+        "texture": "map1.png",
+        "requiredLevel": 1,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    }
+  }
+}

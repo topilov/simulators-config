@@ -1,0 +1,154 @@
+{
+  "logging": false,
+  "name": "Симулятор",
+  "simulatorId": "rpg_2",
+  "databaseId": "sim-rpg-test",
+  "showLocation": false,
+  "isWhitelisted": true,
+  "isTest": true,
+  "hasPrivateAccess": false,
+  "privateAccessGroups": [
+    "HELPER",
+    "MODERATOR",
+    "CURATOR",
+    "ADMIN",
+    "DEVELOPER",
+    "OWNER",
+    "TESTER",
+    "SENIOR_MODERATOR"
+  ],
+  "enableSpectatorsByReport": true,
+  "owners": [
+    "baca20f4-ffa9-11ec-bc0d-1cb72caa35fd"
+  ],
+  "localStaff": {},
+  "groups": {
+    "LOCAL_STAFF": {
+      "id": "LOCAL_STAFF",
+      "prefix": "LS",
+      "prefixColor": "§c",
+      "nameColor": "§c",
+      "chatMessageColor": "§a",
+      "isStaffGroup": true,
+      "isDefault": false,
+      "priority": 2850
+    },
+    "SENIOR_LOCAL_STAFF": {
+      "id": "SENIOR_LOCAL_STAFF",
+      "prefix": "Sr.LS",
+      "prefixColor": "§c",
+      "nameColor": "§c",
+      "chatMessageColor": "§a",
+      "isStaffGroup": true,
+      "isDefault": false,
+      "priority": 2860
+    },
+    "GAME_DESIGNER": {
+      "id": "GAME_DESIGNER",
+      "prefix": "GDesigner",
+      "prefixColor": "¨c8a2c8",
+      "nameColor": "§c",
+      "chatMessageColor": "§a",
+      "isStaffGroup": true,
+      "isDefault": false,
+      "priority": 2860
+    }
+  },
+  "map": {
+    "id": "topilov"
+  },
+  "realm": {
+    "main": "XTRL",
+    "service": "XTR",
+    "minigame": "XTRG"
+  },
+  "text": {
+    "cooldown": "extraction.text.cooldown",
+    "no": "extraction.text.no"
+  },
+  "resourcePack": {
+    "url": "",
+    "hash": ""
+  },
+  "bot": {
+    "chatId": -1002113216081
+  },
+  "cooldown": {
+    "command": 250,
+    "key": 250,
+    "consumedItem": 250
+  },
+  "violation": {
+    "message": {
+      "ban": "extraction.simulator.message.ban"
+    }
+  },
+  "booster": {
+    "command": {
+      "thanks": "thx"
+    },
+    "message": {
+      "empty": "extraction.booster.message.empty"
+    },
+    "alert": {
+      "startTitle": "extraction.booster.alert.start-title",
+      "startSubtitle": "extraction.booster.alert.start-subtitle",
+      "startDuration": 1.0,
+      "expireTitle": "extraction.booster.expire-title",
+      "expireDuration": 3.8
+    }
+  },
+  "chat": {
+    "cooldown": 5.0,
+    "cooldownMessage": "extraction.chat.message.cooldown",
+    "globalStartChar": "!",
+    "globalPrefix": "",
+    "localPrefix": "§8[§aL§8]"
+  },
+  "daily": {
+    "nextTakeReward": 86400000,
+    "command": "daily"
+  },
+  "donate": {
+    "nextTakeDiscount": 86400000,
+    "discount": {
+      "min": 0,
+      "max": 1
+    },
+    "notify": "extraction.donate.notify",
+    "notifyDonateNameColor": "§e",
+    "message": {
+      "buy": "extraction.donate.message.buy"
+    },
+    "command": "donate",
+    "disabled": false
+  },
+  "locations": {
+    "message": {
+      "find": "extraction.locations.message.find",
+      "failed": "extraction.locations.message.find-failed"
+    }
+  },
+  "lootBox": {
+    "message": {
+      "empty": "extraction.lootbox.message.empty"
+    },
+    "banner": {
+      "height": 17,
+      "weight": 60,
+      "content": "extraction.banner.content",
+      "resize": {
+        "0": 0.5
+      }
+    }
+  },
+  "trash": {
+    "command": "trash",
+    "title": "extraction.trash.title",
+    "size": 54
+  },
+  "quests": {
+    "nextResetQuests": 86400000,
+    "completeAlert": "extraction.quests.complete.alert"
+  }
+}
