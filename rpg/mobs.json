@@ -15,7 +15,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 7.0,
+                "MAX_HEALTH": 2.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -27,11 +27,12 @@
                 }
               },
               "spawnAfter": 60,
+              "exp": 100.0,
               "drops": [
-                { "chance": 60.0, "id": "shadow_cloak" },
-                { "chance": 25.0, "id": "poisoned_kunai" },
-                { "chance": 10.0, "id": "cracked_amulet_of_rain" },
-                { "chance": 5.0, "id": "phantom_lens" }
+                { "chance": 25.0, "id": "PHANTOM_CHESTPLATE" },
+                { "chance": 25.0, "id": "PHANTOM_HELMET" },
+                { "chance": 25.0, "id": "PHANTOM_LEGGINGS" },
+                { "chance": 25.0, "id": "PHANTOM_BOOTS" }
               ]
             },
             {
@@ -41,7 +42,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 15.0,
+                "MAX_HEALTH": 100.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.33
               },
@@ -49,16 +50,14 @@
               "itemInMainHand": {
                 "type": "DIAMOND_SWORD",
                 "data": {
-                  "tool-damage": 3.0
+                  "tool-damage": 1.0
                 }
               },
               "spawnAfter": 60,
+              "exp": 100.0,
               "drops": [
-                { "chance": 40.0, "id": "poisoned_kunai" },
-                { "chance": 25.0, "id": "phantom_lens" },
-                { "chance": 20.0, "id": "shadow_cloak" },
-                { "chance": 10.0, "id": "shard_of_illusion" },
-                { "chance": 5.0, "id": "cracked_amulet_of_rain" }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "poisoned_kunai" }
               ]
             }
           ]
@@ -73,7 +72,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/ghost_observer.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 25.0,
+                "MAX_HEALTH": 2.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -85,11 +84,12 @@
                 }
               },
               "spawnAfter": 60,
+              "exp": 100.0,
               "drops": [
-                { "chance": 55.0, "id": "observers_eye" },
-                { "chance": 25.0, "id": "phantom_lens" },
-                { "chance": 15.0, "id": "cracked_amulet_of_rain" },
-                { "chance": 5.0, "id": "shard_of_illusion" }
+                { "chance": 25.0, "id": "PHANTOM_CHESTPLATE" },
+                { "chance": 25.0, "id": "PHANTOM_HELMET" },
+                { "chance": 25.0, "id": "PHANTOM_LEGGINGS" },
+                { "chance": 25.0, "id": "PHANTOM_BOOTS" }
               ]
             },
             {
@@ -99,7 +99,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/fog_shooter.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 50.0,
+                "MAX_HEALTH": 2.0,
                 "ATTACK_DAMAGE": 5.0,
                 "MOVEMENT_SPEED": 0.45
               },
@@ -111,12 +111,10 @@
                 }
               },
               "spawnAfter": 60,
+              "exp": 100.0,
               "drops": [
-                { "chance": 40.0, "id": "phantom_lens" },
-                { "chance": 25.0, "id": "observers_eye" },
-                { "chance": 20.0, "id": "shard_of_illusion" },
-                { "chance": 10.0, "id": "shadow_cloak" },
-                { "chance": 5.0, "id": "cracked_amulet_of_rain" }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "phantom_lens" }
               ]
             }
           ]
@@ -130,7 +128,7 @@
               "name": "i18n.rpg.mobs.illusion_master.name|!|§a",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 80.0,
+                "MAX_HEALTH": 2.0,
                 "ATTACK_DAMAGE": 5.0,
                 "MOVEMENT_SPEED": 0.4
               },
@@ -142,13 +140,10 @@
                 }
               },
               "spawnAfter": 60,
+              "exp": 100.0,
               "drops": [
-                { "chance": 30.0, "id": "shard_of_illusion" },
-                { "chance": 25.0, "id": "phantom_lens" },
-                { "chance": 20.0, "id": "observers_eye" },
-                { "chance": 15.0, "id": "shadow_cloak" },
-                { "chance": 7.0, "id": "poisoned_kunai" },
-                { "chance": 3.0, "id": "cracked_amulet_of_rain" }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "shard_of_illusion" }
               ]
             }
           ]
@@ -167,7 +162,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/dao_student.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 100.0,
+                "MAX_HEALTH": 400.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -180,29 +175,14 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 58.83
-                },
-                {
-                  "chance": 16.47,
-                  "id": "stone_of_disciple"
-                },
-                {
-                  "chance": 9.41,
-                  "id": "ring_of_fates"
-                },
-                {
-                  "chance": 9.4,
-                  "id": "sharpened_fan_of_shaolin"
-                },
-                {
-                  "chance": 5.79,
-                  "id": "blood_of_path_master"
-                },
-                {
-                  "chance": 0.1,
-                  "id": "spirit_of_battle_master"
-                }
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "MONK_CHESTPLATE" },
+                { "chance": 1.0, "id": "MONK_HELMET" },
+                { "chance": 1.0, "id": "VOICE_OF_WIND" },
+                { "chance": 1.0, "id": "STINGING_BEE" },
+                { "chance": 1.0, "id": "FALCON_SIGH" },
+                { "chance": 1.0, "id": "QI_FLOW_STAFF" },
+                { "chance": 1.0, "id": "wooden_katana" }
               ]
             },
             {
@@ -212,7 +192,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/katana_instructor.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 450.0,
+                "MAX_HEALTH": 800.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.33
               },
@@ -232,29 +212,8 @@
               ],
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 54.95
-                },
-                {
-                  "chance": 16.48,
-                  "id": "stone_of_disciple"
-                },
-                {
-                  "chance": 12.09,
-                  "id": "ring_of_fates"
-                },
-                {
-                  "chance": 8.79,
-                  "id": "sharpened_fan_of_shaolin"
-                },
-                {
-                  "chance": 7.19,
-                  "id": "blood_of_path_master"
-                },
-                {
-                  "chance": 0.5,
-                  "id": "spirit_of_battle_master"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "masters_scabbard" }
               ]
             }
           ]
@@ -269,7 +228,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/dao_guardian.png",
               "attributes": {
                 "FOLLOW_RANGE": 10.0,
-                "MAX_HEALTH": 550.0,
+                "MAX_HEALTH": 1200.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -289,29 +248,10 @@
               ],
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 55.56
-                },
-                {
-                  "chance": 15.56,
-                  "id": "stone_of_disciple"
-                },
-                {
-                  "chance": 14.22,
-                  "id": "ring_of_fates"
-                },
-                {
-                  "chance": 8.0,
-                  "id": "silk_of_deaf_echo"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "awakened_root_of_wrath"
-                },
-                {
-                  "chance": 1.1,
-                  "id": "spirit_of_battle_master"
-                }
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "MONK_LEGGINGS" },
+                { "chance": 1.0, "id": "MONK_BOOTS" },
+                { "chance": 1.0, "id": "nichirin_blade" }
               ]
             },
             {
@@ -321,7 +261,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/dao_archer.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 750.0,
+                "MAX_HEALTH": 1800.0,
                 "ATTACK_DAMAGE": 3.0,
                 "MOVEMENT_SPEED": 0.4
               },
@@ -334,29 +274,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 53.19
-                },
-                {
-                  "chance": 14.89,
-                  "id": "stone_of_disciple"
-                },
-                {
-                  "chance": 15.23,
-                  "id": "ring_of_fates"
-                },
-                {
-                  "chance": 9.0,
-                  "id": "silk_of_deaf_echo"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "awakened_root_of_wrath"
-                },
-                {
-                  "chance": 2.13,
-                  "id": "spirit_of_battle_master"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "fire_arrow" }
               ]
             }
           ]
@@ -365,13 +284,13 @@
           "pointTag": "ci_master",
           "kinds": [
             {
-              "chance": 90,
+              "chance": 100,
               "type": "CI_MASTER",
               "name": "i18n.rpg.mobs.ci_master.name|!|§6",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/ci_master.png",
               "attributes": {
                 "FOLLOW_RANGE": 10.0,
-                "MAX_HEALTH": 1000.0,
+                "MAX_HEALTH": 2000.0,
                 "ATTACK_DAMAGE": 4.0,
                 "MOVEMENT_SPEED": 0.25
               },
@@ -392,29 +311,8 @@
               ],
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 40.0
-                },
-                {
-                  "chance": 18,
-                  "id": "stone_of_disciple"
-                },
-                {
-                  "chance": 18,
-                  "id": "ring_of_fates"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "silk_of_deaf_echo"
-                },
-                {
-                  "chance": 10,
-                  "id": "awakened_root_of_wrath"
-                },
-                {
-                  "chance": 4.0,
-                  "id": "spirit_of_battle_master"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "scroll_of_returning_qi" }
               ]
             }
           ]
@@ -433,7 +331,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/street_fighter.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 1000.0,
+                "MAX_HEALTH": 1600.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -446,39 +344,14 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 58.83
-                },
-                {
-                  "chance": 16.47,
-                  "id": "fragment_of_cage",
-                  "itemStack": {
-                    "type": "CLAY_BALL",
-                    "name": "Фрагмент Клетки",
-                    "lore": "§7Острые прутья сломанной клетки.\n§7Хранит следы отчаянных попыток вырваться на свободу.",
-                    "data": {
-                      "price": 12000.0,
-                      "shards": 10.0,
-                      "hoverColor": "GRAY"
-                    }
-                  }
-                },
-                {
-                  "chance": 9.41,
-                  "id": "charred_verdict_plank"
-                },
-                {
-                  "chance": 9.4,
-                  "id": "bent_dagger_of_betrayal"
-                },
-                {
-                  "chance": 5.79,
-                  "id": "chain_of_silent_herald"
-                },
-                {
-                  "chance": 0.1,
-                  "id": "cursed_skull_of_faceless"
-                }
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "BANDIT_CHESTPLATE" },
+                { "chance": 1.0, "id": "BANDIT_HELMET" },
+                { "chance": 1.0, "id": "SLAUGHTER" },
+                { "chance": 1.0, "id": "GRAVEDIGGER_RAZOR" },
+                { "chance": 1.0, "id": "BONECRUSHER" },
+                { "chance": 1.0, "id": "ROTTING_BONE_TOTEM" },
+                { "chance": 1.0, "id": "cracked_club" }
               ]
             },
             {
@@ -488,7 +361,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/lane_leader.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 2500.0,
+                "MAX_HEALTH": 3200.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -508,29 +381,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 54.95
-                },
-                {
-                  "chance": 16.48,
-                  "id": "fragment_of_cage"
-                },
-                {
-                  "chance": 12.09,
-                  "id": "charred_verdict_plank"
-                },
-                {
-                  "chance": 8.79,
-                  "id": "bent_dagger_of_betrayal"
-                },
-                {
-                  "chance": 7.19,
-                  "id": "chain_of_silent_herald"
-                },
-                {
-                  "chance": 0.5,
-                  "id": "cursed_skull_of_faceless"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "leaders_bandana" }
               ]
             }
           ]
@@ -545,7 +397,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/elite_mobs.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 5500.0,
+                "MAX_HEALTH": 5000.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -565,29 +417,10 @@
                 }
               },
               "drops": [
-                {
-                  "chance": 55.56
-                },
-                {
-                  "chance": 15.56,
-                  "id": "fragment_of_cage"
-                },
-                {
-                  "chance": 12.22,
-                  "id": "charred_verdict_plank"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "devil_possum_fur"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "tooth_of_woven_truth"
-                },
-                {
-                  "chance": 0.1,
-                  "id": "cursed_skull_of_faceless"
-                }
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "BANDIT_LEGGINGS" },
+                { "chance": 1.0, "id": "BANDIT_BOOTS" },
+                { "chance": 1.0, "id": "torn_chains" }
               ]
             },
             {
@@ -597,7 +430,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/mask_destroyer.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 9000.0,
+                "MAX_HEALTH": 7000.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -610,29 +443,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 53.19
-                },
-                {
-                  "chance": 14.89,
-                  "id": "fragment_of_cage"
-                },
-                {
-                  "chance": 14.23,
-                  "id": "charred_verdict_plank"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "devil_possum_fur"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "tooth_of_woven_truth"
-                },
-                {
-                  "chance": 2.13,
-                  "id": "cursed_skull_of_faceless"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "bloodied_mask" }
               ]
             }
           ]
@@ -647,7 +459,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/warlock_gangs.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 12000.0,
+                "MAX_HEALTH": 8000.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -671,29 +483,8 @@
                 }
               },
               "drops": [
-                {
-                  "chance": 40.0
-                },
-                {
-                  "chance": 18,
-                  "id": "fragment_of_cage"
-                },
-                {
-                  "chance": 17,
-                  "id": "charred_verdict_plank"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "devil_possum_fur"
-                },
-                {
-                  "chance": 10,
-                  "id": "tooth_of_woven_truth"
-                },
-                {
-                  "chance": 5.0,
-                  "id": "cursed_skull_of_faceless"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "tome_of_dark_spells" }
               ]
             }
           ]
@@ -712,7 +503,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/street_fighter.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 15000.0,
+                "MAX_HEALTH": 6400.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -725,29 +516,14 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 58.83
-                },
-                {
-                  "chance": 16.47,
-                  "id": "damp_ship_log"
-                },
-                {
-                  "chance": 9.41,
-                  "id": "salted_midshipman_ring"
-                },
-                {
-                  "chance": 9.4,
-                  "id": "cracked_beacon_eye"
-                },
-                {
-                  "chance": 5.79,
-                  "id": "defiled_tide_crest"
-                },
-                {
-                  "chance": 0.1,
-                  "id": "echo_of_drowned_captain"
-                }
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "CURSED_CHESTPLATE" },
+                { "chance": 1.0, "id": "CURSED_HELMET" },
+                { "chance": 1.0, "id": "TIDE_COMB" },
+                { "chance": 1.0, "id": "MORAY_FANG" },
+                { "chance": 1.0, "id": "WHISPER_OF_DEPTHS" },
+                { "chance": 1.0, "id": "CORAL_SCEPTER" },
+                { "chance": 1.0, "id": "medallion_of_cursed_death" }
               ]
             },
             {
@@ -757,7 +533,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/lane_leader.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 37500.0,
+                "MAX_HEALTH": 12800.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -777,29 +553,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 54.95
-                },
-                {
-                  "chance": 16.48,
-                  "id": "damp_ship_log"
-                },
-                {
-                  "chance": 12.09,
-                  "id": "salted_midshipman_ring"
-                },
-                {
-                  "chance": 8.79,
-                  "id": "cracked_beacon_eye"
-                },
-                {
-                  "chance": 7.19,
-                  "id": "defiled_tide_crest"
-                },
-                {
-                  "chance": 0.5,
-                  "id": "echo_of_drowned_captain"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "diary_of_memories" }
               ]
             }
           ]
@@ -814,7 +569,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/elite_mobs.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 74000.0,
+                "MAX_HEALTH": 20000.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -834,29 +589,10 @@
                 }
               },
               "drops": [
-                {
-                  "chance": 55.56
-                },
-                {
-                  "chance": 15.56,
-                  "id": "damp_ship_log"
-                },
-                {
-                  "chance": 12.22,
-                  "id": "salted_midshipman_ring"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "anchor_of_the_abyss"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "map_of_the_blind_god"
-                },
-                {
-                  "chance": 1.1,
-                  "id": "echo_of_drowned_captain"
-                }
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "CURSED_LEGGINGS" },
+                { "chance": 1.0, "id": "CURSED_BOOTS" },
+                { "chance": 1.0, "id": "piece_of_rotten_flesh" }
               ]
             },
             {
@@ -866,7 +602,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/mask_destroyer.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 121000.0,
+                "MAX_HEALTH": 30000.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -879,29 +615,8 @@
                 }
               },
               "drops": [
-                {
-                  "chance": 53.19
-                },
-                {
-                  "chance": 14.89,
-                  "id": "damp_ship_log"
-                },
-                {
-                  "chance": 14.23,
-                  "id": "salted_midshipman_ring"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "anchor_of_the_abyss"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "map_of_the_blind_god"
-                },
-                {
-                  "chance": 2.13,
-                  "id": "echo_of_drowned_captain"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "sea_foam" }
               ]
             }
           ]
@@ -916,7 +631,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/warlock_gangs.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 160000.0,
+                "MAX_HEALTH": 32000.0,
                 "ATTACK_DAMAGE": 1,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -933,37 +648,9 @@
                 }
               ],
               "spawnAfter": 60, 
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "BOW",
-                "data": {
-                  "tool-damage": 3.0
-                }
-              },
               "drops": [
-                {
-                  "chance": 40.0
-                },
-                {
-                  "chance": 18,
-                  "id": "damp_ship_log"
-                },
-                {
-                  "chance": 17,
-                  "id": "salted_midshipman_ring"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "anchor_of_the_abyss"
-                },
-                {
-                  "chance": 10,
-                  "id": "map_of_the_blind_god"
-                },
-                {
-                  "chance": 5,
-                  "id": "echo_of_drowned_captain"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "captains_compass" }
               ]
             }
           ]
@@ -976,13 +663,13 @@
           "pointTag": "lost_pilgrim",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "LOST_PILGRIM",
               "name": "i18n.rpg.mobs.lost_pilgrim.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 105000.0,
+                "MAX_HEALTH": 25600.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -995,29 +682,38 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 58.83
-                },
-                {
-                  "chance": 16.47,
-                  "id": "prayer_stone_to_ashes"
-                },
-                {
-                  "chance": 9.41,
-                  "id": "forgotten_priest_vestment"
-                },
-                {
-                  "chance": 9.4,
-                  "id": "stone_statue_fragment"
-                },
-                {
-                  "chance": 5.79,
-                  "id": "bloody_seal_of_crucifixion"
-                },
-                {
-                  "chance": 0.1,
-                  "id": "last_apostle_ashes"
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "OATH_CHESTPLATE" },
+                { "chance": 1.0, "id": "OATH_HELMET" },
+                { "chance": 1.0, "id": "RECKONING_NAIL" },
+                { "chance": 1.0, "id": "BURSTING_SHACKLES" },
+                { "chance": 1.0, "id": "WIND_MOAN" },
+                { "chance": 1.0, "id": "DEFILED_CRYSTAL" },
+                { "chance": 1.0, "id": "fragment_of_prayer" }
+              ]
+            },
+            {
+              "chance": 10,
+              "type": "SHACKLED_WATCHER",
+              "name": "i18n.rpg.mobs.shackled_watcher.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 51200.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool-damage": 1
                 }
+              },
+              "spawnAfter": 60, 
+              "drops": [
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "rusted_chain" }
               ]
             }
           ]
@@ -1026,13 +722,13 @@
           "pointTag": "shackled_watcher",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "SHACKLED_WATCHER",
               "name": "i18n.rpg.mobs.shackled_watcher.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 232000.0,
+                "MAX_HEALTH": 76800.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1045,44 +741,20 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 54.95
-                },
-                {
-                  "chance": 16.48,
-                  "id": "prayer_stone_to_ashes"
-                },
-                {
-                  "chance": 12.09,
-                  "id": "forgotten_priest_vestment"
-                },
-                {
-                  "chance": 8.79,
-                  "id": "stone_statue_fragment"
-                },
-                {
-                  "chance": 7.19,
-                  "id": "bloody_seal_of_crucifixion"
-                },
-                {
-                  "chance": 0.5,
-                  "id": "last_apostle_ashes"
-                }
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "OATH_LEGGINGS" },
+                { "chance": 1.0, "id": "OATH_BOOTS" },
+                { "chance": 1.0, "id": "bloodied_cross" }
               ]
-            }
-          ]
-        },
-        {
-          "pointTag": "crucified_guard",
-          "kinds": [
+            },
             {
-              "chance": 100,
+              "chance": 10,
               "type": "CRUCIFIED_GUARD",
               "name": "i18n.rpg.mobs.crucified_guard.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 380000.0,
+                "MAX_HEALTH": 102400.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1095,79 +767,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 55.56
-                },
-                {
-                  "chance": 15.56,
-                  "id": "prayer_stone_to_ashes"
-                },
-                {
-                  "chance": 12.22,
-                  "id": "forgotten_priest_vestment"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "weeping_of_the_voiceless_angel"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "dust_of_the_sundered_altar"
-                },
-                {
-                  "chance": 1.1,
-                  "id": "last_apostle_ashes"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "pointTag": "ritual_bearer",
-          "kinds": [
-            {
-              "chance": 100,
-              "type": "RITUAL_BEARER",
-              "name": "i18n.rpg.mobs.ritual_bearer.name|!|§a",
-              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
-              "attributes": {
-                "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 500000.0,
-                "ATTACK_DAMAGE": 1.0,
-                "MOVEMENT_SPEED": 0.3
-              },
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "WOOD_SWORD",
-                "data": {
-                  "tool-damage": 1
-                }
-              },
-              "spawnAfter": 60, 
-              "drops": [
-                {
-                  "chance": 53.19
-                },
-                {
-                  "chance": 14.89,
-                  "id": "prayer_stone_to_ashes"
-                },
-                {
-                  "chance": 14.23,
-                  "id": "forgotten_priest_vestment"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "weeping_of_the_voiceless_angel"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "dust_of_the_sundered_altar"
-                },
-                {
-                  "chance": 2.13,
-                  "id": "last_apostle_ashes"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "ritual_dagger" }
               ]
             }
           ]
@@ -1182,7 +783,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 1000000.0,
+                "MAX_HEALTH": 128000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1195,29 +796,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 40.0
-                },
-                {
-                  "chance": 20.44,
-                  "id": "prayer_stone_to_ashes"
-                },
-                {
-                  "chance": 19.0,
-                  "id": "forgotten_priest_vestment"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "weeping_of_the_voiceless_angel"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "dust_of_the_sundered_altar"
-                },
-                {
-                  "chance": 5.0,
-                  "id": "last_apostle_ashes"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "drivers_tongs" }
               ]
             }
           ]
@@ -1230,13 +810,13 @@
           "pointTag": "wandering_singer",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "WANDERING_SINGER",
               "name": "i18n.rpg.mobs.wandering_singer.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 2500000.0,
+                "MAX_HEALTH": 128000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1249,29 +829,38 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 58.83
-                },
-                {
-                  "chance": 16.47,
-                  "id": "shard_of_the_sandy_lyre"
-                },
-                {
-                  "chance": 9.41,
-                  "id": "coral_of_the_wandering_song"
-                },
-                {
-                  "chance": 9.4,
-                  "id": "depths_bone_rattle"
-                },
-                {
-                  "chance": 5.79,
-                  "id": "dead_oracle_conch"
-                },
-                {
-                  "chance": 0.1,
-                  "id": "abyssal_sea_chant"
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "EXILE_CHESTPLATE" },
+                { "chance": 1.0, "id": "EXILE_HELMET" },
+                { "chance": 1.0, "id": "STORM_COMB" },
+                { "chance": 1.0, "id": "JELLYFISH_STING" },
+                { "chance": 1.0, "id": "HARPOON_OF_LONGING" },
+                { "chance": 1.0, "id": "PEARL_OF_DEPTHS" },
+                { "chance": 1.0, "id": "frozen_note" }
+              ]
+            },
+            {
+              "chance": 10,
+              "type": "ROTTING_HELM",
+              "name": "i18n.rpg.mobs.rotting_helm.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 256000.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool-damage": 1
                 }
+              },
+              "spawnAfter": 60, 
+              "drops": [
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "worm_chest" }
               ]
             }
           ]
@@ -1280,13 +869,13 @@
           "pointTag": "rotting_helm",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "ROTTING_HELM",
               "name": "i18n.rpg.mobs.rotting_helm.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 3500000.0,
+                "MAX_HEALTH": 384000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1299,44 +888,20 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 54.95
-                },
-                {
-                  "chance": 16.48,
-                  "id": "shard_of_the_sandy_lyre"
-                },
-                {
-                  "chance": 12.09,
-                  "id": "coral_of_the_wandering_song"
-                },
-                {
-                  "chance": 8.79,
-                  "id": "depths_bone_rattle"
-                },
-                {
-                  "chance": 7.19,
-                  "id": "dead_oracle_conch"
-                },
-                {
-                  "chance": 0.5,
-                  "id": "abyssal_sea_chant"
-                }
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "EXILE_LEGGINGS" },
+                { "chance": 1.0, "id": "EXILE_BOOTS" },
+                { "chance": 1.0, "id": "torn_sail" }
               ]
-            }
-          ]
-        },
-        {
-          "pointTag": "storm_guardian",
-          "kinds": [
+            },
             {
-              "chance": 100,
+              "chance": 10,
               "type": "STORM_GUARDIAN",
               "name": "i18n.rpg.mobs.storm_guardian.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 5000000.0,
+                "MAX_HEALTH": 512000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1349,79 +914,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 55.56
-                },
-                {
-                  "chance": 15.56,
-                  "id": "shard_of_the_sandy_lyre"
-                },
-                {
-                  "chance": 12.22,
-                  "id": "coral_of_the_wandering_song"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "pearl_of_the_slumbering_leviathan"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "gossamer_of_salted_whispers"
-                },
-                {
-                  "chance": 1.1,
-                  "id": "abyssal_sea_chant"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "pointTag": "thicket_pirate",
-          "kinds": [
-            {
-              "chance": 100,
-              "type": "THICKET_PIRATE",
-              "name": "i18n.rpg.mobs.thicket_pirate.name|!|§a",
-              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
-              "attributes": {
-                "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 6000000.0,
-                "ATTACK_DAMAGE": 1.0,
-                "MOVEMENT_SPEED": 0.3
-              },
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "WOOD_SWORD",
-                "data": {
-                  "tool-damage": 1
-                }
-              },
-              "spawnAfter": 60, 
-              "drops": [
-                {
-                  "chance": 53.19
-                },
-                {
-                  "chance": 14.89,
-                  "id": "shard_of_the_sandy_lyre"
-                },
-                {
-                  "chance": 14.23,
-                  "id": "coral_of_the_wandering_song"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "pearl_of_the_slumbering_leviathan"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "gossamer_of_salted_whispers"
-                },
-                {
-                  "chance": 2.13,
-                  "id": "abyssal_sea_chant"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "cutlass" }
               ]
             }
           ]
@@ -1436,7 +930,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 8000000.0,
+                "MAX_HEALTH": 640000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1449,29 +943,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 40.0
-                },
-                {
-                  "chance": 20.44,
-                  "id": "shard_of_the_sandy_lyre"
-                },
-                {
-                  "chance": 19.0,
-                  "id": "coral_of_the_wandering_song"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "pearl_of_the_slumbering_leviathan"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "gossamer_of_salted_whispers"
-                },
-                {
-                  "chance": 5.0,
-                  "id": "abyssal_sea_chant"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "trident_of_supremacy" }
               ]
             }
           ]
@@ -1484,13 +957,13 @@
           "pointTag": "cracked_student",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "CRACKED_STUDENT",
               "name": "i18n.rpg.mobs.cracked_student.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 2000.0,
+                "MAX_HEALTH": 640000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1503,29 +976,38 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 58.83
-                },
-                {
-                  "chance": 16.47,
-                  "id": "tattered_research_scroll"
-                },
-                {
-                  "chance": 9.41,
-                  "id": "aetherial_platform_fragment"
-                },
-                {
-                  "chance": 9.4,
-                  "id": "rift_watcher_iris"
-                },
-                {
-                  "chance": 5.79,
-                  "id": "medallion_of_warped_thought"
-                },
-                {
-                  "chance": 0.1,
-                  "id": "crystal_of_collapsing_mind"
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "MINDSHARD_CHESTPLATE" },
+                { "chance": 1.0, "id": "MINDSHARD_HELMET" },
+                { "chance": 1.0, "id": "CHAOS_BLADE" },
+                { "chance": 1.0, "id": "DISTORTED_THORN" },
+                { "chance": 1.0, "id": "INSTABILITY_BOW" },
+                { "chance": 1.0, "id": "FOCUSING_SHARD" },
+                { "chance": 1.0, "id": "alchemical_powder" }
+              ]
+            },
+            {
+              "chance": 10,
+              "type": "DISTORTED_PROTOCOL",
+              "name": "i18n.rpg.mobs.distorted_protocol.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 1280000.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool-damage": 1
                 }
+              },
+              "spawnAfter": 60, 
+              "drops": [
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "warped_crystal" }
               ]
             }
           ]
@@ -1534,13 +1016,13 @@
           "pointTag": "distorted_protocol",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "DISTORTED_PROTOCOL",
               "name": "i18n.rpg.mobs.distorted_protocol.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 10000.0,
+                "MAX_HEALTH": 1920000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1553,44 +1035,20 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 54.95
-                },
-                {
-                  "chance": 16.48,
-                  "id": "tattered_research_scroll"
-                },
-                {
-                  "chance": 12.09,
-                  "id": "aetherial_platform_fragment"
-                },
-                {
-                  "chance": 8.79,
-                  "id": "rift_watcher_iris"
-                },
-                {
-                  "chance": 7.19,
-                  "id": "medallion_of_warped_thought"
-                },
-                {
-                  "chance": 0.5,
-                  "id": "crystal_of_collapsing_mind"
-                }
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "MINDSHARD_LEGGINGS" },
+                { "chance": 1.0, "id": "MINDSHARD_BOOTS" },
+                { "chance": 1.0, "id": "book_of_immortality" }
               ]
-            }
-          ]
-        },
-        {
-          "pointTag": "archival_guardian",
-          "kinds": [
+            },
             {
-              "chance": 100,
+              "chance": 10,
               "type": "ARCHIVAL_GUARDIAN",
               "name": "i18n.rpg.mobs.archival_guardian.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 6000.0,
+                "MAX_HEALTH": 2560000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1603,79 +1061,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 55.56
-                },
-                {
-                  "chance": 15.56,
-                  "id": "tattered_research_scroll"
-                },
-                {
-                  "chance": 12.22,
-                  "id": "aetherial_platform_fragment"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "tear_of_static_time"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "whisper_of_zero_point"
-                },
-                {
-                  "chance": 1.1,
-                  "id": "crystal_of_collapsing_mind"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "pointTag": "broken_researcher",
-          "kinds": [
-            {
-              "chance": 100,
-              "type": "BROKEN_RESEARCHER",
-              "name": "i18n.rpg.mobs.broken_researcher.name|!|§a",
-              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
-              "attributes": {
-                "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 20000.0,
-                "ATTACK_DAMAGE": 1.0,
-                "MOVEMENT_SPEED": 0.3
-              },
-              "spawnAfter": 60, 
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "WOOD_SWORD",
-                "data": {
-                  "tool-damage": 1
-                }
-              },
-              "drops": [
-                {
-                  "chance": 53.19
-                },
-                {
-                  "chance": 14.89,
-                  "id": "tattered_research_scroll"
-                },
-                {
-                  "chance": 14.23,
-                  "id": "aetherial_platform_fragment"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "tear_of_static_time"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "whisper_of_zero_point"
-                },
-                {
-                  "chance": 2.13,
-                  "id": "crystal_of_collapsing_mind"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "shard_of_memories" }
               ]
             }
           ]
@@ -1690,7 +1077,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 10000.0,
+                "MAX_HEALTH": 3200000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1703,29 +1090,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 40.0
-                },
-                {
-                  "chance": 20.44,
-                  "id": "tattered_research_scroll"
-                },
-                {
-                  "chance": 19.0,
-                  "id": "aetherial_platform_fragment"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "tear_of_static_time"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "whisper_of_zero_point"
-                },
-                {
-                  "chance": 5.0,
-                  "id": "crystal_of_collapsing_mind"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "formula_of_dimensions" }
               ]
             }
           ]
@@ -1738,13 +1104,13 @@
           "pointTag": "temporal_ghost",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "TEMPORAL_GHOST",
               "name": "i18n.rpg.mobs.temporal_ghost.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 2000.0,
+                "MAX_HEALTH": 3200000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1757,44 +1123,24 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 58.83
-                },
-                {
-                  "chance": 16.47,
-                  "id": "weight_of_forgotten_time"
-                },
-                {
-                  "chance": 9.41,
-                  "id": "pendulum_shard"
-                },
-                {
-                  "chance": 9.4,
-                  "id": "fateful_tick_gear"
-                },
-                {
-                  "chance": 5.79,
-                  "id": "charred_chronomancer_clot"
-                },
-                {
-                  "chance": 0.1,
-                  "id": "rewritten_reality_mechanism"
-                }
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "TIMELESS_CHESTPLATE" },
+                { "chance": 1.0, "id": "TIMELESS_HELMET" },
+                { "chance": 1.0, "id": "PENDULUM_OF_FATE" },
+                { "chance": 1.0, "id": "TIME_SCYTHE" },
+                { "chance": 1.0, "id": "COUNTDOWN_CROSSBOW" },
+                { "chance": 1.0, "id": "CHRONOS_ROD" },
+                { "chance": 1.0, "id": "flask_of_centuries" }
               ]
-            }
-          ]
-        },
-        {
-          "pointTag": "sand_guardian",
-          "kinds": [
+            },
             {
-              "chance": 100,
+              "chance": 10,
               "type": "SAND_GUARDIAN",
               "name": "i18n.rpg.mobs.sand_guardian.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 10000.0,
+                "MAX_HEALTH": 6400000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1807,29 +1153,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 54.95
-                },
-                {
-                  "chance": 16.48,
-                  "id": "weight_of_forgotten_time"
-                },
-                {
-                  "chance": 12.09,
-                  "id": "pendulum_shard"
-                },
-                {
-                  "chance": 8.79,
-                  "id": "fateful_tick_gear"
-                },
-                {
-                  "chance": 7.19,
-                  "id": "charred_chronomancer_clot"
-                },
-                {
-                  "chance": 0.5,
-                  "id": "rewritten_reality_mechanism"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "grain_of_time" }
               ]
             }
           ]
@@ -1838,13 +1163,13 @@
           "pointTag": "mechanical_arbiter",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "MECHANICAL_ARBITER",
               "name": "i18n.rpg.mobs.mechanical_arbiter.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 6000.0,
+                "MAX_HEALTH": 9600000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1857,44 +1182,20 @@
                 }
               },
               "drops": [
-                {
-                  "chance": 55.56
-                },
-                {
-                  "chance": 15.56,
-                  "id": "weight_of_forgotten_time"
-                },
-                {
-                  "chance": 12.22,
-                  "id": "pendulum_shard"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "sand_of_alternate_outcomes"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "heart_of_the_eternal_instant"
-                },
-                {
-                  "chance": 1.1,
-                  "id": "rewritten_reality_mechanism"
-                }
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "TIMELESS_LEGGINGS" },
+                { "chance": 1.0, "id": "TIMELESS_BOOTS" },
+                { "chance": 1.0, "id": "arbiters_gear" }
               ]
-            }
-          ]
-        },
-        {
-          "pointTag": "distorted_chronomancer",
-          "kinds": [
+            },
             {
-              "chance": 100,
+              "chance": 10,
               "type": "DISTORTED_CHRONOMANCER",
               "name": "i18n.rpg.mobs.distorted_chronomancer.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 20000.0,
+                "MAX_HEALTH": 12800000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1907,29 +1208,8 @@
                 }
               },
               "drops": [
-                {
-                  "chance": 53.19
-                },
-                {
-                  "chance": 14.89,
-                  "id": "weight_of_forgotten_time"
-                },
-                {
-                  "chance": 14.23,
-                  "id": "pendulum_shard"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "sand_of_alternate_outcomes"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "heart_of_the_eternal_instant"
-                },
-                {
-                  "chance": 2.13,
-                  "id": "rewritten_reality_mechanism"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "chronomancers_pendulum" }
               ]
             }
           ]
@@ -1944,7 +1224,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 10000.0,
+                "MAX_HEALTH": 16000000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -1957,29 +1237,8 @@
                 }
               },
               "drops": [
-                {
-                  "chance": 40.0
-                },
-                {
-                  "chance": 20.44,
-                  "id": "weight_of_forgotten_time"
-                },
-                {
-                  "chance": 19.0,
-                  "id": "pendulum_shard"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "sand_of_alternate_outcomes"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "heart_of_the_eternal_instant"
-                },
-                {
-                  "chance": 5.0,
-                  "id": "rewritten_reality_mechanism"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "blade_of_eternity" }
               ]
             }
           ]
@@ -1992,48 +1251,43 @@
           "pointTag": "devastated_soldier",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "DEVASTATED_SOLDIER",
               "name": "i18n.rpg.mobs.devastated_soldier.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 2000.0,
+                "MAX_HEALTH": 16000000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
               "spawnAfter": 60, 
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "WOOD_SWORD",
-                "data": {
-                  "tool-damage": 1
-                }
-              },
               "drops": [
-                {
-                  "chance": 58.83
-                },
-                {
-                  "chance": 16.47,
-                  "id": "transport_panel_shard"
-                },
-                {
-                  "chance": 9.41,
-                  "id": "cracked_life_biochip"
-                },
-                {
-                  "chance": 9.4,
-                  "id": "radioactive_hammer_lantern"
-                },
-                {
-                  "chance": 5.79,
-                  "id": "ashen_memory_matrix"
-                },
-                {
-                  "chance": 0.1,
-                  "id": "last_impulse_core"
-                }
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "LASTSTAND_CHESTPLATE" },
+                { "chance": 1.0, "id": "LASTSTAND_HELMET" },
+                { "chance": 1.0, "id": "ERA_FRAGMENT" },
+                { "chance": 1.0, "id": "HOPE_SHARD" },
+                { "chance": 1.0, "id": "OBLIVION_STRING" },
+                { "chance": 1.0, "id": "DESTRUCTION_CORE" },
+                { "chance": 1.0, "id": "cyanide_pill" }
+              ]
+            },
+            {
+              "chance": 10,
+              "type": "FADED_SEEKER",
+              "name": "i18n.rpg.mobs.faded_seeker.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 32000000.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "spawnAfter": 60, 
+              "drops": [
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "last_message_of_the_living" }
               ]
             }
           ]
@@ -2042,63 +1296,32 @@
           "pointTag": "faded_seeker",
           "kinds": [
             {
-              "chance": 100,
+              "chance": 90,
               "type": "FADED_SEEKER",
               "name": "i18n.rpg.mobs.faded_seeker.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 10000.0,
+                "MAX_HEALTH": 48000000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
               "spawnAfter": 60, 
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "WOOD_SWORD",
-                "data": {
-                  "tool-damage": 1
-                }
-              },
               "drops": [
-                {
-                  "chance": 54.95
-                },
-                {
-                  "chance": 16.48,
-                  "id": "transport_panel_shard"
-                },
-                {
-                  "chance": 12.09,
-                  "id": "cracked_life_biochip"
-                },
-                {
-                  "chance": 8.79,
-                  "id": "radioactive_hammer_lantern"
-                },
-                {
-                  "chance": 7.19,
-                  "id": "ashen_memory_matrix"
-                },
-                {
-                  "chance": 0.5,
-                  "id": "last_impulse_core"
-                }
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "LASTSTAND_LEGGINGS" },
+                { "chance": 1.0, "id": "LASTSTAND_BOOTS" },
+                { "chance": 1.0, "id": "charred_particles" }
               ]
-            }
-          ]
-        },
-        {
-          "pointTag": "ash_colossus",
-          "kinds": [
+            },
             {
-              "chance": 100,
+              "chance": 10,
               "type": "ASH_COLOSSUS",
               "name": "i18n.rpg.mobs.ash_colossus.name|!|§a",
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 6000.0,
+                "MAX_HEALTH": 64000000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -2111,79 +1334,8 @@
               },
               "spawnAfter": 60, 
               "drops": [
-                {
-                  "chance": 55.56
-                },
-                {
-                  "chance": 15.56,
-                  "id": "transport_panel_shard"
-                },
-                {
-                  "chance": 12.22,
-                  "id": "cracked_life_biochip"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "seed_of_the_rust_sky"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "code_of_the_apocalyptic_sleep"
-                },
-                {
-                  "chance": 1.1,
-                  "id": "last_impulse_core"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "pointTag": "molten_messenger",
-          "kinds": [
-            {
-              "chance": 100,
-              "type": "MOLTEN_MESSENGER",
-              "name": "i18n.rpg.mobs.molten_messenger.name|!|§a",
-              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
-              "attributes": {
-                "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 20000.0,
-                "ATTACK_DAMAGE": 1.0,
-                "MOVEMENT_SPEED": 0.3
-              },
-              "isAntiKnockback": true,
-              "itemInMainHand": {
-                "type": "WOOD_SWORD",
-                "data": {
-                  "tool-damage": 1
-                }
-              },
-              "spawnAfter": 60, 
-              "drops": [
-                {
-                  "chance": 53.19
-                },
-                {
-                  "chance": 14.89,
-                  "id": "transport_panel_shard"
-                },
-                {
-                  "chance": 14.23,
-                  "id": "cracked_life_biochip"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "seed_of_the_rust_sky"
-                },
-                {
-                  "chance": 5.57,
-                  "id": "code_of_the_apocalyptic_sleep"
-                },
-                {
-                  "chance": 2.12,
-                  "id": "last_impulse_core"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "blazing_core" }
               ]
             }
           ]
@@ -2198,7 +1350,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 10000.0,
+                "MAX_HEALTH": 80000000.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -2211,29 +1363,8 @@
                 }
               },
               "drops": [
-                {
-                  "chance": 40.0
-                },
-                {
-                  "chance": 20.44,
-                  "id": "transport_panel_shard"
-                },
-                {
-                  "chance": 19.0,
-                  "id": "cracked_life_biochip"
-                },
-                {
-                  "chance": 10.0,
-                  "id": "seed_of_the_rust_sky"
-                },
-                {
-                  "chance": 5.56,
-                  "id": "code_of_the_apocalyptic_sleep"
-                },
-                {
-                  "chance": 5.0,
-                  "id": "last_impulse_core"
-                }
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "molten_armor" }
               ]
             }
           ]

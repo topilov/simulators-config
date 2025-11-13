@@ -1,6 +1,29 @@
 {
-  "text": {
-    "score": "rpg.boss.score.text"
+  "queue": {
+    "title": "Бой с боссом",
+    "description": "Сражение с\nбоссом локации", 
+    "image": ""
+  },
+  "messages": {
+    "noFreeRooms": "§cВ данный момент нету свободных комнат.",
+    "alreadyInFight": "§cВы уже находитесь в бою с боссом.",
+    "alreadyInQueue": "§cВы уже находитесь в очереди."
+  },
+  "countingText": {
+    "timePerMessage": 1.0,
+    "messages": [
+      "Бой начнётся через 3 секунд!",
+      "1",
+      "2",
+      "3",
+      "Fight"
+    ]
+  },
+  "exitConfirmation": {
+    "message": "rpg.boss.exit.confirmation.message",
+    "confirmButtonText": "rpg.boss.exit.confirmation.confirm",
+    "cancelButtonText": "rpg.boss.exit.confirmation.cancel",
+    "blurBackground": false
   },
   "locations": {
     "1": {
@@ -8,6 +31,7 @@
         "SHADOW": {
           "spawnAt": ["0:00:00"],
           "type": "SHADOW",
+          "fightTime": 300.0,
           "settings": {
             "health": 800,
             "damage": 5.0,
