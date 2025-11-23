@@ -235,7 +235,13 @@
         }
       },
       "rare": "COMMON",
-      "notification": ""
+      "notification": "",
+      "onWear": [
+        "add-health %player% 2"
+      ],
+      "onUnwear": [
+        "add-health %player% -2"
+      ]
     },
     "DESTROYER": {
       "menuTitle": "katana.titles.destroyer.name",
@@ -339,7 +345,13 @@
         }
       },
       "rare": "COMMON",
-      "notification": ""
+      "notification": "",
+      "onWear": [
+        "add-speed %player% 0.08"
+      ],
+      "onUnwear": [
+        "add-speed %player% -0.08"
+      ]
     },
     "BLACKSMITH": {
       "menuTitle": "katana.titles.blacksmith.name",
