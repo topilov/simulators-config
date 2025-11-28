@@ -9,6 +9,19 @@
             "title": "rpg.stat.exp.text",
             "quests": [
               {
+                "title": "rpg.quest.firstvisit.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|0 \uE03F|!|(i18n.rpg.quest.reward.rec|!|Привет путник!|!|))",
+                "message": "👋 Привет, путник! Рад видеть тебя здесь впервые. Выполняй квесты!",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.firstvisit.subtitle",
+                    "goal": 1,
+                    "current": "firstvisit"
+                  }
+                ]
+              },
+              {
                 "title": "rpg.quest.exp1.title",
                 "icon": "achievements.png",
                 "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|10 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1K \uE1A6|!|250 \uE34D)))",
