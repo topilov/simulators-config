@@ -1,7 +1,6 @@
 {
   "menu": {
     "title": "",
-    "categories": []
     "categories": [
       {
         "title": "rpg.quest.category.title",
@@ -118,7 +117,7 @@
               {
                 "title": "rpg.quest.blocks3.title",
                 "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|250K \uE03F|!|(i18n.rpg.quest.reward.rec|!|\uE349 с рунами х3|!|(i18n.rpg.quest.reward.rec|!|5K \uE1A6|!|250 \uE34D)))\n",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|250K \uE03F|!|(i18n.rpg.quest.reward.rec|!|\uE349 с рунами х3|!|(i18n.rpg.quest.reward.rec|!|5K \uE1A6|!|250 \uE34D)))",
                 "tasks": [
                   {
                     "name": "rpg.quest.blocks.subtitle",
@@ -169,12 +168,52 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "rpg.stat.info.text",
+            "quests": [
+              {
+                "title": "rpg.quest.info1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|1K \uE03F|!|(i18n.rpg.quest.reward.rec|!|5 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|500 \uE1A6|!|100 \uE34D)))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.info.subtitle",
+                    "goal": 1,
+                    "current": "info1"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.info2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|2.5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|10 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1000 \uE1A6|!|150 \uE34D)))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.info.subtitle",
+                    "goal": 3,
+                    "current": "info2"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.info3.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|15 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1500 \uE1A6|!|200 \uE34D)))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.info.subtitle",
+                    "goal": 5,
+                    "current": "info3"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ]
   },
-  "quests": {}
   "quests": {
     "EXP": [
       {
@@ -281,7 +320,7 @@
         ]
       }
     ],
-    "rpg": [
+    "RPG": [
       {
         "id": "rpg1",
         "title": "rpg.quest.rpg1.title",
@@ -313,6 +352,41 @@
           "give-key %player% PET 3",
           "earn-exp %player% 5000 true",
           "earn-shards %player% 250"
+        ]
+      }
+    ],
+    "INFO": [
+      {
+        "id": "info1",
+        "title": "rpg.quest.info1.title",
+        "goal": 1,
+        "onComplete": [
+          "earn-money %player% 1000 true",
+          "earn-bits %player% 5",
+          "earn-exp %player% 500 true",
+          "earn-shards %player% 100"
+        ]
+      },
+      {
+        "id": "info2",
+        "title": "rpg.quest.info2.title",
+        "goal": 3,
+        "onComplete": [
+          "earn-money %player% 2500 true",
+          "earn-bits %player% 10",
+          "earn-exp %player% 1000 true",
+          "earn-shards %player% 150"
+        ]
+      },
+      {
+        "id": "info3",
+        "title": "rpg.quest.info3.title",
+        "goal": 5,
+        "onComplete": [
+          "earn-money %player% 5000 true",
+          "earn-bits %player% 15",
+          "earn-exp %player% 1500 true",
+          "earn-shards %player% 200"
         ]
       }
     ]
