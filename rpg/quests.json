@@ -61,7 +61,20 @@
           },
           {
             "title": "rpg.stat.level.text",
-            "quests": [
+            "quests": [              
+              {
+                "title": "rpg.quest.firstvisit.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|0 \uE03F|!|(i18n.rpg.quest.reward.rec|!|Привет путник!|!|))",
+                "message": "👋 Привет, путник! Рад видеть тебя здесь впервые. Выполняй квесты!",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.exp.subtitle",
+                    "goal": 1.0,
+                    "current": "level1"
+                  }
+                ]
+              },
               {
                 "title": "rpg.quest.level1.title",
                 "icon": "achievements.png",
@@ -70,7 +83,7 @@
                   {
                     "name": "rpg.quest.level.subtitle",
                     "goal": 2,
-                    "current": "level1"
+                    "current": "level2"
                   }
                 ]
               },
@@ -82,7 +95,7 @@
                   {
                     "name": "rpg.quest.level.subtitle",
                     "goal": 5,
-                    "current": "level2"
+                    "current": "level3"
                   }
                 ]
               },
@@ -94,7 +107,7 @@
                   {
                     "name": "rpg.quest.level.subtitle",
                     "goal": 8,
-                    "current": "level3"
+                    "current": "level4"
                   }
                 ]
               }
@@ -104,6 +117,19 @@
             "title": "rpg.stat.blocks.text",
             "quests": [
               {
+                "title": "rpg.quest.firstvisit.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|0 \uE03F|!|(i18n.rpg.quest.reward.rec|!|Привет путник!|!|))",
+                "message": "👋 Привет, путник! Рад видеть тебя здесь впервые. Выполняй квесты!",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.exp.subtitle",
+                    "goal": 1.0,
+                    "current": "blocks1"
+                  }
+                ]
+              },
+              {
                 "title": "rpg.quest.blocks1.title",
                 "icon": "achievements.png",
                 "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|2.5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|Обычный \uE349 х5|!|(i18n.rpg.quest.reward.rec|!|1K \uE1A6|!|250 \uE34D)))",
@@ -111,7 +137,7 @@
                   {
                     "name": "rpg.quest.blocks.subtitle",
                     "goal": 750,
-                    "current": "blocks1"
+                    "current": "blocks2"
                   }
                 ]
               },
@@ -123,7 +149,7 @@
                   {
                     "name": "rpg.quest.blocks.subtitle",
                     "goal": 5000,
-                    "current": "blocks2"
+                    "current": "blocks3"
                   }
                 ]
               },
@@ -135,7 +161,7 @@
                   {
                     "name": "rpg.quest.blocks.subtitle",
                     "goal": 50000,
-                    "current": "blocks3"
+                    "current": "blocks4"
                   }
                 ]
               }
