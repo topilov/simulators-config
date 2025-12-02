@@ -1,15 +1,181 @@
 {
   "equipment": {
     "TOOL": {
-      "maxDonateUsages": 5,
       "message": {
-        "maxDonateUsages": ""
+        "maxGuaranteedUsages": ""
+      },
+      "maxGuaranteedUsages": 5,
+      "shiv": {
+        "DEFAULT": {
+          "type": "CLAY_BALL",
+          "name": "rpg.shiv.item.tool.default.name",
+          "lore": "rpg.shiv.item.tool.default.lore",
+          "unbreakable": true,
+          "data": {
+            "shiv": true,
+            "shiv_data": {
+              "type": "TOOL",
+              "is_clear_equipment": true,
+              "is_guaranteed_chance": false
+            },
+            "no-clear": 1,
+            "hoverColor": "PURPLE_LIGHT"
+          },
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ]
+        },
+        "EPIC": {
+          "type": "CLAY_BALL",
+          "name": "rpg.shiv.item.tool.epic.name",
+          "lore": "rpg.shiv.item.tool.epic.lore",
+          "unbreakable": true,
+          "data": {
+            "shiv": true,
+            "shiv_data": {
+              "type": "TOOL",
+              "is_clear_equipment": false,
+              "is_guaranteed_chance": false
+            },
+            "no-clear": 1,
+            "hoverColor": "PURPLE_LIGHT"
+          },
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ]
+        },
+        "LEGENDARY": {
+          "type": "CLAY_BALL",
+          "name": "rpg.shiv.item.tool.legendary.name",
+          "lore": "rpg.shiv.item.tool.legendary.lore",
+          "unbreakable": true,
+          "data": {
+            "shiv": true,
+            "shiv_data": {
+              "type": "TOOL",
+              "is_clear_equipment": false,
+              "is_guaranteed_chance": true
+            },
+            "no-clear": 1,
+            "hoverColor": "PURPLE_LIGHT"
+          },
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ]
+        }
+      },
+      "levels": {
+        "1": {
+          "chance": 100.0,
+          "stat": [3.0, 0.0, 0.0]
+        },
+        "2": {
+          "chance": 100.0,
+          "stat": [6.0, 0.0, 0.0]
+        },
+        "3": {
+          "chance": 100.0,
+          "stat": [9.0, 0.0, 0.0]
+        },
+        "4": {
+          "chance": 93.0,
+          "stat": [15.0, 0.0, 0.0]
+        }
       }
     },
     "ARMOR": {
-      "maxDonateUsages": 5,
       "message": {
-        "maxDonateUsages": ""
+        "maxGuaranteedUsages": ""
+      },
+      "maxGuaranteedUsages": 5,
+      "shiv": {
+        "DEFAULT": {
+          "type": "CLAY_BALL",
+          "name": "rpg.shiv.item.armor.default.name",
+          "lore": "rpg.shiv.item.armor.default.lore",
+          "unbreakable": true,
+          "data": {
+            "shiv": true,
+            "shiv_data": {
+              "type": "ARMOR",
+              "is_clear_equipment": true,
+              "is_guaranteed_chance": false
+            },
+            "no-clear": 1,
+            "hoverColor": "PURPLE_LIGHT"
+          },
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ]
+        },
+        "EPIC": {
+          "type": "CLAY_BALL",
+          "name": "rpg.shiv.item.armor.epic.name",
+          "lore": "rpg.shiv.item.armor.epic.lore",
+          "unbreakable": true,
+          "data": {
+            "shiv": true,
+            "shiv_data": {
+              "type": "ARMOR",
+              "is_clear_equipment": false,
+              "is_guaranteed_chance": false
+            },
+            "no-clear": 1,
+            "hoverColor": "PURPLE_LIGHT"
+          },
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ]
+        },
+        "LEGENDARY": {
+          "type": "CLAY_BALL",
+          "name": "rpg.shiv.item.armor.legendary.name",
+          "lore": "rpg.shiv.item.armor.legendary.lore",
+          "unbreakable": true,
+          "data": {
+            "shiv": true,
+            "shiv_data": {
+              "type": "ARMOR",
+              "is_clear_equipment": false,
+              "is_guaranteed_chance": true
+            },
+            "no-clear": 1,
+            "hoverColor": "PURPLE_LIGHT"
+          },
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ]
+        }
+      },
+      "levels": {
+        "1": {
+          "chance": 100.0,
+          "stat": [0.3, 0.0, 0.0]
+        },
+        "2": {
+          "chance": 100.0,
+          "stat": [0.6, 0.0, 0.0]
+        },
+        "3": {
+          "chance": 100.0,
+          "stat": [0.9, 0.0, 0.0]
+        },
+        "4": {
+          "chance": 93.0,
+          "stat": [1.5, 0.0, 0.0]
+        }
       }
     }
   }
