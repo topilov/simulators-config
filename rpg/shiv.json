@@ -8,189 +8,315 @@
       "maxGuaranteedUsages": 5,
       "shiv": {
         "DEFAULT": {
-          "type": "CLAY_BALL",
-          "name": "rpg.shiv.item.tool.default.name",
-          "lore": "rpg.shiv.item.tool.default.lore",
-          "unbreakable": true,
-          "data": {
-            "shiv": true,
-            "shiv_data": {
-              "type": "TOOL",
-              "is_clear_equipment": true,
-              "is_guaranteed_chance": false
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.default.name",
+            "lore": "rpg.shiv.item.tool.default.lore",
+            "unbreakable": true,
+            "data": {
+              "shiv": true,
+              "shiv_data": {
+                "type": "TOOL",
+                "is_clear_equipment": true,
+                "is_guaranteed_chance": false
+              },
+              "no-clear": 1,
+              "hoverColor": "PURPLE_LIGHT"
             },
-            "no-clear": 1,
-            "hoverColor": "PURPLE_LIGHT"
-          },
-          "flags": [
-            "HIDE_ATTRIBUTES",
-            "HIDE_ENCHANTS",
-            "HIDE_UNBREAKABLE"
-          ]
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          }
         },
         "EPIC": {
-          "type": "CLAY_BALL",
-          "name": "rpg.shiv.item.tool.epic.name",
-          "lore": "rpg.shiv.item.tool.epic.lore",
-          "unbreakable": true,
-          "data": {
-            "shiv": true,
-            "shiv_data": {
-              "type": "TOOL",
-              "is_clear_equipment": false,
-              "is_guaranteed_chance": false
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "unbreakable": true,
+            "data": {
+              "shiv": true,
+              "shiv_data": {
+                "type": "TOOL",
+                "is_clear_equipment": false,
+                "is_guaranteed_chance": false
+              },
+              "no-clear": 1,
+              "hoverColor": "PURPLE_LIGHT"
             },
-            "no-clear": 1,
-            "hoverColor": "PURPLE_LIGHT"
-          },
-          "flags": [
-            "HIDE_ATTRIBUTES",
-            "HIDE_ENCHANTS",
-            "HIDE_UNBREAKABLE"
-          ]
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          }
         },
         "LEGENDARY": {
-          "type": "CLAY_BALL",
-          "name": "rpg.shiv.item.tool.legendary.name",
-          "lore": "rpg.shiv.item.tool.legendary.lore",
-          "unbreakable": true,
-          "data": {
-            "shiv": true,
-            "shiv_data": {
-              "type": "TOOL",
-              "is_clear_equipment": false,
-              "is_guaranteed_chance": true
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.legendary.name",
+            "lore": "rpg.shiv.item.tool.legendary.lore",
+            "unbreakable": true,
+            "data": {
+              "shiv": true,
+              "shiv_data": {
+                "type": "TOOL",
+                "is_clear_equipment": false,
+                "is_guaranteed_chance": true
+              },
+              "no-clear": 1,
+              "hoverColor": "PURPLE_LIGHT"
             },
-            "no-clear": 1,
-            "hoverColor": "PURPLE_LIGHT"
-          },
-          "flags": [
-            "HIDE_ATTRIBUTES",
-            "HIDE_ENCHANTS",
-            "HIDE_UNBREAKABLE"
-          ]
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          }
         }
       },
       "levels": {
         "1": {
           "chance": 100.0,
-          "stat": [3.0, 0.0, 0.0]
+          "stat": [
+            3.0,
+            0.0,
+            0.0
+          ]
         },
         "2": {
           "chance": 100.0,
-          "stat": [6.0, 0.0, 0.0]
+          "stat": [
+            6.0,
+            0.0,
+            0.0
+          ]
         },
         "3": {
           "chance": 100.0,
-          "stat": [9.0, 0.0, 0.0]
+          "stat": [
+            9.0,
+            0.0,
+            0.0
+          ]
         },
         "4": {
           "chance": 93.0,
-          "stat": [15.0, 0.0, 0.0]
+          "stat": [
+            15.0,
+            0.0,
+            0.0
+          ]
         },
         "5": {
           "chance": 85.0,
-          "stat": [17.0, 0.0, 0.0]
+          "stat": [
+            17.0,
+            0.0,
+            0.0
+          ]
         },
         "6": {
           "chance": 80.0,
-          "stat": [22.0, 0.0, 0.0]
+          "stat": [
+            22.0,
+            0.0,
+            0.0
+          ]
         },
         "7": {
           "chance": 71.0,
-          "stat": [30.0, 0.0, 0.0]
+          "stat": [
+            30.0,
+            0.0,
+            0.0
+          ]
         },
         "8": {
           "chance": 66.0,
-          "stat": [37.0, 0.0, 0.0]
+          "stat": [
+            37.0,
+            0.0,
+            0.0
+          ]
         },
         "9": {
           "chance": 59.0,
-          "stat": [48.0, 0.0, 0.0]
+          "stat": [
+            48.0,
+            0.0,
+            0.0
+          ]
         },
         "10": {
           "chance": 52.0,
-          "stat": [65.0, 5.0, 0.0]
+          "stat": [
+            65.0,
+            5.0,
+            0.0
+          ]
         },
         "11": {
           "chance": 44.0,
-          "stat": [80.0, 6.0, 0.0]
+          "stat": [
+            80.0,
+            6.0,
+            0.0
+          ]
         },
         "12": {
           "chance": 38.0,
-          "stat": [90.0, 7.0, 0.0]
+          "stat": [
+            90.0,
+            7.0,
+            0.0
+          ]
         },
         "13": {
           "chance": 32.0,
-          "stat": [105.0, 9.0, 0.0]
+          "stat": [
+            105.0,
+            9.0,
+            0.0
+          ]
         },
         "14": {
           "chance": 25.0,
-          "stat": [115.0, 10.0, 0.0]
+          "stat": [
+            115.0,
+            10.0,
+            0.0
+          ]
         },
         "15": {
           "chance": 20.0,
-          "stat": [135.0, 11.0, 0.0]
+          "stat": [
+            135.0,
+            11.0,
+            0.0
+          ]
         },
         "16": {
           "chance": 17.5,
-          "stat": [160.0, 13.0, 0.0]
+          "stat": [
+            160.0,
+            13.0,
+            0.0
+          ]
         },
         "17": {
           "chance": 14.3,
-          "stat": [190.0, 14.0, 0.0]
+          "stat": [
+            190.0,
+            14.0,
+            0.0
+          ]
         },
         "18": {
           "chance": 11.0,
-          "stat": [230.0, 16.0, 0.0]
+          "stat": [
+            230.0,
+            16.0,
+            0.0
+          ]
         },
         "19": {
           "chance": 10.0,
-          "stat": [250.0, 18.0, 0.0]
+          "stat": [
+            250.0,
+            18.0,
+            0.0
+          ]
         },
         "20": {
           "chance": 8.0,
-          "stat": [280.0, 20.0, 65.0]
+          "stat": [
+            280.0,
+            20.0,
+            65.0
+          ]
         },
         "21": {
           "chance": 7.0,
-          "stat": [310.0, 22.0, 100.0]
+          "stat": [
+            310.0,
+            22.0,
+            100.0
+          ]
         },
         "22": {
           "chance": 5.0,
-          "stat": [340.0, 25.0, 135.0]
+          "stat": [
+            340.0,
+            25.0,
+            135.0
+          ]
         },
         "23": {
           "chance": 4.0,
-          "stat": [400.0, 27.0, 180.0]
+          "stat": [
+            400.0,
+            27.0,
+            180.0
+          ]
         },
         "24": {
           "chance": 2.5,
-          "stat": [450.0, 29.0, 230.0]
+          "stat": [
+            450.0,
+            29.0,
+            230.0
+          ]
         },
         "25": {
           "chance": 1.0,
-          "stat": [500.0, 32.0, 280.0]
+          "stat": [
+            500.0,
+            32.0,
+            280.0
+          ]
         },
         "26": {
           "chance": 0.5,
-          "stat": [550.0, 35.0, 315.0]
+          "stat": [
+            550.0,
+            35.0,
+            315.0
+          ]
         },
         "27": {
           "chance": 0.1,
-          "stat": [650.0, 37.0, 365.0]
+          "stat": [
+            650.0,
+            37.0,
+            365.0
+          ]
         },
         "28": {
           "chance": 0.05,
-          "stat": [700.0, 40.0, 405.0]
+          "stat": [
+            700.0,
+            40.0,
+            405.0
+          ]
         },
         "29": {
           "chance": 0.01,
-          "stat": [800.0, 42.0, 455.0]
+          "stat": [
+            800.0,
+            42.0,
+            455.0
+          ]
         },
         "30": {
           "chance": 0.001,
-          "stat": [1000.0, 45.0, 500.0]
+          "stat": [
+            1000.0,
+            45.0,
+            500.0
+          ]
         }
       }
     },
@@ -202,189 +328,315 @@
       "maxGuaranteedUsages": 5,
       "shiv": {
         "DEFAULT": {
-          "type": "CLAY_BALL",
-          "name": "rpg.shiv.item.armor.default.name",
-          "lore": "rpg.shiv.item.armor.default.lore",
-          "unbreakable": true,
-          "data": {
-            "shiv": true,
-            "shiv_data": {
-              "type": "ARMOR",
-              "is_clear_equipment": true,
-              "is_guaranteed_chance": false
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.default.name",
+            "lore": "rpg.shiv.item.armor.default.lore",
+            "unbreakable": true,
+            "data": {
+              "shiv": true,
+              "shiv_data": {
+                "type": "ARMOR",
+                "is_clear_equipment": true,
+                "is_guaranteed_chance": false
+              },
+              "no-clear": 1,
+              "hoverColor": "PURPLE_LIGHT"
             },
-            "no-clear": 1,
-            "hoverColor": "PURPLE_LIGHT"
-          },
-          "flags": [
-            "HIDE_ATTRIBUTES",
-            "HIDE_ENCHANTS",
-            "HIDE_UNBREAKABLE"
-          ]
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          }
         },
         "EPIC": {
-          "type": "CLAY_BALL",
-          "name": "rpg.shiv.item.armor.epic.name",
-          "lore": "rpg.shiv.item.armor.epic.lore",
-          "unbreakable": true,
-          "data": {
-            "shiv": true,
-            "shiv_data": {
-              "type": "ARMOR",
-              "is_clear_equipment": false,
-              "is_guaranteed_chance": false
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "unbreakable": true,
+            "data": {
+              "shiv": true,
+              "shiv_data": {
+                "type": "ARMOR",
+                "is_clear_equipment": false,
+                "is_guaranteed_chance": false
+              },
+              "no-clear": 1,
+              "hoverColor": "PURPLE_LIGHT"
             },
-            "no-clear": 1,
-            "hoverColor": "PURPLE_LIGHT"
-          },
-          "flags": [
-            "HIDE_ATTRIBUTES",
-            "HIDE_ENCHANTS",
-            "HIDE_UNBREAKABLE"
-          ]
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          }
         },
         "LEGENDARY": {
-          "type": "CLAY_BALL",
-          "name": "rpg.shiv.item.armor.legendary.name",
-          "lore": "rpg.shiv.item.armor.legendary.lore",
-          "unbreakable": true,
-          "data": {
-            "shiv": true,
-            "shiv_data": {
-              "type": "ARMOR",
-              "is_clear_equipment": false,
-              "is_guaranteed_chance": true
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.legendary.name",
+            "lore": "rpg.shiv.item.armor.legendary.lore",
+            "unbreakable": true,
+            "data": {
+              "shiv": true,
+              "shiv_data": {
+                "type": "ARMOR",
+                "is_clear_equipment": false,
+                "is_guaranteed_chance": true
+              },
+              "no-clear": 1,
+              "hoverColor": "PURPLE_LIGHT"
             },
-            "no-clear": 1,
-            "hoverColor": "PURPLE_LIGHT"
-          },
-          "flags": [
-            "HIDE_ATTRIBUTES",
-            "HIDE_ENCHANTS",
-            "HIDE_UNBREAKABLE"
-          ]
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          }
         }
       },
       "levels": {
         "1": {
           "chance": 100.0,
-          "stat": [0.3, 0.0, 0.0]
+          "stat": [
+            0.3,
+            0.0,
+            0.0
+          ]
         },
         "2": {
           "chance": 100.0,
-          "stat": [0.6, 0.0, 0.0]
+          "stat": [
+            0.6,
+            0.0,
+            0.0
+          ]
         },
         "3": {
           "chance": 100.0,
-          "stat": [0.9, 0.0, 0.0]
+          "stat": [
+            0.9,
+            0.0,
+            0.0
+          ]
         },
         "4": {
           "chance": 93.0,
-          "stat": [1.5, 0.0, 0.0]
+          "stat": [
+            1.5,
+            0.0,
+            0.0
+          ]
         },
         "5": {
           "chance": 85.0,
-          "stat": [1.7, 0.0, 0.0]
+          "stat": [
+            1.7,
+            0.0,
+            0.0
+          ]
         },
         "6": {
           "chance": 80.0,
-          "stat": [2.2, 0.0, 0.0]
+          "stat": [
+            2.2,
+            0.0,
+            0.0
+          ]
         },
         "7": {
           "chance": 71.0,
-          "stat": [3.0, 0.0, 0.0]
+          "stat": [
+            3.0,
+            0.0,
+            0.0
+          ]
         },
         "8": {
           "chance": 66.0,
-          "stat": [3.7, 0.0, 0.0]
+          "stat": [
+            3.7,
+            0.0,
+            0.0
+          ]
         },
         "9": {
           "chance": 59.0,
-          "stat": [4.8, 0.0, 0.0]
+          "stat": [
+            4.8,
+            0.0,
+            0.0
+          ]
         },
         "10": {
           "chance": 52.0,
-          "stat": [6.5, 0.44, 0.0]
+          "stat": [
+            6.5,
+            0.44,
+            0.0
+          ]
         },
         "11": {
           "chance": 44.0,
-          "stat": [8.0, 0.53, 0.0]
+          "stat": [
+            8.0,
+            0.53,
+            0.0
+          ]
         },
         "12": {
           "chance": 38.0,
-          "stat": [9.0, 0.62, 0.0]
+          "stat": [
+            9.0,
+            0.62,
+            0.0
+          ]
         },
         "13": {
           "chance": 32.0,
-          "stat": [10.5, 0.8, 0.0]
+          "stat": [
+            10.5,
+            0.8,
+            0.0
+          ]
         },
         "14": {
           "chance": 25.0,
-          "stat": [11.5, 0.89, 0.0]
+          "stat": [
+            11.5,
+            0.89,
+            0.0
+          ]
         },
         "15": {
           "chance": 20.0,
-          "stat": [13.5, 0.98, 0.0]
+          "stat": [
+            13.5,
+            0.98,
+            0.0
+          ]
         },
         "16": {
           "chance": 17.5,
-          "stat": [16.0, 1.16, 0.0]
+          "stat": [
+            16.0,
+            1.16,
+            0.0
+          ]
         },
         "17": {
           "chance": 14.3,
-          "stat": [19.0, 1.24, 0.0]
+          "stat": [
+            19.0,
+            1.24,
+            0.0
+          ]
         },
         "18": {
           "chance": 11.0,
-          "stat": [23.0, 1.42, 0.0]
+          "stat": [
+            23.0,
+            1.42,
+            0.0
+          ]
         },
         "19": {
           "chance": 10.0,
-          "stat": [25.0, 1.6, 0.0]
+          "stat": [
+            25.0,
+            1.6,
+            0.0
+          ]
         },
         "20": {
           "chance": 8.0,
-          "stat": [28.0, 1.78, 0.0]
+          "stat": [
+            28.0,
+            1.78,
+            0.0
+          ]
         },
         "21": {
           "chance": 7.0,
-          "stat": [31.0, 1.96, 0.0]
+          "stat": [
+            31.0,
+            1.96,
+            0.0
+          ]
         },
         "22": {
           "chance": 5.0,
-          "stat": [34.0, 2.22, 0.0]
+          "stat": [
+            34.0,
+            2.22,
+            0.0
+          ]
         },
         "23": {
           "chance": 4.0,
-          "stat": [40.0, 2.4, 0.0]
+          "stat": [
+            40.0,
+            2.4,
+            0.0
+          ]
         },
         "24": {
           "chance": 2.5,
-          "stat": [45.0, 2.58, 0.0]
+          "stat": [
+            45.0,
+            2.58,
+            0.0
+          ]
         },
         "25": {
           "chance": 1.0,
-          "stat": [50.0, 2.84, 0.0]
+          "stat": [
+            50.0,
+            2.84,
+            0.0
+          ]
         },
         "26": {
           "chance": 0.5,
-          "stat": [55.0, 3.11, 0.0]
+          "stat": [
+            55.0,
+            3.11,
+            0.0
+          ]
         },
         "27": {
           "chance": 0.1,
-          "stat": [65.0, 3.29, 0.0]
+          "stat": [
+            65.0,
+            3.29,
+            0.0
+          ]
         },
         "28": {
           "chance": 0.05,
-          "stat": [70.0, 3.56, 0.0]
+          "stat": [
+            70.0,
+            3.56,
+            0.0
+          ]
         },
         "29": {
           "chance": 0.01,
-          "stat": [80.0, 3.73, 0.0]
+          "stat": [
+            80.0,
+            3.73,
+            0.0
+          ]
         },
         "30": {
           "chance": 0.001,
-          "stat": [100.0, 4.0, 0.0]
+          "stat": [
+            100.0,
+            4.0,
+            0.0
+          ]
         }
       }
     }
