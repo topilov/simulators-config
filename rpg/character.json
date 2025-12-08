@@ -13,32 +13,56 @@
   },
   "types": {
     "SWORDSMAN": {
-      "title": "Мечник",
-      "description": "По-настоящему истинный\nценитель доблести,\nчести и богатства",
-      "image": "123",
       "tool": "DEFAULT_SWORD",
-      "abilities": ["JUSTICE_BLADE", "WARRIOR", "STEEL_SPIRIT"]
+      "abilities": ["JUSTICE_BLADE", "WARRIOR", "STEEL_SPIRIT"],
+      "menu": {
+        "title": "Мечник",
+        "description": "По-настоящему истинный\nценитель доблести,\nчести и богатства",
+        "image": "swordsman.png",
+        "icon": {
+          "glow": {"hex": "#007BFF"},
+          "image": "swordsman_icon.png"
+        }
+      }
     },
     "THIEF": {
-      "title": "Вор",
-      "description": "По-настоящему истинный\nценитель доблести,\nчести и богатства",
-      "image": "123",
       "tool": "DEFAULT_KNIFE",
-      "abilities": ["KNOCK_WEAPON", "POISON_TOUCH", "LIGHT_FEET"]
+      "abilities": ["KNOCK_WEAPON", "POISON_TOUCH", "LIGHT_FEET"],
+      "menu": {
+        "title": "Вор",
+        "description": "По-настоящему истинный\nценитель доблести,\nчести и богатства",
+        "image": "thief.png",
+        "icon": {
+          "glow": {"hex": "#007BFF"},
+          "image": "thief_icon.png"
+        }
+      }
     },
     "ELF": {
-      "title": "Лучник",
-      "description": "По-настоящему истинный\nценитель доблести,\nчести и богатства",
-      "image": "123",
       "tool": "DEFAULT_BOW",
-      "abilities": [ "CRUSH", "SURVIVAL", "FROZEN_SHOT"]
+      "abilities": [ "CRUSH", "SURVIVAL", "FROZEN_SHOT"],
+      "menu": {
+        "title": "Лучник",
+        "description": "По-настоящему истинный\nценитель доблести,\nчести и богатства",
+        "image": "elf.png",
+        "icon": {
+          "glow": {"hex": "#007BFF"},
+          "image": "elf_icon.png"
+        }
+      }
     },
     "MAGE": {
-      "title": "Маг",
-      "description": "По-настоящему истинный\nценитель доблести,\nчести и богатства",
-      "image": "123",
       "tool": "DEFAULT_STAFF",
-      "abilities": [ "RANDOM_MAGIC", "EXPLODE", "THORN"]
+      "abilities": [ "RANDOM_MAGIC", "EXPLODE", "THORN"],
+      "menu": {
+        "title": "Маг",
+        "description": "По-настоящему истинный\nценитель доблести,\nчести и богатства",
+        "image": "mage.png",
+        "icon": {
+          "glow": {"hex": "#007BFF"},
+          "image": "mage_icon.png"
+        }
+      }
     }
   }
 }
