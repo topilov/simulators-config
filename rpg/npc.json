@@ -11,7 +11,7 @@
           "z": 0.5
         }
       },
-      "skin": "https://storage.c7x.dev/topil_ov/destructions/skins/sell-blocks.png",
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
       "lookAtPlayer": true,
       "onClick": [
         "dialog %player% MAXIM"
@@ -28,7 +28,7 @@
           "z": 0.5
         }
       },
-      "skin": "https://storage.c7x.dev/topil_ov/destructions/skins/sell-blocks.png",
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
       "lookAtPlayer": true,
       "onClick": [
         "sell-drops %player%"
@@ -45,7 +45,7 @@
           "z": 0.5
         }
       },
-      "skin": "https://storage.c7x.dev/topil_ov/destructions/skins/sell-blocks.png",
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
       "lookAtPlayer": true,
       "onClick": [
         "artefact-shop %player%"
@@ -62,10 +62,61 @@
           "z": 0.5
         }
       },
-      "skin": "https://storage.c7x.dev/topil_ov/destructions/skins/sell-blocks.png",
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/ability_shop.png",
       "lookAtPlayer": true,
       "onClick": [
         "ability-shop %player%"
+      ]
+    },
+    {
+      "name": "rpg.npc.rune.upgrade.title",
+      "location": {
+        "name": "rune",
+        "tag": "upgrade",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% upgrade-rune"
+      ]
+    },
+    {
+      "name": "rpg.npc.rune.unspell.title",
+      "location": {
+        "name": "rune",
+        "tag": "unspell",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% unspell-rune"
+      ]
+    },
+    {
+      "name": "rpg.npc.boss.menu.title",
+      "location": {
+        "name": "boss",
+        "tag": "menu",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/menu_boss.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% boss-menu"
       ]
     }
   ]
