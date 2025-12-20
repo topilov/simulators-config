@@ -1373,7 +1373,129 @@
       ]
     },
     "HEART_OF_CHAOS": {
-      "mobs": []
+      "mobs": [ {
+          "pointTag": "fallen_echo",
+          "kinds": [
+            {
+              "chance": 90,
+              "type": "FALLEN_ECHO",
+              "name": "i18n.rpg.mobs.fallen_echo.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 16000000.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "spawnAfter": 60, 
+              "drops": [
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "APOCALYPSE_CHESTPLATE" },
+                { "chance": 1.0, "id": "APOCALYPSE_HELMET" },
+                { "chance": 1.0, "id": "HEART_OF_STORM" },
+                { "chance": 1.0, "id": "SHADOW_OF_FALLEN" },
+                { "chance": 1.0, "id": "ECHO_OF_PAST_BATTLES" },
+                { "chance": 1.0, "id": "BOW_OF_DOOM" },
+                { "chance": 1.0, "id": "phantom_glimmer" }
+              ]
+            },
+            {
+              "chance": 10,
+              "type": "REVERSED_RESONANCE",
+              "name": "i18n.rpg.mobs.reversed_resonance.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 32000000.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "spawnAfter": 60, 
+              "drops": [
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "mirror_shield" }
+              ]
+            }
+          ]
+        },
+        {
+          "pointTag": "distorted_memory",
+          "kinds": [
+            {
+              "chance": 90,
+              "type": "DISTORTED_MEMORY",
+              "name": "i18n.rpg.mobs.distorted_memory.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 48000000.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "spawnAfter": 60, 
+              "drops": [
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "APOCALYPSE_LEGGINGS" },
+                { "chance": 1.0, "id": "APOCALYPSE_BOOTS" },
+                { "chance": 1.0, "id": "crystal_of_oblivion" }
+              ]
+            },
+            {
+              "chance": 10,
+              "type": "SPACE_SCAR",
+              "name": "i18n.rpg.mobs.space_scar.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 64000000.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool-damage": 1
+                }
+              },
+              "spawnAfter": 60, 
+              "drops": [
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "rift_into_reality" }
+              ]
+            }
+          ]
+        },
+        {
+          "pointTag": "reflected_wanderer",
+          "kinds": [
+            {
+              "chance": 100,
+              "type": "REFLECTED_WANDERER",
+              "name": "i18n.rpg.mobs.reflected_wanderer.name|!|§a",
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 5.0,
+                "MAX_HEALTH": 80000000.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "spawnAfter": 60, 
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool-damage": 1
+                }
+              },
+              "drops": [
+                { "chance": 99.0 },
+                { "chance": 1.0, "id": "shattered_prism" }
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
 }
