@@ -1,157 +1,235 @@
 {
   "shops": {
-    "artefact": {
-      "messages": {
-        "moreMoney": "rpg.shop.artefact.messages.more-money",
-        "failure": "rpg.shop.artefact.messages.failure",
-        "noSubscription": "rpg.shop.artefact.messages.no-subscription"
-      },
-      "title": "rpg.shop.artefact.title",
-      "vault": "\uE03A",
-      "products": []
+    "FOOD": {
+      "vault": "",
+      "products": {
+        "BACON": {
+          "type": "BACON",
+          "title": "rpg.shop.food.product.bacon.title",
+          "description": "rpg.shop.food.product.bacon.description",
+          "icon": "bacon.png",
+          "price": 100.0,
+          "vault": "",
+          "amount": 1,
+          "onPurchase": [
+            "give-food %player% BACON %amount%"
+          ]
+        }
+      }
     },
-    "ability": {
-      "messages": {
-        "moreMoney": "rpg.shop.ability.messages.more-money",
-        "failure": "rpg.shop.ability.messages.failure",
-        "noSubscription": "rpg.shop.ability.messages.no-subscription"
-      },
-      "title": "rpg.shop.ability.title",
+    "MEDICINE": {
+      "vault": "",
+      "products": {
+        "TAB": {
+          "type": "TAB",
+          "title": "rpg.shop.medicine.product.tab.title",
+          "description": "rpg.shop.medicine.product.tab.description",
+          "icon": "tab.png",
+          "price": 150.0,
+          "vault": "",
+          "amount": 1,
+          "onPurchase": [
+            "give-medicine %player% TAB %amount%"
+          ]
+        }
+      }
+    },
+    "ABILITY": {
       "vault": "\uE1C0",
-      "products": [
-        {
+      "products": {
+        "UNSHAKABLE": {
+          "type": "UNSHAKABLE",
           "title": "rpg.shop.ability.product.unshakable.title",
-          "hover": "rpg.shop.ability.product.unshakable.hover",
-          "icon": "money-booster.png",
-          "price": 40,
-          "abilityType": "UNSHAKABLE",
-          "characterType": "SWORDSMAN",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.unshakable.description",
+          "icon": "unshakable.png",
+          "price": 175.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "UNSHAKABLE",
+            "CHARACTER_TYPE": "SWORDSMAN"
+          },
+          "onPurchase": [
             "give-ability %player% UNSHAKABLE"
           ]
         },
-        {
+        "BLOOD": {
+          "type": "BLOOD",
           "title": "rpg.shop.ability.product.blood.title",
-          "hover": "rpg.shop.ability.product.blood.hover",
-          "icon": "money-booster.png",
-          "price": 20,
-          "abilityType": "BLOOD",
-          "characterType": "SWORDSMAN",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.blood.description",
+          "icon": "blood.png",
+          "price": 20.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "BLOOD",
+            "CHARACTER_TYPE": "SWORDSMAN"
+          },
+          "onPurchase": [
             "give-ability %player% BLOOD"
           ]
         },
-        {
+        "IRON_WILL": {
+          "type": "IRON_WILL",
           "title": "rpg.shop.ability.product.justice_blade.title",
-          "hover": "rpg.shop.ability.product.justice_blade.hover",
-          "icon": "money-booster.png",
-          "price": 40,
-          "abilityType": "IRON_WILL",
-          "characterType": "SWORDSMAN",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.justice_blade.description",
+          "icon": "iron_will.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "IRON_WILL",
+            "CHARACTER_TYPE": "SWORDSMAN"
+          },
+          "onPurchase": [
             "give-ability %player% IRON_WILL"
           ]
         },
-        {
+        "HIT_SERIES": {
+          "type": "HIT_SERIES",
           "title": "rpg.shop.ability.product.hit_series.title",
-          "hover": "rpg.shop.ability.product.hit_series.hover",
-          "icon": "money-booster.png",
-          "price": 40,
-          "abilityType": "HIT_SERIES",
-          "characterType": "THIEF",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.hit_series.description",
+          "icon": "hit_series.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "HIT_SERIES",
+            "CHARACTER_TYPE": "THIEF"
+          },
+          "onPurchase": [
             "give-ability %player% HIT_SERIES"
           ]
         },
-        {
+        "FINISHER": {
+          "type": "FINISHER",
           "title": "rpg.shop.ability.product.finisher.title",
-          "hover": "rpg.shop.ability.product.finisher.hover",
-          "icon": "money-booster.png",
-          "price": 20,
-          "abilityType": "FINISHER",
-          "characterType": "THIEF",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.finisher.description",
+          "icon": "finisher.png",
+          "price": 20.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "FINISHER",
+            "CHARACTER_TYPE": "THIEF"
+          },
+          "onPurchase": [
             "give-ability %player% FINISHER"
           ]
         },
-        {
+        "PHANTOM_JERK": {
+          "type": "PHANTOM_JERK",
           "title": "rpg.shop.ability.product.phantom_jerk.title",
-          "hover": "rpg.shop.ability.product.phantom_jerk.hover",
-          "icon": "money-booster.png",
-          "price": 40,
-          "abilityType": "PHANTOM_JERK",
-          "characterType": "THIEF",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.phantom_jerk.description",
+          "icon": "phantom_jerk.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "PHANTOM_JERK",
+            "CHARACTER_TYPE": "THIEF"
+          },
+          "onPurchase": [
             "give-ability %player% PHANTOM_JERK"
           ]
         },
-        {
+        "TRIPLE_ARROW": {
+          "type": "TRIPLE_ARROW",
           "title": "rpg.shop.ability.product.triple_arrow.title",
-          "hover": "rpg.shop.ability.product.triple_arrow.hover",
-          "icon": "money-booster.png",
-          "price": 40,
-          "abilityType": "TRIPLE_ARROW",
-          "characterType": "ELF",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.triple_arrow.description",
+          "icon": "triple_arrow.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "TRIPLE_ARROW",
+            "CHARACTER_TYPE": "ELF"
+          },
+          "onPurchase": [
             "give-ability %player% TRIPLE_ARROW"
           ]
         },
-        {
+        "NATURE_SPIRIT": {
+          "type": "NATURE_SPIRIT",
           "title": "rpg.shop.ability.product.nature_spirit.title",
-          "hover": "rpg.shop.ability.product.nature_spirit.hover",
-          "icon": "money-booster.png",
-          "price": 40,
-          "abilityType": "NATURE_SPIRIT",
-          "characterType": "ELF",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.nature_spirit.description",
+          "icon": "nature_spirit.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "NATURE_SPIRIT",
+            "CHARACTER_TYPE": "ELF"
+          },
+          "onPurchase": [
             "give-ability %player% NATURE_SPIRIT"
           ]
         },
-        {
+        "UNPREDICTABLE_RHYTHM": {
+          "type": "UNPREDICTABLE_RHYTHM",
           "title": "rpg.shop.ability.product.unpredictable_rhythm.title",
-          "hover": "rpg.shop.ability.product.unpredictable_rhythm.hover",
-          "icon": "money-booster.png",
-          "price": 20,
-          "abilityType": "UNPREDICTABLE_RHYTHM",
-          "characterType": "ELF",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.unpredictable_rhythm.description",
+          "icon": "unpredictable_rhythm.png",
+          "price": 20.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "UNPREDICTABLE_RHYTHM",
+            "CHARACTER_TYPE": "ELF"
+          },
+          "onPurchase": [
             "give-ability %player% UNPREDICTABLE_RHYTHM"
           ]
         },
-        {
+        "RESONANCE": {
+          "type": "RESONANCE",
           "title": "rpg.shop.ability.product.resonance.title",
-          "hover": "rpg.shop.ability.product.resonance.hover",
-          "icon": "money-booster.png",
-          "price": 40,
-          "abilityType": "RESONANCE",
-          "characterType": "MAGE",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.resonance.description",
+          "icon": "resonance.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "RESONANCE",
+            "CHARACTER_TYPE": "MAGE"
+          },
+          "onPurchase": [
             "give-ability %player% RESONANCE"
           ]
         },
-        {
+        "DETERMINATION": {
+          "type": "DETERMINATION",
           "title": "rpg.shop.ability.product.determination.title",
-          "hover": "rpg.shop.ability.product.determination.hover",
-          "icon": "money-booster.png",
-          "price": 40,
-          "abilityType": "DETERMINATION",
-          "characterType": "MAGE",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.determination.description",
+          "icon": "determination.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "DETERMINATION",
+            "CHARACTER_TYPE": "MAGE"
+          },
+          "onPurchase": [
             "give-ability %player% DETERMINATION"
           ]
         },
-           {
+        "CLEAN": {
+          "type": "CLEAN",
           "title": "rpg.shop.ability.product.clean.title",
-          "hover": "rpg.shop.ability.product.clean.hover",
-          "icon": "money-booster.png",
-          "price": 40,
-          "abilityType": "CLEAN",
-          "characterType": "MAGE",
-          "onBuy": [
+          "description": "rpg.shop.ability.product.clean.description",
+          "icon": "clean.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "CLEAN",
+            "CHARACTER_TYPE": "MAGE"
+          },
+          "onPurchase": [
             "give-ability %player% CLEAN"
           ]
         }
-      ]
+      }
     }
   }
 }
