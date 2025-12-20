@@ -48,7 +48,7 @@
       "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
       "lookAtPlayer": true,
       "onClick": [
-        "artefact-shop %player%"
+        "sudo %player% artefact-shop"
       ]
     },
     {
@@ -65,7 +65,41 @@
       "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/ability_shop.png",
       "lookAtPlayer": true,
       "onClick": [
-        "ability-shop %player%"
+        "sudo %player% ability-shop"
+      ]
+    },
+    {
+      "name": "rpg.npc.shop.food.title",
+      "location": {
+        "name": "shop",
+        "tag": "food",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/food_shop.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% food-shop"
+      ]
+    },
+    {
+      "name": "rpg.npc.shop.medicine.title",
+      "location": {
+        "name": "shop",
+        "tag": "medicine",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/medicine_shop.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sudo %player% medicine-shop"
       ]
     },
     {
