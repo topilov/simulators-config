@@ -1,5 +1,45 @@
 {
   "lootboxes": {
+    "default": {
+      "title": "rpg.lootbox.default.title",
+      "keyTitle": "rpg.lootbox.default.key.title",
+      "giveMessage": "i18n.rpg.lootbox.message.give|!|rpg.lootbox.default.key.title",
+      "alertMessage": "rpg.lootbox.default.message.alert",
+      "useMessage": "i18n.rpg.lootbox.message.use|!|rpg.lootbox.default.key.title",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "rpg.lootbox.default.key.title",
+        "lore": "rpg.lootbox.default.key.description",
+        "data": {
+          "sim": "goldkey",
+          "no-clear": 1
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      },
+      "location": {
+        "name": "lootbox",
+        "tag": "default",
+        "yaw": 0
+      },
+      "type": "GOLDEN",
+      "alertRarities": [
+        "LEGENDARY"
+      ],
+      "onOpen": [
+        "earn-tutorial-stage-progress %player% OPEN_DEFAULT_LOOTBOX",
+        "add-achievement-progress %player% OPEN_DEFAULT_LOOTBOX %amount%"
+      ],
+      "menu": {
+        "id": "default",
+        "title": "rpg.lootbox.default.menu.title",
+        "texture": "lootboxes.png",
+        "elements": []
+      }
+    },
     "pets": {
       "title": "rpg.lootbox.pets.title",
       "keyTitle": "rpg.lootbox.pets.key.title",
@@ -72,6 +112,44 @@
       "menu": {
         "id": "rune",
         "title": "rpg.lootbox.runes.menu.title",
+        "texture": "lootboxes.png",
+        "elements": []
+      }
+    },
+    "title": {
+      "title": "rpg.lootbox.titles.title",
+      "keyTitle": "rpg.lootbox.titles.key.title",
+      "giveMessage": "i18n.rpg.lootbox.message.give|!|rpg.lootbox.titles.key.title",
+      "alertMessage": "rpg.lootbox.titles.message.alert",
+      "useMessage": "i18n.rpg.lootbox.message.use|!|rpg.lootbox.titles.key.title",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "rpg.lootbox.titles.key.title",
+        "lore": "rpg.lootbox.titles.key.description",
+        "data": {
+          "sim": "purple_crystal_key",
+          "no-clear": 1
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      },
+      "type": "GOLDEN",
+      "location": {
+        "name": "lootbox",
+        "tag": "titles",
+        "yaw": 0
+      },
+      "alertRarities": [
+        "LEGENDARY"
+      ],
+      "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
+      "onOpen": [],
+      "menu": {
+        "id": "title",
+        "title": "rpg.lootbox.titles.menu.title",
         "texture": "lootboxes.png",
         "elements": []
       }
