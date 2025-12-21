@@ -141,7 +141,53 @@
         "id": "rune",
         "title": "rpg.lootbox.runes.menu.title",
         "texture": "lootboxes.png",
-        "elements": []
+        "elements": [
+          {
+            "id": "thor_weapon_1",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.thor_weapon.name",
+              "lore": "rpg.runes.thor_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 70,
+            "onDrop": [
+              "give-rune %player% THOR_WEAPON 1"
+            ]
+          },
+          {
+            "id": "thor_weapon_2",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.thor_weapon.name",
+              "lore": "rpg.runes.thor_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 20,
+            "onDrop": [
+              "give-rune %player% THOR_WEAPON 2"
+            ]
+          },
+          {
+            "id": "thor_weapon_3",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.thor_weapon.name",
+              "lore": "rpg.runes.thor_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 10,
+            "onDrop": [
+              "give-rune %player% THOR_WEAPON 3"
+            ]
+          }
+        ]
       }
     },
     "title": {
@@ -179,7 +225,24 @@
         "id": "title",
         "title": "rpg.lootbox.titles.menu.title",
         "texture": "lootboxes.png",
-        "elements": []
+        "elements": [
+          {
+            "id": "commoner",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.commoner.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.commoner",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 100,
+            "onDrop": [
+              "give-title %player% COMMONER"
+            ]
+          }
+        ]
       }
     }
   }
