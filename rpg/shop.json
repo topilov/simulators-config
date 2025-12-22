@@ -1,32 +1,32 @@
 {
   "shops": {
-    "FOOD": {
+    "FEED": {
       "vault": "\uE108",
       "products": {
         "BACON": {
           "type": "BACON",
-          "title": "rpg.shop.food.product.bacon.title",
-          "description": "rpg.shop.food.product.bacon.description",
+          "title": "rpg.shop.feed.product.bacon.title",
+          "description": "rpg.shop.feed.product.bacon.description",
           "icon": "bacon.png",
           "price": 100.0,
           "vault": "\uE108",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "give-food %player% BACON %amount%"
+            "give-feed %player% BACON %amount%"
           ]
         },
         "TAB": {
           "type": "TAB",
-          "title": "rpg.shop.food.product.tab.title",
-          "description": "rpg.shop.food.product.tab.description",
+          "title": "rpg.shop.feed.product.tab.title",
+          "description": "rpg.shop.feed.product.tab.description",
           "icon": "tab.png",
           "price": 150.0,
           "vault": "\uE108",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "give-medicine %player% TAB %amount%"
+            "give-feed %player% TAB %amount%"
           ]
         }
       }
