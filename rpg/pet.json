@@ -15,20 +15,22 @@
           "maxHealth": 100.0,
           "maxHappiness": 100.0,
           "maxSatiation": 100.0,
-          "spendSatiation": 1.0,
-          "attackCooldown": 1050.0,
-          "damageFactor": 0.2,
+          "spendHappiness": 0.0333,
+          "earnHappiness": 0.0667,
+          "spendSatiation": 0.07,
+          "attackCooldown": 2000.0,
+          "damageFactor": 0.03,
           "diseases": {
             "chance": 0.1,
             "mapping": {
               "ALZHEIMER": 100.0
             }
           },
-          "takeDamageChance": 50.0,
-          "takeDamageAmount": 10.0,
+          "takeDamageChance": 5.0,
+          "takeDamageAmount": 1.0,
           "requiredExp": 100.0,
           "stat": {
-            "MOB_MONEY": 0.0,
+            "MOB_MONEY": 1.1,
             "DAMAGE": 0.0,
             "REGEN": 0.0,
             "MULTIKILL": 0.0,
@@ -90,7 +92,18 @@
       "description": "rpg.medicine.tab.description",
       "icon": "tab.png",
       "rarity": "COMMON",
-      "stat": 10
+       "stat": {
+        "REDUCE_DISEASE": 10
+      }
+    },
+    "BANDAGE": {
+      "title": "rpg.medicine.bandage.title",
+      "description": "rpg.medicine.bandage.description",
+      "icon": "bandage.png",
+      "rarity": "COMMON",
+      "stat": {
+        "HEAL": 10
+      }
     }
   }
 }
