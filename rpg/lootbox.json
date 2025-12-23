@@ -74,33 +74,153 @@
         "texture": "lootboxes.png",
         "elements": [
           {
-            "id": "warrior-fragment",
+            "id": "wolf-fragment",
             "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
-              "name": "rpg.pet.warrior.fragment.title",
-              "lore": "rpg.pet.warrior.fragment.description",
+              "name": "rpg.pet.wolf.fragment.title",
+              "lore": "rpg.pet.wolf.fragment.description",
               "damage": 3,
-              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyMDE1YTcwNWU0ZTVhMDRiMGU5OTQ3MzgxMTdkMDYyMzkxYjBlOWI1MDU5NmQ2NjE1YTlhMTlkY2Y1N2YyNiJ9fX0"
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU0ODFkNjEwZWMwNmE1NDM4NDBmNzZiOGNjOWRjNTFmZDgwMjAwYTVmYTg5NGZkZjRlOWUzMDE5MDRhZjQ4ZSJ9fX0="
             },
-            "chance": 90,
+            "chance": 19.2,
             "onDrop": [
-              "give-fragment %player% WARRIOR 1"
+              "give-fragment %player% WOLF 1"
             ]
           },
           {
-            "id": "warrior",
+            "id": "wolf",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
-              "name": "rpg.pet.warrior.title",
-              "lore": "rpg.pet.warrior.description",
+              "name": "rpg.pet.wolf.title",
+              "lore": "rpg.pet.wolf.description",
               "damage": 3,
-              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyMDE1YTcwNWU0ZTVhMDRiMGU5OTQ3MzgxMTdkMDYyMzkxYjBlOWI1MDU5NmQ2NjE1YTlhMTlkY2Y1N2YyNiJ9fX0"
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU0ODFkNjEwZWMwNmE1NDM4NDBmNzZiOGNjOWRjNTFmZDgwMjAwYTVmYTg5NGZkZjRlOWUzMDE5MDRhZjQ4ZSJ9fX0="
             },
-            "chance": 10,
+            "chance": 0.8,
             "onDrop": [
-              "give-pet %player% WARRIOR 1"
+              "give-pet %player% WOLF 1"
+            ]
+          },
+          {
+            "id": "leprechaun-fragment",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.pet.leprechaun.fragment.title",
+              "lore": "rpg.pet.leprechaun.fragment.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiNjY5ZDc0NThkODQ5OTRiY2NhZWZjYzE0YmFjMjMzY2VkMWJiYTU5ZjM4ZjViMGJjMmNjNDE3ZjVlYzdjNyJ9fX0="
+            },
+            "chance": 19.2,
+            "onDrop": [
+              "give-fragment %player% LEPRECHAUN 1"
+            ]
+          },
+          {
+            "id": "leprechaun",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.pet.leprechaun.title",
+              "lore": "rpg.pet.leprechaun.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiNjY5ZDc0NThkODQ5OTRiY2NhZWZjYzE0YmFjMjMzY2VkMWJiYTU5ZjM4ZjViMGJjMmNjNDE3ZjVlYzdjNyJ9fX0="
+            },
+            "chance": 0.8,
+            "onDrop": [
+              "give-pet %player% LEPRECHAUN 1"
+            ]
+          },
+          {
+            "id": "turtle-fragment",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.pet.turtle.fragment.title",
+              "lore": "rpg.pet.turtle.fragment.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRjZmI1ZDlkYTZkOWEyZmE1NmU4OWRhNGEyODJmYWZmNmU2NmQ5NDJkNjdiZDZkMDk0ODMyYjg3ZWRmNjc4In19fQ=="
+            },
+            "chance": 19.2,
+            "onDrop": [
+              "give-fragment %player% TURTLE 1"
+            ]
+          },
+          {
+            "id": "turtle",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.pet.turtle.title",
+              "lore": "rpg.pet.turtle.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRjZmI1ZDlkYTZkOWEyZmE1NmU4OWRhNGEyODJmYWZmNmU2NmQ5NDJkNjdiZDZkMDk0ODMyYjg3ZWRmNjc4In19fQ=="
+            },
+            "chance": 0.8,
+            "onDrop": [
+              "give-pet %player% TURTLE 1"
+            ]
+          },
+          {
+            "id": "bear-fragment",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.pet.bear.fragment.title",
+              "lore": "rpg.pet.bear.fragment.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUyNmUxYTQ2MmMwYmYyYTg4NDQyM2MwNjgxZjNlOWUyMDJhZmNkNDdlYTNiNWYyZmY5MjVhODMyZWVkZjI3MyJ9fX0="
+            },
+            "chance": 19.2,
+            "onDrop": [
+              "give-fragment %player% BEAR 1"
+            ]
+          },
+          {
+            "id": "bear",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.pet.bear.title",
+              "lore": "rpg.pet.bear.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUyNmUxYTQ2MmMwYmYyYTg4NDQyM2MwNjgxZjNlOWUyMDJhZmNkNDdlYTNiNWYyZmY5MjVhODMyZWVkZjI3MyJ9fX0="
+            },
+            "chance": 0.8,
+            "onDrop": [
+              "give-pet %player% BEAR 1"
+            ]
+          },
+          {
+            "id": "black_cat-fragment",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.pet.black_cat.fragment.title",
+              "lore": "rpg.pet.black_cat.fragment.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhjMmYxZjdlOGNkNmIwMGQzMGYwZWRhZWVmY2UzOGU4ODkxNzNjMzBjNzAxZmFjMGRhODYwZTBhMjEyNWVjOCJ9fX0="
+            },
+            "chance": 19.2,
+            "onDrop": [
+              "give-fragment %player% BLACK_CAT 1"
+            ]
+          },
+          {
+            "id": "black_cat",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.pet.black_cat.title",
+              "lore": "rpg.pet.black_cat.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhjMmYxZjdlOGNkNmIwMGQzMGYwZWRhZWVmY2UzOGU4ODkxNzNjMzBjNzAxZmFjMGRhODYwZTBhMjEyNWVjOCJ9fX0="
+            },
+            "chance": 0.8,
+            "onDrop": [
+              "give-pet %player% BLACK_CAT 1"
             ]
           }
         ]
@@ -133,7 +253,7 @@
         "yaw": 0
       },
       "alertRarities": [
-        "LEGENDARY"
+        "MYTHIC"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [],
@@ -144,21 +264,6 @@
         "elements": [
           {
             "id": "thor_weapon_1",
-            "rarity": "RARE",
-            "itemStack": {
-              "type": "SKULL_ITEM",
-              "name": "rpg.runes.thor_weapon.name",
-              "lore": "rpg.runes.thor_weapon.description",
-              "damage": 3,
-              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-            },
-            "chance": 70,
-            "onDrop": [
-              "give-rune %player% THOR_WEAPON 1"
-            ]
-          },
-          {
-            "id": "thor_weapon_2",
             "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -167,13 +272,13 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 20,
+            "chance": 4,
             "onDrop": [
-              "give-rune %player% THOR_WEAPON 2"
+              "give-rune %player% THOR_WEAPON 1"
             ]
           },
           {
-            "id": "thor_weapon_3",
+            "id": "thor_weapon_2",
             "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
@@ -182,9 +287,429 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 10,
+            "chance": 1.5,
+            "onDrop": [
+              "give-rune %player% THOR_WEAPON 2"
+            ]
+          },
+          {
+            "id": "thor_weapon_3",
+            "rarity": "MYTHIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.thor_weapon.name",
+              "lore": "rpg.runes.thor_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 0.8,
             "onDrop": [
               "give-rune %player% THOR_WEAPON 3"
+            ]
+          },
+          {
+            "id": "cold_weapon_1",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.cold_weapon.name",
+              "lore": "rpg.runes.cold_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 6,
+            "onDrop": [
+              "give-rune %player% COLD_WEAPON 1"
+            ]
+          },
+          {
+            "id": "cold_weapon_2",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.cold_weapon.name",
+              "lore": "rpg.runes.cold_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 2.5,
+            "onDrop": [
+              "give-rune %player% COLD_WEAPON 2"
+            ]
+          },
+          {
+            "id": "cold_weapon_3",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.cold_weapon.name",
+              "lore": "rpg.runes.cold_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 1.5,
+            "onDrop": [
+              "give-rune %player% COLD_WEAPON 3"
+            ]
+          },
+          {
+            "id": "damage_weapon_1",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.damage_weapon.name",
+              "lore": "rpg.runes.damage_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 6,
+            "onDrop": [
+              "give-rune %player% DAMAGE_WEAPON 1"
+            ]
+          },
+          {
+            "id": "damage_weapon_2",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.damage_weapon.name",
+              "lore": "rpg.runes.damage_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 2.5,
+            "onDrop": [
+              "give-rune %player% DAMAGE_WEAPON 2"
+            ]
+          },
+          {
+            "id": "damage_weapon_3",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.damage_weapon.name",
+              "lore": "rpg.runes.damage_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 1.5,
+            "onDrop": [
+              "give-rune %player% DAMAGE_WEAPON 3"
+            ]
+          },
+          {
+            "id": "critical_weapon_1",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.critical_weapon.name",
+              "lore": "rpg.runes.critical_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 8.75,
+            "onDrop": [
+              "give-rune %player% CRITICAL_WEAPON 1"
+            ]
+          },
+          {
+            "id": "critical_weapon_2",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.critical_weapon.name",
+              "lore": "rpg.runes.critical_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 3.5,
+            "onDrop": [
+              "give-rune %player% CRITICAL_WEAPON 2"
+            ]
+          },
+          {
+            "id": "critical_weapon_3",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.critical_weapon.name",
+              "lore": "rpg.runes.critical_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-rune %player% CRITICAL_WEAPON 3"
+            ]
+          },
+          {
+            "id": "stun_weapon_1",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.stun_weapon.name",
+              "lore": "rpg.runes.stun_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 8.75,
+            "onDrop": [
+              "give-rune %player% STUN_WEAPON 1"
+            ]
+          },
+          {
+            "id": "stun_weapon_2",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.stun_weapon.name",
+              "lore": "rpg.runes.stun_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 3.5,
+            "onDrop": [
+              "give-rune %player% STUN_WEAPON 2"
+            ]
+          },
+          {
+            "id": "stun_weapon_3",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.stun_weapon.name",
+              "lore": "rpg.runes.stun_weapon.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-rune %player% STUN_WEAPON 3"
+            ]
+          },
+          {
+            "id": "defense_armor_1",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.defense_armor.name",
+              "lore": "rpg.runes.defense_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 8.75,
+            "onDrop": [
+              "give-rune %player% DEFENSE_ARMOR 1"
+            ]
+          },
+          {
+            "id": "defense_armor_2",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.defense_armor.name",
+              "lore": "rpg.runes.defense_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 3.5,
+            "onDrop": [
+              "give-rune %player% DEFENSE_ARMOR 2"
+            ]
+          },
+          {
+            "id": "defense_armor_3",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.defense_armor.name",
+              "lore": "rpg.runes.defense_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-rune %player% DEFENSE_ARMOR 3"
+            ]
+          },
+          {
+            "id": "restore_armor_1",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.restore_armor.name",
+              "lore": "rpg.runes.restore_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 6,
+            "onDrop": [
+              "give-rune %player% RESTORE_ARMOR 1"
+            ]
+          },
+          {
+            "id": "restore_armor_2",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.restore_armor.name",
+              "lore": "rpg.runes.restore_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 2.5,
+            "onDrop": [
+              "give-rune %player% RESTORE_ARMOR 2"
+            ]
+          },
+          {
+            "id": "restore_armor_3",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.restore_armor.name",
+              "lore": "rpg.runes.restore_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 1.5,
+            "onDrop": [
+              "give-rune %player% RESTORE_ARMOR 3"
+            ]
+          },
+          {
+            "id": "health_armor_1",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.health_armor.name",
+              "lore": "rpg.runes.health_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 8.75,
+            "onDrop": [
+              "give-rune %player% HEALTH_ARMOR 1"
+            ]
+          },
+          {
+            "id": "health_armor_2",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.health_armor.name",
+              "lore": "rpg.runes.health_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 3.5,
+            "onDrop": [
+              "give-rune %player% HEALTH_ARMOR 2"
+            ]
+          },
+          {
+            "id": "health_armor_3",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.health_armor.name",
+              "lore": "rpg.runes.health_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-rune %player% HEALTH_ARMOR 3"
+            ]
+          },
+          {
+            "id": "thor_armor_1",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.thor_armor.name",
+              "lore": "rpg.runes.thor_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 4,
+            "onDrop": [
+              "give-rune %player% THOR_ARMOR 1"
+            ]
+          },
+          {
+            "id": "thor_armor_2",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.thor_armor.name",
+              "lore": "rpg.runes.thor_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 1.5,
+            "onDrop": [
+              "give-rune %player% THOR_ARMOR 2"
+            ]
+          },
+          {
+            "id": "thor_armor_3",
+            "rarity": "MYTHIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.thor_armor.name",
+              "lore": "rpg.runes.thor_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDcjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 0.8,
+            "onDrop": [
+              "give-rune %player% THOR_ARMOR 3"
+            ]
+          },
+          {
+            "id": "freeze_armor_1",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.freeze_armor.name",
+              "lore": "rpg.runes.freeze_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 6,
+            "onDrop": [
+              "give-rune %player% FREEZE_ARMOR 1"
+            ]
+          },
+          {
+            "id": "freeze_armor_2",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.freeze_armor.name",
+              "lore": "rpg.runes.freeze_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 2.5,
+            "onDrop": [
+              "give-rune %player% FREEZE_ARMOR 2"
+            ]
+          },
+          {
+            "id": "freeze_armor_3",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "rpg.runes.freeze_armor.name",
+              "lore": "rpg.runes.freeze_armor.description",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 1.5,
+            "onDrop": [
+              "give-rune %player% FREEZE_ARMOR 3"
             ]
           }
         ]
@@ -232,14 +757,510 @@
             "itemStack": {
               "type": "CLAY_BALL",
               "name": "rpg.titles.commoner.name",
-              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.commoner",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
               "data": {
                 "sim": "titles"
               }
             },
-            "chance": 100,
+            "chance": 2.205882,
             "onDrop": [
               "give-title %player% COMMONER"
+            ]
+          },
+          {
+            "id": "traveler",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.traveler.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% TRAVELER"
+            ]
+          },
+          {
+            "id": "apprentice",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.apprentice.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% APPRENTICE"
+            ]
+          },
+          {
+            "id": "defender",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.defender.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% DEFENDER"
+            ]
+          },
+          {
+            "id": "seeker",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.seeker.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% SEEKER"
+            ]
+          },
+          {
+            "id": "brute",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.brute.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% BRUTE"
+            ]
+          },
+          {
+            "id": "pilgrim",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.pilgrim.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% PILGRIM"
+            ]
+          },
+          {
+            "id": "avenger",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.avenger.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% AVENGER"
+            ]
+          },
+          {
+            "id": "marauder",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.marauder.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% MARAUDER"
+            ]
+          },
+          {
+            "id": "prophet",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.prophet.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% PROPHET"
+            ]
+          },
+          {
+            "id": "sorcerer",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.sorcerer.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% SORCERER"
+            ]
+          },
+          {
+            "id": "architect",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.architect.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% ARCHITECT"
+            ]
+          },
+          {
+            "id": "immortal",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.immortal.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% IMMORTAL"
+            ]
+          },
+          {
+            "id": "grief",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.grief.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% GRIEF"
+            ]
+          },
+          {
+            "id": "dragon",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.dragon.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% DRAGON"
+            ]
+          },
+          {
+            "id": "titan",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.titan.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% TITAN"
+            ]
+          },
+          {
+            "id": "king",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.king.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.none",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2.205882,
+            "onDrop": [
+              "give-title %player% KING"
+            ]
+          },
+          {
+            "id": "tough",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.tough.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.tough",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 6.6,
+            "onDrop": [
+              "give-title %player% TOUGH"
+            ]
+          },
+          {
+            "id": "destroyer",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.destroyer.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.destroyer",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 6.6,
+            "onDrop": [
+              "give-title %player% DESTROYER"
+            ]
+          },
+          {
+            "id": "guardian",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.guardian.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.guardian",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 6.6,
+            "onDrop": [
+              "give-title %player% GUARDIAN"
+            ]
+          },
+          {
+            "id": "thief",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.thief.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.thief",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 6.6,
+            "onDrop": [
+              "give-title %player% THIEF"
+            ]
+          },
+          {
+            "id": "deadly",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.deadly.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.deadly",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% DEADLY"
+            ]
+          },
+          {
+            "id": "crusher",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.crusher.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.crusher",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% CRUSHER"
+            ]
+          },
+          {
+            "id": "ironclad",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.ironclad.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.ironclad",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% IRONCLAD"
+            ]
+          },
+          {
+            "id": "berserker",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.berserker.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.berserker",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% BERSERKER"
+            ]
+          },
+          {
+            "id": "hunter",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.hunter.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.hunter",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% HUNTER"
+            ]
+          },
+          {
+            "id": "experienced",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.blacksmith.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.blacksmith",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 2,
+            "onDrop": [
+              "give-title %player% EXPERIENCED"
+            ]
+          },
+          {
+            "id": "negotiator",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.negotiator.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.negotiator",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 0.621875,
+            "onDrop": [
+              "give-title %player% NEGOTIATOR"
+            ]
+          },
+          {
+            "id": "animal_lover",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.animal_lover.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.animal_lover",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 0.621875,
+            "onDrop": [
+              "give-title %player% ANIMAL_LOVER"
+            ]
+          },
+          {
+            "id": "executioner",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.executioner.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.executioner",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 0.621875,
+            "onDrop": [
+              "give-title %player% EXECUTIONER"
+            ]
+          },
+          {
+            "id": "prince",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.prince.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.prince",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 0.621875,
+            "onDrop": [
+              "give-title %player% PRINCE"
+            ]
+          },
+          {
+            "id": "lucky",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.titles.lucky.name",
+              "lore": "i18n.rpg.titles.description|!|rpg.titles.ability.lucky",
+              "data": {
+                "sim": "titles"
+              }
+            },
+            "chance": 0.621875,
+            "onDrop": [
+              "give-title %player% LUCKY"
             ]
           }
         ]
