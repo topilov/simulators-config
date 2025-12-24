@@ -31,7 +31,12 @@
           "requiredExp": 100.0,
           "stat": {
             "MOB_MONEY": 1.1
-          }
+          },
+          "worseDamageMapping": [
+            {"happinessPercentLessThan": 70, "extraDamagePercent": 30},
+            {"happinessPercentLessThan": 50, "extraDamagePercent": 50},
+            {"happinessPercentLessThan": 30, "extraDamagePercent": 100}
+          ]
         },
         "2": {
           "maxHealth": 104.0,
