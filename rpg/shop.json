@@ -230,11 +230,39 @@
     },
     "ARTEFACT": {
       "vault": "\uE108",
-      "products": {}
+      "products": {
+        "SIMPLE": {
+          "type": "SIMPLE",
+          "title": "rpg.shop.artefact.product.simple.title",
+          "description": "rpg.shop.artefact.product.simple.description",
+          "icon": "simple.png",
+          "price": 100.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "command to give"
+          ]
+        }
+      }
     },
     "BITS": {
       "vault": "\uE1D1",
-      "products": {}
+      "products": {
+        "SIMPLE": {
+          "type": "SIMPLE",
+          "title": "rpg.shop.bits.product.simple.title",
+          "description": "rpg.shop.bits.product.simple.description",
+          "icon": "simple.png",
+          "price": 100.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "command to give"
+          ]
+        }
+      }
     }
   }
 }
