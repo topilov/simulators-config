@@ -1,3 +1,54 @@
 {
-  "achievements": {}
+  "achievements": {
+    "OPEN_DEFAULT_LOOTBOX": {
+      "title": "rpg.achievement.open_default_lootbox.title",
+      "texture": "open_default_lootbox.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.rpg.achievement.open_default_lootbox.stages.title|!|50",
+          "description": "i18n.rpg.achievement.reward.description|!|1",
+          "required": 50.0,
+          "onTake": [
+            "give-incident-points %player% 1 true"
+          ]
+        },
+        {
+          "title": "i18n.rpg.achievement.open_rpg_lootbox.stages.title|!|550",
+          "description": "i18n.rpg.achievement.reward.description|!|3",
+          "required": 550.0,
+          "onTake": [
+            "give-incident-points %player% 3 true"
+          ]
+        },
+        {
+          "title": "i18n.rpg.achievement.open_rpg_lootbox.stages.title|!|3К",
+          "description": "i18n.rpg.achievement.reward.description|!|9",
+          "required": 3000.0,
+          "onTake": [
+            "give-incident-points %player% 9 true"
+          ]
+        },
+        {
+          "title": "i18n.rpg.achievement.open_rpg_lootbox.stages.title|!|12.5К",
+          "description": "i18n.rpg.achievement.reward.description|!|15",
+          "required": 12500.0,
+          "onTake": [
+            "give-incident-points %player% 15 true"
+          ]
+        },
+        {
+          "title": "i18n.rpg.achievement.open_rpg_lootbox.stages.title|!|35К",
+          "description": "i18n.rpg.achievement.reward.description|!|25",
+          "required": 35000.0,
+          "onTake": [
+            "give-incident-points %player% 25 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.rpg.achievement.messages.complete|!|rpg.achievement.open_rpg_lootbox.title"
+      }
+    }
+  }
 }
