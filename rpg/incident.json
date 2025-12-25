@@ -4,7 +4,7 @@
 	  "texture": "sale_percent_1.png",
 	  "title": "rpg.incident.price_reduction.title",
 	  "description": "rpg.incident.price_reduction.description",
-	  "stat": [ 60, 10 ],
+	  "stat": [ 60, 5 ],
 	  "awaitAt": [
 		  "0:40:0",
 		  "4:40:0",
@@ -34,7 +34,7 @@
 	  "texture": "dropper_spawn_every_1.png",
 	  "title": "rpg.incident.dropper.title",
 	  "description": "rpg.incident.dropper.description",
-	  "stat": [ 60, 0.5, 0.0, 100, 1 ],
+	  "stat": [ 60, 0.5, 0.0, 10, 1 ],
 	  "awaitAt": [
 		  "2:40:0",
 		  "6:40:0",
@@ -49,7 +49,7 @@
 	  "texture": "supercharging_percent_multiplier_1.png",
 	  "title": "rpg.incident.supercharging.title",
 	  "description": "rpg.incident.supercharging.description",
-	  "stat": [ 60, 50 ],
+	  "stat": [ 60, 1 ],
 	  "awaitAt": [
 		  "3:40:0",
 		  "7:40:0",
@@ -91,7 +91,7 @@
 			"title": "i18n.rpg.incident.menu.sale_percent.title|!|I",
 			"description": "rpg.incident.price_reduction.percent.description",
 			"statId": 1,
-			"additional": 1.25,
+			"additional": 1,
 			"price": 6,
 			"maxProgress": 5,
 			"viewpoint": {"x": 0, "y": 0 },
@@ -132,7 +132,7 @@
 			"title": "i18n.rpg.incident.menu.sale_percent.title|!|III",
 			"description": "rpg.incident.price_reduction.percent.description",
 			"statId": 1,
-			"additional": 8,
+			"additional": 5,
 			"price": 20,
 			"maxProgress": 3,
 			"viewpoint": {"x": 2, "y": 0},
@@ -151,7 +151,7 @@
 			"description": "rpg.incident.increased_lootbox_chance.percent.description",
 			"statId": 1,
 			"additional": 3,
-			"price": 8,
+			"price": 6,
 			"maxProgress": 5,
 			"viewpoint": {"x": 0, "y": 0}
 		  },
@@ -164,7 +164,7 @@
 			"description": "rpg.incident.increased_lootbox_chance.percent.description",
 			"statId": 1,
 			"additional": 4,
-			"price": 14,
+			"price": 10,
 			"maxProgress": 5,
 			"viewpoint": {"x": 1, "y": 0}
 		  },
@@ -190,7 +190,7 @@
 			"description": "rpg.incident.increased_lootbox_chance.percent.description",
 			"statId": 1,
 			"additional": 15,
-			"price": 50,
+			"price": 20,
 			"maxProgress": 3,
 			"viewpoint": {"x": 2, "y": 0}
 		  }
@@ -206,7 +206,7 @@
 			"title": "i18n.rpg.incident.menu.dropper_worth_coin.title|!|I",
 			"description": "rpg.incident.dropper_worth_coin.percent.description",
 			"statId": 3,
-			"additional": 500,
+			"additional": 20,
 			"price": 6,
 			"maxProgress": 5,
 			"viewpoint": {"x": 0, "y": 0}
@@ -219,7 +219,7 @@
 			"title": "i18n.rpg.incident.menu.dropper_worth_coin.title|!|II",
 			"description": "rpg.incident.dropper_worth_coin.percent.description",
 			"statId": 3,
-			"additional": 10000,
+			"additional": 100,
 			"price": 10,
 			"maxProgress": 5,
 			"viewpoint": {"x": 1, "y": 1}
@@ -286,7 +286,7 @@
 			"title": "i18n.rpg.incident.menu.dropper_worth_coin.title|!|III",
 			"description": "rpg.incident.dropper_worth_coin.percent.description",
 			"statId": 3,
-			"additional": 100000,
+			"additional": 1000,
 			"price": 20,
 			"maxProgress": 3,
 			"viewpoint": {"x": 2, "y": 1}
@@ -303,7 +303,7 @@
 			"title": "i18n.rpg.incident.menu.supercharging_percent_miltiplier.title|!|I",
 			"description": "rpg.incident.supercharging_multiplier.percent.description",
 			"statId": 1,
-			"additional": 8,
+			"additional": 0.2,
 			"price": 6,
 			"maxProgress": 5,
 			"viewpoint": {"x": 0, "y": 0}
@@ -316,7 +316,7 @@
 			"title": "i18n.rpg.incident.menu.supercharging_percent_miltiplier.title|!|II",
 			"description": "rpg.incident.supercharging_multiplier.percent.description",
 			"statId": 1,
-			"additional": 15,
+			"additional": 0.4,
 			"price": 10,
 			"maxProgress": 5,
 			"viewpoint": {"x": 1, "y": 0}
@@ -342,7 +342,7 @@
 			"title": "i18n.rpg.incident.menu.supercharging_percent_miltiplier.title|!|III",
 			"description": "rpg.incident.supercharging_multiplier.percent.description",
 			"statId": 1,
-			"additional": 45,
+			"additional": 0.8,
 			"price": 20,
 			"maxProgress": 3,
 			"viewpoint": {"x": 2, "y": 0}
