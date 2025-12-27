@@ -300,7 +300,71 @@
       }
     },
     "CRUCIFIED_VALLEY": {
-      "bosses": {}
+      "bosses": {
+        "ASHEN": {
+          "spawnAt": ["0:00:00"],
+          "type": "ASHEN",
+          "fightTime": 0.0,
+          "settings": {
+            "health": 0,
+            "damage": 0.0,
+            "speed": 0.0,
+            "locations": [ { "name": "boss", "tag": "ashen" } ],
+            "customName": "",
+            "skinUrl": ""
+          },
+          "menu": {
+            "title": "rpg.boss.ashen.name",
+            "state": "rpg.boss.ashen.state",
+            "description": "rpg.boss.ashen.description",
+            "icon": "ashen_icon.png",
+            "rewards": [
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              }
+            ]
+          },
+          "messages": {
+            "onSpawn": "rpg.event.ashen.start_message",
+            "onDeath": "rpg.event.ashen.end_message"
+          },
+          "reward": [[]],
+          "children": []
+        }
+      }
     },
     "SUNKEN_ARCHIPELAGO": {
       "bosses": {
@@ -563,7 +627,71 @@
       }
     },
     "HEART_OF_CHAOS": {
-      "bosses": {}
+      "bosses": {
+        "ASHEN": {
+          "spawnAt": ["0:00:00"],
+          "type": "ASHEN",
+          "fightTime": 0.0,
+          "settings": {
+            "health": 0,
+            "damage": 0.0,
+            "speed": 0.0,
+            "locations": [ { "name": "boss", "tag": "ashen" } ],
+            "customName": "",
+            "skinUrl": ""
+          },
+          "menu": {
+            "title": "rpg.boss.ashen.name",
+            "state": "rpg.boss.ashen.state",
+            "description": "rpg.boss.ashen.description",
+            "icon": "ashen_icon.png",
+            "rewards": [
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              },
+              {
+                "type": "WOOD_SWORD",
+                "name": "testtest",
+                "lore": "testtest123",
+                "amount": 32
+              }
+            ]
+          },
+          "messages": {
+            "onSpawn": "rpg.event.ashen.start_message",
+            "onDeath": "rpg.event.ashen.end_message"
+          },
+          "reward": [[]],
+          "children": []
+        }
+      }
     }
   }
 }
