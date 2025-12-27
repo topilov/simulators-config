@@ -1,36 +1,5 @@
 {
   "shops": {
-    "FEED": {
-      "vault": "\uE108",
-      "products": {
-        "BACON": {
-          "type": "BACON",
-          "title": "rpg.feed.bacon.title",
-          "description": "rpg.feed.bacon.description",
-          "icon": "bacon.png",
-          "price": 100.0,
-          "vault": "\uE108",
-          "amount": 1,
-          "isCounterEnabled": true,
-          "onPurchase": [
-            "give-feed %player% BACON %amount%"
-          ]
-        },
-        "TAB": {
-          "type": "TAB",
-          "title": "rpg.feed.tab.title",
-          "description": "rpg.feed.tab.description",
-          "icon": "tab.png",
-          "price": 150.0,
-          "vault": "\uE108",
-          "amount": 1,
-          "isCounterEnabled": true,
-          "onPurchase": [
-            "give-feed %player% TAB %amount%"
-          ]
-        }
-      }
-    },
     "ABILITY": {
       "vault": "\uE1C0",
       "products": {
@@ -68,8 +37,8 @@
         },
         "IRON_WILL": {
           "type": "IRON_WILL",
-          "title": "rpg.shop.ability.product.justice_blade.title",
-          "description": "rpg.shop.ability.product.justice_blade.description",
+          "title": "rpg.shop.ability.product.iron_will.title",
+          "description": "rpg.shop.ability.product.iron_will.description",
           "icon": "iron_will.png",
           "price": 40.0,
           "vault": "\uE1C0",
@@ -231,17 +200,204 @@
     "ARTEFACT": {
       "vault": "\uE108",
       "products": {
-        "SIMPLE": {
-          "type": "SIMPLE",
-          "title": "rpg.shop.artefact.product.simple.title",
-          "description": "rpg.shop.artefact.product.simple.description",
-          "icon": "simple.png",
+        "SHIV": {
+          "type": "SHIV_TOOL",
+          "title": "rpg.shop.artefact.product.shiv.tool.title",
+          "description": "rpg.shop.artefact.product.shiv.tool.description",
+          "icon": "shiv.tool.png",
           "price": 100.0,
           "vault": "\uE108",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "command to give"
+            "give-shiv %player% TOOL DEFAULT %count%"
+          ]
+        },
+        "SHIV_ARMOR": {
+          "type": "SHIV_ARMOR",
+          "title": "rpg.shop.artefact.product.shiv.armor.title",
+          "description": "rpg.shop.artefact.product.shiv.armor.description",
+          "icon": "shiv_armor.png",
+          "price": 100.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-shiv %player% ARMOR DEFAULT %count%"
+          ]
+        },
+        "KEY_PETS": {
+          "type": "KEY_PETS",
+          "title": "rpg.lootbox.pets.key.title",
+          "description": "rpg.lootbox.pets.key.description",
+          "icon": "fox_key.png",
+          "price": 250.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% PET %count%"
+          ]
+        },
+        "KEY_RUNES": {
+          "type": "KEY_RUNES",
+          "title": "rpg.lootbox.runes.key.title",
+          "description": "rpg.lootbox.runes.key.description",
+          "icon": "rune_key.png",
+          "price": 300.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% RUNE %count%"
+          ]
+        },
+        "KEY_TITLES": {
+          "type": "KEY_TITLES",
+          "title": "rpg.lootbox.titles.key.title",
+          "description": "rpg.lootbox.titles.key.description",
+          "icon": "purple_crystal_key.png",
+          "price": 200.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% TITLE %count%"
+          ]
+        },
+        "KEY_DEFAULT": {
+          "type": "KEY_DEFAULT",
+          "title": "rpg.lootbox.default.key.title",
+          "description": "rpg.lootbox.default.key.description",
+          "icon": "goldkey.png",
+          "price": 150.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% DEFAULT %count%"
+          ]
+        }
+      }
+    },
+    "FEED": {
+      "vault": "\uE108",
+      "products": {
+        "VEGETABLE": {
+          "type": "VEGETABLE",
+          "title": "rpg.feed.vegetable.title",
+          "description": "rpg.feed.vegetable.description",
+          "icon": "vegetable.png",
+          "price": 25.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% VEGETABLE %count%"
+          ]
+        },
+        "BACON": {
+          "type": "BACON",
+          "title": "rpg.feed.bacon.title",
+          "description": "rpg.feed.bacon.description",
+          "icon": "bacon.png",
+          "price": 50.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% BACON %count%"
+          ]
+        },
+        "MEAT": {
+          "type": "MEAT",
+          "title": "rpg.feed.meat.title",
+          "description": "rpg.feed.meat.description",
+          "icon": "meat.png",
+          "price": 75.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% MEAT %count%"
+          ]
+        },
+        "TAB": {
+          "type": "TAB",
+          "title": "rpg.feed.tab.title",
+          "description": "rpg.feed.tab.description",
+          "icon": "tab.png",
+          "price": 30.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% TAB %count%"
+          ]
+        },
+        "ANTIBIOTIC": {
+          "type": "ANTIBIOTIC",
+          "title": "rpg.feed.antibiotic.title",
+          "description": "rpg.feed.antibiotic.description",
+          "icon": "antibiotic.png",
+          "price": 60.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% ANTIBIOTIC %count%"
+          ]
+        },
+        "ANTIVIRUS_TAB": {
+          "type": "ANTIVIRUS_TAB",
+          "title": "rpg.feed.antivirus_tab.title",
+          "description": "rpg.feed.antivirus_tab.description",
+          "icon": "antibiotic.png",
+          "price": 80.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% ANTIVIRUS_TAB %count%"
+          ]
+        },
+        "BANDAGE": {
+          "type": "BANDAGE",
+          "title": "rpg.feed.bandage.title",
+          "description": "rpg.feed.bandage.description",
+          "icon": "bandage.png",
+          "price": 40.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% BANDAGE %count%"
+          ]
+        },
+        "PLASTER": {
+          "type": "PLASTER",
+          "title": "rpg.feed.plaster.title",
+          "description": "rpg.feed.plaster.description",
+          "icon": "plaster.png",
+          "price": 55.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% PLASTER %count%"
+          ]
+        },
+        "OINTMENT": {
+          "type": "OINTMENT",
+          "title": "rpg.feed.ointment.title",
+          "description": "rpg.feed.ointment.description",
+          "icon": "ointment.png",
+          "price": 45.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% OINTMENT %count%"
           ]
         }
       }
@@ -249,17 +405,82 @@
     "BITS": {
       "vault": "\uE1D1",
       "products": {
-        "SIMPLE": {
-          "type": "SIMPLE",
-          "title": "rpg.shop.bits.product.simple.title",
-          "description": "rpg.shop.bits.product.simple.description",
-          "icon": "simple.png",
+        "SHIV": {
+          "type": "SHIV_TOOL",
+          "title": "rpg.shop.artefact.product.shiv.tool.title",
+          "description": "rpg.shop.artefact.product.shiv.tool.description",
+          "icon": "shiv.tool.png",
+          "price": 100.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-shiv %player% TOOL DEFAULT %count%"
+          ]
+        },
+        "SHIV_ARMOR": {
+          "type": "SHIV_ARMOR",
+          "title": "rpg.shop.artefact.product.shiv.armor.title",
+          "description": "rpg.shop.artefact.product.shiv.armor.description",
+          "icon": "shiv_armor.png",
+          "price": 100.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-shiv %player% ARMOR DEFAULT %count%"
+          ]
+        },
+        "KEY_PETS": {
+          "type": "KEY_PETS",
+          "title": "rpg.lootbox.pets.key.title",
+          "description": "rpg.lootbox.pets.key.description",
+          "icon": "fox_key.png",
+          "price": 80.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% PET %count%"
+          ]
+        },
+        "KEY_RUNES": {
+          "type": "KEY_RUNES",
+          "title": "rpg.lootbox.runes.key.title",
+          "description": "rpg.lootbox.runes.key.description",
+          "icon": "rune_key.png",
           "price": 100.0,
           "vault": "\uE1D1",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "command to give"
+            "give-key %player% RUNE %count%"
+          ]
+        },
+        "KEY_TITLES": {
+          "type": "KEY_TITLES",
+          "title": "rpg.lootbox.titles.key.title",
+          "description": "rpg.lootbox.titles.key.description",
+          "icon": "purple_crystal_key.png",
+          "price": 70.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% TITLE %count%"
+          ]
+        },
+        "KEY_DEFAULT": {
+          "type": "KEY_DEFAULT",
+          "title": "rpg.lootbox.default.key.title",
+          "description": "rpg.lootbox.default.key.description",
+          "icon": "goldkey.png",
+          "price": 50.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% DEFAULT %count%"
           ]
         }
       }
