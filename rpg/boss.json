@@ -44,11 +44,7 @@
             "title": "rpg.boss.shadow.name",
             "state": "rpg.boss.shadow.state",
             "description": "rpg.boss.shadow.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlMjE5Yjc3Y2M0NDE3ZWUyZmZjMjgyOGMyMmI4OTNlMjUzZmY5MmYxMTUzZDM0ZGU2ODhmMGU0YWIxMyJ9fX0"
-            },
+            "skinurl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
@@ -132,11 +128,7 @@
             "title": "rpg.boss.dao_master.name",
             "state": "rpg.boss.dao_master.state",
             "description": "rpg.boss.dao_master.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMxODgzODc3ZWQxMWNiN2UxZTZhMjYwOWJhY2Q3NjZmNTczZDI0MWNkZjYxYzk0YmU2YWQxMTgwMGQ1NmYwMyJ9fX0="
-            },
+            "skinurl": "https://storage.c7x.dev/topil_ov/rpg/bosses/dao_master.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
@@ -199,11 +191,7 @@
             "title": "rpg.boss.thug.name",
             "state": "rpg.boss.thug.state",
             "description": "rpg.boss.thug.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdmNTE1ODJkYmI4ZDNmMTE0NzIzMmQ4Njc0ZjY0YTcwNzdjNzhjZGMxMDJlZTBmMGU0NWIwNTczYThjOTc5OSJ9fX0="
-            },
+            "skinurl": "https://storage.c7x.dev/topil_ov/rpg/bosses/thug.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
@@ -266,11 +254,7 @@
             "title": "rpg.boss.string.name",
             "state": "rpg.boss.string.state",
             "description": "rpg.boss.string.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg0ZjQxODViNDIyZjJiYzFiN2Q3N2RkYjE1OWViMTAxMTk4YzdjZjdjYmI4NjkwODExY2Y5M2U3ZjczNzFhOSJ9fX0="
-            },
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/string.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
@@ -317,27 +301,23 @@
     },
     "CRUCIFIED_VALLEY": {
       "bosses": {
-        "ASHEN": {
+        "SHADOW_BLADE": {
           "spawnAt": ["0:00:00"],
-          "type": "ASHEN",
-          "fightTime": 0.0,
+          "type": "SHADOW_BLADE",
+          "fightTime": 300.0,
           "settings": {
-            "health": 0,
-            "damage": 0.0,
-            "speed": 0.0,
-            "locations": [ { "name": "boss", "tag": "ashen" } ],
-            "customName": "",
-            "skinUrl": ""
+            "health": 100,
+            "damage": 1.0,
+            "speed": 0.2,
+            "locations": [ { "name": "boss", "tag": "shadow_blade" } ],
+            "customName": "rpg.boss.shadow_blade.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow_blade.png"
           },
           "menu": {
-            "title": "rpg.boss.ashen.name",
-            "state": "rpg.boss.ashen.state",
-            "description": "rpg.boss.ashen.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU2MDM3MmUzYzEyNjM4MDc4MWU4OWY4ZWM1ZDNiMmRiMGZjMzY2ZDgxZmFhZTFjN2Y5ZDQ4YWI4ZTRlOTZkYSJ9fX0="
-            },
+            "title": "rpg.boss.shadow_blade.name",
+            "state": "rpg.boss.shadow_blade.state",
+            "description": "rpg.boss.shadow.blade.description",
+            "skinurl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow_blade.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
@@ -404,11 +384,7 @@
             "title": "rpg.boss.sea_siren.name",
             "state": "rpg.boss.sea_siren.state",
             "description": "rpg.boss.sea_siren.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ3NDllMmY1MGIzNmU4OWU5NmVkZDcxOTdjMmJmYWRlMjUzYzNhODNhOGNlYzhhMjE5MmZjMDEzN2QyMDY0NyJ9fX0="
-            },
+            "skinurl": "https://storage.c7x.dev/topil_ov/rpg/bosses/sea_siren.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
@@ -471,11 +447,7 @@
             "title": "rpg.boss.lost.name",
             "state": "rpg.boss.lost.state",
             "description": "rpg.boss.lost.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFmNWQ1ZTViNzBkOTBkZDNmYTE1ZTUwYTVkMDIzYzlkNjgxODA1N2RmODBkMDgzM2FjOWJmYjkxMzZmYjVhZCJ9fX0="
-            },
+            "skinurl": "https://storage.c7x.dev/topil_ov/rpg/bosses/lost.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
@@ -522,27 +494,23 @@
     },
     "HALL_OF_FATE": {
       "bosses": {
-        "ASHEN": {
+        "GUARDIAN": {
           "spawnAt": ["0:00:00"],
-          "type": "ASHEN",
+          "type": "GUARDIAN",
           "fightTime": 0.0,
           "settings": {
             "health": 0,
             "damage": 0.0,
             "speed": 0.0,
-            "locations": [ { "name": "boss", "tag": "ashen" } ],
-            "customName": "",
-            "skinUrl": ""
+            "locations": [ { "name": "boss", "tag": "guardian" } ],
+            "customName": "rpg.boss.guardian.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/guardian.png"
           },
           "menu": {
-            "title": "rpg.boss.ashen.name",
-            "state": "rpg.boss.ashen.state",
-            "description": "rpg.boss.ashen.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI4M2E2YjhiNTg1NmZjM2ZjYjY5ZjE1ZTZjMGRjMjAwMzFjYzU2YWM0NzczMWM4NjUxYTVjYTM3NWQwNGE3NyJ9fX0="
-            },
+            "title": "rpg.boss.guardian.name",
+            "state": "rpg.boss.guardian.state",
+            "description": "rpg.boss.guardian.description",
+            "skinurl": "hhttps://storage.c7x.dev/topil_ov/rpg/bosses/guardian.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
@@ -609,11 +577,7 @@
             "title": "rpg.boss.ashen.name",
             "state": "rpg.boss.ashen.state",
             "description": "rpg.boss.ashen.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTEyODM1ZmMxNDNhNTFkZTU4N2IyY2U1NTMxM2I5NjNjYTJiZjcwNTVkOWRkZmQ5NzI3MWZjNzFhZWE3YzkxNCJ9fX0="
-            },
+            "skinurl": "https://storage.c7x.dev/topil_ov/rpg/bosses/ashen.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
@@ -664,27 +628,23 @@
     },
     "HEART_OF_CHAOS": {
       "bosses": {
-        "ASHEN": {
+        "HERALD": {
           "spawnAt": ["0:00:00"],
-          "type": "ASHEN",
+          "type": "HERALD",
           "fightTime": 0.0,
           "settings": {
             "health": 0,
             "damage": 0.0,
             "speed": 0.0,
-            "locations": [ { "name": "boss", "tag": "ashen" } ],
-            "customName": "",
-            "skinUrl": ""
+            "locations": [ { "name": "boss", "tag": "herald" } ],
+            "customName": "rpg.boss.herald.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/herald.png"
           },
           "menu": {
-            "title": "rpg.boss.ashen.name",
-            "state": "rpg.boss.ashen.state",
-            "description": "rpg.boss.ashen.description",
-            "headStack": {
-              "type": "SKULL_ITEM",
-              "damage": 3,
-              "ownerTexture": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY3Y2I3MjQ1N2I4NzdkOWNkMWVkYjJmZDU2ODFlN2YzMzUwN2MzYmE5MjBmOWVjYmM5OTE3MTJkMGY3NWMifX19"
-            },
+            "title": "rpg.boss.herald.name",
+            "state": "rpg.boss.herald.state",
+            "description": "rpg.boss.herald.description",
+            "skinurl": "https://storage.c7x.dev/topil_ov/rpg/bosses/herald.png",
             "rewards": [
               {
                 "type": "WOOD_SWORD",
