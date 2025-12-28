@@ -34,7 +34,36 @@
         "id": "default",
         "title": "rpg.lootbox.default.menu.title",
         "texture": "lootboxes.png",
-        "elements": []
+        "elements": [
+          {
+            "id": "shiv_tool",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.rpg.shiv.tool.title|!|¨46bfef",
+              "lore": "i18n.rpg.shiv.tool.description",
+              "damage": 3
+            },
+            "chance": 19.2,
+            "onDrop": [
+              "give-shiv %player% TOOL DEFAULT %count%"
+            ]
+          },
+          {
+            "id": "shiv_armor",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "i18n.rpg.shiv.armor.title|!|¨46bfef",
+              "lore": "i18n.rpg.shiv.armor.description",
+              "damage": 3
+            },
+            "chance": 19.2,
+            "onDrop": [
+              "give-shiv %player% ARMOR DEFAULT %count%"
+            ]
+          }
+        ]
       }
     },
     "pets": {
