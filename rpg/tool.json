@@ -6,11 +6,11 @@
     "cannot": "rpg.items.message.cannot"
   },
   "tools": {
-    "DEFAULT_SWORD": {
+  "DEFAULT_SWORD": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Обычный меч",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.default_sword.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0, 
       "level": 1
@@ -18,8 +18,8 @@
     "DEFAULT_KNIFE": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Обычный кинжал",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.default_knife.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0, 
       "level": 1
@@ -27,8 +27,8 @@
     "DEFAULT_BOW": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Обычный лук",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.default_bow.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0, 
       "level": 1,
@@ -41,10 +41,10 @@
     "DEFAULT_STAFF": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Обычный посох",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.default_staff.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
-      "damage": 1.0, 
+      "damage": 1.0,
       "level": 1,
       "data": {
         "staff": 1,
@@ -55,8 +55,8 @@
     "SHADOW_BLADE": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Теневой Клинок",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.shadow_blade.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 2.0,
       "level": 2
@@ -64,8 +64,8 @@
     "RAVEN_CLAW": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Коготь Ворона",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.raven_claw.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0,
       "level": 1
@@ -73,8 +73,8 @@
     "SPITTING_SNAKE": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Плюющийся Змей",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.spitting_snake.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0,
       "level": 1,
@@ -87,8 +87,8 @@
     "SILENCE_ROD": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Жезл Безмолвия",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.silence_rod.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0,
       "level": 1,
@@ -101,8 +101,8 @@
     "VOICE_OF_WIND": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Голос Ветра",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.voice_of_wind.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0,
       "level": 1
@@ -110,8 +110,8 @@
     "STINGING_BEE": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Жалящая Пчела",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.stinging_bee.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0,
       "level": 1
@@ -119,8 +119,8 @@
     "FALCON_SIGH": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Вздох Сокола",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.falcon_sigh.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0,
       "level": 1,
@@ -133,8 +133,8 @@
     "QI_FLOW_STAFF": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Посох Потока Ци",
-      "description": "Описание",
+      "title": "i18n.rpg.tool.qi_flow_staff.title|!|¨58d47a",
+      "description": "rpg.tool.description",
       "rare": "COMMON",
       "damage": 1.0,
       "level": 1,
@@ -147,27 +147,27 @@
     "SLAUGHTER": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Бойня",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.slaughter.title|!|¨46bfef",
+      "description": "rpg.tool.description",
+      "rare": "RARE",
       "damage": 1.0,
       "level": 1
     },
     "GRAVEDIGGER_RAZOR": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Бритва Могильщика",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.gravedigger_razor.title|!|¨46bfef",
+      "description": "rpg.tool.description",
+      "rare": "RARE",
       "damage": 1.0,
       "level": 1
     },
     "BONECRUSHER": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Костолом",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.bonecrusher.title|!|¨46bfef",
+      "description": "rpg.tool.description",
+      "rare": "RARE",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -179,9 +179,9 @@
     "ROTTING_BONE_TOTEM": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Костяной тотем гниения",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.rotting_bone_totem.title|!|¨46bfef",
+      "description": "rpg.tool.description",
+      "rare": "RARE",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -193,27 +193,27 @@
     "TIDE_COMB": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Гребень Отлива",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.tide_comb.title|!|¨46bfef",
+      "description": "rpg.tool.description",
+      "rare": "RARE",
       "damage": 1.0,
       "level": 1
     },
     "MORAY_FANG": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Клык Мурены",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.moray_fang.title|!|¨46bfef",
+      "description": "rpg.tool.description",
+      "rare": "RARE",
       "damage": 1.0,
       "level": 1
     },
     "WHISPER_OF_DEPTHS": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Шёпот Глубин",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.whisper_of_depths.title|!|¨46bfef",
+      "description": "rpg.tool.description",
+      "rare": "RARE",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -225,9 +225,9 @@
     "CORAL_SCEPTER": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Коралловый Скипетр",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.coral_scepter.title|!|¨46bfef",
+      "description": "rpg.tool.description",
+      "rare": "RARE",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -239,27 +239,27 @@
     "RECKONING_NAIL": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Гвоздь Расплаты",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.reckoning_nail.title|!|¨c346ec",
+      "description": "rpg.tool.description",
+      "rare": "EPIC",
       "damage": 1.0,
       "level": 1
     },
     "BURSTING_SHACKLES": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Разрывные Оковы",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.bursting_shackles.title|!|¨c346ec",
+      "description": "rpg.tool.description",
+      "rare": "EPIC",
       "damage": 1.0,
       "level": 1
     },
     "WIND_MOAN": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Стенание Ветра",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.wind_moan.title|!|¨c346ec",
+      "description": "rpg.tool.description",
+      "rare": "EPIC",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -271,9 +271,9 @@
     "DEFILED_CRYSTAL": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Оскверненный Кристалл",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.defiled_crystal.title|!|¨c346ec",
+      "description": "rpg.tool.description",
+      "rare": "EPIC",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -285,27 +285,27 @@
     "STORM_COMB": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Гребень Шторма",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.storm_comb.title|!|¨c346ec",
+      "description": "rpg.tool.description",
+      "rare": "EPIC",
       "damage": 1.0,
       "level": 1
     },
     "JELLYFISH_STING": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Жало Медузы",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.jellyfish_sting.title|!|¨c346ec",
+      "description": "rpg.tool.description",
+      "rare": "EPIC",
       "damage": 1.0,
       "level": 1
     },
     "HARPOON_OF_LONGING": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Гарпун Тоски",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.harpoon_of_longing.title|!|¨c346ec",
+      "description": "rpg.tool.description",
+      "rare": "EPIC",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -317,9 +317,9 @@
     "PEARL_OF_DEPTHS": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Жемчужина Глубин",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.pearl_of_depths.title|!|¨c346ec",
+      "description": "rpg.tool.description",
+      "rare": "EPIC",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -331,27 +331,27 @@
     "CHAOS_BLADE": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Клинок Хаоса",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.chaos_blade.title|!|¨fcc12b",
+      "description": "rpg.tool.description",
+      "rare": "LEGENDARY",
       "damage": 1.0,
       "level": 1
     },
     "DISTORTED_THORN": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Искажённый Шип",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.distorted_thorn.title|!|¨fcc12b",
+      "description": "rpg.tool.description",
+      "rare": "LEGENDARY",
       "damage": 1.0,
       "level": 1
     },
     "INSTABILITY_BOW": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Лук Нестабильности",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.instability_bow.title|!|¨fcc12b",
+      "description": "rpg.tool.description",
+      "rare": "LEGENDARY",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -363,9 +363,9 @@
     "FOCUSING_SHARD": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Фокусирующий Осколок",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.focusing_shard.title|!|¨fcc12b",
+      "description": "rpg.tool.description",
+      "rare": "LEGENDARY",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -377,27 +377,27 @@
     "PENDULUM_OF_FATE": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Маятник Рока",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.pendulum_of_fate.title|!|¨fcc12b",
+      "description": "rpg.tool.description",
+      "rare": "LEGENDARY",
       "damage": 1.0,
       "level": 1
     },
     "TIME_SCYTHE": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Серп Времени",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.time_scythe.title|!|¨fcc12b",
+      "description": "rpg.tool.description",
+      "rare": "LEGENDARY",
       "damage": 1.0,
       "level": 1
     },
     "COUNTDOWN_CROSSBOW": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Арбалет Отсчёта",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.countdown_crossbow.title|!|¨fcc12b",
+      "description": "rpg.tool.description",
+      "rare": "LEGENDARY",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -409,9 +409,9 @@
     "CHRONOS_ROD": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Стержень Хроноса",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.chronos_rod.title|!|¨fcc12b",
+      "description": "rpg.tool.description",
+      "rare": "LEGENDARY",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -423,27 +423,27 @@
     "ERA_FRAGMENT": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Обломок Эпохи",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.era_fragment.title|!|e73d4b",
+      "description": "rpg.tool.description",
+      "rare": "MYTHIC",
       "damage": 1.0,
       "level": 1
     },
     "HOPE_SHARD": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Осколок Надежды",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.hope_shard.title|!|e73d4b",
+      "description": "rpg.tool.description",
+      "rare": "MYTHIC",
       "damage": 1.0,
       "level": 1
     },
     "OBLIVION_STRING": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Тетива Забвения",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.oblivion_string.title|!|e73d4b",
+      "description": "rpg.tool.description",
+      "rare": "MYTHIC",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -455,9 +455,9 @@
     "DESTRUCTION_CORE": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Ядро Разрушения",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.destruction_core.title|!|e73d4b",
+      "description": "rpg.tool.description",
+      "rare": "MYTHIC",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -469,27 +469,27 @@
     "ECHO_OF_PAST_BATTLES": {
       "type": "SWORD",
       "material": "IRON_SWORD",
-      "title": "Эхо Прошлых Битв",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.echo_of_past_battles.title|!|e73d4b",
+      "description": "rpg.tool.description",
+      "rare": "MYTHIC",
       "damage": 1.0,
       "level": 1
     },
     "SHADOW_OF_FALLEN": {
       "type": "KNIFE",
       "material": "STONE_SWORD",
-      "title": "Тень Павшего",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.shadow_of_fallen.title|!|e73d4b",
+      "description": "rpg.tool.description",
+      "rare": "MYTHIC",
       "damage": 1.0,
       "level": 1
     },
     "BOW_OF_DOOM": {
       "type": "BOW",
       "material": "BOW",
-      "title": "Лук Рока",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.bow_of_doom.title|!|e73d4b",
+      "description": "rpg.tool.description",
+      "rare": "MYTHIC",
       "damage": 1.0,
       "level": 1,
       "data": {
@@ -501,9 +501,9 @@
     "HEART_OF_STORM": {
       "type": "STAFF",
       "material": "CLAY_BALL",
-      "title": "Сердце Бури",
-      "description": "Описание",
-      "rare": "COMMON",
+      "title": "i18n.rpg.tool.heart_of_storm.title|!|e73d4b",
+      "description": "rpg.tool.description",
+      "rare": "MYTHIC",
       "damage": 1.0,
       "level": 1,
       "data": {
