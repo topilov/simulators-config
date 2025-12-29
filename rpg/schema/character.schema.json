@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "types",
+    "maxLevel",
+    "levels"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "maxLevel": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "levels": {
+      "type": "object",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "types": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "SWORDSMAN",
+          "THIEF",
+          "ELF",
+          "MAGE"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "#/$def/character"
+      }
+    }
+  },
+  "$def": {
+    "character": {
+      "type": "object",
+      "required": [
+        "menu",
+        "tool",
+        "abilities"
+      ],
+      "properties": {
+        "tool": {
+          "$ref": "./common.schema.json#/$defs/toolType"
+        },
+        "abilities": {
+          "type": "array",
+          "items": {
+            "$ref": "./common.schema.json#/$defs/abilityType"
+          }
+        },
+        "regainCooldown": {
+          "type": "number",
+          "minimum": 0,
+          "default": 30.0
+        },
+        "menu": {
+          "type": "object",
+          "required": [
+            "title",
+            "description",
+            "image",
+            "icon"
+          ],
+          "properties": {
+            "title": {
+              "$ref": "./common.schema.json#/$defs/i18n"
+            },
+            "description": {
+              "$ref": "./common.schema.json#/$defs/i18n"
+            },
+            "image": {
+              "$ref": "./common.schema.json#/$defs/image"
+            },
+            "icon": {
+              "$ref": "#/$def/icon"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "icon": {
+      "type": "object",
+      "required": [
+        "glow",
+        "image"
+      ],
+      "properties": {
+        "glow": {
+          "$ref": "./common.schema.json#/$defs/color"
+        },
+        "image": {
+          "$ref": "./common.schema.json#/$defs/image"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
