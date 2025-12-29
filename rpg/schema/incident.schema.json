@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "menu",
+    "containers",
+    "settings"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "containers": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/incidentType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/incident"
+      }
+    },
+    "settings": {
+      "type": "object",
+      "required": [
+        "dropper"
+      ],
+      "properties": {
+        "dropper": {
+          "type": "object",
+          "required": [
+            "items"
+          ],
+          "properties": {
+            "items": {
+              "type": "object",
+              "required": [
+                "coin",
+                "bits"
+              ],
+              "properties": {
+                "coin": {
+                  "$ref": "./common.schema.json#/$defs/itemStack"
+                },
+                "bits": {
+                  "$ref": "./common.schema.json#/$defs/itemStack"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "menu": {
+      "type": "object",
+      "required": [
+        "trees"
+      ],
+      "properties": {
+        "trees": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/incidentTree"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "incidentType": {
+      "type": "string",
+      "enum": [
+        "PRICE_REDUCTION",
+        "INCREASED_LOOTBOX_CHANCES",
+        "DROPPER",
+        "SUPERCHARGING"
+      ]
+    },
+    "incident": {
+      "type": "object",
+      "required": [
+        "texture",
+        "title",
+        "description",
+        "stat",
+        "awaitAt",
+        "printStat"
+      ],
+      "properties": {
+        "texture": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "stat": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "awaitAt": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^\\d+:\\d+:\\d+$"
+          }
+        },
+        "printStat": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "awaitDuration": {
+          "type": "integer",
+          "default": 10
+        }
+      },
+      "additionalProperties": false
+    },
+    "incidentTree": {
+      "type": "object",
+      "required": [
+        "title",
+        "treeNodes"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "treeNodes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/incidentTreeNode"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "incidentTreeNode": {
+      "type": "object",
+      "required": [
+        "incidentId",
+        "id",
+        "texture",
+        "title",
+        "description",
+        "statId",
+        "additional",
+        "price",
+        "maxProgress",
+        "viewpoint"
+      ],
+      "properties": {
+        "incidentId": {
+          "$ref": "#/$defs/incidentType"
+        },
+        "parentId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "texture": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "statId": {
+          "type": "integer"
+        },
+        "additional": {
+          "type": "number"
+        },
+        "price": {
+          "type": "number"
+        },
+        "maxProgress": {
+          "type": "integer"
+        },
+        "viewpoint": {
+          "type": "object",
+          "required": [
+            "x",
+            "y"
+          ],
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          }
+        },
+        "isFormatting": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

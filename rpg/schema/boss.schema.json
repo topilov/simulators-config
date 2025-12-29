@@ -78,18 +78,7 @@
     "locations": {
       "type": "object",
       "propertyNames": {
-        "enum": [
-          "SHADOW_CITY",
-          "CITY_OF_DAO",
-          "LAWLESS_VILLAGE",
-          "ARCHIPELAGO_OF_OBLIVION",
-          "CRUCIFIED_VALLEY",
-          "SUNKEN_ARCHIPELAGO",
-          "LIMITS_OF_REASON",
-          "HALL_OF_FATE",
-          "AFTERMATH",
-          "HEART_OF_CHAOS"
-        ]
+        "$ref": "./common.schema.json#/$defs/locationType"
       },
       "additionalProperties": {
         "$ref": "#/$defs/location"
