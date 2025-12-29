@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["armors", "rarityMapping"],
+  "additionalProperties": false,
+
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+
+    "rarityMapping": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/rarity"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+
+    "armors": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "PHANTOM_HELMET",
+          "PHANTOM_CHESTPLATE",
+          "PHANTOM_LEGGINGS",
+          "PHANTOM_BOOTS",
+
+          "MONK_HELMET",
+          "MONK_CHESTPLATE",
+          "MONK_LEGGINGS",
+          "MONK_BOOTS",
+
+          "BANDIT_HELMET",
+          "BANDIT_CHESTPLATE",
+          "BANDIT_LEGGINGS",
+          "BANDIT_BOOTS",
+
+          "CURSED_HELMET",
+          "CURSED_CHESTPLATE",
+          "CURSED_LEGGINGS",
+          "CURSED_BOOTS",
+
+          "OATH_HELMET",
+          "OATH_CHESTPLATE",
+          "OATH_LEGGINGS",
+          "OATH_BOOTS",
+
+          "EXILE_HELMET",
+          "EXILE_CHESTPLATE",
+          "EXILE_LEGGINGS",
+          "EXILE_BOOTS",
+
+          "MINDSHARD_HELMET",
+          "MINDSHARD_CHESTPLATE",
+          "MINDSHARD_LEGGINGS",
+          "MINDSHARD_BOOTS",
+
+          "TIMELESS_HELMET",
+          "TIMELESS_CHESTPLATE",
+          "TIMELESS_LEGGINGS",
+          "TIMELESS_BOOTS",
+
+          "LASTSTAND_HELMET",
+          "LASTSTAND_CHESTPLATE",
+          "LASTSTAND_LEGGINGS",
+          "LASTSTAND_BOOTS",
+
+          "APOCALYPSE_HELMET",
+          "APOCALYPSE_CHESTPLATE",
+          "APOCALYPSE_LEGGINGS",
+          "APOCALYPSE_BOOTS"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/armor"
+      }
+    }
+  },
+
+  "$defs": {
+    "armor": {
+      "type": "object",
+      "required": [
+        "title",
+        "description",
+        "material",
+        "rare",
+        "level",
+        "enchantment"
+      ],
+      "additionalProperties": false,
+
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "material": {
+            "$ref": "./common.schema.json#/$defs/material"
+         },
+
+        "rare": {
+          "$ref": "./common.schema.json#/$defs/rarity"
+        },
+
+        "skin": {
+          "type": "string"
+        },
+
+        "level": {
+          "type": "integer",
+          "minimum": 1
+        },
+
+        "enchantment": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

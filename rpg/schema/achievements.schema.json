@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["achievements"],
+  "properties": {
+    "$schema": {
+        "type": "string"
+    },
+    
+    "achievements": {
+      "type": "object",
+
+      "propertyNames": {
+        "enum": [
+          "OPEN_DEFAULT_LOOTBOX",
+          "OPEN_PET_LOOTBOX",
+          "OPEN_RUNE_LOOTBOX",
+          "OPEN_TITLE_LOOTBOX",
+          "UPGRADE_PRICE_REDUCTION_INCIDENT",
+          "UPGRADE_INCREASED_LOOTBOX_CHANCES_INCIDENT",
+          "UPGRADE_DROPPER_INCIDENT",
+          "UPGRADE_SUPERCHARGING_INCIDENT",
+          "ACTIVATE_INCIDENT",
+          "KILL_MOBS",
+          "KILL_BOSSES",
+          "EARN_LEVEL",
+          "SHIV_TOOL",
+          "SHIV_ARMOR",
+          "EARN_PET_LEVEL",
+          "SPEND_MONEY_AT_SHOP",
+          "EARN_MONEY",
+          "UPGRADE_MEGA_REBIRTH",
+          "FEED_PET",
+          "EARN_MOB_DROPS",
+          "COMPLETE_DIALOG_QUESTS",
+          "COMPLETE_DIARY"
+        ]
+      },
+
+      "additionalProperties": {
+        "$ref": "#/$defs/achievement"
+      }
+    }
+  },
+
+  "$defs": {
+    "achievement": {
+      "type": "object",
+      "required": ["title", "texture", "maxStage", "stages", "messages"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "texture": { "type": "string" },
+        "maxStage": { "type": "integer", "minimum": 1 },
+
+        "stages": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/stage"
+          }
+        },
+
+        "messages": {
+          "$ref": "#/$defs/messages"
+        }
+      }
+    },
+
+    "stage": {
+      "type": "object",
+      "required": ["title", "description", "required", "onTake"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "required": { "type": "number" },
+        "onTake": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "messages": {
+      "type": "object",
+      "required": ["complete"],
+      "additionalProperties": false,
+      "properties": {
+        "complete": { "type": "string" }
+      }
+    }
+  }
+}

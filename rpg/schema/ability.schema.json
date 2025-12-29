@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "offsetY",
+    "abilities"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "offsetY": {
+      "type": "number"
+    },
+    "abilities": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "JUSTICE_BLADE",
+          "IRON_WILL",
+          "BLOOD",
+          "UNSHAKABLE",
+          "WARRIOR",
+          "STEEL_SPIRIT",
+          "KNOCK_WEAPON",
+          "POISON_TOUCH",
+          "HIT_SERIES",
+          "FINISHER",
+          "PHANTOM_JERK",
+          "LIGHT_FEET",
+          "FROZEN_SHOT",
+          "TRIPLE_ARROW",
+          "CRUSH",
+          "SURVIVAL",
+          "NATURE_SPIRIT",
+          "UNPREDICTABLE_RHYTHM",
+          "RANDOM_MAGIC",
+          "RESONANCE",
+          "CLEAN",
+          "THORN",
+          "EXPLODE",
+          "DETERMINATION"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/ability"
+      }
+    }
+  },
+  "$defs": {
+    "ability": {
+      "type": "object",
+      "required": [
+        "isActive"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "isActive": {
+          "type": "boolean"
+        },
+        "texture": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "cooldown": {
+          "type": "number",
+          "minimum": 0
+        },
+        "isLocked": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
