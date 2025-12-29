@@ -1,0 +1,171 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    
+    "$defs": {
+        "rarity": {
+            "type": "string",
+            "enum": [
+                "COMMON",
+                "RARE",
+                "EPIC",
+                "LEGENDARY",
+                "MYTHIC"
+            ]
+        },
+        "itemStack": {
+            "type": "object",
+            "required": [
+                "type"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "type": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "integer"
+                },
+                "damage": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "lore": {
+                    "type": "string"
+                },
+                "enchantments": {
+                    "$ref": "#/$defs/enchantmentMap"
+                },
+                "data": {
+                    "type": "object"
+                },
+                "unbreakable": {
+                    "type": "boolean"
+                },
+                "flags": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/itemFlag"
+                    },
+                    "uniqueItems": true
+                },
+                "ownerTexture": {
+                    "type": "string"
+                }
+            }
+        },
+        "enchantmentMap": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "PROTECTION_ENVIRONMENTAL": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "PROTECTION_FIRE": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "PROTECTION_FALL": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "PROTECTION_EXPLOSIONS": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "PROTECTION_PROJECTILE": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "OXYGEN": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "WATER_WORKER": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "THORNS": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "DEPTH_STRIDER": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "FROST_WALKER": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "BINDING_CURSE": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "DAMAGE_ALL": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "DAMAGE_UNDEAD": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "DAMAGE_ARTHROPODS": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "KNOCKBACK": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "FIRE_ASPECT": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "LOOT_BONUS_MOBS": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "SWEEPING_EDGE": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "DIG_SPEED": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "SILK_TOUCH": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "DURABILITY": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "LOOT_BONUS_BLOCKS": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "ARROW_DAMAGE": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "ARROW_KNOCKBACK": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "ARROW_FIRE": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "ARROW_INFINITE": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "LUCK": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "LURE": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "MENDING": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                },
+                "VANISHING_CURSE": {
+                    "$ref": "#/$defs/enchantmentLevel"
+                }
+            }
+        },
+        "enchantmentLevel": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+        },
+        "itemFlag": {
+            "type": "string",
+            "enum": [
+                "HIDE_ENCHANTS",
+                "HIDE_ATTRIBUTES",
+                "HIDE_UNBREAKABLE",
+                "HIDE_DESTROYS",
+                "HIDE_PLACED_ON",
+                "HIDE_POTION_EFFECTS"
+            ]
+        }
+    }
+}

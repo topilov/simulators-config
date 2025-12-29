@@ -1,0 +1,273 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": [
+        "pets",
+        "feeds"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "$schema": {
+            "type": "string"
+        },
+        "pets": {
+            "type": "object",
+            "required": [
+                "LEPRECHAUN",
+                "TURTLE",
+                "BEAR",
+                "BLACK_CAT",
+                "WOLF"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "LEPRECHAUN": {
+                    "$ref": "#/$defs/pet"
+                },
+                "TURTLE": {
+                    "$ref": "#/$defs/pet"
+                },
+                "BEAR": {
+                    "$ref": "#/$defs/pet"
+                },
+                "BLACK_CAT": {
+                    "$ref": "#/$defs/pet"
+                },
+                "WOLF": {
+                    "$ref": "#/$defs/pet"
+                }
+            }
+        },
+        "feeds": {
+            "type": "object",
+            "required": [
+                "VEGETABLE",
+                "BACON",
+                "MEAT",
+                "TAB",
+                "ANTIBIOTIC",
+                "ANTIVIRUS_TAB",
+                "BANDAGE",
+                "PLASTER",
+                "OINTMENT"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "VEGETABLE": {
+                    "$ref": "#/$defs/feed"
+                },
+                "BACON": {
+                    "$ref": "#/$defs/feed"
+                },
+                "MEAT": {
+                    "$ref": "#/$defs/feed"
+                },
+                "TAB": {
+                    "$ref": "#/$defs/feed"
+                },
+                "ANTIBIOTIC": {
+                    "$ref": "#/$defs/feed"
+                },
+                "ANTIVIRUS_TAB": {
+                    "$ref": "#/$defs/feed"
+                },
+                "BANDAGE": {
+                    "$ref": "#/$defs/feed"
+                },
+                "PLASTER": {
+                    "$ref": "#/$defs/feed"
+                },
+                "OINTMENT": {
+                    "$ref": "#/$defs/feed"
+                }
+            }
+        }
+    },
+    "$defs": {
+        "pet": {
+            "type": "object",
+            "required": [
+                "title",
+                "texture",
+                "rarity",
+                "icon",
+                "requiredFragments",
+                "levels"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "texture": {
+                    "$ref": "./common.schema.json#/$defs/itemStack"
+                },
+                "rarity": {
+                    "$ref": "./common.schema.json#/$defs/rarity"
+                },
+                "icon": {
+                    "type": "string"
+                },
+                "requiredFragments": {
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "levels": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "$ref": "#/$defs/petLevel"
+                    }
+                }
+            }
+        },
+        "petLevel": {
+            "type": "object",
+            "required": [
+                "maxHealth",
+                "maxHappiness",
+                "maxSatiation",
+                "spendHappiness",
+                "earnHappiness",
+                "spendSatiation",
+                "attackCooldown",
+                "damageFactor",
+                "diseases",
+                "takeDamageChance",
+                "takeDamageAmount",
+                "requiredExp",
+                "stat",
+                "worseMapping"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "maxHealth": {
+                    "type": "number"
+                },
+                "maxHappiness": {
+                    "type": "number"
+                },
+                "maxSatiation": {
+                    "type": "number"
+                },
+                "spendHappiness": {
+                    "type": "number"
+                },
+                "earnHappiness": {
+                    "type": "number"
+                },
+                "spendSatiation": {
+                    "type": "number"
+                },
+                "attackCooldown": {
+                    "type": "number"
+                },
+                "damageFactor": {
+                    "type": "number"
+                },
+                "diseases": {
+                    "type": "object",
+                    "required": [
+                        "chance",
+                        "mapping"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "chance": {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 1
+                        },
+                        "mapping": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                },
+                "takeDamageChance": {
+                    "type": "number"
+                },
+                "takeDamageAmount": {
+                    "type": "number"
+                },
+                "requiredExp": {
+                    "type": "number"
+                },
+                "stat": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "number"
+                    }
+                },
+                "worseMapping": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": [
+                            "happinessPercentLessThan",
+                            "extraPercent"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "happinessPercentLessThan": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 100
+                            },
+                            "extraPercent": {
+                                "type": "number",
+                                "minimum": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "feed": {
+            "type": "object",
+            "required": [
+                "catalogType",
+                "title",
+                "description",
+                "icon",
+                "rarity",
+                "stat"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "catalogType": {
+                    "type": "string",
+                    "enum": [
+                        "FOOD",
+                        "MEDICINE"
+                    ]
+                },
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "icon": {
+                    "type": "string"
+                },
+                "rarity": {
+                    "type": "string",
+                    "enum": [
+                        "COMMON",
+                        "RARE",
+                        "EPIC",
+                        "LEGENDARY"
+                    ]
+                },
+                "stat": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "number"
+                    }
+                }
+            }
+        }
+    }
+}
