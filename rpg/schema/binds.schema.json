@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "bindsBar"
+  ],
+  "additionalProperties": false,
+
+
+
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+
+    "bindsBar": {
+      "type": "object",
+      "required": [
+        "binds"
+      ],
+      "properties": {
+        "binds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/bind"
+          }
+        }
+      }
+    }
+  },
+
+
+
+  "$defs": {
+    "bind": {
+      "type": "object",
+      "required": [
+        "title",
+        "key"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

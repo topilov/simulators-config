@@ -1,0 +1,371 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "queue",
+    "messages",
+    "countingText",
+    "exitConfirmation",
+    "locations"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "queue": {
+      "type": "object",
+      "required": [
+        "title",
+        "description",
+        "image"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "image": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "messages": {
+      "type": "object",
+      "required": [
+        "noFreeRooms",
+        "alreadyInFight",
+        "alreadyInQueue"
+      ],
+      "properties": {
+        "noFreeRooms": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "alreadyInFight": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "alreadyInQueue": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "countingText": {
+      "type": "object",
+      "required": [
+        "timePerMessage",
+        "messages"
+      ],
+      "properties": {
+        "timePerMessage": {
+          "type": "number"
+        },
+        "messages": {
+          "type": "array",
+          "items": {
+            "$ref": "./common.schema.json#/$defs/i18n"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "exitConfirmation": {
+      "$ref": "#/$defs/confirmation"
+    },
+    "locations": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "SHADOW_CITY",
+          "CITY_OF_DAO",
+          "LAWLESS_VILLAGE",
+          "ARCHIPELAGO_OF_OBLIVION",
+          "CRUCIFIED_VALLEY",
+          "SUNKEN_ARCHIPELAGO",
+          "LIMITS_OF_REASON",
+          "HALL_OF_FATE",
+          "AFTERMATH",
+          "HEART_OF_CHAOS"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/location"
+      }
+    }
+  },
+  "$defs": {
+    "confirmation": {
+      "type": "object",
+      "required": [
+        "message",
+        "confirmButtonText",
+        "cancelButtonText",
+        "blurBackground"
+      ],
+      "properties": {
+        "message": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "confirmButtonText": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "cancelButtonText": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "blurBackground": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "location": {
+      "type": "object",
+      "required": [
+        "bosses"
+      ],
+      "properties": {
+        "bosses": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "SHADOW",
+              "DAO_MASTER",
+              "THUG",
+              "STRING",
+              "SHADOW_BLADE",
+              "SEA_SIREN",
+              "LOST",
+              "GUARDIAN",
+              "ASHEN",
+              "HERALD"
+            ]
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/boss"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "boss": {
+      "type": "object",
+      "required": [
+        "type",
+        "spawnAt",
+        "settings",
+        "children",
+        "menu",
+        "reward"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+              "SHADOW",
+              "DAO_MASTER",
+              "THUG",
+              "STRING",
+              "SHADOW_BLADE",
+              "SEA_SIREN",
+              "LOST",
+              "GUARDIAN",
+              "ASHEN",
+              "HERALD"
+          ]
+        },
+        "spawnAt": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fightTime": {
+          "type": "number"
+        },
+        "settings": {
+          "$ref": "#/$defs/bossSettings"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/bossChild"
+          }
+        },
+        "menu": {
+          "$ref": "#/$defs/bossMenu"
+        },
+        "messages": {
+          "$ref": "#/$defs/bossMessages"
+        },
+        "reward": {
+          "type": "array",
+          "items": {
+            "type": "array"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "bossSettings": {
+      "type": "object",
+      "required": [
+        "locations",
+        "customName",
+        "damage",
+        "health",
+        "speed",
+        "skinUrl"
+      ],
+      "properties": {
+        "locations": {
+          "type": "array",
+          "items": {
+            "$ref": "./common.schema.json#/$defs/label"
+          }
+        },
+        "spawnBoxes": {
+          "type": "array",
+          "items": {}
+        },
+        "armor": {
+          "type": "array",
+          "items": {}
+        },
+        "customName": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "damage": {
+          "type": "number"
+        },
+        "health": {
+          "type": "number"
+        },
+        "itemInMainHand": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "itemInOffHand": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "scale": {},
+        "skinUrl": {
+          "$ref": "./common.schema.json#/$defs/url"
+        },
+        "speed": {
+          "type": "number"
+        },
+        "fightTime": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "bossChild": {
+      "type": "object",
+      "required": [
+        "childType",
+        "settings"
+      ],
+      "properties": {
+        "childType": {
+          "type": "string",
+          "enum": [
+          "TWIN"
+          ]
+        },
+        "settings": {
+          "$ref": "#/$defs/bossChildSettings"
+        }
+      },
+      "additionalProperties": false
+    },
+    "bossChildSettings": {
+      "type": "object",
+      "required": [
+        "customName",
+        "damage",
+        "health",
+        "speed",
+        "skinUrl"
+      ],
+      "properties": {
+        "armor": {
+          "type": "array",
+          "items": {}
+        },
+        "customName": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "damage": {
+          "type": "number"
+        },
+        "health": {
+          "type": "number"
+        },
+        "itemInMainHand": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "itemInOffHand": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "scale": {},
+        "skinUrl": {
+          "$ref": "./common.schema.json#/$defs/url"
+        },
+        "speed": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "bossMenu": {
+      "type": "object",
+      "required": [
+        "title",
+        "state",
+        "description",
+        "skinUrl",
+        "rewards"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "state": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "skinUrl": {
+          "$ref": "./common.schema.json#/$defs/url"
+        },
+        "rewards": {
+          "type": "array",
+          "items": {
+            "$ref": "./common.schema.json#/$defs/itemStack"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "bossMessages": {
+      "type": "object",
+      "required": [
+        "onSpawn",
+        "onDeath"
+      ],
+      "properties": {
+        "onSpawn": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "onDeath": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,22 +1,24 @@
 {
+  "$schema": "./schema/boss.schema.json",
+
   "queue": {
-    "title": "Бой с боссом",
-    "description": "Сражение с\nбоссом локации", 
+    "title": "rpg.boss.queue.title",
+    "description": "rpg.boss.queue.description", 
     "image": ""
   },
   "messages": {
-    "noFreeRooms": "§cВ данный момент нету свободных комнат.",
-    "alreadyInFight": "§cВы уже находитесь в бою с боссом.",
-    "alreadyInQueue": "§cВы уже находитесь в очереди."
+    "noFreeRooms": "rpg.boss.messages.no_free_rooms",
+    "alreadyInFight": "rpg.boss.messages.already_in_fight",
+    "alreadyInQueue": "rpg.boss.messages.already_in_queue"
   },
   "countingText": {
     "timePerMessage": 1.0,
     "messages": [
-      "Бой начнётся через 3 секунд!",
-      "1",
-      "2",
-      "3",
-      "Fight"
+      "rpg.boss.counting_text.start",
+      "rpg.boss.counting_text.one",
+      "rpg.boss.counting_text.two",
+      "rpg.boss.counting_text.three",
+      "rpg.boss.counting_text.fight"
     ]
   },
   "exitConfirmation": {

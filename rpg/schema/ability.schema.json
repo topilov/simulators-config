@@ -16,32 +16,7 @@
     "abilities": {
       "type": "object",
       "propertyNames": {
-        "enum": [
-          "JUSTICE_BLADE",
-          "IRON_WILL",
-          "BLOOD",
-          "UNSHAKABLE",
-          "WARRIOR",
-          "STEEL_SPIRIT",
-          "KNOCK_WEAPON",
-          "POISON_TOUCH",
-          "HIT_SERIES",
-          "FINISHER",
-          "PHANTOM_JERK",
-          "LIGHT_FEET",
-          "FROZEN_SHOT",
-          "TRIPLE_ARROW",
-          "CRUSH",
-          "SURVIVAL",
-          "NATURE_SPIRIT",
-          "UNPREDICTABLE_RHYTHM",
-          "RANDOM_MAGIC",
-          "RESONANCE",
-          "CLEAN",
-          "THORN",
-          "EXPLODE",
-          "DETERMINATION"
-        ]
+        "$ref": "./common.schema.json#/$defs/abilityType"
       },
       "additionalProperties": {
         "$ref": "#/$defs/ability"

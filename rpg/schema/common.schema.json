@@ -1,6 +1,129 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$defs": {
+        "abilityType": {
+            "type": "string",
+            "enum": [
+                "JUSTICE_BLADE",
+                "IRON_WILL",
+                "BLOOD",
+                "UNSHAKABLE",
+                "WARRIOR",
+                "STEEL_SPIRIT",
+                "KNOCK_WEAPON",
+                "POISON_TOUCH",
+                "HIT_SERIES",
+                "FINISHER",
+                "PHANTOM_JERK",
+                "LIGHT_FEET",
+                "FROZEN_SHOT",
+                "TRIPLE_ARROW",
+                "CRUSH",
+                "SURVIVAL",
+                "NATURE_SPIRIT",
+                "UNPREDICTABLE_RHYTHM",
+                "RANDOM_MAGIC",
+                "RESONANCE",
+                "CLEAN",
+                "THORN",
+                "EXPLODE",
+                "DETERMINATION"
+            ]
+        },
+        "toolType": {
+            "type": "string",
+            "enum": [
+                "DEFAULT_SWORD",
+                "DEFAULT_KNIFE",
+                "DEFAULT_BOW",
+                "DEFAULT_STAFF",
+                "SHADOW_BLADE",
+                "RAVEN_CLAW",
+                "SPITTING_SNAKE",
+                "SILENCE_ROD",
+                "VOICE_OF_WIND",
+                "STINGING_BEE",
+                "FALCON_SIGH",
+                "QI_FLOW_STAFF",
+                "SLAUGHTER",
+                "GRAVEDIGGER_RAZOR",
+                "BONECRUSHER",
+                "ROTTING_BONE_TOTEM",
+                "TIDE_COMB",
+                "MORAY_FANG",
+                "WHISPER_OF_DEPTHS",
+                "CORAL_SCEPTER",
+                "RECKONING_NAIL",
+                "BURSTING_SHACKLES",
+                "WIND_MOAN",
+                "DEFILED_CRYSTAL",
+                "STORM_COMB",
+                "JELLYFISH_STING",
+                "HARPOON_OF_LONGING",
+                "PEARL_OF_DEPTHS",
+                "CHAOS_BLADE",
+                "DISTORTED_THORN",
+                "INSTABILITY_BOW",
+                "FOCUSING_SHARD",
+                "PENDULUM_OF_FATE",
+                "TIME_SCYTHE",
+                "COUNTDOWN_CROSSBOW",
+                "CHRONOS_ROD",
+                "ERA_FRAGMENT",
+                "HOPE_SHARD",
+                "OBLIVION_STRING",
+                "DESTRUCTION_CORE",
+                "ECHO_OF_PAST_BATTLES",
+                "SHADOW_OF_FALLEN",
+                "BOW_OF_DOOM",
+                "HEART_OF_STORM"
+            ]
+        },
+        "image": {
+            "type": "string",
+            "pattern": ".*\\.png$"
+        },
+        "label": {
+            "type": "object",
+            "required": [
+                "name"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "tag": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "url": {
+            "type": "string",
+            "pattern": "^https://storage\\.c7x\\.dev/topil_ov/.+",
+            "format": "uri"
+        },
+        "i18n": {
+            "type": "string",
+            "pattern": "^rpg\\..+"
+        },
+        "emoji": {
+            "type": "string",
+            "pattern": "^[\\uE000-\\uF8FF]$"
+        },
+        "color": {
+            "type": "object",
+            "properties": {
+                "hex": {
+                    "type": "string",
+                    "pattern": "^#([0-9A-Fa-f]{6})$"
+                }
+            },
+            "required": [
+                "hex"
+            ],
+            "additionalProperties": false
+        },
         "rarity": {
             "type": "string",
             "enum": [
