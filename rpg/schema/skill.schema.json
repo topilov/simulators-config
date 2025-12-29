@@ -3,5 +3,109 @@
   "type": "object",
   "required": [
     "menu"
-  ]
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "menu": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/characterType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/skillList"
+      }
+    },
+    "additionalProperties": false
+  },
+  "$defs": {
+    "skillList": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "skills": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "STRENGTH",
+              "REGENERATION",
+              "HEALTH",
+              "VAMPIRISM",
+              "SPEED",
+              "EVASION",
+              "RELOAD_SPEED",
+              "CASTING_SPEED"
+            ]
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/skill"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "skill": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "color": {
+          "$ref": "./common.schema.json#/$defs/color"
+        },
+        "texture": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "levels": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/skillLevel"
+          },
+          "minItems": 1
+        },
+        "onUpgrade": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "skillLevel": {
+      "type": "object",
+      "properties": {
+        "price": {
+          "type": "number",
+          "minimum": 0
+        },
+        "stats": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/skillLevelStat"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "skillLevelStat": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "stat": {
+          "type": "number"
+        },
+        "readableStat": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "additionalProperties": false
+  }
 }

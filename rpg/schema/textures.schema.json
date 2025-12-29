@@ -3,5 +3,17 @@
   "type": "object",
   "required": [
     "textures"
-  ]
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "textures": {
+      "type": "array",
+      "items": {
+        "$ref": "./common.schema.json#/$defs/url"
+      }
+    }
+  },
+  "additionalProperties": false
 }

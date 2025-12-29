@@ -5,5 +5,61 @@
     "tag",
     "message",
     "scale"
-  ]
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "object",
+      "required": [
+        "price",
+        "shards"
+      ],
+      "properties": {
+        "price": {
+          "type": "string"
+        },
+        "shards": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "message": {
+      "type": "object",
+      "required": [
+        "emptyDrops",
+        "soldDrops"
+      ],
+      "properties": {
+        "emptyDrops": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "soldDrops": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "scale": {
+      "type": "object",
+      "required": [
+        "drops"
+      ],
+      "properties": {
+        "drops": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]+$": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {},
+  "additionalProperties": false
 }

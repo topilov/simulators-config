@@ -3,5 +3,72 @@
   "type": "object",
   "required": [
     "leaderboards"
-  ]
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "leaderboards": {
+      "type": "object",
+      "properties": {
+        "rpg": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/leaderboard"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "leaderboard": {
+      "type": "object",
+      "required": [
+        "title",
+        "field",
+        "nickName",
+        "fieldName",
+        "fieldFormat",
+        "fieldSize",
+        "nameSize",
+        "limit",
+        "location"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "field": {
+          "type": "string"
+        },
+        "nickName": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "fieldName": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "fieldFormat": {
+          "type": "string"
+        },
+        "fieldSize": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "nameSize": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "location": {
+          "$ref": "./common.schema.json#/$defs/label"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
 }

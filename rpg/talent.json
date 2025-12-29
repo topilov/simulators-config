@@ -2,14 +2,14 @@
   "$schema": "./schema/talent.schema.json",
 
   "messages": {
-    "noMoneyMessage": "У вас недостаточно монет для прокачки таланта.",
-    "noQuestPointMessage": "Недостаточно квест-поинтов для повышения уровня таланта.",
-    "successUpgradeMessage": "Талант успешно улучшен до уровня {level}!"
+    "noMoneyMessage": "rpg.talent.messages.no_money",
+    "noQuestPointMessage": "rpg.talent.messages.no_quest_points",
+    "successUpgradeMessage": "rpg.talent.messages.success_upgrade"
   },
   "talents": {
     "DAMAGE": {
-      "name": "Дамаг",
-      "description": "Увеличиывает урон",
+      "name": "rpg.talent.damage.title",
+      "description": "rpg.talent.damage.description",
       "increasePerLever": 1.5,
       "maxLevel": 10,
       "requiredQuests": 5,
@@ -27,8 +27,8 @@
       }
     },
     "MULTIKILL": {
-      "name": "Мультикил",
-      "description": "Увеличиывает мультикил",
+      "name": "rpg.talent.multikill.title",
+      "description": "rpg.talent.multikill.description",
       "increasePerLever": 0.05,
       "maxLevel": 5,
       "requiredQuests": 3,
@@ -41,8 +41,8 @@
       }
     },
     "LUCK": {
-      "name": "Удача",
-      "description": "Увеличиывает удачу",
+      "name": "rpg.talent.luck.title",
+      "description": "rpg.talent.luck.description",
       "increasePerLever": 0.02,
       "maxLevel": 7,
       "requiredQuests": 4,
@@ -57,8 +57,8 @@
       }
     },
     "LOOTBOX_LUCK": {
-      "name": "Удача в лутбоксах",
-      "description": "Увеличиывает удачу лутбоксов",
+      "name": "rpg.talent.lootbox_luck.title",
+      "description": "rpg.talent.lootbox_luck.description",
       "increasePerLever": 0.01,
       "maxLevel": 3,
       "requiredQuests": 2,
@@ -69,8 +69,8 @@
       }
     },
     "PET_XP": {
-      "name": "Опыт питомцев",
-      "description": "Увеличиывает получаемый опыт",
+      "name": "rpg.talent.pet_xp.title",
+      "description": "rpg.talent.pet_xp.description",
       "increasePerLever": 0.1,
       "maxLevel": 10,
       "requiredQuests": 6,
@@ -88,8 +88,8 @@
       }
     },
     "DISCOUNT": {
-      "name": "Скидка",
-      "description": "Увеличиывает скидку в магазине",
+      "name": "rpg.talent.discount.title",
+      "description": "rpg.talent.discount.description",
       "increasePerLever": 0.03,
       "maxLevel": 5,
       "requiredQuests": 3,

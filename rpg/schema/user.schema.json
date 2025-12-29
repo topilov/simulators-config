@@ -3,5 +3,15 @@
   "type": "object",
   "required": [
     "baseHealth"
-  ]
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"  
+      },
+    "baseHealth": {
+      "type": "number",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
 }

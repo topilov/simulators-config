@@ -3,5 +3,90 @@
   "type": "object",
   "required": [
     "equipment"
-  ]
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "equipment": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/equipmentType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/equipmentShiv"
+      }
+    }
+  },
+  "$defs": {
+    "equipmentShiv": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "object",
+          "properties": {
+            "maxGuaranteedUsages": {
+              "$ref": "./common.schema.json#/$defs/i18n"
+            },
+            "notMatchEquipmentType": {
+              "$ref": "./common.schema.json#/$defs/i18n"
+            },
+            "applyInfo": {
+              "$ref": "./common.schema.json#/$defs/i18n"
+            }
+          },
+          "additionalProperties": false
+        },
+        "maxGuaranteedUsages": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "shiv": {
+          "type": "object",
+          "propertyNames": {
+            "$ref": "./common.schema.json#/$defs/shivType"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/shiv"
+          }
+        },
+        "levels": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]+$": {
+              "$ref": "#/$defs/level"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "shiv": {
+      "type": "object",
+      "properties": {
+        "itemStack": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        }
+      },
+      "additionalProperties": false
+    },
+    "level": {
+      "type": "object",
+      "properties": {
+        "chance": {
+          "type": "number",
+          "minimum": 0
+        },
+        "stat": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
 }

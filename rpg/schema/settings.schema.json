@@ -3,5 +3,50 @@
   "type": "object",
   "required": [
     "settings"
-  ]
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "settings": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/settingType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/setting"
+      }
+    }
+  },
+  "$defs": {
+    "setting": {
+      "type": "object",
+      "required": [
+        "id",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "onEnable": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "onDisable": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
 }

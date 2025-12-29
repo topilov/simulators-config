@@ -5,5 +5,81 @@
     "messages",
     "rarityMapping",
     "tools"
-  ]
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "messages": {
+      "type": "object",
+      "properties": {
+        "maxLevel": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "sell": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "hold": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "cannot": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "rarityMapping": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/rarity"
+      },
+      "additionalProperties": {
+        "$ref": "./common.schema.json#/$defs/i18n"
+      }
+    },
+    "tools": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/toolType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/tool"
+      }
+    }
+  },
+  "$defs": {
+    "tool": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "$ref": "./common.schema.json#/$defs/toolGroup"
+        },
+        "material": {
+          "$ref": "./common.schema.json#/$defs/material"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "rare": {
+          "$ref": "./common.schema.json#/$defs/rarity"
+        },
+        "damage": {
+          "type": "number",
+          "minimum": 0
+        },
+        "level": {
+          "type": "number",
+          "minimum": 1
+        },
+        "data": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
 }

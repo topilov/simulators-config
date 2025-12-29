@@ -1,6 +1,38 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$defs": {
+        "settingType": {
+            "type": "string",
+            "enum": [
+                "DISABLE_PETS",
+                "DISABLE_PLAYERS",
+                "DISABLE_SOUNDS"
+            ]
+        },
+        "shivType": {
+            "type": "string",
+            "enum": [
+                "DEFAULT",
+                "EPIC",
+                "LEGENDARY"
+            ]
+        },
+        "equipmentType": {
+            "type": "string",
+            "enum": [
+                "ARMOR",
+                "TOOL"
+            ]
+        },
+        "characterType": {
+            "type": "string",
+            "enum": [
+                "SWORDSMAN",
+                "THIEF",
+                "ELF",
+                "MAGE"
+            ]
+        },
         "dropType": {
             "type": "string",
             "enum": [
@@ -192,6 +224,15 @@
                 "DETERMINATION"
             ]
         },
+        "toolGroup": {
+            "type": "string",
+            "enum": [
+                "SWORD",
+                "KNIFE",
+                "BOW",
+                "STAFF"
+            ]
+        },
         "toolType": {
             "type": "string",
             "enum": [
@@ -256,9 +297,34 @@
                 },
                 "tag": {
                     "type": "string"
+                },
+                "yaw": {
+                    "type": "number"
+                },
+                "offset": {
+                    "$ref": "#/$defs/labelOffset"
                 }
             },
             "additionalProperties": false
+        },
+        "labelOffset": {
+            "type": "object",
+            "required": [
+                "x",
+                "y",
+                "z"
+            ],
+            "properties": {
+                "x": {
+                    "type": "number"
+                },
+                "y": {
+                    "type": "number"
+                },
+                "z": {
+                    "type": "number"
+                }
+            }
         },
         "url": {
             "type": "string",

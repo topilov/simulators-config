@@ -4,5 +4,91 @@
   "required": [
     "messages",
     "talents"
-  ]
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "messages": {
+      "type": "object",
+      "required": [
+        "noMoneyMessage",
+        "noQuestPointMessage",
+        "successUpgradeMessage"
+      ],
+      "properties": {
+        "noMoneyMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "noQuestPointMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "successUpgradeMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      }
+    },
+    "talents": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "DAMAGE",
+          "MULTIKILL",
+          "LUCK",
+          "LOOTBOX_LUCK",
+          "PET_XP",
+          "DISCOUNT"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/talent"
+      }
+    }
+  },
+  "$defs": {
+    "talent": {
+      "type": "object",
+      "required": [
+        "name",
+        "description",
+        "increasePerLever",
+        "maxLevel",
+        "requiredQuests",
+        "prices"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "increasePerLever": {
+          "type": "number",
+          "minimum": 0
+        },
+        "maxLevel": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "requiredQuests": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "prices": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[1-9][0-9]*$"
+          },
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
 }

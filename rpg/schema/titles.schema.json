@@ -4,5 +4,100 @@
   "required": [
     "message",
     "titles"
-  ]
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "message": {
+      "type": "object",
+      "properties": {
+        "compensation": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "titles": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "COMMONER",
+          "TRAVELER",
+          "APPRENTICE",
+          "DEFENDER",
+          "SEEKER",
+          "BRUTE",
+          "PILGRIM",
+          "AVENGER",
+          "MARAUDER",
+          "PROPHET",
+          "SORCERER",
+          "ARCHITECT",
+          "IMMORTAL",
+          "GRIEF",
+          "DRAGON",
+          "TITAN",
+          "KING",
+          "TOUGH",
+          "DESTROYER",
+          "GUARDIAN",
+          "THIEF",
+          "DEADLY",
+          "CRUSHER",
+          "IRONCLAD",
+          "BERSERKER",
+          "HUNTER",
+          "EXPERIENCED",
+          "NEGOTIATOR",
+          "ANIMAL_LOVER",
+          "EXECUTIONER",
+          "PRINCE",
+          "LUCKY"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/title"
+      }
+    }
+  },
+  "$defs": {
+    "title": {
+      "type": "object",
+      "required": [
+        "menuTitle",
+        "title",
+        "description",
+        "texture",
+        "rare",
+        "icon",
+        "notification"
+      ],
+      "properties": {
+        "menuTitle": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "texture": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "rare": {
+          "$ref": "./common.schema.json#/$defs/rarity"
+        },
+        "icon": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "notification": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
 }

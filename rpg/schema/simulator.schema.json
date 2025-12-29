@@ -30,5 +30,397 @@
     "lootBox",
     "trash",
     "quests"
-  ]
+  ],
+  "properties": {
+    "logging": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "string"
+    },
+    "simulatorId": {
+      "type": "string"
+    },
+    "databaseId": {
+      "type": "string"
+    },
+    "showLocation": {
+      "type": "boolean"
+    },
+    "isWhitelisted": {
+      "type": "boolean"
+    },
+    "isTest": {
+      "type": "boolean"
+    },
+    "hasPrivateAccess": {
+      "type": "boolean"
+    },
+    "privateAccessGroups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "enableSpectatorsByReport": {
+      "type": "boolean"
+    },
+    "owners": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "localStaff": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/groupType"
+      }
+    },
+    "groups": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/groupType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/group"
+      }
+    },
+    "map": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "realm": {
+      "type": "object",
+      "properties": {
+        "main": {
+          "type": "string"
+        },
+        "service": {
+          "type": "string"
+        },
+        "minigame": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "text": {
+      "type": "object",
+      "properties": {
+        "cooldown": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "no": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "resourcePack": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "$ref": "./common.schema.json#/$defs/url"
+        },
+        "hash": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "bot": {
+      "type": "object",
+      "properties": {
+        "chatId": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "cooldown": {
+      "type": "object",
+      "properties": {
+        "command": {
+          "type": "number"
+        },
+        "key": {
+          "type": "number"
+        },
+        "consumedItem": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "violation": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "object",
+          "properties": {
+            "ban": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "booster": {
+      "type": "object",
+      "properties": {
+        "command": {
+          "type": "object",
+          "properties": {
+            "thanks": {
+              "type": "string"
+            }
+          }
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "empty": {
+              "type": "string"
+            }
+          }
+        },
+        "alert": {
+          "type": "object",
+          "properties": {
+            "startTitle": {
+              "$ref": "./common.schema.json#/$defs/i18n"
+            },
+            "startSubtitle": {
+              "$ref": "./common.schema.json#/$defs/i18n"
+            },
+            "startDuration": {
+              "type": "number"
+            },
+            "expireTitle": {
+              "$ref": "./common.schema.json#/$defs/i18n"
+            },
+            "expireDuration": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "chat": {
+      "type": "object",
+      "properties": {
+        "cooldown": {
+          "type": "number"
+        },
+        "cooldownMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "globalStartChar": {
+          "type": "string"
+        },
+        "globalPrefix": {
+          "type": "string"
+        },
+        "localPrefix": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "daily": {
+      "type": "object",
+      "properties": {
+        "nextTakeReward": {
+          "type": "number"
+        },
+        "command": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "donate": {
+      "type": "object",
+      "properties": {
+        "nextTakeDiscount": {
+          "type": "number"
+        },
+        "discount": {
+          "type": "object",
+          "properties": {
+            "min": {
+              "type": "number"
+            },
+            "max": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": false
+        },
+        "notify": {
+          "type": "string"
+        },
+        "notifyDonateNameColor": {
+          "type": "string"
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "buy": {
+              "type": "string"
+            }
+          }
+        },
+        "command": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        }
+      }
+    },
+    "locations": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "object",
+          "properties": {
+            "find": {
+              "type": "string"
+            },
+            "failed": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "lootBox": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "object",
+          "properties": {
+            "empty": {
+              "type": "string"
+            }
+          }
+        },
+        "banner": {
+          "type": "object",
+          "properties": {
+            "content": {
+              "$ref": "./common.schema.json#/$defs/i18n"
+            },
+            "weight": {
+              "type": "number"
+            },
+            "height": {
+              "type": "number"
+            },
+            "resize": {
+              "type": "object",
+              "patternProperties": {
+                "^[0-9]+$": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "trash": {
+      "type": "object",
+      "properties": {
+        "command": {
+          "type": "string"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "size": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "quests": {
+      "type": "object",
+      "properties": {
+        "nextResetQuests": {
+          "type": "number"
+        },
+        "completeAlert": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "groupType": {
+      "type": "string",
+      "enum": [
+        "LOCAL_STAFF",
+        "SENIOR_LOCAL_STAFF",
+        "GAME_DESIGNER"
+      ]
+    },
+    "group": {
+      "type": "object",
+      "required": [
+        "id",
+        "prefix",
+        "prefixColor",
+        "nameColor",
+        "chatMessageColor",
+        "isStaffGroup",
+        "isDefault",
+        "priority"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "prefix": {
+          "type": "string"
+        },
+        "prefixColor": {
+          "type": "string"
+        },
+        "nameColor": {
+          "type": "string"
+        },
+        "chatMessageColor": {
+          "type": "string"
+        },
+        "isStaffGroup": {
+          "type": "boolean"
+        },
+        "isDefault": {
+          "type": "boolean"
+        },
+        "priority": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
 }
