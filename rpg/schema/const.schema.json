@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "emoji",
+    "text"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "emoji": {
+      "type": "object",
+      "required": [
+        "money",
+        "exp",
+        "bits",
+        "damage",
+        "level",
+        "completedQuests"
+      ],
+      "properties": {
+        "money": {
+          "$ref": "./common.schema.json#/$defs/emoji"
+        },
+        "exp": {
+          "$ref": "./common.schema.json#/$defs/emoji"
+        },
+        "bits": {
+          "$ref": "./common.schema.json#/$defs/emoji"
+        },
+        "damage": {
+          "$ref": "./common.schema.json#/$defs/emoji"
+        },
+        "level": {
+          "$ref": "./common.schema.json#/$defs/emoji"
+        },
+        "completedQuests": {
+          "$ref": "./common.schema.json#/$defs/emoji"
+        }
+      },
+      "additionalProperties": false
+    },
+    "text": {
+      "type": "object",
+      "required": [
+        "money",
+        "bits",
+        "damage",
+        "level",
+        "completedQuests"
+      ],
+      "properties": {
+        "money": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "bits": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "damage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "level": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "completedQuests": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

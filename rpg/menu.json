@@ -1,13 +1,19 @@
 {
+  "$schema": "./schema/menu.schema.json",
+
   "main": {
     "banner": {
       "texture": "banner.png",
-      "title": "Telegram канал Симуляторов",
-      "description": "Там все новости и обновления!",
+      "title": "rpg.menu.main.banner.title",
+      "description": "rpg.menu.main.banner.description",
       "buttons": [
         {
-          "name": "Перейти",
+          "name": "rpg.menu.main.banner.buttons.telegram.name",
           "openUrl": "https://t.me/crisimulators"
+        },
+        {
+          "name": "rpg.menu.main.banner.buttons.discord.name",
+          "openUrl": "https://discord.gg/EsAaCWddEH"
         }
       ]
     },

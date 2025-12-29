@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "locations"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "locations": {
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/locationType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/loot"
+      }
+    }
+  },
+  "$defs": {
+    "loot": {
+      "type": "object",
+      "required": [
+        "drops"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "drops": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/drop"
+          }
+        }
+      }
+    },
+    "drop": {
+      "type": "object",
+      "required": [
+        "id",
+        "itemStack"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "./common.schema.json#/$defs/dropId"
+        },
+        "itemStack": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
