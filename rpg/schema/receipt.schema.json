@@ -2,6 +2,42 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "required": [
-    "receipt"
-  ]
+    "receipts"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "receipts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/receipt"
+      }
+    }
+  },
+  "$defs": {
+    "receipt": {
+      "type": "object",
+      "required": [
+        "databaseId",
+        "simulatorId",
+        "percent"
+      ],
+      "properties": {
+        "databaseId": {
+          "type": "string"
+        },
+        "simulatorId": {
+          "type": "string"
+        },
+        "percent": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "additionalProperties": false
+    }
+  }
 }

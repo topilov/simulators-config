@@ -2,6 +2,109 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "required": [
-    "dialog"
-  ]
+    "dialogs"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "dialogs": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/dialog"
+      }
+    }
+  },
+  "$defs": {
+    "dialog": {
+      "type": "object",
+      "required": [
+        "parts"
+      ],
+      "properties": {
+        "parts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/part"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "part": {
+      "type": "object",
+      "required": [
+        "text",
+        "answers"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "requirements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/requirement"
+          }
+        },
+        "answers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/answer"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "requirement": {
+      "type": "object",
+      "required": [
+        "use",
+        "required"
+      ],
+      "properties": {
+        "use": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "artefactId": {
+          "type": "string"
+        },
+        "required": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "answer": {
+      "type": "object",
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "fallbackPart": {
+          "type": "number",
+          "minimum": 0
+        },
+        "nextPart": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rewards": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
 }

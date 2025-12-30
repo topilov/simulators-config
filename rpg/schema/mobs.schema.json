@@ -4,5 +4,179 @@
   "required": [
     "messages",
     "locations"
-  ]
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "messages": {
+      "type": "object",
+      "required": [
+        "drop"
+      ],
+      "properties": {
+        "drop": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "locations": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/locationType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/locationMobs"
+      }
+    }
+  },
+  "$defs": {
+    "locationMobs": {
+      "type": "object",
+      "required": [
+        "mobs"
+      ],
+      "properties": {
+        "mobs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/mobPoint"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "mobPoint": {
+      "type": "object",
+      "required": [
+        "pointTag",
+        "kinds"
+      ],
+      "properties": {
+        "pointTag": {
+          "type": "string"
+        },
+        "kinds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/mobKind"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "mobKind": {
+      "type": "object",
+      "required": [
+        "chance",
+        "type",
+        "name",
+        "skinUrl",
+        "attributes"
+      ],
+      "properties": {
+        "chance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "type": {
+          "$ref": "./common.schema.json#/$defs/mobType"
+        },
+        "name": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "skinUrl": {
+          "$ref": "./common.schema.json#/$defs/url"
+        },
+        "attributes": {
+          "$ref": "#/$defs/mobAttributes"
+        },
+        "isAntiKnockback": {
+          "type": "boolean"
+        },
+        "bladeMail": {
+          "type": "number",
+          "minimum": 0
+        },
+        "itemInMainHand": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "spawnAfter": {
+          "type": "number",
+          "minimum": 0
+        },
+        "exp": {
+          "type": "number",
+          "minimum": 0
+        },
+        "petExp": {
+          "type": "number",
+          "minimum": 0
+        },
+        "drops": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/drop"
+          }
+        },
+        "onHitEffects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/onHitEffect"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "mobAttributes": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/attributeType"
+      },
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "drop": {
+      "type": "object",
+      "required": [
+        "chance"
+      ],
+      "properties": {
+        "chance": {
+          "type": "number",
+          "minimum": 0
+        },
+        "id": {
+          "$ref": "./common.schema.json#/$defs/dropId"
+        }
+      },
+      "additionalProperties": false
+    },
+    "onHitEffect": {
+      "type": "object",
+      "required": [
+        "type",
+        "duration",
+        "amplifier"
+      ],
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "number",
+          "minimum": 0
+        },
+        "amplifier": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    }
+  }
 }

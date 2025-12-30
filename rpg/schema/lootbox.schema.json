@@ -3,5 +3,139 @@
   "type": "object",
   "required": [
     "lootboxes"
-  ]
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "lootboxes": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/lootboxId"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/lootbox"
+      }
+    }
+  },
+  "$defs": {
+    "lootbox": {
+      "type": "object",
+      "required": [
+        "title",
+        "keyTitle",
+        "giveMessage",
+        "alertMessage",
+        "keyStack",
+        "location",
+        "type",
+        "alertRarities",
+        "onOpen",
+        "menu"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "keyTitle": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "giveMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "alertMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "keyStack": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "location": {
+          "$ref": "./common.schema.json#/$defs/label"
+        },
+        "type": {
+          "$ref": "./common.schema.json#/$defs/lootboxTexture"
+        },
+        "alertRarities": {
+          "type": "array",
+          "items": {
+            "$ref": "./common.schema.json#/$defs/rarity"
+          }
+        },
+        "alertSound": {
+          "$ref": "./common.schema.json#/$defs/soundType"
+        },
+        "onOpen": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "menu": {
+          "$ref": "#/$defs/lootboxMenu"
+        }
+      },
+      "additionalProperties": false
+    },
+    "lootboxMenu": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "texture",
+        "elements"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "./common.schema.json#/$defs/lootboxId"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "texture": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "elements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/lootboxElement"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "lootboxElement": {
+      "type": "object",
+      "required": [
+        "id",
+        "rarity",
+        "itemStack",
+        "chance",
+        "onDrop"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "rarity": {
+          "$ref": "./common.schema.json#/$defs/rarity"
+        },
+        "itemStack": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "chance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "onDrop": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
 }

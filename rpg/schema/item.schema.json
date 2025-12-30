@@ -4,5 +4,36 @@
   "required": [
     "items",
     "nbt"
-  ]
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "items": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "nbt": {
+      "type": "object",
+      "required": [
+        "level",
+        "pipeline",
+        "shiv"
+      ],
+      "properties": {
+        "level": {
+          "type": "string"
+        },
+        "pipeline": {
+          "type": "string"
+        },
+        "shiv": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {}
 }

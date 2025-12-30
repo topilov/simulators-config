@@ -4,5 +4,125 @@
   "required": [
     "menu",
     "quests"
-  ]
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "menu": {
+      "$ref": "#/$defs/menu"
+    },
+    "quests": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "menu": {
+      "type": "object",
+      "required": [
+        "title",
+        "categories"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/category"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "category": {
+      "type": "object",
+      "required": [
+        "title",
+        "questsData"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "questsData": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/questsData"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "questsData": {
+      "type": "object",
+      "required": [
+        "title",
+        "quests"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "quests": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/quest"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "quest": {
+      "type": "object",
+      "required": [
+        "title",
+        "icon",
+        "reward",
+        "tasks"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "icon": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "reward": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "tasks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/task"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "task": {
+      "type": "object",
+      "required": [
+        "name",
+        "goal",
+        "current"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "goal": {
+          "type": "number",
+          "minimum": 0
+        },
+        "current": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
 }

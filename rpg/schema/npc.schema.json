@@ -3,5 +3,50 @@
   "type": "object",
   "required": [
     "npc"
-  ]
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "npc": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/npc"
+      }
+    }
+  },
+  "$defs": {
+    "npc": {
+      "type": "object",
+      "required": [
+        "name",
+        "location",
+        "skin",
+        "lookAtPlayer",
+        "onClick"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "location": {
+          "$ref": "./common.schema.json#/$defs/label"
+        },
+        "skin": {
+          "$ref": "./common.schema.json#/$defs/url"
+        },
+        "lookAtPlayer": {
+          "type": "boolean"
+        },
+        "onClick": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
 }

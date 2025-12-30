@@ -5,5 +5,139 @@
     "messages",
     "price",
     "runes"
-  ]
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "messages": {
+      "type": "object",
+      "required": [
+        "notEnoughMoney",
+        "noRuneInInventory",
+        "noItemInMainHand",
+        "noRuneOnItem",
+        "noAvailableRunes",
+        "cannotEnchantThisItem",
+        "cannotMergeMaxLevelRune"
+      ],
+      "properties": {
+        "notEnoughMoney": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "noRuneInInventory": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "noItemInMainHand": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "noRuneOnItem": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "noAvailableRunes": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "cannotEnchantThisItem": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "cannotMergeMaxLevelRune": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "price": {
+      "type": "object",
+      "required": [
+        "mergePrice",
+        "enchantmentPrice",
+        "unspellPrice"
+      ],
+      "properties": {
+        "mergePrice": {
+          "type": "number",
+          "minimum": 0
+        },
+        "enchantmentPrice": {
+          "type": "number",
+          "minimum": 0
+        },
+        "unspellPrice": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "runes": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/runeType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/rune"
+      }
+    }
+  },
+  "$defs": {
+    "rune": {
+      "type": "object",
+      "required": [
+        "type",
+        "equipmentType",
+        "name",
+        "description",
+        "icon",
+        "rarity",
+        "levels"
+      ],
+      "properties": {
+        "type": {
+          "$ref": "./common.schema.json#/$defs/runeType"
+        },
+        "equipmentType": {
+          "$ref": "./common.schema.json#/$defs/equipmentType"
+        },
+        "name": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "icon": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "rarity": {
+          "$ref": "./common.schema.json#/$defs/rarity"
+        },
+        "levels": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]+$": {
+              "$ref": "#/$defs/runeLevel"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "runeLevel": {
+      "type": "object",
+      "required": [
+        "power"
+      ],
+      "properties": {
+        "chance": {
+          "type": "number",
+          "minimum": 0
+        },
+        "power": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
 }
