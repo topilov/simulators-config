@@ -19,8 +19,7 @@
       "type": "object",
       "patternProperties": {
         "^[0-9]+$": {
-          "type": "number",
-          "minimum": 0
+          "$ref": "#/$def/level"
         }
       },
       "additionalProperties": false
@@ -105,6 +104,22 @@
         }
       },
       "additionalProperties": false
+    },
+    "level": {
+      "type": "object",
+      "required": [
+        "requiredExp",
+        "rewards"
+      ],
+      "properties": {
+        "requiredExp": {
+          "type": "number"
+        },
+        "rewards": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
     }
   }
 }
