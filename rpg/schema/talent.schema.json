@@ -51,6 +51,7 @@
       "required": [
         "name",
         "description",
+        "texture",
         "increasePerLever",
         "maxLevel",
         "requiredQuests",
@@ -62,6 +63,9 @@
         },
         "description": {
           "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "texture": {
+          "$ref": "./common.schema.json#/$defs/image"
         },
         "increasePerLever": {
           "type": "number",
