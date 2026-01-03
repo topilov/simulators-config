@@ -2,106 +2,606 @@
   "$schema": "./schema/character.schema.json",
   
   "levels": {
-    "1": 100.0,
-    "2": 200.0,
-    "3": 300.0,
-    "4": 400.0,
-    "5": 500.0,
-    "6": 600.0,
-    "7": 700.0,
-    "8": 800.0,
-    "9": 900.0,
-    "10": 1000.0,
-    "11": 1100.0,
-    "12": 1200.0,
-    "13": 1300.0,
-    "14": 1400.0,
-    "15": 1500.0,
-    "16": 1600.0,
-    "17": 1700.0,
-    "18": 1800.0,
-    "19": 1900.0,
-    "20": 2000.0,
-    "21": 2100.0,
-    "22": 2200.0,
-    "23": 2300.0,
-    "24": 2400.0,
-    "25": 2500.0,
-    "26": 2600.0,
-    "27": 2700.0,
-    "28": 2800.0,
-    "29": 2900.0,
-    "30": 3000.0,
-    "31": 3100.0,
-    "32": 3200.0,
-    "33": 3300.0,
-    "34": 3400.0,
-    "35": 3500.0,
-    "36": 3600.0,
-    "37": 3700.0,
-    "38": 3800.0,
-    "39": 3900.0,
-    "40": 4000.0,
-    "41": 4100.0,
-    "42": 4200.0,
-    "43": 4300.0,
-    "44": 4400.0,
-    "45": 4500.0,
-    "46": 4600.0,
-    "47": 4700.0,
-    "48": 4800.0,
-    "49": 4900.0,
-    "50": 5000.0,
-    "51": 5100.0,
-    "52": 5200.0,
-    "53": 5300.0,
-    "54": 5400.0,
-    "55": 5500.0,
-    "56": 5600.0,
-    "57": 5700.0,
-    "58": 5800.0,
-    "59": 5900.0,
-    "60": 6000.0,
-    "61": 6100.0,
-    "62": 6200.0,
-    "63": 6300.0,
-    "64": 6400.0,
-    "65": 6500.0,
-    "66": 6600.0,
-    "67": 6700.0,
-    "68": 6800.0,
-    "69": 6900.0,
-    "70": 7000.0,
-    "71": 7100.0,
-    "72": 7200.0,
-    "73": 7300.0,
-    "74": 7400.0,
-    "75": 7500.0,
-    "76": 7600.0,
-    "77": 7700.0,
-    "78": 7800.0,
-    "79": 7900.0,
-    "80": 8000.0,
-    "81": 8100.0,
-    "82": 8200.0,
-    "83": 8300.0,
-    "84": 8400.0,
-    "85": 8500.0,
-    "86": 8600.0,
-    "87": 8700.0,
-    "88": 8800.0,
-    "89": 8900.0,
-    "90": 9000.0,
-    "91": 9100.0,
-    "92": 9200.0,
-    "93": 9300.0,
-    "94": 9400.0,
-    "95": 9500.0,
-    "96": 9600.0,
-    "97": 9700.0,
-    "98": 9800.0,
-    "99": 9900.0,
-    "100": 10000.0
+    "1": {
+      "requiredExp": 10,
+      "rewards": [
+        "command"
+      ]
+    },
+    "2": {
+      "requiredExp": 20,
+      "rewards": [
+        "command"
+      ]
+    },
+    "3": {
+      "requiredExp": 30,
+      "rewards": [
+        "command"
+      ]
+    },
+    "4": {
+      "requiredExp": 40,
+      "rewards": [
+        "command"
+      ]
+    },
+    "5": {
+      "requiredExp": 50,
+      "rewards": [
+        "command"
+      ]
+    },
+    "6": {
+      "requiredExp": 60,
+      "rewards": [
+        "command"
+      ]
+    },
+    "7": {
+      "requiredExp": 70,
+      "rewards": [
+        "command"
+      ]
+    },
+    "8": {
+      "requiredExp": 80,
+      "rewards": [
+        "command"
+      ]
+    },
+    "9": {
+      "requiredExp": 90,
+      "rewards": [
+        "command"
+      ]
+    },
+    "10": {
+      "requiredExp": 100,
+      "rewards": [
+        "command"
+      ]
+    },
+    "11": {
+      "requiredExp": 110,
+      "rewards": [
+        "command"
+      ]
+    },
+    "12": {
+      "requiredExp": 120,
+      "rewards": [
+        "command"
+      ]
+    },
+    "13": {
+      "requiredExp": 130,
+      "rewards": [
+        "command"
+      ]
+    },
+    "14": {
+      "requiredExp": 140,
+      "rewards": [
+        "command"
+      ]
+    },
+    "15": {
+      "requiredExp": 150,
+      "rewards": [
+        "command"
+      ]
+    },
+    "16": {
+      "requiredExp": 160,
+      "rewards": [
+        "command"
+      ]
+    },
+    "17": {
+      "requiredExp": 170,
+      "rewards": [
+        "command"
+      ]
+    },
+    "18": {
+      "requiredExp": 180,
+      "rewards": [
+        "command"
+      ]
+    },
+    "19": {
+      "requiredExp": 190,
+      "rewards": [
+        "command"
+      ]
+    },
+    "20": {
+      "requiredExp": 200,
+      "rewards": [
+        "command"
+      ]
+    },
+    "21": {
+      "requiredExp": 210,
+      "rewards": [
+        "command"
+      ]
+    },
+    "22": {
+      "requiredExp": 220,
+      "rewards": [
+        "command"
+      ]
+    },
+    "23": {
+      "requiredExp": 230,
+      "rewards": [
+        "command"
+      ]
+    },
+    "24": {
+      "requiredExp": 240,
+      "rewards": [
+        "command"
+      ]
+    },
+    "25": {
+      "requiredExp": 250,
+      "rewards": [
+        "command"
+      ]
+    },
+    "26": {
+      "requiredExp": 260,
+      "rewards": [
+        "command"
+      ]
+    },
+    "27": {
+      "requiredExp": 270,
+      "rewards": [
+        "command"
+      ]
+    },
+    "28": {
+      "requiredExp": 280,
+      "rewards": [
+        "command"
+      ]
+    },
+    "29": {
+      "requiredExp": 290,
+      "rewards": [
+        "command"
+      ]
+    },
+    "30": {
+      "requiredExp": 300,
+      "rewards": [
+        "command"
+      ]
+    },
+    "31": {
+      "requiredExp": 310,
+      "rewards": [
+        "command"
+      ]
+    },
+    "32": {
+      "requiredExp": 320,
+      "rewards": [
+        "command"
+      ]
+    },
+    "33": {
+      "requiredExp": 330,
+      "rewards": [
+        "command"
+      ]
+    },
+    "34": {
+      "requiredExp": 340,
+      "rewards": [
+        "command"
+      ]
+    },
+    "35": {
+      "requiredExp": 350,
+      "rewards": [
+        "command"
+      ]
+    },
+    "36": {
+      "requiredExp": 360,
+      "rewards": [
+        "command"
+      ]
+    },
+    "37": {
+      "requiredExp": 370,
+      "rewards": [
+        "command"
+      ]
+    },
+    "38": {
+      "requiredExp": 380,
+      "rewards": [
+        "command"
+      ]
+    },
+    "39": {
+      "requiredExp": 390,
+      "rewards": [
+        "command"
+      ]
+    },
+    "40": {
+      "requiredExp": 400,
+      "rewards": [
+        "command"
+      ]
+    },
+    "41": {
+      "requiredExp": 410,
+      "rewards": [
+        "command"
+      ]
+    },
+    "42": {
+      "requiredExp": 420,
+      "rewards": [
+        "command"
+      ]
+    },
+    "43": {
+      "requiredExp": 430,
+      "rewards": [
+        "command"
+      ]
+    },
+    "44": {
+      "requiredExp": 440,
+      "rewards": [
+        "command"
+      ]
+    },
+    "45": {
+      "requiredExp": 450,
+      "rewards": [
+        "command"
+      ]
+    },
+    "46": {
+      "requiredExp": 460,
+      "rewards": [
+        "command"
+      ]
+    },
+    "47": {
+      "requiredExp": 470,
+      "rewards": [
+        "command"
+      ]
+    },
+    "48": {
+      "requiredExp": 480,
+      "rewards": [
+        "command"
+      ]
+    },
+    "49": {
+      "requiredExp": 490,
+      "rewards": [
+        "command"
+      ]
+    },
+    "50": {
+      "requiredExp": 500,
+      "rewards": [
+        "command"
+      ]
+    },
+    "51": {
+      "requiredExp": 510,
+      "rewards": [
+        "command"
+      ]
+    },
+    "52": {
+      "requiredExp": 520,
+      "rewards": [
+        "command"
+      ]
+    },
+    "53": {
+      "requiredExp": 530,
+      "rewards": [
+        "command"
+      ]
+    },
+    "54": {
+      "requiredExp": 540,
+      "rewards": [
+        "command"
+      ]
+    },
+    "55": {
+      "requiredExp": 550,
+      "rewards": [
+        "command"
+      ]
+    },
+    "56": {
+      "requiredExp": 560,
+      "rewards": [
+        "command"
+      ]
+    },
+    "57": {
+      "requiredExp": 570,
+      "rewards": [
+        "command"
+      ]
+    },
+    "58": {
+      "requiredExp": 580,
+      "rewards": [
+        "command"
+      ]
+    },
+    "59": {
+      "requiredExp": 590,
+      "rewards": [
+        "command"
+      ]
+    },
+    "60": {
+      "requiredExp": 600,
+      "rewards": [
+        "command"
+      ]
+    },
+    "61": {
+      "requiredExp": 610,
+      "rewards": [
+        "command"
+      ]
+    },
+    "62": {
+      "requiredExp": 620,
+      "rewards": [
+        "command"
+      ]
+    },
+    "63": {
+      "requiredExp": 630,
+      "rewards": [
+        "command"
+      ]
+    },
+    "64": {
+      "requiredExp": 640,
+      "rewards": [
+        "command"
+      ]
+    },
+    "65": {
+      "requiredExp": 650,
+      "rewards": [
+        "command"
+      ]
+    },
+    "66": {
+      "requiredExp": 660,
+      "rewards": [
+        "command"
+      ]
+    },
+    "67": {
+      "requiredExp": 670,
+      "rewards": [
+        "command"
+      ]
+    },
+    "68": {
+      "requiredExp": 680,
+      "rewards": [
+        "command"
+      ]
+    },
+    "69": {
+      "requiredExp": 690,
+      "rewards": [
+        "command"
+      ]
+    },
+    "70": {
+      "requiredExp": 700,
+      "rewards": [
+        "command"
+      ]
+    },
+    "71": {
+      "requiredExp": 710,
+      "rewards": [
+        "command"
+      ]
+    },
+    "72": {
+      "requiredExp": 720,
+      "rewards": [
+        "command"
+      ]
+    },
+    "73": {
+      "requiredExp": 730,
+      "rewards": [
+        "command"
+      ]
+    },
+    "74": {
+      "requiredExp": 740,
+      "rewards": [
+        "command"
+      ]
+    },
+    "75": {
+      "requiredExp": 750,
+      "rewards": [
+        "command"
+      ]
+    },
+    "76": {
+      "requiredExp": 760,
+      "rewards": [
+        "command"
+      ]
+    },
+    "77": {
+      "requiredExp": 770,
+      "rewards": [
+        "command"
+      ]
+    },
+    "78": {
+      "requiredExp": 780,
+      "rewards": [
+        "command"
+      ]
+    },
+    "79": {
+      "requiredExp": 790,
+      "rewards": [
+        "command"
+      ]
+    },
+    "80": {
+      "requiredExp": 800,
+      "rewards": [
+        "command"
+      ]
+    },
+    "81": {
+      "requiredExp": 810,
+      "rewards": [
+        "command"
+      ]
+    },
+    "82": {
+      "requiredExp": 820,
+      "rewards": [
+        "command"
+      ]
+    },
+    "83": {
+      "requiredExp": 830,
+      "rewards": [
+        "command"
+      ]
+    },
+    "84": {
+      "requiredExp": 840,
+      "rewards": [
+        "command"
+      ]
+    },
+    "85": {
+      "requiredExp": 850,
+      "rewards": [
+        "command"
+      ]
+    },
+    "86": {
+      "requiredExp": 860,
+      "rewards": [
+        "command"
+      ]
+    },
+    "87": {
+      "requiredExp": 870,
+      "rewards": [
+        "command"
+      ]
+    },
+    "88": {
+      "requiredExp": 880,
+      "rewards": [
+        "command"
+      ]
+    },
+    "89": {
+      "requiredExp": 890,
+      "rewards": [
+        "command"
+      ]
+    },
+    "90": {
+      "requiredExp": 900,
+      "rewards": [
+        "command"
+      ]
+    },
+    "91": {
+      "requiredExp": 910,
+      "rewards": [
+        "command"
+      ]
+    },
+    "92": {
+      "requiredExp": 920,
+      "rewards": [
+        "command"
+      ]
+    },
+    "93": {
+      "requiredExp": 930,
+      "rewards": [
+        "command"
+      ]
+    },
+    "94": {
+      "requiredExp": 940,
+      "rewards": [
+        "command"
+      ]
+    },
+    "95": {
+      "requiredExp": 950,
+      "rewards": [
+        "command"
+      ]
+    },
+    "96": {
+      "requiredExp": 960,
+      "rewards": [
+        "command"
+      ]
+    },
+    "97": {
+      "requiredExp": 970,
+      "rewards": [
+        "command"
+      ]
+    },
+    "98": {
+      "requiredExp": 980,
+      "rewards": [
+        "command"
+      ]
+    },
+    "99": {
+      "requiredExp": 990,
+      "rewards": [
+        "command"
+      ]
+    },
+    "100": {
+      "requiredExp": 1000,
+      "rewards": [
+        "command"
+      ]
+    }
   },
   "maxLevel": 100,
   "types": {
