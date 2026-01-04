@@ -20,9 +20,18 @@
     "dialog": {
       "type": "object",
       "required": [
+        "title",
+        "maxTasks",
         "parts"
       ],
       "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "maxTasks": {
+          "type": "integer",
+          "minimum": 0
+        },
         "parts": {
           "type": "array",
           "items": {
@@ -39,6 +48,10 @@
         "answers"
       ],
       "properties": {
+        "taskIndex": {
+          "type": "integer",
+          "minimum": 0
+        },
         "text": {
           "type": "string"
         },
