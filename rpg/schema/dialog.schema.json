@@ -53,7 +53,7 @@
           "minimum": 0
         },
         "text": {
-          "type": "string"
+          "$ref": "./common.schema.json#/$defs/i18n"
         },
         "requirements": {
           "type": "array",
@@ -91,7 +91,7 @@
           "minimum": 0
         },
         "text": {
-          "type": "string"
+          "$ref": "./common.schema.json#/$defs/i18n"
         }
       },
       "additionalProperties": false
