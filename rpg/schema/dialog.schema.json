@@ -55,11 +55,8 @@
         "text": {
           "$ref": "./common.schema.json#/$defs/i18n"
         },
-        "requirements": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/requirement"
-          }
+        "requirement": {
+          "$ref": "#/$defs/requirement"
         },
         "answers": {
           "type": "array",
@@ -73,12 +70,13 @@
     "requirement": {
       "type": "object",
       "required": [
-        "use",
+        "kind",
         "required"
       ],
       "properties": {
-        "use": {
-          "type": "string"
+        "kind": {
+          "type": "string",
+          "enum": ["kill_mob", "fetch_artefact"]
         },
         "type": {
           "type": "string"
