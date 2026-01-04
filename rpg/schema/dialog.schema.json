@@ -70,19 +70,36 @@
     "requirement": {
       "type": "object",
       "required": [
-        "kind",
+        "type",
         "required"
       ],
       "properties": {
-        "kind": {
-          "type": "string",
-          "enum": ["kill_mob", "fetch_artefact"]
-        },
         "type": {
-          "type": "string"
-        },
-        "artefactId": {
-          "type": "string"
+          "type": "object",
+          "required": [
+            "kind"
+          ],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "enum": ["kill_mob", "fetch_artefact"]
+            },
+            "mobType": {
+              "type": "string"
+            },
+            "artefactId": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "oneOf": [
+            {
+              "required": ["mobType"]
+            },
+            {
+              "required": ["artefactId"]
+            }
+          ]
         },
         "required": {
           "type": "number",
