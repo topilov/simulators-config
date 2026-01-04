@@ -1,525 +1,612 @@
 {
-  "$schema": "./schema/tool.schema.json",
-
-  "messages": {
-    "maxLevel": "rpg.tool.axe.messages.max-level",
-    "sell": "rpg.items.message.sell",
-    "hold": "rpg.items.message.hold",
-    "cannot": "rpg.items.message.cannot"
-  },
-  "rarityMapping": {
-    "COMMON": "rpg.tool.rarity.common.title",
-    "RARE": "rpg.tool.rarity.rare.title",
-    "EPIC": "rpg.tool.rarity.epic.title",
-    "LEGENDARY": "rpg.tool.rarity.legendary.title",
-    "MYTHIC": "rpg.tool.rarity.mythic.title"
-  },
-  "tools": {
-    "DEFAULT_SWORD": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.default_sword.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1
+    "$schema": "./schema/tool.schema.json",
+    "messages": {
+        "maxLevel": "rpg.tool.axe.messages.max-level",
+        "sell": "rpg.items.message.sell",
+        "hold": "rpg.items.message.hold",
+        "cannot": "rpg.items.message.cannot"
     },
-    "DEFAULT_KNIFE": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.default_knife.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1
+    "rarityMapping": {
+        "COMMON": "rpg.tool.rarity.common.title",
+        "RARE": "rpg.tool.rarity.rare.title",
+        "EPIC": "rpg.tool.rarity.epic.title",
+        "LEGENDARY": "rpg.tool.rarity.legendary.title",
+        "MYTHIC": "rpg.tool.rarity.mythic.title"
     },
-    "DEFAULT_BOW": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.default_bow.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "DEFAULT_STAFF": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.default_staff.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "SHADOW_BLADE": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.shadow_blade.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 2.0,
-      "level": 2
-    },
-    "RAVEN_CLAW": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.raven_claw.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1
-    },
-    "SPITTING_SNAKE": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.spitting_snake.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "SILENCE_ROD": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.silence_rod.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "VOICE_OF_WIND": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.voice_of_wind.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1
-    },
-    "STINGING_BEE": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.stinging_bee.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1
-    },
-    "FALCON_SIGH": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.falcon_sigh.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "QI_FLOW_STAFF": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.qi_flow_staff.title|!|¨58d47a",
-      "description": "rpg.tool.description",
-      "rare": "COMMON",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "SLAUGHTER": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.slaughter.title|!|¨46bfef",
-      "description": "rpg.tool.description",
-      "rare": "RARE",
-      "damage": 1.0,
-      "level": 1
-    },
-    "GRAVEDIGGER_RAZOR": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.gravedigger_razor.title|!|¨46bfef",
-      "description": "rpg.tool.description",
-      "rare": "RARE",
-      "damage": 1.0,
-      "level": 1
-    },
-    "BONECRUSHER": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.bonecrusher.title|!|¨46bfef",
-      "description": "rpg.tool.description",
-      "rare": "RARE",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "ROTTING_BONE_TOTEM": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.rotting_bone_totem.title|!|¨46bfef",
-      "description": "rpg.tool.description",
-      "rare": "RARE",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "TIDE_COMB": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.tide_comb.title|!|¨46bfef",
-      "description": "rpg.tool.description",
-      "rare": "RARE",
-      "damage": 1.0,
-      "level": 1
-    },
-    "MORAY_FANG": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.moray_fang.title|!|¨46bfef",
-      "description": "rpg.tool.description",
-      "rare": "RARE",
-      "damage": 1.0,
-      "level": 1
-    },
-    "WHISPER_OF_DEPTHS": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.whisper_of_depths.title|!|¨46bfef",
-      "description": "rpg.tool.description",
-      "rare": "RARE",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "CORAL_SCEPTER": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.coral_scepter.title|!|¨46bfef",
-      "description": "rpg.tool.description",
-      "rare": "RARE",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "RECKONING_NAIL": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.reckoning_nail.title|!|¨c346ec",
-      "description": "rpg.tool.description",
-      "rare": "EPIC",
-      "damage": 1.0,
-      "level": 1
-    },
-    "BURSTING_SHACKLES": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.bursting_shackles.title|!|¨c346ec",
-      "description": "rpg.tool.description",
-      "rare": "EPIC",
-      "damage": 1.0,
-      "level": 1
-    },
-    "WIND_MOAN": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.wind_moan.title|!|¨c346ec",
-      "description": "rpg.tool.description",
-      "rare": "EPIC",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "DEFILED_CRYSTAL": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.defiled_crystal.title|!|¨c346ec",
-      "description": "rpg.tool.description",
-      "rare": "EPIC",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "STORM_COMB": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.storm_comb.title|!|¨c346ec",
-      "description": "rpg.tool.description",
-      "rare": "EPIC",
-      "damage": 1.0,
-      "level": 1
-    },
-    "JELLYFISH_STING": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.jellyfish_sting.title|!|¨c346ec",
-      "description": "rpg.tool.description",
-      "rare": "EPIC",
-      "damage": 1.0,
-      "level": 1
-    },
-    "HARPOON_OF_LONGING": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.harpoon_of_longing.title|!|¨c346ec",
-      "description": "rpg.tool.description",
-      "rare": "EPIC",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "PEARL_OF_DEPTHS": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.pearl_of_depths.title|!|¨c346ec",
-      "description": "rpg.tool.description",
-      "rare": "EPIC",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "CHAOS_BLADE": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.chaos_blade.title|!|¨fcc12b",
-      "description": "rpg.tool.description",
-      "rare": "LEGENDARY",
-      "damage": 1.0,
-      "level": 1
-    },
-    "DISTORTED_THORN": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.distorted_thorn.title|!|¨fcc12b",
-      "description": "rpg.tool.description",
-      "rare": "LEGENDARY",
-      "damage": 1.0,
-      "level": 1
-    },
-    "INSTABILITY_BOW": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.instability_bow.title|!|¨fcc12b",
-      "description": "rpg.tool.description",
-      "rare": "LEGENDARY",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "FOCUSING_SHARD": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.focusing_shard.title|!|¨fcc12b",
-      "description": "rpg.tool.description",
-      "rare": "LEGENDARY",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "PENDULUM_OF_FATE": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.pendulum_of_fate.title|!|¨fcc12b",
-      "description": "rpg.tool.description",
-      "rare": "LEGENDARY",
-      "damage": 1.0,
-      "level": 1
-    },
-    "TIME_SCYTHE": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.time_scythe.title|!|¨fcc12b",
-      "description": "rpg.tool.description",
-      "rare": "LEGENDARY",
-      "damage": 1.0,
-      "level": 1
-    },
-    "COUNTDOWN_CROSSBOW": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.countdown_crossbow.title|!|¨fcc12b",
-      "description": "rpg.tool.description",
-      "rare": "LEGENDARY",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "CHRONOS_ROD": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.chronos_rod.title|!|¨fcc12b",
-      "description": "rpg.tool.description",
-      "rare": "LEGENDARY",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "ERA_FRAGMENT": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.era_fragment.title|!|e73d4b",
-      "description": "rpg.tool.description",
-      "rare": "MYTHIC",
-      "damage": 1.0,
-      "level": 1
-    },
-    "HOPE_SHARD": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.hope_shard.title|!|e73d4b",
-      "description": "rpg.tool.description",
-      "rare": "MYTHIC",
-      "damage": 1.0,
-      "level": 1
-    },
-    "OBLIVION_STRING": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.oblivion_string.title|!|e73d4b",
-      "description": "rpg.tool.description",
-      "rare": "MYTHIC",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "DESTRUCTION_CORE": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.destruction_core.title|!|e73d4b",
-      "description": "rpg.tool.description",
-      "rare": "MYTHIC",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
-    },
-    "ECHO_OF_PAST_BATTLES": {
-      "type": "SWORD",
-      "material": "IRON_SWORD",
-      "title": "i18n.rpg.tool.echo_of_past_battles.title|!|e73d4b",
-      "description": "rpg.tool.description",
-      "rare": "MYTHIC",
-      "damage": 1.0,
-      "level": 1
-    },
-    "SHADOW_OF_FALLEN": {
-      "type": "KNIFE",
-      "material": "STONE_SWORD",
-      "title": "i18n.rpg.tool.shadow_of_fallen.title|!|e73d4b",
-      "description": "rpg.tool.description",
-      "rare": "MYTHIC",
-      "damage": 1.0,
-      "level": 1
-    },
-    "BOW_OF_DOOM": {
-      "type": "BOW",
-      "material": "BOW",
-      "title": "i18n.rpg.tool.bow_of_doom.title|!|e73d4b",
-      "description": "rpg.tool.description",
-      "rare": "MYTHIC",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "bow": 1,
-        "no-interact": 1,
-        "cooldown": 10
-      }
-    },
-    "HEART_OF_STORM": {
-      "type": "STAFF",
-      "material": "CLAY_BALL",
-      "title": "i18n.rpg.tool.heart_of_storm.title|!|e73d4b",
-      "description": "rpg.tool.description",
-      "rare": "MYTHIC",
-      "damage": 1.0,
-      "level": 1,
-      "data": {
-        "staff": 1,
-        "no-interact": 1,
-        "cooldown": 40
-      }
+    "tools": {
+        "DEFAULT_SWORD": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.default_sword.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "default_sword"
+            }
+        },
+        "DEFAULT_KNIFE": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.default_knife.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "default_knife"
+            }
+        },
+        "DEFAULT_BOW": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.default_bow.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "default_bow"
+            }
+        },
+        "DEFAULT_STAFF": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.default_staff.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "default_staff"
+            }
+        },
+        "SHADOW_BLADE": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.shadow_blade.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 2.0,
+            "level": 2,
+            "data": {
+                "sim_rpg": "shadow_blade"
+            }
+        },
+        "RAVEN_CLAW": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.raven_claw.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "raven_claw"
+            }
+        },
+        "SPITTING_SNAKE": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.spitting_snake.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "spitting_snake"
+            }
+        },
+        "SILENCE_ROD": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.silence_rod.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "silence_rod"
+            }
+        },
+        "VOICE_OF_WIND": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.voice_of_wind.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "voice_of_wind"
+            }
+        },
+        "STINGING_BEE": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.stinging_bee.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "stinging_bee"
+            }
+        },
+        "FALCON_SIGH": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.falcon_sigh.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "falcon_sigh"
+            }
+        },
+        "QI_FLOW_STAFF": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.qi_flow_staff.title|!|\u00a858d47a",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "qi_flow_staff"
+            }
+        },
+        "SLAUGHTER": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.slaughter.title|!|\u00a846bfef",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "slaughter"
+            }
+        },
+        "GRAVEDIGGER_RAZOR": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.gravedigger_razor.title|!|\u00a846bfef",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "gravedigger_razor"
+            }
+        },
+        "BONECRUSHER": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.bonecrusher.title|!|\u00a846bfef",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "bonecrusher"
+            }
+        },
+        "ROTTING_BONE_TOTEM": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.rotting_bone_totem.title|!|\u00a846bfef",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "rotting_bone_totem"
+            }
+        },
+        "TIDE_COMB": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.tide_comb.title|!|\u00a846bfef",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "tide_comb"
+            }
+        },
+        "MORAY_FANG": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.moray_fang.title|!|\u00a846bfef",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "moray_fang"
+            }
+        },
+        "WHISPER_OF_DEPTHS": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.whisper_of_depths.title|!|\u00a846bfef",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "whisper_of_depths"
+            }
+        },
+        "CORAL_SCEPTER": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.coral_scepter.title|!|\u00a846bfef",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "coral_scepter"
+            }
+        },
+        "RECKONING_NAIL": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.reckoning_nail.title|!|\u00a8c346ec",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "reckoning_nail"
+            }
+        },
+        "BURSTING_SHACKLES": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.bursting_shackles.title|!|\u00a8c346ec",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "bursting_shackles"
+            }
+        },
+        "WIND_MOAN": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.wind_moan.title|!|\u00a8c346ec",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "wind_moan"
+            }
+        },
+        "DEFILED_CRYSTAL": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.defiled_crystal.title|!|\u00a8c346ec",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "defiled_crystal"
+            }
+        },
+        "STORM_COMB": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.storm_comb.title|!|\u00a8c346ec",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "storm_comb"
+            }
+        },
+        "JELLYFISH_STING": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.jellyfish_sting.title|!|\u00a8c346ec",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "jellyfish_sting"
+            }
+        },
+        "HARPOON_OF_LONGING": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.harpoon_of_longing.title|!|\u00a8c346ec",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "harpoon_of_longing"
+            }
+        },
+        "PEARL_OF_DEPTHS": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.pearl_of_depths.title|!|\u00a8c346ec",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "pearl_of_depths"
+            }
+        },
+        "CHAOS_BLADE": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.chaos_blade.title|!|\u00a8fcc12b",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "chaos_blade"
+            }
+        },
+        "DISTORTED_THORN": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.distorted_thorn.title|!|\u00a8fcc12b",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "distorted_thorn"
+            }
+        },
+        "INSTABILITY_BOW": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.instability_bow.title|!|\u00a8fcc12b",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "instability_bow"
+            }
+        },
+        "FOCUSING_SHARD": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.focusing_shard.title|!|\u00a8fcc12b",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "focusing_shard"
+            }
+        },
+        "PENDULUM_OF_FATE": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.pendulum_of_fate.title|!|\u00a8fcc12b",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "pendulum_of_fate"
+            }
+        },
+        "TIME_SCYTHE": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.time_scythe.title|!|\u00a8fcc12b",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "time_scythe"
+            }
+        },
+        "COUNTDOWN_CROSSBOW": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.countdown_crossbow.title|!|\u00a8fcc12b",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "countdown_crossbow"
+            }
+        },
+        "CHRONOS_ROD": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.chronos_rod.title|!|\u00a8fcc12b",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "chronos_rod"
+            }
+        },
+        "ERA_FRAGMENT": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.era_fragment.title|!|e73d4b",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "era_fragment"
+            }
+        },
+        "HOPE_SHARD": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.hope_shard.title|!|e73d4b",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "hope_shard"
+            }
+        },
+        "OBLIVION_STRING": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.oblivion_string.title|!|e73d4b",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "oblivion_string"
+            }
+        },
+        "DESTRUCTION_CORE": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.destruction_core.title|!|e73d4b",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "destruction_core"
+            }
+        },
+        "ECHO_OF_PAST_BATTLES": {
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "i18n.rpg.tool.echo_of_past_battles.title|!|e73d4b",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "echo_of_past_battles"
+            }
+        },
+        "SHADOW_OF_FALLEN": {
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "i18n.rpg.tool.shadow_of_fallen.title|!|e73d4b",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "sim_rpg": "shadow_of_fallen"
+            }
+        },
+        "BOW_OF_DOOM": {
+            "type": "BOW",
+            "material": "BOW",
+            "title": "i18n.rpg.tool.bow_of_doom.title|!|e73d4b",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "bow": 1,
+                "no-interact": 1,
+                "cooldown": 10,
+                "sim_rpg": "bow_of_doom"
+            }
+        },
+        "HEART_OF_STORM": {
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "i18n.rpg.tool.heart_of_storm.title|!|e73d4b",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 1.0,
+            "level": 1,
+            "data": {
+                "staff": 1,
+                "no-interact": 1,
+                "cooldown": 40,
+                "sim_rpg": "heart_of_storm"
+            }
+        }
     }
-  }
 }

@@ -89,7 +89,8 @@
         "material",
         "rare",
         "level",
-        "enchantment"
+        "enchantment",
+        "data"
       ],
       "additionalProperties": false,
 
@@ -116,6 +117,11 @@
         "enchantment": {
           "type": "integer",
           "minimum": 0
+        },
+
+        "data": {
+          "type": "object",
+          "additionalProperties": true
         }
       }
     }
