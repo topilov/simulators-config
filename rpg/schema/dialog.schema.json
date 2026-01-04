@@ -9,6 +9,15 @@
     "$schema": {
       "type": "string"
     },
+    "message": {
+      "type": "object",
+      "properties": {
+        "completedQuest": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
     "dialogs": {
       "type": "object",
       "additionalProperties": {
@@ -31,15 +40,6 @@
         "maxTasks": {
           "type": "integer",
           "minimum": 0
-        },
-        "message": {
-          "type": "object",
-          "properties": {
-            "completedQuest": {
-              "$ref": "./common.schema.json#/$defs/i18n"
-            }
-          },
-          "additionalProperties": false
         },
         "parts": {
           "type": "array",
