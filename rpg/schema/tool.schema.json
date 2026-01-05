@@ -50,7 +50,20 @@
   "$defs": {
     "tool": {
       "type": "object",
+      "required": [
+        "characterType",
+        "type",
+        "material",
+        "title",
+        "description",
+        "rare",
+        "damage",
+        "level"
+      ],
       "properties": {
+        "characterType": {
+          "$ref": "./common.schema.json#/$defs/characterType"
+        },
         "type": {
           "$ref": "./common.schema.json#/$defs/toolGroup"
         },
