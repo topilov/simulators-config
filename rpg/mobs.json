@@ -18,7 +18,7 @@
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
                 "MAX_HEALTH": 10.0,
-                "ATTACK_DAMAGE": 1.0,
+                "ATTACK_DAMAGE": 3.0,
                 "MOVEMENT_SPEED": 0.3
               },
               "isAntiKnockback": true,
@@ -29,13 +29,17 @@
                 }
               },
               "spawnAfter": 60,
-              "exp": 100.0,
-              "petExp": 50.0,
+              "exp": 5.0,
+              "petExp": 5.0,
               "drops": [
-                { "chance": 25.0, "id": "PHANTOM_CHESTPLATE" },
-                { "chance": 25.0, "id": "PHANTOM_HELMET" },
-                { "chance": 25.0, "id": "PHANTOM_LEGGINGS" },
-                { "chance": 25.0, "id": "PHANTOM_BOOTS" }
+                { "chance": 93.0 },
+                { "chance": 1.0, "id": "PHANTOM_HELMET" },
+                { "chance": 1.0, "id": "PHANTOM_CHESTPLATE" },
+                { "chance": 1.0, "id": "SHADOW_BLADE" },
+                { "chance": 1.0, "id": "RAVEN_CLAW" },
+                { "chance": 1.0, "id": "SPITTING_SNAKE" },
+                { "chance": 1.0, "id": "SILENCE_ROD" },
+                { "chance": 1.0, "id": "shadow_cloak" }
               ]
             },
             {
@@ -46,7 +50,7 @@
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
                 "MAX_HEALTH": 40.0,
-                "ATTACK_DAMAGE": 1,
+                "ATTACK_DAMAGE": 5.0,
                 "MOVEMENT_SPEED": 0.33
               },
               "isAntiKnockback": true,
@@ -57,8 +61,8 @@
                 }
               },
               "spawnAfter": 60,
-              "exp": 100.0,
-              "petExp": 50.0,
+              "exp": 15.0,
+              "petExp": 10.0,
               "drops": [
                 { "chance": 99.0 },
                 { "chance": 1.0, "id": "poisoned_kunai" }
@@ -76,7 +80,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/ghost_observer.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 60.0,
+                "MAX_HEALTH": 80.0,
                 "ATTACK_DAMAGE": 1.0,
                 "MOVEMENT_SPEED": 0.3
               },
@@ -88,13 +92,13 @@
                 }
               },
               "spawnAfter": 60,
-              "exp": 100.0,
-              "petExp": 50.0,
+              "exp": 30.0,
+              "petExp": 15.0,
               "drops": [
-                { "chance": 25.0, "id": "PHANTOM_CHESTPLATE" },
-                { "chance": 25.0, "id": "PHANTOM_HELMET" },
-                { "chance": 25.0, "id": "PHANTOM_LEGGINGS" },
-                { "chance": 25.0, "id": "PHANTOM_BOOTS" }
+                { "chance": 97.0 },
+                { "chance": 1.0, "id": "PHANTOM_LEGGINGS" },
+                { "chance": 1.0, "id": "PHANTOM_BOOTS" },
+                { "chance": 1.0, "id": "observers_eye" }
               ]
             },
             {
@@ -104,7 +108,7 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/fog_shooter.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 80.0,
+                "MAX_HEALTH": 130.0,
                 "ATTACK_DAMAGE": 5.0,
                 "MOVEMENT_SPEED": 0.45
               },
@@ -116,8 +120,8 @@
                 }
               },
               "spawnAfter": 60,
-              "exp": 100.0,
-              "petExp": 50.0,
+              "exp": 50.0,
+              "petExp": 25.0,
               "drops": [
                 { "chance": 99.0 },
                 { "chance": 1.0, "id": "phantom_lens" }
@@ -135,8 +139,8 @@
               "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/illusion_master.png",
               "attributes": {
                 "FOLLOW_RANGE": 5.0,
-                "MAX_HEALTH": 100.0,
-                "ATTACK_DAMAGE": 1.0,
+                "MAX_HEALTH": 200.0,
+                "ATTACK_DAMAGE": 4.0,
                 "MOVEMENT_SPEED": 0.4
               },
               "isAntiKnockback": true,
@@ -147,8 +151,8 @@
                 }
               },
               "spawnAfter": 60,
-              "exp": 100.0,
-              "petExp": 50.0,
+              "exp": 70.0,
+              "petExp": 35.0,
               "drops": [
                 { "chance": 99.0 },
                 { "chance": 1.0, "id": "shard_of_illusion" }
