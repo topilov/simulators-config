@@ -1,22 +1,32 @@
 {
-  "bindsBar": {
-    "binds": [
-      {
-        "title": "treasures.binds.locations.title",
-        "key": "M"
-      },
-      {
-        "title": "treasures.binds.upgrade.title",
-        "key": "U"
-      },
-      {
-        "title": "treasures.binds.menu.title",
-        "key": "X"
-      },
-      {
-        "title": "treasures.binds.spawn.title",
-        "key": "B"
-      }
-    ]
-  }
+  "bindings": [
+    {
+      "description": "treasures.binds.locations.title",
+      "key": "M",
+      "onPlayerPressed": [
+        "sudo %player% locations"
+      ]
+    },
+    {
+      "description": "treasures.binds.upgrade.title",
+      "key": "U",
+      "onPlayerPressed": [
+        "sudo %player% upgrade"
+      ]
+    },
+    {
+      "description": "treasures.binds.menu.title",
+      "key": "X",
+      "onPlayerPressed": [
+        "sudo %player% menu"
+      ]
+    },
+    {
+      "description": "treasures.binds.spawn.title",
+      "key": "B",
+      "onPlayerPressed": [
+        "sudo %player% spawn"
+      ]
+    }
+  ]
 }
