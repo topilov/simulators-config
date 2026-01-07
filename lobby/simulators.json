@@ -5,45 +5,39 @@
         "name": "lumberjack",
         "usersCollectionName": "lumberjack_2_data"
       },
-      "lobby": {
-        "typeName": "LBJL"
-      },
-      "game": {
-        "typeName": "LBJ"
-      },
-      "minigame": {
-        "typeName": "LBJG"
-      }
+      "navigatorId": "lumberjack",
+      "lobby": { "typeName": "LBJL" },
+      "dependOnline": [
+        {"typeName": "LBJL"},
+        {"typeName": "LBJ"},
+        {"typeName": "LBJG"}
+      ]
     },
     "treasures": {
       "database": {
         "name": "treasures",
         "usersCollectionName": "treasures_4_data"
       },
-      "lobby": {
-        "typeName": "TRSL"
-      },
-      "game": {
-        "typeName": "TRS"
-      },
-      "minigame": {
-        "typeName": "TRSG"
-      }
+      "navigatorId": "treasures",
+      "lobby": { "typeName": "TRSL" },
+      "dependOnline": [
+        {"typeName": "TRSL"},
+        {"typeName": "TRS"},
+        {"typeName": "TRSG"}
+      ]
     },
     "katana": {
       "database": {
         "name": "katana",
         "usersCollectionName": "katana_2_data"
       },
-      "lobby": {
-        "typeName": "KTNL"
-      },
-      "game": {
-        "typeName": "KTN"
-      },
-      "minigame": {
-        "typeName": "KTNG"
-      }
+      "navigatorId": "sim-kat",
+      "lobby": { "typeName": "KTNL" },
+      "dependOnline": [
+        {"typeName": "KTNL"},
+        {"typeName": "KTN"},
+        {"typeName": "KTNG"}
+      ]
     }
   }
 }
