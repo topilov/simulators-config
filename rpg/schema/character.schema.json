@@ -45,7 +45,8 @@
       "required": [
         "menu",
         "tool",
-        "abilities"
+        "abilities",
+        "title"
       ],
       "properties": {
         "tool": {
@@ -56,6 +57,9 @@
           "items": {
             "$ref": "./common.schema.json#/$defs/abilityType"
           }
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
         },
         "regainCooldown": {
           "type": "number",
