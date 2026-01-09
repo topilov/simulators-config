@@ -126,6 +126,10 @@
             "$ref": "#/$defs/drop"
           }
         },
+        "money": {
+          "type": "number",
+          "minimum": 0
+        },
         "onHitEffects": {
           "type": "array",
           "items": {

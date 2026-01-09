@@ -67,11 +67,11 @@
         ]
       },
       {
-        "icon": "minigame-shop.png",
-        "title": "rpg.menu.main.buttons.minigame-shop.title",
+        "icon": "talents.png",
+        "title": "rpg.menu.main.buttons.talents.title",
         "weight": 194,
         "onSelect": [
-          "sudo %player% minigame-shop"
+          "sudo %player% talent-menu"
         ]
       },
       {
@@ -88,6 +88,22 @@
         "weight": 194,
         "onSelect": [
           "sudo %player% bits-shop"
+        ]
+      },
+      {
+        "icon": "diary.png",
+        "title": "rpg.menu.main.buttons.diary.title",
+        "weight": 298,
+        "onSelect": [
+          "sudo %player% diary"
+        ]
+      },
+      {
+        "icon": "skill.png",
+        "title": "rpg.menu.main.buttons.skill.title",
+        "weight": 298,
+        "onSelect": [
+          "sudo %player% skill"
         ]
       }
     ]
