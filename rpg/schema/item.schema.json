@@ -19,7 +19,8 @@
       "required": [
         "level",
         "pipeline",
-        "shiv"
+        "shiv",
+        "favorite"
       ],
       "properties": {
         "level": {
@@ -29,6 +30,9 @@
           "type": "string"
         },
         "shiv": {
+          "type": "string"
+        },
+        "favorite": {
           "type": "string"
         }
       },
