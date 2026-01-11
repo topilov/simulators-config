@@ -1,7 +1,25 @@
 {
   "$schema": "./schema/item.schema.json",
   
-  "items": {},
+  "items": {
+    "FAVORITE": {
+      "type": "CLAY_BALL",
+      "name": "rpg.items.favorite.name",
+      "lore": "rpg.items.favorite.lore",
+      "unbreakable": true,
+      "data": {
+        "other": "winter",
+        "favorite": 1,
+        "no-clear": 1,
+        "hoverColor": "GREEN"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    },
+  },
   "nbt": {
     "level": "level",
     "pipeline": "pipeline",
