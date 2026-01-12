@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "required": [
-    "bindsBar"
+    "bindings"
   ],
   "additionalProperties": false,
 
@@ -13,18 +13,10 @@
       "type": "string"
     },
 
-    "bindsBar": {
-      "type": "object",
-      "required": [
-        "binds"
-      ],
-      "properties": {
-        "binds": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/bind"
-          }
-        }
+    "bindings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/bind"
       }
     }
   },
@@ -35,15 +27,22 @@
     "bind": {
       "type": "object",
       "required": [
-        "title",
-        "key"
+        "description",
+        "key",
+        "onPlayerPressed"
       ],
       "properties": {
-        "title": {
-          "type": "string"
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
         },
         "key": {
           "type": "string"
+        },
+        "onPlayerPressed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       },
       "additionalProperties": false
