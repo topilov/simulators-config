@@ -37,6 +37,23 @@
       ]
     },
     {
+      "name": "rpg.npc.sell.equipment.title",
+      "location": {
+        "name": "sell",
+        "tag": "equipment",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/equipment_sell.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "sell-equipment %player%"
+      ]
+    },
+    {
       "name": "rpg.npc.shop.artefact.title",
       "location": {
         "name": "shop",

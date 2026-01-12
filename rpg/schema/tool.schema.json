@@ -59,7 +59,8 @@
         "rare",
         "damage",
         "level",
-        "isInteractable"
+        "isInteractable",
+        "price"
       ],
       "properties": {
         "characterType": {
@@ -87,6 +88,10 @@
         "level": {
           "type": "number",
           "minimum": 1
+        },
+        "price": {
+          "type": "number",
+          "minimum": 0
         },
         "isInteractable": {
           "type": "boolean"

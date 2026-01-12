@@ -89,6 +89,7 @@
         "material",
         "rare",
         "level",
+        "price",
         "enchantment",
         "data"
       ],
@@ -112,6 +113,11 @@
         "level": {
           "type": "integer",
           "minimum": 1
+        },
+
+        "price": {
+          "type": "number",
+          "minimum": 0
         },
 
         "enchantment": {
