@@ -279,6 +279,19 @@
           "onPurchase": [
             "give-key %player% DEFAULT %count%"
           ]
+        },
+        "FAVORITE": {
+          "type": "FAVORITE",
+          "title": "rpg.item.favorite.title",
+          "description": "rpg.item.favorite.description",
+          "icon": "favorite.png",
+          "price": 100.0,
+          "vault": "\uE108",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-item %player% FAVORITE %count%"
+          ]
         }
       }
     },
