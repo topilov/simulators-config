@@ -1,6 +1,12 @@
 {
   "$schema": "./schema/item.schema.json",
-  
+  "message": {
+    "sell": "rpg.equipment.sell.message",
+    "isFavoritedCanNotBeSell": "rpg.equipment.sell.is_favorited.message",
+    "noneItemInHandForSell": "rpg.equipment.sell.none_item.message",
+    "unknownErrorOccurredDuringSell": "rpg.equipment.sell.unknown_error.message",
+    "equipmentCanNotBeSell": "rpg.equipment.sell.cannot.message"
+  },
   "items": {
     "FAVORITE": {
       "type": "CLAY_BALL",
