@@ -49,46 +49,72 @@
     "talent": {
       "type": "object",
       "required": [
-        "name",
+        "type",
+        "title",
         "description",
-        "texture",
-        "increasePerLever",
-        "maxLevel",
+        "icon",
         "requiredQuests",
-        "prices"
+        "statTitle",
+        "levels"
       ],
       "properties": {
-        "name": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "DAMAGE",
+            "MULTIKILL",
+            "LUCK",
+            "LOOTBOX_LUCK",
+            "PET_XP",
+            "DISCOUNT"
+          ]
+        },
+        "title": {
           "$ref": "./common.schema.json#/$defs/i18n"
         },
         "description": {
           "$ref": "./common.schema.json#/$defs/i18n"
         },
-        "texture": {
+        "icon": {
           "$ref": "./common.schema.json#/$defs/image"
-        },
-        "increasePerLever": {
-          "type": "number",
-          "minimum": 0
-        },
-        "maxLevel": {
-          "type": "integer",
-          "minimum": 1
         },
         "requiredQuests": {
           "type": "integer",
           "minimum": 0
         },
-        "prices": {
-          "type": "object",
-          "propertyNames": {
-            "type": "string",
-            "pattern": "^[1-9][0-9]*$"
-          },
-          "additionalProperties": {
-            "type": "number",
-            "minimum": 0
+        "statTitle": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "levels": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/level"
           }
+        }
+      },
+      "additionalProperties": false
+    },
+    "level": {
+      "type": "object",
+      "required": [
+        "stat",
+        "readableStat",
+        "price",
+        "requiredQuests"
+      ],
+      "properties": {
+        "stat": {
+          "type": "number"
+        },
+        "readableStat": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "requiredQuests": {
+          "type": "integer",
+          "minimum": 0
         }
       },
       "additionalProperties": false
