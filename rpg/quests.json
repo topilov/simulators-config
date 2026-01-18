@@ -1,6 +1,5 @@
 {
   "$schema": "./schema/quests.schema.json",
-
   "menu": {
     "title": "",
     "categories": [
@@ -8,10 +7,97 @@
         "title": "rpg.quest.category.title",
         "questsData": [
           {
+            "title": "rpg.stat.mobs.text",
+            "quests": [
+              {
+                "title": "rpg.quest.mobs1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|0 \uE03F|!|(i18n.rpg.quest.reward.rec|!|Привет путник!|!|))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.mobs.subtitle",
+                    "goal": 1.0,
+                    "current": "mobs1"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.mobs2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|10 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1K \uE1A6|!|250 \uE34D)))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.mobs.subtitle",
+                    "goal": 10.0,
+                    "current": "mobs2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "rpg.stat.bosses.text",
+            "quests": [
+              {
+                "title": "rpg.quest.bosses1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|0 \uE03F|!|(i18n.rpg.quest.reward.rec|!|Привет путник!|!|))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.bosses.subtitle",
+                    "goal": 1.0,
+                    "current": "bosses1"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.bosses2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|10 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1K \uE1A6|!|250 \uE34D)))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.bosses.subtitle",
+                    "goal": 10.0,
+                    "current": "bosses2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "rpg.stat.money.text",
+            "quests": [
+              {
+                "title": "rpg.quest.money1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|0 \uE03F|!|(i18n.rpg.quest.reward.rec|!|Привет путник!|!|))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.money.subtitle",
+                    "goal": 1.0,
+                    "current": "money1"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.money2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|10 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1K \uE1A6|!|250 \uE34D)))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.money.subtitle",
+                    "goal": 10.0,
+                    "current": "money2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "title": "rpg.stat.exp.text",
             "quests": [
               {
-                "title": "rpg.quest.firstvisit.title",
+                "title": "rpg.quest.exp1.title",
                 "icon": "achievements.png",
                 "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|0 \uE03F|!|(i18n.rpg.quest.reward.rec|!|Привет путник!|!|))",
                 "tasks": [
@@ -23,226 +109,14 @@
                 ]
               },
               {
-                "title": "rpg.quest.exp1.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|10 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1K \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.exp.subtitle",
-                    "goal": 10000.0,
-                    "current": "exp2"
-                  }
-                ]
-              },
-              {
                 "title": "rpg.quest.exp2.title",
                 "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|25K \uE03F|!|(i18n.rpg.quest.reward.rec|!|25 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|2.5K \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.exp.subtitle",
-                    "goal": 150000.0,
-                    "current": "exp3"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.exp3.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|250K \uE03F|!|(i18n.rpg.quest.reward.rec|!|Бустер \uE1A6 x2|!|(i18n.rpg.quest.reward.rec|!|5К \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.exp.subtitle",
-                    "goal": 1000000.0,
-                    "current": "exp4"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "rpg.stat.level.text",
-            "quests": [
-              {
-                "title": "rpg.quest.firstvisit.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|0 \uE03F|!|(i18n.rpg.quest.reward.rec|!|Привет путник!|!|))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.exp.subtitle",
-                    "goal": 1.0,
-                    "current": "level1"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.level1.title",
-                "icon": "achievements.png",
                 "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|10 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1K \uE1A6|!|250 \uE34D)))",
                 "tasks": [
                   {
-                    "name": "rpg.quest.level.subtitle",
-                    "goal": 2,
-                    "current": "level2"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.level2.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|25K \uE03F|!|(i18n.rpg.quest.reward.rec|!|Обычный \uE349 х5|!|(i18n.rpg.quest.reward.rec|!|2.5K \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.level.subtitle",
-                    "goal": 5,
-                    "current": "level3"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.level3.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|250K \uE03F|!|(i18n.rpg.quest.reward.rec|!|Обычный \uE349 х15|!|(i18n.rpg.quest.reward.rec|!|5K \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.level.subtitle",
-                    "goal": 8,
-                    "current": "level4"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "rpg.stat.blocks.text",
-            "quests": [
-              {
-                "title": "rpg.quest.firstvisit.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|0 \uE03F|!|(i18n.rpg.quest.reward.rec|!|Привет путник!|!|))",
-                "tasks": [
-                  {
                     "name": "rpg.quest.exp.subtitle",
-                    "goal": 1.0,
-                    "current": "blocks1"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.blocks1.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|2.5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|Обычный \uE349 х5|!|(i18n.rpg.quest.reward.rec|!|1K \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.blocks.subtitle",
-                    "goal": 750,
-                    "current": "blocks2"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.blocks2.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|25K \uE03F|!|(i18n.rpg.quest.reward.rec|!|\uE349 с рунами х1|!|(i18n.rpg.quest.reward.rec|!|2.5K \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.blocks.subtitle",
-                    "goal": 5000,
-                    "current": "blocks3"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.blocks3.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|250K \uE03F|!|(i18n.rpg.quest.reward.rec|!|\uE349 с рунами х3|!|(i18n.rpg.quest.reward.rec|!|5K \uE1A6|!|250 \uE34D)))\n",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.blocks.subtitle",
-                    "goal": 50000,
-                    "current": "blocks4"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "rpg.stat.rpg.text",
-            "quests": [
-              {
-                "title": "rpg.quest.rpg1.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|2.5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|\uE349 с питомцами х1|!|(i18n.rpg.quest.reward.rec|!|1K \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.rpg.subtitle",
-                    "goal": 30,
-                    "current": "rpg1"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.rpg2.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|25K \uE03F|!|(i18n.rpg.quest.reward.rec|!|Обычный \uE349 х5|!|(i18n.rpg.quest.reward.rec|!|2.5K \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.rpg.subtitle",
-                    "goal": 150,
-                    "current": "rpg2"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.rpg3.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|250K \uE03F|!|(i18n.rpg.quest.reward.rec|!|\uE349 с питомцами х3|!|(i18n.rpg.quest.reward.rec|!|5K \uE1A6|!|250 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.rpg.subtitle",
-                    "goal": 500,
-                    "current": "rpg3"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "rpg.stat.info.text",
-            "quests": [
-              {
-                "title": "rpg.quest.info1.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|1K \uE03F|!|(i18n.rpg.quest.reward.rec|!|5 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|500 \uE1A6|!|100 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.info.subtitle",
-                    "goal": 1,
-                    "current": "info1"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.info2.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|2.5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|10 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1000 \uE1A6|!|150 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.info.subtitle",
-                    "goal": 3,
-                    "current": "info2"
-                  }
-                ]
-              },
-              {
-                "title": "rpg.quest.info3.title",
-                "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|5K \uE03F|!|(i18n.rpg.quest.reward.rec|!|15 \uE1D1|!|(i18n.rpg.quest.reward.rec|!|1500 \uE1A6|!|200 \uE34D)))",
-                "tasks": [
-                  {
-                    "name": "rpg.quest.info.subtitle",
-                    "goal": 5,
-                    "current": "info3"
+                    "goal": 10.0,
+                    "current": "exp2"
                   }
                 ]
               }
@@ -252,5 +126,78 @@
       }
     ]
   },
-  "quests": {}
+  "quests": {
+    "MOBS": [
+      {
+        "id": "mobs1",
+        "title": "rpg.quest.mobs1.title",
+        "goal": 1,
+        "onComplete": [
+          "commands"
+        ]
+      },
+      {
+        "id": "mobs2",
+        "title": "rpg.quest.mobs2.title",
+        "goal": 10,
+        "onComplete": [
+          "commands"
+        ]
+      }
+    ],
+    "BOSSES": [
+      {
+        "id": "bosses1",
+        "title": "rpg.quest.bosses1.title",
+        "goal": 1,
+        "onComplete": [
+          "commands"
+        ]
+      },
+      {
+        "id": "bosses2",
+        "title": "rpg.quest.bosses2.title",
+        "goal": 10,
+        "onComplete": [
+          "commands"
+        ]
+      }
+    ],
+    "MONEY": [
+      {
+        "id": "money1",
+        "title": "rpg.quest.money1.title",
+        "goal": 1,
+        "onComplete": [
+          "commands"
+        ]
+      },
+      {
+        "id": "money2",
+        "title": "rpg.quest.money2.title",
+        "goal": 10,
+        "onComplete": [
+          "commands"
+        ]
+      }
+    ],
+    "EXP": [
+      {
+        "id": "exp1",
+        "title": "rpg.quest.exp1.title",
+        "goal": 1,
+        "onComplete": [
+          "commands"
+        ]
+      },
+      {
+        "id": "exp2",
+        "title": "rpg.quest.exp2.title",
+        "goal": 10,
+        "onComplete": [
+          "commands"
+        ]
+      }
+    ]
+  }
 }
