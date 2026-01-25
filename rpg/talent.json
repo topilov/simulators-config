@@ -1,9 +1,15 @@
 {
     "$schema": "./schema/talent.schema.json",
+    "price": {
+        "shards": 99,
+        "money": 1200000.0,
+        "time":  28800000
+    },
     "messages": {
         "noMoneyMessage": "rpg.talent.messages.no_money",
         "noQuestPointMessage": "rpg.talent.messages.no_quest_points",
         "maxLevelMessage": "rpg.talent.messages.max_level",
+        "needWaitToReset": "rpg.talent.messages.need_wait"
         "successUpgradeMessage": "rpg.talent.messages.success_upgrade"
     },
     "talents": {
