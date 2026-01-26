@@ -1,6 +1,14 @@
 {
   "$schema": "./schema/skill.schema.json",
-  
+  "prices": {
+    "shards": 100,
+    "time": 100,
+  },
+  "messages": {
+    "noSkillPointMessage": "rpg.talent.messages.no_quest_points",
+    "maxLevelMessage": "rpg.talent.messages.max_level",
+    "needWaitToReset": "rpg.talent.messages.need_wait",
+  },
   "menu": {
     "SWORDSMAN": {
       "title": "i18n.rpg.skill.menu.title|!|rpg.character.swordsman.title",
