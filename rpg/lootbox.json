@@ -63,9 +63,26 @@
                 "rpg": "default_shiv_armor"
               }
             },
-            "chance": 50,
+            "chance": 49.9,
             "onDrop": [
               "give-shiv %player% ARMOR DEFAULT 1"
+            ]
+          },
+          {
+            "id": "super_player",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.donate.element.super-player.title|!|¨46bfef",
+              "lore": "rpg.donate.element.super-player.description",
+              "data": {
+                "rpg": "default_shiv_tool"
+              }
+            },
+            "chance": 0.1,
+            "onDrop": [
+              "morestat %player% set true sub",
+              "update-tab %player%"
             ]
           }
         ]
