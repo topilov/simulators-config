@@ -9,6 +9,9 @@
     "$schema": {
       "type": "string"
     },
+    "price": {
+      "$ref": "#/$defs/price"
+    },
     "messages": {
       "type": "object",
       "required": [
@@ -46,6 +49,29 @@
     }
   },
   "$defs": {
+    "price": {
+      "type": "object",
+      "required": [
+        "shards",
+        "money",
+        "time"
+      ],
+      "properties": {
+        "shards": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "money": {
+          "type": "number",
+          "minimum": 0
+        },
+        "time": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
     "talent": {
       "type": "object",
       "required": [
