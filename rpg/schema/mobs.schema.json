@@ -40,29 +40,55 @@
       ],
       "properties": {
         "mobs": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/mobPoint"
+          "type": "object",
+          "propertyNames": {
+            "$ref": "./common.schema.json#/$defs/mobType"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/mobKinds"
           }
         }
       },
       "additionalProperties": false
     },
-    "mobPoint": {
+    "mobKinds": {
       "type": "object",
       "required": [
+        "kinds",
         "pointTag",
-        "kinds"
+        "idleZone"
       ],
       "properties": {
+        "kinds": {
+          "type": "object",
+          "propertyNames": {
+            "$ref": "./common.schema.json#/$defs/mobType"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/mobKind"
+          }
+        },
         "pointTag": {
           "type": "string"
         },
-        "kinds": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/mobKind"
-          }
+        "idleZone": {
+          "$ref": "#/$defs/idleZone"
+        }
+      },
+      "additionalProperties": false
+    },
+    "idleZone": {
+      "type": "object",
+      "required": [
+        "worldText",
+        "zone"
+      ],
+      "properties": {
+        "worldText": {
+          "type": "object"
+        },
+        "zone": {
+          "type": "object"
         }
       },
       "additionalProperties": false

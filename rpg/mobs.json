@@ -1,16 +1,14 @@
 {
   "$schema": "./schema/mobs.schema.json",
-
   "messages": {
     "drop": "rpg.mobs.messages.drop"
   },
   "locations": {
     "SHADOW_CITY": {
-      "mobs": [
-        {
-          "pointTag": "shadow_scout",
-          "kinds": [
-            {
+      "mobs": {
+        "SHADOW_SCOUT": {
+          "kinds": {
+            "SHADOW_SCOUT": {
               "chance": 90,
               "type": "SHADOW_SCOUT",
               "name": "i18n.rpg.mobs.shadow_scout.name|!|§a",
@@ -25,7 +23,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "gravedigger_razor"
                 }
               },
@@ -35,17 +35,40 @@
               "money": 300,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 94.4 },
-                { "chance": 0.8, "id": "PHANTOM_HELMET" },
-                { "chance": 0.8, "id": "PHANTOM_CHESTPLATE" },
-                { "chance": 0.8, "id": "SHADOW_BLADE" },
-                { "chance": 0.8, "id": "RAVEN_CLAW" },
-                { "chance": 0.8, "id": "SPITTING_SNAKE" },
-                { "chance": 0.8, "id": "SILENCE_ROD" },
-                { "chance": 0.8, "id": "shadow_cloak" }
+                {
+                  "chance": 94.4
+                },
+                {
+                  "chance": 0.8,
+                  "id": "PHANTOM_HELMET"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "PHANTOM_CHESTPLATE"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "SHADOW_BLADE"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "RAVEN_CLAW"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "SPITTING_SNAKE"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "SILENCE_ROD"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "shadow_cloak"
+                }
               ]
             },
-            {
+            "NIGHT_ASSASSIN": {
               "chance": 10,
               "type": "NIGHT_ASSASSIN",
               "name": "i18n.rpg.mobs.night_assassin.name|!|§a",
@@ -60,7 +83,9 @@
               "itemInMainHand": {
                 "type": "DIAMOND_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1.0},
+                  "tool_data": {
+                    "damage": 1.0
+                  },
                   "sim_rpg": "reckoning_nail"
                 }
               },
@@ -70,16 +95,45 @@
               "petExp": 10.0,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.2 },
-                { "chance": 0.8, "id": "poisoned_kunai" }
+                {
+                  "chance": 99.2
+                },
+                {
+                  "chance": 0.8,
+                  "id": "poisoned_kunai"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "shadow_scout",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "shadow_scout",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "shadow_scout"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "ghost_observer",
-          "kinds": [
-            {
+        "GHOST_OBSERVER": {
+          "kinds": {
+            "GHOST_OBSERVER": {
               "chance": 90.0,
               "type": "GHOST_OBSERVER",
               "name": "i18n.rpg.mobs.ghost_observer.name|!|§a",
@@ -94,7 +148,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 4.0},
+                  "tool_data": {
+                    "damage": 4.0
+                  },
                   "sim_rpg": "default_bow"
                 }
               },
@@ -104,13 +160,24 @@
               "petExp": 5.0,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 97.6 },
-                { "chance": 0.8, "id": "PHANTOM_LEGGINGS" },
-                { "chance": 0.8, "id": "PHANTOM_BOOTS" },
-                { "chance": 0.8, "id": "observers_eye" }
+                {
+                  "chance": 97.6
+                },
+                {
+                  "chance": 0.8,
+                  "id": "PHANTOM_LEGGINGS"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "PHANTOM_BOOTS"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "observers_eye"
+                }
               ]
             },
-            {
+            "FOG_SHOOTER": {
               "chance": 10.0,
               "type": "FOG_SHOOTER",
               "name": "i18n.rpg.mobs.fog_shooter.name|!|§a",
@@ -122,29 +189,60 @@
                 "MOVEMENT_SPEED": 0.35
               },
               "isAntiKnockback": true,
-               "itemInMainHand": {
-                 "type": "BOW",
-                 "data": {
-                   "tool_data": {"damage": 1.0},
-                   "sim_rpg": "falcon_sigh"
-                 }
-               },
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 1.0
+                  },
+                  "sim_rpg": "falcon_sigh"
+                }
+              },
               "spawnAfter": 60,
               "exp": 60.0,
               "money": 1500,
               "petExp": 25.0,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.2 },
-                { "chance": 0.8, "id": "phantom_lens" }
+                {
+                  "chance": 99.2
+                },
+                {
+                  "chance": 0.8,
+                  "id": "phantom_lens"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "ghost_observer",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "ghost_observer",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "ghost_observer"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "illusion_master",
-          "kinds": [
-            {
+        "ILLUSION_MASTER": {
+          "kinds": {
+            "ILLUSION_MASTER": {
               "chance": 100,
               "type": "ILLUSION_MASTER",
               "name": "i18n.rpg.mobs.illusion_master.name|!|§a",
@@ -159,7 +257,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 4.0},
+                  "tool_data": {
+                    "damage": 4.0
+                  },
                   "sim_rpg": "wind_moan"
                 }
               },
@@ -169,20 +269,49 @@
               "money": 2000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.2 },
-                { "chance": 0.8, "id": "shard_of_illusion" }
+                {
+                  "chance": 99.2
+                },
+                {
+                  "chance": 0.8,
+                  "id": "shard_of_illusion"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "illusion_master",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "illusion_master",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "illusion_master"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     },
     "CITY_OF_DAO": {
-      "mobs": [
-        {
-          "pointTag": "dao_student",
-          "kinds": [
-            {
+      "mobs": {
+        "DAO_STUDENT": {
+          "kinds": {
+            "DAO_STUDENT": {
               "chance": 90,
               "type": "DAO_STUDENT",
               "name": "i18n.rpg.mobs.dao_student.name|!|§a",
@@ -197,7 +326,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "shadow_blade"
                 }
               },
@@ -207,17 +338,40 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 96.5 },
-                { "chance": 0.5, "id": "MONK_CHESTPLATE" },
-                { "chance": 0.5, "id": "MONK_HELMET" },
-                { "chance": 0.5, "id": "VOICE_OF_WIND" },
-                { "chance": 0.5, "id": "STINGING_BEE" },
-                { "chance": 0.5, "id": "FALCON_SIGH" },
-                { "chance": 0.5, "id": "QI_FLOW_STAFF" },
-                { "chance": 0.5, "id": "wooden_katana" }
+                {
+                  "chance": 96.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "MONK_CHESTPLATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "MONK_HELMET"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "VOICE_OF_WIND"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "STINGING_BEE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "FALCON_SIGH"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "QI_FLOW_STAFF"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "wooden_katana"
+                }
               ]
             },
-            {
+            "KATANA_INSPECTOR": {
               "chance": 10,
               "type": "KATANA_INSPECTOR",
               "name": "i18n.rpg.mobs.katana_inspector.name|!|§5",
@@ -232,7 +386,9 @@
               "itemInMainHand": {
                 "type": "IRON_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "raven_claw"
                 }
               },
@@ -249,16 +405,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "masters_scabbard" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "masters_scabbard"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "dao_student",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "dao_student",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "dao_student"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "dao_guardian",
-          "kinds": [
-            {
+        "DAO_GUARDIAN": {
+          "kinds": {
+            "DAO_GUARDIAN": {
               "chance": 90,
               "type": "DAO_GUARDIAN",
               "name": "i18n.rpg.mobs.dao_guardian.name|!|§6",
@@ -273,7 +458,9 @@
               "itemInMainHand": {
                 "type": "GOLD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "voice_of_wind"
                 }
               },
@@ -290,13 +477,24 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 98.5 },
-                { "chance": 0.5, "id": "MONK_LEGGINGS" },
-                { "chance": 0.5, "id": "MONK_BOOTS" },
-                { "chance": 0.5, "id": "nichirin_blade" }
+                {
+                  "chance": 98.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "MONK_LEGGINGS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "MONK_BOOTS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "nichirin_blade"
+                }
               ]
             },
-            {
+            "DAO_ARCHER": {
               "chance": 10,
               "type": "DAO_ARCHER",
               "name": "i18n.rpg.mobs.dao_archer.name|!|§6",
@@ -311,7 +509,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "falcon_sigh"
                 }
               },
@@ -321,16 +521,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "fire_arrow" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "fire_arrow"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "dao_guardian",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "dao_guardian",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "dao_guardian"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "ci_master",
-          "kinds": [
-            {
+        "CI_MASTER": {
+          "kinds": {
+            "CI_MASTER": {
               "chance": 100,
               "type": "CI_MASTER",
               "name": "i18n.rpg.mobs.ci_master.name|!|§6",
@@ -346,7 +575,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "spitting_snake"
                 }
               },
@@ -363,20 +594,49 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "scroll_of_returning_qi" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "scroll_of_returning_qi"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "ci_master",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "ci_master",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "ci_master"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     },
     "LAWLESS_VILLAGE": {
-      "mobs": [
-        {
-          "pointTag": "street_fighter",
-          "kinds": [
-            {
+      "mobs": {
+        "STREET_FIGHTER": {
+          "kinds": {
+            "STREET_FIGHTER": {
               "chance": 90,
               "type": "STREET_FIGHTER",
               "name": "i18n.rpg.mobs.street_fighter.name|!|§a",
@@ -391,7 +651,9 @@
               "itemInMainHand": {
                 "type": "STONE_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "stinging_bee"
                 }
               },
@@ -401,17 +663,40 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 96.5 },
-                { "chance": 0.5, "id": "BANDIT_CHESTPLATE" },
-                { "chance": 0.5, "id": "BANDIT_HELMET" },
-                { "chance": 0.5, "id": "SLAUGHTER" },
-                { "chance": 0.5, "id": "GRAVEDIGGER_RAZOR" },
-                { "chance": 0.5, "id": "BONECRUSHER" },
-                { "chance": 0.5, "id": "ROTTING_BONE_TOTEM" },
-                { "chance": 0.5, "id": "cracked_club" }
+                {
+                  "chance": 96.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "BANDIT_CHESTPLATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "BANDIT_HELMET"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "SLAUGHTER"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "GRAVEDIGGER_RAZOR"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "BONECRUSHER"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "ROTTING_BONE_TOTEM"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "cracked_club"
+                }
               ]
             },
-            {
+            "LANE_LEADER": {
               "chance": 10,
               "type": "LANE_LEADER",
               "name": "i18n.rpg.mobs.lane_leader.name|!|§a",
@@ -433,7 +718,9 @@
               "itemInMainHand": {
                 "type": "IRON_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "voice_of_wind"
                 }
               },
@@ -443,16 +730,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "leaders_bandana" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "leaders_bandana"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "street_fighter",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "street_fighter",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "street_fighter"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "elite_mobs",
-          "kinds": [
-            {
+        "ELITE_MOBS": {
+          "kinds": {
+            "ELITE_MOBS": {
               "chance": 90,
               "type": "ELITE_MOBS",
               "name": "i18n.rpg.mobs.elite_mobs.name|!|§a",
@@ -474,7 +790,9 @@
               "itemInMainHand": {
                 "type": "IRON_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "gravedigger_razor"
                 }
               },
@@ -484,13 +802,24 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 98.5 },
-                { "chance": 0.5, "id": "BANDIT_LEGGINGS" },
-                { "chance": 0.5, "id": "BANDIT_BOOTS" },
-                { "chance": 0.5, "id": "torn_chains" }
+                {
+                  "chance": 98.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "BANDIT_LEGGINGS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "BANDIT_BOOTS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "torn_chains"
+                }
               ]
             },
-            {
+            "MASK_DESTROYER": {
               "chance": 10,
               "type": "MASK_DESTROYER",
               "name": "i18n.rpg.mobs.mask_destroyer.name|!|§a",
@@ -505,7 +834,9 @@
               "itemInMainHand": {
                 "type": "IRON_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "slaughter"
                 }
               },
@@ -515,16 +846,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "bloodied_mask" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "bloodied_mask"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "elite_mobs",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "elite_mobs",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "elite_mobs"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "warlock_gangs",
-          "kinds": [
-            {
+        "WARLOCK_GANGS": {
+          "kinds": {
+            "WARLOCK_GANGS": {
               "chance": 100,
               "type": "WARLOCK_GANGS",
               "name": "i18n.rpg.mobs.warlock_gangs.name|!|§a",
@@ -551,7 +911,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "bonecrusher"
                 }
               },
@@ -561,20 +923,49 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "tome_of_dark_spells" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "tome_of_dark_spells"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "warlock_gangs",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "warlock_gangs",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "warlock_gangs"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     },
     "ARCHIPELAGO_OF_OBLIVION": {
-      "mobs": [
-        {
-          "pointTag": "forgot_soul",
-          "kinds": [
-            {
+      "mobs": {
+        "FORGOT_SOUL": {
+          "kinds": {
+            "FORGOT_SOUL": {
               "chance": 90,
               "type": "FORGOT_SOUL",
               "name": "i18n.rpg.mobs.forgot_soul.name|!|§a",
@@ -589,7 +980,9 @@
               "itemInMainHand": {
                 "type": "STONE_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "slaughter"
                 }
               },
@@ -599,17 +992,40 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 96.5 },
-                { "chance": 0.5, "id": "CURSED_CHESTPLATE" },
-                { "chance": 0.5, "id": "CURSED_HELMET" },
-                { "chance": 0.5, "id": "TIDE_COMB" },
-                { "chance": 0.5, "id": "MORAY_FANG" },
-                { "chance": 0.5, "id": "WHISPER_OF_DEPTHS" },
-                { "chance": 0.5, "id": "CORAL_SCEPTER" },
-                { "chance": 0.5, "id": "medallion_of_cursed_death" }
+                {
+                  "chance": 96.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "CURSED_CHESTPLATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "CURSED_HELMET"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "TIDE_COMB"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "MORAY_FANG"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "WHISPER_OF_DEPTHS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "CORAL_SCEPTER"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "medallion_of_cursed_death"
+                }
               ]
             },
-            {
+            "DROWNED_GUARDIAN": {
               "chance": 10,
               "type": "DROWNED_GUARDIAN",
               "name": "i18n.rpg.mobs.drowned_guardian.name|!|§a",
@@ -631,7 +1047,9 @@
               "itemInMainHand": {
                 "type": "IRON_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "gravedigger_razor"
                 }
               },
@@ -641,16 +1059,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "diary_of_memories" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "diary_of_memories"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "forgot_soul",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "forgot_soul",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "forgot_soul"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "sea_scavenger",
-          "kinds": [
-            {
+        "SEA_SCAVENGER": {
+          "kinds": {
+            "SEA_SCAVENGER": {
               "chance": 90,
               "type": "SEA_SCAVENGER",
               "name": "i18n.rpg.mobs.sea_scavenger.name|!|§a",
@@ -672,7 +1119,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "bonecrusher"
                 }
               },
@@ -682,13 +1131,24 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 98.5 },
-                { "chance": 0.5, "id": "CURSED_LEGGINGS" },
-                { "chance": 0.5, "id": "CURSED_BOOTS" },
-                { "chance": 0.5, "id": "piece_of_rotten_flesh" }
+                {
+                  "chance": 98.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "CURSED_LEGGINGS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "CURSED_BOOTS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "piece_of_rotten_flesh"
+                }
               ]
             },
-            {
+            "DROWNED_FOAM": {
               "chance": 10,
               "type": "DROWNED_FOAM",
               "name": "i18n.rpg.mobs.drowned_foam.name|!|§a",
@@ -703,7 +1163,9 @@
               "itemInMainHand": {
                 "type": "IRON_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "tide_comb"
                 }
               },
@@ -713,16 +1175,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "sea_foam" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "sea_foam"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "sea_scavenger",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "sea_scavenger",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "sea_scavenger"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "fallen_captain",
-          "kinds": [
-            {
+        "FALLEN_CAPTAIN": {
+          "kinds": {
+            "FALLEN_CAPTAIN": {
               "chance": 100,
               "type": "FALLEN_CAPTAIN",
               "name": "i18n.rpg.mobs.fallen_captain.name|!|§a",
@@ -748,7 +1239,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "whisper_of_depths"
                 }
               },
@@ -758,20 +1251,49 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "captains_compass" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "captains_compass"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "fallen_captain",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_captain",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_captain"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     },
     "CRUCIFIED_VALLEY": {
-      "mobs": [
-        {
-          "pointTag": "lost_pilgrim",
-          "kinds": [
-            {
+      "mobs": {
+        "LOST_PILGRIM": {
+          "kinds": {
+            "LOST_PILGRIM": {
               "chance": 90,
               "type": "LOST_PILGRIM",
               "name": "i18n.rpg.mobs.lost_pilgrim.name|!|§a",
@@ -786,7 +1308,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "tide_comb"
                 }
               },
@@ -796,17 +1320,40 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 96.5 },
-                { "chance": 0.5, "id": "OATH_CHESTPLATE" },
-                { "chance": 0.5, "id": "OATH_HELMET" },
-                { "chance": 0.5, "id": "RECKONING_NAIL" },
-                { "chance": 0.5, "id": "BURSTING_SHACKLES" },
-                { "chance": 0.5, "id": "WIND_MOAN" },
-                { "chance": 0.5, "id": "DEFILED_CRYSTAL" },
-                { "chance": 0.5, "id": "fragment_of_prayer" }
+                {
+                  "chance": 96.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "OATH_CHESTPLATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "OATH_HELMET"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "RECKONING_NAIL"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "BURSTING_SHACKLES"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "WIND_MOAN"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "DEFILED_CRYSTAL"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "fragment_of_prayer"
+                }
               ]
             },
-            {
+            "SHACKLED_WATCHER": {
               "chance": 10,
               "type": "SHACKLED_WATCHER",
               "name": "i18n.rpg.mobs.shackled_watcher.name|!|§a",
@@ -821,7 +1368,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "whisper_of_depths"
                 }
               },
@@ -831,16 +1380,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "rusted_chain" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "rusted_chain"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "lost_pilgrim",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "lost_pilgrim",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "lost_pilgrim"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "crucified_grd",
-          "kinds": [
-            {
+        "CRUCIFIED_GUARD": {
+          "kinds": {
+            "CRUCIFIED_GUARD": {
               "chance": 90,
               "type": "CRUCIFIED_GUARD",
               "name": "i18n.rpg.mobs.crucified_guard.name|!|§a",
@@ -855,7 +1433,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "wind_moan"
                 }
               },
@@ -865,13 +1445,24 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 98.5 },
-                { "chance": 0.5, "id": "OATH_LEGGINGS" },
-                { "chance": 0.5, "id": "OATH_BOOTS" },
-                { "chance": 0.5, "id": "bloodied_cross" }
+                {
+                  "chance": 98.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "OATH_LEGGINGS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "OATH_BOOTS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "bloodied_cross"
+                }
               ]
             },
-            {
+            "RITUAL_BEARER": {
               "chance": 10,
               "type": "RITUAL_BEARER",
               "name": "i18n.rpg.mobs.ritual_bearer.name|!|§a",
@@ -886,7 +1477,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "reckoning_nail"
                 }
               },
@@ -896,16 +1489,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "ritual_dagger" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "ritual_dagger"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "crucified_grd",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "crucified_grd",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "crucified_grd"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "chain_driver",
-          "kinds": [
-            {
+        "CHAIN_DRIVER": {
+          "kinds": {
+            "CHAIN_DRIVER": {
               "chance": 100,
               "type": "CHAIN_DRIVER",
               "name": "i18n.rpg.mobs.chain_driver.name|!|§a",
@@ -920,7 +1542,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "defiled_crystal"
                 }
               },
@@ -930,20 +1554,49 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "drivers_tongs" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "drivers_tongs"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "chain_driver",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "chain_driver",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "chain_driver"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     },
     "SUNKEN_ARCHIPELAGO": {
-      "mobs": [
-        {
-          "pointTag": "wander_singer",
-          "kinds": [
-            {
+      "mobs": {
+        "WANDERING_SINGER": {
+          "kinds": {
+            "WANDERING_SINGER": {
               "chance": 90,
               "type": "WANDERING_SINGER",
               "name": "i18n.rpg.mobs.wandering_singer.name|!|§a",
@@ -958,7 +1611,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "wind_moan"
                 }
               },
@@ -968,17 +1623,40 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 96.5 },
-                { "chance": 0.5, "id": "EXILE_CHESTPLATE" },
-                { "chance": 0.5, "id": "EXILE_HELMET" },
-                { "chance": 0.5, "id": "STORM_COMB" },
-                { "chance": 0.5, "id": "JELLYFISH_STING" },
-                { "chance": 0.5, "id": "HARPOON_OF_LONGING" },
-                { "chance": 0.5, "id": "PEARL_OF_DEPTHS" },
-                { "chance": 0.5, "id": "frozen_note" }
+                {
+                  "chance": 96.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "EXILE_CHESTPLATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "EXILE_HELMET"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "STORM_COMB"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "JELLYFISH_STING"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "HARPOON_OF_LONGING"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "PEARL_OF_DEPTHS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "frozen_note"
+                }
               ]
             },
-            {
+            "ROTTING_HELM": {
               "chance": 10,
               "type": "ROTTING_HELM",
               "name": "i18n.rpg.mobs.rotting_helm.name|!|§a",
@@ -993,7 +1671,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "bursting_shackles"
                 }
               },
@@ -1003,16 +1683,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "worm_chest" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "worm_chest"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "wander_singer",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "wander_singer",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "wander_singer"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "storm_guardian",
-          "kinds": [
-            {
+        "STORM_GUARDIAN": {
+          "kinds": {
+            "STORM_GUARDIAN": {
               "chance": 90,
               "type": "STORM_GUARDIAN",
               "name": "i18n.rpg.mobs.storm_guardian.name|!|§a",
@@ -1027,7 +1736,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "jellyfish_sting"
                 }
               },
@@ -1037,13 +1748,24 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 98.5 },
-                { "chance": 0.5, "id": "EXILE_LEGGINGS" },
-                { "chance": 0.5, "id": "EXILE_BOOTS" },
-                { "chance": 0.5, "id": "torn_sail" }
+                {
+                  "chance": 98.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "EXILE_LEGGINGS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "EXILE_BOOTS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "torn_sail"
+                }
               ]
             },
-            {
+            "THICKET_PIRATE": {
               "chance": 10,
               "type": "THICKET_PIRATE",
               "name": "i18n.rpg.mobs.thicket_pirate.name|!|§a",
@@ -1058,7 +1780,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "storm_comb"
                 }
               },
@@ -1068,16 +1792,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "cutlass" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "cutlass"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "storm_guardian",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "storm_guardian",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "storm_guardian"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "abyss_priest",
-          "kinds": [
-            {
+        "ABYSSAL_PRIESTESS": {
+          "kinds": {
+            "ABYSSAL_PRIESTESS": {
               "chance": 100,
               "type": "ABYSSAL_PRIESTESS",
               "name": "i18n.rpg.mobs.abyssal_priestess.name|!|§a",
@@ -1092,7 +1845,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "harpoon_of_longing"
                 }
               },
@@ -1102,20 +1857,49 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "trident_of_supremacy" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "trident_of_supremacy"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "abyss_priest",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "abyss_priest",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "abyss_priest"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     },
     "LIMITS_OF_REASON": {
-      "mobs": [
-        {
-          "pointTag": "cracked_student",
-          "kinds": [
-            {
+      "mobs": {
+        "CRACKED_STUDENT": {
+          "kinds": {
+            "CRACKED_STUDENT": {
               "chance": 90,
               "type": "CRACKED_STUDENT",
               "name": "i18n.rpg.mobs.cracked_student.name|!|§a",
@@ -1130,7 +1914,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "pearl_of_depths"
                 }
               },
@@ -1140,17 +1926,40 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 96.5 },
-                { "chance": 0.5, "id": "MINDSHARD_CHESTPLATE" },
-                { "chance": 0.5, "id": "MINDSHARD_HELMET" },
-                { "chance": 0.5, "id": "CHAOS_BLADE" },
-                { "chance": 0.5, "id": "DISTORTED_THORN" },
-                { "chance": 0.5, "id": "INSTABILITY_BOW" },
-                { "chance": 0.5, "id": "FOCUSING_SHARD" },
-                { "chance": 0.5, "id": "alchemical_powder" }
+                {
+                  "chance": 96.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "MINDSHARD_CHESTPLATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "MINDSHARD_HELMET"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "CHAOS_BLADE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "DISTORTED_THORN"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "INSTABILITY_BOW"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "FOCUSING_SHARD"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "alchemical_powder"
+                }
               ]
             },
-            {
+            "DISTORTED_PROTOCOL": {
               "chance": 10,
               "type": "DISTORTED_PROTOCOL",
               "name": "i18n.rpg.mobs.distorted_protocol.name|!|§a",
@@ -1165,7 +1974,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "harpoon_of_longing"
                 }
               },
@@ -1175,16 +1986,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "warped_crystal" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "warped_crystal"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "cracked_student",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "cracked_student",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "cracked_student"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "archival_guard",
-          "kinds": [
-            {
+        "ARCHIVAL_GUARDIAN": {
+          "kinds": {
+            "ARCHIVAL_GUARDIAN": {
               "chance": 90,
               "type": "ARCHIVAL_GUARDIAN",
               "name": "i18n.rpg.mobs.archival_guardian.name|!|§a",
@@ -1199,7 +2039,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "chaos_blade"
                 }
               },
@@ -1209,13 +2051,24 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 98.5 },
-                { "chance": 0.5, "id": "MINDSHARD_LEGGINGS" },
-                { "chance": 0.5, "id": "MINDSHARD_BOOTS" },
-                { "chance": 0.5, "id": "book_of_immortality" }
+                {
+                  "chance": 98.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "MINDSHARD_LEGGINGS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "MINDSHARD_BOOTS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "book_of_immortality"
+                }
               ]
             },
-            {
+            "BROKEN_RESEARCHER": {
               "chance": 10,
               "type": "BROKEN_RESEARCHER",
               "name": "i18n.rpg.mobs.broken_researcher.name|!|§a",
@@ -1230,7 +2083,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "instability_bow"
                 }
               },
@@ -1240,16 +2095,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "shard_of_memories" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "shard_of_memories"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "archival_guard",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "archival_guard",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "archival_guard"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "frag_of_mind",
-          "kinds": [
-            {
+        "FRAGMENT_OF_MIND": {
+          "kinds": {
+            "FRAGMENT_OF_MIND": {
               "chance": 100,
               "type": "FRAGMENT_OF_MIND",
               "name": "i18n.rpg.mobs.fragment_of_mind.name|!|§a",
@@ -1264,7 +2148,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "distorted_thorn"
                 }
               },
@@ -1274,20 +2160,49 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "formula_of_dimensions" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "formula_of_dimensions"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "frag_of_mind",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "frag_of_mind",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "frag_of_mind"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     },
     "HALL_OF_FATE": {
-      "mobs": [
-        {
-          "pointTag": "temporal_ghost",
-          "kinds": [
-            {
+      "mobs": {
+        "TEMPORAL_GHOST": {
+          "kinds": {
+            "TEMPORAL_GHOST": {
               "chance": 90,
               "type": "TEMPORAL_GHOST",
               "name": "i18n.rpg.mobs.temporal_ghost.name|!|§a",
@@ -1302,7 +2217,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "instability_bow"
                 }
               },
@@ -1312,17 +2229,40 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 96.5 },
-                { "chance": 0.5, "id": "TIMELESS_CHESTPLATE" },
-                { "chance": 0.5, "id": "TIMELESS_HELMET" },
-                { "chance": 0.5, "id": "PENDULUM_OF_FATE" },
-                { "chance": 0.5, "id": "TIME_SCYTHE" },
-                { "chance": 0.5, "id": "COUNTDOWN_CROSSBOW" },
-                { "chance": 0.5, "id": "CHRONOS_ROD" },
-                { "chance": 0.5, "id": "flask_of_centuries" }
+                {
+                  "chance": 96.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "TIMELESS_CHESTPLATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "TIMELESS_HELMET"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "PENDULUM_OF_FATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "TIME_SCYTHE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "COUNTDOWN_CROSSBOW"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "CHRONOS_ROD"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "flask_of_centuries"
+                }
               ]
             },
-            {
+            "SAND_GUARDIAN": {
               "chance": 10,
               "type": "SAND_GUARDIAN",
               "name": "i18n.rpg.mobs.sand_guardian.name|!|§a",
@@ -1337,7 +2277,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "chaos_blade"
                 }
               },
@@ -1347,16 +2289,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "grain_of_time" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "grain_of_time"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "temporal_ghost",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "temporal_ghost",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "temporal_ghost"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "mech_arbiter",
-          "kinds": [
-            {
+        "MECHANICAL_ARBITER": {
+          "kinds": {
+            "MECHANICAL_ARBITER": {
               "chance": 90,
               "type": "MECHANICAL_ARBITER",
               "name": "i18n.rpg.mobs.mechanical_arbiter.name|!|§a",
@@ -1371,7 +2342,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "countdown_crossbow"
                 }
               },
@@ -1381,13 +2354,24 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 98.5 },
-                { "chance": 0.5, "id": "TIMELESS_LEGGINGS" },
-                { "chance": 0.5, "id": "TIMELESS_BOOTS" },
-                { "chance": 0.5, "id": "arbiters_gear" }
+                {
+                  "chance": 98.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "TIMELESS_LEGGINGS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "TIMELESS_BOOTS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "arbiters_gear"
+                }
               ]
             },
-            {
+            "DISTORTED_CHRONOMANCER": {
               "chance": 10,
               "type": "DISTORTED_CHRONOMANCER",
               "name": "i18n.rpg.mobs.distorted_chronomancer.name|!|§a",
@@ -1402,7 +2386,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "chronos_rod"
                 }
               },
@@ -1412,16 +2398,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "chronomancers_pendulum" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "chronomancers_pendulum"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "mech_arbiter",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "mech_arbiter",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "mech_arbiter"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "decay_warden",
-          "kinds": [
-            {
+        "DECAY_WARDEN": {
+          "kinds": {
+            "DECAY_WARDEN": {
               "chance": 100,
               "type": "DECAY_WARDEN",
               "name": "i18n.rpg.mobs.decay_warden.name|!|§a",
@@ -1436,7 +2451,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "time_scythe"
                 }
               },
@@ -1446,20 +2463,49 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "blade_of_eternity" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "blade_of_eternity"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "decay_warden",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "decay_warden",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "decay_warden"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     },
     "AFTERMATH": {
-      "mobs": [
-        {
-          "pointTag": "devast_soldier",
-          "kinds": [
-            {
+      "mobs": {
+        "DEVASTATED_SOLDIER": {
+          "kinds": {
+            "DEVASTATED_SOLDIER": {
               "chance": 90,
               "type": "DEVASTATED_SOLDIER",
               "name": "i18n.rpg.mobs.devastated_soldier.name|!|§a",
@@ -1473,7 +2519,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "pendulum_of_fate"
                 }
               },
@@ -1483,17 +2531,40 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 96.5 },
-                { "chance": 0.5, "id": "LASTSTAND_CHESTPLATE" },
-                { "chance": 0.5, "id": "LASTSTAND_HELMET" },
-                { "chance": 0.5, "id": "ERA_FRAGMENT" },
-                { "chance": 0.5, "id": "HOPE_SHARD" },
-                { "chance": 0.5, "id": "OBLIVION_STRING" },
-                { "chance": 0.5, "id": "DESTRUCTION_CORE" },
-                { "chance": 0.5, "id": "cyanide_pill" }
+                {
+                  "chance": 96.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "LASTSTAND_CHESTPLATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "LASTSTAND_HELMET"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "ERA_FRAGMENT"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "HOPE_SHARD"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "OBLIVION_STRING"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "DESTRUCTION_CORE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "cyanide_pill"
+                }
               ]
             },
-            {
+            "FADED_SEEKER": {
               "chance": 10,
               "type": "FADED_SEEKER",
               "name": "i18n.rpg.mobs.faded_seeker.name|!|§a",
@@ -1507,7 +2578,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "countdown_crossbow"
                 }
               },
@@ -1517,16 +2590,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "last_message_of_the_living" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "last_message_of_the_living"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "devast_soldier",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "devast_soldier",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "devast_soldier"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "ash_colossus",
-          "kinds": [
-            {
+        "ASH_COLOSSUS": {
+          "kinds": {
+            "ASH_COLOSSUS": {
               "chance": 90,
               "type": "ASH_COLOSSUS",
               "name": "i18n.rpg.mobs.ash_colossus.name|!|§a",
@@ -1540,7 +2642,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "hope_shard"
                 }
               },
@@ -1550,13 +2654,24 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 98.5 },
-                { "chance": 0.5, "id": "LASTSTAND_LEGGINGS" },
-                { "chance": 0.5, "id": "LASTSTAND_BOOTS" },
-                { "chance": 0.5, "id": "charred_particles" }
+                {
+                  "chance": 98.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "LASTSTAND_LEGGINGS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "LASTSTAND_BOOTS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "charred_particles"
+                }
               ]
             },
-            {
+            "MOLTEN_MESSENGER": {
               "chance": 10,
               "type": "MOLTEN_MESSENGER",
               "name": "i18n.rpg.mobs.molten_messenger.name|!|§a",
@@ -1571,7 +2686,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "destruction_core"
                 }
               },
@@ -1581,16 +2698,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "blazing_core" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "blazing_core"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "ash_colossus",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "ash_colossus",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "ash_colossus"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "fallen_ash_wrr",
-          "kinds": [
-            {
+        "FALLEN_ASH_WARRIOR": {
+          "kinds": {
+            "FALLEN_ASH_WARRIOR": {
               "chance": 100,
               "type": "FALLEN_ASH_WARRIOR",
               "name": "i18n.rpg.mobs.fallen_ash_warrior.name|!|§a",
@@ -1605,7 +2751,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "era_fragment"
                 }
               },
@@ -1615,19 +2763,49 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "molten_armor" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "molten_armor"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "fallen_ash_wrr",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_ash_wrr",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_ash_wrr"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     },
     "HEART_OF_CHAOS": {
-      "mobs": [ {
-          "pointTag": "fallen_echo",
-          "kinds": [
-            {
+      "mobs": {
+        "FALLEN_ECHO": {
+          "kinds": {
+            "FALLEN_ECHO": {
               "chance": 90,
               "type": "FALLEN_ECHO",
               "name": "i18n.rpg.mobs.fallen_echo.name|!|§a",
@@ -1641,7 +2819,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "echo_of_past_battles"
                 }
               },
@@ -1651,17 +2831,40 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 96.5 },
-                { "chance": 0.5, "id": "APOCALYPSE_CHESTPLATE" },
-                { "chance": 0.5, "id": "APOCALYPSE_HELMET" },
-                { "chance": 0.5, "id": "HEART_OF_STORM" },
-                { "chance": 0.5, "id": "SHADOW_OF_FALLEN" },
-                { "chance": 0.5, "id": "ECHO_OF_PAST_BATTLES" },
-                { "chance": 0.5, "id": "BOW_OF_DOOM" },
-                { "chance": 0.5, "id": "phantom_glimmer" }
+                {
+                  "chance": 96.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "APOCALYPSE_CHESTPLATE"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "APOCALYPSE_HELMET"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "HEART_OF_STORM"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "SHADOW_OF_FALLEN"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "ECHO_OF_PAST_BATTLES"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "BOW_OF_DOOM"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "phantom_glimmer"
+                }
               ]
             },
-            {
+            "REVERSED_RESONANCE": {
               "chance": 10,
               "type": "REVERSED_RESONANCE",
               "name": "i18n.rpg.mobs.reversed_resonance.name|!|§a",
@@ -1675,7 +2878,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "oblivion_string"
                 }
               },
@@ -1685,16 +2890,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "mirror_shield" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "mirror_shield"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "fallen_echo",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_echo",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_echo"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "distort_memory",
-          "kinds": [
-            {
+        "DISTORTED_MEMORY": {
+          "kinds": {
+            "DISTORTED_MEMORY": {
               "chance": 90,
               "type": "DISTORTED_MEMORY",
               "name": "i18n.rpg.mobs.distorted_memory.name|!|§a",
@@ -1708,7 +2942,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "heart_of_storm"
                 }
               },
@@ -1718,13 +2954,24 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 98.5 },
-                { "chance": 0.5, "id": "APOCALYPSE_LEGGINGS" },
-                { "chance": 0.5, "id": "APOCALYPSE_BOOTS" },
-                { "chance": 0.5, "id": "crystal_of_oblivion" }
+                {
+                  "chance": 98.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "APOCALYPSE_LEGGINGS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "APOCALYPSE_BOOTS"
+                },
+                {
+                  "chance": 0.5,
+                  "id": "crystal_of_oblivion"
+                }
               ]
             },
-            {
+            "SPACE_SCAR": {
               "chance": 10,
               "type": "SPACE_SCAR",
               "name": "i18n.rpg.mobs.space_scar.name|!|§a",
@@ -1739,7 +2986,9 @@
               "itemInMainHand": {
                 "type": "BOW",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "bow_of_doom"
                 }
               },
@@ -1749,16 +2998,45 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "rift_into_reality" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "rift_into_reality"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "distort_memory",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "distort_memory",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "distort_memory"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         },
-        {
-          "pointTag": "reflect_wander",
-          "kinds": [
-            {
+        "REFLECTED_WANDERER": {
+          "kinds": {
+            "REFLECTED_WANDERER": {
               "chance": 100,
               "type": "REFLECTED_WANDERER",
               "name": "i18n.rpg.mobs.reflected_wanderer.name|!|§a",
@@ -1773,7 +3051,9 @@
               "itemInMainHand": {
                 "type": "WOOD_SWORD",
                 "data": {
-                  "tool_data": {"damage": 1},
+                  "tool_data": {
+                    "damage": 1
+                  },
                   "sim_rpg": "shadow_of_fallen"
                 }
               },
@@ -1783,13 +3063,43 @@
               "money": 1000,
               "regenerationCooldown": 60000,
               "drops": [
-                { "chance": 99.5 },
-                { "chance": 0.5, "id": "shattered_prism" }
+                {
+                  "chance": 99.5
+                },
+                {
+                  "chance": 0.5,
+                  "id": "shattered_prism"
+                }
               ]
             }
-          ]
+          },
+          "pointTag": "reflect_wander",
+          "idleZone": {
+            "worldText": {
+              "content": "rpg.mobs.idle_zone.title",
+              "location": {
+                "name": "idle_farm",
+                "tag": "reflect_wander",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "reflect_wander"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
         }
-      ]
+      }
     }
   }
 }
