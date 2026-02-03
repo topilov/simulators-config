@@ -4,8 +4,16 @@
     "drop": "rpg.mobs.messages.drop"
   },
   "idle": {
-    "basicContent": "rpg.mobs.idle.basic.content",
-    "advancedContent": "rpg.mobs.idle.advanced.content"
+    "content": {
+      "basic": "rpg.mobs.idle.basic.content",
+      "advanced": "rpg.mobs.idle.advanced.content"
+    },
+    "messages": {
+      "notEnoughFuel": "rpg.mobs.idle.messages.not_enough_fuel",
+      "playerDataNotInitialized": "rpg.mobs.idle.messages.player_data_not_initialized",
+      "failedToolValidation": "rpg.mobs.idle.messages.failed_tool_validation",
+      "toolWasChanged": "rpg.mobs.idle.messages.tool_was_changed"
+    }
   },
   "locations": {
     "SHADOW_CITY": {

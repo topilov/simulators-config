@@ -221,14 +221,54 @@
     "idle": {
       "type": "object",
       "required": [
-        "basicContent",
-        "advancedContent"
+        "content",
+        "messages"
       ],
       "properties": {
-        "basicContent": {
+        "content": {
+          "$ref": "#/$defs/content"
+        },
+        "messages": {
+          "$ref": "#/$defs/messages"
+        }
+      },
+      "additionalProperties": false
+    },
+    "messages": {
+      "type": "object",
+      "required": [
+        "notEnoughFuel",
+        "playerDataNotInitialized",
+        "failedToolValidation",
+        "toolWasChanged"
+      ],
+      "properties": {
+        "notEnoughFuel": {
           "$ref": "./common.schema.json#/$defs/i18n"
         },
-        "advancedContent": {
+        "playerDataNotInitialized": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "failedToolValidation": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "toolWasChanged": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "basic",
+        "advanced"
+      ],
+      "properties": {
+        "basic": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "advanced": {
           "$ref": "./common.schema.json#/$defs/i18n"
         }
       },
