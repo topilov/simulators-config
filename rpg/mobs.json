@@ -3,6 +3,10 @@
   "messages": {
     "drop": "rpg.mobs.messages.drop"
   },
+  "idle": {
+    "basicContent": "rpg.mobs.idle.basic.content",
+    "advancedContent": "rpg.mobs.idle.advanced.content"
+  },
   "locations": {
     "SHADOW_CITY": {
       "mobs": {
@@ -108,7 +112,6 @@
           "pointTag": "shadow_scout",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "shadow_scout",
@@ -131,7 +134,8 @@
               "color": {
                 "hex": "#8d6808"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.shadow_scout.name|!|§f"
           }
         },
         "GHOST_OBSERVER": {
@@ -220,7 +224,6 @@
           "pointTag": "ghost_observer",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "ghost_observer",
@@ -243,7 +246,8 @@
               "color": {
                 "hex": "#8d6808"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.ghost_observer.name|!|§f"
           }
         },
         "ILLUSION_MASTER": {
@@ -288,7 +292,6 @@
           "pointTag": "illusion_master",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "illusion_master",
@@ -311,7 +314,8 @@
               "color": {
                 "hex": "#8d6808"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.illusion_master.name|!|§f"
           }
         }
       }
@@ -427,7 +431,6 @@
           "pointTag": "dao_student",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "dao_student",
@@ -440,7 +443,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.dao_student.name|!|§f"
           }
         },
         "DAO_GUARDIAN": {
@@ -536,7 +540,6 @@
           "pointTag": "dao_guardian",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "dao_guardian",
@@ -549,7 +552,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.dao_guardian.name|!|§f"
           }
         },
         "CI_MASTER": {
@@ -602,7 +606,6 @@
           "pointTag": "ci_master",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "ci_master",
@@ -615,7 +618,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.ci_master.name|!|§f"
           }
         }
       }
@@ -731,7 +735,6 @@
           "pointTag": "street_fighter",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "street_fighter",
@@ -744,7 +747,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.street_fighter.name|!|§f"
           }
         },
         "ELITE_MOBS": {
@@ -840,7 +844,6 @@
           "pointTag": "elite_mobs",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "elite_mobs",
@@ -853,7 +856,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.elite_mobs.name|!|§f"
           }
         },
         "WARLOCK_GANGS": {
@@ -910,7 +914,6 @@
           "pointTag": "warlock_gangs",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "warlock_gangs",
@@ -923,7 +926,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.warlock_gangs.name|!|§f"
           }
         }
       }
@@ -1039,7 +1043,6 @@
           "pointTag": "forgot_soul",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "forgot_soul",
@@ -1052,7 +1055,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.forgot_soul.name|!|§f"
           }
         },
         "SEA_SCAVENGER": {
@@ -1148,7 +1152,6 @@
           "pointTag": "sea_scavenger",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "sea_scavenger",
@@ -1161,7 +1164,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.sea_scavenger.name|!|§f"
           }
         },
         "FALLEN_CAPTAIN": {
@@ -1217,7 +1221,6 @@
           "pointTag": "fallen_captain",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "fallen_captain",
@@ -1230,7 +1233,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.fallen_captain.name|!|§f"
           }
         }
       }
@@ -1339,7 +1343,6 @@
           "pointTag": "lost_pilgrim",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "lost_pilgrim",
@@ -1352,7 +1355,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.lost_pilgrim.name|!|§f"
           }
         },
         "CRUCIFIED_GUARD": {
@@ -1441,7 +1445,6 @@
           "pointTag": "crucified_grd",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "crucified_grd",
@@ -1454,7 +1457,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.crucified_guard.name|!|§f"
           }
         },
         "CHAIN_DRIVER": {
@@ -1499,7 +1503,6 @@
           "pointTag": "chain_driver",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "chain_driver",
@@ -1512,7 +1515,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.chain_driver.name|!|§f"
           }
         }
       }
@@ -1621,7 +1625,6 @@
           "pointTag": "wander_singer",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "wander_singer",
@@ -1634,7 +1637,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.wandering_singer.name|!|§f"
           }
         },
         "STORM_GUARDIAN": {
@@ -1723,7 +1727,6 @@
           "pointTag": "storm_guardian",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "storm_guardian",
@@ -1736,7 +1739,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.storm_guardian.name|!|§f"
           }
         },
         "ABYSSAL_PRIESTESS": {
@@ -1781,7 +1785,6 @@
           "pointTag": "abyss_priest",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "abyss_priest",
@@ -1794,7 +1797,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.abyssal_priestess.name|!|§f"
           }
         }
       }
@@ -1903,7 +1907,6 @@
           "pointTag": "cracked_student",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "cracked_student",
@@ -1916,7 +1919,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.cracked_student.name|!|§f"
           }
         },
         "ARCHIVAL_GUARDIAN": {
@@ -2005,7 +2009,6 @@
           "pointTag": "archival_guard",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "archival_guard",
@@ -2018,7 +2021,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.archival_guardian.name|!|§f"
           }
         },
         "FRAGMENT_OF_MIND": {
@@ -2063,7 +2067,6 @@
           "pointTag": "frag_of_mind",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "frag_of_mind",
@@ -2076,7 +2079,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.fragment_of_mind.name|!|§f"
           }
         }
       }
@@ -2185,7 +2189,6 @@
           "pointTag": "temporal_ghost",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "temporal_ghost",
@@ -2198,7 +2201,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.temporal_ghost.name|!|§f"
           }
         },
         "MECHANICAL_ARBITER": {
@@ -2287,7 +2291,6 @@
           "pointTag": "mech_arbiter",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "mech_arbiter",
@@ -2300,7 +2303,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.mechanical_arbiter.name|!|§f"
           }
         },
         "DECAY_WARDEN": {
@@ -2345,7 +2349,6 @@
           "pointTag": "decay_warden",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "decay_warden",
@@ -2358,7 +2361,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.decay_warden.name|!|§f"
           }
         }
       }
@@ -2465,7 +2469,6 @@
           "pointTag": "devast_soldier",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "devast_soldier",
@@ -2478,7 +2481,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.devastated_soldier.name|!|§f"
           }
         },
         "ASH_COLOSSUS": {
@@ -2566,7 +2570,6 @@
           "pointTag": "ash_colossus",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "ash_colossus",
@@ -2579,7 +2582,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.ash_colossus.name|!|§f"
           }
         },
         "FALLEN_ASH_WARRIOR": {
@@ -2624,7 +2628,6 @@
           "pointTag": "fallen_ash_wrr",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "fallen_ash_wrr",
@@ -2637,7 +2640,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.fallen_ash_warrior.name|!|§f"
           }
         }
       }
@@ -2744,7 +2748,6 @@
           "pointTag": "fallen_echo",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "fallen_echo",
@@ -2757,7 +2760,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.fallen_echo.name|!|§f"
           }
         },
         "DISTORTED_MEMORY": {
@@ -2845,7 +2849,6 @@
           "pointTag": "distort_memory",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "distort_memory",
@@ -2858,7 +2861,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.distorted_memory.name|!|§f"
           }
         },
         "REFLECTED_WANDERER": {
@@ -2903,7 +2907,6 @@
           "pointTag": "reflect_wander",
           "idleZone": {
             "worldText": {
-              "content": "rpg.mobs.idle_zone.title",
               "location": {
                 "name": "idle_farm",
                 "tag": "reflect_wander",
@@ -2916,7 +2919,8 @@
               "color": {
                 "hex": "#1E1E1E"
               }
-            }
+            },
+            "title": "i18n.rpg.mobs.reflected_wanderer.name|!|§f"
           }
         }
       }
