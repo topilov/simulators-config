@@ -3,6 +3,7 @@
   "type": "object",
   "required": [
     "messages",
+    "idle",
     "locations"
   ],
   "additionalProperties": false,
@@ -30,6 +31,9 @@
       "additionalProperties": {
         "$ref": "#/$defs/locationMobs"
       }
+    },
+    "idle": {
+      "$ref": "#/$defs/idle"
     }
   },
   "$defs": {
@@ -40,29 +44,57 @@
       ],
       "properties": {
         "mobs": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/mobPoint"
+          "type": "object",
+          "propertyNames": {
+            "$ref": "./common.schema.json#/$defs/mobType"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/mobKinds"
           }
         }
       },
       "additionalProperties": false
     },
-    "mobPoint": {
+    "mobKinds": {
       "type": "object",
       "required": [
+        "kinds",
         "pointTag",
-        "kinds"
+        "idleZone"
       ],
       "properties": {
+        "kinds": {
+          "type": "object",
+          "propertyNames": {
+            "$ref": "./common.schema.json#/$defs/mobType"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/mobKind"
+          }
+        },
         "pointTag": {
           "type": "string"
         },
-        "kinds": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/mobKind"
-          }
+        "idleZone": {
+          "$ref": "#/$defs/idleZone"
+        }
+      },
+      "additionalProperties": false
+    },
+    "idleZone": {
+      "type": "object",
+      "required": [
+        "worldText"
+      ],
+      "properties": {
+        "worldText": {
+          "type": "object"
+        },
+        "zone": {
+          "type": "object"
+        },
+        "title": {
+          "type": "string"
         }
       },
       "additionalProperties": false
@@ -182,6 +214,62 @@
         "amplifier": {
           "type": "number",
           "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "idle": {
+      "type": "object",
+      "required": [
+        "content",
+        "messages"
+      ],
+      "properties": {
+        "content": {
+          "$ref": "#/$defs/content"
+        },
+        "messages": {
+          "$ref": "#/$defs/messages"
+        }
+      },
+      "additionalProperties": false
+    },
+    "messages": {
+      "type": "object",
+      "required": [
+        "notEnoughFuel",
+        "playerDataNotInitialized",
+        "failedToolValidation",
+        "toolWasChanged"
+      ],
+      "properties": {
+        "notEnoughFuel": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "playerDataNotInitialized": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "failedToolValidation": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "toolWasChanged": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "basic",
+        "advanced"
+      ],
+      "properties": {
+        "basic": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "advanced": {
+          "$ref": "./common.schema.json#/$defs/i18n"
         }
       },
       "additionalProperties": false
