@@ -63,9 +63,25 @@
                 "rpg": "default_shiv_armor"
               }
             },
-            "chance": 49.9,
+            "chance": 49.8,
             "onDrop": [
               "give-shiv %player% ARMOR DEFAULT 1"
+            ]
+          },
+          {
+            "id": "idle_fuel",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.idle_fuel.item.default.name",
+              "lore": "rpg.idle_fuel.item.default.lore",
+              "data": {
+                "rpg": "idle_fuel"
+              }
+            },
+            "chance": 0.1,
+            "onDrop": [
+              "add-idle-fuel %player% 60"
             ]
           },
           {
