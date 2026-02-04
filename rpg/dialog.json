@@ -453,5 +453,36 @@
         }
       ]
     }
-  }
-}
+  },
+  "LOOKER_KNIGHT": {
+      "title": "rpg.dialog.looker_knight.title",
+      "maxTasks": 18,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+              "type": {
+                "kind": "kill_mob"
+              },
+              "required": 50,
+              "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 1,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    }
+ }
