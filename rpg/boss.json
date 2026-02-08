@@ -49,6 +49,14 @@
             "customName": "rpg.boss.shadow.name",
             "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png"
           },
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 3600000,
+              "onSuccess": ["give-shiv %player% TOOL LEGENDARY 1"]
+            }
+          ],
           "menu": {
             "title": "rpg.boss.shadow.name",
             "state": "rpg.boss.shadow.state",
@@ -87,7 +95,6 @@
               }
             ]
           },
-          "reward": [[]],
           "children": [
             {
               "childType": "TWIN",
@@ -171,7 +178,14 @@
               }
             ]
           },
-          "reward": [[]],
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 100,
+              "onSuccess": ["test"]
+            }
+          ],
           "children": []
         }
       }
@@ -234,7 +248,14 @@
               }
             ]
           },
-          "reward": [[]],
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 100,
+              "onSuccess": ["test"]
+            }
+          ],
           "children": []
         }
       }
@@ -297,7 +318,14 @@
               }
             ]
           },
-          "reward": [[]],
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 100,
+              "onSuccess": ["test"]
+            }
+          ],
           "children": []
         }
       }
@@ -364,7 +392,14 @@
             "onSpawn": "rpg.event.ashen.start_message",
             "onDeath": "rpg.event.ashen.end_message"
           },
-          "reward": [[]],
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 100,
+              "onSuccess": ["test"]
+            }
+          ],
           "children": []
         }
       }
@@ -427,7 +462,14 @@
               }
             ]
           },
-          "reward": [[], [], []],
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 100,
+              "onSuccess": ["test"]
+            }
+          ],
           "children": []
         }
       }
@@ -490,7 +532,14 @@
               }
             ]
           },
-          "reward": [[]],
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 100,
+              "onSuccess": ["test"]
+            }
+          ],
           "children": []
         }
       }
@@ -557,7 +606,14 @@
             "onSpawn": "rpg.event.ashen.start_message",
             "onDeath": "rpg.event.ashen.end_message"
           },
-          "reward": [[]],
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 100,
+              "onSuccess": ["test"]
+            }
+          ],
           "children": []
         }
       }
@@ -624,7 +680,14 @@
             "onSpawn": "rpg.event.ashen.start_message",
             "onDeath": "rpg.event.ashen.end_message"
           },
-          "reward": [[]],
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 100,
+              "onSuccess": ["test"]
+            }
+          ],
           "children": []
         }
       }
@@ -691,7 +754,14 @@
             "onSpawn": "rpg.event.ashen.start_message",
             "onDeath": "rpg.event.ashen.end_message"
           },
-          "reward": [[]],
+          "drops": [
+            {
+              "dropId": "test",
+              "maxCount": 1,
+              "cooldown": 100,
+              "onSuccess": ["test"]
+            }
+          ],
           "children": []
         }
       }
