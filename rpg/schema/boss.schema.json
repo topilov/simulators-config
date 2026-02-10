@@ -146,8 +146,7 @@
         "spawnAt",
         "settings",
         "children",
-        "menu",
-        "reward"
+        "menu"
       ],
       "properties": {
         "type": {
@@ -193,6 +192,12 @@
           "type": "array",
           "items": {
             "type": "array"
+          }
+        },
+        "drops": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/bossDrop"
           }
         }
       },
@@ -355,6 +360,32 @@
         }
       },
       "additionalProperties": false
+    },
+    "bossDrop": {
+      "type": "object",
+      "required": [
+        "dropId",
+        "maxCount",
+        "cooldown",
+        "onSuccess"
+      ],
+      "properties": {
+        "dropId": {
+          "type": "string"
+        },
+        "maxCount": {
+          "type": "number"
+        },
+        "cooldown": {
+          "type": "number"
+        },
+        "onSuccess": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }
