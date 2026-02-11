@@ -234,6 +234,36 @@
         },
         "messages": {
           "$ref": "#/$defs/messages"
+        },
+        "delay": {
+          "$ref": "#/$defs/delay"
+        }
+      },
+      "additionalProperties": false
+    },
+    "delay": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/characterType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/delayEntry"
+      }
+    },
+    "delayEntry": {
+      "type": "object",
+      "required": [
+        "menu",
+        "zone"
+      ],
+      "properties": {
+        "menu": {
+          "type": "number",
+          "minimum": 0
+        },
+        "zone": {
+          "type": "number",
+          "minimum": 0
         }
       },
       "additionalProperties": false
