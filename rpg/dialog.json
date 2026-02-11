@@ -452,21 +452,20 @@
           ]
         }
       ]
-    }
-  },
-  "LOOKER_KNIGHT": {
-      "title": "rpg.dialog.looker_knight.title",
-      "maxTasks": 18,
+    },
+    "SCYLLA": {
+      "title": "rpg.dialog.scylla.title",
+      "maxTasks": 17,
       "parts": [
         {
           "taskIndex": 0,
-          "text": "rpg.dialog.kill.shadow_scout.title",
+          "text": "rpg.dialog.earn_pet_exp.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 50,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 200,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
           },
           "answers": [
             {
@@ -482,7 +481,2513 @@
               "text": "rpg.dialog.answer.close.title"
             }
           ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 400,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 2,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 700,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 3,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 1100,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 4,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 1600,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 5,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 5,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 2200,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 6,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 6,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 2900,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 7,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 7,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 3700,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 8,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 8,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 4600,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 9,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 9,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 5600,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 10,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 10,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 6700,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 11,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 11,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 7900,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 12,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 12,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 9200,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 13,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 13,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 10600,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 14,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 14,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 12100,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 15,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 15,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 13700,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 16,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 16,
+          "text": "rpg.dialog.earn_pet_exp.title",
+          "requirement": {
+            "type": {
+              "kind": "earn_pet_exp"
+            },
+            "required": 15400,
+            "text": "rpg.dialog.requirement.earn_pet_exp.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 17,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ZOLTAN": {
+      "title": "rpg.dialog.zoltan.title",
+      "maxTasks": 17,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 500000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 1,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 1000000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 2,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 1750000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 3,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 2750000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 4,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 4000000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 5,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 5,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 5500000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 6,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 6,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 7250000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 7,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 7,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 9250000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 8,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 8,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 11500000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 9,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 9,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 14000000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 10,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 10,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 16750000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 11,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 11,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 19750000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 12,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 12,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 23000000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 13,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 13,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 26500000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 14,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 14,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 30250000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 15,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 15,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 34250000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 16,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 16,
+          "text": "rpg.dialog.spend_money.title",
+          "requirement": {
+            "type": {
+              "kind": "spend_money"
+            },
+            "required": 38500000,
+            "text": "rpg.dialog.requirement.spend_money.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 17,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "CUTTHROAT": {
+      "title": "rpg.dialog.cutthroat.title",
+      "maxTasks": 17,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 5,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 1,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 8,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 2,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 12,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 3,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 17,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 4,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 23,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 5,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 5,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 30,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 6,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 6,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 38,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 7,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 7,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 47,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 8,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 8,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 57,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 9,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 9,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 68,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 10,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 10,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 80,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 11,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 11,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 93,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 12,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 12,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 107,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 13,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 13,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 122,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 14,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 14,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 138,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 15,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 15,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 155,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 16,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 16,
+          "text": "rpg.dialog.multikill.title",
+          "requirement": {
+            "type": {
+              "kind": "multikill"
+            },
+            "required": 173,
+            "text": "rpg.dialog.requirement.multikill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 17,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "HERALD": {
+      "title": "rpg.dialog.herald.title",
+      "maxTasks": 17,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 1,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 1,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 2,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 2,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 4,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 3,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 7,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 4,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 11,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 5,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 5,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 16,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 6,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 6,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 22,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 7,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 7,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 29,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 8,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 8,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 37,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 9,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 9,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 46,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 10,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 10,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 56,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 11,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 11,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 67,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 12,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 12,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 79,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 13,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 13,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 92,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 14,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 14,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 106,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 15,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 15,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 121,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 16,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 16,
+          "text": "rpg.dialog.kill_boss.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_boss"
+            },
+            "required": 137,
+            "text": "rpg.dialog.requirement.kill_boss.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 17,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "KEIRA": {
+      "title": "rpg.dialog.keira.title",
+      "maxTasks": 16,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 1,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 1,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 2,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 2,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 4,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 3,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 7,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 4,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 11,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 5,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 5,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 16,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 6,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 6,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 22,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 7,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 7,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 29,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 8,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 8,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 37,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 9,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 9,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 46,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 10,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 10,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 56,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 11,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 11,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 67,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 12,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 12,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 79,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 13,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 13,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 92,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 14,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 14,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 106,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 15,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 15,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 121,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 16,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "LOOKER_KNIGHT": {
+      "title": "rpg.dialog.looker_knight.title",
+      "maxTasks": 16,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 50,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 1,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 75,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 2,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 105,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 3,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 140,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 4,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 180,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 5,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 5,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 225,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 6,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 6,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 275,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 7,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 7,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 330,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 8,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 8,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 390,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 9,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 9,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 455,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 10,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 10,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 525,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 11,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 11,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 600,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 12,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 12,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 680,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 13,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 13,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 765,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 14,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 14,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 855,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 15,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 15,
+          "text": "rpg.dialog.kill.shadow_scout.title",
+          "requirement": {
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 950,
+            "text": "rpg.dialog.requirement.kill.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 16,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
         }
       ]
     }
+  }
  }
