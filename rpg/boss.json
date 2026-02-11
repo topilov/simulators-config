@@ -51,10 +51,11 @@
           },
           "drops": [
             {
-              "dropId": "test",
+              "chance": 100,
+              "dropId": "ShivDefault",
               "maxCount": 1,
               "cooldown": 3600000,
-              "onSuccess": ["give-shiv %player% TOOL LEGENDARY 1"]
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
             }
           ],
           "menu": {
