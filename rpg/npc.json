@@ -3,10 +3,10 @@
   
   "npc": [
     {
-      "name": "rpg.npc.dialog.1.title",
+      "name": "rpg.npc.maxim.title",
       "location": {
         "name": "dialog",
-        "tag": "1",
+        "tag": "maxim",
         "offset": {
           "x": 0.5,
           "y": 0.0,
@@ -17,6 +17,108 @@
       "lookAtPlayer": true,
       "onClick": [
         "dialog %player% MAXIM"
+      ]
+    },
+    {
+      "name": "rpg.npc.scylla.title",
+      "location": {
+        "name": "dialog",
+        "tag": "scylla",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dialog %player% SCYLLA"
+      ]
+    },
+    {
+      "name": "rpg.npc.zoltan.title",
+      "location": {
+        "name": "dialog",
+        "tag": "zoltan",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dialog %player% ZOLTAN"
+      ]
+    },
+    {
+      "name": "rpg.npc.cutthroat.title",
+      "location": {
+        "name": "dialog",
+        "tag": "cutthroat",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dialog %player% CUTTHROAT"
+      ]
+    },
+    {
+      "name": "rpg.npc.keira.title",
+      "location": {
+        "name": "dialog",
+        "tag": "keira",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dialog %player% KEIRA"
+      ]
+    },
+    {
+      "name": "rpg.npc.herald.title",
+      "location": {
+        "name": "dialog",
+        "tag": "herald",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dialog %player% HERALD"
+      ]
+    },
+    {
+      "name": "rpg.npc.looker_knight.title",
+      "location": {
+        "name": "dialog",
+        "tag": "looker_knight",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      },
+      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/looker_knight.png",
+      "lookAtPlayer": true,
+      "onClick": [
+        "dialog %player% LOOKER_KNIGHT"
       ]
     },
     {
