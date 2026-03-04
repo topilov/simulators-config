@@ -1,278 +1,453 @@
 {
   "$schema": "./schema/npc.schema.json",
-  
-  "npc": [
-    {
-      "name": "rpg.npc.maxim.title",
-      "location": {
-        "name": "dialog",
-        "tag": "maxim",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "dialog %player% MAXIM"
-      ]
+  "npcs": {
+    "MAXIM": {
+      "npc": {
+        "name": "rpg.npc.maxim.title",
+        "location": {
+          "name": "dialog",
+          "tag": "maxim",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% MAXIM"
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.scylla.title",
-      "location": {
-        "name": "dialog",
-        "tag": "scylla",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "dialog %player% SCYLLA"
-      ]
+    "SCYLLA": {
+      "npc": {
+        "name": "rpg.npc.scylla.title",
+        "location": {
+          "name": "dialog",
+          "tag": "scylla",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% SCYLLA"
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.zoltan.title",
-      "location": {
-        "name": "dialog",
-        "tag": "zoltan",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "dialog %player% ZOLTAN"
-      ]
+    "ZOLTAN": {
+      "npc": {
+        "name": "rpg.npc.zoltan.title",
+        "location": {
+          "name": "dialog",
+          "tag": "zoltan",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% ZOLTAN"
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.cutthroat.title",
-      "location": {
-        "name": "dialog",
-        "tag": "cutthroat",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "dialog %player% CUTTHROAT"
-      ]
+    "CUTTHROAT": {
+      "npc": {
+        "name": "rpg.npc.cutthroat.title",
+        "location": {
+          "name": "dialog",
+          "tag": "cutthroat",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% CUTTHROAT"
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.keira.title",
-      "location": {
-        "name": "dialog",
-        "tag": "keira",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "dialog %player% KEIRA"
-      ]
+    "KEIRA": {
+      "npc": {
+        "name": "rpg.npc.keira.title",
+        "location": {
+          "name": "dialog",
+          "tag": "keira",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% KEIRA"
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.herald.title",
-      "location": {
-        "name": "dialog",
-        "tag": "herald",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "dialog %player% HERALD"
-      ]
+    "HERALD": {
+      "npc": {
+        "name": "rpg.npc.herald.title",
+        "location": {
+          "name": "dialog",
+          "tag": "herald",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% HERALD"
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.looker_knight.title",
-      "location": {
-        "name": "dialog",
-        "tag": "looker_knight",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/looker_knight.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "dialog %player% LOOKER_KNIGHT"
-      ]
+    "LOOKER_KNIGHT": {
+      "npc": {
+        "name": "rpg.npc.looker_knight.title",
+        "location": {
+          "name": "dialog",
+          "tag": "looker_knight",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/looker_knight.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% LOOKER_KNIGHT"
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.sell.artefact.title",
-      "location": {
-        "name": "sell",
-        "tag": "artefact",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
+    "SELL_ARTEFACT": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT"
+        ]
       },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sell-drops %player%"
-      ]
+      "dialog": {
+        "title": "покупатель артефактов",
+        "lines": [
+          "привет бла бла бла",
+          "я тут покупаю артефакты"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу продать артефакты",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% MAXIM"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.sell.equipment.title",
-      "location": {
-        "name": "sell",
-        "tag": "equipment",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
+    "SELL_EQUIPMENT": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/equipment_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_EQUIPMENT"
+        ]
       },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/equipment_sell.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sell-equipment %player%"
-      ]
+      "dialog": {
+        "title": "покупатель снаряжения",
+        "lines": [
+          "привет бла бла бла",
+          "я тут покупаю снаряжение"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу продать снаряжение",
+            "onPlayerChoice": [
+              "sell-equipment %player%"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% MAXIM"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.shop.artefact.title",
-      "location": {
-        "name": "shop",
-        "tag": "artefact",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
+    "SHOP_ARTEFACT": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT"
+        ]
       },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sudo %player% artefact-shop"
-      ]
+      "dialog": {
+        "title": "продавец артефактов",
+        "lines": [
+          "привет бла бла бла",
+          "я продаю артефакты"
+        ],
+        "answerOptions": [
+          {
+            "text": "Открыть магазин артефактов",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% MAXIM"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.shop.ability.title",
-      "location": {
-        "name": "shop",
-        "tag": "ability",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
+    "SHOP_ABILITY": {
+      "npc": {
+        "name": "rpg.npc.shop.ability.title",
+        "location": {
+          "name": "shop",
+          "tag": "ability",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/ability_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ABILITY"
+        ]
       },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/ability_shop.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sudo %player% ability-shop"
-      ]
+      "dialog": {
+        "title": "продавец способностей",
+        "lines": [
+          "привет бла бла бла",
+          "я продаю способности"
+        ],
+        "answerOptions": [
+          {
+            "text": "Открыть магазин способностей",
+            "onPlayerChoice": [
+              "sudo %player% ability-shop"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% MAXIM"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.shop.feed.title",
-      "location": {
-        "name": "shop",
-        "tag": "feed",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
+    "SHOP_FEED": {
+      "npc": {
+        "name": "rpg.npc.shop.feed.title",
+        "location": {
+          "name": "shop",
+          "tag": "feed",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/fee_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_FEED"
+        ]
       },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/fee_shop.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sudo %player% feed-shop"
-      ]
+      "dialog": {
+        "title": "продавец корма",
+        "lines": [
+          "привет бла бла бла",
+          "я продаю корм"
+        ],
+        "answerOptions": [
+          {
+            "text": "Открыть магазин корма",
+            "onPlayerChoice": [
+              "sudo %player% feed-shop"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% MAXIM"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.rune.upgrade.title",
-      "location": {
-        "name": "rune",
-        "tag": "upgrade",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
+    "RUNE_UPGRADE": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UPGRADE"
+        ]
       },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sudo %player% upgrade-rune"
-      ]
+      "dialog": {
+        "title": "мастер рун",
+        "lines": [
+          "привет бла бла бла",
+          "я улучшаю руны"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу улучшить руну",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% MAXIM"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.rune.unspell.title",
-      "location": {
-        "name": "rune",
-        "tag": "unspell",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sudo %player% unspell-rune"
-      ]
+    "RUNE_UNSPELL": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% unspell-rune"
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.boss.menu.title",
-      "location": {
-        "name": "boss",
-        "tag": "menu",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/menu_boss.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sudo %player% boss-menu"
-      ]
+    "BOSS_MENU": {
+      "npc": {
+        "name": "rpg.npc.boss.menu.title",
+        "location": {
+          "name": "boss",
+          "tag": "menu",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/menu_boss.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% boss-menu"
+        ]
+      }
     },
-    {
-      "name": "rpg.npc.location.menu.title",
-      "location": {
-        "name": "location",
-        "tag": "menu",
-        "offset": {
-          "x": 0.5,
-          "y": 0.0,
-          "z": 0.5
-        }
-      },
-      "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/menu_location.png",
-      "lookAtPlayer": true,
-      "onClick": [
-        "sudo %player% locations"
-      ]
+    "LOCATION_MENU": {
+      "npc": {
+        "name": "rpg.npc.location.menu.title",
+        "location": {
+          "name": "location",
+          "tag": "menu",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/menu_location.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% locations"
+        ]
+      }
     }
-  ]
+  }
 }

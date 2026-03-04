@@ -2,22 +2,41 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "required": [
-    "npc"
+    "npcs"
   ],
   "additionalProperties": false,
   "properties": {
     "$schema": {
       "type": "string"
     },
-    "npc": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/npc"
+    "npcs": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/npcEntry"
       }
     }
   },
   "$defs": {
-    "npc": {
+    "npcEntry": {
+      "type": "object",
+      "properties": {
+        "npc": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/flexibleNpc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "dialog": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    "flexibleNpc": {
       "type": "object",
       "required": [
         "name",
