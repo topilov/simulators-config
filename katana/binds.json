@@ -1,22 +1,32 @@
 {
-  "bindsBar": {
-    "binds": [
-      {
-        "title": "katana.binds.locations.title",
-        "key": "M"
-      },
-      {
-        "title": "katana.binds.upgrade.title",
-        "key": "U"
-      },
-      {
-        "title": "katana.binds.menu.title",
-        "key": "X"
-      },
-      {
-        "title": "katana.binds.spawn.title",
-        "key": "B"
-      }
-    ]
-  }
+  "bindings": [
+    {
+      "description": "katana.binds.locations.title",
+      "key": "M",
+      "onPlayerPressed": [
+        "sudo %player% locations"
+      ]
+    },
+    {
+      "description": "katana.binds.upgrade.title",
+      "key": "U",
+      "onPlayerPressed": [
+        "sudo %player% upgrade"
+      ]
+    },
+    {
+      "description": "katana.binds.menu.title",
+      "key": "X",
+      "onPlayerPressed": [
+        "sudo %player% menu"
+      ]
+    },
+    {
+      "description": "katana.binds.spawn.title",
+      "key": "B",
+      "onPlayerPressed": [
+        "sudo %player% spawn"
+      ]
+    }
+  ]
 }
