@@ -37,11 +37,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -105,11 +107,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -173,11 +177,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -241,11 +247,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -309,11 +317,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -377,11 +387,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -445,11 +457,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -513,11 +527,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -581,11 +597,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -640,10 +658,12 @@
             "health": 10000,
             "damage": 5.0,
             "speed": 0.3,
-            "location": { "name": "boss" },
-            "spawnBox": { "name": "boss-zone" },
             "customName": "katana.boss.samurai.name",
-            "scale": { "x": 1.5, "y": 1.5, "z": 1.5 },
+            "scale": {
+              "x": 1.5,
+              "y": 1.5,
+              "z": 1.5
+            },
             "armor": [
               {
                 "type": "CHAINMAIL_BOOTS",
@@ -673,7 +693,15 @@
                   "Unbreakable": 1
                 }
               }
-            ]
+            ],
+            "label": {
+              "location": {
+                "name": "boss"
+              },
+              "spawnBox": {
+                "name": "boss-zone"
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.boss.start_message",
@@ -757,11 +785,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
@@ -825,11 +855,13 @@
             "health": 10000,
             "damage": 0.0,
             "speed": 0.0,
-            "location": {
-              "name": "livesey",
-              "yaw": 180
-            },
-            "customName": "katana.boss.livesey.name"
+            "customName": "katana.boss.livesey.name",
+            "label": {
+              "location": {
+                "name": "livesey",
+                "yaw": 180
+              }
+            }
           },
           "messages": {
             "onSpawn": "katana.event.livesey.start_message",
