@@ -206,7 +206,7 @@
     "bossSettings": {
       "type": "object",
       "required": [
-        "locations",
+        "labels",
         "customName",
         "damage",
         "health",
@@ -214,10 +214,10 @@
         "skinUrl"
       ],
       "properties": {
-        "locations": {
+        "labels": {
           "type": "array",
           "items": {
-            "$ref": "./common.schema.json#/$defs/label"
+            "$ref": "#/$defs/bossLabel"
           }
         },
         "spawnBoxes": {
@@ -386,6 +386,18 @@
           }
         }
       }
+    },
+    "bossLabel": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "$ref": "./common.schema.json#/$defs/label"
+        },
+        "spawnBox": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
     }
   }
 }
