@@ -5,6 +5,28 @@
   },
   "offset": -150.0,
   "dialogs": {
+    "ARTEFACT_SHOP": {
+      "title": "продавей артефактов",
+      "maxTasks": 1,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "nextPart": 0,
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SHOP"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
     "MAXIM": {
       "title": "rpg.dialog.maxim.title",
       "maxTasks": 18,
