@@ -88,6 +88,7 @@
             "type": "object",
             "required": [
                 "title",
+                "description",
                 "texture",
                 "rarity",
                 "icon",
@@ -97,6 +98,9 @@
             "additionalProperties": false,
             "properties": {
                 "title": {
+                    "type": "string"
+                },
+                "description": {
                     "type": "string"
                 },
                 "texture": {
