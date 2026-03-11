@@ -16,7 +16,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.mobs.subtitle",
-                    "goal": 1.0,
+                    "goal": 50.0,
                     "current": "mobs1"
                   }
                 ]
@@ -28,7 +28,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.mobs.subtitle",
-                    "goal": 10.0,
+                    "goal": 150.0,
                     "current": "mobs2"
                   }
                 ]
@@ -40,7 +40,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.mobs.subtitle",
-                    "goal": 25.0,
+                    "goal": 350.0,
                     "current": "mobs3"
                   }
                 ]
@@ -57,7 +57,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.bosses.subtitle",
-                    "goal": 1.0,
+                    "goal": 5.0,
                     "current": "bosses1"
                   }
                 ]
@@ -81,7 +81,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.bosses.subtitle",
-                    "goal": 25.0,
+                    "goal": 20.0,
                     "current": "bosses3"
                   }
                 ]
@@ -98,7 +98,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.money.subtitle",
-                    "goal": 1.0,
+                    "goal": 100000.0,
                     "current": "money1"
                   }
                 ]
@@ -110,7 +110,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.money.subtitle",
-                    "goal": 10.0,
+                    "goal": 200000.0,
                     "current": "money2"
                   }
                 ]
@@ -122,7 +122,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.money.subtitle",
-                    "goal": 25.0,
+                    "goal": 500000.0,
                     "current": "money3"
                   }
                 ]
@@ -139,7 +139,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.exp.subtitle",
-                    "goal": 1.0,
+                    "goal": 1000.0,
                     "current": "exp1"
                   }
                 ]
@@ -151,7 +151,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.exp.subtitle",
-                    "goal": 10.0,
+                    "goal": 5000.0,
                     "current": "exp2"
                   }
                 ]
@@ -163,7 +163,7 @@
                 "tasks": [
                   {
                     "name": "rpg.quest.exp.subtitle",
-                    "goal": 25.0,
+                    "goal": 15000.0,
                     "current": "exp3"
                   }
                 ]
@@ -179,7 +179,7 @@
       {
         "id": "mobs1",
         "title": "rpg.quest.mobs1.title",
-        "goal": 1,
+        "goal": 50.0,
         "onComplete": [
           "earn-bits %player% 15",
           "earn-money %player% 10000 true",
@@ -189,7 +189,7 @@
       {
         "id": "mobs2",
         "title": "rpg.quest.mobs2.title",
-        "goal": 10,
+        "goal": 150.0,
         "onComplete": [
           "earn-bits %player% 30",
           "earn-money %player% 30000 true",
@@ -199,7 +199,7 @@
       {
         "id": "mobs3",
         "title": "rpg.quest.mobs3.title",
-        "goal": 25,
+        "goal": 350.0,
         "onComplete": [
           "earn-bits %player% 50",
           "earn-money %player% 70000 true",
@@ -212,7 +212,7 @@
       {
         "id": "bosses1",
         "title": "rpg.quest.bosses1.title",
-        "goal": 1,
+        "goal": 5.0,
         "onComplete": [
           "earn-bits %player% 15",
           "earn-money %player% 15000 true",
@@ -222,7 +222,7 @@
       {
         "id": "bosses2",
         "title": "rpg.quest.bosses2.title",
-        "goal": 10,
+        "goal": 10.0,
         "onComplete": [
           "earn-bits %player% 30",
           "earn-money %player% 35000 true",
@@ -232,7 +232,7 @@
       {
         "id": "bosses3",
         "title": "rpg.quest.bosses3.title",
-        "goal": 25,
+        "goal": 20.0,
         "onComplete": [
           "earn-bits %player% 50",
           "earn-money %player% 80000 true",
@@ -245,7 +245,7 @@
       {
         "id": "money1",
         "title": "rpg.quest.money1.title",
-        "goal": 1,
+        "goal": 100000.0,
         "onComplete": [
           "earn-bits %player% 15",
           "earn-money %player% 5000 true",
@@ -255,7 +255,7 @@
       {
         "id": "money2",
         "title": "rpg.quest.money2.title",
-        "goal": 10,
+        "goal": 200000.0,
         "onComplete": [
           "earn-bits %player% 30",
           "earn-money %player% 20000 true",
@@ -266,7 +266,7 @@
       {
         "id": "money3",
         "title": "rpg.quest.money3.title",
-        "goal": 25,
+        "goal": 500000.0,
         "onComplete": [
           "earn-bits %player% 50",
           "earn-money %player% 50000 true",
@@ -278,7 +278,7 @@
       {
         "id": "exp1",
         "title": "rpg.quest.exp1.title",
-        "goal": 1,
+        "goal": 1000.0,
         "onComplete": [
           "earn-bits %player% 15",
           "earn-money %player% 8000 true",
@@ -288,7 +288,7 @@
       {
         "id": "exp2",
         "title": "rpg.quest.exp2.title",
-        "goal": 10,
+        "goal": 5000.0,
         "onComplete": [
           "earn-bits %player% 30",
           "earn-money %player% 25000 true",
@@ -298,7 +298,7 @@
       {
         "id": "exp3",
         "title": "rpg.quest.exp3.title",
-        "goal": 25,
+        "goal": 15000.0,
         "onComplete": [
           "earn-bits %player% 50",
           "earn-money %player% 70000 true",
