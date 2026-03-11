@@ -106,7 +106,7 @@
               {
                 "title": "rpg.quest.money2.title",
                 "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|20K |!|(i18n.rpg.quest.reward.rec|!|30 |!|(i18n.rpg.quest.reward.rec|!|1 )))",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|20K |!|(i18n.rpg.quest.reward.rec|!|30 |!|(i18n.rpg.quest.reward.rec|!|1 |!|(i18n.rpg.quest.reward.rec|!|Обычный \uE349 x1))))",
                 "tasks": [
                   {
                     "name": "rpg.quest.money.subtitle",
@@ -118,7 +118,7 @@
               {
                 "title": "rpg.quest.money3.title",
                 "icon": "achievements.png",
-                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|50K |!|(i18n.rpg.quest.reward.rec|!|50 |!|(i18n.rpg.quest.reward.rec|!|\uE349 с титулами x1|!|(i18n.rpg.quest.reward.rec|!|Обычный \uE349 x1))))",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|50K |!|(i18n.rpg.quest.reward.rec|!|50 |!|(i18n.rpg.quest.reward.rec|!|\uE349 с титулами x1)))",
                 "tasks": [
                   {
                     "name": "rpg.quest.money.subtitle",
@@ -259,7 +259,8 @@
         "onComplete": [
           "earn-bits %player% 30",
           "earn-money %player% 20000 true",
-          "give-shiv %player% TOOL EPIC 1"
+          "give-shiv %player% TOOL EPIC 1",
+          "give-key %player% DEFAULT 1"
         ]
       },
       {
@@ -269,8 +270,7 @@
         "onComplete": [
           "earn-bits %player% 50",
           "earn-money %player% 50000 true",
-          "give-key %player% TITLE 1",
-          "give-key %player% DEFAULT 1"
+          "give-key %player% TITLE 1"
         ]
       }
     ],
