@@ -56,27 +56,48 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.default.name",
+            "lore": "rpg.shiv.item.tool.default.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "default_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.default.name",
+            "lore": "rpg.shiv.item.armor.default.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "default_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.default.key.title",
+            "lore": "rpg.lootbox.default.key.description",
+            "amount": 2,
+            "data": {
+              "sim": "goldkey"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "rune_key"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL DEFAULT 1",
+          "give-shiv %player% ARMOR DEFAULT 1",
+          "give-key %player% DEFAULT 2",
+          "give-key %player% RUNE 1"
+        ]
       }
     },
     "CITY_OF_DAO": {
@@ -133,27 +154,38 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.default.name",
+            "lore": "rpg.shiv.item.tool.default.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "default_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.default.name",
+            "lore": "rpg.shiv.item.armor.default.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "default_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.pets.key.title",
+            "lore": "rpg.lootbox.pets.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "fox_key"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL DEFAULT 2",
+          "give-shiv %player% ARMOR DEFAULT 2",
+          "give-key %player% PET 1"
+        ]
       }
     },
     "LAWLESS_VILLAGE": {
@@ -210,27 +242,38 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.default.name",
+            "lore": "rpg.shiv.item.tool.default.lore",
+            "amount": 3,
+            "data": {
+              "rpg": "default_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.default.name",
+            "lore": "rpg.shiv.item.armor.default.lore",
+            "amount": 3,
+            "data": {
+              "rpg": "default_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 2,
+            "data": {
+              "sim": "rune_key"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL DEFAULT 3",
+          "give-shiv %player% ARMOR DEFAULT 3",
+          "give-key %player% RUNE 2"
+        ]
       }
     },
     "ARCHIPELAGO_OF_OBLIVION": {
@@ -287,27 +330,48 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.titles.key.title",
+            "lore": "rpg.lootbox.titles.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "purple_crystal_key"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "rune_key"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 1",
+          "give-shiv %player% ARMOR EPIC 1",
+          "give-key %player% TITLE 1",
+          "give-key %player% RUNE 1"
+        ]
       }
     },
     "CRUCIFIED_VALLEY": {
@@ -364,27 +428,39 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.default.key.title",
+            "lore": "rpg.lootbox.default.key.description",
+            "amount": 3,
+            "data": {
+              "sim": "goldkey"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 1",
+          "give-shiv %player% ARMOR EPIC 1",
+          "give-key %player% DEFAULT 3",
+          "give-key %player% PET 1"
+        ]
       }
     },
     "SUNKEN_ARCHIPELAGO": {
@@ -441,27 +517,38 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 3,
+            "data": {
+              "sim": "rune_key"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 2",
+          "give-shiv %player% ARMOR EPIC 2",
+          "give-key %player% RUNE 3"
+        ]
       }
     },
     "LIMITS_OF_REASON": {
@@ -518,27 +605,38 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 3,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 3,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.default.key.title",
+            "lore": "rpg.lootbox.default.key.description",
+            "amount": 5,
+            "data": {
+              "sim": "goldkey"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 3",
+          "give-shiv %player% ARMOR EPIC 3",
+          "give-key %player% DEFAULT 5"
+        ]
       }
     },
     "HALL_OF_FATE": {
@@ -595,27 +693,38 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 4,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 4,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.titles.key.title",
+            "lore": "rpg.lootbox.titles.key.description",
+            "amount": 2,
+            "data": {
+              "sim": "purple_crystal_key"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 4",
+          "give-shiv %player% ARMOR EPIC 4",
+          "give-key %player% TITLE 2"
+        ]
       }
     },
     "AFTERMATH": {
@@ -672,27 +781,48 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.legendary.name",
+            "lore": "rpg.shiv.item.tool.legendary.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "legendary_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.legendary.name",
+            "lore": "rpg.shiv.item.armor.legendary.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "legendary_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.pets.key.title",
+            "lore": "rpg.lootbox.pets.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "fox_key"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
-          },
-          {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "rune_key"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL LEGENDARY 1",
+          "give-shiv %player% ARMOR LEGENDARY 1",
+          "give-key %player% PET 1",
+          "give-key %player% RUNE 1"
+        ]
       }
     },
     "HEART_OF_CHAOS": {
@@ -749,27 +879,58 @@
       "rewards": {
         "itemStacks": [
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.legendary.name",
+            "lore": "rpg.shiv.item.tool.legendary.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "legendary_shiv_tool"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.legendary.name",
+            "lore": "rpg.shiv.item.armor.legendary.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "legendary_shiv_armor"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.default.key.title",
+            "lore": "rpg.lootbox.default.key.description",
+            "amount": 3,
+            "data": {
+              "sim": "goldkey"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.titles.key.title",
+            "lore": "rpg.lootbox.titles.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "purple_crystal_key"
+            }
           },
           {
-            "type": "WOOD_SWORD",
-            "amount": 32
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "rune_key"
+            }
           }
         ],
-        "onClaim": []
+        "onClaim": [
+          "give-shiv %player% TOOL LEGENDARY 2",
+          "give-shiv %player% ARMOR LEGENDARY 2",
+          "give-key %player% DEFAULT 3",
+          "give-key %player% TITLE 1",
+          "give-key %player% RUNE 1"
+        ]
       }
     }
   }
