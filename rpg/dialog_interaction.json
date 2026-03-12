@@ -7,8 +7,20 @@
         "tag": "artefact_sell"
       },
       "enemies": [
-        "NIGHT_ASSASSIN",
-        "GHOST_OBSERVER"
+        {
+          "type": "NIGHT_ASSASSIN",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "type": "GHOST_OBSERVER",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "artefact_sell"
+          }
+        }
       ],
       "item": {
         "type": "STONE_SWORD",
