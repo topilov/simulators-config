@@ -5,6 +5,185 @@
   },
   "offset": -150.0,
   "dialogs": {
+    "ARTEFACT_SHOP": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SHOP"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ABILITY_SHOP": {
+      "title": "продавец способностей",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% ABILITY_SHOP"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ARTEFACT_SELL": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! я потерял свой артефакт, помоги мне его найти",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SELL"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
     "MAXIM": {
       "title": "rpg.dialog.maxim.title",
       "maxTasks": 18,
@@ -13,11 +192,11 @@
           "taskIndex": 0,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 50,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 50,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -27,7 +206,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -38,11 +218,11 @@
           "taskIndex": 1,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 500,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 500,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -52,7 +232,8 @@
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
               ],
-              "isClaim": true
+              "isClaim": true,
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -63,11 +244,11 @@
           "taskIndex": 2,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 2000,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 2000,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -77,7 +258,8 @@
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
               ],
-              "isClaim": true
+              "isClaim": true,
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -88,11 +270,11 @@
           "taskIndex": 3,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 5000,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 5000,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -102,7 +284,8 @@
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
               ],
-              "isClaim": true
+              "isClaim": true,
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -113,11 +296,11 @@
           "taskIndex": 4,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 7500,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 7500,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -127,7 +310,8 @@
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
               ],
-              "isClaim": true
+              "isClaim": true,
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -138,11 +322,11 @@
           "taskIndex": 5,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 10500,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 10500,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -152,7 +336,8 @@
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
               ],
-              "isClaim": true
+              "isClaim": true,
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -163,11 +348,11 @@
           "taskIndex": 6,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 13700,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 13700,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -177,7 +362,8 @@
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
               ],
-              "isClaim": true
+              "isClaim": true,
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -188,11 +374,11 @@
           "taskIndex": 7,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 17100,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 17100,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -202,7 +388,8 @@
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
               ],
-              "isClaim": true
+              "isClaim": true,
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -213,11 +400,11 @@
           "taskIndex": 8,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 20500,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 20500,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -227,7 +414,8 @@
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
               ],
-              "isClaim": true
+              "isClaim": true,
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -238,11 +426,11 @@
           "taskIndex": 9,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 24600,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 24600,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -252,7 +440,8 @@
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
               ],
-              "isClaim": true
+              "isClaim": true,
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -263,11 +452,11 @@
           "taskIndex": 10,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 28300,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 28300,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -276,7 +465,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -287,11 +477,11 @@
           "taskIndex": 11,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 32500,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 32500,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -300,7 +490,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -311,11 +502,11 @@
           "taskIndex": 12,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 36400,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 36400,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -324,7 +515,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -335,11 +527,11 @@
           "taskIndex": 13,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 40800,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 40800,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -348,7 +540,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -359,11 +552,11 @@
           "taskIndex": 14,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 44800,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 44800,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -372,7 +565,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -383,11 +577,11 @@
           "taskIndex": 15,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 49300,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 49300,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -396,7 +590,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -407,11 +602,11 @@
           "taskIndex": 16,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 54300,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 54300,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -420,7 +615,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -431,11 +627,11 @@
           "taskIndex": 17,
           "text": "rpg.dialog.kill.mobs.title",
           "requirement": {
-              "type": {
-                "kind": "kill_mob"
-              },
-              "required": 58600,
-              "text": "rpg.dialog.requirement.kill.title"
+            "type": {
+              "kind": "kill_mob"
+            },
+            "required": 58600,
+            "text": "rpg.dialog.requirement.kill.title"
           },
           "answers": [
             {
@@ -445,7 +641,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -476,7 +673,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -501,7 +699,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -526,7 +725,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -551,7 +751,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -576,7 +777,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -601,7 +803,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -626,7 +829,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -651,7 +855,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -676,7 +881,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -701,7 +907,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -726,7 +933,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -751,7 +959,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -776,7 +985,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -801,7 +1011,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -826,7 +1037,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -851,7 +1063,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -876,7 +1089,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -907,7 +1121,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -932,7 +1147,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -957,7 +1173,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -982,7 +1199,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1007,7 +1225,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1032,7 +1251,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1057,7 +1277,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1082,7 +1303,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1107,7 +1329,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1132,7 +1355,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1157,7 +1381,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1182,7 +1407,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1207,7 +1433,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1232,7 +1459,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1257,7 +1485,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1282,7 +1511,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1307,7 +1537,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1338,7 +1569,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1363,7 +1595,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1388,7 +1621,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1413,7 +1647,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1438,7 +1673,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1463,7 +1699,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1488,7 +1725,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1513,7 +1751,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1538,7 +1777,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1563,7 +1803,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1588,7 +1829,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1613,7 +1855,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1638,7 +1881,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1663,7 +1907,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1688,7 +1933,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1713,7 +1959,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1738,7 +1985,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1769,7 +2017,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1794,7 +2043,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1819,7 +2069,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1844,7 +2095,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1869,7 +2121,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1894,7 +2147,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1919,7 +2173,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1944,7 +2199,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1969,7 +2225,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -1994,7 +2251,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2019,7 +2277,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2044,7 +2303,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2069,7 +2329,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2094,7 +2355,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2119,7 +2381,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2144,7 +2407,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2175,7 +2439,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2200,7 +2465,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2225,7 +2491,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2250,7 +2517,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2275,7 +2543,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2300,7 +2569,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2325,7 +2595,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2350,7 +2621,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2375,7 +2647,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2400,7 +2673,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2425,7 +2699,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2450,7 +2725,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2475,7 +2751,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2500,7 +2777,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2525,7 +2803,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2550,7 +2829,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2582,7 +2862,8 @@
               "rewards": [
                 "earn-money %player% 50 true",
                 "infinity-booster %player% MONEY 0.25"
-              ]
+              ],
+              "isShowNextPart": true
             },
             {
               "text": "rpg.dialog.answer.close.title"
@@ -2591,5 +2872,6 @@
         }
       ]
     }
-  }
- }
+  },
+  "rpg": null
+}

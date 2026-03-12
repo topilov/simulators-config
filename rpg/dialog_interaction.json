@@ -1,0 +1,100 @@
+{
+  "$schema": "./schema/dialog_interaction.schema.json",
+  "findItem": {
+    "ARTEFACT_SELL": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "artefact_sell"
+      },
+      "enemies": [
+        {
+          "type": "NIGHT_ASSASSIN",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "type": "GHOST_OBSERVER",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "artefact_sell"
+          }
+        }
+      ],
+      "item": {
+        "type": "STONE_SWORD",
+        "amount": 1
+      },
+      "size": {
+        "x": 16.0,
+        "y": 16.0,
+        "z": 16.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive"
+    }
+  },
+  "guideNpc": {
+    "ARTEFACT_SHOP": {
+      "npcType": "SHOP_ARTEFACT",
+      "npcEntityType": "ARTEFACT_SHOP",
+      "waypoints": [
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_1"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_2"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_3"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_4"
+        }
+      ],
+      "enemiesByWaypoint": {
+        "0": "SHADOW_SCOUT",
+        "1": "NIGHT_ASSASSIN",
+        "2": "GHOST_OBSERVER"
+      }
+    }
+  },
+  "helpCompanion": {
+    "ABILITY_SHOP": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "ability_shop"
+      },
+      "enemies": [
+        "ILLUSION_MASTER",
+        "FOG_SHOOTER",
+        "GHOST_OBSERVER"
+      ],
+      "friendType": "ABILITY_SHOP_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "ability_shop"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -130.0
+        },
+        "hideOnTab": false
+      }
+    }
+  }
+}
