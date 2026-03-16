@@ -201,7 +201,13 @@
                 "stat": {
                     "type": "object",
                     "additionalProperties": {
-                        "type": "number"
+                        "type": "object",
+                        "required": ["stat", "readableStat"],
+                        "additionalProperties": false,
+                        "properties": {
+                            "stat": { "type": "number" },
+                            "readableStat": { "type": "string" }
+                        }
                     }
                 },
                 "worseMapping": {
