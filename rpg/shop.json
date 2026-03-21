@@ -484,6 +484,58 @@
           "onPurchase": [
             "give-key %player% DEFAULT %count%"
           ]
+        },
+        "BOOSTER_EXP": {
+          "type": "BOOSTER_EXP",
+          "title": "rpg.booster.exp.title",
+          "description": "rpg.booster.exp.content",
+          "icon": "exp_booster.png",
+          "price": 75.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% EXP 0.5 1800 %count%"
+          ]
+        },
+        "BOOSTER_MONEY": {
+          "type": "BOOSTER_MONEY",
+          "title": "rpg.booster.money.title",
+          "description": "rpg.booster.money.content",
+          "icon": "money_booster.png",
+          "price": 75.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% MONEY 0.5 1800 %count%"
+          ]
+        },
+        "BOOSTER_MOBS": {
+          "type": "BOOSTER_MOBS",
+          "title": "rpg.booster.mobs.title",
+          "description": "rpg.booster.mobs.content",
+          "icon": "mobs_booster.png",
+          "price": 75.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% MOBS 0.5 1800 %count%"
+          ]
+        },
+        "BOOSTER_LUCK": {
+          "type": "BOOSTER_LUCK",
+          "title": "rpg.booster.luck.title",
+          "description": "rpg.booster.luck.content",
+          "icon": "luck_booster.png",
+          "price": 75.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% LUCK 0.5 1800 %count%"
+          ]
         }
       }
     }

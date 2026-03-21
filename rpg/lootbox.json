@@ -47,7 +47,7 @@
                 "rpg": "default_shiv_tool"
               }
             },
-            "chance": 50,
+            "chance": 29.5,
             "onDrop": [
               "give-shiv %player% TOOL DEFAULT 1"
             ]
@@ -63,7 +63,7 @@
                 "rpg": "default_shiv_armor"
               }
             },
-            "chance": 49.8,
+            "chance": 30,
             "onDrop": [
               "give-shiv %player% ARMOR DEFAULT 1"
             ]
@@ -79,9 +79,73 @@
                 "rpg": "idle_fuel"
               }
             },
-            "chance": 0.1,
+            "chance": 20,
             "onDrop": [
               "add-idle-fuel %player% 60"
+            ]
+          },
+          {
+            "id": "booster_exp",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.booster.exp.title",
+              "lore": "rpg.booster.exp.content",
+              "data": {
+                "rpg": "exp_booster"
+              }
+            },
+            "chance": 5,
+            "onDrop": [
+              "local-booster %player% EXP 2 7200 1"
+            ]
+          },
+          {
+            "id": "booster_money",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.booster.money.title",
+              "lore": "rpg.booster.money.content",
+              "data": {
+                "rpg": "money_booster"
+              }
+            },
+            "chance": 5,
+            "onDrop": [
+              "local-booster %player% MONEY 2 7200 1"
+            ]
+          },
+          {
+            "id": "booster_mobs",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.booster.mobs.title",
+              "lore": "rpg.booster.mobs.content",
+              "data": {
+                "rpg": "mobs_booster"
+              }
+            },
+            "chance": 5,
+            "onDrop": [
+              "local-booster %player% MOBS 2 7200 1"
+            ]
+          },
+          {
+            "id": "booster_luck",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "CLAY_BALL",
+              "name": "rpg.booster.luck.title",
+              "lore": "rpg.booster.luck.content",
+              "data": {
+                "rpg": "luck_booster"
+              }
+            },
+            "chance": 5,
+            "onDrop": [
+              "local-booster %player% LUCK 2 7200 1"
             ]
           },
           {
@@ -95,7 +159,7 @@
                   "sim": "vip"
               }
             },
-            "chance": 0.1,
+            "chance": 0.5,
             "onDrop": [
               "morestat %player% set true sub",
               "update-tab %player%"
