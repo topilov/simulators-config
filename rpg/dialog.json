@@ -1547,6 +1547,428 @@
         }
       ]
     },
+    "KEIRA": {
+      "title": "rpg.dialog.keira.title",
+      "maxTasks": 16,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 1,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 1,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 2,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 2,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 4,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 3,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 7,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 4,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 11,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 5,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 5,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 16,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 6,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 6,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 22,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 7,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 7,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 29,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 8,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 8,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 37,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 9,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 9,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 46,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 10,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 10,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 56,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 11,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 11,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 67,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 12,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 12,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 79,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 13,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 13,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 92,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 14,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 14,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 106,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 15,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 15,
+          "text": "rpg.dialog.fetch_artefact.title",
+          "requirement": {
+            "type": {
+              "kind": "fetch_artefact"
+            },
+            "required": 121,
+            "text": "rpg.dialog.requirement.fetch_artefact.title"
+          },
+          "answers": [
+            {
+              "isClaim": true,
+              "text": "rpg.dialog.answer.claim.title",
+              "nextPart": 16,
+              "rewards": [
+                "earn-money %player% 50 true",
+                "earn-completed-quests %player% 1"
+              ],
+              "isShowNextPart": true
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
     "CUTTHROAT": {
       "title": "rpg.dialog.cutthroat.title",
       "maxTasks": 17,
@@ -1982,428 +2404,6 @@
               "isClaim": true,
               "text": "rpg.dialog.answer.claim.title",
               "nextPart": 17,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        }
-      ]
-    },
-    "KEIRA": {
-      "title": "rpg.dialog.keira.title",
-      "maxTasks": 16,
-      "parts": [
-        {
-          "taskIndex": 0,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 1,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 1,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 1,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 2,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 2,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 2,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 4,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 3,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 3,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 7,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 4,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 4,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 11,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 5,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 5,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 16,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 6,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 6,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 22,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 7,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 7,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 29,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 8,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 8,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 37,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 9,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 9,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 46,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 10,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 10,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 56,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 11,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 11,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 67,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 12,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 12,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 79,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 13,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 13,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 92,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 14,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 14,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 106,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 15,
-              "rewards": [
-                "earn-money %player% 50 true",
-                "earn-completed-quests %player% 1"
-              ],
-              "isShowNextPart": true
-            },
-            {
-              "text": "rpg.dialog.answer.close.title"
-            }
-          ]
-        },
-        {
-          "taskIndex": 15,
-          "text": "rpg.dialog.fetch_artefact.title",
-          "requirement": {
-            "type": {
-              "kind": "fetch_artefact"
-            },
-            "required": 121,
-            "text": "rpg.dialog.requirement.fetch_artefact.title"
-          },
-          "answers": [
-            {
-              "isClaim": true,
-              "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 16,
               "rewards": [
                 "earn-money %player% 50 true",
                 "earn-completed-quests %player% 1"
