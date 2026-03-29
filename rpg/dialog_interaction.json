@@ -46,6 +46,10 @@
       "waypoints": [
         {
           "name": "guide_npc_way",
+          "tag": "artefact_shop_0"
+        },
+        {
+          "name": "guide_npc_way",
           "tag": "artefact_shop_1"
         },
         {
@@ -59,32 +63,76 @@
         {
           "name": "guide_npc_way",
           "tag": "artefact_shop_4"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_5"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_6"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_7"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_8"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_9"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_10"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_11"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_12"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_13"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_14"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_15"
         }
       ],
       "enemiesByWaypoint": {
-        "0": "SHADOW_SCOUT",
-        "1": "NIGHT_ASSASSIN",
-        "2": "GHOST_OBSERVER"
+        "4": "SHADOW_SCOUT",
+        "7": "GHOST_OBSERVER",
+        "11": "ILLUSION_MASTER"
       }
     }
   },
   "helpCompanion": {
-    "ABILITY_SHOP": {
+    "EQUIPMENT_SELL": {
       "spawnPoint": {
         "name": "help_comp_spawn",
-        "tag": "ability_shop"
+        "tag": "equipment_sell"
       },
       "enemies": [
         "ILLUSION_MASTER",
         "FOG_SHOOTER",
         "GHOST_OBSERVER"
       ],
-      "friendType": "ABILITY_SHOP_FRIEND",
+      "friendType": "EQUIPMENT_SELL_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
           "name": "help_comp_spawn",
-          "tag": "ability_shop"
+          "tag": "equipment_sell"
         },
         "relative": {
           "x": 0.5,
