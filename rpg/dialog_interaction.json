@@ -125,11 +125,46 @@
         "tag": "equipment_sell"
       },
       "enemies": [
-        "SHADOW_SCOUT",
-        "SHADOW_SCOUT",
-        "SHADOW_SCOUT",
-        "SHADOW_SCOUT",
-        "NIGHT_ASSASSIN"
+        {
+          "entityType": "SHADOW_SCOUT",
+          "offset": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "entityType": "SHADOW_SCOUT",
+          "offset": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "entityType": "SHADOW_SCOUT",
+          "offset": {
+            "x": 2.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "entityType": "SHADOW_SCOUT",
+          "offset": {
+            "x": 2.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "entityType": "NIGHT_ASSASSIN",
+          "offset": {
+            "x": 2.0,
+            "y": 0.0,
+            "z": 2.0
+          }
+        }
       ],
       "friendType": "EQUIPMENT_SELL_FRIEND",
       "waypointArrow": {
