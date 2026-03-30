@@ -8,7 +8,7 @@
       },
       "enemies": [
         {
-          "type": "NIGHT_ASSASSIN",
+          "type": "GHOST_OBSERVER",
           "location": {
             "name": "find_item_enem1",
             "tag": "artefact_sell"
@@ -20,16 +20,32 @@
             "name": "find_item_enem2",
             "tag": "artefact_sell"
           }
+        },
+        {
+          "type": "NIGHT_ASSASSIN",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "type": "NIGHT_ASSASSIN",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "artefact_sell"
+          }
         }
       ],
       "item": {
-        "type": "STONE_SWORD",
-        "amount": 1
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "shard_of_illusion"
+        }
       },
       "size": {
-        "x": 16.0,
-        "y": 16.0,
-        "z": 16.0
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
       },
       "rotation": {
         "x": 0.0,
@@ -127,42 +143,37 @@
       "enemies": [
         {
           "entityType": "SHADOW_SCOUT",
-          "offset": {
-            "x": 1.0,
-            "y": 0.0,
-            "z": 0.0
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "equipment_sell"
           }
         },
         {
           "entityType": "SHADOW_SCOUT",
-          "offset": {
-            "x": 1.0,
-            "y": 0.0,
-            "z": 1.0
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "equipment_sell"
           }
         },
         {
           "entityType": "SHADOW_SCOUT",
-          "offset": {
-            "x": 2.0,
-            "y": 0.0,
-            "z": 0.0
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "equipment_sell"
           }
         },
         {
           "entityType": "SHADOW_SCOUT",
-          "offset": {
-            "x": 2.0,
-            "y": 0.0,
-            "z": 1.0
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "equipment_sell"
           }
         },
         {
           "entityType": "NIGHT_ASSASSIN",
-          "offset": {
-            "x": 2.0,
-            "y": 0.0,
-            "z": 2.0
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "equipment_sell"
           }
         }
       ],
