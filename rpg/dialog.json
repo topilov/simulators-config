@@ -194,6 +194,69 @@
         }
       ]
     },
+    "FEED_SHOP_2": {
+      "title": "продавец корма",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% FEED_SHOP_2"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
     "ARTEFACT_SELL_1": {
       "title": "продавец артефактов",
       "maxTasks": 4,

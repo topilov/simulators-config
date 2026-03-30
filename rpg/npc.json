@@ -449,6 +449,49 @@
         ]
       }
     },
+    "SHOP_FEED_2": {
+      "npc": {
+        "name": "rpg.npc.shop.feed.title",
+        "location": {
+          "name": "shop",
+          "tag": "feed_2",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/fee_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_FEED_2"
+        ]
+      },
+      "dialog": {
+        "title": "продавец корма",
+        "lines": [
+          "привет бла бла бла",
+          "я продаю корм"
+        ],
+        "answerOptions": [
+          {
+            "text": "Открыть магазин корма",
+            "onPlayerChoice": [
+              "sudo %player% feed-shop"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% FEED_SHOP_2"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
     "RUNE_UPGRADE": {
       "npc": {
         "name": "rpg.npc.rune.upgrade.title",

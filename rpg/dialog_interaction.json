@@ -324,6 +324,69 @@
       "isHidePlayers": true,
       "successPart": 2,
       "failPart": 1
+    },
+    "FEED_SHOP_2": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "feed_shop"
+      },
+      "enemies": [
+        {
+          "entityType": "DAO_STUDENT",
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "feed_shop"
+          }
+        },
+        {
+          "entityType": "DAO_STUDENT",
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "feed_shop"
+          }
+        },
+        {
+          "entityType": "DAO_STUDENT",
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "feed_shop"
+          }
+        },
+        {
+          "entityType": "DAO_STUDENT",
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "feed_shop"
+          }
+        },
+        {
+          "entityType": "DAO_ARCHER",
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "feed_shop"
+          }
+        }
+      ],
+      "friendType": "FEED_SHOP_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "equipment_sell"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -160.0
+        },
+        "hideOnTab": false
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
     }
   }
 }
