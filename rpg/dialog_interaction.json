@@ -4,19 +4,19 @@
     "ARTEFACT_SELL": {
       "location": {
         "name": "find_item_point",
-        "tag": "artefact_sell"
+        "tag": "artefact_sell",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
       },
       "enemies": [
         {
           "type": "GHOST_OBSERVER",
           "location": {
             "name": "find_item_enem1",
-            "tag": "artefact_sell",
-            "offset": {
-              "x": 0.5,
-              "y": 0.05,
-              "z": 0.5
-            }
+            "tag": "artefact_sell"
           }
         },
         {
