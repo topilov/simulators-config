@@ -59,6 +59,65 @@
       },
       "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
       "successPart": 1
+    },
+    "ARTEFACT_SELL_2": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "artefact_sell",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
+      },
+      "enemies": [
+        {
+          "type": "DAO_STUDENT",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "type": "DAO_STUDENT",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "type": "KATANA_INSPECTOR",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "type": "KATANA_INSPECTOR",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "artefact_sell"
+          }
+        }
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "core_of_destruction"
+        }
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
+      "successPart": 1
     }
   },
   "guideNpc": {
