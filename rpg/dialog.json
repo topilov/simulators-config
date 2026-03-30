@@ -5,7 +5,7 @@
   },
   "offset": -150.0,
   "dialogs": {
-    "ARTEFACT_SHOP": {
+    "ARTEFACT_SHOP_1": {
       "title": "продавец артефактов",
       "maxTasks": 4,
       "parts": [
@@ -16,7 +16,7 @@
             {
               "text": "хорошо я помогу тебе",
               "rewards": [
-                "start-interaction-dialog %player% ARTEFACT_SHOP"
+                "start-interaction-dialog %player% ARTEFACT_SHOP_1"
               ]
             },
             {
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "EQUIPMENT_SELL": {
+    "EQUIPMENT_SELL_1": {
       "title": "продавец экипировки",
       "maxTasks": 4,
       "parts": [
@@ -79,7 +79,7 @@
             {
               "text": "хорошо я помогу другу",
               "rewards": [
-                "start-interaction-dialog %player% ABILITY_SHOP"
+                "start-interaction-dialog %player% EQUIPMENT_SELL_1"
               ]
             },
             {
@@ -131,7 +131,70 @@
         }
       ]
     },
-    "ARTEFACT_SELL": {
+    "EQUIPMENT_SELL_2": {
+      "title": "продавец экипировки",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу",
+              "rewards": [
+                "start-interaction-dialog %player% EQUIPMENT_SELL_2"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ARTEFACT_SELL_1": {
       "title": "продавец артефактов",
       "maxTasks": 4,
       "parts": [
@@ -142,7 +205,7 @@
             {
               "text": "хорошо я помогу тебе",
               "rewards": [
-                "start-interaction-dialog %player% ARTEFACT_SELL"
+                "start-interaction-dialog %player% ARTEFACT_SELL_1"
               ]
             },
             {
