@@ -13,14 +13,14 @@
       },
       "enemies": [
         {
-          "type": "GHOST_OBSERVER",
+          "type": "SHADOW_SCOUT",
           "location": {
             "name": "find_item_enem1",
             "tag": "artefact_sell"
           }
         },
         {
-          "type": "GHOST_OBSERVER",
+          "type": "SHADOW_SCOUT",
           "location": {
             "name": "find_item_enem2",
             "tag": "artefact_sell"
@@ -118,6 +118,478 @@
       },
       "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
       "successPart": 1
+    },
+    "ABILITY_SHOP_3": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "ability_shop",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
+      },
+      "enemies": [
+        {
+          "type": "STREET_FIGHTER",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "ability_shop"
+          }
+        },
+        {
+          "type": "STREET_FIGHTER",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "ability_shop"
+          }
+        },
+        {
+          "type": "LANE_LEADER",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "ability_shop"
+          }
+        },
+        {
+          "type": "LANE_LEADER",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "ability_shop"
+          }
+        }
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "destruction_core"
+        }
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
+      "successPart": 1
+    },
+    "RUNE_UPGRADE_4": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "rune_upgrade",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
+      },
+      "enemies": [
+        {
+          "type": "FORGOT_SOUL",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "type": "FORGOT_SOUL",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "type": "DROWNED_GUARDIAN",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "type": "DROWNED_GUARDIAN",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "rune_upgrade"
+          }
+        }
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "destruction_core"
+        }
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
+      "successPart": 1
+    },
+    "RUNE_UNSPELL_5": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "rune_unspell",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
+      },
+      "enemies": [
+        {
+          "type": "LOST_PILGRIM",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "type": "LOST_PILGRIM",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "type": "SHACKLED_WATCHER",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "type": "SHACKLED_WATCHER",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "rune_unspell"
+          }
+        }
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "destruction_core"
+        }
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
+      "successPart": 1
+    },
+    "SHOP_ARTEFACT_6": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "artefact_shop",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
+      },
+      "enemies": [
+        {
+          "type": "WANDERING_SINGER",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "type": "WANDERING_SINGER",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "type": "ROTTING_HELM",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "type": "ROTTING_HELM",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "artefact_shop"
+          }
+        }
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "destruction_core"
+        }
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
+      "successPart": 1
+    },
+    "EQUIPMENT_SELL_7": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "equipment_sell",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
+      },
+      "enemies": [
+        {
+          "type": "CRACKED_STUDENT",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "equipment_sell"
+          }
+        },
+        {
+          "type": "CRACKED_STUDENT",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "equipment_sell"
+          }
+        },
+        {
+          "type": "DISTORTED_PROTOCOL",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "equipment_sell"
+          }
+        },
+        {
+          "type": "DISTORTED_PROTOCOL",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "equipment_sell"
+          }
+        }
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "destruction_core"
+        }
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
+      "successPart": 1
+    },
+    "RUNE_UNSPELL_8": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "rune_unspell",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
+      },
+      "enemies": [
+        {
+          "type": "TEMPORAL_GHOST",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "type": "TEMPORAL_GHOST",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "type": "SAND_GUARDIAN",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "type": "SAND_GUARDIAN",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "rune_unspell"
+          }
+        }
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "destruction_core"
+        }
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
+      "successPart": 1
+    },
+    "ARTEFACT_SELL_9": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "artefact_sell",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
+      },
+      "enemies": [
+        {
+          "type": "DEVASTATED_SOLDIER",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "type": "DEVASTATED_SOLDIER",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "type": "FADED_SEEKER",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "type": "FADED_SEEKER",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "artefact_sell"
+          }
+        }
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "destruction_core"
+        }
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
+      "successPart": 1
+    },
+    "SHOP_ARTEFACT_10": {
+      "location": {
+        "name": "find_item_point",
+        "tag": "artefact_shop",
+        "offset": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        }
+      },
+      "enemies": [
+        {
+          "type": "FALLEN_ECHO",
+          "location": {
+            "name": "find_item_enem1",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "type": "FALLEN_ECHO",
+          "location": {
+            "name": "find_item_enem2",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "type": "REVERSED_RESONANCE",
+          "location": {
+            "name": "find_item_enem3",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "type": "REVERSED_RESONANCE",
+          "location": {
+            "name": "find_item_enem4",
+            "tag": "artefact_shop"
+          }
+        }
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "sim_rpg": "destruction_core"
+        }
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
+      "successPart": 1
     }
   },
   "guideNpc": {
@@ -192,8 +664,8 @@
       ],
       "enemiesByWaypoint": {
         "4": "SHADOW_SCOUT",
-        "7": "GHOST_OBSERVER",
-        "11": "ILLUSION_MASTER"
+        "16": "NIGHT_ASSASSIN",
+        "22": "GHOST_OBSERVER"
       },
       "isHideMobs": true,
       "isHidePlayers": true,
@@ -318,6 +790,190 @@
       "isHidePlayers": true,
       "successPart": 2,
       "failPart": 1
+    },
+    "RUNE_UNSPELL_3": {
+      "npcType": "RUNE_UNSPELL_3",
+      "npcEntityType": "RUNE_UNSPELL",
+      "waypoints": [
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell0"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell1"
+        }
+      ],
+      "enemiesByWaypoint": {
+        "4": "STREET_FIGHTER",
+        "16": "LANE_LEADER",
+        "22": "ELITE_MOBS"
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "SHOP_ARTEFACT_4": {
+      "npcType": "SHOP_ARTEFACT_4",
+      "npcEntityType": "ARTEFACT_SHOP",
+      "waypoints": [
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_0"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_1"
+        }
+      ],
+      "enemiesByWaypoint": {
+        "4": "FORGOT_SOUL",
+        "16": "DROWNED_GUARDIAN",
+        "22": "SEA_SCAVENGER"
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "ARTEFACT_SELL_5": {
+      "npcType": "SELL_ARTEFACT_5",
+      "npcEntityType": "ARTEFACT_SELL",
+      "waypoints": [
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell0"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell1"
+        }
+      ],
+      "enemiesByWaypoint": {
+        "4": "LOST_PILGRIM",
+        "16": "SHACKLED_WATCHER",
+        "22": "CRUCIFIED_GUARD"
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "RUNE_UPGRADE_6": {
+      "npcType": "RUNE_UPGRADE_6",
+      "npcEntityType": "RUNE_UPGRADE",
+      "waypoints": [
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell0"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell1"
+        }
+      ],
+      "enemiesByWaypoint": {
+        "4": "WANDERING_SINGER",
+        "16": "ROTTING_HELM",
+        "22": "STORM_GUARDIAN"
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "ARTEFACT_SELL_7": {
+      "npcType": "SELL_ARTEFACT_7",
+      "npcEntityType": "ARTEFACT_SELL",
+      "waypoints": [
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell0"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell1"
+        }
+      ],
+      "enemiesByWaypoint": {
+        "4": "CRACKED_STUDENT",
+        "16": "DISTORTED_PROTOCOL",
+        "22": "ARCHIVAL_GUARDIAN"
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "SHOP_ARTEFACT_8": {
+      "npcType": "SHOP_ARTEFACT_8",
+      "npcEntityType": "ARTEFACT_SHOP",
+      "waypoints": [
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_0"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "artefact_shop_1"
+        }
+      ],
+      "enemiesByWaypoint": {
+        "4": "TEMPORAL_GHOST",
+        "16": "SAND_GUARDIAN",
+        "22": "MECHANICAL_ARBITER"
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "EQUIPMENT_SELL_9": {
+      "npcType": "SELL_EQUIPMENT_9",
+      "npcEntityType": "EQUIPMENT_SELL",
+      "waypoints": [
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell0"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell1"
+        }
+      ],
+      "enemiesByWaypoint": {
+        "4": "DEVASTATED_SOLDIER",
+        "16": "FADED_SEEKER",
+        "22": "ASH_COLOSSUS"
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "RUNE_UPGRADE_10": {
+      "npcType": "RUNE_UPGRADE_10",
+      "npcEntityType": "RUNE_UPGRADE",
+      "waypoints": [
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell0"
+        },
+        {
+          "name": "guide_npc_way",
+          "tag": "equipment_sell1"
+        }
+      ],
+      "enemiesByWaypoint": {
+        "4": "FALLEN_ECHO",
+        "16": "REVERSED_RESONANCE",
+        "22": "DISTORTED_MEMORY"
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
     }
   },
   "helpCompanion": {
@@ -356,7 +1012,7 @@
           }
         },
         {
-          "entityType": "NIGHT_ASSASSIN",
+          "entityType": "FOG_SHOOTER",
           "location": {
             "name": "help_comp_enem5",
             "tag": "equipment_sell"
@@ -432,6 +1088,510 @@
         "location": {
           "name": "help_comp_spawn",
           "tag": "feed_shop"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -160.0
+        },
+        "hideOnTab": false
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "RUNE_UPGRADE_3": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "rune_upgrade"
+      },
+      "enemies": [
+        {
+          "entityType": "STREET_FIGHTER",
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "entityType": "STREET_FIGHTER",
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "entityType": "STREET_FIGHTER",
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "entityType": "STREET_FIGHTER",
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "entityType": "MASK_DESTROYER",
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "rune_upgrade"
+          }
+        }
+      ],
+      "friendType": "RUNE_UPGRADE_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "rune_upgrade"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -160.0
+        },
+        "hideOnTab": false
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "ARTEFACT_SELL_4": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "artefact_sell"
+      },
+      "enemies": [
+        {
+          "entityType": "FORGOT_SOUL",
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "entityType": "FORGOT_SOUL",
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "entityType": "FORGOT_SOUL",
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "entityType": "FORGOT_SOUL",
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "entityType": "DROWNED_FOAM",
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "artefact_sell"
+          }
+        }
+      ],
+      "friendType": "ARTEFACT_SELL_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "artefact_sell"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -160.0
+        },
+        "hideOnTab": false
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "EQUIPMENT_SELL_5": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "equipment_sell"
+      },
+      "enemies": [
+        {
+          "entityType": "LOST_PILGRIM",
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "equipment_sell"
+          }
+        },
+        {
+          "entityType": "LOST_PILGRIM",
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "equipment_sell"
+          }
+        },
+        {
+          "entityType": "LOST_PILGRIM",
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "equipment_sell"
+          }
+        },
+        {
+          "entityType": "LOST_PILGRIM",
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "equipment_sell"
+          }
+        },
+        {
+          "entityType": "RITUAL_BEARER",
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "equipment_sell"
+          }
+        }
+      ],
+      "friendType": "EQUIPMENT_SELL_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "equipment_sell"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -160.0
+        },
+        "hideOnTab": false
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "RUNE_UNSPELL_6": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "rune_unspell"
+      },
+      "enemies": [
+        {
+          "entityType": "WANDERING_SINGER",
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "entityType": "WANDERING_SINGER",
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "entityType": "WANDERING_SINGER",
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "entityType": "WANDERING_SINGER",
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "entityType": "THICKET_PIRATE",
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "rune_unspell"
+          }
+        }
+      ],
+      "friendType": "RUNE_UNSPELL_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "rune_unspell"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -160.0
+        },
+        "hideOnTab": false
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "SHOP_ARTEFACT_7": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "artefact_shop"
+      },
+      "enemies": [
+        {
+          "entityType": "CRACKED_STUDENT",
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "entityType": "CRACKED_STUDENT",
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "entityType": "CRACKED_STUDENT",
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "entityType": "CRACKED_STUDENT",
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "artefact_shop"
+          }
+        },
+        {
+          "entityType": "BROKEN_RESEARCHER",
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "artefact_shop"
+          }
+        }
+      ],
+      "friendType": "SHOP_ARTEFACT_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "artefact_shop"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -160.0
+        },
+        "hideOnTab": false
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "RUNE_UPGRADE_8": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "rune_upgrade"
+      },
+      "enemies": [
+        {
+          "entityType": "TEMPORAL_GHOST",
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "entityType": "TEMPORAL_GHOST",
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "entityType": "TEMPORAL_GHOST",
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "entityType": "TEMPORAL_GHOST",
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "rune_upgrade"
+          }
+        },
+        {
+          "entityType": "DISTORTED_CHRONOMANCER",
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "rune_upgrade"
+          }
+        }
+      ],
+      "friendType": "RUNE_UPGRADE_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "rune_upgrade"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -160.0
+        },
+        "hideOnTab": false
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "RUNE_UNSPELL_9": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "rune_unspell"
+      },
+      "enemies": [
+        {
+          "entityType": "DEVASTATED_SOLDIER",
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "entityType": "DEVASTATED_SOLDIER",
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "entityType": "DEVASTATED_SOLDIER",
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "entityType": "DEVASTATED_SOLDIER",
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "rune_unspell"
+          }
+        },
+        {
+          "entityType": "MOLTEN_MESSENGER",
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "rune_unspell"
+          }
+        }
+      ],
+      "friendType": "RUNE_UNSPELL_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "rune_unspell"
+        },
+        "relative": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "position": {
+          "y": -160.0
+        },
+        "hideOnTab": false
+      },
+      "isHideMobs": true,
+      "isHidePlayers": true,
+      "successPart": 2,
+      "failPart": 1
+    },
+    "ARTEFACT_SELL_10": {
+      "spawnPoint": {
+        "name": "help_comp_spawn",
+        "tag": "artefact_sell"
+      },
+      "enemies": [
+        {
+          "entityType": "FALLEN_ECHO",
+          "location": {
+            "name": "help_comp_enem1",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "entityType": "FALLEN_ECHO",
+          "location": {
+            "name": "help_comp_enem2",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "entityType": "FALLEN_ECHO",
+          "location": {
+            "name": "help_comp_enem3",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "entityType": "FALLEN_ECHO",
+          "location": {
+            "name": "help_comp_enem4",
+            "tag": "artefact_sell"
+          }
+        },
+        {
+          "entityType": "SPACE_SCAR",
+          "location": {
+            "name": "help_comp_enem5",
+            "tag": "artefact_sell"
+          }
+        }
+      ],
+      "friendType": "ARTEFACT_SELL_FRIEND",
+      "waypointArrow": {
+        "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
+        "location": {
+          "name": "help_comp_spawn",
+          "tag": "artefact_sell"
         },
         "relative": {
           "x": 0.5,

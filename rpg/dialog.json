@@ -68,6 +68,765 @@
         }
       ]
     },
+    "SHOP_ARTEFACT_4": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% SHOP_ARTEFACT_4"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "SHOP_ARTEFACT_6": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! я потерял свой артефакт, помоги мне его найти",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% SHOP_ARTEFACT_6"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "SHOP_ARTEFACT_7": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% SHOP_ARTEFACT_7"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "SHOP_ARTEFACT_8": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% SHOP_ARTEFACT_8"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "SHOP_ARTEFACT_10": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! я потерял свой артефакт, помоги мне его найти",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% SHOP_ARTEFACT_10"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ABILITY_SHOP_3": {
+      "title": "продавец способностей",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! я потерял свой артефакт, помоги мне его найти",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% ABILITY_SHOP_3"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ARTEFACT_SELL_1": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! я потерял свой артефакт, помоги мне его найти",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SELL_1"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ARTEFACT_SELL_2": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! я потерял свой артефакт, помоги мне его найти",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SELL_2"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ARTEFACT_SELL_4": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SELL_4"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ARTEFACT_SELL_5": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SELL_5"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ARTEFACT_SELL_7": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SELL_7"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ARTEFACT_SELL_9": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! я потерял свой артефакт, помоги мне его найти",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SELL_9"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "ARTEFACT_SELL_10": {
+      "title": "продавец артефактов",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% ARTEFACT_SELL_10"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
     "EQUIPMENT_SELL_1": {
       "title": "продавец экипировки",
       "maxTasks": 4,
@@ -194,6 +953,185 @@
         }
       ]
     },
+    "EQUIPMENT_SELL_5": {
+      "title": "продавец экипировки",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% EQUIPMENT_SELL_5"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "EQUIPMENT_SELL_7": {
+      "title": "продавец экипировки",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! я потерял свой артефакт, помоги мне его найти",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% EQUIPMENT_SELL_7"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "EQUIPMENT_SELL_9": {
+      "title": "продавец экипировки",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% EQUIPMENT_SELL_9"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
     "FEED_SHOP_2": {
       "title": "продавец корма",
       "maxTasks": 4,
@@ -257,8 +1195,71 @@
         }
       ]
     },
-    "ARTEFACT_SELL_1": {
-      "title": "продавец артефактов",
+    "RUNE_UPGRADE_3": {
+      "title": "мастер рун",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% RUNE_UPGRADE_3"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "RUNE_UPGRADE_4": {
+      "title": "мастер рун",
       "maxTasks": 4,
       "parts": [
         {
@@ -268,7 +1269,7 @@
             {
               "text": "хорошо я помогу тебе",
               "rewards": [
-                "start-interaction-dialog %player% ARTEFACT_SELL_1"
+                "start-interaction-dialog %player% RUNE_UPGRADE_4"
               ]
             },
             {
@@ -310,8 +1311,260 @@
         }
       ]
     },
-    "ARTEFACT_SELL_2": {
-      "title": "продавец артефактов",
+    "RUNE_UPGRADE_6": {
+      "title": "мастер рун",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% RUNE_UPGRADE_6"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "RUNE_UPGRADE_8": {
+      "title": "мастер рун",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% RUNE_UPGRADE_8"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "RUNE_UPGRADE_10": {
+      "title": "мастер рун",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% RUNE_UPGRADE_10"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "RUNE_UNSPELL_3": {
+      "title": "снятие чар",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет помоги мне дойти до точки",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% RUNE_UNSPELL_3"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "сорян я умер ты не смог меня спасти, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне дойти до конца, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "RUNE_UNSPELL_5": {
+      "title": "снятие чар",
       "maxTasks": 4,
       "parts": [
         {
@@ -321,7 +1574,7 @@
             {
               "text": "хорошо я помогу тебе",
               "rewards": [
-                "start-interaction-dialog %player% ARTEFACT_SELL_2"
+                "start-interaction-dialog %player% RUNE_UNSPELL_5"
               ]
             },
             {
@@ -332,6 +1585,185 @@
         {
           "taskIndex": 2,
           "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "RUNE_UNSPELL_6": {
+      "title": "снятие чар",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% RUNE_UNSPELL_6"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "RUNE_UNSPELL_8": {
+      "title": "снятие чар",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! я потерял свой артефакт, помоги мне его найти",
+          "answers": [
+            {
+              "text": "хорошо я помогу тебе",
+              "rewards": [
+                "start-interaction-dialog %player% RUNE_UNSPELL_8"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог мне найти свой артефакт, возвращайся ко мне за наградой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 3
+            }
+          ]
+        },
+        {
+          "taskIndex": 3,
+          "text": "вот твоя награда",
+          "answers": [
+            {
+              "text": "забрать награду",
+              "rewards": [
+                "earn-money %player% 100 true"
+              ],
+              "nextPart": 4
+            }
+          ]
+        },
+        {
+          "taskIndex": 4,
+          "text": "у меня больше нет поручений для тебя",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        }
+      ]
+    },
+    "RUNE_UNSPELL_9": {
+      "title": "снятие чар",
+      "maxTasks": 4,
+      "parts": [
+        {
+          "taskIndex": 0,
+          "text": "привет! мой друг попал в опасную ситуацию, помоги ему выбраться из неё",
+          "answers": [
+            {
+              "text": "хорошо я помогу другу",
+              "rewards": [
+                "start-interaction-dialog %player% RUNE_UNSPELL_9"
+              ]
+            },
+            {
+              "text": "rpg.dialog.answer.close.title"
+            }
+          ]
+        },
+        {
+          "taskIndex": 1,
+          "text": "мой друг умер, прокачайся и возвращайся за новой попыткой",
+          "answers": [
+            {
+              "text": "rpg.dialog.answer.close.title",
+              "nextPart": 0
+            }
+          ]
+        },
+        {
+          "taskIndex": 2,
+          "text": "спасибо за помощь, ты помог другу выбраться из опасности, возвращайся ко мне за наградой",
           "answers": [
             {
               "text": "rpg.dialog.answer.close.title",

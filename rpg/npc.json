@@ -239,6 +239,221 @@
         ]
       }
     },
+    "SELL_ARTEFACT_4": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_4",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_4"
+        ]
+      },
+      "dialog": {
+        "title": "покупатель артефактов",
+        "lines": [
+          "привет бла бла бла",
+          "я тут покупаю артефакты"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу продать артефакты",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% ARTEFACT_SELL_4"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_5": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_5",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_5"
+        ]
+      },
+      "dialog": {
+        "title": "покупатель артефактов",
+        "lines": [
+          "привет бла бла бла",
+          "я тут покупаю артефакты"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу продать артефакты",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% ARTEFACT_SELL_5"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_7": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_7",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_7"
+        ]
+      },
+      "dialog": {
+        "title": "покупатель артефактов",
+        "lines": [
+          "привет бла бла бла",
+          "я тут покупаю артефакты"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу продать артефакты",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% ARTEFACT_SELL_7"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_9": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_9",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_9"
+        ]
+      },
+      "dialog": {
+        "title": "?????????? ??????????",
+        "lines": [
+          "?????? ??? ??? ???",
+          "? ??? ??????? ?????????"
+        ],
+        "answerOptions": [
+          {
+            "text": "? ???? ??????? ?????????",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "??? ?????????",
+            "onPlayerChoice": [
+              "dialog %player% ARTEFACT_SELL_9"
+            ]
+          },
+          {
+            "text": "???????"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_10": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_10",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_10"
+        ]
+      },
+      "dialog": {
+        "title": "покупатель артефактов",
+        "lines": [
+          "привет бла бла бла",
+          "я тут покупаю артефакты"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу продать артефакты",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% ARTEFACT_SELL_10"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
     "SELL_EQUIPMENT": {
       "npc": {
         "name": "rpg.npc.sell.equipment.title",
@@ -344,6 +559,135 @@
         ]
       }
     },
+    "SELL_EQUIPMENT_5": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment_5",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/equipment_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_EQUIPMENT_5"
+        ]
+      },
+      "dialog": {
+        "title": "покупатель снаряжения",
+        "lines": [
+          "привет бла бла бла",
+          "я тут покупаю снаряжение"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу продать снаряжение",
+            "onPlayerChoice": [
+              "sell-equipment %player%"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% EQUIPMENT_SELL_5"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "SELL_EQUIPMENT_7": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment_7",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/equipment_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_EQUIPMENT_7"
+        ]
+      },
+      "dialog": {
+        "title": "?????????? ??????????",
+        "lines": [
+          "?????? ??? ??? ???",
+          "? ??? ??????? ??????????"
+        ],
+        "answerOptions": [
+          {
+            "text": "? ???? ??????? ??????????",
+            "onPlayerChoice": [
+              "sell-equipment %player%"
+            ]
+          },
+          {
+            "text": "??? ?????????",
+            "onPlayerChoice": [
+              "dialog %player% EQUIPMENT_SELL_7"
+            ]
+          },
+          {
+            "text": "???????"
+          }
+        ]
+      }
+    },
+    "SELL_EQUIPMENT_9": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment_9",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/equipment_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_EQUIPMENT_9"
+        ]
+      },
+      "dialog": {
+        "title": "покупатель снаряжения",
+        "lines": [
+          "привет бла бла бла",
+          "я тут покупаю снаряжение"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу продать снаряжение",
+            "onPlayerChoice": [
+              "sell-equipment %player%"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% EQUIPMENT_SELL_9"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
     "SHOP_ARTEFACT": {
       "npc": {
         "name": "rpg.npc.shop.artefact.title",
@@ -406,6 +750,221 @@
         ]
       }
     },
+    "SHOP_ARTEFACT_4": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_4",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_4"
+        ]
+      },
+      "dialog": {
+        "title": "продавец артефактов",
+        "lines": [
+          "привет бла бла бла",
+          "я продаю артефакты"
+        ],
+        "answerOptions": [
+          {
+            "text": "Открыть магазин артефактов",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_4"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_6": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_6",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_6"
+        ]
+      },
+      "dialog": {
+        "title": "???????? ??????????",
+        "lines": [
+          "?????? ??? ??? ???",
+          "? ?????? ?????????"
+        ],
+        "answerOptions": [
+          {
+            "text": "??????? ??????? ??????????",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "??? ?????????",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_6"
+            ]
+          },
+          {
+            "text": "???????"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_7": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_7",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_7"
+        ]
+      },
+      "dialog": {
+        "title": "продавец артефактов",
+        "lines": [
+          "привет бла бла бла",
+          "я продаю артефакты"
+        ],
+        "answerOptions": [
+          {
+            "text": "Открыть магазин артефактов",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_7"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_8": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_8",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_8"
+        ]
+      },
+      "dialog": {
+        "title": "продавец артефактов",
+        "lines": [
+          "привет бла бла бла",
+          "я продаю артефакты"
+        ],
+        "answerOptions": [
+          {
+            "text": "Открыть магазин артефактов",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_8"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_10": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_10",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_10"
+        ]
+      },
+      "dialog": {
+        "title": "???????? ??????????",
+        "lines": [
+          "?????? ??? ??? ???",
+          "? ?????? ?????????"
+        ],
+        "answerOptions": [
+          {
+            "text": "??????? ??????? ??????????",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "??? ?????????",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_10"
+            ]
+          },
+          {
+            "text": "???????"
+          }
+        ]
+      }
+    },
     "SHOP_ABILITY": {
       "npc": {
         "name": "rpg.npc.shop.ability.title",
@@ -445,6 +1004,49 @@
           },
           {
             "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "SHOP_ABILITY_3": {
+      "npc": {
+        "name": "rpg.npc.shop.ability.title",
+        "location": {
+          "name": "shop",
+          "tag": "ability_3",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/ability_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ABILITY_3"
+        ]
+      },
+      "dialog": {
+        "title": "???????? ????????????",
+        "lines": [
+          "?????? ??? ??? ???",
+          "? ?????? ???????????"
+        ],
+        "answerOptions": [
+          {
+            "text": "??????? ??????? ????????????",
+            "onPlayerChoice": [
+              "sudo %player% ability-shop"
+            ]
+          },
+          {
+            "text": "??? ?????????",
+            "onPlayerChoice": [
+              "dialog %player% ABILITY_SHOP_3"
+            ]
+          },
+          {
+            "text": "???????"
           }
         ]
       }
@@ -578,6 +1180,221 @@
         ]
       }
     },
+    "RUNE_UPGRADE_3": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_3",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UPGRADE_3"
+        ]
+      },
+      "dialog": {
+        "title": "мастер рун",
+        "lines": [
+          "привет бла бла бла",
+          "я улучшаю руны"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу улучшить руну",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UPGRADE_3"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "RUNE_UPGRADE_4": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_4",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UPGRADE_4"
+        ]
+      },
+      "dialog": {
+        "title": "?????? ???",
+        "lines": [
+          "?????? ??? ??? ???",
+          "? ??????? ????"
+        ],
+        "answerOptions": [
+          {
+            "text": "? ???? ???????? ????",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "??? ?????????",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UPGRADE_4"
+            ]
+          },
+          {
+            "text": "???????"
+          }
+        ]
+      }
+    },
+    "RUNE_UPGRADE_6": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_6",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UPGRADE_6"
+        ]
+      },
+      "dialog": {
+        "title": "мастер рун",
+        "lines": [
+          "привет бла бла бла",
+          "я улучшаю руны"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу улучшить руну",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UPGRADE_6"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "RUNE_UPGRADE_8": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_8",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UPGRADE_8"
+        ]
+      },
+      "dialog": {
+        "title": "мастер рун",
+        "lines": [
+          "привет бла бла бла",
+          "я улучшаю руны"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу улучшить руну",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UPGRADE_8"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "RUNE_UPGRADE_10": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_10",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UPGRADE_10"
+        ]
+      },
+      "dialog": {
+        "title": "мастер рун",
+        "lines": [
+          "привет бла бла бла",
+          "я улучшаю руны"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу улучшить руну",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UPGRADE_10"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
     "RUNE_UNSPELL": {
       "npc": {
         "name": "rpg.npc.rune.unspell.title",
@@ -594,6 +1411,221 @@
         "lookAtPlayer": true,
         "onClick": [
           "sudo %player% unspell-rune"
+        ]
+      }
+    },
+    "RUNE_UNSPELL_3": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_3",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UNSPELL_3"
+        ]
+      },
+      "dialog": {
+        "title": "снятие чар",
+        "lines": [
+          "привет бла бла бла",
+          "я снимаю чары с рун"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу снять чары с руны",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UNSPELL_3"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "RUNE_UNSPELL_5": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_5",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UNSPELL_5"
+        ]
+      },
+      "dialog": {
+        "title": "?????? ???",
+        "lines": [
+          "?????? ??? ??? ???",
+          "? ?????? ???? ? ???"
+        ],
+        "answerOptions": [
+          {
+            "text": "? ???? ????? ???? ? ????",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "??? ?????????",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UNSPELL_5"
+            ]
+          },
+          {
+            "text": "???????"
+          }
+        ]
+      }
+    },
+    "RUNE_UNSPELL_6": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_6",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UNSPELL_6"
+        ]
+      },
+      "dialog": {
+        "title": "снятие чар",
+        "lines": [
+          "привет бла бла бла",
+          "я снимаю чары с рун"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу снять чары с руны",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UNSPELL_6"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
+        ]
+      }
+    },
+    "RUNE_UNSPELL_8": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_8",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UNSPELL_8"
+        ]
+      },
+      "dialog": {
+        "title": "?????? ???",
+        "lines": [
+          "?????? ??? ??? ???",
+          "? ?????? ???? ? ???"
+        ],
+        "answerOptions": [
+          {
+            "text": "? ???? ????? ???? ? ????",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "??? ?????????",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UNSPELL_8"
+            ]
+          },
+          {
+            "text": "???????"
+          }
+        ]
+      }
+    },
+    "RUNE_UNSPELL_9": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_9",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% RUNE_UNSPELL_9"
+        ]
+      },
+      "dialog": {
+        "title": "снятие чар",
+        "lines": [
+          "привет бла бла бла",
+          "я снимаю чары с рун"
+        ],
+        "answerOptions": [
+          {
+            "text": "Я хочу снять чары с руны",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "Дай поручение",
+            "onPlayerChoice": [
+              "dialog %player% RUNE_UNSPELL_9"
+            ]
+          },
+          {
+            "text": "Закрыть"
+          }
         ]
       }
     },
