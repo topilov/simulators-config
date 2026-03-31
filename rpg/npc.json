@@ -1154,30 +1154,6 @@
         "onClick": [
           "interact-npc %player% UPGRADE_RUNE"
         ]
-      },
-      "dialog": {
-        "title": "мастер рун",
-        "lines": [
-          "привет бла бла бла",
-          "я улучшаю руны"
-        ],
-        "answerOptions": [
-          {
-            "text": "Я хочу улучшить руну",
-            "onPlayerChoice": [
-              "sudo %player% upgrade-rune"
-            ]
-          },
-          {
-            "text": "Дай поручение",
-            "onPlayerChoice": [
-              "dialog %player% MAXIM"
-            ]
-          },
-          {
-            "text": "Закрыть"
-          }
-        ]
       }
     },
     "UPGRADE_RUNE_3": {
