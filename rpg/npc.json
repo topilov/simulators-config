@@ -1066,33 +1066,9 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/fee_shop.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% SHOP_FEED"
+          "sudo %player% feed-shop"
         ]
-      },
-      "dialog": {
-        "title": "продавец корма",
-        "lines": [
-          "привет бла бла бла",
-          "я продаю корм"
-        ],
-        "answerOptions": [
-          {
-            "text": "Открыть магазин корма",
-            "onPlayerChoice": [
-              "sudo %player% feed-shop"
-            ]
-          },
-          {
-            "text": "Дай поручение",
-            "onPlayerChoice": [
-              "dialog %player% MAXIM"
-            ]
-          },
-          {
-            "text": "Закрыть"
-          }
-        ]
-      }
+    }
     },
     "SHOP_FEED_2": {
       "npc": {
@@ -1152,7 +1128,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% UPGRADE_RUNE"
+          "sudo %player% upgrade-rune"
         ]
       }
     },
