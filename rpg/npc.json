@@ -187,7 +187,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% ARTEFACT_SELL_1"
+              "dialog %player% SELL_ARTEFACT_1"
             ]
           },
           {
@@ -230,7 +230,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% ARTEFACT_SELL_2"
+              "dialog %player% SELL_ARTEFACT_2"
             ]
           },
           {
@@ -273,7 +273,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% ARTEFACT_SELL_4"
+              "dialog %player% SELL_ARTEFACT_4"
             ]
           },
           {
@@ -316,7 +316,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% ARTEFACT_SELL_5"
+              "dialog %player% SELL_ARTEFACT_5"
             ]
           },
           {
@@ -359,7 +359,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% ARTEFACT_SELL_7"
+              "dialog %player% SELL_ARTEFACT_7"
             ]
           },
           {
@@ -402,7 +402,7 @@
           {
             "text": "??? ?????????",
             "onPlayerChoice": [
-              "dialog %player% ARTEFACT_SELL_9"
+              "dialog %player% SELL_ARTEFACT_9"
             ]
           },
           {
@@ -445,7 +445,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% ARTEFACT_SELL_10"
+              "dialog %player% SELL_ARTEFACT_10"
             ]
           },
           {
@@ -507,7 +507,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% EQUIPMENT_SELL_1"
+              "dialog %player% SELL_EQUIPMENT_1"
             ]
           },
           {
@@ -550,7 +550,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% EQUIPMENT_SELL_2"
+              "dialog %player% SELL_EQUIPMENT_2"
             ]
           },
           {
@@ -593,7 +593,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% EQUIPMENT_SELL_5"
+              "dialog %player% SELL_EQUIPMENT_5"
             ]
           },
           {
@@ -636,7 +636,7 @@
           {
             "text": "??? ?????????",
             "onPlayerChoice": [
-              "dialog %player% EQUIPMENT_SELL_7"
+              "dialog %player% SELL_EQUIPMENT_7"
             ]
           },
           {
@@ -679,7 +679,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% EQUIPMENT_SELL_9"
+              "dialog %player% SELL_EQUIPMENT_9"
             ]
           },
           {
@@ -741,7 +741,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% ARTEFACT_SHOP_1"
+              "dialog %player% SHOP_ARTEFACT_1"
             ]
           },
           {
@@ -999,7 +999,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% ABILITY_SHOP"
+              "dialog %player% SHOP_ABILITY"
             ]
           },
           {
@@ -1042,7 +1042,7 @@
           {
             "text": "??? ?????????",
             "onPlayerChoice": [
-              "dialog %player% ABILITY_SHOP_3"
+              "dialog %player% SHOP_ABILITY_3"
             ]
           },
           {
@@ -1128,7 +1128,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% FEED_SHOP_2"
+              "dialog %player% SHOP_FEED_2"
             ]
           },
           {
@@ -1137,7 +1137,7 @@
         ]
       }
     },
-    "RUNE_UPGRADE": {
+    "UPGRADE_RUNE": {
       "npc": {
         "name": "rpg.npc.rune.upgrade.title",
         "location": {
@@ -1152,7 +1152,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UPGRADE"
+          "interact-npc %player% UPGRADE_RUNE"
         ]
       },
       "dialog": {
@@ -1180,7 +1180,7 @@
         ]
       }
     },
-    "RUNE_UPGRADE_3": {
+    "UPGRADE_RUNE_3": {
       "npc": {
         "name": "rpg.npc.rune.upgrade.title",
         "location": {
@@ -1195,7 +1195,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UPGRADE_3"
+          "interact-npc %player% UPGRADE_RUNE_3"
         ]
       },
       "dialog": {
@@ -1214,7 +1214,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UPGRADE_3"
+              "dialog %player% UPGRADE_RUNE_3"
             ]
           },
           {
@@ -1223,7 +1223,7 @@
         ]
       }
     },
-    "RUNE_UPGRADE_4": {
+    "UPGRADE_RUNE_4": {
       "npc": {
         "name": "rpg.npc.rune.upgrade.title",
         "location": {
@@ -1238,7 +1238,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UPGRADE_4"
+          "interact-npc %player% UPGRADE_RUNE_4"
         ]
       },
       "dialog": {
@@ -1257,7 +1257,7 @@
           {
             "text": "??? ?????????",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UPGRADE_4"
+              "dialog %player% UPGRADE_RUNE_4"
             ]
           },
           {
@@ -1266,7 +1266,7 @@
         ]
       }
     },
-    "RUNE_UPGRADE_6": {
+    "UPGRADE_RUNE_6": {
       "npc": {
         "name": "rpg.npc.rune.upgrade.title",
         "location": {
@@ -1281,7 +1281,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UPGRADE_6"
+          "interact-npc %player% UPGRADE_RUNE_6"
         ]
       },
       "dialog": {
@@ -1300,7 +1300,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UPGRADE_6"
+              "dialog %player% UPGRADE_RUNE_6"
             ]
           },
           {
@@ -1309,7 +1309,7 @@
         ]
       }
     },
-    "RUNE_UPGRADE_8": {
+    "UPGRADE_RUNE_8": {
       "npc": {
         "name": "rpg.npc.rune.upgrade.title",
         "location": {
@@ -1324,7 +1324,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UPGRADE_8"
+          "interact-npc %player% UPGRADE_RUNE_8"
         ]
       },
       "dialog": {
@@ -1343,7 +1343,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UPGRADE_8"
+              "dialog %player% UPGRADE_RUNE_8"
             ]
           },
           {
@@ -1352,7 +1352,7 @@
         ]
       }
     },
-    "RUNE_UPGRADE_10": {
+    "UPGRADE_RUNE_10": {
       "npc": {
         "name": "rpg.npc.rune.upgrade.title",
         "location": {
@@ -1367,7 +1367,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UPGRADE_10"
+          "interact-npc %player% UPGRADE_RUNE_10"
         ]
       },
       "dialog": {
@@ -1386,7 +1386,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UPGRADE_10"
+              "dialog %player% UPGRADE_RUNE_10"
             ]
           },
           {
@@ -1395,7 +1395,7 @@
         ]
       }
     },
-    "RUNE_UNSPELL": {
+    "UNSPELL_RUNE": {
       "npc": {
         "name": "rpg.npc.rune.unspell.title",
         "location": {
@@ -1414,7 +1414,7 @@
         ]
       }
     },
-    "RUNE_UNSPELL_3": {
+    "UNSPELL_RUNE_3": {
       "npc": {
         "name": "rpg.npc.rune.unspell.title",
         "location": {
@@ -1429,7 +1429,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UNSPELL_3"
+          "interact-npc %player% UNSPELL_RUNE_3"
         ]
       },
       "dialog": {
@@ -1448,7 +1448,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UNSPELL_3"
+              "dialog %player% UNSPELL_RUNE_3"
             ]
           },
           {
@@ -1457,7 +1457,7 @@
         ]
       }
     },
-    "RUNE_UNSPELL_5": {
+    "UNSPELL_RUNE_5": {
       "npc": {
         "name": "rpg.npc.rune.unspell.title",
         "location": {
@@ -1472,7 +1472,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UNSPELL_5"
+          "interact-npc %player% UNSPELL_RUNE_5"
         ]
       },
       "dialog": {
@@ -1491,7 +1491,7 @@
           {
             "text": "??? ?????????",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UNSPELL_5"
+              "dialog %player% UNSPELL_RUNE_5"
             ]
           },
           {
@@ -1500,7 +1500,7 @@
         ]
       }
     },
-    "RUNE_UNSPELL_6": {
+    "UNSPELL_RUNE_6": {
       "npc": {
         "name": "rpg.npc.rune.unspell.title",
         "location": {
@@ -1515,7 +1515,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UNSPELL_6"
+          "interact-npc %player% UNSPELL_RUNE_6"
         ]
       },
       "dialog": {
@@ -1534,7 +1534,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UNSPELL_6"
+              "dialog %player% UNSPELL_RUNE_6"
             ]
           },
           {
@@ -1543,7 +1543,7 @@
         ]
       }
     },
-    "RUNE_UNSPELL_8": {
+    "UNSPELL_RUNE_8": {
       "npc": {
         "name": "rpg.npc.rune.unspell.title",
         "location": {
@@ -1558,7 +1558,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UNSPELL_8"
+          "interact-npc %player% UNSPELL_RUNE_8"
         ]
       },
       "dialog": {
@@ -1577,7 +1577,7 @@
           {
             "text": "??? ?????????",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UNSPELL_8"
+              "dialog %player% UNSPELL_RUNE_8"
             ]
           },
           {
@@ -1586,7 +1586,7 @@
         ]
       }
     },
-    "RUNE_UNSPELL_9": {
+    "UNSPELL_RUNE_9": {
       "npc": {
         "name": "rpg.npc.rune.unspell.title",
         "location": {
@@ -1601,7 +1601,7 @@
         "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
         "lookAtPlayer": true,
         "onClick": [
-          "interact-npc %player% RUNE_UNSPELL_9"
+          "interact-npc %player% UNSPELL_RUNE_9"
         ]
       },
       "dialog": {
@@ -1620,7 +1620,7 @@
           {
             "text": "Дай поручение",
             "onPlayerChoice": [
-              "dialog %player% RUNE_UNSPELL_9"
+              "dialog %player% UNSPELL_RUNE_9"
             ]
           },
           {

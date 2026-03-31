@@ -1,7 +1,7 @@
 {
   "$schema": "./schema/dialog_interaction.schema.json",
   "findItem": {
-    "ARTEFACT_SELL_1": {
+    "SELL_ARTEFACT_1": {
       "location": {
         "name": "find_item_point",
         "tag": "artefact_sell",
@@ -60,7 +60,7 @@
       "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
       "successPart": 1
     },
-    "ARTEFACT_SELL_2": {
+    "SELL_ARTEFACT_2": {
       "location": {
         "name": "find_item_point",
         "tag": "artefact_sell",
@@ -119,7 +119,7 @@
       "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
       "successPart": 1
     },
-    "ABILITY_SHOP_3": {
+    "SHOP_ABILITY_3": {
       "location": {
         "name": "find_item_point",
         "tag": "ability_shop",
@@ -178,7 +178,7 @@
       "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
       "successPart": 1
     },
-    "RUNE_UPGRADE_4": {
+    "UPGRADE_RUNE_4": {
       "location": {
         "name": "find_item_point",
         "tag": "rune_upgrade",
@@ -237,7 +237,7 @@
       "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
       "successPart": 1
     },
-    "RUNE_UNSPELL_5": {
+    "UNSPELL_RUNE_5": {
       "location": {
         "name": "find_item_point",
         "tag": "rune_unspell",
@@ -355,7 +355,7 @@
       "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
       "successPart": 1
     },
-    "EQUIPMENT_SELL_7": {
+    "SELL_EQUIPMENT_7": {
       "location": {
         "name": "find_item_point",
         "tag": "equipment_sell",
@@ -414,7 +414,7 @@
       "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
       "successPart": 1
     },
-    "RUNE_UNSPELL_8": {
+    "UNSPELL_RUNE_8": {
       "location": {
         "name": "find_item_point",
         "tag": "rune_unspell",
@@ -473,7 +473,7 @@
       "enemiesAliveMessage": "rpg.dialog.find_item.enemies_alive",
       "successPart": 1
     },
-    "ARTEFACT_SELL_9": {
+    "SELL_ARTEFACT_9": {
       "location": {
         "name": "find_item_point",
         "tag": "artefact_sell",
@@ -593,9 +593,9 @@
     }
   },
   "guideNpc": {
-    "ARTEFACT_SHOP_1": {
+    "SHOP_ARTEFACT_1": {
       "npcType": "SHOP_ARTEFACT",
-      "npcEntityType": "ARTEFACT_SHOP",
+      "npcEntityType": "SHOP_ARTEFACT",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -672,9 +672,9 @@
       "successPart": 2,
       "failPart": 1
     },
-    "EQUIPMENT_SELL_2": {
+    "SELL_EQUIPMENT_2": {
       "npcType": "SELL_EQUIPMENT_2",
-      "npcEntityType": "EQUIPMENT_SELL",
+      "npcEntityType": "SELL_EQUIPMENT",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -791,9 +791,9 @@
       "successPart": 2,
       "failPart": 1
     },
-    "RUNE_UNSPELL_3": {
-      "npcType": "RUNE_UNSPELL_3",
-      "npcEntityType": "RUNE_UNSPELL",
+    "UNSPELL_RUNE_3": {
+      "npcType": "UNSPELL_RUNE_3",
+      "npcEntityType": "UNSPELL_RUNE",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -816,7 +816,7 @@
     },
     "SHOP_ARTEFACT_4": {
       "npcType": "SHOP_ARTEFACT_4",
-      "npcEntityType": "ARTEFACT_SHOP",
+      "npcEntityType": "SHOP_ARTEFACT",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -837,9 +837,9 @@
       "successPart": 2,
       "failPart": 1
     },
-    "ARTEFACT_SELL_5": {
+    "SELL_ARTEFACT_5": {
       "npcType": "SELL_ARTEFACT_5",
-      "npcEntityType": "ARTEFACT_SELL",
+      "npcEntityType": "SELL_ARTEFACT",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -860,9 +860,9 @@
       "successPart": 2,
       "failPart": 1
     },
-    "RUNE_UPGRADE_6": {
-      "npcType": "RUNE_UPGRADE_6",
-      "npcEntityType": "RUNE_UPGRADE",
+    "UPGRADE_RUNE_6": {
+      "npcType": "UPGRADE_RUNE_6",
+      "npcEntityType": "UPGRADE_RUNE",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -883,9 +883,9 @@
       "successPart": 2,
       "failPart": 1
     },
-    "ARTEFACT_SELL_7": {
+    "SELL_ARTEFACT_7": {
       "npcType": "SELL_ARTEFACT_7",
-      "npcEntityType": "ARTEFACT_SELL",
+      "npcEntityType": "SELL_ARTEFACT",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -908,7 +908,7 @@
     },
     "SHOP_ARTEFACT_8": {
       "npcType": "SHOP_ARTEFACT_8",
-      "npcEntityType": "ARTEFACT_SHOP",
+      "npcEntityType": "SHOP_ARTEFACT",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -929,9 +929,9 @@
       "successPart": 2,
       "failPart": 1
     },
-    "EQUIPMENT_SELL_9": {
+    "SELL_EQUIPMENT_9": {
       "npcType": "SELL_EQUIPMENT_9",
-      "npcEntityType": "EQUIPMENT_SELL",
+      "npcEntityType": "SELL_EQUIPMENT",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -952,9 +952,9 @@
       "successPart": 2,
       "failPart": 1
     },
-    "RUNE_UPGRADE_10": {
-      "npcType": "RUNE_UPGRADE_10",
-      "npcEntityType": "RUNE_UPGRADE",
+    "UPGRADE_RUNE_10": {
+      "npcType": "UPGRADE_RUNE_10",
+      "npcEntityType": "UPGRADE_RUNE",
       "waypoints": [
         {
           "name": "guide_npc_way",
@@ -977,7 +977,7 @@
     }
   },
   "helpCompanion": {
-    "EQUIPMENT_SELL_1": {
+    "SELL_EQUIPMENT_1": {
       "spawnPoint": {
         "name": "help_comp_spawn",
         "tag": "equipment_sell"
@@ -1019,7 +1019,7 @@
           }
         }
       ],
-      "friendType": "EQUIPMENT_SELL_FRIEND",
+      "friendType": "SELL_EQUIPMENT_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
@@ -1040,7 +1040,7 @@
       "successPart": 2,
       "failPart": 1
     },
-    "FEED_SHOP_2": {
+    "SHOP_FEED_2": {
       "spawnPoint": {
         "name": "help_comp_spawn",
         "tag": "feed_shop"
@@ -1082,7 +1082,7 @@
           }
         }
       ],
-      "friendType": "FEED_SHOP_FRIEND",
+      "friendType": "SHOP_FEED_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
@@ -1103,7 +1103,7 @@
       "successPart": 2,
       "failPart": 1
     },
-    "RUNE_UPGRADE_3": {
+    "UPGRADE_RUNE_3": {
       "spawnPoint": {
         "name": "help_comp_spawn",
         "tag": "rune_upgrade"
@@ -1145,7 +1145,7 @@
           }
         }
       ],
-      "friendType": "RUNE_UPGRADE_FRIEND",
+      "friendType": "UPGRADE_RUNE_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
@@ -1166,7 +1166,7 @@
       "successPart": 2,
       "failPart": 1
     },
-    "ARTEFACT_SELL_4": {
+    "SELL_ARTEFACT_4": {
       "spawnPoint": {
         "name": "help_comp_spawn",
         "tag": "artefact_sell"
@@ -1208,7 +1208,7 @@
           }
         }
       ],
-      "friendType": "ARTEFACT_SELL_FRIEND",
+      "friendType": "SELL_ARTEFACT_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
@@ -1229,7 +1229,7 @@
       "successPart": 2,
       "failPart": 1
     },
-    "EQUIPMENT_SELL_5": {
+    "SELL_EQUIPMENT_5": {
       "spawnPoint": {
         "name": "help_comp_spawn",
         "tag": "equipment_sell"
@@ -1271,7 +1271,7 @@
           }
         }
       ],
-      "friendType": "EQUIPMENT_SELL_FRIEND",
+      "friendType": "SELL_EQUIPMENT_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
@@ -1292,7 +1292,7 @@
       "successPart": 2,
       "failPart": 1
     },
-    "RUNE_UNSPELL_6": {
+    "UNSPELL_RUNE_6": {
       "spawnPoint": {
         "name": "help_comp_spawn",
         "tag": "rune_unspell"
@@ -1334,7 +1334,7 @@
           }
         }
       ],
-      "friendType": "RUNE_UNSPELL_FRIEND",
+      "friendType": "UNSPELL_RUNE_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
@@ -1418,7 +1418,7 @@
       "successPart": 2,
       "failPart": 1
     },
-    "RUNE_UPGRADE_8": {
+    "UPGRADE_RUNE_8": {
       "spawnPoint": {
         "name": "help_comp_spawn",
         "tag": "rune_upgrade"
@@ -1460,7 +1460,7 @@
           }
         }
       ],
-      "friendType": "RUNE_UPGRADE_FRIEND",
+      "friendType": "UPGRADE_RUNE_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
@@ -1481,7 +1481,7 @@
       "successPart": 2,
       "failPart": 1
     },
-    "RUNE_UNSPELL_9": {
+    "UNSPELL_RUNE_9": {
       "spawnPoint": {
         "name": "help_comp_spawn",
         "tag": "rune_unspell"
@@ -1523,7 +1523,7 @@
           }
         }
       ],
-      "friendType": "RUNE_UNSPELL_FRIEND",
+      "friendType": "UNSPELL_RUNE_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
@@ -1544,7 +1544,7 @@
       "successPart": 2,
       "failPart": 1
     },
-    "ARTEFACT_SELL_10": {
+    "SELL_ARTEFACT_10": {
       "spawnPoint": {
         "name": "help_comp_spawn",
         "tag": "artefact_sell"
@@ -1586,7 +1586,7 @@
           }
         }
       ],
-      "friendType": "ARTEFACT_SELL_FRIEND",
+      "friendType": "SELL_ARTEFACT_FRIEND",
       "waypointArrow": {
         "purpose": "rpg.dialog.help_companion.waypoint_arrow.purpose",
         "location": {
