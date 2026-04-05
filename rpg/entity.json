@@ -57,7 +57,18 @@
     },
     "SELL_EQUIPMENT_FRIEND": {
       "name": "rpg.npc.equipment.sell.friend.title",
-      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/sell-dnk.png",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/equipment_sell_friend.png",
+      "attributes": {
+        "FOLLOW_RANGE": 120.0,
+        "MAX_HEALTH": 200.0,
+        "ATTACK_DAMAGE": 0.0,
+        "MOVEMENT_SPEED": 0.3
+      },
+      "isAntiKnockback": true
+    },
+    "SELL_EQUIPMENT_FRIEND_5": {
+      "name": "rpg.npc.equipment.sell.friend.title",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/equipment_sell_friend_2.png",
       "attributes": {
         "FOLLOW_RANGE": 120.0,
         "MAX_HEALTH": 200.0,
@@ -68,7 +79,7 @@
     },
     "SHOP_FEED_FRIEND": {
       "name": "rpg.npc.feed.shop.friend.title",
-      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/sell-dnk.png",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/feed_shop_friend.png",
       "attributes": {
         "FOLLOW_RANGE": 120.0,
         "MAX_HEALTH": 200.0,
@@ -79,7 +90,18 @@
     },
     "UPGRADE_RUNE_FRIEND": {
       "name": "rpg.npc.rune.upgrade.title",
-      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/sell-dnk.png",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/rune_upgrade_friend.png",
+      "attributes": {
+        "FOLLOW_RANGE": 120.0,
+        "MAX_HEALTH": 200.0,
+        "ATTACK_DAMAGE": 0.0,
+        "MOVEMENT_SPEED": 0.3
+      },
+      "isAntiKnockback": true
+    },
+    "UPGRADE_RUNE_FRIEND_8": {
+      "name": "rpg.npc.rune.upgrade.title",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/rune_upgrade_friend_2.png",
       "attributes": {
         "FOLLOW_RANGE": 120.0,
         "MAX_HEALTH": 200.0,
@@ -90,7 +112,18 @@
     },
     "SELL_ARTEFACT_FRIEND": {
       "name": "rpg.npc.sell.artefact.title",
-      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/sell-dnk.png",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/sell_artefact_friend.png",
+      "attributes": {
+        "FOLLOW_RANGE": 120.0,
+        "MAX_HEALTH": 200.0,
+        "ATTACK_DAMAGE": 0.0,
+        "MOVEMENT_SPEED": 0.3
+      },
+      "isAntiKnockback": true
+    },
+    "SELL_ARTEFACT_FRIEND_10": {
+      "name": "rpg.npc.sell.artefact.title",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/sell_artefact_friend_2.png",
       "attributes": {
         "FOLLOW_RANGE": 120.0,
         "MAX_HEALTH": 200.0,
@@ -101,7 +134,18 @@
     },
     "UNSPELL_RUNE_FRIEND": {
       "name": "rpg.npc.rune.unspell.title",
-      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/sell-dnk.png",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/rune_unspell_friend.png",
+      "attributes": {
+        "FOLLOW_RANGE": 120.0,
+        "MAX_HEALTH": 200.0,
+        "ATTACK_DAMAGE": 0.0,
+        "MOVEMENT_SPEED": 0.3
+      },
+      "isAntiKnockback": true
+    },
+    "UNSPELL_RUNE_FRIEND_9": {
+      "name": "rpg.npc.rune.unspell.title",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/rune_unspell_friend_2.png",
       "attributes": {
         "FOLLOW_RANGE": 120.0,
         "MAX_HEALTH": 200.0,
@@ -112,7 +156,7 @@
     },
     "SHOP_ARTEFACT_FRIEND": {
       "name": "rpg.npc.shop.artefact.title",
-      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/sell-dnk.png",
+      "skinUrl": "https://storage.c7x.dev/topil_ov/katana/skins/shop_artefact_friend.png",
       "attributes": {
         "FOLLOW_RANGE": 120.0,
         "MAX_HEALTH": 200.0,
@@ -875,7 +919,7 @@
         "type": "WOOD_SWORD",
         "data": {
           "tool_data": {
-              "damage": 5
+            "damage": 5
           },
           "sim_rpg": "bursting_shackles"
         }
