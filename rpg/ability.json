@@ -1,13 +1,10 @@
 {
   "$schema": "./schema/ability.schema.json",
-
   "offsetY": 165,
-
   "settings": {
     "bloodSettings": {
-      "damagePercentage": 1.0
+      "damagePercentage": 15.0
     },
-
     "cleanSettings": {
       "vignette": {
         "color": {
@@ -18,7 +15,6 @@
         "stationary": false
       }
     },
-
     "crushSettings": {
       "potions": [
         {
@@ -35,7 +31,6 @@
         }
       ]
     },
-
     "explodeSettings": {
       "particle": {
         "type": "EXPLOSION",
@@ -52,11 +47,9 @@
         "amplifier": 1
       }
     },
-
     "finisherAbilitySettings": {
-      "damagePercentage": 1.2
+      "damagePercentage": 20.0
     },
-
     "ironWillAbilitySettings": {
       "vignette": {
         "color": {
@@ -66,11 +59,10 @@
         "duration": 1.0,
         "stationary": false
       },
-      "damageReduce": 0.6
+      "damageReduceFactor": 0.6
     },
-
     "justiceBladeAbilitySettings": {
-      "damage": 10.0,
+      "damagePercentage": 6.0,
       "particle": {
         "type": "FLAME",
         "count": 10,
@@ -81,11 +73,9 @@
         }
       }
     },
-
     "lightFeetSettings": {
       "moveSpeed": 0.2
     },
-
     "phantomJerkSettings": {
       "vignette": {
         "color": {
@@ -96,7 +86,6 @@
         "stationary": false
       }
     },
-
     "poisonTouchSettings": {
       "effect": {
         "type": "POISON",
@@ -104,7 +93,6 @@
         "amplifier": 1
       }
     },
-
     "tripeArrowSettings": {
       "arrows": [
         {
@@ -137,7 +125,6 @@
       ]
     }
   },
-
   "abilities": {
     "JUSTICE_BLADE": {
       "isActive": true,
@@ -147,7 +134,6 @@
       "cooldown": 18,
       "isLocked": false
     },
-
     "IRON_WILL": {
       "isActive": true,
       "texture": "iron_will_ability.png",
@@ -156,39 +142,30 @@
       "cooldown": 18,
       "isLocked": false
     },
-
     "BLOOD": {
       "isActive": false
     },
-
     "UNSHAKABLE": {
       "isActive": false
     },
-
     "WARRIOR": {
       "isActive": false
     },
-
     "STEEL_SPIRIT": {
       "isActive": false
     },
-
     "POISON_TOUCH": {
       "isActive": false
     },
-
     "LIGHT_FEET": {
       "isActive": false
     },
-
     "HIT_SERIES": {
       "isActive": false
     },
-
     "FINISHER": {
       "isActive": false
     },
-
     "KNOCK_WEAPON": {
       "isActive": true,
       "texture": "knock_weapon_ability.png",
@@ -197,7 +174,6 @@
       "cooldown": 18,
       "isLocked": false
     },
-
     "PHANTOM_JERK": {
       "isActive": true,
       "texture": "phantom_jerk_ability.png",
@@ -206,7 +182,6 @@
       "cooldown": 15,
       "isLocked": false
     },
-
     "FROZEN_SHOT": {
       "isActive": true,
       "texture": "frozen_shot_ability.png",
@@ -215,7 +190,6 @@
       "cooldown": 10,
       "isLocked": false
     },
-
     "TRIPLE_ARROW": {
       "isActive": true,
       "texture": "triple_arrow_ability.png",
@@ -224,23 +198,18 @@
       "cooldown": 15,
       "isLocked": false
     },
-
     "CRUSH": {
       "isActive": false
     },
-
     "SURVIVAL": {
       "isActive": false
     },
-
     "NATURE_SPIRIT": {
       "isActive": false
     },
-
     "UNPREDICTABLE_RHYTHM": {
       "isActive": false
     },
-
     "CLEAN": {
       "isActive": true,
       "texture": "clean_ability.png",
@@ -249,7 +218,6 @@
       "cooldown": 15,
       "isLocked": false
     },
-
     "EXPLODE": {
       "isActive": true,
       "texture": "explode_ability.png",
@@ -258,19 +226,15 @@
       "cooldown": 10,
       "isLocked": false
     },
-
     "RANDOM_MAGIC": {
       "isActive": false
     },
-
     "RESONANCE": {
       "isActive": false
     },
-
     "THORN": {
       "isActive": false
     },
-
     "DETERMINATION": {
       "isActive": false
     }
