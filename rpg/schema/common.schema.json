@@ -1010,6 +1010,27 @@
             ],
             "additionalProperties": false
         },
+        "timedDescription": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "$ref": "#/$defs/i18n"
+                },
+                "description": {
+                    "$ref": "#/$defs/i18n"
+                },
+                "color": {
+                    "$ref": "#/$defs/color"
+                },
+                "duration": {
+                    "type": "number"
+                },
+                "verticalPosition": {
+                    "type": "number"
+                }
+            },
+            "additionalProperties": false
+        },
         "rarity": {
             "type": "string",
             "enum": [

@@ -45,6 +45,9 @@
           "type": "integer",
           "minimum": 0
         },
+        "timedDescription": {
+          "$ref": "./common.schema.json#/$defs/timedDescription"
+        },
         "cooldown": {
           "type": "number",
           "minimum": 0
