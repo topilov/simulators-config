@@ -22,7 +22,17 @@
       "cooldown": 18,
       "isLocked": false,
       "settings": {
-        
+        "ironWillAbilitySettings": {
+          "vignette": {
+            "color": {
+              "hex": "#FFFFFF"
+            },
+            "alpha": 1.0,
+            "duration": 1.0,
+            "stationary": false
+          },
+          "damageReduce": 0.6
+        }
       }
     },
     "BLOOD": {
@@ -70,7 +80,9 @@
     "FINISHER": {
       "isActive": false,
       "settings": {
-        
+        "finisherAbilitySettings": {
+          "damagePercentage": 1.2
+        }
       }
     },
     "KNOCK_WEAPON": {
