@@ -120,7 +120,22 @@
     "CRUSH": {
       "isActive": false,
       "settings": {
-        
+        "crushSettings": {
+          "potions": [
+            {
+              "type": "SLOW",
+              "duration": 100,
+              "amplifier": 2,
+              "ambient": false,
+              "particles": true
+            },
+            {
+              "type": "BLINDNESS",
+              "duration": 60,
+              "amplifier": 1
+            }
+          ]
+        }
       }
     },
     "SURVIVAL": {
