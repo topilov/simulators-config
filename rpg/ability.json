@@ -1,7 +1,129 @@
 {
   "$schema": "./schema/ability.schema.json",
-  
   "offsetY": 165,
+  "settings": {
+    "bloodSettings": {
+      "damagePercentage": 15.0
+    },
+    "cleanSettings": {
+      "vignette": {
+        "color": {
+          "hex": "#FFFFFF"
+        },
+        "alpha": 1.0,
+        "duration": 1.0,
+        "stationary": false
+      }
+    },
+    "crushSettings": {
+      "potions": [
+        {
+          "type": "SLOW",
+          "duration": 100,
+          "amplifier": 2,
+          "ambient": false,
+          "particles": true
+        },
+        {
+          "type": "BLINDNESS",
+          "duration": 60,
+          "amplifier": 1
+        }
+      ]
+    },
+    "explodeSettings": {
+      "particle": {
+        "type": "EXPLOSION_HUGE",
+        "count": 20,
+        "offset": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "effect": {
+        "type": "HARM",
+        "duration": 1,
+        "amplifier": 1
+      }
+    },
+    "finisherAbilitySettings": {
+      "damagePercentage": 20.0
+    },
+    "ironWillAbilitySettings": {
+      "vignette": {
+        "color": {
+          "hex": "#FFFFFF"
+        },
+        "alpha": 1.0,
+        "duration": 1.0,
+        "stationary": false
+      },
+      "damageReduceFactor": 0.6
+    },
+    "justiceBladeAbilitySettings": {
+      "damagePercentage": 6.0,
+      "particle": {
+        "type": "FLAME",
+        "count": 10,
+        "offset": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      }
+    },
+    "lightFeetSettings": {
+      "moveSpeed": 0.2
+    },
+    "phantomJerkSettings": {
+      "vignette": {
+        "color": {
+          "hex": "#AAAAFF"
+        },
+        "alpha": 0.8,
+        "duration": 0.5,
+        "stationary": false
+      },
+      "effect": {
+        "type": "HARM",
+        "duration": 1,
+        "amplifier": 1
+      }
+    },
+    "poisonTouchSettings": {
+      "effect": {
+        "type": "POISON",
+        "duration": 100,
+        "amplifier": 1
+      }
+    },
+    "tripeArrowSettings": {
+      "arrows": [
+        {
+          "offset": -0.2,
+          "damageable": true,
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        },
+        {
+          "offset": 0.0,
+          "damageable": true,
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        },
+        {
+          "offset": 0.2,
+          "damageable": true,
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      ]
+    }
+  },
   "abilities": {
     "JUSTICE_BLADE": {
       "isActive": true,
@@ -102,7 +224,7 @@
       "duration": 3,
       "cooldown": 10,
       "isLocked": false
-    }, 
+    },
     "RANDOM_MAGIC": {
       "isActive": false
     },
