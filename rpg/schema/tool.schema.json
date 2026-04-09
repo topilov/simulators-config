@@ -55,6 +55,7 @@
         "type",
         "material",
         "title",
+        "formattedTitle",
         "description",
         "rare",
         "damage",
@@ -73,6 +74,9 @@
           "$ref": "./common.schema.json#/$defs/material"
         },
         "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "formattedTitle": {
           "$ref": "./common.schema.json#/$defs/i18n"
         },
         "description": {
