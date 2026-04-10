@@ -105,6 +105,7 @@
         "chance",
         "type",
         "name",
+        "level",
         "skinUrl",
         "attributes"
       ],
@@ -122,6 +123,10 @@
         },
         "name": {
           "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1
         },
         "skinUrl": {
           "$ref": "./common.schema.json#/$defs/url"
