@@ -104,7 +104,8 @@
       "required": [
         "chance",
         "type",
-        "name",
+        "title",
+        "formattedTitle",
         "level",
         "skinUrl",
         "attributes"
@@ -121,7 +122,10 @@
         "entityType": {
           "$ref": "./common.schema.json#/$defs/mobType"
         },
-        "name": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "formattedTitle": {
           "$ref": "./common.schema.json#/$defs/i18n"
         },
         "level": {
