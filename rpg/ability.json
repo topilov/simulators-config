@@ -19,7 +19,7 @@
       "potions": [
         {
           "type": "SLOW",
-          "duration": 100,
+          "duration": 60,
           "amplifier": 2,
           "ambient": false,
           "particles": true
@@ -91,10 +91,10 @@
         "amplifier": 1
       }
     },
-    "poisonTouchSettings": {
+    "slowTouchSettings": {
       "effect": {
-        "type": "POISON",
-        "duration": 100,
+        "type": "SLOWNESS",
+        "duration": 30,
         "amplifier": 1
       }
     },
