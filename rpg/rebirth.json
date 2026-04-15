@@ -4,12 +4,14 @@
     "confirmButton": "rpg.rebirth.confirm",
     "cancelButton": "rpg.rebirth.cancel"
   },
-  "rewards": {
-    "100":[
-      "command"
-    ],
-    "50":[
-      "command"
-    ]
-  }
+  "rewards": [
+    {
+      "chance": 100,
+      "commands": ["command"]
+    },
+    {
+      "chance": 50,
+      "commands": ["command"]
+    }
+  ]
 }
