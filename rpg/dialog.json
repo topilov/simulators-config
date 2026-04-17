@@ -51,7 +51,8 @@
             {
               "text": "rpg.dialog.answer.claim.title",
               "rewards": [
-                "earn-money %player% 100 true"
+               "give-shiv %player% ARMOR DEFAULT 1",
+               "give-shiv %player% TOOL DEFAULT 1"
               ],
               "nextPart": 4
             }
@@ -114,7 +115,8 @@
             {
               "text": "rpg.dialog.answer.claim.title",
               "rewards": [
-                "earn-money %player% 100 true"
+                "give-key %player% DEFAULT 2",
+                "give-key %player% TITLE 1"
               ],
               "nextPart": 4
             }
