@@ -399,15 +399,6 @@
               },
               {
                 "type": "CLAY_BALL",
-                "name": "rpg.lootbox.pets.key.title",
-                "lore": "rpg.lootbox.pets.key.description",
-                "amount": 1,
-                "data": {
-                  "sim": "fox_key"
-                }
-              },
-              {
-                "type": "CLAY_BALL",
                 "name": "rpg.lootbox.runes.key.title",
                 "lore": "rpg.lootbox.runes.key.description",
                 "amount": 1,
@@ -562,15 +553,6 @@
               },
               {
                 "type": "CLAY_BALL",
-                "name": "rpg.lootbox.pets.key.title",
-                "lore": "rpg.lootbox.pets.key.description",
-                "amount": 1,
-                "data": {
-                  "sim": "fox_key"
-                }
-              },
-              {
-                "type": "CLAY_BALL",
                 "name": "rpg.lootbox.runes.key.title",
                 "lore": "rpg.lootbox.runes.key.description",
                 "amount": 1,
@@ -707,15 +689,6 @@
                 "amount": 1,
                 "data": {
                   "sim": "goldkey"
-                }
-              },
-              {
-                "type": "CLAY_BALL",
-                "name": "rpg.lootbox.pets.key.title",
-                "lore": "rpg.lootbox.pets.key.description",
-                "amount": 1,
-                "data": {
-                  "sim": "fox_key"
                 }
               },
               {
@@ -874,15 +847,6 @@
                 "amount": 1,
                 "data": {
                   "sim": "goldkey"
-                }
-              },
-              {
-                "type": "CLAY_BALL",
-                "name": "rpg.lootbox.pets.key.title",
-                "lore": "rpg.lootbox.pets.key.description",
-                "amount": 1,
-                "data": {
-                  "sim": "fox_key"
                 }
               },
               {
@@ -1119,7 +1083,7 @@
               "onSuccess": ["earn-bits %player% 10 true"]
             },
             {
-              "chance": 1,
+              "chance": 0.7,
               "dropId": "KeyPets",
               "maxCount": 1,
               "cooldown": 86400000,
@@ -1293,7 +1257,7 @@
               "onSuccess": ["earn-bits %player% 10 true"]
             },
             {
-              "chance": 1,
+              "chance": 0.8,
               "dropId": "KeyPets",
               "maxCount": 1,
               "cooldown": 86400000,
@@ -1467,7 +1431,7 @@
               "onSuccess": ["earn-bits %player% 10 true"]
             },
             {
-              "chance": 1,
+              "chance": 0.9,
               "dropId": "KeyPets",
               "maxCount": 1,
               "cooldown": 86400000,
