@@ -10,8 +10,44 @@
       "commands": ["infinity-booster %player% MONEY 0.25"]
     },
     {
+      "chance": 100,
+      "commands": ["give-shiv %player% TOOL DEFAULT 5"]
+    },
+    {
+      "chance": 100,
+      "commands": ["give-shiv %player% ARMOR DEFAULT 5"]
+    },
+    {
       "chance": 50,
-      "commands": ["command"]
+      "commands": ["give-key %player% DEFAULT 5"]
+    },
+    {
+      "chance": 30,
+      "commands": ["give-key %player% TITLE 1"]
+    },
+    {
+      "chance": 30,
+      "commands": ["give-key %player% RUNE 3"]
+    },
+    {
+      "chance": 30,
+      "commands": ["give-shiv %player% TOOL EPIC 3"]
+    },
+    {
+      "chance": 30,
+      "commands": ["give-shiv %player% TOOL EPIC 3"]
+    },
+    {
+      "chance": 10,
+      "commands": ["give-key %player% PET 1"]
+    },
+    {
+      "chance": 2,
+      "commands": ["give-shiv %player% TOOL LEGENDARY 1"]
+    },
+    {
+      "chance": 2,
+      "commands": ["give-shiv %player% TOOL LEGENDARY 1"]
     }
   ]
 }
