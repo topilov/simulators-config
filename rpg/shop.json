@@ -413,7 +413,7 @@
           "description": "rpg.shiv.item.tool.default.lore",
           "icon": "default_shiv_tool.png",
           "price": 20.0,
-          "vault": "\uE108",
+          "vault": "\uE1D1",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
@@ -426,7 +426,7 @@
           "description": "rpg.shiv.item.armor.default.lore",
           "icon": "default_shiv_armor.png",
           "price": 10.0,
-          "vault": "\uE108",
+          "vault": "\uE1D1",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
@@ -474,54 +474,54 @@
         },
         "BOOSTER_EXP": {
           "type": "BOOSTER_EXP",
-          "title": "rpg.booster.exp.title",
-          "description": "rpg.booster.exp.content",
+          "title": "rpg.shop.bits.exp.title",
+          "description": "rpg.shop.bits.exp.hover",
           "icon": "exp_booster.png",
           "price": 75.0,
           "vault": "\uE1D1",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "local-booster %player% EXP 0.5 1800 %count%"
+            "local-booster %player% EXP 1.5 1800 %count%"
           ]
         },
         "BOOSTER_MONEY": {
           "type": "BOOSTER_MONEY",
-          "title": "rpg.booster.money.title",
-          "description": "rpg.booster.money.content",
+          "title": "rpg.shop.bits.money.title",
+          "description": "rpg.shop.bits.money.hover",
           "icon": "money_booster.png",
           "price": 75.0,
           "vault": "\uE1D1",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "local-booster %player% MONEY 0.5 1800 %count%"
+            "local-booster %player% MONEY 1.5 1800 %count%"
           ]
         },
         "BOOSTER_MOBS": {
           "type": "BOOSTER_MOBS",
-          "title": "rpg.booster.mobs.title",
-          "description": "rpg.booster.mobs.content",
+          "title": "rpg.shop.bits.mobs.title",
+          "description": "rpg.shop.bits.mobs.hover",
           "icon": "mobs_booster.png",
           "price": 75.0,
           "vault": "\uE1D1",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "local-booster %player% MOBS 0.5 1800 %count%"
+            "local-booster %player% MOBS 1.5 1800 %count%"
           ]
         },
         "BOOSTER_LUCK": {
           "type": "BOOSTER_LUCK",
-          "title": "rpg.booster.luck.title",
-          "description": "rpg.booster.luck.content",
+          "title": "rpg.shop.bits.luck.title",
+          "description": "rpg.shop.bits.luck.hover",
           "icon": "luck_booster.png",
           "price": 75.0,
           "vault": "\uE1D1",
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "local-booster %player% LUCK 0.5 1800 %count%"
+            "local-booster %player% LUCK 1.5 1800 %count%"
           ]
         }
       }
