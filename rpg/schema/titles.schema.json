@@ -65,7 +65,7 @@
     "title": {
       "type": "object",
       "required": [
-        "menuTitle",
+        "formattedTitle",
         "title",
         "description",
         "texture",
@@ -74,7 +74,7 @@
         "notification"
       ],
       "properties": {
-        "menuTitle": {
+        "formattedTitle": {
           "$ref": "./common.schema.json#/$defs/i18n"
         },
         "title": {
