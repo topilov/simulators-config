@@ -89,15 +89,15 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "rpg.booster.exp.title",
-              "lore": "rpg.booster.exp.content",
+              "name": "i18n.rpg.lootbox.reward.booster_exp.title|!|¨46bfef",
+              "lore": "rpg.lootbox.reward.booster.description|!|50%|!|20 минут",
               "data": {
                 "rpg": "exp_booster"
               }
             },
             "chance": 5,
             "onDrop": [
-              "local-booster %player% EXP 2 7200 1"
+              "local-booster %player% EXP 1.5 7200 1"
             ]
           },
           {
@@ -105,15 +105,15 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "rpg.booster.money.title",
-              "lore": "rpg.booster.money.content",
+              "name": "i18n.rpg.lootbox.reward.booster_money.title|!|¨46bfef",
+              "lore": "i18n.rpg.lootbox.reward.booster.description|!|50%|!|20 минут",
               "data": {
                 "rpg": "money_booster"
               }
             },
             "chance": 5,
             "onDrop": [
-              "local-booster %player% MONEY 2 7200 1"
+              "local-booster %player% MONEY 1.5 7200 1"
             ]
           },
           {
@@ -121,15 +121,15 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "rpg.booster.mobs.title",
-              "lore": "rpg.booster.mobs.content",
+              "name": "i18n.rpg.lootbox.reward.booster_mobs.title|!|¨46bfef",
+              "lore": "i18n.rpg.lootbox.reward.booster.description|!|50%|!|20 минут",
               "data": {
                 "rpg": "mobs_booster"
               }
             },
             "chance": 5,
             "onDrop": [
-              "local-booster %player% MOBS 2 7200 1"
+              "local-booster %player% MOBS 1.5 7200 1"
             ]
           },
           {
@@ -137,15 +137,15 @@
             "rarity": "RARE",
             "itemStack": {
               "type": "CLAY_BALL",
-              "name": "rpg.booster.luck.title",
-              "lore": "rpg.booster.luck.content",
+              "name": "i18n.rpg.lootbox.reward.booster_luck.title|!|¨46bfef",
+              "lore": "i18n.rpg.lootbox.reward.booster.description|!|50%|!|20 минут",
               "data": {
                 "rpg": "luck_booster"
               }
             },
             "chance": 5,
             "onDrop": [
-              "local-booster %player% LUCK 2 7200 1"
+              "local-booster %player% LUCK 1.5 7200 1"
             ]
           },
           {
