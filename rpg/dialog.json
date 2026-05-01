@@ -4413,11 +4413,10 @@
             {
               "isClaim": true,
               "text": "rpg.dialog.answer.claim.title",
-              "nextPart": 1,
               "rewards": [
-                "infinity-booster %player% MONEY 0.25"
-              ],
-              "isShowNextPart": true
+                "infinity-booster %player% MONEY 0.25",
+                "earn-completed-quests %player% 1"
+              ]
             },
             {
               "text": "rpg.dialog.answer.close.title"
