@@ -30,7 +30,9 @@
       "alertRarities": [
         "LEGENDARY"
       ],
-      "onOpen": [],
+      "onOpen": [
+        "add-achievement-progress %player% OPEN_DEFAULT_LOOTBOX %amount%"
+      ],
       "menu": {
         "id": "default",
         "title": "rpg.lootbox.default.menu.title",
@@ -197,7 +199,9 @@
         "LEGENDARY"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
-      "onOpen": [],
+      "onOpen": [
+        "add-achievement-progress %player% OPEN_PET_LOOTBOX %amount%"
+      ],
       "menu": {
         "id": "pets",
         "title": "rpg.lootbox.pets.menu.title",
@@ -385,7 +389,9 @@
         "MYTHIC"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
-      "onOpen": [],
+      "onOpen": [
+        "add-achievement-progress %player% OPEN_RUNE_LOOTBOX %amount%"
+      ],
       "menu": {
         "id": "rune",
         "title": "rpg.lootbox.runes.menu.title",
@@ -873,7 +879,9 @@
         "LEGENDARY"
       ],
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
-      "onOpen": [],
+      "onOpen": [
+        "add-achievement-progress %player% OPEN_TITLE_LOOTBOX %amount%"
+      ],
       "menu": {
         "id": "title",
         "title": "rpg.lootbox.titles.menu.title",
