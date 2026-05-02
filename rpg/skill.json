@@ -135,6 +135,9 @@
            ],
           "onUpgrade": [
             "add-max-health %player% %stat%"
+          ],
+          "onReset": [
+            "add-max-health %player% -%stat%"
           ]
         }
       }
@@ -224,6 +227,9 @@
           ],
           "onUpgrade": [
             "add-speed %player% %stat%"
+          ],
+          "onReset": [
+            "add-speed %player% -%stat%"
           ]
         },
         "EVASION": {
