@@ -1,10 +1,10 @@
 {
   "logging": false,
   "name": "Симулятор Сокровищ",
-  "simulatorId": "treasures_4",
+  "simulatorId": "treasures_5",
   "databaseId": "treasures",
   "showLocation": false,
-  "isWhitelisted": false,
+  "isWhitelisted": true,
   "isTest": false,
   "hasPrivateAccess": false,
   "privateAccessGroups": [
@@ -24,9 +24,8 @@
   "localStaff": {
     "4b2ec4fc-2244-11e9-8374-1cb72caa35fd": "GAME_DESIGNER",
     "eb800d67-6684-11e9-8374-1cb72caa35fd": "SENIOR_LOCAL_STAFF",
-    "c9cff4a7-089c-11ea-8b8a-1cb72caa35fd": "LOCAL_STAFF",
-    "44a2f79e-e390-11ec-bc0d-1cb72caa35fd": "LOCAL_STAFF",
-    "02d6b569-51e0-11eb-acca-1cb72caa35fd": "LOCAL_STAFF"
+    "02d6b569-51e0-11eb-acca-1cb72caa35fd": "SENIOR_LOCAL_STAFF",
+    "c9cff4a7-089c-11ea-8b8a-1cb72caa35fd": "LOCAL_STAFF"
   },
   "groups": {
     "LOCAL_STAFF": {
@@ -109,7 +108,12 @@
     "cooldownMessage": "treasures.chat.message.cooldown",
     "globalStartChar": "!",
     "globalPrefix": "",
-    "localPrefix": "§8[§aL§8]"
+    "localPrefix": "§8[§aL§8]",
+    "domainWhitelist": [
+      "cristalix.gg",
+      "t.me",
+      "discord.gg"
+    ]
   },
   "daily": {
     "nextTakeReward": 86400000,
