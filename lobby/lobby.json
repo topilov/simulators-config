@@ -1,7 +1,7 @@
 {
   "realmInfo": {
     "typeName": "SIML",
-    "readableName": "Симулятор Катаны",
+    "readableName": "Симулятор Сокровищ",
     "maxPlayers": 200
   },
   "map": {
@@ -12,10 +12,10 @@
     "0": {
       "stack": {
         "type": "COMPASS",
-        "name": "Войти на Симулятор Катаны"
+        "name": "Войти на Симулятор Сокровищ"
       },
       "onClick": [
-        "join-simulator %player% katana"
+        "join-simulator %player% treasures"
       ]
     }
   }
