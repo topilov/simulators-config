@@ -74,6 +74,7 @@
           ]
         },
         "HEALTH": {
+          "isAdditional": true,
           "title": "rpg.stat.health.title",
           "color": {
             "hex": "#146229"
@@ -134,6 +135,9 @@
            ],
           "onUpgrade": [
             "add-max-health %player% %stat%"
+          ],
+          "onReset": [
+            "add-max-health %player% -%stat%"
           ]
         }
       }
@@ -192,6 +196,7 @@
           ]
         },
         "SPEED": {
+          "isAdditional": true,
           "title": "rpg.stat.speed.text",
           "color": {
             "hex": "#4A8CEC"
@@ -222,6 +227,9 @@
           ],
           "onUpgrade": [
             "add-speed %player% %stat%"
+          ],
+          "onReset": [
+            "add-speed %player% -%stat%"
           ]
         },
         "EVASION": {
