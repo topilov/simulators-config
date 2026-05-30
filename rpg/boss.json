@@ -1514,6 +1514,24 @@
               },
               {
                 "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.legendary.name",
+                "lore": "rpg.shiv.item.armor.legendary.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "legendary_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.legendary.name",
+                "lore": "rpg.shiv.item.tool.legendary.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "legendary_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
                 "name": "rpg.lootbox.default.key.title",
                 "lore": "rpg.lootbox.default.key.description",
                 "amount": 1,
@@ -1556,53 +1574,67 @@
           },
           "drops": [
             {
+              "chance": 0.01,
+              "dropId": "ShivLegendary",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL LEGENDARY 1"]
+            },
+            {
+              "chance": 0.01,
+              "dropId": "ShivLegendaryArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR LEGENDARY 1"]
+            },
+            {
               "chance": 30,
               "dropId": "ShivDefault",
               "maxCount": 2,
               "cooldown": 11520000,
-              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 3"]
             },
             {
               "chance": 15,
               "dropId": "ShivEpic",
               "maxCount": 1,
               "cooldown": 11520000,
-              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+              "onSuccess": ["give-shiv %player% TOOL EPIC 2"]
             },
             {
               "chance": 30,
               "dropId": "ShivDefaultArmor",
               "maxCount": 2,
               "cooldown": 11520000,
-              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 1"]
+              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 3"]
             },
             {
               "chance": 15,
               "dropId": "ShivEpicArmor",
               "maxCount": 1,
               "cooldown": 11520000,
-              "onSuccess": ["give-shiv %player% ARMOR EPIC 1"]
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 2"]
             },
             {
               "chance": 8,
               "dropId": "LootBox",
               "maxCount": 2,
               "cooldown": 11520000,
-              "onSuccess": ["give-key %player% DEFAULT 1"]
+              "onSuccess": ["give-key %player% DEFAULT 2"]
             },
             {
               "chance": 50,
               "dropId": "Money",
               "maxCount": 2,
               "cooldown": 21600000,
-              "onSuccess": ["earn-money %player% 1200000 true"]
+              "onSuccess": ["earn-money %player% 2000000 true"]
             },
             {
               "chance": 50,
               "dropId": "Bits",
               "maxCount": 2,
               "cooldown": 21600000,
-              "onSuccess": ["earn-bits %player% 10 true"]
+              "onSuccess": ["earn-bits %player% 30 true"]
             },
             {
               "chance": 1,
