@@ -2,7 +2,7 @@
   "$schema": "./schema/skill.schema.json",
   "prices": {
     "shards": 100,
-    "time": 100
+    "time": 14400000
   },
   "messages": {
     "noSkillPointMessage": "rpg.skill.messages.no_skill_points",
@@ -134,10 +134,10 @@
               {"price":1,"stats":[{"title":"rpg.stat.level.text","stat":50,"readableStat":"50"},{"title":"rpg.stat.health.title","stat":100,"readableStat":"100"}]}
            ],
           "onUpgrade": [
-            "add-max-health %player% %stat%"
+            "add-max-health %player% %stat% true"
           ],
           "onReset": [
-            "add-max-health %player% -%stat%"
+            "add-max-health %player% -%stat% true"
           ]
         }
       }
