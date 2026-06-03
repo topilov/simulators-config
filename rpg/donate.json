@@ -122,6 +122,23 @@
         "payload gifts-title %count%"
       ]
     },
+    "PET_SLOT": {
+      "readableName": "Слот для питомца",
+      "donateName": "rpg.donate.element.pet-slot.donate-name",
+      "confirmationTitle": "rpg.donate.element.pet-slot.title",
+      "title": "rpg.donate.element.pet-slot.title",
+      "description": "rpg.donate.element.pet-slot.description",
+      "texture": "pet_slot.png",
+      "category": "OTHER",
+      "price": 149,
+      "sale": 70,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "unlock-pet-slot %player%"
+      ]
+    },
     "CHANGE_CLASS": {
       "readableName": "Смена класса",
       "donateName": "rpg.donate.element.change-class.donate-name",
