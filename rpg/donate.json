@@ -18,6 +18,110 @@
     }
   },
   "elements": {
+    "GIFTS_DEFAULT": {
+      "readableName": "Обычные подарочки",
+      "donateName": "rpg.donate.element.gifts-default.donate-name",
+      "confirmationTitle": "rpg.donate.element.gifts-default.title",
+      "title": "rpg.donate.element.gifts-default.title",
+      "description": "rpg.donate.element.gifts-default.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 39,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "alert": true,
+      "onBuy": [
+        "payload gifts-default %count%"
+      ]
+    },
+    "GIFTS_PET": {
+      "readableName": "Подарочки с Питомцами",
+      "donateName": "rpg.donate.element.gifts-pet.donate-name",
+      "confirmationTitle": "rpg.donate.element.gifts-pet.title",
+      "title": "rpg.donate.element.gifts-pet.title",
+      "description": "rpg.donate.element.gifts-pet.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 119,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "alert": true,
+      "onBuy": [
+        "payload gifts-pet %count%"
+      ]
+    },
+    "GIFTS_RUNE": {
+      "readableName": "Подарочки с Рунами",
+      "donateName": "rpg.donate.element.gifts-rune.donate-name",
+      "confirmationTitle": "rpg.donate.element.gifts-rune.title",
+      "title": "rpg.donate.element.gifts-rune.title",
+      "description": "rpg.donate.element.gifts-rune.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 199,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "alert": true,
+      "onBuy": [
+        "payload gifts-rune %count%"
+      ]
+    },
+    "GIFTS_TITLE": {
+      "readableName": "Подарочки с Титулами",
+      "donateName": "rpg.donate.element.gifts-title.donate-name",
+      "confirmationTitle": "rpg.donate.element.gifts-title.title",
+      "title": "rpg.donate.element.gifts-title.title",
+      "description": "rpg.donate.element.gifts-title.description",
+      "item": {
+        "type": "CLAY_BALL",
+        "data": {
+          "skyblock": "gift"
+        }
+      },
+      "category": "OTHER",
+      "price": 399,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "alert": true,
+      "onBuy": [
+        "payload gifts-title %count%"
+      ]
+    },
     "CHANGE_CLASS": {
       "readableName": "Смена класса",
       "donateName": "rpg.donate.element.change-class.donate-name",
