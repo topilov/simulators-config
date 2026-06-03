@@ -1,6 +1,5 @@
 {
   "$schema": "./schema/donate.schema.json",
-  
   "categories": {
     "OTHER": {
       "title": "rpg.donate.category.other.title"
@@ -18,5 +17,688 @@
       "title": "rpg.donate.category.boosters.title"
     }
   },
-  "elements": {}
+  "elements": {
+    "SIMPLE_WEAPON_UPGRADE": {
+      "readableName": "Обычная заточка оружия",
+      "donateName": "rpg.donate.element.simple-weapon-upgrade.donate-name",
+      "confirmationTitle": "rpg.donate.element.simple-weapon-upgrade.title",
+      "title": "rpg.donate.element.simple-weapon-upgrade.title",
+      "description": "rpg.donate.element.simple-weapon-upgrade.description",
+      "category": "GAME_ITEMS",
+      "price": 49,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "give-shiv %player% TOOL DEFAULT %count%"
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "name": "rpg.shiv.item.tool.default.name",
+        "lore": "rpg.shiv.item.tool.default.lore",
+        "unbreakable": true,
+        "data": {
+          "shiv": true,
+          "shiv_data": {
+            "equipment_type": "TOOL",
+            "is_clear_equipment": true,
+            "is_guaranteed_chance": false
+          },
+          "rpg": "default_shiv_tool",
+          "no-clear": 1,
+          "item_data": {
+            "rarity": "COMMON",
+            "storage_item_type": "OTHER",
+            "title": "rpg.shiv.item.tool.default.name"
+          }
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      }
+    },
+    "SIMPLE_ARMOR_UPGRADE": {
+      "readableName": "Обычная заточка брони",
+      "donateName": "rpg.donate.element.simple-armor-upgrade.donate-name",
+      "confirmationTitle": "rpg.donate.element.simple-armor-upgrade.title",
+      "title": "rpg.donate.element.simple-armor-upgrade.title",
+      "description": "rpg.donate.element.simple-armor-upgrade.description",
+      "category": "GAME_ITEMS",
+      "price": 59,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "give-shiv %player% ARMOR DEFAULT %count%"
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "name": "rpg.shiv.item.armor.default.name",
+        "lore": "rpg.shiv.item.armor.default.lore",
+        "unbreakable": true,
+        "data": {
+          "shiv": true,
+          "shiv_data": {
+            "equipment_type": "ARMOR",
+            "is_clear_equipment": true,
+            "is_guaranteed_chance": false
+          },
+          "rpg": "default_shiv_armor",
+          "no-clear": 1,
+          "item_data": {
+            "rarity": "COMMON",
+            "storage_item_type": "ARMOR",
+            "title": "rpg.shiv.item.armor.default.name"
+          }
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      }
+    },
+    "EPIC_WEAPON_UPGRADE": {
+      "readableName": "Эпическая заточка оружия",
+      "donateName": "rpg.donate.element.epic-weapon-upgrade.donate-name",
+      "confirmationTitle": "rpg.donate.element.epic-weapon-upgrade.title",
+      "title": "rpg.donate.element.epic-weapon-upgrade.title",
+      "description": "rpg.donate.element.epic-weapon-upgrade.description",
+      "category": "GAME_ITEMS",
+      "price": 99,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "give-shiv %player% TOOL EPIC %count%"
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "name": "rpg.shiv.item.tool.epic.name",
+        "lore": "rpg.shiv.item.tool.epic.lore",
+        "unbreakable": true,
+        "data": {
+          "shiv": true,
+          "shiv_data": {
+            "equipment_type": "TOOL",
+            "is_clear_equipment": false,
+            "is_guaranteed_chance": false
+          },
+          "rpg": "epic_shiv_tool",
+          "no-clear": 1,
+          "item_data": {
+            "rarity": "EPIC",
+            "storage_item_type": "OTHER",
+            "title": "rpg.shiv.item.tool.epic.name"
+          }
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      }
+    },
+    "EPIC_ARMOR_UPGRADE": {
+      "readableName": "Эпическая заточка брони",
+      "donateName": "rpg.donate.element.epic-armor-upgrade.donate-name",
+      "confirmationTitle": "rpg.donate.element.epic-armor-upgrade.title",
+      "title": "rpg.donate.element.epic-armor-upgrade.title",
+      "description": "rpg.donate.element.epic-armor-upgrade.description",
+      "category": "GAME_ITEMS",
+      "price": 99,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "give-shiv %player% ARMOR EPIC %count%"
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "name": "rpg.shiv.item.armor.epic.name",
+        "lore": "rpg.shiv.item.armor.epic.lore",
+        "unbreakable": true,
+        "data": {
+          "shiv": true,
+          "shiv_data": {
+            "equipment_type": "ARMOR",
+            "is_clear_equipment": false,
+            "is_guaranteed_chance": false
+          },
+          "rpg": "epic_shiv_armor",
+          "no-clear": 1,
+          "item_data": {
+            "rarity": "EPIC",
+            "storage_item_type": "ARMOR",
+            "title": "rpg.shiv.item.armor.epic.name"
+          }
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      }
+    },
+    "CRYSTAL_WEAPON_UPGRADE": {
+      "readableName": "Хрустальная заточка оружия",
+      "donateName": "rpg.donate.element.crystal-weapon-upgrade.donate-name",
+      "confirmationTitle": "rpg.donate.element.crystal-weapon-upgrade.title",
+      "title": "rpg.donate.element.crystal-weapon-upgrade.title",
+      "description": "rpg.donate.element.crystal-weapon-upgrade.description",
+      "category": "GAME_ITEMS",
+      "price": 359,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "give-shiv %player% TOOL LEGENDARY %count%"
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "name": "rpg.shiv.item.tool.legendary.name",
+        "lore": "rpg.shiv.item.tool.legendary.lore",
+        "unbreakable": true,
+        "data": {
+          "shiv": true,
+          "shiv_data": {
+            "equipment_type": "TOOL",
+            "is_clear_equipment": false,
+            "is_guaranteed_chance": true
+          },
+          "rpg": "legendary_shiv_tool",
+          "no-clear": 1,
+          "item_data": {
+            "rarity": "LEGENDARY",
+            "storage_item_type": "OTHER",
+            "title": "rpg.shiv.item.tool.legendary.name"
+          }
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      }
+    },
+    "CRYSTAL_ARMOR_UPGRADE": {
+      "readableName": "Хрустальная заточка брони",
+      "donateName": "rpg.donate.element.crystal-armor-upgrade.donate-name",
+      "confirmationTitle": "rpg.donate.element.crystal-armor-upgrade.title",
+      "title": "rpg.donate.element.crystal-armor-upgrade.title",
+      "description": "rpg.donate.element.crystal-armor-upgrade.description",
+      "category": "GAME_ITEMS",
+      "price": 189,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "give-shiv %player% ARMOR LEGENDARY %count%"
+      ],
+      "item": {
+        "type": "CLAY_BALL",
+        "name": "rpg.shiv.item.armor.legendary.name",
+        "lore": "rpg.shiv.item.armor.legendary.lore",
+        "unbreakable": true,
+        "data": {
+          "shiv": true,
+          "shiv_data": {
+            "equipment_type": "ARMOR",
+            "is_clear_equipment": false,
+            "is_guaranteed_chance": true
+          },
+          "rpg": "legendary_shiv_armor",
+          "no-clear": 1,
+          "item_data": {
+            "rarity": "LEGENDARY",
+            "storage_item_type": "ARMOR",
+            "title": "rpg.shiv.item.armor.legendary.name"
+          }
+        },
+        "flags": [
+          "HIDE_ATTRIBUTES",
+          "HIDE_ENCHANTS",
+          "HIDE_UNBREAKABLE"
+        ]
+      }
+    },
+    "DEFAULT_KEY": {
+      "readableName": "Обычный ключ от лутбокса",
+      "donateName": "rpg.donate.element.default-key.donate-name",
+      "confirmationTitle": "rpg.donate.element.default-key.title",
+      "title": "rpg.donate.element.default-key.title",
+      "description": "rpg.donate.element.default-key.description",
+      "category": "GAME_ITEMS",
+      "price": 49,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10,
+        25
+      ],
+      "onBuy": [
+        "give-key %player% DEFAULT %count%"
+      ],
+      "texture": "goldkey.png",
+      "max": -1
+    },
+    "RUNE_KEY": {
+      "readableName": "Ключ от лутбокса с Рунами",
+      "donateName": "rpg.donate.element.rune-key.donate-name",
+      "confirmationTitle": "rpg.donate.element.rune-key.title",
+      "title": "rpg.donate.element.rune-key.title",
+      "description": "rpg.donate.element.rune-key.description",
+      "category": "GAME_ITEMS",
+      "price": 109,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10,
+        25
+      ],
+      "onBuy": [
+        "give-key %player% RUNE %count%"
+      ],
+      "texture": "rune_key.png",
+      "max": -1
+    },
+    "PET_KEY": {
+      "readableName": "Ключ от лутбокса с Питомцами",
+      "donateName": "rpg.donate.element.pet-key.donate-name",
+      "confirmationTitle": "rpg.donate.element.pet-key.title",
+      "title": "rpg.donate.element.pet-key.title",
+      "description": "rpg.donate.element.pet-key.description",
+      "category": "GAME_ITEMS",
+      "price": 299,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10,
+        25
+      ],
+      "onBuy": [
+        "give-key %player% PET %count%"
+      ],
+      "texture": "fox_key.png",
+      "max": -1
+    },
+    "TITLE_KEY": {
+      "readableName": "Ключ от лутбокса с Титулами",
+      "donateName": "rpg.donate.element.title-key.donate-name",
+      "confirmationTitle": "rpg.donate.element.title-key.title",
+      "title": "rpg.donate.element.title-key.title",
+      "description": "rpg.donate.element.title-key.description",
+      "category": "GAME_ITEMS",
+      "price": 199,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10,
+        25
+      ],
+      "onBuy": [
+        "give-key %player% TITLE %count%"
+      ],
+      "texture": "purple_cristal_key.png",
+      "max": -1
+    },
+    "LOCAL_MOBS": {
+      "readableName": "Локальный бустер мобов",
+      "donateName": "rpg.donate.element.local-mobs.donate-name",
+      "confirmationTitle": "rpg.donate.element.local-mobs.title",
+      "title": "rpg.donate.element.local-mobs.title",
+      "description": "rpg.donate.element.local-mobs.description",
+      "category": "BOOSTERS",
+      "price": 179,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "local-booster %player% MOBS 2 7200 %count%"
+      ],
+      "texture": "mob_booster.png",
+      "alert": false
+    },
+    "LOCAL_LUCK": {
+      "readableName": "Локальный бустер удачи",
+      "donateName": "rpg.donate.element.local-luck.donate-name",
+      "confirmationTitle": "rpg.donate.element.local-luck.title",
+      "title": "rpg.donate.element.local-luck.title",
+      "description": "rpg.donate.element.local-luck.description",
+      "category": "BOOSTERS",
+      "price": 179,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "local-booster %player% LUCK 2 7200 %count%"
+      ],
+      "texture": "lucky_booster.png",
+      "alert": false
+    },
+    "LOCAL_EXP": {
+      "readableName": "Локальный бустер опыта",
+      "donateName": "rpg.donate.element.local-exp.donate-name",
+      "confirmationTitle": "rpg.donate.element.local-exp.title",
+      "title": "rpg.donate.element.local-exp.title",
+      "description": "rpg.donate.element.local-exp.description",
+      "category": "BOOSTERS",
+      "price": 179,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "local-booster %player% EXP 2 7200 %count%"
+      ],
+      "texture": "exp_booster.png",
+      "alert": false
+    },
+    "LOCAL_MONEY": {
+      "readableName": "Локальный бустер монет",
+      "donateName": "rpg.donate.element.local-money.donate-name",
+      "confirmationTitle": "rpg.donate.element.local-money.title",
+      "title": "rpg.donate.element.local-money.title",
+      "description": "rpg.donate.element.local-money.description",
+      "category": "BOOSTERS",
+      "price": 179,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "local-booster %player% MONEY 2 7200 %count%"
+      ],
+      "texture": "money_booster.png",
+      "alert": false
+    },
+    "GLOBAL_MOBS": {
+      "readableName": "Глобальный бустер мобов",
+      "donateName": "rpg.donate.element.global-mobs.donate-name",
+      "confirmationTitle": "rpg.donate.element.global-mobs.title",
+      "title": "rpg.donate.element.global-mobs.title",
+      "description": "rpg.donate.element.global-mobs.description",
+      "category": "BOOSTERS",
+      "price": 249,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "global-booster %player% MOBS 2 3600 %count%"
+      ],
+      "texture": "mob_booster.png",
+      "alert": true
+    },
+    "GLOBAL_LUCK": {
+      "readableName": "Глобальный бустер удачи",
+      "donateName": "rpg.donate.element.global-luck.donate-name",
+      "confirmationTitle": "rpg.donate.element.global-luck.title",
+      "title": "rpg.donate.element.global-luck.title",
+      "description": "rpg.donate.element.global-luck.description",
+      "category": "BOOSTERS",
+      "price": 249,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "global-booster %player% LUCK 2 3600 %count%"
+      ],
+      "texture": "lucky_booster.png",
+      "alert": true
+    },
+    "GLOBAL_EXP": {
+      "readableName": "Глобальный бустер опыта",
+      "donateName": "rpg.donate.element.global-exp.donate-name",
+      "confirmationTitle": "rpg.donate.element.global-exp.title",
+      "title": "rpg.donate.element.global-exp.title",
+      "description": "rpg.donate.element.global-exp.description",
+      "category": "BOOSTERS",
+      "price": 249,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "global-booster %player% EXP 2 3600 %count%"
+      ],
+      "texture": "exp_booster.png",
+      "alert": true
+    },
+    "GLOBAL_MONEY": {
+      "readableName": "Глобальный бустер монет",
+      "donateName": "rpg.donate.element.global-money.donate-name",
+      "confirmationTitle": "rpg.donate.element.global-money.title",
+      "title": "rpg.donate.element.global-money.title",
+      "description": "rpg.donate.element.global-money.description",
+      "category": "BOOSTERS",
+      "price": 249,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "global-booster %player% MONEY 2 3600 %count%"
+      ],
+      "texture": "money_booster.png",
+      "alert": true
+    },
+    "GLOBAL_ALL": {
+      "readableName": "Глобальный бустер статистики",
+      "donateName": "rpg.donate.element.global-all.donate-name",
+      "confirmationTitle": "rpg.donate.element.global-all.title",
+      "title": "rpg.donate.element.global-all.title",
+      "description": "rpg.donate.element.global-all.description",
+      "category": "BOOSTERS",
+      "price": 749,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "global-booster %player% MOBS 2 3600 %count%",
+        "global-booster %player% LUCK 2 3600 %count%",
+        "global-booster %player% EXP 2 3600 %count%",
+        "global-booster %player% MONEY 2 3600 %count%"
+      ],
+      "texture": "all_booster.png",
+      "alert": true
+    },
+    "LOCAL_ALL": {
+      "readableName": "Локальный бустер статистики",
+      "donateName": "rpg.donate.element.local-all.donate-name",
+      "confirmationTitle": "rpg.donate.element.local-all.title",
+      "title": "rpg.donate.element.local-all.title",
+      "description": "rpg.donate.element.local-all.description",
+      "category": "BOOSTERS",
+      "price": 549,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "onBuy": [
+        "local-booster %player% MOBS 2 7200 %count%",
+        "local-booster %player% LUCK 2 7200 %count%",
+        "local-booster %player% EXP 2 7200 %count%",
+        "local-booster %player% MONEY 2 7200 %count%"
+      ],
+      "texture": "all_booster.png"
+    },
+    "INCIDENT_POINT": {
+      "readableName": "Поинты Дерева прокачек",
+      "donateName": "rpg.donate.element.incident-point.donate-name",
+      "confirmationTitle": "rpg.donate.element.incident-point.title",
+      "title": "rpg.donate.element.incident-point.title",
+      "description": "rpg.donate.element.incident-point.description",
+      "category": "GAME_BALANCE",
+      "price": 49,
+      "sale": 70,
+      "count": [
+        1,
+        3,
+        5,
+        10,
+        25
+      ],
+      "onBuy": [
+        "give-incident-points %player% %count%"
+      ],
+      "texture": "event_icon.png"
+    },
+    "CHANGE_CLASS": {
+      "readableName": "Смена класса",
+      "donateName": "rpg.donate.element.change-class.donate-name",
+      "confirmationTitle": "rpg.donate.element.change-class.title",
+      "title": "rpg.donate.element.change-class.title",
+      "description": "rpg.donate.element.change-class.description",
+      "category": "OTHER_FEATURES",
+      "price": 249,
+      "sale": 70,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "change-class %player%"
+      ],
+      "texture": "swordsman_icon.png"
+    },
+    "AUTO_SELL": {
+      "readableName": "Автопродажа",
+      "donateName": "rpg.donate.element.auto-sell.donate-name",
+      "confirmationTitle": "rpg.donate.element.auto-sell.title",
+      "title": "rpg.donate.element.auto-sell.title",
+      "description": "rpg.donate.element.auto-sell.description",
+      "category": "OTHER_FEATURES",
+      "price": 799,
+      "sale": 70,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasAutoSell"
+      ],
+      "texture": "auto_sell.png"
+    },
+    "AUTO_CASE": {
+      "readableName": "Автооткрытие лутбоксов",
+      "donateName": "rpg.donate.element.auto-case.donate-name",
+      "confirmationTitle": "rpg.donate.element.auto-case.title",
+      "title": "rpg.donate.element.auto-case.title",
+      "description": "rpg.donate.element.auto-case.description",
+      "category": "OTHER_FEATURES",
+      "price": 349,
+      "sale": 70,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true autoOpenLootBox"
+      ],
+      "max": 1,
+      "texture": "autocase.png"
+    },
+    "MULTIPLE_CASE": {
+      "readableName": "Доступ к открытию любого кейса х5",
+      "donateName": "rpg.donate.element.multiple-case.donate-name",
+      "confirmationTitle": "rpg.donate.element.multiple-case.title",
+      "title": "rpg.donate.element.multiple-case.title",
+      "description": "rpg.donate.element.multiple-case.description",
+      "category": "OTHER_FEATURES",
+      "price": 249,
+      "sale": 70,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true multipleOpenLootBox"
+      ],
+      "max": 1,
+      "texture": "case5.png"
+    },
+    "SUPER_PLAYER": {
+      "readableName": "Супер Игрок",
+      "donateName": "rpg.donate.element.super-player.donate-name",
+      "confirmationTitle": "rpg.donate.element.super-player.title",
+      "title": "rpg.donate.element.super-player.title",
+      "description": "rpg.donate.element.super-player.description",
+      "category": "OTHER_FEATURES",
+      "price": 149,
+      "sale": 70,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true sub",
+        "update-tab %player%"
+      ],
+      "texture": "vip.png"
+    }
+  }
 }
