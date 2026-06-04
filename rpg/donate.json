@@ -464,6 +464,23 @@
       ],
       "texture": "auto_sell.png"
     },
+    "IDLE_FARM": {
+      "readableName": "АФК-фарм",
+      "donateName": "rpg.donate.element.idle-farm.donate-name",
+      "confirmationTitle": "rpg.donate.element.idle-farm.title",
+      "title": "rpg.donate.element.idle-farm.title",
+      "description": "rpg.donate.element.idle-farm.description",
+      "category": "OTHER_FEATURES",
+      "price": 799,
+      "sale": 70,
+      "count": [
+        1
+      ],
+      "onBuy": [
+        "morestat %player% set true hasIdleFar "
+      ],
+      "texture": "idle_farm.png"
+    },
     "DEFAULT_KEY": {
       "readableName": "Обычный ключ от лутбокса",
       "donateName": "rpg.donate.element.default-key.donate-name",
