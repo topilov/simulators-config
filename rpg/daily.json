@@ -53,7 +53,7 @@
         "button": {
           "icon": {
             "type": "textured",
-            "texture": "goldkey.png"
+            "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
             "description": "rpg.daily.reward.3.hover"
@@ -91,7 +91,7 @@
         "button": {
           "icon": {
             "type": "textured",
-            "texture": "fox_key.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
             "description": "rpg.daily.reward.5.hover"
@@ -130,11 +130,12 @@
         "button": {
           "icon": {
             "type": "textured",
-            "texture": "all_booster.png"
+            "texture": "cache/simulator/all_booster.png"
           },
           "tooltip": {
             "description": "rpg.daily.reward.7.hover"
-          }
+          },
+          "big": true
         },
         "onClaim": [
           "give-key %player% TITLE 1",
