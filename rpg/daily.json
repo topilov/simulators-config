@@ -1,83 +1,150 @@
 {
   "$schema": "./schema/daily.schema.json",
-
-  "message": {
-    "takeReward": "rpg.daily.message.take-reward"
-  },
-  "animateTitle": {
-    "title": "rpg.daily.animate-title.title",
-    "subtitle": "rpg.daily.animate-title.subtitle"
-  },
-  "rewards": {
-    "1": {
-      "hover": "rpg.daily.reward.1.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "sim": "bag"
-        }
+  "menu": {
+    "title": "rpg.daily.menu.title",
+    "description": "rpg.daily.menu.description",
+    "days": [
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "sim": "bag"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.1.hover"
+          }
+        },
+        "onClaim": [
+          "earn-money %player% 500 false",
+          "earn-bits %player% 50",
+          "give-key %player% DEFAULT 5",
+          "give-key %player% TITLE 1",
+          "earn-tutorial-stage-progress %player% TAKE_DAILY_REWARD"
+        ]
       },
-      "onSuccess": []
-    },
-    "2": {
-      "hover": "rpg.daily.reward.2.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "gem_amethyst"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.2.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 60",
+          "give-key %player% PET 1",
+          "local-booster %player% MONEY 2 3600",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": []
-    },
-    "3": {
-      "hover": "rpg.daily.reward.3.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "sim": "goldkey"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.3.hover"
+          }
+        },
+        "onClaim": [
+          "give-key %player% PET 2",
+          "earn-bits %player% 75",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": []
-    },
-    "4": {
-      "hover": "rpg.daily.reward.4.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "gem_amethyst"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.4.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 90",
+          "random-money %player% 50 99.99",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": []
-    },
-    "5": {
-      "hover": "rpg.daily.reward.5.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "sim": "fox_key"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.5.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 100",
+          "give-key %player% RUNE 3",
+          "local-booster %player% EXP 2 3600",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": []
-    },
-    "6": {
-      "hover": "rpg.daily.reward.6.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "gem_amethyst"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.6.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 125",
+          "give-key %player% RUNE 5",
+          "give-key %player% PET 10",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": []
-    },
-    "7": {
-      "hover": "rpg.daily.reward.7.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rpg": "all_booster"
-        }
-      },
-      "onSuccess": []
-    }
+      {
+        "button": {
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/all_booster.png"
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.7.hover"
+          },
+          "big": true
+        },
+        "onClaim": [
+          "give-key %player% TITLE 1",
+          "earn-bits %player% 200",
+          "local-booster %player% MOBS 2 7200",
+          "local-booster %player% LUCK 2 7200",
+          "local-booster %player% EXP 2 7200",
+          "local-booster %player% MONEY 2 7200"
+        ]
+      }
+    ]
   }
 }
