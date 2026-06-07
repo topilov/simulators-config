@@ -16,7 +16,7 @@
         "key": "boost",
         "priority": 0,
         "title": "rpg.store.category.boosters.title",
-        "iconGlyph": "*",
+        "iconGlyph": "\uE3F5",
         "color": {
           "hex": "#275495"
         },
@@ -36,10 +36,28 @@
         "scrollable": false
       },
       {
-        "key": "lootbox",
+        "key": "otherf",
         "priority": 1,
+        "title": "rpg.store.category.other-features.title",
+        "iconGlyph": "\uE0D3",
+        "color": {
+          "hex": "#8d6808"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/glow_spiral.png",
+        "itemKeys": [
+          "autos",
+          "afk",
+          "case5",
+          "acase",
+          "super"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "lootbox",
+        "priority": 2,
         "title": "rpg.store.category.lootbox.title",
-        "iconGlyph": "*",
+        "iconGlyph": "\uE0F5",
         "color": {
           "hex": "#8d6808"
         },
@@ -54,9 +72,9 @@
       },
       {
         "key": "shiv",
-        "priority": 2,
+        "priority": 3,
         "title": "rpg.store.category.shiv.title",
-        "iconGlyph": "*",
+        "iconGlyph": "\uE0EF",
         "color": {
           "hex": "#380d95"
         },
@@ -72,42 +90,10 @@
         "scrollable": false
       },
       {
-        "key": "gbal",
-        "priority": 2,
-        "title": "rpg.store.category.game-balance.title",
-        "iconGlyph": "*",
-        "color": {
-          "hex": "#8d6808"
-        },
-        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/glow.png",
-        "itemKeys": [
-          "incpt"
-        ],
-        "scrollable": false
-      },
-      {
-        "key": "otherf",
-        "priority": 3,
-        "title": "rpg.store.category.other-features.title",
-        "iconGlyph": "*",
-        "color": {
-          "hex": "#8d6808"
-        },
-        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/glow_spiral.png",
-        "itemKeys": [
-          "autos",
-          "afk",
-          "case5",
-          "acase",
-          "super"
-        ],
-        "scrollable": false
-      },
-      {
-        "key": "other",
+        "key": "gift",
         "priority": 4,
-        "title": "rpg.store.category.other.title",
-        "iconGlyph": "*",
+        "title": "rpg.store.category.gift.title",
+        "iconGlyph": "\uE38F",
         "color": {
           "hex": "#66131b"
         },
@@ -116,9 +102,23 @@
           "gifdf",
           "gifpt",
           "gifrn",
-          "giftt",
+          "giftt"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "other",
+        "priority": 5,
+        "title": "rpg.store.category.other.title",
+        "iconGlyph": "\uE3F1",
+        "color": {
+          "hex": "#66131b"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+        "itemKeys": [
           "pslot",
-          "cclas"
+          "cclas",
+          "incpt"
         ],
         "scrollable": false
       }
@@ -128,7 +128,7 @@
         "key": "gifdf",
         "title": "rpg.store.element.gifts-default.title",
         "description": ["rpg.store.element.gifts-default.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "gift",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
@@ -159,7 +159,7 @@
         "key": "gifpt",
         "title": "rpg.store.element.gifts-pet.title",
         "description": ["rpg.store.element.gifts-pet.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "gift",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
@@ -190,7 +190,7 @@
         "key": "gifrn",
         "title": "rpg.store.element.gifts-rune.title",
         "description": ["rpg.store.element.gifts-rune.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "gift",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
@@ -221,7 +221,7 @@
         "key": "giftt",
         "title": "rpg.store.element.gifts-title.title",
         "description": ["rpg.store.element.gifts-title.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "gift",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
@@ -252,7 +252,7 @@
         "key": "pslot",
         "title": "rpg.store.element.pet-slot.title",
         "description": ["rpg.store.element.pet-slot.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "otherf",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1
@@ -275,7 +275,7 @@
         "key": "cclas",
         "title": "rpg.store.element.change-class.title",
         "description": ["rpg.store.element.change-class.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "otherf",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1
@@ -298,7 +298,7 @@
         "key": "incpt",
         "title": "rpg.store.element.incident-point.title",
         "description": ["rpg.store.element.incident-point.description"],
-        "primaryCategoryKey": "gbal",
+        "primaryCategoryKey": "other",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
@@ -992,10 +992,13 @@
       }
     ]
   },
+  "purchaseAlertMessage": "rpg.donate.notify",
   "elements": {
     "GIFTS_DEFAULT": {
       "key": "gifdf",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-default.donate-name",
       "onPurchase": [
         "payload gifts-default %count%"
       ]
@@ -1003,6 +1006,8 @@
     "GIFTS_PET": {
       "key": "gifpt",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-pet.donate-name",
       "onPurchase": [
         "payload gifts-pet %count%"
       ]
@@ -1010,6 +1015,8 @@
     "GIFTS_RUNE": {
       "key": "gifrn",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-rune.donate-name",
       "onPurchase": [
         "payload gifts-rune %count%"
       ]
@@ -1017,6 +1024,8 @@
     "GIFTS_TITLE": {
       "key": "giftt",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-title.donate-name",
       "onPurchase": [
         "payload gifts-title %count%"
       ]
@@ -1151,6 +1160,8 @@
     "GLOBAL_EXP": {
       "key": "gexp",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-exp.donate-name",
       "onPurchase": [
         "global-booster %player% EXP 2 3600 %count%"
       ]
@@ -1165,6 +1176,8 @@
     "GLOBAL_MOBS": {
       "key": "gmob",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-mobs.donate-name",
       "onPurchase": [
         "global-booster %player% MOBS 2 3600 %count%"
       ]
@@ -1179,6 +1192,8 @@
     "GLOBAL_LUCK": {
       "key": "gluck",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-luck.donate-name",
       "onPurchase": [
         "global-booster %player% LUCK 2 3600 %count%"
       ]
@@ -1193,6 +1208,8 @@
     "GLOBAL_MONEY": {
       "key": "gmny",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-money.donate-name",
       "onPurchase": [
         "global-booster %player% MONEY 2 3600 %count%"
       ]
@@ -1207,6 +1224,8 @@
     "GLOBAL_ALL": {
       "key": "gall",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-all.donate-name",
       "onPurchase": [
         "global-booster %player% MOBS 2 3600 %count%",
         "global-booster %player% LUCK 2 3600 %count%",
