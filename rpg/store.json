@@ -36,12 +36,29 @@
         "scrollable": false
       },
       {
-        "key": "gitem",
+        "key": "lootbox",
         "priority": 1,
-        "title": "rpg.store.category.game-items.title",
+        "title": "rpg.store.category.lootbox.title",
         "iconGlyph": "*",
         "color": {
           "hex": "#8d6808"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/fire.png",
+        "itemKeys": [
+          "kdef",
+          "ktit",
+          "kpet",
+          "krune"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "shiv",
+        "priority": 2,
+        "title": "rpg.store.category.shiv.title",
+        "iconGlyph": "*",
+        "color": {
+          "hex": "#380d95"
         },
         "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/circle.png",
         "itemKeys": [
@@ -50,11 +67,7 @@
           "ewup",
           "eaup",
           "cwup",
-          "caup",
-          "kdef",
-          "ktit",
-          "kpet",
-          "krune"
+          "caup"
         ],
         "scrollable": false
       },
