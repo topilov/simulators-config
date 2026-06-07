@@ -969,5 +969,169 @@
         }
       }
     ]
+  },
+  "elements": {
+    "GIFTS_DEFAULT": {
+      "key": "gifdef",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "payload gifts-default %count%"
+      ]
+    },
+    "GIFTS_PET": {
+      "key": "gifpet",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "payload gifts-pet %count%"
+      ]
+    },
+    "GIFTS_RUNE": {
+      "key": "gifrun",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "payload gifts-rune %count%"
+      ]
+    },
+    "GIFTS_TITLE": {
+      "key": "giftit",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "payload gifts-title %count%"
+      ]
+    },
+    "PET_SLOT": {
+      "key": "pslot",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "unlock-pet-slot %player%"
+      ]
+    },
+    "CHANGE_CLASS": {
+      "key": "cclas",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "change-class %player%"
+      ]
+    },
+    "INCIDENT_POINT": {
+      "key": "incpt",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-incident-points %player% %count%"
+      ]
+    },
+    "SIMPLE_WEAPON_UPGRADE": {
+      "key": "swup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% TOOL DEFAULT %count%"
+      ]
+    },
+    "SIMPLE_ARMOR_UPGRADE": {
+      "key": "saup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% ARMOR DEFAULT %count%"
+      ]
+    },
+    "EPIC_WEAPON_UPGRADE": {
+      "key": "ewup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% TOOL EPIC %count%"
+      ]
+    },
+    "EPIC_ARMOR_UPGRADE": {
+      "key": "eaup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% ARMOR EPIC %count%"
+      ]
+    },
+    "CRYSTAL_WEAPON_UPGRADE": {
+      "key": "cwup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% TOOL LEGENDARY %count%"
+      ]
+    },
+    "CRYSTAL_ARMOR_UPGRADE": {
+      "key": "caup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% ARMOR LEGENDARY %count%"
+      ]
+    },
+    "AUTO_SELL": {
+      "key": "autos",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true hasAutoSell"
+      ]
+    },
+    "IDLE_FARM": {
+      "key": "afk",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true hasIdleFarm"
+      ]
+    },
+    "DEFAULT_KEY": {
+      "key": "kdef",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-key %player% DEFAULT %count%"
+      ]
+    },
+    "TITLE_KEY": {
+      "key": "ktit",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-key %player% TITLE %count%"
+      ]
+    },
+    "PET_KEY": {
+      "key": "kpet",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-key %player% PET %count%"
+      ]
+    },
+    "RUNE_KEY": {
+      "key": "krune",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-key %player% RUNE %count%"
+      ]
+    },
+    "MULTIPLE_CASE": {
+      "key": "case5",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true multipleOpenLootBox"
+      ]
+    },
+    "AUTO_CASE": {
+      "key": "acase",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true autoOpenLootBox"
+      ]
+    },
+    "SUPER_PLAYER": {
+      "key": "super",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true sub",
+        "update-tab %player%"
+      ]
+    },
+    "GLOBAL_EXP": {
+      "key": "gexp",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "global-booster %player% EXP 2 3600 %count%"
+      ]
+    }
   }
 }
