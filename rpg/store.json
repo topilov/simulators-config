@@ -992,10 +992,13 @@
       }
     ]
   },
+  "purchaseAlertMessage": "rpg.donate.notify",
   "elements": {
     "GIFTS_DEFAULT": {
       "key": "gifdf",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-default.donate-name",
       "onPurchase": [
         "payload gifts-default %count%"
       ]
@@ -1003,6 +1006,8 @@
     "GIFTS_PET": {
       "key": "gifpt",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-pet.donate-name",
       "onPurchase": [
         "payload gifts-pet %count%"
       ]
@@ -1010,6 +1015,8 @@
     "GIFTS_RUNE": {
       "key": "gifrn",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-rune.donate-name",
       "onPurchase": [
         "payload gifts-rune %count%"
       ]
@@ -1017,6 +1024,8 @@
     "GIFTS_TITLE": {
       "key": "giftt",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-title.donate-name",
       "onPurchase": [
         "payload gifts-title %count%"
       ]
@@ -1151,6 +1160,8 @@
     "GLOBAL_EXP": {
       "key": "gexp",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-exp.donate-name",
       "onPurchase": [
         "global-booster %player% EXP 2 3600 %count%"
       ]
@@ -1165,6 +1176,8 @@
     "GLOBAL_MOBS": {
       "key": "gmob",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-mobs.donate-name",
       "onPurchase": [
         "global-booster %player% MOBS 2 3600 %count%"
       ]
@@ -1179,6 +1192,8 @@
     "GLOBAL_LUCK": {
       "key": "gluck",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-luck.donate-name",
       "onPurchase": [
         "global-booster %player% LUCK 2 3600 %count%"
       ]
@@ -1193,6 +1208,8 @@
     "GLOBAL_MONEY": {
       "key": "gmny",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-money.donate-name",
       "onPurchase": [
         "global-booster %player% MONEY 2 3600 %count%"
       ]
@@ -1207,6 +1224,8 @@
     "GLOBAL_ALL": {
       "key": "gall",
       "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-all.donate-name",
       "onPurchase": [
         "global-booster %player% MOBS 2 3600 %count%",
         "global-booster %player% LUCK 2 3600 %count%",
