@@ -72,20 +72,6 @@
         "scrollable": false
       },
       {
-        "key": "gbal",
-        "priority": 2,
-        "title": "rpg.store.category.game-balance.title",
-        "iconGlyph": "*",
-        "color": {
-          "hex": "#8d6808"
-        },
-        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/glow.png",
-        "itemKeys": [
-          "incpt"
-        ],
-        "scrollable": false
-      },
-      {
         "key": "otherf",
         "priority": 3,
         "title": "rpg.store.category.other-features.title",
@@ -252,7 +238,7 @@
         "key": "pslot",
         "title": "rpg.store.element.pet-slot.title",
         "description": ["rpg.store.element.pet-slot.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "otherf",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1
@@ -275,7 +261,7 @@
         "key": "cclas",
         "title": "rpg.store.element.change-class.title",
         "description": ["rpg.store.element.change-class.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "otherf",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1
@@ -298,7 +284,7 @@
         "key": "incpt",
         "title": "rpg.store.element.incident-point.title",
         "description": ["rpg.store.element.incident-point.description"],
-        "primaryCategoryKey": "gbal",
+        "primaryCategoryKey": "other",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
