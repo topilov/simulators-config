@@ -36,8 +36,26 @@
         "scrollable": false
       },
       {
-        "key": "lootbox",
+        "key": "otherf",
         "priority": 1,
+        "title": "rpg.store.category.other-features.title",
+        "iconGlyph": "\uE0D3",
+        "color": {
+          "hex": "#8d6808"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/glow_spiral.png",
+        "itemKeys": [
+          "autos",
+          "afk",
+          "case5",
+          "acase",
+          "super"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "lootbox",
+        "priority": 2,
         "title": "rpg.store.category.lootbox.title",
         "iconGlyph": "\uE0F5",
         "color": {
@@ -54,7 +72,7 @@
       },
       {
         "key": "shiv",
-        "priority": 2,
+        "priority": 3,
         "title": "rpg.store.category.shiv.title",
         "iconGlyph": "\uE0EF",
         "color": {
@@ -72,28 +90,10 @@
         "scrollable": false
       },
       {
-        "key": "otherf",
-        "priority": 3,
-        "title": "rpg.store.category.other-features.title",
-        "iconGlyph": "\uE0D3",
-        "color": {
-          "hex": "#8d6808"
-        },
-        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/glow_spiral.png",
-        "itemKeys": [
-          "autos",
-          "afk",
-          "case5",
-          "acase",
-          "super"
-        ],
-        "scrollable": false
-      },
-      {
-        "key": "other",
+        "key": "gift",
         "priority": 4,
-        "title": "rpg.store.category.other.title",
-        "iconGlyph": "\uE3F1",
+        "title": "rpg.store.category.gift.title",
+        "iconGlyph": "\uE38F",
         "color": {
           "hex": "#66131b"
         },
@@ -102,9 +102,23 @@
           "gifdf",
           "gifpt",
           "gifrn",
-          "giftt",
+          "giftt"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "other",
+        "priority": 5,
+        "title": "rpg.store.category.other.title",
+        "iconGlyph": "\uE3F1",
+        "color": {
+          "hex": "#66131b"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+        "itemKeys": [
           "pslot",
-          "cclas"
+          "cclas",
+          "incpt"
         ],
         "scrollable": false
       }
@@ -114,7 +128,7 @@
         "key": "gifdf",
         "title": "rpg.store.element.gifts-default.title",
         "description": ["rpg.store.element.gifts-default.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "gift",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
@@ -145,7 +159,7 @@
         "key": "gifpt",
         "title": "rpg.store.element.gifts-pet.title",
         "description": ["rpg.store.element.gifts-pet.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "gift",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
@@ -176,7 +190,7 @@
         "key": "gifrn",
         "title": "rpg.store.element.gifts-rune.title",
         "description": ["rpg.store.element.gifts-rune.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "gift",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
@@ -207,7 +221,7 @@
         "key": "giftt",
         "title": "rpg.store.element.gifts-title.title",
         "description": ["rpg.store.element.gifts-title.description"],
-        "primaryCategoryKey": "other",
+        "primaryCategoryKey": "gift",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [
           1,
