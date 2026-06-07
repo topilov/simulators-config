@@ -966,7 +966,8 @@
           "description": "i18n.rpg.achievement.reward.description|!|35",
           "required": 10.0,
           "onTake": [
-            "give-incident-points %player% 35 true"
+            "give-incident-points %player% 35 true",
+            "infinity-booster %player% LUCK 1.2"
           ]
         }
       ],
