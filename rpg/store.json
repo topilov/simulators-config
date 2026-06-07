@@ -1141,6 +1141,75 @@
       "onPurchase": [
         "global-booster %player% EXP 2 3600 %count%"
       ]
+    },
+    "LOCAL_EXP": {
+      "key": "lexp",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% EXP 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_MOBS": {
+      "key": "gmob",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "global-booster %player% MOBS 2 3600 %count%"
+      ]
+    },
+    "LOCAL_MOBS": {
+      "key": "lmob",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% MOBS 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_LUCK": {
+      "key": "gluck",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "global-booster %player% LUCK 2 3600 %count%"
+      ]
+    },
+    "LOCAL_LUCK": {
+      "key": "lluck",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% LUCK 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_MONEY": {
+      "key": "gmny",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_MONEY": {
+      "key": "lmny",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% MONEY 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_ALL": {
+      "key": "gall",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "global-booster %player% MOBS 2 3600 %count%",
+        "global-booster %player% LUCK 2 3600 %count%",
+        "global-booster %player% EXP 2 3600 %count%",
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_ALL": {
+      "key": "lall",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% MOBS 2 7200 %count%",
+        "local-booster %player% LUCK 2 7200 %count%",
+        "local-booster %player% EXP 2 7200 %count%",
+        "local-booster %player% MONEY 2 7200 %count%"
+      ]
     }
   }
 }
