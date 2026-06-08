@@ -459,14 +459,14 @@
       ]
     }
   },
-  "regularOffer": {},
-  "specialOffer": {
+  "regularPurchaseOffer": {},
+  "specialPurchaseOffer": {
     "bonusLevels": 2,
     "commands": [
       "tell %player% BattlePass special offer command executed"
     ]
   },
-  "rewards": [
+  "rewardTiers": [
     {
       "level": 1,
       "type": "DIRECT",
@@ -674,7 +674,7 @@
       ]
     }
   ],
-  "quests": [
+  "questCategories": [
     {
       "id": "daily",
       "refreshIntervalMillis": 60000,
@@ -730,5 +730,13 @@
     }
   ],
   "levelShareMessage": "rpg.battlepass.level-share",
+  "expPerLevel": {
+    "1": 10,
+    "2": 50,
+    "3": 75,
+    "4": 100,
+    "5": 130,
+    "6": 175
+  },
   "ignoreServiceDiscount": true
 }
