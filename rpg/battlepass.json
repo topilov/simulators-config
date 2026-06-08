@@ -681,7 +681,7 @@
   "questCategories": [
     {
       "id": "daily",
-      "refreshIntervalMillis": 60000,
+      "refreshPolicy": 60000,
       "activeQuestCount": 2,
       "quests": [
         {
@@ -712,6 +712,7 @@
     },
     {
       "id": "season",
+      "refreshPolicy": null,
       "activeQuestCount": 2,
       "quests": [
         {
