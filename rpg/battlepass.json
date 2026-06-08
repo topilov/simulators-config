@@ -459,12 +459,16 @@
       ]
     }
   },
-  "regularPurchaseOffer": {},
+  "regularPurchaseOffer": {
+    "grant": {}
+  },
   "specialPurchaseOffer": {
-    "bonusLevels": 2,
-    "commands": [
-      "tell %player% BattlePass special offer command executed"
-    ]
+    "grant": {
+      "bonusLevels": 2,
+      "commands": [
+        "tell %player% BattlePass special offer command executed"
+      ]
+    }
   },
   "rewardTiers": [
     {
