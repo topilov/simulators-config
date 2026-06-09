@@ -53,8 +53,8 @@
         "title": {
           "$ref": "./common.schema.json#/$defs/i18n"
         },
-        "color": {
-          "$ref": "./common.schema.json#/$defs/color"
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
         },
         "texture": {
           "$ref": "./common.schema.json#/$defs/image"
@@ -82,11 +82,8 @@
           "type": "number",
           "minimum": 0
         },
-        "stats": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/skillLevelStat"
-          }
+        "stat": {
+          "$ref": "#/$defs/skillLevelStat"
         }
       },
       "additionalProperties": false
