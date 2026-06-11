@@ -1,5 +1,139 @@
 {
   "$schema": "./schema/tutorial.schema.json",
-  
-  "stages": {}
+
+  "stages": {
+    "KILL_MOBS": {
+      "stageId": 1,
+      "required": 10,
+      "title": "rpg.tutorial.kill-mobs.title",
+      "description": "rpg.tutorial.kill-mobs.description",
+      "progressTitle": "rpg.tutorial.kill-mobs.progress.title"
+    },
+    "UPGRADE_SKILL": {
+      "stageId": 2,
+      "title": "rpg.tutorial.upgrade-skill.title",
+      "description": "rpg.tutorial.upgrade-skill.description"
+    },
+    "GET_ARTEFACT": {
+      "stageId": 3,
+      "title": "rpg.tutorial.get-artefact.title",
+      "description": "rpg.tutorial.get-artefact.description"
+    },
+    "SELL_ARTEFACT": {
+      "stageId": 4,
+      "title": "rpg.tutorial.sell-artefact.title",
+      "description": "rpg.tutorial.sell-artefact.description",
+      "pathLocation": {
+        "name": "sell",
+        "tag": "artefact",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "GET_EQUIPMENT": {
+      "stageId": 5,
+      "isSaving": true,
+      "title": "rpg.tutorial.get-equipment.title",
+      "description": "rpg.tutorial.get-equipment.description"
+    },
+    "SELL_EQUIPMENT": {
+      "stageId": 6,
+      "title": "rpg.tutorial.sell-equipment.title",
+      "description": "rpg.tutorial.sell-equipment.description",
+      "pathLocation": {
+        "name": "sell",
+        "tag": "equipment",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "COMPLETE_MAXIM_QUEST": {
+      "stageId": 7,
+      "isSaving": true,
+      "title": "rpg.tutorial.complete-maxim-quest.title",
+      "description": "rpg.tutorial.complete-maxim-quest.description",
+      "pathLocation": {
+        "name": "dialog",
+        "tag": "maxim",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "UPGRADE_TALENT": {
+      "stageId": 8,
+      "isSaving": true,
+      "title": "rpg.tutorial.upgrade-talent.title",
+      "description": "rpg.tutorial.upgrade-talent.description"
+    },
+    "BUY_SHIV": {
+      "stageId": 9,
+      "isSaving": true,
+      "title": "rpg.tutorial.buy-shiv.title",
+      "description": "rpg.tutorial.buy-shiv.description",
+      "pathLocation": {
+        "name": "shop",
+        "tag": "artefact",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "KILL_BOSS": {
+      "stageId": 10,
+      "isSaving": true,
+      "title": "rpg.tutorial.kill-boss.title",
+      "description": "rpg.tutorial.kill-boss.description",
+      "pathLocation": {
+        "name": "boss",
+        "tag": "menu",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "REACH_LEVEL_TEN": {
+      "stageId": 11,
+      "isSaving": true,
+      "title": "rpg.tutorial.reach-level-ten.title",
+      "description": "rpg.tutorial.reach-level-ten.description"
+    },
+    "SECOND_LOCATION": {
+      "stageId": 12,
+      "isSaving": true,
+      "title": "rpg.tutorial.second-location.title",
+      "description": "rpg.tutorial.second-location.description",
+      "pathLocation": {
+        "name": "location",
+        "tag": "menu",
+        "offset": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    "FINISH": {
+      "stageId": 13,
+      "title": "rpg.tutorial.finish.title",
+      "description": "rpg.tutorial.finish.description",
+      "onStart": [
+        "tutorial-finish-message %player%",
+        "give-pet %player% WOLF 1",
+        "earn-tutorial-stage-progress %player% FINISH"
+      ]
+    }
+  }
 }

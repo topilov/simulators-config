@@ -212,7 +212,8 @@
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "give-shiv %player% TOOL DEFAULT %count%"
+            "give-shiv %player% TOOL DEFAULT %count%",
+            "earn-tutorial-stage-progress %player% BUY_SHIV"
           ],
           "data": {
             "CHECK_FULL_INVENTORY": true
@@ -228,7 +229,8 @@
           "amount": 1,
           "isCounterEnabled": true,
           "onPurchase": [
-            "give-shiv %player% ARMOR DEFAULT %count%"
+            "give-shiv %player% ARMOR DEFAULT %count%",
+            "earn-tutorial-stage-progress %player% BUY_SHIV"
           ],
           "data": {
             "CHECK_FULL_INVENTORY": true
