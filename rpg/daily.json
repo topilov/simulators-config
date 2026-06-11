@@ -20,9 +20,8 @@
           }
         },
         "onClaim": [
-          "earn-money %player% 500 false",
           "earn-bits %player% 50",
-          "give-key %player% DEFAULT 5",
+          "give-key %player% DEFAULT 3",
           "give-key %player% TITLE 1",
           "earn-tutorial-stage-progress %player% TAKE_DAILY_REWARD"
         ]
@@ -44,9 +43,9 @@
         },
         "onClaim": [
           "earn-bits %player% 60",
-          "give-key %player% PET 1",
+          "give-shiv %player% TOOL DEFAULT 4",
           "local-booster %player% MONEY 2 3600",
-          "give-key %player% TITLE 1"
+          "give-key %player% RUNE 1"
         ]
       },
       {
@@ -60,7 +59,8 @@
           }
         },
         "onClaim": [
-          "give-key %player% PET 2",
+          "give-shiv %player% ARMOR DEFAULT 3",
+          "give-shiv %player% TOOL DEFAULT 3",
           "earn-bits %player% 75",
           "give-key %player% TITLE 1"
         ]
@@ -82,8 +82,9 @@
         },
         "onClaim": [
           "earn-bits %player% 90",
-          "random-money %player% 50 99.99",
-          "give-key %player% TITLE 1"
+          "give-key %player% DEFAULT 3",
+          "local-booster %player% EXP 2 3600",
+          "give-key %player% RUNE 2"
         ]
       },
       {
@@ -98,8 +99,9 @@
         },
         "onClaim": [
           "earn-bits %player% 100",
-          "give-key %player% RUNE 3",
-          "local-booster %player% EXP 2 3600",
+          "give-shiv %player% TOOL EPIC 2",
+          "give-key %player% ARMOR EPIC 2",
+          "local-booster %player% LUCK 2 3600",
           "give-key %player% TITLE 1"
         ]
       },
@@ -120,8 +122,8 @@
         },
         "onClaim": [
           "earn-bits %player% 125",
-          "give-key %player% RUNE 5",
-          "give-key %player% PET 10",
+          "give-key %player% RUNE 3",
+          "give-key %player% PET 1",
           "give-key %player% TITLE 1"
         ]
       },
@@ -139,6 +141,8 @@
         "onClaim": [
           "give-key %player% TITLE 1",
           "earn-bits %player% 200",
+          "give-shiv %player% TOOL EPIC 3",
+          "give-key %player% ARMOR EPIC 3",
           "local-booster %player% MOBS 2 7200",
           "local-booster %player% LUCK 2 7200",
           "local-booster %player% EXP 2 7200",
