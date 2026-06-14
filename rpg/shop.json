@@ -1,6 +1,9 @@
 {
   "$schema": "./schema/shop.schema.json",
 
+  "messages": {
+    "noSubscription": "rpg.shop.messages.no-subscription"
+  },
   "shops": {
     "ABILITY": {
       "vault": "\uE1C0",
@@ -428,7 +431,8 @@
             "give-shiv %player% TOOL DEFAULT %count%"
           ],
           "data": {
-            "CHECK_FULL_INVENTORY": true
+            "CHECK_FULL_INVENTORY": true,
+            "REQUIRES_SUB": true
           }
         },
         "SHIV_ARMOR": {
@@ -444,7 +448,8 @@
             "give-shiv %player% ARMOR DEFAULT %count%"
           ],
           "data": {
-            "CHECK_FULL_INVENTORY": true
+            "CHECK_FULL_INVENTORY": true,
+            "REQUIRES_SUB": true
           }
         },
         "KEY_RUNES": {
@@ -458,7 +463,10 @@
           "isCounterEnabled": true,
           "onPurchase": [
             "give-key %player% RUNE %count%"
-          ]
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
         },
         "KEY_TITLES": {
           "type": "KEY_TITLES",
@@ -471,7 +479,10 @@
           "isCounterEnabled": true,
           "onPurchase": [
             "give-key %player% TITLE %count%"
-          ]
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
         },
         "KEY_DEFAULT": {
           "type": "KEY_DEFAULT",
@@ -484,7 +495,10 @@
           "isCounterEnabled": true,
           "onPurchase": [
             "give-key %player% DEFAULT %count%"
-          ]
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
         },
         "BOOSTER_EXP": {
           "type": "BOOSTER_EXP",
@@ -497,7 +511,10 @@
           "isCounterEnabled": true,
           "onPurchase": [
             "local-booster %player% EXP 1.5 1800 %count%"
-          ]
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
         },
         "BOOSTER_MONEY": {
           "type": "BOOSTER_MONEY",
@@ -510,7 +527,10 @@
           "isCounterEnabled": true,
           "onPurchase": [
             "local-booster %player% MONEY 1.5 1800 %count%"
-          ]
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
         },
         "BOOSTER_MOBS": {
           "type": "BOOSTER_MOBS",
@@ -523,7 +543,10 @@
           "isCounterEnabled": true,
           "onPurchase": [
             "local-booster %player% MOBS 1.5 1800 %count%"
-          ]
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
         },
         "BOOSTER_LUCK": {
           "type": "BOOSTER_LUCK",
@@ -536,7 +559,10 @@
           "isCounterEnabled": true,
           "onPurchase": [
             "local-booster %player% LUCK 1.5 1800 %count%"
-          ]
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
         }
       }
     }

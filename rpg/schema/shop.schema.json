@@ -2,12 +2,16 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "required": [
+    "messages",
     "shops"
   ],
   "additionalProperties": false,
   "properties": {
     "$schema": {
       "type": "string"    
+    },
+    "messages": {
+      "$ref": "#/$defs/messages"
     },
     "shops": {
       "type": "object",
@@ -20,6 +24,18 @@
     }
   },
   "$defs": {
+    "messages": {
+      "type": "object",
+      "required": [
+        "noSubscription"
+      ],
+      "properties": {
+        "noSubscription": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
     "shopType": {
       "type": "string",
       "enum": [
@@ -94,6 +110,23 @@
           "type": "array",
           "items": {
             "type": "string"
+          }
+        },
+        "data": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "CHARACTER_TYPE",
+              "ABILITY_TYPE",
+              "CHECK_FULL_INVENTORY",
+              "REQUIRES_SUB"
+            ]
+          },
+          "additionalProperties": {
+            "type": [
+              "string",
+              "boolean"
+            ]
           }
         }
       }
