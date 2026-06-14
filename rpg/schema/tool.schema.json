@@ -24,6 +24,9 @@
         },
         "cannot": {
           "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "locationRestricted": {
+          "$ref": "./common.schema.json#/$defs/i18n"
         }
       },
       "additionalProperties": false
@@ -60,6 +63,7 @@
         "rare",
         "damage",
         "level",
+        "location",
         "isInteractable",
         "price"
       ],
@@ -92,6 +96,11 @@
         "level": {
           "type": "number",
           "minimum": 1
+        },
+        "location": {
+          "type": "integer",
+          "minimum": -1,
+          "maximum": 10
         },
         "price": {
           "type": "number",
