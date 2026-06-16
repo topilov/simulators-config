@@ -1,0 +1,1624 @@
+{
+  "$schema": "./schema/npc.schema.json",
+  "npcs": {
+    "MAXIM": {
+      "npc": {
+        "name": "rpg.npc.maxim.title",
+        "location": {
+          "name": "dialog",
+          "tag": "maxim",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/1_dialog.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% MAXIM"
+        ]
+      }
+    },
+    "SCYLLA": {
+      "npc": {
+        "name": "rpg.npc.scylla.title",
+        "location": {
+          "name": "dialog",
+          "tag": "scylla",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/scylla.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% SCYLLA"
+        ]
+      }
+    },
+    "ZOLTAN": {
+      "npc": {
+        "name": "rpg.npc.zoltan.title",
+        "location": {
+          "name": "dialog",
+          "tag": "zoltan",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/zoltan.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% ZOLTAN"
+        ]
+      }
+    },
+    "KEIRA": {
+      "npc": {
+        "name": "rpg.npc.keira.title",
+        "location": {
+          "name": "dialog",
+          "tag": "keira",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/keira.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% KEIRA"
+        ]
+      }
+    },
+    "CUTTHROAT": {
+      "npc": {
+        "name": "rpg.npc.cutthroat.title",
+        "location": {
+          "name": "dialog",
+          "tag": "cutthroat",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/cutthroat.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% CUTTHROAT"
+        ]
+      }
+    },
+    "HERALD": {
+      "npc": {
+        "name": "rpg.npc.herald.title",
+        "location": {
+          "name": "dialog",
+          "tag": "herald",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/herald.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% HERALD"
+        ]
+      }
+    },
+    "LOOKER_KNIGHT": {
+      "npc": {
+        "name": "rpg.npc.looker_knight.title",
+        "location": {
+          "name": "dialog",
+          "tag": "looker_knight",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/looker_knight.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "dialog %player% LOOKER_KNIGHT"
+        ]
+      }
+    },
+    "SELL_ARTEFACT": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sell-drops %player%"
+        ]
+      }
+    },
+    "SELL_ARTEFACT_1": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_1",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_1"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_ARTEFACT_1"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_2": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_2",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_2"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_ARTEFACT_2"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_4": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_4",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_4"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_ARTEFACT_4"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_5": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_5",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_5"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_ARTEFACT_5"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_7": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_7",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_7"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_ARTEFACT_7"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_9": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_9",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_9"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_ARTEFACT_9"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_ARTEFACT_10": {
+      "npc": {
+        "name": "rpg.npc.sell.artefact.title",
+        "location": {
+          "name": "sell",
+          "tag": "artefact_10",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_ARTEFACT_10"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_ARTEFACT_10"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_EQUIPMENT": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/sell_equipment.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sell-equipment %player%"
+        ]
+      }
+    },
+    "SELL_EQUIPMENT_1": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment_1",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/sell_equipment.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_EQUIPMENT_1"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_equipment.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_equipment.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_equipment.answer.0.text",
+            "onPlayerChoice": [
+              "sell-equipment %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_EQUIPMENT_1"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_EQUIPMENT_2": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment_2",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/sell_equipment.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_EQUIPMENT_2"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_equipment.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_equipment.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_equipment.answer.0.text",
+            "onPlayerChoice": [
+              "sell-equipment %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_EQUIPMENT_2"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_EQUIPMENT_5": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment_5",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/sell_equipment.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_EQUIPMENT_5"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_equipment.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_equipment.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_equipment.answer.0.text",
+            "onPlayerChoice": [
+              "sell-equipment %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_EQUIPMENT_5"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_EQUIPMENT_7": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment_7",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/sell_equipment.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_EQUIPMENT_7"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_equipment.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_equipment.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_equipment.answer.0.text",
+            "onPlayerChoice": [
+              "sell-equipment %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_EQUIPMENT_7"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SELL_EQUIPMENT_9": {
+      "npc": {
+        "name": "rpg.npc.sell.equipment.title",
+        "location": {
+          "name": "sell",
+          "tag": "equipment_9",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/sell_equipment.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_EQUIPMENT_9"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.sell_equipment.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.sell_equipment.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.sell_equipment.answer.0.text",
+            "onPlayerChoice": [
+              "sell-equipment %player%"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SELL_EQUIPMENT_9"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% artefact-shop"
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_1": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_1",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_1"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.shop_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.shop_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.shop_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_1"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_4": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_4",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_4"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.shop_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.shop_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.shop_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_4"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_6": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_6",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_6"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.shop_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.shop_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.shop_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_6"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_7": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_7",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_7"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.shop_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.shop_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.shop_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_7"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_8": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_8",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_8"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.shop_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.shop_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.shop_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_8"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SHOP_ARTEFACT_10": {
+      "npc": {
+        "name": "rpg.npc.shop.artefact.title",
+        "location": {
+          "name": "shop",
+          "tag": "artefact_10",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ARTEFACT_10"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.shop_artefact.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.shop_artefact.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.shop_artefact.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% artefact-shop"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ARTEFACT_10"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SHOP_ABILITY": {
+      "npc": {
+        "name": "rpg.npc.shop.ability.title",
+        "location": {
+          "name": "shop",
+          "tag": "ability",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/ability_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ABILITY"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.shop_ability.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.shop_ability.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.shop_ability.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% ability-shop"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ABILITY"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SHOP_ABILITY_3": {
+      "npc": {
+        "name": "rpg.npc.shop.ability.title",
+        "location": {
+          "name": "shop",
+          "tag": "ability_3",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/ability_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_ABILITY_3"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.shop_ability.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.shop_ability.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.shop_ability.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% ability-shop"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_ABILITY_3"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "SHOP_FEED": {
+      "npc": {
+        "name": "rpg.npc.shop.feed.title",
+        "location": {
+          "name": "shop",
+          "tag": "feed",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/feed_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% feed-shop"
+        ]
+    }
+    },
+    "SHOP_FEED_2": {
+      "npc": {
+        "name": "rpg.npc.shop.feed.title",
+        "location": {
+          "name": "shop",
+          "tag": "feed_2",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/feed_shop.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SHOP_FEED_2"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.shop_feed.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.shop_feed.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.shop_feed.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% feed-shop"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% SHOP_FEED_2"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UPGRADE_RUNE": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% upgrade-rune"
+        ]
+      }
+    },
+    "UPGRADE_RUNE_3": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_3",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UPGRADE_RUNE_3"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.upgrade_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.upgrade_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.upgrade_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UPGRADE_RUNE_3"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UPGRADE_RUNE_4": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_4",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UPGRADE_RUNE_4"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.upgrade_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.upgrade_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.upgrade_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UPGRADE_RUNE_4"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UPGRADE_RUNE_6": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_6",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UPGRADE_RUNE_6"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.upgrade_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.upgrade_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.upgrade_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UPGRADE_RUNE_6"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UPGRADE_RUNE_8": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_8",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UPGRADE_RUNE_8"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.upgrade_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.upgrade_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.upgrade_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UPGRADE_RUNE_8"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UPGRADE_RUNE_10": {
+      "npc": {
+        "name": "rpg.npc.rune.upgrade.title",
+        "location": {
+          "name": "rune",
+          "tag": "upgrade_10",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/upgrade_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UPGRADE_RUNE_10"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.upgrade_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.upgrade_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.upgrade_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% upgrade-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UPGRADE_RUNE_10"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UNSPELL_RUNE": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% unspell-rune"
+        ]
+      }
+    },
+    "UNSPELL_RUNE_3": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_3",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UNSPELL_RUNE_3"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.unspell_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.unspell_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.unspell_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UNSPELL_RUNE_3"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UNSPELL_RUNE_5": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_5",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UNSPELL_RUNE_5"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.unspell_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.unspell_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.unspell_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UNSPELL_RUNE_5"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UNSPELL_RUNE_6": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_6",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UNSPELL_RUNE_6"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.unspell_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.unspell_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.unspell_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UNSPELL_RUNE_6"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UNSPELL_RUNE_8": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_8",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UNSPELL_RUNE_8"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.unspell_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.unspell_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.unspell_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UNSPELL_RUNE_8"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "UNSPELL_RUNE_9": {
+      "npc": {
+        "name": "rpg.npc.rune.unspell.title",
+        "location": {
+          "name": "rune",
+          "tag": "unspell_9",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/unspell_rune.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% UNSPELL_RUNE_9"
+        ]
+      },
+      "dialog": {
+        "title": "rpg.npc.dialog.unspell_rune.title",
+        "lines": [
+          "rpg.npc.dialog.interactive.line.0.text",
+          "rpg.npc.dialog.unspell_rune.line.1.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "rpg.npc.dialog.unspell_rune.answer.0.text",
+            "onPlayerChoice": [
+              "sudo %player% unspell-rune"
+            ]
+          },
+          {
+            "text": "rpg.npc.dialog.interactive.answer.quest.text",
+            "onPlayerChoice": [
+              "dialog %player% UNSPELL_RUNE_9"
+            ]
+          },
+          {
+            "text": "rpg.dialog.answer.close.title"
+          }
+        ]
+      }
+    },
+    "BOSS_MENU": {
+      "npc": {
+        "name": "rpg.npc.boss.menu.title",
+        "location": {
+          "name": "boss",
+          "tag": "menu",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/menu_boss.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% boss-menu"
+        ]
+      }
+    },
+    "LOCATION_MENU": {
+      "npc": {
+        "name": "rpg.npc.location.menu.title",
+        "location": {
+          "name": "location",
+          "tag": "menu",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/menu_location.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% locations"
+        ]
+      }
+    }
+  }
+}
+

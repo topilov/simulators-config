@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "bindings"
+  ],
+  "additionalProperties": false,
+
+
+
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+
+    "bindings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/bind"
+      }
+    }
+  },
+
+
+
+  "$defs": {
+    "bind": {
+      "type": "object",
+      "required": [
+        "description",
+        "key",
+        "onPlayerPressed"
+      ],
+      "properties": {
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "key": {
+          "type": "string"
+        },
+        "onPlayerPressed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

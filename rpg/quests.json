@@ -1,0 +1,311 @@
+{
+  "$schema": "./schema/quests.schema.json",
+  "menu": {
+    "title": "",
+    "categories": [
+      {
+        "title": "rpg.quest.category.title",
+        "questsData": [
+          {
+            "title": "rpg.stat.mobs.text",
+            "quests": [
+              {
+                "title": "rpg.quest.mobs1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|10K |!|(i18n.rpg.quest.reward.rec|!|15 |!|(i18n.rpg.quest.reward.rec|!|1 )))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.mobs.subtitle",
+                    "goal": 50.0,
+                    "current": "mobs1"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.mobs2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|30K |!|(i18n.rpg.quest.reward.rec|!|30 |!|(i18n.rpg.quest.reward.rec|!|1 )))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.mobs.subtitle",
+                    "goal": 150.0,
+                    "current": "mobs2"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.mobs3.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|70K |!|(i18n.rpg.quest.reward.rec|!|50 |!|(i18n.rpg.quest.reward.rec|!|1 |!|(i18n.rpg.quest.reward.rec|!|Обычный \uE349 x1))))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.mobs.subtitle",
+                    "goal": 350.0,
+                    "current": "mobs3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "rpg.stat.bosses.text",
+            "quests": [
+              {
+                "title": "rpg.quest.bosses1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|15K |!|(i18n.rpg.quest.reward.rec|!|15 |!|(i18n.rpg.quest.reward.rec|!|1 )))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.bosses.subtitle",
+                    "goal": 5.0,
+                    "current": "bosses1"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.bosses2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|35K |!|(i18n.rpg.quest.reward.rec|!|30 |!|(i18n.rpg.quest.reward.rec|!|1 )))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.bosses.subtitle",
+                    "goal": 10.0,
+                    "current": "bosses2"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.bosses3.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|80K |!|(i18n.rpg.quest.reward.rec|!|50 |!|(i18n.rpg.quest.reward.rec|!|2 |!|(i18n.rpg.quest.reward.rec|!|\uE349 с рунами x1))))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.bosses.subtitle",
+                    "goal": 20.0,
+                    "current": "bosses3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "rpg.stat.money.text",
+            "quests": [
+              {
+                "title": "rpg.quest.money1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|5K |!|(i18n.rpg.quest.reward.rec|!|15 |!|(i18n.rpg.quest.reward.rec|!|1 )))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.money.subtitle",
+                    "goal": 100000.0,
+                    "current": "money1"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.money2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|20K |!|(i18n.rpg.quest.reward.rec|!|30 |!|(i18n.rpg.quest.reward.rec|!|1 |!|(i18n.rpg.quest.reward.rec|!|Обычный \uE349 x1))))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.money.subtitle",
+                    "goal": 200000.0,
+                    "current": "money2"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.money3.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|50K |!|(i18n.rpg.quest.reward.rec|!|50 |!|(i18n.rpg.quest.reward.rec|!|\uE349 с титулами x1)))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.money.subtitle",
+                    "goal": 500000.0,
+                    "current": "money3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "rpg.stat.exp.text",
+            "quests": [
+              {
+                "title": "rpg.quest.exp1.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|8K |!|(i18n.rpg.quest.reward.rec|!|15 |!|(i18n.rpg.quest.reward.rec|!|1 )))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.exp.subtitle",
+                    "goal": 1000.0,
+                    "current": "exp1"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.exp2.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|25K |!|(i18n.rpg.quest.reward.rec|!|30 |!|(i18n.rpg.quest.reward.rec|!|1 )))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.exp.subtitle",
+                    "goal": 5000.0,
+                    "current": "exp2"
+                  }
+                ]
+              },
+              {
+                "title": "rpg.quest.exp3.title",
+                "icon": "achievements.png",
+                "reward": "i18n.rpg.quest.reward|!|(i18n.rpg.quest.reward.rec|!|70K |!|(i18n.rpg.quest.reward.rec|!|50 |!|(i18n.rpg.quest.reward.rec|!|\uE349 с рунами x2|!|(i18n.rpg.quest.reward.rec|!|1 ))))",
+                "tasks": [
+                  {
+                    "name": "rpg.quest.exp.subtitle",
+                    "goal": 15000.0,
+                    "current": "exp3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "quests": {
+    "MOBS": [
+      {
+        "id": "mobs1",
+        "title": "rpg.quest.mobs1.title",
+        "goal": 50.0,
+        "onComplete": [
+          "earn-bits %player% 15",
+          "earn-money %player% 10000 true",
+          "give-shiv %player% ARMOR DEFAULT 1"
+        ]
+      },
+      {
+        "id": "mobs2",
+        "title": "rpg.quest.mobs2.title",
+        "goal": 150.0,
+        "onComplete": [
+          "earn-bits %player% 30",
+          "earn-money %player% 30000 true",
+          "give-shiv %player% TOOL DEFAULT 1"
+        ]
+      },
+      {
+        "id": "mobs3",
+        "title": "rpg.quest.mobs3.title",
+        "goal": 350.0,
+        "onComplete": [
+          "earn-bits %player% 50",
+          "earn-money %player% 70000 true",
+          "give-shiv %player% TOOL DEFAULT 1",
+          "give-key %player% DEFAULT 1"
+        ]
+      }
+    ],
+    "BOSSES": [
+      {
+        "id": "bosses1",
+        "title": "rpg.quest.bosses1.title",
+        "goal": 5.0,
+        "onComplete": [
+          "earn-bits %player% 15",
+          "earn-money %player% 15000 true",
+          "give-shiv %player% ARMOR DEFAULT 1"
+        ]
+      },
+      {
+        "id": "bosses2",
+        "title": "rpg.quest.bosses2.title",
+        "goal": 10.0,
+        "onComplete": [
+          "earn-bits %player% 30",
+          "earn-money %player% 35000 true",
+          "give-shiv %player% TOOL EPIC 1"
+        ]
+      },
+      {
+        "id": "bosses3",
+        "title": "rpg.quest.bosses3.title",
+        "goal": 20.0,
+        "onComplete": [
+          "earn-bits %player% 50",
+          "earn-money %player% 80000 true",
+          "give-shiv %player% ARMOR DEFAULT 2",
+          "give-key %player% RUNE 1"
+        ]
+      }
+    ],
+    "MONEY": [
+      {
+        "id": "money1",
+        "title": "rpg.quest.money1.title",
+        "goal": 100000.0,
+        "onComplete": [
+          "earn-bits %player% 15",
+          "earn-money %player% 5000 true",
+          "give-shiv %player% TOOL DEFAULT 1"
+        ]
+      },
+      {
+        "id": "money2",
+        "title": "rpg.quest.money2.title",
+        "goal": 200000.0,
+        "onComplete": [
+          "earn-bits %player% 30",
+          "earn-money %player% 20000 true",
+          "give-shiv %player% TOOL EPIC 1",
+          "give-key %player% DEFAULT 1"
+        ]
+      },
+      {
+        "id": "money3",
+        "title": "rpg.quest.money3.title",
+        "goal": 500000.0,
+        "onComplete": [
+          "earn-bits %player% 50",
+          "earn-money %player% 50000 true",
+          "give-key %player% TITLE 1"
+        ]
+      }
+    ],
+    "EXP": [
+      {
+        "id": "exp1",
+        "title": "rpg.quest.exp1.title",
+        "goal": 1000.0,
+        "onComplete": [
+          "earn-bits %player% 15",
+          "earn-money %player% 8000 true",
+          "give-shiv %player% ARMOR DEFAULT 1"
+        ]
+      },
+      {
+        "id": "exp2",
+        "title": "rpg.quest.exp2.title",
+        "goal": 5000.0,
+        "onComplete": [
+          "earn-bits %player% 30",
+          "earn-money %player% 25000 true",
+          "give-shiv %player% ARMOR EPIC 1"
+        ]
+      },
+      {
+        "id": "exp3",
+        "title": "rpg.quest.exp3.title",
+        "goal": 15000.0,
+        "onComplete": [
+          "earn-bits %player% 50",
+          "earn-money %player% 70000 true",
+          "give-key %player% RUNE 2",
+          "give-shiv %player% TOOL DEFAULT 1"
+        ]
+      }
+    ]
+  }
+}

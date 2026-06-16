@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "messages",
+    "locations"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "messages": {
+      "type": "object",
+      "properties": {
+        "requiredLevelMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "requiredRebirthMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "required": [
+        "requiredLevelMessage",
+        "requiredRebirthMessage"
+      ],
+      "additionalProperties": false
+    },
+    "locations": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/locationType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/location"
+      }
+    }
+  },
+  "$defs": {
+    "location": {
+      "type": "object",
+      "properties": {
+        "slots": {
+          "type": "integer"
+        },
+        "map": {
+          "type": "string"
+        },
+        "button": {
+          "$ref": "#/$defs/locationButton"
+        }
+      },
+      "required": [
+        "slots",
+        "map",
+        "button"
+      ],
+      "additionalProperties": false
+    },
+    "locationButton": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "texture": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "requiredLevel": {
+          "type": "integer"
+        },
+        "onClick": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "texture",
+        "requiredLevel",
+        "onClick"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

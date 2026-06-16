@@ -1,0 +1,747 @@
+{
+  "menuFactory": {
+    "key": "rpg-test-season",
+    "maxLevel": 6,
+    "pinnedPreviewLevel": 4,
+    "levelBroadcastButtonEnabled": true,
+    "claimAllRewardsButtonEnabled": true,
+    "battlePassResetButtonEnabled": true,
+    "battlePassResetLevel": 6,
+    "shouldAdaptQuestContainerHeightToY": true,
+    "discountPercent": 0,
+    "stackableDiscount": true,
+    "purchase": {
+      "basePrice": 0
+    },
+    "gift": {
+      "basePrice": 0
+    },
+    "special": {
+      "basePrice": 25
+    },
+    "defaultRewards": [
+      {
+        "level": 1,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fDIRECT: бесплатная награда 1",
+              "description": "Выдаётся вместе со всеми наградами тира"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§aDIRECT: бесплатная награда 2",
+              "description": "Проверка нескольких наград в одном тире"
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "type": "RANDOM",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fRANDOM: вариант A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bRANDOM: вариант B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dRANDOM: вариант C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fPICKED: награда A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bPICKED: награда B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§6PICKED: награда C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fSELECT: выбери A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dSELECT: выбери B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§6SELECT: выбери C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bDIRECT: предфинальная награда"
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§6DIRECT: финальная награда",
+              "description": "После этого уровня можно проверить reset"
+            }
+          }
+        ]
+      }
+    ],
+    "premiumRewards": [
+      {
+        "level": 1,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bDIRECT premium: награда 1"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dDIRECT premium: награда 2"
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "type": "RANDOM",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bRANDOM premium: вариант A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dRANDOM premium: вариант B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§6RANDOM premium: вариант C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bPICKED premium: награда A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dPICKED premium: награда B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§6PICKED premium: награда C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bSELECT premium: выбери A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dSELECT premium: выбери B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§6SELECT premium: выбери C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dDIRECT premium: предфинальная"
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§6DIRECT premium: финальная"
+            }
+          }
+        ]
+      }
+    ],
+    "levelSkips": [
+      {
+        "level": 1,
+        "price": {
+          "basePrice": 0
+        }
+      },
+      {
+        "level": 2,
+        "price": {
+          "basePrice": 5
+        }
+      },
+      {
+        "level": 3,
+        "price": {
+          "basePrice": 10,
+          "discountPercent": 10,
+          "stackable": true
+        }
+      },
+      {
+        "level": 4,
+        "price": {
+          "basePrice": 15
+        }
+      },
+      {
+        "level": 5,
+        "price": {
+          "basePrice": 20
+        }
+      }
+    ],
+    "questCategories": [
+      {
+        "key": "daily",
+        "displayName": "Ежедневные тестовые",
+        "updateTime": {
+          "startTimestamp": 0,
+          "endTimestamp": 4102444800000
+        },
+        "quests": [
+          {
+            "description": "Добавь прогресс daily-kills",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-kills 1"
+            },
+            "maxProgress": 3,
+            "rewardExp": 40
+          },
+          {
+            "description": "Добавь прогресс daily-money",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-money 100"
+            },
+            "maxProgress": 500,
+            "rewardExp": 50
+          },
+          {
+            "description": "Добавь прогресс daily-login",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-login 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 30
+          }
+        ]
+      },
+      {
+        "key": "season",
+        "displayName": "Сезонные тестовые",
+        "quests": [
+          {
+            "description": "Сезонный квест без автообновления",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add season-play 1"
+            },
+            "maxProgress": 5,
+            "rewardExp": 75
+          },
+          {
+            "description": "Большой сезонный квест",
+            "tooltip": {
+              "description": "/test-battlepass-quest-set season-master 10"
+            },
+            "maxProgress": 10,
+            "rewardExp": 100
+          }
+        ]
+      }
+    ],
+    "duration": {
+      "startTimestamp": 0,
+      "endTimestamp": 4102444800000
+    }
+  },
+  "id": "rpg-test-season",
+  "maxLevel": 6,
+  "experiencePerLevel": 100,
+  "gameplaySettings": {
+    "claimAllEnabled": true,
+    "levelShareEnabled": true,
+    "levelShareCooldownMillis": 5000,
+    "resetEnabled": true,
+    "resetUnlockLevel": 6,
+    "giftingEnabled": true,
+    "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
+  },
+  "purchaseModalSettings": {
+    "description": "§7Тест всех сценариев BattlePass",
+    "regularOffer": {
+      "title": "§aОбычный тестовый",
+      "benefits": [
+        "§fОткрывает premium-награды",
+        "§fЦена 0 для проверки free purchase"
+      ]
+    },
+    "specialOffer": {
+      "title": "§6Особый тестовый",
+      "benefits": [
+        "§fОткрывает premium-награды",
+        "§fСразу добавляет 2 уровня",
+        "§fВыполняет bonus-команду"
+      ]
+    }
+  },
+  "regularPurchaseOffer": {
+    "grant": {}
+  },
+  "specialPurchaseOffer": {
+    "grant": {
+      "bonusLevels": 2,
+      "commands": [
+        "tell %player% BattlePass special offer command executed"
+      ]
+    }
+  },
+  "rewardTiers": [
+    {
+      "level": 1,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-1-default-1",
+          "onClaim": [
+            "tell %player% Claimed DIRECT default level 1 reward 1",
+            "earn-bits %player% 1"
+          ]
+        },
+        {
+          "id": "level-1-default-2",
+          "onClaim": [
+            "tell %player% Claimed DIRECT default level 1 reward 2"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-1-premium-1",
+          "onClaim": [
+            "tell %player% Claimed DIRECT premium level 1 reward 1",
+            "earn-bits %player% 2"
+          ]
+        },
+        {
+          "id": "level-1-premium-2",
+          "onClaim": [
+            "tell %player% Claimed DIRECT premium level 1 reward 2"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "type": "RANDOM",
+      "defaultRewards": [
+        {
+          "id": "level-2-default-random-a",
+          "onClaim": [
+            "tell %player% RANDOM default selected A"
+          ]
+        },
+        {
+          "id": "level-2-default-random-b",
+          "onClaim": [
+            "tell %player% RANDOM default selected B"
+          ]
+        },
+        {
+          "id": "level-2-default-random-c",
+          "onClaim": [
+            "tell %player% RANDOM default selected C"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-2-premium-random-a",
+          "onClaim": [
+            "tell %player% RANDOM premium selected A"
+          ]
+        },
+        {
+          "id": "level-2-premium-random-b",
+          "onClaim": [
+            "tell %player% RANDOM premium selected B"
+          ]
+        },
+        {
+          "id": "level-2-premium-random-c",
+          "onClaim": [
+            "tell %player% RANDOM premium selected C"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-3-default-picked-a",
+          "onClaim": [
+            "tell %player% PICKED default granted A"
+          ]
+        },
+        {
+          "id": "level-3-default-picked-b",
+          "onClaim": [
+            "tell %player% PICKED default granted B"
+          ]
+        },
+        {
+          "id": "level-3-default-picked-c",
+          "onClaim": [
+            "tell %player% PICKED default granted C"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-3-premium-picked-a",
+          "onClaim": [
+            "tell %player% PICKED premium granted A"
+          ]
+        },
+        {
+          "id": "level-3-premium-picked-b",
+          "onClaim": [
+            "tell %player% PICKED premium granted B"
+          ]
+        },
+        {
+          "id": "level-3-premium-picked-c",
+          "onClaim": [
+            "tell %player% PICKED premium granted C"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-4-default-select-a",
+          "onClaim": [
+            "tell %player% SELECT default chose A"
+          ]
+        },
+        {
+          "id": "level-4-default-select-b",
+          "onClaim": [
+            "tell %player% SELECT default chose B"
+          ]
+        },
+        {
+          "id": "level-4-default-select-c",
+          "onClaim": [
+            "tell %player% SELECT default chose C"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-4-premium-select-a",
+          "onClaim": [
+            "tell %player% SELECT premium chose A"
+          ]
+        },
+        {
+          "id": "level-4-premium-select-b",
+          "onClaim": [
+            "tell %player% SELECT premium chose B"
+          ]
+        },
+        {
+          "id": "level-4-premium-select-c",
+          "onClaim": [
+            "tell %player% SELECT premium chose C"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-5-default",
+          "onClaim": [
+            "tell %player% Claimed level 5 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-5-premium",
+          "onClaim": [
+            "tell %player% Claimed level 5 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-6-default",
+          "onClaim": [
+            "tell %player% Claimed final default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-6-premium",
+          "onClaim": [
+            "tell %player% Claimed final premium reward"
+          ]
+        }
+      ]
+    }
+  ],
+  "questCategories": [
+    {
+      "id": "daily",
+      "refreshPolicy": 60000,
+      "activeQuestCount": 2,
+      "quests": [
+        {
+          "id": "daily-kills",
+          "goal": 3,
+          "rewardExperience": 40,
+          "commands": [
+            "tell %player% Claimed daily-kills quest"
+          ]
+        },
+        {
+          "id": "daily-money",
+          "goal": 500,
+          "rewardExperience": 50,
+          "commands": [
+            "tell %player% Claimed daily-money quest"
+          ]
+        },
+        {
+          "id": "daily-login",
+          "goal": 1,
+          "rewardExperience": 30,
+          "commands": [
+            "tell %player% Claimed daily-login quest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "refreshPolicy": null,
+      "activeQuestCount": 2,
+      "quests": [
+        {
+          "id": "season-play",
+          "goal": 5,
+          "rewardExperience": 75,
+          "commands": [
+            "tell %player% Claimed season-play quest"
+          ]
+        },
+        {
+          "id": "season-master",
+          "goal": 10,
+          "rewardExperience": 100,
+          "commands": [
+            "tell %player% Claimed season-master quest"
+          ]
+        }
+      ]
+    }
+  ],
+  "levelShareMessage": "rpg.battlepass.level-share",
+  "expPerLevel": {
+    "1": 0,
+    "2": 50,
+    "3": 75,
+    "4": 100,
+    "5": 130,
+    "6": 175
+  },
+  "ignoreServiceDiscount": true
+}

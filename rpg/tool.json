@@ -1,0 +1,921 @@
+{
+    "$schema": "./schema/tool.schema.json",
+    "messages": {
+        "maxLevel": "rpg.tool.axe.messages.max-level",
+        "sell": "rpg.items.message.sell",
+        "hold": "rpg.items.message.hold",
+        "cannot": "rpg.items.message.cannot",
+        "locationRestricted": "rpg.tool.messages.location-restricted"
+    },
+    "rarityMapping": {
+        "COMMON": "rpg.tool.rarity.common.title",
+        "RARE": "rpg.tool.rarity.rare.title",
+        "EPIC": "rpg.tool.rarity.epic.title",
+        "LEGENDARY": "rpg.tool.rarity.legendary.title",
+        "MYTHIC": "rpg.tool.rarity.mythic.title"
+    },
+    "tools": {
+        "DEFAULT_SWORD": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.default_sword.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.default_sword.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "location": 1,
+            "isInteractable": true,
+            "price": 0.0,
+            "data": {
+                "sell_data": {
+                    "price": 0.0
+                },
+                "sim_rpg": "default_sword"
+            }
+        },
+        "DEFAULT_KNIFE": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.default_knife.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.default_knife.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "location": 1,
+            "isInteractable": true,
+            "price": 0.0,
+            "data": {
+                "sell_data": {
+                    "price": 0.0
+                },
+                "sim_rpg": "default_knife"
+            }
+        },
+        "DEFAULT_BOW": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.default_bow.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.default_bow.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "location": 1,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 0.0,
+            "data": {
+                "sell_data": {
+                    "price": 0.0
+                },
+                "sim_rpg": "default_bow"
+            }
+        },
+        "DEFAULT_STAFF": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.default_staff.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.default_staff.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.0,
+            "level": 1,
+            "location": 1,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 0.0,
+            "data": {
+                "sell_data": {
+                    "price": 0.0
+                },
+                "sim_rpg": "default_staff"
+            }
+        },
+        "SHADOW_BLADE": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.shadow_blade.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.shadow_blade.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.3,
+            "level": 1,
+            "location": 1,
+            "isInteractable": true,
+            "price": 2000.0,
+            "data": {
+                "sell_data": {
+                    "price": 2000.0
+                },
+                "sim_rpg": "shadow_blade"
+            }
+        },
+        "RAVEN_CLAW": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.raven_claw.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.raven_claw.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.3,
+            "level": 1,
+            "location": 1,
+            "isInteractable": true,
+            "price": 2000.0,
+            "data": {
+                "sell_data": {
+                    "price": 2000.0
+                },
+                "sim_rpg": "raven_claw"
+            }
+        },
+        "SPITTING_SNAKE": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.spitting_snake.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.spitting_snake.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.3,
+            "level": 1,
+            "location": 1,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 2000.0,
+            "data": {
+                "sell_data": {
+                    "price": 2000.0
+                },
+                "sim_rpg": "spitting_snake"
+            }
+        },
+        "SILENCE_ROD": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.silence_rod.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.silence_rod.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 1.3,
+            "level": 1,
+            "location": 1,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 2000.0,
+            "data": {
+                "sell_data": {
+                    "price": 2000.0
+                },
+                "sim_rpg": "silence_rod"
+            }
+        },
+        "VOICE_OF_WIND": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.voice_of_wind.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.voice_of_wind.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 30.0,
+            "level": 10,
+            "location": 2,
+            "isInteractable": true,
+            "price": 10000.0,
+            "data": {
+                "sell_data": {
+                    "price": 10000.0
+                },
+                "sim_rpg": "voice_of_wind"
+            }
+        },
+        "STINGING_BEE": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.stinging_bee.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.stinging_bee.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 30.0,
+            "level": 10,
+            "location": 2,
+            "isInteractable": true,
+            "price": 10000.0,
+            "data": {
+                "sell_data": {
+                    "price": 10000.0
+                },
+                "sim_rpg": "stinging_bee"
+            }
+        },
+        "FALCON_SIGH": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.falcon_sigh.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.falcon_sigh.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 30.0,
+            "level": 10,
+            "location": 2,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 10000.0,
+            "data": {
+                "sell_data": {
+                    "price": 10000.0
+                },
+                "sim_rpg": "falcon_sigh"
+            }
+        },
+        "QI_FLOW_STAFF": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.qi_flow_staff.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨58d47a|!|rpg.tool.qi_flow_staff.title",
+            "description": "rpg.tool.description",
+            "rare": "COMMON",
+            "damage": 30.0,
+            "level": 10,
+            "location": 2,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 10000.0,
+            "data": {
+                "sell_data": {
+                    "price": 10000.0
+                },
+                "sim_rpg": "qi_flow_staff"
+            }
+        },
+        "SLAUGHTER": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.slaughter.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨46bfef|!|rpg.tool.slaughter.title",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 189.0,
+            "level": 20,
+            "location": 3,
+            "isInteractable": true,
+            "price": 32000.0,
+            "data": {
+                "sell_data": {
+                    "price": 32000.0
+                },
+                "sim_rpg": "slaughter"
+            }
+        },
+        "GRAVEDIGGER_RAZOR": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.gravedigger_razor.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨46bfef|!|rpg.tool.gravedigger_razor.title",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 189.0,
+            "level": 20,
+            "location": 3,
+            "isInteractable": true,
+            "price": 32000.0,
+            "data": {
+                "sell_data": {
+                    "price": 32000.0
+                },
+                "sim_rpg": "gravedigger_razor"
+            }
+        },
+        "BONECRUSHER": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.bonecrusher.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨46bfef|!|rpg.tool.bonecrusher.title",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 189.0,
+            "level": 20,
+            "location": 3,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 32000.0,
+            "data": {
+                "sell_data": {
+                    "price": 32000.0
+                },
+                "sim_rpg": "bonecrusher"
+            }
+        },
+        "ROTTING_BONE_TOTEM": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.rotting_bone_totem.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨46bfef|!|rpg.tool.rotting_bone_totem.title",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 189.0,
+            "level": 20,
+            "location": 3,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 32000.0,
+            "data": {
+                "sell_data": {
+                    "price": 32000.0
+                },
+                "sim_rpg": "rotting_bone_totem"
+            }
+        },
+        "TIDE_COMB": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.tide_comb.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨46bfef|!|rpg.tool.tide_comb.title",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1022.0,
+            "level": 30,
+            "location": 4,
+            "isInteractable": true,
+            "price": 56000.0,
+            "data": {
+                "sell_data": {
+                    "price": 56000.0
+                },
+                "sim_rpg": "tide_comb"
+            }
+        },
+        "MORAY_FANG": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.moray_fang.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨46bfef|!|rpg.tool.moray_fang.title",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1022.0,
+            "level": 30,
+            "location": 4,
+            "isInteractable": true,
+            "price": 56000.0,
+            "data": {
+                "sell_data": {
+                    "price": 56000.0
+                },
+                "sim_rpg": "moray_fang"
+            }
+        },
+        "WHISPER_OF_DEPTHS": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.whisper_of_depths.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨46bfef|!|rpg.tool.whisper_of_depths.title",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1022.0,
+            "level": 30,
+            "location": 4,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 56000.0,
+            "data": {
+                "sell_data": {
+                    "price": 56000.0
+                },
+                "sim_rpg": "whisper_of_depths"
+            }
+        },
+        "CORAL_SCEPTER": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.coral_scepter.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨46bfef|!|rpg.tool.coral_scepter.title",
+            "description": "rpg.tool.description",
+            "rare": "RARE",
+            "damage": 1022.0,
+            "level": 30,
+            "location": 4,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 56000.0,
+            "data": {
+                "sell_data": {
+                    "price": 56000.0
+                },
+                "sim_rpg": "coral_scepter"
+            }
+        },
+        "RECKONING_NAIL": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.reckoning_nail.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨c346ec|!|rpg.tool.reckoning_nail.title",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 5371.0,
+            "level": 40,
+            "location": 5,
+            "isInteractable": true,
+            "price": 92000.0,
+            "data": {
+                "sell_data": {
+                    "price": 92000.0
+                },
+                "sim_rpg": "reckoning_nail"
+            }
+        },
+        "BURSTING_SHACKLES": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.bursting_shackles.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨c346ec|!|rpg.tool.bursting_shackles.title",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 5371.0,
+            "level": 40,
+            "location": 5,
+            "isInteractable": true,
+            "price": 92000.0,
+            "data": {
+                "sell_data": {
+                    "price": 92000.0
+                },
+                "sim_rpg": "bursting_shackles"
+            }
+        },
+        "WIND_MOAN": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.wind_moan.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨c346ec|!|rpg.tool.wind_moan.title",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 5371.0,
+            "level": 40,
+            "location": 5,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 92000.0,
+            "data": {
+                "sell_data": {
+                    "price": 92000.0
+                },
+                "sim_rpg": "wind_moan"
+            }
+        },
+        "DEFILED_CRYSTAL": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.defiled_crystal.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨c346ec|!|rpg.tool.defiled_crystal.title",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 5371.0,
+            "level": 40,
+            "location": 5,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 92000.0,
+            "data": {
+                "sell_data": {
+                    "price": 92000.0
+                },
+                "sim_rpg": "defiled_crystal"
+            }
+        },
+        "STORM_COMB": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.storm_comb.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨c346ec|!|rpg.tool.storm_comb.title",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 28132.0,
+            "level": 50,
+            "location": 6,
+            "isInteractable": true,
+            "price": 120000.0,
+            "data": {
+                "sell_data": {
+                    "price": 120000.0
+                },
+                "sim_rpg": "storm_comb"
+            }
+        },
+        "JELLYFISH_STING": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.jellyfish_sting.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨c346ec|!|rpg.tool.jellyfish_sting.title",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 28132.0,
+            "level": 50,
+            "location": 6,
+            "isInteractable": true,
+            "price": 120000.0,
+            "data": {
+                "sell_data": {
+                    "price": 120000.0
+                },
+                "sim_rpg": "jellyfish_sting"
+            }
+        },
+        "HARPOON_OF_LONGING": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.harpoon_of_longing.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨c346ec|!|rpg.tool.harpoon_of_longing.title",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 28132.0,
+            "level": 50,
+            "location": 6,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 120000.0,
+            "data": {
+                "sell_data": {
+                    "price": 120000.0
+                },
+                "sim_rpg": "harpoon_of_longing"
+            }
+        },
+        "PEARL_OF_DEPTHS": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.pearl_of_depths.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨c346ec|!|rpg.tool.pearl_of_depths.title",
+            "description": "rpg.tool.description",
+            "rare": "EPIC",
+            "damage": 28132.0,
+            "level": 50,
+            "location": 6,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 120000.0,
+            "data": {
+                "sell_data": {
+                    "price": 120000.0
+                },
+                "sim_rpg": "pearl_of_depths"
+            }
+        },
+        "CHAOS_BLADE": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.chaos_blade.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨fcc12b|!|rpg.tool.chaos_blade.title",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 147250.0,
+            "level": 60,
+            "location": 7,
+            "isInteractable": true,
+            "price": 159000.0,
+            "data": {
+                "sell_data": {
+                    "price": 159000.0
+                },
+                "sim_rpg": "chaos_blade"
+            }
+        },
+        "DISTORTED_THORN": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.distorted_thorn.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨fcc12b|!|rpg.tool.distorted_thorn.title",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 147250.0,
+            "level": 60,
+            "location": 7,
+            "isInteractable": true,
+            "price": 159000.0,
+            "data": {
+                "sell_data": {
+                    "price": 159000.0
+                },
+                "sim_rpg": "distorted_thorn"
+            }
+        },
+        "INSTABILITY_BOW": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.instability_bow.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨fcc12b|!|rpg.tool.instability_bow.title",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 147250.0,
+            "level": 60,
+            "location": 7,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 159000.0,
+            "data": {
+                "sell_data": {
+                    "price": 159000.0
+                },
+                "sim_rpg": "instability_bow"
+            }
+        },
+        "FOCUSING_SHARD": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.focusing_shard.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨fcc12b|!|rpg.tool.focusing_shard.title",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 147250.0,
+            "level": 60,
+            "location": 7,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 159000.0,
+            "data": {
+                "sell_data": {
+                    "price": 159000.0
+                },
+                "sim_rpg": "focusing_shard"
+            }
+        },
+        "PENDULUM_OF_FATE": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.pendulum_of_fate.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨fcc12b|!|rpg.tool.pendulum_of_fate.title",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 770690.0,
+            "level": 70,
+            "location": 8,
+            "isInteractable": true,
+            "price": 208000.0,
+            "data": {
+                "sell_data": {
+                    "price": 208000.0
+                },
+                "sim_rpg": "pendulum_of_fate"
+            }
+        },
+        "TIME_SCYTHE": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.time_scythe.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨fcc12b|!|rpg.tool.time_scythe.title",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 770690.0,
+            "level": 70,
+            "location": 8,
+            "isInteractable": true,
+            "price": 208000.0,
+            "data": {
+                "sell_data": {
+                    "price": 208000.0
+                },
+                "sim_rpg": "time_scythe"
+            }
+        },
+        "COUNTDOWN_CROSSBOW": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.countdown_crossbow.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨fcc12b|!|rpg.tool.countdown_crossbow.title",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 770690.0,
+            "level": 70,
+            "location": 8,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 208000.0,
+            "data": {
+                "sell_data": {
+                    "price": 208000.0
+                },
+                "sim_rpg": "countdown_crossbow"
+            }
+        },
+        "CHRONOS_ROD": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.chronos_rod.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨fcc12b|!|rpg.tool.chronos_rod.title",
+            "description": "rpg.tool.description",
+            "rare": "LEGENDARY",
+            "damage": 770690.0,
+            "level": 70,
+            "location": 8,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 208000.0,
+            "data": {
+                "sell_data": {
+                    "price": 208000.0
+                },
+                "sim_rpg": "chronos_rod"
+            }
+        },
+        "ERA_FRAGMENT": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.era_fragment.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨e73d4b|!|rpg.tool.era_fragment.title",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 4033668.0,
+            "level": 80,
+            "location": 9,
+            "isInteractable": true,
+            "price": 270000.0,
+            "data": {
+                "sell_data": {
+                    "price": 270000.0
+                },
+                "sim_rpg": "era_fragment"
+            }
+        },
+        "HOPE_SHARD": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.hope_shard.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨e73d4b|!|rpg.tool.hope_shard.title",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 4033668.0,
+            "level": 80,
+            "location": 9,
+            "isInteractable": true,
+            "price": 270000.0,
+            "data": {
+                "sell_data": {
+                    "price": 270000.0
+                },
+                "sim_rpg": "hope_shard"
+            }
+        },
+        "OBLIVION_STRING": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.oblivion_string.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨e73d4b|!|rpg.tool.oblivion_string.title",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 4033668.0,
+            "level": 80,
+            "location": 9,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 270000.0,
+            "data": {
+                "sell_data": {
+                    "price": 270000.0
+                },
+                "sim_rpg": "oblivion_string"
+            }
+        },
+        "DESTRUCTION_CORE": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.destruction_core.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨e73d4b|!|rpg.tool.destruction_core.title",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 4033668.0,
+            "level": 80,
+            "location": 9,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 270000.0,
+            "data": {
+                "sell_data": {
+                    "price": 270000.0
+                },
+                "sim_rpg": "destruction_core"
+            }
+        },
+        "ECHOES_OF_PAST_BATTLES": {
+            "characterType": "SWORDSMAN",
+            "type": "SWORD",
+            "material": "IRON_SWORD",
+            "title": "rpg.tool.echoes_of_past_battles.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨e73d4b|!|rpg.tool.echoes_of_past_battles.title",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 21111552.0,
+            "level": 90,
+            "location": 10,
+            "isInteractable": true,
+            "price": 352000.0,
+            "data": {
+                "sell_data": {
+                    "price": 352000.0
+                },
+                "sim_rpg": "echoes_of_past_battles"
+            }
+        },
+        "SHADOW_OF_FALLEN": {
+            "characterType": "THIEF",
+            "type": "KNIFE",
+            "material": "STONE_SWORD",
+            "title": "rpg.tool.shadow_of_fallen.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨e73d4b|!|rpg.tool.shadow_of_fallen.title",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 21111552.0,
+            "level": 90,
+            "location": 10,
+            "isInteractable": true,
+            "price": 352000.0,
+            "data": {
+                "sell_data": {
+                    "price": 352000.0
+                },
+                "sim_rpg": "shadow_of_fallen"
+            }
+        },
+        "BOW_OF_DOOM": {
+            "characterType": "ELF",
+            "type": "BOW",
+            "material": "BOW",
+            "title": "rpg.tool.bow_of_doom.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨e73d4b|!|rpg.tool.bow_of_doom.title",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 21111552.0,
+            "level": 90,
+            "location": 10,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 352000.0,
+            "data": {
+                "sell_data": {
+                    "price": 352000.0
+                },
+                "sim_rpg": "bow_of_doom"
+            }
+        },
+        "HEART_OF_STORM": {
+            "characterType": "MAGE",
+            "type": "STAFF",
+            "material": "CLAY_BALL",
+            "title": "rpg.tool.heart_of_storm.title",
+            "formattedTitle": "i18n.rpg.tool.title.formatted|!|¨e73d4b|!|rpg.tool.heart_of_storm.title",
+            "description": "rpg.tool.description",
+            "rare": "MYTHIC",
+            "damage": 21111552.0,
+            "level": 90,
+            "location": 10,
+            "isInteractable": false,
+            "cooldown": 16,
+            "price": 352000.0,
+            "data": {
+                "sell_data": {
+                    "price": 352000.0
+                },
+                "sim_rpg": "heart_of_storm"
+            }
+        }
+    }
+}

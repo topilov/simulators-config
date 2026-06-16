@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "textures"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "textures": {
+      "type": "array",
+      "items": {
+        "$ref": "./common.schema.json#/$defs/url"
+      }
+    }
+  },
+  "additionalProperties": false
+}

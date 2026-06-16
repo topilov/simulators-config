@@ -1,0 +1,111 @@
+{
+  "$schema": "./schema/menu.schema.json",
+
+  "main": {
+    "banner": {
+      "texture": "banner.png",
+      "title": "rpg.menu.main.banner.title",
+      "description": "rpg.menu.main.banner.description",
+      "buttons": [
+        {
+          "name": "rpg.menu.main.banner.buttons.telegram.name",
+          "openUrl": "https://t.me/crisimulators"
+        },
+        {
+          "name": "rpg.menu.main.banner.buttons.discord.name",
+          "openUrl": "https://discord.gg/EsAaCWddEH"
+        }
+      ]
+    },
+    "elements": [
+      {
+        "icon": "equipment.png",
+        "title": "rpg.menu.main.buttons.equipment.title",
+        "weight": 298,
+        "onSelect": [
+          "sudo %player% equipment-menu"
+        ]
+      },
+      {
+        "icon": "donate.png",
+        "title": "rpg.menu.main.buttons.donate.title",
+        "weight": 298,
+        "onSelect": [
+          "sudo %player% donate"
+        ]
+      },
+      {
+        "icon": "quests.png",
+        "title": "rpg.menu.main.buttons.quests.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% quest"
+        ]
+      },
+      {
+        "icon": "daily.png",
+        "title": "rpg.menu.main.buttons.daily.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% daily"
+        ]
+      },
+      {
+        "icon": "achievements-menu.png",
+        "title": "rpg.menu.main.buttons.achievements.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% achievements"
+        ]
+      },
+      {
+        "icon": "settings.png",
+        "title": "rpg.menu.main.buttons.settings.title",
+        "weight": 144,
+        "onSelect": [
+          "sudo %player% settings"
+        ]
+      },
+      {
+        "icon": "talents.png",
+        "title": "rpg.menu.main.buttons.talents.title",
+        "weight": 194,
+        "onSelect": [
+          "sudo %player% talent-menu"
+        ]
+      },
+      {
+        "icon": "incidents.png",
+        "title": "rpg.menu.main.buttons.incidents.title",
+        "weight": 198,
+        "onSelect": [
+          "sudo %player% incident-menu"
+        ]
+      },
+      {
+        "icon": "shop.png",
+        "title": "rpg.menu.main.buttons.shop.title",
+        "weight": 194,
+        "onSelect": [
+          "sudo %player% bits-shop"
+        ]
+      },
+      {
+        "icon": "diary.png",
+        "title": "rpg.menu.main.buttons.diary.title",
+        "weight": 298,
+        "onSelect": [
+          "sudo %player% diary"
+        ]
+      },
+      {
+        "icon": "skill.png",
+        "title": "rpg.menu.main.buttons.skill.title",
+        "weight": 298,
+        "onSelect": [
+          "sudo %player% skill"
+        ]
+      }
+    ]
+  }
+}

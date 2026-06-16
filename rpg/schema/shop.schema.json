@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "messages",
+    "shops"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"    
+    },
+    "messages": {
+      "$ref": "#/$defs/messages"
+    },
+    "shops": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/shopType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/shop"
+      }
+    }
+  },
+  "$defs": {
+    "messages": {
+      "type": "object",
+      "required": [
+        "noSubscription"
+      ],
+      "properties": {
+        "noSubscription": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "shopType": {
+      "type": "string",
+      "enum": [
+        "ABILITY",
+        "ARTEFACT",
+        "FEED",
+        "BITS"
+      ]
+    },
+    "shop": {
+      "type": "object",
+      "required": [
+        "vault",
+        "products"
+      ],
+      "properties": {
+        "vault": {
+          "$ref": "./common.schema.json#/$defs/emoji"
+        },
+        "products": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/product"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "product": {
+      "type": "object",
+      "required": [
+        "type",
+        "title",
+        "description",
+        "icon",
+        "price",
+        "vault",
+        "amount",
+        "onPurchase"
+      ],
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "icon": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "price": {
+          "type": "number",
+          "minimum": 0
+        },
+        "vault": {
+          "$ref": "./common.schema.json#/$defs/emoji"
+        },
+        "amount": {
+          "type": "number",
+          "minimum": 0
+        },
+        "isCounterEnabled": {
+          "type": "boolean"
+        },
+        "onPurchase": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "data": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "CHARACTER_TYPE",
+              "ABILITY_TYPE",
+              "CHECK_FULL_INVENTORY",
+              "REQUIRES_SUB"
+            ]
+          },
+          "additionalProperties": {
+            "type": [
+              "string",
+              "boolean"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

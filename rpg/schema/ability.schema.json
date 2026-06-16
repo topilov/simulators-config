@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "offsetY",
+    "abilities"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "offsetY": {
+      "type": "number"
+    },
+    "abilities": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/abilityType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/ability"
+      }
+    }
+  },
+  "$defs": {
+    "ability": {
+      "type": "object",
+      "required": [
+        "isActive"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "isActive": {
+          "type": "boolean"
+        },
+        "texture": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "timedDescription": {
+          "$ref": "./common.schema.json#/$defs/timedDescription"
+        },
+        "cooldown": {
+          "type": "number",
+          "minimum": 0
+        },
+        "isLocked": {
+          "type": "boolean"
+        },
+        "settings": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

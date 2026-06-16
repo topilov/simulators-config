@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "npcs"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "npcs": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/npcEntry"
+      }
+    }
+  },
+  "$defs": {
+    "npcEntry": {
+      "type": "object",
+      "properties": {
+        "npc": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/flexibleNpc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "dialog": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    "flexibleNpc": {
+      "type": "object",
+      "required": [
+        "name",
+        "location",
+        "skin",
+        "lookAtPlayer",
+        "onClick"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "location": {
+          "$ref": "./common.schema.json#/$defs/label"
+        },
+        "skin": {
+          "$ref": "./common.schema.json#/$defs/url"
+        },
+        "lookAtPlayer": {
+          "type": "boolean"
+        },
+        "onClick": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

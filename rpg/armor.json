@@ -1,0 +1,612 @@
+{
+    "$schema": "./schema/armor.schema.json",
+    "rarityMapping": {
+        "COMMON": "rpg.tool.rarity.common.title",
+        "RARE": "rpg.tool.rarity.rare.title",
+        "EPIC": "rpg.tool.rarity.epic.title",
+        "LEGENDARY": "rpg.tool.rarity.legendary.title",
+        "MYTHIC": "rpg.tool.rarity.mythic.title"
+    },
+    "armors": {
+        "PHANTOM_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨58d47a|!|rpg.armor.phantom.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "LEATHER_HELMET",
+            "rare": "COMMON",
+            "level": 1,
+            "price": 2000.0,
+            "enchantment": 0,
+            "data": {
+                "sell_data": {
+                    "price": 2000.0
+                },
+                "sim_rpg": "phantom_armor"
+            }
+        },
+        "PHANTOM_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨58d47a|!|rpg.armor.phantom.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "LEATHER_CHESTPLATE",
+            "rare": "COMMON",
+            "level": 1,
+            "price": 2000.0,
+            "enchantment": 0,
+            "data": {
+                "sell_data": {
+                    "price": 2000.0
+                },
+                "sim_rpg": "phantom_armor"
+            }
+        },
+        "PHANTOM_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨58d47a|!|rpg.armor.phantom.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "LEATHER_LEGGINGS",
+            "rare": "COMMON",
+            "level": 1,
+            "price": 5000.0,
+            "enchantment": 0,
+            "data": {
+                "sell_data": {
+                    "price": 5000.0
+                },
+                "sim_rpg": "phantom_armor"
+            }
+        },
+        "PHANTOM_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨58d47a|!|rpg.armor.phantom.boots.title",
+            "description": "rpg.armor.description",
+            "material": "LEATHER_BOOTS",
+            "rare": "COMMON",
+            "level": 1,
+            "price": 5000.0,
+            "enchantment": 0,
+            "data": {
+                "sell_data": {
+                    "price": 5000.0
+                },
+                "sim_rpg": "phantom_armor"
+            }
+        },
+        "MONK_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨58d47a|!|rpg.armor.monk.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "LEATHER_HELMET",
+            "rare": "COMMON",
+            "level": 1,
+            "price": 10000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 10000.0
+                },
+                "sim_rpg": "mock_armor"
+            }
+        },
+        "MONK_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨58d47a|!|rpg.armor.monk.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "LEATHER_CHESTPLATE",
+            "rare": "COMMON",
+            "level": 1,
+            "price": 10000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 10000.0
+                },
+                "sim_rpg": "mock_armor"
+            }
+        },
+        "MONK_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨58d47a|!|rpg.armor.monk.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "LEATHER_LEGGINGS",
+            "rare": "COMMON",
+            "level": 1,
+            "price": 20000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 20000.0
+                },
+                "sim_rpg": "mock_armor"
+            }
+        },
+        "MONK_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨58d47a|!|rpg.armor.monk.boots.title",
+            "description": "rpg.armor.description",
+            "material": "LEATHER_BOOTS",
+            "rare": "COMMON",
+            "level": 1,
+            "price": 20000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 20000.0
+                },
+                "sim_rpg": "mock_armor"
+            }
+        },
+        "BANDIT_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨46bfef|!|rpg.armor.bandit.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "GOLD_HELMET",
+            "rare": "RARE",
+            "level": 1,
+            "price": 32000.0,
+            "enchantment": 1,
+            "data": {
+                "sell_data": {
+                    "price": 32000.0
+                },
+                "sim_rpg": "bandit_armor"
+            }
+        },
+        "BANDIT_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨46bfef|!|rpg.armor.bandit.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "GOLD_CHESTPLATE",
+            "rare": "RARE",
+            "level": 1,
+            "price": 32000.0,
+            "enchantment": 1,
+            "data": {
+                "sell_data": {
+                    "price": 32000.0
+                },
+                "sim_rpg": "bandit_armor"
+            }
+        },
+        "BANDIT_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨46bfef|!|rpg.armor.bandit.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "GOLD_LEGGINGS",
+            "rare": "RARE",
+            "level": 1,
+            "price": 43000.0,
+            "enchantment": 1,
+            "data": {
+                "sell_data": {
+                    "price": 43000.0
+                },
+                "sim_rpg": "bandit_armor"
+            }
+        },
+        "BANDIT_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨46bfef|!|rpg.armor.bandit.boots.title",
+            "description": "rpg.armor.description",
+            "material": "GOLD_BOOTS",
+            "rare": "RARE",
+            "level": 1,
+            "price": 43000.0,
+            "enchantment": 1,
+            "data": {
+                "sell_data": {
+                    "price": 43000.0
+                },
+                "sim_rpg": "bandit_armor"
+            }
+        },
+        "CURSED_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨46bfef|!|rpg.armor.cursed.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "CHAINMAIL_HELMET",
+            "rare": "RARE",
+            "level": 1,
+            "price": 56000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 56000.0
+                },
+                "sim_rpg": "cursed_armor"
+            }
+        },
+        "CURSED_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨46bfef|!|rpg.armor.cursed.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "CHAINMAIL_CHESTPLATE",
+            "rare": "RARE",
+            "level": 1,
+            "price": 56000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 56000.0
+                },
+                "sim_rpg": "cursed_armor"
+            }
+        },
+        "CURSED_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨46bfef|!|rpg.armor.cursed.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "CHAINMAIL_LEGGINGS",
+            "rare": "RARE",
+            "level": 1,
+            "price": 67000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 67000.0
+                },
+                "sim_rpg": "cursed_armor"
+            }
+        },
+        "CURSED_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨46bfef|!|rpg.armor.cursed.boots.title",
+            "description": "rpg.armor.description",
+            "material": "CHAINMAIL_BOOTS",
+            "rare": "RARE",
+            "level": 1,
+            "price": 67000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 67000.0
+                },
+                "sim_rpg": "cursed_armor"
+            }
+        },
+        "OATH_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨c346ec|!|rpg.armor.oath.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "IRON_HELMET",
+            "rare": "EPIC",
+            "level": 1,
+            "price": 92000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 92000.0
+                },
+                "sim_rpg": "oath_armor"
+            }
+        },
+        "OATH_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨c346ec|!|rpg.armor.oath.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "IRON_CHESTPLATE",
+            "rare": "EPIC",
+            "level": 1,
+            "price": 92000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 92000.0
+                },
+                "sim_rpg": "oath_armor"
+            }
+        },
+        "OATH_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨c346ec|!|rpg.armor.oath.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "IRON_LEGGINGS",
+            "rare": "EPIC",
+            "level": 1,
+            "price": 109000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 109000.0
+                },
+                "sim_rpg": "oath_armor"
+            }
+        },
+        "OATH_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨c346ec|!|rpg.armor.oath.boots.title",
+            "description": "rpg.armor.description",
+            "material": "IRON_BOOTS",
+            "rare": "EPIC",
+            "level": 1,
+            "price": 109000.0,
+            "enchantment": 2,
+            "data": {
+                "sell_data": {
+                    "price": 109000.0
+                },
+                "sim_rpg": "oath_armor"
+            }
+        },
+        "EXILE_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨c346ec|!|rpg.armor.exile.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "IRON_HELMET",
+            "rare": "EPIC",
+            "level": 1,
+            "price": 120000.0,
+            "enchantment": 3,
+            "data": {
+                "sell_data": {
+                    "price": 120000.0
+                },
+                "sim_rpg": "exile_armor"
+            }
+        },
+        "EXILE_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨c346ec|!|rpg.armor.exile.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "IRON_CHESTPLATE",
+            "rare": "EPIC",
+            "level": 1,
+            "price": 120000.0,
+            "enchantment": 3,
+            "data": {
+                "sell_data": {
+                    "price": 120000.0
+                },
+                "sim_rpg": "exile_armor"
+            }
+        },
+        "EXILE_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨c346ec|!|rpg.armor.exile.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "IRON_LEGGINGS",
+            "rare": "EPIC",
+            "level": 1,
+            "price": 145000.0,
+            "enchantment": 3,
+            "data": {
+                "sell_data": {
+                    "price": 145000.0
+                },
+                "sim_rpg": "exile_armor"
+            }
+        },
+        "EXILE_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨c346ec|!|rpg.armor.exile.boots.title",
+            "description": "rpg.armor.description",
+            "material": "IRON_BOOTS",
+            "rare": "EPIC",
+            "level": 1,
+            "price": 145000.0,
+            "enchantment": 3,
+            "data": {
+                "sell_data": {
+                    "price": 145000.0
+                },
+                "sim_rpg": "exile_armor"
+            }
+        },
+        "MINDSHARD_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨fcc12b|!|rpg.armor.mindshard.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_HELMET",
+            "rare": "LEGENDARY",
+            "level": 1,
+            "price": 159000.0,
+            "enchantment": 3,
+            "data": {
+                "sell_data": {
+                    "price": 159000.0
+                },
+                "sim_rpg": "mindshard_armor"
+            }
+        },
+        "MINDSHARD_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨fcc12b|!|rpg.armor.mindshard.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_CHESTPLATE",
+            "rare": "LEGENDARY",
+            "level": 1,
+            "price": 159000.0,
+            "enchantment": 3,
+            "data": {
+                "sell_data": {
+                    "price": 159000.0
+                },
+                "sim_rpg": "mindshard_armor"
+            }
+        },
+        "MINDSHARD_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨fcc12b|!|rpg.armor.mindshard.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_LEGGINGS",
+            "rare": "LEGENDARY",
+            "level": 1,
+            "price": 196000.0,
+            "enchantment": 3,
+            "data": {
+                "sell_data": {
+                    "price": 196000.0
+                },
+                "sim_rpg": "mindshard_armor"
+            }
+        },
+        "MINDSHARD_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨fcc12b|!|rpg.armor.mindshard.boots.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_BOOTS",
+            "rare": "LEGENDARY",
+            "level": 1,
+            "price": 196000.0,
+            "enchantment": 3,
+            "data": {
+                "sell_data": {
+                    "price": 196000.0
+                },
+                "sim_rpg": "mindshard_armor"
+            }
+        },
+        "TIMELESS_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨fcc12b|!|rpg.armor.timeless.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_HELMET",
+            "rare": "LEGENDARY",
+            "level": 1,
+            "price": 208000.0,
+            "enchantment": 4,
+            "data": {
+                "sell_data": {
+                    "price": 208000.0
+                },
+                "sim_rpg": "timeless_armor"
+            }
+        },
+        "TIMELESS_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨fcc12b|!|rpg.armor.timeless.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_CHESTPLATE",
+            "rare": "LEGENDARY",
+            "level": 1,
+            "price": 208000.0,
+            "enchantment": 4,
+            "data": {
+                "sell_data": {
+                    "price": 208000.0
+                },
+                "sim_rpg": "timeless_armor"
+            }
+        },
+        "TIMELESS_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨fcc12b|!|rpg.armor.timeless.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_LEGGINGS",
+            "rare": "LEGENDARY",
+            "level": 1,
+            "price": 257000.0,
+            "enchantment": 4,
+            "data": {
+                "sell_data": {
+                    "price": 257000.0
+                },
+                "sim_rpg": "timeless_armor"
+            }
+        },
+        "TIMELESS_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨fcc12b|!|rpg.armor.timeless.boots.title",
+            "description": "rpg.armor.description",
+            "material": "IRON_BOOTS",
+            "rare": "LEGENDARY",
+            "level": 1,
+            "price": 257000.0,
+            "enchantment": 0,
+            "data": {
+                "sell_data": {
+                    "price": 257000.0
+                },
+                "sim_rpg": "timeless_armor"
+            }
+        },
+        "LASTSTAND_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨e73d4b|!|rpg.armor.laststand.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_HELMET",
+            "rare": "MYTHIC",
+            "level": 1,
+            "price": 270000.0,
+            "enchantment": 4,
+            "data": {
+                "sell_data": {
+                    "price": 270000.0
+                },
+                "sim_rpg": "laststand_armor"
+            }
+        },
+        "LASTSTAND_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨e73d4b|!|rpg.armor.laststand.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_CHESTPLATE",
+            "rare": "MYTHIC",
+            "level": 1,
+            "price": 270000.0,
+            "enchantment": 4,
+            "data": {
+                "sell_data": {
+                    "price": 270000.0
+                },
+                "sim_rpg": "laststand_armor"
+            }
+        },
+        "LASTSTAND_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨e73d4b|!|rpg.armor.laststand.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_LEGGINGS",
+            "rare": "MYTHIC",
+            "level": 1,
+            "price": 335000.0,
+            "enchantment": 4,
+            "data": {
+                "sell_data": {
+                    "price": 335000.0
+                },
+                "sim_rpg": "laststand_armor"
+            }
+        },
+        "LASTSTAND_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨e73d4b|!|rpg.armor.laststand.boots.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_BOOTS",
+            "rare": "MYTHIC",
+            "level": 1,
+            "price": 335000.0,
+            "enchantment": 4,
+            "data": {
+                "sell_data": {
+                    "price": 335000.0
+                },
+                "sim_rpg": "laststand_armor"
+            }
+        },
+        "APOCALYPSE_HELMET": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨e73d4b|!|rpg.armor.apocalypse.helmet.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_HELMET",
+            "rare": "MYTHIC",
+            "level": 1,
+            "price": 352000.0,
+            "enchantment": 5,
+            "data": {
+                "sell_data": {
+                    "price": 352000.0
+                },
+                "sim_rpg": "apocalypse_armor"
+            }
+        },
+        "APOCALYPSE_CHESTPLATE": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨e73d4b|!|rpg.armor.apocalypse.chestplate.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_CHESTPLATE",
+            "rare": "MYTHIC",
+            "level": 1,
+            "price": 352000.0,
+            "enchantment": 5,
+            "data": {
+                "sell_data": {
+                    "price": 352000.0
+                },
+                "sim_rpg": "apocalypse_armor"
+            }
+        },
+        "APOCALYPSE_LEGGINGS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨e73d4b|!|rpg.armor.apocalypse.leggings.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_LEGGINGS",
+            "rare": "MYTHIC",
+            "level": 1,
+            "price": 433000.0,
+            "enchantment": 5,
+            "data": {
+                "sell_data": {
+                    "price": 433000.0
+                },
+                "sim_rpg": "apocalypse_armor"
+            }
+        },
+        "APOCALYPSE_BOOTS": {
+            "title": "i18n.rpg.armor.title.formatted|!|¨e73d4b|!|rpg.armor.apocalypse.boots.title",
+            "description": "rpg.armor.description",
+            "material": "DIAMOND_BOOTS",
+            "rare": "MYTHIC",
+            "level": 1,
+            "price": 433000.0,
+            "enchantment": 5,
+            "data": {
+                "sell_data": {
+                    "price": 433000.0
+                },
+                "sim_rpg": "apocalypse_armor"
+            }
+        }
+    }
+}

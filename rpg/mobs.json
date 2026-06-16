@@ -1,0 +1,3455 @@
+{
+  "$schema": "./schema/mobs.schema.json",
+  "messages": {
+    "drop": "rpg.mobs.messages.drop"
+  },
+  "idle": {
+    "content": {
+      "basic": "rpg.mobs.idle.basic.content",
+      "advanced": "rpg.mobs.idle.advanced.content"
+    },
+    "messages": {
+      "notEnoughFuel": "rpg.mobs.idle.messages.not_enough_fuel",
+      "playerDataNotInitialized": "rpg.mobs.idle.messages.player_data_not_initialized",
+      "failedToolValidation": "rpg.mobs.idle.messages.failed_tool_validation",
+      "toolWasChanged": "rpg.mobs.idle.messages.tool_was_changed"
+    },
+    "delay": {
+      "SWORDSMAN": {
+        "menu": 15,
+        "zone": 17
+      },
+      "THIEF": {
+        "menu": 15,
+        "zone": 17
+      },
+      "ELF": {
+        "menu": 15,
+        "zone": 17
+      },
+      "MAGE": {
+        "menu": 15,
+        "zone": 17
+      }
+    }
+  },
+  "locations": {
+    "SHADOW_CITY": {
+      "mobs": {
+        "SHADOW_SCOUT": {
+          "kinds": {
+            "SHADOW_SCOUT": {
+              "chance": 90,
+              "type": "SHADOW_SCOUT",
+              "entityType": "SHADOW_SCOUT",
+              "title": "rpg.mobs.shadow_scout.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|2|!|rpg.mobs.shadow_scout.title",
+              "level": 2,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shadow_scout.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 20.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 1.0
+                  },
+                  "sim_rpg": "gravedigger_razor"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 20.0,
+              "exp": 25.0,
+              "money": 200,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 85.0
+                },
+                {
+                  "chance": 1,
+                  "id": "PHANTOM_HELMET"
+                },
+                {
+                  "chance": 1,
+                  "id": "PHANTOM_CHESTPLATE"
+                },
+                {
+                  "chance": 2,
+                  "id": "SHADOW_BLADE"
+                },
+                {
+                  "chance": 2,
+                  "id": "RAVEN_CLAW"
+                },
+                {
+                  "chance": 2,
+                  "id": "SPITTING_SNAKE"
+                },
+                {
+                  "chance": 2,
+                  "id": "SILENCE_ROD"
+                },
+                {
+                  "chance": 5,
+                  "id": "shadow_cloak"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "NIGHT_ASSASSIN": {
+              "chance": 10,
+              "type": "NIGHT_ASSASSIN",
+              "entityType": "NIGHT_ASSASSIN",
+              "title": "rpg.mobs.night_assassin.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|4|!|rpg.mobs.night_assassin.title",
+              "level": 4,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/night_assassin.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 48.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.33
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "DIAMOND_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 2.0
+                  },
+                  "sim_rpg": "reckoning_nail"
+                }
+              },
+              "spawnAfter": 60,
+              "exp": 50.0,
+              "money": 300,
+              "petExp": 35.0,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "poisoned_kunai"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "shadow_scout",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "shadow_scout",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "shadow_scout"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            },
+            "title": "rpg.mobs.shadow_scout.title"
+          }
+        },
+        "GHOST_OBSERVER": {
+          "kinds": {
+            "GHOST_OBSERVER": {
+              "chance": 90.0,
+              "type": "GHOST_OBSERVER",
+              "entityType": "GHOST_OBSERVER",
+              "title": "rpg.mobs.ghost_observer.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|6|!|rpg.mobs.ghost_observer.title",
+              "level": 6,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/ghost_observer.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 102.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 3.0
+                  },
+                  "sim_rpg": "default_bow"
+                }
+              },
+              "spawnAfter": 60,
+              "exp": 90.0,
+              "money": 500,
+              "petExp": 65.0,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 97.0
+                },
+                {
+                  "chance": 1,
+                  "id": "PHANTOM_LEGGINGS"
+                },
+                {
+                  "chance": 1,
+                  "id": "PHANTOM_BOOTS"
+                },
+                {
+                  "chance": 1,
+                  "id": "observers_eye"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "FOG_SHOOTER": {
+              "chance": 10.0,
+              "type": "FOG_SHOOTER",
+              "entityType": "FOG_SHOOTER",
+              "title": "rpg.mobs.fog_shooter.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|8|!|rpg.mobs.fog_shooter.title",
+              "level": 8,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/fog_shooter.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 180.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.35
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 4.5
+                  },
+                  "sim_rpg": "falcon_sigh"
+                }
+              },
+              "spawnAfter": 60,
+              "exp": 150.0,
+              "money": 700,
+              "petExp": 100.0,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "phantom_lens"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "ghost_observer",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "ghost_observer",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "ghost_observer"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            },
+            "title": "rpg.mobs.ghost_observer.title"
+          }
+        },
+        "ILLUSION_MASTER": {
+          "kinds": {
+            "ILLUSION_MASTER": {
+              "chance": 100,
+              "type": "ILLUSION_MASTER",
+              "entityType": "ILLUSION_MASTER",
+              "title": "rpg.mobs.illusion_master.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|10|!|rpg.mobs.illusion_master.title",
+              "level": 10,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/illusion_master.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 291.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.4
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 5.0
+                  },
+                  "sim_rpg": "wind_moan"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 180.0,
+              "exp": 250.0,
+              "money": 1200,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "shard_of_illusion"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "illusion_master",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "illusion_master",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "illusion_master"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            },
+            "title": "rpg.mobs.illusion_master.title"
+          }
+        }
+      }
+    },
+    "CITY_OF_DAO": {
+      "mobs": {
+        "DAO_STUDENT": {
+          "kinds": {
+            "DAO_STUDENT": {
+              "chance": 90,
+              "type": "DAO_STUDENT",
+              "entityType": "DAO_STUDENT",
+              "title": "rpg.mobs.dao_student.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|12|!|rpg.mobs.dao_student.title",
+              "level": 12,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/dao_student.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 360.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 5.0
+                  },
+                  "sim_rpg": "shadow_blade"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 210.0,
+              "exp": 300.0,
+              "money": 1300,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 90.0
+                },
+                {
+                  "chance": 1,
+                  "id": "MONK_CHESTPLATE"
+                },
+                {
+                  "chance": 1,
+                  "id": "MONK_HELMET"
+                },
+                {
+                  "chance": 1.5,
+                  "id": "VOICE_OF_WIND"
+                },
+                {
+                  "chance": 1.5,
+                  "id": "STINGING_BEE"
+                },
+                {
+                  "chance": 1.5,
+                  "id": "FALCON_SIGH"
+                },
+                {
+                  "chance": 1.5,
+                  "id": "QI_FLOW_STAFF"
+                },
+                {
+                  "chance": 1.5,
+                  "id": "wooden_katana"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "KATANA_INSPECTOR": {
+              "chance": 10,
+              "type": "KATANA_INSPECTOR",
+              "entityType": "KATANA_INSPECTOR",
+              "title": "rpg.mobs.katana_inspector.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|14|!|rpg.mobs.katana_inspector.title",
+              "level": 14,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/katana_inspector.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 624.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.32
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 5.5
+                  },
+                  "sim_rpg": "raven_claw"
+                }
+              },
+              "onHitEffects": [
+                {
+                  "type": "POISON",
+                  "duration": 1,
+                  "amplifier": 0
+                }
+              ],
+              "spawnAfter": 60,
+              "petExp": 350.0,
+              "exp": 500.0,
+              "money": 1500,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "masters_scabbard"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "dao_student",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "dao_student",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.dao_student.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "dao_student"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "DAO_GUARDIAN": {
+          "kinds": {
+            "DAO_GUARDIAN": {
+              "chance": 90,
+              "type": "DAO_GUARDIAN",
+              "entityType": "DAO_GUARDIAN",
+              "title": "rpg.mobs.dao_guardian.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|16|!|rpg.mobs.dao_guardian.title",
+              "level": 16,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/dao_guardian.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 873.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "GOLD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 6.0
+                  },
+                  "sim_rpg": "voice_of_wind"
+                }
+              },
+              "onHitEffects": [
+                {
+                  "type": "WITHER",
+                  "duration": 2,
+                  "amplifier": 0
+                }
+              ],
+              "spawnAfter": 60,
+              "petExp": 560.0,
+              "exp": 800.0,
+              "money": 2000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 97.0
+                },
+                {
+                  "chance": 1,
+                  "id": "MONK_LEGGINGS"
+                },
+                {
+                  "chance": 1,
+                  "id": "MONK_BOOTS"
+                },
+                {
+                  "chance": 1,
+                  "id": "nichirin_blade"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "DAO_ARCHER": {
+              "chance": 10,
+              "type": "DAO_ARCHER",
+              "entityType": "DAO_ARCHER",
+              "title": "rpg.mobs.dao_archer.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|18|!|rpg.mobs.dao_archer.title",
+              "level": 18,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/dao_archer.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 1220.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.4
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 6.3
+                  },
+                  "sim_rpg": "falcon_sigh"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 700.0,
+              "exp": 1000.0,
+              "money": 2500,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "fire_arrow"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "dao_guardian",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "dao_guardian",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.dao_guardian.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "dao_guardian"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "CI_MASTER": {
+          "kinds": {
+            "CI_MASTER": {
+              "chance": 100,
+              "type": "CI_MASTER",
+              "entityType": "CI_MASTER",
+              "title": "rpg.mobs.ci_master.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|20|!|rpg.mobs.ci_master.title",
+              "level": 20,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/ci_master.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 1700.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.25
+              },
+              "bladeMail": 0,
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 6.8
+                  },
+                  "sim_rpg": "spitting_snake"
+                }
+              },
+              "onHitEffects": [
+                {
+                  "type": "BLINDNESS",
+                  "duration": 2,
+                  "amplifier": 0
+                }
+              ],
+              "spawnAfter": 60,
+              "petExp": 1100.0,
+              "exp": 1600.0,
+              "money": 3000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "scroll_of_returning_ci"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "ci_master",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "ci_master",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.ci_master.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "ci_master"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        }
+      }
+    },
+    "LAWLESS_VILLAGE": {
+      "mobs": {
+        "STREET_FIGHTER": {
+          "kinds": {
+            "STREET_FIGHTER": {
+              "chance": 90,
+              "type": "STREET_FIGHTER",
+              "entityType": "STREET_FIGHTER",
+              "title": "rpg.mobs.street_fighter.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|22|!|rpg.mobs.street_fighter.title",
+              "level": 22,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/street_fighter.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 2360.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "STONE_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 8.0
+                  },
+                  "sim_rpg": "stinging_bee"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 1400.0,
+              "exp": 2000.0,
+              "money": 3200,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 93.0
+                },
+                {
+                  "chance": 1,
+                  "id": "BANDIT_CHESTPLATE"
+                },
+                {
+                  "chance": 1,
+                  "id": "BANDIT_HELMET"
+                },
+                {
+                  "chance": 1,
+                  "id": "SLAUGHTER"
+                },
+                {
+                  "chance": 1,
+                  "id": "GRAVEDIGGER_RAZOR"
+                },
+                {
+                  "chance": 1,
+                  "id": "BONECRUSHER"
+                },
+                {
+                  "chance": 1,
+                  "id": "ROTTING_BONE_TOTEM"
+                },
+                {
+                  "chance": 1,
+                  "id": "cracked_club"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "LANE_LEADER": {
+              "chance": 10,
+              "type": "LANE_LEADER",
+              "entityType": "LANE_LEADER",
+              "title": "rpg.mobs.lane_leader.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|24|!|rpg.mobs.lane_leader.title",
+              "level": 24,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/lane_leader.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 3770.0,
+                "ATTACK_DAMAGE": 1.0,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "onHitEffects": [
+                {
+                  "type": "SLOW",
+                  "duration": 3,
+                  "amplifier": 1
+                }
+              ],
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 9.0
+                  },
+                  "sim_rpg": "voice_of_wind"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 1750.0,
+              "exp": 2500.0,
+              "money": 3900,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "bandana_of_the_chieftain"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "street_fighter",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "street_fighter",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.street_fighter.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "street_fighter"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "ELITE_MOBS": {
+          "kinds": {
+            "ELITE_MOBS": {
+              "chance": 90,
+              "type": "ELITE_MOBS",
+              "entityType": "ELITE_MOBS",
+              "title": "rpg.mobs.elite_mobs.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|26|!|rpg.mobs.elite_mobs.title",
+              "level": 26,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/elite_mobs.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 5060.0,
+                "ATTACK_DAMAGE": 1.46,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "onHitEffects": [
+                {
+                  "type": "WITHER",
+                  "duration": 1,
+                  "amplifier": 1
+                }
+              ],
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 6.65
+                  },
+                  "sim_rpg": "gravedigger_razor"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 2100.0,
+              "exp": 3000.0,
+              "money": 4300,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 97.0
+                },
+                {
+                  "chance": 1,
+                  "id": "BANDIT_LEGGINGS"
+                },
+                {
+                  "chance": 1,
+                  "id": "BANDIT_BOOTS"
+                },
+                {
+                  "chance": 1,
+                  "id": "torn_chains"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "MASK_DESTROYER": {
+              "chance": 10,
+              "type": "MASK_DESTROYER",
+              "entityType": "MASK_DESTROYER",
+              "title": "rpg.mobs.mask_destroyer.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|28|!|rpg.mobs.mask_destroyer.title",
+              "level": 28,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/mask_destroyer.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 6850.0,
+                "ATTACK_DAMAGE": 1.52,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 6.93
+                  },
+                  "sim_rpg": "slaughter"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 2450.0,
+              "exp": 3500.0,
+              "money": 4700,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "bloody_mask"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "elite_mobs",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "elite_mobs",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.elite_mobs.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "elite_mobs"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "WARLOCK_GANGS": {
+          "kinds": {
+            "WARLOCK_GANGS": {
+              "chance": 100,
+              "type": "WARLOCK_GANGS",
+              "entityType": "WARLOCK_GANGS",
+              "title": "rpg.mobs.warlock_gangs.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|30|!|rpg.mobs.warlock_gangs.title",
+              "level": 30,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/warlock_gangs.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 9350.0,
+                "ATTACK_DAMAGE": 1.8,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "onHitEffects": [
+                {
+                  "type": "CONFUSION",
+                  "duration": 4,
+                  "amplifier": 0
+                },
+                {
+                  "type": "SLOW",
+                  "duration": 2,
+                  "amplifier": 0
+                }
+              ],
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 8.14
+                  },
+                  "sim_rpg": "bonecrusher"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 2800.0,
+              "exp": 4000.0,
+              "money": 5000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "tome_of_dark_spells"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "warlock_gangs",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "warlock_gangs",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.warlock_gangs.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "warlock_gangs"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        }
+      }
+    },
+    "ARCHIPELAGO_OF_OBLIVION": {
+      "mobs": {
+        "FORGOT_SOUL": {
+          "kinds": {
+            "FORGOT_SOUL": {
+              "chance": 90,
+              "type": "FORGOT_SOUL",
+              "entityType": "FORGOT_SOUL",
+              "title": "rpg.mobs.forgot_soul.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|32|!|rpg.mobs.forgot_soul.title",
+              "level": 32,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/forgot_soul.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 12800.0,
+                "ATTACK_DAMAGE": 1.72,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "STONE_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 7.83
+                  },
+                  "sim_rpg": "slaughter"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 3500.0,
+              "exp": 5000.0,
+              "money": 5600,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 93.0
+                },
+                {
+                  "chance": 1,
+                  "id": "CURSED_CHESTPLATE"
+                },
+                {
+                  "chance": 1,
+                  "id": "CURSED_HELMET"
+                },
+                {
+                  "chance": 1,
+                  "id": "TIDE_COMB"
+                },
+                {
+                  "chance": 1,
+                  "id": "MORAY_FANG"
+                },
+                {
+                  "chance": 1,
+                  "id": "WHISPER_OF_DEPTHS"
+                },
+                {
+                  "chance": 1,
+                  "id": "CORAL_SCEPTER"
+                },
+                {
+                  "chance": 1,
+                  "id": "death_medallion"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "DROWNED_GUARDIAN": {
+              "chance": 10,
+              "type": "DROWNED_GUARDIAN",
+              "entityType": "DROWNED_GUARDIAN",
+              "title": "rpg.mobs.drowned_guardian.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|34|!|rpg.mobs.drowned_guardian.title",
+              "level": 34,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/drowned_guardian.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 20200.0,
+                "ATTACK_DAMAGE": 1.34,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "onHitEffects": [
+                {
+                  "type": "SLOW",
+                  "duration": 3,
+                  "amplifier": 1
+                }
+              ],
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 6.09
+                  },
+                  "sim_rpg": "gravedigger_razor"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 4200.0,
+              "exp": 6000.0,
+              "money": 6800,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "diary_of_memories"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "forgot_soul",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "forgot_soul",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.forgot_soul.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "forgot_soul"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "SEA_SCAVENGER": {
+          "kinds": {
+            "SEA_SCAVENGER": {
+              "chance": 90,
+              "type": "SEA_SCAVENGER",
+              "entityType": "SEA_SCAVENGER",
+              "title": "rpg.mobs.sea_scavenger.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|36|!|rpg.mobs.sea_scavenger.title",
+              "level": 36,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/sea_scavenger.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 26900.0,
+                "ATTACK_DAMAGE": 2.32,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "onHitEffects": [
+                {
+                  "type": "WITHER",
+                  "duration": 1,
+                  "amplifier": 1
+                }
+              ],
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 10.51
+                  },
+                  "sim_rpg": "bonecrusher"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 4900.0,
+              "exp": 7000.0,
+              "money": 6900,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 97.0
+                },
+                {
+                  "chance": 1,
+                  "id": "CURSED_LEGGINGS"
+                },
+                {
+                  "chance": 1,
+                  "id": "CURSED_BOOTS"
+                },
+                {
+                  "chance": 1,
+                  "id": "piece_of_rotten_flesh"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "DROWNED_FOAM": {
+              "chance": 10,
+              "type": "DROWNED_FOAM",
+              "entityType": "DROWNED_FOAM",
+              "title": "rpg.mobs.drowned_foam.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|38|!|rpg.mobs.drowned_foam.title",
+              "level": 38,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/drowned_foam.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 36300.0,
+                "ATTACK_DAMAGE": 2.4,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "IRON_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 10.87
+                  },
+                  "sim_rpg": "tide_comb"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 5950.0,
+              "exp": 8500.0,
+              "money": 7600,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "sea_foam"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "sea_scavenger",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "sea_scavenger",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.sea_scavenger.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "sea_scavenger"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "FALLEN_CAPTAIN": {
+          "kinds": {
+            "FALLEN_CAPTAIN": {
+              "chance": 100,
+              "type": "FALLEN_CAPTAIN",
+              "entityType": "FALLEN_CAPTAIN",
+              "title": "rpg.mobs.fallen_captain.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|40|!|rpg.mobs.fallen_captain.title",
+              "level": 40,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/fallen_captain.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 49300.0,
+                "ATTACK_DAMAGE": 2.72,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "onHitEffects": [
+                {
+                  "type": "CONFUSION",
+                  "duration": 4,
+                  "amplifier": 0
+                },
+                {
+                  "type": "SLOW",
+                  "duration": 2,
+                  "amplifier": 0
+                }
+              ],
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 12.35
+                  },
+                  "sim_rpg": "whisper_of_depths"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 7700.0,
+              "exp": 11000.0,
+              "money": 9400,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "captains_compass"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "fallen_captain",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_captain",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.fallen_captain.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_captain"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        }
+      }
+    },
+    "CRUCIFIED_VALLEY": {
+      "mobs": {
+        "LOST_PILGRIM": {
+          "kinds": {
+            "LOST_PILGRIM": {
+              "chance": 90,
+              "type": "LOST_PILGRIM",
+              "entityType": "LOST_PILGRIM",
+              "title": "rpg.mobs.lost_pilgrim.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|42|!|rpg.mobs.lost_pilgrim.title",
+              "level": 42,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/lost_pilgrim.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 107400.0,
+                "ATTACK_DAMAGE": 2.68,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 12.11
+                  },
+                  "sim_rpg": "tide_comb"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 8400.0,
+              "exp": 12000.0,
+              "money": 9500,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 93.0
+                },
+                {
+                  "chance": 1,
+                  "id": "OATH_CHESTPLATE"
+                },
+                {
+                  "chance": 1,
+                  "id": "OATH_HELMET"
+                },
+                {
+                  "chance": 1,
+                  "id": "RECKONING_NAIL"
+                },
+                {
+                  "chance": 1,
+                  "id": "BURSTING_SHACKLES"
+                },
+                {
+                  "chance": 1,
+                  "id": "WIND_MOAN"
+                },
+                {
+                  "chance": 1,
+                  "id": "DEFILED_CRYSTAL"
+                },
+                {
+                  "chance": 1,
+                  "id": "excerpt_from_the_prayer"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "SHACKLED_WATCHER": {
+              "chance": 10,
+              "type": "SHACKLED_WATCHER",
+              "entityType": "SHACKLED_WATCHER",
+              "title": "rpg.mobs.shackled_watcher.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|44|!|rpg.mobs.shackled_watcher.title",
+              "level": 44,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/shackled_watcher.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 141200.0,
+                "ATTACK_DAMAGE": 1.92,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 8.69
+                  },
+                  "sim_rpg": "whisper_of_depths"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 9800.0,
+              "exp": 14000.0,
+              "money": 11100,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "rusty_chain"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "lost_pilgrim",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "lost_pilgrim",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.lost_pilgrim.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "lost_pilgrim"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "CRUCIFIED_GUARD": {
+          "kinds": {
+            "CRUCIFIED_GUARD": {
+              "chance": 90,
+              "type": "CRUCIFIED_GUARD",
+              "entityType": "CRUCIFIED_GUARD",
+              "title": "rpg.mobs.crucified_guard.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|46|!|rpg.mobs.crucified_guard.title",
+              "level": 46,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/crucified_guard.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 188200.0,
+                "ATTACK_DAMAGE": 3.42,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 15.43
+                  },
+                  "sim_rpg": "wind_moan"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 11200.0,
+              "exp": 16000.0,
+              "money": 11200,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 97.0
+                },
+                {
+                  "chance": 1,
+                  "id": "OATH_LEGGINGS"
+                },
+                {
+                  "chance": 1,
+                  "id": "OATH_BOOTS"
+                },
+                {
+                  "chance": 1,
+                  "id": "bloody_cross"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "RITUAL_BEARER": {
+              "chance": 10,
+              "type": "RITUAL_BEARER",
+              "entityType": "RITUAL_BEARER",
+              "title": "rpg.mobs.ritual_bearer.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|48|!|rpg.mobs.ritual_bearer.title",
+              "level": 48,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/ritual_bearer.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 253600.0,
+                "ATTACK_DAMAGE": 3.52,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 15.88
+                  },
+                  "sim_rpg": "reckoning_nail"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 13300.0,
+              "exp": 19000.0,
+              "money": 12500,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "dagger_for_rituals"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "crucified_grd",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "crucified_grd",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.crucified_guard.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "crucified_grd"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "CHAIN_DRIVER": {
+          "kinds": {
+            "CHAIN_DRIVER": {
+              "chance": 100,
+              "type": "CHAIN_DRIVER",
+              "entityType": "CHAIN_DRIVER",
+              "title": "rpg.mobs.chain_driver.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|50|!|rpg.mobs.chain_driver.title",
+              "level": 50,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/chain_driver.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 344700.0,
+                "ATTACK_DAMAGE": 3.92,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 17.64
+                  },
+                  "sim_rpg": "defiled_crystal"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 15400.0,
+              "exp": 22000.0,
+              "money": 14000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.0
+                },
+                {
+                  "chance": 1,
+                  "id": "drivers_tongs"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "chain_driver",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "chain_driver",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.chain_driver.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "chain_driver"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        }
+      }
+    },
+    "SUNKEN_ARCHIPELAGO": {
+      "mobs": {
+        "WANDERING_SINGER": {
+          "kinds": {
+            "WANDERING_SINGER": {
+              "chance": 90,
+              "type": "WANDERING_SINGER",
+              "entityType": "WANDERING_SINGER",
+              "title": "rpg.mobs.wandering_singer.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|52|!|rpg.mobs.wandering_singer.title",
+              "level": 52,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/wandering_singer.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 562600.0,
+                "ATTACK_DAMAGE": 3.89,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 17.52
+                  },
+                  "sim_rpg": "wind_moan"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 16800.0,
+              "exp": 24000.0,
+              "money": 14500,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 93.35
+                },
+                {
+                  "chance": 0.95,
+                  "id": "EXILE_CHESTPLATE"
+                },
+                {
+                  "chance": 0.95,
+                  "id": "EXILE_HELMET"
+                },
+                {
+                  "chance": 0.95,
+                  "id": "STORM_COMB"
+                },
+                {
+                  "chance": 0.95,
+                  "id": "JELLYFISH_STING"
+                },
+                {
+                  "chance": 0.95,
+                  "id": "HARPOON_OF_LONGING"
+                },
+                {
+                  "chance": 0.95,
+                  "id": "PEARL_OF_DEPTHS"
+                },
+                {
+                  "chance": 0.95,
+                  "id": "frozen_note"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "ROTTING_HELM": {
+              "chance": 10,
+              "type": "ROTTING_HELM",
+              "entityType": "ROTTING_HELM",
+              "title": "rpg.mobs.rotting_helm.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|54|!|rpg.mobs.rotting_helm.title",
+              "level": 54,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/rotting_helm.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 739300.0,
+                "ATTACK_DAMAGE": 2.66,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 11.99
+                  },
+                  "sim_rpg": "bursting_shackles"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 18200.0,
+              "exp": 26000.0,
+              "money": 15000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.05
+                },
+                {
+                  "chance": 0.95,
+                  "id": "chest_of_worms"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "wander_singer",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "wander_singer",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.wandering_singer.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "wander_singer"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "STORM_GUARDIAN": {
+          "kinds": {
+            "STORM_GUARDIAN": {
+              "chance": 90,
+              "type": "STORM_GUARDIAN",
+              "entityType": "STORM_GUARDIAN",
+              "title": "rpg.mobs.storm_guardian.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|56|!|rpg.mobs.storm_guardian.title",
+              "level": 56,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/storm_guardian.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 985200.0,
+                "ATTACK_DAMAGE": 4.78,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 21.53
+                  },
+                  "sim_rpg": "jellyfish_sting"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 19600.0,
+              "exp": 28000.0,
+              "money": 15500,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 97.15
+                },
+                {
+                  "chance": 0.95,
+                  "id": "EXILE_LEGGINGS"
+                },
+                {
+                  "chance": 0.95,
+                  "id": "EXILE_BOOTS"
+                },
+                {
+                  "chance": 0.95,
+                  "id": "torn_sail"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "THICKET_PIRATE": {
+              "chance": 10,
+              "type": "THICKET_PIRATE",
+              "entityType": "THICKET_PIRATE",
+              "title": "rpg.mobs.thicket_pirate.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|58|!|rpg.mobs.thicket_pirate.title",
+              "level": 58,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/thicket_pirate.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 1327700.0,
+                "ATTACK_DAMAGE": 4.91,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 22.08
+                  },
+                  "sim_rpg": "storm_comb"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 22400.0,
+              "exp": 32000.0,
+              "money": 16000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.05
+                },
+                {
+                  "chance": 0.95,
+                  "id": "navel_saber"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "storm_guardian",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "storm_guardian",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.storm_guardian.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "storm_guardian"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "ABYSSAL_PRIESTESS": {
+          "kinds": {
+            "ABYSSAL_PRIESTESS": {
+              "chance": 100,
+              "type": "ABYSSAL_PRIESTESS",
+              "entityType": "ABYSSAL_PRIESTESS",
+              "title": "rpg.mobs.abyssal_priestess.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|60|!|rpg.mobs.abyssal_priestess.title",
+              "level": 60,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/abyssal_priestess.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 1804600.0,
+                "ATTACK_DAMAGE": 5.39,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 24.24
+                  },
+                  "sim_rpg": "harpoon_of_longing"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 26600.0,
+              "exp": 38000.0,
+              "money": 16500,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.05
+                },
+                {
+                  "chance": 0.95,
+                  "id": "trident_of_omnipotence"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "abyss_priest",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "abyss_priest",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.abyssal_priestess.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "abyss_priest"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        }
+      }
+    },
+    "LIMITS_OF_REASON": {
+      "mobs": {
+        "CRACKED_STUDENT": {
+          "kinds": {
+            "CRACKED_STUDENT": {
+              "chance": 90,
+              "type": "CRACKED_STUDENT",
+              "entityType": "CRACKED_STUDENT",
+              "title": "rpg.mobs.cracked_student.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|62|!|rpg.mobs.cracked_student.title",
+              "level": 62,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/cracked_student.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 2945000.0,
+                "ATTACK_DAMAGE": 5.38,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 24.14
+                  },
+                  "sim_rpg": "pearl_of_depths"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 28000.0,
+              "exp": 40000.0,
+              "money": 17000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 94.05
+                },
+                {
+                  "chance": 0.85,
+                  "id": "MINDSHARD_CHESTPLATE"
+                },
+                {
+                  "chance": 0.85,
+                  "id": "MINDSHARD_HELMET"
+                },
+                {
+                  "chance": 0.85,
+                  "id": "CHAOS_BLADE"
+                },
+                {
+                  "chance": 0.85,
+                  "id": "DISTORTED_THORN"
+                },
+                {
+                  "chance": 0.85,
+                  "id": "INSTABILITY_BOW"
+                },
+                {
+                  "chance": 0.85,
+                  "id": "FOCUSING_SHARD"
+                },
+                {
+                  "chance": 0.85,
+                  "id": "alchemical_powder"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "DISTORTED_PROTOCOL": {
+              "chance": 10,
+              "type": "DISTORTED_PROTOCOL",
+              "entityType": "DISTORTED_PROTOCOL",
+              "title": "rpg.mobs.distorted_protocol.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|64|!|rpg.mobs.distorted_protocol.title",
+              "level": 64,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/distorted_protocol.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 3869500.0,
+                "ATTACK_DAMAGE": 3.52,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 25.82
+                  },
+                  "sim_rpg": "harpoon_of_longing"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 30100.0,
+              "exp": 43000.0,
+              "money": 18000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.15
+                },
+                {
+                  "chance": 0.85,
+                  "id": "distorted_crystal"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "cracked_student",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "cracked_student",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.cracked_student.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "cracked_student"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "ARCHIVAL_GUARDIAN": {
+          "kinds": {
+            "ARCHIVAL_GUARDIAN": {
+              "chance": 90,
+              "type": "ARCHIVAL_GUARDIAN",
+              "entityType": "ARCHIVAL_GUARDIAN",
+              "title": "rpg.mobs.archival_guardian.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|66|!|rpg.mobs.archival_guardian.title",
+              "level": 66,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/archival_guardian.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 5156800.0,
+                "ATTACK_DAMAGE": 6.43,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 28.9
+                  },
+                  "sim_rpg": "chaos_blade"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 32200.0,
+              "exp": 46000.0,
+              "money": 19600,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 97.45
+                },
+                {
+                  "chance": 0.85,
+                  "id": "MINDSHARD_LEGGINGS"
+                },
+                {
+                  "chance": 0.85,
+                  "id": "MINDSHARD_BOOTS"
+                },
+                {
+                  "chance": 0.85,
+                  "id": "book_of_immortality"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "BROKEN_RESEARCHER": {
+              "chance": 10,
+              "type": "BROKEN_RESEARCHER",
+              "entityType": "BROKEN_RESEARCHER",
+              "title": "rpg.mobs.broken_researcher.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|68|!|rpg.mobs.broken_researcher.title",
+              "level": 68,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/broken_researcher.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 6949200.0,
+                "ATTACK_DAMAGE": 6.58,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 29.55
+                  },
+                  "sim_rpg": "instability_bow"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 35000.0,
+              "exp": 50000.0,
+              "money": 21000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.15
+                },
+                {
+                  "chance": 0.85,
+                  "id": "shard_of_memory"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "archival_guard",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "archival_guard",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.archival_guardian.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "archival_guard"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "FRAGMENT_OF_MIND": {
+          "kinds": {
+            "FRAGMENT_OF_MIND": {
+              "chance": 100,
+              "type": "FRAGMENT_OF_MIND",
+              "entityType": "FRAGMENT_OF_MIND",
+              "title": "rpg.mobs.fragment_of_mind.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|70|!|rpg.mobs.fragment_of_mind.title",
+              "level": 70,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/fragment_of_mind.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 9444900.0,
+                "ATTACK_DAMAGE": 7.13,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 32.02
+                  },
+                  "sim_rpg": "distorted_thorn"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 38500.0,
+              "exp": 55000.0,
+              "money": 22000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.15
+                },
+                {
+                  "chance": 0.85,
+                  "id": "measurement_formula"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "frag_of_mind",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "frag_of_mind",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.fragment_of_mind.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "frag_of_mind"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        }
+      }
+    },
+    "HALL_OF_FATE": {
+      "mobs": {
+        "TEMPORAL_GHOST": {
+          "kinds": {
+            "TEMPORAL_GHOST": {
+              "chance": 90,
+              "type": "TEMPORAL_GHOST",
+              "entityType": "TEMPORAL_GHOST",
+              "title": "rpg.mobs.temporal_ghost.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|72|!|rpg.mobs.temporal_ghost.title",
+              "level": 72,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/temporal_ghost.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 19267200.0,
+                "ATTACK_DAMAGE": 7.15,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 32.09
+                  },
+                  "sim_rpg": "instability_bow"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 42000.0,
+              "exp": 60000.0,
+              "money": 23000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 94.4
+                },
+                {
+                  "chance": 0.8,
+                  "id": "TIMELESS_CHESTPLATE"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "TIMELESS_HELMET"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "PENDULUM_OF_FATE"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "TIME_SCYTHE"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "COUNTDOWN_CROSSBOW"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "CHRONOS_ROD"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "flask_of_centuries"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "SAND_GUARDIAN": {
+              "chance": 10,
+              "type": "SAND_GUARDIAN",
+              "entityType": "SAND_GUARDIAN",
+              "title": "rpg.mobs.sand_guardian.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|74|!|rpg.mobs.sand_guardian.title",
+              "level": 74,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/sand_guardian.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 25315600.0,
+                "ATTACK_DAMAGE": 4.57,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 20.48
+                  },
+                  "sim_rpg": "chaos_blade"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 45500.0,
+              "exp": 65000.0,
+              "money": 24000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.2
+                },
+                {
+                  "chance": 0.8,
+                  "id": "grain_of_sand"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "temporal_ghost",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "temporal_ghost",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.temporal_ghost.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "temporal_ghost"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "MECHANICAL_ARBITER": {
+          "kinds": {
+            "MECHANICAL_ARBITER": {
+              "chance": 90,
+              "type": "MECHANICAL_ARBITER",
+              "entityType": "MECHANICAL_ARBITER",
+              "title": "rpg.mobs.mechanical_arbiter.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|76|!|rpg.mobs.mechanical_arbiter.title",
+              "level": 76,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/mechanical_arbiter.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 33737400.0,
+                "ATTACK_DAMAGE": 8.39,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 37.63
+                  },
+                  "sim_rpg": "countdown_crossbow"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 50400.0,
+              "exp": 72000.0,
+              "money": 25000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 97.6
+                },
+                {
+                  "chance": 0.8,
+                  "id": "TIMELESS_LEGGINGS"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "TIMELESS_BOOTS"
+                },
+                {
+                  "chance": 0.8,
+                  "id": "arbiters_gear"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "DISTORTED_CHRONOMANCER": {
+              "chance": 10,
+              "type": "DISTORTED_CHRONOMANCER",
+              "entityType": "DISTORTED_CHRONOMANCER",
+              "title": "rpg.mobs.distorted_chronomancer.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|78|!|rpg.mobs.distorted_chronomancer.title",
+              "level": 78,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/distorted_chronomancer.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 45463900.0,
+                "ATTACK_DAMAGE": 8.57,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 38.4
+                  },
+                  "sim_rpg": "chronos_rod"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 56000.0,
+              "exp": 80000.0,
+              "money": 28000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.2
+                },
+                {
+                  "chance": 0.8,
+                  "id": "chronomancers_pendulum"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "mech_arbiter",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "mech_arbiter",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.mechanical_arbiter.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "mech_arbiter"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "DECAY_WARDEN": {
+          "kinds": {
+            "DECAY_WARDEN": {
+              "chance": 100,
+              "type": "DECAY_WARDEN",
+              "entityType": "DECAY_WARDEN",
+              "title": "rpg.mobs.decay_warden.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|80|!|rpg.mobs.decay_warden.title",
+              "level": 80,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/decay_warden.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 61791800.0,
+                "ATTACK_DAMAGE": 9.22,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 41.33
+                  },
+                  "sim_rpg": "time_scythe"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 63000.0,
+              "exp": 90000.0,
+              "money": 30000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.2
+                },
+                {
+                  "chance": 0.8,
+                  "id": "blade_of_eternity"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "decay_warden",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "decay_warden",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.decay_warden.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "decay_warden"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        }
+      }
+    },
+    "AFTERMATH": {
+      "mobs": {
+        "DEVASTATED_SOLDIER": {
+          "kinds": {
+            "DEVASTATED_SOLDIER": {
+              "chance": 90,
+              "type": "DEVASTATED_SOLDIER",
+              "entityType": "DEVASTATED_SOLDIER",
+              "title": "rpg.mobs.devastated_soldier.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|82|!|rpg.mobs.devastated_soldier.title",
+              "level": 82,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/devastated_soldier.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 100841700.0,
+                "ATTACK_DAMAGE": 9.26,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 41.46
+                  },
+                  "sim_rpg": "pendulum_of_fate"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 66500.0,
+              "exp": 95000.0,
+              "money": 31000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 95.1
+                },
+                {
+                  "chance": 0.7,
+                  "id": "LASTSTAND_CHESTPLATE"
+                },
+                {
+                  "chance": 0.7,
+                  "id": "LASTSTAND_HELMET"
+                },
+                {
+                  "chance": 0.7,
+                  "id": "ERA_FRAGMENT"
+                },
+                {
+                  "chance": 0.7,
+                  "id": "HOPE_SHARD"
+                },
+                {
+                  "chance": 0.7,
+                  "id": "OBLIVION_STRING"
+                },
+                {
+                  "chance": 0.7,
+                  "id": "DESTRUCTION_CORE"
+                },
+                {
+                  "chance": 0.7,
+                  "id": "cyanide_tablet"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "FADED_SEEKER": {
+              "chance": 10,
+              "type": "FADED_SEEKER",
+              "entityType": "FADED_SEEKER",
+              "title": "rpg.mobs.faded_seeker.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|84|!|rpg.mobs.faded_seeker.title",
+              "level": 84,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/faded_seeker.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 132497900.0,
+                "ATTACK_DAMAGE": 5.79,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 25.91
+                  },
+                  "sim_rpg": "countdown_crossbow"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 73500.0,
+              "exp": 105000.0,
+              "money": 32000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.3
+                },
+                {
+                  "chance": 0.7,
+                  "id": "last_post"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "devast_soldier",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "devast_soldier",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.devastated_soldier.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "devast_soldier"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "ASH_COLOSSUS": {
+          "kinds": {
+            "ASH_COLOSSUS": {
+              "chance": 90,
+              "type": "ASH_COLOSSUS",
+              "entityType": "ASH_COLOSSUS",
+              "title": "rpg.mobs.ash_colossus.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|86|!|rpg.mobs.ash_colossus.title",
+              "level": 86,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/ash_colossus.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 176576000.0,
+                "ATTACK_DAMAGE": 10.68,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 47.83
+                  },
+                  "sim_rpg": "hope_shard"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 80500.0,
+              "exp": 115000.0,
+              "money": 33500,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 97.9
+                },
+                {
+                  "chance": 0.7,
+                  "id": "LASTSTAND_LEGGINGS"
+                },
+                {
+                  "chance": 0.7,
+                  "id": "LASTSTAND_BOOTS"
+                },
+                {
+                  "chance": 0.7,
+                  "id": "charred_particles"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "MOLTEN_MESSENGER": {
+              "chance": 10,
+              "type": "MOLTEN_MESSENGER",
+              "entityType": "MOLTEN_MESSENGER",
+              "title": "rpg.mobs.molten_messenger.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|88|!|rpg.mobs.molten_messenger.title",
+              "level": 88,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/molten_messenger.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 237950400.0,
+                "ATTACK_DAMAGE": 10.88,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 48.71
+                  },
+                  "sim_rpg": "destruction_core"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 91000.0,
+              "exp": 130000.0,
+              "money": 37800,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.3
+                },
+                {
+                  "chance": 0.7,
+                  "id": "flaming_core"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "ash_colossus",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "ash_colossus",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.ash_colossus.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "ash_colossus"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "FALLEN_ASH_WARRIOR": {
+          "kinds": {
+            "FALLEN_ASH_WARRIOR": {
+              "chance": 100,
+              "type": "FALLEN_ASH_WARRIOR",
+              "entityType": "FALLEN_ASH_WARRIOR",
+              "title": "rpg.mobs.fallen_ash_warrior.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|90|!|rpg.mobs.fallen_ash_warrior.title",
+              "level": 90,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/fallen_ash_warrior.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 323408100.0,
+                "ATTACK_DAMAGE": 11.66,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 52.16
+                  },
+                  "sim_rpg": "era_fragment"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 105000.0,
+              "exp": 150000.0,
+              "money": 41000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.3
+                },
+                {
+                  "chance": 0.7,
+                  "id": "melted_armor"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "fallen_ash_wrr",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_ash_wrr",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.fallen_ash_warrior.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_ash_wrr"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        }
+      }
+    },
+    "HEART_OF_CHAOS": {
+      "mobs": {
+        "FALLEN_ECHO": {
+          "kinds": {
+            "FALLEN_ECHO": {
+              "chance": 90,
+              "type": "FALLEN_ECHO",
+              "entityType": "FALLEN_ECHO",
+              "title": "rpg.mobs.fallen_echo.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|92|!|rpg.mobs.fallen_echo.title",
+              "level": 92,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/fallen_echo.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 527788800.0,
+                "ATTACK_DAMAGE": 11.7,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 52.34
+                  },
+                  "sim_rpg": "echoes_of_past_battles"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 112000.0,
+              "exp": 160000.0,
+              "money": 42000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 95.8
+                },
+                {
+                  "chance": 0.6,
+                  "id": "APOCALYPSE_CHESTPLATE"
+                },
+                {
+                  "chance": 0.6,
+                  "id": "APOCALYPSE_HELMET"
+                },
+                {
+                  "chance": 0.6,
+                  "id": "HEART_OF_STORM"
+                },
+                {
+                  "chance": 0.6,
+                  "id": "SHADOW_OF_FALLEN"
+                },
+                {
+                  "chance": 0.6,
+                  "id": "ECHOES_OF_PAST_BATTLES"
+                },
+                {
+                  "chance": 0.6,
+                  "id": "BOW_OF_DOOM"
+                },
+                {
+                  "chance": 0.6,
+                  "id": "ghostly_glow"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "REVERSED_RESONANCE": {
+              "chance": 10,
+              "type": "REVERSED_RESONANCE",
+              "entityType": "REVERSED_RESONANCE",
+              "title": "rpg.mobs.reversed_resonance.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|94|!|rpg.mobs.reversed_resonance.title",
+              "level": 94,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/reversed_resonance.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 693472300.0,
+                "ATTACK_DAMAGE": 7.15,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 31.95
+                  },
+                  "sim_rpg": "oblivion_string"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 119000.0,
+              "exp": 170000.0,
+              "money": 43000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.4
+                },
+                {
+                  "chance": 0.6,
+                  "id": "mirror_shield"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "fallen_echo",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_echo",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.fallen_echo.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "fallen_echo"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "DISTORTED_MEMORY": {
+          "kinds": {
+            "DISTORTED_MEMORY": {
+              "chance": 90,
+              "type": "DISTORTED_MEMORY",
+              "entityType": "DISTORTED_MEMORY",
+              "title": "rpg.mobs.distorted_memory.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|96|!|rpg.mobs.distorted_memory.title",
+              "level": 96,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/distorted_memory.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 924169900.0,
+                "ATTACK_DAMAGE": 13.33,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 59.59
+                  },
+                  "sim_rpg": "heart_of_storm"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 126000.0,
+              "exp": 180000.0,
+              "money": 44000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 98.2
+                },
+                {
+                  "chance": 0.6,
+                  "id": "APOCALYPSE_LEGGINGS"
+                },
+                {
+                  "chance": 0.6,
+                  "id": "APOCALYPSE_BOOTS"
+                },
+                {
+                  "chance": 0.6,
+                  "id": "crystal_of_oblivion"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            },
+            "SPACE_SCAR": {
+              "chance": 10,
+              "type": "SPACE_SCAR",
+              "entityType": "SPACE_SCAR",
+              "title": "rpg.mobs.space_scar.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|98|!|rpg.mobs.space_scar.title",
+              "level": 98,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/space_scar.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 1245393300.0,
+                "ATTACK_DAMAGE": 13.56,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "BOW",
+                "data": {
+                  "tool_data": {
+                    "damage": 60.59
+                  },
+                  "sim_rpg": "bow_of_doom"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 140000.0,
+              "exp": 200000.0,
+              "money": 48800,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.4
+                },
+                {
+                  "chance": 0.6,
+                  "id": "gap_in_reality"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "distort_memory",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "distort_memory",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.distorted_memory.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "distort_memory"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        },
+        "REFLECTED_WANDERER": {
+          "kinds": {
+            "REFLECTED_WANDERER": {
+              "chance": 100,
+              "type": "REFLECTED_WANDERER",
+              "entityType": "REFLECTED_WANDERER",
+              "title": "rpg.mobs.reflected_wanderer.title",
+              "formattedTitle": "i18n.rpg.mobs.title.formatted|!|100|!|rpg.mobs.reflected_wanderer.title",
+              "level": 100,
+              "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/mobs/reflected_wanderer.png",
+              "attributes": {
+                "FOLLOW_RANGE": 120.0,
+                "MAX_HEALTH": 1692664700.0,
+                "ATTACK_DAMAGE": 14.41,
+                "MOVEMENT_SPEED": 0.3
+              },
+              "isAntiKnockback": true,
+              "itemInMainHand": {
+                "type": "WOOD_SWORD",
+                "data": {
+                  "tool_data": {
+                    "damage": 64.4
+                  },
+                  "sim_rpg": "shadow_of_fallen"
+                }
+              },
+              "spawnAfter": 60,
+              "petExp": 168000.0,
+              "exp": 240000.0,
+              "money": 56000,
+              "regenerationCooldown": 60000,
+              "drops": [
+                {
+                  "chance": 99.4
+                },
+                {
+                  "chance": 0.6,
+                  "id": "broken_prism"
+                }
+              ],
+              "idleFarmCooldown": 1500
+            }
+          },
+          "pointTag": "reflect_wander",
+          "idleZone": {
+            "worldText": {
+              "content": "",
+              "location": {
+                "name": "idle_farm",
+                "tag": "reflect_wander",
+                "offset": {
+                  "y": 3.0
+                }
+              },
+              "lookAtPlayerX": true,
+              "lookAtPlayerY": true,
+              "color": {
+                "hex": "#1E1E1E"
+              }
+            },
+            "title": "rpg.mobs.reflected_wanderer.title",
+            "zone": {
+              "location": {
+                "name": "idle_farm",
+                "tag": "reflect_wander"
+              },
+              "size": 5.0,
+              "color": {
+                "hex": "#8d6808"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

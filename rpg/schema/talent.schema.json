@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "messages",
+    "talents"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "price": {
+      "$ref": "#/$defs/price"
+    },
+    "messages": {
+      "type": "object",
+      "required": [
+        "noMoneyMessage",
+        "noQuestPointMessage",
+        "successUpgradeMessage"
+      ],
+      "properties": {
+        "noMoneyMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "noQuestPointMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "successUpgradeMessage": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      }
+    },
+    "talents": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "DAMAGE",
+          "MULTIKILL",
+          "LUCK",
+          "LOOTBOX_LUCK",
+          "PET_XP",
+          "DISCOUNT"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/talent"
+      }
+    }
+  },
+  "$defs": {
+    "price": {
+      "type": "object",
+      "required": [
+        "shards",
+        "money",
+        "time"
+      ],
+      "properties": {
+        "shards": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "money": {
+          "type": "number",
+          "minimum": 0
+        },
+        "time": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "talent": {
+      "type": "object",
+      "required": [
+        "type",
+        "title",
+        "description",
+        "icon",
+        "requiredQuests",
+        "statTitle",
+        "levels"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "DAMAGE",
+            "MULTIKILL",
+            "LUCK",
+            "LOOTBOX_LUCK",
+            "PET_XP",
+            "DISCOUNT"
+          ]
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "icon": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "requiredQuests": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "statTitle": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "levels": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/level"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "level": {
+      "type": "object",
+      "required": [
+        "stat",
+        "readableStat",
+        "price",
+        "requiredQuests"
+      ],
+      "properties": {
+        "stat": {
+          "type": "number"
+        },
+        "readableStat": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "requiredQuests": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

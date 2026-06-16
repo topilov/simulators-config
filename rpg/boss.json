@@ -1,0 +1,1720 @@
+{
+  "$schema": "./schema/boss.schema.json",
+
+  "queue": {
+    "title": "rpg.boss.queue.title",
+    "description": "rpg.boss.queue.description", 
+    "image": "cache/simulator/boss_queue.png"
+  },
+  "messages": {
+    "noFreeRooms": "rpg.boss.messages.no_free_rooms",
+    "alreadyInFight": "rpg.boss.messages.already_in_fight",
+    "alreadyInQueue": "rpg.boss.messages.already_in_queue"
+  },
+  "countingText": {
+    "timePerMessage": 1.0,
+    "messages": [
+      "rpg.boss.counting_text.start",
+      "rpg.boss.counting_text.one",
+      "rpg.boss.counting_text.two",
+      "rpg.boss.counting_text.three",
+      "rpg.boss.counting_text.fight"
+    ]
+  },
+  "exitConfirmation": {
+    "message": "rpg.boss.exit.confirmation.message",
+    "confirmButtonText": "rpg.boss.exit.confirmation.confirm",
+    "cancelButtonText": "rpg.boss.exit.confirmation.cancel",
+    "blurBackground": false
+  },
+  "locations": {
+    "SHADOW_CITY": {
+      "bosses": {
+        "SHADOW": {
+          "spawnAt": ["0:00:00"],
+          "type": "SHADOW",
+          "settings": {
+            "fightTime": 180.0,
+            "itemInMainHand": {
+              "type": "WOOD_SWORD",
+              "data": {
+                "sim_rpg": "shadow_of_fallen",
+                "tool-damage": 2
+              }
+            },
+            "health": 1000.0,
+            "damage": 15.0,
+            "speed": 0.3,
+            "labels": [ { "location": { "name": "boss", "tag": "shadow_0" } }, { "location": { "name": "boss", "tag": "shadow_1" } }, { "location": { "name": "boss", "tag": "shadow_2" } }, { "location": { "name": "boss", "tag": "shadow_3" } }, { "location": { "name": "boss", "tag": "shadow_4" } }, { "location": { "name": "boss", "tag": "shadow_5" } } ],
+            "customName": "rpg.boss.shadow.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png"
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 1000 true"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefaultArmor",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpicArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 1"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 1"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 40000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 21600000,
+              "onSuccess": ["earn-bits %player% 20 true"]
+            },
+            {
+              "chance": 2,
+              "dropId": "KeyRune",
+              "maxCount": 1,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            }
+          ],
+          "menu": {
+            "title": "rpg.boss.shadow.name",
+            "state": "rpg.boss.shadow.state",
+            "description": "rpg.boss.shadow.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.default.name",
+                "lore": "rpg.shiv.item.armor.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              }
+            ]
+          },
+          "children": [
+            {
+              "childType": "TWIN",
+              "settings": {
+                "health": 30,
+                "damage": 4.5,
+                "speed": 0.3,
+                "customName": "rpg.boss.child.twin.name",
+                "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/twin.png"
+              }
+            },
+            {
+              "childType": "TWIN",
+              "settings": {
+                "health": 30,
+                "damage": 4.5,
+                "speed": 0.3,
+                "customName": "rpg.boss.child.twin.name",
+                "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/twin.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "CITY_OF_DAO": {
+      "bosses": {
+        "DAO_MASTER": {
+          "spawnAt": ["0:00:00"],
+          "type": "DAO_MASTER",
+          "settings": {
+            "fightTime": 210.0,
+            "health": 7000.0,
+            "damage": 18.9,
+            "speed": 0.32,
+            "labels": [ { "location": { "name": "boss", "tag": "dao_master_0" } }, { "location": { "name": "boss", "tag": "dao_master_1" } }, { "location": { "name": "boss", "tag": "dao_master_2" } }, { "location": { "name": "boss", "tag": "dao_master_3" } }, { "location": { "name": "boss", "tag": "dao_master_4" } }, { "location": { "name": "boss", "tag": "dao_master_5" } } ],
+            "customName": "rpg.boss.dao_master.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/dao_master.png"
+          },
+          "menu": {
+            "title": "rpg.boss.dao_master.name",
+            "state": "rpg.boss.dao_master.state",
+            "description": "rpg.boss.dao_master.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/dao_master.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.default.name",
+                "lore": "rpg.shiv.item.armor.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              }
+            ]
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 7000 true"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefaultArmor",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpicArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 1"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 1"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 100000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 21600000,
+              "onSuccess": ["earn-bits %player% 20 true"]
+            },
+            {
+              "chance": 2,
+              "dropId": "KeyRune",
+              "maxCount": 1,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            }
+          ],
+          "children": []
+        }
+      }
+    },
+    "LAWLESS_VILLAGE": {
+      "bosses": {
+        "THUG": {
+          "spawnAt": ["0:00:00"],
+          "type": "THUG",
+          "settings": {
+            "fightTime": 240.0,
+            "health": 38000.0,
+            "damage": 24.0,
+            "speed": 0.32,
+            "labels": [ { "location": { "name": "boss", "tag": "thug_0" } }, { "location": { "name": "boss", "tag": "thug_1" } }, { "location": { "name": "boss", "tag": "thug_2" } }, { "location": { "name": "boss", "tag": "thug_3" } }, { "location": { "name": "boss", "tag": "thug_4" } }, { "location": { "name": "boss", "tag": "thug_5" } } ],
+            "customName": "rpg.boss.thug.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/thug.png"
+          },
+          "menu": {
+            "title": "rpg.boss.thug.name",
+            "state": "rpg.boss.thug.state",
+            "description": "rpg.boss.thug.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/thug.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.default.name",
+                "lore": "rpg.shiv.item.armor.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.titles.key.title",
+                "lore": "rpg.lootbox.titles.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "purple_crystal_key"
+                }
+              }
+            ]
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 17000 true"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefaultArmor",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpicArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 1"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 1"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 180000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 21600000,
+              "onSuccess": ["earn-bits %player% 20 true"]
+            },
+            {
+              "chance": 1,
+              "dropId": "KeyRune",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            },
+            {
+              "chance": 1,
+              "dropId": "KeyTitle",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% TITLE 1"]
+            }
+          ],
+          "children": []
+        }
+      }
+    },
+    "ARCHIPELAGO_OF_OBLIVION": {
+      "bosses": {
+        "STRING": {
+          "spawnAt": ["0:00:00"],
+          "type": "STRING",
+          "settings": {
+            "fightTime": 270.0,
+            "health": 200000.0,
+            "damage": 31.5,
+            "speed": 0.26,
+            "labels": [ { "location": { "name": "boss", "tag": "string_0" } }, { "location": { "name": "boss", "tag": "string_1" } }, { "location": { "name": "boss", "tag": "string_2" } }, { "location": { "name": "boss", "tag": "string_3" } }, { "location": { "name": "boss", "tag": "string_4" } }, { "location": { "name": "boss", "tag": "string_5" } }, { "location": { "name": "boss", "tag": "string_1" } } ],
+            "customName": "rpg.boss.string.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/string.png"
+          },
+          "menu": {
+            "title": "rpg.boss.string.name",
+            "state": "rpg.boss.string.state",
+            "description": "rpg.boss.string.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/string.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.default.name",
+                "lore": "rpg.shiv.item.armor.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.titles.key.title",
+                "lore": "rpg.lootbox.titles.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "purple_crystal_key"
+                }
+              }
+            ]
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 50000 true"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 3,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 1"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 260000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 21600000,
+              "onSuccess": ["earn-bits %player% 20 true"]
+            },
+            {
+              "chance": 2,
+              "dropId": "KeyRune",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            },
+            {
+              "chance": 3,
+              "dropId": "KeyTitle",
+              "maxCount": 1,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% TITLE 1"]
+            }
+          ],
+          "children": []
+        }
+      }
+    },
+    "CRUCIFIED_VALLEY": {
+      "bosses": {
+        "SHADOW_BLADE": {
+          "spawnAt": ["0:00:00"],
+          "type": "SHADOW_BLADE",
+          "settings": {
+            "fightTime": 300.0,
+            "health": 1300000.0,
+            "damage": 38.5,
+            "speed": 0.26,
+            "labels": [ { "location": { "name": "boss", "tag": "shadow_blade_0" } }, { "location": { "name": "boss", "tag": "shadow_blade_1" } }, { "location": { "name": "boss", "tag": "shadow_blade_2" } }, { "location": { "name": "boss", "tag": "shadow_blade_3" } }, { "location": { "name": "boss", "tag": "shadow_blade_4" } }, { "location": { "name": "boss", "tag": "shadow_blade_5" } } ],
+            "customName": "rpg.boss.shadow_blade.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow_blade.png"
+          },
+          "menu": {
+            "title": "rpg.boss.shadow_blade.name",
+            "state": "rpg.boss.shadow_blade.state",
+            "description": "rpg.boss.shadow.blade.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/shadow_blade.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.default.name",
+                "lore": "rpg.shiv.item.armor.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.titles.key.title",
+                "lore": "rpg.lootbox.titles.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "purple_crystal_key"
+                }
+              }
+            ]
+          },
+          "messages": {
+            "onSpawn": "rpg.event.ashen.start_message",
+            "onDeath": "rpg.event.ashen.end_message"
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 90000 true"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefaultArmor",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpicArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 1"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 1"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 360000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 21600000,
+              "onSuccess": ["earn-bits %player% 20 true"]
+            },
+            {
+              "chance": 2,
+              "dropId": "KeyRune",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            },
+            {
+              "chance": 3,
+              "dropId": "KeyTitle",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% TITLE 1"]
+            }
+          ],
+          "children": []
+        }
+      }
+    },
+    "SUNKEN_ARCHIPELAGO": {
+      "bosses": {
+        "SEA_SIREN": {
+          "spawnAt": ["0:00:00"],
+          "type": "SEA_SIREN",
+          "settings": {
+            "fightTime": 300.0,
+            "health": 7000000.0,
+            "damage": 46.5,
+            "speed": 0.32,
+            "labels": [ { "location": { "name": "boss", "tag": "sea_siren_0" } }, { "location": { "name": "boss", "tag": "sea_siren_1" } }, { "location": { "name": "boss", "tag": "sea_siren_2" } }, { "location": { "name": "boss", "tag": "sea_siren_3" } }, { "location": { "name": "boss", "tag": "sea_siren_4" } }, { "location": { "name": "boss", "tag": "sea_siren_5" } } ],
+            "customName": "rpg.boss.sea_siren.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/sea_siren.png"
+          },
+          "menu": {
+            "title": "rpg.boss.sea_siren.name",
+            "state": "rpg.boss.sea_siren.state",
+            "description": "rpg.boss.sea_siren.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/sea_siren.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.default.name",
+                "lore": "rpg.shiv.item.armor.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.titles.key.title",
+                "lore": "rpg.lootbox.titles.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "purple_crystal_key"
+                }
+              }
+            ]
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 160000 true"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefaultArmor",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpicArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 1"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 1"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 480000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 21600000,
+              "onSuccess": ["earn-bits %player% 20 true"]
+            },
+            {
+              "chance": 2,
+              "dropId": "KeyRune",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            },
+            {
+              "chance": 3,
+              "dropId": "KeyTitle",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% TITLE 1"]
+            }
+          ],
+          "children": []
+        }
+      }
+    },
+    "LIMITS_OF_REASON": {
+      "bosses": {
+        "LOST": {
+          "spawnAt": ["0:00:00"],
+          "type": "LOST",
+          "settings": {
+            "fightTime": 330.0,
+            "health": 37000000.0,
+            "damage": 54.0,
+            "speed": 0.32,
+            "labels": [ { "location": { "name": "boss", "tag": "lost_0" } }, { "location": { "name": "boss", "tag": "lost_1" } }, { "location": { "name": "boss", "tag": "lost_2" } }, { "location": { "name": "boss", "tag": "lost_3" } }, { "location": { "name": "boss", "tag": "lost_4" } }, { "location": { "name": "boss", "tag": "lost_5" } } ],
+            "customName": "rpg.boss.lost.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/lost.png"
+          },
+          "menu": {
+            "title": "rpg.boss.lost.name",
+            "state": "rpg.boss.lost.state",
+            "description": "rpg.boss.lost.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/lost.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.default.name",
+                "lore": "rpg.shiv.item.armor.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.pets.key.title",
+                "lore": "rpg.lootbox.pets.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "fox_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.titles.key.title",
+                "lore": "rpg.lootbox.titles.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "purple_crystal_key"
+                }
+              }
+            ]
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 230000 true"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefaultArmor",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpicArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 1"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 1"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 620000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 21600000,
+              "onSuccess": ["earn-bits %player% 20 true"]
+            },
+            {
+              "chance": 0.7,
+              "dropId": "KeyPets",
+              "maxCount": 1,
+              "cooldown": 86400000,
+              "onSuccess": ["give-key %player% PET 1"]
+            },
+            {
+              "chance": 2,
+              "dropId": "KeyRune",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            },
+            {
+              "chance": 3,
+              "dropId": "KeyTitle",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% TITLE 1"]
+            }
+          ],
+          "children": []
+        }
+      }
+    },
+    "HALL_OF_FATE": {
+      "bosses": {
+        "GUARDIAN": {
+          "spawnAt": ["0:00:00"],
+          "type": "GUARDIAN",
+          "settings": {
+            "fightTime": 360.0,
+            "health": 240000000.0,
+            "damage": 80.5,
+            "speed": 0.32,
+            "labels": [ { "location": { "name": "boss", "tag": "guardian_0" } }, { "location": { "name": "boss", "tag": "guardian_1" } }, { "location": { "name": "boss", "tag": "guardian_2" } }, { "location": { "name": "boss", "tag": "guardian_3" } }, { "location": { "name": "boss", "tag": "guardian_4" } }, { "location": { "name": "boss", "tag": "guardian_5" } } ],
+            "customName": "rpg.boss.guardian.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/guardian.png"
+          },
+          "menu": {
+            "title": "rpg.boss.guardian.name",
+            "state": "rpg.boss.guardian.state",
+            "description": "rpg.boss.guardian.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/guardian.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.default.name",
+                "lore": "rpg.shiv.item.armor.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.pets.key.title",
+                "lore": "rpg.lootbox.pets.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "fox_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.titles.key.title",
+                "lore": "rpg.lootbox.titles.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "purple_crystal_key"
+                }
+              }
+            ]
+          },
+          "messages": {
+            "onSpawn": "rpg.event.ashen.start_message",
+            "onDeath": "rpg.event.ashen.end_message"
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 400000 true"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefaultArmor",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpicArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 1"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 1"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 780000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 21600000,
+              "onSuccess": ["earn-bits %player% 25 true"]
+            },
+            {
+              "chance": 0.8,
+              "dropId": "KeyPets",
+              "maxCount": 1,
+              "cooldown": 86400000,
+              "onSuccess": ["give-key %player% PET 1"]
+            },
+            {
+              "chance": 2,
+              "dropId": "KeyRune",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            },
+            {
+              "chance": 3,
+              "dropId": "KeyTitle",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% TITLE 1"]
+            }
+          ],
+          "children": []
+        }
+      }
+    },
+    "AFTERMATH": {
+      "bosses": {
+        "ASHEN": {
+          "spawnAt": ["0:00:00"],
+          "type": "ASHEN",
+          "settings": {
+            "fightTime": 360.0,
+            "health": 1000000000.0,
+            "damage": 130.5,
+            "speed": 0.32,
+            "labels": [ { "location": { "name": "boss", "tag": "ashen_0" } }, { "location": { "name": "boss", "tag": "ashen_1" } }, { "location": { "name": "boss", "tag": "ashen_2" } }, { "location": { "name": "boss", "tag": "ashen_3" } }, { "location": { "name": "boss", "tag": "ashen_4" } }, { "location": { "name": "boss", "tag": "ashen_5" } } ],
+            "customName": "rpg.boss.ashen.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/ashen.png"
+          },
+          "menu": {
+            "title": "rpg.boss.ashen.name",
+            "state": "rpg.boss.ashen.state",
+            "description": "rpg.boss.ashen.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/ashen.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.default.name",
+                "lore": "rpg.shiv.item.armor.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.pets.key.title",
+                "lore": "rpg.lootbox.pets.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "fox_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.titles.key.title",
+                "lore": "rpg.lootbox.titles.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "purple_crystal_key"
+                }
+              }
+            ]
+          },
+          "messages": {
+            "onSpawn": "rpg.event.ashen.start_message",
+            "onDeath": "rpg.event.ashen.end_message"
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 700000 true"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 1"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefaultArmor",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR DEFAULT 1"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpicArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 1"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 1"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 960000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 21600000,
+              "onSuccess": ["earn-bits %player% 25 true"]
+            },
+            {
+              "chance": 0.9,
+              "dropId": "KeyPets",
+              "maxCount": 1,
+              "cooldown": 86400000,
+              "onSuccess": ["give-key %player% PET 1"]
+            },
+            {
+              "chance": 2,
+              "dropId": "KeyRune",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            },
+            {
+              "chance": 3,
+              "dropId": "KeyTitle",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% TITLE 1"]
+            }
+          ],
+          "children": []
+        }
+      }
+    },
+    "HEART_OF_CHAOS": {
+      "bosses": {
+        "HERALD": {
+          "spawnAt": ["0:00:00"],
+          "type": "HERALD",
+          "settings": {
+            "fightTime": 390.0,
+            "health": 2000000000.0,
+            "damage": 200.0,
+            "speed": 0.33,
+            "labels": [ { "location": { "name": "boss", "tag": "herald_0" } }, { "location": { "name": "boss", "tag": "herald_1" } }, { "location": { "name": "boss", "tag": "herald_2" } }, { "location": { "name": "boss", "tag": "herald-3" } }, { "location": { "name": "boss", "tag": "herald_4" } }, { "location": { "name": "boss", "tag": "herald_5" } } ],
+            "customName": "rpg.boss.herald.name",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/herald.png"
+          },
+          "menu": {
+            "title": "rpg.boss.herald.name",
+            "state": "rpg.boss.herald.state",
+            "description": "rpg.boss.herald.description",
+            "skinUrl": "https://storage.c7x.dev/topil_ov/rpg/bosses/herald.png",
+            "rewards": [
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.default.name",
+                "lore": "rpg.shiv.item.tool.default.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "default_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.epic.name",
+                "lore": "rpg.shiv.item.tool.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.epic.name",
+                "lore": "rpg.shiv.item.armor.epic.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "epic_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.armor.legendary.name",
+                "lore": "rpg.shiv.item.armor.legendary.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "legendary_shiv_armor"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.shiv.item.tool.legendary.name",
+                "lore": "rpg.shiv.item.tool.legendary.lore",
+                "amount": 1,
+                "data": {
+                  "rpg": "legendary_shiv_tool"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.default.key.title",
+                "lore": "rpg.lootbox.default.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "goldkey"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.pets.key.title",
+                "lore": "rpg.lootbox.pets.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "fox_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.runes.key.title",
+                "lore": "rpg.lootbox.runes.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "rune_key"
+                }
+              },
+              {
+                "type": "CLAY_BALL",
+                "name": "rpg.lootbox.titles.key.title",
+                "lore": "rpg.lootbox.titles.key.description",
+                "amount": 1,
+                "data": {
+                  "sim": "purple_crystal_key"
+                }
+              }
+            ]
+          },
+          "messages": {
+            "onSpawn": "rpg.event.ashen.start_message",
+            "onDeath": "rpg.event.ashen.end_message"
+          },
+          "drops": [
+            {
+              "chance": 100,
+              "dropId": "EXP",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-exp %player% 1000000 true"]
+            },
+            {
+              "chance": 0.01,
+              "dropId": "ShivLegendary",
+              "maxCount": 1,
+              "cooldown": 86400000,
+              "onSuccess": ["give-shiv %player% TOOL LEGENDARY 1"]
+            },
+            {
+              "chance": 0.01,
+              "dropId": "ShivLegendaryArmor",
+              "maxCount": 1,
+              "cooldown": 86400000,
+              "onSuccess": ["give-shiv %player% ARMOR LEGENDARY 1"]
+            },
+            {
+              "chance": 30,
+              "dropId": "ShivDefault",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL DEFAULT 3"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpic",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% TOOL EPIC 2"]
+            },
+            {
+              "chance": 15,
+              "dropId": "ShivEpicArmor",
+              "maxCount": 1,
+              "cooldown": 11520000,
+              "onSuccess": ["give-shiv %player% ARMOR EPIC 2"]
+            },
+            {
+              "chance": 8,
+              "dropId": "LootBox",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["give-key %player% DEFAULT 2"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Money",
+              "maxCount": 2,
+              "cooldown": 3840000,
+              "onSuccess": ["earn-money %player% 2000000 true"]
+            },
+            {
+              "chance": 50,
+              "dropId": "Bits",
+              "maxCount": 2,
+              "cooldown": 11520000,
+              "onSuccess": ["earn-bits %player% 30 true"]
+            },
+            {
+              "chance": 1,
+              "dropId": "KeyPets",
+              "maxCount": 1,
+              "cooldown": 86400000,
+              "onSuccess": ["give-key %player% PET 1"]
+            },
+            {
+              "chance": 2,
+              "dropId": "KeyRune",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% RUNE 1"]
+            },
+            {
+              "chance": 3,
+              "dropId": "KeyTitle",
+              "maxCount": 2,
+              "cooldown": 43200000,
+              "onSuccess": ["give-key %player% TITLE 1"]
+            }
+          ],
+          "children": []
+        }
+      }
+    }
+  }
+}

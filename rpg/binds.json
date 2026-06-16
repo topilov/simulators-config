@@ -1,0 +1,41 @@
+{
+  "$schema": "./schema/binds.schema.json",
+
+  "bindings": [
+    {
+      "description": "rpg.binds.locations.title",
+      "key": "M",
+      "onPlayerPressed": [
+        "sudo %player% locations"
+      ]
+    },
+    {
+      "description": "rpg.binds.tasks.title",
+      "key": "U",
+      "onPlayerPressed": [
+        "sudo %player% task-menu"
+      ]
+    },
+    {
+      "description": "rpg.binds.menu.title",
+      "key": "X",
+      "onPlayerPressed": [
+        "sudo %player% menu"
+      ]
+    },
+    {
+      "description": "rpg.binds.spawn.title",
+      "key": "B",
+      "onPlayerPressed": [
+        "sudo %player% spawn"
+      ]
+    },
+    {
+      "description": "rpg.binds.storage.title",
+      "key": "V",
+      "onPlayerPressed": [
+        "sudo %player% storage"
+      ]
+    }
+  ]
+}

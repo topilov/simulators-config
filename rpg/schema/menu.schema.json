@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "main"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "main": {
+      "type": "object",
+      "required": [
+        "banner",
+        "elements"
+      ],
+      "properties": {
+        "banner": {
+          "$ref": "#/$defs/banner"
+        },
+        "elements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/element"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "banner": {
+      "type": "object",
+      "required": [
+        "texture",
+        "title",
+        "description",
+        "buttons"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "texture": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+                "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "buttons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/bannerButton"
+          }
+        }
+      }
+    },
+    "bannerButton": {
+      "type": "object",
+      "required": [
+        "name",
+        "openUrl"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "openUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "element": {
+      "type": "object",
+      "required": [
+        "icon",
+        "title",
+        "weight",
+        "onSelect"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "icon": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "weight": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "onSelect": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "message",
+    "animateTitle",
+    "rewards"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "message": {
+      "type": "object",
+      "required": [
+        "takeReward"
+      ],
+      "properties": {
+        "takeReward": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "animateTitle": {
+      "type": "object",
+      "required": [
+        "title",
+        "subtitle"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "subtitle": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "rewards": {
+      "type": "object",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "$ref": "#/$defs/day"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "day": {
+      "type": "object",
+      "required": [
+        "hover",
+        "onSuccess"
+      ],
+      "properties": {
+        "hover": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "item": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "texture": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "onSuccess": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

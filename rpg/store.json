@@ -1,0 +1,1247 @@
+{
+  "menuFactory": {
+    "balanceSymbol": "",
+    "promoEnabled": true,
+    "banner": {
+      "title": "ИНВЕСТИРУЙ В БУДУЩЕЕ!",
+      "subtitle": "\uE10E 30% кристалликов вернется на следующий симулятор!",
+      "texture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+      "color": {
+        "hex": "#66131B",
+        "alpha": 0.62
+      }
+    },
+    "categories": [
+      {
+        "key": "boost",
+        "priority": 0,
+        "title": "rpg.store.category.boosters.title",
+        "iconGlyph": "\uE3F5",
+        "color": {
+          "hex": "#275495"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/fire.png",
+        "itemKeys": [
+          "gexp",
+          "lexp",
+          "gmob",
+          "lmob",
+          "gluck",
+          "lluck",
+          "gmny",
+          "lmny",
+          "gall",
+          "lall"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "otherf",
+        "priority": 1,
+        "title": "rpg.store.category.other-features.title",
+        "iconGlyph": "\uE0D3",
+        "color": {
+          "hex": "#8d6808"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/glow_spiral.png",
+        "itemKeys": [
+          "autos",
+          "afk",
+          "case5",
+          "acase",
+          "super"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "lootbox",
+        "priority": 2,
+        "title": "rpg.store.category.lootbox.title",
+        "iconGlyph": "\uE0F5",
+        "color": {
+          "hex": "#8d6808"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/fire.png",
+        "itemKeys": [
+          "kdef",
+          "ktit",
+          "kpet",
+          "krune"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "shiv",
+        "priority": 3,
+        "title": "rpg.store.category.shiv.title",
+        "iconGlyph": "\uE0EF",
+        "color": {
+          "hex": "#380d95"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/circle.png",
+        "itemKeys": [
+          "swup",
+          "saup",
+          "ewup",
+          "eaup",
+          "cwup",
+          "caup"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "gift",
+        "priority": 4,
+        "title": "rpg.store.category.gift.title",
+        "iconGlyph": "\uE38F",
+        "color": {
+          "hex": "#66131b"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+        "itemKeys": [
+          "gifdf",
+          "gifpt",
+          "gifrn",
+          "giftt"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "other",
+        "priority": 5,
+        "title": "rpg.store.category.other.title",
+        "iconGlyph": "\uE3F1",
+        "color": {
+          "hex": "#66131b"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+        "itemKeys": [
+          "pslot",
+          "cclas",
+          "incpt"
+        ],
+        "scrollable": false
+      }
+    ],
+    "items": [
+      {
+        "key": "gifdf",
+        "title": "rpg.store.element.gifts-default.title",
+        "description": ["rpg.store.element.gifts-default.description"],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 149,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "gifpt",
+        "title": "rpg.store.element.gifts-pet.title",
+        "description": ["rpg.store.element.gifts-pet.description"],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 119,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "gifrn",
+        "title": "rpg.store.element.gifts-rune.title",
+        "description": ["rpg.store.element.gifts-rune.description"],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 299,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "giftt",
+        "title": "rpg.store.element.gifts-title.title",
+        "description": ["rpg.store.element.gifts-title.description"],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 499,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "pslot",
+        "title": "rpg.store.element.pet-slot.title",
+        "description": ["rpg.store.element.pet-slot.description"],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 699,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/pet_slot.png"
+        }
+      },
+      {
+        "key": "cclas",
+        "title": "rpg.store.element.change-class.title",
+        "description": ["rpg.store.element.change-class.description"],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/swordsman_icon.png"
+        }
+      },
+      {
+        "key": "incpt",
+        "title": "rpg.store.element.incident-point.title",
+        "description": ["rpg.store.element.incident-point.description"],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 49,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/incident_points.png"
+        }
+      },
+      {
+        "key": "swup",
+        "title": "rpg.store.element.simple-weapon-upgrade.title",
+        "description": ["rpg.store.element.simple-weapon-upgrade.description"],
+        "primaryCategoryKey": "shiv",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 49,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "rpg": "default_shiv_tool"
+            }
+          }
+        }
+      },
+      {
+        "key": "saup",
+        "title": "rpg.store.element.simple-armor-upgrade.title",
+        "description": ["rpg.store.element.simple-armor-upgrade.description"],
+        "primaryCategoryKey": "shiv",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 59,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "rpg": "default_shiv_armor"
+            }
+          }
+        }
+      },
+      {
+        "key": "ewup",
+        "title": "rpg.store.element.epic-weapon-upgrade.title",
+        "description": ["rpg.store.element.epic-weapon-upgrade.description"],
+        "primaryCategoryKey": "shiv",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
+          }
+        }
+      },
+      {
+        "key": "eaup",
+        "title": "rpg.store.element.epic-armor-upgrade.title",
+        "description": ["rpg.store.element.epic-armor-upgrade.description"],
+        "primaryCategoryKey": "shiv",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
+          }
+        }
+      },
+      {
+        "key": "cwup",
+        "title": "rpg.store.element.crystal-weapon-upgrade.title",
+        "description": ["rpg.store.element.crystal-weapon-upgrade.description"],
+        "primaryCategoryKey": "shiv",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 359,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "rpg": "legendary_shiv_tool"
+            }
+          }
+        }
+      },
+      {
+        "key": "caup",
+        "title": "rpg.store.element.crystal-armor-upgrade.title",
+        "description": ["rpg.store.element.crystal-armor-upgrade.description"],
+        "primaryCategoryKey": "shiv",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 189,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "rpg": "legendary_shiv_armor"
+            }
+          }
+        }
+      },
+      {
+        "key": "autos",
+        "title": "rpg.store.element.auto-sell.title",
+        "description": ["rpg.store.element.auto-sell.description"],
+        "primaryCategoryKey": "shiv",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 799,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/auto_sell.png"
+        }
+      },
+      {
+        "key": "afk",
+        "title": "rpg.store.element.idle-farm.title",
+        "description": ["rpg.store.element.idle-farm.description"],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 799,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/idle_farm.png"
+        }
+      },
+      {
+        "key": "kdef",
+        "title": "rpg.store.element.default-key.title",
+        "description": ["rpg.store.element.default-key.description"],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 49,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/goldkey.png"
+        }
+      },
+      {
+        "key": "ktit",
+        "title": "rpg.store.element.title-key.title",
+        "description": ["rpg.store.element.title-key.description"],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 199,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/purple_cristal_key.png"
+        }
+      },
+      {
+        "key": "kpet",
+        "title": "rpg.store.element.pet-key.title",
+        "description": ["rpg.store.element.pet-key.description"],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 299,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/fox_key.png"
+        }
+      },
+      {
+        "key": "krune",
+        "title": "rpg.store.element.rune-key.title",
+        "description": ["rpg.store.element.rune-key.description"],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 109,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/rune_key.png"
+        }
+      },
+      {
+        "key": "case5",
+        "title": "rpg.store.element.multiple-case.title",
+        "description": ["rpg.store.element.multiple-case.description"],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/case5.png"
+        }
+      },
+      {
+        "key": "acase",
+        "title": "rpg.store.element.auto-case.title",
+        "description": ["rpg.store.element.auto-case.description"],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 349,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/autocase.png"
+        }
+      },
+      {
+        "key": "super",
+        "title": "rpg.store.element.super-player.title",
+        "description": ["rpg.store.element.super-player.description"],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 149,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/vip.png"
+        }
+      },
+      {
+        "key": "gexp",
+        "title": "rpg.store.element.global-exp.title",
+        "description": ["rpg.store.element.global-exp.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/exp_booster.png"
+        }
+      },
+      {
+        "key": "lexp",
+        "title": "rpg.store.element.local-exp.title",
+        "description": ["rpg.store.element.local-exp.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/exp_booster.png"
+        }
+      },
+      {
+        "key": "gmob",
+        "title": "rpg.store.element.global-mobs.title",
+        "description": ["rpg.store.element.global-mobs.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/mob_booster.png"
+        }
+      },
+      {
+        "key": "lmob",
+        "title": "rpg.store.element.local-mobs.title",
+        "description": ["rpg.store.element.local-mobs.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/mob_booster.png"
+        }
+      },
+      {
+        "key": "gluck",
+        "title": "rpg.store.element.global-luck.title",
+        "description": ["rpg.store.element.global-luck.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/lucky_booster.png"
+        }
+      },
+      {
+        "key": "lluck",
+        "title": "rpg.store.element.local-luck.title",
+        "description": ["rpg.store.element.local-luck.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/lucky_booster.png"
+        }
+      },
+      {
+        "key": "gmny",
+        "title": "rpg.store.element.global-money.title",
+        "description": ["rpg.store.element.global-money.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/money_booster.png"
+        }
+      },
+      {
+        "key": "lmny",
+        "title": "rpg.store.element.local-money.title",
+        "description": ["rpg.store.element.local-money.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/money_booster.png"
+        }
+      },
+      {
+        "key": "gall",
+        "title": "rpg.store.element.global-all.title",
+        "description": ["rpg.store.element.global-all.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 749,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/all_booster.png"
+        }
+      },
+      {
+        "key": "lall",
+        "title": "rpg.store.element.local-all.title",
+        "description": ["rpg.store.element.local-all.description"],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 549,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/all_booster.png"
+        }
+      }
+    ]
+  },
+  "purchaseAlertMessage": "rpg.donate.notify",
+  "elements": {
+    "GIFTS_DEFAULT": {
+      "key": "gifdf",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-default.donate-name",
+      "onPurchase": [
+        "payload gifts-default %count%"
+      ]
+    },
+    "GIFTS_PET": {
+      "key": "gifpt",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-pet.donate-name",
+      "onPurchase": [
+        "payload gifts-pet %count%"
+      ]
+    },
+    "GIFTS_RUNE": {
+      "key": "gifrn",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-rune.donate-name",
+      "onPurchase": [
+        "payload gifts-rune %count%"
+      ]
+    },
+    "GIFTS_TITLE": {
+      "key": "giftt",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.gifts-title.donate-name",
+      "onPurchase": [
+        "payload gifts-title %count%"
+      ]
+    },
+    "PET_SLOT": {
+      "key": "pslot",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "unlock-pet-slot %player%"
+      ]
+    },
+    "CHANGE_CLASS": {
+      "key": "cclas",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "change-class %player%"
+      ]
+    },
+    "INCIDENT_POINT": {
+      "key": "incpt",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-incident-points %player% %count%"
+      ]
+    },
+    "SIMPLE_WEAPON_UPGRADE": {
+      "key": "swup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% TOOL DEFAULT %count%"
+      ]
+    },
+    "SIMPLE_ARMOR_UPGRADE": {
+      "key": "saup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% ARMOR DEFAULT %count%"
+      ]
+    },
+    "EPIC_WEAPON_UPGRADE": {
+      "key": "ewup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% TOOL EPIC %count%"
+      ]
+    },
+    "EPIC_ARMOR_UPGRADE": {
+      "key": "eaup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% ARMOR EPIC %count%"
+      ]
+    },
+    "CRYSTAL_WEAPON_UPGRADE": {
+      "key": "cwup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% TOOL LEGENDARY %count%"
+      ]
+    },
+    "CRYSTAL_ARMOR_UPGRADE": {
+      "key": "caup",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-shiv %player% ARMOR LEGENDARY %count%"
+      ]
+    },
+    "AUTO_SELL": {
+      "key": "autos",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true hasAutoSell"
+      ]
+    },
+    "IDLE_FARM": {
+      "key": "afk",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true hasIdleFarm"
+      ]
+    },
+    "DEFAULT_KEY": {
+      "key": "kdef",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-key %player% DEFAULT %count%"
+      ]
+    },
+    "TITLE_KEY": {
+      "key": "ktit",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-key %player% TITLE %count%"
+      ]
+    },
+    "PET_KEY": {
+      "key": "kpet",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-key %player% PET %count%"
+      ]
+    },
+    "RUNE_KEY": {
+      "key": "krune",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "give-key %player% RUNE %count%"
+      ]
+    },
+    "MULTIPLE_CASE": {
+      "key": "case5",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true multipleOpenLootBox"
+      ]
+    },
+    "AUTO_CASE": {
+      "key": "acase",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true autoOpenLootBox"
+      ]
+    },
+    "SUPER_PLAYER": {
+      "key": "super",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "morestat %player% set true sub",
+        "update-tab %player%"
+      ]
+    },
+    "GLOBAL_EXP": {
+      "key": "gexp",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-exp.donate-name",
+      "onPurchase": [
+        "global-booster %player% EXP 2 3600 %count%"
+      ]
+    },
+    "LOCAL_EXP": {
+      "key": "lexp",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% EXP 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_MOBS": {
+      "key": "gmob",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-mobs.donate-name",
+      "onPurchase": [
+        "global-booster %player% MOBS 2 3600 %count%"
+      ]
+    },
+    "LOCAL_MOBS": {
+      "key": "lmob",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% MOBS 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_LUCK": {
+      "key": "gluck",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-luck.donate-name",
+      "onPurchase": [
+        "global-booster %player% LUCK 2 3600 %count%"
+      ]
+    },
+    "LOCAL_LUCK": {
+      "key": "lluck",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% LUCK 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_MONEY": {
+      "key": "gmny",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-money.donate-name",
+      "onPurchase": [
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_MONEY": {
+      "key": "lmny",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% MONEY 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_ALL": {
+      "key": "gall",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "rpg.store.element.global-all.donate-name",
+      "onPurchase": [
+        "global-booster %player% MOBS 2 3600 %count%",
+        "global-booster %player% LUCK 2 3600 %count%",
+        "global-booster %player% EXP 2 3600 %count%",
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_ALL": {
+      "key": "lall",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "local-booster %player% MOBS 2 7200 %count%",
+        "local-booster %player% LUCK 2 7200 %count%",
+        "local-booster %player% EXP 2 7200 %count%",
+        "local-booster %player% MONEY 2 7200 %count%"
+      ]
+    }
+  }
+}

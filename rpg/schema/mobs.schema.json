@@ -1,0 +1,324 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "messages",
+    "idle",
+    "locations"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "messages": {
+      "type": "object",
+      "required": [
+        "drop"
+      ],
+      "properties": {
+        "drop": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "locations": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/locationType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/locationMobs"
+      }
+    },
+    "idle": {
+      "$ref": "#/$defs/idle"
+    }
+  },
+  "$defs": {
+    "locationMobs": {
+      "type": "object",
+      "required": [
+        "mobs"
+      ],
+      "properties": {
+        "mobs": {
+          "type": "object",
+          "propertyNames": {
+            "$ref": "./common.schema.json#/$defs/mobType"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/mobKinds"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "mobKinds": {
+      "type": "object",
+      "required": [
+        "kinds",
+        "pointTag",
+        "idleZone"
+      ],
+      "properties": {
+        "kinds": {
+          "type": "object",
+          "propertyNames": {
+            "$ref": "./common.schema.json#/$defs/mobType"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/mobKind"
+          }
+        },
+        "pointTag": {
+          "type": "string"
+        },
+        "idleZone": {
+          "$ref": "#/$defs/idleZone"
+        }
+      },
+      "additionalProperties": false
+    },
+    "idleZone": {
+      "type": "object",
+      "required": [
+        "worldText"
+      ],
+      "properties": {
+        "worldText": {
+          "type": "object"
+        },
+        "zone": {
+          "type": "object"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "mobKind": {
+      "type": "object",
+      "required": [
+        "chance",
+        "type",
+        "title",
+        "formattedTitle",
+        "level",
+        "skinUrl",
+        "attributes"
+      ],
+      "properties": {
+        "chance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "type": {
+          "$ref": "./common.schema.json#/$defs/mobType"
+        },
+        "entityType": {
+          "$ref": "./common.schema.json#/$defs/mobType"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "formattedTitle": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "skinUrl": {
+          "$ref": "./common.schema.json#/$defs/url"
+        },
+        "attributes": {
+          "$ref": "#/$defs/mobAttributes"
+        },
+        "isAntiKnockback": {
+          "type": "boolean"
+        },
+        "bladeMail": {
+          "type": "number",
+          "minimum": 0
+        },
+        "itemInMainHand": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        },
+        "spawnAfter": {
+          "type": "number",
+          "minimum": 0
+        },
+        "exp": {
+          "type": "number",
+          "minimum": 0
+        },
+        "petExp": {
+          "type": "number",
+          "minimum": 0
+        },
+        "regenerationCooldown": {
+          "type": "number",
+          "minimum": 0
+        },
+        "idleFarmCooldown": {
+          "type": "number",
+          "minimum": 0
+        },
+        "drops": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/drop"
+          }
+        },
+        "money": {
+          "type": "number",
+          "minimum": 0
+        },
+        "onHitEffects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/onHitEffect"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "mobAttributes": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/attributeType"
+      },
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "drop": {
+      "type": "object",
+      "required": [
+        "chance"
+      ],
+      "properties": {
+        "chance": {
+          "type": "number",
+          "minimum": 0
+        },
+        "id": {
+          "$ref": "./common.schema.json#/$defs/dropId"
+        }
+      },
+      "additionalProperties": false
+    },
+    "onHitEffect": {
+      "type": "object",
+      "required": [
+        "type",
+        "duration",
+        "amplifier"
+      ],
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "number",
+          "minimum": 0
+        },
+        "amplifier": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "idle": {
+      "type": "object",
+      "required": [
+        "content",
+        "messages"
+      ],
+      "properties": {
+        "content": {
+          "$ref": "#/$defs/content"
+        },
+        "messages": {
+          "$ref": "#/$defs/messages"
+        },
+        "delay": {
+          "$ref": "#/$defs/delay"
+        }
+      },
+      "additionalProperties": false
+    },
+    "delay": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/characterType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/delayEntry"
+      }
+    },
+    "delayEntry": {
+      "type": "object",
+      "required": [
+        "menu",
+        "zone"
+      ],
+      "properties": {
+        "menu": {
+          "type": "number",
+          "minimum": 0
+        },
+        "zone": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "messages": {
+      "type": "object",
+      "required": [
+        "notEnoughFuel",
+        "playerDataNotInitialized",
+        "failedToolValidation",
+        "toolWasChanged"
+      ],
+      "properties": {
+        "notEnoughFuel": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "playerDataNotInitialized": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "failedToolValidation": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "toolWasChanged": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "basic",
+        "advanced"
+      ],
+      "properties": {
+        "basic": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "advanced": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

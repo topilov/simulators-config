@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "messages",
+    "rarityMapping",
+    "tools"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "messages": {
+      "type": "object",
+      "properties": {
+        "maxLevel": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "sell": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "hold": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "cannot": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "locationRestricted": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        }
+      },
+      "additionalProperties": false
+    },
+    "rarityMapping": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/rarity"
+      },
+      "additionalProperties": {
+        "$ref": "./common.schema.json#/$defs/i18n"
+      }
+    },
+    "tools": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/toolType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/tool"
+      }
+    }
+  },
+  "$defs": {
+    "tool": {
+      "type": "object",
+      "required": [
+        "characterType",
+        "type",
+        "material",
+        "title",
+        "formattedTitle",
+        "description",
+        "rare",
+        "damage",
+        "level",
+        "location",
+        "isInteractable",
+        "price"
+      ],
+      "properties": {
+        "characterType": {
+          "$ref": "./common.schema.json#/$defs/characterType"
+        },
+        "type": {
+          "$ref": "./common.schema.json#/$defs/toolGroup"
+        },
+        "material": {
+          "$ref": "./common.schema.json#/$defs/material"
+        },
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "formattedTitle": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "rare": {
+          "$ref": "./common.schema.json#/$defs/rarity"
+        },
+        "damage": {
+          "type": "number",
+          "minimum": 0
+        },
+        "level": {
+          "type": "number",
+          "minimum": 1
+        },
+        "location": {
+          "type": "integer",
+          "minimum": -1,
+          "maximum": 10
+        },
+        "price": {
+          "type": "number",
+          "minimum": 0
+        },
+        "isInteractable": {
+          "type": "boolean"
+        },
+        "cooldown": {
+          "type": "number",
+          "minimum": 0
+        },
+        "data": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

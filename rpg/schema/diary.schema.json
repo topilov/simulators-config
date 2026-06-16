@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "locations"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "locations": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "./common.schema.json#/$defs/locationType"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/diary"
+      }
+    }
+  },
+  "$defs": {
+    "diary": {
+      "type": "object",
+      "required": [
+        "title",
+        "description",
+        "icon",
+        "items",
+        "rewards"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "description": {
+          "$ref": "./common.schema.json#/$defs/i18n"
+        },
+        "icon": {
+          "$ref": "./common.schema.json#/$defs/image"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/item"
+          }
+        },
+        "rewards": {
+          "type": "object",
+          "required": [
+            "itemStacks",
+            "onClaim"
+          ],
+          "properties": {
+            "itemStacks": {
+              "type": "array",
+              "items": {
+                "$ref": "./common.schema.json#/$defs/itemStack"
+              }
+            },
+            "onClaim": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "item": {
+      "type": "object",
+      "required": [
+        "id",
+        "itemStack"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "./common.schema.json#/$defs/dropId"
+        },
+        "itemStack": {
+          "$ref": "./common.schema.json#/$defs/itemStack"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

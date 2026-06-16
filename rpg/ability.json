@@ -1,0 +1,314 @@
+{
+  "$schema": "./schema/ability.schema.json",
+  "offsetY": 200,
+  "settings": {
+    "bloodSettings": {
+      "damagePercentage": 15.0
+    },
+    "cleanSettings": {
+      "vignette": {
+        "color": {
+          "hex": "#FFFFFF"
+        },
+        "alpha": 1.0,
+        "duration": 1.0,
+        "stationary": false
+      },
+      "healthRestorePercent": 0.20
+    },
+    "crushSettings": {
+      "potions": [
+        {
+          "type": "SLOW",
+          "duration": 60,
+          "amplifier": 2,
+          "ambient": false,
+          "particles": true
+        },
+        {
+          "type": "BLINDNESS",
+          "duration": 60,
+          "amplifier": 1
+        }
+      ]
+    },
+    "explodeSettings": {
+      "particle": {
+        "type": "EXPLOSION_HUGE",
+        "count": 20,
+        "offset": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "effect": {
+        "type": "SLOW",
+        "duration": 60,
+        "amplifier": 1
+      }
+    },
+    "finisherAbilitySettings": {
+      "damagePercentage": 1.2
+    },
+    "ironWillAbilitySettings": {
+      "vignette": {
+        "color": {
+          "hex": "#FFFFFF"
+        },
+        "alpha": 1.0,
+        "duration": 1.0,
+        "stationary": false
+      },
+      "damageReduceFactor": 0.6
+    },
+    "justiceBladeAbilitySettings": {
+      "damagePercentage": 0.06,
+      "particle": {
+        "type": "FLAME",
+        "count": 10,
+        "offset": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      }
+    },
+    "lightFeetSettings": {
+      "moveSpeed": 0.2
+    },
+    "phantomJerkSettings": {
+      "vignette": {
+        "color": {
+          "hex": "#AAAAFF"
+        },
+        "alpha": 0.8,
+        "duration": 0.5,
+        "stationary": false
+      },
+      "effect": {
+        "type": "INVISIBILITY",
+        "duration": 80,
+        "amplifier": 1
+      }
+    },
+    "slownessTouchSettings": {
+      "effect": {
+        "type": "SLOW",
+        "duration": 30,
+        "amplifier": 1
+      }
+    },
+    "tripleArrowSettings": {
+      "arrows": [
+        {
+          "offset": -1.5,
+          "damageable": true,
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        },
+        {
+          "offset": 0.0,
+          "damageable": true,
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        },
+        {
+          "offset": 1.5,
+          "damageable": true,
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      ]
+    }
+  },
+  "abilities": {
+    "JUSTICE_BLADE": {
+      "isActive": true,
+      "texture": "justice_blade_ability.png",
+      "key": "R",
+      "duration": 1,
+      "cooldown": 18,
+      "isLocked": false,
+      "timedDescription": {
+        "title": "rpg.ability.justice_blade.timed.title",
+        "description": "rpg.ability.justice_blade.timed.description",
+        "duration": 2,  
+        "verticalPosition": 100,
+        "color": {
+          "hex": "#A91925"
+        }
+      }
+    },
+    "IRON_WILL": {
+      "isActive": true,
+      "texture": "iron_will_ability.png",
+      "key": "G",
+      "duration": 5,
+      "cooldown": 18,
+      "isLocked": false,
+      "timedDescription": {
+        "title": "rpg.ability.iron_will.timed.title",
+        "description": "rpg.ability.iron_will.timed.description",
+        "duration": 5,
+        "verticalPosition": 100,
+        "color": {
+          "hex": "#EFAC00"
+        }
+      }
+    },
+    "BLOOD": {
+      "isActive": false
+    },
+    "UNSHAKABLE": {
+      "isActive": false
+    },
+    "WARRIOR": {
+      "isActive": false
+    },
+    "STEEL_SPIRIT": {
+      "isActive": false
+    },
+    "SLOWNESS_TOUCH": {
+      "isActive": false
+    },
+    "LIGHT_FEET": {
+      "isActive": false
+    },
+    "HIT_SERIES": {
+      "isActive": false
+    },
+    "FINISHER": {
+      "isActive": false
+    },
+    "KNOCK_WEAPON": {
+      "isActive": true,
+      "texture": "knock_weapon_ability.png",
+      "key": "R",
+      "duration": 3,
+      "cooldown": 18,
+      "isLocked": false,
+      "timedDescription": {
+        "title": "rpg.ability.knock_weapon.timed.title",
+        "description": "rpg.ability.knock_weapon.timed.description",
+        "duration": 3,
+        "verticalPosition": 100,
+        "color": {
+          "hex": "#22AE49"
+        }
+      }
+    },
+    "PHANTOM_JERK": {
+      "isActive": true,
+      "texture": "phantom_jerk_ability.png",
+      "key": "G",
+      "duration": 3,
+      "cooldown": 15,
+      "isLocked": false,
+      "timedDescription": {
+        "title": "rpg.ability.phantom_jerk.timed.title",
+        "description": "rpg.ability.phantom_jerk.timed.description",
+        "duration": 3,
+        "verticalPosition": 100,
+        "color": {
+          "hex": "#707070"
+        }
+      }
+    },
+    "FROZEN_SHOT": {
+      "isActive": true,
+      "texture": "frozen_shot_ability.png",
+      "key": "R",
+      "duration": 3,
+      "cooldown": 10,
+      "isLocked": false,
+      "timedDescription": {
+        "title": "rpg.ability.frozen_shot.timed.title",
+        "description": "rpg.ability.frozen_shot.timed.description",
+        "duration": 3,
+        "verticalPosition": 100,
+        "color": {
+          "hex": "#2A66BD"
+        }
+      }
+    },
+    "TRIPLE_ARROW": {
+      "isActive": true,
+      "texture": "triple_arrow_ability.png",
+      "key": "G",
+      "duration": 1,
+      "cooldown": 15,
+      "isLocked": false,
+      "timedDescription": {
+        "title": "rpg.ability.triple_arrow.timed.title",
+        "description": "rpg.ability.triple_arrow.timed.description",
+        "duration": 2,
+        "verticalPosition": 100,
+        "color": {
+          "hex": "#03BCBC"
+        }
+      }
+    },
+    "CRUSH": {
+      "isActive": false
+    },
+    "SURVIVAL": {
+      "isActive": false
+    },
+    "NATURE_SPIRIT": {
+      "isActive": false
+    },
+    "UNPREDICTABLE_RHYTHM": {
+      "isActive": false
+    },
+    "CLEAN": {
+      "isActive": true,
+      "texture": "clean_ability.png",
+      "key": "R",
+      "duration": 5,
+      "cooldown": 15,
+      "isLocked": false,
+      "timedDescription": {
+        "title": "rpg.ability.clean.timed.title",
+        "description": "rpg.ability.clean.timed.description",
+        "duration": 5,
+        "verticalPosition": 100,
+        "color": {
+          "hex": "#5B27C9"
+        }
+      }
+    },
+    "EXPLODE": {
+      "isActive": true,
+      "texture": "explode_ability.png",
+      "key": "G",
+      "duration": 3,
+      "cooldown": 10,
+      "isLocked": false,
+      "timedDescription": {
+        "title": "rpg.ability.explode.timed.title",
+        "description": "rpg.ability.explode.timed.description",
+        "duration": 3,
+        "verticalPosition": 100,
+        "color": {
+          "hex": "#A91925"
+        }
+      }
+    },
+    "RANDOM_MAGIC": {
+      "isActive": false
+    },
+    "RESONANCE": {
+      "isActive": false
+    },
+    "THORN": {
+      "isActive": false
+    },
+    "DETERMINATION": {
+      "isActive": false
+    }
+  }
+}

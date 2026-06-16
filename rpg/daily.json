@@ -1,0 +1,154 @@
+{
+  "$schema": "./schema/daily.schema.json",
+  "menu": {
+    "title": "rpg.daily.menu.title",
+    "description": "rpg.daily.menu.description",
+    "days": [
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "sim": "bag"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.1.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 50",
+          "give-key %player% DEFAULT 3",
+          "give-key %player% TITLE 1",
+          "earn-tutorial-stage-progress %player% TAKE_DAILY_REWARD"
+        ]
+      },
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.2.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 60",
+          "give-shiv %player% TOOL DEFAULT 4",
+          "local-booster %player% MONEY 2 3600",
+          "give-key %player% RUNE 1"
+        ]
+      },
+      {
+        "button": {
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.3.hover"
+          }
+        },
+        "onClaim": [
+          "give-shiv %player% ARMOR DEFAULT 3",
+          "give-shiv %player% TOOL DEFAULT 3",
+          "earn-bits %player% 75",
+          "give-key %player% TITLE 1"
+        ]
+      },
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.4.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 90",
+          "give-key %player% DEFAULT 3",
+          "local-booster %player% EXP 2 3600",
+          "give-key %player% RUNE 2"
+        ]
+      },
+      {
+        "button": {
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.5.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 100",
+          "give-shiv %player% TOOL EPIC 2",
+          "give-key %player% ARMOR EPIC 2",
+          "local-booster %player% LUCK 2 3600",
+          "give-key %player% TITLE 1"
+        ]
+      },
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.6.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 125",
+          "give-key %player% RUNE 3",
+          "give-key %player% PET 1",
+          "give-key %player% TITLE 1"
+        ]
+      },
+      {
+        "button": {
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/all_booster.png"
+          },
+          "tooltip": {
+            "description": "rpg.daily.reward.7.hover"
+          },
+          "big": true
+        },
+        "onClaim": [
+          "give-key %player% TITLE 1",
+          "earn-bits %player% 200",
+          "give-shiv %player% TOOL EPIC 3",
+          "give-key %player% ARMOR EPIC 3",
+          "local-booster %player% MOBS 2 7200",
+          "local-booster %player% LUCK 2 7200",
+          "local-booster %player% EXP 2 7200",
+          "local-booster %player% MONEY 2 7200"
+        ]
+      }
+    ]
+  }
+}

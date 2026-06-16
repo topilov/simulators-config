@@ -1,0 +1,29 @@
+{
+  "$schema": "./schema/item.schema.json",
+  "message": {
+    "sell": "rpg.equipment.sell.message",
+    "isFavoritedCanNotBeSell": "rpg.equipment.sell.is_favorited.message",
+    "noneItemInHandForSell": "rpg.equipment.sell.none_item.message",
+    "unknownErrorOccurredDuringSell": "rpg.equipment.sell.unknown_error.message",
+    "equipmentCanNotBeSell": "rpg.equipment.sell.cannot.message"
+  },
+  "items": {
+    "FAVORITE": {
+      "type": "CLAY_BALL",
+      "name": "rpg.items.favorite.name",
+      "lore": "rpg.items.favorite.lore",
+      "unbreakable": true,
+      "data": {
+        "other": "winter",
+        "favorite_tool": true,
+        "no-clear": 1,
+        "hoverColor": "GREEN"
+      },
+      "flags": [
+        "HIDE_ATTRIBUTES",
+        "HIDE_ENCHANTS",
+        "HIDE_UNBREAKABLE"
+      ]
+    }
+  }
+}

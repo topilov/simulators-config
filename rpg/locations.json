@@ -1,0 +1,141 @@
+{
+  "$schema": "./schema/locations.schema.json",
+  
+  "messages": {
+    "requiredLevelMessage": "rpg.location.message.required-level",
+    "requiredRebirthMessage": "rpg.location.message.required-rebirth"
+  },
+  "locations": {
+    "SHADOW_CITY": {
+      "slots": 125,
+      "map": "map1",
+      "button": {
+        "id": 1,
+        "title": "rpg.location.shadow_city.title",
+        "texture": "map1.png",
+        "requiredLevel": 1,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "CITY_OF_DAO": {
+      "slots": 125,
+      "map": "map2",
+      "button": {
+        "id": 2,
+        "title": "rpg.location.city_of_dao.title",
+        "texture": "map2.png",
+        "requiredLevel": 10,
+        "onClick": [
+          "location-tp %player% %id%",
+          "earn-tutorial-stage-progress %player% SECOND_LOCATION"
+        ]
+      }
+    },
+    "LAWLESS_VILLAGE": {
+      "slots": 125,
+      "map": "map3",
+      "button": {
+        "id": 3,
+        "title": "rpg.location.lawless_village.title",
+        "texture": "map3.png",
+        "requiredLevel": 20,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "ARCHIPELAGO_OF_OBLIVION": {
+      "slots": 125,
+      "map": "map4",
+      "button": {
+        "id": 4,
+        "title": "rpg.location.archipelago_of_oblivion.title",
+        "texture": "map4.png",
+        "requiredLevel": 30,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "CRUCIFIED_VALLEY": {
+      "slots": 125,
+      "map": "map5",
+      "button": {
+        "id": 5,
+        "title": "rpg.location.crucified_valley.title",
+        "texture": "map5.png",
+        "requiredLevel": 40,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "SUNKEN_ARCHIPELAGO": {
+      "slots": 125,
+      "map": "map6",
+      "button": {
+        "id": 6,
+        "title": "rpg.location.sunken_archipelago.title",
+        "texture": "map6.png",
+        "requiredLevel": 50,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "LIMITS_OF_REASON": {
+      "slots": 125,
+      "map": "map7",
+      "button": {
+        "id": 7,
+        "title": "rpg.location.limits_of_reason.title",
+        "texture": "map7.png",
+        "requiredLevel": 60,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "HALL_OF_FATE": {
+      "slots": 125,
+      "map": "map8",
+      "button": {
+        "id": 8,
+        "title": "rpg.location.hall_of_fate.title",
+        "texture": "map8.png",
+        "requiredLevel": 70,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "AFTERMATH": {
+      "slots": 125,
+      "map": "map9",
+      "button": {
+        "id": 9,
+        "title": "rpg.location.aftermath.title",
+        "texture": "map9.png",
+        "requiredLevel": 80,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "HEART_OF_CHAOS": {
+      "slots": 125,
+      "map": "map10",
+      "button": {
+        "id": 10,
+        "title": "rpg.location.heart_of_chaos.title",
+        "texture": "map10.png",
+        "requiredLevel": 90,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "message",
+    "items",
+    "nbt"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "message": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "./common.schema.json#/$defs/i18n"
+      }
+    },
+    "items": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "nbt": {
+      "type": "object",
+      "required": [
+        "shiv",
+        "favorite"
+      ],
+      "properties": {
+        "shiv": {
+          "type": "string"
+        },
+        "favorite": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {}
+}

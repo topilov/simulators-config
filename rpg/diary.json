@@ -1,0 +1,1087 @@
+{
+  "$schema": "./schema/diary.schema.json",
+
+  "locations": {
+    "SHADOW_CITY": {
+      "title": "rpg.location.shadow_city.title",
+      "description": "rpg.diary.shadow_city.description",
+      "icon": "map1.png",
+      "items": [
+        {
+          "id": "shadow_cloak",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.shadow_cloak.name",
+            "lore": "rpg.loot.shadow_cloak.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "shadow_cloak"
+            }
+          }
+        },
+        {
+          "id": "poisoned_kunai",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.poisoned_kunai.name",
+            "lore": "rpg.loot.poisoned_kunai.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "poisoned_kunai"
+            }
+          }
+        },
+        {
+          "id": "observers_eye",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.observers_eye.name",
+            "lore": "rpg.loot.observers_eye.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "observers_eye"
+            }
+          }
+        },
+        {
+          "id": "phantom_lens",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.phantom_lens.name",
+            "lore": "rpg.loot.phantom_lens.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "phantom_lens"
+            }
+          }
+        },
+        {
+          "id": "shard_of_illusion",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.shard_of_illusion.name",
+            "lore": "rpg.loot.shard_of_illusion.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "shard_of_illusion"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.default.name",
+            "lore": "rpg.shiv.item.tool.default.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "default_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.default.name",
+            "lore": "rpg.shiv.item.armor.default.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "default_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.default.key.title",
+            "lore": "rpg.lootbox.default.key.description",
+            "amount": 2,
+            "data": {
+              "sim": "goldkey"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "rune_key"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL DEFAULT 1",
+          "give-shiv %player% ARMOR DEFAULT 1",
+          "give-key %player% DEFAULT 2",
+          "give-key %player% RUNE 1"
+        ]
+      }
+    },
+    "CITY_OF_DAO": {
+      "title": "rpg.location.city_of_dao.title",
+      "description": "rpg.diary.city_of_dao.description",
+      "icon": "map2.png",
+      "items": [
+        {
+          "id": "wooden_katana",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.wooden_katana.name",
+            "lore": "rpg.loot.wooden_katana.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "wooden_katana"
+            }
+          }
+        },
+        {
+          "id": "masters_scabbard",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.masters_scabbard.name",
+            "lore": "rpg.loot.masters_scabbard.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "masters_scabbard"
+            }
+          }
+        },
+        {
+          "id": "nichirin_blade",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.nichirin_blade.name",
+            "lore": "rpg.loot.nichirin_blade.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "nichirin_blade"
+            }
+          }
+        },
+        {
+          "id": "fire_arrow",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.fire_arrow.name",
+            "lore": "rpg.loot.fire_arrow.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "fire_arrow"
+            }
+          }
+        },
+        {
+          "id": "scroll_of_returning_ci",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.scroll_of_returning_ci.name",
+            "lore": "rpg.loot.scroll_of_returning_ci.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "scroll_of_returning_ci"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.default.name",
+            "lore": "rpg.shiv.item.tool.default.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "default_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.default.name",
+            "lore": "rpg.shiv.item.armor.default.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "default_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.pets.key.title",
+            "lore": "rpg.lootbox.pets.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "fox_key"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL DEFAULT 2",
+          "give-shiv %player% ARMOR DEFAULT 2",
+          "give-key %player% PET 1"
+        ]
+      }
+    },
+    "LAWLESS_VILLAGE": {
+      "title": "rpg.location.lawless_village.title",
+      "description": "rpg.diary.lawless_village.description",
+      "icon": "map3.png",
+      "items": [
+        {
+          "id": "cracked_club",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.cracked_club.name",
+            "lore": "rpg.loot.cracked_club.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "cracked_club"
+            }
+          }
+        },
+        {
+          "id": "bandana_of_the_chieftain",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.bandana_of_the_chieftain.name",
+            "lore": "rpg.loot.bandana_of_the_chieftain.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "bandana_of_the_chieftain"
+            }
+          }
+        },
+        {
+          "id": "torn_chains",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.torn_chains.name",
+            "lore": "rpg.loot.torn_chains.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "torn_chains"
+            }
+          }
+        },
+        {
+          "id": "bloody_mask",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.bloody_mask.name",
+            "lore": "rpg.loot.bloody_mask.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "bloody_mask"
+            }
+          }
+        },
+        {
+          "id": "tome_of_dark_spells",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.tome_of_dark_spells.name",
+            "lore": "rpg.loot.tome_of_dark_spells.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "tome_of_dark_spells"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.default.name",
+            "lore": "rpg.shiv.item.tool.default.lore",
+            "amount": 3,
+            "data": {
+              "rpg": "default_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.default.name",
+            "lore": "rpg.shiv.item.armor.default.lore",
+            "amount": 3,
+            "data": {
+              "rpg": "default_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 2,
+            "data": {
+              "sim": "rune_key"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL DEFAULT 3",
+          "give-shiv %player% ARMOR DEFAULT 3",
+          "give-key %player% RUNE 2"
+        ]
+      }
+    },
+    "ARCHIPELAGO_OF_OBLIVION": {
+      "title": "rpg.location.archipelago_of_oblivion.title",
+      "description": "rpg.diary.archipelago_of_oblivion.description",
+      "icon": "map4.png",
+      "items": [
+        {
+          "id": "death_medallion",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.death_medallion.name",
+            "lore": "rpg.loot.death_medallion.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "death_medallion"
+            }
+          }
+        },
+        {
+          "id": "diary_of_memories",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.diary_of_memories.name",
+            "lore": "rpg.loot.diary_of_memories.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "diary_of_memories"
+            }
+          }
+        },
+        {
+          "id": "piece_of_rotten_flesh",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.piece_of_rotten_flesh.name",
+            "lore": "rpg.loot.piece_of_rotten_flesh.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "piece_of_rotten_flesh"
+            }
+          }
+        },
+        {
+          "id": "sea_foam",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.sea_foam.name",
+            "lore": "rpg.loot.sea_foam.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "sea_foam"
+            }
+          }
+        },
+        {
+          "id": "captains_compass",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.captains_compass.name",
+            "lore": "rpg.loot.captains_compass.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "captains_compass"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.titles.key.title",
+            "lore": "rpg.lootbox.titles.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "purple_crystal_key"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "rune_key"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 1",
+          "give-shiv %player% ARMOR EPIC 1",
+          "give-key %player% TITLE 1",
+          "give-key %player% RUNE 1"
+        ]
+      }
+    },
+    "CRUCIFIED_VALLEY": {
+      "title": "rpg.location.crucified_valley.title",
+      "description": "rpg.diary.crucified_valley.description",
+      "icon": "map5.png",
+      "items": [
+        {
+          "id": "excerpt_from_the_prayer",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.excerpt_from_the_prayer.name",
+            "lore": "rpg.loot.excerpt_from_the_prayer.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "excerpt_from_the_prayer"
+            }
+          }
+        },
+        {
+          "id": "rusty_chain",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.rusty_chain.name",
+            "lore": "rpg.loot.rusty_chain.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "rusty_chain"
+            }
+          }
+        },
+        {
+          "id": "bloody_cross",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.bloody_cross.name",
+            "lore": "rpg.loot.bloody_cross.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "bloody_cross"
+            }
+          }
+        },
+        {
+          "id": "dagger_for_rituals",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.dagger_for_rituals.name",
+            "lore": "rpg.loot.dagger_for_rituals.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "dagger_for_rituals"
+            }
+          }
+        },
+        {
+          "id": "drivers_tongs",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.drivers_tongs.name",
+            "lore": "rpg.loot.drivers_tongs.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "drivers_tongs"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.default.key.title",
+            "lore": "rpg.lootbox.default.key.description",
+            "amount": 3,
+            "data": {
+              "sim": "goldkey"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 1",
+          "give-shiv %player% ARMOR EPIC 1",
+          "give-key %player% DEFAULT 3",
+          "give-key %player% PET 1"
+        ]
+      }
+    },
+    "SUNKEN_ARCHIPELAGO": {
+      "title": "rpg.location.sunken_archipelago.title",
+      "description": "rpg.diary.sunken_archipelago.description",
+      "icon": "map6.png",
+      "items": [
+        {
+          "id": "frozen_note",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.frozen_note.name",
+            "lore": "rpg.loot.frozen_note.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "frozen_note"
+            }
+          }
+        },
+        {
+          "id": "chest_of_worms",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.chest_of_worms.name",
+            "lore": "rpg.loot.chest_of_worms.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "chest_of_worms"
+            }
+          }
+        },
+        {
+          "id": "torn_sail",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.torn_sail.name",
+            "lore": "rpg.loot.torn_sail.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "torn_sail"
+            }
+          }
+        },
+        {
+          "id": "navel_saber",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.navel_saber.name",
+            "lore": "rpg.loot.navel_saber.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "navel_saber"
+            }
+          }
+        },
+        {
+          "id": "trident_of_omnipotence",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.trident_of_omnipotence.name",
+            "lore": "rpg.loot.trident_of_omnipotence.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "trident_of_omnipotence"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 3,
+            "data": {
+              "sim": "rune_key"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 2",
+          "give-shiv %player% ARMOR EPIC 2",
+          "give-key %player% RUNE 3"
+        ]
+      }
+    },
+    "LIMITS_OF_REASON": {
+      "title": "rpg.location.limits_of_reason.title",
+      "description": "rpg.diary.limits_of_reason.description",
+      "icon": "map7.png",
+      "items": [
+        {
+          "id": "alchemical_powder",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.alchemical_powder.name",
+            "lore": "rpg.loot.alchemical_powder.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "alchemical_powder"
+            }
+          }
+        },
+        {
+          "id": "distorted_crystal",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.distorted_crystal.name",
+            "lore": "rpg.loot.distorted_crystal.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "distorted_crystal"
+            }
+          }
+        },
+        {
+          "id": "book_of_immortality",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.book_of_immortality.name",
+            "lore": "rpg.loot.book_of_immortality.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "book_of_immortality"
+            }
+          }
+        },
+        {
+          "id": "shard_of_memory",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.shard_of_memory.name",
+            "lore": "rpg.loot.shard_of_memory.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "shard_of_memory"
+            }
+          }
+        },
+        {
+          "id": "measurement_formula",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.measurement_formula.name",
+            "lore": "rpg.loot.measurement_formula.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "measurement_formula"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 3,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 3,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.default.key.title",
+            "lore": "rpg.lootbox.default.key.description",
+            "amount": 5,
+            "data": {
+              "sim": "goldkey"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 3",
+          "give-shiv %player% ARMOR EPIC 3",
+          "give-key %player% DEFAULT 5"
+        ]
+      }
+    },
+    "HALL_OF_FATE": {
+      "title": "rpg.location.hall_of_fate.title",
+      "description": "rpg.diary.hall_of_fate.description",
+      "icon": "map8.png",
+      "items": [
+        {
+          "id": "flask_of_centuries",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.flask_of_centuries.name",
+            "lore": "rpg.loot.flask_of_centuries.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "flask_of_centuries"
+            }
+          }
+        },
+        {
+          "id": "grain_of_sand",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.grain_of_sand.name",
+            "lore": "rpg.loot.grain_of_sand.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "grain_of_sand"
+            }
+          }
+        },
+        {
+          "id": "arbiters_gear",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.arbiters_gear.name",
+            "lore": "rpg.loot.arbiters_gear.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "arbiters_gear"
+            }
+          }
+        },
+        {
+          "id": "chronomancers_pendulum",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.chronomancers_pendulum.name",
+            "lore": "rpg.loot.chronomancers_pendulum.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "chronomancers_pendulum"
+            }
+          }
+        },
+        {
+          "id": "blade_of_eternity",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.blade_of_eternity.name",
+            "lore": "rpg.loot.blade_of_eternity.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "blade_of_eternity"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.epic.name",
+            "lore": "rpg.shiv.item.tool.epic.lore",
+            "amount": 4,
+            "data": {
+              "rpg": "epic_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.epic.name",
+            "lore": "rpg.shiv.item.armor.epic.lore",
+            "amount": 4,
+            "data": {
+              "rpg": "epic_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.titles.key.title",
+            "lore": "rpg.lootbox.titles.key.description",
+            "amount": 2,
+            "data": {
+              "sim": "purple_crystal_key"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL EPIC 4",
+          "give-shiv %player% ARMOR EPIC 4",
+          "give-key %player% TITLE 2"
+        ]
+      }
+    },
+    "AFTERMATH": {
+      "title": "rpg.location.aftermath.title",
+      "description": "rpg.diary.aftermath.description",
+      "icon": "map9.png",
+      "items": [
+        {
+          "id": "cyanide_tablet",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.cyanide_tablet.name",
+            "lore": "rpg.loot.cyanide_tablet.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "cyanide_tablet"
+            }
+          }
+        },
+        {
+          "id": "last_post",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.last_post.name",
+            "lore": "rpg.loot.last_post.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "last_post"
+            }
+          }
+        },
+        {
+          "id": "charred_particles",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.charred_particles.name",
+            "lore": "rpg.loot.charred_particles.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "charred_particles"
+            }
+          }
+        },
+        {
+          "id": "flaming_core",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.flaming_core.name",
+            "lore": "rpg.loot.flaming_core.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "flaming_core"
+            }
+          }
+        },
+        {
+          "id": "melted_armor",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.melted_armor.name",
+            "lore": "rpg.loot.melted_armor.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "melted_armor"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.legendary.name",
+            "lore": "rpg.shiv.item.tool.legendary.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "legendary_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.legendary.name",
+            "lore": "rpg.shiv.item.armor.legendary.lore",
+            "amount": 1,
+            "data": {
+              "rpg": "legendary_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.pets.key.title",
+            "lore": "rpg.lootbox.pets.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "fox_key"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "rune_key"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL LEGENDARY 1",
+          "give-shiv %player% ARMOR LEGENDARY 1",
+          "give-key %player% PET 1",
+          "give-key %player% RUNE 1"
+        ]
+      }
+    },
+    "HEART_OF_CHAOS": {
+      "title": "rpg.location.heart_of_chaos.title",
+      "description": "rpg.diary.heart_of_chaos.description",
+      "icon": "map10.png",
+      "items": [
+        {
+          "id": "ghostly_glow",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.ghostly_glow.name",
+            "lore": "rpg.loot.ghostly_glow.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "ghostly_glow"
+            }
+          }
+        },
+        {
+          "id": "mirror_shield",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.mirror_shield.name",
+            "lore": "rpg.loot.mirror_shield.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "mirror_shield"
+            }
+          }
+        },
+        {
+          "id": "crystal_of_oblivion",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.crystal_of_oblivion.name",
+            "lore": "rpg.loot.crystal_of_oblivion.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "crystal_of_oblivion"
+            }
+          }
+        },
+        {
+          "id": "gap_in_reality",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.gap_in_reality.name",
+            "lore": "rpg.loot.gap_in_reality.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "gap_in_reality"
+            }
+          }
+        },
+        {
+          "id": "broken_prism",
+          "itemStack": {
+            "type": "CLAY_BALL",
+            "name": "rpg.loot.broken_prism.name",
+            "lore": "rpg.loot.broken_prism.lore",
+            "data": {
+              "hoverColor": "GRAY",
+              "sim_rpg": "broken_prism"
+            }
+          }
+        }
+      ],
+      "rewards": {
+        "itemStacks": [
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.tool.legendary.name",
+            "lore": "rpg.shiv.item.tool.legendary.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "legendary_shiv_tool"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.shiv.item.armor.legendary.name",
+            "lore": "rpg.shiv.item.armor.legendary.lore",
+            "amount": 2,
+            "data": {
+              "rpg": "legendary_shiv_armor"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.default.key.title",
+            "lore": "rpg.lootbox.default.key.description",
+            "amount": 3,
+            "data": {
+              "sim": "goldkey"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.titles.key.title",
+            "lore": "rpg.lootbox.titles.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "purple_crystal_key"
+            }
+          },
+          {
+            "type": "CLAY_BALL",
+            "name": "rpg.lootbox.runes.key.title",
+            "lore": "rpg.lootbox.runes.key.description",
+            "amount": 1,
+            "data": {
+              "sim": "rune_key"
+            }
+          }
+        ],
+        "onClaim": [
+          "give-shiv %player% TOOL LEGENDARY 2",
+          "give-shiv %player% ARMOR LEGENDARY 2",
+          "give-key %player% DEFAULT 3",
+          "give-key %player% TITLE 1",
+          "give-key %player% RUNE 1"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "$schema": "./schema/shop.schema.json",
+
+  "messages": {
+    "noSubscription": "rpg.shop.messages.no-subscription"
+  },
+  "shops": {
+    "ABILITY": {
+      "vault": "\uE1C0",
+      "products": {
+        "UNSHAKABLE": {
+          "type": "UNSHAKABLE",
+          "title": "rpg.shop.ability.product.unshakable.title",
+          "description": "rpg.shop.ability.product.unshakable.description",
+          "icon": "unshakable_ability.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "UNSHAKABLE",
+            "CHARACTER_TYPE": "SWORDSMAN"
+          },
+          "onPurchase": [
+            "give-ability %player% UNSHAKABLE"
+          ]
+        },
+        "BLOOD": {
+          "type": "BLOOD",
+          "title": "rpg.shop.ability.product.blood.title",
+          "description": "rpg.shop.ability.product.blood.description",
+          "icon": "blood_ability.png",
+          "price": 20.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "BLOOD",
+            "CHARACTER_TYPE": "SWORDSMAN"
+          },
+          "onPurchase": [
+            "give-ability %player% BLOOD"
+          ]
+        },
+        "IRON_WILL": {
+          "type": "IRON_WILL",
+          "title": "rpg.shop.ability.product.iron_will.title",
+          "description": "rpg.shop.ability.product.iron_will.description",
+          "icon": "iron_will_ability.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "IRON_WILL",
+            "CHARACTER_TYPE": "SWORDSMAN"
+          },
+          "onPurchase": [
+            "give-ability %player% IRON_WILL"
+          ]
+        },
+        "HIT_SERIES": {
+          "type": "HIT_SERIES",
+          "title": "rpg.shop.ability.product.hit_series.title",
+          "description": "rpg.shop.ability.product.hit_series.description",
+          "icon": "hit_series_ability.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "HIT_SERIES",
+            "CHARACTER_TYPE": "THIEF"
+          },
+          "onPurchase": [
+            "give-ability %player% HIT_SERIES"
+          ]
+        },
+        "FINISHER": {
+          "type": "FINISHER",
+          "title": "rpg.shop.ability.product.finisher.title",
+          "description": "rpg.shop.ability.product.finisher.description",
+          "icon": "finisher_ability.png",
+          "price": 20.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "FINISHER",
+            "CHARACTER_TYPE": "THIEF"
+          },
+          "onPurchase": [
+            "give-ability %player% FINISHER"
+          ]
+        },
+        "PHANTOM_JERK": {
+          "type": "PHANTOM_JERK",
+          "title": "rpg.shop.ability.product.phantom_jerk.title",
+          "description": "rpg.shop.ability.product.phantom_jerk.description",
+          "icon": "phantom_jerk_ability.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "PHANTOM_JERK",
+            "CHARACTER_TYPE": "THIEF"
+          },
+          "onPurchase": [
+            "give-ability %player% PHANTOM_JERK"
+          ]
+        },
+        "TRIPLE_ARROW": {
+          "type": "TRIPLE_ARROW",
+          "title": "rpg.shop.ability.product.triple_arrow.title",
+          "description": "rpg.shop.ability.product.triple_arrow.description",
+          "icon": "triple_arrow_ability.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "TRIPLE_ARROW",
+            "CHARACTER_TYPE": "ELF"
+          },
+          "onPurchase": [
+            "give-ability %player% TRIPLE_ARROW"
+          ]
+        },
+        "NATURE_SPIRIT": {
+          "type": "NATURE_SPIRIT",
+          "title": "rpg.shop.ability.product.nature_spirit.title",
+          "description": "rpg.shop.ability.product.nature_spirit.description",
+          "icon": "nature_spirit_ability.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "NATURE_SPIRIT",
+            "CHARACTER_TYPE": "ELF"
+          },
+          "onPurchase": [
+            "give-ability %player% NATURE_SPIRIT"
+          ]
+        },
+        "UNPREDICTABLE_RHYTHM": {
+          "type": "UNPREDICTABLE_RHYTHM",
+          "title": "rpg.shop.ability.product.unpredictable_rhythm.title",
+          "description": "rpg.shop.ability.product.unpredictable_rhythm.description",
+          "icon": "unpredictable_rhythm_ability.png",
+          "price": 20.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "UNPREDICTABLE_RHYTHM",
+            "CHARACTER_TYPE": "ELF"
+          },
+          "onPurchase": [
+            "give-ability %player% UNPREDICTABLE_RHYTHM"
+          ]
+        },
+        "RESONANCE": {
+          "type": "RESONANCE",
+          "title": "rpg.shop.ability.product.resonance.title",
+          "description": "rpg.shop.ability.product.resonance.description",
+          "icon": "resonance_ability.png",
+          "price": 20.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "RESONANCE",
+            "CHARACTER_TYPE": "MAGE"
+          },
+          "onPurchase": [
+            "give-ability %player% RESONANCE"
+          ]
+        },
+        "DETERMINATION": {
+          "type": "DETERMINATION",
+          "title": "rpg.shop.ability.product.determination.title",
+          "description": "rpg.shop.ability.product.determination.description",
+          "icon": "determination_ability.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "DETERMINATION",
+            "CHARACTER_TYPE": "MAGE"
+          },
+          "onPurchase": [
+            "give-ability %player% DETERMINATION"
+          ]
+        },
+        "CLEAN": {
+          "type": "CLEAN",
+          "title": "rpg.shop.ability.product.clean.title",
+          "description": "rpg.shop.ability.product.clean.description",
+          "icon": "clean_ability.png",
+          "price": 40.0,
+          "vault": "\uE1C0",
+          "amount": 1,
+          "data": {
+            "ABILITY_TYPE": "CLEAN",
+            "CHARACTER_TYPE": "MAGE"
+          },
+          "onPurchase": [
+            "give-ability %player% CLEAN"
+          ]
+        }
+      }
+    },
+    "ARTEFACT": {
+      "vault": "",
+      "products": {
+        "SHIV_TOOL": {
+          "type": "SHIV_TOOL",
+          "title": "rpg.shiv.item.tool.default.name",
+          "description": "rpg.shiv.item.tool.default.lore",
+          "icon": "default_shiv_tool.png",
+          "price": 300000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-shiv %player% TOOL DEFAULT %count%",
+            "earn-tutorial-stage-progress %player% BUY_SHIV"
+          ],
+          "data": {
+            "CHECK_FULL_INVENTORY": true
+          }
+        },
+        "SHIV_ARMOR": {
+          "type": "SHIV_ARMOR",
+          "title": "rpg.shiv.item.armor.default.name",
+          "description": "rpg.shiv.item.armor.default.lore",
+          "icon": "default_shiv_armor.png",
+          "price": 150000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-shiv %player% ARMOR DEFAULT %count%",
+            "earn-tutorial-stage-progress %player% BUY_SHIV"
+          ],
+          "data": {
+            "CHECK_FULL_INVENTORY": true
+          }
+        },
+        "KEY_PETS": {
+          "type": "KEY_PETS",
+          "title": "rpg.lootbox.pets.key.title",
+          "description": "rpg.lootbox.pets.key.description",
+          "icon": "fox_key.png",
+          "price": 700000000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% PET %count%"
+          ]
+        },
+        "KEY_RUNES": {
+          "type": "KEY_RUNES",
+          "title": "rpg.lootbox.runes.key.title",
+          "description": "rpg.lootbox.runes.key.description",
+          "icon": "rune_key.png",
+          "price": 100000000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% RUNE %count%"
+          ]
+        },
+        "KEY_TITLES": {
+          "type": "KEY_TITLES",
+          "title": "rpg.lootbox.titles.key.title",
+          "description": "rpg.lootbox.titles.key.description",
+          "icon": "purple_cristal_key.png",
+          "price": 300000000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% TITLE %count%"
+          ]
+        },
+        "KEY_DEFAULT": {
+          "type": "KEY_DEFAULT",
+          "title": "rpg.lootbox.default.key.title",
+          "description": "rpg.lootbox.default.key.description",
+          "icon": "goldkey.png",
+          "price": 1000000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% DEFAULT %count%"
+          ]
+        }
+      }
+    },
+    "FEED": {
+      "vault": "\uE03C",
+      "products": {
+        "VEGETABLE": {
+          "type": "VEGETABLE",
+          "title": "rpg.feed.vegetable.title",
+          "description": "rpg.feed.vegetable.description",
+          "icon": "vegetable.png",
+          "price": 10000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% VEGETABLE %count%"
+          ]
+        },
+        "BACON": {
+          "type": "BACON",
+          "title": "rpg.feed.bacon.title",
+          "description": "rpg.feed.bacon.description",
+          "icon": "bacon.png",
+          "price": 20000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% BACON %count%"
+          ]
+        },
+        "MEAT": {
+          "type": "MEAT",
+          "title": "rpg.feed.meat.title",
+          "description": "rpg.feed.meat.description",
+          "icon": "meat.png",
+          "price": 40000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% MEAT %count%"
+          ]
+        },
+        "TAB": {
+          "type": "TAB",
+          "title": "rpg.feed.tab.title",
+          "description": "rpg.feed.tab.description",
+          "icon": "tab.png",
+          "price": 10000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% TAB %count%"
+          ]
+        },
+        "ANTIBIOTIC": {
+          "type": "ANTIBIOTIC",
+          "title": "rpg.feed.antibiotic.title",
+          "description": "rpg.feed.antibiotic.description",
+          "icon": "antibiotic.png",
+          "price": 20000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% ANTIBIOTIC %count%"
+          ]
+        },
+        "ANTIVIRUS_TAB": {
+          "type": "ANTIVIRUS_TAB",
+          "title": "rpg.feed.antivirus_tab.title",
+          "description": "rpg.feed.antivirus_tab.description",
+          "icon": "antivirus_tab.png",
+          "price": 40000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% ANTIVIRUS_TAB %count%"
+          ]
+        },
+        "BANDAGE": {
+          "type": "BANDAGE",
+          "title": "rpg.feed.bandage.title",
+          "description": "rpg.feed.bandage.description",
+          "icon": "bandage.png",
+          "price": 10000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% BANDAGE %count%"
+          ]
+        },
+        "PLASTER": {
+          "type": "PLASTER",
+          "title": "rpg.feed.plaster.title",
+          "description": "rpg.feed.plaster.description",
+          "icon": "plaster.png",
+          "price": 20000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% PLASTER %count%"
+          ]
+        },
+        "OINTMENT": {
+          "type": "OINTMENT",
+          "title": "rpg.feed.ointment.title",
+          "description": "rpg.feed.ointment.description",
+          "icon": "ointment.png",
+          "price": 40000.0,
+          "vault": "\uE03C",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-feed %player% OINTMENT %count%"
+          ]
+        }
+      }
+    },
+    "BITS": {
+      "vault": "\uE1D1",
+      "products": {
+        "SHIV_TOOL": {
+          "type": "SHIV_TOOL",
+          "title": "rpg.shiv.item.tool.default.name",
+          "description": "rpg.shiv.item.tool.default.lore",
+          "icon": "default_shiv_tool.png",
+          "price": 20.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-shiv %player% TOOL DEFAULT %count%"
+          ],
+          "data": {
+            "CHECK_FULL_INVENTORY": true,
+            "REQUIRES_SUB": true
+          }
+        },
+        "SHIV_ARMOR": {
+          "type": "SHIV_ARMOR",
+          "title": "rpg.shiv.item.armor.default.name",
+          "description": "rpg.shiv.item.armor.default.lore",
+          "icon": "default_shiv_armor.png",
+          "price": 10.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-shiv %player% ARMOR DEFAULT %count%"
+          ],
+          "data": {
+            "CHECK_FULL_INVENTORY": true,
+            "REQUIRES_SUB": true
+          }
+        },
+        "KEY_RUNES": {
+          "type": "KEY_RUNES",
+          "title": "rpg.lootbox.runes.key.title",
+          "description": "rpg.lootbox.runes.key.description",
+          "icon": "rune_key.png",
+          "price": 60.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% RUNE %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
+        },
+        "KEY_TITLES": {
+          "type": "KEY_TITLES",
+          "title": "rpg.lootbox.titles.key.title",
+          "description": "rpg.lootbox.titles.key.description",
+          "icon": "purple_cristal_key.png",
+          "price": 80.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% TITLE %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
+        },
+        "KEY_DEFAULT": {
+          "type": "KEY_DEFAULT",
+          "title": "rpg.lootbox.default.key.title",
+          "description": "rpg.lootbox.default.key.description",
+          "icon": "goldkey.png",
+          "price": 20.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% DEFAULT %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
+        },
+        "BOOSTER_EXP": {
+          "type": "BOOSTER_EXP",
+          "title": "rpg.shop.bits.booster_exp.title",
+          "description": "rpg.shop.bits.booster_exp.description",
+          "icon": "exp_booster.png",
+          "price": 75.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% EXP 1.5 1800 %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
+        },
+        "BOOSTER_MONEY": {
+          "type": "BOOSTER_MONEY",
+          "title": "rpg.shop.bits.booster_money.title",
+          "description": "rpg.shop.bits.booster_money.description",
+          "icon": "money_booster.png",
+          "price": 75.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% MONEY 1.5 1800 %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
+        },
+        "BOOSTER_MOBS": {
+          "type": "BOOSTER_MOBS",
+          "title": "rpg.shop.bits.booster_mobs.title",
+          "description": "rpg.shop.bits.booster_mobs.description",
+          "icon": "mob_booster.png",
+          "price": 75.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% MOBS 1.5 1800 %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
+        },
+        "BOOSTER_LUCK": {
+          "type": "BOOSTER_LUCK",
+          "title": "rpg.shop.bits.booster_luck.title",
+          "description": "rpg.shop.bits.booster_luck.description",
+          "icon": "lucky_booster.png",
+          "price": 75.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% LUCK 1.5 1800 %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
+        }
+      }
+    }
+  }
+}
