@@ -38,6 +38,19 @@
         {"typeName": "KTN"},
         {"typeName": "KTNG"}
       ]
+    },
+    "rpg": {
+      "database": {
+        "name": "sim-rpg",
+        "usersCollectionName": "rpg_data"
+      },
+      "navigatorId": "sim-rpg",
+      "lobby": {"typeName": "RPGL"},
+      "dependOnline": [
+        {"typeName": "RPGL"},
+        {"typeName": "RPG"},
+        {"typeName": "RPGS"}
+      ]
     }
   }
 }
