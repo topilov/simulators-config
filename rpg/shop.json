@@ -563,6 +563,22 @@
           "data": {
             "REQUIRES_SUB": true
           }
+        },
+        "SWAP_CLASS": {
+          "type": "SWAP_CLASS",
+          "title": "rpg.store.element.change-class.title",
+          "description": "rpg.store.element.change-class.descriptionn",
+          "icon": "swordsman_icon.png",
+          "price": 2000.0,
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": false,
+          "onPurchase": [
+            "change-class %player%"
+          ],
+          "data": {
+            "REQUIRES_SUB": true
+          }
         }
       }
     }
