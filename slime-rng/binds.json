@@ -1,17 +1,17 @@
 {
   "bindings": [
     {
-      "description": "test_locations",
-      "key": "M",
+      "description": "Экипировка",
+      "key": "X",
       "onPlayerPressed": [
-        "sudo %player% locations"
+        "sudo %player% equipment"
       ]
     },
     {
-      "description": "test_roll",
+      "description": "Roll",
       "key": "R",
       "onPlayerPressed": [
-        "roll"
+        "sudo %player% roll"
       ]
     }
   ]

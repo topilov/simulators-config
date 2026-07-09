@@ -1,49 +1,50 @@
 {
   "minRarity": 2,
   "maxRarity": 4,
+  "rollDuration": 75,
   "message": {
     "roll": {
       "wait": {
         "message": "Текущий ролл не завершился",
-        "duration": 4.5
+        "duration": 2.0
       },
       "startRoll": {
         "title": "Slime RNG",
         "description": "Вы начали крутить слайма",
-        "duration": 3.0
+        "duration": 2.0
       },
       "getNewSlime": {
         "itemStack": {
           "type": "SLIME_BALL"
         },
         "title": "Вы получили нового слайма",
-        "duration": 5.0
+        "duration": 2.5
       }
     },
     "equipmentMenu": {
       "rolling": {
         "message": "Вы не можете открыть меню во время прокрутки",
-        "duration": 5.0
+        "duration": 2.0
       },
       "successEquip": {
         "message": "Слайм успешно экипирован",
-        "duration": 3.0
+        "duration": 2.0
       },
       "successUnequip": {
         "message": "Слайм успешно снят",
-        "duration": 3.0
+        "duration": 2.0
       },
       "noSlimes": {
         "message": "У вас нет слаймов, используйте /roll",
-        "duration": 5.0
+        "duration": 2.0
       },
       "alreadyEquipped": {
         "message": "Этот слайм уже выбран",
-        "duration": 4.0
+        "duration": 2.0
       },
       "notEquipped": {
         "message": "Этот слайм не надет",
-        "duration": 4.0
+        "duration": 2.0
       }
     }
   }
