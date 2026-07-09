@@ -3,13 +3,15 @@
     "noTool": "extraction.tool.message.no-tool",
     "maxLevel": "extraction.tool.message.max-level",
     "notEnoughMoney": "extraction.tool.message.not-enough-money",
-    "success": "extraction.tool.message.success"
+    "success": "extraction.tool.message.success",
+    "siftInProgress": "extraction.tool.message.sift-in-progress",
+    "siftCooldown": "extraction.tool.message.sift-cooldown"
   },
   "tools": {
     "PICKAXE": {
-      "title": "extraction.tool.pickaxe.title",
+      "title": "extraction.tool.sieve.title",
       "description": [
-        "extraction.tool.pickaxe.description"
+        "extraction.tool.sieve.description"
       ],
       "rarity": "COMMON",
       "unbreakable": true,
@@ -17,12 +19,16 @@
         "1": {
           "material": "IRON_PICKAXE",
           "price": 100.0,
-          "strength": 1.0
+          "luck": 0.0,
+          "siftDuration": 6.0,
+          "siftCooldown": 2.0
         },
         "2": {
           "material": "DIAMOND_PICKAXE",
           "price": 250.0,
-          "strength": 2.0
+          "luck": 15.0,
+          "siftDuration": 5.0,
+          "siftCooldown": 1.5
         }
       }
     }
