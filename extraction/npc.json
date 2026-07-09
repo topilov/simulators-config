@@ -1,3 +1,46 @@
 {
-  "npc": []
+  "npcs": {
+    "SELL_DROP": {
+      "npc": {
+        "name": "extraction.npc.sell.drop.title",
+        "location": {
+          "name": "sell",
+          "tag": "drop",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/rpg/skins/artefact_sell.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "interact-npc %player% SELL_DROP"
+        ]
+      },
+      "dialog": {
+        "title": "extraction.npc.dialog.sell_drop.title",
+        "lines": [
+          "extraction.npc.dialog.sell_drop.line.0.text"
+        ],
+        "answerOptions": [
+          {
+            "text": "extraction.npc.dialog.sell_drop.answer.sell_one.text",
+            "onPlayerChoice": [
+              "sell-drop %player%"
+            ]
+          },
+          {
+            "text": "extraction.npc.dialog.sell_drop.answer.sell_all.text",
+            "onPlayerChoice": [
+              "sell-drops %player%"
+            ]
+          },
+          {
+            "text": "extraction.npc.dialog.answer.close.text"
+          }
+        ]
+      }
+    }
+  }
 }
