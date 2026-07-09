@@ -1,0 +1,59 @@
+{
+  "menuFactory": {
+    "balanceSymbol": "\uE10E",
+    "promoEnabled": false,
+    "categories": [
+      {
+        "key": "test",
+        "priority": 0,
+        "title": "extraction.store.category.test.title",
+        "iconGlyph": "\uE10E",
+        "color": {
+          "hex": "#2B7A78"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+        "itemKeys": [
+          "test_donate"
+        ],
+        "scrollable": false
+      }
+    ],
+    "items": [
+      {
+        "key": "test_donate",
+        "title": "extraction.store.element.test-donate.title",
+        "description": [
+          "extraction.store.element.test-donate.description"
+        ],
+        "primaryCategoryKey": "test",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 1,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "minecraft:emerald"
+        }
+      }
+    ]
+  },
+  "elements": {
+    "TEST_DONATE": {
+      "key": "test_donate",
+      "ignoreServiceDiscount": false,
+      "onPurchase": [
+        "earn-money %player% 1000.0 false"
+      ]
+    }
+  },
+  "purchaseAlertMessage": "extraction.store.notify"
+}

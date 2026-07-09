@@ -1,0 +1,94 @@
+{
+  "kinds": {
+    "DEFAULT": {
+      "chance": 70.0,
+      "duration": 60,
+      "durationMultiplier": 1.0,
+      "drops": [
+        {
+          "chance": 70.0,
+          "dropType": "SOIL",
+          "weightMultiplier": 1.0
+        },
+        {
+          "chance": 25.0,
+          "dropType": "ORE",
+          "weightMultiplier": 1.0
+        },
+        {
+          "chance": 5.0,
+          "dropType": "FOSSIL",
+          "weightMultiplier": 1.0
+        }
+      ],
+      "zone": {
+        "size": 2.0,
+        "color": {
+          "hex": "#22AE49"
+        },
+        "particle": true,
+        "collisionEnabled": false
+      }
+    },
+    "GOLDEN": {
+      "chance": 25.0,
+      "duration": 90,
+      "durationMultiplier": 1.5,
+      "drops": [
+        {
+          "chance": 55.0,
+          "dropType": "SOIL",
+          "weightMultiplier": 2.5
+        },
+        {
+          "chance": 30.0,
+          "dropType": "ORE",
+          "weightMultiplier": 1.5
+        },
+        {
+          "chance": 15.0,
+          "dropType": "FOSSIL",
+          "weightMultiplier": 2.0
+        }
+      ],
+      "zone": {
+        "size": 2.4,
+        "color": {
+          "hex": "#F2C94C"
+        },
+        "particle": true,
+        "collisionEnabled": false
+      }
+    },
+    "ANCIENT": {
+      "chance": 5.0,
+      "duration": 120,
+      "durationMultiplier": 2.0,
+      "drops": [
+        {
+          "chance": 40.0,
+          "dropType": "SOIL",
+          "weightMultiplier": 5.0
+        },
+        {
+          "chance": 35.0,
+          "dropType": "ORE",
+          "weightMultiplier": 3.0
+        },
+        {
+          "chance": 25.0,
+          "dropType": "FOSSIL",
+          "weightMultiplier": 4.0
+        }
+      ],
+      "zone": {
+        "size": 2.8,
+        "color": {
+          "hex": "#8E44AD"
+        },
+        "particle": true,
+        "collisionEnabled": false
+      }
+    }
+  }
+}

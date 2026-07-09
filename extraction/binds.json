@@ -1,10 +1,18 @@
 {
-  "bindsBar": {
-    "binds": [
-      {
-        "title": "extraction.binds.locations.title",
-        "key": "M"
-      }
-    ]
-  }
+  "bindings": [
+    {
+      "description": "extraction.binds.locations.title",
+      "key": "M",
+      "onPlayerPressed": [
+        "sudo %player% locations"
+      ]
+    },
+    {
+      "description": "extraction.binds.spawn.title",
+      "key": "B",
+      "onPlayerPressed": [
+        "sudo %player% spawn"
+      ]
+    }
+  ]
 }
