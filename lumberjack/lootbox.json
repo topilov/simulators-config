@@ -51,9 +51,9 @@
                 "HIDE_UNBREAKABLE"
               ]
             },
-            "chance": 18.31,
+            "chance": 32.0,
             "onDrop": [
-              "give-item %player% BREAD 4"
+              "give-item %player% BREAD 2"
             ]
           },
           {
@@ -69,49 +69,9 @@
                 "HIDE_UNBREAKABLE"
               ]
             },
-            "chance": 18.31,
+            "chance": 26.0,
             "onDrop": [
               "give-item %player% GOLDEN_APPLE 1"
-            ]
-          },
-          {
-            "id": "percent-money-5",
-            "rarity": "COMMON",
-            "itemStack": {
-              "type": "CLAY_BALL",
-              "name": "i18n.lumberjack.lootbox.reward.percent-money.title|!|5%",
-              "flags": [
-                "HIDE_ATTRIBUTES",
-                "HIDE_ENCHANTS",
-                "HIDE_UNBREAKABLE"
-              ],
-              "data": {
-                "skyblock": "donate"
-              }
-            },
-            "chance": 18.31,
-            "onDrop": [
-              "random-money %player% 5 5.01"
-            ]
-          },
-          {
-            "id": "percent-money-10",
-            "rarity": "RARE",
-            "itemStack": {
-              "type": "CLAY_BALL",
-              "name": "i18n.lumberjack.lootbox.reward.percent-money.title|!|10%",
-              "flags": [
-                "HIDE_ATTRIBUTES",
-                "HIDE_ENCHANTS",
-                "HIDE_UNBREAKABLE"
-              ],
-              "data": {
-                "skyblock": "donate"
-              }
-            },
-            "chance": 5.846,
-            "onDrop": [
-              "random-money %player% 10 10.01"
             ]
           },
           {
@@ -130,7 +90,7 @@
                 "sim": "blocks_booster"
               }
             },
-            "chance": 5.846,
+            "chance": 6.0,
             "onDrop": [
               "local-booster %player% BLOCKS 1.1 600"
             ]
@@ -151,7 +111,7 @@
                 "sim": "money_booster"
               }
             },
-            "chance": 5.846,
+            "chance": 6.0,
             "onDrop": [
               "local-booster %player% MONEY 1.1 600"
             ]
@@ -172,7 +132,7 @@
                 "sim": "mobs_booster"
               }
             },
-            "chance": 5.846,
+            "chance": 6.0,
             "onDrop": [
               "local-booster %player% MOBS 1.1 600"
             ]
@@ -193,7 +153,7 @@
                 "sim": "save_crystal"
               }
             },
-            "chance": 3.284,
+            "chance": 3.0,
             "onDrop": [
               "give-item %player% SAVE_CRYSTAL 1"
             ]
@@ -211,7 +171,7 @@
               ],
               "data": {}
             },
-            "chance": 3.284,
+            "chance": 3.0,
             "onDrop": [
               "give-armor %player% EPIC_HELMET"
             ]
@@ -229,7 +189,7 @@
               ],
               "data": {}
             },
-            "chance": 3.284,
+            "chance": 3.0,
             "onDrop": [
               "give-armor %player% EPIC_CHESTPLATE"
             ]
@@ -247,7 +207,7 @@
               ],
               "data": {}
             },
-            "chance": 3.284,
+            "chance": 3.0,
             "onDrop": [
               "give-armor %player% EPIC_LEGGINGS"
             ]
@@ -265,7 +225,7 @@
               ],
               "data": {}
             },
-            "chance": 3.284,
+            "chance": 3.0,
             "onDrop": [
               "give-armor %player% EPIC_BOOTS"
             ]
@@ -287,7 +247,7 @@
                 "sim": "speed_potion"
               }
             },
-            "chance": 3.284,
+            "chance": 2.0,
             "onDrop": [
               "give-item %player% HASTE 1"
             ]
@@ -308,7 +268,7 @@
                 "sim": "speed_axe"
               }
             },
-            "chance": 0.498,
+            "chance": 0.5,
             "onDrop": [
               "give-tool %player% SPEED"
             ]
@@ -329,7 +289,7 @@
                 "sim": "viking_axe"
               }
             },
-            "chance": 0.498,
+            "chance": 0.5,
             "onDrop": [
               "give-tool %player% VIKING"
             ]
@@ -350,7 +310,7 @@
                 "sim": "lucky_axe"
               }
             },
-            "chance": 0.498,
+            "chance": 0.5,
             "onDrop": [
               "give-tool %player% LUCKY"
             ]
@@ -371,7 +331,7 @@
                 "weapons": "life_axe"
               }
             },
-            "chance": 0.498,
+            "chance": 0.5,
             "onDrop": [
               "give-tool %player% LUCKY_MOB"
             ]
