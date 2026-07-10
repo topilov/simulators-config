@@ -3,7 +3,8 @@
     "bits": {
       "messages": {
         "moreMoney": "lumberjack.shop.messages.more-money",
-        "noSubscription": "lumberjack.shop.messages.no-subscription"
+        "noSubscription": "lumberjack.shop.messages.no-subscription",
+        "hasPerk": "lumberjack.shop.messages.has-perk"
       },
       "title": "lumberjack.shop.bits.title",
       "vault": "\uE1D1",
@@ -92,12 +93,36 @@
     },
     "soulStones": {
       "messages": {
-        "moreMoney": "lumberjack.shop.messages.more-money",
-        "noSubscription": "lumberjack.shop.messages.no-subscription"
+        "moreMoney": "lumberjack.shop.soul-stones.messages.more-money",
+        "noSubscription": "lumberjack.shop.messages.no-subscription",
+        "hasPerk": "lumberjack.shop.soul-stones.messages.has-perk"
       },
       "title": "lumberjack.shop.soul-stones.title",
       "vault": "Камни Душ",
-      "products": [],
+      "products": [
+        {
+          "perkType": "SILVER_BRACELET",
+          "title": "lumberjack.shop.soul-stones.product.silver_bracelet.title",
+          "hover": "lumberjack.items.silver_bracelet.lore",
+          "icon": "silver_bracelet.png",
+          "price": 25.0,
+          "needSubscription": false,
+          "onBuy": [
+            "give-perk %player% SILVER_BRACELET"
+          ]
+        },
+        {
+          "perkType": "GOLD_BRACELET",
+          "title": "lumberjack.shop.soul-stones.product.gold_bracelet.title",
+          "hover": "lumberjack.items.gold_bracelet.lore",
+          "icon": "gold_bracelet.png",
+          "price": 39.0,
+          "needSubscription": false,
+          "onBuy": [
+            "give-perk %player% GOLD_BRACELET"
+          ]
+        }
+      ],
       "needSubscription": false
     },
     "minigame": {
