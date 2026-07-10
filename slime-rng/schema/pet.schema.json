@@ -128,35 +128,21 @@
             "type": "object",
             "required": [
                 "maxHealth",
-                "maxHappiness",
                 "maxSatiation",
-                "spendHappiness",
-                "earnHappiness",
                 "spendSatiation",
                 "attackCooldown",
                 "damageFactor",
-                "diseases",
                 "takeDamageChance",
                 "takeDamageAmount",
                 "requiredExp",
-                "stat",
-                "worseMapping"
+                "stat"
             ],
             "additionalProperties": false,
             "properties": {
                 "maxHealth": {
                     "type": "number"
                 },
-                "maxHappiness": {
-                    "type": "number"
-                },
                 "maxSatiation": {
-                    "type": "number"
-                },
-                "spendHappiness": {
-                    "type": "number"
-                },
-                "earnHappiness": {
                     "type": "number"
                 },
                 "spendSatiation": {
@@ -167,27 +153,6 @@
                 },
                 "damageFactor": {
                     "type": "number"
-                },
-                "diseases": {
-                    "type": "object",
-                    "required": [
-                        "chance",
-                        "mapping"
-                    ],
-                    "additionalProperties": false,
-                    "properties": {
-                        "chance": {
-                            "type": "number",
-                            "minimum": 0,
-                            "maximum": 1
-                        },
-                        "mapping": {
-                            "type": "object",
-                            "additionalProperties": {
-                                "type": "number"
-                            }
-                        }
-                    }
                 },
                 "takeDamageChance": {
                     "type": "number"
@@ -207,28 +172,6 @@
                         "properties": {
                             "stat": { "type": "number" },
                             "readableStat": { "type": "string" }
-                        }
-                    }
-                },
-                "worseMapping": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "required": [
-                            "happinessPercentLessThan",
-                            "extraPercent"
-                        ],
-                        "additionalProperties": false,
-                        "properties": {
-                            "happinessPercentLessThan": {
-                                "type": "number",
-                                "minimum": 0,
-                                "maximum": 100
-                            },
-                            "extraPercent": {
-                                "type": "number",
-                                "minimum": 0
-                            }
                         }
                     }
                 }
