@@ -921,6 +921,156 @@
       "messages": {
         "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.gather_tree_drops.title"
       }
+    },
+    "TAKE_TOP_MOBS_EVENT": {
+      "title": "lumberjack.achievement.take_top_mobs_event.title",
+      "texture": "take_top_mobs_event.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.take_top_mobs_event.stages.title|!|1",
+          "description": "i18n.lumberjack.achievement.reward.description|!|2",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_mobs_event.stages.title|!|4",
+          "description": "i18n.lumberjack.achievement.reward.description|!|5",
+          "required": 4.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_mobs_event.stages.title|!|12",
+          "description": "i18n.lumberjack.achievement.reward.description|!|11",
+          "required": 12.0,
+          "onTake": [
+            "give-incident-points %player% 11 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_mobs_event.stages.title|!|45",
+          "description": "i18n.lumberjack.achievement.reward.description|!|22",
+          "required": 45.0,
+          "onTake": [
+            "give-incident-points %player% 22 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_mobs_event.stages.title|!|100",
+          "description": "i18n.lumberjack.achievement.reward.description|!|35",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.take_top_mobs_event.title"
+      }
+    },
+    "TAKE_TOP_BLOCKS_EVENT": {
+      "title": "lumberjack.achievement.take_top_blocks_event.title",
+      "texture": "take_top_blocks_event.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.take_top_blocks_event.stages.title|!|1",
+          "description": "i18n.lumberjack.achievement.reward.description|!|2",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_blocks_event.stages.title|!|4",
+          "description": "i18n.lumberjack.achievement.reward.description|!|5",
+          "required": 4.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_blocks_event.stages.title|!|12",
+          "description": "i18n.lumberjack.achievement.reward.description|!|11",
+          "required": 12.0,
+          "onTake": [
+            "give-incident-points %player% 11 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_blocks_event.stages.title|!|45",
+          "description": "i18n.lumberjack.achievement.reward.description|!|22",
+          "required": 45.0,
+          "onTake": [
+            "give-incident-points %player% 22 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_blocks_event.stages.title|!|100",
+          "description": "i18n.lumberjack.achievement.reward.description|!|35",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.take_top_blocks_event.title"
+      }
+    },
+    "TAKE_TOP_5_MUTATED_BOSS_DAMAGE": {
+      "title": "lumberjack.achievement.take_top_5_mutated_boss_damage.title",
+      "texture": "take_top_5_mutated_boss_damage.png",
+      "maxStage": 5,
+      "stages": [
+        {
+          "title": "i18n.lumberjack.achievement.take_top_5_mutated_boss_damage.stages.title|!|1",
+          "description": "i18n.lumberjack.achievement.reward.description|!|2",
+          "required": 1.0,
+          "onTake": [
+            "give-incident-points %player% 2 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_5_mutated_boss_damage.stages.title|!|4",
+          "description": "i18n.lumberjack.achievement.reward.description|!|5",
+          "required": 4.0,
+          "onTake": [
+            "give-incident-points %player% 5 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_5_mutated_boss_damage.stages.title|!|12",
+          "description": "i18n.lumberjack.achievement.reward.description|!|11",
+          "required": 12.0,
+          "onTake": [
+            "give-incident-points %player% 11 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_5_mutated_boss_damage.stages.title|!|45",
+          "description": "i18n.lumberjack.achievement.reward.description|!|22",
+          "required": 45.0,
+          "onTake": [
+            "give-incident-points %player% 22 true"
+          ]
+        },
+        {
+          "title": "i18n.lumberjack.achievement.take_top_5_mutated_boss_damage.stages.title|!|100",
+          "description": "i18n.lumberjack.achievement.reward.description|!|35",
+          "required": 100.0,
+          "onTake": [
+            "give-incident-points %player% 35 true"
+          ]
+        }
+      ],
+      "messages": {
+        "complete": "i18n.lumberjack.achievement.messages.complete|!|lumberjack.achievement.take_top_5_mutated_boss_damage.title"
+      }
     }
   }
 }
