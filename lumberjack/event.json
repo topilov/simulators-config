@@ -2,7 +2,7 @@
   "event": {
     "BLOCKS": {
       "id": "blocks",
-      "topEntries": 3,
+      "topEntries": 10,
       "duration": 300,
       "start": [
         "0:0:0",
@@ -21,24 +21,46 @@
       "startMessage": "lumberjack.event.blocks.start-message",
       "endMessage": "lumberjack.event.blocks.end-message",
       "reward": {
-        "1": [
+        "1-1": [
           "give-key %player% RUNE 3",
-          "random-money %player% 70.0 70.1 1"
+          "random-money %player% 70.0 70.1 1",
+          "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1"
         ],
-        "2": [
+        "2-2": [
           "give-key %player% RUNE 2",
-          "random-money %player% 55.0 55.1 1"
+          "random-money %player% 55.0 55.1 1",
+          "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1"
         ],
-        "3": [
+        "3-3": [
           "give-key %player% RUNE 2",
-          "random-money %player% 40.0 40.1 1"
+          "random-money %player% 40.0 40.1 1",
+          "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1"
+        ],
+        "4-10": [
+          "random-money %player% 1.0 1.1 1"
+        ],
+        "11-50": [
+          "random-money %player% 1.0 1.1 1"
+        ],
+        "51-*": [
+          "random-money %player% 1.0 1.1 1"
         ]
       },
-      "isGlobal": true
+      "isGlobal": true,
+      "rewardAllParticipants": true,
+      "resultMessages": {
+        "header": "lumberjack.event.blocks.result.header",
+        "firstRow": "lumberjack.event.result.row.first",
+        "secondRow": "lumberjack.event.result.row.second",
+        "thirdRow": "lumberjack.event.result.row.third",
+        "row": "lumberjack.event.result.row.default",
+        "ownRow": "lumberjack.event.result.row.own",
+        "separator": "lumberjack.event.result.separator"
+      }
     },
     "MOBS": {
       "id": "mobs",
-      "topEntries": 3,
+      "topEntries": 10,
       "duration": 300,
       "start": [
         "1:0:0",
@@ -57,20 +79,42 @@
       "startMessage": "lumberjack.event.mobs.start-message",
       "endMessage": "lumberjack.event.mobs.end-message",
       "reward": {
-        "1": [
+        "1-1": [
           "give-key %player% PET 3",
-          "random-money %player% 70.0 70.1 1"
+          "random-money %player% 70.0 70.1 1",
+          "add-achievement-progress %player% TAKE_TOP_MOBS_EVENT 1"
         ],
-        "2": [
+        "2-2": [
           "give-key %player% PET 2",
-          "random-money %player% 55.0 55.1 1"
+          "random-money %player% 55.0 55.1 1",
+          "add-achievement-progress %player% TAKE_TOP_MOBS_EVENT 1"
         ],
-        "3": [
+        "3-3": [
           "give-key %player% PET 2",
-          "random-money %player% 40.0 40.1 1"
+          "random-money %player% 40.0 40.1 1",
+          "add-achievement-progress %player% TAKE_TOP_MOBS_EVENT 1"
+        ],
+        "4-10": [
+          "random-money %player% 1.0 1.1 1"
+        ],
+        "11-50": [
+          "random-money %player% 1.0 1.1 1"
+        ],
+        "51-*": [
+          "random-money %player% 1.0 1.1 1"
         ]
       },
-      "isGlobal": true
+      "isGlobal": true,
+      "rewardAllParticipants": true,
+      "resultMessages": {
+        "header": "lumberjack.event.mobs.result.header",
+        "firstRow": "lumberjack.event.result.row.first",
+        "secondRow": "lumberjack.event.result.row.second",
+        "thirdRow": "lumberjack.event.result.row.third",
+        "row": "lumberjack.event.result.row.default",
+        "ownRow": "lumberjack.event.result.row.own",
+        "separator": "lumberjack.event.result.separator"
+      }
     }
   }
 }
