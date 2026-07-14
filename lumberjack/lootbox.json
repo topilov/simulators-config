@@ -737,7 +737,7 @@
         "elements": [
           {
             "id": "miner",
-            "rarity": "COMMON",
+            "rarity": "LEGENDARY",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "lumberjack.runes.miner.name",
@@ -745,7 +745,7 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 20,
+            "chance": 0.7,
             "onDrop": [
               "give-rune %player% MINER 100000"
             ]
@@ -760,7 +760,7 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
             },
-            "chance": 20,
+            "chance": 18.5,
             "onDrop": [
               "give-rune %player% SELLER 100000"
             ]
@@ -775,14 +775,14 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 20,
+            "chance": 18.5,
             "onDrop": [
               "give-rune %player% DIGGER 100000"
             ]
           },
           {
             "id": "upgrade",
-            "rarity": "RARE",
+            "rarity": "COMMON",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "lumberjack.runes.upgrade.name",
@@ -790,7 +790,7 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 9,
+            "chance": 18.5,
             "onDrop": [
               "give-rune %player% UPGRADE 100000"
             ]
@@ -805,14 +805,14 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 9,
+            "chance": 9.8,
             "onDrop": [
               "give-rune %player% BITS 100000"
             ]
           },
           {
             "id": "berserk",
-            "rarity": "RARE",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "lumberjack.runes.berserk.name",
@@ -820,24 +820,9 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 9,
+            "chance": 3.25,
             "onDrop": [
               "give-rune %player% BERSERK 100000"
-            ]
-          },
-          {
-            "id": "lucky",
-            "rarity": "EPIC",
-            "itemStack": {
-              "type": "SKULL_ITEM",
-              "name": "lumberjack.runes.lucky.name",
-              "lore": "i18n.lumberjack.runes.description|!|(i18n.lumberjack.runes.lucky.ability.name|!|10.0)",
-              "damage": 3,
-              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
-            },
-            "chance": 3,
-            "onDrop": [
-              "give-rune %player% LUCKY 100000"
             ]
           },
           {
@@ -850,14 +835,14 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 3,
+            "chance": 3.25,
             "onDrop": [
               "give-rune %player% COLLECTOR 100000"
             ]
           },
           {
             "id": "blacksmith",
-            "rarity": "EPIC",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "lumberjack.runes.blacksmith.name",
@@ -865,7 +850,7 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 3,
+            "chance": 9.8,
             "onDrop": [
               "give-rune %player% BLACKSMITH 100000"
             ]
@@ -880,14 +865,14 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 1,
+            "chance": 0.7,
             "onDrop": [
               "give-rune %player% LUMBERJACK 100000"
             ]
           },
           {
             "id": "time",
-            "rarity": "LEGENDARY",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "lumberjack.runes.time.name",
@@ -895,14 +880,14 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 1,
+            "chance": 3.25,
             "onDrop": [
               "give-rune %player% TIME 100000"
             ]
           },
           {
             "id": "pet",
-            "rarity": "LEGENDARY",
+            "rarity": "EPIC",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "lumberjack.runes.pet.name",
@@ -910,7 +895,7 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 1,
+            "chance": 3.25,
             "onDrop": [
               "give-rune %player% PET 100000"
             ]
@@ -925,14 +910,14 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 1,
+            "chance": 0.7,
             "onDrop": [
               "give-rune %player% SUPER_PLAYER 100000"
             ]
           },
           {
             "id": "slowdown",
-            "rarity": "LEGENDARY",
+            "rarity": "RARE",
             "itemStack": {
               "type": "SKULL_ITEM",
               "name": "lumberjack.runes.slowdown.name",
@@ -940,7 +925,7 @@
               "damage": 3,
               "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
             },
-            "chance": 1,
+            "chance": 9.8,
             "onDrop": [
               "give-rune %player% SLOWDOWN 100000"
             ]
@@ -998,7 +983,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% FOREST_MASTER 500000"
             ]
@@ -1014,7 +999,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% LORD_FOREST 500000"
             ]
@@ -1030,7 +1015,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% TIMBERCUTTER 500000"
             ]
@@ -1046,7 +1031,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% WOODCUTTER 500000"
             ]
@@ -1062,7 +1047,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% SEEKER 500000"
             ]
@@ -1078,7 +1063,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% WIND 500000"
             ]
@@ -1094,7 +1079,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% SOUL 500000"
             ]
@@ -1110,7 +1095,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% CARVER 500000"
             ]
@@ -1126,7 +1111,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% FOREST_ARTISAN 500000"
             ]
@@ -1142,7 +1127,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% GREAT_WOODSMAN 500000"
             ]
@@ -1158,7 +1143,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% FOREST_ENCHANTER 500000"
             ]
@@ -1174,7 +1159,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% WATCHMAN 500000"
             ]
@@ -1190,7 +1175,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% SLASHER 500000"
             ]
@@ -1206,7 +1191,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% KING_LOGS 500000"
             ]
@@ -1222,7 +1207,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% GUARDIAN 500000"
             ]
@@ -1238,7 +1223,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% AXE_WIELDER_LEGEND 500000"
             ]
@@ -1254,7 +1239,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2.3125,
+            "chance": 2.8,
             "onDrop": [
               "give-title %player% CLEAVER 500000"
             ]
@@ -1324,22 +1309,6 @@
             ]
           },
           {
-            "id": "siege",
-            "rarity": "RARE",
-            "itemStack": {
-              "type": "CLAY_BALL",
-              "name": "lumberjack.titles.siege.name",
-              "lore": "i18n.lumberjack.titles.description|!|lumberjack.titles.ability.siege",
-              "data": {
-                "sim": "titles"
-              }
-            },
-            "chance": 6.6,
-            "onDrop": [
-              "give-title %player% SIEGE 500000"
-            ]
-          },
-          {
             "id": "forester",
             "rarity": "RARE",
             "itemStack": {
@@ -1382,7 +1351,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2,
+            "chance": 1.96,
             "onDrop": [
               "give-title %player% HARVESTER 500000"
             ]
@@ -1398,25 +1367,9 @@
                 "sim": "titles"
               }
             },
-            "chance": 2,
+            "chance": 1.96,
             "onDrop": [
               "give-title %player% WHIRLWIND 500000"
-            ]
-          },
-          {
-            "id": "demolisher",
-            "rarity": "EPIC",
-            "itemStack": {
-              "type": "CLAY_BALL",
-              "name": "lumberjack.titles.demolisher.name",
-              "lore": "i18n.lumberjack.titles.description|!|lumberjack.titles.ability.demolisher",
-              "data": {
-                "sim": "titles"
-              }
-            },
-            "chance": 2,
-            "onDrop": [
-              "give-title %player% DEMOLISHER 500000"
             ]
           },
           {
@@ -1430,7 +1383,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2,
+            "chance": 1.96,
             "onDrop": [
               "give-title %player% GATHERER 500000"
             ]
@@ -1446,7 +1399,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2,
+            "chance": 1.96,
             "onDrop": [
               "give-title %player% CHOPPER 500000"
             ]
@@ -1462,7 +1415,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 2,
+            "chance": 1.96,
             "onDrop": [
               "give-title %player% WORKER 500000"
             ]
@@ -1478,7 +1431,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 0.621875,
+            "chance": 0.6,
             "onDrop": [
               "give-title %player% HUNTER 500000"
             ]
@@ -1494,7 +1447,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 0.621875,
+            "chance": 0.6,
             "onDrop": [
               "give-title %player% LUCKY 500000"
             ]
@@ -1510,7 +1463,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 0.621875,
+            "chance": 0.6,
             "onDrop": [
               "give-title %player% CUTTHROAT 500000"
             ]
@@ -1526,7 +1479,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 0.621875,
+            "chance": 0.6,
             "onDrop": [
               "give-title %player% CHAINSAW 500000"
             ]
@@ -1542,7 +1495,7 @@
                 "sim": "titles"
               }
             },
-            "chance": 0.621875,
+            "chance": 0.6,
             "onDrop": [
               "give-title %player% OMNIPRESENT 500000"
             ]

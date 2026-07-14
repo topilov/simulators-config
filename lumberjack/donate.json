@@ -30,11 +30,14 @@
         }
       },
       "category": "OTHER",
-      "price": 79,
+      "price": 89,
       "sale": 0,
       "alert": true,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "onBuy": [
         "payload gifts-default"
@@ -54,11 +57,14 @@
         }
       },
       "category": "OTHER",
-      "price": 119,
+      "price": 139,
       "sale": 0,
       "alert": true,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "onBuy": [
         "payload gifts-pet"
@@ -78,11 +84,14 @@
         }
       },
       "category": "OTHER",
-      "price": 199,
+      "price": 179,
       "sale": 0,
       "alert": true,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "onBuy": [
         "payload gifts-rune"
@@ -102,11 +111,14 @@
         }
       },
       "category": "OTHER",
-      "price": 399,
+      "price": 179,
       "sale": 0,
       "alert": true,
       "count": [
-        1
+        1,
+        3,
+        5,
+        10
       ],
       "onBuy": [
         "payload gifts-title"
@@ -161,13 +173,14 @@
       "description": "lumberjack.donate.element.money-bag.description",
       "texture": "bag.png",
       "category": "GAME_BALANCE",
-      "price": 49,
+      "price": 69,
       "sale": 0,
       "count": [
         1,
         3,
         5,
-        10
+        10,
+        25
       ],
       "onBuy": [
         "random-money %player% 15 35 %count%"
@@ -182,13 +195,14 @@
       "description": "lumberjack.donate.element.money-handful.description",
       "texture": "bag.png",
       "category": "GAME_BALANCE",
-      "price": 10,
+      "price": 19,
       "sale": 0,
       "count": [
         1,
         3,
         5,
-        10
+        10,
+        25
       ],
       "onBuy": [
         "random-money %player% 1 10 %count%"
@@ -255,7 +269,9 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-item %player% SAVE_CRYSTAL %count%"
@@ -276,7 +292,9 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% DEFAULT %count%"
@@ -291,13 +309,15 @@
       "description": "lumberjack.donate.element.title-key.description",
       "texture": "purple_cristal_key.png",
       "category": "GAME_ITEMS",
-      "price": 199,
+      "price": 149,
       "sale": 0,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% TITLE %count%"
@@ -312,13 +332,15 @@
       "description": "lumberjack.donate.element.pet-key.description",
       "texture": "fox_key.png",
       "category": "GAME_ITEMS",
-      "price": 59,
+      "price": 79,
       "sale": 0,
       "max": -1,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% PET %count%"
@@ -339,7 +361,9 @@
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "give-key %player% RUNE %count%"
@@ -354,7 +378,7 @@
       "description": "lumberjack.donate.element.infinity-storage.description",
       "texture": "storage.png",
       "category": "OTHER_FEATURES",
-      "price": 399,
+      "price": 299,
       "sale": 0,
       "max": 1,
       "count": [
@@ -430,7 +454,7 @@
       "description": "lumberjack.donate.element.auto-case.description",
       "texture": "autocase.png",
       "category": "OTHER_FEATURES",
-      "price": 349,
+      "price": 249,
       "sale": 0,
       "max": 1,
       "count": [
@@ -449,7 +473,7 @@
       "description": "lumberjack.donate.element.auto-merge.description",
       "texture": "auto_merge.png",
       "category": "OTHER_FEATURES",
-      "price": 299,
+      "price": 249,
       "sale": 0,
       "max": 1,
       "count": [
@@ -467,7 +491,7 @@
       "description": "lumberjack.donate.element.super-player.description",
       "texture": "vip.png",
       "category": "OTHER_FEATURES",
-      "price": 149,
+      "price": 249,
       "sale": 0,
       "count": [
         1
@@ -505,13 +529,15 @@
       "description": "lumberjack.donate.element.global-exp.description",
       "texture": "exp_booster.png",
       "category": "BOOSTERS",
-      "price": 249,
+      "price": 299,
       "sale": 0,
       "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "global-booster %player% EXP 2 3600 %count%"
@@ -525,12 +551,14 @@
       "description": "lumberjack.donate.element.local-exp.description",
       "texture": "exp_booster.png",
       "category": "BOOSTERS",
-      "price": 179,
+      "price": 199,
       "sale": 0,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "local-booster %player% EXP 2 3600 %count%"
@@ -544,13 +572,15 @@
       "description": "lumberjack.donate.element.global-blocks.description",
       "texture": "blocks_booster.png",
       "category": "BOOSTERS",
-      "price": 249,
+      "price": 299,
       "sale": 0,
       "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "global-booster %player% BLOCKS 2 3600 %count%"
@@ -564,12 +594,14 @@
       "description": "lumberjack.donate.element.local-blocks.description",
       "texture": "blocks_booster.png",
       "category": "BOOSTERS",
-      "price": 179,
+      "price": 199,
       "sale": 0,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "local-booster %player% BLOCKS 2 3600 %count%"
@@ -583,13 +615,15 @@
       "description": "lumberjack.donate.element.global-mobs.description",
       "texture": "mobs_booster.png",
       "category": "BOOSTERS",
-      "price": 249,
+      "price": 299,
       "sale": 0,
       "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "global-booster %player% MOBS 2 3600 %count%"
@@ -603,12 +637,14 @@
       "description": "lumberjack.donate.element.local-mobs.description",
       "texture": "mobs_booster.png",
       "category": "BOOSTERS",
-      "price": 179,
+      "price": 199,
       "sale": 0,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "local-booster %player% MOBS 2 3600 %count%"
@@ -622,12 +658,14 @@
       "description": "lumberjack.donate.element.global-money.description",
       "texture": "money_booster.png",
       "category": "BOOSTERS",
-      "price": 249,
+      "price": 299,
       "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "global-booster %player% MONEY 2 3600 %count%"
@@ -642,11 +680,13 @@
       "description": "lumberjack.donate.element.local-money.description",
       "texture": "money_booster.png",
       "category": "BOOSTERS",
-      "price": 179,
+      "price": 199,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "local-booster %player% MONEY 2 3600 %count%"
@@ -660,12 +700,14 @@
       "description": "lumberjack.donate.element.global-all.description",
       "texture": "all_booster.png",
       "category": "BOOSTERS",
-      "price": 749,
+      "price": 899,
       "alert": true,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "global-booster %player% MOBS 2 3600 %count%",
@@ -682,11 +724,13 @@
       "description": "lumberjack.donate.element.local-all.description",
       "texture": "all_booster.png",
       "category": "BOOSTERS",
-      "price": 549,
+      "price": 599,
       "count": [
         1,
         3,
-        5
+        5,
+        10,
+        25
       ],
       "onBuy": [
         "local-booster %player% MOBS 2 3600 %count%",
