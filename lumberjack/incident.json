@@ -19,13 +19,14 @@
         "20:15:0",
         "22:15:0"
       ],
+      "awaitDuration": 10,
       "printStat": [1]
     },
     "INCREASED_LOOTBOX_CHANCES": {
       "texture": "increased_lootbox_chance_percent_1.png",
       "title": "lumberjack.incident.increased_lootbox_chances.title",
       "description": "lumberjack.incident.increased_lootbox_chances.description",
-      "stat": [ 60, 10 ],
+      "stat": [ 60, 20 ],
       "awaitAt": [
         "0:45:0",
         "2:45:0",
@@ -40,6 +41,7 @@
         "20:45:0",
         "22:45:0"
       ],
+      "awaitDuration": 10,
       "printStat": [1]
     },
     "DROPPER": {
@@ -61,6 +63,7 @@
         "21:45:0",
         "23:45:0"
       ],
+      "awaitDuration": 10,
       "printStat": [1]
     },
     "SUPERCHARGING": {
@@ -82,6 +85,7 @@
         "21:15:0",
         "23:15:0"
       ],
+      "awaitDuration": 10,
       "printStat": [1]
     }
   },
@@ -112,7 +116,7 @@
             "incidentId": "PRICE_REDUCTION",
             "id": "sale_percent_1",
             "texture": "sale_percent_1.png",
-            "title": "i18n.lumberjack.incident.menu.sale_percent.title|!|I",
+            "title": "lumberjack.incident.menu.sale_percent.title.1",
             "description": "lumberjack.incident.price_reduction.percent.description",
             "statId": 1,
             "additional": 1.25,
@@ -126,7 +130,7 @@
             "parentId": "sale_percent_1",
             "id": "sale_percent_2",
             "texture": "sale_percent_2.png",
-            "title": "i18n.lumberjack.incident.menu.sale_percent.title|!|II",
+            "title": "lumberjack.incident.menu.sale_percent.title.2",
             "description": "lumberjack.incident.price_reduction.percent.description",
             "statId": 1,
             "additional": 2,
@@ -140,8 +144,8 @@
             "parentId": "sale_percent_1",
             "id": "sale_duration_1",
             "texture": "sale_duration_1.png",
-            "title": "i18n.lumberjack.incident.menu.sale_duration.title|!|I",
-            "description": "lumberjack.incident.price_reduction.percent.description",
+            "title": "lumberjack.incident.menu.sale_duration.title.1",
+            "description": "lumberjack.incident.upgrade.duration.description",
             "statId": 0,
             "additional": 48,
             "price": 20,
@@ -153,7 +157,7 @@
             "parentId": "sale_percent_2",
             "id": "sale_percent_3",
             "texture": "sale_percent_3.png",
-            "title": "i18n.lumberjack.incident.menu.sale_percent.title|!|III",
+            "title": "lumberjack.incident.menu.sale_percent.title.3",
             "description": "lumberjack.incident.price_reduction.percent.description",
             "statId": 1,
             "additional": 8,
@@ -171,10 +175,10 @@
             "incidentId": "INCREASED_LOOTBOX_CHANCES",
             "id": "increased_chance_percent_1",
             "texture": "increased_lootbox_chance_percent_1.png",
-            "title": "i18n.lumberjack.incident.menu.increased_chance_percent.title|!|I",
+            "title": "lumberjack.incident.menu.increased_chance_percent.1",
             "description": "lumberjack.incident.increased_lootbox_chance.percent.description",
             "statId": 1,
-            "additional": 1,
+            "additional": 3,
             "price": 6,
             "maxProgress": 5,
             "viewpoint": {"x": 0, "y": 0}
@@ -184,10 +188,10 @@
             "parentId": "increased_chance_percent_1",
             "id": "increased_chance_percent_2",
             "texture": "increased_lootbox_chance_percent_2.png",
-            "title": "i18n.lumberjack.incident.menu.increased_chance_percent.title|!|II",
+            "title": "lumberjack.incident.menu.increased_chance_percent.2",
             "description": "lumberjack.incident.increased_lootbox_chance.percent.description",
             "statId": 1,
-            "additional": 2,
+            "additional": 4,
             "price": 10,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0}
@@ -197,7 +201,7 @@
             "parentId": "increased_chance_percent_1",
             "id": "increased_chance_duration_1",
             "texture": "increased_lootbox_chance_duration_1.png",
-            "title": "lumberjack.incident.menu.increased_chance_duration.title",
+            "title": "lumberjack.incident.menu.increased_chance_duration",
             "description": "lumberjack.incident.upgrade.duration.description",
             "statId": 0,
             "additional": 48,
@@ -210,10 +214,10 @@
             "parentId": "increased_chance_percent_2",
             "id": "increased_chance_percent_3",
             "texture": "increased_lootbox_chance_percent_3.png",
-            "title": "i18n.lumberjack.incident.menu.increased_chance_percent.title|!|III",
+            "title": "lumberjack.incident.menu.increased_chance_percent.3",
             "description": "lumberjack.incident.increased_lootbox_chance.percent.description",
             "statId": 1,
-            "additional": 5,
+            "additional": 15,
             "price": 20,
             "maxProgress": 3,
             "viewpoint": {"x": 2, "y": 0}
@@ -227,7 +231,7 @@
             "incidentId": "DROPPER",
             "id": "dropper_worth_coin_1",
             "texture": "dropper_worth_coin_1.png",
-            "title": "i18n.lumberjack.incident.menu.dropper_worth_coin.title|!|I",
+            "title": "lumberjack.incident.menu.dropper_worth_coin.1",
             "description": "lumberjack.incident.dropper_worth_coin.percent.description",
             "statId": 3,
             "additional": 300,
@@ -240,7 +244,7 @@
             "parentId": "dropper_worth_coin_1",
             "id": "dropper_worth_coin_2",
             "texture": "dropper_worth_coin_2.png",
-            "title": "i18n.lumberjack.incident.menu.dropper_worth_coin.title|!|II",
+            "title": "lumberjack.incident.menu.dropper_worth_coin.2",
             "description": "lumberjack.incident.dropper_worth_coin.percent.description",
             "statId": 3,
             "additional": 3000,
@@ -277,7 +281,7 @@
           },
           {
             "incidentId": "DROPPER",
-            "parentId": "dropper_worth_coin_1",
+            "parentId": "dropper_duration_1",
             "id": "dropper_spawn_every_1",
             "texture": "dropper_spawn_every_1.png",
             "title": "lumberjack.incident.menu.dropper_spawn_every",
@@ -307,7 +311,7 @@
             "parentId": "dropper_worth_coin_2",
             "id": "dropper_worth_coin_3",
             "texture": "dropper_worth_coin_3.png",
-            "title": "i18n.lumberjack.incident.menu.dropper_worth_coin.title|!|III",
+            "title": "lumberjack.incident.menu.dropper_worth_coin.3",
             "description": "lumberjack.incident.dropper_worth_coin.percent.description",
             "statId": 3,
             "additional": 30000,
@@ -318,13 +322,13 @@
         ]
       },
       {
-        "title": "lumberjack.incident.menu.title.4",
+        "title": "Бустеры на максимум",
         "treeNodes": [
           {
             "incidentId": "SUPERCHARGING",
             "id": "supercharging_percent_multiplier_1",
             "texture": "supercharging_percent_multiplier_1.png",
-            "title": "i18n.lumberjack.incident.menu.supercharging_percent_miltiplier.title|!|I",
+            "title": "Хватай бустеры I",
             "description": "lumberjack.incident.supercharging_multiplier.percent.description",
             "statId": 1,
             "additional": 8,
@@ -337,7 +341,7 @@
             "parentId": "supercharging_percent_multiplier_1",
             "id": "supercharging_percent_multiplier_2",
             "texture": "supercharging_percent_multiplier_2.png",
-            "title": "i18n.lumberjack.incident.menu.supercharging_percent_miltiplier.title|!|II",
+            "title": "lumberjack.incident.menu.supercharging_percent_multiplier.2",
             "description": "lumberjack.incident.supercharging_multiplier.percent.description",
             "statId": 1,
             "additional": 15,
@@ -350,7 +354,7 @@
             "parentId": "supercharging_percent_multiplier_1",
             "id": "supercharging_duration_1",
             "texture": "supercharging_duration_1.png",
-            "title": "lumberjack.incident.menu.supercharging_duration.title",
+            "title": "lumberjack.incident.menu.supercharging_duration",
             "description": "lumberjack.incident.upgrade.duration.description",
             "statId": 0,
             "additional": 48,
@@ -363,7 +367,7 @@
             "parentId": "supercharging_percent_multiplier_2",
             "id": "supercharging_percent_multiplier_3",
             "texture": "supercharging_percent_multiplier_3.png",
-            "title": "i18n.lumberjack.incident.menu.supercharging_percent_miltiplier.title|!|III",
+            "title": "lumberjack.incident.menu.supercharging_percent_multiplier.3",
             "description": "lumberjack.incident.supercharging_multiplier.percent.description",
             "statId": 1,
             "additional": 45,
