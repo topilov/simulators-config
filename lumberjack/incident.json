@@ -7,17 +7,11 @@
       "stat": [ 60, 10 ],
       "awaitAt": [
         "0:15:0",
-        "2:15:0",
         "4:15:0",
-        "6:15:0",
         "8:15:0",
-        "10:15:0",
         "12:15:0",
-        "14:15:0",
         "16:15:0",
-        "18:15:0",
-        "20:15:0",
-        "22:15:0"
+        "20:15:0"
       ],
       "awaitDuration": 10,
       "printStat": [1]
@@ -29,17 +23,11 @@
       "stat": [ 60, 20 ],
       "awaitAt": [
         "0:45:0",
-        "2:45:0",
         "4:45:0",
-        "6:45:0",
         "8:45:0",
-        "10:45:0",
         "12:45:0",
-        "14:45:0",
         "16:45:0",
-        "18:45:0",
-        "20:45:0",
-        "22:45:0"
+        "20:45:0"
       ],
       "awaitDuration": 10,
       "printStat": [1]
@@ -51,17 +39,11 @@
       "stat": [ 60, 0.5, 0.0, 100, 1 ],
       "awaitAt": [
         "1:45:0",
-        "3:45:0",
         "5:45:0",
-        "7:45:0",
         "9:45:0",
-        "11:45:0",
         "13:45:0",
-        "15:45:0",
         "17:45:0",
-        "19:45:0",
-        "21:45:0",
-        "23:45:0"
+        "21:45:0"
       ],
       "awaitDuration": 10,
       "printStat": [1]
@@ -73,17 +55,11 @@
       "stat": [ 60, 50 ],
       "awaitAt": [
         "1:15:0",
-        "3:15:0",
         "5:15:0",
-        "7:15:0",
         "9:15:0",
-        "11:15:0",
         "13:15:0",
-        "15:15:0",
         "17:15:0",
-        "19:15:0",
-        "21:15:0",
-        "23:15:0"
+        "21:15:0"
       ],
       "awaitDuration": 10,
       "printStat": [1]
@@ -119,7 +95,7 @@
             "title": "lumberjack.incident.menu.sale_percent.title.1",
             "description": "lumberjack.incident.price_reduction.percent.description",
             "statId": 1,
-            "additional": 1.25,
+            "additional": 0.9,
             "price": 6,
             "maxProgress": 5,
             "viewpoint": {"x": 0, "y": 0 },
@@ -133,7 +109,7 @@
             "title": "lumberjack.incident.menu.sale_percent.title.2",
             "description": "lumberjack.incident.price_reduction.percent.description",
             "statId": 1,
-            "additional": 2,
+            "additional": 1.3,
             "price": 10,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0},
@@ -160,7 +136,7 @@
             "title": "lumberjack.incident.menu.sale_percent.title.3",
             "description": "lumberjack.incident.price_reduction.percent.description",
             "statId": 1,
-            "additional": 8,
+            "additional": 3,
             "price": 20,
             "maxProgress": 3,
             "viewpoint": {"x": 2, "y": 0},
@@ -178,7 +154,7 @@
             "title": "lumberjack.incident.menu.increased_chance_percent.1",
             "description": "lumberjack.incident.increased_lootbox_chance.percent.description",
             "statId": 1,
-            "additional": 3,
+            "additional": 1,
             "price": 6,
             "maxProgress": 5,
             "viewpoint": {"x": 0, "y": 0}
@@ -191,7 +167,7 @@
             "title": "lumberjack.incident.menu.increased_chance_percent.2",
             "description": "lumberjack.incident.increased_lootbox_chance.percent.description",
             "statId": 1,
-            "additional": 4,
+            "additional": 2,
             "price": 10,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0}
@@ -217,7 +193,7 @@
             "title": "lumberjack.incident.menu.increased_chance_percent.3",
             "description": "lumberjack.incident.increased_lootbox_chance.percent.description",
             "statId": 1,
-            "additional": 15,
+            "additional": 5,
             "price": 20,
             "maxProgress": 3,
             "viewpoint": {"x": 2, "y": 0}
@@ -234,7 +210,7 @@
             "title": "lumberjack.incident.menu.dropper_worth_coin.1",
             "description": "lumberjack.incident.dropper_worth_coin.percent.description",
             "statId": 3,
-            "additional": 300,
+            "additional": 50,
             "price": 6,
             "maxProgress": 5,
             "viewpoint": {"x": 0, "y": 0}
@@ -247,7 +223,7 @@
             "title": "lumberjack.incident.menu.dropper_worth_coin.2",
             "description": "lumberjack.incident.dropper_worth_coin.percent.description",
             "statId": 3,
-            "additional": 3000,
+            "additional": 100,
             "price": 10,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 1}
@@ -301,7 +277,7 @@
             "title": "lumberjack.incident.menu.dropper_worth_bits",
             "description": "lumberjack.incident.dropper_worth_bits.percent.description",
             "statId": 4,
-            "additional": 1,
+            "additional": 3,
             "price": 20,
             "maxProgress": 5,
             "viewpoint": {"x": 2, "y": -1}
@@ -314,7 +290,7 @@
             "title": "lumberjack.incident.menu.dropper_worth_coin.3",
             "description": "lumberjack.incident.dropper_worth_coin.percent.description",
             "statId": 3,
-            "additional": 30000,
+            "additional": 400,
             "price": 20,
             "maxProgress": 3,
             "viewpoint": {"x": 2, "y": 1}
@@ -322,7 +298,7 @@
         ]
       },
       {
-        "title": "Бустеры на максимум",
+        "title": "lumberjack.incident.menu.title.4",
         "treeNodes": [
           {
             "incidentId": "SUPERCHARGING",
@@ -331,7 +307,7 @@
             "title": "Хватай бустеры I",
             "description": "lumberjack.incident.supercharging_multiplier.percent.description",
             "statId": 1,
-            "additional": 8,
+            "additional": 5,
             "price": 6,
             "maxProgress": 5,
             "viewpoint": {"x": 0, "y": 0}
@@ -344,7 +320,7 @@
             "title": "lumberjack.incident.menu.supercharging_percent_multiplier.2",
             "description": "lumberjack.incident.supercharging_multiplier.percent.description",
             "statId": 1,
-            "additional": 15,
+            "additional": 10,
             "price": 10,
             "maxProgress": 5,
             "viewpoint": {"x": 1, "y": 0}
@@ -370,7 +346,7 @@
             "title": "lumberjack.incident.menu.supercharging_percent_multiplier.3",
             "description": "lumberjack.incident.supercharging_multiplier.percent.description",
             "statId": 1,
-            "additional": 45,
+            "additional": 25,
             "price": 20,
             "maxProgress": 3,
             "viewpoint": {"x": 2, "y": 0}
