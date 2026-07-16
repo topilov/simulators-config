@@ -51,7 +51,6 @@
         "texture",
         "rarity",
         "icon",
-        "requiredFragments",
         "levels"
       ],
       "additionalProperties": false,
@@ -96,11 +95,8 @@
       "required": [
         "maxHealth",
         "attackCooldown",
-        "damage",
         "takeDamageChance",
-        "takeDamageAmount",
-        "requiredExp",
-        "stat"
+        "takeDamageAmount"
       ],
       "additionalProperties": false,
 
@@ -113,43 +109,12 @@
           "type": "number"
         },
 
-        "damage": {
-          "type": "number",
-          "minimum": 0
-        },
-
         "takeDamageChance": {
           "type": "number"
         },
 
         "takeDamageAmount": {
           "type": "number"
-        },
-
-        "requiredExp": {
-          "type": "number"
-        },
-
-        "stat": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "object",
-            "required": [
-              "stat",
-              "readableStat"
-            ],
-            "additionalProperties": false,
-
-            "properties": {
-              "stat": {
-                "type": "number"
-              },
-
-              "readableStat": {
-                "type": "string"
-              }
-            }
-          }
         }
       }
     }

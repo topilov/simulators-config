@@ -15,7 +15,7 @@
 				"tasks": [
 				  {
 					"name": "lumberjack.quest.exp.subtitle",
-					"goal": 470000.0,
+					"goal": 350000.0,
 					"current": "exp1"
 				  }
 				]
@@ -27,7 +27,7 @@
 				"tasks": [
 				  {
 					"name": "lumberjack.quest.exp.subtitle",
-					"goal": 23000000.0,
+					"goal": 8000000.0,
 					"current": "exp2"
 				  }
 				]
@@ -39,7 +39,7 @@
 				"tasks": [
 				  {
 					"name": "lumberjack.quest.exp.subtitle",
-					"goal": 500000000.0,
+					"goal": 50000000.0,
 					"current": "exp3"
 				  }
 				]
@@ -109,7 +109,7 @@
 				"tasks": [
 				  {
 					"name": "lumberjack.quest.blocks.subtitle",
-					"goal": 28500,
+					"goal": 11500,
 					"current": "blocks2"
 				  }
 				]
@@ -121,7 +121,7 @@
 				"tasks": [
 				  {
 					"name": "lumberjack.quest.blocks.subtitle",
-					"goal": 100000,
+					"goal": 50000,
 					"current": "blocks3"
 				  }
 				]
@@ -138,7 +138,7 @@
 				"tasks": [
 				  {
 					"name": "lumberjack.quest.mobs.subtitle",
-					"goal": 130,
+					"goal": 100,
 					"current": "mobs1"
 				  }
 				]
@@ -150,7 +150,7 @@
 				"tasks": [
 				  {
 					"name": "lumberjack.quest.mobs.subtitle",
-					"goal": 850,
+					"goal": 450,
 					"current": "mobs2"
 				  }
 				]
@@ -162,7 +162,7 @@
 				"tasks": [
 				  {
 					"name": "lumberjack.quest.mobs.subtitle",
-					"goal": 2500,
+					"goal": 1500,
 					"current": "mobs3"
 				  }
 				]
@@ -178,7 +178,7 @@
 	  {
 		"id": "exp1",
 		"title": "lumberjack.quest.exp1.title",
-		"goal": 470000,
+		"goal": 350000,
 		"onComplete": [
 		  "earn-money %player% 5000 true",
 		  "earn-bits %player% 10",
@@ -188,7 +188,7 @@
 	  {
 		"id": "exp2",
 		"title": "lumberjack.quest.exp2.title",
-		"goal": 23000000,
+		"goal": 8000000,
 		"onComplete": [
 		  "earn-money %player% 25000 true",
 		  "earn-bits %player% 25",
@@ -198,7 +198,7 @@
 	  {
 		"id": "exp3",
 		"title": "lumberjack.quest.exp3.title",
-		"goal": 500000000,
+		"goal": 50000000,
 		"onComplete": [
 		  "earn-money %player% 250000 true",
 		  "local-booster %player% EXP 2 1800",
@@ -252,7 +252,7 @@
 	  {
 		"id": "blocks2",
 		"title": "lumberjack.quest.blocks2.title",
-		"goal": 28500,
+		"goal": 11500,
 		"onComplete": [
 		  "earn-money %player% 25000 true",
 		  "give-key %player% RUNE 1",
@@ -262,7 +262,7 @@
 	  {
 		"id": "blocks3",
 		"title": "lumberjack.quest.blocks3.title",
-		"goal": 100000,
+		"goal": 50000,
 		"onComplete": [
 		  "earn-money %player% 250000 true",
 		  "give-key %player% RUNE 5",
@@ -274,7 +274,7 @@
 	  {
 		"id": "mobs1",
 		"title": "lumberjack.quest.mobs1.title",
-		"goal": 130,
+		"goal": 100,
 		"onComplete": [
 		  "earn-money %player% 2500 true",
 		  "give-key %player% PET 1",
@@ -284,7 +284,7 @@
 	  {
 		"id": "mobs2",
 		"title": "lumberjack.quest.mobs2.title",
-		"goal": 850,
+		"goal": 450,
 		"onComplete": [
 		  "earn-money %player% 25000 true",
 		  "give-key %player% DEFAULT 5",
@@ -294,7 +294,7 @@
 	  {
 		"id": "mobs3",
 		"title": "lumberjack.quest.mobs3.title",
-		"goal": 2500,
+		"goal": 1500,
 		"onComplete": [
 		  "earn-money %player% 250000 true",
 		  "give-key %player% PET 5",

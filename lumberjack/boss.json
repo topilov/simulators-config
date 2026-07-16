@@ -17,35 +17,23 @@
       "bosses": {
         "RABBIT_KILLER": {
           "spawnAt": [
-            "0:0:0",
-            "1:0:0",
-            "2:0:0",
-            "3:0:0",
-            "4:0:0",
-            "5:0:0",
-            "6:0:0",
-            "7:0:0",
-            "8:0:0",
-            "9:0:0",
-            "10:0:0",
-            "11:0:0",
-            "12:0:0",
-            "13:0:0",
-            "14:0:0",
-            "15:0:0",
-            "16:0:0",
-            "17:0:0",
-            "18:0:0",
-            "19:0:0",
-            "20:0:0",
-            "21:0:0",
-            "22:0:0",
-            "23:0:0"
+            "0:15:0",
+            "2:15:0",
+            "4:15:0",
+            "6:15:0",
+            "8:15:0",
+            "10:15:0",
+            "12:15:0",
+            "14:15:0",
+            "16:15:0",
+            "18:15:0",
+            "20:15:0",
+            "22:15:0"
           ],
           "type": "RABBIT_KILLER",
           "kinds": [
             {
-              "chance": 93.0,
+              "chance": 96.0,
               "mutated": false,
               "settings": {
                 "health": 500,
@@ -71,33 +59,33 @@
               "reward": [
                 [
                   "give-key %player% DEFAULT 10",
-                  "earn-exp %player% 2500 true"
+                  "earn-exp %player% 1250 true"
                 ],
                 [
-                  "give-key %player% DEFAULT 7",
-                  "earn-exp %player% 2000 true"
+                  "give-key %player% DEFAULT 8",
+                  "earn-exp %player% 1000 true"
                 ],
                 [
-                  "give-key %player% DEFAULT 5",
-                  "earn-exp %player% 1500 true"
-                ],
-                [
-                  "give-key %player% DEFAULT 5",
-                  "earn-exp %player% 1500 true"
+                  "give-key %player% DEFAULT 6",
+                  "earn-exp %player% 750 true"
                 ],
                 [
                   "give-key %player% DEFAULT 5",
-                  "earn-exp %player% 1500 true"
+                  "earn-exp %player% 750 true"
+                ],
+                [
+                  "give-key %player% DEFAULT 5",
+                  "earn-exp %player% 750 true"
                 ]
               ],
               "children": []
             },
             {
-              "chance": 7.0,
+              "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 1250,
-              "damage": 9.8,
+                "health": 1100,
+              "damage": 8.0,
                 "speed": 0.7,
                 "location": {
                   "name": "boss"
@@ -118,24 +106,24 @@
               },
               "reward": [
                 [
-                  "give-key %player% DEFAULT 50",
-                  "earn-exp %player% 12500 true"
-                ],
-                [
-                  "give-key %player% DEFAULT 35",
-                  "earn-exp %player% 10000 true"
+                  "give-key %player% DEFAULT 30",
+                  "earn-exp %player% 4200 true"
                 ],
                 [
                   "give-key %player% DEFAULT 25",
-                  "earn-exp %player% 7500 true"
+                  "earn-exp %player% 3000 true"
                 ],
                 [
-                  "give-key %player% DEFAULT 25",
-                  "earn-exp %player% 7500 true"
+                  "give-key %player% DEFAULT 20",
+                  "earn-exp %player% 2300 true"
                 ],
                 [
-                  "give-key %player% DEFAULT 25",
-                  "earn-exp %player% 7500 true"
+                  "give-key %player% DEFAULT 17",
+                  "earn-exp %player% 2300 true"
+                ],
+                [
+                  "give-key %player% DEFAULT 17",
+                  "earn-exp %player% 2300 true"
                 ]
               ],
               "children": [],
@@ -151,35 +139,17 @@
       "bosses": {
         "MAD_VILLAGER": {
           "spawnAt": [
-            "0:15:0",
             "1:15:0",
-            "2:15:0",
-            "3:15:0",
-            "4:15:0",
             "5:15:0",
-            "6:15:0",
-            "7:15:0",
-            "8:15:0",
             "9:15:0",
-            "10:15:0",
-            "11:15:0",
-            "12:15:0",
             "13:15:0",
-            "14:15:0",
-            "15:15:0",
-            "16:15:0",
             "17:15:0",
-            "18:15:0",
-            "19:15:0",
-            "20:15:0",
-            "21:15:0",
-            "22:15:0",
-            "23:15:0"
+            "21:15:0"
           ],
           "type": "MAD_VILLAGER",
           "kinds": [
             {
-              "chance": 93.0,
+              "chance": 96.0,
               "mutated": false,
               "settings": {
                 "health": 750,
@@ -206,37 +176,37 @@
                 [
                   "earn-bits %player% 15",
                   "give-key %player% RUNE 2",
-                  "earn-exp %player% 2500 true"
+                  "earn-exp %player% 1250 true"
                 ],
                 [
                   "earn-bits %player% 10",
                   "give-key %player% RUNE 1",
-                  "earn-exp %player% 2000 true"
+                  "earn-exp %player% 1000 true"
                 ],
                 [
                   "earn-bits %player% 5",
                   "give-key %player% RUNE 1",
-                  "earn-exp %player% 1500 true"
+                  "earn-exp %player% 750 true"
                 ],
                 [
                   "earn-bits %player% 5",
                   "give-key %player% RUNE 1",
-                  "earn-exp %player% 1500 true"
+                  "earn-exp %player% 750 true"
                 ],
                 [
                   "earn-bits %player% 5",
                   "give-key %player% RUNE 1",
-                  "earn-exp %player% 1500 true"
+                  "earn-exp %player% 750 true"
                 ]
               ],
               "children": []
             },
             {
-              "chance": 7.0,
+              "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 1875,
-              "damage": 9.8,
+                "health": 1600,
+              "damage": 8.0,
                 "speed": 0.5,
                 "location": {
                   "name": "boss"
@@ -257,29 +227,29 @@
               },
               "reward": [
                 [
-                  "earn-bits %player% 75",
-                  "give-key %player% RUNE 10",
-                  "earn-exp %player% 12500 true"
-                ],
-                [
                   "earn-bits %player% 50",
+                  "give-key %player% RUNE 6",
+                  "earn-exp %player% 4200 true"
+                ],
+                [
+                  "earn-bits %player% 40",
                   "give-key %player% RUNE 5",
-                  "earn-exp %player% 10000 true"
+                  "earn-exp %player% 3000 true"
+                ],
+                [
+                  "earn-bits %player% 30",
+                  "give-key %player% RUNE 4",
+                  "earn-exp %player% 2300 true"
                 ],
                 [
                   "earn-bits %player% 25",
-                  "give-key %player% RUNE 5",
-                  "earn-exp %player% 7500 true"
+                  "give-key %player% RUNE 3",
+                  "earn-exp %player% 2300 true"
                 ],
                 [
                   "earn-bits %player% 25",
-                  "give-key %player% RUNE 5",
-                  "earn-exp %player% 7500 true"
-                ],
-                [
-                  "earn-bits %player% 25",
-                  "give-key %player% RUNE 5",
-                  "earn-exp %player% 7500 true"
+                  "give-key %player% RUNE 3",
+                  "earn-exp %player% 2300 true"
                 ]
               ],
               "children": [],
@@ -295,29 +265,18 @@
       "bosses": {
         "GRAPE_MONSTER": {
           "spawnAt": [
-            "0:0:0",
-            "1:20:0",
-            "2:40:0",
-            "4:0:0",
-            "5:20:0",
-            "6:40:0",
-            "8:0:0",
-            "9:20:0",
-            "10:40:0",
-            "12:0:0",
-            "13:20:0",
-            "14:40:0",
-            "16:0:0",
-            "17:20:0",
-            "18:40:0",
-            "20:0:0",
-            "21:20:0",
-            "22:40:0"
+            "0:45:0",
+            "4:45:0",
+            "8:45:0",
+            "12:45:0",
+            "16:45:0",
+            "20:45:0"
+
           ],
           "type": "GRAPE_MONSTER",
           "kinds": [
             {
-              "chance": 93.0,
+              "chance": 96.0,
               "mutated": false,
               "settings": {
                 "health": 1100,
@@ -337,44 +296,37 @@
               },
               "reward": [
                 [
-                  "give-item %player% SAVE_CRYSTAL 2",
+                  "give-item %player% SAVE_CRYSTAL 1",
                   "give-key %player% PET 2",
-                  "random-money %player% 60 60.01",
-                  "earn-exp %player% 4000 true"
-                ],
-                [
-                  "give-item %player% SAVE_CRYSTAL 1",
-                  "give-key %player% PET 1",
-                  "random-money %player% 50 50.01",
-                  "earn-exp %player% 3000 true"
-                ],
-                [
-                  "give-item %player% SAVE_CRYSTAL 1",
-                  "give-key %player% PET 1",
-                  "random-money %player% 45 45.01",
                   "earn-exp %player% 2000 true"
                 ],
                 [
                   "give-item %player% SAVE_CRYSTAL 1",
                   "give-key %player% PET 1",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 2000 true"
+                  "earn-exp %player% 1500 true"
                 ],
                 [
                   "give-item %player% SAVE_CRYSTAL 1",
                   "give-key %player% PET 1",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 2000 true"
+                  "earn-exp %player% 1000 true"
+                ],
+                [
+                  "give-key %player% PET 1",
+                  "earn-exp %player% 1000 true"
+                ],
+                [
+                  "give-key %player% PET 1",
+                  "earn-exp %player% 1000 true"
                 ]
               ],
               "children": []
             },
             {
-              "chance": 7.0,
+              "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 2750,
-                "damage": 5.6,
+                "health": 2400,
+                "damage": 5.0,
                 "speed": 0.0,
                 "location": {
                   "name": "boss"
@@ -390,34 +342,29 @@
               },
               "reward": [
                 [
-                  "give-item %player% SAVE_CRYSTAL 10",
-                  "give-key %player% PET 10",
-                  "random-money %player% 300 300.05",
-                  "earn-exp %player% 20000 true"
+                  "give-item %player% SAVE_CRYSTAL 3",
+                  "give-key %player% PET 6",
+                  "earn-exp %player% 8500 true"
                 ],
                 [
-                  "give-item %player% SAVE_CRYSTAL 5",
+                  "give-item %player% SAVE_CRYSTAL 2",
                   "give-key %player% PET 5",
-                  "random-money %player% 250 250.05",
-                  "earn-exp %player% 15000 true"
+                  "earn-exp %player% 6000 true"
                 ],
                 [
-                  "give-item %player% SAVE_CRYSTAL 5",
-                  "give-key %player% PET 5",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 10000 true"
+                  "give-item %player% SAVE_CRYSTAL 1",
+                  "give-key %player% PET 4",
+                  "earn-exp %player% 3000 true"
                 ],
                 [
-                  "give-item %player% SAVE_CRYSTAL 5",
-                  "give-key %player% PET 5",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 10000 true"
+                  "give-item %player% SAVE_CRYSTAL 1",
+                  "give-key %player% PET 3",
+                  "earn-exp %player% 3000 true"
                 ],
                 [
-                  "give-item %player% SAVE_CRYSTAL 5",
-                  "give-key %player% PET 5",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 10000 true"
+                  "give-item %player% SAVE_CRYSTAL 1",
+                  "give-key %player% PET 3",
+                  "earn-exp %player% 3000 true"
                 ]
               ],
               "children": [],
@@ -433,29 +380,18 @@
       "bosses": {
         "GIANT_COCKROACH": {
           "spawnAt": [
-            "0:10:0",
-            "1:30:0",
-            "2:50:0",
-            "4:10:0",
-            "5:30:0",
-            "6:50:0",
-            "8:10:0",
-            "9:30:0",
-            "10:50:0",
-            "12:10:0",
-            "13:30:0",
-            "14:50:0",
-            "16:10:0",
-            "17:30:0",
-            "18:50:0",
-            "20:10:0",
-            "21:30:0",
-            "22:50:0"
+            "1:45:0",
+            "5:45:0",
+            "9:45:0",
+            "13:45:0",
+            "17:45:0",
+            "21:45:0"
+
           ],
           "type": "GIANT_COCKROACH",
           "kinds": [
             {
-              "chance": 93.0,
+              "chance": 96.0,
               "mutated": false,
               "settings": {
                 "health": 1400,
@@ -480,39 +416,34 @@
               },
               "reward": [
                 [
-                  "random-money %player% 60 60.01",
                   "give-key %player% PET 3",
-                  "earn-exp %player% 4000 true"
-                ],
-                [
-                  "random-money %player% 50 50.01",
-                  "give-key %player% PET 2",
-                  "earn-exp %player% 3000 true"
-                ],
-                [
-                  "random-money %player% 45 45.01",
-                  "give-key %player% PET 2",
                   "earn-exp %player% 2000 true"
                 ],
                 [
-                  "random-money %player% 45 45.01",
                   "give-key %player% PET 2",
-                  "earn-exp %player% 2000 true"
+                  "earn-exp %player% 1500 true"
                 ],
                 [
-                  "random-money %player% 45 45.01",
                   "give-key %player% PET 2",
-                  "earn-exp %player% 2000 true"
+                  "earn-exp %player% 1000 true"
+                ],
+                [
+                  "give-key %player% PET 2",
+                  "earn-exp %player% 1000 true"
+                ],
+                [
+                  "give-key %player% PET 2",
+                  "earn-exp %player% 1000 true"
                 ]
               ],
               "children": []
             },
             {
-              "chance": 7.0,
+              "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 3500,
-              "damage": 15.4,
+                "health": 3200,
+              "damage": 12.5,
                 "speed": 0.3,
                 "location": {
                   "name": "boss"
@@ -533,29 +464,24 @@
               },
               "reward": [
                 [
-                  "random-money %player% 300 300.05",
-                  "give-key %player% PET 15",
-                  "earn-exp %player% 20000 true"
+                  "give-key %player% PET 10",
+                  "earn-exp %player% 7000 true"
                 ],
                 [
-                  "random-money %player% 250 250.05",
-                  "give-key %player% PET 10",
-                  "earn-exp %player% 15000 true"
+                  "give-key %player% PET 8",
+                  "earn-exp %player% 5500 true"
                 ],
                 [
-                  "random-money %player% 225 225.05",
-                  "give-key %player% PET 10",
-                  "earn-exp %player% 10000 true"
+                  "give-key %player% PET 7",
+                  "earn-exp %player% 4000 true"
                 ],
                 [
-                  "random-money %player% 225 225.05",
-                  "give-key %player% PET 10",
-                  "earn-exp %player% 10000 true"
+                  "give-key %player% PET 5",
+                  "earn-exp %player% 3000 true"
                 ],
                 [
-                  "random-money %player% 225 225.05",
-                  "give-key %player% PET 10",
-                  "earn-exp %player% 10000 true"
+                  "give-key %player% PET 5",
+                  "earn-exp %player% 3000 true"
                 ]
               ],
               "children": [],
@@ -571,27 +497,17 @@
       "bosses": {
         "SOUL_CONQUEROR": {
           "spawnAt": [
-            "0:25:0",
-            "1:55:0",
-            "3:25:0",
-            "4:55:0",
-            "6:25:0",
-            "7:55:0",
-            "9:25:0",
-            "10:55:0",
-            "12:25:0",
-            "13:55:0",
-            "15:25:0",
-            "16:55:0",
-            "18:25:0",
-            "19:55:0",
-            "21:25:0",
-            "22:55:0"
+            "2:45:0",
+            "6:45:0",
+            "10:45:0",
+            "14:45:0",
+            "18:45:0",
+            "22:45:0"
           ],
           "type": "SOUL_CONQUEROR",
           "kinds": [
             {
-              "chance": 93.0,
+              "chance": 96.0,
               "mutated": false,
               "settings": {
                 "health": 1750,
@@ -617,38 +533,33 @@
               "reward": [
                 [
                   "give-key %player% RUNE 3",
-                  "random-money %player% 60 60.01",
-                  "earn-exp %player% 7000 true"
+                  "earn-exp %player% 3000 true"
                 ],
                 [
                   "give-key %player% RUNE 2",
-                  "random-money %player% 50 50.01",
-                  "earn-exp %player% 6000 true"
+                  "earn-exp %player% 2500 true"
                 ],
                 [
                   "give-key %player% RUNE 2",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 5000 true"
+                  "earn-exp %player% 2000 true"
                 ],
                 [
                   "give-key %player% RUNE 2",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 5000 true"
+                  "earn-exp %player% 2000 true"
                 ],
                 [
                   "give-key %player% RUNE 2",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 5000 true"
+                  "earn-exp %player% 2000 true"
                 ]
               ],
               "children": []
             },
             {
-              "chance": 7.0,
+              "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 4375,
-              "damage": 15.4,
+                "health": 3950,
+              "damage": 12.5,
                 "speed": 0.4,
                 "location": {
                   "name": "boss"
@@ -669,29 +580,24 @@
               },
               "reward": [
                 [
-                  "give-key %player% RUNE 15",
-                  "random-money %player% 300 300.05",
-                  "earn-exp %player% 35000 true"
+                  "give-key %player% RUNE 10",
+                  "earn-exp %player% 7000 true"
                 ],
                 [
-                  "give-key %player% RUNE 10",
-                  "random-money %player% 250 250.05",
-                  "earn-exp %player% 30000 true"
+                  "give-key %player% RUNE 8",
+                  "earn-exp %player% 5500 true"
                 ],
                 [
-                  "give-key %player% RUNE 10",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 25000 true"
+                  "give-key %player% RUNE 7",
+                  "earn-exp %player% 4000 true"
                 ],
                 [
-                  "give-key %player% RUNE 10",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 25000 true"
+                  "give-key %player% RUNE 5",
+                  "earn-exp %player% 3000 true"
                 ],
                 [
-                  "give-key %player% RUNE 10",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 25000 true"
+                  "give-key %player% RUNE 5",
+                  "earn-exp %player% 3000 true"
                 ]
               ],
               "children": [],
@@ -707,23 +613,17 @@
       "bosses": {
         "ICE_ESKIMO": {
           "spawnAt": [
-            "0:50:0",
-            "2:50:0",
-            "4:50:0",
-            "6:50:0",
-            "8:50:0",
-            "10:50:0",
-            "12:50:0",
-            "14:50:0",
-            "16:50:0",
-            "18:50:0",
-            "20:50:0",
-            "22:50:0"
+            "3:15:0",
+            "7:15:0",
+            "11:15:0",
+            "15:15:0",
+            "19:15:0",
+            "23:15:0"
           ],
           "type": "ICE_ESKIMO",
           "kinds": [
             {
-              "chance": 93.0,
+              "chance": 96.0,
               "mutated": false,
               "settings": {
                 "health": 2100,
@@ -744,28 +644,23 @@
               "reward": [
                 [
                   "give-key %player% PET 5",
-                  "random-money %player% 60 60.01",
-                  "earn-exp %player% 10000 true"
+                  "earn-exp %player% 5000 true"
                 ],
                 [
                   "give-key %player% PET 4",
-                  "random-money %player% 50 50.01",
-                  "earn-exp %player% 7000 true"
+                  "earn-exp %player% 3500 true"
                 ],
                 [
                   "give-key %player% PET 3",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 5000 true"
+                  "earn-exp %player% 2500 true"
                 ],
                 [
                   "give-key %player% PET 3",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 5000 true"
+                  "earn-exp %player% 2500 true"
                 ],
                 [
                   "give-key %player% PET 3",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 5000 true"
+                  "earn-exp %player% 2500 true"
                 ]
               ],
               "children": [
@@ -792,11 +687,11 @@
               ]
             },
             {
-              "chance": 7.0,
+              "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 5250,
-                "damage": 14,
+                "health": 5125,
+                "damage": 12,
                 "speed": 0.4,
                 "location": {
                   "name": "boss"
@@ -812,36 +707,36 @@
               },
               "reward": [
                 [
-                  "give-key %player% PET 25",
-                  "random-money %player% 300 300.05",
-                  "earn-exp %player% 50000 true"
-                ],
-                [
                   "give-key %player% PET 20",
-                  "random-money %player% 250 250.05",
-                  "earn-exp %player% 35000 true"
+                  "earn-soul-stones %player% 20",
+                  "earn-exp %player% 10000 true"
+                ],
+                [
+                  "give-key %player% PET 17",
+                  "earn-soul-stones %player% 15",
+                  "earn-exp %player% 8500 true"
                 ],
                 [
                   "give-key %player% PET 15",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 25000 true"
+                  "earn-soul-stones %player% 10",
+                  "earn-exp %player% 7500 true"
                 ],
                 [
-                  "give-key %player% PET 15",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 25000 true"
+                  "give-key %player% PET 13",
+                  "earn-soul-stones %player% 5",
+                  "earn-exp %player% 5500 true"
                 ],
                 [
-                  "give-key %player% PET 15",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 25000 true"
+                  "give-key %player% PET 12",
+                  "earn-soul-stones %player% 5",
+                  "earn-exp %player% 5500 true"
                 ]
               ],
               "children": [
                 {
                   "childType": "POLAR_BEAR",
                   "settings": {
-                    "health": 3000,
+                    "health": 7500,
                     "damage": 10,
                     "speed": 0.3,
                     "location": {
@@ -871,27 +766,22 @@
       "bosses": {
         "SLIMY_OGRE": {
           "spawnAt": [
-            "1:50:0",
-            "3:50:0",
-            "5:50:0",
-            "7:50:0",
-            "9:50:0",
-            "11:50:0",
-            "13:50:0",
-            "15:50:0",
-            "17:50:0",
-            "19:50:0",
-            "21:50:0",
-            "23:50:0"
+            "3:45:0",
+            "7:45:0",
+            "11:45:0",
+            "15:45:0",
+            "19:45:0",
+            "23:45:0"
+
           ],
           "type": "SLIMY_OGRE",
           "kinds": [
             {
-              "chance": 93.0,
+              "chance": 96.0,
               "mutated": false,
               "settings": {
                 "health": 2750,
-                "damage": 12,
+                "damage": 11,
                 "speed": 0.45,
                 "location": {
                   "name": "boss"
@@ -908,38 +798,33 @@
               "reward": [
                 [
                   "give-key %player% RUNE 5",
-                  "random-money %player% 60 60.01",
-                  "earn-exp %player% 10000 true"
+                  "earn-exp %player% 5000 true"
                 ],
                 [
                   "give-key %player% RUNE 4",
-                  "random-money %player% 50 50.01",
-                  "earn-exp %player% 7000 true"
+                  "earn-exp %player% 3500 true"
                 ],
                 [
                   "give-key %player% RUNE 3",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 5000 true"
+                  "earn-exp %player% 2500 true"
                 ],
                 [
                   "give-key %player% RUNE 3",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 5000 true"
+                  "earn-exp %player% 2500 true"
                 ],
                 [
                   "give-key %player% RUNE 3",
-                  "random-money %player% 45 45.01",
-                  "earn-exp %player% 5000 true"
+                  "earn-exp %player% 2500 true"
                 ]
               ],
               "children": []
             },
             {
-              "chance": 7.0,
+              "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 6875,
-              "damage": 16.8,
+                "health": 6000,
+              "damage": 12.0,
                 "speed": 0.45,
                 "location": {
                   "name": "boss"
@@ -955,29 +840,29 @@
               },
               "reward": [
                 [
-                  "give-key %player% RUNE 25",
-                  "random-money %player% 300 300.05",
-                  "earn-exp %player% 50000 true"
-                ],
-                [
                   "give-key %player% RUNE 20",
-                  "random-money %player% 250 250.05",
-                  "earn-exp %player% 35000 true"
+                  "earn-soul-stones %player% 20",
+                  "earn-exp %player% 10000 true"
+                ],
+                [
+                  "give-key %player% RUNE 17",
+                  "earn-soul-stones %player% 15",
+                  "earn-exp %player% 8500 true"
                 ],
                 [
                   "give-key %player% RUNE 15",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 25000 true"
+                  "earn-soul-stones %player% 10",
+                  "earn-exp %player% 6500 true"
                 ],
                 [
-                  "give-key %player% RUNE 15",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 25000 true"
+                  "give-key %player% RUNE 13",
+                  "earn-soul-stones %player% 5",
+                  "earn-exp %player% 5500 true"
                 ],
                 [
-                  "give-key %player% RUNE 15",
-                  "random-money %player% 225 225.05",
-                  "earn-exp %player% 25000 true"
+                  "give-key %player% RUNE 12",
+                  "earn-soul-stones %player% 5",
+                  "earn-exp %player% 5500 true"
                 ]
               ],
               "children": [],
