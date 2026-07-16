@@ -164,6 +164,7 @@
             "itemStack": {
               "type": "LEATHER_HELMET",
               "name": "i18n.lumberjack.armor.helmet.epic.title|!|§7",
+              "lore": "lumberjack.armor.helmet.epic.lore",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -182,6 +183,7 @@
             "itemStack": {
               "type": "LEATHER_CHESTPLATE",
               "name": "i18n.lumberjack.armor.chestplate.epic.title|!|§7",
+              "lore": "lumberjack.armor.chestplate.epic.lore",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -200,6 +202,7 @@
             "itemStack": {
               "type": "LEATHER_LEGGINGS",
               "name": "i18n.lumberjack.armor.leggings.epic.title|!|§7",
+              "lore": "lumberjack.armor.leggings.epic.lore",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -218,6 +221,7 @@
             "itemStack": {
               "type": "LEATHER_BOOTS",
               "name": "i18n.lumberjack.armor.boots.epic.title|!|§7",
+              "lore": "lumberjack.armor.boots.epic.lore",
               "flags": [
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
@@ -319,7 +323,7 @@
             "id": "tool-lucky-mob",
             "rarity": "LEGENDARY",
             "itemStack": {
-              "type": "CLAY_BALL",
+              "type": "WOOD_AXE",
               "name": "i18n.lumberjack.tool.axe.lucky_mob.title|!|§7",
               "lore": "lumberjack.lootbox.tool.axe.lucky_mob.description",
               "flags": [
@@ -328,7 +332,7 @@
                 "HIDE_UNBREAKABLE"
               ],
               "data": {
-                "weapons": "life_axe"
+                "sim": "lucky_mob_axe"
               }
             },
             "chance": 0.5,

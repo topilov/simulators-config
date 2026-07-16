@@ -22,6 +22,7 @@
           "earn-money %player% 250 false",
           "give-key %player% TITLE 1",
           "earn-bits %player% 50",
+          "give-key %player% DEFAULT 3",
           "earn-tutorial-stage-progress %player% TAKE_DAILY_REWARD"
         ]
       },
@@ -63,6 +64,7 @@
           }
         },
         "onClaim": [
+          "earn-soul-stones %player% 50",
           "give-key %player% PET 2",
           "earn-bits %player% 75",
           "give-key %player% TITLE 1"
@@ -151,7 +153,8 @@
         },
         "onClaim": [
           "earn-bits %player% 200",
-          "give-key %player% DEFAULT 30",
+          "earn-soul-stones %player% 100",
+          "give-key %player% DEFAULT 10",
           "local-booster %player% BLOCKS 2 7200",
           "local-booster %player% MOBS 2 7200",
           "local-booster %player% EXP 2 7200",
