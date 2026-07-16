@@ -33,7 +33,7 @@
           "type": "RABBIT_KILLER",
           "kinds": [
             {
-              "chance": 96.0,
+              "chance": 97.0,
               "mutated": false,
               "settings": {
                 "health": 500,
@@ -81,10 +81,10 @@
               "children": []
             },
             {
-              "chance": 4.0,
+              "chance": 3.0,
               "mutated": true,
               "settings": {
-                "health": 1100,
+                "health": 1250,
               "damage": 8.0,
                 "speed": 0.7,
                 "location": {
@@ -102,28 +102,34 @@
               },
               "messages": {
                 "onSpawn": "lumberjack.boss.rabbit-killer.mutated.spawn-message",
-                "onDeath": "lumberjack.boss.rabbit-killer.mutated.death-message"
+                "onDeath": "lumberjack.boss.rabbit-killer.mutated.death-message",
+                "isGlobal": true
               },
               "reward": [
                 [
+                  "earn-soul-stones %player% 25",
+                  "give-key %player% DEFAULT 50",
+                  "earn-exp %player% 6250 true"
+                ],
+                [
+                  "earn-soul-stones %player% 20",
+                  "give-key %player% DEFAULT 40",
+                  "earn-exp %player% 5000 true"
+                ],
+                [
+                  "earn-soul-stones %player% 15",
                   "give-key %player% DEFAULT 30",
-                  "earn-exp %player% 4200 true"
+                  "earn-exp %player% 3750 true"
                 ],
                 [
+                  "earn-soul-stones %player% 10",
                   "give-key %player% DEFAULT 25",
-                  "earn-exp %player% 3000 true"
+                  "earn-exp %player% 3750 true"
                 ],
                 [
-                  "give-key %player% DEFAULT 20",
-                  "earn-exp %player% 2300 true"
-                ],
-                [
-                  "give-key %player% DEFAULT 17",
-                  "earn-exp %player% 2300 true"
-                ],
-                [
-                  "give-key %player% DEFAULT 17",
-                  "earn-exp %player% 2300 true"
+                  "earn-soul-stones %player% 10",
+                  "give-key %player% DEFAULT 25",
+                  "earn-exp %player% 3750 true"
                 ]
               ],
               "children": [],
@@ -205,7 +211,7 @@
               "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 1600,
+                "health": 1875,
               "damage": 8.0,
                 "speed": 0.5,
                 "location": {
@@ -223,33 +229,39 @@
               },
               "messages": {
                 "onSpawn": "lumberjack.boss.mad-villager.mutated.spawn-message",
-                "onDeath": "lumberjack.boss.mad-villager.mutated.death-message"
+                "onDeath": "lumberjack.boss.mad-villager.mutated.death-message",
+                "isGlobal": true
               },
               "reward": [
                 [
+                  "earn-soul-stones %player% 50",
+                  "earn-bits %player% 75",
+                  "give-key %player% RUNE 10",
+                  "earn-exp %player% 6250 true"
+                ],
+                [
+                  "earn-soul-stones %player% 35",
                   "earn-bits %player% 50",
-                  "give-key %player% RUNE 6",
-                  "earn-exp %player% 4200 true"
-                ],
-                [
-                  "earn-bits %player% 40",
                   "give-key %player% RUNE 5",
-                  "earn-exp %player% 3000 true"
+                  "earn-exp %player% 5000 true"
                 ],
                 [
-                  "earn-bits %player% 30",
-                  "give-key %player% RUNE 4",
-                  "earn-exp %player% 2300 true"
-                ],
-                [
+                  "earn-soul-stones %player% 25",
                   "earn-bits %player% 25",
-                  "give-key %player% RUNE 3",
-                  "earn-exp %player% 2300 true"
+                  "give-key %player% RUNE 5",
+                  "earn-exp %player% 3750 true"
                 ],
                 [
+                  "earn-soul-stones %player% 20",
                   "earn-bits %player% 25",
-                  "give-key %player% RUNE 3",
-                  "earn-exp %player% 2300 true"
+                  "give-key %player% RUNE 5",
+                  "earn-exp %player% 3750 true"
+                ],
+                [
+                  "earn-soul-stones %player% 20",
+                  "earn-bits %player% 25",
+                  "give-key %player% RUNE 5",
+                  "earn-exp %player% 3750 true"
                 ]
               ],
               "children": [],
@@ -325,7 +337,7 @@
               "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 2400,
+                "health": 2750,
                 "damage": 5.0,
                 "speed": 0.0,
                 "location": {
@@ -338,33 +350,37 @@
               },
               "messages": {
                 "onSpawn": "lumberjack.boss.grape-monster.mutated.spawn-message",
-                "onDeath": "lumberjack.boss.grape-monster.mutated.death-message"
+                "onDeath": "lumberjack.boss.grape-monster.mutated.death-message",
+                "isGlobal": true
               },
               "reward": [
                 [
-                  "give-item %player% SAVE_CRYSTAL 3",
-                  "give-key %player% PET 6",
-                  "earn-exp %player% 8500 true"
+                  "earn-soul-stones %player% 50",
+                  "give-item %player% SAVE_CRYSTAL 5",
+                  "give-key %player% PET 10",
+                  "earn-exp %player% 10000 true"
                 ],
                 [
+                  "earn-soul-stones %player% 35",
+                  "give-item %player% SAVE_CRYSTAL 3",
+                  "give-key %player% PET 5",
+                  "earn-exp %player% 7500 true"
+                ],
+                [
+                  "earn-soul-stones %player% 25",
                   "give-item %player% SAVE_CRYSTAL 2",
                   "give-key %player% PET 5",
-                  "earn-exp %player% 6000 true"
+                  "earn-exp %player% 5000 true"
                 ],
                 [
-                  "give-item %player% SAVE_CRYSTAL 1",
-                  "give-key %player% PET 4",
-                  "earn-exp %player% 3000 true"
+                  "earn-soul-stones %player% 20",
+                  "give-key %player% PET 5",
+                  "earn-exp %player% 5000 true"
                 ],
                 [
-                  "give-item %player% SAVE_CRYSTAL 1",
-                  "give-key %player% PET 3",
-                  "earn-exp %player% 3000 true"
-                ],
-                [
-                  "give-item %player% SAVE_CRYSTAL 1",
-                  "give-key %player% PET 3",
-                  "earn-exp %player% 3000 true"
+                  "earn-soul-stones %player% 20",
+                  "give-key %player% PET 5",
+                  "earn-exp %player% 5000 true"
                 ]
               ],
               "children": [],
@@ -442,7 +458,7 @@
               "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 3200,
+                "health": 3500,
               "damage": 12.5,
                 "speed": 0.3,
                 "location": {
@@ -460,28 +476,34 @@
               },
               "messages": {
                 "onSpawn": "lumberjack.boss.giant-cockroach.mutated.spawn-message",
-                "onDeath": "lumberjack.boss.giant-cockroach.mutated.death-message"
+                "onDeath": "lumberjack.boss.giant-cockroach.mutated.death-message",
+                "isGlobal": true
               },
               "reward": [
                 [
+                  "earn-soul-stones %player% 50",
+                  "give-key %player% PET 15",
+                  "earn-exp %player% 10000 true"
+                ],
+                [
+                  "earn-soul-stones %player% 35",
                   "give-key %player% PET 10",
-                  "earn-exp %player% 7000 true"
+                  "earn-exp %player% 7500 true"
                 ],
                 [
-                  "give-key %player% PET 8",
-                  "earn-exp %player% 5500 true"
+                  "earn-soul-stones %player% 25",
+                  "give-key %player% PET 10",
+                  "earn-exp %player% 5000 true"
                 ],
                 [
-                  "give-key %player% PET 7",
-                  "earn-exp %player% 4000 true"
+                  "earn-soul-stones %player% 20",
+                  "give-key %player% PET 10",
+                  "earn-exp %player% 5000 true"
                 ],
                 [
-                  "give-key %player% PET 5",
-                  "earn-exp %player% 3000 true"
-                ],
-                [
-                  "give-key %player% PET 5",
-                  "earn-exp %player% 3000 true"
+                  "earn-soul-stones %player% 20",
+                  "give-key %player% PET 10",
+                  "earn-exp %player% 5000 true"
                 ]
               ],
               "children": [],
@@ -558,7 +580,7 @@
               "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 3950,
+                "health": 4375,
               "damage": 12.5,
                 "speed": 0.4,
                 "location": {
@@ -576,28 +598,34 @@
               },
               "messages": {
                 "onSpawn": "lumberjack.boss.conqueror-of-souls.mutated.spawn-message",
-                "onDeath": "lumberjack.boss.conqueror-of-souls.mutated.death-message"
+                "onDeath": "lumberjack.boss.conqueror-of-souls.mutated.death-message",
+                "isGlobal": true
               },
               "reward": [
                 [
+                  "earn-soul-stones %player% 50",
+                  "give-key %player% RUNE 15",
+                  "earn-exp %player% 15000 true"
+                ],
+                [
+                  "earn-soul-stones %player% 35",
                   "give-key %player% RUNE 10",
-                  "earn-exp %player% 7000 true"
+                  "earn-exp %player% 12500 true"
                 ],
                 [
-                  "give-key %player% RUNE 8",
-                  "earn-exp %player% 5500 true"
+                  "earn-soul-stones %player% 25",
+                  "give-key %player% RUNE 10",
+                  "earn-exp %player% 10000 true"
                 ],
                 [
-                  "give-key %player% RUNE 7",
-                  "earn-exp %player% 4000 true"
+                  "earn-soul-stones %player% 20",
+                  "give-key %player% RUNE 10",
+                  "earn-exp %player% 10000 true"
                 ],
                 [
-                  "give-key %player% RUNE 5",
-                  "earn-exp %player% 3000 true"
-                ],
-                [
-                  "give-key %player% RUNE 5",
-                  "earn-exp %player% 3000 true"
+                  "earn-soul-stones %player% 20",
+                  "give-key %player% RUNE 10",
+                  "earn-exp %player% 10000 true"
                 ]
               ],
               "children": [],
@@ -690,7 +718,7 @@
               "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 5125,
+                "health": 5250,
                 "damage": 12,
                 "speed": 0.4,
                 "location": {
@@ -703,33 +731,34 @@
               },
               "messages": {
                 "onSpawn": "lumberjack.boss.ice-eskimos.mutated.spawn-message",
-                "onDeath": "lumberjack.boss.ice-eskimos.mutated.death-message"
+                "onDeath": "lumberjack.boss.ice-eskimos.mutated.death-message",
+                "isGlobal": true
               },
               "reward": [
                 [
-                  "give-key %player% PET 20",
-                  "earn-soul-stones %player% 20",
-                  "earn-exp %player% 10000 true"
+                  "give-key %player% PET 25",
+                  "earn-soul-stones %player% 50",
+                  "earn-exp %player% 25000 true"
                 ],
                 [
-                  "give-key %player% PET 17",
-                  "earn-soul-stones %player% 15",
-                  "earn-exp %player% 8500 true"
+                  "give-key %player% PET 20",
+                  "earn-soul-stones %player% 35",
+                  "earn-exp %player% 17500 true"
                 ],
                 [
                   "give-key %player% PET 15",
-                  "earn-soul-stones %player% 10",
-                  "earn-exp %player% 7500 true"
+                  "earn-soul-stones %player% 25",
+                  "earn-exp %player% 12500 true"
                 ],
                 [
-                  "give-key %player% PET 13",
-                  "earn-soul-stones %player% 5",
-                  "earn-exp %player% 5500 true"
+                  "give-key %player% PET 15",
+                  "earn-soul-stones %player% 20",
+                  "earn-exp %player% 12500 true"
                 ],
                 [
-                  "give-key %player% PET 12",
-                  "earn-soul-stones %player% 5",
-                  "earn-exp %player% 5500 true"
+                  "give-key %player% PET 15",
+                  "earn-soul-stones %player% 20",
+                  "earn-exp %player% 12500 true"
                 ]
               ],
               "children": [
@@ -823,7 +852,7 @@
               "chance": 4.0,
               "mutated": true,
               "settings": {
-                "health": 6000,
+                "health": 6875,
               "damage": 12.0,
                 "speed": 0.45,
                 "location": {
@@ -836,33 +865,34 @@
               },
               "messages": {
                 "onSpawn": "lumberjack.boss.the-slimy-ogre.mutated.spawn-message",
-                "onDeath": "lumberjack.boss.the-slimy-ogre.mutated.death-message"
+                "onDeath": "lumberjack.boss.the-slimy-ogre.mutated.death-message",
+                "isGlobal": true
               },
               "reward": [
                 [
-                  "give-key %player% RUNE 20",
-                  "earn-soul-stones %player% 20",
-                  "earn-exp %player% 10000 true"
+                  "give-key %player% RUNE 25",
+                  "earn-soul-stones %player% 50",
+                  "earn-exp %player% 25000 true"
                 ],
                 [
-                  "give-key %player% RUNE 17",
-                  "earn-soul-stones %player% 15",
-                  "earn-exp %player% 8500 true"
+                  "give-key %player% RUNE 20",
+                  "earn-soul-stones %player% 35",
+                  "earn-exp %player% 17500 true"
                 ],
                 [
                   "give-key %player% RUNE 15",
-                  "earn-soul-stones %player% 10",
-                  "earn-exp %player% 6500 true"
+                  "earn-soul-stones %player% 25",
+                  "earn-exp %player% 12500 true"
                 ],
                 [
-                  "give-key %player% RUNE 13",
-                  "earn-soul-stones %player% 5",
-                  "earn-exp %player% 5500 true"
+                  "give-key %player% RUNE 15",
+                  "earn-soul-stones %player% 20",
+                  "earn-exp %player% 12500 true"
                 ],
                 [
-                  "give-key %player% RUNE 12",
-                  "earn-soul-stones %player% 5",
-                  "earn-exp %player% 5500 true"
+                  "give-key %player% RUNE 15",
+                  "earn-soul-stones %player% 20",
+                  "earn-exp %player% 12500 true"
                 ]
               ],
               "children": [],
