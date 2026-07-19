@@ -1,7 +1,7 @@
 {
   "realmInfo": {
     "typeName": "SIML",
-    "readableName": "Симулятор РПГ",
+    "readableName": "Симулятор Лесоруба",
     "maxPlayers": 200
   },
   "map": {
@@ -12,10 +12,10 @@
     "0": {
       "stack": {
         "type": "COMPASS",
-        "name": "Войти на Симулятор РПГ"
+        "name": "Войти на Симулятор Лесоруба"
       },
       "onClick": [
-        "join-simulator %player% rpg"
+        "join-simulator %player% lumberjack"
       ]
     }
   }
