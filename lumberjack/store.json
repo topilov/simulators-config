@@ -231,7 +231,7 @@
       },
       {
         "key": "pslot",
-        "title": "lumberjack.store.element.pet-slot.title",
+        "title": "lumberjack.stat.pet-slot.text",
         "description": ["lumberjack.store.element.pet-slot.description"],
         "primaryCategoryKey": "other",
         "bundleComponentKeys": [],
@@ -347,7 +347,7 @@
       {
         "key": "scrys",
         "iconScale": 0.7,
-        "title": "lumberjack.store.element.save-crystal.title",
+        "title": "lumberjack.shop.bits.product.crystal.title",
         "description": ["lumberjack.store.element.save-crystal.description"],
         "primaryCategoryKey": "items",
         "bundleComponentKeys": [],
@@ -667,7 +667,7 @@
       },
       {
         "key": "lexp",
-        "title": "lumberjack.store.element.local-exp.title",
+        "title": "lumberjack.shop.bits.product.exp_booster.title",
         "description": ["lumberjack.store.element.local-exp.description"],
         "primaryCategoryKey": "boost",
         "bundleComponentKeys": [],
@@ -709,7 +709,7 @@
       },
       {
         "key": "lblk",
-        "title": "lumberjack.store.element.local-blocks.title",
+        "title": "lumberjack.shop.bits.product.blocks_booster.title",
         "description": ["lumberjack.store.element.local-blocks.description"],
         "primaryCategoryKey": "boost",
         "bundleComponentKeys": [],
@@ -751,7 +751,7 @@
       },
       {
         "key": "lmob",
-        "title": "lumberjack.store.element.local-mobs.title",
+        "title": "lumberjack.shop.bits.product.mobs_booster.title",
         "description": ["lumberjack.store.element.local-mobs.description"],
         "primaryCategoryKey": "boost",
         "bundleComponentKeys": [],
@@ -793,7 +793,7 @@
       },
       {
         "key": "lmny",
-        "title": "lumberjack.store.element.local-money.title",
+        "title": "lumberjack.shop.bits.product.money_booster.title",
         "description": ["lumberjack.store.element.local-money.description"],
         "primaryCategoryKey": "boost",
         "bundleComponentKeys": [],
@@ -815,7 +815,7 @@
       {
         "key": "gall",
         "title": "lumberjack.store.element.global-all.title",
-        "description": ["lumberjack.store.element.global-all.description"],
+        "description": ["lumberjack.store.element.all-boosters.description"],
         "primaryCategoryKey": "boost",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [1, 3, 5, 10, 25],
@@ -836,7 +836,7 @@
       {
         "key": "lall",
         "title": "lumberjack.store.element.local-all.title",
-        "description": ["lumberjack.store.element.local-all.description"],
+        "description": ["lumberjack.store.element.all-boosters.description"],
         "primaryCategoryKey": "boost",
         "bundleComponentKeys": [],
         "bulkBuyOptions": [1, 3, 5, 10, 25],
@@ -939,7 +939,7 @@
     "AUTO_SELL": {
       "key": "autos",
       "ignoreServiceDiscount": false,
-      "alertName": "lumberjack.store.element.auto-sell.donate-name",
+      "alertName": "lumberjack.store.element.auto-sell.title",
       "onPurchase": [
         "morestat %player% set true hasInfinityStorage",
         "morestat %player% set true hasAutoSell"
@@ -996,7 +996,7 @@
     "ANTI_HUNGER": {
       "key": "hunger",
       "ignoreServiceDiscount": false,
-      "alertName": "lumberjack.store.element.anti-hunger.donate-name",
+      "alertName": "lumberjack.store.element.anti-hunger.title",
       "onPurchase": [
         "morestat %player% set true hasAntiHunger",
         "food-level %player% 20"
@@ -1029,7 +1029,7 @@
     "AUTO_MERGE": {
       "key": "amrge",
       "ignoreServiceDiscount": false,
-      "alertName": "lumberjack.store.element.auto-merge.donate-name",
+      "alertName": "lumberjack.store.element.auto-merge.title",
       "onPurchase": [
         "morestat %player% set true hasAutoMerge"
       ]
