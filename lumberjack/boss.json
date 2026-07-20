@@ -17,23 +17,47 @@
       "bosses": {
         "RABBIT_KILLER": {
           "spawnAt": [
-            "0:15:0",
-            "2:15:0",
-            "4:15:0",
-            "6:15:0",
-            "8:15:0",
-            "10:15:0",
-            "12:15:0",
-            "14:15:0",
-            "16:15:0",
-            "18:15:0",
-            "20:15:0",
-            "22:15:0"
+            "0:10:0",
+            "0:50:0",
+            "1:30:0",
+            "2:10:0",
+            "2:50:0",
+            "3:30:0",
+            "4:10:0",
+            "4:50:0",
+            "5:30:0",
+            "6:10:0",
+            "6:50:0",
+            "7:30:0",
+            "8:10:0",
+            "8:50:0",
+            "9:30:0",
+            "10:10:0",
+            "10:50:0",
+            "11:30:0",
+            "12:10:0",
+            "12:50:0",
+            "13:30:0",
+            "14:10:0",
+            "14:50:0",
+            "15:30:0",
+            "16:10:0",
+            "16:50:0",
+            "17:30:0",
+            "18:10:0",
+            "18:50:0",
+            "19:30:0",
+            "20:10:0",
+            "20:50:0",
+            "21:30:0",
+            "22:10:0",
+            "22:50:0",
+            "23:30:0"
           ],
           "type": "RABBIT_KILLER",
           "kinds": [
             {
-              "chance": 97.0,
+              "chance": 99.7,
               "mutated": false,
               "settings": {
                 "health": 500,
@@ -81,7 +105,7 @@
               "children": []
             },
             {
-              "chance": 3.0,
+              "chance": 0.3,
               "mutated": true,
               "settings": {
                 "health": 1250,
@@ -107,27 +131,27 @@
               },
               "reward": [
                 [
-                  "earn-soul-stones %player% 25",
+                  "earn-soul-stones %player% 15",
                   "give-key %player% DEFAULT 50",
                   "earn-exp %player% 6250 true"
                 ],
                 [
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 10",
                   "give-key %player% DEFAULT 40",
                   "earn-exp %player% 5000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 15",
+                  "earn-soul-stones %player% 5",
                   "give-key %player% DEFAULT 30",
                   "earn-exp %player% 3750 true"
                 ],
                 [
-                  "earn-soul-stones %player% 10",
+                  "earn-soul-stones %player% 5",
                   "give-key %player% DEFAULT 25",
                   "earn-exp %player% 3750 true"
                 ],
                 [
-                  "earn-soul-stones %player% 10",
+                  "earn-soul-stones %player% 5",
                   "give-key %player% DEFAULT 25",
                   "earn-exp %player% 3750 true"
                 ]
@@ -145,17 +169,35 @@
       "bosses": {
         "MAD_VILLAGER": {
           "spawnAt": [
-            "1:15:0",
-            "5:15:0",
-            "9:15:0",
-            "13:15:0",
-            "17:15:0",
-            "21:15:0"
+            "0:20:0",
+            "1:20:0",
+            "2:20:0",
+            "3:20:0",
+            "4:20:0",
+            "5:20:0",
+            "6:20:0",
+            "7:20:0",
+            "8:20:0",
+            "9:20:0",
+            "10:20:0",
+            "11:20:0",
+            "12:20:0",
+            "13:20:0",
+            "14:20:0",
+            "15:20:0",
+            "16:20:0",
+            "17:20:0",
+            "18:20:0",
+            "19:20:0",
+            "20:20:0",
+            "21:20:0",
+            "22:20:0",
+            "23:20:0"
           ],
           "type": "MAD_VILLAGER",
           "kinds": [
             {
-              "chance": 96.0,
+              "chance": 99.5,
               "mutated": false,
               "settings": {
                 "health": 750,
@@ -208,7 +250,7 @@
               "children": []
             },
             {
-              "chance": 4.0,
+              "chance": 0.5,
               "mutated": true,
               "settings": {
                 "health": 1875,
@@ -234,31 +276,31 @@
               },
               "reward": [
                 [
-                  "earn-soul-stones %player% 50",
+                  "earn-soul-stones %player% 20",
                   "earn-bits %player% 75",
                   "give-key %player% RUNE 10",
                   "earn-exp %player% 6250 true"
                 ],
                 [
-                  "earn-soul-stones %player% 35",
+                  "earn-soul-stones %player% 15",
                   "earn-bits %player% 50",
                   "give-key %player% RUNE 5",
                   "earn-exp %player% 5000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 25",
+                  "earn-soul-stones %player% 10",
                   "earn-bits %player% 25",
                   "give-key %player% RUNE 5",
                   "earn-exp %player% 3750 true"
                 ],
                 [
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 10",
                   "earn-bits %player% 25",
                   "give-key %player% RUNE 5",
                   "earn-exp %player% 3750 true"
                 ],
                 [
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 10",
                   "earn-bits %player% 25",
                   "give-key %player% RUNE 5",
                   "earn-exp %player% 3750 true"
@@ -277,18 +319,36 @@
       "bosses": {
         "GRAPE_MONSTER": {
           "spawnAt": [
-            "0:45:0",
-            "4:45:0",
-            "8:45:0",
-            "12:45:0",
-            "16:45:0",
-            "20:45:0"
+            "0:40:0",
+            "1:40:0",
+            "2:40:0",
+            "3:40:0",
+            "4:40:0",
+            "5:40:0",
+            "6:40:0",
+            "7:40:0",
+            "8:40:0",
+            "9:40:0",
+            "10:40:0",
+            "11:40:0",
+            "12:40:0",
+            "13:40:0",
+            "14:40:0",
+            "15:40:0",
+            "16:40:0",
+            "17:40:0",
+            "18:40:0",
+            "19:40:0",
+            "20:40:0",
+            "21:40:0",
+            "22:40:0",
+            "23:40:0"
 
           ],
           "type": "GRAPE_MONSTER",
           "kinds": [
             {
-              "chance": 96.0,
+              "chance": 99.5,
               "mutated": false,
               "settings": {
                 "health": 1100,
@@ -334,7 +394,7 @@
               "children": []
             },
             {
-              "chance": 4.0,
+              "chance": 0.5,
               "mutated": true,
               "settings": {
                 "health": 2750,
@@ -355,30 +415,30 @@
               },
               "reward": [
                 [
-                  "earn-soul-stones %player% 50",
+                  "earn-soul-stones %player% 20",
                   "give-item %player% SAVE_CRYSTAL 5",
                   "give-key %player% PET 10",
                   "earn-exp %player% 10000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 35",
+                  "earn-soul-stones %player% 15",
                   "give-item %player% SAVE_CRYSTAL 3",
                   "give-key %player% PET 5",
                   "earn-exp %player% 7500 true"
                 ],
                 [
-                  "earn-soul-stones %player% 25",
+                  "earn-soul-stones %player% 10",
                   "give-item %player% SAVE_CRYSTAL 2",
                   "give-key %player% PET 5",
                   "earn-exp %player% 5000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 10",
                   "give-key %player% PET 5",
                   "earn-exp %player% 5000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 10",
                   "give-key %player% PET 5",
                   "earn-exp %player% 5000 true"
                 ]
@@ -396,18 +456,27 @@
       "bosses": {
         "GIANT_COCKROACH": {
           "spawnAt": [
-            "1:45:0",
-            "5:45:0",
-            "9:45:0",
-            "13:45:0",
-            "17:45:0",
-            "21:45:0"
-
+            "0:20:0",
+            "1:50:0",
+            "3:20:0",
+            "4:50:0",
+            "6:20:0",
+            "7:50:0",
+            "9:20:0",
+            "10:50:0",
+            "12:20:0",
+            "13:50:0",
+            "15:20:0",
+            "16:50:0",
+            "18:20:0",
+            "19:50:0",
+            "21:20:0",
+            "22:50:0"
           ],
           "type": "GIANT_COCKROACH",
           "kinds": [
             {
-              "chance": 96.0,
+              "chance": 99.5,
               "mutated": false,
               "settings": {
                 "health": 1400,
@@ -455,7 +524,7 @@
               "children": []
             },
             {
-              "chance": 4.0,
+              "chance": 0.5,
               "mutated": true,
               "settings": {
                 "health": 3500,
@@ -481,27 +550,27 @@
               },
               "reward": [
                 [
-                  "earn-soul-stones %player% 50",
+                  "earn-soul-stones %player% 20",
                   "give-key %player% PET 15",
                   "earn-exp %player% 10000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 35",
+                  "earn-soul-stones %player% 15",
                   "give-key %player% PET 10",
                   "earn-exp %player% 7500 true"
                 ],
                 [
-                  "earn-soul-stones %player% 25",
+                  "earn-soul-stones %player% 10",
                   "give-key %player% PET 10",
                   "earn-exp %player% 5000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 10",
                   "give-key %player% PET 10",
                   "earn-exp %player% 5000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 10",
                   "give-key %player% PET 10",
                   "earn-exp %player% 5000 true"
                 ]
@@ -519,17 +588,27 @@
       "bosses": {
         "SOUL_CONQUEROR": {
           "spawnAt": [
-            "2:45:0",
-            "6:45:0",
-            "10:45:0",
-            "14:45:0",
-            "18:45:0",
-            "22:45:0"
+            "1:10:0",
+            "2:40:0",
+            "4:10:0",
+            "5:40:0",
+            "7:10:0",
+            "8:40:0",
+            "10:10:0",
+            "11:40:0",
+            "13:10:0",
+            "14:40:0",
+            "16:10:0",
+            "17:40:0",
+            "19:10:0",
+            "20:40:0",
+            "22:10:0",
+            "23:40:0"
           ],
           "type": "SOUL_CONQUEROR",
           "kinds": [
             {
-              "chance": 96.0,
+              "chance": 99.5,
               "mutated": false,
               "settings": {
                 "health": 1750,
@@ -577,7 +656,7 @@
               "children": []
             },
             {
-              "chance": 4.0,
+              "chance": 0.5,
               "mutated": true,
               "settings": {
                 "health": 4375,
@@ -603,27 +682,27 @@
               },
               "reward": [
                 [
-                  "earn-soul-stones %player% 50",
+                  "earn-soul-stones %player% 20",
                   "give-key %player% RUNE 15",
                   "earn-exp %player% 15000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 35",
+                  "earn-soul-stones %player% 15",
                   "give-key %player% RUNE 10",
                   "earn-exp %player% 12500 true"
                 ],
                 [
-                  "earn-soul-stones %player% 25",
+                  "earn-soul-stones %player% 10",
                   "give-key %player% RUNE 10",
                   "earn-exp %player% 10000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 10",
                   "give-key %player% RUNE 10",
                   "earn-exp %player% 10000 true"
                 ],
                 [
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 10",
                   "give-key %player% RUNE 10",
                   "earn-exp %player% 10000 true"
                 ]
@@ -641,17 +720,23 @@
       "bosses": {
         "ICE_ESKIMO": {
           "spawnAt": [
-            "3:15:0",
-            "7:15:0",
-            "11:15:0",
-            "15:15:0",
-            "19:15:0",
-            "23:15:0"
+            "0:25:0",
+            "2:25:0",
+            "4:25:0",
+            "6:25:0",
+            "8:25:0",
+            "10:25:0",
+            "12:25:0",
+            "14:25:0",
+            "16:25:0",
+            "18:25:0",
+            "20:25:0",
+            "22:25:0"
           ],
           "type": "ICE_ESKIMO",
           "kinds": [
             {
-              "chance": 96.0,
+              "chance": 99.5,
               "mutated": false,
               "settings": {
                 "health": 2100,
@@ -715,7 +800,7 @@
               ]
             },
             {
-              "chance": 4.0,
+              "chance": 0.5,
               "mutated": true,
               "settings": {
                 "health": 5250,
@@ -736,28 +821,28 @@
               },
               "reward": [
                 [
-                  "give-key %player% PET 25",
-                  "earn-soul-stones %player% 50",
+                  "give-key %player% PET 40",
+                  "earn-soul-stones %player% 30",
                   "earn-exp %player% 25000 true"
                 ],
                 [
                   "give-key %player% PET 20",
-                  "earn-soul-stones %player% 35",
+                  "earn-soul-stones %player% 20",
                   "earn-exp %player% 17500 true"
                 ],
                 [
                   "give-key %player% PET 15",
-                  "earn-soul-stones %player% 25",
+                  "earn-soul-stones %player% 15",
                   "earn-exp %player% 12500 true"
                 ],
                 [
                   "give-key %player% PET 15",
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 15",
                   "earn-exp %player% 12500 true"
                 ],
                 [
                   "give-key %player% PET 15",
-                  "earn-soul-stones %player% 20",
+                  "earn-soul-stones %player% 15",
                   "earn-exp %player% 12500 true"
                 ]
               ],
@@ -795,18 +880,23 @@
       "bosses": {
         "SLIMY_OGRE": {
           "spawnAt": [
-            "3:45:0",
-            "7:45:0",
-            "11:45:0",
-            "15:45:0",
-            "19:45:0",
-            "23:45:0"
-
+            "1:35:0",
+            "3:35:0",
+            "5:35:0",
+            "7:35:0",
+            "9:35:0",
+            "11:35:0",
+            "13:35:0",
+            "15:35:0",
+            "17:35:0",
+            "19:35:0",
+            "21:35:0",
+            "23:35:0"
           ],
           "type": "SLIMY_OGRE",
           "kinds": [
             {
-              "chance": 96.0,
+              "chance": 99.5,
               "mutated": false,
               "settings": {
                 "health": 2750,
@@ -849,7 +939,7 @@
               "children": []
             },
             {
-              "chance": 4.0,
+              "chance": 0.5,
               "mutated": true,
               "settings": {
                 "health": 6875,
