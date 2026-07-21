@@ -8,7 +8,7 @@
       "maxDeposits": 6,
       "button": {
         "id": 1,
-        "title": "extraction.location.spawn.title",
+        "title": "extraction.location.map_1.title",
         "texture": "map1.png",
         "requiredLevel": 1,
         "onClick": [
@@ -21,10 +21,10 @@
       "map": "map2",
       "maxDeposits": 6,
       "button": {
-        "id": 1,
-        "title": "extraction.location.spawn.title",
-        "texture": "map1.png",
-        "requiredLevel": 1,
+        "id": 2,
+        "title": "extraction.location.map_2.title",
+        "texture": "map2.png",
+        "requiredLevel": 2,
         "onClick": [
           "location-tp %player% %id%"
         ]
@@ -35,10 +35,10 @@
       "map": "map3",
       "maxDeposits": 6,
       "button": {
-        "id": 1,
-        "title": "extraction.location.spawn.title",
-        "texture": "map1.png",
-        "requiredLevel": 1,
+        "id": 3,
+        "title": "extraction.location.map_3.title",
+        "texture": "map3.png",
+        "requiredLevel": 3,
         "onClick": [
           "location-tp %player% %id%"
         ]
