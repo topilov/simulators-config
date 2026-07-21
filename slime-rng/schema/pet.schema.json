@@ -13,31 +13,8 @@
 
     "pets": {
       "type": "object",
-      "required": [
-        "LEPRECHAUN",
-        "TURTLE",
-        "BEAR",
-        "BLACK_CAT",
-        "WOLF"
-      ],
-      "additionalProperties": false,
-
-      "properties": {
-        "LEPRECHAUN": {
-          "$ref": "#/$defs/pet"
-        },
-        "TURTLE": {
-          "$ref": "#/$defs/pet"
-        },
-        "BEAR": {
-          "$ref": "#/$defs/pet"
-        },
-        "BLACK_CAT": {
-          "$ref": "#/$defs/pet"
-        },
-        "WOLF": {
-          "$ref": "#/$defs/pet"
-        }
+      "additionalProperties": {
+        "$ref": "#/$defs/pet"
       }
     }
   },
@@ -108,11 +85,7 @@
           "type": "number"
         },
 
-        "takeDamageChance": {
-          "type": "number"
-        },
-
-        "takeDamageAmount": {
+        "damage": {
           "type": "number"
         }
       }

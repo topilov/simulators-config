@@ -1,19 +1,19 @@
 {
   "rollDuration": 75,
   "slimes": {
-    "WOLF": {
+    "SLIME1IN2": {
       "chance": 50.0
     },
-    "BLACK_CAT": {
+    "SLIME1IN4": {
       "chance": 25.0
     },
-    "BEAR": {
+    "SLIME1IN8": {
       "chance": 10.0
     },
-    "TURTLE": {
+    "SLIME1IN16": {
       "chance": 5.1
     },
-    "LEPRECHAUN": {
+    "SLIME1IN32": {
       "chance": 4.9
     }
   },
@@ -34,10 +34,7 @@
       }
     },
     "equipmentMenu": {
-      "rolling": {
-        "message": "Вы не можете открыть меню во время прокрутки",
-        "duration": 2.0
-      },
+      "rolling": "srng.message.equipment.rolling",
       "successEquip": {
         "message": "Слайм успешно экипирован",
         "duration": 2.0
