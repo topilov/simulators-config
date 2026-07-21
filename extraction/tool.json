@@ -7,12 +7,33 @@
     "siftInProgress": "extraction.tool.message.sift-in-progress",
     "siftCooldown": "extraction.tool.message.sift-cooldown"
   },
+  "titleFormat": "extraction.tool.title.formatted",
+  "rarityMapping": {
+    "COMMON": {
+      "title": "extraction.tool.rarity.common.title",
+      "titleColor": "¨58d47a"
+    },
+    "RARE": {
+      "title": "extraction.tool.rarity.rare.title",
+      "titleColor": "¨46bfef"
+    },
+    "EPIC": {
+      "title": "extraction.tool.rarity.epic.title",
+      "titleColor": "¨c346ec"
+    },
+    "LEGENDARY": {
+      "title": "extraction.tool.rarity.legendary.title",
+      "titleColor": "¨fcc12b"
+    },
+    "MYTHIC": {
+      "title": "extraction.tool.rarity.mythic.title",
+      "titleColor": "¨e73d4b"
+    }
+  },
   "tools": {
     "PICKAXE": {
       "title": "extraction.tool.sieve.title",
-      "description": [
-        "extraction.tool.sieve.description"
-      ],
+      "description": "extraction.tool.sieve.description",
       "rarity": "COMMON",
       "unbreakable": true,
       "levels": {
