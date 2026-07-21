@@ -41,6 +41,25 @@
           }
         ]
       }
+    },
+    "UPGRADE_TOOL": {
+      "npc": {
+        "name": "extraction.npc.upgrade.tool.title",
+        "location": {
+          "name": "upgrade",
+          "tag": "tool",
+          "offset": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/upgrade.png",
+        "lookAtPlayer": true,
+        "onClick": [
+          "sudo %player% upgrade"
+        ]
+      }
     }
   }
 }
