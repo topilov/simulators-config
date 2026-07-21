@@ -4,6 +4,38 @@
       "chance": 70.0,
       "duration": 60,
       "durationMultiplier": 1.0,
+      "interactionRadius": 1.0,
+      "progressBarOffset": {
+        "x": 0.0,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "progressBar": {
+        "visibleWhenEmpty": false,
+        "hitboxVisible": true,
+        "key": "",
+        "metadata": {},
+        "color": {
+          "hex": "#22AE49"
+        },
+        "scale": 1.0,
+        "text": "Просеивание",
+        "textShadow": false,
+        "small": true,
+        "useProgressTime": false,
+        "adjustForTimer": true,
+        "lookAtPlayer": true,
+        "progressAnimated": true,
+        "removeNewlinesAndGrayCode": false,
+        "startTimestamp": -1,
+        "endTimestamp": -1,
+        "duration": 0.0,
+        "size": {
+          "x": 364.0,
+          "y": 14.0,
+          "z": 0.0
+        }
+      },
       "drops": [
         {
           "chance": 70.0,
@@ -21,19 +53,54 @@
           "weightMultiplier": 1.0
         }
       ],
-      "zone": {
-        "size": 2.0,
-        "color": {
-          "hex": "#22AE49"
-        },
-        "particle": true,
-        "collisionEnabled": false
+      "aura": {
+        "texture": "EARTH",
+        "animation": "PULSE_ROUND",
+        "bindOnlyToPlayer": false,
+        "hideOnFirstPersonView": false,
+        "hideOnRiding": false,
+        "hideOnElytraFlying": false,
+        "animateTextureFrames": 0,
+        "animateTextureFps": 0,
+        "scale": 1.0
       }
     },
     "GOLDEN": {
       "chance": 25.0,
       "duration": 90,
       "durationMultiplier": 1.5,
+      "interactionRadius": 1.2,
+      "progressBarOffset": {
+        "x": 0.0,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "progressBar": {
+        "visibleWhenEmpty": false,
+        "hitboxVisible": true,
+        "key": "",
+        "metadata": {},
+        "color": {
+          "hex": "#F2C94C"
+        },
+        "scale": 1.0,
+        "text": "Просеивание",
+        "textShadow": false,
+        "small": true,
+        "useProgressTime": false,
+        "adjustForTimer": true,
+        "lookAtPlayer": true,
+        "progressAnimated": true,
+        "removeNewlinesAndGrayCode": false,
+        "startTimestamp": -1,
+        "endTimestamp": -1,
+        "duration": 0.0,
+        "size": {
+          "x": 364.0,
+          "y": 14.0,
+          "z": 0.0
+        }
+      },
       "drops": [
         {
           "chance": 55.0,
@@ -51,19 +118,54 @@
           "weightMultiplier": 2.0
         }
       ],
-      "zone": {
-        "size": 2.4,
-        "color": {
-          "hex": "#F2C94C"
-        },
-        "particle": true,
-        "collisionEnabled": false
+      "aura": {
+        "texture": "LIGHT",
+        "animation": "DOUBLE_CIRCLE",
+        "bindOnlyToPlayer": false,
+        "hideOnFirstPersonView": false,
+        "hideOnRiding": false,
+        "hideOnElytraFlying": false,
+        "animateTextureFrames": 0,
+        "animateTextureFps": 0,
+        "scale": 1.2
       }
     },
     "ANCIENT": {
       "chance": 5.0,
       "duration": 120,
       "durationMultiplier": 2.0,
+      "interactionRadius": 1.4,
+      "progressBarOffset": {
+        "x": 0.0,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "progressBar": {
+        "visibleWhenEmpty": false,
+        "hitboxVisible": true,
+        "key": "",
+        "metadata": {},
+        "color": {
+          "hex": "#8E44AD"
+        },
+        "scale": 1.0,
+        "text": "Просеивание",
+        "textShadow": false,
+        "small": true,
+        "useProgressTime": false,
+        "adjustForTimer": true,
+        "lookAtPlayer": true,
+        "progressAnimated": true,
+        "removeNewlinesAndGrayCode": false,
+        "startTimestamp": -1,
+        "endTimestamp": -1,
+        "duration": 0.0,
+        "size": {
+          "x": 364.0,
+          "y": 14.0,
+          "z": 0.0
+        }
+      },
       "drops": [
         {
           "chance": 40.0,
@@ -81,13 +183,16 @@
           "weightMultiplier": 4.0
         }
       ],
-      "zone": {
-        "size": 2.8,
-        "color": {
-          "hex": "#8E44AD"
-        },
-        "particle": true,
-        "collisionEnabled": false
+      "aura": {
+        "texture": "MAGIC",
+        "animation": "PULSE_ROUND_REVERSE",
+        "bindOnlyToPlayer": false,
+        "hideOnFirstPersonView": false,
+        "hideOnRiding": false,
+        "hideOnElytraFlying": false,
+        "animateTextureFrames": 0,
+        "animateTextureFps": 0,
+        "scale": 1.4
       }
     }
   }
