@@ -1,0 +1,315 @@
+{
+  "baseDurationSeconds": 3600,
+  "offlineBonus": {
+    "minimumDurationSeconds": 10800,
+    "chanceMultiplier": 1.25
+  },
+  "slots": {
+    "2": {
+      "priceType": "MONEY",
+      "price": 25000
+    },
+    "3": {
+      "priceType": "MONEY",
+      "price": 75000
+    },
+    "4": {
+      "priceType": "MONEY",
+      "price": 200000
+    },
+    "5": {
+      "priceType": "DONATE",
+      "price": 100
+    },
+    "6": {
+      "priceType": "DONATE",
+      "price": 150
+    }
+  },
+  "slags": {
+    "COMMON": {
+      "material": "CLAY_BALL",
+      "title": "extraction.recycler.slag.common.title",
+      "description": [
+        "extraction.recycler.slag.common.description"
+      ],
+      "weight": 1.0,
+      "durationMultiplier": 1.0,
+      "rewards": {
+        "MAP_1": [
+          {
+            "dropType": "SOIL",
+            "chance": 100.0,
+            "weightMultiplier": 1.0,
+            "guaranteed": true
+          },
+          {
+            "dropType": "ORE",
+            "chance": 25.0,
+            "weightMultiplier": 1.0,
+            "guaranteed": false
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 5.0,
+            "weightMultiplier": 1.0,
+            "guaranteed": false
+          }
+        ],
+        "MAP_2": [
+          {
+            "dropType": "SOIL",
+            "chance": 100.0,
+            "weightMultiplier": 1.25,
+            "guaranteed": true
+          },
+          {
+            "dropType": "ORE",
+            "chance": 35.0,
+            "weightMultiplier": 1.25,
+            "guaranteed": false
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 10.0,
+            "weightMultiplier": 1.25,
+            "guaranteed": false
+          }
+        ],
+        "MAP_3": [
+          {
+            "dropType": "SOIL",
+            "chance": 100.0,
+            "weightMultiplier": 1.5,
+            "guaranteed": true
+          },
+          {
+            "dropType": "ORE",
+            "chance": 45.0,
+            "weightMultiplier": 1.5,
+            "guaranteed": false
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 15.0,
+            "weightMultiplier": 1.5,
+            "guaranteed": false
+          }
+        ]
+      }
+    },
+    "RARE": {
+      "material": "PRISMARINE_SHARD",
+      "title": "extraction.recycler.slag.rare.title",
+      "description": [
+        "extraction.recycler.slag.rare.description"
+      ],
+      "weight": 1.5,
+      "durationMultiplier": 2.0,
+      "rewards": {
+        "MAP_1": [
+          {
+            "dropType": "SOIL",
+            "chance": 60.0,
+            "weightMultiplier": 1.5,
+            "guaranteed": false
+          },
+          {
+            "dropType": "ORE",
+            "chance": 100.0,
+            "weightMultiplier": 1.5,
+            "guaranteed": true
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 15.0,
+            "weightMultiplier": 1.5,
+            "guaranteed": false
+          }
+        ],
+        "MAP_2": [
+          {
+            "dropType": "SOIL",
+            "chance": 50.0,
+            "weightMultiplier": 1.75,
+            "guaranteed": false
+          },
+          {
+            "dropType": "ORE",
+            "chance": 100.0,
+            "weightMultiplier": 1.75,
+            "guaranteed": true
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 25.0,
+            "weightMultiplier": 1.75,
+            "guaranteed": false
+          }
+        ],
+        "MAP_3": [
+          {
+            "dropType": "SOIL",
+            "chance": 40.0,
+            "weightMultiplier": 2.0,
+            "guaranteed": false
+          },
+          {
+            "dropType": "ORE",
+            "chance": 100.0,
+            "weightMultiplier": 2.0,
+            "guaranteed": true
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 35.0,
+            "weightMultiplier": 2.0,
+            "guaranteed": false
+          }
+        ]
+      }
+    },
+    "LEGENDARY": {
+      "material": "MAGMA_CREAM",
+      "title": "extraction.recycler.slag.legendary.title",
+      "description": [
+        "extraction.recycler.slag.legendary.description"
+      ],
+      "weight": 2.0,
+      "durationMultiplier": 4.0,
+      "rewards": {
+        "MAP_1": [
+          {
+            "dropType": "SOIL",
+            "chance": 40.0,
+            "weightMultiplier": 2.25,
+            "guaranteed": false
+          },
+          {
+            "dropType": "ORE",
+            "chance": 100.0,
+            "weightMultiplier": 2.25,
+            "guaranteed": true
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 45.0,
+            "weightMultiplier": 2.25,
+            "guaranteed": false
+          }
+        ],
+        "MAP_2": [
+          {
+            "dropType": "SOIL",
+            "chance": 30.0,
+            "weightMultiplier": 2.5,
+            "guaranteed": false
+          },
+          {
+            "dropType": "ORE",
+            "chance": 100.0,
+            "weightMultiplier": 2.5,
+            "guaranteed": true
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 60.0,
+            "weightMultiplier": 2.5,
+            "guaranteed": false
+          }
+        ],
+        "MAP_3": [
+          {
+            "dropType": "SOIL",
+            "chance": 20.0,
+            "weightMultiplier": 2.75,
+            "guaranteed": false
+          },
+          {
+            "dropType": "ORE",
+            "chance": 100.0,
+            "weightMultiplier": 2.75,
+            "guaranteed": true
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 75.0,
+            "weightMultiplier": 2.75,
+            "guaranteed": false
+          }
+        ]
+      }
+    },
+    "MYTHIC": {
+      "material": "NETHER_STAR",
+      "title": "extraction.recycler.slag.mythic.title",
+      "description": [
+        "extraction.recycler.slag.mythic.description"
+      ],
+      "weight": 2.5,
+      "durationMultiplier": 8.0,
+      "rewards": {
+        "MAP_1": [
+          {
+            "dropType": "SOIL",
+            "chance": 25.0,
+            "weightMultiplier": 3.0,
+            "guaranteed": false
+          },
+          {
+            "dropType": "ORE",
+            "chance": 65.0,
+            "weightMultiplier": 3.0,
+            "guaranteed": false
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 100.0,
+            "weightMultiplier": 3.0,
+            "guaranteed": true
+          }
+        ],
+        "MAP_2": [
+          {
+            "dropType": "SOIL",
+            "chance": 15.0,
+            "weightMultiplier": 3.5,
+            "guaranteed": false
+          },
+          {
+            "dropType": "ORE",
+            "chance": 80.0,
+            "weightMultiplier": 3.5,
+            "guaranteed": false
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 100.0,
+            "weightMultiplier": 3.5,
+            "guaranteed": true
+          }
+        ],
+        "MAP_3": [
+          {
+            "dropType": "SOIL",
+            "chance": 10.0,
+            "weightMultiplier": 4.0,
+            "guaranteed": false
+          },
+          {
+            "dropType": "ORE",
+            "chance": 90.0,
+            "weightMultiplier": 4.0,
+            "guaranteed": false
+          },
+          {
+            "dropType": "FOSSIL",
+            "chance": 100.0,
+            "weightMultiplier": 4.0,
+            "guaranteed": true
+          }
+        ]
+      }
+    }
+  }
+}
