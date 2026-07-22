@@ -1,0 +1,1386 @@
+{
+  "menuFactory": {
+    "balanceSymbol": "\uE03B",
+    "promoEnabled": false,
+    "banner": {
+      "title": "ИНВЕСТИРУЙ В БУДУЩЕЕ!",
+      "subtitle": "\uE10E 30% кристалликов вернется на следующий симулятор!",
+      "textureUrl": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+      "color": {
+        "hex": "#66131B",
+        "alpha": 0.62
+      }
+    },
+    "categories": [
+      {
+        "key": "boost",
+        "priority": 0,
+        "title": "treasures.store.category.boosters.title",
+        "iconGlyph": "\uE3F5",
+        "color": {
+          "hex": "#275495"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/fire.png",
+        "itemKeys": [
+          "gexp",
+          "lexp",
+          "gtrs",
+          "ltrs",
+          "gblk",
+          "lblk",
+          "gmny",
+          "lmny",
+          "gall",
+          "lall",
+          "shard"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "otherf",
+        "priority": 1,
+        "title": "treasures.store.category.other-features.title",
+        "iconGlyph": "\uE0D3",
+        "color": {
+          "hex": "#8d6808"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/glow_spiral.png",
+        "itemKeys": [
+          "aopen",
+          "infst",
+          "autos",
+          "case5",
+          "acase",
+          "amrge",
+          "super",
+          "speed"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "lootbox",
+        "priority": 2,
+        "title": "treasures.store.category.lootbox.title",
+        "iconGlyph": "\uE0F5",
+        "color": {
+          "hex": "#8d6808"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/fire.png",
+        "itemKeys": [
+          "kdef",
+          "ktit",
+          "kpet",
+          "krune"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "items",
+        "priority": 3,
+        "title": "treasures.store.category.game-items.title",
+        "iconGlyph": "\uE0EF",
+        "color": {
+          "hex": "#380d95"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/circle.png",
+        "itemKeys": [
+          "ltool",
+          "scrys"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "gift",
+        "priority": 4,
+        "title": "treasures.store.category.gift.title",
+        "iconGlyph": "\uE38F",
+        "color": {
+          "hex": "#66131b"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+        "itemKeys": [
+          "gifdf",
+          "gifpt",
+          "gifrn",
+          "giftt"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "other",
+        "priority": 5,
+        "title": "treasures.store.category.other.title",
+        "iconGlyph": "\uE3F1",
+        "color": {
+          "hex": "#66131b"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+        "itemKeys": [
+          "pslot",
+          "rslot",
+          "incpt",
+          "mbag",
+          "mhnd"
+        ],
+        "scrollable": false
+      }
+    ],
+    "items": [
+      {
+        "key": "gifdf",
+        "title": "treasures.store.element.gifts-default.title",
+        "description": [
+          "treasures.store.element.gifts-default.description"
+        ],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 39,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "gifpt",
+        "title": "treasures.store.element.gifts-pet.title",
+        "description": [
+          "treasures.store.element.gifts-pet.description"
+        ],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 119,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "gifrn",
+        "title": "treasures.store.element.gifts-rune.title",
+        "description": [
+          "treasures.store.element.gifts-rune.description"
+        ],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 199,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "giftt",
+        "title": "treasures.store.element.gifts-title.title",
+        "description": [
+          "treasures.store.element.gifts-title.description"
+        ],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 399,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "pslot",
+        "title": "treasures.store.element.pet-slot.title",
+        "description": [
+          "treasures.store.element.pet-slot.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 149,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/pet_slot.png"
+        }
+      },
+      {
+        "key": "rslot",
+        "title": "treasures.store.element.rune-slot.title",
+        "description": [
+          "treasures.store.element.rune-slot.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 399,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/rune_slot.png"
+        }
+      },
+      {
+        "key": "incpt",
+        "title": "treasures.store.element.incident-point.title",
+        "description": [
+          "treasures.store.element.incident-point.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 49,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/incident_points.png"
+        }
+      },
+      {
+        "key": "mbag",
+        "title": "treasures.store.element.money-bag.title",
+        "description": [
+          "treasures.store.element.money-bag.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 39,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/bag.png"
+        }
+      },
+      {
+        "key": "mhnd",
+        "title": "treasures.store.element.money-handful.title",
+        "description": [
+          "treasures.store.element.money-handful.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 9,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/bag.png"
+        }
+      },
+      {
+        "key": "ltool",
+        "title": "treasures.store.element.legendary-tools.title",
+        "description": [
+          "treasures.store.element.legendary-tools.description"
+        ],
+        "primaryCategoryKey": "items",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 599,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "IRON_PICKAXE",
+            "enchantments": {
+              "DIG_SPEED": 1
+            },
+            "data": {
+              "sim_pickaxe": "donate1"
+            }
+          }
+        }
+      },
+      {
+        "key": "scrys",
+        "title": "treasures.store.element.save-crystal.title",
+        "description": [
+          "treasures.store.element.save-crystal.description"
+        ],
+        "primaryCategoryKey": "items",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "sim": "save_crystal"
+            }
+          }
+        }
+      },
+      {
+        "key": "kdef",
+        "title": "treasures.store.element.default-key.title",
+        "description": [
+          "treasures.store.element.default-key.description"
+        ],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 19,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/goldkey.png"
+        }
+      },
+      {
+        "key": "ktit",
+        "title": "treasures.store.element.title-key.title",
+        "description": [
+          "treasures.store.element.title-key.description"
+        ],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 199,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/purple_cristal_key.png"
+        }
+      },
+      {
+        "key": "kpet",
+        "title": "treasures.store.element.pet-key.title",
+        "description": [
+          "treasures.store.element.pet-key.description"
+        ],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 59,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/fox_key.png"
+        }
+      },
+      {
+        "key": "krune",
+        "title": "treasures.store.element.rune-key.title",
+        "description": [
+          "treasures.store.element.rune-key.description"
+        ],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/rune_key.png"
+        }
+      },
+      {
+        "key": "aopen",
+        "title": "treasures.store.element.auto-open.title",
+        "description": [
+          "treasures.store.element.auto-open.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 599,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/autocase.png"
+        }
+      },
+      {
+        "key": "infst",
+        "title": "treasures.store.element.infinity-storage.title",
+        "description": [
+          "treasures.store.element.infinity-storage.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 399,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/storage.png"
+        }
+      },
+      {
+        "key": "autos",
+        "title": "treasures.store.element.auto-sell.title",
+        "description": [
+          "treasures.store.element.auto-sell.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 799,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/auto_sell.png"
+        }
+      },
+      {
+        "key": "case5",
+        "title": "treasures.store.element.multiple-case.title",
+        "description": [
+          "treasures.store.element.multiple-case.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/case5.png"
+        }
+      },
+      {
+        "key": "acase",
+        "title": "treasures.store.element.auto-case.title",
+        "description": [
+          "treasures.store.element.auto-case.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 349,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/autocase.png"
+        }
+      },
+      {
+        "key": "amrge",
+        "title": "treasures.store.element.auto-merge.title",
+        "description": [
+          "treasures.store.element.auto-merge.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 299,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/auto_merge.png"
+        }
+      },
+      {
+        "key": "super",
+        "title": "treasures.store.element.super-player.title",
+        "description": [
+          "treasures.store.element.super-player.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 149,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/vip.png"
+        }
+      },
+      {
+        "key": "speed",
+        "title": "treasures.store.element.speed-perk.title",
+        "description": [
+          "treasures.store.element.speed-perk.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/speed.png"
+        }
+      },
+      {
+        "key": "gexp",
+        "title": "treasures.store.element.global-exp.title",
+        "description": [
+          "treasures.store.element.global-exp.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/exp_booster.png"
+        }
+      },
+      {
+        "key": "lexp",
+        "title": "treasures.store.element.local-exp.title",
+        "description": [
+          "treasures.store.element.local-exp.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/exp_booster.png"
+        }
+      },
+      {
+        "key": "gtrs",
+        "title": "treasures.store.element.global-treasures.title",
+        "description": [
+          "treasures.store.element.global-treasures.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/treasures_booster.png"
+        }
+      },
+      {
+        "key": "ltrs",
+        "title": "treasures.store.element.local-treasures.title",
+        "description": [
+          "treasures.store.element.local-treasures.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/treasures_booster.png"
+        }
+      },
+      {
+        "key": "gblk",
+        "title": "treasures.store.element.global-blocks.title",
+        "description": [
+          "treasures.store.element.global-blocks.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/blocks_booster.png"
+        }
+      },
+      {
+        "key": "lblk",
+        "title": "treasures.store.element.local-blocks.title",
+        "description": [
+          "treasures.store.element.local-blocks.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/blocks_booster.png"
+        }
+      },
+      {
+        "key": "gmny",
+        "title": "treasures.store.element.global-money.title",
+        "description": [
+          "treasures.store.element.global-money.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/money_booster.png"
+        }
+      },
+      {
+        "key": "lmny",
+        "title": "treasures.store.element.local-money.title",
+        "description": [
+          "treasures.store.element.local-money.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/money_booster.png"
+        }
+      },
+      {
+        "key": "gall",
+        "title": "treasures.store.element.global-all.title",
+        "description": [
+          "treasures.store.element.global-all.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 749,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/all_booster.png"
+        }
+      },
+      {
+        "key": "lall",
+        "title": "treasures.store.element.local-all.title",
+        "description": [
+          "treasures.store.element.local-all.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 549,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/all_booster.png"
+        }
+      },
+      {
+        "key": "shard",
+        "title": "treasures.store.element.shards-booster.title",
+        "description": [
+          "treasures.store.element.shards-booster.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 1279,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/shards_booster.png"
+        }
+      }
+    ]
+  },
+  "purchaseAlertMessage": "treasures.donate.notify",
+  "giftReceivedMessage": "treasures.store.message.gift-received",
+  "elements": {
+    "GIFTS_DEFAULT": {
+      "key": "gifdf",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "treasures.store.element.gifts-default.donate-name",
+      "onPurchase": [
+        "payload gifts-default %count%"
+      ]
+    },
+    "GIFTS_PET": {
+      "key": "gifpt",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "treasures.store.element.gifts-pet.donate-name",
+      "onPurchase": [
+        "payload gifts-pet %count%"
+      ]
+    },
+    "GIFTS_RUNE": {
+      "key": "gifrn",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "treasures.store.element.gifts-rune.donate-name",
+      "onPurchase": [
+        "payload gifts-rune %count%"
+      ]
+    },
+    "GIFTS_TITLE": {
+      "key": "giftt",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "treasures.store.element.gifts-title.donate-name",
+      "onPurchase": [
+        "payload gifts-title %count%"
+      ]
+    },
+    "PET_SLOT": {
+      "key": "pslot",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.pet-slot.donate-name",
+      "onPurchase": [
+        "unlock-pet-slot %player%"
+      ]
+    },
+    "RUNE_SLOT": {
+      "key": "rslot",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.rune-slot.donate-name",
+      "onPurchase": [
+        "unlock-rune-slot %player%"
+      ]
+    },
+    "INCIDENT_POINT": {
+      "key": "incpt",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.incident-point.donate-name",
+      "onPurchase": [
+        "give-incident-points %player% %count%"
+      ]
+    },
+    "MONEY_BAG": {
+      "key": "mbag",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.money-bag.donate-name",
+      "onPurchase": [
+        "random-money %player% 15 35 %count%"
+      ]
+    },
+    "MONEY_HANDFUL": {
+      "key": "mhnd",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.money-handful.donate-name",
+      "onPurchase": [
+        "random-money %player% 1 10 %count%"
+      ]
+    },
+    "LEGENDARY_TOOLS": {
+      "key": "ltool",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.legendary-tools.donate-name",
+      "onPurchase": [
+        "give-tool %player% PICKAXE DONATE_PICKAXE",
+        "morestat %player% set true hasLegendaryTools"
+      ]
+    },
+    "SAVE_CRYSTAL": {
+      "key": "scrys",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.save-crystal.donate-name",
+      "onPurchase": [
+        "give-item %player% SAVE_CRYSTAL %count%"
+      ]
+    },
+    "DEFAULT_KEY": {
+      "key": "kdef",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.default-key.donate-name",
+      "onPurchase": [
+        "give-key %player% DEFAULT %count%"
+      ]
+    },
+    "TITLE_KEY": {
+      "key": "ktit",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.title-key.donate-name",
+      "onPurchase": [
+        "give-key %player% TITLE %count%"
+      ]
+    },
+    "PET_KEY": {
+      "key": "kpet",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.pet-key.donate-name",
+      "onPurchase": [
+        "give-key %player% PET %count%"
+      ]
+    },
+    "RUNE_KEY": {
+      "key": "krune",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.rune-key.donate-name",
+      "onPurchase": [
+        "give-key %player% RUNE %count%"
+      ]
+    },
+    "AUTO_OPEN": {
+      "key": "aopen",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.auto-open.donate-name",
+      "onPurchase": [
+        "morestat %player% set true autoOpen"
+      ]
+    },
+    "INFINITY_STORAGE": {
+      "key": "infst",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.infinity-storage.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasInfinityStorage",
+        "earn-tutorial-stage-progress %player% UPGRADE_STORAGE"
+      ]
+    },
+    "AUTO_SELL": {
+      "key": "autos",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.auto-sell.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasInfinityStorage",
+        "morestat %player% set true hasAutoSell",
+        "earn-tutorial-stage-progress %player% UPGRADE_STORAGE"
+      ]
+    },
+    "MULTIPLE_CASE": {
+      "key": "case5",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.multiple-case.donate-name",
+      "onPurchase": [
+        "morestat %player% set true multipleOpenLootBox"
+      ]
+    },
+    "AUTO_CASE": {
+      "key": "acase",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.auto-case.donate-name",
+      "onPurchase": [
+        "morestat %player% set true autoOpenLootBox"
+      ]
+    },
+    "AUTO_MERGE": {
+      "key": "amrge",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.auto-merge.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasAutoMerge"
+      ]
+    },
+    "SUPER_PLAYER": {
+      "key": "super",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.super-player.donate-name",
+      "onPurchase": [
+        "morestat %player% set true sub",
+        "update-tab %player%"
+      ]
+    },
+    "SPEED_PERK": {
+      "key": "speed",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.speed-perk.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasSpeedPerk",
+        "morestat %player% set 0.4 speed",
+        "set-speed %player% 0.4"
+      ]
+    },
+    "GLOBAL_EXP": {
+      "key": "gexp",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "treasures.store.element.global-exp.donate-name",
+      "onPurchase": [
+        "global-booster %player% EXP 2 3600 %count%"
+      ]
+    },
+    "LOCAL_EXP": {
+      "key": "lexp",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.local-exp.donate-name",
+      "onPurchase": [
+        "local-booster %player% EXP 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_TREASURES": {
+      "key": "gtrs",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "treasures.store.element.global-treasures.donate-name",
+      "onPurchase": [
+        "global-booster %player% TREASURES 2 3600 %count%"
+      ]
+    },
+    "LOCAL_TREASURES": {
+      "key": "ltrs",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.local-treasures.donate-name",
+      "onPurchase": [
+        "local-booster %player% TREASURES 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_BLOCKS": {
+      "key": "gblk",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "treasures.store.element.global-blocks.donate-name",
+      "onPurchase": [
+        "global-booster %player% BLOCKS 2 3600 %count%"
+      ]
+    },
+    "LOCAL_BLOCKS": {
+      "key": "lblk",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.local-blocks.donate-name",
+      "onPurchase": [
+        "local-booster %player% BLOCKS 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_MONEY": {
+      "key": "gmny",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "treasures.store.element.global-money.donate-name",
+      "onPurchase": [
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_MONEY": {
+      "key": "lmny",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.local-money.donate-name",
+      "onPurchase": [
+        "local-booster %player% MONEY 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_ALL": {
+      "key": "gall",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "treasures.store.element.global-all.donate-name",
+      "onPurchase": [
+        "global-booster %player% BLOCKS 2 3600 %count%",
+        "global-booster %player% TREASURES 2 3600 %count%",
+        "global-booster %player% EXP 2 3600 %count%",
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_ALL": {
+      "key": "lall",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.local-all.donate-name",
+      "onPurchase": [
+        "local-booster %player% BLOCKS 2 7200 %count%",
+        "local-booster %player% TREASURES 2 7200 %count%",
+        "local-booster %player% EXP 2 7200 %count%",
+        "local-booster %player% MONEY 2 7200 %count%"
+      ]
+    },
+    "SHARDS_BOOSTER": {
+      "key": "shard",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.shards-booster.donate-name",
+      "onPurchase": [
+        "infinity-booster %player% SHARDS 2",
+        "morestat %player% set true hasShardsBooster"
+      ]
+    }
+  }
+}
