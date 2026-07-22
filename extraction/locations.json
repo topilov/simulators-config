@@ -2,15 +2,43 @@
   "requiredLevelMessage": "extraction.location.message.required-level",
   "requiredRebirthMessage": "extraction.location.message.required-rebirth",
   "locations": {
-    "SPAWN": {
+    "MAP_1": {
       "slots": 125,
-      "map": "extraction_1",
+      "map": "map1",
       "maxDeposits": 6,
       "button": {
         "id": 1,
-        "title": "extraction.location.spawn.title",
+        "title": "extraction.location.map_1.title",
         "texture": "map1.png",
         "requiredLevel": 1,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "MAP_2": {
+      "slots": 125,
+      "map": "map2",
+      "maxDeposits": 6,
+      "button": {
+        "id": 2,
+        "title": "extraction.location.map_2.title",
+        "texture": "map2.png",
+        "requiredLevel": 2,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      }
+    },
+    "MAP_3": {
+      "slots": 125,
+      "map": "map3",
+      "maxDeposits": 6,
+      "button": {
+        "id": 3,
+        "title": "extraction.location.map_3.title",
+        "texture": "map3.png",
+        "requiredLevel": 3,
         "onClick": [
           "location-tp %player% %id%"
         ]

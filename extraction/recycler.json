@@ -1,0 +1,425 @@
+{
+  "baseDurationSeconds": 3600,
+  "offlineBonus": {
+    "minimumDurationSeconds": 10800,
+    "chanceMultiplier": 1.25
+  },
+  "slots": {
+    "2": {
+      "priceType": "MONEY",
+      "price": 25000
+    },
+    "3": {
+      "priceType": "MONEY",
+      "price": 75000
+    },
+    "4": {
+      "priceType": "MONEY",
+      "price": 200000
+    },
+    "5": {
+      "priceType": "DONATE",
+      "price": 100
+    },
+    "6": {
+      "priceType": "DONATE",
+      "price": 150
+    }
+  },
+  "slags": {
+    "COMMON": {
+      "material": "CLAY_BALL",
+      "title": "extraction.recycler.slag.common.title",
+      "description": [
+        "extraction.recycler.slag.common.description"
+      ],
+      "weight": 1.0,
+      "durationMultiplier": 1.0,
+      "rewards": [
+        {
+          "dropType": "SOIL",
+          "chance": 100.0,
+          "weightMultiplier": 1.0,
+          "guaranteed": true
+        },
+        {
+          "dropType": "ORE",
+          "chance": 25.0,
+          "weightMultiplier": 1.0,
+          "guaranteed": false
+        },
+        {
+          "dropType": "FOSSIL",
+          "chance": 5.0,
+          "weightMultiplier": 1.0,
+          "guaranteed": false
+        }
+      ]
+    },
+    "RARE": {
+      "material": "PRISMARINE_SHARD",
+      "title": "extraction.recycler.slag.rare.title",
+      "description": [
+        "extraction.recycler.slag.rare.description"
+      ],
+      "weight": 1.5,
+      "durationMultiplier": 2.0,
+      "rewards": [
+        {
+          "dropType": "SOIL",
+          "chance": 60.0,
+          "weightMultiplier": 1.5,
+          "guaranteed": false
+        },
+        {
+          "dropType": "ORE",
+          "chance": 100.0,
+          "weightMultiplier": 1.5,
+          "guaranteed": true
+        },
+        {
+          "dropType": "FOSSIL",
+          "chance": 15.0,
+          "weightMultiplier": 1.5,
+          "guaranteed": false
+        }
+      ]
+    },
+    "LEGENDARY": {
+      "material": "MAGMA_CREAM",
+      "title": "extraction.recycler.slag.legendary.title",
+      "description": [
+        "extraction.recycler.slag.legendary.description"
+      ],
+      "weight": 2.0,
+      "durationMultiplier": 4.0,
+      "rewards": [
+        {
+          "dropType": "SOIL",
+          "chance": 40.0,
+          "weightMultiplier": 2.25,
+          "guaranteed": false
+        },
+        {
+          "dropType": "ORE",
+          "chance": 100.0,
+          "weightMultiplier": 2.25,
+          "guaranteed": true
+        },
+        {
+          "dropType": "FOSSIL",
+          "chance": 45.0,
+          "weightMultiplier": 2.25,
+          "guaranteed": false
+        }
+      ]
+    },
+    "MYTHIC": {
+      "material": "NETHER_STAR",
+      "title": "extraction.recycler.slag.mythic.title",
+      "description": [
+        "extraction.recycler.slag.mythic.description"
+      ],
+      "weight": 2.5,
+      "durationMultiplier": 8.0,
+      "rewards": [
+        {
+          "dropType": "SOIL",
+          "chance": 25.0,
+          "weightMultiplier": 3.0,
+          "guaranteed": false
+        },
+        {
+          "dropType": "ORE",
+          "chance": 65.0,
+          "weightMultiplier": 3.0,
+          "guaranteed": false
+        },
+        {
+          "dropType": "FOSSIL",
+          "chance": 100.0,
+          "weightMultiplier": 3.0,
+          "guaranteed": true
+        }
+      ]
+    }
+  },
+  "upgrades": {
+    "SPEED": {
+      "title": "extraction.recycler.upgrade.speed.title",
+      "description": "extraction.recycler.upgrade.speed.description",
+      "icon": "\uE3BB",
+      "statSuffix": "extraction.recycler.upgrade.speed.stat-suffix",
+      "levels": [
+        {
+          "price": 0,
+          "stat": 0,
+          "readableStat": "0%"
+        },
+        {
+          "price": 10000,
+          "stat": 2,
+          "readableStat": "-2%"
+        },
+        {
+          "price": 20000,
+          "stat": 4,
+          "readableStat": "-4%"
+        },
+        {
+          "price": 35000,
+          "stat": 6,
+          "readableStat": "-6%"
+        },
+        {
+          "price": 50000,
+          "stat": 8,
+          "readableStat": "-8%"
+        },
+        {
+          "price": 75000,
+          "stat": 10,
+          "readableStat": "-10%"
+        },
+        {
+          "price": 110000,
+          "stat": 12,
+          "readableStat": "-12%"
+        },
+        {
+          "price": 160000,
+          "stat": 14,
+          "readableStat": "-14%"
+        },
+        {
+          "price": 230000,
+          "stat": 16,
+          "readableStat": "-16%"
+        },
+        {
+          "price": 330000,
+          "stat": 18,
+          "readableStat": "-18%"
+        },
+        {
+          "price": 475000,
+          "stat": 20,
+          "readableStat": "-20%"
+        },
+        {
+          "price": 680000,
+          "stat": 22,
+          "readableStat": "-22%"
+        },
+        {
+          "price": 975000,
+          "stat": 24,
+          "readableStat": "-24%"
+        },
+        {
+          "price": 1400000,
+          "stat": 26,
+          "readableStat": "-26%"
+        },
+        {
+          "price": 2000000,
+          "stat": 28,
+          "readableStat": "-28%"
+        },
+        {
+          "price": 2850000,
+          "stat": 30,
+          "readableStat": "-30%"
+        },
+        {
+          "price": 4000000,
+          "stat": 32,
+          "readableStat": "-32%"
+        },
+        {
+          "price": 5500000,
+          "stat": 34,
+          "readableStat": "-34%"
+        },
+        {
+          "price": 7500000,
+          "stat": 36,
+          "readableStat": "-36%"
+        },
+        {
+          "price": 10000000,
+          "stat": 38,
+          "readableStat": "-38%"
+        },
+        {
+          "price": 13500000,
+          "stat": 40,
+          "readableStat": "-40%"
+        },
+        {
+          "price": 18000000,
+          "stat": 42,
+          "readableStat": "-42%"
+        },
+        {
+          "price": 24000000,
+          "stat": 44,
+          "readableStat": "-44%"
+        },
+        {
+          "price": 32000000,
+          "stat": 46,
+          "readableStat": "-46%"
+        },
+        {
+          "price": 42000000,
+          "stat": 48,
+          "readableStat": "-48%"
+        },
+        {
+          "price": 55000000,
+          "stat": 50,
+          "readableStat": "-50%"
+        }
+      ]
+    },
+    "LUCK": {
+      "title": "extraction.recycler.upgrade.luck.title",
+      "description": "extraction.recycler.upgrade.luck.description",
+      "icon": "\uE194",
+      "statSuffix": "extraction.recycler.upgrade.luck.stat-suffix",
+      "levels": [
+        {
+          "price": 0,
+          "stat": 0,
+          "readableStat": "+0%"
+        },
+        {
+          "price": 15000,
+          "stat": 2,
+          "readableStat": "+2%"
+        },
+        {
+          "price": 30000,
+          "stat": 4,
+          "readableStat": "+4%"
+        },
+        {
+          "price": 50000,
+          "stat": 6,
+          "readableStat": "+6%"
+        },
+        {
+          "price": 75000,
+          "stat": 8,
+          "readableStat": "+8%"
+        },
+        {
+          "price": 110000,
+          "stat": 10,
+          "readableStat": "+10%"
+        },
+        {
+          "price": 160000,
+          "stat": 12,
+          "readableStat": "+12%"
+        },
+        {
+          "price": 230000,
+          "stat": 14,
+          "readableStat": "+14%"
+        },
+        {
+          "price": 330000,
+          "stat": 16,
+          "readableStat": "+16%"
+        },
+        {
+          "price": 475000,
+          "stat": 18,
+          "readableStat": "+18%"
+        },
+        {
+          "price": 680000,
+          "stat": 20,
+          "readableStat": "+20%"
+        },
+        {
+          "price": 975000,
+          "stat": 22,
+          "readableStat": "+22%"
+        },
+        {
+          "price": 1400000,
+          "stat": 24,
+          "readableStat": "+24%"
+        },
+        {
+          "price": 2000000,
+          "stat": 26,
+          "readableStat": "+26%"
+        },
+        {
+          "price": 2850000,
+          "stat": 28,
+          "readableStat": "+28%"
+        },
+        {
+          "price": 4000000,
+          "stat": 30,
+          "readableStat": "+30%"
+        },
+        {
+          "price": 5500000,
+          "stat": 32,
+          "readableStat": "+32%"
+        },
+        {
+          "price": 7500000,
+          "stat": 34,
+          "readableStat": "+34%"
+        },
+        {
+          "price": 10000000,
+          "stat": 36,
+          "readableStat": "+36%"
+        },
+        {
+          "price": 13500000,
+          "stat": 38,
+          "readableStat": "+38%"
+        },
+        {
+          "price": 18000000,
+          "stat": 40,
+          "readableStat": "+40%"
+        },
+        {
+          "price": 24000000,
+          "stat": 42,
+          "readableStat": "+42%"
+        },
+        {
+          "price": 32000000,
+          "stat": 44,
+          "readableStat": "+44%"
+        },
+        {
+          "price": 42000000,
+          "stat": 46,
+          "readableStat": "+46%"
+        },
+        {
+          "price": 55000000,
+          "stat": 48,
+          "readableStat": "+48%"
+        },
+        {
+          "price": 72000000,
+          "stat": 50,
+          "readableStat": "+50%"
+        }
+      ]
+    }
+  }
+}

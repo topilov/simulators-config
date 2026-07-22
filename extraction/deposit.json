@@ -4,6 +4,33 @@
       "chance": 70.0,
       "duration": 60,
       "durationMultiplier": 1.0,
+      "interactionRadius": 1.0,
+      "miniCrit": {
+        "triggerChance": 5.0,
+        "hitWindowDegrees": 36.0,
+        "dropWeightBonusPercent": 25.0,
+        "extraDropCount": 1,
+        "cursorSpeedDegreesPerSecond": 180.0
+      },
+      "progressBarOffset": {
+        "x": 0.0,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "progressBar": {
+        "color": {
+          "hex": "#22AE49"
+        },
+        "scale": 1.0,
+        "text": "Просеивание",
+        "small": true,
+        "lookAtPlayer": true,
+        "size": {
+          "x": 364.0,
+          "y": 14.0,
+          "z": 0.0
+        }
+      },
       "drops": [
         {
           "chance": 70.0,
@@ -21,19 +48,60 @@
           "weightMultiplier": 1.0
         }
       ],
-      "zone": {
-        "size": 2.0,
-        "color": {
-          "hex": "#22AE49"
-        },
-        "particle": true,
-        "collisionEnabled": false
+      "slagDrop": {
+        "chance": 12.0,
+        "slags": [
+          {
+            "type": "COMMON",
+            "chance": 75.0
+          },
+          {
+            "type": "RARE",
+            "chance": 20.0
+          },
+          {
+            "type": "LEGENDARY",
+            "chance": 5.0
+          }
+        ]
+      },
+      "aura": {
+        "texture": "EARTH",
+        "animation": "PULSE_ROUND",
+        "scale": 1.0
       }
     },
     "GOLDEN": {
       "chance": 25.0,
       "duration": 90,
       "durationMultiplier": 1.5,
+      "interactionRadius": 1.2,
+      "miniCrit": {
+        "triggerChance": 5.0,
+        "hitWindowDegrees": 36.0,
+        "dropWeightBonusPercent": 25.0,
+        "extraDropCount": 1,
+        "cursorSpeedDegreesPerSecond": 180.0
+      },
+      "progressBarOffset": {
+        "x": 0.0,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "progressBar": {
+        "color": {
+          "hex": "#F2C94C"
+        },
+        "scale": 1.0,
+        "text": "Просеивание",
+        "small": true,
+        "lookAtPlayer": true,
+        "size": {
+          "x": 364.0,
+          "y": 14.0,
+          "z": 0.0
+        }
+      },
       "drops": [
         {
           "chance": 55.0,
@@ -51,19 +119,60 @@
           "weightMultiplier": 2.0
         }
       ],
-      "zone": {
-        "size": 2.4,
-        "color": {
-          "hex": "#F2C94C"
-        },
-        "particle": true,
-        "collisionEnabled": false
+      "slagDrop": {
+        "chance": 18.0,
+        "slags": [
+          {
+            "type": "COMMON",
+            "chance": 45.0
+          },
+          {
+            "type": "RARE",
+            "chance": 40.0
+          },
+          {
+            "type": "LEGENDARY",
+            "chance": 15.0
+          }
+        ]
+      },
+      "aura": {
+        "texture": "LIGHT",
+        "animation": "DOUBLE_CIRCLE",
+        "scale": 1.2
       }
     },
     "ANCIENT": {
       "chance": 5.0,
       "duration": 120,
       "durationMultiplier": 2.0,
+      "interactionRadius": 1.4,
+      "miniCrit": {
+        "triggerChance": 5.0,
+        "hitWindowDegrees": 36.0,
+        "dropWeightBonusPercent": 25.0,
+        "extraDropCount": 1,
+        "cursorSpeedDegreesPerSecond": 180.0
+      },
+      "progressBarOffset": {
+        "x": 0.0,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "progressBar": {
+        "color": {
+          "hex": "#8E44AD"
+        },
+        "scale": 1.0,
+        "text": "Просеивание",
+        "small": true,
+        "lookAtPlayer": true,
+        "size": {
+          "x": 364.0,
+          "y": 14.0,
+          "z": 0.0
+        }
+      },
       "drops": [
         {
           "chance": 40.0,
@@ -81,13 +190,27 @@
           "weightMultiplier": 4.0
         }
       ],
-      "zone": {
-        "size": 2.8,
-        "color": {
-          "hex": "#8E44AD"
-        },
-        "particle": true,
-        "collisionEnabled": false
+      "slagDrop": {
+        "chance": 25.0,
+        "slags": [
+          {
+            "type": "COMMON",
+            "chance": 20.0
+          },
+          {
+            "type": "RARE",
+            "chance": 45.0
+          },
+          {
+            "type": "LEGENDARY",
+            "chance": 35.0
+          }
+        ]
+      },
+      "aura": {
+        "texture": "MAGIC",
+        "animation": "PULSE_ROUND_REVERSE",
+        "scale": 1.4
       }
     }
   }
