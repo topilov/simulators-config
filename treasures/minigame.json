@@ -160,82 +160,538 @@
       }
     },
     "settings": {
-      "activeCases": 4,
-      "caseType": "GOLDEN",
-      "treasures": {
-        "GOLD_COIN": {
-          "item": {
-            "type": "CLAY_BALL",
-            "name": "treasures.treasures.gold_coin.name",
-            "data": {
-              "sim": "gold_coin",
-              "treasure-race-cargo": 1
-            },
-            "unbreakable": true,
-            "flags": [
-              "HIDE_ATTRIBUTES",
-              "HIDE_ENCHANTS",
-              "HIDE_UNBREAKABLE"
-            ]
-          },
-          "reward": 5,
-          "weight": 40
-        },
-        "ANCIENT_SCROLL": {
-          "item": {
-            "type": "CLAY_BALL",
-            "name": "treasures.treasures.ancient_scroll.name",
-            "data": {
-              "sim": "ancient_scroll",
-              "treasure-race-cargo": 1
-            },
-            "unbreakable": true,
-            "flags": [
-              "HIDE_ATTRIBUTES",
-              "HIDE_ENCHANTS",
-              "HIDE_UNBREAKABLE"
-            ]
-          },
-          "reward": 10,
-          "weight": 30
-        },
-        "GOLDEN_CUP": {
-          "item": {
-            "type": "CLAY_BALL",
-            "name": "treasures.treasures.golden_cup.name",
-            "data": {
-              "sim": "golden_cup",
-              "treasure-race-cargo": 1
-            },
-            "unbreakable": true,
-            "flags": [
-              "HIDE_ATTRIBUTES",
-              "HIDE_ENCHANTS",
-              "HIDE_UNBREAKABLE"
-            ]
-          },
-          "reward": 20,
-          "weight": 20
-        },
-        "QUEENS_CROWN": {
-          "item": {
-            "type": "CLAY_BALL",
-            "name": "treasures.treasures.queens_crown.name",
-            "data": {
-              "sim": "queens_crown",
-              "treasure-race-cargo": 1
-            },
-            "unbreakable": true,
-            "flags": [
-              "HIDE_ATTRIBUTES",
-              "HIDE_ENCHANTS",
-              "HIDE_UNBREAKABLE"
-            ]
-          },
-          "reward": 50,
-          "weight": 10
-        }
+      "spawn": {
+        "name": "spawn",
+        "yaw": 0,
+        "pitch": 0
       },
+      "buyerLocation": {
+        "name": "buyer",
+        "yaw": 0,
+        "pitch": 0
+      },
+      "buyerArrival": {
+        "name": "buyer-arrival",
+        "yaw": 0,
+        "pitch": 0
+      },
+      "treasuresChests": [
+        {
+          "location": {
+            "name": "treasure-case",
+            "tag": "1",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "caseType": "GOLDEN",
+          "treasures": {
+            "GOLD_COIN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.gold_coin.name",
+                "data": {
+                  "sim": "gold_coin",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 5,
+              "weight": 40
+            },
+            "ANCIENT_SCROLL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.ancient_scroll.name",
+                "data": {
+                  "sim": "ancient_scroll",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 10,
+              "weight": 30
+            },
+            "GOLDEN_CUP": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.golden_cup.name",
+                "data": {
+                  "sim": "golden_cup",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 20,
+              "weight": 20
+            },
+            "QUEENS_CROWN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.queens_crown.name",
+                "data": {
+                  "sim": "queens_crown",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 50,
+              "weight": 10
+            }
+          }
+        },
+        {
+          "location": {
+            "name": "treasure-case",
+            "tag": "2",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "caseType": "GOLDEN",
+          "treasures": {
+            "GOLD_COIN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.gold_coin.name",
+                "data": {
+                  "sim": "gold_coin",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 5,
+              "weight": 40
+            },
+            "ANCIENT_SCROLL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.ancient_scroll.name",
+                "data": {
+                  "sim": "ancient_scroll",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 10,
+              "weight": 30
+            },
+            "GOLDEN_CUP": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.golden_cup.name",
+                "data": {
+                  "sim": "golden_cup",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 20,
+              "weight": 20
+            },
+            "QUEENS_CROWN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.queens_crown.name",
+                "data": {
+                  "sim": "queens_crown",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 50,
+              "weight": 10
+            }
+          }
+        },
+        {
+          "location": {
+            "name": "treasure-case",
+            "tag": "3",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "caseType": "GOLDEN",
+          "treasures": {
+            "GOLD_COIN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.gold_coin.name",
+                "data": {
+                  "sim": "gold_coin",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 5,
+              "weight": 40
+            },
+            "ANCIENT_SCROLL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.ancient_scroll.name",
+                "data": {
+                  "sim": "ancient_scroll",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 10,
+              "weight": 30
+            },
+            "GOLDEN_CUP": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.golden_cup.name",
+                "data": {
+                  "sim": "golden_cup",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 20,
+              "weight": 20
+            },
+            "QUEENS_CROWN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.queens_crown.name",
+                "data": {
+                  "sim": "queens_crown",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 50,
+              "weight": 10
+            }
+          }
+        },
+        {
+          "location": {
+            "name": "treasure-case",
+            "tag": "4",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "caseType": "GOLDEN",
+          "treasures": {
+            "GOLD_COIN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.gold_coin.name",
+                "data": {
+                  "sim": "gold_coin",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 5,
+              "weight": 40
+            },
+            "ANCIENT_SCROLL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.ancient_scroll.name",
+                "data": {
+                  "sim": "ancient_scroll",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 10,
+              "weight": 30
+            },
+            "GOLDEN_CUP": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.golden_cup.name",
+                "data": {
+                  "sim": "golden_cup",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 20,
+              "weight": 20
+            },
+            "QUEENS_CROWN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.queens_crown.name",
+                "data": {
+                  "sim": "queens_crown",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": 50,
+              "weight": 10
+            }
+          }
+        }
+      ],
+      "elixirChests": [
+        {
+          "name": "elixir-spawn",
+          "tag": "1",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "2",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "3",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "4",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "5",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "6",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "7",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "8",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "9",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "10",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "11",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "12",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "13",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "14",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "15",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "16",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "17",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "18",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "19",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "20",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "21",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "22",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "23",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "24",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "25",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "26",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "27",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "28",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "29",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "30",
+          "yaw": 0,
+          "pitch": 0
+        }
+      ],
+      "activeCases": 4,
       "buyer": {
         "name": "treasures.minigame.treasure_race.buyer.name",
         "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/sell_treasures.png"
