@@ -1,127 +1,167 @@
 {
-  "message": {
-    "takeReward": "treasures.daily.message.take-reward"
-  },
-  "animateTitle": {
-    "title": "treasures.daily.animate-title.title",
-    "subtitle": "treasures.daily.animate-title.subtitle"
-  },
-  "rewards": {
-    "1": {
-      "hover": "treasures.daily.reward.1.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "sim": "bag"
-        }
+  "menu": {
+    "title": "treasures.daily.menu.title",
+    "description": "treasures.daily.menu.description",
+    "days": [
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "sim": "bag"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "treasures.daily.reward.1.hover"
+          }
+        },
+        "onClaim": [
+          "earn-money %player% 500 false",
+          "earn-bits %player% 50",
+          "give-key %player% DEFAULT 5",
+          "give-key %player% TITLE 1",
+          "earn-tutorial-stage-progress %player% TAKE_DAILY_REWARD"
+        ]
       },
-      "onSuccess": [
-        "earn-money %player% 500 false",
-        "earn-bits %player% 50",
-        "give-key %player% DEFAULT 5",
-        "give-key %player% TITLE 1",
-        "take-daily %player% 1",
-        "earn-tutorial-stage-progress %player% TAKE_DAILY_REWARD"
-      ]
-    },
-    "2": {
-      "hover": "treasures.daily.reward.2.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "gem_amethyst"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "treasures.daily.reward.2.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 60",
+          "give-key %player% PET 1",
+          "local-booster %player% MONEY 2 3600",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": [
-        "earn-bits %player% 60",
-        "give-key %player% PET 1",
-        "local-booster %player% MONEY 2 3600",
-        "give-key %player% TITLE 1",
-        "take-daily %player% 2"
-      ]
-    },
-    "3": {
-      "hover": "treasures.daily.reward.3.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "sim": "goldkey"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "sim": "goldkey"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "treasures.daily.reward.3.hover"
+          }
+        },
+        "onClaim": [
+          "give-key %player% PET 2",
+          "earn-bits %player% 75",
+          "morestat %player% add 750 shards",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": [
-        "give-key %player% PET 2",
-        "earn-bits %player% 75",
-        "morestat %player% add 750 shards",
-        "give-key %player% TITLE 1",
-        "take-daily %player% 3"
-      ]
-    },
-    "4": {
-      "hover": "treasures.daily.reward.4.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "gem_amethyst"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "treasures.daily.reward.4.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 90",
+          "morestat %player% add 10 minigamePoints",
+          "random-money %player% 50 99.99",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": [
-        "earn-bits %player% 90",
-        "morestat %player% add 10 minigamePoints",
-        "random-money %player% 50 99.99",
-        "give-key %player% TITLE 1",
-        "take-daily %player% 4"
-      ]
-    },
-    "5": {
-      "hover": "treasures.daily.reward.5.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "sim": "fox_key"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "sim": "fox_key"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "treasures.daily.reward.5.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 100",
+          "give-key %player% RUNE 3",
+          "local-booster %player% EXP 2 3600",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": [
-        "earn-bits %player% 100",
-        "give-key %player% RUNE 3",
-        "local-booster %player% EXP 2 3600",
-        "give-key %player% TITLE 1",
-        "take-daily %player% 5"
-      ]
-    },
-    "6": {
-      "hover": "treasures.daily.reward.6.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "other": "gem_amethyst"
-        }
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "treasures.daily.reward.6.hover"
+          }
+        },
+        "onClaim": [
+          "earn-bits %player% 125",
+          "give-key %player% RUNE 5",
+          "give-key %player% PET 10",
+          "give-key %player% TITLE 1"
+        ]
       },
-      "onSuccess": [
-        "earn-bits %player% 125",
-        "give-key %player% RUNE 5",
-        "give-key %player% PET 10",
-        "give-key %player% TITLE 1",
-        "take-daily %player% 6"
-      ]
-    },
-    "7": {
-      "hover": "treasures.daily.reward.7.hover",
-      "item": {
-        "type": "CLAY_BALL",
-        "data": {
-          "sim": "all_booster"
-        }
-      },
-      "onSuccess": [
-        "give-key %player% TITLE 1",
-        "earn-bits %player% 200",
-        "morestat %player% add 3000 shards",
-        "local-booster %player% BLOCKS 2 7200",
-        "local-booster %player% TREASURES 2 7200",
-        "local-booster %player% EXP 2 7200",
-        "local-booster %player% MONEY 2 7200",
-        "take-daily %player% 7"
-      ]
-    }
+      {
+        "button": {
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "sim": "all_booster"
+              }
+            }
+          },
+          "tooltip": {
+            "description": "treasures.daily.reward.7.hover"
+          },
+          "big": true
+        },
+        "onClaim": [
+          "give-key %player% TITLE 1",
+          "earn-bits %player% 200",
+          "morestat %player% add 3000 shards",
+          "local-booster %player% BLOCKS 2 7200",
+          "local-booster %player% TREASURES 2 7200",
+          "local-booster %player% EXP 2 7200",
+          "local-booster %player% MONEY 2 7200"
+        ]
+      }
+    ]
   }
 }

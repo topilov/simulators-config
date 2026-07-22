@@ -158,6 +158,218 @@
         "duration": 5,
         "isCloseAfterExpire": true
       }
+    },
+    "settings": {
+      "activeCases": 4,
+      "caseType": "GOLDEN",
+      "treasures": {
+        "GOLD_COIN": {
+          "item": {
+            "type": "CLAY_BALL",
+            "name": "treasures.treasures.gold_coin.name",
+            "data": {
+              "sim": "gold_coin",
+              "treasure-race-cargo": 1
+            },
+            "unbreakable": true,
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          },
+          "reward": 5,
+          "weight": 40
+        },
+        "ANCIENT_SCROLL": {
+          "item": {
+            "type": "CLAY_BALL",
+            "name": "treasures.treasures.ancient_scroll.name",
+            "data": {
+              "sim": "ancient_scroll",
+              "treasure-race-cargo": 1
+            },
+            "unbreakable": true,
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          },
+          "reward": 10,
+          "weight": 30
+        },
+        "GOLDEN_CUP": {
+          "item": {
+            "type": "CLAY_BALL",
+            "name": "treasures.treasures.golden_cup.name",
+            "data": {
+              "sim": "golden_cup",
+              "treasure-race-cargo": 1
+            },
+            "unbreakable": true,
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          },
+          "reward": 20,
+          "weight": 20
+        },
+        "QUEENS_CROWN": {
+          "item": {
+            "type": "CLAY_BALL",
+            "name": "treasures.treasures.queens_crown.name",
+            "data": {
+              "sim": "queens_crown",
+              "treasure-race-cargo": 1
+            },
+            "unbreakable": true,
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          },
+          "reward": 50,
+          "weight": 10
+        }
+      },
+      "buyer": {
+        "name": "treasures.minigame.treasure_race.buyer.name",
+        "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/sell_treasures.png"
+      },
+      "elixir": {
+        "spawnEverySeconds": 35,
+        "spawnCount": 5,
+        "chestType": "CRYSTAL",
+        "hud": {
+          "slot": 8,
+          "item": {
+            "type": "CLAY_BALL",
+            "name": "treasures.minigame.treasure_race.elixir.hud.title",
+            "data": {
+              "other": "treasure_race_elixir",
+              "treasure-race-elixir": 1
+            },
+            "unbreakable": true,
+            "flags": [
+              "HIDE_ATTRIBUTES",
+              "HIDE_ENCHANTS",
+              "HIDE_UNBREAKABLE"
+            ]
+          }
+        }
+      },
+      "events": {
+        "applyEverySeconds": 10,
+        "entries": {
+          "slowdown": {
+            "chance": 20,
+            "blockedByElixir": true,
+            "message": "treasures.minigame.treasure_race.event.slowdown",
+            "commands": [
+              "effect %player% 2 5 1 true"
+            ]
+          },
+          "stun": {
+            "chance": 7,
+            "blockedByElixir": true,
+            "message": "treasures.minigame.treasure_race.event.stun",
+            "commands": [
+              "effect %player% 2 2 255 true"
+            ]
+          },
+          "teleport-back": {
+            "chance": 9,
+            "blockedByElixir": true,
+            "message": "treasures.minigame.treasure_race.event.teleport-back",
+            "commands": [
+              "tp %player% %spawn-x% %spawn-y% %spawn-z%"
+            ]
+          },
+          "teleport-forward": {
+            "chance": 12,
+            "blockedByElixir": false,
+            "message": "treasures.minigame.treasure_race.event.teleport-forward",
+            "commands": [
+              "tp %player% %buyer-x% %buyer-y% %buyer-z%"
+            ]
+          },
+          "speed": {
+            "chance": 17,
+            "blockedByElixir": false,
+            "message": "treasures.minigame.treasure_race.event.speed",
+            "commands": [
+              "effect %player% 1 5 2 true"
+            ]
+          },
+          "jump-boost": {
+            "chance": 14,
+            "blockedByElixir": false,
+            "message": "treasures.minigame.treasure_race.event.jump-boost",
+            "commands": [
+              "effect %player% 8 7 2 true"
+            ]
+          },
+          "blindness": {
+            "chance": 10,
+            "blockedByElixir": true,
+            "message": "treasures.minigame.treasure_race.event.blindness",
+            "commands": [
+              "effect %player% 15 4 0 true"
+            ]
+          },
+          "jackpot": {
+            "chance": 11,
+            "blockedByElixir": false,
+            "message": "treasures.minigame.treasure_race.event.jackpot",
+            "commands": [
+              "treasure-race-jackpot %player%"
+            ]
+          }
+        }
+      },
+      "voidY": -10,
+      "messages": {
+        "caseAlreadyCarrying": "treasures.minigame.treasure_race.message.case-already-carrying",
+        "treasurePickedUp": "treasures.minigame.treasure_race.message.treasure-picked-up",
+        "buyerEmptyCargo": "treasures.minigame.treasure_race.message.buyer-empty-cargo",
+        "buyerSold": "treasures.minigame.treasure_race.message.buyer-sold",
+        "elixirWaveSpawned": "treasures.minigame.treasure_race.message.elixir-wave-spawned",
+        "elixirPickedUp": "treasures.minigame.treasure_race.message.elixir-picked-up",
+        "elixirProtected": "treasures.minigame.treasure_race.message.elixir-protected",
+        "endYourResult": "treasures.minigame.treasure_race.end.your-result",
+        "endTopTitle": "treasures.minigame.treasure_race.end.top-title"
+      },
+      "sounds": {
+        "caseOpen": {
+          "sound": "ENTITY_ITEM_PICKUP",
+          "volume": 0.5,
+          "pitch": 1.0
+        },
+        "buyerSell": {
+          "sound": "ENTITY_PLAYER_LEVELUP",
+          "volume": 0.5,
+          "pitch": 2.0
+        },
+        "elixirWaveSpawn": {
+          "sound": "UI_TOAST_CHALLENGE_COMPLETE",
+          "volume": 0.4,
+          "pitch": 1.0
+        },
+        "elixirPickup": {
+          "sound": "ENTITY_EXPERIENCE_ORB_PICKUP",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "elixirProtect": {
+          "sound": "UI_TOAST_CHALLENGE_COMPLETE",
+          "volume": 0.5,
+          "pitch": 2.0
+        }
+      }
     }
   }
 }

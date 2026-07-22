@@ -19,7 +19,6 @@
         "22:0:0"
       ],
       "startMessage": "treasures.event.blocks.start-message",
-      "endMessage": "treasures.event.blocks.end-message",
       "reward": {
         "1": [
           "give-key %player% RUNE 3",
@@ -36,6 +35,16 @@
           "random-money %player% 40.0 40.1 1",
           "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1"
         ]
+      },
+      "isGlobal": true,
+      "resultMessages": {
+        "header": "treasures.event.blocks.result.header",
+        "firstRow": "treasures.event.result.row.first",
+        "secondRow": "treasures.event.result.row.second",
+        "thirdRow": "treasures.event.result.row.third",
+        "row": "treasures.event.result.row.default",
+        "ownRow": "treasures.event.result.row.own",
+        "separator": "treasures.event.result.separator"
       }
     },
     "TREASURES": {
@@ -57,7 +66,6 @@
         "23:0:0"
       ],
       "startMessage": "treasures.event.treasures.start-message",
-      "endMessage": "treasures.event.treasures.end-message",
       "reward": {
         "1": [
           "give-key %player% PET 3",
@@ -74,6 +82,16 @@
           "random-money %player% 40.0 40.1 1",
           "add-achievement-progress %player% TAKE_TOP_TREASURES_EVENT 1"
         ]
+      },
+      "isGlobal": true,
+      "resultMessages": {
+        "header": "treasures.event.treasures.result.header",
+        "firstRow": "treasures.event.result.row.first",
+        "secondRow": "treasures.event.result.row.second",
+        "thirdRow": "treasures.event.result.row.third",
+        "row": "treasures.event.result.row.default",
+        "ownRow": "treasures.event.result.row.own",
+        "separator": "treasures.event.result.separator"
       }
     }
   }
