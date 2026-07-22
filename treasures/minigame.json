@@ -31,6 +31,38 @@
         "23:30:0"
       ],
       "awaitDuration": 10
+    },
+    "TREASURE_RACE": {
+      "texture": "treasure_race.png",
+      "title": "treasures.minigame.treasure_race.title",
+      "description": "treasures.minigame.treasure_race.description",
+      "spawnAt": [
+        "0:0:0",
+        "1:0:0",
+        "2:0:0",
+        "3:0:0",
+        "4:0:0",
+        "5:0:0",
+        "6:0:0",
+        "7:0:0",
+        "8:0:0",
+        "9:0:0",
+        "10:0:0",
+        "11:0:0",
+        "12:0:0",
+        "13:0:0",
+        "14:0:0",
+        "15:0:0",
+        "16:0:0",
+        "17:0:0",
+        "18:0:0",
+        "19:0:0",
+        "20:0:0",
+        "21:0:0",
+        "22:0:0",
+        "23:0:0"
+      ],
+      "awaitDuration": 10
     }
   },
   "expedition": {
@@ -93,6 +125,38 @@
         "SAND": {
           "data": 1
         }
+      }
+    }
+  },
+  "treasureRace": {
+    "status": {
+      "waiting": {
+        "arenaStatus": "WAITING_PLAYERS",
+        "duration": 15,
+        "countdown": {
+          "title": "treasures.minigame.treasure_race.status.waiting.countdown.title"
+        },
+        "description": {
+          "title": "treasures.minigame.treasure_race.title",
+          "description": "treasures.minigame.treasure_race.description"
+        }
+      },
+      "game": {
+        "arenaStatus": "STARTED",
+        "duration": 180,
+        "pointIndicator": {
+          "type": "COMMON",
+          "positions": 3,
+          "valueName": "treasures.minigame.treasure_race.game.valuename"
+        },
+        "countdown": {
+          "title": "treasures.minigame.treasure_race.game.countdown.title"
+        }
+      },
+      "end": {
+        "arenaStatus": "TERMINATING",
+        "duration": 5,
+        "isCloseAfterExpire": true
       }
     }
   }
