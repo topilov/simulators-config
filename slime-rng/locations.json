@@ -5,9 +5,9 @@
       "map": "TEST_ASHON",
       "button": {
         "id": 1,
-        "title": "123",
+        "title": "Теневой город",
         "texture": "map1.png",
-        "requiredLevel": 1,
+        "requiredLevel": 0,
         "requiredRebirth": 0,
         "onClick": [
           "location-tp %player% %id%"
@@ -20,15 +20,60 @@
       "map": "TEST_ASHON",
       "button": {
         "id": 2,
-        "title": "123",
+        "title": "Теневая деревня",
         "texture": "map1.png",
-        "requiredLevel": 1,
+        "requiredLevel": 0,
         "requiredRebirth": 0,
         "onClick": [
           "location-tp %player% %id%"
         ]
       },
       "price": 1000
+    },
+    "SHADOW_FOREST": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 3,
+        "title": "Теневой лес",
+        "texture": "map1.png",
+        "requiredLevel": 0,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 2000
+    },
+    "SHADOW_TEMPLE": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 4,
+        "title": "Теневой храм",
+        "texture": "map1.png",
+        "requiredLevel": 0,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 3000
+    },
+    "SHADOW_CASTLE": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 5,
+        "title": "Теневой замок",
+        "texture": "map1.png",
+        "requiredLevel": 0,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 4000
     }
   }
 }
