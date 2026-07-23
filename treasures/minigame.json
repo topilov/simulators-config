@@ -165,10 +165,21 @@
         "yaw": 0,
         "pitch": 0
       },
-      "buyerLocation": {
-        "name": "buyer",
-        "yaw": 0,
-        "pitch": 0
+      "npcs": {
+        "buyer": {
+          "location": {
+            "name": "buyer",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "name": "treasures.minigame.treasure_race.buyer.name",
+          "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/sell_treasures.png",
+          "lookAtPlayer": true,
+          "lookAtPlayerDistanceLimit": 12,
+          "onClick": [
+            "treasure-race-sell %player%"
+          ]
+        }
       },
       "buyerArrival": {
         "name": "buyer-arrival",
@@ -692,10 +703,6 @@
         }
       ],
       "activeCases": 4,
-      "buyer": {
-        "name": "treasures.minigame.treasure_race.buyer.name",
-        "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/sell_treasures.png"
-      },
       "elixir": {
         "spawnEverySeconds": 35,
         "spawnCount": 5,
