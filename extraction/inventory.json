@@ -1,0 +1,316 @@
+{
+  "profile": {
+    "profileId": "extraction:main",
+    "capacityMode": "WEIGHT",
+    "capacityLevels": [
+      10000
+    ],
+    "capacityFormatId": "extraction:weight",
+    "defaultTabId": "extraction:drops",
+    "deletionEnabled": true
+  },
+  "formats": {
+    "extraction:weight": {
+      "divisor": 1000,
+      "suffix": " кг",
+      "fractionDigits": 3
+    },
+    "extraction:money": {
+      "divisor": 100,
+      "suffix": " монет",
+      "fractionDigits": 2
+    }
+  },
+  "tabs": {
+    "extraction:equipment": {
+      "order": 0,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Экипировка",
+      "emptyText": "Нет доступных инструментов",
+      "actionIds": []
+    },
+    "extraction:drops": {
+      "order": 1,
+      "layoutKind": "CARD_CATALOG",
+      "title": "Добыча",
+      "emptyText": "Рюкзак пока пуст",
+      "actionIds": [
+        "extraction:sell"
+      ]
+    }
+  },
+  "categories": {
+    "extraction:tools": {
+      "tabId": "extraction:equipment",
+      "order": 0,
+      "title": "Инструменты"
+    },
+    "extraction:resources": {
+      "tabId": "extraction:drops",
+      "order": 0,
+      "title": "Ресурсы"
+    },
+    "extraction:slag": {
+      "tabId": "extraction:drops",
+      "order": 1,
+      "title": "Шлак"
+    }
+  },
+  "equipmentSlots": {
+    "extraction:primary": {
+      "tabId": "extraction:equipment",
+      "order": 0,
+      "visualRole": "PRIMARY",
+      "title": "Основной инструмент",
+      "emptyIcon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:iron_pickaxe",
+        "modelId": 0,
+        "glint": false
+      },
+      "projectionTarget": "MAIN_HAND"
+    }
+  },
+  "items": {
+    "extraction:drop": {
+      "kind": "CARGO",
+      "tabId": "extraction:drops",
+      "categoryIds": [
+        "extraction:resources"
+      ],
+      "capabilities": [
+        "SELLABLE",
+        "DISCARDABLE"
+      ],
+      "compatibleEquipmentSlotIds": [],
+      "actionIds": [
+        "extraction:sell"
+      ],
+      "order": 0,
+      "weight": {
+        "source": "PROPERTY",
+        "property": "unitWeightUnits"
+      },
+      "stacking": {
+        "strategy": "BY_PROPERTIES",
+        "properties": [
+          "type",
+          "unitWeightUnits",
+          "unitSellValueUnits"
+        ]
+      },
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:dirt",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Добыча",
+        "rows": [
+          {
+            "property": "unitWeightUnits",
+            "formatId": "extraction:weight",
+            "text": "&7Вес: &f{value}"
+          },
+          {
+            "property": "unitSellValueUnits",
+            "formatId": "extraction:money",
+            "text": "&7Стоимость: &f{value}"
+          }
+        ],
+        "badges": [],
+        "variantProperty": "type",
+        "variants": {
+          "SOIL": {
+            "icon": {
+              "kind": "ITEM_MODEL",
+              "resourceId": "minecraft:dirt",
+              "modelId": 0,
+              "glint": false
+            },
+            "title": "extraction.drop.soil.title"
+          },
+          "ORE": {
+            "icon": {
+              "kind": "ITEM_MODEL",
+              "resourceId": "minecraft:iron_ore",
+              "modelId": 0,
+              "glint": false
+            },
+            "title": "extraction.drop.ore.title"
+          },
+          "FOSSIL": {
+            "icon": {
+              "kind": "ITEM_MODEL",
+              "resourceId": "minecraft:bone",
+              "modelId": 0,
+              "glint": false
+            },
+            "title": "extraction.drop.fossil.title"
+          }
+        }
+      }
+    },
+    "extraction:slag": {
+      "kind": "CARGO",
+      "tabId": "extraction:drops",
+      "categoryIds": [
+        "extraction:slag"
+      ],
+      "capabilities": [
+        "DISCARDABLE"
+      ],
+      "compatibleEquipmentSlotIds": [],
+      "actionIds": [],
+      "order": 1,
+      "weight": {
+        "source": "PROPERTY",
+        "property": "unitWeightUnits"
+      },
+      "stacking": {
+        "strategy": "BY_PROPERTIES",
+        "properties": [
+          "type",
+          "unitWeightUnits"
+        ]
+      },
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:clay_ball",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Шлак",
+        "rows": [
+          {
+            "property": "unitWeightUnits",
+            "formatId": "extraction:weight",
+            "text": "&7Вес: &f{value}"
+          }
+        ],
+        "badges": [],
+        "variantProperty": "type",
+        "variants": {
+          "COMMON": {
+            "icon": {
+              "kind": "ITEM_MODEL",
+              "resourceId": "minecraft:clay_ball",
+              "modelId": 0,
+              "glint": false
+            },
+            "title": "extraction.recycler.slag.common.title"
+          },
+          "RARE": {
+            "icon": {
+              "kind": "ITEM_MODEL",
+              "resourceId": "minecraft:prismarine_shard",
+              "modelId": 0,
+              "glint": false
+            },
+            "title": "extraction.recycler.slag.rare.title"
+          },
+          "LEGENDARY": {
+            "icon": {
+              "kind": "ITEM_MODEL",
+              "resourceId": "minecraft:magma_cream",
+              "modelId": 0,
+              "glint": false
+            },
+            "title": "extraction.recycler.slag.legendary.title"
+          },
+          "MYTHIC": {
+            "icon": {
+              "kind": "ITEM_MODEL",
+              "resourceId": "minecraft:nether_star",
+              "modelId": 0,
+              "glint": false
+            },
+            "title": "extraction.recycler.slag.mythic.title"
+          }
+        }
+      }
+    },
+    "extraction:tool": {
+      "kind": "EQUIPMENT",
+      "tabId": "extraction:equipment",
+      "categoryIds": [
+        "extraction:tools"
+      ],
+      "capabilities": [
+        "EQUIPPABLE"
+      ],
+      "compatibleEquipmentSlotIds": [
+        "extraction:primary"
+      ],
+      "actionIds": [
+        "extraction:upgrade_tool"
+      ],
+      "order": 0,
+      "weight": {
+        "source": "CONSTANT",
+        "value": 1000
+      },
+      "stacking": {
+        "strategy": "NEVER",
+        "properties": []
+      },
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:iron_pickaxe",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Инструмент",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    }
+  },
+  "actions": {
+    "extraction:sell": {
+      "tabId": "extraction:drops",
+      "targetMode": "MULTIPLE",
+      "order": 0,
+      "title": "Продать выбранное",
+      "style": "PRIMARY",
+      "confirmation": {
+        "title": "Продать добычу?",
+        "lines": [
+          "Выбранные предметы будут безвозвратно проданы."
+        ],
+        "confirmLabel": "Продать"
+      }
+    },
+    "extraction:upgrade_tool": {
+      "tabId": "extraction:equipment",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "style": "PRIMARY",
+      "confirmation": {
+        "title": "Улучшить инструмент?",
+        "lines": [
+          "Стоимость и доступность повторно проверит сервер."
+        ],
+        "confirmLabel": "Улучшить"
+      }
+    }
+  },
+  "initialEntries": [
+    {
+      "itemId": "extraction:tool",
+      "version": 1,
+      "amount": 1,
+      "favorite": false,
+      "state": {
+        "type": "PICKAXE",
+        "level": 1
+      },
+      "equipmentSlotId": "extraction:primary"
+    }
+  ]
+}
