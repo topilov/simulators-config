@@ -1,9 +1,7 @@
 {
-  "logging": false,
   "name": "Симулятор Сокровищ",
   "simulatorId": "treasures_5",
   "databaseId": "treasures-test",
-  "showLocation": false,
   "isWhitelisted": true,
   "isTest": true,
   "hasPrivateAccess": false,
@@ -98,9 +96,6 @@
     }
   },
   "booster": {
-    "command": {
-      "thanks": "thx"
-    },
     "message": {
       "empty": "treasures.booster.message.empty"
     },
@@ -125,8 +120,7 @@
     ]
   },
   "daily": {
-    "nextTakeReward": 86400000,
-    "command": "daily"
+    "nextTakeReward": 86400000
   },
   "donate": {
     "nextTakeDiscount": 86400000,
@@ -139,7 +133,6 @@
     "message": {
       "buy": "treasures.donate.message.buy"
     },
-    "command": "donate",
     "disabled": false
   },
   "locations": {
@@ -162,7 +155,6 @@
     }
   },
   "trash": {
-    "command": "trash",
     "title": "treasures.trash.title",
     "size": 54
   },
