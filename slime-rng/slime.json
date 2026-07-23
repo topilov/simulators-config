@@ -16,45 +16,5 @@
     "SLIME1IN32": {
       "chance": 4.9
     }
-  },
-  "message": {
-    "roll": {
-      "wait": "srng.message.roll.wait",
-      "startRoll": {
-        "title": "Slime RNG",
-        "description": "Вы начали крутить слайма",
-        "duration": 2.0
-      },
-      "getNewSlime": {
-        "itemStack": {
-          "type": "SLIME_BALL"
-        },
-        "title": "Вы получили нового слайма",
-        "duration": 2.5
-      }
-    },
-    "equipmentMenu": {
-      "rolling": "srng.message.equipment.rolling",
-      "successEquip": {
-        "message": "Слайм успешно экипирован",
-        "duration": 2.0
-      },
-      "successUnequip": {
-        "message": "Слайм успешно снят",
-        "duration": 2.0
-      },
-      "noSlimes": {
-        "message": "У вас нет слаймов, используйте /roll",
-        "duration": 2.0
-      },
-      "alreadyEquipped": {
-        "message": "Этот слайм уже выбран",
-        "duration": 2.0
-      },
-      "notEquipped": {
-        "message": "Этот слайм не надет",
-        "duration": 2.0
-      }
-    }
   }
 }
