@@ -707,22 +707,19 @@
         "spawnEverySeconds": 35,
         "spawnCount": 5,
         "chestType": "CRYSTAL",
-        "hud": {
-          "slot": 8,
-          "item": {
-            "type": "CLAY_BALL",
-            "name": "treasures.minigame.treasure_race.elixir.hud.title",
-            "data": {
-              "other": "treasure_race_elixir",
-              "treasure-race-elixir": 1
-            },
-            "unbreakable": true,
-            "flags": [
-              "HIDE_ATTRIBUTES",
-              "HIDE_ENCHANTS",
-              "HIDE_UNBREAKABLE"
-            ]
-          }
+        "skill": {
+          "type": "CLAY_BALL",
+          "name": "treasures.minigame.treasure_race.elixir.hud.title",
+          "data": {
+            "other": "treasure_race_elixir",
+            "treasure-race-elixir": 1
+          },
+          "unbreakable": true,
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ]
         }
       },
       "events": {
