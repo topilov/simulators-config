@@ -1,12 +1,12 @@
 {
   "menuFactory": {
     "key": "treasures-test-season",
-    "maxLevel": 4,
-    "pinnedPreviewLevel": 4,
+    "maxLevel": 100,
+    "pinnedPreviewLevel": 100,
     "levelBroadcastButtonEnabled": true,
     "claimAllRewardsButtonEnabled": true,
     "battlePassResetButtonEnabled": true,
-    "battlePassResetLevel": 4,
+    "battlePassResetLevel": 100,
     "shouldAdaptQuestContainerHeightToY": true,
     "purchase": {
       "basePrice": 0
@@ -28,15 +28,14 @@
               "texture": "cache/simulator/goldkey.png"
             },
             "tooltip": {
-              "title": "§fБесплатная награда первого уровня",
-              "description": "§7Команда: §f/test-battlepass-reward-claim level-1-default"
+              "title": "§fНаграда уровня 1"
             }
           }
         ]
       },
       {
         "level": 2,
-        "type": "RANDOM",
+        "type": "DIRECT",
         "rewards": [
           {
             "icon": {
@@ -44,22 +43,28 @@
               "texture": "cache/simulator/goldkey.png"
             },
             "tooltip": {
-              "title": "§bСлучайная награда A"
-            }
-          },
-          {
-            "icon": {
-              "type": "textured",
-              "texture": "cache/simulator/goldkey.png"
-            },
-            "tooltip": {
-              "title": "§dСлучайная награда B"
+              "title": "§fНаграда уровня 2"
             }
           }
         ]
       },
       {
         "level": 3,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 3"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
         "type": "PICKED",
         "rewards": [
           {
@@ -68,7 +73,7 @@
               "texture": "cache/simulator/goldkey.png"
             },
             "tooltip": {
-              "title": "§bВыдаваемая награда A"
+              "title": "§fНаграда уровня 4 A"
             }
           },
           {
@@ -77,13 +82,88 @@
               "texture": "cache/simulator/goldkey.png"
             },
             "tooltip": {
-              "title": "§dВыдаваемая награда B"
+              "title": "§fНаграда уровня 4 B"
             }
           }
         ]
       },
       {
-        "level": 4,
+        "level": 5,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 5"
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 6"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 7"
+            }
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 8"
+            }
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 9"
+            }
+          }
+        ]
+      },
+      {
+        "level": 10,
         "type": "SELECT",
         "rewards": [
           {
@@ -92,7 +172,7 @@
               "texture": "cache/simulator/goldkey.png"
             },
             "tooltip": {
-              "title": "§bНаграда на выбор A"
+              "title": "§fНаграда уровня 10 A"
             }
           },
           {
@@ -101,7 +181,1555 @@
               "texture": "cache/simulator/goldkey.png"
             },
             "tooltip": {
-              "title": "§dНаграда на выбор B"
+              "title": "§fНаграда уровня 10 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 11,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 11"
+            }
+          }
+        ]
+      },
+      {
+        "level": 12,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 12"
+            }
+          }
+        ]
+      },
+      {
+        "level": 13,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 13"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 14"
+            }
+          }
+        ]
+      },
+      {
+        "level": 15,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 15 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 15 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 15 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 16,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 16"
+            }
+          }
+        ]
+      },
+      {
+        "level": 17,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 17"
+            }
+          }
+        ]
+      },
+      {
+        "level": 18,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 18"
+            }
+          }
+        ]
+      },
+      {
+        "level": 19,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 19"
+            }
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 20 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 20 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 21,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 21"
+            }
+          }
+        ]
+      },
+      {
+        "level": 22,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 22"
+            }
+          }
+        ]
+      },
+      {
+        "level": 23,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 23"
+            }
+          }
+        ]
+      },
+      {
+        "level": 24,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 24 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 24 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 25,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 25"
+            }
+          }
+        ]
+      },
+      {
+        "level": 26,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 26"
+            }
+          }
+        ]
+      },
+      {
+        "level": 27,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 27"
+            }
+          }
+        ]
+      },
+      {
+        "level": 28,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 28"
+            }
+          }
+        ]
+      },
+      {
+        "level": 29,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 29"
+            }
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 30 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 30 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 31,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 31"
+            }
+          }
+        ]
+      },
+      {
+        "level": 32,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 32"
+            }
+          }
+        ]
+      },
+      {
+        "level": 33,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 33"
+            }
+          }
+        ]
+      },
+      {
+        "level": 34,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 34"
+            }
+          }
+        ]
+      },
+      {
+        "level": 35,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 35 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 35 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 35 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 36,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 36"
+            }
+          }
+        ]
+      },
+      {
+        "level": 37,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 37"
+            }
+          }
+        ]
+      },
+      {
+        "level": 38,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 38"
+            }
+          }
+        ]
+      },
+      {
+        "level": 39,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 39"
+            }
+          }
+        ]
+      },
+      {
+        "level": 40,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 40 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 40 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 41,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 41"
+            }
+          }
+        ]
+      },
+      {
+        "level": 42,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 42"
+            }
+          }
+        ]
+      },
+      {
+        "level": 43,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 43"
+            }
+          }
+        ]
+      },
+      {
+        "level": 44,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 44 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 44 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 45"
+            }
+          }
+        ]
+      },
+      {
+        "level": 46,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 46"
+            }
+          }
+        ]
+      },
+      {
+        "level": 47,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 47"
+            }
+          }
+        ]
+      },
+      {
+        "level": 48,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 48"
+            }
+          }
+        ]
+      },
+      {
+        "level": 49,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 49"
+            }
+          }
+        ]
+      },
+      {
+        "level": 50,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 50 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 50 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 51,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 51"
+            }
+          }
+        ]
+      },
+      {
+        "level": 52,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 52"
+            }
+          }
+        ]
+      },
+      {
+        "level": 53,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 53"
+            }
+          }
+        ]
+      },
+      {
+        "level": 54,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 54"
+            }
+          }
+        ]
+      },
+      {
+        "level": 55,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 55 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 55 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 55 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 56,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 56"
+            }
+          }
+        ]
+      },
+      {
+        "level": 57,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 57"
+            }
+          }
+        ]
+      },
+      {
+        "level": 58,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 58"
+            }
+          }
+        ]
+      },
+      {
+        "level": 59,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 59"
+            }
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 60 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 60 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 61,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 61"
+            }
+          }
+        ]
+      },
+      {
+        "level": 62,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 62"
+            }
+          }
+        ]
+      },
+      {
+        "level": 63,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 63"
+            }
+          }
+        ]
+      },
+      {
+        "level": 64,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 64 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 64 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 65,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 65"
+            }
+          }
+        ]
+      },
+      {
+        "level": 66,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 66"
+            }
+          }
+        ]
+      },
+      {
+        "level": 67,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 67"
+            }
+          }
+        ]
+      },
+      {
+        "level": 68,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 68"
+            }
+          }
+        ]
+      },
+      {
+        "level": 69,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 69"
+            }
+          }
+        ]
+      },
+      {
+        "level": 70,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 70 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 70 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 71,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 71"
+            }
+          }
+        ]
+      },
+      {
+        "level": 72,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 72"
+            }
+          }
+        ]
+      },
+      {
+        "level": 73,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 73"
+            }
+          }
+        ]
+      },
+      {
+        "level": 74,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 74"
+            }
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 75 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 75 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 75 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 76,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 76"
+            }
+          }
+        ]
+      },
+      {
+        "level": 77,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 77"
+            }
+          }
+        ]
+      },
+      {
+        "level": 78,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 78"
+            }
+          }
+        ]
+      },
+      {
+        "level": 79,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 79"
+            }
+          }
+        ]
+      },
+      {
+        "level": 80,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 80 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 80 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 81,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 81"
+            }
+          }
+        ]
+      },
+      {
+        "level": 82,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 82"
+            }
+          }
+        ]
+      },
+      {
+        "level": 83,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 83"
+            }
+          }
+        ]
+      },
+      {
+        "level": 84,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 84 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 84 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 85,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 85"
+            }
+          }
+        ]
+      },
+      {
+        "level": 86,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 86"
+            }
+          }
+        ]
+      },
+      {
+        "level": 87,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 87"
+            }
+          }
+        ]
+      },
+      {
+        "level": 88,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 88"
+            }
+          }
+        ]
+      },
+      {
+        "level": 89,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 89"
+            }
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 90 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 90 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 91,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 91"
+            }
+          }
+        ]
+      },
+      {
+        "level": 92,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 92"
+            }
+          }
+        ]
+      },
+      {
+        "level": 93,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 93"
+            }
+          }
+        ]
+      },
+      {
+        "level": 94,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 94"
+            }
+          }
+        ]
+      },
+      {
+        "level": 95,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 95 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 95 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 95 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 96,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 96"
+            }
+          }
+        ]
+      },
+      {
+        "level": 97,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 97"
+            }
+          }
+        ]
+      },
+      {
+        "level": 98,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 98"
+            }
+          }
+        ]
+      },
+      {
+        "level": 99,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 99"
+            }
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 100"
             }
           }
         ]
@@ -117,16 +1745,16 @@
               "type": "textured",
               "texture": "cache/simulator/goldkey.png"
             },
-            "quality": "rare",
+            "quality": "epic",
             "tooltip": {
-              "title": "§bПремиум-награда первого уровня"
+              "title": "§bПремиум-награда уровня 1"
             }
           }
         ]
       },
       {
         "level": 2,
-        "type": "RANDOM",
+        "type": "DIRECT",
         "rewards": [
           {
             "icon": {
@@ -135,23 +1763,29 @@
             },
             "quality": "epic",
             "tooltip": {
-              "title": "§bСлучайная премиум-награда A"
-            }
-          },
-          {
-            "icon": {
-              "type": "textured",
-              "texture": "cache/simulator/goldkey.png"
-            },
-            "quality": "legendary",
-            "tooltip": {
-              "title": "§6Случайная премиум-награда B"
+              "title": "§bПремиум-награда уровня 2"
             }
           }
         ]
       },
       {
         "level": 3,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 3"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
         "type": "PICKED",
         "rewards": [
           {
@@ -161,7 +1795,7 @@
             },
             "quality": "epic",
             "tooltip": {
-              "title": "§bВыдаваемая премиум-награда A"
+              "title": "§bПремиум-награда уровня 4 A"
             }
           },
           {
@@ -171,13 +1805,93 @@
             },
             "quality": "legendary",
             "tooltip": {
-              "title": "§6Выдаваемая премиум-награда B"
+              "title": "§bПремиум-награда уровня 4 B"
             }
           }
         ]
       },
       {
-        "level": 4,
+        "level": 5,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 5"
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 6"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 7"
+            }
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 8"
+            }
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 9"
+            }
+          }
+        ]
+      },
+      {
+        "level": 10,
         "type": "SELECT",
         "rewards": [
           {
@@ -187,7 +1901,7 @@
             },
             "quality": "epic",
             "tooltip": {
-              "title": "§bПремиум-награда на выбор A"
+              "title": "§bПремиум-награда уровня 10 A"
             }
           },
           {
@@ -197,7 +1911,1667 @@
             },
             "quality": "legendary",
             "tooltip": {
-              "title": "§6Премиум-награда на выбор B"
+              "title": "§bПремиум-награда уровня 10 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 11,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 11"
+            }
+          }
+        ]
+      },
+      {
+        "level": 12,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 12"
+            }
+          }
+        ]
+      },
+      {
+        "level": 13,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 13"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 14"
+            }
+          }
+        ]
+      },
+      {
+        "level": 15,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 15 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 15 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "rare",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 15 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 16,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 16"
+            }
+          }
+        ]
+      },
+      {
+        "level": 17,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 17"
+            }
+          }
+        ]
+      },
+      {
+        "level": 18,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 18"
+            }
+          }
+        ]
+      },
+      {
+        "level": 19,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 19"
+            }
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 20 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 20 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 21,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 21"
+            }
+          }
+        ]
+      },
+      {
+        "level": 22,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 22"
+            }
+          }
+        ]
+      },
+      {
+        "level": 23,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 23"
+            }
+          }
+        ]
+      },
+      {
+        "level": 24,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 24 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 24 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 25,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 25"
+            }
+          }
+        ]
+      },
+      {
+        "level": 26,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 26"
+            }
+          }
+        ]
+      },
+      {
+        "level": 27,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 27"
+            }
+          }
+        ]
+      },
+      {
+        "level": 28,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 28"
+            }
+          }
+        ]
+      },
+      {
+        "level": 29,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 29"
+            }
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 30 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 30 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 31,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 31"
+            }
+          }
+        ]
+      },
+      {
+        "level": 32,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 32"
+            }
+          }
+        ]
+      },
+      {
+        "level": 33,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 33"
+            }
+          }
+        ]
+      },
+      {
+        "level": 34,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 34"
+            }
+          }
+        ]
+      },
+      {
+        "level": 35,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 35 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 35 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "rare",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 35 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 36,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 36"
+            }
+          }
+        ]
+      },
+      {
+        "level": 37,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 37"
+            }
+          }
+        ]
+      },
+      {
+        "level": 38,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 38"
+            }
+          }
+        ]
+      },
+      {
+        "level": 39,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 39"
+            }
+          }
+        ]
+      },
+      {
+        "level": 40,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 40 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 40 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 41,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 41"
+            }
+          }
+        ]
+      },
+      {
+        "level": 42,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 42"
+            }
+          }
+        ]
+      },
+      {
+        "level": 43,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 43"
+            }
+          }
+        ]
+      },
+      {
+        "level": 44,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 44 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 44 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 45"
+            }
+          }
+        ]
+      },
+      {
+        "level": 46,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 46"
+            }
+          }
+        ]
+      },
+      {
+        "level": 47,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 47"
+            }
+          }
+        ]
+      },
+      {
+        "level": 48,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 48"
+            }
+          }
+        ]
+      },
+      {
+        "level": 49,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 49"
+            }
+          }
+        ]
+      },
+      {
+        "level": 50,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 50 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 50 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 51,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 51"
+            }
+          }
+        ]
+      },
+      {
+        "level": 52,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 52"
+            }
+          }
+        ]
+      },
+      {
+        "level": 53,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 53"
+            }
+          }
+        ]
+      },
+      {
+        "level": 54,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 54"
+            }
+          }
+        ]
+      },
+      {
+        "level": 55,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 55 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 55 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "rare",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 55 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 56,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 56"
+            }
+          }
+        ]
+      },
+      {
+        "level": 57,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 57"
+            }
+          }
+        ]
+      },
+      {
+        "level": 58,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 58"
+            }
+          }
+        ]
+      },
+      {
+        "level": 59,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 59"
+            }
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 60 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 60 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 61,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 61"
+            }
+          }
+        ]
+      },
+      {
+        "level": 62,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 62"
+            }
+          }
+        ]
+      },
+      {
+        "level": 63,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 63"
+            }
+          }
+        ]
+      },
+      {
+        "level": 64,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 64 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 64 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 65,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 65"
+            }
+          }
+        ]
+      },
+      {
+        "level": 66,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 66"
+            }
+          }
+        ]
+      },
+      {
+        "level": 67,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 67"
+            }
+          }
+        ]
+      },
+      {
+        "level": 68,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 68"
+            }
+          }
+        ]
+      },
+      {
+        "level": 69,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 69"
+            }
+          }
+        ]
+      },
+      {
+        "level": 70,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 70 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 70 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 71,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 71"
+            }
+          }
+        ]
+      },
+      {
+        "level": 72,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 72"
+            }
+          }
+        ]
+      },
+      {
+        "level": 73,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 73"
+            }
+          }
+        ]
+      },
+      {
+        "level": 74,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 74"
+            }
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 75 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 75 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "rare",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 75 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 76,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 76"
+            }
+          }
+        ]
+      },
+      {
+        "level": 77,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 77"
+            }
+          }
+        ]
+      },
+      {
+        "level": 78,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 78"
+            }
+          }
+        ]
+      },
+      {
+        "level": 79,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 79"
+            }
+          }
+        ]
+      },
+      {
+        "level": 80,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 80 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 80 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 81,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 81"
+            }
+          }
+        ]
+      },
+      {
+        "level": 82,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 82"
+            }
+          }
+        ]
+      },
+      {
+        "level": 83,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 83"
+            }
+          }
+        ]
+      },
+      {
+        "level": 84,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 84 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 84 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 85,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 85"
+            }
+          }
+        ]
+      },
+      {
+        "level": 86,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 86"
+            }
+          }
+        ]
+      },
+      {
+        "level": 87,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 87"
+            }
+          }
+        ]
+      },
+      {
+        "level": 88,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 88"
+            }
+          }
+        ]
+      },
+      {
+        "level": 89,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 89"
+            }
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 90 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 90 B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 91,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 91"
+            }
+          }
+        ]
+      },
+      {
+        "level": 92,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 92"
+            }
+          }
+        ]
+      },
+      {
+        "level": 93,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 93"
+            }
+          }
+        ]
+      },
+      {
+        "level": 94,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 94"
+            }
+          }
+        ]
+      },
+      {
+        "level": 95,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 95 A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 95 B"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "rare",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 95 C"
+            }
+          }
+        ]
+      },
+      {
+        "level": 96,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 96"
+            }
+          }
+        ]
+      },
+      {
+        "level": 97,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 97"
+            }
+          }
+        ]
+      },
+      {
+        "level": 98,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 98"
+            }
+          }
+        ]
+      },
+      {
+        "level": 99,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 99"
+            }
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 100"
             }
           }
         ]
@@ -228,10 +3602,10 @@
     "questCategories": [
       {
         "key": "daily",
-        "displayName": "Ежедневные тестовые",
+        "displayName": "Р•Р¶РµРґРЅРµРІРЅС‹Рµ С‚РµСЃС‚РѕРІС‹Рµ",
         "quests": [
           {
-            "description": "Добудьте тестовые сокровища",
+            "description": "Р”РѕР±СѓРґСЊС‚Рµ С‚РµСЃС‚РѕРІС‹Рµ СЃРѕРєСЂРѕРІРёС‰Р°",
             "tooltip": {
               "description": "/test-battlepass-quest-add daily-treasures 1"
             },
@@ -239,7 +3613,7 @@
             "rewardExp": 40
           },
           {
-            "description": "Заработайте тестовые монеты",
+            "description": "Р—Р°СЂР°Р±РѕС‚Р°Р№С‚Рµ С‚РµСЃС‚РѕРІС‹Рµ РјРѕРЅРµС‚С‹",
             "tooltip": {
               "description": "/test-battlepass-quest-add daily-money 100"
             },
@@ -247,7 +3621,7 @@
             "rewardExp": 50
           },
           {
-            "description": "Откройте тестовый сундук",
+            "description": "РћС‚РєСЂРѕР№С‚Рµ С‚РµСЃС‚РѕРІС‹Р№ СЃСѓРЅРґСѓРє",
             "tooltip": {
               "description": "/test-battlepass-quest-add daily-chest 1"
             },
@@ -258,10 +3632,10 @@
       },
       {
         "key": "season",
-        "displayName": "Сезонные тестовые",
+        "displayName": "РЎРµР·РѕРЅРЅС‹Рµ С‚РµСЃС‚РѕРІС‹Рµ",
         "quests": [
           {
-            "description": "Сезонный прогресс",
+            "description": "РЎРµР·РѕРЅРЅС‹Р№ РїСЂРѕРіСЂРµСЃСЃ",
             "tooltip": {
               "description": "/test-battlepass-quest-add season-progress 1"
             },
@@ -269,7 +3643,7 @@
             "rewardExp": 75
           },
           {
-            "description": "Полностью завершите сезонную цель",
+            "description": "РџРѕР»РЅРѕСЃС‚СЊСЋ Р·Р°РІРµСЂС€РёС‚Рµ СЃРµР·РѕРЅРЅСѓСЋ С†РµР»СЊ",
             "tooltip": {
               "description": "/test-battlepass-quest-set season-master 10"
             },
@@ -281,36 +3655,132 @@
     ]
   },
   "id": "treasures-test-season",
-  "maxLevel": 4,
+  "maxLevel": 100,
   "expPerLevel": {
-    "1": 0,
-    "2": 50,
-    "3": 100,
-    "4": 175
+    "1": 1500,
+    "2": 1500,
+    "3": 1500,
+    "4": 1500,
+    "5": 1500,
+    "6": 2800,
+    "7": 2800,
+    "8": 2800,
+    "9": 2800,
+    "10": 2800,
+    "11": 2800,
+    "12": 2800,
+    "13": 2800,
+    "14": 2800,
+    "15": 2800,
+    "16": 2800,
+    "17": 2800,
+    "18": 2800,
+    "19": 2800,
+    "20": 2800,
+    "21": 2800,
+    "22": 2800,
+    "23": 2800,
+    "24": 2800,
+    "25": 2800,
+    "26": 3500,
+    "27": 3500,
+    "28": 3500,
+    "29": 3500,
+    "30": 3500,
+    "31": 3500,
+    "32": 3500,
+    "33": 3500,
+    "34": 3500,
+    "35": 3500,
+    "36": 3500,
+    "37": 3500,
+    "38": 3500,
+    "39": 3500,
+    "40": 3500,
+    "41": 3500,
+    "42": 3500,
+    "43": 3500,
+    "44": 3500,
+    "45": 3500,
+    "46": 3500,
+    "47": 3500,
+    "48": 3500,
+    "49": 3500,
+    "50": 3500,
+    "51": 3500,
+    "52": 3500,
+    "53": 3500,
+    "54": 3500,
+    "55": 3500,
+    "56": 3500,
+    "57": 3500,
+    "58": 3500,
+    "59": 3500,
+    "60": 3500,
+    "61": 3500,
+    "62": 3500,
+    "63": 3500,
+    "64": 3500,
+    "65": 3500,
+    "66": 4200,
+    "67": 4200,
+    "68": 4200,
+    "69": 4200,
+    "70": 4200,
+    "71": 4200,
+    "72": 4200,
+    "73": 4200,
+    "74": 4200,
+    "75": 4200,
+    "76": 4200,
+    "77": 4200,
+    "78": 4200,
+    "79": 4200,
+    "80": 4200,
+    "81": 4200,
+    "82": 4200,
+    "83": 4200,
+    "84": 4200,
+    "85": 4200,
+    "86": 4200,
+    "87": 4200,
+    "88": 4200,
+    "89": 4200,
+    "90": 4200,
+    "91": 6050,
+    "92": 6050,
+    "93": 6050,
+    "94": 6050,
+    "95": 6050,
+    "96": 6050,
+    "97": 6050,
+    "98": 6050,
+    "99": 6050,
+    "100": 6050
   },
   "gameplaySettings": {
     "claimAllEnabled": true,
     "levelShareEnabled": true,
     "levelShareCooldownMillis": 5000,
     "resetEnabled": true,
-    "resetUnlockLevel": 4,
+    "resetUnlockLevel": 100,
     "giftingEnabled": true,
     "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
   },
   "purchaseModalSettings": {
-    "description": "§7Тестовый BattlePass Treasures",
+    "description": "В§7РўРµСЃС‚РѕРІС‹Р№ BattlePass Treasures",
     "regularOffer": {
-      "title": "§aОбычный тестовый",
+      "title": "В§aРћР±С‹С‡РЅС‹Р№ С‚РµСЃС‚РѕРІС‹Р№",
       "benefits": [
-        "§fОткрывает премиум-награды",
-        "§fЦена 0 для безопасного теста"
+        "В§fРћС‚РєСЂС‹РІР°РµС‚ РїСЂРµРјРёСѓРј-РЅР°РіСЂР°РґС‹",
+        "В§fР¦РµРЅР° 0 РґР»СЏ Р±РµР·РѕРїР°СЃРЅРѕРіРѕ С‚РµСЃС‚Р°"
       ]
     },
     "specialOffer": {
-      "title": "§6Особый тестовый",
+      "title": "В§6РћСЃРѕР±С‹Р№ С‚РµСЃС‚РѕРІС‹Р№",
       "benefits": [
-        "§fОткрывает премиум-награды",
-        "§fСразу добавляет 2 уровня"
+        "В§fРћС‚РєСЂС‹РІР°РµС‚ РїСЂРµРјРёСѓРј-РЅР°РіСЂР°РґС‹",
+        "В§fРЎСЂР°Р·Сѓ РґРѕР±Р°РІР»СЏРµС‚ 2 СѓСЂРѕРІРЅСЏ"
       ]
     }
   },
@@ -333,7 +3803,7 @@
         {
           "id": "level-1-default",
           "onClaim": [
-            "earn-bits %player% 1"
+            "tell %player% Claimed level 1 default reward"
           ]
         }
       ],
@@ -341,89 +3811,65 @@
         {
           "id": "level-1-premium",
           "onClaim": [
-            "earn-bits %player% 2"
+            "tell %player% Claimed level 1 premium reward"
           ]
         }
       ]
     },
     {
       "level": 2,
-      "type": "RANDOM",
+      "type": "DIRECT",
       "defaultRewards": [
         {
-          "id": "level-2-default-a",
+          "id": "level-2-default",
           "onClaim": [
-            "tell %player% RANDOM default A"
-          ]
-        },
-        {
-          "id": "level-2-default-b",
-          "onClaim": [
-            "tell %player% RANDOM default B"
+            "tell %player% Claimed level 2 default reward"
           ]
         }
       ],
       "premiumRewards": [
         {
-          "id": "level-2-premium-a",
+          "id": "level-2-premium",
           "onClaim": [
-            "tell %player% RANDOM premium A"
-          ]
-        },
-        {
-          "id": "level-2-premium-b",
-          "onClaim": [
-            "tell %player% RANDOM premium B"
+            "tell %player% Claimed level 2 premium reward"
           ]
         }
       ]
     },
     {
       "level": 3,
-      "type": "PICKED",
+      "type": "DIRECT",
       "defaultRewards": [
         {
-          "id": "level-3-default-a",
+          "id": "level-3-default",
           "onClaim": [
-            "tell %player% PICKED default A"
-          ]
-        },
-        {
-          "id": "level-3-default-b",
-          "onClaim": [
-            "tell %player% PICKED default B"
+            "tell %player% Claimed level 3 default reward"
           ]
         }
       ],
       "premiumRewards": [
         {
-          "id": "level-3-premium-a",
+          "id": "level-3-premium",
           "onClaim": [
-            "tell %player% PICKED premium A"
-          ]
-        },
-        {
-          "id": "level-3-premium-b",
-          "onClaim": [
-            "tell %player% PICKED premium B"
+            "tell %player% Claimed level 3 premium reward"
           ]
         }
       ]
     },
     {
       "level": 4,
-      "type": "SELECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-4-default-a",
           "onClaim": [
-            "tell %player% SELECT default A"
+            "tell %player% Claimed level 4 default reward A"
           ]
         },
         {
           "id": "level-4-default-b",
           "onClaim": [
-            "tell %player% SELECT default B"
+            "tell %player% Claimed level 4 default reward B"
           ]
         }
       ],
@@ -431,13 +3877,2209 @@
         {
           "id": "level-4-premium-a",
           "onClaim": [
-            "tell %player% SELECT premium A"
+            "tell %player% Claimed level 4 premium reward A"
           ]
         },
         {
           "id": "level-4-premium-b",
           "onClaim": [
-            "tell %player% SELECT premium B"
+            "tell %player% Claimed level 4 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-5-default",
+          "onClaim": [
+            "tell %player% Claimed level 5 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-5-premium",
+          "onClaim": [
+            "tell %player% Claimed level 5 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-6-default",
+          "onClaim": [
+            "tell %player% Claimed level 6 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-6-premium",
+          "onClaim": [
+            "tell %player% Claimed level 6 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-7-default",
+          "onClaim": [
+            "tell %player% Claimed level 7 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-7-premium",
+          "onClaim": [
+            "tell %player% Claimed level 7 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-8-default",
+          "onClaim": [
+            "tell %player% Claimed level 8 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-8-premium",
+          "onClaim": [
+            "tell %player% Claimed level 8 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-9-default",
+          "onClaim": [
+            "tell %player% Claimed level 9 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-9-premium",
+          "onClaim": [
+            "tell %player% Claimed level 9 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-10-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 10 default reward A"
+          ]
+        },
+        {
+          "id": "level-10-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 10 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-10-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 10 premium reward A"
+          ]
+        },
+        {
+          "id": "level-10-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 10 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-11-default",
+          "onClaim": [
+            "tell %player% Claimed level 11 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-11-premium",
+          "onClaim": [
+            "tell %player% Claimed level 11 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-12-default",
+          "onClaim": [
+            "tell %player% Claimed level 12 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-12-premium",
+          "onClaim": [
+            "tell %player% Claimed level 12 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-13-default",
+          "onClaim": [
+            "tell %player% Claimed level 13 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-13-premium",
+          "onClaim": [
+            "tell %player% Claimed level 13 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-14-default",
+          "onClaim": [
+            "tell %player% Claimed level 14 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-14-premium",
+          "onClaim": [
+            "tell %player% Claimed level 14 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-15-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 15 default reward A"
+          ]
+        },
+        {
+          "id": "level-15-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 15 default reward B"
+          ]
+        },
+        {
+          "id": "level-15-default-c",
+          "onClaim": [
+            "tell %player% Claimed level 15 default reward C"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-15-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 15 premium reward A"
+          ]
+        },
+        {
+          "id": "level-15-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 15 premium reward B"
+          ]
+        },
+        {
+          "id": "level-15-premium-c",
+          "onClaim": [
+            "tell %player% Claimed level 15 premium reward C"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-16-default",
+          "onClaim": [
+            "tell %player% Claimed level 16 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-16-premium",
+          "onClaim": [
+            "tell %player% Claimed level 16 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-17-default",
+          "onClaim": [
+            "tell %player% Claimed level 17 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-17-premium",
+          "onClaim": [
+            "tell %player% Claimed level 17 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-18-default",
+          "onClaim": [
+            "tell %player% Claimed level 18 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-18-premium",
+          "onClaim": [
+            "tell %player% Claimed level 18 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-19-default",
+          "onClaim": [
+            "tell %player% Claimed level 19 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-19-premium",
+          "onClaim": [
+            "tell %player% Claimed level 19 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-20-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 20 default reward A"
+          ]
+        },
+        {
+          "id": "level-20-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 20 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-20-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 20 premium reward A"
+          ]
+        },
+        {
+          "id": "level-20-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 20 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 21,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-21-default",
+          "onClaim": [
+            "tell %player% Claimed level 21 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-21-premium",
+          "onClaim": [
+            "tell %player% Claimed level 21 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 22,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-22-default",
+          "onClaim": [
+            "tell %player% Claimed level 22 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-22-premium",
+          "onClaim": [
+            "tell %player% Claimed level 22 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 23,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-23-default",
+          "onClaim": [
+            "tell %player% Claimed level 23 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-23-premium",
+          "onClaim": [
+            "tell %player% Claimed level 23 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 24,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-24-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 24 default reward A"
+          ]
+        },
+        {
+          "id": "level-24-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 24 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-24-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 24 premium reward A"
+          ]
+        },
+        {
+          "id": "level-24-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 24 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 25,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-25-default",
+          "onClaim": [
+            "tell %player% Claimed level 25 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-25-premium",
+          "onClaim": [
+            "tell %player% Claimed level 25 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 26,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-26-default",
+          "onClaim": [
+            "tell %player% Claimed level 26 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-26-premium",
+          "onClaim": [
+            "tell %player% Claimed level 26 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 27,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-27-default",
+          "onClaim": [
+            "tell %player% Claimed level 27 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-27-premium",
+          "onClaim": [
+            "tell %player% Claimed level 27 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 28,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-28-default",
+          "onClaim": [
+            "tell %player% Claimed level 28 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-28-premium",
+          "onClaim": [
+            "tell %player% Claimed level 28 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 29,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-29-default",
+          "onClaim": [
+            "tell %player% Claimed level 29 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-29-premium",
+          "onClaim": [
+            "tell %player% Claimed level 29 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 30,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-30-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 30 default reward A"
+          ]
+        },
+        {
+          "id": "level-30-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 30 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-30-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 30 premium reward A"
+          ]
+        },
+        {
+          "id": "level-30-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 30 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 31,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-31-default",
+          "onClaim": [
+            "tell %player% Claimed level 31 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-31-premium",
+          "onClaim": [
+            "tell %player% Claimed level 31 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 32,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-32-default",
+          "onClaim": [
+            "tell %player% Claimed level 32 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-32-premium",
+          "onClaim": [
+            "tell %player% Claimed level 32 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 33,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-33-default",
+          "onClaim": [
+            "tell %player% Claimed level 33 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-33-premium",
+          "onClaim": [
+            "tell %player% Claimed level 33 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 34,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-34-default",
+          "onClaim": [
+            "tell %player% Claimed level 34 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-34-premium",
+          "onClaim": [
+            "tell %player% Claimed level 34 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 35,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-35-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 35 default reward A"
+          ]
+        },
+        {
+          "id": "level-35-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 35 default reward B"
+          ]
+        },
+        {
+          "id": "level-35-default-c",
+          "onClaim": [
+            "tell %player% Claimed level 35 default reward C"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-35-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 35 premium reward A"
+          ]
+        },
+        {
+          "id": "level-35-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 35 premium reward B"
+          ]
+        },
+        {
+          "id": "level-35-premium-c",
+          "onClaim": [
+            "tell %player% Claimed level 35 premium reward C"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 36,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-36-default",
+          "onClaim": [
+            "tell %player% Claimed level 36 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-36-premium",
+          "onClaim": [
+            "tell %player% Claimed level 36 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 37,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-37-default",
+          "onClaim": [
+            "tell %player% Claimed level 37 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-37-premium",
+          "onClaim": [
+            "tell %player% Claimed level 37 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 38,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-38-default",
+          "onClaim": [
+            "tell %player% Claimed level 38 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-38-premium",
+          "onClaim": [
+            "tell %player% Claimed level 38 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 39,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-39-default",
+          "onClaim": [
+            "tell %player% Claimed level 39 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-39-premium",
+          "onClaim": [
+            "tell %player% Claimed level 39 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-40-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 40 default reward A"
+          ]
+        },
+        {
+          "id": "level-40-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 40 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-40-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 40 premium reward A"
+          ]
+        },
+        {
+          "id": "level-40-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 40 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 41,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-41-default",
+          "onClaim": [
+            "tell %player% Claimed level 41 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-41-premium",
+          "onClaim": [
+            "tell %player% Claimed level 41 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 42,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-42-default",
+          "onClaim": [
+            "tell %player% Claimed level 42 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-42-premium",
+          "onClaim": [
+            "tell %player% Claimed level 42 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 43,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-43-default",
+          "onClaim": [
+            "tell %player% Claimed level 43 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-43-premium",
+          "onClaim": [
+            "tell %player% Claimed level 43 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 44,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-44-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 44 default reward A"
+          ]
+        },
+        {
+          "id": "level-44-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 44 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-44-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 44 premium reward A"
+          ]
+        },
+        {
+          "id": "level-44-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 44 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 45,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-45-default",
+          "onClaim": [
+            "tell %player% Claimed level 45 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-45-premium",
+          "onClaim": [
+            "tell %player% Claimed level 45 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 46,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-46-default",
+          "onClaim": [
+            "tell %player% Claimed level 46 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-46-premium",
+          "onClaim": [
+            "tell %player% Claimed level 46 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 47,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-47-default",
+          "onClaim": [
+            "tell %player% Claimed level 47 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-47-premium",
+          "onClaim": [
+            "tell %player% Claimed level 47 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 48,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-48-default",
+          "onClaim": [
+            "tell %player% Claimed level 48 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-48-premium",
+          "onClaim": [
+            "tell %player% Claimed level 48 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 49,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-49-default",
+          "onClaim": [
+            "tell %player% Claimed level 49 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-49-premium",
+          "onClaim": [
+            "tell %player% Claimed level 49 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-50-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 50 default reward A"
+          ]
+        },
+        {
+          "id": "level-50-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 50 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-50-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 50 premium reward A"
+          ]
+        },
+        {
+          "id": "level-50-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 50 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 51,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-51-default",
+          "onClaim": [
+            "tell %player% Claimed level 51 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-51-premium",
+          "onClaim": [
+            "tell %player% Claimed level 51 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 52,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-52-default",
+          "onClaim": [
+            "tell %player% Claimed level 52 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-52-premium",
+          "onClaim": [
+            "tell %player% Claimed level 52 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 53,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-53-default",
+          "onClaim": [
+            "tell %player% Claimed level 53 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-53-premium",
+          "onClaim": [
+            "tell %player% Claimed level 53 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 54,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-54-default",
+          "onClaim": [
+            "tell %player% Claimed level 54 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-54-premium",
+          "onClaim": [
+            "tell %player% Claimed level 54 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 55,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-55-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 55 default reward A"
+          ]
+        },
+        {
+          "id": "level-55-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 55 default reward B"
+          ]
+        },
+        {
+          "id": "level-55-default-c",
+          "onClaim": [
+            "tell %player% Claimed level 55 default reward C"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-55-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 55 premium reward A"
+          ]
+        },
+        {
+          "id": "level-55-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 55 premium reward B"
+          ]
+        },
+        {
+          "id": "level-55-premium-c",
+          "onClaim": [
+            "tell %player% Claimed level 55 premium reward C"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 56,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-56-default",
+          "onClaim": [
+            "tell %player% Claimed level 56 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-56-premium",
+          "onClaim": [
+            "tell %player% Claimed level 56 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 57,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-57-default",
+          "onClaim": [
+            "tell %player% Claimed level 57 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-57-premium",
+          "onClaim": [
+            "tell %player% Claimed level 57 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 58,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-58-default",
+          "onClaim": [
+            "tell %player% Claimed level 58 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-58-premium",
+          "onClaim": [
+            "tell %player% Claimed level 58 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 59,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-59-default",
+          "onClaim": [
+            "tell %player% Claimed level 59 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-59-premium",
+          "onClaim": [
+            "tell %player% Claimed level 59 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-60-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 60 default reward A"
+          ]
+        },
+        {
+          "id": "level-60-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 60 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-60-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 60 premium reward A"
+          ]
+        },
+        {
+          "id": "level-60-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 60 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 61,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-61-default",
+          "onClaim": [
+            "tell %player% Claimed level 61 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-61-premium",
+          "onClaim": [
+            "tell %player% Claimed level 61 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 62,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-62-default",
+          "onClaim": [
+            "tell %player% Claimed level 62 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-62-premium",
+          "onClaim": [
+            "tell %player% Claimed level 62 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 63,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-63-default",
+          "onClaim": [
+            "tell %player% Claimed level 63 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-63-premium",
+          "onClaim": [
+            "tell %player% Claimed level 63 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 64,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-64-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 64 default reward A"
+          ]
+        },
+        {
+          "id": "level-64-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 64 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-64-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 64 premium reward A"
+          ]
+        },
+        {
+          "id": "level-64-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 64 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 65,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-65-default",
+          "onClaim": [
+            "tell %player% Claimed level 65 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-65-premium",
+          "onClaim": [
+            "tell %player% Claimed level 65 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 66,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-66-default",
+          "onClaim": [
+            "tell %player% Claimed level 66 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-66-premium",
+          "onClaim": [
+            "tell %player% Claimed level 66 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 67,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-67-default",
+          "onClaim": [
+            "tell %player% Claimed level 67 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-67-premium",
+          "onClaim": [
+            "tell %player% Claimed level 67 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 68,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-68-default",
+          "onClaim": [
+            "tell %player% Claimed level 68 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-68-premium",
+          "onClaim": [
+            "tell %player% Claimed level 68 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 69,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-69-default",
+          "onClaim": [
+            "tell %player% Claimed level 69 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-69-premium",
+          "onClaim": [
+            "tell %player% Claimed level 69 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-70-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 70 default reward A"
+          ]
+        },
+        {
+          "id": "level-70-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 70 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-70-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 70 premium reward A"
+          ]
+        },
+        {
+          "id": "level-70-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 70 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 71,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-71-default",
+          "onClaim": [
+            "tell %player% Claimed level 71 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-71-premium",
+          "onClaim": [
+            "tell %player% Claimed level 71 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 72,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-72-default",
+          "onClaim": [
+            "tell %player% Claimed level 72 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-72-premium",
+          "onClaim": [
+            "tell %player% Claimed level 72 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 73,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-73-default",
+          "onClaim": [
+            "tell %player% Claimed level 73 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-73-premium",
+          "onClaim": [
+            "tell %player% Claimed level 73 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 74,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-74-default",
+          "onClaim": [
+            "tell %player% Claimed level 74 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-74-premium",
+          "onClaim": [
+            "tell %player% Claimed level 74 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 75,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-75-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 75 default reward A"
+          ]
+        },
+        {
+          "id": "level-75-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 75 default reward B"
+          ]
+        },
+        {
+          "id": "level-75-default-c",
+          "onClaim": [
+            "tell %player% Claimed level 75 default reward C"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-75-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 75 premium reward A"
+          ]
+        },
+        {
+          "id": "level-75-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 75 premium reward B"
+          ]
+        },
+        {
+          "id": "level-75-premium-c",
+          "onClaim": [
+            "tell %player% Claimed level 75 premium reward C"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 76,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-76-default",
+          "onClaim": [
+            "tell %player% Claimed level 76 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-76-premium",
+          "onClaim": [
+            "tell %player% Claimed level 76 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 77,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-77-default",
+          "onClaim": [
+            "tell %player% Claimed level 77 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-77-premium",
+          "onClaim": [
+            "tell %player% Claimed level 77 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 78,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-78-default",
+          "onClaim": [
+            "tell %player% Claimed level 78 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-78-premium",
+          "onClaim": [
+            "tell %player% Claimed level 78 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 79,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-79-default",
+          "onClaim": [
+            "tell %player% Claimed level 79 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-79-premium",
+          "onClaim": [
+            "tell %player% Claimed level 79 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-80-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 80 default reward A"
+          ]
+        },
+        {
+          "id": "level-80-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 80 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-80-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 80 premium reward A"
+          ]
+        },
+        {
+          "id": "level-80-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 80 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 81,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-81-default",
+          "onClaim": [
+            "tell %player% Claimed level 81 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-81-premium",
+          "onClaim": [
+            "tell %player% Claimed level 81 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 82,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-82-default",
+          "onClaim": [
+            "tell %player% Claimed level 82 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-82-premium",
+          "onClaim": [
+            "tell %player% Claimed level 82 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 83,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-83-default",
+          "onClaim": [
+            "tell %player% Claimed level 83 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-83-premium",
+          "onClaim": [
+            "tell %player% Claimed level 83 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 84,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-84-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 84 default reward A"
+          ]
+        },
+        {
+          "id": "level-84-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 84 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-84-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 84 premium reward A"
+          ]
+        },
+        {
+          "id": "level-84-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 84 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 85,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-85-default",
+          "onClaim": [
+            "tell %player% Claimed level 85 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-85-premium",
+          "onClaim": [
+            "tell %player% Claimed level 85 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 86,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-86-default",
+          "onClaim": [
+            "tell %player% Claimed level 86 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-86-premium",
+          "onClaim": [
+            "tell %player% Claimed level 86 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 87,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-87-default",
+          "onClaim": [
+            "tell %player% Claimed level 87 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-87-premium",
+          "onClaim": [
+            "tell %player% Claimed level 87 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 88,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-88-default",
+          "onClaim": [
+            "tell %player% Claimed level 88 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-88-premium",
+          "onClaim": [
+            "tell %player% Claimed level 88 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 89,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-89-default",
+          "onClaim": [
+            "tell %player% Claimed level 89 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-89-premium",
+          "onClaim": [
+            "tell %player% Claimed level 89 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 90,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-90-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 90 default reward A"
+          ]
+        },
+        {
+          "id": "level-90-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 90 default reward B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-90-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 90 premium reward A"
+          ]
+        },
+        {
+          "id": "level-90-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 90 premium reward B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 91,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-91-default",
+          "onClaim": [
+            "tell %player% Claimed level 91 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-91-premium",
+          "onClaim": [
+            "tell %player% Claimed level 91 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 92,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-92-default",
+          "onClaim": [
+            "tell %player% Claimed level 92 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-92-premium",
+          "onClaim": [
+            "tell %player% Claimed level 92 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 93,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-93-default",
+          "onClaim": [
+            "tell %player% Claimed level 93 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-93-premium",
+          "onClaim": [
+            "tell %player% Claimed level 93 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 94,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-94-default",
+          "onClaim": [
+            "tell %player% Claimed level 94 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-94-premium",
+          "onClaim": [
+            "tell %player% Claimed level 94 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 95,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-95-default-a",
+          "onClaim": [
+            "tell %player% Claimed level 95 default reward A"
+          ]
+        },
+        {
+          "id": "level-95-default-b",
+          "onClaim": [
+            "tell %player% Claimed level 95 default reward B"
+          ]
+        },
+        {
+          "id": "level-95-default-c",
+          "onClaim": [
+            "tell %player% Claimed level 95 default reward C"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-95-premium-a",
+          "onClaim": [
+            "tell %player% Claimed level 95 premium reward A"
+          ]
+        },
+        {
+          "id": "level-95-premium-b",
+          "onClaim": [
+            "tell %player% Claimed level 95 premium reward B"
+          ]
+        },
+        {
+          "id": "level-95-premium-c",
+          "onClaim": [
+            "tell %player% Claimed level 95 premium reward C"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 96,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-96-default",
+          "onClaim": [
+            "tell %player% Claimed level 96 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-96-premium",
+          "onClaim": [
+            "tell %player% Claimed level 96 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 97,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-97-default",
+          "onClaim": [
+            "tell %player% Claimed level 97 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-97-premium",
+          "onClaim": [
+            "tell %player% Claimed level 97 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 98,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-98-default",
+          "onClaim": [
+            "tell %player% Claimed level 98 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-98-premium",
+          "onClaim": [
+            "tell %player% Claimed level 98 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 99,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-99-default",
+          "onClaim": [
+            "tell %player% Claimed level 99 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-99-premium",
+          "onClaim": [
+            "tell %player% Claimed level 99 premium reward"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 100,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-100-default",
+          "onClaim": [
+            "tell %player% Claimed level 100 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-100-premium",
+          "onClaim": [
+            "tell %player% Claimed level 100 premium reward"
           ]
         }
       ]
