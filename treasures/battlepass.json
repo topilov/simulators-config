@@ -19,6 +19,11 @@
     },
     "defaultRewards": [
       {
+        "level": 0,
+        "type": "DIRECT",
+        "rewards": []
+      },
+      {
         "level": 1,
         "type": "DIRECT",
         "rewards": [
@@ -1736,6 +1741,11 @@
       }
     ],
     "premiumRewards": [
+      {
+        "level": 0,
+        "type": "DIRECT",
+        "rewards": []
+      },
       {
         "level": 1,
         "type": "DIRECT",
@@ -3657,6 +3667,7 @@
   "id": "treasures-test-season",
   "maxLevel": 100,
   "expPerLevel": {
+    "0": 0,
     "1": 1500,
     "2": 1500,
     "3": 1500,
@@ -3796,6 +3807,12 @@
     }
   },
   "rewardTiers": [
+    {
+      "level": 0,
+      "type": "DIRECT",
+      "defaultRewards": [],
+      "premiumRewards": []
+    },
     {
       "level": 1,
       "type": "DIRECT",
