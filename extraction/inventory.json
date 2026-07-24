@@ -26,6 +26,12 @@
       "order": 0,
       "layoutKind": "SLOT_CATALOG",
       "title": "Экипировка",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:iron_pickaxe",
+        "modelId": 0,
+        "glint": false
+      },
       "emptyText": "Нет доступных инструментов",
       "actionIds": []
     },
@@ -33,6 +39,12 @@
       "order": 1,
       "layoutKind": "CARD_CATALOG",
       "title": "Добыча",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:chest",
+        "modelId": 0,
+        "glint": false
+      },
       "emptyText": "Рюкзак пока пуст",
       "actionIds": [
         "extraction:sell"
@@ -43,17 +55,35 @@
     "extraction:tools": {
       "tabId": "extraction:equipment",
       "order": 0,
-      "title": "Инструменты"
+      "title": "Инструменты",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:iron_pickaxe",
+        "modelId": 0,
+        "glint": false
+      }
     },
     "extraction:resources": {
       "tabId": "extraction:drops",
       "order": 0,
-      "title": "Ресурсы"
+      "title": "Ресурсы",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:iron_ore",
+        "modelId": 0,
+        "glint": false
+      }
     },
     "extraction:slag": {
       "tabId": "extraction:drops",
       "order": 1,
-      "title": "Шлак"
+      "title": "Шлак",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:clay_ball",
+        "modelId": 0,
+        "glint": false
+      }
     }
   },
   "equipmentSlots": {
@@ -107,6 +137,7 @@
           "glint": false
         },
         "title": "Добыча",
+        "accentColorArgb": -7378363,
         "rows": [
           {
             "property": "unitWeightUnits",
@@ -129,7 +160,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.drop.soil.title"
+            "title": "extraction.drop.soil.title",
+            "accentColorArgb": -7378363
           },
           "ORE": {
             "icon": {
@@ -138,7 +170,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.drop.ore.title"
+            "title": "extraction.drop.ore.title",
+            "accentColorArgb": -4735544
           },
           "FOSSIL": {
             "icon": {
@@ -147,7 +180,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.drop.fossil.title"
+            "title": "extraction.drop.fossil.title",
+            "accentColorArgb": -2569817
           }
         }
       }
@@ -183,6 +217,7 @@
           "glint": false
         },
         "title": "Шлак",
+        "accentColorArgb": -5194043,
         "rows": [
           {
             "property": "unitWeightUnits",
@@ -200,7 +235,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.recycler.slag.common.title"
+            "title": "extraction.recycler.slag.common.title",
+            "accentColorArgb": -5194043
           },
           "RARE": {
             "icon": {
@@ -209,7 +245,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.recycler.slag.rare.title"
+            "title": "extraction.recycler.slag.rare.title",
+            "accentColorArgb": -12140561
           },
           "LEGENDARY": {
             "icon": {
@@ -218,7 +255,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.recycler.slag.legendary.title"
+            "title": "extraction.recycler.slag.legendary.title",
+            "accentColorArgb": -212693
           },
           "MYTHIC": {
             "icon": {
@@ -227,7 +265,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.recycler.slag.mythic.title"
+            "title": "extraction.recycler.slag.mythic.title",
+            "accentColorArgb": -1622709
           }
         }
       }
@@ -276,6 +315,7 @@
       "targetMode": "MULTIPLE",
       "order": 0,
       "title": "Продать выбранное",
+      "gesture": "SECONDARY_CLICK",
       "style": "PRIMARY",
       "confirmation": {
         "title": "Продать добычу?",
@@ -290,6 +330,7 @@
       "targetMode": "SINGLE",
       "order": 0,
       "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
       "style": "PRIMARY",
       "confirmation": {
         "title": "Улучшить инструмент?",
