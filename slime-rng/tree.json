@@ -2,17 +2,59 @@
   "default": {
     "size": 48.0,
     "color": {
-      "hex": "#61D095"
+      "hex": "#FFFFFF"
     },
     "description": "",
     "texture": "",
     "icon": {
-      "type": "SLIME_BALL",
-      "name": "§aУлучшение",
+      "type": "NETHER_STAR",
+      "name": "§fДерево улучшений",
       "lore": ""
     },
     "anyParentUpgrade": true,
     "availableIfNoParents": true
+  },
+  "modules": {
+    "PLAYER": {
+      "color": {
+        "hex": "#E74C3C"
+      },
+      "icon": {
+        "type": "GOLDEN_APPLE",
+        "name": "§cИгрок",
+        "lore": ""
+      }
+    },
+    "SLIMES": {
+      "color": {
+        "hex": "#58D68D"
+      },
+      "icon": {
+        "type": "SLIME_BALL",
+        "name": "§aСлаймы",
+        "lore": ""
+      }
+    },
+    "PETS": {
+      "color": {
+        "hex": "#AF7AC5"
+      },
+      "icon": {
+        "type": "BONE",
+        "name": "§dПитомцы",
+        "lore": ""
+      }
+    },
+    "ECONOMY": {
+      "color": {
+        "hex": "#F4D03F"
+      },
+      "icon": {
+        "type": "GOLD_INGOT",
+        "name": "§eЭкономика",
+        "lore": ""
+      }
+    }
   },
   "elements": [
     {
@@ -21,53 +63,297 @@
         "x": 0.0,
         "y": 0.0
       },
-      "description": "§aНачальное улучшение"
+      "description": "§fЦентр дерева улучшений"
     },
     {
-      "id": 2,
+      "id": 100,
+      "module": "PLAYER",
       "pos": {
-        "x": -80.0,
+        "x": 0.0,
+        "y": -90.0
+      },
+      "parents": [
+        1
+      ],
+      "description": "§cЗдоровье I\n§7Максимальное здоровье увеличено на 10"
+    },
+    {
+      "id": 101,
+      "module": "PLAYER",
+      "pos": {
+        "x": 0.0,
+        "y": -180.0
+      },
+      "parents": [
+        100
+      ],
+      "description": "§cСкорость I\n§7Скорость передвижения увеличена на 5%"
+    },
+    {
+      "id": 102,
+      "module": "PLAYER",
+      "pos": {
+        "x": 0.0,
+        "y": -270.0
+      },
+      "parents": [
+        101
+      ],
+      "description": "§cЗдоровье II\n§7Максимальное здоровье увеличено ещё на 20"
+    },
+    {
+      "id": 103,
+      "module": "PLAYER",
+      "pos": {
+        "x": 0.0,
+        "y": -360.0
+      },
+      "parents": [
+        102
+      ],
+      "description": "§cРегенерация\n§7Восстановление здоровья ускорено на 15%"
+    },
+    {
+      "id": 104,
+      "module": "PLAYER",
+      "pos": {
+        "x": 0.0,
+        "y": -450.0
+      },
+      "parents": [
+        103
+      ],
+      "description": "§cСкорость II\n§7Скорость передвижения увеличена ещё на 10%"
+    },
+    {
+      "id": 105,
+      "module": "PLAYER",
+      "pos": {
+        "x": 0.0,
+        "y": -540.0
+      },
+      "parents": [
+        104
+      ],
+      "description": "§cСтойкость\n§7Получаемый урон уменьшен на 10%"
+    },
+    {
+      "id": 200,
+      "module": "SLIMES",
+      "pos": {
+        "x": 90.0,
+        "y": 0.0
+      },
+      "parents": [
+        1
+      ],
+      "description": "§aБыстрый ролл I\n§7Время ролла уменьшено на 5%"
+    },
+    {
+      "id": 201,
+      "module": "SLIMES",
+      "pos": {
+        "x": 180.0,
+        "y": 0.0
+      },
+      "parents": [
+        200
+      ],
+      "description": "§aУдача I\n§7Шанс редких слаймов увеличен на 5%"
+    },
+    {
+      "id": 202,
+      "module": "SLIMES",
+      "pos": {
+        "x": 270.0,
+        "y": 0.0
+      },
+      "parents": [
+        201
+      ],
+      "description": "§aБыстрый ролл II\n§7Время ролла уменьшено ещё на 10%"
+    },
+    {
+      "id": 203,
+      "module": "SLIMES",
+      "pos": {
+        "x": 360.0,
+        "y": 0.0
+      },
+      "parents": [
+        202
+      ],
+      "description": "§aУдача II\n§7Шанс редких слаймов увеличен ещё на 10%"
+    },
+    {
+      "id": 204,
+      "module": "SLIMES",
+      "pos": {
+        "x": 450.0,
+        "y": 0.0
+      },
+      "parents": [
+        203
+      ],
+      "description": "§aРедкая находка\n§7Редкие слаймы появляются на 15% чаще"
+    },
+    {
+      "id": 205,
+      "module": "SLIMES",
+      "pos": {
+        "x": 540.0,
+        "y": 0.0
+      },
+      "parents": [
+        204
+      ],
+      "description": "§aДвойной ролл\n§75% шанс получить дополнительного слайма"
+    },
+    {
+      "id": 300,
+      "module": "PETS",
+      "pos": {
+        "x": -90.0,
+        "y": 0.0
+      },
+      "parents": [
+        1
+      ],
+      "description": "§dУрон питомцев I\n§7Урон питомцев увеличен на 10%"
+    },
+    {
+      "id": 301,
+      "module": "PETS",
+      "pos": {
+        "x": -180.0,
+        "y": 0.0
+      },
+      "parents": [
+        300
+      ],
+      "description": "§dЗдоровье питомцев I\n§7Здоровье питомцев увеличено на 10%"
+    },
+    {
+      "id": 302,
+      "module": "PETS",
+      "pos": {
+        "x": -270.0,
+        "y": 0.0
+      },
+      "parents": [
+        301
+      ],
+      "description": "§dСкорость атаки\n§7Питомцы атакуют на 10% быстрее"
+    },
+    {
+      "id": 303,
+      "module": "PETS",
+      "pos": {
+        "x": -360.0,
+        "y": 0.0
+      },
+      "parents": [
+        302
+      ],
+      "description": "§dДополнительный слот\n§7Открывает ещё один слот питомца"
+    },
+    {
+      "id": 304,
+      "module": "PETS",
+      "pos": {
+        "x": -450.0,
+        "y": 0.0
+      },
+      "parents": [
+        303
+      ],
+      "description": "§dУрон питомцев II\n§7Урон питомцев увеличен ещё на 20%"
+    },
+    {
+      "id": 305,
+      "module": "PETS",
+      "pos": {
+        "x": -540.0,
+        "y": 0.0
+      },
+      "parents": [
+        304
+      ],
+      "description": "§dИнстинкт охотника\n§7Радиус поиска целей увеличен на 25%"
+    },
+    {
+      "id": 400,
+      "module": "ECONOMY",
+      "pos": {
+        "x": 0.0,
         "y": 90.0
       },
       "parents": [
         1
       ],
-      "color": {
-        "hex": "#5DADE2"
-      },
-      "description": "§bЛевая ветка"
+      "description": "§eДоход I\n§7Получаемые монеты увеличены на 5%"
     },
     {
-      "id": 3,
-      "pos": {
-        "x": 80.0,
-        "y": 90.0
-      },
-      "parents": [
-        1
-      ],
-      "color": {
-        "hex": "#AF7AC5"
-      },
-      "description": "§dПравая ветка"
-    },
-    {
-      "id": 4,
+      "id": 401,
+      "module": "ECONOMY",
       "pos": {
         "x": 0.0,
         "y": 180.0
       },
       "parents": [
-        2,
-        3
+        400
       ],
-      "color": {
-        "hex": "#F5B041"
+      "description": "§eНаграда за убийство\n§7Монеты за противников увеличены на 10%"
+    },
+    {
+      "id": 402,
+      "module": "ECONOMY",
+      "pos": {
+        "x": 0.0,
+        "y": 270.0
       },
-      "description": "§6Требует обе предыдущие ветки",
-      "anyParentUpgrade": false
+      "parents": [
+        401
+      ],
+      "description": "§eДоход II\n§7Получаемые монеты увеличены ещё на 10%"
+    },
+    {
+      "id": 403,
+      "module": "ECONOMY",
+      "pos": {
+        "x": 0.0,
+        "y": 360.0
+      },
+      "parents": [
+        402
+      ],
+      "description": "§eСкидка\n§7Стоимость покупок уменьшена на 5%"
+    },
+    {
+      "id": 404,
+      "module": "ECONOMY",
+      "pos": {
+        "x": 0.0,
+        "y": 450.0
+      },
+      "parents": [
+        403
+      ],
+      "description": "§eБонус возрождения\n§7Награда за возрождение увеличена на 15%"
+    },
+    {
+      "id": 405,
+      "module": "ECONOMY",
+      "pos": {
+        "x": 0.0,
+        "y": 540.0
+      },
+      "parents": [
+        404
+      ],
+      "description": "§eДжекпот\n§73% шанс удвоить полученные монеты"
     }
   ],
   "coloredLines": true,
-  "multiWayMode": false
+  "multiWayMode": true
 }
