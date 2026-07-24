@@ -1,3 +1,100 @@
 {
-  "lootboxes": {}
+  "lootboxes": {
+    "default": {
+      "title": "extraction.lootbox.default.title",
+      "keyTitle": "extraction.lootbox.default.key-title",
+      "giveMessage": "extraction.lootbox.give-message",
+      "useMessage": "extraction.lootbox.use-message",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "extraction.lootbox.default.key-title",
+        "lore": "extraction.lootbox.default.key-description",
+        "data": {
+          "sim": "extraction_default_key",
+          "no-clear": 1
+        }
+      },
+      "onOpen": [],
+      "location": null,
+      "type": "GOLDEN",
+      "menu": {
+        "id": "default",
+        "title": "extraction.lootbox.default.menu-title",
+        "texture": "lootboxes.png",
+        "elements": []
+      }
+    },
+    "pets": {
+      "title": "extraction.lootbox.pets.title",
+      "keyTitle": "extraction.lootbox.pets.key-title",
+      "giveMessage": "extraction.lootbox.give-message",
+      "useMessage": "extraction.lootbox.use-message",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "extraction.lootbox.pets.key-title",
+        "lore": "extraction.lootbox.pets.key-description",
+        "data": {
+          "sim": "extraction_pet_key",
+          "no-clear": 1
+        }
+      },
+      "onOpen": [],
+      "location": null,
+      "type": "CRYSTAL",
+      "menu": {
+        "id": "pets",
+        "title": "extraction.lootbox.pets.menu-title",
+        "texture": "lootboxes.png",
+        "elements": []
+      }
+    },
+    "runes": {
+      "title": "extraction.lootbox.runes.title",
+      "keyTitle": "extraction.lootbox.runes.key-title",
+      "giveMessage": "extraction.lootbox.give-message",
+      "useMessage": "extraction.lootbox.use-message",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "extraction.lootbox.runes.key-title",
+        "lore": "extraction.lootbox.runes.key-description",
+        "data": {
+          "sim": "extraction_rune_key",
+          "no-clear": 1
+        }
+      },
+      "onOpen": [],
+      "location": null,
+      "type": "SILVER",
+      "menu": {
+        "id": "runes",
+        "title": "extraction.lootbox.runes.menu-title",
+        "texture": "lootboxes.png",
+        "elements": []
+      }
+    },
+    "titles": {
+      "title": "extraction.lootbox.titles.title",
+      "keyTitle": "extraction.lootbox.titles.key-title",
+      "giveMessage": "extraction.lootbox.give-message",
+      "useMessage": "extraction.lootbox.use-message",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "extraction.lootbox.titles.key-title",
+        "lore": "extraction.lootbox.titles.key-description",
+        "data": {
+          "sim": "extraction_title_key",
+          "no-clear": 1
+        }
+      },
+      "onOpen": [],
+      "location": null,
+      "type": "LEGENDARY",
+      "menu": {
+        "id": "titles",
+        "title": "extraction.lootbox.titles.menu-title",
+        "texture": "lootboxes.png",
+        "elements": []
+      }
+    }
+  }
 }

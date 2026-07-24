@@ -1,0 +1,258 @@
+{
+  "levelText": "extraction.inventory.equipment.level",
+  "rarities": {
+    "COMMON": {
+      "title": "extraction.inventory.rarity.common",
+      "accentColorArgb": -7378363
+    },
+    "RARE": {
+      "title": "extraction.inventory.rarity.rare",
+      "accentColorArgb": -4735544
+    },
+    "EPIC": {
+      "title": "extraction.inventory.rarity.epic",
+      "accentColorArgb": -2569817
+    },
+    "LEGENDARY": {
+      "title": "extraction.inventory.rarity.legendary",
+      "accentColorArgb": -212693
+    },
+    "MYTHIC": {
+      "title": "extraction.inventory.rarity.mythic",
+      "accentColorArgb": -1622709
+    }
+  },
+  "pets": {
+    "CHEST": {
+      "title": "extraction.inventory.pet.chest.title",
+      "description": "extraction.inventory.pet.description.one-booster",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyMDE1YTcwNWU0ZTVhMDRiMGU5OTQ3MzgxMTdkMDYyMzkxYjBlOWI1MDU5NmQ2NjE1YTlhMTlkY2Y1N2YyNiJ9fX0",
+        "glint": false
+      },
+      "rarity": "COMMON",
+      "boosterIds": ["TREASURES"],
+      "boosters": {
+        "TREASURES": {
+          "text": "extraction.inventory.pet.booster.treasures"
+        }
+      },
+      "maxLevel": 3,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "TREASURES": 1.25
+          }
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "TREASURES": 1.5
+          }
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 0,
+          "boosters": {
+            "TREASURES": 1.75
+          }
+        }
+      }
+    },
+    "ELEPHANT": {
+      "title": "extraction.inventory.pet.elephant.title",
+      "description": "extraction.inventory.pet.description.one-booster",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3MWE3NmY2NjlkYjVlZDZkMzJiNDhiYjJkYmE1NWQ1MzE3ZDdmNDUyMjVjYjMyNjdlYzQzNWNmYTUxNCJ9fX0=",
+        "glint": false
+      },
+      "rarity": "COMMON",
+      "boosterIds": ["MONEY"],
+      "boosters": {
+        "MONEY": {
+          "text": "extraction.inventory.pet.booster.money"
+        }
+      },
+      "maxLevel": 3,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "MONEY": 1.25
+          }
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "MONEY": 1.5
+          }
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 0,
+          "boosters": {
+            "MONEY": 1.75
+          }
+        }
+      }
+    },
+    "TREASURE": {
+      "title": "extraction.inventory.pet.treasure.title",
+      "description": "extraction.inventory.pet.description.two-boosters",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVhNWU4MDQxMzQ1YmEyNGJmYzg5NTQ2ZjRjODJiZThjZjlmOWJhNWE4ZTU1MzY1NDUzNDNhZTU5YjkzN2U5MiJ9fX0",
+        "glint": false
+      },
+      "rarity": "RARE",
+      "boosterIds": ["MONEY", "EXP"],
+      "boosters": {
+        "MONEY": {
+          "text": "extraction.inventory.pet.booster.money"
+        },
+        "EXP": {
+          "text": "extraction.inventory.pet.booster.exp"
+        }
+      },
+      "maxLevel": 3,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "MONEY": 1.5,
+            "EXP": 1.5
+          }
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "MONEY": 2.0,
+            "EXP": 2.0
+          }
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 0,
+          "boosters": {
+            "MONEY": 2.5,
+            "EXP": 2.5
+          }
+        }
+      }
+    },
+    "NINJA": {
+      "title": "extraction.inventory.pet.ninja.title",
+      "description": "extraction.inventory.pet.description.three-boosters",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0",
+        "glint": false
+      },
+      "rarity": "EPIC",
+      "boosterIds": ["MONEY", "EXP", "BLOCKS"],
+      "boosters": {
+        "MONEY": {
+          "text": "extraction.inventory.pet.booster.money"
+        },
+        "EXP": {
+          "text": "extraction.inventory.pet.booster.exp"
+        },
+        "BLOCKS": {
+          "text": "extraction.inventory.pet.booster.blocks"
+        }
+      },
+      "maxLevel": 3,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "MONEY": 3.0,
+            "EXP": 3.0,
+            "BLOCKS": 3.0
+          }
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "MONEY": 4.0,
+            "EXP": 4.0,
+            "BLOCKS": 4.0
+          }
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 0,
+          "boosters": {
+            "MONEY": 5.0,
+            "EXP": 5.0,
+            "BLOCKS": 5.0
+          }
+        }
+      }
+    },
+    "BEE": {
+      "title": "extraction.inventory.pet.bee.title",
+      "description": "extraction.inventory.pet.description.four-boosters",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0=",
+        "glint": false
+      },
+      "rarity": "LEGENDARY",
+      "boosterIds": ["MONEY", "BLOCKS", "EXP", "TREASURES"],
+      "boosters": {
+        "MONEY": {
+          "text": "extraction.inventory.pet.booster.money"
+        },
+        "EXP": {
+          "text": "extraction.inventory.pet.booster.exp"
+        },
+        "BLOCKS": {
+          "text": "extraction.inventory.pet.booster.blocks"
+        },
+        "TREASURES": {
+          "text": "extraction.inventory.pet.booster.treasures"
+        }
+      },
+      "maxLevel": 3,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "MONEY": 6.0,
+            "EXP": 6.0,
+            "BLOCKS": 6.0,
+            "TREASURES": 6.0
+          }
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 5,
+          "boosters": {
+            "MONEY": 7.0,
+            "EXP": 7.0,
+            "BLOCKS": 7.0,
+            "TREASURES": 7.0
+          }
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 0,
+          "boosters": {
+            "MONEY": 8.0,
+            "EXP": 8.0,
+            "BLOCKS": 8.0,
+            "TREASURES": 8.0
+          }
+        }
+      }
+    }
+  }
+}

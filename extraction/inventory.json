@@ -78,10 +78,14 @@
       "order": 1,
       "title": "Руны",
       "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:emerald",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
         "modelId": 0,
-        "glint": true
+        "glint": false
+      },
+      "footerHint": {
+        "gesture": "MIDDLE_CLICK",
+        "title": "Улучшить"
       }
     },
     "extraction:pets": {
@@ -89,10 +93,14 @@
       "order": 2,
       "title": "Питомцы",
       "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:bone",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
         "modelId": 0,
-        "glint": true
+        "glint": false
+      },
+      "footerHint": {
+        "gesture": "MIDDLE_CLICK",
+        "title": "Улучшить"
       }
     },
     "extraction:titles": {
@@ -100,10 +108,10 @@
       "order": 3,
       "title": "Титулы",
       "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:name_tag",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/titles.png",
         "modelId": 0,
-        "glint": true
+        "glint": false
       }
     },
     "extraction:perks": {
@@ -111,10 +119,10 @@
       "order": 4,
       "title": "Перки",
       "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:nether_star",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
         "modelId": 0,
-        "glint": true
+        "glint": false
       }
     },
     "extraction:resources": {
@@ -171,8 +179,8 @@
       "visualRole": "TITLE",
       "title": "Титул",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:name_tag",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/titles.png",
         "modelId": 0,
         "glint": false
       },
@@ -184,8 +192,8 @@
       "visualRole": "PERK",
       "title": "Перк",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:nether_star",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
         "modelId": 0,
         "glint": false
       },
@@ -197,8 +205,8 @@
       "visualRole": "RUNE",
       "title": "Руна 1",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:emerald",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
         "modelId": 0,
         "glint": false
       },
@@ -210,8 +218,8 @@
       "visualRole": "RUNE",
       "title": "Руна 2",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:emerald",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
         "modelId": 0,
         "glint": false
       },
@@ -223,8 +231,8 @@
       "visualRole": "RUNE",
       "title": "Руна 3",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:emerald",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
         "modelId": 0,
         "glint": false
       },
@@ -236,8 +244,8 @@
       "visualRole": "PET",
       "title": "Питомец 1",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:bone",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
         "modelId": 0,
         "glint": false
       },
@@ -249,8 +257,8 @@
       "visualRole": "PET",
       "title": "Питомец 2",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:bone",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
         "modelId": 0,
         "glint": false
       },
@@ -262,8 +270,8 @@
       "visualRole": "PET",
       "title": "Питомец 3",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:bone",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
         "modelId": 0,
         "glint": false
       },
@@ -275,8 +283,8 @@
       "visualRole": "PET",
       "title": "Питомец 4",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:bone",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
         "modelId": 0,
         "glint": false
       },
@@ -288,8 +296,8 @@
       "visualRole": "PET",
       "title": "Питомец 5",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:bone",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
         "modelId": 0,
         "glint": false
       },
@@ -527,19 +535,13 @@
       },
       "presentation": {
         "icon": {
-          "kind": "ITEM_MODEL",
-          "resourceId": "minecraft:emerald",
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/runes.png",
           "modelId": 0,
-          "glint": true
+          "glint": false
         },
-        "title": "Руна: {type}",
-        "accentColorArgb": -12140561,
-        "rows": [
-          {
-            "property": "level",
-            "text": "&7Уровень: &f{value}"
-          }
-        ],
+        "title": "Руна",
+        "rows": [],
         "badges": [],
         "variants": {}
       }
@@ -571,19 +573,13 @@
       },
       "presentation": {
         "icon": {
-          "kind": "ITEM_MODEL",
-          "resourceId": "minecraft:bone",
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/pets.png",
           "modelId": 0,
-          "glint": true
+          "glint": false
         },
-        "title": "Питомец: {type}",
-        "accentColorArgb": -4735544,
-        "rows": [
-          {
-            "property": "level",
-            "text": "&7Уровень: &f{value}"
-          }
-        ],
+        "title": "Питомец",
+        "rows": [],
         "badges": [],
         "variants": {}
       }
@@ -611,13 +607,12 @@
       },
       "presentation": {
         "icon": {
-          "kind": "ITEM_MODEL",
-          "resourceId": "minecraft:name_tag",
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/titles.png",
           "modelId": 0,
-          "glint": true
+          "glint": false
         },
-        "title": "{title}",
-        "accentColorArgb": -2569817,
+        "title": "Титул",
         "rows": [],
         "badges": [],
         "variants": {}
@@ -646,10 +641,10 @@
       },
       "presentation": {
         "icon": {
-          "kind": "ITEM_MODEL",
-          "resourceId": "minecraft:nether_star",
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/perk.png",
           "modelId": 0,
-          "glint": true
+          "glint": false
         },
         "title": "Перк: {type}",
         "accentColorArgb": -7378363,
