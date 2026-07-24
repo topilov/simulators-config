@@ -1,0 +1,73 @@
+{
+  "default": {
+    "size": 48.0,
+    "color": {
+      "hex": "#61D095"
+    },
+    "description": "",
+    "texture": "",
+    "icon": {
+      "type": "SLIME_BALL",
+      "name": "§aУлучшение",
+      "lore": ""
+    },
+    "anyParentUpgrade": true,
+    "availableIfNoParents": true
+  },
+  "elements": [
+    {
+      "id": 1,
+      "pos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "description": "§aНачальное улучшение"
+    },
+    {
+      "id": 2,
+      "pos": {
+        "x": -80.0,
+        "y": 90.0
+      },
+      "parents": [
+        1
+      ],
+      "color": {
+        "hex": "#5DADE2"
+      },
+      "description": "§bЛевая ветка"
+    },
+    {
+      "id": 3,
+      "pos": {
+        "x": 80.0,
+        "y": 90.0
+      },
+      "parents": [
+        1
+      ],
+      "color": {
+        "hex": "#AF7AC5"
+      },
+      "description": "§dПравая ветка"
+    },
+    {
+      "id": 4,
+      "pos": {
+        "x": 0.0,
+        "y": 180.0
+      },
+      "parents": [
+        2,
+        3
+      ],
+      "color": {
+        "hex": "#F5B041"
+      },
+      "description": "§6Требует обе предыдущие ветки",
+      "anyParentUpgrade": false
+    }
+  ],
+  "coloredLines": true,
+  "multiWayMode": false
+}
