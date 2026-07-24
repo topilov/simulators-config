@@ -21,7 +21,17 @@
       {
         "level": 0,
         "type": "DIRECT",
-        "rewards": []
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fНаграда уровня 0"
+            }
+          }
+        ]
       },
       {
         "level": 1,
@@ -1744,7 +1754,18 @@
       {
         "level": 0,
         "type": "DIRECT",
-        "rewards": []
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "rare",
+            "tooltip": {
+              "title": "§bПремиум-награда уровня 0"
+            }
+          }
+        ]
       },
       {
         "level": 1,
@@ -3667,7 +3688,7 @@
   "id": "treasures-test-season",
   "maxLevel": 100,
   "expPerLevel": {
-    "0": 1500,
+    "0": 1000,
     "1": 1500,
     "2": 1500,
     "3": 1500,
@@ -3810,8 +3831,22 @@
     {
       "level": 0,
       "type": "DIRECT",
-      "defaultRewards": [],
-      "premiumRewards": []
+      "defaultRewards": [
+        {
+          "id": "level-0-default",
+          "onClaim": [
+            "tell %player% Claimed level 0 default reward"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-0-premium",
+          "onClaim": [
+            "tell %player% Claimed level 0 premium reward"
+          ]
+        }
+      ]
     },
     {
       "level": 1,
