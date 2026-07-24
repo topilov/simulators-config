@@ -6,7 +6,7 @@
       10000
     ],
     "capacityFormatId": "extraction:weight",
-    "defaultTabId": "extraction:drops",
+    "defaultCategoryId": "extraction:tools",
     "deletionEnabled": true
   },
   "formats": {
@@ -26,40 +26,10 @@
       "fractionDigits": 2
     }
   },
-  "tabs": {
-    "extraction:equipment": {
-      "order": 0,
-      "layoutKind": "SLOT_CATALOG",
-      "title": "Экипировка",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:iron_pickaxe",
-        "modelId": 0,
-        "glint": false
-      },
-      "emptyText": "Нет доступных инструментов",
-      "actionIds": []
-    },
-    "extraction:drops": {
-      "order": 1,
-      "layoutKind": "CARD_CATALOG",
-      "title": "Добыча",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:chest",
-        "modelId": 0,
-        "glint": false
-      },
-      "emptyText": "Рюкзак пока пуст",
-      "actionIds": [
-        "extraction:sell"
-      ]
-    }
-  },
   "categories": {
     "extraction:tools": {
-      "tabId": "extraction:equipment",
       "order": 0,
+      "layoutKind": "SLOT_CATALOG",
       "title": "Инструменты",
       "icon": {
         "kind": "ITEM_MODEL",
@@ -71,11 +41,13 @@
         "mode": "SLOTS",
         "limit": 32,
         "formatId": "extraction:slots"
-      }
+      },
+      "emptyText": "Нет доступных инструментов",
+      "actionIds": []
     },
     "extraction:runes": {
-      "tabId": "extraction:equipment",
       "order": 1,
+      "layoutKind": "SLOT_CATALOG",
       "title": "Руны",
       "icon": {
         "kind": "RESOURCE_TEXTURE",
@@ -83,14 +55,21 @@
         "modelId": 0,
         "glint": false
       },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 32,
+        "formatId": "extraction:slots"
+      },
       "footerHint": {
         "gesture": "MIDDLE_CLICK",
         "title": "Улучшить"
-      }
+      },
+      "emptyText": "Нет доступных рун",
+      "actionIds": []
     },
     "extraction:pets": {
-      "tabId": "extraction:equipment",
       "order": 2,
+      "layoutKind": "SLOT_CATALOG",
       "title": "Питомцы",
       "icon": {
         "kind": "RESOURCE_TEXTURE",
@@ -98,36 +77,57 @@
         "modelId": 0,
         "glint": false
       },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 32,
+        "formatId": "extraction:slots"
+      },
       "footerHint": {
         "gesture": "MIDDLE_CLICK",
         "title": "Улучшить"
-      }
+      },
+      "emptyText": "Нет доступных питомцев",
+      "actionIds": []
     },
     "extraction:titles": {
-      "tabId": "extraction:equipment",
       "order": 3,
+      "layoutKind": "SLOT_CATALOG",
       "title": "Титулы",
       "icon": {
         "kind": "RESOURCE_TEXTURE",
         "resourceId": "cache/simulator/titles.png",
         "modelId": 0,
         "glint": false
-      }
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 32,
+        "formatId": "extraction:slots"
+      },
+      "emptyText": "Нет доступных титулов",
+      "actionIds": []
     },
     "extraction:perks": {
-      "tabId": "extraction:equipment",
       "order": 4,
+      "layoutKind": "SLOT_CATALOG",
       "title": "Перки",
       "icon": {
         "kind": "RESOURCE_TEXTURE",
         "resourceId": "cache/simulator/perk.png",
         "modelId": 0,
         "glint": false
-      }
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 32,
+        "formatId": "extraction:slots"
+      },
+      "emptyText": "Нет доступных перков",
+      "actionIds": []
     },
     "extraction:resources": {
-      "tabId": "extraction:drops",
-      "order": 0,
+      "order": 5,
+      "layoutKind": "CARD_CATALOG",
       "title": "Ресурсы",
       "icon": {
         "kind": "ITEM_MODEL",
@@ -139,11 +139,15 @@
         "mode": "WEIGHT",
         "limit": 10000,
         "formatId": "extraction:weight"
-      }
+      },
+      "emptyText": "Рюкзак пока пуст",
+      "actionIds": [
+        "extraction:sell"
+      ]
     },
     "extraction:slag": {
-      "tabId": "extraction:drops",
-      "order": 1,
+      "order": 6,
+      "layoutKind": "CARD_CATALOG",
       "title": "Шлак",
       "icon": {
         "kind": "ITEM_MODEL",
@@ -155,12 +159,14 @@
         "mode": "WEIGHT",
         "limit": 10000,
         "formatId": "extraction:weight"
-      }
+      },
+      "emptyText": "Шлака пока нет",
+      "actionIds": []
     }
   },
   "equipmentSlots": {
     "extraction:primary": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:tools",
       "order": 0,
       "visualRole": "PRIMARY",
       "title": "Основной инструмент",
@@ -174,7 +180,7 @@
       "projectionTarget": "MAIN_HAND"
     },
     "extraction:title": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:titles",
       "order": 1,
       "visualRole": "TITLE",
       "title": "Титул",
@@ -187,7 +193,7 @@
       "initiallyUnlocked": true
     },
     "extraction:perk": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:perks",
       "order": 2,
       "visualRole": "PERK",
       "title": "Перк",
@@ -200,7 +206,7 @@
       "initiallyUnlocked": true
     },
     "extraction:rune_1": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:runes",
       "order": 3,
       "visualRole": "RUNE",
       "title": "Руна 1",
@@ -213,7 +219,7 @@
       "initiallyUnlocked": true
     },
     "extraction:rune_2": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:runes",
       "order": 4,
       "visualRole": "RUNE",
       "title": "Руна 2",
@@ -226,7 +232,7 @@
       "initiallyUnlocked": false
     },
     "extraction:rune_3": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:runes",
       "order": 5,
       "visualRole": "RUNE",
       "title": "Руна 3",
@@ -239,7 +245,7 @@
       "initiallyUnlocked": false
     },
     "extraction:pet_1": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:pets",
       "order": 6,
       "visualRole": "PET",
       "title": "Питомец 1",
@@ -252,7 +258,7 @@
       "initiallyUnlocked": true
     },
     "extraction:pet_2": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:pets",
       "order": 7,
       "visualRole": "PET",
       "title": "Питомец 2",
@@ -265,7 +271,7 @@
       "initiallyUnlocked": true
     },
     "extraction:pet_3": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:pets",
       "order": 8,
       "visualRole": "PET",
       "title": "Питомец 3",
@@ -278,7 +284,7 @@
       "initiallyUnlocked": false
     },
     "extraction:pet_4": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:pets",
       "order": 9,
       "visualRole": "PET",
       "title": "Питомец 4",
@@ -291,7 +297,7 @@
       "initiallyUnlocked": false
     },
     "extraction:pet_5": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:pets",
       "order": 10,
       "visualRole": "PET",
       "title": "Питомец 5",
@@ -307,10 +313,7 @@
   "items": {
     "extraction:drop": {
       "kind": "CARGO",
-      "tabId": "extraction:drops",
-      "categoryIds": [
-        "extraction:resources"
-      ],
+      "categoryId": "extraction:resources",
       "capabilities": [
         "SELLABLE",
         "DISCARDABLE"
@@ -391,10 +394,7 @@
     },
     "extraction:slag": {
       "kind": "CARGO",
-      "tabId": "extraction:drops",
-      "categoryIds": [
-        "extraction:slag"
-      ],
+      "categoryId": "extraction:slag",
       "capabilities": [
         "DISCARDABLE"
       ],
@@ -476,10 +476,7 @@
     },
     "extraction:tool": {
       "kind": "EQUIPMENT",
-      "tabId": "extraction:equipment",
-      "categoryIds": [
-        "extraction:tools"
-      ],
+      "categoryId": "extraction:tools",
       "capabilities": [
         "EQUIPPABLE"
       ],
@@ -512,10 +509,7 @@
     },
     "extraction:rune": {
       "kind": "EQUIPMENT",
-      "tabId": "extraction:equipment",
-      "categoryIds": [
-        "extraction:runes"
-      ],
+      "categoryId": "extraction:runes",
       "capabilities": [
         "EQUIPPABLE"
       ],
@@ -524,7 +518,7 @@
         "extraction:rune_2",
         "extraction:rune_3"
       ],
-      "actionIds": [],
+      "actionIds": ["extraction:upgrade_rune"],
       "order": 1,
       "weight": {
         "source": "NONE"
@@ -548,10 +542,7 @@
     },
     "extraction:pet": {
       "kind": "EQUIPMENT",
-      "tabId": "extraction:equipment",
-      "categoryIds": [
-        "extraction:pets"
-      ],
+      "categoryId": "extraction:pets",
       "capabilities": [
         "EQUIPPABLE"
       ],
@@ -562,7 +553,7 @@
         "extraction:pet_4",
         "extraction:pet_5"
       ],
-      "actionIds": [],
+      "actionIds": ["extraction:upgrade_pet"],
       "order": 2,
       "weight": {
         "source": "NONE"
@@ -586,10 +577,7 @@
     },
     "extraction:title": {
       "kind": "EQUIPMENT",
-      "tabId": "extraction:equipment",
-      "categoryIds": [
-        "extraction:titles"
-      ],
+      "categoryId": "extraction:titles",
       "capabilities": [
         "EQUIPPABLE"
       ],
@@ -620,10 +608,7 @@
     },
     "extraction:perk": {
       "kind": "EQUIPMENT",
-      "tabId": "extraction:equipment",
-      "categoryIds": [
-        "extraction:perks"
-      ],
+      "categoryId": "extraction:perks",
       "capabilities": [
         "EQUIPPABLE"
       ],
@@ -656,7 +641,7 @@
   },
   "actions": {
     "extraction:sell": {
-      "tabId": "extraction:drops",
+      "categoryId": "extraction:resources",
       "targetMode": "MULTIPLE",
       "order": 0,
       "title": "Продать выбранное",
@@ -671,7 +656,23 @@
       }
     },
     "extraction:upgrade_tool": {
-      "tabId": "extraction:equipment",
+      "categoryId": "extraction:tools",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
+    },
+    "extraction:upgrade_pet": {
+      "categoryId": "extraction:pets",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
+    },
+    "extraction:upgrade_rune": {
+      "categoryId": "extraction:runes",
       "targetMode": "SINGLE",
       "order": 0,
       "title": "Улучшить",
