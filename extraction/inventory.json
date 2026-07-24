@@ -15,6 +15,11 @@
       "suffix": " кг",
       "fractionDigits": 3
     },
+    "extraction:slots": {
+      "divisor": 1,
+      "suffix": "",
+      "fractionDigits": 0
+    },
     "extraction:money": {
       "divisor": 100,
       "suffix": " монет",
@@ -26,6 +31,12 @@
       "order": 0,
       "layoutKind": "SLOT_CATALOG",
       "title": "Экипировка",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:iron_pickaxe",
+        "modelId": 0,
+        "glint": false
+      },
       "emptyText": "Нет доступных инструментов",
       "actionIds": []
     },
@@ -33,6 +44,12 @@
       "order": 1,
       "layoutKind": "CARD_CATALOG",
       "title": "Добыча",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:chest",
+        "modelId": 0,
+        "glint": false
+      },
       "emptyText": "Рюкзак пока пуст",
       "actionIds": [
         "extraction:sell"
@@ -43,17 +60,102 @@
     "extraction:tools": {
       "tabId": "extraction:equipment",
       "order": 0,
-      "title": "Инструменты"
+      "title": "Инструменты",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:iron_pickaxe",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 32,
+        "formatId": "extraction:slots"
+      }
+    },
+    "extraction:runes": {
+      "tabId": "extraction:equipment",
+      "order": 1,
+      "title": "Руны",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "footerHint": {
+        "gesture": "MIDDLE_CLICK",
+        "title": "Улучшить"
+      }
+    },
+    "extraction:pets": {
+      "tabId": "extraction:equipment",
+      "order": 2,
+      "title": "Питомцы",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "footerHint": {
+        "gesture": "MIDDLE_CLICK",
+        "title": "Улучшить"
+      }
+    },
+    "extraction:titles": {
+      "tabId": "extraction:equipment",
+      "order": 3,
+      "title": "Титулы",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/titles.png",
+        "modelId": 0,
+        "glint": false
+      }
+    },
+    "extraction:perks": {
+      "tabId": "extraction:equipment",
+      "order": 4,
+      "title": "Перки",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
+        "modelId": 0,
+        "glint": false
+      }
     },
     "extraction:resources": {
       "tabId": "extraction:drops",
       "order": 0,
-      "title": "Ресурсы"
+      "title": "Ресурсы",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:iron_ore",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "WEIGHT",
+        "limit": 10000,
+        "formatId": "extraction:weight"
+      }
     },
     "extraction:slag": {
       "tabId": "extraction:drops",
       "order": 1,
-      "title": "Шлак"
+      "title": "Шлак",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:clay_ball",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "WEIGHT",
+        "limit": 10000,
+        "formatId": "extraction:weight"
+      }
     }
   },
   "equipmentSlots": {
@@ -68,7 +170,138 @@
         "modelId": 0,
         "glint": false
       },
+      "initiallyUnlocked": true,
       "projectionTarget": "MAIN_HAND"
+    },
+    "extraction:title": {
+      "tabId": "extraction:equipment",
+      "order": 1,
+      "visualRole": "TITLE",
+      "title": "Титул",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/titles.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "extraction:perk": {
+      "tabId": "extraction:equipment",
+      "order": 2,
+      "visualRole": "PERK",
+      "title": "Перк",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "extraction:rune_1": {
+      "tabId": "extraction:equipment",
+      "order": 3,
+      "visualRole": "RUNE",
+      "title": "Руна 1",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "extraction:rune_2": {
+      "tabId": "extraction:equipment",
+      "order": 4,
+      "visualRole": "RUNE",
+      "title": "Руна 2",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "extraction:rune_3": {
+      "tabId": "extraction:equipment",
+      "order": 5,
+      "visualRole": "RUNE",
+      "title": "Руна 3",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "extraction:pet_1": {
+      "tabId": "extraction:equipment",
+      "order": 6,
+      "visualRole": "PET",
+      "title": "Питомец 1",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "extraction:pet_2": {
+      "tabId": "extraction:equipment",
+      "order": 7,
+      "visualRole": "PET",
+      "title": "Питомец 2",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "extraction:pet_3": {
+      "tabId": "extraction:equipment",
+      "order": 8,
+      "visualRole": "PET",
+      "title": "Питомец 3",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "extraction:pet_4": {
+      "tabId": "extraction:equipment",
+      "order": 9,
+      "visualRole": "PET",
+      "title": "Питомец 4",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "extraction:pet_5": {
+      "tabId": "extraction:equipment",
+      "order": 10,
+      "visualRole": "PET",
+      "title": "Питомец 5",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
     }
   },
   "items": {
@@ -107,6 +340,7 @@
           "glint": false
         },
         "title": "Добыча",
+        "accentColorArgb": -7378363,
         "rows": [
           {
             "property": "unitWeightUnits",
@@ -129,7 +363,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.drop.soil.title"
+            "title": "extraction.drop.soil.title",
+            "accentColorArgb": -7378363
           },
           "ORE": {
             "icon": {
@@ -138,7 +373,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.drop.ore.title"
+            "title": "extraction.drop.ore.title",
+            "accentColorArgb": -4735544
           },
           "FOSSIL": {
             "icon": {
@@ -147,7 +383,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.drop.fossil.title"
+            "title": "extraction.drop.fossil.title",
+            "accentColorArgb": -2569817
           }
         }
       }
@@ -183,6 +420,7 @@
           "glint": false
         },
         "title": "Шлак",
+        "accentColorArgb": -5194043,
         "rows": [
           {
             "property": "unitWeightUnits",
@@ -200,7 +438,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.recycler.slag.common.title"
+            "title": "extraction.recycler.slag.common.title",
+            "accentColorArgb": -5194043
           },
           "RARE": {
             "icon": {
@@ -209,7 +448,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.recycler.slag.rare.title"
+            "title": "extraction.recycler.slag.rare.title",
+            "accentColorArgb": -12140561
           },
           "LEGENDARY": {
             "icon": {
@@ -218,7 +458,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.recycler.slag.legendary.title"
+            "title": "extraction.recycler.slag.legendary.title",
+            "accentColorArgb": -212693
           },
           "MYTHIC": {
             "icon": {
@@ -227,7 +468,8 @@
               "modelId": 0,
               "glint": false
             },
-            "title": "extraction.recycler.slag.mythic.title"
+            "title": "extraction.recycler.slag.mythic.title",
+            "accentColorArgb": -1622709
           }
         }
       }
@@ -249,8 +491,7 @@
       ],
       "order": 0,
       "weight": {
-        "source": "CONSTANT",
-        "value": 1000
+        "source": "NONE"
       },
       "stacking": {
         "strategy": "NEVER",
@@ -268,6 +509,149 @@
         "badges": [],
         "variants": {}
       }
+    },
+    "extraction:rune": {
+      "kind": "EQUIPMENT",
+      "tabId": "extraction:equipment",
+      "categoryIds": [
+        "extraction:runes"
+      ],
+      "capabilities": [
+        "EQUIPPABLE"
+      ],
+      "compatibleEquipmentSlotIds": [
+        "extraction:rune_1",
+        "extraction:rune_2",
+        "extraction:rune_3"
+      ],
+      "actionIds": [],
+      "order": 1,
+      "weight": {
+        "source": "NONE"
+      },
+      "stacking": {
+        "strategy": "NEVER",
+        "properties": []
+      },
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/runes.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Руна",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "extraction:pet": {
+      "kind": "EQUIPMENT",
+      "tabId": "extraction:equipment",
+      "categoryIds": [
+        "extraction:pets"
+      ],
+      "capabilities": [
+        "EQUIPPABLE"
+      ],
+      "compatibleEquipmentSlotIds": [
+        "extraction:pet_1",
+        "extraction:pet_2",
+        "extraction:pet_3",
+        "extraction:pet_4",
+        "extraction:pet_5"
+      ],
+      "actionIds": [],
+      "order": 2,
+      "weight": {
+        "source": "NONE"
+      },
+      "stacking": {
+        "strategy": "NEVER",
+        "properties": []
+      },
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/pets.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Питомец",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "extraction:title": {
+      "kind": "EQUIPMENT",
+      "tabId": "extraction:equipment",
+      "categoryIds": [
+        "extraction:titles"
+      ],
+      "capabilities": [
+        "EQUIPPABLE"
+      ],
+      "compatibleEquipmentSlotIds": [
+        "extraction:title"
+      ],
+      "actionIds": [],
+      "order": 3,
+      "weight": {
+        "source": "NONE"
+      },
+      "stacking": {
+        "strategy": "NEVER",
+        "properties": []
+      },
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/titles.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Титул",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "extraction:perk": {
+      "kind": "EQUIPMENT",
+      "tabId": "extraction:equipment",
+      "categoryIds": [
+        "extraction:perks"
+      ],
+      "capabilities": [
+        "EQUIPPABLE"
+      ],
+      "compatibleEquipmentSlotIds": [
+        "extraction:perk"
+      ],
+      "actionIds": [],
+      "order": 4,
+      "weight": {
+        "source": "NONE"
+      },
+      "stacking": {
+        "strategy": "NEVER",
+        "properties": []
+      },
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/perk.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Перк: {type}",
+        "accentColorArgb": -7378363,
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
     }
   },
   "actions": {
@@ -276,6 +660,7 @@
       "targetMode": "MULTIPLE",
       "order": 0,
       "title": "Продать выбранное",
+      "gesture": "SECONDARY_CLICK",
       "style": "PRIMARY",
       "confirmation": {
         "title": "Продать добычу?",
@@ -290,14 +675,8 @@
       "targetMode": "SINGLE",
       "order": 0,
       "title": "Улучшить",
-      "style": "PRIMARY",
-      "confirmation": {
-        "title": "Улучшить инструмент?",
-        "lines": [
-          "Стоимость и доступность повторно проверит сервер."
-        ],
-        "confirmLabel": "Улучшить"
-      }
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
     }
   },
   "initialEntries": [

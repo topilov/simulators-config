@@ -1,3 +1,288 @@
 {
-  "lootboxes": {}
+  "lootboxes": {
+    "default": {
+      "title": "extraction.lootbox.default.title",
+      "keyTitle": "extraction.lootbox.default.key-title",
+      "giveMessage": "extraction.lootbox.give-message",
+      "useMessage": "extraction.lootbox.use-message",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "extraction.lootbox.default.key-title",
+        "lore": "extraction.lootbox.default.key-description",
+        "data": {
+          "sim": "extraction_default_key",
+          "no-clear": 1
+        }
+      },
+      "onOpen": [],
+      "location": null,
+      "type": "GOLDEN",
+      "menu": {
+        "id": "default",
+        "title": "extraction.lootbox.default.menu-title",
+        "texture": "lootboxes.png",
+        "elements": []
+      }
+    },
+    "pets": {
+      "title": "extraction.lootbox.pets.title",
+      "keyTitle": "extraction.lootbox.pets.key-title",
+      "giveMessage": "extraction.lootbox.give-message",
+      "useMessage": "extraction.lootbox.use-message",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "extraction.lootbox.pets.key-title",
+        "lore": "extraction.lootbox.pets.key-description",
+        "data": {
+          "sim": "extraction_pet_key",
+          "no-clear": 1
+        }
+      },
+      "onOpen": [],
+      "location": null,
+      "type": "CRYSTAL",
+      "menu": {
+        "id": "pets",
+        "title": "extraction.lootbox.pets.menu-title",
+        "texture": "lootboxes.png",
+        "elements": [
+          {
+            "id": "chest",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.pet.chest.title",
+              "lore": "i18n.extraction.inventory.pet.description.one-booster|!|(i18n.extraction.inventory.pet.booster.treasures|!|1.25)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyMDE1YTcwNWU0ZTVhMDRiMGU5OTQ3MzgxMTdkMDYyMzkxYjBlOWI1MDU5NmQ2NjE1YTlhMTlkY2Y1N2YyNiJ9fX0"
+            },
+            "chance": 10,
+            "onDrop": ["give-pet %player% CHEST 1"]
+          },
+          {
+            "id": "elephant",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.pet.elephant.title",
+              "lore": "i18n.extraction.inventory.pet.description.one-booster|!|(i18n.extraction.inventory.pet.booster.money|!|1.25)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3MWE3NmY2NjlkYjVlZDZkMzJiNDhiYjJkYmE1NWQ1MzE3ZDdmNDUyMjVjYjMyNjdlYzQzNWNmYTUxNCJ9fX0="
+            },
+            "chance": 10,
+            "onDrop": ["give-pet %player% ELEPHANT 1"]
+          },
+          {
+            "id": "treasure",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.pet.treasure.title",
+              "lore": "i18n.extraction.inventory.pet.description.two-boosters|!|(i18n.extraction.inventory.pet.booster.money|!|1.5)|!|(i18n.extraction.inventory.pet.booster.exp|!|1.5)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVhNWU4MDQxMzQ1YmEyNGJmYzg5NTQ2ZjRjODJiZThjZjlmOWJhNWE4ZTU1MzY1NDUzNDNhZTU5YjkzN2U5MiJ9fX0"
+            },
+            "chance": 4.5,
+            "onDrop": ["give-pet %player% TREASURE 1"]
+          },
+          {
+            "id": "ninja",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.pet.ninja.title",
+              "lore": "i18n.extraction.inventory.pet.description.three-boosters|!|(i18n.extraction.inventory.pet.booster.money|!|3.0)|!|(i18n.extraction.inventory.pet.booster.exp|!|3.0)|!|(i18n.extraction.inventory.pet.booster.blocks|!|3.0)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0"
+            },
+            "chance": 2.5,
+            "onDrop": ["give-pet %player% NINJA 1"]
+          },
+          {
+            "id": "bee",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.pet.bee.title",
+              "lore": "i18n.extraction.inventory.pet.description.four-boosters|!|(i18n.extraction.inventory.pet.booster.money|!|6.0)|!|(i18n.extraction.inventory.pet.booster.blocks|!|6.0)|!|(i18n.extraction.inventory.pet.booster.exp|!|6.0)|!|(i18n.extraction.inventory.pet.booster.treasures|!|6.0)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0="
+            },
+            "chance": 1,
+            "onDrop": ["give-pet %player% BEE 1"]
+          }
+        ]
+      }
+    },
+    "runes": {
+      "title": "extraction.lootbox.runes.title",
+      "keyTitle": "extraction.lootbox.runes.key-title",
+      "giveMessage": "extraction.lootbox.give-message",
+      "useMessage": "extraction.lootbox.use-message",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "extraction.lootbox.runes.key-title",
+        "lore": "extraction.lootbox.runes.key-description",
+        "data": {
+          "sim": "extraction_rune_key",
+          "no-clear": 1
+        }
+      },
+      "onOpen": [],
+      "location": null,
+      "type": "SILVER",
+      "menu": {
+        "id": "runes",
+        "title": "extraction.lootbox.runes.menu-title",
+        "texture": "lootboxes.png",
+        "elements": [
+          {
+            "id": "lucky",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.rune.lucky.title",
+              "lore": "i18n.extraction.inventory.rune.description|!|(i18n.extraction.inventory.rune.lucky.ability|!|10)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+            },
+            "chance": 3.2,
+            "onDrop": ["give-rune %player% LUCKY 1"]
+          },
+          {
+            "id": "pet",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.rune.pet.title",
+              "lore": "i18n.extraction.inventory.rune.description|!|(i18n.extraction.inventory.rune.pet.ability|!|15)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 1,
+            "onDrop": ["give-rune %player% PET 1"]
+          },
+          {
+            "id": "seller",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.rune.seller.title",
+              "lore": "i18n.extraction.inventory.rune.description|!|(i18n.extraction.inventory.rune.seller.ability|!|5)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 14,
+            "onDrop": ["give-rune %player% SELLER 1"]
+          },
+          {
+            "id": "pirate",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.rune.pirate.title",
+              "lore": "i18n.extraction.inventory.rune.description|!|(i18n.extraction.inventory.rune.pirate.ability|!|5)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 7.05,
+            "onDrop": ["give-rune %player% PIRATE 1"]
+          },
+          {
+            "id": "collector",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "SKULL_ITEM",
+              "name": "extraction.inventory.rune.collector.title",
+              "lore": "i18n.extraction.inventory.rune.description|!|(i18n.extraction.inventory.rune.collector.ability|!|5)",
+              "damage": 3,
+              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+            },
+            "chance": 3.2,
+            "onDrop": ["give-rune %player% COLLECTOR 1"]
+          }
+        ]
+      }
+    },
+    "titles": {
+      "title": "extraction.lootbox.titles.title",
+      "keyTitle": "extraction.lootbox.titles.key-title",
+      "giveMessage": "extraction.lootbox.give-message",
+      "useMessage": "extraction.lootbox.use-message",
+      "keyStack": {
+        "type": "CLAY_BALL",
+        "name": "extraction.lootbox.titles.key-title",
+        "lore": "extraction.lootbox.titles.key-description",
+        "data": {
+          "sim": "extraction_title_key",
+          "no-clear": 1
+        }
+      },
+      "onOpen": [],
+      "location": null,
+      "type": "LEGENDARY",
+      "menu": {
+        "id": "titles",
+        "title": "extraction.lootbox.titles.menu-title",
+        "texture": "lootboxes.png",
+        "elements": [
+          {
+            "id": "prospector",
+            "rarity": "COMMON",
+            "itemStack": {
+              "type": "PAPER",
+              "name": "extraction.inventory.title.prospector.title",
+              "lore": "extraction.inventory.title.prospector.description"
+            },
+            "chance": 20,
+            "onDrop": ["give-title %player% prospector"]
+          },
+          {
+            "id": "ore-expert",
+            "rarity": "RARE",
+            "itemStack": {
+              "type": "PAPER",
+              "name": "extraction.inventory.title.ore-expert.title",
+              "lore": "extraction.inventory.title.ore-expert.description"
+            },
+            "chance": 20,
+            "onDrop": ["give-title %player% ore_expert"]
+          },
+          {
+            "id": "deep-explorer",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "PAPER",
+              "name": "extraction.inventory.title.deep-explorer.title",
+              "lore": "extraction.inventory.title.deep-explorer.description"
+            },
+            "chance": 20,
+            "onDrop": ["give-title %player% deep_explorer"]
+          },
+          {
+            "id": "recycling-master",
+            "rarity": "EPIC",
+            "itemStack": {
+              "type": "PAPER",
+              "name": "extraction.inventory.title.recycling-master.title",
+              "lore": "extraction.inventory.title.recycling-master.description"
+            },
+            "chance": 20,
+            "onDrop": ["give-title %player% recycling_master"]
+          },
+          {
+            "id": "mine-legend",
+            "rarity": "LEGENDARY",
+            "itemStack": {
+              "type": "PAPER",
+              "name": "extraction.inventory.title.mine-legend.title",
+              "lore": "extraction.inventory.title.mine-legend.description"
+            },
+            "chance": 20,
+            "onDrop": ["give-title %player% mine_legend"]
+          }
+        ]
+      }
+    }
+  }
 }
