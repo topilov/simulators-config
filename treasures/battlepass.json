@@ -1,0 +1,503 @@
+{
+  "menuFactory": {
+    "key": "treasures-test-season",
+    "maxLevel": 4,
+    "pinnedPreviewLevel": 4,
+    "levelBroadcastButtonEnabled": true,
+    "claimAllRewardsButtonEnabled": true,
+    "battlePassResetButtonEnabled": true,
+    "battlePassResetLevel": 4,
+    "shouldAdaptQuestContainerHeightToY": true,
+    "purchase": {
+      "basePrice": 0
+    },
+    "gift": {
+      "basePrice": 0
+    },
+    "special": {
+      "basePrice": 25
+    },
+    "defaultRewards": [
+      {
+        "level": 1,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§fБесплатная награда первого уровня",
+              "description": "§7Команда: §f/test-battlepass-reward-claim level-1-default"
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "type": "RANDOM",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bСлучайная награда A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dСлучайная награда B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bВыдаваемая награда A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dВыдаваемая награда B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§bНаграда на выбор A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "tooltip": {
+              "title": "§dНаграда на выбор B"
+            }
+          }
+        ]
+      }
+    ],
+    "premiumRewards": [
+      {
+        "level": 1,
+        "type": "DIRECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "rare",
+            "tooltip": {
+              "title": "§bПремиум-награда первого уровня"
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "type": "RANDOM",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bСлучайная премиум-награда A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§6Случайная премиум-награда B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "type": "PICKED",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bВыдаваемая премиум-награда A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§6Выдаваемая премиум-награда B"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "type": "SELECT",
+        "rewards": [
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "epic",
+            "tooltip": {
+              "title": "§bПремиум-награда на выбор A"
+            }
+          },
+          {
+            "icon": {
+              "type": "textured",
+              "texture": "cache/simulator/goldkey.png"
+            },
+            "quality": "legendary",
+            "tooltip": {
+              "title": "§6Премиум-награда на выбор B"
+            }
+          }
+        ]
+      }
+    ],
+    "levelSkips": [
+      {
+        "level": 1,
+        "price": {
+          "basePrice": 0
+        }
+      },
+      {
+        "level": 2,
+        "price": {
+          "basePrice": 5
+        }
+      },
+      {
+        "level": 3,
+        "price": {
+          "basePrice": 10,
+          "discountPercent": 10,
+          "stackable": true
+        }
+      }
+    ],
+    "questCategories": [
+      {
+        "key": "daily",
+        "displayName": "Ежедневные тестовые",
+        "quests": [
+          {
+            "description": "Добудьте тестовые сокровища",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-treasures 1"
+            },
+            "maxProgress": 3,
+            "rewardExp": 40
+          },
+          {
+            "description": "Заработайте тестовые монеты",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-money 100"
+            },
+            "maxProgress": 500,
+            "rewardExp": 50
+          },
+          {
+            "description": "Откройте тестовый сундук",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-chest 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 30
+          }
+        ]
+      },
+      {
+        "key": "season",
+        "displayName": "Сезонные тестовые",
+        "quests": [
+          {
+            "description": "Сезонный прогресс",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add season-progress 1"
+            },
+            "maxProgress": 5,
+            "rewardExp": 75
+          },
+          {
+            "description": "Полностью завершите сезонную цель",
+            "tooltip": {
+              "description": "/test-battlepass-quest-set season-master 10"
+            },
+            "maxProgress": 10,
+            "rewardExp": 100
+          }
+        ]
+      }
+    ]
+  },
+  "id": "treasures-test-season",
+  "maxLevel": 4,
+  "expPerLevel": {
+    "1": 0,
+    "2": 50,
+    "3": 100,
+    "4": 175
+  },
+  "gameplaySettings": {
+    "claimAllEnabled": true,
+    "levelShareEnabled": true,
+    "levelShareCooldownMillis": 5000,
+    "resetEnabled": true,
+    "resetUnlockLevel": 4,
+    "giftingEnabled": true,
+    "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
+  },
+  "purchaseModalSettings": {
+    "description": "§7Тестовый BattlePass Treasures",
+    "regularOffer": {
+      "title": "§aОбычный тестовый",
+      "benefits": [
+        "§fОткрывает премиум-награды",
+        "§fЦена 0 для безопасного теста"
+      ]
+    },
+    "specialOffer": {
+      "title": "§6Особый тестовый",
+      "benefits": [
+        "§fОткрывает премиум-награды",
+        "§fСразу добавляет 2 уровня"
+      ]
+    }
+  },
+  "regularPurchaseOffer": {
+    "grant": {}
+  },
+  "specialPurchaseOffer": {
+    "grant": {
+      "bonusLevels": 2,
+      "commands": [
+        "tell %player% BattlePass special offer command executed"
+      ]
+    }
+  },
+  "rewardTiers": [
+    {
+      "level": 1,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-1-default",
+          "onClaim": [
+            "earn-bits %player% 1"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-1-premium",
+          "onClaim": [
+            "earn-bits %player% 2"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "type": "RANDOM",
+      "defaultRewards": [
+        {
+          "id": "level-2-default-a",
+          "onClaim": [
+            "tell %player% RANDOM default A"
+          ]
+        },
+        {
+          "id": "level-2-default-b",
+          "onClaim": [
+            "tell %player% RANDOM default B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-2-premium-a",
+          "onClaim": [
+            "tell %player% RANDOM premium A"
+          ]
+        },
+        {
+          "id": "level-2-premium-b",
+          "onClaim": [
+            "tell %player% RANDOM premium B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-3-default-a",
+          "onClaim": [
+            "tell %player% PICKED default A"
+          ]
+        },
+        {
+          "id": "level-3-default-b",
+          "onClaim": [
+            "tell %player% PICKED default B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-3-premium-a",
+          "onClaim": [
+            "tell %player% PICKED premium A"
+          ]
+        },
+        {
+          "id": "level-3-premium-b",
+          "onClaim": [
+            "tell %player% PICKED premium B"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "type": "SELECT",
+      "defaultRewards": [
+        {
+          "id": "level-4-default-a",
+          "onClaim": [
+            "tell %player% SELECT default A"
+          ]
+        },
+        {
+          "id": "level-4-default-b",
+          "onClaim": [
+            "tell %player% SELECT default B"
+          ]
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-4-premium-a",
+          "onClaim": [
+            "tell %player% SELECT premium A"
+          ]
+        },
+        {
+          "id": "level-4-premium-b",
+          "onClaim": [
+            "tell %player% SELECT premium B"
+          ]
+        }
+      ]
+    }
+  ],
+  "questCategories": [
+    {
+      "id": "daily",
+      "refreshPolicy": 60000,
+      "activeQuestCount": 2,
+      "quests": [
+        {
+          "id": "daily-treasures",
+          "goal": 3,
+          "rewardExperience": 40,
+          "commands": [
+            "tell %player% Claimed daily-treasures quest"
+          ]
+        },
+        {
+          "id": "daily-money",
+          "goal": 500,
+          "rewardExperience": 50,
+          "commands": [
+            "tell %player% Claimed daily-money quest"
+          ]
+        },
+        {
+          "id": "daily-chest",
+          "goal": 1,
+          "rewardExperience": 30,
+          "commands": [
+            "tell %player% Claimed daily-chest quest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "activeQuestCount": 2,
+      "quests": [
+        {
+          "id": "season-progress",
+          "goal": 5,
+          "rewardExperience": 75,
+          "commands": [
+            "tell %player% Claimed season-progress quest"
+          ]
+        },
+        {
+          "id": "season-master",
+          "goal": 10,
+          "rewardExperience": 100,
+          "commands": [
+            "tell %player% Claimed season-master quest"
+          ]
+        }
+      ]
+    }
+  ],
+  "levelShareMessage": "",
+  "ignoreServiceDiscount": true
+}
