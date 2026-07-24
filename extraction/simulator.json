@@ -1,9 +1,7 @@
 {
-  "logging": false,
   "name": "Симулятор Лихорадки",
   "simulatorId": "extraction",
   "databaseId": "extraction-test",
-  "showLocation": false,
   "isWhitelisted": true,
   "isTest": true,
   "hasPrivateAccess": false,
@@ -77,8 +75,7 @@
   },
   "cooldown": {
     "command": 250,
-    "key": 250,
-    "consumedItem": 250
+    "key": 250
   },
   "violation": {
     "message": {
@@ -86,9 +83,6 @@
     }
   },
   "booster": {
-    "command": {
-      "thanks": "thx"
-    },
     "message": {
       "empty": "extraction.booster.message.empty"
     },
@@ -107,10 +101,6 @@
     "globalPrefix": "",
     "localPrefix": "§8[§aL§8]"
   },
-  "daily": {
-    "nextTakeReward": 86400000,
-    "command": "daily"
-  },
   "donate": {
     "nextTakeDiscount": 86400000,
     "discount": {
@@ -122,7 +112,6 @@
     "message": {
       "buy": "extraction.donate.message.buy"
     },
-    "command": "donate",
     "disabled": false
   },
   "locations": {
@@ -143,11 +132,6 @@
         "0": 0.5
       }
     }
-  },
-  "trash": {
-    "command": "trash",
-    "title": "extraction.trash.title",
-    "size": 54
   },
   "quests": {
     "nextResetQuests": 86400000,
