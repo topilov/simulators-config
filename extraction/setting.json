@@ -1,0 +1,25 @@
+{
+  "settings": {
+    "DISABLE_PETS": {
+      "title": "extraction.settings.disable-pets.title",
+      "onEnable": [
+        "set-view-pets %player% false"
+      ],
+      "onDisable": [
+        "set-view-pets %player% true"
+      ]
+    },
+    "DISABLE_PLAYERS": {
+      "title": "extraction.settings.disable-players.title",
+      "onEnable": [
+        "set-view-players %player% false"
+      ],
+      "onDisable": [
+        "set-view-players %player% true"
+      ]
+    },
+    "DISABLE_SOUNDS": {
+      "title": "extraction.settings.disable-sounds.title"
+    }
+  }
+}
