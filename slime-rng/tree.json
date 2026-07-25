@@ -70,7 +70,7 @@
     },
     {
       "id": 100,
-      "name": "Здоровье I",
+      "name": "srng.tree.health.upgrade.name|!|I",
       "price": 1000,
       "module": "PLAYER",
       "pos": {
@@ -88,7 +88,7 @@
     },
     {
       "id": 101,
-      "name": "Здоровье II",
+      "name": "srng.tree.health.upgrade.name|!|II",
       "price": 2500,
       "module": "PLAYER",
       "pos": {
@@ -98,7 +98,7 @@
       "parents": [
         100
       ],
-      "description": "§cЗдоровье II\n§7При покупке: +5% к бустеру здоровья\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|5",
       "rewards": [
         "sudo %player% increase-booster HEALTH 1.05",
         "sudo %player% update-player-health"
