@@ -3682,31 +3682,71 @@
     "questCategories": [
       {
         "key": "daily",
-        "displayName": "Р•Р¶РµРґРЅРµРІРЅС‹Рµ С‚РµСЃС‚РѕРІС‹Рµ",
+        "displayName": "Ежедневные задания",
         "quests": [
           {
-            "description": "Р”РѕР±СѓРґСЊС‚Рµ С‚РµСЃС‚РѕРІС‹Рµ СЃРѕРєСЂРѕРІРёС‰Р°",
+            "description": "Daily quest I-1",
             "tooltip": {
               "description": "/test-battlepass-quest-add daily-treasures 1"
             },
-            "maxProgress": 3,
-            "rewardExp": 40
+            "maxProgress": 1,
+            "rewardExp": 600
           },
           {
-            "description": "Р—Р°СЂР°Р±РѕС‚Р°Р№С‚Рµ С‚РµСЃС‚РѕРІС‹Рµ РјРѕРЅРµС‚С‹",
+            "description": "Daily quest I-2",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-treasures 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 600
+          },
+          {
+            "description": "Daily quest I-3",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-treasures 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 600
+          },
+          {
+            "description": "Daily quest I-4",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-treasures 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 600
+          },
+          {
+            "description": "Daily quest II-1",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-money 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 1400
+          },
+          {
+            "description": "Daily quest II-2",
             "tooltip": {
               "description": "/test-battlepass-quest-add daily-money 100"
             },
-            "maxProgress": 500,
-            "rewardExp": 50
+            "maxProgress": 1,
+            "rewardExp": 1400
           },
           {
-            "description": "РћС‚РєСЂРѕР№С‚Рµ С‚РµСЃС‚РѕРІС‹Р№ СЃСѓРЅРґСѓРє",
+            "description": "Daily quest III-1",
             "tooltip": {
               "description": "/test-battlepass-quest-add daily-chest 1"
             },
             "maxProgress": 1,
-            "rewardExp": 30
+            "rewardExp": 3250
+          },
+          {
+            "description": "Daily quest IV-1",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add daily-chest 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 3850
           }
         ]
       },
@@ -6169,20 +6209,52 @@
     {
       "id": "daily",
       "refreshPolicy": 60000,
-      "activeQuestCount": 2,
+      "activeQuestCount": 8,
       "quests": [
         {
           "id": "daily-treasures",
-          "goal": 3,
-          "rewardExperience": 40,
+          "goal": 1,
+          "rewardExperience": 600,
+          "commands": [
+            "tell %player% Claimed daily-treasures quest"
+          ]
+        },
+        {
+          "id": "daily-treasures-2",
+          "goal": 1,
+          "rewardExperience": 600,
+          "commands": [
+            "tell %player% Claimed daily-treasures quest"
+          ]
+        },
+        {
+          "id": "daily-treasures-3",
+          "goal": 1,
+          "rewardExperience": 600,
+          "commands": [
+            "tell %player% Claimed daily-treasures quest"
+          ]
+        },
+        {
+          "id": "daily-treasures-4",
+          "goal": 1,
+          "rewardExperience": 600,
           "commands": [
             "tell %player% Claimed daily-treasures quest"
           ]
         },
         {
           "id": "daily-money",
-          "goal": 500,
-          "rewardExperience": 50,
+          "goal": 1,
+          "rewardExperience": 1400,
+          "commands": [
+            "tell %player% Claimed daily-money quest"
+          ]
+        },
+        {
+          "id": "daily-money-2",
+          "goal": 1,
+          "rewardExperience": 1400,
           "commands": [
             "tell %player% Claimed daily-money quest"
           ]
@@ -6190,7 +6262,15 @@
         {
           "id": "daily-chest",
           "goal": 1,
-          "rewardExperience": 30,
+          "rewardExperience": 3250,
+          "commands": [
+            "tell %player% Claimed daily-chest quest"
+          ]
+        },
+        {
+          "id": "daily-chest-2",
+          "goal": 1,
+          "rewardExperience": 3850,
           "commands": [
             "tell %player% Claimed daily-chest quest"
           ]
