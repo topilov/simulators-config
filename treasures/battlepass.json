@@ -6239,17 +6239,19 @@
       "id": "daily",
       "refreshPolicy": 60000,
       "defaultQuestMapping": {
-        "easy": 2,
-        "medium": 1,
-        "hard": 1
+        "I": 4,
+        "II": 2,
+        "III": 1,
+        "IV": 1
       },
       "premiumQuestMapping": {
-        "easy": 3,
-        "medium": 1,
-        "hard": 2
+        "I": 0,
+        "II": 2,
+        "III": 0,
+        "IV": 0
       },
       "questPools": {
-        "easy": [
+        "I": [
           {
             "id": "daily-break-block",
             "type": "BREAK_BLOCK",
@@ -6287,7 +6289,7 @@
             ]
           }
         ],
-        "medium": [
+        "II": [
           {
             "id": "daily-open-pet-lootbox",
             "type": "OPEN_PET_LOOTBOX",
@@ -6307,7 +6309,7 @@
             ]
           }
         ],
-        "hard": [
+        "III": [
           {
             "id": "daily-open-default-lootbox",
             "type": "OPEN_DEFAULT_LOOTBOX",
@@ -6316,7 +6318,9 @@
             "commands": [
               "tell %player% Claimed daily-open-default-lootbox quest"
             ]
-          },
+          }
+        ],
+        "IV": [
           {
             "id": "daily-drop-common-pet",
             "type": "DROP_COMMON_PET",
