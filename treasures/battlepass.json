@@ -3747,6 +3747,22 @@
             },
             "maxProgress": 1,
             "rewardExp": 3850
+          },
+          {
+            "description": "treasures.battlepass.quests.daily.daily-drop-rare-pet.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DROP_RARE_PET 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 3850
+          },
+          {
+            "description": "treasures.battlepass.quests.daily.daily-drop-epic-pet.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DROP_EPIC_PET 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 3850
           }
         ]
       },
@@ -6281,6 +6297,24 @@
           "rewardExperience": 3850,
           "commands": [
             "tell %player% Claimed daily-drop-common-pet quest"
+          ]
+        },
+        {
+          "id": "daily-drop-rare-pet",
+          "type": "DROP_RARE_PET",
+          "goal": 1,
+          "rewardExperience": 3850,
+          "commands": [
+            "tell %player% Claimed daily-drop-rare-pet quest"
+          ]
+        },
+        {
+          "id": "daily-drop-epic-pet",
+          "type": "DROP_EPIC_PET",
+          "goal": 1,
+          "rewardExperience": 3850,
+          "commands": [
+            "tell %player% Claimed daily-drop-epic-pet quest"
           ]
         }
       ]
