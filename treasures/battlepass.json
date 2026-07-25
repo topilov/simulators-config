@@ -3685,6 +3685,7 @@
         "displayName": "treasures.battlepass.quests.daily.title",
         "quests": [
           {
+            "id": "daily-break-block",
             "description": "treasures.battlepass.quests.daily.daily-break-block.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add BREAK_BLOCK 1"
@@ -3693,6 +3694,7 @@
             "rewardExp": 600
           },
           {
+            "id": "daily-find-treasure",
             "description": "treasures.battlepass.quests.daily.daily-find-treasure.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add FIND_TREASURE 1"
@@ -3701,6 +3703,7 @@
             "rewardExp": 600
           },
           {
+            "id": "daily-find-miner-cargo",
             "description": "treasures.battlepass.quests.daily.daily-find-miner-cargo.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add FIND_MINER_CARGO 1"
@@ -3709,6 +3712,7 @@
             "rewardExp": 600
           },
           {
+            "id": "daily-earn-shards",
             "description": "treasures.battlepass.quests.daily.daily-earn-shards.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add EARN_SHARDS 1"
@@ -3717,6 +3721,7 @@
             "rewardExp": 600
           },
           {
+            "id": "daily-open-pet-lootbox",
             "description": "treasures.battlepass.quests.daily.daily-open-pet-lootbox.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 1"
@@ -3725,6 +3730,7 @@
             "rewardExp": 1400
           },
           {
+            "id": "daily-open-rune-lootbox",
             "description": "treasures.battlepass.quests.daily.daily-open-rune-lootbox.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 1"
@@ -3733,6 +3739,7 @@
             "rewardExp": 1400
           },
           {
+            "id": "daily-open-default-lootbox",
             "description": "treasures.battlepass.quests.daily.daily-open-default-lootbox.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add OPEN_DEFAULT_LOOTBOX 1"
@@ -3741,6 +3748,7 @@
             "rewardExp": 3250
           },
           {
+            "id": "daily-drop-common-pet",
             "description": "treasures.battlepass.quests.daily.daily-drop-common-pet.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add DROP_COMMON_PET 1"
@@ -3749,6 +3757,7 @@
             "rewardExp": 3850
           },
           {
+            "id": "daily-drop-rare-pet",
             "description": "treasures.battlepass.quests.daily.daily-drop-rare-pet.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add DROP_RARE_PET 1"
@@ -3757,6 +3766,7 @@
             "rewardExp": 3850
           },
           {
+            "id": "daily-drop-epic-pet",
             "description": "treasures.battlepass.quests.daily.daily-drop-epic-pet.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add DROP_EPIC_PET 1"
@@ -3771,6 +3781,7 @@
         "displayName": "treasures.battlepass.quests.season.title",
         "quests": [
           {
+            "id": "season-drop-rare-pet",
             "description": "treasures.battlepass.quests.season.season-drop-rare-pet.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add DROP_RARE_PET 5"
@@ -3779,6 +3790,7 @@
             "rewardExp": 75
           },
           {
+            "id": "season-drop-epic-pet",
             "description": "treasures.battlepass.quests.season.season-drop-epic-pet.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add DROP_EPIC_PET 10"
@@ -6226,125 +6238,145 @@
     {
       "id": "daily",
       "refreshPolicy": 60000,
-      "activeQuestCount": 4,
-      "premiumQuestCount": 6,
-      "quests": [
-        {
-          "id": "daily-break-block",
-          "type": "BREAK_BLOCK",
-          "goal": 1,
-          "rewardExperience": 600,
-          "commands": [
-            "tell %player% Claimed daily-break-block quest"
-          ]
-        },
-        {
-          "id": "daily-find-treasure",
-          "type": "FIND_TREASURE",
-          "goal": 1,
-          "rewardExperience": 600,
-          "commands": [
-            "tell %player% Claimed daily-find-treasure quest"
-          ]
-        },
-        {
-          "id": "daily-find-miner-cargo",
-          "type": "FIND_MINER_CARGO",
-          "goal": 1,
-          "rewardExperience": 600,
-          "commands": [
-            "tell %player% Claimed daily-find-miner-cargo quest"
-          ]
-        },
-        {
-          "id": "daily-earn-shards",
-          "type": "EARN_SHARDS",
-          "goal": 1,
-          "rewardExperience": 600,
-          "commands": [
-            "tell %player% Claimed daily-earn-shards quest"
-          ]
-        },
-        {
-          "id": "daily-open-pet-lootbox",
-          "type": "OPEN_PET_LOOTBOX",
-          "goal": 1,
-          "rewardExperience": 1400,
-          "commands": [
-            "tell %player% Claimed daily-open-pet-lootbox quest"
-          ]
-        },
-        {
-          "id": "daily-open-rune-lootbox",
-          "type": "OPEN_RUNE_LOOTBOX",
-          "goal": 1,
-          "rewardExperience": 1400,
-          "commands": [
-            "tell %player% Claimed daily-open-rune-lootbox quest"
-          ]
-        },
-        {
-          "id": "daily-open-default-lootbox",
-          "type": "OPEN_DEFAULT_LOOTBOX",
-          "goal": 1,
-          "rewardExperience": 3250,
-          "commands": [
-            "tell %player% Claimed daily-open-default-lootbox quest"
-          ]
-        },
-        {
-          "id": "daily-drop-common-pet",
-          "type": "DROP_COMMON_PET",
-          "goal": 1,
-          "rewardExperience": 3850,
-          "commands": [
-            "tell %player% Claimed daily-drop-common-pet quest"
-          ]
-        },
-        {
-          "id": "daily-drop-rare-pet",
-          "type": "DROP_RARE_PET",
-          "goal": 1,
-          "rewardExperience": 3850,
-          "commands": [
-            "tell %player% Claimed daily-drop-rare-pet quest"
-          ]
-        },
-        {
-          "id": "daily-drop-epic-pet",
-          "type": "DROP_EPIC_PET",
-          "goal": 1,
-          "rewardExperience": 3850,
-          "commands": [
-            "tell %player% Claimed daily-drop-epic-pet quest"
-          ]
-        }
-      ]
+      "defaultQuestMapping": {
+        "easy": 2,
+        "medium": 1,
+        "hard": 1
+      },
+      "premiumQuestMapping": {
+        "easy": 3,
+        "medium": 1,
+        "hard": 2
+      },
+      "questPools": {
+        "easy": [
+          {
+            "id": "daily-break-block",
+            "type": "BREAK_BLOCK",
+            "goal": 1,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed daily-break-block quest"
+            ]
+          },
+          {
+            "id": "daily-find-treasure",
+            "type": "FIND_TREASURE",
+            "goal": 1,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed daily-find-treasure quest"
+            ]
+          },
+          {
+            "id": "daily-find-miner-cargo",
+            "type": "FIND_MINER_CARGO",
+            "goal": 1,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed daily-find-miner-cargo quest"
+            ]
+          },
+          {
+            "id": "daily-earn-shards",
+            "type": "EARN_SHARDS",
+            "goal": 1,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed daily-earn-shards quest"
+            ]
+          }
+        ],
+        "medium": [
+          {
+            "id": "daily-open-pet-lootbox",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 1,
+            "rewardExperience": 1400,
+            "commands": [
+              "tell %player% Claimed daily-open-pet-lootbox quest"
+            ]
+          },
+          {
+            "id": "daily-open-rune-lootbox",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 1,
+            "rewardExperience": 1400,
+            "commands": [
+              "tell %player% Claimed daily-open-rune-lootbox quest"
+            ]
+          }
+        ],
+        "hard": [
+          {
+            "id": "daily-open-default-lootbox",
+            "type": "OPEN_DEFAULT_LOOTBOX",
+            "goal": 1,
+            "rewardExperience": 3250,
+            "commands": [
+              "tell %player% Claimed daily-open-default-lootbox quest"
+            ]
+          },
+          {
+            "id": "daily-drop-common-pet",
+            "type": "DROP_COMMON_PET",
+            "goal": 1,
+            "rewardExperience": 3850,
+            "commands": [
+              "tell %player% Claimed daily-drop-common-pet quest"
+            ]
+          },
+          {
+            "id": "daily-drop-rare-pet",
+            "type": "DROP_RARE_PET",
+            "goal": 1,
+            "rewardExperience": 3850,
+            "commands": [
+              "tell %player% Claimed daily-drop-rare-pet quest"
+            ]
+          },
+          {
+            "id": "daily-drop-epic-pet",
+            "type": "DROP_EPIC_PET",
+            "goal": 1,
+            "rewardExperience": 3850,
+            "commands": [
+              "tell %player% Claimed daily-drop-epic-pet quest"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "season",
-      "activeQuestCount": 2,
-      "premiumQuestCount": 2,
-      "quests": [
-        {
-          "id": "season-drop-rare-pet",
-          "type": "DROP_RARE_PET",
-          "goal": 5,
-          "rewardExperience": 75,
-          "commands": [
-            "tell %player% Claimed season-drop-rare-pet quest"
-          ]
-        },
-        {
-          "id": "season-drop-epic-pet",
-          "type": "DROP_EPIC_PET",
-          "goal": 10,
-          "rewardExperience": 100,
-          "commands": [
-            "tell %player% Claimed season-drop-epic-pet quest"
-          ]
-        }
-      ]
+      "defaultQuestMapping": {
+        "seasonal": 2
+      },
+      "premiumQuestMapping": {
+        "seasonal": 2
+      },
+      "questPools": {
+        "seasonal": [
+          {
+            "id": "season-drop-rare-pet",
+            "type": "DROP_RARE_PET",
+            "goal": 5,
+            "rewardExperience": 75,
+            "commands": [
+              "tell %player% Claimed season-drop-rare-pet quest"
+            ]
+          },
+          {
+            "id": "season-drop-epic-pet",
+            "type": "DROP_EPIC_PET",
+            "goal": 10,
+            "rewardExperience": 100,
+            "commands": [
+              "tell %player% Claimed season-drop-epic-pet quest"
+            ]
+          }
+        ]
+      }
     }
   ],
   "levelShareMessage": "",
