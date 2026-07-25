@@ -1,0 +1,539 @@
+{
+  "profile": {
+    "profileId": "treasures:main",
+    "capacityMode": "SLOTS",
+    "capacityLevels": [100],
+    "capacityFormatId": "treasures:slots",
+    "defaultCategoryId": "treasures:tools",
+    "deletionEnabled": true
+  },
+  "formats": {
+    "treasures:slots": {
+      "divisor": 1,
+      "suffix": "",
+      "fractionDigits": 0
+    }
+  },
+  "categories": {
+    "treasures:tools": {
+      "order": 0,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Инструменты",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_pickaxe",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "treasures:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка инструментов",
+      "emptyText": "Нет доступных инструментов",
+      "actionIds": []
+    },
+    "treasures:treasures": {
+      "order": 1,
+      "layoutKind": "CARD_CATALOG",
+      "title": "Сокровища",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:chest",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "treasures:slots"
+      },
+      "contributesToProfileCapacity": true,
+      "blockingTitle": "Блокировка сокровищ",
+      "emptyText": "Рюкзак пока пуст",
+      "actionIds": [
+        "treasures:sell",
+        "treasures:insert_museum"
+      ]
+    },
+    "treasures:pets": {
+      "order": 2,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Питомцы",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "treasures:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка питомцев",
+      "footerHint": {
+        "gesture": "MIDDLE_CLICK",
+        "title": "Улучшить"
+      },
+      "emptyText": "Нет доступных питомцев",
+      "actionIds": []
+    },
+    "treasures:runes": {
+      "order": 3,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Руны",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "treasures:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка рун",
+      "footerHint": {
+        "gesture": "MIDDLE_CLICK",
+        "title": "Улучшить"
+      },
+      "emptyText": "Нет доступных рун",
+      "actionIds": []
+    },
+    "treasures:titles": {
+      "order": 4,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Титулы",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/titles.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "treasures:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка титулов",
+      "emptyText": "Нет доступных титулов",
+      "actionIds": []
+    },
+    "treasures:perks": {
+      "order": 5,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Перки",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "treasures:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка перков",
+      "emptyText": "Нет доступных перков",
+      "actionIds": []
+    }
+  },
+  "equipmentSlots": {
+    "treasures:primary": {
+      "categoryId": "treasures:tools",
+      "order": 0,
+      "visualRole": "PRIMARY",
+      "title": "Основной инструмент",
+      "emptyIcon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_pickaxe",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true,
+      "projectionTarget": "MAIN_HAND"
+    },
+    "treasures:title": {
+      "categoryId": "treasures:titles",
+      "order": 1,
+      "visualRole": "TITLE",
+      "title": "Титул",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/titles.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "treasures:perk": {
+      "categoryId": "treasures:perks",
+      "order": 2,
+      "visualRole": "PERK",
+      "title": "Перк",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "treasures:rune_1": {
+      "categoryId": "treasures:runes",
+      "order": 3,
+      "visualRole": "RUNE",
+      "title": "Руна 1",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "treasures:rune_2": {
+      "categoryId": "treasures:runes",
+      "order": 4,
+      "visualRole": "RUNE",
+      "title": "Руна 2",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "treasures:rune_3": {
+      "categoryId": "treasures:runes",
+      "order": 5,
+      "visualRole": "RUNE",
+      "title": "Руна 3",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "treasures:pet_1": {
+      "categoryId": "treasures:pets",
+      "order": 6,
+      "visualRole": "PET",
+      "title": "Питомец 1",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "treasures:pet_2": {
+      "categoryId": "treasures:pets",
+      "order": 7,
+      "visualRole": "PET",
+      "title": "Питомец 2",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "treasures:pet_3": {
+      "categoryId": "treasures:pets",
+      "order": 8,
+      "visualRole": "PET",
+      "title": "Питомец 3",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "treasures:pet_4": {
+      "categoryId": "treasures:pets",
+      "order": 9,
+      "visualRole": "PET",
+      "title": "Питомец 4",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "treasures:pet_5": {
+      "categoryId": "treasures:pets",
+      "order": 10,
+      "visualRole": "PET",
+      "title": "Питомец 5",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    }
+  },
+  "items": {
+    "treasures:tool": {
+      "kind": "EQUIPMENT",
+      "categoryId": "treasures:tools",
+      "capabilities": ["EQUIPPABLE", "SELLABLE"],
+      "compatibleEquipmentSlotIds": ["treasures:primary"],
+      "actionIds": [
+        "treasures:upgrade_tool",
+        "treasures:use_save_crystal",
+        "treasures:sell_tool"
+      ],
+      "order": 0,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:diamond_pickaxe",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Инструмент",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "treasures:pet": {
+      "kind": "EQUIPMENT",
+      "categoryId": "treasures:pets",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": [
+        "treasures:pet_1",
+        "treasures:pet_2",
+        "treasures:pet_3",
+        "treasures:pet_4",
+        "treasures:pet_5"
+      ],
+      "actionIds": ["treasures:upgrade_pet"],
+      "order": 1,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/pets.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Питомец",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "treasures:rune": {
+      "kind": "EQUIPMENT",
+      "categoryId": "treasures:runes",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": [
+        "treasures:rune_1",
+        "treasures:rune_2",
+        "treasures:rune_3"
+      ],
+      "actionIds": ["treasures:upgrade_rune"],
+      "order": 2,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/runes.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Руна",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "treasures:title": {
+      "kind": "EQUIPMENT",
+      "categoryId": "treasures:titles",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": ["treasures:title"],
+      "actionIds": [],
+      "order": 3,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/titles.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Титул",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "treasures:perk": {
+      "kind": "EQUIPMENT",
+      "categoryId": "treasures:perks",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": ["treasures:perk"],
+      "actionIds": [],
+      "order": 4,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/perk.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Перк",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "treasures:treasure": {
+      "kind": "CARGO",
+      "categoryId": "treasures:treasures",
+      "capabilities": ["SELLABLE", "DISCARDABLE"],
+      "compatibleEquipmentSlotIds": [],
+      "actionIds": [
+        "treasures:sell",
+        "treasures:insert_museum"
+      ],
+      "order": 5,
+      "weight": {"source": "NONE"},
+      "stacking": {
+        "strategy": "BY_PROPERTIES",
+        "properties": ["definitionId"]
+      },
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:chest",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Сокровище",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    }
+  },
+  "actions": {
+    "treasures:sell": {
+      "categoryId": "treasures:treasures",
+      "targetMode": "MULTIPLE",
+      "order": 0,
+      "title": "Продать выбранное",
+      "gesture": "SECONDARY_CLICK",
+      "style": "PRIMARY",
+      "confirmation": {
+        "title": "Продать сокровища?",
+        "lines": ["Выбранные сокровища будут безвозвратно проданы."],
+        "confirmLabel": "Продать"
+      }
+    },
+    "treasures:insert_museum": {
+      "categoryId": "treasures:treasures",
+      "targetMode": "SINGLE",
+      "order": 1,
+      "title": "Вставить в музей",
+      "gesture": "MIDDLE_CLICK",
+      "style": "NORMAL"
+    },
+    "treasures:upgrade_tool": {
+      "categoryId": "treasures:tools",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
+    },
+    "treasures:use_save_crystal": {
+      "categoryId": "treasures:tools",
+      "targetMode": "SINGLE",
+      "order": 1,
+      "title": "Добавить кристалл",
+      "gesture": "CTRL_SECONDARY_CLICK",
+      "style": "NORMAL"
+    },
+    "treasures:sell_tool": {
+      "categoryId": "treasures:tools",
+      "targetMode": "SINGLE",
+      "order": 2,
+      "title": "Продать",
+      "gesture": "SECONDARY_CLICK",
+      "style": "DANGER",
+      "confirmation": {
+        "title": "Продать инструмент?",
+        "lines": ["Инструмент будет безвозвратно продан."],
+        "confirmLabel": "Продать"
+      }
+    },
+    "treasures:upgrade_pet": {
+      "categoryId": "treasures:pets",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
+    },
+    "treasures:upgrade_rune": {
+      "categoryId": "treasures:runes",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
+    }
+  },
+  "initialEntries": [
+    {
+      "itemId": "treasures:tool",
+      "version": 1,
+      "amount": 1,
+      "favorite": false,
+      "state": {
+        "type": "DEFAULT_PICKAXE",
+        "level": 1,
+        "crystals": 0,
+        "usedCrystals": 0,
+        "digSpeedLevel": null,
+        "strengthLevel": null,
+        "instantStrengthLevel": null,
+        "destroyerLevel": null,
+        "drillLevel": null,
+        "goldenInstinctLevel": null
+      },
+      "equipmentSlotId": "treasures:primary"
+    }
+  ]
+}
