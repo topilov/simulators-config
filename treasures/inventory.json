@@ -35,8 +35,31 @@
       "emptyText": "Нет доступных инструментов",
       "actionIds": []
     },
-    "treasures:pets": {
+    "treasures:treasures": {
       "order": 1,
+      "layoutKind": "CARD_CATALOG",
+      "title": "Сокровища",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:chest",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "treasures:slots"
+      },
+      "contributesToProfileCapacity": true,
+      "blockingTitle": "Блокировка сокровищ",
+      "emptyText": "Рюкзак пока пуст",
+      "actionIds": [
+        "treasures:sell",
+        "treasures:insert_museum"
+      ]
+    },
+    "treasures:pets": {
+      "order": 2,
       "layoutKind": "SLOT_CATALOG",
       "title": "Питомцы",
       "icon": {
@@ -60,7 +83,7 @@
       "actionIds": []
     },
     "treasures:runes": {
-      "order": 2,
+      "order": 3,
       "layoutKind": "SLOT_CATALOG",
       "title": "Руны",
       "icon": {
@@ -84,7 +107,7 @@
       "actionIds": []
     },
     "treasures:titles": {
-      "order": 3,
+      "order": 4,
       "layoutKind": "SLOT_CATALOG",
       "title": "Титулы",
       "icon": {
@@ -104,7 +127,7 @@
       "actionIds": []
     },
     "treasures:perks": {
-      "order": 4,
+      "order": 5,
       "layoutKind": "SLOT_CATALOG",
       "title": "Перки",
       "icon": {
@@ -122,29 +145,6 @@
       "blockingTitle": "Блокировка перков",
       "emptyText": "Нет доступных перков",
       "actionIds": []
-    },
-    "treasures:treasures": {
-      "order": 5,
-      "layoutKind": "CARD_CATALOG",
-      "title": "Сокровища",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:chest",
-        "modelId": 0,
-        "glint": false
-      },
-      "capacity": {
-        "mode": "SLOTS",
-        "limit": 100,
-        "formatId": "treasures:slots"
-      },
-      "contributesToProfileCapacity": true,
-      "blockingTitle": "Блокировка сокровищ",
-      "emptyText": "Рюкзак пока пуст",
-      "actionIds": [
-        "treasures:sell",
-        "treasures:insert_museum"
-      ]
     }
   },
   "equipmentSlots": {
