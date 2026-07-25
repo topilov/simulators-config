@@ -3685,138 +3685,183 @@
         "displayName": "treasures.battlepass.quests.daily.title",
         "quests": [
           {
-            "id": "daily-break-block",
-            "description": "treasures.battlepass.quests.daily.daily-break-block.description",
+            "id": "I-break-blocks-5000",
+            "description": "treasures.battlepass.quests.daily.I-break-blocks-5000.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add BREAK_BLOCK 1"
+              "description": "/test-battlepass-quest-add BREAK_BLOCK 5000"
             },
-            "maxProgress": 1,
+            "maxProgress": 5000,
             "rewardExp": 600
           },
           {
-            "id": "daily-find-treasure",
-            "description": "treasures.battlepass.quests.daily.daily-find-treasure.description",
+            "id": "I-find-treasures-30",
+            "description": "treasures.battlepass.quests.daily.I-find-treasures-30.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add FIND_TREASURE 1"
+              "description": "/test-battlepass-quest-add FIND_TREASURE 30"
             },
-            "maxProgress": 1,
+            "maxProgress": 30,
             "rewardExp": 600
           },
           {
-            "id": "daily-find-miner-cargo",
-            "description": "treasures.battlepass.quests.daily.daily-find-miner-cargo.description",
+            "id": "I-earn-shards-500",
+            "description": "treasures.battlepass.quests.daily.I-earn-shards-500.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add FIND_MINER_CARGO 1"
+              "description": "/test-battlepass-quest-add EARN_SHARDS 500"
             },
-            "maxProgress": 1,
+            "maxProgress": 500,
             "rewardExp": 600
           },
           {
-            "id": "daily-earn-shards",
-            "description": "treasures.battlepass.quests.daily.daily-earn-shards.description",
+            "id": "I-open-pet-lootbox-10",
+            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-10.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add EARN_SHARDS 1"
+              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 10"
             },
-            "maxProgress": 1,
+            "maxProgress": 10,
             "rewardExp": 600
           },
           {
-            "id": "daily-open-pet-lootbox",
-            "description": "treasures.battlepass.quests.daily.daily-open-pet-lootbox.description",
+            "id": "I-open-rune-lootbox-10",
+            "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-10.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 1"
+              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 10"
             },
-            "maxProgress": 1,
+            "maxProgress": 10,
+            "rewardExp": 600
+          },
+          {
+            "id": "II-break-blocks-20000",
+            "description": "treasures.battlepass.quests.daily.II-break-blocks-20000.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add BREAK_BLOCK 20000"
+            },
+            "maxProgress": 20000,
             "rewardExp": 1400
           },
           {
-            "id": "daily-open-pet-lootbox-1",
-            "description": "treasures.battlepass.quests.daily.daily-open-pet-lootbox.description",
+            "id": "II-find-treasures-100",
+            "description": "treasures.battlepass.quests.daily.II-find-treasures-100.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 1"
+              "description": "/test-battlepass-quest-add FIND_TREASURE 100"
             },
-            "maxProgress": 1,
+            "maxProgress": 100,
             "rewardExp": 1400
           },
           {
-            "id": "daily-open-pet-lootbox-2",
-            "description": "treasures.battlepass.quests.daily.daily-open-pet-lootbox.description",
+            "id": "II-earn-shards-1500",
+            "description": "treasures.battlepass.quests.daily.II-earn-shards-1500.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 1"
+              "description": "/test-battlepass-quest-add EARN_SHARDS 1500"
             },
-            "maxProgress": 1,
+            "maxProgress": 1500,
             "rewardExp": 1400
           },
           {
-            "id": "daily-open-pet-lootbox-3",
-            "description": "treasures.battlepass.quests.daily.daily-open-pet-lootbox.description",
+            "id": "II-open-pet-lootbox-50",
+            "description": "treasures.battlepass.quests.daily.II-open-pet-lootbox-50.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 1"
+              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 50"
             },
-            "maxProgress": 1,
+            "maxProgress": 50,
             "rewardExp": 1400
           },
           {
-            "id": "daily-open-pet-lootbox-4",
-            "description": "treasures.battlepass.quests.daily.daily-open-pet-lootbox.description",
+            "id": "II-open-rune-lootbox-50",
+            "description": "treasures.battlepass.quests.daily.II-open-rune-lootbox-50.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 1"
+              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 50"
             },
-            "maxProgress": 1,
+            "maxProgress": 50,
             "rewardExp": 1400
           },
           {
-            "id": "daily-open-pet-lootbox-5",
-            "description": "treasures.battlepass.quests.daily.daily-open-pet-lootbox.description",
+            "id": "III-break-blocks-50000",
+            "description": "treasures.battlepass.quests.daily.III-break-blocks-50000.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 1"
+              "description": "/test-battlepass-quest-add BREAK_BLOCK 50000"
             },
-            "maxProgress": 1,
-            "rewardExp": 1400
-          },
-          {
-            "id": "daily-open-rune-lootbox",
-            "description": "treasures.battlepass.quests.daily.daily-open-rune-lootbox.description",
-            "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 1"
-            },
-            "maxProgress": 1,
-            "rewardExp": 1400
-          },
-          {
-            "id": "daily-open-default-lootbox",
-            "description": "treasures.battlepass.quests.daily.daily-open-default-lootbox.description",
-            "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_DEFAULT_LOOTBOX 1"
-            },
-            "maxProgress": 1,
+            "maxProgress": 50000,
             "rewardExp": 3250
           },
           {
-            "id": "daily-drop-common-pet",
-            "description": "treasures.battlepass.quests.daily.daily-drop-common-pet.description",
+            "id": "III-find-treasures-300",
+            "description": "treasures.battlepass.quests.daily.III-find-treasures-300.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add DROP_COMMON_PET 1"
+              "description": "/test-battlepass-quest-add FIND_TREASURE 300"
             },
-            "maxProgress": 1,
+            "maxProgress": 300,
+            "rewardExp": 3250
+          },
+          {
+            "id": "III-earn-shards-2500",
+            "description": "treasures.battlepass.quests.daily.III-earn-shards-2500.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add EARN_SHARDS 2500"
+            },
+            "maxProgress": 2500,
+            "rewardExp": 3250
+          },
+          {
+            "id": "III-open-pet-lootbox-100",
+            "description": "treasures.battlepass.quests.daily.III-open-pet-lootbox-100.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 100"
+            },
+            "maxProgress": 100,
+            "rewardExp": 3250
+          },
+          {
+            "id": "III-open-rune-lootbox-100",
+            "description": "treasures.battlepass.quests.daily.III-open-rune-lootbox-100.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 100"
+            },
+            "maxProgress": 100,
+            "rewardExp": 3250
+          },
+          {
+            "id": "IV-break-blocks-100000",
+            "description": "treasures.battlepass.quests.daily.IV-break-blocks-100000.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add BREAK_BLOCK 100000"
+            },
+            "maxProgress": 100000,
             "rewardExp": 3850
           },
           {
-            "id": "daily-drop-rare-pet",
-            "description": "treasures.battlepass.quests.daily.daily-drop-rare-pet.description",
+            "id": "IV-find-treasures-1000",
+            "description": "treasures.battlepass.quests.daily.IV-find-treasures-1000.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add DROP_RARE_PET 1"
+              "description": "/test-battlepass-quest-add FIND_TREASURE 1000"
             },
-            "maxProgress": 1,
+            "maxProgress": 1000,
             "rewardExp": 3850
           },
           {
-            "id": "daily-drop-epic-pet",
-            "description": "treasures.battlepass.quests.daily.daily-drop-epic-pet.description",
+            "id": "IV-earn-shards-5000",
+            "description": "treasures.battlepass.quests.daily.IV-earn-shards-5000.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add DROP_EPIC_PET 1"
+              "description": "/test-battlepass-quest-add EARN_SHARDS 5000"
             },
-            "maxProgress": 1,
+            "maxProgress": 5000,
+            "rewardExp": 3850
+          },
+          {
+            "id": "IV-open-pet-lootbox-200",
+            "description": "treasures.battlepass.quests.daily.IV-open-pet-lootbox-200.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 200"
+            },
+            "maxProgress": 200,
+            "rewardExp": 3850
+          },
+          {
+            "id": "IV-open-rune-lootbox-200",
+            "description": "treasures.battlepass.quests.daily.IV-open-rune-lootbox-200.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 200"
+            },
+            "maxProgress": 200,
             "rewardExp": 3850
           }
         ]
@@ -6298,144 +6343,189 @@
       "questPools": {
         "I": [
           {
-            "id": "daily-break-block",
+            "id": "I-break-blocks-5000",
             "type": "BREAK_BLOCK",
-            "goal": 1,
+            "goal": 5000,
             "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed daily-break-block quest"
+              "tell %player% Claimed I-break-blocks-5000 quest"
             ]
           },
           {
-            "id": "daily-find-treasure",
+            "id": "I-find-treasures-30",
             "type": "FIND_TREASURE",
-            "goal": 1,
+            "goal": 30,
             "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed daily-find-treasure quest"
+              "tell %player% Claimed I-find-treasures-30 quest"
             ]
           },
           {
-            "id": "daily-find-miner-cargo",
-            "type": "FIND_MINER_CARGO",
-            "goal": 1,
-            "rewardExperience": 600,
-            "commands": [
-              "tell %player% Claimed daily-find-miner-cargo quest"
-            ]
-          },
-          {
-            "id": "daily-earn-shards",
+            "id": "I-earn-shards-500",
             "type": "EARN_SHARDS",
-            "goal": 1,
+            "goal": 500,
             "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed daily-earn-shards quest"
+              "tell %player% Claimed I-earn-shards-500 quest"
             ]
           },
           {
-            "id": "daily-open-pet-lootbox-4",
+            "id": "I-open-pet-lootbox-10",
             "type": "OPEN_PET_LOOTBOX",
-            "goal": 1,
-            "rewardExperience": 1400,
+            "goal": 10,
+            "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed daily-open-pet-lootbox-4 quest"
+              "tell %player% Claimed I-open-pet-lootbox-10 quest"
             ]
           },
           {
-            "id": "daily-open-pet-lootbox-3",
-            "type": "OPEN_PET_LOOTBOX",
-            "goal": 1,
-            "rewardExperience": 1400,
+            "id": "I-open-rune-lootbox-10",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 10,
+            "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed daily-open-pet-lootbox-3 quest"
+              "tell %player% Claimed I-open-rune-lootbox-10 quest"
             ]
           }
         ],
         "II": [
           {
-            "id": "daily-open-pet-lootbox",
-            "type": "OPEN_PET_LOOTBOX",
-            "goal": 1,
+            "id": "II-break-blocks-20000",
+            "type": "BREAK_BLOCK",
+            "goal": 20000,
             "rewardExperience": 1400,
             "commands": [
-              "tell %player% Claimed daily-open-pet-lootbox quest"
+              "tell %player% Claimed II-break-blocks-20000 quest"
             ]
           },
           {
-            "id": "daily-open-rune-lootbox",
+            "id": "II-find-treasures-100",
+            "type": "FIND_TREASURE",
+            "goal": 100,
+            "rewardExperience": 1400,
+            "commands": [
+              "tell %player% Claimed II-find-treasures-100 quest"
+            ]
+          },
+          {
+            "id": "II-earn-shards-1500",
+            "type": "EARN_SHARDS",
+            "goal": 1500,
+            "rewardExperience": 1400,
+            "commands": [
+              "tell %player% Claimed II-earn-shards-1500 quest"
+            ]
+          },
+          {
+            "id": "II-open-pet-lootbox-50",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 50,
+            "rewardExperience": 1400,
+            "commands": [
+              "tell %player% Claimed II-open-pet-lootbox-50 quest"
+            ]
+          },
+          {
+            "id": "II-open-rune-lootbox-50",
             "type": "OPEN_RUNE_LOOTBOX",
-            "goal": 1,
+            "goal": 50,
             "rewardExperience": 1400,
             "commands": [
-              "tell %player% Claimed daily-open-rune-lootbox quest"
-            ]
-          },
-          {
-            "id": "daily-open-pet-lootbox-1",
-            "type": "OPEN_PET_LOOTBOX",
-            "goal": 1,
-            "rewardExperience": 1400,
-            "commands": [
-              "tell %player% Claimed daily-open-pet-lootbox-1 quest"
-            ]
-          },
-          {
-            "id": "daily-open-pet-lootbox-2",
-            "type": "OPEN_PET_LOOTBOX",
-            "goal": 1,
-            "rewardExperience": 1400,
-            "commands": [
-              "tell %player% Claimed daily-open-pet-lootbox-2 quest"
+              "tell %player% Claimed II-open-rune-lootbox-50 quest"
             ]
           }
         ],
         "III": [
           {
-            "id": "daily-open-default-lootbox",
-            "type": "OPEN_DEFAULT_LOOTBOX",
-            "goal": 1,
+            "id": "III-break-blocks-50000",
+            "type": "BREAK_BLOCK",
+            "goal": 50000,
             "rewardExperience": 3250,
             "commands": [
-              "tell %player% Claimed daily-open-default-lootbox quest"
+              "tell %player% Claimed III-break-blocks-50000 quest"
             ]
           },
           {
-            "id": "daily-open-pet-lootbox-5",
-            "type": "OPEN_PET_LOOTBOX",
-            "goal": 1,
-            "rewardExperience": 1400,
+            "id": "III-find-treasures-300",
+            "type": "FIND_TREASURE",
+            "goal": 300,
+            "rewardExperience": 3250,
             "commands": [
-              "tell %player% Claimed daily-open-pet-lootbox-5 quest"
+              "tell %player% Claimed III-find-treasures-300 quest"
+            ]
+          },
+          {
+            "id": "III-earn-shards-2500",
+            "type": "EARN_SHARDS",
+            "goal": 2500,
+            "rewardExperience": 3250,
+            "commands": [
+              "tell %player% Claimed III-earn-shards-2500 quest"
+            ]
+          },
+          {
+            "id": "III-open-pet-lootbox-100",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 100,
+            "rewardExperience": 3250,
+            "commands": [
+              "tell %player% Claimed III-open-pet-lootbox-100 quest"
+            ]
+          },
+          {
+            "id": "III-open-rune-lootbox-100",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 100,
+            "rewardExperience": 3250,
+            "commands": [
+              "tell %player% Claimed III-open-rune-lootbox-100 quest"
             ]
           }
         ],
         "IV": [
           {
-            "id": "daily-drop-common-pet",
-            "type": "DROP_COMMON_PET",
-            "goal": 1,
+            "id": "IV-break-blocks-100000",
+            "type": "BREAK_BLOCK",
+            "goal": 100000,
             "rewardExperience": 3850,
             "commands": [
-              "tell %player% Claimed daily-drop-common-pet quest"
+              "tell %player% Claimed IV-break-blocks-100000 quest"
             ]
           },
           {
-            "id": "daily-drop-rare-pet",
-            "type": "DROP_RARE_PET",
-            "goal": 1,
+            "id": "IV-find-treasures-1000",
+            "type": "FIND_TREASURE",
+            "goal": 1000,
             "rewardExperience": 3850,
             "commands": [
-              "tell %player% Claimed daily-drop-rare-pet quest"
+              "tell %player% Claimed IV-find-treasures-1000 quest"
             ]
           },
           {
-            "id": "daily-drop-epic-pet",
-            "type": "DROP_EPIC_PET",
-            "goal": 1,
+            "id": "IV-earn-shards-5000",
+            "type": "EARN_SHARDS",
+            "goal": 5000,
             "rewardExperience": 3850,
             "commands": [
-              "tell %player% Claimed daily-drop-epic-pet quest"
+              "tell %player% Claimed IV-earn-shards-5000 quest"
+            ]
+          },
+          {
+            "id": "IV-open-pet-lootbox-200",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 200,
+            "rewardExperience": 3850,
+            "commands": [
+              "tell %player% Claimed IV-open-pet-lootbox-200 quest"
+            ]
+          },
+          {
+            "id": "IV-open-rune-lootbox-200",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 200,
+            "rewardExperience": 3850,
+            "commands": [
+              "tell %player% Claimed IV-open-rune-lootbox-200 quest"
             ]
           }
         ]
