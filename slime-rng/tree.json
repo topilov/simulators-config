@@ -277,9 +277,8 @@
         204
       ],
       "anyParentUpgrade": false,
-      "description": "§aРолл VI\n§7При покупке: +15% к бустеру удачи\n§7При покупке: +15% к бустеру скорости ролла\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.roll.upgrade.description||!|VI|!|15",
       "rewards": [
-        "sudo %player% increase-booster LUCK 1.15",
         "sudo %player% increase-booster ROLL_SPEED 1.15"
       ]
     },
@@ -384,11 +383,9 @@
         304
       ],
       "anyParentUpgrade": false,
-      "description": "§dУрон питомцев VI\n§7При покупке: +20% к бустеру урона\n§7При покупке: +15% к бустеру здоровья\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|VI|!|12",
       "rewards": [
-        "sudo %player% increase-booster DAMAGE 1.2",
-        "sudo %player% increase-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
+        "sudo %player% increase-booster DAMAGE 1.2"
       ]
     },
     {
