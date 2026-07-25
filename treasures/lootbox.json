@@ -32,7 +32,8 @@
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [
         "earn-tutorial-stage-progress %player% OPEN_DEFAULT_LOOTBOX",
-        "add-achievement-progress %player% OPEN_DEFAULT_LOOTBOX %amount%"
+        "add-achievement-progress %player% OPEN_DEFAULT_LOOTBOX %amount%",
+        "add-battlepass-quest-progress %player% OPEN_DEFAULT_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "default",
@@ -218,7 +219,8 @@
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [
         "earn-tutorial-stage-progress %player% OPEN_PET_LOOTBOX",
-        "add-achievement-progress %player% OPEN_PET_LOOTBOX %amount%"
+        "add-achievement-progress %player% OPEN_PET_LOOTBOX %amount%",
+        "add-battlepass-quest-progress %player% OPEN_PET_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "pets",
@@ -237,7 +239,8 @@
             },
             "chance": 10,
             "onDrop": [
-              "give-pet %player% CHEST 1 100000"
+              "give-pet %player% CHEST 1 100000",
+              "add-battlepass-quest-progress %player% DROP_COMMON_PET 1"
             ]
           },
           {
@@ -252,7 +255,8 @@
             },
             "chance": 10,
             "onDrop": [
-              "give-pet %player% ELEPHANT 1 100000"
+              "give-pet %player% ELEPHANT 1 100000",
+              "add-battlepass-quest-progress %player% DROP_COMMON_PET 1"
             ]
           },
           {
@@ -267,7 +271,8 @@
             },
             "chance": 10,
             "onDrop": [
-              "give-pet %player% CHICK 1 100000"
+              "give-pet %player% CHICK 1 100000",
+              "add-battlepass-quest-progress %player% DROP_COMMON_PET 1"
             ]
           },
           {
@@ -282,7 +287,8 @@
             },
             "chance": 10,
             "onDrop": [
-              "give-pet %player% PIRATE_PARROT 1 100000"
+              "give-pet %player% PIRATE_PARROT 1 100000",
+              "add-battlepass-quest-progress %player% DROP_COMMON_PET 1"
             ]
           },
           {
@@ -297,7 +303,8 @@
             },
             "chance": 10,
             "onDrop": [
-              "give-pet %player% HEDGEHOG 1 100000"
+              "give-pet %player% HEDGEHOG 1 100000",
+              "add-battlepass-quest-progress %player% DROP_COMMON_PET 1"
             ]
           },
           {
@@ -312,7 +319,8 @@
             },
             "chance": 10,
             "onDrop": [
-              "give-pet %player% FOX 1 100000"
+              "give-pet %player% FOX 1 100000",
+              "add-battlepass-quest-progress %player% DROP_COMMON_PET 1"
             ]
           },
           {
@@ -327,7 +335,8 @@
             },
             "chance": 4.5,
             "onDrop": [
-              "give-pet %player% TREASURE 1 500000"
+              "give-pet %player% TREASURE 1 500000",
+              "add-battlepass-quest-progress %player% DROP_RARE_PET 1"
             ]
           },
           {
@@ -342,7 +351,8 @@
             },
             "chance": 4.5,
             "onDrop": [
-              "give-pet %player% PIRATE 1 500000"
+              "give-pet %player% PIRATE 1 500000",
+              "add-battlepass-quest-progress %player% DROP_RARE_PET 1"
             ]
           },
           {
@@ -357,7 +367,8 @@
             },
             "chance": 4.5,
             "onDrop": [
-              "give-pet %player% FISH 1 500000"
+              "give-pet %player% FISH 1 500000",
+              "add-battlepass-quest-progress %player% DROP_RARE_PET 1"
             ]
           },
           {
@@ -372,7 +383,8 @@
             },
             "chance": 4.5,
             "onDrop": [
-              "give-pet %player% CAPTAIN 1 500000"
+              "give-pet %player% CAPTAIN 1 500000",
+              "add-battlepass-quest-progress %player% DROP_RARE_PET 1"
             ]
           },
           {
@@ -387,7 +399,8 @@
             },
             "chance": 4.5,
             "onDrop": [
-              "give-pet %player% PUG 1 500000"
+              "give-pet %player% PUG 1 500000",
+              "add-battlepass-quest-progress %player% DROP_RARE_PET 1"
             ]
           },
           {
@@ -402,7 +415,8 @@
             },
             "chance": 2.5,
             "onDrop": [
-              "give-pet %player% NINJA 1 1000000"
+              "give-pet %player% NINJA 1 1000000",
+              "add-battlepass-quest-progress %player% DROP_EPIC_PET 1"
             ]
           },
           {
@@ -417,7 +431,8 @@
             },
             "chance": 2.5,
             "onDrop": [
-              "give-pet %player% COOKIE 1 1000000"
+              "give-pet %player% COOKIE 1 1000000",
+              "add-battlepass-quest-progress %player% DROP_EPIC_PET 1"
             ]
           },
           {
@@ -432,7 +447,8 @@
             },
             "chance": 2.5,
             "onDrop": [
-              "give-pet %player% MUSHROOM 1 1000000"
+              "give-pet %player% MUSHROOM 1 1000000",
+              "add-battlepass-quest-progress %player% DROP_EPIC_PET 1"
             ]
           },
           {
@@ -447,7 +463,8 @@
             },
             "chance": 2.5,
             "onDrop": [
-              "give-pet %player% RUNE 1 1000000"
+              "give-pet %player% RUNE 1 1000000",
+              "add-battlepass-quest-progress %player% DROP_EPIC_PET 1"
             ]
           },
           {
@@ -462,7 +479,8 @@
             },
             "chance": 2.5,
             "onDrop": [
-              "give-pet %player% MINI_MINER 1 1000000"
+              "give-pet %player% MINI_MINER 1 1000000",
+              "add-battlepass-quest-progress %player% DROP_EPIC_PET 1"
             ]
           },
           {
@@ -477,7 +495,8 @@
             },
             "chance": 1,
             "onDrop": [
-              "give-pet %player% BEE 1 5000000"
+              "give-pet %player% BEE 1 5000000",
+              "add-battlepass-quest-progress %player% DROP_LEGENDARY_PET 1"
             ]
           },
           {
@@ -492,7 +511,8 @@
             },
             "chance": 1,
             "onDrop": [
-              "give-pet %player% FUGUE 1 5000000"
+              "give-pet %player% FUGUE 1 5000000",
+              "add-battlepass-quest-progress %player% DROP_LEGENDARY_PET 1"
             ]
           },
           {
@@ -507,7 +527,8 @@
             },
             "chance": 1,
             "onDrop": [
-              "give-pet %player% EARTH 1 5000000"
+              "give-pet %player% EARTH 1 5000000",
+              "add-battlepass-quest-progress %player% DROP_LEGENDARY_PET 1"
             ]
           },
           {
@@ -522,7 +543,8 @@
             },
             "chance": 1,
             "onDrop": [
-              "give-pet %player% OWL 1 5000000"
+              "give-pet %player% OWL 1 5000000",
+              "add-battlepass-quest-progress %player% DROP_LEGENDARY_PET 1"
             ]
           },
           {
@@ -537,7 +559,8 @@
             },
             "chance": 1,
             "onDrop": [
-              "give-pet %player% CHEST_TREASURES 1 5000000"
+              "give-pet %player% CHEST_TREASURES 1 5000000",
+              "add-battlepass-quest-progress %player% DROP_LEGENDARY_PET 1"
             ]
           }
         ]
@@ -575,7 +598,8 @@
       "alertSound": "UI_TOAST_CHALLENGE_COMPLETE",
       "onOpen": [
         "earn-tutorial-stage-progress %player% OPEN_RUNE_LOOTBOX",
-        "add-achievement-progress %player% OPEN_RUNE_LOOTBOX %amount%"
+        "add-achievement-progress %player% OPEN_RUNE_LOOTBOX %amount%",
+        "add-battlepass-quest-progress %player% OPEN_RUNE_LOOTBOX %amount%"
       ],
       "menu": {
         "id": "rune",
@@ -684,7 +708,8 @@
             },
             "chance": 3.2,
             "onDrop": [
-              "give-rune %player% LUCK 1000000"
+              "give-rune %player% LUCK 1000000",
+              "add-battlepass-quest-progress %player% DROP_EPIC_RUNE 1"
             ]
           },
           {
@@ -699,7 +724,8 @@
             },
             "chance": 1,
             "onDrop": [
-              "give-rune %player% BOOM 1000000"
+              "give-rune %player% BOOM 1000000",
+              "add-battlepass-quest-progress %player% DROP_LEGENDARY_RUNE 1"
             ]
           },
           {
@@ -729,7 +755,8 @@
             },
             "chance": 3.2,
             "onDrop": [
-              "give-rune %player% BLACKSMITH 1000000"
+              "give-rune %player% BLACKSMITH 1000000",
+              "add-battlepass-quest-progress %player% DROP_EPIC_RUNE 1"
             ]
           },
           {
@@ -744,7 +771,8 @@
             },
             "chance": 3.2,
             "onDrop": [
-              "give-rune %player% LUCKY 1000000"
+              "give-rune %player% LUCKY 1000000",
+              "add-battlepass-quest-progress %player% DROP_EPIC_RUNE 1"
             ]
           },
           {
@@ -759,7 +787,8 @@
             },
             "chance": 3.2,
             "onDrop": [
-              "give-rune %player% COLLECTOR 5000000"
+              "give-rune %player% COLLECTOR 5000000",
+              "add-battlepass-quest-progress %player% DROP_EPIC_RUNE 1"
             ]
           },
           {
@@ -774,7 +803,8 @@
             },
             "chance": 1,
             "onDrop": [
-              "give-rune %player% PET 5000000"
+              "give-rune %player% PET 5000000",
+              "add-battlepass-quest-progress %player% DROP_LEGENDARY_RUNE 1"
             ]
           },
           {
@@ -789,7 +819,8 @@
             },
             "chance": 1,
             "onDrop": [
-              "give-rune %player% SUPER_PLAYER 5000000"
+              "give-rune %player% SUPER_PLAYER 5000000",
+              "add-battlepass-quest-progress %player% DROP_LEGENDARY_RUNE 1"
             ]
           },
           {

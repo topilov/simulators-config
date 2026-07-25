@@ -3685,65 +3685,65 @@
         "displayName": "Ежедневные задания",
         "quests": [
           {
-            "description": "Daily quest I-1",
+            "description": "Накопайте 1 блок",
             "tooltip": {
-              "description": "/test-battlepass-quest-add daily-treasures 1"
+              "description": "/test-battlepass-quest-add BREAK_BLOCK 1"
             },
             "maxProgress": 1,
             "rewardExp": 600
           },
           {
-            "description": "Daily quest I-2",
+            "description": "Найдите 1 сокровище",
             "tooltip": {
-              "description": "/test-battlepass-quest-add daily-treasures 1"
+              "description": "/test-battlepass-quest-add FIND_TREASURE 1"
             },
             "maxProgress": 1,
             "rewardExp": 600
           },
           {
-            "description": "Daily quest I-3",
+            "description": "Найдите груз в событии «Охота за шахтёрским грузом» 1 раз",
             "tooltip": {
-              "description": "/test-battlepass-quest-add daily-treasures 1"
+              "description": "/test-battlepass-quest-add FIND_MINER_CARGO 1"
             },
             "maxProgress": 1,
             "rewardExp": 600
           },
           {
-            "description": "Daily quest I-4",
+            "description": "Заработайте 1 шард",
             "tooltip": {
-              "description": "/test-battlepass-quest-add daily-treasures 1"
+              "description": "/test-battlepass-quest-add EARN_SHARDS 1"
             },
             "maxProgress": 1,
             "rewardExp": 600
           },
           {
-            "description": "Daily quest II-1",
+            "description": "Откройте 1 лутбокс с питомцами",
             "tooltip": {
-              "description": "/test-battlepass-quest-add daily-money 1"
+              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 1"
             },
             "maxProgress": 1,
             "rewardExp": 1400
           },
           {
-            "description": "Daily quest II-2",
+            "description": "Откройте 1 лутбокс с рунами",
             "tooltip": {
-              "description": "/test-battlepass-quest-add daily-money 100"
+              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 1"
             },
             "maxProgress": 1,
             "rewardExp": 1400
           },
           {
-            "description": "Daily quest III-1",
+            "description": "Откройте 1 обычный лутбокс",
             "tooltip": {
-              "description": "/test-battlepass-quest-add daily-chest 1"
+              "description": "/test-battlepass-quest-add OPEN_DEFAULT_LOOTBOX 1"
             },
             "maxProgress": 1,
             "rewardExp": 3250
           },
           {
-            "description": "Daily quest IV-1",
+            "description": "Выбейте 1 обычного питомца",
             "tooltip": {
-              "description": "/test-battlepass-quest-add daily-chest 1"
+              "description": "/test-battlepass-quest-add DROP_COMMON_PET 1"
             },
             "maxProgress": 1,
             "rewardExp": 3850
@@ -3752,20 +3752,20 @@
       },
       {
         "key": "season",
-        "displayName": "РЎРµР·РѕРЅРЅС‹Рµ С‚РµСЃС‚РѕРІС‹Рµ",
+        "displayName": "Сезонные задания",
         "quests": [
           {
-            "description": "РЎРµР·РѕРЅРЅС‹Р№ РїСЂРѕРіСЂРµСЃСЃ",
+            "description": "Выбейте 5 редких питомцев",
             "tooltip": {
-              "description": "/test-battlepass-quest-add season-progress 1"
+              "description": "/test-battlepass-quest-add DROP_RARE_PET 5"
             },
             "maxProgress": 5,
             "rewardExp": 75
           },
           {
-            "description": "РџРѕР»РЅРѕСЃС‚СЊСЋ Р·Р°РІРµСЂС€РёС‚Рµ СЃРµР·РѕРЅРЅСѓСЋ С†РµР»СЊ",
+            "description": "Выбейте 10 эпических питомцев",
             "tooltip": {
-              "description": "/test-battlepass-quest-set season-master 10"
+              "description": "/test-battlepass-quest-add DROP_EPIC_PET 10"
             },
             "maxProgress": 10,
             "rewardExp": 100
@@ -3888,19 +3888,19 @@
     "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
   },
   "purchaseModalSettings": {
-    "description": "В§7РўРµСЃС‚РѕРІС‹Р№ BattlePass Treasures",
+    "description": "treasures.battlepass.purchase-modal.description",
     "regularOffer": {
-      "title": "В§aРћР±С‹С‡РЅС‹Р№ С‚РµСЃС‚РѕРІС‹Р№",
+      "title": "treasures.battlepass.purchase-modal.regular.title",
       "benefits": [
-        "В§fРћС‚РєСЂС‹РІР°РµС‚ РїСЂРµРјРёСѓРј-РЅР°РіСЂР°РґС‹",
-        "В§fР¦РµРЅР° 0 РґР»СЏ Р±РµР·РѕРїР°СЃРЅРѕРіРѕ С‚РµСЃС‚Р°"
+        "treasures.battlepass.purchase-modal.regular.benefit.premium-rewards",
+        "treasures.battlepass.purchase-modal.regular.benefit.test-price"
       ]
     },
     "specialOffer": {
-      "title": "В§6РћСЃРѕР±С‹Р№ С‚РµСЃС‚РѕРІС‹Р№",
+      "title": "treasures.battlepass.purchase-modal.special.title",
       "benefits": [
-        "В§fРћС‚РєСЂС‹РІР°РµС‚ РїСЂРµРјРёСѓРј-РЅР°РіСЂР°РґС‹",
-        "В§fРЎСЂР°Р·Сѓ РґРѕР±Р°РІР»СЏРµС‚ 2 СѓСЂРѕРІРЅСЏ"
+        "treasures.battlepass.purchase-modal.special.benefit.premium-rewards",
+        "treasures.battlepass.purchase-modal.special.benefit.bonus-levels"
       ]
     }
   },
@@ -6212,67 +6212,75 @@
       "activeQuestCount": 8,
       "quests": [
         {
-          "id": "daily-treasures",
+          "id": "daily-break-block",
+          "type": "BREAK_BLOCK",
           "goal": 1,
           "rewardExperience": 600,
           "commands": [
-            "tell %player% Claimed daily-treasures quest"
+            "tell %player% Claimed daily-break-block quest"
           ]
         },
         {
-          "id": "daily-treasures-2",
+          "id": "daily-find-treasure",
+          "type": "FIND_TREASURE",
           "goal": 1,
           "rewardExperience": 600,
           "commands": [
-            "tell %player% Claimed daily-treasures quest"
+            "tell %player% Claimed daily-find-treasure quest"
           ]
         },
         {
-          "id": "daily-treasures-3",
+          "id": "daily-find-miner-cargo",
+          "type": "FIND_MINER_CARGO",
           "goal": 1,
           "rewardExperience": 600,
           "commands": [
-            "tell %player% Claimed daily-treasures quest"
+            "tell %player% Claimed daily-find-miner-cargo quest"
           ]
         },
         {
-          "id": "daily-treasures-4",
+          "id": "daily-earn-shards",
+          "type": "EARN_SHARDS",
           "goal": 1,
           "rewardExperience": 600,
           "commands": [
-            "tell %player% Claimed daily-treasures quest"
+            "tell %player% Claimed daily-earn-shards quest"
           ]
         },
         {
-          "id": "daily-money",
+          "id": "daily-open-pet-lootbox",
+          "type": "OPEN_PET_LOOTBOX",
           "goal": 1,
           "rewardExperience": 1400,
           "commands": [
-            "tell %player% Claimed daily-money quest"
+            "tell %player% Claimed daily-open-pet-lootbox quest"
           ]
         },
         {
-          "id": "daily-money-2",
+          "id": "daily-open-rune-lootbox",
+          "type": "OPEN_RUNE_LOOTBOX",
           "goal": 1,
           "rewardExperience": 1400,
           "commands": [
-            "tell %player% Claimed daily-money quest"
+            "tell %player% Claimed daily-open-rune-lootbox quest"
           ]
         },
         {
-          "id": "daily-chest",
+          "id": "daily-open-default-lootbox",
+          "type": "OPEN_DEFAULT_LOOTBOX",
           "goal": 1,
           "rewardExperience": 3250,
           "commands": [
-            "tell %player% Claimed daily-chest quest"
+            "tell %player% Claimed daily-open-default-lootbox quest"
           ]
         },
         {
-          "id": "daily-chest-2",
+          "id": "daily-drop-common-pet",
+          "type": "DROP_COMMON_PET",
           "goal": 1,
           "rewardExperience": 3850,
           "commands": [
-            "tell %player% Claimed daily-chest quest"
+            "tell %player% Claimed daily-drop-common-pet quest"
           ]
         }
       ]
@@ -6282,19 +6290,21 @@
       "activeQuestCount": 2,
       "quests": [
         {
-          "id": "season-progress",
+          "id": "season-drop-rare-pet",
+          "type": "DROP_RARE_PET",
           "goal": 5,
           "rewardExperience": 75,
           "commands": [
-            "tell %player% Claimed season-progress quest"
+            "tell %player% Claimed season-drop-rare-pet quest"
           ]
         },
         {
-          "id": "season-master",
+          "id": "season-drop-epic-pet",
+          "type": "DROP_EPIC_PET",
           "goal": 10,
           "rewardExperience": 100,
           "commands": [
-            "tell %player% Claimed season-master quest"
+            "tell %player% Claimed season-drop-epic-pet quest"
           ]
         }
       ]
