@@ -1,6 +1,6 @@
 {
   "default": {
-    "size": 48.0,
+    "size": 48,
     "color": {
       "hex": "#FFFFFF"
     },
@@ -60,514 +60,442 @@
     {
       "id": 1,
       "name": "Дерево улучшений",
-      "price": 0.0,
+      "price": 0,
       "initiallyUpgraded": true,
       "pos": {
-        "x": 0.0,
-        "y": 0.0
+        "x": 0,
+        "y": 0
       },
       "description": "§fЦентр дерева улучшений"
     },
     {
       "id": 100,
       "name": "Здоровье I",
-      "price": 1000.0,
+      "price": 1000,
       "module": "PLAYER",
       "pos": {
-        "x": 0.0,
-        "y": -100.0
+        "x": 0,
+        "y": -100
       },
       "parents": [
         1
       ],
-      "description": "§cЗдоровье I\n§7При покупке: +5% к бустеру здоровья\n§7Цена: {price} \uE0FC",
+      "description": "§cЗдоровье I\n§7При покупке: +5% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "HEALTH",
-          "multiplier": 1.05
-        }
+        "sudo %player% increase-booster HEALTH 1.05",
+        "sudo %player% update-player-health"
       ]
     },
     {
       "id": 101,
       "name": "Здоровье II",
-      "price": 2500.0,
+      "price": 2500,
       "module": "PLAYER",
       "pos": {
-        "x": 110.0,
-        "y": -200.0
+        "x": 110,
+        "y": -200
       },
       "parents": [
         100
       ],
-      "description": "§cЗдоровье II\n§7При покупке: +5% к бустеру здоровья\n§7Цена: {price} \uE0FC",
+      "description": "§cЗдоровье II\n§7При покупке: +5% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "HEALTH",
-          "multiplier": 1.05
-        }
+        "sudo %player% increase-booster HEALTH 1.05",
+        "sudo %player% update-player-health"
       ]
     },
     {
       "id": 102,
       "name": "Здоровье III",
-      "price": 7500.0,
+      "price": 7500,
       "module": "PLAYER",
       "pos": {
-        "x": -110.0,
-        "y": -200.0
+        "x": -110,
+        "y": -200
       },
       "parents": [
         100
       ],
-      "description": "§cЗдоровье III\n§7При покупке: +10% к бустеру здоровья\n§7Цена: {price} \uE0FC",
+      "description": "§cЗдоровье III\n§7При покупке: +10% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "HEALTH",
-          "multiplier": 1.1
-        }
+        "sudo %player% increase-booster HEALTH 1.1",
+        "sudo %player% update-player-health"
       ]
     },
     {
       "id": 103,
       "name": "Здоровье IV",
-      "price": 20000.0,
+      "price": 20000,
       "module": "PLAYER",
       "pos": {
-        "x": -110.0,
-        "y": -300.0
+        "x": -110,
+        "y": -300
       },
       "parents": [
         102
       ],
-      "description": "§cЗдоровье IV\n§7При покупке: +10% к бустеру здоровья\n§7Цена: {price} \uE0FC",
+      "description": "§cЗдоровье IV\n§7При покупке: +10% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "HEALTH",
-          "multiplier": 1.1
-        }
+        "sudo %player% increase-booster HEALTH 1.1",
+        "sudo %player% update-player-health"
       ]
     },
     {
       "id": 104,
       "name": "Здоровье V",
-      "price": 50000.0,
+      "price": 50000,
       "module": "PLAYER",
       "pos": {
-        "x": 110.0,
-        "y": -300.0
+        "x": 110,
+        "y": -300
       },
       "parents": [
         101
       ],
-      "description": "§cЗдоровье V\n§7При покупке: +15% к бустеру здоровья\n§7Цена: {price} \uE0FC",
+      "description": "§cЗдоровье V\n§7При покупке: +15% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "HEALTH",
-          "multiplier": 1.15
-        }
+        "sudo %player% increase-booster HEALTH 1.15",
+        "sudo %player% update-player-health"
       ]
     },
     {
       "id": 105,
       "name": "Стойкость",
-      "price": 150000.0,
+      "price": 150000,
       "module": "PLAYER",
       "pos": {
-        "x": 0.0,
-        "y": -400.0
+        "x": 0,
+        "y": -400
       },
       "parents": [
         103,
         104
       ],
       "anyParentUpgrade": false,
-      "description": "§cСтойкость\n§7При покупке: +20% к бустеру здоровья\n§7Цена: {price} \uE0FC",
+      "description": "§cСтойкость\n§7При покупке: +20% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "HEALTH",
-          "multiplier": 1.2
-        }
+        "sudo %player% increase-booster HEALTH 1.2",
+        "sudo %player% update-player-health"
       ]
     },
     {
       "id": 200,
       "name": "Скорость ролла I",
-      "price": 1500.0,
+      "price": 1500,
       "module": "SLIMES",
       "pos": {
-        "x": 100.0,
-        "y": 0.0
+        "x": 100,
+        "y": 0
       },
       "parents": [
         1
       ],
-      "description": "§aСкорость ролла I\n§7При покупке: +5% к бустеру скорости ролла\n§7Цена: {price} \uE0FC",
+      "description": "§aСкорость ролла I\n§7При покупке: +5% к бустеру скорости ролла\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "ROLL_SPEED",
-          "multiplier": 1.05
-        }
+        "sudo %player% increase-booster ROLL_SPEED 1.05"
       ]
     },
     {
       "id": 201,
       "name": "Удача I",
-      "price": 5000.0,
+      "price": 5000,
       "module": "SLIMES",
       "pos": {
-        "x": 200.0,
-        "y": -110.0
+        "x": 200,
+        "y": -110
       },
       "parents": [
         200
       ],
-      "description": "§aУдача I\n§7При покупке: +5% к бустеру удачи\n§7Цена: {price} \uE0FC",
+      "description": "§aУдача I\n§7При покупке: +5% к бустеру удачи\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "LUCK",
-          "multiplier": 1.05
-        }
+        "sudo %player% increase-booster LUCK 1.05"
       ]
     },
     {
       "id": 202,
       "name": "Скорость ролла II",
-      "price": 15000.0,
+      "price": 15000,
       "module": "SLIMES",
       "pos": {
-        "x": 200.0,
-        "y": 110.0
+        "x": 200,
+        "y": 110
       },
       "parents": [
         200
       ],
-      "description": "§aСкорость ролла II\n§7При покупке: +10% к бустеру скорости ролла\n§7Цена: {price} \uE0FC",
+      "description": "§aСкорость ролла II\n§7При покупке: +10% к бустеру скорости ролла\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "ROLL_SPEED",
-          "multiplier": 1.1
-        }
+        "sudo %player% increase-booster ROLL_SPEED 1.1"
       ]
     },
     {
       "id": 203,
       "name": "Удача II",
-      "price": 50000.0,
+      "price": 50000,
       "module": "SLIMES",
       "pos": {
-        "x": 300.0,
-        "y": -110.0
+        "x": 300,
+        "y": -110
       },
       "parents": [
         201
       ],
-      "description": "§aУдача II\n§7При покупке: +10% к бустеру удачи\n§7Цена: {price} \uE0FC",
+      "description": "§aУдача II\n§7При покупке: +10% к бустеру удачи\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "LUCK",
-          "multiplier": 1.1
-        }
+        "sudo %player% increase-booster LUCK 1.1"
       ]
     },
     {
       "id": 204,
       "name": "Скорость ролла III",
-      "price": 150000.0,
+      "price": 150000,
       "module": "SLIMES",
       "pos": {
-        "x": 300.0,
-        "y": 110.0
+        "x": 300,
+        "y": 110
       },
       "parents": [
         202
       ],
-      "description": "§aСкорость ролла III\n§7При покупке: +15% к бустеру скорости ролла\n§7Цена: {price} \uE0FC",
+      "description": "§aСкорость ролла III\n§7При покупке: +15% к бустеру скорости ролла\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "ROLL_SPEED",
-          "multiplier": 1.15
-        }
+        "sudo %player% increase-booster ROLL_SPEED 1.15"
       ]
     },
     {
       "id": 205,
       "name": "Мастер ролла",
-      "price": 500000.0,
+      "price": 500000,
       "module": "SLIMES",
       "pos": {
-        "x": 400.0,
-        "y": 0.0
+        "x": 400,
+        "y": 0
       },
       "parents": [
         203,
         204
       ],
       "anyParentUpgrade": false,
-      "description": "§aМастер ролла\n§7При покупке: +15% к бустеру удачи\n§7При покупке: +15% к бустеру скорости ролла\n§7Цена: {price} \uE0FC",
+      "description": "§aМастер ролла\n§7При покупке: +15% к бустеру удачи\n§7При покупке: +15% к бустеру скорости ролла\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "LUCK",
-          "multiplier": 1.15
-        },
-        {
-          "boosterType": "ROLL_SPEED",
-          "multiplier": 1.15
-        }
+        "sudo %player% increase-booster LUCK 1.15",
+        "sudo %player% increase-booster ROLL_SPEED 1.15"
       ]
     },
     {
       "id": 300,
       "name": "Урон питомцев I",
-      "price": 2000.0,
+      "price": 2000,
       "module": "PETS",
       "pos": {
-        "x": -100.0,
-        "y": 0.0
+        "x": -100,
+        "y": 0
       },
       "parents": [
         1
       ],
-      "description": "§dУрон питомцев I\n§7При покупке: +5% к бустеру урона\n§7Цена: {price} \uE0FC",
+      "description": "§dУрон питомцев I\n§7При покупке: +5% к бустеру урона\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "DAMAGE",
-          "multiplier": 1.05
-        }
+        "sudo %player% increase-booster DAMAGE 1.05"
       ]
     },
     {
       "id": 301,
       "name": "Здоровье I",
-      "price": 6000.0,
+      "price": 6000,
       "module": "PETS",
       "pos": {
-        "x": -200.0,
-        "y": -110.0
+        "x": -200,
+        "y": -110
       },
       "parents": [
         300
       ],
-      "description": "§dЗдоровье I\n§7При покупке: +5% к бустеру здоровья\n§7Цена: {price} \uE0FC",
+      "description": "§dЗдоровье I\n§7При покупке: +5% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "HEALTH",
-          "multiplier": 1.05
-        }
+        "sudo %player% increase-booster HEALTH 1.05",
+        "sudo %player% update-player-health"
       ]
     },
     {
       "id": 302,
       "name": "Урон питомцев II",
-      "price": 18000.0,
+      "price": 18000,
       "module": "PETS",
       "pos": {
-        "x": -200.0,
-        "y": 110.0
+        "x": -200,
+        "y": 110
       },
       "parents": [
         300
       ],
-      "description": "§dУрон питомцев II\n§7При покупке: +10% к бустеру урона\n§7Цена: {price} \uE0FC",
+      "description": "§dУрон питомцев II\n§7При покупке: +10% к бустеру урона\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "DAMAGE",
-          "multiplier": 1.1
-        }
+        "sudo %player% increase-booster DAMAGE 1.1"
       ]
     },
     {
       "id": 303,
       "name": "Здоровье II",
-      "price": 60000.0,
+      "price": 60000,
       "module": "PETS",
       "pos": {
-        "x": -300.0,
-        "y": -110.0
+        "x": -300,
+        "y": -110
       },
       "parents": [
         301
       ],
-      "description": "§dЗдоровье II\n§7При покупке: +10% к бустеру здоровья\n§7Цена: {price} \uE0FC",
+      "description": "§dЗдоровье II\n§7При покупке: +10% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "HEALTH",
-          "multiplier": 1.1
-        }
+        "sudo %player% increase-booster HEALTH 1.1",
+        "sudo %player% update-player-health"
       ]
     },
     {
       "id": 304,
       "name": "Урон питомцев III",
-      "price": 180000.0,
+      "price": 180000,
       "module": "PETS",
       "pos": {
-        "x": -300.0,
-        "y": 110.0
+        "x": -300,
+        "y": 110
       },
       "parents": [
         302
       ],
-      "description": "§dУрон питомцев III\n§7При покупке: +15% к бустеру урона\n§7Цена: {price} \uE0FC",
+      "description": "§dУрон питомцев III\n§7При покупке: +15% к бустеру урона\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "DAMAGE",
-          "multiplier": 1.15
-        }
+        "sudo %player% increase-booster DAMAGE 1.15"
       ]
     },
     {
       "id": 305,
       "name": "Инстинкт охотника",
-      "price": 600000.0,
+      "price": 600000,
       "module": "PETS",
       "pos": {
-        "x": -400.0,
-        "y": 0.0
+        "x": -400,
+        "y": 0
       },
       "parents": [
         303,
         304
       ],
       "anyParentUpgrade": false,
-      "description": "§dИнстинкт охотника\n§7При покупке: +20% к бустеру урона\n§7При покупке: +15% к бустеру здоровья\n§7Цена: {price} \uE0FC",
+      "description": "§dИнстинкт охотника\n§7При покупке: +20% к бустеру урона\n§7При покупке: +15% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "DAMAGE",
-          "multiplier": 1.2
-        },
-        {
-          "boosterType": "HEALTH",
-          "multiplier": 1.15
-        }
+        "sudo %player% increase-booster DAMAGE 1.2",
+        "sudo %player% increase-booster HEALTH 1.15",
+        "sudo %player% update-player-health"
       ]
     },
     {
       "id": 400,
       "name": "Доход I",
-      "price": 1000.0,
+      "price": 1000,
       "module": "ECONOMY",
       "pos": {
-        "x": 0.0,
-        "y": 100.0
+        "x": 0,
+        "y": 100
       },
       "parents": [
         1
       ],
-      "description": "§eДоход I\n§7При покупке: +5% к бустеру монет\n§7Цена: {price} \uE0FC",
+      "description": "§eДоход I\n§7При покупке: +5% к бустеру монет\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "MONEY",
-          "multiplier": 1.05
-        }
+        "sudo %player% increase-booster MONEY 1.05"
       ]
     },
     {
       "id": 401,
       "name": "Доход II",
-      "price": 4000.0,
+      "price": 4000,
       "module": "ECONOMY",
       "pos": {
-        "x": -110.0,
-        "y": 200.0
+        "x": -110,
+        "y": 200
       },
       "parents": [
         400
       ],
-      "description": "§eДоход II\n§7При покупке: +5% к бустеру монет\n§7Цена: {price} \uE0FC",
+      "description": "§eДоход II\n§7При покупке: +5% к бустеру монет\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "MONEY",
-          "multiplier": 1.05
-        }
+        "sudo %player% increase-booster MONEY 1.05"
       ]
     },
     {
       "id": 402,
       "name": "Доход III",
-      "price": 12000.0,
+      "price": 12000,
       "module": "ECONOMY",
       "pos": {
-        "x": 110.0,
-        "y": 200.0
+        "x": 110,
+        "y": 200
       },
       "parents": [
         400
       ],
-      "description": "§eДоход III\n§7При покупке: +10% к бустеру монет\n§7Цена: {price} \uE0FC",
+      "description": "§eДоход III\n§7При покупке: +10% к бустеру монет\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "MONEY",
-          "multiplier": 1.1
-        }
+        "sudo %player% increase-booster MONEY 1.1"
       ]
     },
     {
       "id": 403,
       "name": "Доход IV",
-      "price": 40000.0,
+      "price": 40000,
       "module": "ECONOMY",
       "pos": {
-        "x": -110.0,
-        "y": 300.0
+        "x": -110,
+        "y": 300
       },
       "parents": [
         401
       ],
-      "description": "§eДоход IV\n§7При покупке: +10% к бустеру монет\n§7Цена: {price} \uE0FC",
+      "description": "§eДоход IV\n§7При покупке: +10% к бустеру монет\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "MONEY",
-          "multiplier": 1.1
-        }
+        "sudo %player% increase-booster MONEY 1.1"
       ]
     },
     {
       "id": 404,
       "name": "Доход V",
-      "price": 120000.0,
+      "price": 120000,
       "module": "ECONOMY",
       "pos": {
-        "x": 110.0,
-        "y": 300.0
+        "x": 110,
+        "y": 300
       },
       "parents": [
         402
       ],
-      "description": "§eДоход V\n§7При покупке: +15% к бустеру монет\n§7Цена: {price} \uE0FC",
+      "description": "§eДоход V\n§7При покупке: +15% к бустеру монет\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "MONEY",
-          "multiplier": 1.15
-        }
+        "sudo %player% increase-booster MONEY 1.15"
       ]
     },
     {
       "id": 405,
       "name": "Джекпот",
-      "price": 400000.0,
+      "price": 400000,
       "module": "ECONOMY",
       "pos": {
-        "x": 0.0,
-        "y": 400.0
+        "x": 0,
+        "y": 400
       },
       "parents": [
         403,
         404
       ],
       "anyParentUpgrade": false,
-      "description": "§eДжекпот\n§7При покупке: +25% к бустеру монет\n§7Цена: {price} \uE0FC",
+      "description": "§eДжекпот\n§7При покупке: +25% к бустеру монет\n§7Цена: {price} ",
       "rewards": [
-        {
-          "boosterType": "MONEY",
-          "multiplier": 1.25
-        }
+        "sudo %player% increase-booster MONEY 1.25"
       ]
     }
   ],
   "coloredLines": true,
   "multiWayMode": true
 }
-
-
-
