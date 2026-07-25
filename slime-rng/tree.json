@@ -8,7 +8,7 @@
     "texture": "",
     "icon": {
       "type": "NETHER_STAR",
-      "name": "§fДерево улучшений",
+      "name": "srng.bind.description.tree",
       "lore": ""
     },
     "anyParentUpgrade": true,
@@ -21,27 +21,27 @@
       },
       "icon": {
         "type": "GOLDEN_APPLE",
-        "name": "§cИгрок",
+        "name": "srng.tree.module.player.name",
+        "lore": ""
+      }
+    },
+    "ROLL": {
+      "color": {
+        "hex": "#58D68D"
+      },
+      "icon": {
+        "type": "STONE",
+        "name": "srng.tree.module.roll.name",
         "lore": ""
       }
     },
     "SLIMES": {
       "color": {
-        "hex": "#58D68D"
-      },
-      "icon": {
-        "type": "SLIME_BALL",
-        "name": "§aСлаймы",
-        "lore": ""
-      }
-    },
-    "PETS": {
-      "color": {
         "hex": "#AF7AC5"
       },
       "icon": {
-        "type": "BONE",
-        "name": "§dПитомцы",
+        "type": "SLIME_BALL",
+        "name": "srng.tree.module.slimes.name",
         "lore": ""
       }
     },
@@ -51,7 +51,7 @@
       },
       "icon": {
         "type": "GOLD_INGOT",
-        "name": "§eЭкономика",
+        "name": "srng.tree.module.economy.name",
         "lore": ""
       }
     }
@@ -59,14 +59,14 @@
   "elements": [
     {
       "id": 1,
-      "name": "Дерево улучшений",
+      "name": "srng.bind.description.tree",
       "price": 0,
       "initiallyUpgraded": true,
       "pos": {
         "x": 0,
         "y": 0
       },
-      "description": "§fЦентр дерева улучшений"
+      "description": "srng.tree.center.description"
     },
     {
       "id": 100,
@@ -80,7 +80,7 @@
       "parents": [
         1
       ],
-      "description": "§cЗдоровье I\n§7При покупке: +5% к бустеру здоровья\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|5",
       "rewards": [
         "sudo %player% increase-booster HEALTH 1.05",
         "sudo %player% update-player-health"
@@ -182,7 +182,7 @@
       "id": 200,
       "name": "Скорость ролла I",
       "price": 1500,
-      "module": "SLIMES",
+      "module": "ROLL",
       "pos": {
         "x": 100,
         "y": 0
@@ -199,7 +199,7 @@
       "id": 201,
       "name": "Удача I",
       "price": 5000,
-      "module": "SLIMES",
+      "module": "ROLL",
       "pos": {
         "x": 200,
         "y": -110
@@ -216,7 +216,7 @@
       "id": 202,
       "name": "Скорость ролла II",
       "price": 15000,
-      "module": "SLIMES",
+      "module": "ROLL",
       "pos": {
         "x": 200,
         "y": 110
@@ -233,7 +233,7 @@
       "id": 203,
       "name": "Удача II",
       "price": 50000,
-      "module": "SLIMES",
+      "module": "ROLL",
       "pos": {
         "x": 300,
         "y": -110
@@ -250,7 +250,7 @@
       "id": 204,
       "name": "Скорость ролла III",
       "price": 150000,
-      "module": "SLIMES",
+      "module": "ROLL",
       "pos": {
         "x": 300,
         "y": 110
@@ -267,7 +267,7 @@
       "id": 205,
       "name": "Мастер ролла",
       "price": 500000,
-      "module": "SLIMES",
+      "module": "ROLL",
       "pos": {
         "x": 400,
         "y": 0
@@ -287,7 +287,7 @@
       "id": 300,
       "name": "Урон питомцев I",
       "price": 2000,
-      "module": "PETS",
+      "module": "SLIMES",
       "pos": {
         "x": -100,
         "y": 0
@@ -304,7 +304,7 @@
       "id": 301,
       "name": "Здоровье I",
       "price": 6000,
-      "module": "PETS",
+      "module": "SLIMES",
       "pos": {
         "x": -200,
         "y": -110
@@ -322,7 +322,7 @@
       "id": 302,
       "name": "Урон питомцев II",
       "price": 18000,
-      "module": "PETS",
+      "module": "SLIMES",
       "pos": {
         "x": -200,
         "y": 110
@@ -339,7 +339,7 @@
       "id": 303,
       "name": "Здоровье II",
       "price": 60000,
-      "module": "PETS",
+      "module": "SLIMES",
       "pos": {
         "x": -300,
         "y": -110
@@ -357,7 +357,7 @@
       "id": 304,
       "name": "Урон питомцев III",
       "price": 180000,
-      "module": "PETS",
+      "module": "SLIMES",
       "pos": {
         "x": -300,
         "y": 110
@@ -374,7 +374,7 @@
       "id": 305,
       "name": "Инстинкт охотника",
       "price": 600000,
-      "module": "PETS",
+      "module": "SLIMES",
       "pos": {
         "x": -400,
         "y": 0
