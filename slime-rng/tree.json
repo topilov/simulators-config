@@ -80,11 +80,17 @@
       "parents": [
         1
       ],
-      "description": "§cЗдоровье I\n§7Максимальное здоровье увеличено на 10"
+      "description": "§cЗдоровье I\n§7При покупке: +5% к бустеру здоровья",
+      "rewards": [
+        {
+          "boosterType": "HEALTH",
+          "multiplier": 1.05
+        }
+      ]
     },
     {
       "id": 101,
-      "name": "Скорость I",
+      "name": "Здоровье II",
       "price": 2500.0,
       "module": "PLAYER",
       "pos": {
@@ -94,11 +100,17 @@
       "parents": [
         100
       ],
-      "description": "§cСкорость I\n§7Скорость передвижения увеличена на 5%"
+      "description": "§cЗдоровье II\n§7При покупке: +5% к бустеру здоровья",
+      "rewards": [
+        {
+          "boosterType": "HEALTH",
+          "multiplier": 1.05
+        }
+      ]
     },
     {
       "id": 102,
-      "name": "Здоровье II",
+      "name": "Здоровье III",
       "price": 7500.0,
       "module": "PLAYER",
       "pos": {
@@ -108,11 +120,17 @@
       "parents": [
         100
       ],
-      "description": "§cЗдоровье II\n§7Максимальное здоровье увеличено ещё на 20"
+      "description": "§cЗдоровье III\n§7При покупке: +10% к бустеру здоровья",
+      "rewards": [
+        {
+          "boosterType": "HEALTH",
+          "multiplier": 1.1
+        }
+      ]
     },
     {
       "id": 103,
-      "name": "Регенерация",
+      "name": "Здоровье IV",
       "price": 20000.0,
       "module": "PLAYER",
       "pos": {
@@ -122,11 +140,17 @@
       "parents": [
         102
       ],
-      "description": "§cРегенерация\n§7Восстановление здоровья ускорено на 15%"
+      "description": "§cЗдоровье IV\n§7При покупке: +10% к бустеру здоровья",
+      "rewards": [
+        {
+          "boosterType": "HEALTH",
+          "multiplier": 1.1
+        }
+      ]
     },
     {
       "id": 104,
-      "name": "Скорость II",
+      "name": "Здоровье V",
       "price": 50000.0,
       "module": "PLAYER",
       "pos": {
@@ -136,7 +160,13 @@
       "parents": [
         101
       ],
-      "description": "§cСкорость II\n§7Скорость передвижения увеличена ещё на 10%"
+      "description": "§cЗдоровье V\n§7При покупке: +15% к бустеру здоровья",
+      "rewards": [
+        {
+          "boosterType": "HEALTH",
+          "multiplier": 1.15
+        }
+      ]
     },
     {
       "id": 105,
@@ -152,11 +182,17 @@
         104
       ],
       "anyParentUpgrade": false,
-      "description": "§cСтойкость\n§7Получаемый урон уменьшен на 10%"
+      "description": "§cСтойкость\n§7При покупке: +20% к бустеру здоровья",
+      "rewards": [
+        {
+          "boosterType": "HEALTH",
+          "multiplier": 1.2
+        }
+      ]
     },
     {
       "id": 200,
-      "name": "Быстрый ролл I",
+      "name": "Скорость ролла I",
       "price": 1500.0,
       "module": "SLIMES",
       "pos": {
@@ -166,7 +202,13 @@
       "parents": [
         1
       ],
-      "description": "§aБыстрый ролл I\n§7Время ролла уменьшено на 5%"
+      "description": "§aСкорость ролла I\n§7При покупке: +5% к бустеру скорости ролла",
+      "rewards": [
+        {
+          "boosterType": "ROLL_SPEED",
+          "multiplier": 1.05
+        }
+      ]
     },
     {
       "id": 201,
@@ -180,11 +222,17 @@
       "parents": [
         200
       ],
-      "description": "§aУдача I\n§7Шанс редких слаймов увеличен на 5%"
+      "description": "§aУдача I\n§7При покупке: +5% к бустеру удачи",
+      "rewards": [
+        {
+          "boosterType": "LUCK",
+          "multiplier": 1.05
+        }
+      ]
     },
     {
       "id": 202,
-      "name": "Быстрый ролл II",
+      "name": "Скорость ролла II",
       "price": 15000.0,
       "module": "SLIMES",
       "pos": {
@@ -194,7 +242,13 @@
       "parents": [
         200
       ],
-      "description": "§aБыстрый ролл II\n§7Время ролла уменьшено ещё на 10%"
+      "description": "§aСкорость ролла II\n§7При покупке: +10% к бустеру скорости ролла",
+      "rewards": [
+        {
+          "boosterType": "ROLL_SPEED",
+          "multiplier": 1.1
+        }
+      ]
     },
     {
       "id": 203,
@@ -208,11 +262,17 @@
       "parents": [
         201
       ],
-      "description": "§aУдача II\n§7Шанс редких слаймов увеличен ещё на 10%"
+      "description": "§aУдача II\n§7При покупке: +10% к бустеру удачи",
+      "rewards": [
+        {
+          "boosterType": "LUCK",
+          "multiplier": 1.1
+        }
+      ]
     },
     {
       "id": 204,
-      "name": "Редкая находка",
+      "name": "Скорость ролла III",
       "price": 150000.0,
       "module": "SLIMES",
       "pos": {
@@ -222,11 +282,17 @@
       "parents": [
         202
       ],
-      "description": "§aРедкая находка\n§7Редкие слаймы появляются на 15% чаще"
+      "description": "§aСкорость ролла III\n§7При покупке: +15% к бустеру скорости ролла",
+      "rewards": [
+        {
+          "boosterType": "ROLL_SPEED",
+          "multiplier": 1.15
+        }
+      ]
     },
     {
       "id": 205,
-      "name": "Двойной ролл",
+      "name": "Мастер ролла",
       "price": 500000.0,
       "module": "SLIMES",
       "pos": {
@@ -238,7 +304,17 @@
         204
       ],
       "anyParentUpgrade": false,
-      "description": "§aДвойной ролл\n§75% шанс получить дополнительного слайма"
+      "description": "§aМастер ролла\n§7При покупке: +15% к бустеру удачи\n§7При покупке: +15% к бустеру скорости ролла",
+      "rewards": [
+        {
+          "boosterType": "LUCK",
+          "multiplier": 1.15
+        },
+        {
+          "boosterType": "ROLL_SPEED",
+          "multiplier": 1.15
+        }
+      ]
     },
     {
       "id": 300,
@@ -252,11 +328,17 @@
       "parents": [
         1
       ],
-      "description": "§dУрон питомцев I\n§7Урон питомцев увеличен на 10%"
+      "description": "§dУрон питомцев I\n§7При покупке: +5% к бустеру урона",
+      "rewards": [
+        {
+          "boosterType": "DAMAGE",
+          "multiplier": 1.05
+        }
+      ]
     },
     {
       "id": 301,
-      "name": "Здоровье питомцев I",
+      "name": "Здоровье I",
       "price": 6000.0,
       "module": "PETS",
       "pos": {
@@ -266,11 +348,17 @@
       "parents": [
         300
       ],
-      "description": "§dЗдоровье питомцев I\n§7Здоровье питомцев увеличено на 10%"
+      "description": "§dЗдоровье I\n§7При покупке: +5% к бустеру здоровья",
+      "rewards": [
+        {
+          "boosterType": "HEALTH",
+          "multiplier": 1.05
+        }
+      ]
     },
     {
       "id": 302,
-      "name": "Скорость атаки",
+      "name": "Урон питомцев II",
       "price": 18000.0,
       "module": "PETS",
       "pos": {
@@ -280,11 +368,17 @@
       "parents": [
         300
       ],
-      "description": "§dСкорость атаки\n§7Питомцы атакуют на 10% быстрее"
+      "description": "§dУрон питомцев II\n§7При покупке: +10% к бустеру урона",
+      "rewards": [
+        {
+          "boosterType": "DAMAGE",
+          "multiplier": 1.1
+        }
+      ]
     },
     {
       "id": 303,
-      "name": "Дополнительный слот",
+      "name": "Здоровье II",
       "price": 60000.0,
       "module": "PETS",
       "pos": {
@@ -294,11 +388,17 @@
       "parents": [
         301
       ],
-      "description": "§dДополнительный слот\n§7Открывает ещё один слот питомца"
+      "description": "§dЗдоровье II\n§7При покупке: +10% к бустеру здоровья",
+      "rewards": [
+        {
+          "boosterType": "HEALTH",
+          "multiplier": 1.1
+        }
+      ]
     },
     {
       "id": 304,
-      "name": "Урон питомцев II",
+      "name": "Урон питомцев III",
       "price": 180000.0,
       "module": "PETS",
       "pos": {
@@ -308,7 +408,13 @@
       "parents": [
         302
       ],
-      "description": "§dУрон питомцев II\n§7Урон питомцев увеличен ещё на 20%"
+      "description": "§dУрон питомцев III\n§7При покупке: +15% к бустеру урона",
+      "rewards": [
+        {
+          "boosterType": "DAMAGE",
+          "multiplier": 1.15
+        }
+      ]
     },
     {
       "id": 305,
@@ -324,7 +430,17 @@
         304
       ],
       "anyParentUpgrade": false,
-      "description": "§dИнстинкт охотника\n§7Радиус поиска целей увеличен на 25%"
+      "description": "§dИнстинкт охотника\n§7При покупке: +20% к бустеру урона\n§7При покупке: +15% к бустеру здоровья",
+      "rewards": [
+        {
+          "boosterType": "DAMAGE",
+          "multiplier": 1.2
+        },
+        {
+          "boosterType": "HEALTH",
+          "multiplier": 1.15
+        }
+      ]
     },
     {
       "id": 400,
@@ -338,11 +454,17 @@
       "parents": [
         1
       ],
-      "description": "§eДоход I\n§7Получаемые монеты увеличены на 5%"
+      "description": "§eДоход I\n§7При покупке: +5% к бустеру монет",
+      "rewards": [
+        {
+          "boosterType": "MONEY",
+          "multiplier": 1.05
+        }
+      ]
     },
     {
       "id": 401,
-      "name": "Награда за убийство",
+      "name": "Доход II",
       "price": 4000.0,
       "module": "ECONOMY",
       "pos": {
@@ -352,11 +474,17 @@
       "parents": [
         400
       ],
-      "description": "§eНаграда за убийство\n§7Монеты за противников увеличены на 10%"
+      "description": "§eДоход II\n§7При покупке: +5% к бустеру монет",
+      "rewards": [
+        {
+          "boosterType": "MONEY",
+          "multiplier": 1.05
+        }
+      ]
     },
     {
       "id": 402,
-      "name": "Доход II",
+      "name": "Доход III",
       "price": 12000.0,
       "module": "ECONOMY",
       "pos": {
@@ -366,11 +494,17 @@
       "parents": [
         400
       ],
-      "description": "§eДоход II\n§7Получаемые монеты увеличены ещё на 10%"
+      "description": "§eДоход III\n§7При покупке: +10% к бустеру монет",
+      "rewards": [
+        {
+          "boosterType": "MONEY",
+          "multiplier": 1.1
+        }
+      ]
     },
     {
       "id": 403,
-      "name": "Скидка",
+      "name": "Доход IV",
       "price": 40000.0,
       "module": "ECONOMY",
       "pos": {
@@ -380,11 +514,17 @@
       "parents": [
         401
       ],
-      "description": "§eСкидка\n§7Стоимость покупок уменьшена на 5%"
+      "description": "§eДоход IV\n§7При покупке: +10% к бустеру монет",
+      "rewards": [
+        {
+          "boosterType": "MONEY",
+          "multiplier": 1.1
+        }
+      ]
     },
     {
       "id": 404,
-      "name": "Бонус возрождения",
+      "name": "Доход V",
       "price": 120000.0,
       "module": "ECONOMY",
       "pos": {
@@ -394,7 +534,13 @@
       "parents": [
         402
       ],
-      "description": "§eБонус возрождения\n§7Награда за возрождение увеличена на 15%"
+      "description": "§eДоход V\n§7При покупке: +15% к бустеру монет",
+      "rewards": [
+        {
+          "boosterType": "MONEY",
+          "multiplier": 1.15
+        }
+      ]
     },
     {
       "id": 405,
@@ -410,7 +556,13 @@
         404
       ],
       "anyParentUpgrade": false,
-      "description": "§eДжекпот\n§73% шанс удвоить полученные монеты"
+      "description": "§eДжекпот\n§7При покупке: +25% к бустеру монет",
+      "rewards": [
+        {
+          "boosterType": "MONEY",
+          "multiplier": 1.25
+        }
+      ]
     }
   ],
   "coloredLines": true,
