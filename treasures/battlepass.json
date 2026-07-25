@@ -3747,6 +3747,22 @@
             },
             "maxProgress": 1,
             "rewardExp": 3850
+          },
+          {
+            "description": "treasures.battlepass.quests.daily.daily-drop-rare-pet.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DROP_RARE_PET 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 3850
+          },
+          {
+            "description": "treasures.battlepass.quests.daily.daily-drop-epic-pet.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DROP_EPIC_PET 1"
+            },
+            "maxProgress": 1,
+            "rewardExp": 3850
           }
         ]
       },
@@ -3885,6 +3901,7 @@
     "resetEnabled": true,
     "resetUnlockLevel": 100,
     "giftingEnabled": true,
+    "premiumQuestExperienceBonusPercent": 20,
     "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
   },
   "purchaseModalSettings": {
@@ -6210,6 +6227,7 @@
       "id": "daily",
       "refreshPolicy": 60000,
       "activeQuestCount": 8,
+      "premiumQuestCount": 2,
       "quests": [
         {
           "id": "daily-break-block",
@@ -6282,12 +6300,31 @@
           "commands": [
             "tell %player% Claimed daily-drop-common-pet quest"
           ]
+        },
+        {
+          "id": "daily-drop-rare-pet",
+          "type": "DROP_RARE_PET",
+          "goal": 1,
+          "rewardExperience": 3850,
+          "commands": [
+            "tell %player% Claimed daily-drop-rare-pet quest"
+          ]
+        },
+        {
+          "id": "daily-drop-epic-pet",
+          "type": "DROP_EPIC_PET",
+          "goal": 1,
+          "rewardExperience": 3850,
+          "commands": [
+            "tell %player% Claimed daily-drop-epic-pet quest"
+          ]
         }
       ]
     },
     {
       "id": "season",
       "activeQuestCount": 2,
+      "premiumQuestCount": 2,
       "quests": [
         {
           "id": "season-drop-rare-pet",
