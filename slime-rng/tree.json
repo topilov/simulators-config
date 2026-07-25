@@ -160,7 +160,7 @@
     },
     {
       "id": 105,
-      "name": "Стойкость",
+      "name": "i18n.srng.tree.health.upgrade.name|!|VI",
       "price": 150000,
       "module": "PLAYER",
       "pos": {
@@ -172,7 +172,7 @@
         104
       ],
       "anyParentUpgrade": false,
-      "description": "§cСтойкость\n§7При покупке: +20% к бустеру здоровья\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.health.upgrade.description|!|VI|!|20",
       "rewards": [
         "sudo %player% increase-booster HEALTH 1.2",
         "sudo %player% update-player-health"
@@ -180,7 +180,7 @@
     },
     {
       "id": 200,
-      "name": "Скорость ролла I",
+      "name": "srng.tree.roll.upgrade.name|!|I",
       "price": 1500,
       "module": "ROLL",
       "pos": {
@@ -190,14 +190,14 @@
       "parents": [
         1
       ],
-      "description": "§aСкорость ролла I\n§7При покупке: +5% к бустеру скорости ролла\n§7Цена: {price} ",
+      "description": "srng.tree.roll.upgrade.description|!|I|!|5",
       "rewards": [
         "sudo %player% increase-booster ROLL_SPEED 1.05"
       ]
     },
     {
       "id": 201,
-      "name": "Удача I",
+      "name": "i18n.srng.tree.luck.upgrade.name|!|I",
       "price": 5000,
       "module": "ROLL",
       "pos": {
@@ -207,14 +207,14 @@
       "parents": [
         200
       ],
-      "description": "§aУдача I\n§7При покупке: +5% к бустеру удачи\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|I|!|5",
       "rewards": [
         "sudo %player% increase-booster LUCK 1.05"
       ]
     },
     {
       "id": 202,
-      "name": "Скорость ролла II",
+      "name": "i18n.srng.tree.roll.upgrade.name|!|II",
       "price": 15000,
       "module": "ROLL",
       "pos": {
@@ -224,14 +224,14 @@
       "parents": [
         200
       ],
-      "description": "§aСкорость ролла II\n§7При покупке: +10% к бустеру скорости ролла\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|II|!|10",
       "rewards": [
         "sudo %player% increase-booster ROLL_SPEED 1.1"
       ]
     },
     {
       "id": 203,
-      "name": "Удача II",
+      "name": "i18n.srng.tree.luck.upgrade.name|!|II",
       "price": 50000,
       "module": "ROLL",
       "pos": {
@@ -241,14 +241,14 @@
       "parents": [
         201
       ],
-      "description": "§aУдача II\n§7При покупке: +10% к бустеру удачи\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|II|!|10",
       "rewards": [
         "sudo %player% increase-booster LUCK 1.1"
       ]
     },
     {
       "id": 204,
-      "name": "Скорость ролла III",
+      "name": "i18n.srng.tree.roll.upgrade.name|!|III",
       "price": 150000,
       "module": "ROLL",
       "pos": {
@@ -258,14 +258,14 @@
       "parents": [
         202
       ],
-      "description": "§aСкорость ролла III\n§7При покупке: +15% к бустеру скорости ролла\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|III|!|15",
       "rewards": [
         "sudo %player% increase-booster ROLL_SPEED 1.15"
       ]
     },
     {
       "id": 205,
-      "name": "Мастер ролла",
+      "name": "i18n.srng.tree.roll.upgrade.name|!|VI",
       "price": 500000,
       "module": "ROLL",
       "pos": {
@@ -277,7 +277,7 @@
         204
       ],
       "anyParentUpgrade": false,
-      "description": "§aМастер ролла\n§7При покупке: +15% к бустеру удачи\n§7При покупке: +15% к бустеру скорости ролла\n§7Цена: {price} ",
+      "description": "§aРолл VI\n§7При покупке: +15% к бустеру удачи\n§7При покупке: +15% к бустеру скорости ролла\n§7Цена: {price} ",
       "rewards": [
         "sudo %player% increase-booster LUCK 1.15",
         "sudo %player% increase-booster ROLL_SPEED 1.15"
@@ -285,7 +285,7 @@
     },
     {
       "id": 300,
-      "name": "Урон питомцев I",
+      "name": "i18n.srng.tree.damage.upgrade.name|!|I",
       "price": 2000,
       "module": "SLIMES",
       "pos": {
@@ -295,14 +295,14 @@
       "parents": [
         1
       ],
-      "description": "§dУрон питомцев I\n§7При покупке: +5% к бустеру урона\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|5",
       "rewards": [
         "sudo %player% increase-booster DAMAGE 1.05"
       ]
     },
     {
       "id": 301,
-      "name": "Здоровье I",
+      "name": "i18n.srng.tree.health.upgrade.name|!|I",
       "price": 6000,
       "module": "SLIMES",
       "pos": {
@@ -312,7 +312,7 @@
       "parents": [
         300
       ],
-      "description": "§dЗдоровье I\n§7При покупке: +5% к бустеру здоровья\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|5",
       "rewards": [
         "sudo %player% increase-booster HEALTH 1.05",
         "sudo %player% update-player-health"
@@ -320,7 +320,7 @@
     },
     {
       "id": 302,
-      "name": "Урон питомцев II",
+      "name": "i18n.srng.tree.damage.upgrade.name|!|II",
       "price": 18000,
       "module": "SLIMES",
       "pos": {
@@ -330,14 +330,14 @@
       "parents": [
         300
       ],
-      "description": "§dУрон питомцев II\n§7При покупке: +10% к бустеру урона\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|10",
       "rewards": [
         "sudo %player% increase-booster DAMAGE 1.1"
       ]
     },
     {
       "id": 303,
-      "name": "Здоровье II",
+      "name": "i18n.srng.tree.health.upgrade.name|!|II",
       "price": 60000,
       "module": "SLIMES",
       "pos": {
@@ -347,7 +347,7 @@
       "parents": [
         301
       ],
-      "description": "§dЗдоровье II\n§7При покупке: +10% к бустеру здоровья\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|10",
       "rewards": [
         "sudo %player% increase-booster HEALTH 1.1",
         "sudo %player% update-player-health"
@@ -355,7 +355,7 @@
     },
     {
       "id": 304,
-      "name": "Урон питомцев III",
+      "name": "i18n.srng.tree.damage.upgrade.name|!|III",
       "price": 180000,
       "module": "SLIMES",
       "pos": {
@@ -365,14 +365,14 @@
       "parents": [
         302
       ],
-      "description": "§dУрон питомцев III\n§7При покупке: +15% к бустеру урона\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|15",
       "rewards": [
         "sudo %player% increase-booster DAMAGE 1.15"
       ]
     },
     {
       "id": 305,
-      "name": "Инстинкт охотника",
+      "name": "i18n.srng.tree.damage.upgrade.name|!|VI",
       "price": 600000,
       "module": "SLIMES",
       "pos": {
@@ -384,7 +384,7 @@
         304
       ],
       "anyParentUpgrade": false,
-      "description": "§dИнстинкт охотника\n§7При покупке: +20% к бустеру урона\n§7При покупке: +15% к бустеру здоровья\n§7Цена: {price} ",
+      "description": "§dУрон питомцев VI\n§7При покупке: +20% к бустеру урона\n§7При покупке: +15% к бустеру здоровья\n§7Цена: {price} ",
       "rewards": [
         "sudo %player% increase-booster DAMAGE 1.2",
         "sudo %player% increase-booster HEALTH 1.15",
@@ -393,7 +393,7 @@
     },
     {
       "id": 400,
-      "name": "Доход I",
+      "name": "i18n.srng.tree.money.upgrade.name|!|I",
       "price": 1000,
       "module": "ECONOMY",
       "pos": {
@@ -403,14 +403,14 @@
       "parents": [
         1
       ],
-      "description": "§eДоход I\n§7При покупке: +5% к бустеру монет\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.money.upgrade.description|!|I|!|5",
       "rewards": [
         "sudo %player% increase-booster MONEY 1.05"
       ]
     },
     {
       "id": 401,
-      "name": "Доход II",
+      "name": "i18n.srng.tree.money.upgrade.name|!|II",
       "price": 4000,
       "module": "ECONOMY",
       "pos": {
@@ -420,14 +420,14 @@
       "parents": [
         400
       ],
-      "description": "§eДоход II\n§7При покупке: +5% к бустеру монет\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.money.upgrade.description|!|II|!|5",
       "rewards": [
         "sudo %player% increase-booster MONEY 1.05"
       ]
     },
     {
       "id": 402,
-      "name": "Доход III",
+      "name": "i18n.srng.tree.money.upgrade.name|!|III",
       "price": 12000,
       "module": "ECONOMY",
       "pos": {
@@ -437,14 +437,14 @@
       "parents": [
         400
       ],
-      "description": "§eДоход III\n§7При покупке: +10% к бустеру монет\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.money.upgrade.description|!|III|!|10",
       "rewards": [
         "sudo %player% increase-booster MONEY 1.1"
       ]
     },
     {
       "id": 403,
-      "name": "Доход IV",
+      "name": "i18n.srng.tree.money.upgrade.name|!|IV",
       "price": 40000,
       "module": "ECONOMY",
       "pos": {
@@ -454,14 +454,14 @@
       "parents": [
         401
       ],
-      "description": "§eДоход IV\n§7При покупке: +10% к бустеру монет\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.money.upgrade.description|!|IV|!|10",
       "rewards": [
         "sudo %player% increase-booster MONEY 1.1"
       ]
     },
     {
       "id": 404,
-      "name": "Доход V",
+      "name": "i18n.srng.tree.money.upgrade.name|!|V",
       "price": 120000,
       "module": "ECONOMY",
       "pos": {
@@ -471,14 +471,14 @@
       "parents": [
         402
       ],
-      "description": "§eДоход V\n§7При покупке: +15% к бустеру монет\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.money.upgrade.description|!|V|!|15",
       "rewards": [
         "sudo %player% increase-booster MONEY 1.15"
       ]
     },
     {
       "id": 405,
-      "name": "Джекпот",
+      "name": "i18n.srng.tree.money.upgrade.name|!|VI",
       "price": 400000,
       "module": "ECONOMY",
       "pos": {
@@ -490,7 +490,7 @@
         404
       ],
       "anyParentUpgrade": false,
-      "description": "§eДжекпот\n§7При покупке: +25% к бустеру монет\n§7Цена: {price} ",
+      "description": "i18n.srng.tree.money.upgrade.description|!|VI|!|25",
       "rewards": [
         "sudo %player% increase-booster MONEY 1.25"
       ]
