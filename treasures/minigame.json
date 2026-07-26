@@ -143,7 +143,7 @@
       },
       "game": {
         "arenaStatus": "STARTED",
-        "duration": 180,
+        "duration": 240,
         "pointIndicator": {
           "type": "COMMON",
           "positions": 3,
@@ -704,9 +704,9 @@
       ],
       "activeCases": 4,
       "elixir": {
-        "spawnEverySeconds": 35,
+        "spawnEverySeconds": 40,
         "spawnCount": 5,
-        "chestType": "CRYSTAL",
+        "chestType": "LEGENDARY",
         "skill": {
           "type": "CLAY_BALL",
           "name": "treasures.minigame.treasure_race.elixir.hud.title",
@@ -726,7 +726,7 @@
         "applyEverySeconds": 10,
         "entries": {
           "slowdown": {
-            "chance": 20,
+            "chance": 15,
             "blockedByElixir": true,
             "message": "treasures.minigame.treasure_race.event.slowdown",
             "commands": [
@@ -742,7 +742,7 @@
             ]
           },
           "teleport-back": {
-            "chance": 9,
+            "chance": 5,
             "blockedByElixir": true,
             "message": "treasures.minigame.treasure_race.event.teleport-back",
             "commands": [
@@ -750,7 +750,7 @@
             ]
           },
           "teleport-forward": {
-            "chance": 12,
+            "chance": 5,
             "blockedByElixir": false,
             "message": "treasures.minigame.treasure_race.event.teleport-forward",
             "commands": [
@@ -758,7 +758,7 @@
             ]
           },
           "speed": {
-            "chance": 17,
+            "chance": 25,
             "blockedByElixir": false,
             "message": "treasures.minigame.treasure_race.event.speed",
             "commands": [
@@ -766,7 +766,7 @@
             ]
           },
           "jump-boost": {
-            "chance": 14,
+            "chance": 25,
             "blockedByElixir": false,
             "message": "treasures.minigame.treasure_race.event.jump-boost",
             "commands": [
@@ -774,7 +774,7 @@
             ]
           },
           "blindness": {
-            "chance": 10,
+            "chance": 15,
             "blockedByElixir": true,
             "message": "treasures.minigame.treasure_race.event.blindness",
             "commands": [
@@ -782,7 +782,7 @@
             ]
           },
           "jackpot": {
-            "chance": 11,
+            "chance": 3,
             "blockedByElixir": false,
             "message": "treasures.minigame.treasure_race.event.jackpot",
             "commands": [
