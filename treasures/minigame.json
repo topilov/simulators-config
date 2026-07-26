@@ -117,9 +117,21 @@
         "max": 30,
         "chance": 0.05
       },
+      "shards": {
+        "participation": 10.0,
+        "top": [100.0, 75.0, 50.0],
+        "byChest": {
+          "SILVER": 5.0,
+          "GOLDEN": 10.0,
+          "CRYSTAL": 20.0,
+          "LEGENDARY": 50.0,
+          "CARGO": 0.0
+        }
+      },
       "message": {
         "found": "treasures.minigame.expedition.message.found",
-        "foundLast": "treasures.minigame.expedition.message.found-last"
+        "foundLast": "treasures.minigame.expedition.message.found-last",
+        "endReward": "treasures.minigame.expedition.end.reward"
       },
       "blocks": {
         "SAND": {
@@ -164,6 +176,10 @@
         "name": "spawn",
         "yaw": 0,
         "pitch": 0
+      },
+      "shards": {
+        "participation": 10.0,
+        "top": [100.0, 75.0, 50.0]
       },
       "npcs": {
         "buyer": {
@@ -212,6 +228,7 @@
                 ]
               },
               "reward": 5,
+              "shards": 1.0,
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -230,6 +247,7 @@
                 ]
               },
               "reward": 10,
+              "shards": 2.0,
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -248,6 +266,7 @@
                 ]
               },
               "reward": 20,
+              "shards": 4.0,
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -266,6 +285,7 @@
                 ]
               },
               "reward": 50,
+              "shards": 10.0,
               "weight": 10
             }
           }
@@ -295,6 +315,7 @@
                 ]
               },
               "reward": 5,
+              "shards": 1.0,
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -313,6 +334,7 @@
                 ]
               },
               "reward": 10,
+              "shards": 2.0,
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -331,6 +353,7 @@
                 ]
               },
               "reward": 20,
+              "shards": 4.0,
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -349,6 +372,7 @@
                 ]
               },
               "reward": 50,
+              "shards": 10.0,
               "weight": 10
             }
           }
@@ -378,6 +402,7 @@
                 ]
               },
               "reward": 5,
+              "shards": 1.0,
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -396,6 +421,7 @@
                 ]
               },
               "reward": 10,
+              "shards": 2.0,
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -414,6 +440,7 @@
                 ]
               },
               "reward": 20,
+              "shards": 4.0,
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -432,6 +459,7 @@
                 ]
               },
               "reward": 50,
+              "shards": 10.0,
               "weight": 10
             }
           }
@@ -461,6 +489,7 @@
                 ]
               },
               "reward": 5,
+              "shards": 1.0,
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -479,6 +508,7 @@
                 ]
               },
               "reward": 10,
+              "shards": 2.0,
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -497,6 +527,7 @@
                 ]
               },
               "reward": 20,
+              "shards": 4.0,
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -515,6 +546,7 @@
                 ]
               },
               "reward": 50,
+              "shards": 10.0,
               "weight": 10
             }
           }
@@ -801,7 +833,8 @@
         "elixirPickedUp": "treasures.minigame.treasure_race.message.elixir-picked-up",
         "elixirProtected": "treasures.minigame.treasure_race.message.elixir-protected",
         "endYourResult": "treasures.minigame.treasure_race.end.your-result",
-        "endTopTitle": "treasures.minigame.treasure_race.end.top-title"
+        "endTopTitle": "treasures.minigame.treasure_race.end.top-title",
+        "endReward": "treasures.minigame.treasure_race.end.reward"
       },
       "sounds": {
         "caseOpen": {
