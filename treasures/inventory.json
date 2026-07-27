@@ -148,18 +148,19 @@
     }
   },
   "equipmentSlots": {
-    "treasures:pet_5": {
-      "categoryId": "treasures:pets",
-      "order": 10,
-      "visualRole": "PET",
-      "title": "Питомец 5",
+    "treasures:primary": {
+      "categoryId": "treasures:tools",
+      "order": 0,
+      "visualRole": "PRIMARY",
+      "title": "Основной инструмент",
       "emptyIcon": {
-        "kind": "RESOURCE_TEXTURE",
-        "resourceId": "cache/simulator/pets.png",
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_pickaxe",
         "modelId": 0,
         "glint": false
       },
-      "initiallyUnlocked": false
+      "initiallyUnlocked": true,
+      "projectionTarget": "MAIN_HAND"
     },
     "treasures:title": {
       "categoryId": "treasures:titles",
@@ -278,19 +279,18 @@
       },
       "initiallyUnlocked": false
     },
-    "treasures:primary": {
-      "categoryId": "treasures:tools",
-      "order": 0,
-      "visualRole": "PRIMARY",
-      "title": "Основной инструмент",
+    "treasures:pet_5": {
+      "categoryId": "treasures:pets",
+      "order": 10,
+      "visualRole": "PET",
+      "title": "Питомец 5",
       "emptyIcon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:diamond_pickaxe",
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
         "modelId": 0,
         "glint": false
       },
-      "initiallyUnlocked": true,
-      "projectionTarget": "MAIN_HAND"
+      "initiallyUnlocked": false
     }
   },
   "items": {
