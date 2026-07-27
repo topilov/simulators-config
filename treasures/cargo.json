@@ -5,7 +5,7 @@
   },
   "chest": {
     "type": "CARGO",
-    "lifetimeSeconds": 600
+    "lifetimeSeconds": 540
   },
   "messages": {
     "spawned": "treasures.cargo.message.spawned",
@@ -19,24 +19,80 @@
       },
       "rewards": [
         {
-          "chance": 60.0,
-          "title": "treasures.cargo.reward.money",
+          "chance": 1.0,
+          "title": "treasures.cargo.reward.random-money",
           "commands": [
-            "earn-money %player% 5000 false"
+            "random-money %player% 50 99.99"
           ]
         },
         {
-          "chance": 30.0,
+          "chance": 1.0,
+          "title": "treasures.cargo.reward.pet",
+          "commands": [
+            "give-key %player% PET 5"
+          ]
+        },
+        {
+          "chance": 1.0,
+          "title": "treasures.cargo.reward.rune",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 1.0,
+          "title": "treasures.cargo.reward.title",
+          "commands": [
+            "give-key %player% TITLE 1"
+          ]
+        },
+        {
+          "chance": 1.0,
+          "title": "treasures.cargo.reward.default",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 1.0,
+          "title": "treasures.cargo.reward.bust-exp",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.0,
+          "title": "treasures.cargo.reward.bust-money",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.0,
           "title": "treasures.cargo.reward.bits",
           "commands": [
             "earn-bits %player% 10"
           ]
         },
         {
-          "chance": 10.0,
-          "title": "treasures.cargo.reward.lootbox-key",
+          "chance": 1.0,
+          "title": "treasures.cargo.reward.shards",
           "commands": [
-            "give-key %player% DEFAULT 1"
+            "morestat %player% add 750 shards"
+          ]
+        },
+        {
+          "chance": 1.0,
+          "title": "treasures.cargo.reward.minigamePoints",
+          "commands": [
+            "morestat %player% add 10 minigamePoints"
+          ]
+        },
+        {
+          "chance": 90.0,
+          "title": "treasures.cargo.reward.leg-treasures",
+          "commands": [
+            "give-treasure %player% BOTTLE_WITH_MESSAGE 1"
           ]
         }
       ]
