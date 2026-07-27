@@ -150,7 +150,7 @@
   "equipmentSlots": {
     "treasures:primary": {
       "categoryId": "treasures:tools",
-      "order": 5,
+      "order": 0,
       "visualRole": "PRIMARY",
       "title": "Основной инструмент",
       "emptyIcon": {
@@ -164,7 +164,7 @@
     },
     "treasures:title": {
       "categoryId": "treasures:titles",
-      "order": 9,
+      "order": 5,
       "visualRole": "TITLE",
       "title": "Титул",
       "emptyIcon": {
@@ -175,9 +175,22 @@
       },
       "initiallyUnlocked": true
     },
-    "treasures:perk": {
+    "treasures:perk_1": {
       "categoryId": "treasures:perks",
       "order": 7,
+      "visualRole": "PERK",
+      "title": "Перк",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "treasures:perk_2": {
+      "categoryId": "treasures:perks",
+      "order": 9,
       "visualRole": "PERK",
       "title": "Перк",
       "emptyIcon": {
@@ -229,7 +242,7 @@
     },
     "treasures:pet_1": {
       "categoryId": "treasures:pets",
-      "order": 0,
+      "order": 11,
       "visualRole": "PET",
       "title": "Питомец 1",
       "emptyIcon": {
@@ -242,7 +255,7 @@
     },
     "treasures:pet_2": {
       "categoryId": "treasures:pets",
-      "order": 1,
+      "order": 12,
       "visualRole": "PET",
       "title": "Питомец 2",
       "emptyIcon": {
@@ -255,7 +268,7 @@
     },
     "treasures:pet_3": {
       "categoryId": "treasures:pets",
-      "order": 2,
+      "order": 13,
       "visualRole": "PET",
       "title": "Питомец 3",
       "emptyIcon": {
@@ -268,7 +281,7 @@
     },
     "treasures:pet_4": {
       "categoryId": "treasures:pets",
-      "order": 3,
+      "order": 14,
       "visualRole": "PET",
       "title": "Питомец 4",
       "emptyIcon": {
@@ -281,7 +294,7 @@
     },
     "treasures:pet_5": {
       "categoryId": "treasures:pets",
-      "order": 4,
+      "order": 15,
       "visualRole": "PET",
       "title": "Питомец 5",
       "emptyIcon": {
