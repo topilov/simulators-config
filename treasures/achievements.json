@@ -1133,6 +1133,45 @@
       "messages": {
         "complete": "treasures.achievement.messages.complete"
       }
+    },
+    "EARN_MINER_CLASH_POINTS": {
+      "title": "treasures.achievement.earn_miner_clash_points.title",
+      "texture": "miner_clash.png",
+      "maxStage": 5,
+      "stages": [
+        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|100", "description": "i18n.treasures.achievement.reward.description|!|2", "required": 100.0, "onTake": ["give-incident-points %player% 2 true"] },
+        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|500", "description": "i18n.treasures.achievement.reward.description|!|5", "required": 500.0, "onTake": ["give-incident-points %player% 5 true"] },
+        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|2К", "description": "i18n.treasures.achievement.reward.description|!|11", "required": 2000.0, "onTake": ["give-incident-points %player% 11 true"] },
+        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|10К", "description": "i18n.treasures.achievement.reward.description|!|22", "required": 10000.0, "onTake": ["give-incident-points %player% 22 true"] },
+        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|50К", "description": "i18n.treasures.achievement.reward.description|!|35", "required": 50000.0, "onTake": ["give-incident-points %player% 35 true"] }
+      ],
+      "messages": { "complete": "treasures.achievement.messages.complete" }
+    },
+    "FIND_MINER_CARGO": {
+      "title": "treasures.achievement.find_miner_cargo.title",
+      "texture": "miner_cargo.png",
+      "maxStage": 5,
+      "stages": [
+        { "title": "i18n.treasures.achievement.find_miner_cargo.stages.title|!|1", "description": "i18n.treasures.achievement.reward.description|!|2", "required": 1.0, "onTake": ["give-incident-points %player% 2 true"] },
+        { "title": "i18n.treasures.achievement.find_miner_cargo.stages.title|!|5", "description": "i18n.treasures.achievement.reward.description|!|5", "required": 5.0, "onTake": ["give-incident-points %player% 5 true"] },
+        { "title": "i18n.treasures.achievement.find_miner_cargo.stages.title|!|25", "description": "i18n.treasures.achievement.reward.description|!|11", "required": 25.0, "onTake": ["give-incident-points %player% 11 true"] },
+        { "title": "i18n.treasures.achievement.find_miner_cargo.stages.title|!|100", "description": "i18n.treasures.achievement.reward.description|!|22", "required": 100.0, "onTake": ["give-incident-points %player% 22 true"] },
+        { "title": "i18n.treasures.achievement.find_miner_cargo.stages.title|!|500", "description": "i18n.treasures.achievement.reward.description|!|35", "required": 500.0, "onTake": ["give-incident-points %player% 35 true"] }
+      ],
+      "messages": { "complete": "treasures.achievement.messages.complete" }
+    },
+    "DELIVER_TREASURE_RACE_CARGO": {
+      "title": "treasures.achievement.deliver_treasure_race_cargo.title",
+      "texture": "treasure_race.png",
+      "maxStage": 5,
+      "stages": [
+        { "title": "i18n.treasures.achievement.deliver_treasure_race_cargo.stages.title|!|1", "description": "i18n.treasures.achievement.reward.description|!|2", "required": 1.0, "onTake": ["give-incident-points %player% 2 true"] },
+        { "title": "i18n.treasures.achievement.deliver_treasure_race_cargo.stages.title|!|5", "description": "i18n.treasures.achievement.reward.description|!|5", "required": 5.0, "onTake": ["give-incident-points %player% 5 true"] },
+        { "title": "i18n.treasures.achievement.deliver_treasure_race_cargo.stages.title|!|25", "description": "i18n.treasures.achievement.reward.description|!|11", "required": 25.0, "onTake": ["give-incident-points %player% 11 true"] },
+        { "title": "i18n.treasures.achievement.deliver_treasure_race_cargo.stages.title|!|100", "description": "i18n.treasures.achievement.reward.description|!|22", "required": 100.0, "onTake": ["give-incident-points %player% 22 true"] },
+        { "title": "i18n.treasures.achievement.deliver_treasure_race_cargo.stages.title|!|500", "description": "i18n.treasures.achievement.reward.description|!|35", "required": 500.0, "onTake": ["give-incident-points %player% 35 true"] }
+      ],
+      "messages": { "complete": "treasures.achievement.messages.complete" }
     }
   }
 }
