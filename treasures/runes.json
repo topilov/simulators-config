@@ -38,273 +38,7 @@
     }
   },
   "runes": {
-    "LUCKY": {
-      "id": "lucky",
-      "title": "treasures.runes.lucky.name",
-      "description": "treasures.runes.description",
-      "ability": "treasures.runes.lucky.ability.name",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:skull",
-        "modelId": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ",
-        "tint": null,
-        "glint": false
-      },
-      "rarity": "EPIC",
-      "notify": true,
-      "canDrop": true,
-      "upgradeText": "treasures.runes.lucky.ability.upgrade.name",
-      "maxLevel": 5,
-      "levels": {
-        "1": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 10,
-          "isPercent": true
-        },
-        "2": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 11.0,
-          "isPercent": true
-        },
-        "3": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 13.0,
-          "isPercent": true
-        },
-        "4": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 16.0,
-          "isPercent": true
-        },
-        "5": {
-          "itemsRequiredForNextLevel": 0,
-          "value": 20.0,
-          "isPercent": true
-        }
-      }
-    },
-    "HASTE": {
-      "id": "haste",
-      "title": "treasures.runes.haste.name",
-      "description": "treasures.runes.description",
-      "ability": "treasures.runes.haste.ability.name",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:skull",
-        "modelId": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ",
-        "tint": null,
-        "glint": false
-      },
-      "rarity": "RARE",
-      "notify": true,
-      "canDrop": false,
-      "upgradeText": "treasures.runes.ability.upgrade.name",
-      "maxLevel": 6,
-      "levels": {
-        "1": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 1.0,
-          "isPercent": true
-        },
-        "2": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 1.5,
-          "isPercent": true
-        },
-        "3": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 2.0,
-          "isPercent": true
-        },
-        "4": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 3.0,
-          "isPercent": true
-        },
-        "5": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 4.0,
-          "isPercent": true
-        },
-        "6": {
-          "itemsRequiredForNextLevel": 0,
-          "value": 5.0,
-          "isPercent": true
-        }
-      }
-    },
-    "LUCK": {
-      "id": "luck",
-      "title": "treasures.runes.luck.name",
-      "description": "treasures.runes.description",
-      "ability": "treasures.runes.luck.ability.name",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:skull",
-        "modelId": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ",
-        "tint": null,
-        "glint": false
-      },
-      "rarity": "EPIC",
-      "notify": true,
-      "canDrop": true,
-      "upgradeText": "treasures.runes.lucky.ability.upgrade.name",
-      "maxLevel": 5,
-      "levels": {
-        "1": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 2,
-          "isPercent": true
-        },
-        "2": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 4,
-          "isPercent": true
-        },
-        "3": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 6,
-          "isPercent": true
-        },
-        "4": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 8,
-          "isPercent": true
-        },
-        "5": {
-          "itemsRequiredForNextLevel": 0,
-          "value": 10,
-          "isPercent": true
-        }
-      }
-    },
-    "BOOM": {
-      "id": "boom",
-      "title": "treasures.runes.boom.name",
-      "description": "treasures.runes.description",
-      "ability": "treasures.runes.boom.ability.name",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:skull",
-        "modelId": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ",
-        "tint": null,
-        "glint": false
-      },
-      "rarity": "LEGENDARY",
-      "notify": true,
-      "canDrop": false,
-      "upgradeText": "treasures.runes.ability.upgrade.name",
-      "maxLevel": 4,
-      "levels": {
-        "1": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 0.2,
-          "isPercent": true
-        },
-        "2": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 0.42500000000000004,
-          "isPercent": true
-        },
-        "3": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 0.65,
-          "isPercent": true
-        },
-        "4": {
-          "itemsRequiredForNextLevel": 0,
-          "value": 0.875,
-          "isPercent": true
-        }
-      }
-    },
-    "PET": {
-      "id": "pet",
-      "title": "treasures.runes.pet.name",
-      "description": "treasures.runes.description",
-      "ability": "treasures.runes.pet.ability.name",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:skull",
-        "modelId": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
-        "tint": null,
-        "glint": false
-      },
-      "rarity": "LEGENDARY",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "treasures.runes.ability.upgrade.name",
-      "maxLevel": 4,
-      "levels": {
-        "1": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 15,
-          "isPercent": true
-        },
-        "2": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 15.5,
-          "isPercent": true
-        },
-        "3": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 16,
-          "isPercent": true
-        },
-        "4": {
-          "itemsRequiredForNextLevel": 0,
-          "value": 16.5,
-          "isPercent": true
-        }
-      }
-    },
-    "SUPER_PLAYER": {
-      "id": "super_player",
-      "title": "treasures.runes.super-player.name",
-      "description": "treasures.runes.description",
-      "ability": "treasures.runes.super-player.ability.name",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:skull",
-        "modelId": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
-        "tint": null,
-        "glint": false
-      },
-      "rarity": "LEGENDARY",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "treasures.runes.ability.upgrade.name",
-      "maxLevel": 4,
-      "levels": {
-        "1": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 8,
-          "isPercent": true
-        },
-        "2": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 8.375,
-          "isPercent": true
-        },
-        "3": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 8.75,
-          "isPercent": true
-        },
-        "4": {
-          "itemsRequiredForNextLevel": 0,
-          "value": 9.125,
-          "isPercent": true
-        }
-      }
-    },
-    "SELLER": {
+"SELLER": {
       "id": "seller",
       "title": "treasures.runes.seller.name",
       "description": "treasures.runes.description",
@@ -360,7 +94,7 @@
         }
       }
     },
-    "MINER": {
+"MINER": {
       "id": "miner",
       "title": "treasures.runes.miner.name",
       "description": "treasures.runes.description",
@@ -416,7 +150,7 @@
         }
       }
     },
-    "DIGGER": {
+"DIGGER": {
       "id": "digger",
       "title": "treasures.runes.digger.name",
       "description": "treasures.runes.description",
@@ -472,7 +206,7 @@
         }
       }
     },
-    "TREASURE": {
+"TREASURE": {
       "id": "rune_treasure",
       "title": "treasures.runes.treasure.name",
       "description": "treasures.runes.description",
@@ -528,7 +262,58 @@
         }
       }
     },
-    "PIRATE": {
+"HASTE": {
+      "id": "haste",
+      "title": "treasures.runes.haste.name",
+      "description": "treasures.runes.description",
+      "ability": "treasures.runes.haste.ability.name",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ",
+        "tint": null,
+        "glint": false
+      },
+      "rarity": "RARE",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "treasures.runes.ability.upgrade.name",
+      "maxLevel": 6,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 1.0,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 1.5,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 2.0,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 3.0,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 4.0,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 5.0,
+          "isPercent": true
+        }
+      }
+    },
+"PIRATE": {
       "id": "rune_pirate",
       "title": "treasures.runes.pirate.name",
       "description": "treasures.runes.description",
@@ -579,53 +364,7 @@
         }
       }
     },
-    "COLLECTOR": {
-      "id": "collector",
-      "title": "treasures.runes.collector.name",
-      "description": "treasures.runes.description",
-      "ability": "treasures.runes.collector.ability.name",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:skull",
-        "modelId": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
-        "tint": null,
-        "glint": false
-      },
-      "rarity": "EPIC",
-      "notify": true,
-      "canDrop": true,
-      "upgradeText": "treasures.runes.ability.upgrade.name",
-      "maxLevel": 5,
-      "levels": {
-        "1": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 5,
-          "isPercent": true
-        },
-        "2": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 6.25,
-          "isPercent": true
-        },
-        "3": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 7.5,
-          "isPercent": true
-        },
-        "4": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 8.75,
-          "isPercent": true
-        },
-        "5": {
-          "itemsRequiredForNextLevel": 0,
-          "value": 10,
-          "isPercent": true
-        }
-      }
-    },
-    "UPGRADE": {
+"UPGRADE": {
       "id": "upgrade",
       "title": "treasures.runes.upgrade.name",
       "description": "treasures.runes.description",
@@ -676,53 +415,7 @@
         }
       }
     },
-    "BLACKSMITH": {
-      "id": "blacksmith",
-      "title": "treasures.runes.blacksmith.name",
-      "description": "treasures.runes.description",
-      "ability": "treasures.runes.blacksmith.ability.name",
-      "icon": {
-        "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:skull",
-        "modelId": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
-        "tint": null,
-        "glint": false
-      },
-      "rarity": "EPIC",
-      "notify": false,
-      "canDrop": true,
-      "upgradeText": "treasures.runes.blacksmith.ability.upgrade.name",
-      "maxLevel": 5,
-      "levels": {
-        "1": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 5,
-          "isPercent": true
-        },
-        "2": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 6.25,
-          "isPercent": true
-        },
-        "3": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 7.5,
-          "isPercent": true
-        },
-        "4": {
-          "itemsRequiredForNextLevel": 2,
-          "value": 8.75,
-          "isPercent": true
-        },
-        "5": {
-          "itemsRequiredForNextLevel": 0,
-          "value": 10,
-          "isPercent": true
-        }
-      }
-    },
-    "BITS": {
+"BITS": {
       "id": "bits",
       "title": "treasures.runes.bits.name",
       "description": "treasures.runes.description",
@@ -772,6 +465,313 @@
           "isPercent": true
         }
       }
+    },
+"LUCKY": {
+      "id": "lucky",
+      "title": "treasures.runes.lucky.name",
+      "description": "treasures.runes.description",
+      "ability": "treasures.runes.lucky.ability.name",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ",
+        "tint": null,
+        "glint": false
+      },
+      "rarity": "EPIC",
+      "notify": true,
+      "canDrop": true,
+      "upgradeText": "treasures.runes.lucky.ability.upgrade.name",
+      "maxLevel": 5,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11.0,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13.0,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16.0,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 20.0,
+          "isPercent": true
+        }
+      }
+    },
+"LUCK": {
+      "id": "luck",
+      "title": "treasures.runes.luck.name",
+      "description": "treasures.runes.description",
+      "ability": "treasures.runes.luck.ability.name",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ",
+        "tint": null,
+        "glint": false
+      },
+      "rarity": "EPIC",
+      "notify": true,
+      "canDrop": true,
+      "upgradeText": "treasures.runes.lucky.ability.upgrade.name",
+      "maxLevel": 5,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 2,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 4,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 10,
+          "isPercent": true
+        }
+      }
+    },
+"COLLECTOR": {
+      "id": "collector",
+      "title": "treasures.runes.collector.name",
+      "description": "treasures.runes.description",
+      "ability": "treasures.runes.collector.ability.name",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
+      },
+      "rarity": "EPIC",
+      "notify": true,
+      "canDrop": true,
+      "upgradeText": "treasures.runes.ability.upgrade.name",
+      "maxLevel": 5,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6.25,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7.5,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.75,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 10,
+          "isPercent": true
+        }
+      }
+    },
+"BLACKSMITH": {
+      "id": "blacksmith",
+      "title": "treasures.runes.blacksmith.name",
+      "description": "treasures.runes.description",
+      "ability": "treasures.runes.blacksmith.ability.name",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
+      },
+      "rarity": "EPIC",
+      "notify": false,
+      "canDrop": true,
+      "upgradeText": "treasures.runes.blacksmith.ability.upgrade.name",
+      "maxLevel": 5,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6.25,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7.5,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.75,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 10,
+          "isPercent": true
+        }
+      }
+    },
+"BOOM": {
+      "id": "boom",
+      "title": "treasures.runes.boom.name",
+      "description": "treasures.runes.description",
+      "ability": "treasures.runes.boom.ability.name",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ",
+        "tint": null,
+        "glint": false
+      },
+      "rarity": "LEGENDARY",
+      "notify": true,
+      "canDrop": false,
+      "upgradeText": "treasures.runes.ability.upgrade.name",
+      "maxLevel": 4,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.2,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.42500000000000004,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.65,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 0.875,
+          "isPercent": true
+        }
+      }
+    },
+"PET": {
+      "id": "pet",
+      "title": "treasures.runes.pet.name",
+      "description": "treasures.runes.description",
+      "ability": "treasures.runes.pet.ability.name",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
+      },
+      "rarity": "LEGENDARY",
+      "notify": false,
+      "canDrop": true,
+      "upgradeText": "treasures.runes.ability.upgrade.name",
+      "maxLevel": 4,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15.5,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 16.5,
+          "isPercent": true
+        }
+      }
+    },
+"SUPER_PLAYER": {
+      "id": "super_player",
+      "title": "treasures.runes.super-player.name",
+      "description": "treasures.runes.description",
+      "ability": "treasures.runes.super-player.ability.name",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
+      },
+      "rarity": "LEGENDARY",
+      "notify": false,
+      "canDrop": true,
+      "upgradeText": "treasures.runes.ability.upgrade.name",
+      "maxLevel": 4,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.375,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.75,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 9.125,
+          "isPercent": true
+        }
+      }
     }
-  }
+}
 }
