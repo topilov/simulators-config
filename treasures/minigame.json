@@ -63,6 +63,38 @@
         "23:0:0"
       ],
       "awaitDuration": 10
+    },
+    "MINING_BATTLE": {
+      "texture": "mining_battle.png",
+      "title": "treasures.minigame.mining_battle.title",
+      "description": "treasures.minigame.mining_battle.description",
+      "spawnAt": [
+        "0:15:0",
+        "1:15:0",
+        "2:15:0",
+        "3:15:0",
+        "4:15:0",
+        "5:15:0",
+        "6:15:0",
+        "7:15:0",
+        "8:15:0",
+        "9:15:0",
+        "10:15:0",
+        "11:15:0",
+        "12:15:0",
+        "13:15:0",
+        "14:15:0",
+        "15:15:0",
+        "16:15:0",
+        "17:15:0",
+        "18:15:0",
+        "19:15:0",
+        "20:15:0",
+        "21:15:0",
+        "22:15:0",
+        "23:15:0"
+      ],
+      "awaitDuration": 10
     }
   },
   "expedition": {
@@ -137,6 +169,389 @@
         "SAND": {
           "data": 1
         }
+      }
+    }
+  },
+  "miningBattle": {
+    "status": {
+      "waiting": {
+        "arenaStatus": "WAITING_PLAYERS",
+        "duration": 15,
+        "countdown": {
+          "title": "treasures.minigame.mining_battle.status.waiting.countdown.title"
+        },
+        "description": {
+          "title": "treasures.minigame.mining_battle.title",
+          "description": "treasures.minigame.mining_battle.description"
+        }
+      },
+      "game": {
+        "arenaStatus": "STARTED",
+        "duration": 180,
+        "pointIndicator": {
+          "type": "TEAM",
+          "positions": 3,
+          "valueName": "treasures.minigame.mining_battle.game.valuename"
+        },
+        "countdown": {
+          "title": "treasures.minigame.mining_battle.game.countdown.title"
+        }
+      },
+      "end": {
+        "arenaStatus": "TERMINATING",
+        "duration": 5,
+        "isCloseAfterExpire": true
+      }
+    },
+    "settings": {
+      "teams": {
+        "BLACK_SHARKS": {
+          "title": "treasures.minigame.mining_battle.team.black_sharks",
+          "icon": "§8◆"
+        },
+        "EARTHBREAKERS": {
+          "title": "treasures.minigame.mining_battle.team.earthbreakers",
+          "icon": "§6◆"
+        },
+        "CODEX": {
+          "title": "treasures.minigame.mining_battle.team.codex",
+          "icon": "§b◆"
+        }
+      },
+      "blocks": [
+        {
+          "block": {
+            "material": "SOUL_SAND",
+            "data": 0
+          },
+          "points": 5
+        },
+        {
+          "block": {
+            "material": "DIRT",
+            "data": 1
+          },
+          "points": 4
+        },
+        {
+          "block": {
+            "material": "CONCRETE_POWDER",
+            "data": 12
+          },
+          "points": 3
+        },
+        {
+          "block": {
+            "material": "DIRT",
+            "data": 0
+          },
+          "points": 2
+        },
+        {
+          "block": {
+            "material": "CONCRETE_POWDER",
+            "data": 1
+          },
+          "points": 1
+        }
+      ],
+      "rockyBlock": {
+        "material": "CONCRETE_POWDER",
+        "data": 12
+      },
+      "secretBlock": {
+        "material": "SOUL_SAND",
+        "data": 0
+      },
+      "tool": {
+        "item": {
+          "type": "DIAMOND_SPADE",
+          "name": "treasures.minigame.mining_battle.tool.title",
+          "lore": "treasures.minigame.mining_battle.tool.lore",
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ],
+          "unbreakable": true,
+          "enchantments": {
+            "DIG_SPEED": 5
+          }
+        },
+        "slot": 0,
+        "abilityLore": "treasures.minigame.mining_battle.tool.ability",
+        "rarityLore": "treasures.minigame.mining_battle.tool.rarity"
+      },
+      "playerModes": {
+        "participant": {
+          "gameMode": "SURVIVAL",
+          "allowFlight": false,
+          "flying": false,
+          "walkSpeed": 0.2
+        },
+        "spectator": {
+          "gameMode": "ADVENTURE",
+          "allowFlight": true,
+          "flying": true,
+          "walkSpeed": 0.2
+        }
+      },
+      "results": {
+        "personalTopSize": 3,
+        "rewardFormat": "%s\uE34D"
+      },
+      "shards": {
+        "participation": 10.0,
+        "top": [100.0, 75.0, 50.0]
+      },
+      "abilities": {
+        "chances": {
+          "DOUBLE_POINTS": 12.5,
+          "LAYER_BREAKER": 12.5,
+          "THIEF": 12.5,
+          "SORCERER": 12.5,
+          "RUNNER": 12.5,
+          "WINNER": 12.5,
+          "DIGGER": 12.5,
+          "DYNAMITE": 12.5
+        },
+        "rarityChances": {
+          "COMMON": 50.0,
+          "RARE": 25.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 2.0
+        },
+        "rarityTitles": {
+          "COMMON": "treasures.minigame.mining_battle.rarity.common",
+          "RARE": "treasures.minigame.mining_battle.rarity.rare",
+          "EPIC": "treasures.minigame.mining_battle.rarity.epic",
+          "LEGENDARY": "treasures.minigame.mining_battle.rarity.legendary",
+          "MYTHIC": "treasures.minigame.mining_battle.rarity.mythic"
+        },
+        "doublePoints": {
+          "title": "treasures.minigame.mining_battle.ability.double_points.title",
+          "description": "treasures.minigame.mining_battle.ability.double_points.description",
+          "rarities": {
+            "COMMON": {
+              "chance": 5.0,
+              "multiplier": 2.0
+            },
+            "RARE": {
+              "chance": 8.0,
+              "multiplier": 2.0
+            },
+            "EPIC": {
+              "chance": 12.0,
+              "multiplier": 2.0
+            },
+            "LEGENDARY": {
+              "chance": 18.0,
+              "multiplier": 2.0
+            },
+            "MYTHIC": {
+              "chance": 25.0,
+              "multiplier": 2.0
+            }
+          }
+        },
+        "layerBreaker": {
+          "title": "treasures.minigame.mining_battle.ability.layer_breaker.title",
+          "description": "treasures.minigame.mining_battle.ability.layer_breaker.description",
+          "rarities": {
+            "COMMON": {
+              "chance": 3.0,
+              "radius": 1
+            },
+            "RARE": {
+              "chance": 5.0,
+              "radius": 1
+            },
+            "EPIC": {
+              "chance": 8.0,
+              "radius": 1
+            },
+            "LEGENDARY": {
+              "chance": 12.0,
+              "radius": 2
+            },
+            "MYTHIC": {
+              "chance": 18.0,
+              "radius": 2
+            }
+          }
+        },
+        "thief": {
+          "title": "treasures.minigame.mining_battle.ability.thief.title",
+          "description": "treasures.minigame.mining_battle.ability.thief.description",
+          "rarities": {
+            "COMMON": {
+              "chance": 2.0,
+              "percent": 2.0
+            },
+            "RARE": {
+              "chance": 3.0,
+              "percent": 3.0
+            },
+            "EPIC": {
+              "chance": 5.0,
+              "percent": 5.0
+            },
+            "LEGENDARY": {
+              "chance": 7.0,
+              "percent": 7.5
+            },
+            "MYTHIC": {
+              "chance": 10.0,
+              "percent": 10.0
+            }
+          }
+        },
+        "sorcerer": {
+          "title": "treasures.minigame.mining_battle.ability.sorcerer.title",
+          "description": "treasures.minigame.mining_battle.ability.sorcerer.description",
+          "effect": "SLOW",
+          "rarities": {
+            "COMMON": {
+              "chance": 3.0,
+              "level": 3,
+              "durationSeconds": 3
+            },
+            "RARE": {
+              "chance": 5.0,
+              "level": 3,
+              "durationSeconds": 3
+            },
+            "EPIC": {
+              "chance": 7.0,
+              "level": 3,
+              "durationSeconds": 3
+            },
+            "LEGENDARY": {
+              "chance": 10.0,
+              "level": 3,
+              "durationSeconds": 3
+            },
+            "MYTHIC": {
+              "chance": 15.0,
+              "level": 3,
+              "durationSeconds": 3
+            }
+          }
+        },
+        "runner": {
+          "title": "treasures.minigame.mining_battle.ability.runner.title",
+          "description": "treasures.minigame.mining_battle.ability.runner.description",
+          "effect": "SPEED",
+          "rarities": {
+            "COMMON": {
+              "chance": 3.0,
+              "level": 3,
+              "durationSeconds": 5
+            },
+            "RARE": {
+              "chance": 5.0,
+              "level": 3,
+              "durationSeconds": 5
+            },
+            "EPIC": {
+              "chance": 7.0,
+              "level": 3,
+              "durationSeconds": 5
+            },
+            "LEGENDARY": {
+              "chance": 10.0,
+              "level": 3,
+              "durationSeconds": 5
+            },
+            "MYTHIC": {
+              "chance": 15.0,
+              "level": 3,
+              "durationSeconds": 5
+            }
+          }
+        },
+        "winner": {
+          "title": "treasures.minigame.mining_battle.ability.winner.title",
+          "description": "treasures.minigame.mining_battle.ability.winner.description",
+          "rarities": {
+            "COMMON": {
+              "multiplier": 1.25
+            },
+            "RARE": {
+              "multiplier": 1.5
+            },
+            "EPIC": {
+              "multiplier": 1.75
+            },
+            "LEGENDARY": {
+              "multiplier": 2.0
+            },
+            "MYTHIC": {
+              "multiplier": 2.5
+            }
+          }
+        },
+        "digger": {
+          "title": "treasures.minigame.mining_battle.ability.digger.title",
+          "description": "treasures.minigame.mining_battle.ability.digger.description",
+          "rarities": {
+            "COMMON": {
+              "multiplier": 1.5
+            },
+            "RARE": {
+              "multiplier": 1.75
+            },
+            "EPIC": {
+              "multiplier": 2.0
+            },
+            "LEGENDARY": {
+              "multiplier": 2.25
+            },
+            "MYTHIC": {
+              "multiplier": 2.5
+            }
+          }
+        },
+        "dynamite": {
+          "title": "treasures.minigame.mining_battle.ability.dynamite.title",
+          "description": "treasures.minigame.mining_battle.ability.dynamite.description",
+          "effect": "EXPLOSION_LARGE",
+          "effectData": 0,
+          "sound": "ENTITY_GENERIC_EXPLODE",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "rarities": {
+            "COMMON": {
+              "chance": 2.0,
+              "radius": 1
+            },
+            "RARE": {
+              "chance": 3.0,
+              "radius": 1
+            },
+            "EPIC": {
+              "chance": 5.0,
+              "radius": 2
+            },
+            "LEGENDARY": {
+              "chance": 7.0,
+              "radius": 2
+            },
+            "MYTHIC": {
+              "chance": 10.0,
+              "radius": 3
+            }
+          }
+        }
+      },
+      "messages": {
+        "assignedTeam": "treasures.minigame.mining_battle.message.assigned_team",
+        "endTopTitle": "treasures.minigame.mining_battle.end.top_title",
+        "endTeamRow": "treasures.minigame.mining_battle.end.team_row",
+        "endPlayerRow": "treasures.minigame.mining_battle.end.player_row",
+        "endYourResult": "treasures.minigame.mining_battle.end.your_result",
+        "endReward": "treasures.minigame.mining_battle.end.reward"
       }
     }
   },
