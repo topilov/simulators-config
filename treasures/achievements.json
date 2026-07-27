@@ -1134,16 +1134,29 @@
         "complete": "treasures.achievement.messages.complete"
       }
     },
-    "EARN_MINER_CLASH_POINTS": {
-      "title": "treasures.achievement.earn_miner_clash_points.title",
-      "texture": "miner_clash.png",
+    "EARN_MINING_BATTLE_POINTS": {
+      "title": "treasures.achievement.earn_mining_battle_points.title",
+      "texture": "mining_battle.png",
       "maxStage": 5,
       "stages": [
-        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|100", "description": "i18n.treasures.achievement.reward.description|!|2", "required": 100.0, "onTake": ["give-incident-points %player% 2 true"] },
-        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|500", "description": "i18n.treasures.achievement.reward.description|!|5", "required": 500.0, "onTake": ["give-incident-points %player% 5 true"] },
-        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|2К", "description": "i18n.treasures.achievement.reward.description|!|11", "required": 2000.0, "onTake": ["give-incident-points %player% 11 true"] },
-        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|10К", "description": "i18n.treasures.achievement.reward.description|!|22", "required": 10000.0, "onTake": ["give-incident-points %player% 22 true"] },
-        { "title": "i18n.treasures.achievement.earn_miner_clash_points.stages.title|!|50К", "description": "i18n.treasures.achievement.reward.description|!|35", "required": 50000.0, "onTake": ["give-incident-points %player% 35 true"] }
+        { "title": "i18n.treasures.achievement.earn_mining_battle_points.stages.title|!|100", "description": "i18n.treasures.achievement.reward.description|!|2", "required": 100.0, "onTake": ["give-incident-points %player% 2 true"] },
+        { "title": "i18n.treasures.achievement.earn_mining_battle_points.stages.title|!|500", "description": "i18n.treasures.achievement.reward.description|!|5", "required": 500.0, "onTake": ["give-incident-points %player% 5 true"] },
+        { "title": "i18n.treasures.achievement.earn_mining_battle_points.stages.title|!|2К", "description": "i18n.treasures.achievement.reward.description|!|11", "required": 2000.0, "onTake": ["give-incident-points %player% 11 true"] },
+        { "title": "i18n.treasures.achievement.earn_mining_battle_points.stages.title|!|10К", "description": "i18n.treasures.achievement.reward.description|!|22", "required": 10000.0, "onTake": ["give-incident-points %player% 22 true"] },
+        { "title": "i18n.treasures.achievement.earn_mining_battle_points.stages.title|!|50К", "description": "i18n.treasures.achievement.reward.description|!|35", "required": 50000.0, "onTake": ["give-incident-points %player% 35 true"] }
+      ],
+      "messages": { "complete": "treasures.achievement.messages.complete" }
+    },
+    "DIG_MINING_BATTLE_SECRET_BLOCK": {
+      "title": "treasures.achievement.dig_mining_battle_secret_block.title",
+      "texture": "mining_battle.png",
+      "maxStage": 5,
+      "stages": [
+        { "title": "i18n.treasures.achievement.dig_mining_battle_secret_block.stages.title|!|1", "description": "i18n.treasures.achievement.reward.description|!|2", "required": 1.0, "onTake": ["give-incident-points %player% 2 true"] },
+        { "title": "i18n.treasures.achievement.dig_mining_battle_secret_block.stages.title|!|5", "description": "i18n.treasures.achievement.reward.description|!|5", "required": 5.0, "onTake": ["give-incident-points %player% 5 true"] },
+        { "title": "i18n.treasures.achievement.dig_mining_battle_secret_block.stages.title|!|25", "description": "i18n.treasures.achievement.reward.description|!|11", "required": 25.0, "onTake": ["give-incident-points %player% 11 true"] },
+        { "title": "i18n.treasures.achievement.dig_mining_battle_secret_block.stages.title|!|100", "description": "i18n.treasures.achievement.reward.description|!|22", "required": 100.0, "onTake": ["give-incident-points %player% 22 true"] },
+        { "title": "i18n.treasures.achievement.dig_mining_battle_secret_block.stages.title|!|500", "description": "i18n.treasures.achievement.reward.description|!|35", "required": 500.0, "onTake": ["give-incident-points %player% 35 true"] }
       ],
       "messages": { "complete": "treasures.achievement.messages.complete" }
     },
