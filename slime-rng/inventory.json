@@ -36,6 +36,26 @@
       "blockingTitle": "Блокировка слаймов",
       "emptyText": "Нет доступных слаймов",
       "actionIds": []
+    },
+    "slime-rng:food": {
+      "order": 1,
+      "layoutKind": "CARD_CATALOG",
+      "title": "Еда",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:apple",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 1,
+        "formatId": "slime-rng:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка еды",
+      "emptyText": "Еды пока нет",
+      "actionIds": []
     }
   },
   "equipmentSlots": {
@@ -137,6 +157,35 @@
           "glint": false
         },
         "title": "Слайм",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "slime-rng:food": {
+      "kind": "CARGO",
+      "categoryId": "slime-rng:food",
+      "capabilities": [],
+      "compatibleEquipmentSlotIds": [],
+      "actionIds": [],
+      "order": 0,
+      "weight": {
+        "source": "NONE"
+      },
+      "stacking": {
+        "strategy": "BY_PROPERTIES",
+        "properties": [
+          "type"
+        ]
+      },
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:apple",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Яблоко",
         "rows": [],
         "badges": [],
         "variants": {}
