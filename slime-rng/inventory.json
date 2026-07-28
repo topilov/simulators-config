@@ -1,0 +1,197 @@
+{
+  "profile": {
+    "profileId": "slime-rng:main",
+    "capacityMode": "SLOTS",
+    "capacityLevels": [
+      100
+    ],
+    "capacityFormatId": "slime-rng:slots",
+    "defaultCategoryId": "slime-rng:pets",
+    "deletionEnabled": true
+  },
+  "formats": {
+    "slime-rng:slots": {
+      "divisor": 1,
+      "suffix": "",
+      "fractionDigits": 0
+    }
+  },
+  "categories": {
+    "slime-rng:pets": {
+      "order": 0,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Слаймы",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:slime_ball",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "slime-rng:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка слаймов",
+      "emptyText": "Нет доступных слаймов",
+      "actionIds": []
+    },
+    "slime-rng:food": {
+      "order": 1,
+      "layoutKind": "CARD_CATALOG",
+      "title": "Еда",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:apple",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 1,
+        "formatId": "slime-rng:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка еды",
+      "emptyText": "Еды пока нет",
+      "actionIds": []
+    }
+  },
+  "equipmentSlots": {
+    "slime-rng:pet_1": {
+      "categoryId": "slime-rng:pets",
+      "order": 0,
+      "visualRole": "PET",
+      "title": "Слайм 1",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "slime-rng:pet_2": {
+      "categoryId": "slime-rng:pets",
+      "order": 1,
+      "visualRole": "PET",
+      "title": "Слайм 2",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "slime-rng:pet_3": {
+      "categoryId": "slime-rng:pets",
+      "order": 2,
+      "visualRole": "PET",
+      "title": "Слайм 3",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "slime-rng:pet_4": {
+      "categoryId": "slime-rng:pets",
+      "order": 3,
+      "visualRole": "PET",
+      "title": "Слайм 4",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "slime-rng:pet_5": {
+      "categoryId": "slime-rng:pets",
+      "order": 4,
+      "visualRole": "PET",
+      "title": "Слайм 5",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    }
+  },
+  "items": {
+    "slime-rng:pet": {
+      "kind": "EQUIPMENT",
+      "categoryId": "slime-rng:pets",
+      "capabilities": [
+        "EQUIPPABLE",
+        "DISCARDABLE"
+      ],
+      "compatibleEquipmentSlotIds": [
+        "slime-rng:pet_1",
+        "slime-rng:pet_2",
+        "slime-rng:pet_3",
+        "slime-rng:pet_4",
+        "slime-rng:pet_5"
+      ],
+      "actionIds": [],
+      "order": 0,
+      "weight": {
+        "source": "NONE"
+      },
+      "stacking": {
+        "strategy": "NEVER",
+        "properties": []
+      },
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/pets.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Слайм",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "slime-rng:food": {
+      "kind": "CARGO",
+      "categoryId": "slime-rng:food",
+      "capabilities": [],
+      "compatibleEquipmentSlotIds": [],
+      "actionIds": [],
+      "order": 0,
+      "weight": {
+        "source": "NONE"
+      },
+      "stacking": {
+        "strategy": "BY_PROPERTIES",
+        "properties": [
+          "type"
+        ]
+      },
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:apple",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Яблоко",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    }
+  },
+  "actions": {},
+  "initialEntries": []
+}

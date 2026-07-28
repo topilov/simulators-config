@@ -1,9 +1,7 @@
 {
-  "logging": false,
   "name": "SlimeRNG",
   "simulatorId": "slime-rng",
   "databaseId": "ashonmyskin",
-  "showLocation": false,
   "isWhitelisted": false,
   "isTest": true,
   "hasPrivateAccess": true,
@@ -81,8 +79,7 @@
   },
   "cooldown": {
     "command": 250,
-    "key": 250,
-    "consumedItem": 250
+    "key": 250
   },
   "violation": {
     "message": {
@@ -90,9 +87,6 @@
     }
   },
   "booster": {
-    "command": {
-      "thanks": "thx"
-    },
     "message": {
       "empty": "katana.booster.message.empty"
     },
@@ -112,8 +106,7 @@
     "localPrefix": "§8[§aL§8]"
   },
   "daily": {
-    "nextTakeReward": 86400000,
-    "command": "daily"
+    "nextTakeReward": 86400000
   },
   "donate": {
     "nextTakeDiscount": 86400000,
@@ -126,7 +119,6 @@
     "message": {
       "buy": "katana.donate.message.buy"
     },
-    "command": "donate",
     "disabled": false
   },
   "locations": {
@@ -147,11 +139,6 @@
         "0": 0.5
       }
     }
-  },
-  "trash": {
-    "command": "trash",
-    "title": "katana.trash.title",
-    "size": 54
   },
   "quests": {
     "nextResetQuests": 86400000,
