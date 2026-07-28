@@ -7,7 +7,7 @@
     ],
     "capacityFormatId": "slime-rng:slots",
     "defaultCategoryId": "slime-rng:pets",
-    "deletionEnabled": false
+    "deletionEnabled": true
   },
   "formats": {
     "slime-rng:slots": {
@@ -110,7 +110,8 @@
       "kind": "EQUIPMENT",
       "categoryId": "slime-rng:pets",
       "capabilities": [
-        "EQUIPPABLE"
+        "EQUIPPABLE",
+        "DISCARDABLE"
       ],
       "compatibleEquipmentSlotIds": [
         "slime-rng:pet_1",
