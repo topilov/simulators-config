@@ -14,8 +14,9 @@
           "price": 229.0,
           "vault": "\uE1D1",
           "amount": 1,
+          "isCounterEnabled": true,
           "onPurchase": [
-            "local-booster %player% MONEY 2 1800"
+            "local-booster %player% MONEY 2 1800 %count%"
           ],
           "data": {
             "REQUIRES_SUB": "true"
@@ -28,8 +29,9 @@
           "price": 229.0,
           "vault": "\uE1D1",
           "amount": 1,
+          "isCounterEnabled": true,
           "onPurchase": [
-            "local-booster %player% EXP 2 1800"
+            "local-booster %player% EXP 2 1800 %count%"
           ],
           "data": {
             "REQUIRES_SUB": "true"
@@ -42,8 +44,9 @@
           "price": 229.0,
           "vault": "\uE1D1",
           "amount": 1,
+          "isCounterEnabled": true,
           "onPurchase": [
-            "local-booster %player% BLOCKS 2 1800"
+            "local-booster %player% BLOCKS 2 1800 %count%"
           ],
           "data": {
             "REQUIRES_SUB": "true"
@@ -56,8 +59,9 @@
           "price": 229.0,
           "vault": "\uE1D1",
           "amount": 1,
+          "isCounterEnabled": true,
           "onPurchase": [
-            "local-booster %player% TREASURES 2 1800"
+            "local-booster %player% TREASURES 2 1800 %count%"
           ],
           "data": {
             "REQUIRES_SUB": "true"
@@ -70,8 +74,9 @@
           "price": 19.0,
           "vault": "\uE1D1",
           "amount": 1,
+          "isCounterEnabled": true,
           "onPurchase": [
-            "give-key %player% DEFAULT 1"
+            "give-key %player% DEFAULT %count%"
           ],
           "data": {
             "REQUIRES_SUB": "true"
@@ -84,8 +89,9 @@
           "price": 59.0,
           "vault": "\uE1D1",
           "amount": 1,
+          "isCounterEnabled": true,
           "onPurchase": [
-            "give-key %player% PET 1"
+            "give-key %player% PET %count%"
           ],
           "data": {
             "REQUIRES_SUB": "true"
@@ -98,8 +104,9 @@
           "price": 79.0,
           "vault": "\uE1D1",
           "amount": 1,
+          "isCounterEnabled": true,
           "onPurchase": [
-            "give-key %player% RUNE 1"
+            "give-key %player% RUNE %count%"
           ],
           "data": {
             "REQUIRES_SUB": "true"
@@ -112,8 +119,9 @@
           "price": 149.0,
           "vault": "\uE1D1",
           "amount": 1,
+          "isCounterEnabled": true,
           "onPurchase": [
-            "give-save-crystals %player% 1"
+            "give-save-crystals %player% %count%"
           ],
           "data": {
             "REQUIRES_SUB": "true"
@@ -135,6 +143,7 @@
           "price": 15.0,
           "vault": "\uE1C2",
           "amount": 1,
+          "isCounterEnabled": false,
           "onPurchase": [
             "give-perk %player% RANGERS_MEDALLION"
           ],
@@ -149,6 +158,7 @@
           "price": 25.0,
           "vault": "\uE1C2",
           "amount": 1,
+          "isCounterEnabled": false,
           "onPurchase": [
             "give-perk %player% SILVER_BRACELET"
           ],
@@ -163,6 +173,7 @@
           "price": 29.0,
           "vault": "\uE1C2",
           "amount": 1,
+          "isCounterEnabled": false,
           "onPurchase": [
             "give-perk %player% BRACELET_DOUBLE_REWARD"
           ],
@@ -177,6 +188,7 @@
           "price": 29.0,
           "vault": "\uE1C2",
           "amount": 1,
+          "isCounterEnabled": false,
           "onPurchase": [
             "give-perk %player% GLOVES_GOLDEN_HANDS"
           ],
@@ -191,6 +203,7 @@
           "price": 39.0,
           "vault": "\uE1C2",
           "amount": 1,
+          "isCounterEnabled": false,
           "onPurchase": [
             "give-perk %player% GOLD_BRACELET"
           ],
