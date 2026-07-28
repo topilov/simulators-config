@@ -70,7 +70,7 @@
       },
       "capacity": {
         "mode": "SLOTS",
-        "limit": 100,
+        "limit": 300,
         "formatId": "treasures:slots"
       },
       "contributesToProfileCapacity": false,
@@ -94,7 +94,7 @@
       },
       "capacity": {
         "mode": "SLOTS",
-        "limit": 100,
+        "limit": 300,
         "formatId": "treasures:slots"
       },
       "contributesToProfileCapacity": false,
@@ -175,11 +175,24 @@
       },
       "initiallyUnlocked": true
     },
-    "treasures:perk": {
+    "treasures:perk_1": {
       "categoryId": "treasures:perks",
       "order": 2,
       "visualRole": "PERK",
-      "title": "Перк",
+      "title": "Перк 1",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "treasures:perk_2": {
+      "categoryId": "treasures:perks",
+      "order": 3,
+      "visualRole": "PERK",
+      "title": "Перк 2",
       "emptyIcon": {
         "kind": "RESOURCE_TEXTURE",
         "resourceId": "cache/simulator/perk.png",
@@ -190,7 +203,7 @@
     },
     "treasures:rune_1": {
       "categoryId": "treasures:runes",
-      "order": 3,
+      "order": 5,
       "visualRole": "RUNE",
       "title": "Руна 1",
       "emptyIcon": {
@@ -203,7 +216,7 @@
     },
     "treasures:rune_2": {
       "categoryId": "treasures:runes",
-      "order": 4,
+      "order": 7,
       "visualRole": "RUNE",
       "title": "Руна 2",
       "emptyIcon": {
@@ -216,7 +229,7 @@
     },
     "treasures:rune_3": {
       "categoryId": "treasures:runes",
-      "order": 5,
+      "order": 9,
       "visualRole": "RUNE",
       "title": "Руна 3",
       "emptyIcon": {
@@ -229,7 +242,7 @@
     },
     "treasures:pet_1": {
       "categoryId": "treasures:pets",
-      "order": 6,
+      "order": 4,
       "visualRole": "PET",
       "title": "Питомец 1",
       "emptyIcon": {
@@ -242,7 +255,7 @@
     },
     "treasures:pet_2": {
       "categoryId": "treasures:pets",
-      "order": 7,
+      "order": 6,
       "visualRole": "PET",
       "title": "Питомец 2",
       "emptyIcon": {
@@ -268,7 +281,7 @@
     },
     "treasures:pet_4": {
       "categoryId": "treasures:pets",
-      "order": 9,
+      "order": 10,
       "visualRole": "PET",
       "title": "Питомец 4",
       "emptyIcon": {
@@ -281,7 +294,7 @@
     },
     "treasures:pet_5": {
       "categoryId": "treasures:pets",
-      "order": 10,
+      "order": 15,
       "visualRole": "PET",
       "title": "Питомец 5",
       "emptyIcon": {
@@ -400,7 +413,10 @@
       "kind": "EQUIPMENT",
       "categoryId": "treasures:perks",
       "capabilities": ["EQUIPPABLE"],
-      "compatibleEquipmentSlotIds": ["treasures:perk"],
+      "compatibleEquipmentSlotIds": [
+        "treasures:perk_1",
+        "treasures:perk_2"
+      ],
       "actionIds": [],
       "order": 4,
       "weight": {"source": "NONE"},

@@ -1719,16 +1719,16 @@
     },
     {
       "level": 39,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-39-default",
           "onClaim": [
-            "tell %player% Claimed level 39 default reward"
+            "unlock-rune-slot %player%"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_slot.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-39.title"
@@ -4345,6 +4345,32 @@
             }
           },
           {
+            "id": "I-dig-mining-battle-secret-block-1",
+            "type": "DIG_MINING_BATTLE_SECRET_BLOCK",
+            "goal": 1,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-dig-mining-battle-secret-block-1 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-dig-mining-battle-secret-block-1.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DIG_MINING_BATTLE_SECRET_BLOCK 1"
+            }
+          },
+          {
+            "id": "I-earn-mining-battle-points-250",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 250,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-earn-mining-battle-points-250 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-250.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add EARN_MINING_BATTLE_POINTS 250"
+            }
+          },
+          {
             "id": "I-open-pet-lootbox-10",
             "type": "OPEN_PET_LOOTBOX",
             "goal": 10,
@@ -4409,6 +4435,32 @@
             "description": "treasures.battlepass.quests.daily.II-earn-shards-1500.description",
             "tooltip": {
               "description": "/test-battlepass-quest-add EARN_SHARDS 1500"
+            }
+          },
+          {
+            "id": "II-dig-mining-battle-secret-block-3",
+            "type": "DIG_MINING_BATTLE_SECRET_BLOCK",
+            "goal": 3,
+            "rewardExperience": 1400,
+            "commands": [
+              "tell %player% Claimed II-dig-mining-battle-secret-block-3 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.II-dig-mining-battle-secret-block-3.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DIG_MINING_BATTLE_SECRET_BLOCK 3"
+            }
+          },
+          {
+            "id": "II-earn-mining-battle-points-1000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 1000,
+            "rewardExperience": 1400,
+            "commands": [
+              "tell %player% Claimed II-earn-mining-battle-points-1000 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-1000.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add EARN_MINING_BATTLE_POINTS 1000"
             }
           },
           {
@@ -4479,6 +4531,32 @@
             }
           },
           {
+            "id": "III-dig-mining-battle-secret-block-5",
+            "type": "DIG_MINING_BATTLE_SECRET_BLOCK",
+            "goal": 5,
+            "rewardExperience": 3250,
+            "commands": [
+              "tell %player% Claimed III-dig-mining-battle-secret-block-5 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.III-dig-mining-battle-secret-block-5.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DIG_MINING_BATTLE_SECRET_BLOCK 5"
+            }
+          },
+          {
+            "id": "III-earn-mining-battle-points-2500",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 2500,
+            "rewardExperience": 3250,
+            "commands": [
+              "tell %player% Claimed III-earn-mining-battle-points-2500 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.III-earn-mining-battle-points-2500.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add EARN_MINING_BATTLE_POINTS 2500"
+            }
+          },
+          {
             "id": "III-open-pet-lootbox-100",
             "type": "OPEN_PET_LOOTBOX",
             "goal": 100,
@@ -4546,6 +4624,32 @@
             }
           },
           {
+            "id": "IV-dig-mining-battle-secret-block-10",
+            "type": "DIG_MINING_BATTLE_SECRET_BLOCK",
+            "goal": 10,
+            "rewardExperience": 3850,
+            "commands": [
+              "tell %player% Claimed IV-dig-mining-battle-secret-block-10 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.IV-dig-mining-battle-secret-block-10.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DIG_MINING_BATTLE_SECRET_BLOCK 10"
+            }
+          },
+          {
+            "id": "IV-earn-mining-battle-points-5000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 5000,
+            "rewardExperience": 3850,
+            "commands": [
+              "tell %player% Claimed IV-earn-mining-battle-points-5000 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.IV-earn-mining-battle-points-5000.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add EARN_MINING_BATTLE_POINTS 5000"
+            }
+          },
+          {
             "id": "IV-open-pet-lootbox-200",
             "type": "OPEN_PET_LOOTBOX",
             "goal": 200,
@@ -4586,7 +4690,8 @@
   "ignoreServiceDiscount": true,
   "purchaseModalDescription": "treasures.battlepass.purchase-modal.description",
   "giftPrice": {
-    "basePrice": 0
+    "basePrice": 499,
+    "discountPercent": 10
   },
   "levelSkips": [
     {
@@ -4598,595 +4703,694 @@
     {
       "level": 2,
       "price": {
-        "basePrice": 22
+        "basePrice": 22,
+        "discountPercent": 20
       }
     },
     {
       "level": 3,
       "price": {
-        "basePrice": 24
+        "basePrice": 24,
+        "discountPercent": 20
       }
     },
     {
       "level": 4,
       "price": {
-        "basePrice": 26
+        "basePrice": 26,
+        "discountPercent": 20
       }
     },
     {
       "level": 5,
       "price": {
-        "basePrice": 28
+        "basePrice": 28,
+        "discountPercent": 20
       }
     },
     {
       "level": 6,
       "price": {
-        "basePrice": 30
+        "basePrice": 30,
+        "discountPercent": 20
       }
     },
     {
       "level": 7,
       "price": {
-        "basePrice": 32
+        "basePrice": 32,
+        "discountPercent": 20
       }
     },
     {
       "level": 8,
       "price": {
-        "basePrice": 34
+        "basePrice": 34,
+        "discountPercent": 20
       }
     },
     {
       "level": 9,
       "price": {
-        "basePrice": 36
+        "basePrice": 36,
+        "discountPercent": 20
       }
     },
     {
       "level": 10,
       "price": {
-        "basePrice": 38
+        "basePrice": 38,
+        "discountPercent": 20
       }
     },
     {
       "level": 11,
       "price": {
-        "basePrice": 40
+        "basePrice": 40,
+        "discountPercent": 20
       }
     },
     {
       "level": 12,
       "price": {
-        "basePrice": 42
+        "basePrice": 42,
+        "discountPercent": 20
       }
     },
     {
       "level": 13,
       "price": {
-        "basePrice": 44
+        "basePrice": 44,
+        "discountPercent": 20
       }
     },
     {
       "level": 14,
       "price": {
-        "basePrice": 46
+        "basePrice": 46,
+        "discountPercent": 20
       }
     },
     {
       "level": 15,
       "price": {
-        "basePrice": 48
+        "basePrice": 48,
+        "discountPercent": 20
       }
     },
     {
       "level": 16,
       "price": {
-        "basePrice": 50
+        "basePrice": 50,
+        "discountPercent": 20
       }
     },
     {
       "level": 17,
       "price": {
-        "basePrice": 52
+        "basePrice": 52,
+        "discountPercent": 20
       }
     },
     {
       "level": 18,
       "price": {
-        "basePrice": 54
+        "basePrice": 54,
+        "discountPercent": 20
       }
     },
     {
       "level": 19,
       "price": {
-        "basePrice": 56
+        "basePrice": 56,
+        "discountPercent": 20
       }
     },
     {
       "level": 20,
       "price": {
-        "basePrice": 58
+        "basePrice": 58,
+        "discountPercent": 20
       }
     },
     {
       "level": 21,
       "price": {
-        "basePrice": 60
+        "basePrice": 60,
+        "discountPercent": 20
       }
     },
     {
       "level": 22,
       "price": {
-        "basePrice": 62
+        "basePrice": 62,
+        "discountPercent": 20
       }
     },
     {
       "level": 23,
       "price": {
-        "basePrice": 64
+        "basePrice": 64,
+        "discountPercent": 20
       }
     },
     {
       "level": 24,
       "price": {
-        "basePrice": 66
+        "basePrice": 66,
+        "discountPercent": 20
       }
     },
     {
       "level": 25,
       "price": {
-        "basePrice": 68
+        "basePrice": 68,
+        "discountPercent": 20
       }
     },
     {
       "level": 26,
       "price": {
-        "basePrice": 71
+        "basePrice": 71,
+        "discountPercent": 20
       }
     },
     {
       "level": 27,
       "price": {
-        "basePrice": 73
+        "basePrice": 73,
+        "discountPercent": 20
       }
     },
     {
       "level": 28,
       "price": {
-        "basePrice": 75
+        "basePrice": 75,
+        "discountPercent": 20
       }
     },
     {
       "level": 29,
       "price": {
-        "basePrice": 77
+        "basePrice": 77,
+        "discountPercent": 20
       }
     },
     {
       "level": 30,
       "price": {
-        "basePrice": 79
+        "basePrice": 79,
+        "discountPercent": 20
       }
     },
     {
       "level": 31,
       "price": {
-        "basePrice": 81
+        "basePrice": 81,
+        "discountPercent": 20
       }
     },
     {
       "level": 32,
       "price": {
-        "basePrice": 83
+        "basePrice": 83,
+        "discountPercent": 20
       }
     },
     {
       "level": 33,
       "price": {
-        "basePrice": 85
+        "basePrice": 85,
+        "discountPercent": 20
       }
     },
     {
       "level": 34,
       "price": {
-        "basePrice": 87
+        "basePrice": 87,
+        "discountPercent": 20
       }
     },
     {
       "level": 35,
       "price": {
-        "basePrice": 89
+        "basePrice": 89,
+        "discountPercent": 20
       }
     },
     {
       "level": 36,
       "price": {
-        "basePrice": 91
+        "basePrice": 91,
+        "discountPercent": 20
       }
     },
     {
       "level": 37,
       "price": {
-        "basePrice": 93
+        "basePrice": 93,
+        "discountPercent": 20
       }
     },
     {
       "level": 38,
       "price": {
-        "basePrice": 95
+        "basePrice": 95,
+        "discountPercent": 20
       }
     },
     {
       "level": 39,
       "price": {
-        "basePrice": 97
+        "basePrice": 97,
+        "discountPercent": 20
       }
     },
     {
       "level": 40,
       "price": {
-        "basePrice": 99
+        "basePrice": 99,
+        "discountPercent": 20
       }
     },
     {
       "level": 41,
       "price": {
-        "basePrice": 101
+        "basePrice": 101,
+        "discountPercent": 20
       }
     },
     {
       "level": 42,
       "price": {
-        "basePrice": 103
+        "basePrice": 103,
+        "discountPercent": 20
       }
     },
     {
       "level": 43,
       "price": {
-        "basePrice": 105
+        "basePrice": 105,
+        "discountPercent": 20
       }
     },
     {
       "level": 44,
       "price": {
-        "basePrice": 107
+        "basePrice": 107,
+        "discountPercent": 20
       }
     },
     {
       "level": 45,
       "price": {
-        "basePrice": 109
+        "basePrice": 109,
+        "discountPercent": 20
       }
     },
     {
       "level": 46,
       "price": {
-        "basePrice": 111
+        "basePrice": 111,
+        "discountPercent": 20
       }
     },
     {
       "level": 47,
       "price": {
-        "basePrice": 113
+        "basePrice": 113,
+        "discountPercent": 20
       }
     },
     {
       "level": 48,
       "price": {
-        "basePrice": 115
+        "basePrice": 115,
+        "discountPercent": 20
       }
     },
     {
       "level": 49,
       "price": {
-        "basePrice": 117
+        "basePrice": 117,
+        "discountPercent": 20
       }
     },
     {
       "level": 50,
       "price": {
-        "basePrice": 119
+        "basePrice": 119,
+        "discountPercent": 20
       }
     },
     {
       "level": 51,
       "price": {
-        "basePrice": 121
+        "basePrice": 121,
+        "discountPercent": 20
       }
     },
     {
       "level": 52,
       "price": {
-        "basePrice": 123
+        "basePrice": 123,
+        "discountPercent": 20
       }
     },
     {
       "level": 53,
       "price": {
-        "basePrice": 125
+        "basePrice": 125,
+        "discountPercent": 20
       }
     },
     {
       "level": 54,
       "price": {
-        "basePrice": 127
+        "basePrice": 127,
+        "discountPercent": 20
       }
     },
     {
       "level": 55,
       "price": {
-        "basePrice": 129
+        "basePrice": 129,
+        "discountPercent": 20
       }
     },
     {
       "level": 56,
       "price": {
-        "basePrice": 131
+        "basePrice": 131,
+        "discountPercent": 20
       }
     },
     {
       "level": 57,
       "price": {
-        "basePrice": 133
+        "basePrice": 133,
+        "discountPercent": 20
       }
     },
     {
       "level": 58,
       "price": {
-        "basePrice": 135
+        "basePrice": 135,
+        "discountPercent": 20
       }
     },
     {
       "level": 59,
       "price": {
-        "basePrice": 137
+        "basePrice": 137,
+        "discountPercent": 20
       }
     },
     {
       "level": 60,
       "price": {
-        "basePrice": 139
+        "basePrice": 139,
+        "discountPercent": 20
       }
     },
     {
       "level": 61,
       "price": {
-        "basePrice": 141
+        "basePrice": 141,
+        "discountPercent": 20
       }
     },
     {
       "level": 62,
       "price": {
-        "basePrice": 143
+        "basePrice": 143,
+        "discountPercent": 20
       }
     },
     {
       "level": 63,
       "price": {
-        "basePrice": 145
+        "basePrice": 145,
+        "discountPercent": 20
       }
     },
     {
       "level": 64,
       "price": {
-        "basePrice": 147
+        "basePrice": 147,
+        "discountPercent": 20
       }
     },
     {
       "level": 65,
       "price": {
-        "basePrice": 149
+        "basePrice": 149,
+        "discountPercent": 20
       }
     },
     {
       "level": 66,
       "price": {
-        "basePrice": 151
+        "basePrice": 151,
+        "discountPercent": 20
       }
     },
     {
       "level": 67,
       "price": {
-        "basePrice": 153
+        "basePrice": 153,
+        "discountPercent": 20
       }
     },
     {
       "level": 68,
       "price": {
-        "basePrice": 155
+        "basePrice": 155,
+        "discountPercent": 20
       }
     },
     {
       "level": 69,
       "price": {
-        "basePrice": 157
+        "basePrice": 157,
+        "discountPercent": 20
       }
     },
     {
       "level": 70,
       "price": {
-        "basePrice": 159
+        "basePrice": 159,
+        "discountPercent": 20
       }
     },
     {
       "level": 71,
       "price": {
-        "basePrice": 161
+        "basePrice": 161,
+        "discountPercent": 20
       }
     },
     {
       "level": 72,
       "price": {
-        "basePrice": 163
+        "basePrice": 163,
+        "discountPercent": 20
       }
     },
     {
       "level": 73,
       "price": {
-        "basePrice": 165
+        "basePrice": 165,
+        "discountPercent": 20
       }
     },
     {
       "level": 74,
       "price": {
-        "basePrice": 167
+        "basePrice": 167,
+        "discountPercent": 20
       }
     },
     {
       "level": 75,
       "price": {
-        "basePrice": 169
+        "basePrice": 169,
+        "discountPercent": 20
       }
     },
     {
       "level": 76,
       "price": {
-        "basePrice": 172
+        "basePrice": 172,
+        "discountPercent": 20
       }
     },
     {
       "level": 77,
       "price": {
-        "basePrice": 174
+        "basePrice": 174,
+        "discountPercent": 20
       }
     },
     {
       "level": 78,
       "price": {
-        "basePrice": 176
+        "basePrice": 176,
+        "discountPercent": 20
       }
     },
     {
       "level": 79,
       "price": {
-        "basePrice": 178
+        "basePrice": 178,
+        "discountPercent": 20
       }
     },
     {
       "level": 80,
       "price": {
-        "basePrice": 180
+        "basePrice": 180,
+        "discountPercent": 20
       }
     },
     {
       "level": 81,
       "price": {
-        "basePrice": 182
+        "basePrice": 182,
+        "discountPercent": 20
       }
     },
     {
       "level": 82,
       "price": {
-        "basePrice": 184
+        "basePrice": 184,
+        "discountPercent": 20
       }
     },
     {
       "level": 83,
       "price": {
-        "basePrice": 186
+        "basePrice": 186,
+        "discountPercent": 20
       }
     },
     {
       "level": 84,
       "price": {
-        "basePrice": 188
+        "basePrice": 188,
+        "discountPercent": 20
       }
     },
     {
       "level": 85,
       "price": {
-        "basePrice": 190
+        "basePrice": 190,
+        "discountPercent": 20
       }
     },
     {
       "level": 86,
       "price": {
-        "basePrice": 192
+        "basePrice": 192,
+        "discountPercent": 20
       }
     },
     {
       "level": 87,
       "price": {
-        "basePrice": 194
+        "basePrice": 194,
+        "discountPercent": 20
       }
     },
     {
       "level": 88,
       "price": {
-        "basePrice": 196
+        "basePrice": 196,
+        "discountPercent": 20
       }
     },
     {
       "level": 89,
       "price": {
-        "basePrice": 198
+        "basePrice": 198,
+        "discountPercent": 20
       }
     },
     {
       "level": 90,
       "price": {
-        "basePrice": 200
+        "basePrice": 200,
+        "discountPercent": 20
       }
     },
     {
       "level": 91,
       "price": {
-        "basePrice": 202
+        "basePrice": 202,
+        "discountPercent": 20
       }
     },
     {
       "level": 92,
       "price": {
-        "basePrice": 204
+        "basePrice": 204,
+        "discountPercent": 20
       }
     },
     {
       "level": 93,
       "price": {
-        "basePrice": 206
+        "basePrice": 206,
+        "discountPercent": 20
       }
     },
     {
       "level": 94,
       "price": {
-        "basePrice": 208
+        "basePrice": 208,
+        "discountPercent": 20
       }
     },
     {
       "level": 95,
       "price": {
-        "basePrice": 210
+        "basePrice": 210,
+        "discountPercent": 20
       }
     },
     {
       "level": 96,
       "price": {
-        "basePrice": 212
+        "basePrice": 212,
+        "discountPercent": 20
       }
     },
     {
       "level": 97,
       "price": {
-        "basePrice": 214
+        "basePrice": 214,
+        "discountPercent": 20
       }
     },
     {
       "level": 98,
       "price": {
-        "basePrice": 216
+        "basePrice": 216,
+        "discountPercent": 20
       }
     },
     {
       "level": 99,
       "price": {
-        "basePrice": 218
+        "basePrice": 218,
+        "discountPercent": 20
       }
     },
     {
       "level": 100,
       "price": {
-        "basePrice": 220
+        "basePrice": 220,
+        "discountPercent": 20
       }
     }
   ]
