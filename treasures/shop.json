@@ -1,161 +1,217 @@
 {
   "shops": {
-    "bits": {
-      "messages": {
-        "moreMoney": "treasures.shop.messages.more-money",
-        "noSubscription": "treasures.shop.messages.no-subscription",
-        "hasPerk": "treasures.shop.messages.has-perk"
-      },
-      "title": "treasures.shop.bits.title",
+    "BITS": {
       "vault": "\uE1D1",
-      "products": [
-        {
+      "messages": {
+        "INSUFFICIENT_FUNDS": "treasures.shop.messages.more-money",
+        "NO_SUBSCRIPTION": "treasures.shop.messages.no-subscription"
+      },
+      "products": {
+        "MONEY_BOOSTER": {
           "title": "treasures.shop.bits.product.money_booster.title",
-          "hover": "treasures.shop.bits.product.money_booster.hover",
+          "description": "treasures.shop.bits.product.money_booster.hover",
           "icon": "money_booster.png",
           "price": 229.0,
-          "needSubscription": true,
-          "onBuy": [
-            "local-booster %player% MONEY 2 1800"
-          ]
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% MONEY 2 1800 %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": "true"
+          }
         },
-        {
+        "EXP_BOOSTER": {
           "title": "treasures.shop.bits.product.exp_booster.title",
-          "hover": "treasures.shop.bits.product.exp_booster.hover",
+          "description": "treasures.shop.bits.product.exp_booster.hover",
           "icon": "exp_booster.png",
           "price": 229.0,
-          "needSubscription": true,
-          "onBuy": [
-            "local-booster %player% EXP 2 1800"
-          ]
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% EXP 2 1800 %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": "true"
+          }
         },
-        {
+        "BLOCKS_BOOSTER": {
           "title": "treasures.shop.bits.product.blocks_booster.title",
-          "hover": "treasures.shop.bits.product.blocks_booster.hover",
+          "description": "treasures.shop.bits.product.blocks_booster.hover",
           "icon": "blocks_booster.png",
           "price": 229.0,
-          "needSubscription": true,
-          "onBuy": [
-            "local-booster %player% BLOCKS 2 1800"
-          ]
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% BLOCKS 2 1800 %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": "true"
+          }
         },
-        {
+        "TREASURES_BOOSTER": {
           "title": "treasures.shop.bits.product.treasures_booster.title",
-          "hover": "treasures.shop.bits.product.treasures_booster.hover",
+          "description": "treasures.shop.bits.product.treasures_booster.hover",
           "icon": "treasures_booster.png",
           "price": 229.0,
-          "needSubscription": true,
-          "onBuy": [
-            "local-booster %player% TREASURES 2 1800"
-          ]
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "local-booster %player% TREASURES 2 1800 %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": "true"
+          }
         },
-        {
+        "DEFAULT_KEY": {
           "title": "treasures.shop.bits.product.default_key.title",
-          "hover": "treasures.lootbox.default.key-description",
+          "description": "treasures.lootbox.default.key-description",
           "icon": "goldkey.png",
           "price": 19.0,
-          "needSubscription": true,
-          "onBuy": [
-            "give-key %player% DEFAULT 1"
-          ]
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% DEFAULT %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": "true"
+          }
         },
-        {
+        "PET_KEY": {
           "title": "treasures.shop.bits.product.pet_key.title",
-          "hover": "treasures.lootbox.pets.key-description",
+          "description": "treasures.lootbox.pets.key-description",
           "icon": "fox_key.png",
           "price": 59.0,
-          "needSubscription": true,
-          "onBuy": [
-            "give-key %player% PET 1"
-          ]
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% PET %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": "true"
+          }
         },
-        {
+        "RUNE_KEY": {
           "title": "treasures.shop.bits.product.rune_key.title",
-          "hover": "treasures.lootbox.runes.key-description",
+          "description": "treasures.lootbox.runes.key-description",
           "icon": "rune_key.png",
           "price": 79.0,
-          "needSubscription": true,
-          "onBuy": [
-            "give-key %player% RUNE 1"
-          ]
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-key %player% RUNE %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": "true"
+          }
         },
-        {
+        "SAVE_CRYSTAL": {
           "title": "treasures.shop.bits.product.crystal.title",
-          "hover": "treasures.shop.bits.product.crystal.hover",
+          "description": "treasures.shop.bits.product.crystal.hover",
           "icon": "save_crystal.png",
           "price": 149.0,
-          "needSubscription": true,
-          "onBuy": [
-            "give-save-crystals %player% 1"
-          ]
+          "vault": "\uE1D1",
+          "amount": 1,
+          "isCounterEnabled": true,
+          "onPurchase": [
+            "give-save-crystals %player% %count%"
+          ],
+          "data": {
+            "REQUIRES_SUB": "true"
+          }
         }
-      ]
+      }
     },
-    "minigame": {
-      "messages": {
-        "moreMoney": "treasures.shop.minigame.messages.more-money",
-        "noSubscription": "treasures.shop.minigame.minigame.messages.no-subscription",
-        "hasPerk": "treasures.shop.minigame.minigame.messages.has-perk"
-      },
-      "title": "treasures.shop.minigame.title",
+    "MINIGAME": {
       "vault": "\uE1C2",
-      "products": [
-        {
-          "perkType": "RANGERS_MEDALLION",
+      "messages": {
+        "ALREADY_OWNED": "treasures.shop.minigame.minigame.messages.has-perk",
+        "INSUFFICIENT_FUNDS": "treasures.shop.minigame.messages.more-money"
+      },
+      "products": {
+        "RANGERS_MEDALLION": {
           "title": "treasures.shop.minigame.product.rangers_medallion.title",
-          "hover": "treasures.items.rangers_medallion.lore",
+          "description": "treasures.items.rangers_medallion.lore",
           "icon": "rangers_medallion.png",
           "price": 15.0,
-          "needSubscription": false,
-          "onBuy": [
+          "vault": "\uE1C2",
+          "amount": 1,
+          "isCounterEnabled": false,
+          "onPurchase": [
             "give-perk %player% RANGERS_MEDALLION"
-          ]
+          ],
+          "data": {
+            "PERK_TYPE": "RANGERS_MEDALLION"
+          }
         },
-        {
-          "perkType": "SILVER_BRACELET",
+        "SILVER_BRACELET": {
           "title": "treasures.shop.minigame.product.silver_bracelet.title",
-          "hover": "treasures.items.silver_bracelet.lore",
+          "description": "treasures.items.silver_bracelet.lore",
           "icon": "silver_bracelet.png",
           "price": 25.0,
-          "needSubscription": false,
-          "onBuy": [
+          "vault": "\uE1C2",
+          "amount": 1,
+          "isCounterEnabled": false,
+          "onPurchase": [
             "give-perk %player% SILVER_BRACELET"
-          ]
+          ],
+          "data": {
+            "PERK_TYPE": "SILVER_BRACELET"
+          }
         },
-        {
-          "perkType": "BRACELET_DOUBLE_REWARD",
+        "BRACELET_DOUBLE_REWARD": {
           "title": "treasures.shop.minigame.product.bracelet_double_reward.title",
-          "hover": "treasures.items.bracelet_double_reward.lore",
+          "description": "treasures.items.bracelet_double_reward.lore",
           "icon": "bracelet_double_reward.png",
           "price": 29.0,
-          "needSubscription": false,
-          "onBuy": [
+          "vault": "\uE1C2",
+          "amount": 1,
+          "isCounterEnabled": false,
+          "onPurchase": [
             "give-perk %player% BRACELET_DOUBLE_REWARD"
-          ]
+          ],
+          "data": {
+            "PERK_TYPE": "BRACELET_DOUBLE_REWARD"
+          }
         },
-        {
-          "perkType": "GLOVES_GOLDEN_HANDS",
+        "GLOVES_GOLDEN_HANDS": {
           "title": "treasures.shop.minigame.product.gloves_golden_hands.title",
-          "hover": "treasures.items.gloves_golden_hands.lore",
+          "description": "treasures.items.gloves_golden_hands.lore",
           "icon": "gloves_golden_hands.png",
           "price": 29.0,
-          "needSubscription": false,
-          "onBuy": [
+          "vault": "\uE1C2",
+          "amount": 1,
+          "isCounterEnabled": false,
+          "onPurchase": [
             "give-perk %player% GLOVES_GOLDEN_HANDS"
-          ]
+          ],
+          "data": {
+            "PERK_TYPE": "GLOVES_GOLDEN_HANDS"
+          }
         },
-        {
-          "perkType": "GOLD_BRACELET",
+        "GOLD_BRACELET": {
           "title": "treasures.shop.minigame.product.gold_bracelet.title",
-          "hover": "treasures.items.gold_bracelet.lore",
+          "description": "treasures.items.gold_bracelet.lore",
           "icon": "gold_bracelet.png",
           "price": 39.0,
-          "needSubscription": false,
-          "onBuy": [
+          "vault": "\uE1C2",
+          "amount": 1,
+          "isCounterEnabled": false,
+          "onPurchase": [
             "give-perk %player% GOLD_BRACELET"
-          ]
+          ],
+          "data": {
+            "PERK_TYPE": "GOLD_BRACELET"
+          }
         }
-      ]
+      }
     }
   }
 }

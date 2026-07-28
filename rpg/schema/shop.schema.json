@@ -2,21 +2,31 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "required": [
-    "messages",
     "shops"
   ],
   "additionalProperties": false,
   "properties": {
     "$schema": {
-      "type": "string"    
+      "type": "string"
     },
     "messages": {
-      "$ref": "#/$defs/messages"
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "enum": [
+          "NO_SUBSCRIPTION"
+        ]
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
     },
     "shops": {
       "type": "object",
       "propertyNames": {
-        "$ref": "#/$defs/shopType"
+        "type": "string",
+        "minLength": 1
       },
       "additionalProperties": {
         "$ref": "#/$defs/shop"
@@ -24,53 +34,33 @@
     }
   },
   "$defs": {
-    "messages": {
-      "type": "object",
-      "required": [
-        "noSubscription"
-      ],
-      "properties": {
-        "noSubscription": {
-          "$ref": "./common.schema.json#/$defs/i18n"
-        }
-      },
-      "additionalProperties": false
-    },
-    "shopType": {
-      "type": "string",
-      "enum": [
-        "ABILITY",
-        "ARTEFACT",
-        "FEED",
-        "BITS"
-      ]
-    },
     "shop": {
       "type": "object",
       "required": [
         "vault",
         "products"
       ],
+      "additionalProperties": false,
       "properties": {
         "vault": {
-          "$ref": "./common.schema.json#/$defs/emoji"
+          "type": "string",
+          "minLength": 1
         },
         "products": {
           "type": "object",
           "propertyNames": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "additionalProperties": {
             "$ref": "#/$defs/product"
           }
         }
-      },
-      "additionalProperties": false
+      }
     },
     "product": {
       "type": "object",
       "required": [
-        "type",
         "title",
         "description",
         "icon",
@@ -79,29 +69,31 @@
         "amount",
         "onPurchase"
       ],
+      "additionalProperties": false,
       "properties": {
-        "type": {
-          "type": "string"
-        },
         "title": {
-          "$ref": "./common.schema.json#/$defs/i18n"
+          "type": "string",
+          "minLength": 1
         },
         "description": {
-          "$ref": "./common.schema.json#/$defs/i18n"
+          "type": "string",
+          "minLength": 1
         },
         "icon": {
-          "$ref": "./common.schema.json#/$defs/image"
+          "type": "string",
+          "minLength": 1
         },
         "price": {
           "type": "number",
           "minimum": 0
         },
         "vault": {
-          "$ref": "./common.schema.json#/$defs/emoji"
+          "type": "string",
+          "minLength": 1
         },
         "amount": {
-          "type": "number",
-          "minimum": 0
+          "type": "integer",
+          "minimum": 1
         },
         "isCounterEnabled": {
           "type": "boolean"
@@ -115,18 +107,12 @@
         "data": {
           "type": "object",
           "propertyNames": {
-            "enum": [
-              "CHARACTER_TYPE",
-              "ABILITY_TYPE",
-              "CHECK_FULL_INVENTORY",
-              "REQUIRES_SUB"
-            ]
+            "type": "string",
+            "minLength": 1
           },
           "additionalProperties": {
-            "type": [
-              "string",
-              "boolean"
-            ]
+            "type": "string",
+            "minLength": 1
           }
         }
       }
