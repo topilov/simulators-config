@@ -1,7 +1,8 @@
-﻿{
+{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "required": [
+    "rarities",
     "pets"
   ],
   "additionalProperties": false,
@@ -9,6 +10,22 @@
   "properties": {
     "$schema": {
       "type": "string"
+    },
+
+    "rarities": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "COMMON",
+          "RARE",
+          "EPIC",
+          "LEGENDARY",
+          "MYTHIC"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/rarity"
+      }
     },
 
     "pets": {
@@ -25,9 +42,8 @@
       "required": [
         "title",
         "description",
-        "texture",
-        "rarity",
         "icon",
+        "rarity",
         "levels"
       ],
       "additionalProperties": false,
@@ -41,21 +57,18 @@
           "type": "string"
         },
 
-        "texture": {
-          "$ref": "./common.schema.json#/$defs/itemStack"
+        "icon": {
+          "$ref": "#/$defs/icon"
         },
 
         "rarity": {
-          "$ref": "./common.schema.json#/$defs/rarity"
-        },
-
-        "icon": {
-          "type": "string"
-        },
-
-        "requiredFragments": {
-          "type": "integer",
-          "minimum": 0
+          "enum": [
+            "COMMON",
+            "RARE",
+            "EPIC",
+            "LEGENDARY",
+            "MYTHIC"
+          ]
         },
 
         "levels": {
@@ -63,6 +76,108 @@
           "additionalProperties": {
             "$ref": "#/$defs/petLevel"
           }
+        }
+      }
+    },
+
+    "rarity": {
+      "type": "object",
+      "required": [
+        "title",
+        "color"
+      ],
+      "additionalProperties": false,
+
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+
+        "color": {
+          "$ref": "#/$defs/color"
+        }
+      }
+    },
+
+    "icon": {
+      "type": "object",
+      "required": [
+        "kind",
+        "resourceId",
+        "modelId",
+        "ownerTexture",
+        "tint",
+        "glint",
+        "modelTagKey",
+        "modelTag"
+      ],
+      "additionalProperties": false,
+
+      "properties": {
+        "kind": {
+          "enum": [
+            "ITEM_MODEL",
+            "RESOURCE_TEXTURE"
+          ]
+        },
+
+        "resourceId": {
+          "type": "string"
+        },
+
+        "modelId": {
+          "type": "integer"
+        },
+
+        "ownerTexture": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "tint": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/color"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+
+        "glint": {
+          "type": "boolean"
+        },
+
+        "modelTagKey": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "modelTag": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+
+    "color": {
+      "type": "object",
+      "required": [
+        "hex"
+      ],
+      "additionalProperties": false,
+
+      "properties": {
+        "hex": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
         }
       }
     },
