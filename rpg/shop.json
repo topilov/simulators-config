@@ -2,14 +2,13 @@
   "$schema": "./schema/shop.schema.json",
 
   "messages": {
-    "noSubscription": "rpg.shop.messages.no-subscription"
+    "NO_SUBSCRIPTION": "rpg.shop.messages.no-subscription"
   },
   "shops": {
     "ABILITY": {
       "vault": "\uE1C0",
       "products": {
         "UNSHAKABLE": {
-          "type": "UNSHAKABLE",
           "title": "rpg.shop.ability.product.unshakable.title",
           "description": "rpg.shop.ability.product.unshakable.description",
           "icon": "unshakable_ability.png",
@@ -25,7 +24,6 @@
           ]
         },
         "BLOOD": {
-          "type": "BLOOD",
           "title": "rpg.shop.ability.product.blood.title",
           "description": "rpg.shop.ability.product.blood.description",
           "icon": "blood_ability.png",
@@ -41,7 +39,6 @@
           ]
         },
         "IRON_WILL": {
-          "type": "IRON_WILL",
           "title": "rpg.shop.ability.product.iron_will.title",
           "description": "rpg.shop.ability.product.iron_will.description",
           "icon": "iron_will_ability.png",
@@ -57,7 +54,6 @@
           ]
         },
         "HIT_SERIES": {
-          "type": "HIT_SERIES",
           "title": "rpg.shop.ability.product.hit_series.title",
           "description": "rpg.shop.ability.product.hit_series.description",
           "icon": "hit_series_ability.png",
@@ -73,7 +69,6 @@
           ]
         },
         "FINISHER": {
-          "type": "FINISHER",
           "title": "rpg.shop.ability.product.finisher.title",
           "description": "rpg.shop.ability.product.finisher.description",
           "icon": "finisher_ability.png",
@@ -89,7 +84,6 @@
           ]
         },
         "PHANTOM_JERK": {
-          "type": "PHANTOM_JERK",
           "title": "rpg.shop.ability.product.phantom_jerk.title",
           "description": "rpg.shop.ability.product.phantom_jerk.description",
           "icon": "phantom_jerk_ability.png",
@@ -105,7 +99,6 @@
           ]
         },
         "TRIPLE_ARROW": {
-          "type": "TRIPLE_ARROW",
           "title": "rpg.shop.ability.product.triple_arrow.title",
           "description": "rpg.shop.ability.product.triple_arrow.description",
           "icon": "triple_arrow_ability.png",
@@ -121,7 +114,6 @@
           ]
         },
         "NATURE_SPIRIT": {
-          "type": "NATURE_SPIRIT",
           "title": "rpg.shop.ability.product.nature_spirit.title",
           "description": "rpg.shop.ability.product.nature_spirit.description",
           "icon": "nature_spirit_ability.png",
@@ -137,7 +129,6 @@
           ]
         },
         "UNPREDICTABLE_RHYTHM": {
-          "type": "UNPREDICTABLE_RHYTHM",
           "title": "rpg.shop.ability.product.unpredictable_rhythm.title",
           "description": "rpg.shop.ability.product.unpredictable_rhythm.description",
           "icon": "unpredictable_rhythm_ability.png",
@@ -153,7 +144,6 @@
           ]
         },
         "RESONANCE": {
-          "type": "RESONANCE",
           "title": "rpg.shop.ability.product.resonance.title",
           "description": "rpg.shop.ability.product.resonance.description",
           "icon": "resonance_ability.png",
@@ -169,7 +159,6 @@
           ]
         },
         "DETERMINATION": {
-          "type": "DETERMINATION",
           "title": "rpg.shop.ability.product.determination.title",
           "description": "rpg.shop.ability.product.determination.description",
           "icon": "determination_ability.png",
@@ -185,7 +174,6 @@
           ]
         },
         "CLEAN": {
-          "type": "CLEAN",
           "title": "rpg.shop.ability.product.clean.title",
           "description": "rpg.shop.ability.product.clean.description",
           "icon": "clean_ability.png",
@@ -206,7 +194,6 @@
       "vault": "",
       "products": {
         "SHIV_TOOL": {
-          "type": "SHIV_TOOL",
           "title": "rpg.shiv.item.tool.default.name",
           "description": "rpg.shiv.item.tool.default.lore",
           "icon": "default_shiv_tool.png",
@@ -219,11 +206,10 @@
             "earn-tutorial-stage-progress %player% BUY_SHIV"
           ],
           "data": {
-            "CHECK_FULL_INVENTORY": true
+            "CHECK_FULL_INVENTORY": "true"
           }
         },
         "SHIV_ARMOR": {
-          "type": "SHIV_ARMOR",
           "title": "rpg.shiv.item.armor.default.name",
           "description": "rpg.shiv.item.armor.default.lore",
           "icon": "default_shiv_armor.png",
@@ -236,11 +222,10 @@
             "earn-tutorial-stage-progress %player% BUY_SHIV"
           ],
           "data": {
-            "CHECK_FULL_INVENTORY": true
+            "CHECK_FULL_INVENTORY": "true"
           }
         },
         "KEY_PETS": {
-          "type": "KEY_PETS",
           "title": "rpg.lootbox.pets.key.title",
           "description": "rpg.lootbox.pets.key.description",
           "icon": "fox_key.png",
@@ -253,7 +238,6 @@
           ]
         },
         "KEY_RUNES": {
-          "type": "KEY_RUNES",
           "title": "rpg.lootbox.runes.key.title",
           "description": "rpg.lootbox.runes.key.description",
           "icon": "rune_key.png",
@@ -266,7 +250,6 @@
           ]
         },
         "KEY_TITLES": {
-          "type": "KEY_TITLES",
           "title": "rpg.lootbox.titles.key.title",
           "description": "rpg.lootbox.titles.key.description",
           "icon": "purple_cristal_key.png",
@@ -279,7 +262,6 @@
           ]
         },
         "KEY_DEFAULT": {
-          "type": "KEY_DEFAULT",
           "title": "rpg.lootbox.default.key.title",
           "description": "rpg.lootbox.default.key.description",
           "icon": "goldkey.png",
@@ -297,7 +279,6 @@
       "vault": "\uE03C",
       "products": {
         "VEGETABLE": {
-          "type": "VEGETABLE",
           "title": "rpg.feed.vegetable.title",
           "description": "rpg.feed.vegetable.description",
           "icon": "vegetable.png",
@@ -310,7 +291,6 @@
           ]
         },
         "BACON": {
-          "type": "BACON",
           "title": "rpg.feed.bacon.title",
           "description": "rpg.feed.bacon.description",
           "icon": "bacon.png",
@@ -323,7 +303,6 @@
           ]
         },
         "MEAT": {
-          "type": "MEAT",
           "title": "rpg.feed.meat.title",
           "description": "rpg.feed.meat.description",
           "icon": "meat.png",
@@ -336,7 +315,6 @@
           ]
         },
         "TAB": {
-          "type": "TAB",
           "title": "rpg.feed.tab.title",
           "description": "rpg.feed.tab.description",
           "icon": "tab.png",
@@ -349,7 +327,6 @@
           ]
         },
         "ANTIBIOTIC": {
-          "type": "ANTIBIOTIC",
           "title": "rpg.feed.antibiotic.title",
           "description": "rpg.feed.antibiotic.description",
           "icon": "antibiotic.png",
@@ -362,7 +339,6 @@
           ]
         },
         "ANTIVIRUS_TAB": {
-          "type": "ANTIVIRUS_TAB",
           "title": "rpg.feed.antivirus_tab.title",
           "description": "rpg.feed.antivirus_tab.description",
           "icon": "antivirus_tab.png",
@@ -375,7 +351,6 @@
           ]
         },
         "BANDAGE": {
-          "type": "BANDAGE",
           "title": "rpg.feed.bandage.title",
           "description": "rpg.feed.bandage.description",
           "icon": "bandage.png",
@@ -388,7 +363,6 @@
           ]
         },
         "PLASTER": {
-          "type": "PLASTER",
           "title": "rpg.feed.plaster.title",
           "description": "rpg.feed.plaster.description",
           "icon": "plaster.png",
@@ -401,7 +375,6 @@
           ]
         },
         "OINTMENT": {
-          "type": "OINTMENT",
           "title": "rpg.feed.ointment.title",
           "description": "rpg.feed.ointment.description",
           "icon": "ointment.png",
@@ -419,7 +392,6 @@
       "vault": "\uE1D1",
       "products": {
         "SHIV_TOOL": {
-          "type": "SHIV_TOOL",
           "title": "rpg.shiv.item.tool.default.name",
           "description": "rpg.shiv.item.tool.default.lore",
           "icon": "default_shiv_tool.png",
@@ -431,12 +403,11 @@
             "give-shiv %player% TOOL DEFAULT %count%"
           ],
           "data": {
-            "CHECK_FULL_INVENTORY": true,
-            "REQUIRES_SUB": true
+            "CHECK_FULL_INVENTORY": "true",
+            "REQUIRES_SUB": "true"
           }
         },
         "SHIV_ARMOR": {
-          "type": "SHIV_ARMOR",
           "title": "rpg.shiv.item.armor.default.name",
           "description": "rpg.shiv.item.armor.default.lore",
           "icon": "default_shiv_armor.png",
@@ -448,12 +419,11 @@
             "give-shiv %player% ARMOR DEFAULT %count%"
           ],
           "data": {
-            "CHECK_FULL_INVENTORY": true,
-            "REQUIRES_SUB": true
+            "CHECK_FULL_INVENTORY": "true",
+            "REQUIRES_SUB": "true"
           }
         },
         "KEY_RUNES": {
-          "type": "KEY_RUNES",
           "title": "rpg.lootbox.runes.key.title",
           "description": "rpg.lootbox.runes.key.description",
           "icon": "rune_key.png",
@@ -465,11 +435,10 @@
             "give-key %player% RUNE %count%"
           ],
           "data": {
-            "REQUIRES_SUB": true
+            "REQUIRES_SUB": "true"
           }
         },
         "KEY_TITLES": {
-          "type": "KEY_TITLES",
           "title": "rpg.lootbox.titles.key.title",
           "description": "rpg.lootbox.titles.key.description",
           "icon": "purple_cristal_key.png",
@@ -481,11 +450,10 @@
             "give-key %player% TITLE %count%"
           ],
           "data": {
-            "REQUIRES_SUB": true
+            "REQUIRES_SUB": "true"
           }
         },
         "KEY_DEFAULT": {
-          "type": "KEY_DEFAULT",
           "title": "rpg.lootbox.default.key.title",
           "description": "rpg.lootbox.default.key.description",
           "icon": "goldkey.png",
@@ -497,11 +465,10 @@
             "give-key %player% DEFAULT %count%"
           ],
           "data": {
-            "REQUIRES_SUB": true
+            "REQUIRES_SUB": "true"
           }
         },
         "BOOSTER_EXP": {
-          "type": "BOOSTER_EXP",
           "title": "rpg.shop.bits.booster_exp.title",
           "description": "rpg.shop.bits.booster_exp.description",
           "icon": "exp_booster.png",
@@ -513,11 +480,10 @@
             "local-booster %player% EXP 1.5 1800 %count%"
           ],
           "data": {
-            "REQUIRES_SUB": true
+            "REQUIRES_SUB": "true"
           }
         },
         "BOOSTER_MONEY": {
-          "type": "BOOSTER_MONEY",
           "title": "rpg.shop.bits.booster_money.title",
           "description": "rpg.shop.bits.booster_money.description",
           "icon": "money_booster.png",
@@ -529,11 +495,10 @@
             "local-booster %player% MONEY 1.5 1800 %count%"
           ],
           "data": {
-            "REQUIRES_SUB": true
+            "REQUIRES_SUB": "true"
           }
         },
         "BOOSTER_MOBS": {
-          "type": "BOOSTER_MOBS",
           "title": "rpg.shop.bits.booster_mobs.title",
           "description": "rpg.shop.bits.booster_mobs.description",
           "icon": "mob_booster.png",
@@ -545,11 +510,10 @@
             "local-booster %player% MOBS 1.5 1800 %count%"
           ],
           "data": {
-            "REQUIRES_SUB": true
+            "REQUIRES_SUB": "true"
           }
         },
         "BOOSTER_LUCK": {
-          "type": "BOOSTER_LUCK",
           "title": "rpg.shop.bits.booster_luck.title",
           "description": "rpg.shop.bits.booster_luck.description",
           "icon": "lucky_booster.png",
@@ -561,11 +525,10 @@
             "local-booster %player% LUCK 1.5 1800 %count%"
           ],
           "data": {
-            "REQUIRES_SUB": true
+            "REQUIRES_SUB": "true"
           }
         },
         "SWAP_CLASS": {
-          "type": "SWAP_CLASS",
           "title": "rpg.shop.bits.change_class.title",
           "description": "rpg.shop.bits.change_class.description",
           "icon": "swordsman_icon.png",
@@ -577,7 +540,7 @@
             "change-class %player%"
           ],
           "data": {
-            "REQUIRES_SUB": true
+            "REQUIRES_SUB": "true"
           }
         }
       }
