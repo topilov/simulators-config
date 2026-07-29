@@ -167,7 +167,9 @@
       "categoryId": "slime-rng:food",
       "capabilities": [],
       "compatibleEquipmentSlotIds": [],
-      "actionIds": [],
+      "actionIds": [
+        "slime-rng:use_food"
+      ],
       "order": 0,
       "weight": {
         "source": "NONE"
@@ -192,6 +194,22 @@
       }
     }
   },
-  "actions": {},
+  "actions": {
+    "slime-rng:use_food": {
+      "categoryId": "slime-rng:food",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Использовать",
+      "gesture": "PRIMARY_CLICK",
+      "style": "PRIMARY",
+      "confirmation": {
+        "title": "Использовать фрукт?",
+        "lines": [
+          "Вы хотите использовать фрукт?"
+        ],
+        "confirmLabel": "Да"
+      }
+    }
+  },
   "initialEntries": []
 }
