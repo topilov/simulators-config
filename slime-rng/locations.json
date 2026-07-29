@@ -1,11 +1,11 @@
 {
   "locations": {
-    "SHADOW_CITY": {
+    "PLAINS": {
       "slots": 125,
       "map": "TEST_ASHON",
       "button": {
         "id": 1,
-        "title": "Теневой город",
+        "title": "srng.location.plains.title",
         "texture": "map1.png",
         "requiredLevel": 1,
         "requiredRebirth": 0,
@@ -15,12 +15,12 @@
       },
       "price": 0
     },
-    "SHADOW_VILLAGE": {
+    "OASIS": {
       "slots": 125,
       "map": "TEST_ASHON",
       "button": {
         "id": 2,
-        "title": "Теневая деревня",
+        "title": "srng.location.oasis.title",
         "texture": "map1.png",
         "requiredLevel": 2,
         "requiredRebirth": 0,
@@ -30,12 +30,12 @@
       },
       "price": 1000
     },
-    "SHADOW_FOREST": {
+    "HOT_SPRINGS": {
       "slots": 125,
       "map": "TEST_ASHON",
       "button": {
         "id": 3,
-        "title": "Теневой лес",
+        "title": "srng.location.hot_springs.title",
         "texture": "map1.png",
         "requiredLevel": 3,
         "requiredRebirth": 0,
@@ -45,12 +45,12 @@
       },
       "price": 2000
     },
-    "SHADOW_TEMPLE": {
+    "NORTH_POLE": {
       "slots": 125,
       "map": "TEST_ASHON",
       "button": {
         "id": 4,
-        "title": "Теневой храм",
+        "title": "srng.location.north_pole.title",
         "texture": "map1.png",
         "requiredLevel": 4,
         "requiredRebirth": 0,
@@ -60,12 +60,12 @@
       },
       "price": 3000
     },
-    "SHADOW_CASTLE": {
+    "VOLCANO": {
       "slots": 125,
       "map": "TEST_ASHON",
       "button": {
         "id": 5,
-        "title": "Теневой замок",
+        "title": "srng.location.volcano.title",
         "texture": "map1.png",
         "requiredLevel": 5,
         "requiredRebirth": 0,
@@ -74,6 +74,231 @@
         ]
       },
       "price": 4000
+    },
+    "CURSED_MINE": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 6,
+        "title": "srng.location.cursed_mine.title",
+        "texture": "map1.png",
+        "requiredLevel": 6,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 5000
+    },
+    "CANYON": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 7,
+        "title": "srng.location.canyon.title",
+        "texture": "map1.png",
+        "requiredLevel": 7,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 6000
+    },
+    "MYSTIC_JUNGLE": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 8,
+        "title": "srng.location.mystic_jungle.title",
+        "texture": "map1.png",
+        "requiredLevel": 8,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 7000
+    },
+    "MUSHROOM_FOREST": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 9,
+        "title": "srng.location.mushroom_forest.title",
+        "texture": "map1.png",
+        "requiredLevel": 9,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 8000
+    },
+    "ISLANDS": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 10,
+        "title": "srng.location.islands.title",
+        "texture": "map1.png",
+        "requiredLevel": 10,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 9000
+    },
+    "LIMBO": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 11,
+        "title": "srng.location.limbo.title",
+        "texture": "map1.png",
+        "requiredLevel": 11,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 10000
+    },
+    "MYSTERIOUS_FOREST": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 12,
+        "title": "srng.location.mysterious_forest.title",
+        "texture": "map1.png",
+        "requiredLevel": 12,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 11000
+    },
+    "MOON_CRATER": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 13,
+        "title": "srng.location.moon_crater.title",
+        "texture": "map1.png",
+        "requiredLevel": 13,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 12000
+    },
+    "DESTROYED_EARTH": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 14,
+        "title": "srng.location.destroyed_earth.title",
+        "texture": "map1.png",
+        "requiredLevel": 14,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 13000
+    },
+    "CANDY_WORLD": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 15,
+        "title": "srng.location.candy_world.title",
+        "texture": "map1.png",
+        "requiredLevel": 15,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 14000
+    },
+    "CHERRY_BLOSSOM_GARDEN": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 16,
+        "title": "srng.location.cherry_blossom_garden.title",
+        "texture": "map1.png",
+        "requiredLevel": 16,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 15000
+    },
+    "CRYSTAL_MINES": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 17,
+        "title": "srng.location.crystal_mines.title",
+        "texture": "map1.png",
+        "requiredLevel": 17,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 16000
+    },
+    "PUMPKIN_FIELD": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 18,
+        "title": "srng.location.pumpkin_field.title",
+        "texture": "map1.png",
+        "requiredLevel": 18,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 17000
+    },
+    "ATLANTIS": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 19,
+        "title": "srng.location.atlantis.title",
+        "texture": "map1.png",
+        "requiredLevel": 19,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 18000
+    },
+    "ABANDONED_TOMBS": {
+      "slots": 125,
+      "map": "TEST_ASHON",
+      "button": {
+        "id": 20,
+        "title": "srng.location.abandoned_tombs.title",
+        "texture": "map1.png",
+        "requiredLevel": 20,
+        "requiredRebirth": 0,
+        "onClick": [
+          "location-tp %player% %id%"
+        ]
+      },
+      "price": 19000
     }
   }
 }
