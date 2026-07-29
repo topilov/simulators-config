@@ -20,9 +20,14 @@
       "rewards": [
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.random-money-1",
+          "title": "treasures.cargo.reward.set-geological-lottery",
           "commands": [
-            "random-money %player% 20 49.99"
+            "give-key %player% PET 50",
+            "morestat %player% add 15000 shards",
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
           ]
         },
         {
@@ -106,57 +111,47 @@
           "chance": 4.0,
           "title": "treasures.cargo.reward.local-booster-exp-3",
           "commands": [
-            "local-booster %player% EXP 2 7200"
+            "local-booster %player% EXP 2 3600"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.local-booster-exp-2",
           "commands": [
-            "local-booster %player% EXP 2 3600"
+            "local-booster %player% EXP 2 2400"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.local-booster-exp-1",
           "commands": [
-            "local-booster %player% EXP 2 1800"
+            "local-booster %player% EXP 2 1200"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.local-booster-money-3",
           "commands": [
-            "local-booster %player% MONEY 2 7200"
+            "local-booster %player% MONEY 2 3600"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.local-booster-money-2",
           "commands": [
-            "local-booster %player% MONEY 2 3600"
+            "local-booster %player% MONEY 2 2400"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.local-booster-money-1",
           "commands": [
-            "local-booster %player% MONEY 2 1800"
+            "local-booster %player% MONEY 2 1200"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.local-booster-all-3",
-          "commands": [
-            "local-booster %player% BLOCKS 2 7200",
-            "local-booster %player% TREASURES 2 7200",
-            "local-booster %player% EXP 2 7200",
-            "local-booster %player% MONEY 2 7200"
-          ]
-        },
-        {
-          "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-all-2",
           "commands": [
             "local-booster %player% BLOCKS 2 3600",
             "local-booster %player% TREASURES 2 3600",
@@ -166,12 +161,22 @@
         },
         {
           "chance": 4.0,
+          "title": "treasures.cargo.reward.local-booster-all-2",
+          "commands": [
+            "local-booster %player% BLOCKS 2 2400",
+            "local-booster %player% TREASURES 2 2400",
+            "local-booster %player% EXP 2 2400",
+            "local-booster %player% MONEY 2 2400"
+          ]
+        },
+        {
+          "chance": 4.0,
           "title": "treasures.cargo.reward.local-booster-all-1",
           "commands": [
-            "local-booster %player% BLOCKS 2 1800",
-            "local-booster %player% TREASURES 2 1800",
-            "local-booster %player% EXP 2 1800",
-            "local-booster %player% MONEY 2 1800"
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
           ]
         },
         {
