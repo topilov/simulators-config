@@ -12,8 +12,9 @@
   "maxSpawnHeight": 3.0,
   "pickupDistance": 1.5,
   "rewardAmount": 1,
-  "boosterMultiplier": 1.1,
-  "boosterDuration": 60,
+  "rewards": [
+    "sudo %player% activate-local-booster DAMAGE 1.1 60"
+  ],
   "foodItem": {
     "type": "APPLE"
   },
