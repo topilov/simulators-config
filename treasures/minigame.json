@@ -112,7 +112,7 @@
       },
       "game": {
         "arenaStatus": "STARTED",
-        "duration": 120,
+        "duration": 180,
         "pointIndicator": {
           "type": "COMMON",
           "positions": 3,
@@ -151,43 +151,43 @@
       },
       "rewards": {
         "participation": {
-          "simCoins": 0,
-          "shards": 10.0
+          "simCoins": 2,
+          "shards": 200.0
         },
         "top": [
           {
-            "simCoins": 0,
-            "shards": 100.0
+            "simCoins": 3,
+            "shards": 600.0
           },
           {
-            "simCoins": 0,
-            "shards": 75.0
+            "simCoins": 2,
+            "shards": 400.0
           },
           {
-            "simCoins": 0,
-            "shards": 50.0
+            "simCoins": 1,
+            "shards": 200.0
           }
         ],
         "byChest": {
           "SILVER": {
             "simCoins": 1,
-            "shards": 5.0
+            "shards": 200.0
           },
           "GOLDEN": {
             "simCoins": 2,
-            "shards": 10.0
+            "shards": 300.0
           },
           "CRYSTAL": {
             "simCoins": 3,
-            "shards": 20.0
+            "shards": 400.0
           },
           "LEGENDARY": {
             "simCoins": 4,
-            "shards": 50.0
+            "shards": 500.0
           },
           "CARGO": {
             "simCoins": 5,
-            "shards": 0.0
+            "shards": 600.0
           }
         }
       },
@@ -333,21 +333,21 @@
       },
       "rewards": {
         "participation": {
-          "simCoins": 0,
-          "shards": 10.0
+          "simCoins": 2,
+          "shards": 300.0
         },
         "top": [
           {
-            "simCoins": 0,
-            "shards": 100.0
+            "simCoins": 7,
+            "shards": 1200.0
           },
           {
-            "simCoins": 0,
-            "shards": 75.0
+            "simCoins": 5,
+            "shards": 900.0
           },
           {
-            "simCoins": 0,
-            "shards": 50.0
+            "simCoins": 3,
+            "shards": 600.0
           }
         ]
       },
@@ -641,16 +641,16 @@
       },
       "rewards": {
         "participation": {
-          "simCoins": 1,
-          "shards": 100.0
+          "simCoins": 2,
+          "shards": 300.0
         },
         "top": [
           {
-            "simCoins": 10,
+            "simCoins": 6,
             "shards": 100.0
           },
           {
-            "simCoins": 6,
+            "simCoins": 4,
             "shards": 50.0
           },
           {
@@ -688,7 +688,7 @@
             "yaw": 0,
             "pitch": 0
           },
-          "caseType": "GOLDEN",
+          "caseType": "SILVER",
           "treasures": {
             "GOLD_COIN": {
               "item": {
@@ -732,12 +732,12 @@
               },
               "weight": 30
             },
-            "GOLDEN_CUP": {
+            "AQUARIUM": {
               "item": {
                 "type": "CLAY_BALL",
-                "name": "treasures.treasures.golden_cup.name",
+                "name": "treasures.treasures.aquarium.name",
                 "data": {
-                  "sim": "golden_cup",
+                  "sim": "aquarium",
                   "treasure-race-cargo": 1
                 },
                 "unbreakable": true,
@@ -759,6 +759,132 @@
                 "name": "treasures.treasures.queens_crown.name",
                 "data": {
                   "sim": "queens_crown",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
+              "weight": 10
+            },
+            "BOTTLE_WITH_MESSAGE": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.bottle_with_message.name",
+                "data": {
+                  "sim": "bottle_with_message",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
+              "weight": 10
+            },
+            "PEARL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.pearl.name",
+                "data": {
+                  "sim": "pearl",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
+              "weight": 10
+            },
+            "ENCHANTED_SHELL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.enchanted_shell.name",
+                "data": {
+                  "sim": "enchanted_shell",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
+              "weight": 10
+            },
+            "SMALL_TREASURE_CHEST": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.small_treasure_chest.name",
+                "data": {
+                  "sim": "small_treasure_chest",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
+              "weight": 10
+            },
+            "AMULET_OCEAN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.amulet_ocean.name",
+                "data": {
+                  "sim": "amulet_ocean",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
+              "weight": 10
+            },
+            "SHARK_TOOTH": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.shark_tooth.name",
+                "data": {
+                  "sim": "shark_tooth",
                   "treasure-race-cargo": 1
                 },
                 "unbreakable": true,
@@ -878,7 +1004,7 @@
             "yaw": 0,
             "pitch": 0
           },
-          "caseType": "GOLDEN",
+          "caseType": "CRYSTAL",
           "treasures": {
             "GOLD_COIN": {
               "item": {
@@ -973,7 +1099,7 @@
             "yaw": 0,
             "pitch": 0
           },
-          "caseType": "GOLDEN",
+          "caseType": "LEGENDARY",
           "treasures": {
             "GOLD_COIN": {
               "item": {
@@ -1248,7 +1374,7 @@
       "elixir": {
         "spawnEverySeconds": 40,
         "spawnCount": 5,
-        "chestType": "LEGENDARY",
+        "chestType": "CARGO",
         "skill": {
           "type": "CLAY_BALL",
           "name": "treasures.minigame.treasure_race.elixir.hud.title",
