@@ -149,15 +149,46 @@
         "max": 30,
         "chance": 0.05
       },
-      "shards": {
-        "participation": 10.0,
-        "top": [100.0, 75.0, 50.0],
+      "rewards": {
+        "participation": {
+          "simCoins": 0,
+          "shards": 10.0
+        },
+        "top": [
+          {
+            "simCoins": 0,
+            "shards": 100.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 75.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 50.0
+          }
+        ],
         "byChest": {
-          "SILVER": 5.0,
-          "GOLDEN": 10.0,
-          "CRYSTAL": 20.0,
-          "LEGENDARY": 50.0,
-          "CARGO": 0.0
+          "SILVER": {
+            "simCoins": 1,
+            "shards": 5.0
+          },
+          "GOLDEN": {
+            "simCoins": 2,
+            "shards": 10.0
+          },
+          "CRYSTAL": {
+            "simCoins": 3,
+            "shards": 20.0
+          },
+          "LEGENDARY": {
+            "simCoins": 4,
+            "shards": 50.0
+          },
+          "CARGO": {
+            "simCoins": 5,
+            "shards": 0.0
+          }
         }
       },
       "message": {
@@ -224,35 +255,35 @@
             "material": "SOUL_SAND",
             "data": 0
           },
-          "points": 5
+          "points": 50
         },
         {
           "block": {
             "material": "DIRT",
             "data": 1
           },
-          "points": 4
+          "points": 1
         },
         {
           "block": {
             "material": "CONCRETE_POWDER",
             "data": 12
           },
-          "points": 3
+          "points": 4
         },
         {
           "block": {
             "material": "DIRT",
             "data": 0
           },
-          "points": 2
+          "points": 10
         },
         {
           "block": {
             "material": "CONCRETE_POWDER",
             "data": 1
           },
-          "points": 1
+          "points": 20000
         }
       ],
       "rockyBlock": {
@@ -300,27 +331,43 @@
         "personalTopSize": 3,
         "rewardFormat": "%s\uE34D"
       },
-      "shards": {
-        "participation": 10.0,
-        "top": [100.0, 75.0, 50.0]
+      "rewards": {
+        "participation": {
+          "simCoins": 0,
+          "shards": 10.0
+        },
+        "top": [
+          {
+            "simCoins": 0,
+            "shards": 100.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 75.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 50.0
+          }
+        ]
       },
       "abilities": {
         "chances": {
-          "DOUBLE_POINTS": 12.5,
-          "LAYER_BREAKER": 12.5,
-          "THIEF": 12.5,
-          "SORCERER": 12.5,
-          "RUNNER": 12.5,
-          "WINNER": 12.5,
-          "DIGGER": 12.5,
-          "DYNAMITE": 12.5
+          "DOUBLE_POINTS": 20,
+          "LAYER_BREAKER": 8,
+          "THIEF": 3,
+          "SORCERER": 21,
+          "RUNNER": 26,
+          "WINNER": 2,
+          "DIGGER": 11,
+          "DYNAMITE": 9
         },
         "rarityChances": {
-          "COMMON": 50.0,
+          "COMMON": 61.5,
           "RARE": 25.0,
-          "EPIC": 15.0,
-          "LEGENDARY": 8.0,
-          "MYTHIC": 2.0
+          "EPIC": 10.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 0.5
         },
         "rarityTitles": {
           "COMMON": "treasures.minigame.mining_battle.rarity.common",
@@ -334,23 +381,23 @@
           "description": "treasures.minigame.mining_battle.ability.double_points.description",
           "rarities": {
             "COMMON": {
-              "chance": 5.0,
+              "chance": 3.0,
               "multiplier": 2.0
             },
             "RARE": {
-              "chance": 8.0,
+              "chance": 4.0,
               "multiplier": 2.0
             },
             "EPIC": {
-              "chance": 12.0,
+              "chance": 5.0,
               "multiplier": 2.0
             },
             "LEGENDARY": {
-              "chance": 18.0,
+              "chance": 7.0,
               "multiplier": 2.0
             },
             "MYTHIC": {
-              "chance": 25.0,
+              "chance": 9.0,
               "multiplier": 2.0
             }
           }
@@ -360,23 +407,23 @@
           "description": "treasures.minigame.mining_battle.ability.layer_breaker.description",
           "rarities": {
             "COMMON": {
-              "chance": 3.0,
-              "radius": 1
+              "chance": 0.1,
+              "radius": 2
             },
             "RARE": {
-              "chance": 5.0,
-              "radius": 1
+              "chance": 0.2,
+              "radius": 2
             },
             "EPIC": {
-              "chance": 8.0,
-              "radius": 1
+              "chance": 0.3,
+              "radius": 2
             },
             "LEGENDARY": {
-              "chance": 12.0,
+              "chance": 0.4,
               "radius": 2
             },
             "MYTHIC": {
-              "chance": 18.0,
+              "chance": 0.5,
               "radius": 2
             }
           }
@@ -386,24 +433,24 @@
           "description": "treasures.minigame.mining_battle.ability.thief.description",
           "rarities": {
             "COMMON": {
-              "chance": 2.0,
-              "percent": 2.0
+              "chance": 0.25,
+              "percent": 1.0
             },
             "RARE": {
-              "chance": 3.0,
-              "percent": 3.0
+              "chance": 0.25,
+              "percent": 2.0
             },
             "EPIC": {
-              "chance": 5.0,
-              "percent": 5.0
+              "chance": 0.25,
+              "percent": 3.0
             },
             "LEGENDARY": {
-              "chance": 7.0,
-              "percent": 7.5
+              "chance": 0.25,
+              "percent": 4.5
             },
             "MYTHIC": {
-              "chance": 10.0,
-              "percent": 10.0
+              "chance": 0.25,
+              "percent": 5.0
             }
           }
         },
@@ -413,27 +460,27 @@
           "effect": "SLOW",
           "rarities": {
             "COMMON": {
-              "chance": 3.0,
+              "chance": 0.1,
               "level": 3,
               "durationSeconds": 3
             },
             "RARE": {
-              "chance": 5.0,
+              "chance": 0.2,
               "level": 3,
               "durationSeconds": 3
             },
             "EPIC": {
-              "chance": 7.0,
+              "chance": 0.3,
               "level": 3,
               "durationSeconds": 3
             },
             "LEGENDARY": {
-              "chance": 10.0,
+              "chance": 0.4,
               "level": 3,
               "durationSeconds": 3
             },
             "MYTHIC": {
-              "chance": 15.0,
+              "chance": 0.5,
               "level": 3,
               "durationSeconds": 3
             }
@@ -445,27 +492,27 @@
           "effect": "SPEED",
           "rarities": {
             "COMMON": {
-              "chance": 3.0,
+              "chance": 0.1,
               "level": 3,
               "durationSeconds": 5
             },
             "RARE": {
-              "chance": 5.0,
+              "chance": 0.1,
               "level": 3,
               "durationSeconds": 5
             },
             "EPIC": {
-              "chance": 7.0,
+              "chance": 0.1,
               "level": 3,
               "durationSeconds": 5
             },
             "LEGENDARY": {
-              "chance": 10.0,
+              "chance": 0.1,
               "level": 3,
               "durationSeconds": 5
             },
             "MYTHIC": {
-              "chance": 15.0,
+              "chance": 0.1,
               "level": 3,
               "durationSeconds": 5
             }
@@ -476,19 +523,19 @@
           "description": "treasures.minigame.mining_battle.ability.winner.description",
           "rarities": {
             "COMMON": {
-              "multiplier": 1.25
-            },
-            "RARE": {
               "multiplier": 1.5
             },
-            "EPIC": {
-              "multiplier": 1.75
+            "RARE": {
+              "multiplier": 1.7
             },
-            "LEGENDARY": {
+            "EPIC": {
               "multiplier": 2.0
             },
-            "MYTHIC": {
+            "LEGENDARY": {
               "multiplier": 2.5
+            },
+            "MYTHIC": {
+              "multiplier": 3.0
             }
           }
         },
@@ -497,19 +544,19 @@
           "description": "treasures.minigame.mining_battle.ability.digger.description",
           "rarities": {
             "COMMON": {
-              "multiplier": 1.5
-            },
-            "RARE": {
-              "multiplier": 1.75
-            },
-            "EPIC": {
               "multiplier": 2.0
             },
+            "RARE": {
+              "multiplier": 2.5
+            },
+            "EPIC": {
+              "multiplier": 3.0
+            },
             "LEGENDARY": {
-              "multiplier": 2.25
+              "multiplier": 4.0
             },
             "MYTHIC": {
-              "multiplier": 2.5
+              "multiplier": 5.0
             }
           }
         },
@@ -523,23 +570,23 @@
           "pitch": 1.0,
           "rarities": {
             "COMMON": {
-              "chance": 2.0,
-              "radius": 1
+              "chance": 0.1,
+              "radius": 3
             },
             "RARE": {
-              "chance": 3.0,
-              "radius": 1
+              "chance": 0.2,
+              "radius": 3
             },
             "EPIC": {
-              "chance": 5.0,
-              "radius": 2
+              "chance": 0.3,
+              "radius": 3
             },
             "LEGENDARY": {
-              "chance": 7.0,
-              "radius": 2
+              "chance": 0.4,
+              "radius": 3
             },
             "MYTHIC": {
-              "chance": 10.0,
+              "chance": 0.5,
               "radius": 3
             }
           }
@@ -592,9 +639,25 @@
         "yaw": 0,
         "pitch": 0
       },
-      "shards": {
-        "participation": 10.0,
-        "top": [100.0, 75.0, 50.0]
+      "rewards": {
+        "participation": {
+          "simCoins": 1,
+          "shards": 100.0
+        },
+        "top": [
+          {
+            "simCoins": 10,
+            "shards": 100.0
+          },
+          {
+            "simCoins": 6,
+            "shards": 50.0
+          },
+          {
+            "simCoins": 2,
+            "shards": 25.0
+          }
+        ]
       },
       "npcs": {
         "buyer": {
@@ -642,8 +705,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 5,
-              "shards": 1.0,
+              "reward": {
+                "simCoins": 5,
+                "shards": 1.0
+              },
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -661,8 +726,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 10,
-              "shards": 2.0,
+              "reward": {
+                "simCoins": 10,
+                "shards": 2.0
+              },
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -680,8 +747,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 20,
-              "shards": 4.0,
+              "reward": {
+                "simCoins": 20,
+                "shards": 4.0
+              },
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -699,8 +768,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 50,
-              "shards": 10.0,
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
               "weight": 10
             }
           }
@@ -729,8 +800,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 5,
-              "shards": 1.0,
+              "reward": {
+                "simCoins": 5,
+                "shards": 1.0
+              },
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -748,8 +821,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 10,
-              "shards": 2.0,
+              "reward": {
+                "simCoins": 10,
+                "shards": 2.0
+              },
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -767,8 +842,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 20,
-              "shards": 4.0,
+              "reward": {
+                "simCoins": 20,
+                "shards": 4.0
+              },
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -786,8 +863,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 50,
-              "shards": 10.0,
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
               "weight": 10
             }
           }
@@ -816,8 +895,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 5,
-              "shards": 1.0,
+              "reward": {
+                "simCoins": 5,
+                "shards": 1.0
+              },
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -835,8 +916,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 10,
-              "shards": 2.0,
+              "reward": {
+                "simCoins": 10,
+                "shards": 2.0
+              },
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -854,8 +937,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 20,
-              "shards": 4.0,
+              "reward": {
+                "simCoins": 20,
+                "shards": 4.0
+              },
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -873,8 +958,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 50,
-              "shards": 10.0,
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
               "weight": 10
             }
           }
@@ -903,8 +990,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 5,
-              "shards": 1.0,
+              "reward": {
+                "simCoins": 5,
+                "shards": 1.0
+              },
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -922,8 +1011,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 10,
-              "shards": 2.0,
+              "reward": {
+                "simCoins": 10,
+                "shards": 2.0
+              },
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -941,8 +1032,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 20,
-              "shards": 4.0,
+              "reward": {
+                "simCoins": 20,
+                "shards": 4.0
+              },
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -960,8 +1053,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 50,
-              "shards": 10.0,
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
               "weight": 10
             }
           }
@@ -1158,7 +1253,7 @@
           "type": "CLAY_BALL",
           "name": "treasures.minigame.treasure_race.elixir.hud.title",
           "data": {
-            "other": "treasure_race_elixir",
+            "other": "enchanted_lava_potion",
             "treasure-race-elixir": 1
           },
           "unbreakable": true,
