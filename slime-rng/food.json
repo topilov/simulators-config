@@ -13,10 +13,16 @@
   "pickupDistance": 1.5,
   "rewardAmount": 1,
   "rewards": [
-    "sudo %player% activate-local-booster DAMAGE 1.1 60"
+    "local-booster %player% DAMAGE 1.1 60 %count%"
   ],
   "foodItem": {
     "type": "APPLE"
+  },
+  "useMenu": {
+    "title": "srng.inventory.food.use.title",
+    "description": "srng.inventory.food.use.description",
+    "confirmLabel": "srng.inventory.food.use.confirm",
+    "cancelLabel": "srng.inventory.food.use.cancel"
   },
   "messages": {
     "pickup": "srng.message.food.pickup"
