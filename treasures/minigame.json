@@ -149,15 +149,46 @@
         "max": 30,
         "chance": 0.05
       },
-      "shards": {
-        "participation": 10.0,
-        "top": [100.0, 75.0, 50.0],
+      "rewards": {
+        "participation": {
+          "simCoins": 0,
+          "shards": 10.0
+        },
+        "top": [
+          {
+            "simCoins": 0,
+            "shards": 100.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 75.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 50.0
+          }
+        ],
         "byChest": {
-          "SILVER": 5.0,
-          "GOLDEN": 10.0,
-          "CRYSTAL": 20.0,
-          "LEGENDARY": 50.0,
-          "CARGO": 0.0
+          "SILVER": {
+            "simCoins": 1,
+            "shards": 5.0
+          },
+          "GOLDEN": {
+            "simCoins": 2,
+            "shards": 10.0
+          },
+          "CRYSTAL": {
+            "simCoins": 3,
+            "shards": 20.0
+          },
+          "LEGENDARY": {
+            "simCoins": 4,
+            "shards": 50.0
+          },
+          "CARGO": {
+            "simCoins": 5,
+            "shards": 0.0
+          }
         }
       },
       "message": {
@@ -300,9 +331,25 @@
         "personalTopSize": 3,
         "rewardFormat": "%s\uE34D"
       },
-      "shards": {
-        "participation": 10.0,
-        "top": [100.0, 75.0, 50.0]
+      "rewards": {
+        "participation": {
+          "simCoins": 0,
+          "shards": 10.0
+        },
+        "top": [
+          {
+            "simCoins": 0,
+            "shards": 100.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 75.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 50.0
+          }
+        ]
       },
       "abilities": {
         "chances": {
@@ -592,9 +639,25 @@
         "yaw": 0,
         "pitch": 0
       },
-      "shards": {
-        "participation": 10.0,
-        "top": [100.0, 75.0, 50.0]
+      "rewards": {
+        "participation": {
+          "simCoins": 0,
+          "shards": 10.0
+        },
+        "top": [
+          {
+            "simCoins": 0,
+            "shards": 100.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 75.0
+          },
+          {
+            "simCoins": 0,
+            "shards": 50.0
+          }
+        ]
       },
       "npcs": {
         "buyer": {
@@ -642,8 +705,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 5,
-              "shards": 1.0,
+              "reward": {
+                "simCoins": 5,
+                "shards": 1.0
+              },
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -661,8 +726,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 10,
-              "shards": 2.0,
+              "reward": {
+                "simCoins": 10,
+                "shards": 2.0
+              },
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -680,8 +747,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 20,
-              "shards": 4.0,
+              "reward": {
+                "simCoins": 20,
+                "shards": 4.0
+              },
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -699,8 +768,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 50,
-              "shards": 10.0,
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
               "weight": 10
             }
           }
@@ -729,8 +800,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 5,
-              "shards": 1.0,
+              "reward": {
+                "simCoins": 5,
+                "shards": 1.0
+              },
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -748,8 +821,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 10,
-              "shards": 2.0,
+              "reward": {
+                "simCoins": 10,
+                "shards": 2.0
+              },
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -767,8 +842,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 20,
-              "shards": 4.0,
+              "reward": {
+                "simCoins": 20,
+                "shards": 4.0
+              },
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -786,8 +863,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 50,
-              "shards": 10.0,
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
               "weight": 10
             }
           }
@@ -816,8 +895,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 5,
-              "shards": 1.0,
+              "reward": {
+                "simCoins": 5,
+                "shards": 1.0
+              },
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -835,8 +916,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 10,
-              "shards": 2.0,
+              "reward": {
+                "simCoins": 10,
+                "shards": 2.0
+              },
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -854,8 +937,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 20,
-              "shards": 4.0,
+              "reward": {
+                "simCoins": 20,
+                "shards": 4.0
+              },
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -873,8 +958,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 50,
-              "shards": 10.0,
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
               "weight": 10
             }
           }
@@ -903,8 +990,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 5,
-              "shards": 1.0,
+              "reward": {
+                "simCoins": 5,
+                "shards": 1.0
+              },
               "weight": 40
             },
             "ANCIENT_SCROLL": {
@@ -922,8 +1011,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 10,
-              "shards": 2.0,
+              "reward": {
+                "simCoins": 10,
+                "shards": 2.0
+              },
               "weight": 30
             },
             "GOLDEN_CUP": {
@@ -941,8 +1032,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 20,
-              "shards": 4.0,
+              "reward": {
+                "simCoins": 20,
+                "shards": 4.0
+              },
               "weight": 20
             },
             "QUEENS_CROWN": {
@@ -960,8 +1053,10 @@
                   "HIDE_UNBREAKABLE"
                 ]
               },
-              "reward": 50,
-              "shards": 10.0,
+              "reward": {
+                "simCoins": 50,
+                "shards": 10.0
+              },
               "weight": 10
             }
           }
