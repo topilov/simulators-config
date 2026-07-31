@@ -61,6 +61,10 @@
       "id": 1,
       "name": "srng.bind.description.tree",
       "price": 0,
+      "pos": {
+        "x": 0.0,
+        "y": 0.0
+      },
       "initiallyUpgraded": true,
       "description": "srng.tree.center.description"
     },
@@ -68,6 +72,10 @@
       "id": 100,
       "name": "i18n.srng.tree.health.upgrade.name|!|I",
       "price": 1000,
+      "pos": {
+        "x": 0.0,
+        "y": -100.0
+      },
       "module": "PLAYER",
       "parents": [
         1
@@ -82,6 +90,10 @@
       "id": 101,
       "name": "i18n.srng.tree.health.upgrade.name|!|II",
       "price": 2500,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "PLAYER",
       "parents": [
         100
@@ -96,6 +108,10 @@
       "id": 102,
       "name": "i18n.srng.tree.health.upgrade.name|!|III",
       "price": 7500,
+      "pos": {
+        "x": -110.0,
+        "y": -200.0
+      },
       "module": "PLAYER",
       "parents": [
         100
@@ -110,6 +126,10 @@
       "id": 103,
       "name": "i18n.srng.tree.health.upgrade.name|!|IV",
       "price": 20000,
+      "pos": {
+        "x": -110.0,
+        "y": -300.0
+      },
       "module": "PLAYER",
       "parents": [
         102
@@ -124,6 +144,10 @@
       "id": 104,
       "name": "i18n.srng.tree.health.upgrade.name|!|V",
       "price": 50000,
+      "pos": {
+        "x": 110.0,
+        "y": -300.0
+      },
       "module": "PLAYER",
       "parents": [
         101
@@ -138,6 +162,10 @@
       "id": 105,
       "name": "i18n.srng.tree.health.upgrade.name|!|VI",
       "price": 150000,
+      "pos": {
+        "x": 0.0,
+        "y": -400.0
+      },
       "module": "PLAYER",
       "parents": [
         103,
@@ -154,6 +182,10 @@
       "id": 200,
       "name": "i18n.srng.tree.roll.upgrade.name|!|I",
       "price": 1500,
+      "pos": {
+        "x": 100.0,
+        "y": 0.0
+      },
       "module": "ROLL",
       "parents": [
         1
@@ -167,6 +199,10 @@
       "id": 201,
       "name": "i18n.srng.tree.luck.upgrade.name|!|I",
       "price": 5000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ROLL",
       "parents": [
         200
@@ -180,6 +216,10 @@
       "id": 202,
       "name": "i18n.srng.tree.roll.upgrade.name|!|II",
       "price": 15000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ROLL",
       "parents": [
         200
@@ -193,6 +233,10 @@
       "id": 203,
       "name": "i18n.srng.tree.luck.upgrade.name|!|II",
       "price": 50000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ROLL",
       "parents": [
         201
@@ -206,6 +250,10 @@
       "id": 204,
       "name": "i18n.srng.tree.roll.upgrade.name|!|III",
       "price": 150000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ROLL",
       "parents": [
         202
@@ -219,6 +267,10 @@
       "id": 205,
       "name": "i18n.srng.tree.roll.upgrade.name|!|VI",
       "price": 500000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ROLL",
       "parents": [
         203,
@@ -234,6 +286,10 @@
       "id": 300,
       "name": "i18n.srng.tree.damage.upgrade.name|!|I",
       "price": 2000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "SLIMES",
       "parents": [
         1
@@ -247,6 +303,10 @@
       "id": 301,
       "name": "i18n.srng.tree.health.upgrade.name|!|I",
       "price": 6000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "SLIMES",
       "parents": [
         300
@@ -261,6 +321,10 @@
       "id": 302,
       "name": "i18n.srng.tree.damage.upgrade.name|!|II",
       "price": 18000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "SLIMES",
       "parents": [
         300
@@ -274,6 +338,10 @@
       "id": 303,
       "name": "i18n.srng.tree.health.upgrade.name|!|II",
       "price": 60000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "SLIMES",
       "parents": [
         301
@@ -288,6 +356,10 @@
       "id": 304,
       "name": "i18n.srng.tree.damage.upgrade.name|!|III",
       "price": 180000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "SLIMES",
       "parents": [
         302
@@ -301,6 +373,10 @@
       "id": 305,
       "name": "i18n.srng.tree.damage.upgrade.name|!|VI",
       "price": 600000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "SLIMES",
       "parents": [
         303,
@@ -316,6 +392,10 @@
       "id": 400,
       "name": "i18n.srng.tree.money.upgrade.name|!|I",
       "price": 1000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ECONOMY",
       "parents": [
         1
@@ -329,6 +409,10 @@
       "id": 401,
       "name": "i18n.srng.tree.money.upgrade.name|!|II",
       "price": 4000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ECONOMY",
       "parents": [
         400
@@ -342,6 +426,10 @@
       "id": 402,
       "name": "i18n.srng.tree.money.upgrade.name|!|III",
       "price": 12000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ECONOMY",
       "parents": [
         400
@@ -355,6 +443,10 @@
       "id": 403,
       "name": "i18n.srng.tree.money.upgrade.name|!|IV",
       "price": 40000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ECONOMY",
       "parents": [
         401
@@ -368,6 +460,10 @@
       "id": 404,
       "name": "i18n.srng.tree.money.upgrade.name|!|V",
       "price": 120000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ECONOMY",
       "parents": [
         402
@@ -381,6 +477,10 @@
       "id": 405,
       "name": "i18n.srng.tree.money.upgrade.name|!|VI",
       "price": 400000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ECONOMY",
       "parents": [
         403,
@@ -396,6 +496,10 @@
       "id": 406,
       "name": "srng.tree.food.upgrade.name",
       "price": 1000000,
+      "pos": {
+        "x": 110.0,
+        "y": -200.0
+      },
       "module": "ECONOMY",
       "parents": [
         405
