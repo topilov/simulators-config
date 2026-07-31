@@ -332,16 +332,21 @@
     },
     {
       "level": 6,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-6-default",
           "onClaim": [
-            "tell %player% Claimed level 6 default reward"
+            "unlock-lootbox-open-tier %player% DOUBLE"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-6.title"
