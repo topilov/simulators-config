@@ -117,6 +117,7 @@
         "itemKeys": [
           "pslot",
           "rslot",
+          "esets",
           "shard",
           "incpt",
           "mbag",
@@ -306,6 +307,36 @@
         "icon": {
           "type": "textured",
           "texture": "cache/simulator/rune_slot.png"
+        }
+      },
+      {
+        "key": "esets",
+        "title": "treasures.store.element.inventory-equipment-sets.title",
+        "description": [
+          "treasures.store.element.inventory-equipment-sets.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+               "other": "lock"
+            }
+          }
         }
       },
       {
@@ -1137,6 +1168,14 @@
       "alertName": "treasures.store.element.rune-slot.donate-name",
       "onPurchase": [
         "unlock-rune-slot %player%"
+      ]
+    },
+    "INVENTORY_EQUIPMENT_SETS": {
+      "key": "esets",
+      "ignoreServiceDiscount": false,
+      "alertName": "treasures.store.element.inventory-equipment-sets.donate-name",
+      "onPurchase": [
+        "unlock-inventory-equipment-sets %player% 3"
       ]
     },
     "INCIDENT_POINT": {
