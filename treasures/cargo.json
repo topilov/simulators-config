@@ -19,29 +19,44 @@
       },
       "rewards": [
         {
-          "chance": 4.0,
+          "chance": 0.1,
           "title": "treasures.cargo.reward.set-geological-lottery",
           "commands": [
-            "give-key %player% PET 50",
-            "morestat %player% add 15000 shards",
-            "local-booster %player% BLOCKS 2 3600",
-            "local-booster %player% TREASURES 2 3600",
-            "local-booster %player% EXP 2 3600",
-            "local-booster %player% MONEY 2 3600"
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.pet-5",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.pet-4",
+          "commands": [
+            "give-key %player% PET 25"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.pet-3",
           "commands": [
-            "give-key %player% PET 30"
+            "give-key %player% PET 20"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.pet-2",
           "commands": [
-            "give-key %player% PET 20"
+            "give-key %player% PET 15"
           ]
         },
         {
@@ -53,16 +68,30 @@
         },
         {
           "chance": 4.0,
+          "title": "treasures.cargo.reward.rune-5",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.rune-4",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 4.0,
           "title": "treasures.cargo.reward.rune-3",
           "commands": [
-            "give-key %player% RUNE 20"
+            "give-key %player% RUNE 10"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.rune-2",
           "commands": [
-            "give-key %player% RUNE 10"
+            "give-key %player% RUNE 7"
           ]
         },
         {
@@ -74,13 +103,6 @@
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.title-2",
-          "commands": [
-            "give-key %player% TITLE 3"
-          ]
-        },
-        {
-          "chance": 4.0,
           "title": "treasures.cargo.reward.title-1",
           "commands": [
             "give-key %player% TITLE 1"
@@ -88,9 +110,23 @@
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.default-3",
+          "title": "treasures.cargo.reward.default-5",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.default-4",
           "commands": [
             "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.default-3",
+          "commands": [
+            "give-key %player% DEFAULT 75"
           ]
         },
         {
@@ -109,49 +145,77 @@
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-exp-3",
+          "title": "treasures.cargo.reward.local-booster-exp-5",
           "commands": [
             "local-booster %player% EXP 2 3600"
           ]
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-exp-2",
-          "commands": [
-            "local-booster %player% EXP 2 2400"
-          ]
-        },
-        {
-          "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-exp-1",
+          "title": "treasures.cargo.reward.local-booster-exp-4",
           "commands": [
             "local-booster %player% EXP 2 1200"
           ]
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-money-3",
+          "title": "treasures.cargo.reward.local-booster-exp-3",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.local-booster-exp-2",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.local-booster-exp-1",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.local-booster-money-5",
           "commands": [
             "local-booster %player% MONEY 2 3600"
           ]
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-money-2",
-          "commands": [
-            "local-booster %player% MONEY 2 2400"
-          ]
-        },
-        {
-          "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-money-1",
+          "title": "treasures.cargo.reward.local-booster-money-4",
           "commands": [
             "local-booster %player% MONEY 2 1200"
           ]
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-all-3",
+          "title": "treasures.cargo.reward.local-booster-money-3",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.local-booster-money-2",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.local-booster-money-1",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.local-booster-all-5",
           "commands": [
             "local-booster %player% BLOCKS 2 3600",
             "local-booster %player% TREASURES 2 3600",
@@ -161,17 +225,7 @@
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-all-2",
-          "commands": [
-            "local-booster %player% BLOCKS 2 2400",
-            "local-booster %player% TREASURES 2 2400",
-            "local-booster %player% EXP 2 2400",
-            "local-booster %player% MONEY 2 2400"
-          ]
-        },
-        {
-          "chance": 4.0,
-          "title": "treasures.cargo.reward.local-booster-all-1",
+          "title": "treasures.cargo.reward.local-booster-all-4",
           "commands": [
             "local-booster %player% BLOCKS 2 1200",
             "local-booster %player% TREASURES 2 1200",
@@ -181,30 +235,102 @@
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.bits-2",
+          "title": "treasures.cargo.reward.local-booster-all-3",
           "commands": [
-            "earn-bits %player% 2000"
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
           ]
         },
         {
           "chance": 4.0,
-          "title": "treasures.cargo.reward.bits-1",
+          "title": "treasures.cargo.reward.local-booster-all-2",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.local-booster-all-1",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.bits-5",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.bits-4",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.bits-3",
           "commands": [
             "earn-bits %player% 1000"
           ]
         },
         {
           "chance": 4.0,
+          "title": "treasures.cargo.reward.bits-2",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.bits-1",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.shards-5",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.shards-4",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "treasures.cargo.reward.shards-3",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
           "title": "treasures.cargo.reward.shards-2",
           "commands": [
-            "morestat %player% add 10000 shards"
+            "morestat %player% add 1500 shards"
           ]
         },
         {
           "chance": 4.0,
           "title": "treasures.cargo.reward.shards-1",
           "commands": [
-            "morestat %player% add 1500 shards"
+            "morestat %player% add 1000 shards"
           ]
         }
       ]

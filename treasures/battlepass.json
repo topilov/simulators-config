@@ -130,16 +130,21 @@
   "rewardTiers": [
     {
       "level": 1,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-1-default",
           "onClaim": [
-            "tell %player% Claimed level 1 default reward"
+            "earn-money %player% 1000 false"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-1.title"
@@ -150,11 +155,11 @@
         {
           "id": "level-1-premium",
           "onClaim": [
-            "tell %player% Claimed level 1 premium reward"
+            "give-key %player% PET 1"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "quality": "epic",
           "tooltip": {
