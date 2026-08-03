@@ -4300,16 +4300,55 @@
       "questPools": {
         "I": [
           {
-            "id": "I-break-blocks-5000",
+            "id": "I-break-blocks-1000",
             "type": "BREAK_BLOCK",
-            "goal": 5000,
+            "goal": 1000,
             "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed I-break-blocks-5000 quest"
+              "tell %player% Claimed I-break-blocks-1000 quest"
             ],
-            "description": "treasures.battlepass.quests.daily.I-break-blocks-5000.description",
+            "description": "treasures.battlepass.quests.daily.I-break-blocks-1000.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add BREAK_BLOCK 5000"
+              "description": "/test-battlepass-quest-add BREAK_BLOCK 1000"
+            }
+          },
+          {
+            "id": "I-break-blocks-1500",
+            "type": "BREAK_BLOCK",
+            "goal": 1500,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-break-blocks-1500 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-break-blocks-1500.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add BREAK_BLOCK 1500"
+            }
+          },
+          {
+            "id": "I-break-blocks-2000",
+            "type": "BREAK_BLOCK",
+            "goal": 2000,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-break-blocks-2000 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-break-blocks-2000.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add BREAK_BLOCK 2000"
+            }
+          },
+          {
+            "id": "I-break-blocks-2500",
+            "type": "BREAK_BLOCK",
+            "goal": 2500,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-break-blocks-2500 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-break-blocks-2500.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add BREAK_BLOCK 2500"
             }
           },
           {
@@ -4326,68 +4365,367 @@
             }
           },
           {
-            "id": "I-earn-shards-500",
-            "type": "EARN_SHARDS",
-            "goal": 500,
+            "id": "I-find-treasures-35",
+            "type": "FIND_TREASURE",
+            "goal": 35,
             "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed I-earn-shards-500 quest"
+              "tell %player% Claimed I-find-treasures-35 quest"
             ],
-            "description": "treasures.battlepass.quests.daily.I-earn-shards-500.description",
+            "description": "treasures.battlepass.quests.daily.I-find-treasures-35.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add EARN_SHARDS 500"
+              "description": "/test-battlepass-quest-add FIND_TREASURE 35"
             }
           },
           {
-            "id": "I-dig-mining-battle-secret-block-1",
-            "type": "DIG_MINING_BATTLE_SECRET_BLOCK",
+            "id": "I-find-treasures-40",
+            "type": "FIND_TREASURE",
+            "goal": 40,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-find-treasures-40 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-find-treasures-40.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add FIND_TREASURE 40"
+            }
+          },
+          {
+            "id": "I-find-treasures-45",
+            "type": "FIND_TREASURE",
+            "goal": 45,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-find-treasures-45 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-find-treasures-45.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add FIND_TREASURE 45"
+            }
+          },
+          {
+            "id": "I-deliver-treasure-race-cargo-2",
+            "type": "DELIVER_TREASURE_RACE_CARGO",
+            "goal": 2,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-deliver-treasure-race-cargo-2 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-2.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DELIVER_TREASURE_RACE_CARGO 2"
+            }
+          },
+          {
+            "id": "I-deliver-treasure-race-cargo-3",
+            "type": "DELIVER_TREASURE_RACE_CARGO",
+            "goal": 3,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-deliver-treasure-race-cargo-3 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-3.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DELIVER_TREASURE_RACE_CARGO 3"
+            }
+          },
+          {
+            "id": "I-deliver-treasure-race-cargo-4",
+            "type": "DELIVER_TREASURE_RACE_CARGO",
+            "goal": 4,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-deliver-treasure-race-cargo-4 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-4.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DELIVER_TREASURE_RACE_CARGO 4"
+            }
+          },
+          {
+            "id": "I-use-tnt-10",
+            "type": "USE_TNT",
+            "goal": 10,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-use-tnt-10 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-use-tnt-10.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add USE_TNT 10"
+            }
+          },
+          {
+            "id": "I-use-tnt-12",
+            "type": "USE_TNT",
+            "goal": 12,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-use-tnt-12 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-use-tnt-12.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add USE_TNT 12"
+            }
+          },
+          {
+            "id": "I-use-tnt-14",
+            "type": "USE_TNT",
+            "goal": 14,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-use-tnt-14 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-use-tnt-14.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add USE_TNT 14"
+            }
+          },
+          {
+            "id": "I-use-tnt-15",
+            "type": "USE_TNT",
+            "goal": 15,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-use-tnt-15 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-use-tnt-15.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add USE_TNT 15"
+            }
+          },
+          {
+            "id": "I-open-pet-lootbox-1",
+            "type": "OPEN_PET_LOOTBOX",
             "goal": 1,
             "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed I-dig-mining-battle-secret-block-1 quest"
+              "tell %player% Claimed I-open-pet-lootbox-1 quest"
             ],
-            "description": "treasures.battlepass.quests.daily.I-dig-mining-battle-secret-block-1.description",
+            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-1.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add DIG_MINING_BATTLE_SECRET_BLOCK 1"
+              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 1"
             }
           },
           {
-            "id": "I-earn-mining-battle-points-250",
-            "type": "EARN_MINING_BATTLE_POINTS",
-            "goal": 250,
-            "rewardExperience": 600,
-            "commands": [
-              "tell %player% Claimed I-earn-mining-battle-points-250 quest"
-            ],
-            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-250.description",
-            "tooltip": {
-              "description": "/test-battlepass-quest-add EARN_MINING_BATTLE_POINTS 250"
-            }
-          },
-          {
-            "id": "I-open-pet-lootbox-10",
+            "id": "I-open-pet-lootbox-2",
             "type": "OPEN_PET_LOOTBOX",
-            "goal": 10,
+            "goal": 2,
             "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed I-open-pet-lootbox-10 quest"
+              "tell %player% Claimed I-open-pet-lootbox-2 quest"
             ],
-            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-10.description",
+            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-2.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 10"
+              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 2"
             }
           },
           {
-            "id": "I-open-rune-lootbox-10",
-            "type": "OPEN_RUNE_LOOTBOX",
-            "goal": 10,
+            "id": "I-open-pet-lootbox-3",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 3,
             "rewardExperience": 600,
             "commands": [
-              "tell %player% Claimed I-open-rune-lootbox-10 quest"
+              "tell %player% Claimed I-open-pet-lootbox-3 quest"
             ],
-            "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-10.description",
+            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-3.description",
             "tooltip": {
-              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 10"
+              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 3"
+            }
+          },
+          {
+            "id": "I-open-pet-lootbox-4",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 4,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-open-pet-lootbox-4 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-4.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_PET_LOOTBOX 4"
+            }
+          },
+          {
+            "id": "I-open-rune-lootbox-1",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 1,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-open-rune-lootbox-1 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-1.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 1"
+            }
+          },
+          {
+            "id": "I-open-rune-lootbox-2",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 2,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-open-rune-lootbox-2 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-2.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 2"
+            }
+          },
+          {
+            "id": "I-open-rune-lootbox-3",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 3,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-open-rune-lootbox-3 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-3.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_RUNE_LOOTBOX 3"
+            }
+          },
+          {
+            "id": "I-open-default-lootbox-5",
+            "type": "OPEN_DEFAULT_LOOTBOX",
+            "goal": 5,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-open-default-lootbox-5 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-5.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_DEFAULT_LOOTBOX 5"
+            }
+          },
+          {
+            "id": "I-open-default-lootbox-6",
+            "type": "OPEN_DEFAULT_LOOTBOX",
+            "goal": 6,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-open-default-lootbox-6 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-6.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_DEFAULT_LOOTBOX 6"
+            }
+          },
+          {
+            "id": "I-open-default-lootbox-7",
+            "type": "OPEN_DEFAULT_LOOTBOX",
+            "goal": 7,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-open-default-lootbox-7 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-7.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_DEFAULT_LOOTBOX 7"
+            }
+          },
+          {
+            "id": "I-open-default-lootbox-8",
+            "type": "OPEN_DEFAULT_LOOTBOX",
+            "goal": 8,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-open-default-lootbox-8 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-8.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add OPEN_DEFAULT_LOOTBOX 8"
+            }
+          },
+          {
+            "id": "I-drop-common-pet-1",
+            "type": "DROP_COMMON_PET",
+            "goal": 1,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-drop-common-pet-1 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-drop-common-pet-1.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DROP_COMMON_PET 1"
+            }
+          },
+          {
+            "id": "I-drop-common-pet-2",
+            "type": "DROP_COMMON_PET",
+            "goal": 2,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-drop-common-pet-2 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-drop-common-pet-2.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DROP_COMMON_PET 2"
+            }
+          },
+          {
+            "id": "I-drop-common-pet-3",
+            "type": "DROP_COMMON_PET",
+            "goal": 3,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-drop-common-pet-3 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-drop-common-pet-3.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add DROP_COMMON_PET 3"
+            }
+          },
+          {
+            "id": "I-earn-mining-battle-points-1000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 1000,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-earn-mining-battle-points-1000 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-1000.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add EARN_MINING_BATTLE_POINTS 1000"
+            }
+          },
+          {
+            "id": "I-earn-mining-battle-points-1500",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 1500,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-earn-mining-battle-points-1500 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-1500.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add EARN_MINING_BATTLE_POINTS 1500"
+            }
+          },
+          {
+            "id": "I-earn-mining-battle-points-2000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 2000,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-earn-mining-battle-points-2000 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-2000.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add EARN_MINING_BATTLE_POINTS 2000"
+            }
+          },
+          {
+            "id": "I-earn-mining-battle-points-2500",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 2500,
+            "rewardExperience": 600,
+            "commands": [
+              "tell %player% Claimed I-earn-mining-battle-points-2500 quest"
+            ],
+            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-2500.description",
+            "tooltip": {
+              "description": "/test-battlepass-quest-add EARN_MINING_BATTLE_POINTS 2500"
             }
           }
         ],
