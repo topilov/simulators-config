@@ -20,43 +20,26 @@
       ],
       "startMessage": "treasures.event.blocks.start-message",
       "reward": {
-        "1-1": [
+        "1": [
           "give-key %player% RUNE 7",
           "give-key %player% DEFAULT 20",
           "random-money %player% 70.0 70.1 1",
           "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1",
           "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
         ],
-        "2-2": [
+        "2": [
           "give-key %player% RUNE 5",
           "give-key %player% DEFAULT 15",
           "random-money %player% 55.0 55.1 1",
           "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1",
           "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
         ],
-        "3-3": [
+        "3": [
           "give-key %player% RUNE 3",
           "give-key %player% DEFAULT 10",
           "random-money %player% 40.0 40.1 1",
           "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1",
           "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
-        ],
-        "4-10": [
-          "give-key %player% RUNE 2",
-          "give-key %player% DEFAULT 5",
-          "random-money %player% 15.0 15.1 1",
-          "add-achievement-progress %player% TAKE_TOP_BLOCKS_EVENT 1",
-          "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
-        ],
-        "11-50": [
-          "give-key %player% RUNE 1",
-          "give-key %player% DEFAULT 5",
-          "random-money %player% 5.0 5.1 1",
-          "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
-        ],
-        "51-*": [
-          "give-key %player% RUNE 1",
-          "give-key %player% DEFAULT 5"
         ]
       },
       "isGlobal": true,
@@ -72,7 +55,7 @@
     },
     "TREASURES": {
       "id": "treasures",
-      "topEntries": 10,
+      "topEntries": 3,
       "duration": 300,
       "start": [
         "1:0:0",
@@ -90,43 +73,26 @@
       ],
       "startMessage": "treasures.event.treasures.start-message",
       "reward": {
-        "1-1": [
+        "1": [
           "give-key %player% PET 10",
           "random-money %player% 70.0 70.1 1",
           "give-key %player% DEFAULT 20",
           "add-achievement-progress %player% TAKE_TOP_TREASURES_EVENT 1",
           "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
         ],
-        "2-2": [
+        "2": [
           "give-key %player% PET 8",
           "random-money %player% 55.0 55.1 1",
           "give-key %player% DEFAULT 15",
           "add-achievement-progress %player% TAKE_TOP_TREASURES_EVENT 1",
           "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
         ],
-        "3-3": [
+        "3": [
           "give-key %player% PET 6",
           "random-money %player% 40.0 40.1 1",
           "give-key %player% DEFAULT 10",
           "add-achievement-progress %player% TAKE_TOP_TREASURES_EVENT 1",
           "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
-        ],
-        "4-10": [
-          "give-key %player% PET 4",
-          "give-key %player% DEFAULT 5",
-          "random-money %player% 15.0 15.1 1",
-          "add-achievement-progress %player% TAKE_TOP_TREASURES_EVENT 1",
-          "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
-        ],
-        "11-50": [
-          "give-key %player% PET 2",
-          "give-key %player% DEFAULT 5",
-          "random-money %player% 5.0 5.1 1",
-          "add-battlepass-quest-progress %player% TAKE_EVENT_TOP_3 1"
-        ],
-        "51-*": [
-          "give-key %player% PET 2",
-          "give-key %player% DEFAULT 5"
         ]
       },
       "isGlobal": true,
