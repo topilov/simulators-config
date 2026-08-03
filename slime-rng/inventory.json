@@ -133,6 +133,19 @@
         "glint": false
       },
       "initiallyUnlocked": false
+    },
+    "slime-rng:gun": {
+      "categoryId": "slime-rng:boosters",
+      "order": 5,
+      "visualRole": "WEAPON",
+      "title": "Оружие",
+      "emptyIcon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:blaze_rod",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
     }
   },
   "equipmentSets": {
@@ -202,6 +215,37 @@
           "glint": false
         },
         "title": "srng.food.apple.name",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "slime-rng:gun": {
+      "kind": "EQUIPMENT",
+      "categoryId": "slime-rng:boosters",
+      "capabilities": [
+        "EQUIPPABLE"
+      ],
+      "compatibleEquipmentSlotIds": [
+        "slime-rng:gun"
+      ],
+      "actionIds": [],
+      "order": 0,
+      "weight": {
+        "source": "NONE"
+      },
+      "stacking": {
+        "strategy": "NEVER",
+        "properties": []
+      },
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:blaze_rod",
+          "modelId": 0,
+          "glint": true
+        },
+        "title": "srng.gun.basic.name",
         "rows": [],
         "badges": [],
         "variants": {}
