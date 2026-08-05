@@ -35,22 +35,15 @@
         "lore": ""
       }
     },
-    "SLIMES": {
-      "color": {
-        "hex": "#AF7AC5"
-      },
-      "icon": {
-        "type": "SLIME_BALL",
-        "name": "srng.tree.module.slimes.name",
-        "lore": ""
-      }
-    },
     "REBIRTH_UPGRADES": {
       "color": {
         "hex": "#24C0E3"
       },
       "icon": {
-        "type": "GOLD_INGOT",
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "coins"
+        },
         "name": "srng.tree.module.rebirth-upgrades.name",
         "lore": ""
       }
@@ -70,15 +63,128 @@
     },
     {
       "id": 100,
-      "name": "i18n.srng.tree.health.upgrade.name|!|I",
-      "price": 1000,
+      "name": "srng.tree.food.upgrade.name",
+      "price": 200000,
+      "pos": {
+        "x": 0.0,
+        "y": -300.0
+      },
+      "size": 72,
+      "module": "PLAYER",
+      "parents": [
+        107,
+        108
+      ],
+      "anyParentUpgrade": false,
+      "description": "srng.tree.food.upgrade.description",
+      "icon": {
+        "type": "APPLE",
+        "name": "srng.food.item.name",
+        "lore": "srng.food.item.lore"
+      }
+    },
+    {
+      "id": 101,
+      "name": "i18n.srng.tree.damage.upgrade.name|!|I",
+      "price": 75000,
+      "pos": {
+        "x": -130.0,
+        "y": -200.0
+      },
+      "module": "PLAYER",
+      "parents": [
+        102
+      ],
+      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|10",
+      "rewards": [
+        "sudo %player% multiply-booster DAMAGE 1.1"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "i18n.srng.tree.attack-speed.upgrade.name|!|I",
+      "price": 25000,
       "pos": {
         "x": 0.0,
         "y": -100.0
       },
+      "size": 48,
       "module": "PLAYER",
       "parents": [
         1
+      ],
+      "description": "i18n.srng.tree.attack-speed.upgrade.description|!|I|!|5",
+      "rewards": [
+        "sudo %player% multiply-booster ATTACK_SPEED 1.05"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "i18n.srng.tree.damage.upgrade.name|!|III",
+      "price": 500000,
+      "pos": {
+        "x": -130.0,
+        "y": -400.0
+      },
+      "module": "PLAYER",
+      "parents": [
+        107
+      ],
+      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|10",
+      "rewards": [
+        "sudo %player% multiply-booster DAMAGE 1.1"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "i18n.srng.tree.health.upgrade.name|!|III",
+      "price": 600000,
+      "pos": {
+        "x": 130.0,
+        "y": -400.0
+      },
+      "module": "PLAYER",
+      "parents": [
+        108
+      ],
+      "description": "i18n.srng.tree.health.upgrade.description|!|III|!|5",
+      "rewards": [
+        "sudo %player% multiply-booster HEALTH 1.05",
+        "sudo %player% update-player-health"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "i18n.srng.tree.attack-speed.upgrade.name|!|II",
+      "price": 750000,
+      "pos": {
+        "x": 0.0,
+        "y": -510.0
+      },
+      "size": 48,
+      "module": "PLAYER",
+      "parents": [
+        103,
+        110,
+        104
+      ],
+      "anyParentUpgrade": false,
+      "description": "i18n.srng.tree.attack-speed.upgrade.description|!|II|!|5",
+      "rewards": [
+        "sudo %player% multiply-booster ATTACK_SPEED 1.05"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "i18n.srng.tree.health.upgrade.name|!|I",
+      "price": 60000,
+      "pos": {
+        "x": 130.0,
+        "y": -200.0
+      },
+      "module": "PLAYER",
+      "parents": [
+        102
       ],
       "description": "i18n.srng.tree.health.upgrade.description|!|I|!|5",
       "rewards": [
@@ -87,16 +193,33 @@
       ]
     },
     {
-      "id": 101,
-      "name": "i18n.srng.tree.health.upgrade.name|!|II",
-      "price": 2500,
+      "id": 107,
+      "name": "i18n.srng.tree.damage.upgrade.name|!|II",
+      "price": 250000,
       "pos": {
-        "x": 110.0,
-        "y": -200.0
+        "x": -130.0,
+        "y": -300.0
       },
       "module": "PLAYER",
       "parents": [
-        100
+        101
+      ],
+      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|10",
+      "rewards": [
+        "sudo %player% multiply-booster DAMAGE 1.1"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "i18n.srng.tree.health.upgrade.name|!|II",
+      "price": 200000,
+      "pos": {
+        "x": 130.0,
+        "y": -300.0
+      },
+      "module": "PLAYER",
+      "parents": [
+        106
       ],
       "description": "i18n.srng.tree.health.upgrade.description|!|II|!|5",
       "rewards": [
@@ -105,78 +228,24 @@
       ]
     },
     {
-      "id": 102,
-      "name": "i18n.srng.tree.health.upgrade.name|!|III",
-      "price": 7500,
-      "pos": {
-        "x": -110.0,
-        "y": -200.0
-      },
-      "module": "PLAYER",
-      "parents": [
-        100
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|III|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ]
-    },
-    {
-      "id": 103,
-      "name": "i18n.srng.tree.health.upgrade.name|!|IV",
-      "price": 20000,
-      "pos": {
-        "x": -110.0,
-        "y": -300.0
-      },
-      "module": "PLAYER",
-      "parents": [
-        102
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|IV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ]
-    },
-    {
-      "id": 104,
-      "name": "i18n.srng.tree.health.upgrade.name|!|V",
-      "price": 50000,
-      "pos": {
-        "x": 110.0,
-        "y": -300.0
-      },
-      "module": "PLAYER",
-      "parents": [
-        101
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|V|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ]
-    },
-    {
-      "id": 105,
-      "name": "i18n.srng.tree.health.upgrade.name|!|VI",
-      "price": 150000,
+      "id": 110,
+      "name": "srng.tree.regeneration-food.upgrade.name",
+      "price": 300000,
       "pos": {
         "x": 0.0,
         "y": -400.0
       },
+      "size": 64,
       "module": "PLAYER",
       "parents": [
-        103,
-        104
+        100
       ],
-      "anyParentUpgrade": false,
-      "description": "i18n.srng.tree.health.upgrade.description|!|VI|!|20",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.2",
-        "sudo %player% update-player-health"
-      ]
+      "description": "srng.tree.regeneration-food.upgrade.description",
+      "icon": {
+        "type": "GOLDEN_APPLE",
+        "name": "srng.tree.regeneration-food.upgrade.name",
+        "lore": ""
+      }
     },
     {
       "id": 200,
@@ -283,133 +352,6 @@
       ]
     },
     {
-      "id": 300,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|I",
-      "price": 2000,
-      "pos": {
-        "x": -100.0,
-        "y": 0.0
-      },
-      "module": "SLIMES",
-      "parents": [
-        1
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|5",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.05"
-      ]
-    },
-    {
-      "id": 301,
-      "name": "i18n.srng.tree.health.upgrade.name|!|I",
-      "price": 6000,
-      "pos": {
-        "x": -200.0,
-        "y": -110.0
-      },
-      "module": "SLIMES",
-      "parents": [
-        300
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|5",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.05",
-        "sudo %player% update-player-health"
-      ]
-    },
-    {
-      "id": 302,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|II",
-      "price": 18000,
-      "pos": {
-        "x": -200.0,
-        "y": 110.0
-      },
-      "module": "SLIMES",
-      "parents": [
-        300
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ]
-    },
-    {
-      "id": 303,
-      "name": "i18n.srng.tree.health.upgrade.name|!|II",
-      "price": 60000,
-      "pos": {
-        "x": -300.0,
-        "y": -110.0
-      },
-      "module": "SLIMES",
-      "parents": [
-        301
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ]
-    },
-    {
-      "id": 304,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|III",
-      "price": 180000,
-      "pos": {
-        "x": -300.0,
-        "y": 110.0
-      },
-      "module": "SLIMES",
-      "parents": [
-        302
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15"
-      ]
-    },
-    {
-      "id": 305,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|VI",
-      "price": 600000,
-      "pos": {
-        "x": -400.0,
-        "y": 0.0
-      },
-      "module": "SLIMES",
-      "parents": [
-        303,
-        304
-      ],
-      "anyParentUpgrade": false,
-      "description": "i18n.srng.tree.damage.upgrade.description|!|VI|!|20",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.2"
-      ]
-    },
-    {
-      "id": 306,
-      "name": "srng.tree.gun.upgrade.name",
-      "price": 1000000,
-      "pos": {
-        "x": -500.0,
-        "y": 0.0
-      },
-      "module": "SLIMES",
-      "parents": [
-        305
-      ],
-      "description": "srng.tree.gun.upgrade.description",
-      "icon": {
-        "type": "BLAZE_ROD",
-        "name": "srng.tree.gun.upgrade.name"
-      },
-      "rewards": [
-        "sudo %player% give-gun"
-      ]
-    },
-    {
       "id": 400,
       "name": "i18n.srng.tree.rebirth-upgrades.upgrade.name|!|I",
       "price": 50,
@@ -417,6 +359,7 @@
         "x": 0.0,
         "y": 100.0
       },
+      "size": 60,
       "module": "REBIRTH_UPGRADES",
       "parents": [
         1
@@ -430,14 +373,15 @@
     {
       "id": 401,
       "name": "i18n.srng.tree.rebirth-upgrades.slime-slots.upgrade.name|!|I",
-      "price": 5000,
+      "price": 10000,
       "pos": {
-        "x": -300.0,
-        "y": 200.0
+        "x": 370.0,
+        "y": 250.0
       },
+      "size": 64,
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        400
+        412
       ],
       "description": "i18n.srng.tree.rebirth-upgrades.slime-slots.upgrade.description|!|I|!|1",
       "rewards": [
@@ -449,12 +393,12 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|I",
       "price": 100,
       "pos": {
-        "x": -200.0,
-        "y": 200.0
+        "x": -100.0,
+        "y": 450.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        400
+        405
       ],
       "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|I|!|50",
       "rewards": [
@@ -467,7 +411,7 @@
       "price": 100,
       "pos": {
         "x": -100.0,
-        "y": 200.0
+        "y": 250.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -484,13 +428,13 @@
       "price": 1000,
       "pos": {
         "x": 100.0,
-        "y": 200.0
+        "y": 250.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         400
       ],
-      "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|I|!|50",
+      "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|I|!|10",
       "rewards": [
         "sudo %player% add-inventory-slots 10"
       ]
@@ -500,12 +444,12 @@
       "name": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.name|!|I",
       "price": 250,
       "pos": {
-        "x": 200.0,
-        "y": 200.0
+        "x": -100.0,
+        "y": 350.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        400
+        403
       ],
       "description": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.description|!|I|!|20",
       "rewards": [
@@ -517,8 +461,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|II",
       "price": 250,
       "pos": {
-        "x": -200.0,
-        "y": 300.0
+        "x": -190.0,
+        "y": 450.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -534,8 +478,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|II",
       "price": 250,
       "pos": {
-        "x": -100.0,
-        "y": 300.0
+        "x": -190.0,
+        "y": 250.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -548,11 +492,29 @@
     },
     {
       "id": 408,
+      "name": "i18n.srng.tree.rebirth-upgrades.slime-slots.upgrade.name|!|II",
+      "price": 25000,
+      "pos": {
+        "x": 460.0,
+        "y": 250.0
+      },
+      "size": 64,
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        414
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.slime-slots.upgrade.description|!|II|!|1",
+      "rewards": [
+        "sudo unlock-slime-slot %player%"
+      ]
+    },
+    {
+      "id": 409,
       "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|II",
       "price": 1500,
       "pos": {
-        "x": 100.0,
-        "y": 300.0
+        "x": 190.0,
+        "y": 250.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -561,6 +523,317 @@
       "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|II|!|10",
       "rewards": [
         "sudo %player% add-inventory-slots 10"
+      ]
+    },
+    {
+      "id": 410,
+      "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|III",
+      "price": 2250,
+      "pos": {
+        "x": 190.0,
+        "y": 170.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        409
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|III|!|10",
+      "rewards": [
+        "sudo %player% add-inventory-slots 10"
+      ]
+    },
+    {
+      "id": 411,
+      "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|IV",
+      "price": 3250,
+      "pos": {
+        "x": 280.0,
+        "y": 170.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        410
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|IV|!|10",
+      "rewards": [
+        "sudo %player% add-inventory-slots 10"
+      ]
+    },
+    {
+      "id": 412,
+      "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|V",
+      "price": 4500,
+      "pos": {
+        "x": 280.0,
+        "y": 250.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        411
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|V|!|10",
+      "rewards": [
+        "sudo %player% add-inventory-slots 10"
+      ]
+    },
+    {
+      "id": 413,
+      "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|VI",
+      "price": 7500,
+      "pos": {
+        "x": 370.0,
+        "y": 170.0
+      },
+      "size": 56,
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        401
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|VI|!|25",
+      "rewards": [
+        "sudo %player% add-inventory-slots 25"
+      ]
+    },
+    {
+      "id": 414,
+      "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|VII",
+      "price": 7500,
+      "pos": {
+        "x": 460.0,
+        "y": 170.0
+      },
+      "size": 56,
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        413
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|VII|!|25",
+      "rewards": [
+        "sudo %player% add-inventory-slots 25"
+      ]
+    },
+    {
+      "id": 415,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|III",
+      "price": 500,
+      "pos": {
+        "x": -190.0,
+        "y": 530.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        406
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|III|!|75",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 1.75"
+      ]
+    },
+    {
+      "id": 416,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|IV",
+      "price": 1000,
+      "pos": {
+        "x": -280.0,
+        "y": 530.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        415
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|IV|!|100",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 2.0"
+      ]
+    },
+    {
+      "id": 417,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|V",
+      "price": 2500,
+      "pos": {
+        "x": -280.0,
+        "y": 450.0
+      },
+      "size": 60,
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        416
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|V|!|150",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 2.5"
+      ]
+    },
+    {
+      "id": 418,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|III",
+      "price": 500,
+      "pos": {
+        "x": -190.0,
+        "y": 170.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        407
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|III|!|75",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 1.75"
+      ]
+    },
+    {
+      "id": 419,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|IV",
+      "price": 1000,
+      "pos": {
+        "x": -280.0,
+        "y": 170.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        418
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|IV|!|100",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 2.0"
+      ]
+    },
+    {
+      "id": 420,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|V",
+      "price": 2500,
+      "pos": {
+        "x": -280.0,
+        "y": 250.0
+      },
+      "size": 60,
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        419
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|V|!|150",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 2.5"
+      ]
+    },
+    {
+      "id": 421,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|VI",
+      "price": 5000,
+      "pos": {
+        "x": -370.0,
+        "y": 250.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        420
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|VI|!|200",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 3.0"
+      ]
+    },
+    {
+      "id": 422,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|VII",
+      "price": 7500,
+      "pos": {
+        "x": -370.0,
+        "y": 170.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        421
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|VII|!|250",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 3.5"
+      ]
+    },
+    {
+      "id": 423,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|VI",
+      "price": 5000,
+      "pos": {
+        "x": -370.0,
+        "y": 450.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        417
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|VI|!|200",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 3.0"
+      ]
+    },
+    {
+      "id": 424,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|VII",
+      "price": 7500,
+      "pos": {
+        "x": -370.0,
+        "y": 530.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        423
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|VII|!|250",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 3.5"
+      ]
+    },
+    {
+      "id": 425,
+      "name": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.name|!|II",
+      "price": 500,
+      "pos": {
+        "x": -190.0,
+        "y": 350.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        405
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.description|!|II|!|40",
+      "rewards": [
+        "sudo %player% multiply-booster RUN_SPEED 1.4"
+      ]
+    },
+    {
+      "id": 426,
+      "name": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.name|!|III",
+      "price": 1000,
+      "pos": {
+        "x": -280.0,
+        "y": 350.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        425
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.description|!|III|!|60",
+      "rewards": [
+        "sudo %player% multiply-booster RUN_SPEED 1.6"
+      ]
+    },
+    {
+      "id": 427,
+      "name": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.name|!|IV",
+      "price": 2500,
+      "pos": {
+        "x": -370.0,
+        "y": 350.0
+      },
+      "size": 60,
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        426
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.description|!|IV|!|100",
+      "rewards": [
+        "sudo %player% multiply-booster RUN_SPEED 2.0"
       ]
     }
   ],
