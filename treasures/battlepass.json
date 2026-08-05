@@ -280,7 +280,7 @@
         {
           "id": "level-5-default",
           "onClaim": [
-            "tell %player% Claimed level 5 default reward"
+            "give-key %player% TITLE 1"
           ],
           "icon": {
             "type": "textured",
@@ -293,11 +293,11 @@
         {
           "id": "level-5-default-2",
           "onClaim": [
-            "tell %player% Claimed level 5 default reward"
+            "give-key %player% PET 5"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-5.title-2"
@@ -306,11 +306,11 @@
         {
           "id": "level-5-default-3",
           "onClaim": [
-            "tell %player% Claimed level 5 default reward"
+            "give-key %player% RUNE 2"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-5.title-3"
@@ -319,7 +319,7 @@
         {
           "id": "level-5-default-4",
           "onClaim": [
-            "tell %player% Claimed level 5 default reward"
+            "give-key %player% DEFAULT 10"
           ],
           "icon": {
             "type": "textured",
@@ -713,11 +713,11 @@
         {
           "id": "level-14-default",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 3600"
+            "local-booster %player% MONEY 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/blocks_booster.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-14.title"
@@ -739,11 +739,11 @@
         {
           "id": "level-14-default-3",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 3600"
+            "local-booster %player% TREASURES 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/blocks_booster.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-14.title-3"
@@ -752,11 +752,11 @@
         {
           "id": "level-14-default-4",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 3600"
+            "local-booster %player% EXP 2 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/blocks_booster.png"
+            "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-14.title-4"
@@ -1207,6 +1207,19 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-24.title"
           }
+        },
+{
+          "id": "level-24-default-a-2",
+          "onClaim": [
+            "local-booster %player% EXP 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-24.title-2"
+          }
         }
       ],
       "premiumRewards": [
@@ -1222,6 +1235,20 @@
           "quality": "epic",
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-24.title"
+          }
+        },
+{
+          "id": "level-24-premium-a-2",
+          "onClaim": [
+            "tell %player% Claimed level 24 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-24.title-2"
           }
         }
       ]
@@ -1268,7 +1295,7 @@
         {
           "id": "level-26-default",
           "onClaim": [
-            "tell %player% Claimed level 26 default reward"
+            "give-key %player% TITLE 1"
           ],
           "icon": {
             "type": "textured",
@@ -1281,11 +1308,11 @@
         {
           "id": "level-26-default-2",
           "onClaim": [
-            "tell %player% Claimed level 26 default reward"
+            "give-key %player% PET 15"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-26.title-2"
@@ -1294,11 +1321,11 @@
         {
           "id": "level-26-default-3",
           "onClaim": [
-            "tell %player% Claimed level 26 default reward"
+            "give-key %player% RUNE 5"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-26.title-3"
@@ -1307,7 +1334,7 @@
         {
           "id": "level-26-default-4",
           "onClaim": [
-            "tell %player% Claimed level 26 default reward"
+            "give-key %player% DEFAULT 20"
           ],
           "icon": {
             "type": "textured",
@@ -1664,11 +1691,11 @@
         {
           "id": "level-35-default-a",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3600"
+            "local-booster %player% MONEY 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/treasures_booster.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-35.title"
@@ -1677,11 +1704,11 @@
         {
           "id": "level-35-default-a-2",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3600"
+            "local-booster %player% BLOCKS 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/treasures_booster.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-35.title-2"
@@ -1703,11 +1730,11 @@
         {
           "id": "level-35-default-a-4",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3600"
+            "local-booster %player% EXP 2 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/treasures_booster.png"
+            "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-35.title-4"
@@ -2087,11 +2114,11 @@
         {
           "id": "level-44-default-a",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3600"
+            "give-key %player% TITLE 1"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/treasures_booster.png"
+            "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-44.title"
@@ -2100,11 +2127,11 @@
         {
           "id": "level-44-default-a-2",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3600"
+            "give-key %player% PET 25"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/treasures_booster.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-44.title-2"
@@ -2113,11 +2140,11 @@
         {
           "id": "level-44-default-a-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3600"
+            "give-key %player% RUNE 8"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/treasures_booster.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-44.title-3"
@@ -2126,11 +2153,11 @@
         {
           "id": "level-44-default-a-4",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3600"
+            "give-key %player% DEFAULT 30"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/treasures_booster.png"
+            "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-44.title-4"
@@ -2581,6 +2608,19 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-54.title"
           }
+        },
+{
+          "id": "level-54-default-2",
+          "onClaim": [
+            "tell %player% Claimed level 54 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-54.title-2"
+          }
         }
       ],
       "premiumRewards": [
@@ -2596,6 +2636,20 @@
           "quality": "epic",
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-54.title"
+          }
+        },
+{
+          "id": "level-54-premium-2",
+          "onClaim": [
+            "tell %player% Claimed level 54 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-54.title-2"
           }
         }
       ]
@@ -2642,11 +2696,11 @@
         {
           "id": "level-56-default",
           "onClaim": [
-            "tell %player% Claimed level 56 default reward"
+            "local-booster %player% MONEY 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-56.title"
@@ -2655,11 +2709,11 @@
         {
           "id": "level-56-default-2",
           "onClaim": [
-            "tell %player% Claimed level 56 default reward"
+            "local-booster %player% BLOCKS 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-56.title-2"
@@ -2668,11 +2722,11 @@
         {
           "id": "level-56-default-3",
           "onClaim": [
-            "tell %player% Claimed level 56 default reward"
+            "local-booster %player% TREASURES 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-56.title-3"
@@ -2681,11 +2735,11 @@
         {
           "id": "level-56-default-4",
           "onClaim": [
-            "tell %player% Claimed level 56 default reward"
+            "local-booster %player% EXP 2 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-56.title-4"
@@ -3039,7 +3093,7 @@
         {
           "id": "level-65-default",
           "onClaim": [
-            "tell %player% Claimed level 65 default reward"
+            "give-key %player% TITLE 1"
           ],
           "icon": {
             "type": "textured",
@@ -3052,11 +3106,11 @@
         {
           "id": "level-65-default-2",
           "onClaim": [
-            "tell %player% Claimed level 65 default reward"
+            "give-key %player% PET 35"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-65.title-2"
@@ -3065,11 +3119,11 @@
         {
           "id": "level-65-default-3",
           "onClaim": [
-            "tell %player% Claimed level 65 default reward"
+            "give-key %player% RUNE 12"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-65.title-3"
@@ -3078,7 +3132,7 @@
         {
           "id": "level-65-default-4",
           "onClaim": [
-            "tell %player% Claimed level 65 default reward"
+            "give-key %player% DEFAULT 40"
           ],
           "icon": {
             "type": "textured",
@@ -3463,11 +3517,11 @@
         {
           "id": "level-74-default",
           "onClaim": [
-            "tell %player% Claimed level 74 default reward"
+            "local-booster %player% MONEY 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-74.title"
@@ -3476,11 +3530,11 @@
         {
           "id": "level-74-default-2",
           "onClaim": [
-            "tell %player% Claimed level 74 default reward"
+            "local-booster %player% BLOCKS 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-74.title-2"
@@ -3489,11 +3543,11 @@
         {
           "id": "level-74-default-3",
           "onClaim": [
-            "tell %player% Claimed level 74 default reward"
+            "local-booster %player% TREASURES 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-74.title-3"
@@ -3502,11 +3556,11 @@
         {
           "id": "level-74-default-4",
           "onClaim": [
-            "tell %player% Claimed level 74 default reward"
+            "local-booster %player% EXP 2 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-74.title-4"
@@ -3958,6 +4012,19 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-84.title"
           }
+        },
+{
+          "id": "level-84-default-a-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-84.title-2"
+          }
         }
       ],
       "premiumRewards": [
@@ -3973,6 +4040,20 @@
           "quality": "epic",
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-84.title"
+          }
+        },
+{
+          "id": "level-84-premium-a-2",
+          "onClaim": [
+            "tell %player% Claimed level 84 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-84.title-2"
           }
         }
       ]
@@ -4019,7 +4100,7 @@
         {
           "id": "level-86-default",
           "onClaim": [
-            "tell %player% Claimed level 86 default reward"
+            "give-key %player% TITLE 1"
           ],
           "icon": {
             "type": "textured",
@@ -4032,11 +4113,11 @@
         {
           "id": "level-86-default-2",
           "onClaim": [
-            "tell %player% Claimed level 86 default reward"
+            "give-key %player% PET 50"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-86.title-2"
@@ -4045,11 +4126,11 @@
         {
           "id": "level-86-default-3",
           "onClaim": [
-            "tell %player% Claimed level 86 default reward"
+            "give-key %player% RUNE 20"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-86.title-3"
@@ -4058,7 +4139,7 @@
         {
           "id": "level-86-default-4",
           "onClaim": [
-            "tell %player% Claimed level 86 default reward"
+            "give-key %player% DEFAULT 60"
           ],
           "icon": {
             "type": "textured",
@@ -4416,7 +4497,7 @@
         {
           "id": "level-95-default-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600"
+            "local-booster %player% MONEY 1 7200"
           ],
           "icon": {
             "type": "textured",
@@ -4429,11 +4510,11 @@
         {
           "id": "level-95-default-a-2",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600"
+            "local-booster %player% BLOCKS 1 7200"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/money_booster.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-95.title-2"
@@ -4442,11 +4523,11 @@
         {
           "id": "level-95-default-a-3",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600"
+            "local-booster %player% TREASURES 1 7200"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/money_booster.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-95.title-3"
@@ -4455,11 +4536,11 @@
         {
           "id": "level-95-default-a-4",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600"
+            "local-booster %player% EXP 2 7200"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/money_booster.png"
+            "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-95.title-4"
