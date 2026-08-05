@@ -454,13 +454,13 @@
             "local-booster %player% MONEY 1 1200"
           ],
           "icon": {
-            "kind": "ITEM_MODEL",
-            "resourceId": "minecraft:clay_ball",
-            "modelId": 0,
-            "modelTag": "pot_of_gold",
-            "ownerTexture": null,
-            "tint": null,
-            "glint": false
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "sim": "pot_of_gold"
+              }
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-7.title"
