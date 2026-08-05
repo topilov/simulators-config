@@ -74,12 +74,15 @@
       "price": 1000000,
       "pos": {
         "x": 0.0,
-        "y": -100.0
+        "y": -410.0
       },
       "module": "PLAYER",
       "parents": [
-        1
+        103,
+        105,
+        104
       ],
+      "anyParentUpgrade": false,
       "description": "srng.tree.food.upgrade.description",
       "icon": {
         "type": "APPLE",
@@ -93,11 +96,11 @@
       "price": 2500,
       "pos": {
         "x": -130.0,
-        "y": -210.0
+        "y": -200.0
       },
       "module": "PLAYER",
       "parents": [
-        100
+        102
       ],
       "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|5",
       "rewards": [
@@ -110,12 +113,12 @@
       "price": 7500,
       "pos": {
         "x": 0.0,
-        "y": -210.0
+        "y": -100.0
       },
       "size": 60,
       "module": "PLAYER",
       "parents": [
-        100
+        1
       ],
       "description": "i18n.srng.tree.health-damage.upgrade.description|!|I|!|10",
       "rewards": [
@@ -130,7 +133,7 @@
       "price": 20000,
       "pos": {
         "x": -130.0,
-        "y": -310.0
+        "y": -300.0
       },
       "module": "PLAYER",
       "parents": [
@@ -147,7 +150,7 @@
       "price": 50000,
       "pos": {
         "x": 130.0,
-        "y": -310.0
+        "y": -300.0
       },
       "module": "PLAYER",
       "parents": [
@@ -165,16 +168,13 @@
       "price": 150000,
       "pos": {
         "x": 0.0,
-        "y": -410.0
+        "y": -300.0
       },
       "size": 64,
       "module": "PLAYER",
       "parents": [
-        103,
-        102,
-        104
+        102
       ],
-      "anyParentUpgrade": false,
       "description": "i18n.srng.tree.health-damage.upgrade.description|!|II|!|20",
       "rewards": [
         "sudo %player% multiply-booster HEALTH 1.2",
@@ -188,11 +188,11 @@
       "price": 6000,
       "pos": {
         "x": 130.0,
-        "y": -210.0
+        "y": -200.0
       },
       "module": "PLAYER",
       "parents": [
-        100
+        102
       ],
       "description": "i18n.srng.tree.health.upgrade.description|!|I|!|5",
       "rewards": [
