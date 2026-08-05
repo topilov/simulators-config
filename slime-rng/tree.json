@@ -109,7 +109,7 @@
     },
     {
       "id": 102,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|I",
+      "name": "i18n.srng.tree.attack-speed.upgrade.name|!|I",
       "price": 7500,
       "pos": {
         "x": 0.0,
@@ -120,11 +120,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|I|!|10",
+      "description": "i18n.srng.tree.attack-speed.upgrade.description|!|I|!|5",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% multiply-booster DAMAGE 1.1",
-        "sudo %player% update-player-health"
+        "sudo %player% multiply-booster ATTACK_SPEED 1.05"
       ]
     },
     {
@@ -164,7 +162,7 @@
     },
     {
       "id": 105,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|II",
+      "name": "i18n.srng.tree.attack-speed.upgrade.name|!|II",
       "price": 150000,
       "pos": {
         "x": 0.0,
@@ -175,11 +173,9 @@
       "parents": [
         102
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|II|!|20",
+      "description": "i18n.srng.tree.attack-speed.upgrade.description|!|II|!|10",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.2",
-        "sudo %player% multiply-booster DAMAGE 1.2",
-        "sudo %player% update-player-health"
+        "sudo %player% multiply-booster ATTACK_SPEED 1.1"
       ]
     },
     {
