@@ -437,7 +437,7 @@
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        400
+        402
       ],
       "description": "i18n.srng.tree.rebirth-upgrades.slime-slots.upgrade.description|!|I|!|1",
       "rewards": [
@@ -449,7 +449,7 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|I",
       "price": 100,
       "pos": {
-        "x": -200.0,
+        "x": -150.0,
         "y": 200.0
       },
       "module": "REBIRTH_UPGRADES",
@@ -466,7 +466,7 @@
       "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|I",
       "price": 100,
       "pos": {
-        "x": -100.0,
+        "x": 150.0,
         "y": 200.0
       },
       "module": "REBIRTH_UPGRADES",
@@ -483,12 +483,12 @@
       "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|I",
       "price": 1000,
       "pos": {
-        "x": 100.0,
-        "y": 200.0
+        "x": 300.0,
+        "y": 300.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        400
+        403
       ],
       "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|I|!|50",
       "rewards": [
@@ -500,12 +500,12 @@
       "name": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.name|!|I",
       "price": 250,
       "pos": {
-        "x": 200.0,
-        "y": 200.0
+        "x": -300.0,
+        "y": 300.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        400
+        402
       ],
       "description": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.description|!|I|!|20",
       "rewards": [
@@ -517,7 +517,7 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|II",
       "price": 250,
       "pos": {
-        "x": -200.0,
+        "x": -150.0,
         "y": 300.0
       },
       "module": "REBIRTH_UPGRADES",
@@ -534,7 +534,7 @@
       "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|II",
       "price": 250,
       "pos": {
-        "x": -100.0,
+        "x": 150.0,
         "y": 300.0
       },
       "module": "REBIRTH_UPGRADES",
@@ -548,19 +548,19 @@
     },
     {
       "id": 408,
-      "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|II",
+      "name": "i18n.srng.tree.rebirth-upgrades.slime-slots.upgrade.name|!|II",
       "price": 1500,
       "pos": {
-        "x": 100.0,
-        "y": 300.0
+        "x": 300.0,
+        "y": 200.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        404
+        403
       ],
-      "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|II|!|10",
+      "description": "i18n.srng.tree.rebirth-upgrades.slime-slots.upgrade.description|!|II|!|1",
       "rewards": [
-        "sudo %player% add-inventory-slots 10"
+        "sudo unlock-slime-slot %player%"
       ]
     }
   ],
