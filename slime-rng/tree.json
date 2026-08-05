@@ -450,8 +450,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|I",
       "price": 100,
       "pos": {
-        "x": -90.0,
-        "y": 280.0
+        "x": -100.0,
+        "y": 400.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -467,8 +467,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|I",
       "price": 100,
       "pos": {
-        "x": -90.0,
-        "y": 180.0
+        "x": -100.0,
+        "y": 250.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -518,8 +518,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|II",
       "price": 250,
       "pos": {
-        "x": -170.0,
-        "y": 280.0
+        "x": -190.0,
+        "y": 400.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -535,8 +535,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|II",
       "price": 250,
       "pos": {
-        "x": -170.0,
-        "y": 180.0
+        "x": -190.0,
+        "y": 250.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -675,8 +675,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|III",
       "price": 500,
       "pos": {
-        "x": -250.0,
-        "y": 280.0
+        "x": -190.0,
+        "y": 480.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -692,8 +692,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|IV",
       "price": 1000,
       "pos": {
-        "x": -330.0,
-        "y": 280.0
+        "x": -280.0,
+        "y": 480.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -709,8 +709,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|V",
       "price": 2500,
       "pos": {
-        "x": -420.0,
-        "y": 280.0
+        "x": -280.0,
+        "y": 400.0
       },
       "size": 60,
       "module": "REBIRTH_UPGRADES",
@@ -727,8 +727,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|III",
       "price": 500,
       "pos": {
-        "x": -250.0,
-        "y": 180.0
+        "x": -190.0,
+        "y": 170.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -744,8 +744,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|IV",
       "price": 1000,
       "pos": {
-        "x": -330.0,
-        "y": 180.0
+        "x": -280.0,
+        "y": 170.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -761,8 +761,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|V",
       "price": 2500,
       "pos": {
-        "x": -420.0,
-        "y": 180.0
+        "x": -280.0,
+        "y": 250.0
       },
       "size": 60,
       "module": "REBIRTH_UPGRADES",
@@ -772,6 +772,74 @@
       "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|V|!|150",
       "rewards": [
         "sudo %player% multiply-booster MONEY 2.5"
+      ]
+    },
+    {
+      "id": 421,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|VI",
+      "price": 5000,
+      "pos": {
+        "x": -370.0,
+        "y": 250.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        420
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|VI|!|200",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 3.0"
+      ]
+    },
+    {
+      "id": 422,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|VII",
+      "price": 7500,
+      "pos": {
+        "x": -370.0,
+        "y": 170.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        421
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|VII|!|250",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 3.5"
+      ]
+    },
+    {
+      "id": 423,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|VI",
+      "price": 5000,
+      "pos": {
+        "x": -370.0,
+        "y": 400.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        417
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|VI|!|200",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 3.0"
+      ]
+    },
+    {
+      "id": 424,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|VII",
+      "price": 7500,
+      "pos": {
+        "x": -370.0,
+        "y": 480.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        423
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|VII|!|250",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 3.5"
       ]
     }
   ],
