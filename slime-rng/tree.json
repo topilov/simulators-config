@@ -61,17 +61,16 @@
     {
       "id": 100,
       "name": "srng.tree.food.upgrade.name",
-      "price": 1000000,
+      "price": 200000,
       "pos": {
         "x": 0.0,
-        "y": -510.0
+        "y": -300.0
       },
       "size": 72,
       "module": "PLAYER",
       "parents": [
-        103,
-        105,
-        104
+        107,
+        108
       ],
       "anyParentUpgrade": false,
       "description": "srng.tree.food.upgrade.description",
@@ -93,9 +92,9 @@
       "parents": [
         102
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|25",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|10",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.25"
+        "sudo %player% multiply-booster DAMAGE 1.1"
       ]
     },
     {
@@ -111,9 +110,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.attack-speed.upgrade.description|!|I|!|20",
+      "description": "i18n.srng.tree.attack-speed.upgrade.description|!|I|!|5",
       "rewards": [
-        "sudo %player% multiply-booster ATTACK_SPEED 1.2"
+        "sudo %player% multiply-booster ATTACK_SPEED 1.05"
       ]
     },
     {
@@ -128,9 +127,9 @@
       "parents": [
         107
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|75",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|10",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.75"
+        "sudo %player% multiply-booster DAMAGE 1.1"
       ]
     },
     {
@@ -153,20 +152,23 @@
     },
     {
       "id": 105,
-      "name": "i18n.srng.tree.attack-speed.upgrade.name|!|III",
+      "name": "i18n.srng.tree.attack-speed.upgrade.name|!|II",
       "price": 750000,
       "pos": {
         "x": 0.0,
-        "y": -300.0
+        "y": -510.0
       },
       "size": 48,
       "module": "PLAYER",
       "parents": [
-        109
+        103,
+        110,
+        104
       ],
-      "description": "i18n.srng.tree.attack-speed.upgrade.description|!|III|!|40",
+      "anyParentUpgrade": false,
+      "description": "i18n.srng.tree.attack-speed.upgrade.description|!|II|!|5",
       "rewards": [
-        "sudo %player% multiply-booster ATTACK_SPEED 1.4"
+        "sudo %player% multiply-booster ATTACK_SPEED 1.05"
       ]
     },
     {
@@ -190,7 +192,7 @@
     {
       "id": 107,
       "name": "i18n.srng.tree.damage.upgrade.name|!|II",
-      "price": 200000,
+      "price": 250000,
       "pos": {
         "x": -130.0,
         "y": -300.0
@@ -199,9 +201,9 @@
       "parents": [
         101
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|50",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|10",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.5"
+        "sudo %player% multiply-booster DAMAGE 1.1"
       ]
     },
     {
@@ -223,22 +225,24 @@
       ]
     },
     {
-      "id": 109,
-      "name": "i18n.srng.tree.attack-speed.upgrade.name|!|II",
-      "price": 200000,
+      "id": 110,
+      "name": "srng.tree.regeneration-food.upgrade.name",
+      "price": 300000,
       "pos": {
         "x": 0.0,
-        "y": -200.0
+        "y": -400.0
       },
-      "size": 48,
+      "size": 64,
       "module": "PLAYER",
       "parents": [
-        102
+        100
       ],
-      "description": "i18n.srng.tree.attack-speed.upgrade.description|!|II|!|30",
-      "rewards": [
-        "sudo %player% multiply-booster ATTACK_SPEED 1.3"
-      ]
+      "description": "srng.tree.regeneration-food.upgrade.description",
+      "icon": {
+        "type": "GOLDEN_APPLE",
+        "name": "srng.tree.regeneration-food.upgrade.name",
+        "lore": ""
+      }
     },
     {
       "id": 200,
