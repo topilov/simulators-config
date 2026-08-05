@@ -450,11 +450,12 @@
         {
           "id": "level-7-default",
           "onClaim": [
-            "tell %player% Claimed level 7 default reward"
+            "random-money %player% 99.8 99.9 1",
+            "local-booster %player% MONEY 1 1200"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/pot_of_gold.png"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-7.title"
