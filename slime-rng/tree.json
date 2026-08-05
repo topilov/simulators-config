@@ -436,7 +436,6 @@
         "x": 440.0,
         "y": 455.0
       },
-      "size": 64,
       "module": "REBIRTH_UPGRADES",
       "parents": [
         412
@@ -502,8 +501,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.name|!|I",
       "price": 250,
       "pos": {
-        "x": 0.0,
-        "y": 200.0
+        "x": 100.0,
+        "y": 100.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -519,10 +518,9 @@
       "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|II",
       "price": 250,
       "pos": {
-        "x": -165.0,
-        "y": 255.0
+        "x": -220.0,
+        "y": 245.0
       },
-      "size": 58,
       "module": "REBIRTH_UPGRADES",
       "parents": [
         402
@@ -537,10 +535,9 @@
       "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|II",
       "price": 250,
       "pos": {
-        "x": -85.0,
-        "y": 255.0
+        "x": -140.0,
+        "y": 245.0
       },
-      "size": 58,
       "module": "REBIRTH_UPGRADES",
       "parents": [
         403
@@ -556,9 +553,8 @@
       "price": 15000,
       "pos": {
         "x": 440.0,
-        "y": 590.0
+        "y": 625.0
       },
-      "size": 64,
       "module": "REBIRTH_UPGRADES",
       "parents": [
         413,
@@ -643,8 +639,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|VI",
       "price": 7500,
       "pos": {
-        "x": 405.0,
-        "y": 520.0
+        "x": 390.0,
+        "y": 535.0
       },
       "size": 56,
       "module": "REBIRTH_UPGRADES",
@@ -661,8 +657,8 @@
       "name": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.name|!|VII",
       "price": 7500,
       "pos": {
-        "x": 475.0,
-        "y": 520.0
+        "x": 490.0,
+        "y": 535.0
       },
       "size": 56,
       "module": "REBIRTH_UPGRADES",
@@ -672,6 +668,110 @@
       "description": "i18n.srng.tree.rebirth-upgrades.inventory-slots.upgrade.description|!|VII|!|25",
       "rewards": [
         "sudo %player% add-inventory-slots 25"
+      ]
+    },
+    {
+      "id": 415,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|III",
+      "price": 500,
+      "pos": {
+        "x": -275.0,
+        "y": 310.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        406
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|III|!|75",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 1.75"
+      ]
+    },
+    {
+      "id": 416,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|IV",
+      "price": 1000,
+      "pos": {
+        "x": -330.0,
+        "y": 375.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        415
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|IV|!|100",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 2.0"
+      ]
+    },
+    {
+      "id": 417,
+      "name": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.name|!|V",
+      "price": 2500,
+      "pos": {
+        "x": -385.0,
+        "y": 440.0
+      },
+      "size": 60,
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        416
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|V|!|150",
+      "rewards": [
+        "sudo %player% multiply-booster LUCK 2.5"
+      ]
+    },
+    {
+      "id": 418,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|III",
+      "price": 500,
+      "pos": {
+        "x": -195.0,
+        "y": 310.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        407
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|III|!|75",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 1.75"
+      ]
+    },
+    {
+      "id": 419,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|IV",
+      "price": 1000,
+      "pos": {
+        "x": -250.0,
+        "y": 375.0
+      },
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        418
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|IV|!|100",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 2.0"
+      ]
+    },
+    {
+      "id": 420,
+      "name": "i18n.srng.tree.rebirth-upgrades.money.upgrade.name|!|V",
+      "price": 2500,
+      "pos": {
+        "x": -305.0,
+        "y": 440.0
+      },
+      "size": 60,
+      "module": "REBIRTH_UPGRADES",
+      "parents": [
+        419
+      ],
+      "description": "i18n.srng.tree.rebirth-upgrades.money.upgrade.description|!|V|!|150",
+      "rewards": [
+        "sudo %player% multiply-booster MONEY 2.5"
       ]
     }
   ],
