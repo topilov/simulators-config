@@ -70,8 +70,8 @@
     },
     {
       "id": 100,
-      "name": "i18n.srng.tree.health.upgrade.name|!|I",
-      "price": 1000,
+      "name": "srng.tree.food.upgrade.name",
+      "price": 1000000,
       "pos": {
         "x": 0.0,
         "y": -100.0
@@ -80,79 +80,80 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|5",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.05",
-        "sudo %player% update-player-health"
-      ]
+      "description": "srng.tree.food.upgrade.description",
+      "icon": {
+        "type": "APPLE",
+        "name": "srng.food.item.name",
+        "lore": "srng.food.item.lore"
+      }
     },
     {
       "id": 101,
-      "name": "i18n.srng.tree.health.upgrade.name|!|II",
+      "name": "i18n.srng.tree.damage.upgrade.name|!|I",
       "price": 2500,
       "pos": {
-        "x": 110.0,
-        "y": -200.0
+        "x": -130.0,
+        "y": -210.0
       },
       "module": "PLAYER",
       "parents": [
         100
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|5",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|5",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.05",
-        "sudo %player% update-player-health"
+        "sudo %player% multiply-booster DAMAGE 1.05"
       ]
     },
     {
       "id": 102,
-      "name": "i18n.srng.tree.health.upgrade.name|!|III",
+      "name": "i18n.srng.tree.health-damage.upgrade.name|!|I",
       "price": 7500,
       "pos": {
-        "x": -110.0,
-        "y": -200.0
+        "x": 0.0,
+        "y": -210.0
       },
+      "size": 60,
       "module": "PLAYER",
       "parents": [
         100
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|III|!|10",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|I|!|10",
       "rewards": [
         "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster DAMAGE 1.1",
         "sudo %player% update-player-health"
       ]
     },
     {
       "id": 103,
-      "name": "i18n.srng.tree.health.upgrade.name|!|IV",
+      "name": "i18n.srng.tree.damage.upgrade.name|!|II",
       "price": 20000,
       "pos": {
-        "x": -110.0,
-        "y": -300.0
-      },
-      "module": "PLAYER",
-      "parents": [
-        102
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|IV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ]
-    },
-    {
-      "id": 104,
-      "name": "i18n.srng.tree.health.upgrade.name|!|V",
-      "price": 50000,
-      "pos": {
-        "x": 110.0,
-        "y": -300.0
+        "x": -130.0,
+        "y": -310.0
       },
       "module": "PLAYER",
       "parents": [
         101
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|V|!|15",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|10",
+      "rewards": [
+        "sudo %player% multiply-booster DAMAGE 1.1"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "i18n.srng.tree.health.upgrade.name|!|II",
+      "price": 50000,
+      "pos": {
+        "x": 130.0,
+        "y": -310.0
+      },
+      "module": "PLAYER",
+      "parents": [
+        106
+      ],
+      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|15",
       "rewards": [
         "sudo %player% multiply-booster HEALTH 1.15",
         "sudo %player% update-player-health"
@@ -160,21 +161,42 @@
     },
     {
       "id": 105,
-      "name": "i18n.srng.tree.health.upgrade.name|!|VI",
+      "name": "i18n.srng.tree.health-damage.upgrade.name|!|II",
       "price": 150000,
       "pos": {
         "x": 0.0,
-        "y": -400.0
+        "y": -410.0
       },
+      "size": 64,
       "module": "PLAYER",
       "parents": [
         103,
+        102,
         104
       ],
       "anyParentUpgrade": false,
-      "description": "i18n.srng.tree.health.upgrade.description|!|VI|!|20",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|II|!|20",
       "rewards": [
         "sudo %player% multiply-booster HEALTH 1.2",
+        "sudo %player% multiply-booster DAMAGE 1.2",
+        "sudo %player% update-player-health"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "i18n.srng.tree.health.upgrade.name|!|I",
+      "price": 6000,
+      "pos": {
+        "x": 130.0,
+        "y": -210.0
+      },
+      "module": "PLAYER",
+      "parents": [
+        100
+      ],
+      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|5",
+      "rewards": [
+        "sudo %player% multiply-booster HEALTH 1.05",
         "sudo %player% update-player-health"
       ]
     },
