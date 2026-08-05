@@ -130,7 +130,7 @@
   "rewardTiers": [
     {
       "level": 1,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-1-default",
@@ -170,7 +170,7 @@
     },
     {
       "level": 2,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-2-default",
@@ -205,7 +205,7 @@
     },
     {
       "level": 3,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-3-default",
@@ -240,7 +240,7 @@
     },
     {
       "level": 4,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-4-default-a",
@@ -275,7 +275,7 @@
     },
     {
       "level": 5,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-5-default",
@@ -288,6 +288,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-5.title"
+          }
+        },
+        {
+          "id": "level-5-default-2",
+          "onClaim": [
+            "tell %player% Claimed level 5 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-5.title-2"
+          }
+        },
+        {
+          "id": "level-5-default-3",
+          "onClaim": [
+            "tell %player% Claimed level 5 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-5.title-3"
+          }
+        },
+        {
+          "id": "level-5-default-4",
+          "onClaim": [
+            "tell %player% Claimed level 5 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-5.title-4"
           }
         }
       ],
@@ -305,12 +344,54 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-5.title"
           }
+        },
+        {
+          "id": "level-5-premium-2",
+          "onClaim": [
+            "tell %player% Claimed level 5 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-5.title-2"
+          }
+        },
+        {
+          "id": "level-5-premium-3",
+          "onClaim": [
+            "tell %player% Claimed level 5 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-5.title-3"
+          }
+        },
+        {
+          "id": "level-5-premium-4",
+          "onClaim": [
+            "tell %player% Claimed level 5 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-5.title-4"
+          }
         }
       ]
     },
     {
       "level": 6,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-6-default",
@@ -385,7 +466,7 @@
     },
     {
       "level": 8,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-8-default",
@@ -420,7 +501,7 @@
     },
     {
       "level": 9,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-9-default",
@@ -455,7 +536,7 @@
     },
     {
       "level": 10,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-10-default-a",
@@ -490,7 +571,7 @@
     },
     {
       "level": 11,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-11-default",
@@ -525,7 +606,7 @@
     },
     {
       "level": 12,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-12-default",
@@ -560,7 +641,7 @@
     },
     {
       "level": 13,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-13-default",
@@ -595,7 +676,7 @@
     },
     {
       "level": 14,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-14-default",
@@ -608,6 +689,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-14.title"
+          }
+        },
+        {
+          "id": "level-14-default-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-14.title-2"
+          }
+        },
+        {
+          "id": "level-14-default-3",
+          "onClaim": [
+            "local-booster %player% BLOCKS 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-14.title-3"
+          }
+        },
+        {
+          "id": "level-14-default-4",
+          "onClaim": [
+            "local-booster %player% BLOCKS 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-14.title-4"
           }
         }
       ],
@@ -625,12 +745,54 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-14.title"
           }
+        },
+        {
+          "id": "level-14-premium-2",
+          "onClaim": [
+            "local-booster %player% MONEY 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-14.title-2"
+          }
+        },
+        {
+          "id": "level-14-premium-3",
+          "onClaim": [
+            "local-booster %player% MONEY 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-14.title-3"
+          }
+        },
+        {
+          "id": "level-14-premium-4",
+          "onClaim": [
+            "local-booster %player% MONEY 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-14.title-4"
+          }
         }
       ]
     },
     {
       "level": 15,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-15-default-a",
@@ -665,7 +827,7 @@
     },
     {
       "level": 16,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-16-default",
@@ -735,7 +897,7 @@
     },
     {
       "level": 18,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-18-default",
@@ -770,7 +932,7 @@
     },
     {
       "level": 19,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-19-default",
@@ -805,7 +967,7 @@
     },
     {
       "level": 20,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-20-default-a",
@@ -840,7 +1002,7 @@
     },
     {
       "level": 21,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-21-default",
@@ -875,7 +1037,7 @@
     },
     {
       "level": 22,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-22-default",
@@ -910,7 +1072,7 @@
     },
     {
       "level": 23,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-23-default",
@@ -945,7 +1107,7 @@
     },
     {
       "level": 24,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-24-default-a",
@@ -980,7 +1142,7 @@
     },
     {
       "level": 25,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-25-default",
@@ -1015,7 +1177,7 @@
     },
     {
       "level": 26,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-26-default",
@@ -1028,6 +1190,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-26.title"
+          }
+        },
+        {
+          "id": "level-26-default-2",
+          "onClaim": [
+            "tell %player% Claimed level 26 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-26.title-2"
+          }
+        },
+        {
+          "id": "level-26-default-3",
+          "onClaim": [
+            "tell %player% Claimed level 26 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-26.title-3"
+          }
+        },
+        {
+          "id": "level-26-default-4",
+          "onClaim": [
+            "tell %player% Claimed level 26 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-26.title-4"
           }
         }
       ],
@@ -1044,6 +1245,48 @@
           "quality": "epic",
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-26.title"
+          }
+        },
+        {
+          "id": "level-26-premium-2",
+          "onClaim": [
+            "tell %player% Claimed level 26 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-26.title-2"
+          }
+        },
+        {
+          "id": "level-26-premium-3",
+          "onClaim": [
+            "tell %player% Claimed level 26 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-26.title-3"
+          }
+        },
+        {
+          "id": "level-26-premium-4",
+          "onClaim": [
+            "tell %player% Claimed level 26 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-26.title-4"
           }
         }
       ]
@@ -1085,7 +1328,7 @@
     },
     {
       "level": 28,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-28-default",
@@ -1120,7 +1363,7 @@
     },
     {
       "level": 29,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-29-default",
@@ -1155,7 +1398,7 @@
     },
     {
       "level": 30,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-30-default-a",
@@ -1190,7 +1433,7 @@
     },
     {
       "level": 31,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-31-default",
@@ -1225,7 +1468,7 @@
     },
     {
       "level": 32,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-32-default",
@@ -1260,7 +1503,7 @@
     },
     {
       "level": 33,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-33-default",
@@ -1295,7 +1538,7 @@
     },
     {
       "level": 34,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-34-default",
@@ -1330,7 +1573,7 @@
     },
     {
       "level": 35,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-35-default-a",
@@ -1343,6 +1586,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-35.title"
+          }
+        },
+        {
+          "id": "level-35-default-a-2",
+          "onClaim": [
+            "local-booster %player% TREASURES 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-35.title-2"
+          }
+        },
+        {
+          "id": "level-35-default-a-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-35.title-3"
+          }
+        },
+        {
+          "id": "level-35-default-a-4",
+          "onClaim": [
+            "local-booster %player% TREASURES 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-35.title-4"
           }
         }
       ],
@@ -1360,12 +1642,54 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-35.title"
           }
+        },
+        {
+          "id": "level-35-premium-a-2",
+          "onClaim": [
+            "tell %player% Claimed level 35 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-35.title-2"
+          }
+        },
+        {
+          "id": "level-35-premium-a-3",
+          "onClaim": [
+            "tell %player% Claimed level 35 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-35.title-3"
+          }
+        },
+        {
+          "id": "level-35-premium-a-4",
+          "onClaim": [
+            "tell %player% Claimed level 35 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-35.title-4"
+          }
         }
       ]
     },
     {
       "level": 36,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-36-default",
@@ -1435,7 +1759,7 @@
     },
     {
       "level": 38,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-38-default",
@@ -1470,7 +1794,7 @@
     },
     {
       "level": 39,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-39-default",
@@ -1505,7 +1829,7 @@
     },
     {
       "level": 40,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-40-default-a",
@@ -1540,7 +1864,7 @@
     },
     {
       "level": 41,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-41-default",
@@ -1575,7 +1899,7 @@
     },
     {
       "level": 42,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-42-default",
@@ -1610,7 +1934,7 @@
     },
     {
       "level": 43,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-43-default",
@@ -1645,7 +1969,7 @@
     },
     {
       "level": 44,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-44-default-a",
@@ -1658,6 +1982,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-44.title"
+          }
+        },
+        {
+          "id": "level-44-default-a-2",
+          "onClaim": [
+            "local-booster %player% TREASURES 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-44.title-2"
+          }
+        },
+        {
+          "id": "level-44-default-a-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-44.title-3"
+          }
+        },
+        {
+          "id": "level-44-default-a-4",
+          "onClaim": [
+            "local-booster %player% TREASURES 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-44.title-4"
           }
         }
       ],
@@ -1675,12 +2038,54 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-44.title"
           }
+        },
+        {
+          "id": "level-44-premium-a-2",
+          "onClaim": [
+            "tell %player% Claimed level 44 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-44.title-2"
+          }
+        },
+        {
+          "id": "level-44-premium-a-3",
+          "onClaim": [
+            "tell %player% Claimed level 44 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-44.title-3"
+          }
+        },
+        {
+          "id": "level-44-premium-a-4",
+          "onClaim": [
+            "tell %player% Claimed level 44 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-44.title-4"
+          }
         }
       ]
     },
     {
       "level": 45,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-45-default",
@@ -1715,7 +2120,7 @@
     },
     {
       "level": 46,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-46-default",
@@ -1785,7 +2190,7 @@
     },
     {
       "level": 48,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-48-default",
@@ -1820,7 +2225,7 @@
     },
     {
       "level": 49,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-49-default",
@@ -1855,7 +2260,7 @@
     },
     {
       "level": 50,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-50-default-a",
@@ -1890,7 +2295,7 @@
     },
     {
       "level": 51,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-51-default",
@@ -1925,7 +2330,7 @@
     },
     {
       "level": 52,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-52-default",
@@ -1960,7 +2365,7 @@
     },
     {
       "level": 53,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-53-default",
@@ -1995,7 +2400,7 @@
     },
     {
       "level": 54,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-54-default",
@@ -2030,7 +2435,7 @@
     },
     {
       "level": 55,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-55-default-a",
@@ -2065,7 +2470,7 @@
     },
     {
       "level": 56,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-56-default",
@@ -2078,6 +2483,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-56.title"
+          }
+        },
+        {
+          "id": "level-56-default-2",
+          "onClaim": [
+            "tell %player% Claimed level 56 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-56.title-2"
+          }
+        },
+        {
+          "id": "level-56-default-3",
+          "onClaim": [
+            "tell %player% Claimed level 56 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-56.title-3"
+          }
+        },
+        {
+          "id": "level-56-default-4",
+          "onClaim": [
+            "tell %player% Claimed level 56 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-56.title-4"
           }
         }
       ],
@@ -2094,6 +2538,48 @@
           "quality": "epic",
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-56.title"
+          }
+        },
+        {
+          "id": "level-56-premium-2",
+          "onClaim": [
+            "tell %player% Claimed level 56 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-56.title-2"
+          }
+        },
+        {
+          "id": "level-56-premium-3",
+          "onClaim": [
+            "tell %player% Claimed level 56 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-56.title-3"
+          }
+        },
+        {
+          "id": "level-56-premium-4",
+          "onClaim": [
+            "tell %player% Claimed level 56 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-56.title-4"
           }
         }
       ]
@@ -2135,7 +2621,7 @@
     },
     {
       "level": 58,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-58-default",
@@ -2170,7 +2656,7 @@
     },
     {
       "level": 59,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-59-default",
@@ -2205,7 +2691,7 @@
     },
     {
       "level": 60,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-60-default-a",
@@ -2241,7 +2727,7 @@
     },
     {
       "level": 61,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-61-default",
@@ -2276,7 +2762,7 @@
     },
     {
       "level": 62,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-62-default",
@@ -2311,7 +2797,7 @@
     },
     {
       "level": 63,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-63-default",
@@ -2346,7 +2832,7 @@
     },
     {
       "level": 64,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-64-default-a",
@@ -2381,7 +2867,7 @@
     },
     {
       "level": 65,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-65-default",
@@ -2394,6 +2880,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-65.title"
+          }
+        },
+        {
+          "id": "level-65-default-2",
+          "onClaim": [
+            "tell %player% Claimed level 65 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-65.title-2"
+          }
+        },
+        {
+          "id": "level-65-default-3",
+          "onClaim": [
+            "tell %player% Claimed level 65 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-65.title-3"
+          }
+        },
+        {
+          "id": "level-65-default-4",
+          "onClaim": [
+            "tell %player% Claimed level 65 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-65.title-4"
           }
         }
       ],
@@ -2411,12 +2936,54 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-65.title"
           }
+        },
+        {
+          "id": "level-65-premium-2",
+          "onClaim": [
+            "tell %player% Claimed level 65 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-65.title-2"
+          }
+        },
+        {
+          "id": "level-65-premium-3",
+          "onClaim": [
+            "tell %player% Claimed level 65 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-65.title-3"
+          }
+        },
+        {
+          "id": "level-65-premium-4",
+          "onClaim": [
+            "tell %player% Claimed level 65 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-65.title-4"
+          }
         }
       ]
     },
     {
       "level": 66,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-66-default",
@@ -2486,7 +3053,7 @@
     },
     {
       "level": 68,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-68-default",
@@ -2521,7 +3088,7 @@
     },
     {
       "level": 69,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-69-default",
@@ -2556,7 +3123,7 @@
     },
     {
       "level": 70,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-70-default-a",
@@ -2592,7 +3159,7 @@
     },
     {
       "level": 71,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-71-default",
@@ -2627,7 +3194,7 @@
     },
     {
       "level": 72,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-72-default",
@@ -2662,7 +3229,7 @@
     },
     {
       "level": 73,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-73-default",
@@ -2697,7 +3264,7 @@
     },
     {
       "level": 74,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-74-default",
@@ -2710,6 +3277,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-74.title"
+          }
+        },
+        {
+          "id": "level-74-default-2",
+          "onClaim": [
+            "tell %player% Claimed level 74 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-74.title-2"
+          }
+        },
+        {
+          "id": "level-74-default-3",
+          "onClaim": [
+            "tell %player% Claimed level 74 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-74.title-3"
+          }
+        },
+        {
+          "id": "level-74-default-4",
+          "onClaim": [
+            "tell %player% Claimed level 74 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-74.title-4"
           }
         }
       ],
@@ -2727,12 +3333,54 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-74.title"
           }
+        },
+        {
+          "id": "level-74-premium-2",
+          "onClaim": [
+            "tell %player% Claimed level 74 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-74.title-2"
+          }
+        },
+        {
+          "id": "level-74-premium-3",
+          "onClaim": [
+            "tell %player% Claimed level 74 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-74.title-3"
+          }
+        },
+        {
+          "id": "level-74-premium-4",
+          "onClaim": [
+            "tell %player% Claimed level 74 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-74.title-4"
+          }
         }
       ]
     },
     {
       "level": 75,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-75-default-a",
@@ -2767,7 +3415,7 @@
     },
     {
       "level": 76,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-76-default",
@@ -2837,7 +3485,7 @@
     },
     {
       "level": 78,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-78-default",
@@ -2872,7 +3520,7 @@
     },
     {
       "level": 79,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-79-default",
@@ -2907,7 +3555,7 @@
     },
     {
       "level": 80,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-80-default-a",
@@ -2943,7 +3591,7 @@
     },
     {
       "level": 81,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-81-default",
@@ -2978,7 +3626,7 @@
     },
     {
       "level": 82,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-82-default",
@@ -3013,7 +3661,7 @@
     },
     {
       "level": 83,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-83-default",
@@ -3048,7 +3696,7 @@
     },
     {
       "level": 84,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-84-default-a",
@@ -3083,7 +3731,7 @@
     },
     {
       "level": 85,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-85-default",
@@ -3118,7 +3766,7 @@
     },
     {
       "level": 86,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-86-default",
@@ -3131,6 +3779,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-86.title"
+          }
+        },
+        {
+          "id": "level-86-default-2",
+          "onClaim": [
+            "tell %player% Claimed level 86 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-86.title-2"
+          }
+        },
+        {
+          "id": "level-86-default-3",
+          "onClaim": [
+            "tell %player% Claimed level 86 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-86.title-3"
+          }
+        },
+        {
+          "id": "level-86-default-4",
+          "onClaim": [
+            "tell %player% Claimed level 86 default reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-86.title-4"
           }
         }
       ],
@@ -3147,6 +3834,48 @@
           "quality": "epic",
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-86.title"
+          }
+        },
+        {
+          "id": "level-86-premium-2",
+          "onClaim": [
+            "tell %player% Claimed level 86 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-86.title-2"
+          }
+        },
+        {
+          "id": "level-86-premium-3",
+          "onClaim": [
+            "tell %player% Claimed level 86 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-86.title-3"
+          }
+        },
+        {
+          "id": "level-86-premium-4",
+          "onClaim": [
+            "tell %player% Claimed level 86 premium reward"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-86.title-4"
           }
         }
       ]
@@ -3188,7 +3917,7 @@
     },
     {
       "level": 88,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-88-default",
@@ -3223,7 +3952,7 @@
     },
     {
       "level": 89,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-89-default",
@@ -3258,7 +3987,7 @@
     },
     {
       "level": 90,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-90-default-a",
@@ -3294,7 +4023,7 @@
     },
     {
       "level": 91,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-91-default",
@@ -3329,7 +4058,7 @@
     },
     {
       "level": 92,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-92-default",
@@ -3364,7 +4093,7 @@
     },
     {
       "level": 93,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-93-default",
@@ -3399,7 +4128,7 @@
     },
     {
       "level": 94,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-94-default",
@@ -3434,7 +4163,7 @@
     },
     {
       "level": 95,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-95-default-a",
@@ -3447,6 +4176,45 @@
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-95.title"
+          }
+        },
+        {
+          "id": "level-95-default-a-2",
+          "onClaim": [
+            "local-booster %player% MONEY 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-95.title-2"
+          }
+        },
+        {
+          "id": "level-95-default-a-3",
+          "onClaim": [
+            "local-booster %player% MONEY 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-95.title-3"
+          }
+        },
+        {
+          "id": "level-95-default-a-4",
+          "onClaim": [
+            "local-booster %player% MONEY 1 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.default.level-95.title-4"
           }
         }
       ],
@@ -3464,12 +4232,54 @@
           "tooltip": {
             "title": "treasures.battlepass.rewards.premium.level-95.title"
           }
+        },
+        {
+          "id": "level-95-premium-a-2",
+          "onClaim": [
+            "tell %player% Claimed level 95 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-95.title-2"
+          }
+        },
+        {
+          "id": "level-95-premium-a-3",
+          "onClaim": [
+            "tell %player% Claimed level 95 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-95.title-3"
+          }
+        },
+        {
+          "id": "level-95-premium-a-4",
+          "onClaim": [
+            "tell %player% Claimed level 95 premium reward A"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "treasures.battlepass.rewards.premium.level-95.title-4"
+          }
         }
       ]
     },
     {
       "level": 96,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-96-default",
@@ -3539,7 +4349,7 @@
     },
     {
       "level": 98,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-98-default",
@@ -3609,7 +4419,7 @@
     },
     {
       "level": 100,
-      "type": "DIRECT",
+      "type": "PICKED",
       "defaultRewards": [
         {
           "id": "level-100-default",
