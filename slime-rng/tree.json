@@ -135,6 +135,14 @@
     {
       "id": 102,
       "name": "srng.tree.health-damage.upgrade.name",
+      "icon": {
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "hp-damage"
+        },
+        "name": "srng.tree.module.player.name",
+        "lore": ""
+      },
       "price": 25000,
       "pos": {
         "x": -300.0,
@@ -212,6 +220,14 @@
     {
       "id": 105,
       "name": "srng.tree.health-damage.upgrade.name",
+      "icon": {
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "hp-damage"
+        },
+        "name": "srng.tree.module.player.name",
+        "lore": ""
+      },
       "price": 750000,
       "pos": {
         "x": -300.0,
@@ -604,7 +620,7 @@
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        405
+        403
       ],
       "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|I|!|50",
       "rewards": [
@@ -683,13 +699,15 @@
       },
       "price": 250,
       "pos": {
-        "x": -100.0,
+        "x": -190.0,
         "y": 350.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        403
+        403,
+        402
       ],
+      "anyParentUpgrade": false,
       "description": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.description|!|I|!|20",
       "rewards": [
         "sudo %player% multiply-booster RUN_SPEED 1.2"
@@ -1245,7 +1263,7 @@
       },
       "price": 500,
       "pos": {
-        "x": -190.0,
+        "x": -280.0,
         "y": 350.0
       },
       "module": "REBIRTH_UPGRADES",
@@ -1273,7 +1291,7 @@
       },
       "price": 1000,
       "pos": {
-        "x": -280.0,
+        "x": -370.0,
         "y": 350.0
       },
       "module": "REBIRTH_UPGRADES",
@@ -1301,7 +1319,7 @@
       },
       "price": 2500,
       "pos": {
-        "x": -370.0,
+        "x": -460.0,
         "y": 350.0
       },
       "size": 60,
