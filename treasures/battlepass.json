@@ -3433,8 +3433,13 @@
             "morestat %player% add 40 minigamePoints"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                 "other": "bag1"
+              }
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-69.title"
