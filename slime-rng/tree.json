@@ -604,7 +604,7 @@
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        405
+        400
       ],
       "description": "i18n.srng.tree.rebirth-upgrades.luck.upgrade.description|!|I|!|50",
       "rewards": [
@@ -683,13 +683,15 @@
       },
       "price": 250,
       "pos": {
-        "x": -100.0,
+        "x": -190.0,
         "y": 350.0
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
-        403
+        403,
+        402
       ],
+      "anyParentUpgrade": false,
       "description": "i18n.srng.tree.rebirth-upgrades.run-speed.upgrade.description|!|I|!|20",
       "rewards": [
         "sudo %player% multiply-booster RUN_SPEED 1.2"
@@ -1245,7 +1247,7 @@
       },
       "price": 500,
       "pos": {
-        "x": -190.0,
+        "x": -280.0,
         "y": 350.0
       },
       "module": "REBIRTH_UPGRADES",
@@ -1273,7 +1275,7 @@
       },
       "price": 1000,
       "pos": {
-        "x": -280.0,
+        "x": -370.0,
         "y": 350.0
       },
       "module": "REBIRTH_UPGRADES",
@@ -1301,7 +1303,7 @@
       },
       "price": 2500,
       "pos": {
-        "x": -370.0,
+        "x": -460.0,
         "y": 350.0
       },
       "size": 60,
