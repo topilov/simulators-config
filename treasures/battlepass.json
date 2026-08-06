@@ -941,7 +941,8 @@
         {
           "id": "level-17-default",
           "onClaim": [
-            "tell %player% Claimed level 17 default reward"
+            "local-booster %player% TREASURES 1 1200",
+            "give-key %player% DEFAULT 30"
           ],
           "icon": {
             "type": "textured",
@@ -1399,7 +1400,8 @@
         {
           "id": "level-27-default",
           "onClaim": [
-            "tell %player% Claimed level 27 default reward"
+            "local-booster %player% BLOCKS 1 1200",
+            "give-tnt %player% 30"
           ],
           "icon": {
             "type": "textured",
@@ -1857,7 +1859,9 @@
         {
           "id": "level-37-default",
           "onClaim": [
-            "tell %player% Claimed level 37 default reward"
+            "give-key %player% TITLE 1",
+            "give-key %player% RUNE 2",
+            "give-key %player% PET 6"
           ],
           "icon": {
             "type": "textured",
@@ -2342,7 +2346,9 @@
         {
           "id": "level-47-default",
           "onClaim": [
-            "tell %player% Claimed level 47 default reward"
+            "morestat %player% add 5000 shards",
+            "give-incident-points %player% 50",
+            "morestat %player% add 40 minigamePoints"
           ],
           "icon": {
             "type": "textured",
@@ -2800,7 +2806,8 @@
         {
           "id": "level-57-default",
           "onClaim": [
-            "tell %player% Claimed level 57 default reward"
+            "give-key %player% PET 10",
+            "earn-bits %player% 500"
           ],
           "icon": {
             "type": "textured",
@@ -3259,7 +3266,9 @@
         {
           "id": "level-67-default",
           "onClaim": [
-            "tell %player% Claimed level 67 default reward"
+            "morestat %player% add 5000 shards",
+            "give-save-crystals %player% 3",
+            "give-key %player% RUNE 5"
           ],
           "icon": {
             "type": "textured",
@@ -3745,7 +3754,8 @@
         {
           "id": "level-77-default",
           "onClaim": [
-            "tell %player% Claimed level 77 default reward"
+            "local-booster %player% MONEY 1 2400",
+            "random-money %player% 299.8 299.9 1"
           ],
           "icon": {
             "type": "textured",
@@ -4204,7 +4214,8 @@
         {
           "id": "level-87-default",
           "onClaim": [
-            "tell %player% Claimed level 87 default reward"
+            "local-booster %player% EXP 1 2400",
+            "earn-bits %player% 1000"
           ],
           "icon": {
             "type": "textured",
@@ -4663,7 +4674,8 @@
         {
           "id": "level-97-default",
           "onClaim": [
-            "tell %player% Claimed level 97 default reward"
+            "local-booster %player% MONEY 1 3600",
+            "random-money %player% 499.8 499.9 1"
           ],
           "icon": {
             "type": "textured",
@@ -4733,7 +4745,15 @@
         {
           "id": "level-99-default",
           "onClaim": [
-            "tell %player% Claimed level 99 default reward"
+            "local-booster %player% MONEY 1 3600",
+            "local-booster %player% BLOCKS 1 3600",
+            "local-booster %player% TREASURES 1 3600",
+            "local-booster %player% EXP 1 3600",
+            "morestat %player% add 7500 shards",
+            "give-key %player% TITLE 1",
+            "give-key %player% PET 5",
+            "give-key %player% RUNE 2",
+            "give-key %player% DEFAULT 10"
           ],
           "icon": {
             "type": "textured",
