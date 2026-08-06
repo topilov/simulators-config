@@ -111,7 +111,7 @@
     "claimAllEnabled": true,
     "levelShareEnabled": true,
     "levelShareCooldownMillis": 5000,
-    "resetEnabled": true,
+    "resetEnabled": false,
     "resetUnlockLevel": 100,
     "premiumQuestExperienceBonusPercent": 20,
     "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
@@ -403,7 +403,7 @@
             "item": {
               "type": "CLAY_BALL",
               "data": {
-                "skyblock": "enchant_book"
+                "other": "new_lvl_rare_close"
               }
             }
           },
@@ -2118,8 +2118,10 @@
             "give-tnt %player% 20"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-43.title"
@@ -3059,8 +3061,10 @@
             "give-tnt %player% 30"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-62.title"
@@ -3429,8 +3433,13 @@
             "morestat %player% add 40 minigamePoints"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                 "other": "bag1"
+              }
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-69.title"
@@ -4070,8 +4079,10 @@
             "give-tnt %player% 50"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-83.title"
@@ -4945,7 +4956,7 @@
   "questCategories": [
     {
       "id": "daily",
-      "refreshPolicy": 60000,
+      "refreshPolicy": 86400000,
       "defaultQuestMapping": {
         "I": 4,
         "II": 2,
