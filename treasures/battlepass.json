@@ -961,7 +961,8 @@
         {
           "id": "level-17-premium",
           "onClaim": [
-            "tell %player% Claimed level 17 premium reward"
+            "local-booster %player% MONEY 1 1200",
+            "random-money %player% 149.8 149.9 1"
           ],
           "icon": {
             "type": "item",
@@ -1484,7 +1485,8 @@
         {
           "id": "level-27-premium",
           "onClaim": [
-            "tell %player% Claimed level 27 premium reward"
+            "morestat %player% add 900 shards",
+            "morestat %player% add 20 minigamePoints"
           ],
           "icon": {
             "type": "item",
@@ -1931,7 +1933,8 @@
         {
           "id": "level-37-premium",
           "onClaim": [
-            "tell %player% Claimed level 37 premium reward"
+            "local-booster %player% EXP 1 1800",
+            "give-tnt %player% 30"
           ],
           "icon": {
             "type": "item",
@@ -2435,7 +2438,9 @@
         {
           "id": "level-47-premium",
           "onClaim": [
-            "tell %player% Claimed level 47 premium reward"
+            "local-booster %player% BLOCKS 1 1800",
+            "give-key %player% DEFAULT 18",
+            "earn-bits %player% 200"
           ],
           "icon": {
             "type": "item",
@@ -2933,7 +2938,8 @@
         {
           "id": "level-57-premium",
           "onClaim": [
-            "tell %player% Claimed level 57 premium reward"
+            "random-money %player% 199.8 199.9 1",
+            "morestat %player% add 1800 shards"
           ],
           "icon": {
             "type": "item",
@@ -3424,7 +3430,8 @@
         {
           "id": "level-67-premium",
           "onClaim": [
-            "tell %player% Claimed level 67 premium reward"
+            "local-booster %player% EXP 1 2400",
+            "give-incident-points %player% 10"
           ],
           "icon": {
             "type": "item",
@@ -3935,7 +3942,8 @@
         {
           "id": "level-77-premium",
           "onClaim": [
-            "tell %player% Claimed level 77 premium reward"
+            "give-save-crystals %player% 5",
+            "earn-bits %player% 300"
           ],
           "icon": {
             "type": "item",
@@ -4411,7 +4419,8 @@
         {
           "id": "level-87-premium",
           "onClaim": [
-            "tell %player% Claimed level 87 premium reward"
+            "local-booster %player% MONEY 1 3000",
+            "random-money %player% 349.8 349.9 1"
           ],
           "icon": {
             "type": "item",
@@ -4946,7 +4955,8 @@
         {
           "id": "level-97-premium",
           "onClaim": [
-            "tell %player% Claimed level 97 premium reward"
+            "morestat %player% add 5000 shards",
+            "earn-bits %player% 500"
           ],
           "icon": {
             "type": "item",
@@ -5061,7 +5071,14 @@
         {
           "id": "level-99-premium",
           "onClaim": [
-            "tell %player% Claimed level 99 premium reward"
+            "local-booster %player% MONEY 1 3600",
+            "local-booster %player% BLOCKS 1 3600",
+            "local-booster %player% TREASURES 1 3600",
+            "local-booster %player% EXP 1 3600",
+            "give-key %player% TITLE 1",
+            "give-key %player% PET 21",
+            "give-key %player% RUNE 7",
+            "give-key %player% DEFAULT 42"
           ],
           "icon": {
             "type": "item",
