@@ -111,7 +111,7 @@
     "claimAllEnabled": true,
     "levelShareEnabled": true,
     "levelShareCooldownMillis": 5000,
-    "resetEnabled": true,
+    "resetEnabled": false,
     "resetUnlockLevel": 100,
     "premiumQuestExperienceBonusPercent": 20,
     "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
@@ -4956,7 +4956,7 @@
   "questCategories": [
     {
       "id": "daily",
-      "refreshPolicy": 60000,
+      "refreshPolicy": 86400000,
       "defaultQuestMapping": {
         "I": 4,
         "II": 2,
