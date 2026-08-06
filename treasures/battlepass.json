@@ -225,11 +225,11 @@
         {
           "id": "level-3-premium",
           "onClaim": [
-            "give-key %player% RUNE 3"
+            "local-booster %player% EXP 1 600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/rune_key.png"
+            "texture": "cache/simulator/exp_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -239,11 +239,11 @@
         {
           "id": "level-3-premium-2",
           "onClaim": [
-            "give-key %player% RUNE 3"
+            "local-booster %player% TREASURES 1 600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/rune_key.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -253,11 +253,11 @@
         {
           "id": "level-3-premium-3",
           "onClaim": [
-            "give-key %player% RUNE 3"
+            "local-booster %player% BLOCKS 1 600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/rune_key.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -992,11 +992,11 @@
         {
           "id": "level-18-premium",
           "onClaim": [
-            "tell %player% Claimed level 18 premium reward"
+            "local-booster %player% MONEY 1 1200"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1006,11 +1006,11 @@
         {
           "id": "level-18-premium-2",
           "onClaim": [
-            "tell %player% Claimed level 18 premium reward"
+            "local-booster %player% EXP 1 1200"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/exp_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1020,11 +1020,11 @@
         {
           "id": "level-18-premium-3",
           "onClaim": [
-            "tell %player% Claimed level 18 premium reward"
+            "local-booster %player% TREASURES 1 1200"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1330,11 +1330,11 @@
         {
           "id": "level-25-premium",
           "onClaim": [
-            "tell %player% Claimed level 25 premium reward"
+            "give-key %player% PET 6"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1344,11 +1344,11 @@
         {
           "id": "level-25-premium-2",
           "onClaim": [
-            "tell %player% Claimed level 25 premium reward"
+            "give-key %player% RUNE 2"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1358,7 +1358,7 @@
         {
           "id": "level-25-premium-3",
           "onClaim": [
-            "tell %player% Claimed level 25 premium reward"
+            "give-key %player% DEFAULT 12"
           ],
           "icon": {
             "type": "textured",
@@ -1955,11 +1955,11 @@
         {
           "id": "level-38-premium",
           "onClaim": [
-            "tell %player% Claimed level 38 premium reward"
+            "give-key %player% TITLE 1"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/purple_cristal_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1969,11 +1969,11 @@
         {
           "id": "level-38-premium-2",
           "onClaim": [
-            "tell %player% Claimed level 38 premium reward"
+            "give-key %player% PET 6"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1983,11 +1983,11 @@
         {
           "id": "level-38-premium-3",
           "onClaim": [
-            "tell %player% Claimed level 38 premium reward"
+            "give-key %player% RUNE 2"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2344,11 +2344,11 @@
         {
           "id": "level-46-premium",
           "onClaim": [
-            "tell %player% Claimed level 46 premium reward"
+            "give-key %player% PET 9"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2358,11 +2358,11 @@
         {
           "id": "level-46-premium-2",
           "onClaim": [
-            "tell %player% Claimed level 46 premium reward"
+            "give-key %player% RUNE 3"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2372,7 +2372,7 @@
         {
           "id": "level-46-premium-3",
           "onClaim": [
-            "tell %player% Claimed level 46 premium reward"
+            "give-key %player% DEFAULT 18"
           ],
           "icon": {
             "type": "textured",
@@ -2982,11 +2982,11 @@
         {
           "id": "level-59-premium",
           "onClaim": [
-            "tell %player% Claimed level 59 premium reward"
+            "local-booster %player% MONEY 1 2400"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2996,11 +2996,11 @@
         {
           "id": "level-59-premium-2",
           "onClaim": [
-            "tell %player% Claimed level 59 premium reward"
+            "local-booster %player% TREASURES 1 2400"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3010,11 +3010,11 @@
         {
           "id": "level-59-premium-3",
           "onClaim": [
-            "tell %player% Claimed level 59 premium reward"
+            "local-booster %player% BLOCKS 1 2400"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3527,11 +3527,11 @@
         {
           "id": "level-70-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 70 premium reward A"
+            "local-booster %player% MONEY 1 2400"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3541,11 +3541,11 @@
         {
           "id": "level-70-premium-a-2",
           "onClaim": [
-            "tell %player% Claimed level 70 premium reward A"
+            "local-booster %player% EXP 1 2400"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/exp_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3555,11 +3555,11 @@
         {
           "id": "level-70-premium-a-3",
           "onClaim": [
-            "tell %player% Claimed level 70 premium reward A"
+            "local-booster %player% BLOCKS 1 2400"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4940,11 +4940,11 @@
         {
           "id": "level-98-premium",
           "onClaim": [
-            "tell %player% Claimed level 98 premium reward"
+            "give-key %player% TITLE 1"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/purple_cristal_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4954,11 +4954,11 @@
         {
           "id": "level-98-premium-2",
           "onClaim": [
-            "tell %player% Claimed level 98 premium reward"
+            "give-key %player% PET 21"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4968,11 +4968,11 @@
         {
           "id": "level-98-premium-3",
           "onClaim": [
-            "tell %player% Claimed level 98 premium reward"
+            "give-key %player% RUNE 7"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "quality": "epic",
           "tooltip": {
