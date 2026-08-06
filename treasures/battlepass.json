@@ -457,7 +457,8 @@
         {
           "id": "level-7-premium",
           "onClaim": [
-            "tell %player% Claimed level 7 premium reward"
+            "give-key %player% RUNE 1",
+            "give-save-crystals %player% 1"
           ],
           "icon": {
             "type": "item",
