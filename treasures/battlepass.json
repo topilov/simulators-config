@@ -494,8 +494,10 @@
             "give-tnt %player% 5"
           ],
           "icon": {
-            "type": "TNT",
-            "texture": "cache/simulator/tnt.png"
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-8.title"
