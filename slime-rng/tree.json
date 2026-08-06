@@ -63,7 +63,7 @@
       "icon": {
         "type": "CLAY_BALL",
         "data": {
-          "rng": "hoarder_spell_two"
+          "rng": "center"
         },
         "name": "srng.bind.description.tree",
         "lore": ""
@@ -79,6 +79,9 @@
     {
       "id": 100,
       "name": "srng.tree.food.upgrade.name",
+      "color": {
+        "hex": "#68479B"
+      },
       "price": 200000,
       "pos": {
         "x": -300.0,
@@ -93,7 +96,10 @@
       "anyParentUpgrade": false,
       "description": "srng.tree.food.upgrade.description",
       "icon": {
-        "type": "APPLE",
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "fruit"
+        },
         "name": "srng.food.item.name",
         "lore": "srng.food.item.lore"
       }
@@ -101,6 +107,17 @@
     {
       "id": 101,
       "name": "i18n.srng.tree.damage.upgrade.name|!|I",
+      "color": {
+        "hex": "#A8643A"
+      },
+      "icon": {
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "damage"
+        },
+        "name": "i18n.srng.tree.damage.upgrade.name|!|I",
+        "lore": ""
+      },
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -144,6 +161,17 @@
     {
       "id": 103,
       "name": "i18n.srng.tree.damage.upgrade.name|!|III",
+      "color": {
+        "hex": "#A8643A"
+      },
+      "icon": {
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "damage"
+        },
+        "name": "i18n.srng.tree.damage.upgrade.name|!|III",
+        "lore": ""
+      },
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -169,6 +197,17 @@
     {
       "id": 104,
       "name": "i18n.srng.tree.health.upgrade.name|!|III",
+      "color": {
+        "hex": "#4F887F"
+      },
+      "icon": {
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "health"
+        },
+        "name": "i18n.srng.tree.health.upgrade.name|!|III",
+        "lore": ""
+      },
       "price": 600000,
       "pos": {
         "x": -170.0,
@@ -208,6 +247,17 @@
     {
       "id": 106,
       "name": "i18n.srng.tree.health.upgrade.name|!|I",
+      "color": {
+        "hex": "#4F887F"
+      },
+      "icon": {
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "health"
+        },
+        "name": "i18n.srng.tree.health.upgrade.name|!|I",
+        "lore": ""
+      },
       "price": 60000,
       "pos": {
         "x": -170.0,
@@ -226,6 +276,17 @@
     {
       "id": 107,
       "name": "i18n.srng.tree.damage.upgrade.name|!|II",
+      "color": {
+        "hex": "#A8643A"
+      },
+      "icon": {
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "damage"
+        },
+        "name": "i18n.srng.tree.damage.upgrade.name|!|II",
+        "lore": ""
+      },
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -251,6 +312,17 @@
     {
       "id": 108,
       "name": "i18n.srng.tree.health.upgrade.name|!|II",
+      "color": {
+        "hex": "#4F887F"
+      },
+      "icon": {
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "health"
+        },
+        "name": "i18n.srng.tree.health.upgrade.name|!|II",
+        "lore": ""
+      },
       "price": 200000,
       "pos": {
         "x": -170.0,
@@ -291,13 +363,13 @@
       "name": "srng.tree.auto-roll.upgrade.name",
       "price": 100,
       "pos": {
-        "x": 300.0,
-        "y": -100.0
+        "x": 350.0,
+        "y": -280.0
       },
       "size": 64,
       "module": "ROLL",
       "parents": [
-        1
+        200
       ],
       "description": "srng.tree.auto-roll.upgrade.description",
       "rewards": [
@@ -309,16 +381,16 @@
       "name": "i18n.srng.tree.roll.upgrade.name|!|I",
       "price": 250,
       "pos": {
-        "x": 300.0,
-        "y": -200.0
+        "x": 350.0,
+        "y": -100.0
       },
       "module": "ROLL",
       "parents": [
-        201
+        1
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|I|!|10",
+      "description": "srng.tree.roll.upgrade.description",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.1"
+        "sudo %player% multiply-booster ROLL_SPEED 1.05"
       ]
     },
     {
@@ -326,68 +398,155 @@
       "name": "i18n.srng.tree.roll.upgrade.name|!|II",
       "price": 3000,
       "pos": {
-        "x": 400.0,
-        "y": -280.0
+        "x": 250.0,
+        "y": -220.0
       },
       "module": "ROLL",
       "parents": [
         200
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|II|!|20",
+      "description": "srng.tree.roll.upgrade.description",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.090909"
+        "sudo %player% multiply-booster ROLL_SPEED 1.047619"
       ]
     },
     {
       "id": 203,
       "name": "i18n.srng.tree.roll.upgrade.name|!|III",
-      "price": 20000,
+      "price": 15000,
       "pos": {
-        "x": 300.0,
-        "y": -360.0
+        "x": 200.0,
+        "y": -320.0
       },
       "module": "ROLL",
       "parents": [
         202
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|III|!|30",
+      "description": "srng.tree.roll.upgrade.description",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.083333"
+        "sudo %player% multiply-booster ROLL_SPEED 1.045455"
       ]
     },
     {
       "id": 204,
       "name": "i18n.srng.tree.roll.upgrade.name|!|IV",
-      "price": 75000,
+      "price": 50000,
       "pos": {
-        "x": 400.0,
-        "y": -440.0
+        "x": 200.0,
+        "y": -420.0
       },
       "module": "ROLL",
       "parents": [
         203
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|IV|!|40",
+      "description": "srng.tree.roll.upgrade.description",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.076923"
+        "sudo %player% multiply-booster ROLL_SPEED 1.043478"
       ]
     },
     {
       "id": 205,
       "name": "i18n.srng.tree.roll.upgrade.name|!|V",
-      "price": 250000,
+      "price": 125000,
       "pos": {
-        "x": 300.0,
-        "y": -520.0
+        "x": 280.0,
+        "y": -540.0
       },
-      "size": 60,
       "module": "ROLL",
       "parents": [
         204
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|V|!|50",
+      "description": "srng.tree.roll.upgrade.description",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.071429"
+        "sudo %player% multiply-booster ROLL_SPEED 1.041667"
+      ]
+    },
+    {
+      "id": 206,
+      "name": "i18n.srng.tree.roll.upgrade.name|!|VI",
+      "price": 250000,
+      "pos": {
+        "x": 350.0,
+        "y": -460.0
+      },
+      "module": "ROLL",
+      "parents": [
+        205
+      ],
+      "description": "srng.tree.roll.upgrade.description",
+      "rewards": [
+        "sudo %player% multiply-booster ROLL_SPEED 1.04"
+      ]
+    },
+    {
+      "id": 207,
+      "name": "i18n.srng.tree.roll.upgrade.name|!|VII",
+      "price": 500000,
+      "pos": {
+        "x": 440.0,
+        "y": -540.0
+      },
+      "module": "ROLL",
+      "parents": [
+        206
+      ],
+      "description": "srng.tree.roll.upgrade.description",
+      "rewards": [
+        "sudo %player% multiply-booster ROLL_SPEED 1.038462"
+      ]
+    },
+    {
+      "id": 208,
+      "name": "i18n.srng.tree.roll.upgrade.name|!|VIII",
+      "price": 1000000,
+      "pos": {
+        "x": 500.0,
+        "y": -460.0
+      },
+      "module": "ROLL",
+      "parents": [
+        207
+      ],
+      "description": "srng.tree.roll.upgrade.description",
+      "rewards": [
+        "sudo %player% multiply-booster ROLL_SPEED 1.037037"
+      ]
+    },
+    {
+      "id": 209,
+      "name": "i18n.srng.tree.roll.upgrade.name|!|IX",
+      "price": 2000000,
+      "pos": {
+        "x": 500.0,
+        "y": -350.0
+      },
+      "module": "ROLL",
+      "parents": [
+        208
+      ],
+      "description": "srng.tree.roll.upgrade.description",
+      "rewards": [
+        "sudo %player% multiply-booster ROLL_SPEED 1.035714"
+      ]
+    },
+    {
+      "id": 210,
+      "name": "i18n.srng.tree.roll.upgrade.name|!|X",
+      "price": 4000000,
+      "pos": {
+        "x": 470.0,
+        "y": -230.0
+      },
+      "size": 60,
+      "module": "ROLL",
+      "parents": [
+        209,
+        200
+      ],
+      "anyParentUpgrade": false,
+      "description": "srng.tree.roll.upgrade.description",
+      "rewards": [
+        "sudo %player% multiply-booster ROLL_SPEED 1.034483"
       ]
     },
     {
