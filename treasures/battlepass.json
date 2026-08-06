@@ -5068,7 +5068,14 @@
   "questCategories": [
     {
       "id": "daily",
-      "refreshPolicy": 86400000,
+      "refreshPolicy": {
+        "anchor": "2026-08-01T00:00:00",
+        "timeZone": "Europe/Moscow",
+        "interval": "P1D"
+      },
+      "rerollPolicy": {
+        "maxRerollsPerCycle": 1
+      },
       "defaultQuestMapping": {
         "I": 4,
         "II": 2,
