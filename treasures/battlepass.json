@@ -2830,8 +2830,13 @@
             "earn-bits %player% 500"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-57.title"
