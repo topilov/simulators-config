@@ -190,11 +190,11 @@
         {
           "id": "level-2-premium",
           "onClaim": [
-            "morestat %player% add 751 shards"
+            "give-save-crystals %player% 1"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/shards_booster.png"
+            "texture": "cache/simulator/save_crystal.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -288,11 +288,11 @@
         {
           "id": "level-4-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 4 premium reward A"
+            "give-key %player% RUNE 1"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -362,11 +362,13 @@
         {
           "id": "level-5-premium",
           "onClaim": [
-            "tell %player% Claimed level 5 premium reward"
+            "give-tnt %player% 5"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -549,11 +551,16 @@
         {
           "id": "level-9-premium",
           "onClaim": [
-            "tell %player% Claimed level 9 premium reward"
+            "random-money %player% 29.8 29.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -661,11 +668,11 @@
         {
           "id": "level-11-premium",
           "onClaim": [
-            "tell %player% Claimed level 11 premium reward"
+            "morestat %player% add 300 shards"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/storage.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -701,11 +708,11 @@
         {
           "id": "level-12-premium",
           "onClaim": [
-            "tell %player% Claimed level 12 premium reward"
+            "local-booster %player% BLOCKS 1 600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -824,7 +831,7 @@
         {
           "id": "level-14-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600"
+            "local-booster %player% MONEY 1 1200"
           ],
           "icon": {
             "type": "textured",
@@ -859,7 +866,7 @@
         {
           "id": "level-15-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 15 premium reward A"
+            "give-key %player% DEFAULT 6"
           ],
           "icon": {
             "type": "textured",
@@ -920,11 +927,16 @@
         {
           "id": "level-16-premium",
           "onClaim": [
-            "tell %player% Claimed level 16 premium reward"
+            "random-money %player% 29.8 29.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -1072,11 +1084,11 @@
         {
           "id": "level-19-premium",
           "onClaim": [
-            "tell %player% Claimed level 19 premium reward"
+            "give-save-crystals %player% 1"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/save_crystal.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1107,11 +1119,11 @@
         {
           "id": "level-20-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 20 premium reward A"
+            "local-booster %player% TREASURES 1 1200"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1219,11 +1231,11 @@
         {
           "id": "level-22-premium",
           "onClaim": [
-            "tell %player% Claimed level 22 premium reward"
+            "morestat %player% add 600 shards"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/storage.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1254,11 +1266,11 @@
         {
           "id": "level-23-premium",
           "onClaim": [
-            "tell %player% Claimed level 23 premium reward"
+            "give-key %player% PET 3"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1302,11 +1314,16 @@
         {
           "id": "level-24-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 24 premium reward A"
+            "random-money %player% 39.8 39.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -1444,11 +1461,16 @@
         {
           "id": "level-26-premium",
           "onClaim": [
-            "tell %player% Claimed level 26 premium reward"
+            "earn-bits %player% 150"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -1526,11 +1548,11 @@
         {
           "id": "level-28-premium",
           "onClaim": [
-            "tell %player% Claimed level 28 premium reward"
+            "give-key %player% RUNE 2"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1610,11 +1632,16 @@
         {
           "id": "level-30-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 30 premium reward A"
+            "random-money %player% 49.8 49.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -1645,11 +1672,11 @@
         {
           "id": "level-31-premium",
           "onClaim": [
-            "tell %player% Claimed level 31 premium reward"
+            "give-incident-points %player% 10"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/incident_points.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1734,11 +1761,11 @@
         {
           "id": "level-33-premium",
           "onClaim": [
-            "tell %player% Claimed level 33 premium reward"
+            "local-booster %player% MONEY 1 1200"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1769,7 +1796,7 @@
         {
           "id": "level-34-premium",
           "onClaim": [
-            "local-booster %player% EXP 1 3600"
+            "local-booster %player% EXP 1 1200"
           ],
           "icon": {
             "type": "textured",
@@ -1843,11 +1870,11 @@
         {
           "id": "level-35-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 35 premium reward A"
+            "give-key %player% RUNE 2"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -1891,11 +1918,16 @@
         {
           "id": "level-36-premium",
           "onClaim": [
-            "tell %player% Claimed level 36 premium reward"
+            "random-money %player% 49.8 49.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -2042,7 +2074,7 @@
         {
           "id": "level-39-premium",
           "onClaim": [
-            "tell %player% Claimed level 39 premium reward"
+            "give-key %player% DEFAULT 12"
           ],
           "icon": {
             "type": "textured",
@@ -2077,11 +2109,11 @@
         {
           "id": "level-40-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 40 premium reward A"
+            "local-booster %player% MONEY 1 1800"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2112,11 +2144,11 @@
         {
           "id": "level-41-premium",
           "onClaim": [
-            "tell %player% Claimed level 41 premium reward"
+            "morestat %player% add 1200 shards"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/storage.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2198,11 +2230,11 @@
         {
           "id": "level-43-premium",
           "onClaim": [
-            "tell %player% Claimed level 43 premium reward"
+            "give-key %player% PET 6"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2272,11 +2304,11 @@
         {
           "id": "level-44-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 44 premium reward A"
+            "local-booster %player% BLOCKS 1 1800"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2307,11 +2339,13 @@
         {
           "id": "level-45-premium",
           "onClaim": [
-            "tell %player% Claimed level 45 premium reward"
+            "give-tnt %player% 20"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -2539,11 +2573,16 @@
         {
           "id": "level-49-premium",
           "onClaim": [
-            "tell %player% Claimed level 49 pemium reward"
+            "random-money %player% 69.8 69.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -2651,11 +2690,11 @@
         {
           "id": "level-51-premium",
           "onClaim": [
-            "tell %player% Claimed level 51 premium reward"
+            "give-save-crystals %player% 3"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/save_crystal.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2686,11 +2725,11 @@
         {
           "id": "level-52-premium",
           "onClaim": [
-            "tell %player% Claimed level 52 premium reward"
+            "give-key %player% RUNE 3"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2721,11 +2760,11 @@
         {
           "id": "level-53-premium",
           "onClaim": [
-            "tell %player% Claimed level 53 premium reward"
+            "morestat %player% add 1750 shards"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/storage.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2823,11 +2862,11 @@
         {
           "id": "level-55-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 55 premium reward A"
+            "local-booster %player% MONEY 1 1800"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -2897,11 +2936,16 @@
         {
           "id": "level-56-premium",
           "onClaim": [
-            "tell %player% Claimed level 56 premium reward"
+            "earn-bits %player% 250"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -2979,11 +3023,11 @@
         {
           "id": "level-58-premium",
           "onClaim": [
-            "tell %player% Claimed level 58 premium reward"
+            "give-incident-points %player% 15"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/incident_points.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3077,11 +3121,16 @@
         {
           "id": "level-60-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 60 premium reward A"
+            "random-money %player% 79.8 79.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -3112,11 +3161,11 @@
         {
           "id": "level-61-premium",
           "onClaim": [
-            "tell %player% Claimed level 61 premium reward"
+            "local-booster %player% TREASURES 1 2400"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3149,11 +3198,11 @@
         {
           "id": "level-62-premium",
           "onClaim": [
-            "tell %player% Claimed level 62 premium reward"
+            "local-booster %player% BLOCKS 1 2400"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3266,11 +3315,11 @@
         {
           "id": "level-64-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 64 premium reward A"
+            "give-save-crystals %player% 3"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/save_crystal.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3340,11 +3389,13 @@
         {
           "id": "level-65-premium",
           "onClaim": [
-            "tell %player% Claimed level 65 premium reward"
+            "give-tnt %player% 30"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -3388,11 +3439,16 @@
         {
           "id": "level-66-premium",
           "onClaim": [
-            "tell %player% Claimed level 66 premium reward"
+            "random-money %player% 89.8 89.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -3530,11 +3586,11 @@
         {
           "id": "level-69-premium",
           "onClaim": [
-            "tell %player% Claimed level 69 premium reward"
+            "morestat %player% add 2100 shards"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/storage.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3628,7 +3684,7 @@
         {
           "id": "level-71-premium",
           "onClaim": [
-            "tell %player% Claimed level 71 premium reward"
+            "give-key %player% DEFAULT 30"
           ],
           "icon": {
             "type": "textured",
@@ -3717,11 +3773,11 @@
         {
           "id": "level-73-premium",
           "onClaim": [
-            "tell %player% Claimed level 73 premium reward"
+            "give-key %player% TITLE 1"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/purple_cristal_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -3791,11 +3847,16 @@
         {
           "id": "level-74-premium",
           "onClaim": [
-            "tell %player% Claimed level 74 premium reward"
+            "random-money %player% 89.8 89.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -3826,11 +3887,13 @@
         {
           "id": "level-75-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 75 premium reward A"
+            "give-tnt %player% 30"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -3983,11 +4046,11 @@
         {
           "id": "level-78-premium",
           "onClaim": [
-            "tell %player% Claimed level 78 premium reward"
+            "give-key %player% PET 15"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4100,7 +4163,7 @@
         {
           "id": "level-80-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 80 premium reward A"
+            "give-key %player% DEFAULT 30"
           ],
           "icon": {
             "type": "textured",
@@ -4135,11 +4198,11 @@
         {
           "id": "level-81-premium",
           "onClaim": [
-            "tell %player% Claimed level 81 premium reward"
+            "local-booster %player% BLOCKS 1 3000"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/blocks_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4170,11 +4233,16 @@
         {
           "id": "level-82-premium",
           "onClaim": [
-            "tell %player% Claimed level 82 premium reward"
+            "random-money %player% 99.8 99.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -4269,11 +4337,16 @@
         {
           "id": "level-84-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 84 premium reward A"
+            "earn-bits %player% 300"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -4304,11 +4377,11 @@
         {
           "id": "level-85-premium",
           "onClaim": [
-            "tell %player% Claimed level 85 premium reward"
+            "local-booster %player% MONEY 1 3000"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/money_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4378,11 +4451,11 @@
         {
           "id": "level-86-premium",
           "onClaim": [
-            "tell %player% Claimed level 86 premium reward"
+            "morestat %player% add 3000 shards"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/storage.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4537,11 +4610,11 @@
         {
           "id": "level-89-premium",
           "onClaim": [
-            "tell %player% Claimed level 89 premium reward"
+            "local-booster %player% TREASURES 1 3000"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/treasures_booster.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4572,11 +4645,16 @@
         {
           "id": "level-90-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 90 premium reward A"
+            "random-money %player% 99.8 99.9 1"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
           },
           "quality": "epic",
           "tooltip": {
@@ -4656,11 +4734,11 @@
         {
           "id": "level-92-premium",
           "onClaim": [
-            "tell %player% Claimed level 92 premium reward"
+            "give-key %player% RUNE 7"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/rune_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4866,11 +4944,11 @@
         {
           "id": "level-95-premium-a",
           "onClaim": [
-            "tell %player% Claimed level 95 premium reward A"
+            "give-key %player% PET 21"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/fox_key.png"
           },
           "quality": "epic",
           "tooltip": {
@@ -4914,11 +4992,11 @@
         {
           "id": "level-96-premium",
           "onClaim": [
-            "tell %player% Claimed level 96 premium reward"
+            "local-booster %player% EXP 1 3600"
           ],
           "icon": {
             "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "texture": "cache/simulator/exp_booster.png"
           },
           "quality": "epic",
           "tooltip": {
