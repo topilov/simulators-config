@@ -987,8 +987,10 @@
             "give-tnt %player% 8"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-18.title"
