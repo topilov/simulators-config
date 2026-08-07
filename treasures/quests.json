@@ -35,7 +35,7 @@
               {
                 "title": "treasures.quest.exp3.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|15K \uE03C",
+                "reward": "i18n.treasures.quest.reward|!|500 \uE34D",
                 "tasks": [
                   {
                     "name": "treasures.quest.exp.subtitle",
@@ -83,7 +83,7 @@
               {
                 "title": "treasures.quest.exp7.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|100K \uE03C",
+                "reward": "i18n.treasures.quest.reward|!|1500 \uE34D",
                 "tasks": [
                   {
                     "name": "treasures.quest.exp.subtitle",
@@ -196,7 +196,7 @@
               {
                 "title": "treasures.quest.level6.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|100K \uE03C",
+                "reward": "i18n.treasures.quest.reward|!|1000 \uE34D",
                 "tasks": [
                   {
                     "name": "treasures.quest.level.subtitle",
@@ -249,7 +249,7 @@
               {
                 "title": "treasures.quest.blocks3.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|15K \uE03C",
+                "reward": "i18n.treasures.quest.reward|!|500 \uE34D",
                 "tasks": [
                   {
                     "name": "treasures.quest.blocks.subtitle",
@@ -273,7 +273,7 @@
               {
                 "title": "treasures.quest.blocks5.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|75 \uE1D1",
+                "reward": "i18n.treasures.quest.reward|!|1500 \uE34D",
                 "tasks": [
                   {
                     "name": "treasures.quest.blocks.subtitle",
@@ -321,7 +321,7 @@
               {
                 "title": "treasures.quest.blocks9.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|125 \uE1D1",
+                "reward": "i18n.treasures.quest.reward|!|200 \uE1D1",
                 "tasks": [
                   {
                     "name": "treasures.quest.blocks.subtitle",
@@ -386,7 +386,7 @@
               {
                 "title": "treasures.quest.treasures4.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|\uE349 с питомцами x3",
+                "reward": "i18n.treasures.quest.reward|!|2000 \uE34D",
                 "tasks": [
                   {
                     "name": "treasures.quest.treasures.subtitle",
@@ -410,7 +410,7 @@
               {
                 "title": "treasures.quest.treasures6.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|\uE349 с питомцами x5",
+                "reward": "i18n.treasures.quest.reward|!|\uE349 с питомцами x6",
                 "tasks": [
                   {
                     "name": "treasures.quest.treasures.subtitle",
@@ -434,7 +434,7 @@
               {
                 "title": "treasures.quest.treasures8.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|\uE349 с питомцами x7",
+                "reward": "i18n.treasures.quest.reward|!|\uE349 с питомцами x8",
                 "tasks": [
                   {
                     "name": "treasures.quest.treasures.subtitle",
@@ -458,7 +458,7 @@
               {
                 "title": "treasures.quest.treasures10.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|\uE349 с питомцами x9",
+                "reward": "i18n.treasures.quest.reward|!|\uE349 с питомцами x10",
                 "tasks": [
                   {
                     "name": "treasures.quest.treasures.subtitle",
@@ -496,7 +496,7 @@
         "title": "treasures.quest.exp3.title",
         "goal": 9000,
         "onComplete": [
-          "earn-money %player% 15000 true"
+          "earn-shards %player% 500"
         ]
       },
       {
@@ -528,7 +528,7 @@
         "title": "treasures.quest.exp7.title",
         "goal": 729000,
         "onComplete": [
-          "earn-money %player% 100000 true"
+          "earn-shards %player% 1500"
         ]
       },
       {
@@ -602,7 +602,7 @@
         "title": "treasures.quest.level6.title",
         "goal": 7,
         "onComplete": [
-          "earn-money %player% 100000 true"
+          "earn-shards %player% 1000"
         ]
       },
       {
@@ -636,7 +636,7 @@
         "title": "treasures.quest.blocks3.title",
         "goal": 84000,
         "onComplete": [
-          "earn-money %player% 15000 true"
+          "earn-shards %player% 500"
         ]
       },
       {
@@ -652,7 +652,7 @@
         "title": "treasures.quest.blocks5.title",
         "goal": 2300000,
         "onComplete": [
-          "earn-bits %player% 75"
+          "earn-shards %player% 1500"
         ]
       },
       {
@@ -684,7 +684,7 @@
         "title": "treasures.quest.blocks9.title",
         "goal": 517000000,
         "onComplete": [
-          "earn-bits %player% 125"
+          "earn-bits %player% 200"
         ]
       },
       {
@@ -726,7 +726,7 @@
         "title": "treasures.quest.treasures4.title",
         "goal": 400,
         "onComplete": [
-          "give-key %player% PET 3"
+          "earn-shards %player% 2000"
         ]
       },
       {
@@ -742,7 +742,7 @@
         "title": "treasures.quest.treasures6.title",
         "goal": 900,
         "onComplete": [
-          "give-key %player% PET 5"
+          "give-key %player% PET 6"
         ]
       },
       {
@@ -758,7 +758,7 @@
         "title": "treasures.quest.treasures8.title",
         "goal": 1500,
         "onComplete": [
-          "give-key %player% PET 7"
+          "give-key %player% PET 8"
         ]
       },
       {
@@ -774,7 +774,7 @@
         "title": "treasures.quest.treasures10.title",
         "goal": 2500,
         "onComplete": [
-          "give-key %player% PET 9"
+          "give-key %player% PET 10"
         ]
       }
     ]
