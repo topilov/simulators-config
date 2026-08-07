@@ -1,39 +1,17 @@
 {
-  "maxSaveCrystals": 24,
-  "items": {
-    "SAVE_CRYSTAL": {
-      "type": "CLAY_BALL",
-      "name": "treasures.items.save-crystal.name",
-      "lore": "treasures.items.save-crystal.lore",
-      "unbreakable": true,
-      "data": {
-        "sim": "save_crystal",
-        "crystal": 1,
-        "no-clear": 1,
-        "hoverColor": "PURPLE_LIGHT"
-      },
-      "flags": [
-        "HIDE_ATTRIBUTES",
-        "HIDE_ENCHANTS",
-        "HIDE_UNBREAKABLE"
-      ]
-    }
-  },
+  "maxSaveCrystals": 99,
   "message": {
     "maxUsedCrystalsPerRebirth": "treasures.items.message.error.max-used-crystals-per-rebirth",
-    "maxUsedCrystals": "treasures.items.message.error.max-user-crystals"
+    "maxUsedCrystals": "treasures.items.message.error.max-user-crystals",
+    "notEnoughSaveCrystals": "treasures.items.message.error.not-enough-save-crystals"
   },
   "nbt": {
     "crystals": "crystals",
     "crystalsPerRebirth": "crystals-per-rebirth",
-    "noClear": "no-clear",
-    "saveCrystal": "crystal",
     "boosterChance": "chance",
-    "additionalBoosterChance": "additional-chance-nbt",
     "level": "level",
     "pipeline": "pipeline",
     "toolType": "tool-type",
-    "dnkBooster": "dnk-booster",
     "strength": "strength",
     "boosterKeyChance": "boosterKeyChance"
   }

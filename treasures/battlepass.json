@@ -1,0 +1,6667 @@
+{
+  "menuSettings": {
+    "pinnedPreviewLevel": 100,
+    "shouldAdaptQuestContainerHeightToY": true
+  },
+  "id": "treasures-test-season",
+  "maxLevel": 100,
+  "expPerLevel": {
+    "1": 0,
+    "2": 1500,
+    "3": 3000,
+    "4": 4500,
+    "5": 6000,
+    "6": 8800,
+    "7": 11600,
+    "8": 14400,
+    "9": 17200,
+    "10": 20000,
+    "11": 22800,
+    "12": 25600,
+    "13": 28400,
+    "14": 31200,
+    "15": 34000,
+    "16": 36800,
+    "17": 39600,
+    "18": 42400,
+    "19": 45200,
+    "20": 48000,
+    "21": 50800,
+    "22": 53600,
+    "23": 56400,
+    "24": 59200,
+    "25": 62000,
+    "26": 65500,
+    "27": 69000,
+    "28": 72500,
+    "29": 76000,
+    "30": 79500,
+    "31": 83000,
+    "32": 86500,
+    "33": 90000,
+    "34": 93500,
+    "35": 97000,
+    "36": 100500,
+    "37": 104000,
+    "38": 107500,
+    "39": 111000,
+    "40": 114500,
+    "41": 118000,
+    "42": 121500,
+    "43": 125000,
+    "44": 128500,
+    "45": 132000,
+    "46": 135500,
+    "47": 139000,
+    "48": 142500,
+    "49": 146000,
+    "50": 149500,
+    "51": 153000,
+    "52": 156500,
+    "53": 160000,
+    "54": 163500,
+    "55": 167000,
+    "56": 170500,
+    "57": 174000,
+    "58": 177500,
+    "59": 181000,
+    "60": 184500,
+    "61": 188000,
+    "62": 191500,
+    "63": 195000,
+    "64": 198500,
+    "65": 202000,
+    "66": 206200,
+    "67": 210400,
+    "68": 214600,
+    "69": 218800,
+    "70": 223000,
+    "71": 227200,
+    "72": 231400,
+    "73": 235600,
+    "74": 239800,
+    "75": 244000,
+    "76": 248200,
+    "77": 252400,
+    "78": 256600,
+    "79": 260800,
+    "80": 265000,
+    "81": 269200,
+    "82": 273400,
+    "83": 277600,
+    "84": 281800,
+    "85": 286000,
+    "86": 290200,
+    "87": 294400,
+    "88": 298600,
+    "89": 302800,
+    "90": 307000,
+    "91": 313050,
+    "92": 319100,
+    "93": 325150,
+    "94": 331200,
+    "95": 337250,
+    "96": 343300,
+    "97": 349350,
+    "98": 355400,
+    "99": 361450,
+    "100": 367500
+  },
+  "gameplaySettings": {
+    "claimAllEnabled": true,
+    "levelShareEnabled": false,
+    "levelShareCooldownMillis": 5000,
+    "resetEnabled": false,
+    "resetUnlockLevel": 100,
+    "premiumQuestExperienceBonusPercent": 20,
+    "questCompletionMessage": "treasures.battlepass.quest-completed",
+    "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
+  },
+  "specialPurchaseOffer": {
+    "grant": {},
+    "price": {
+      "basePrice": 499
+    },
+    "title": "treasures.battlepass.purchase-modal.special.title",
+    "benefits": [
+      "treasures.battlepass.purchase-modal.special.benefit.premium-rewards"
+    ]
+  },
+  "rewardTiers": [
+    {
+      "level": 1,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-1-default",
+          "onClaim": [
+            "earn-money %player% 1000 false"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.money|!|1000"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-1-premium",
+          "onClaim": [
+            "give-key %player% PET 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|1"
+          }
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-2-default",
+          "onClaim": [
+            "give-key %player% DEFAULT 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|3"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-2-premium",
+          "onClaim": [
+            "give-save-crystals %player% 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/save_crystal.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|1"
+          }
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-3-default",
+          "onClaim": [
+            "earn-shards %player% 300"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|300"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-3-premium",
+          "onClaim": [
+            "local-booster %player% EXP 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|10"
+          }
+        },
+        {
+          "id": "level-3-premium-2",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|10"
+          }
+        },
+        {
+          "id": "level-3-premium-3",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|10"
+          }
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-4-default-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|10"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-4-premium-a",
+          "onClaim": [
+            "give-key %player% RUNE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
+          }
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-5-default",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-5-default-2",
+          "onClaim": [
+            "give-key %player% PET 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
+          }
+        },
+        {
+          "id": "level-5-default-3",
+          "onClaim": [
+            "give-key %player% RUNE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
+          }
+        },
+        {
+          "id": "level-5-default-4",
+          "onClaim": [
+            "give-key %player% DEFAULT 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-5-premium",
+          "onClaim": [
+            "give-tnt %player% 5"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.tnt|!|5"
+          }
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-6-default",
+          "onClaim": [
+            "unlock-lootbox-open-tier %player% DOUBLE"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "new_lvl_rare_close"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.case-opening|!|2"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-6-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|10"
+          }
+        },
+        {
+          "id": "level-6-premium-2",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|10"
+          }
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-7-default",
+          "onClaim": [
+            "random-money %player% 99.8 99.9 1",
+            "local-booster %player% MONEY 2 1200"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.minutes|!|20)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|100)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-7-premium",
+          "onClaim": [
+            "give-key %player% RUNE 1",
+            "give-save-crystals %player% 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.save-crystal|!|1)|!|(i18n.treasures.battlepass.reward.key.rune|!|1)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-8-default",
+          "onClaim": [
+            "give-tnt %player% 5"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.tnt|!|5"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-8-premium",
+          "onClaim": [
+            "give-key %player% RUNE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
+          }
+        },
+        {
+          "id": "level-8-premium-2",
+          "onClaim": [
+            "give-key %player% DEFAULT 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
+          }
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-9-default",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|10"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-9-premium",
+          "onClaim": [
+            "random-money %player% 29.8 29.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-10-default-a",
+          "onClaim": [
+            "give-key %player% PET 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-10-premium-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|10"
+          }
+        },
+        {
+          "id": "level-10-premium-a-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|10"
+          }
+        },
+        {
+          "id": "level-10-premium-a-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|10"
+          }
+        },
+        {
+          "id": "level-10-premium-a-4",
+          "onClaim": [
+            "local-booster %player% EXP 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|10"
+          }
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-11-default",
+          "onClaim": [
+            "give-save-crystals %player% 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/save_crystal.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|1"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-11-premium",
+          "onClaim": [
+            "earn-shards %player% 300"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|300"
+          }
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-12-default",
+          "onClaim": [
+            "random-money %player% 29.8 29.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|30"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-12-premium",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|10"
+          }
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-13-default",
+          "onClaim": [
+            "give-key %player% DEFAULT 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-13-premium",
+          "onClaim": [
+            "give-key %player% PET 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
+          }
+        },
+        {
+          "id": "level-13-premium-2",
+          "onClaim": [
+            "give-key %player% RUNE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
+          }
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-14-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-14-default-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-14-default-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-14-default-4",
+          "onClaim": [
+            "local-booster %player% EXP 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-14-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
+          }
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-15-default-a",
+          "onClaim": [
+            "earn-shards %player% 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|600"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-15-premium-a",
+          "onClaim": [
+            "give-key %player% DEFAULT 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
+          }
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-16-default",
+          "onClaim": [
+            "give-key %player% RUNE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
+          }
+        },
+        {
+          "id": "level-16-default-2",
+          "onClaim": [
+            "give-key %player% PET 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
+          }
+        },
+        {
+          "id": "level-16-default-3",
+          "onClaim": [
+            "give-key %player% DEFAULT 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-16-premium",
+          "onClaim": [
+            "random-money %player% 29.8 29.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-17-default",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1200",
+            "give-key %player% DEFAULT 30"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20)|!|(i18n.treasures.battlepass.reward.key.default|!|30)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-17-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1200",
+            "random-money %player% 149.8 149.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.minutes|!|20)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|150)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-18-default",
+          "onClaim": [
+            "give-tnt %player% 8"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.tnt|!|8"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-18-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-18-premium-2",
+          "onClaim": [
+            "local-booster %player% EXP 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-18-premium-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
+          }
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-19-default",
+          "onClaim": [
+            "random-money %player% 39.8 39.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|40"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-19-premium",
+          "onClaim": [
+            "give-save-crystals %player% 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/save_crystal.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|1"
+          }
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-20-default-a",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-20-premium-a",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
+          }
+        }
+      ]
+    },
+    {
+      "level": 21,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-21-default",
+          "onClaim": [
+            "give-key %player% RUNE 2"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-21-premium",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-21-premium-2",
+          "onClaim": [
+            "give-key %player% PET 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
+          }
+        },
+        {
+          "id": "level-21-premium-3",
+          "onClaim": [
+            "give-key %player% RUNE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
+          }
+        },
+        {
+          "id": "level-21-premium-4",
+          "onClaim": [
+            "give-key %player% DEFAULT 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
+          }
+        }
+      ]
+    },
+    {
+      "level": 22,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-22-default",
+          "onClaim": [
+            "give-incident-points %player% 10"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/incident_points.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|10"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-22-premium",
+          "onClaim": [
+            "earn-shards %player% 600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|600"
+          }
+        }
+      ]
+    },
+    {
+      "level": 23,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-23-default",
+          "onClaim": [
+            "give-save-crystals %player% 2"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/save_crystal.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|2"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-23-premium",
+          "onClaim": [
+            "give-key %player% PET 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
+          }
+        }
+      ]
+    },
+    {
+      "level": 24,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-24-default-a",
+          "onClaim": [
+            "local-booster %player% EXP 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-24-default-a-2",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-24-premium-a",
+          "onClaim": [
+            "random-money %player% 39.8 39.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|40"
+          }
+        }
+      ]
+    },
+    {
+      "level": 25,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-25-default",
+          "onClaim": [
+            "random-money %player% 49.8 49.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|50"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-25-premium",
+          "onClaim": [
+            "give-key %player% PET 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
+          }
+        },
+        {
+          "id": "level-25-premium-2",
+          "onClaim": [
+            "give-key %player% RUNE 2"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
+          }
+        },
+        {
+          "id": "level-25-premium-3",
+          "onClaim": [
+            "give-key %player% DEFAULT 12"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
+          }
+        }
+      ]
+    },
+    {
+      "level": 26,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-26-default",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-26-default-2",
+          "onClaim": [
+            "give-key %player% PET 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
+          }
+        },
+        {
+          "id": "level-26-default-3",
+          "onClaim": [
+            "give-key %player% RUNE 2"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
+          }
+        },
+        {
+          "id": "level-26-default-4",
+          "onClaim": [
+            "give-key %player% DEFAULT 12"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-26-premium",
+          "onClaim": [
+            "earn-bits %player% 150"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bits|!|150"
+          }
+        }
+      ]
+    },
+    {
+      "level": 27,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-27-default",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 1200",
+            "give-tnt %player% 30"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20)|!|(i18n.treasures.battlepass.reward.tnt|!|30)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-27-premium",
+          "onClaim": [
+            "earn-shards %player% 900",
+            "earn-simcoins %player% 20"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.shards|!|900)|!|(i18n.treasures.battlepass.reward.simcoins|!|20)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 28,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-28-default",
+          "onClaim": [
+            "local-booster %player% EXP 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-28-premium",
+          "onClaim": [
+            "give-key %player% RUNE 2"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
+          }
+        }
+      ]
+    },
+    {
+      "level": 29,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-29-default",
+          "onClaim": [
+            "give-key %player% DEFAULT 12"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-29-premium",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-29-premium-2",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
+          }
+        }
+      ]
+    },
+    {
+      "level": 30,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-30-default-a",
+          "onClaim": [
+            "earn-shards %player% 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|1200"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-30-premium-a",
+          "onClaim": [
+            "random-money %player% 49.8 49.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 31,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-31-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-31-premium",
+          "onClaim": [
+            "give-incident-points %player% 10"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/incident_points.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|10"
+          }
+        }
+      ]
+    },
+    {
+      "level": 32,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-32-default",
+          "onClaim": [
+            "earn-bits %player% 150"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bits|!|150"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-32-premium",
+          "onClaim": [
+            "give-key %player% RUNE 2"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
+          }
+        },
+        {
+          "id": "level-32-premium-2",
+          "onClaim": [
+            "give-key %player% DEFAULT 12"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
+          }
+        }
+      ]
+    },
+    {
+      "level": 33,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-33-default",
+          "onClaim": [
+            "give-key %player% PET 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-33-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
+          }
+        }
+      ]
+    },
+    {
+      "level": 34,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-34-default",
+          "onClaim": [
+            "give-key %player% DEFAULT 12"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-34-premium",
+          "onClaim": [
+            "local-booster %player% EXP 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
+          }
+        }
+      ]
+    },
+    {
+      "level": 35,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-35-default-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
+          }
+        },
+        {
+          "id": "level-35-default-a-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|30"
+          }
+        },
+        {
+          "id": "level-35-default-a-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|30"
+          }
+        },
+        {
+          "id": "level-35-default-a-4",
+          "onClaim": [
+            "local-booster %player% EXP 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|30"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-35-premium-a",
+          "onClaim": [
+            "give-key %player% RUNE 2"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
+          }
+        }
+      ]
+    },
+    {
+      "level": 36,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-36-default",
+          "onClaim": [
+            "give-key %player% PET 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
+          }
+        },
+        {
+          "id": "level-36-default-2",
+          "onClaim": [
+            "give-key %player% DEFAULT 12"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-36-premium",
+          "onClaim": [
+            "random-money %player% 49.8 49.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 37,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-37-default",
+          "onClaim": [
+            "give-key %player% TITLE 1",
+            "give-key %player% RUNE 2",
+            "give-key %player% PET 6"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.3|!|(i18n.treasures.battlepass.reward.key.title|!|1)|!|(i18n.treasures.battlepass.reward.key.rune|!|2)|!|(i18n.treasures.battlepass.reward.key.pet|!|6)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-37-premium",
+          "onClaim": [
+            "local-booster %player% EXP 2 1800",
+            "give-tnt %player% 30"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.experience.minutes|!|30)|!|(i18n.treasures.battlepass.reward.tnt|!|30)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 38,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-38-default",
+          "onClaim": [
+            "random-money %player% 59.8 59.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|60"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-38-premium",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-38-premium-2",
+          "onClaim": [
+            "give-key %player% PET 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
+          }
+        },
+        {
+          "id": "level-38-premium-3",
+          "onClaim": [
+            "give-key %player% RUNE 2"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
+          }
+        }
+      ]
+    },
+    {
+      "level": 39,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-39-default",
+          "onClaim": [
+            "unlock-rune-slot %player%"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_slot.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.rune-slot"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-39-premium",
+          "onClaim": [
+            "give-key %player% DEFAULT 12"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
+          }
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-40-default-a",
+          "onClaim": [
+            "give-key %player% RUNE 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-40-premium-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 41,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-41-default",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|30"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-41-premium",
+          "onClaim": [
+            "earn-shards %player% 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|1200"
+          }
+        }
+      ]
+    },
+    {
+      "level": 42,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-42-default",
+          "onClaim": [
+            "give-save-crystals %player% 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/save_crystal.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|3"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-42-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
+          }
+        },
+        {
+          "id": "level-42-premium-2",
+          "onClaim": [
+            "local-booster %player% EXP 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 43,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-43-default",
+          "onClaim": [
+            "give-tnt %player% 20"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.tnt|!|20"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-43-premium",
+          "onClaim": [
+            "give-key %player% PET 6"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
+          }
+        }
+      ]
+    },
+    {
+      "level": 44,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-44-default-a",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-44-default-a-2",
+          "onClaim": [
+            "give-key %player% PET 9"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|9"
+          }
+        },
+        {
+          "id": "level-44-default-a-3",
+          "onClaim": [
+            "give-key %player% RUNE 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
+          }
+        },
+        {
+          "id": "level-44-default-a-4",
+          "onClaim": [
+            "give-key %player% DEFAULT 18"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|18"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-44-premium-a",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 45,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-45-default",
+          "onClaim": [
+            "earn-shards %player% 1750"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|1750"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-45-premium",
+          "onClaim": [
+            "give-tnt %player% 20"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.tnt|!|20"
+          }
+        }
+      ]
+    },
+    {
+      "level": 46,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-46-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
+          }
+        },
+        {
+          "id": "level-46-default-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|30"
+          }
+        },
+        {
+          "id": "level-46-default-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|30"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-46-premium",
+          "onClaim": [
+            "give-key %player% PET 9"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|9"
+          }
+        },
+        {
+          "id": "level-46-premium-2",
+          "onClaim": [
+            "give-key %player% RUNE 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
+          }
+        },
+        {
+          "id": "level-46-premium-3",
+          "onClaim": [
+            "give-key %player% DEFAULT 18"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|18"
+          }
+        }
+      ]
+    },
+    {
+      "level": 47,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-47-default",
+          "onClaim": [
+            "earn-shards %player% 5000",
+            "give-incident-points %player% 50",
+            "earn-simcoins %player% 40"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.3|!|(i18n.treasures.battlepass.reward.shards|!|5000)|!|(i18n.treasures.battlepass.reward.incident-points|!|50)|!|(i18n.treasures.battlepass.reward.simcoins|!|40)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-47-premium",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 1800",
+            "give-key %player% DEFAULT 18",
+            "earn-bits %player% 200"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.3|!|(i18n.treasures.battlepass.reward.booster.blocks.minutes|!|30)|!|(i18n.treasures.battlepass.reward.key.default|!|18)|!|(i18n.treasures.battlepass.reward.bits|!|200)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 48,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-48-default",
+          "onClaim": [
+            "random-money %player% 69.8 69.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|70"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-48-premium",
+          "onClaim": [
+            "give-key %player% PET 9"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|9"
+          }
+        },
+        {
+          "id": "level-48-premium-2",
+          "onClaim": [
+            "give-key %player% DEFAULT 18"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|18"
+          }
+        }
+      ]
+    },
+    {
+      "level": 49,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-49-default",
+          "onClaim": [
+            "earn-bits %player% 250"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bits|!|250"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-49-premium",
+          "onClaim": [
+            "random-money %player% 69.8 69.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|70"
+          }
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-50-default-a",
+          "onClaim": [
+            "give-key %player% PET 9"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|9"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-50-premium-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-50-premium-a-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-50-premium-a-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
+          }
+        },
+        {
+          "id": "level-50-premium-a-4",
+          "onClaim": [
+            "local-booster %player% EXP 2 1200"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
+          }
+        }
+      ]
+    },
+    {
+      "level": 51,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-51-default",
+          "onClaim": [
+            "give-key %player% DEFAULT 24"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|24"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-51-premium",
+          "onClaim": [
+            "give-save-crystals %player% 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/save_crystal.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|3"
+          }
+        }
+      ]
+    },
+    {
+      "level": 52,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-52-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-52-premium",
+          "onClaim": [
+            "give-key %player% RUNE 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
+          }
+        }
+      ]
+    },
+    {
+      "level": 53,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-53-default",
+          "onClaim": [
+            "give-save-crystals %player% 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/save_crystal.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|3"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-53-premium",
+          "onClaim": [
+            "earn-shards %player% 1750"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|1750"
+          }
+        }
+      ]
+    },
+    {
+      "level": 54,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-54-default",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-54-default-2",
+          "onClaim": [
+            "give-key %player% RUNE 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-54-premium",
+          "onClaim": [
+            "local-booster %player% EXP 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|30"
+          }
+        },
+        {
+          "id": "level-54-premium-2",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 55,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-55-default-a",
+          "onClaim": [
+            "random-money %player% 79.8 79.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|80"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-55-premium-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 1800"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 56,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-56-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
+          }
+        },
+        {
+          "id": "level-56-default-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
+          }
+        },
+        {
+          "id": "level-56-default-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|40"
+          }
+        },
+        {
+          "id": "level-56-default-4",
+          "onClaim": [
+            "local-booster %player% EXP 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|40"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-56-premium",
+          "onClaim": [
+            "earn-bits %player% 250"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bits|!|250"
+          }
+        }
+      ]
+    },
+    {
+      "level": 57,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-57-default",
+          "onClaim": [
+            "give-key %player% PET 10",
+            "earn-bits %player% 500"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.key.pet|!|10)|!|(i18n.treasures.battlepass.reward.bits|!|500)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-57-premium",
+          "onClaim": [
+            "random-money %player% 199.8 199.9 1",
+            "earn-shards %player% 1800"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.balance-money|!|200)|!|(i18n.treasures.battlepass.reward.shards|!|1800)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 58,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-58-default",
+          "onClaim": [
+            "give-key %player% RUNE 4"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|4"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-58-premium",
+          "onClaim": [
+            "give-incident-points %player% 15"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/incident_points.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|15"
+          }
+        }
+      ]
+    },
+    {
+      "level": 59,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-59-default",
+          "onClaim": [
+            "local-booster %player% EXP 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|40"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-59-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
+          }
+        },
+        {
+          "id": "level-59-premium-2",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|40"
+          }
+        },
+        {
+          "id": "level-59-premium-3",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
+          }
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-60-default-a",
+          "onClaim": [
+            "earn-shards %player% 2100"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|2100"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-60-premium-a",
+          "onClaim": [
+            "random-money %player% 79.8 79.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|80"
+          }
+        }
+      ]
+    },
+    {
+      "level": 61,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-61-default",
+          "onClaim": [
+            "give-key %player% DEFAULT 25"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|25"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-61-premium",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|40"
+          }
+        }
+      ]
+    },
+    {
+      "level": 62,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-62-default",
+          "onClaim": [
+            "give-tnt %player% 30"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.tnt|!|30"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-62-premium",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
+          }
+        }
+      ]
+    },
+    {
+      "level": 63,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-63-default",
+          "onClaim": [
+            "random-money %player% 89.8 89.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|90"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-63-premium",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-63-premium-2",
+          "onClaim": [
+            "give-key %player% PET 12"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|12"
+          }
+        },
+        {
+          "id": "level-63-premium-3",
+          "onClaim": [
+            "give-key %player% RUNE 4"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|4"
+          }
+        },
+        {
+          "id": "level-63-premium-4",
+          "onClaim": [
+            "give-key %player% DEFAULT 24"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|24"
+          }
+        }
+      ]
+    },
+    {
+      "level": 64,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-64-default-a",
+          "onClaim": [
+            "give-incident-points %player% 15"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/incident_points.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|15"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-64-premium-a",
+          "onClaim": [
+            "give-save-crystals %player% 3"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/save_crystal.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|3"
+          }
+        }
+      ]
+    },
+    {
+      "level": 65,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-65-default",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-65-default-2",
+          "onClaim": [
+            "give-key %player% PET 15"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
+          }
+        },
+        {
+          "id": "level-65-default-3",
+          "onClaim": [
+            "give-key %player% RUNE 5"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|5"
+          }
+        },
+        {
+          "id": "level-65-default-4",
+          "onClaim": [
+            "give-key %player% DEFAULT 30"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-65-premium",
+          "onClaim": [
+            "give-tnt %player% 30"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.tnt|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 66,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-66-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
+          }
+        },
+        {
+          "id": "level-66-default-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-66-premium",
+          "onClaim": [
+            "random-money %player% 89.8 89.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|90"
+          }
+        }
+      ]
+    },
+    {
+      "level": 67,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-67-default",
+          "onClaim": [
+            "earn-shards %player% 5000",
+            "give-save-crystals %player% 3",
+            "give-key %player% RUNE 5"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.3|!|(i18n.treasures.battlepass.reward.shards|!|5000)|!|(i18n.treasures.battlepass.reward.save-crystal|!|3)|!|(i18n.treasures.battlepass.reward.key.rune|!|5)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-67-premium",
+          "onClaim": [
+            "local-booster %player% EXP 2 2400",
+            "give-incident-points %player% 10"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.experience.minutes|!|40)|!|(i18n.treasures.battlepass.reward.incident-points|!|10)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 68,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-68-default",
+          "onClaim": [
+            "random-money %player% 89.8 89.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|90"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-68-premium",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-68-premium-2",
+          "onClaim": [
+            "give-key %player% DEFAULT 30"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 69,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-69-default",
+          "onClaim": [
+            "earn-simcoins %player% 40"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "bag1"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.simcoins-bag|!|40"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-69-premium",
+          "onClaim": [
+            "earn-shards %player% 2100"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|2100"
+          }
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-70-default-a",
+          "onClaim": [
+            "give-key %player% PET 15"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-70-premium-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
+          }
+        },
+        {
+          "id": "level-70-premium-a-2",
+          "onClaim": [
+            "local-booster %player% EXP 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|40"
+          }
+        },
+        {
+          "id": "level-70-premium-a-3",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
+          }
+        }
+      ]
+    },
+    {
+      "level": 71,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-71-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-71-premium",
+          "onClaim": [
+            "give-key %player% DEFAULT 30"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 72,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-72-default",
+          "onClaim": [
+            "give-key %player% RUNE 5"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|5"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-72-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
+          }
+        },
+        {
+          "id": "level-72-premium-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 2400"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
+          }
+        }
+      ]
+    },
+    {
+      "level": 73,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-73-default",
+          "onClaim": [
+            "earn-bits %player% 300"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bits|!|300"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-73-premium",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        }
+      ]
+    },
+    {
+      "level": 74,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-74-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
+          }
+        },
+        {
+          "id": "level-74-default-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|50"
+          }
+        },
+        {
+          "id": "level-74-default-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
+          }
+        },
+        {
+          "id": "level-74-default-4",
+          "onClaim": [
+            "local-booster %player% EXP 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-74-premium",
+          "onClaim": [
+            "random-money %player% 89.8 89.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|90"
+          }
+        }
+      ]
+    },
+    {
+      "level": 75,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-75-default-a",
+          "onClaim": [
+            "earn-shards %player% 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|3000"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-75-premium-a",
+          "onClaim": [
+            "give-tnt %player% 30"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.tnt|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 76,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-76-default",
+          "onClaim": [
+            "give-key %player% RUNE 5"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|5"
+          }
+        },
+        {
+          "id": "level-76-default-2",
+          "onClaim": [
+            "give-key %player% PET 15"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
+          }
+        },
+        {
+          "id": "level-76-default-3",
+          "onClaim": [
+            "give-key %player% DEFAULT 30"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-76-premium",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
+          }
+        },
+        {
+          "id": "level-76-premium-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 77,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-77-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 2400",
+            "random-money %player% 299.8 299.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.minutes|!|40)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|300)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-77-premium",
+          "onClaim": [
+            "give-save-crystals %player% 5",
+            "earn-bits %player% 300"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.save-crystal|!|5)|!|(i18n.treasures.battlepass.reward.bits|!|300)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 78,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-78-default",
+          "onClaim": [
+            "give-save-crystals %player% 5"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/save_crystal.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|5"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-78-premium",
+          "onClaim": [
+            "give-key %player% PET 15"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
+          }
+        }
+      ]
+    },
+    {
+      "level": 79,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-79-default",
+          "onClaim": [
+            "random-money %player% 99.8 99.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|100"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-79-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
+          }
+        },
+        {
+          "id": "level-79-premium-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|50"
+          }
+        },
+        {
+          "id": "level-79-premium-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
+          }
+        },
+        {
+          "id": "level-79-premium-4",
+          "onClaim": [
+            "local-booster %player% EXP 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-80-default-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-80-premium-a",
+          "onClaim": [
+            "give-key %player% DEFAULT 30"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
+          }
+        }
+      ]
+    },
+    {
+      "level": 81,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-81-default",
+          "onClaim": [
+            "give-key %player% PET 15"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-81-premium",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 82,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-82-default",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-82-premium",
+          "onClaim": [
+            "random-money %player% 99.8 99.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|100"
+          }
+        }
+      ]
+    },
+    {
+      "level": 83,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-83-default",
+          "onClaim": [
+            "give-tnt %player% 50"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "TNT"
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.tnt|!|50"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-83-premium",
+          "onClaim": [
+            "give-key %player% PET 15"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
+          }
+        },
+        {
+          "id": "level-83-premium-2",
+          "onClaim": [
+            "give-key %player% RUNE 5"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|5"
+          }
+        }
+      ]
+    },
+    {
+      "level": 84,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-84-default-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
+          }
+        },
+        {
+          "id": "level-84-default-a-2",
+          "onClaim": [
+            "local-booster %player% EXP 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-84-premium-a",
+          "onClaim": [
+            "earn-bits %player% 300"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bits|!|300"
+          }
+        }
+      ]
+    },
+    {
+      "level": 85,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-85-default",
+          "onClaim": [
+            "give-incident-points %player% 25"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/incident_points.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|25"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-85-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 86,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-86-default",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-86-default-2",
+          "onClaim": [
+            "give-key %player% PET 21"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
+          }
+        },
+        {
+          "id": "level-86-default-3",
+          "onClaim": [
+            "give-key %player% RUNE 7"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
+          }
+        },
+        {
+          "id": "level-86-default-4",
+          "onClaim": [
+            "give-key %player% DEFAULT 42"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-86-premium",
+          "onClaim": [
+            "earn-shards %player% 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|3000"
+          }
+        }
+      ]
+    },
+    {
+      "level": 87,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-87-default",
+          "onClaim": [
+            "local-booster %player% EXP 2 2400",
+            "earn-bits %player% 1000"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.experience.minutes|!|40)|!|(i18n.treasures.battlepass.reward.bits|!|1000)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-87-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3000",
+            "random-money %player% 349.8 349.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.minutes|!|50)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|350)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 88,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-88-default",
+          "onClaim": [
+            "local-booster %player% EXP 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-88-premium",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-88-premium-2",
+          "onClaim": [
+            "give-key %player% PET 21"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
+          }
+        },
+        {
+          "id": "level-88-premium-3",
+          "onClaim": [
+            "give-key %player% RUNE 7"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
+          }
+        },
+        {
+          "id": "level-88-premium-4",
+          "onClaim": [
+            "give-key %player% DEFAULT 42"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
+          }
+        }
+      ]
+    },
+    {
+      "level": 89,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-89-default",
+          "onClaim": [
+            "give-key %player% RUNE 7"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-89-premium",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 90,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-90-default-a",
+          "onClaim": [
+            "earn-shards %player% 3500"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/storage.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|3500"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-90-premium-a",
+          "onClaim": [
+            "random-money %player% 99.8 99.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|100"
+          }
+        }
+      ]
+    },
+    {
+      "level": 91,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-91-default",
+          "onClaim": [
+            "give-key %player% DEFAULT 42"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-91-premium",
+          "onClaim": [
+            "local-booster %player% EXP 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
+          }
+        },
+        {
+          "id": "level-91-premium-2",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
+          }
+        }
+      ]
+    },
+    {
+      "level": 92,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-92-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3000"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-92-premium",
+          "onClaim": [
+            "give-key %player% RUNE 7"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
+          }
+        }
+      ]
+    },
+    {
+      "level": 93,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-93-default",
+          "onClaim": [
+            "earn-bits %player% 400"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "other": "gem_amethyst"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bits|!|400"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-93-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.hours|!|1"
+          }
+        },
+        {
+          "id": "level-93-premium-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.hours|!|1"
+          }
+        },
+        {
+          "id": "level-93-premium-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.hours|!|1"
+          }
+        },
+        {
+          "id": "level-93-premium-4",
+          "onClaim": [
+            "local-booster %player% EXP 2 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.hours|!|1"
+          }
+        }
+      ]
+    },
+    {
+      "level": 94,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-94-default",
+          "onClaim": [
+            "random-money %player% 149.8 149.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "donate"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|150"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-94-premium",
+          "onClaim": [
+            "give-key %player% RUNE 7"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
+          }
+        },
+        {
+          "id": "level-94-premium-2",
+          "onClaim": [
+            "give-key %player% DEFAULT 42"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
+          }
+        }
+      ]
+    },
+    {
+      "level": 95,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-95-default-a",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/money_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.money.hours|!|1"
+          }
+        },
+        {
+          "id": "level-95-default-a-2",
+          "onClaim": [
+            "local-booster %player% BLOCKS 2 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/blocks_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.hours|!|1"
+          }
+        },
+        {
+          "id": "level-95-default-a-3",
+          "onClaim": [
+            "local-booster %player% TREASURES 2 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/treasures_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.hours|!|1"
+          }
+        },
+        {
+          "id": "level-95-default-a-4",
+          "onClaim": [
+            "local-booster %player% EXP 2 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.hours|!|1"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-95-premium-a",
+          "onClaim": [
+            "give-key %player% PET 21"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
+          }
+        }
+      ]
+    },
+    {
+      "level": 96,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-96-default",
+          "onClaim": [
+            "give-key %player% PET 21"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
+          }
+        },
+        {
+          "id": "level-96-default-2",
+          "onClaim": [
+            "give-key %player% RUNE 7"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-96-premium",
+          "onClaim": [
+            "local-booster %player% EXP 2 3600"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/exp_booster.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.booster.experience.hours|!|1"
+          }
+        }
+      ]
+    },
+    {
+      "level": 97,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-97-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3600",
+            "random-money %player% 499.8 499.9 1"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.hours|!|1)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|500)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-97-premium",
+          "onClaim": [
+            "earn-shards %player% 5000",
+            "earn-bits %player% 500"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.shards|!|5000)|!|(i18n.treasures.battlepass.reward.bits|!|500)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 98,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-98-default",
+          "onClaim": [
+            "give-key %player% DEFAULT 42"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-98-premium",
+          "onClaim": [
+            "give-key %player% TITLE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/purple_cristal_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
+          }
+        },
+        {
+          "id": "level-98-premium-2",
+          "onClaim": [
+            "give-key %player% PET 21"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
+          }
+        },
+        {
+          "id": "level-98-premium-3",
+          "onClaim": [
+            "give-key %player% RUNE 7"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
+          }
+        }
+      ]
+    },
+    {
+      "level": 99,
+      "type": "DIRECT",
+      "defaultRewards": [
+        {
+          "id": "level-99-default",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3600",
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "give-key %player% TITLE 1",
+            "give-key %player% PET 21",
+            "give-key %player% RUNE 7",
+            "give-key %player% DEFAULT 42"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.5|!|(i18n.treasures.battlepass.reward.booster.all.hours|!|1)|!|(i18n.treasures.battlepass.reward.key.default|!|42)|!|(i18n.treasures.battlepass.reward.key.pet|!|21)|!|(i18n.treasures.battlepass.reward.key.rune|!|7)|!|(i18n.treasures.battlepass.reward.key.title|!|1)"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-99-premium",
+          "onClaim": [
+            "local-booster %player% MONEY 2 3600",
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "give-key %player% TITLE 1",
+            "give-key %player% PET 21",
+            "give-key %player% RUNE 7",
+            "give-key %player% DEFAULT 42"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "gift"
+              }
+            }
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.bundle.5|!|(i18n.treasures.battlepass.reward.booster.all.hours|!|1)|!|(i18n.treasures.battlepass.reward.key.default|!|42)|!|(i18n.treasures.battlepass.reward.key.pet|!|21)|!|(i18n.treasures.battlepass.reward.key.rune|!|7)|!|(i18n.treasures.battlepass.reward.key.title|!|1)"
+          }
+        }
+      ]
+    },
+    {
+      "level": 100,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-100-default",
+          "onClaim": [
+            "tell %player% Claimed level 100 default reward"
+          ],
+          "icon": {
+            "type": "player_personalization",
+            "modelId": "b01947b6-95a0-4e8e-91e9-691ef1aa0ef2"
+          },
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.personalization.pocoyo"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-100-premium",
+          "onClaim": [
+            "tell %player% Claimed level 100 premium reward"
+          ],
+          "icon": {
+            "type": "player_personalization",
+            "modelId": "2373e12a-ebb5-4aa8-8ec4-3c8397c5df39"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "i18n.treasures.battlepass.reward.personalization.pocket-pocoyo"
+          }
+        }
+      ]
+    }
+  ],
+  "questCategories": [
+    {
+      "id": "daily",
+      "refreshPolicy": {
+        "anchor": "2026-08-01T06:00:00",
+        "timeZone": "Europe/Moscow",
+        "interval": "P1D"
+      },
+      "rerollPolicy": {
+        "maxRerollsPerCycle": 1
+      },
+      "defaultQuestMapping": {
+        "I": 4,
+        "II": 2,
+        "III": 1,
+        "IV": 1
+      },
+      "questPools": {
+        "I": [
+          {
+            "id": "I-break-blocks-3000",
+            "type": "BREAK_BLOCK",
+            "goal": 3000,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|3000"
+            },
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|3000"
+          },
+          {
+            "id": "I-break-blocks-3500",
+            "type": "BREAK_BLOCK",
+            "goal": 3500,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|3500"
+            },
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|3500"
+          },
+          {
+            "id": "I-break-blocks-4000",
+            "type": "BREAK_BLOCK",
+            "goal": 4000,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|4000"
+            },
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|4000"
+          },
+          {
+            "id": "I-break-blocks-4500",
+            "type": "BREAK_BLOCK",
+            "goal": 4500,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|4500"
+            },
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|4500"
+          },
+          {
+            "id": "I-find-treasures-100",
+            "type": "FIND_TREASURE",
+            "goal": 100,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|100"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|100"
+          },
+          {
+            "id": "I-find-treasures-105",
+            "type": "FIND_TREASURE",
+            "goal": 105,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|105"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|105"
+          },
+          {
+            "id": "I-find-treasures-110",
+            "type": "FIND_TREASURE",
+            "goal": 110,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|110"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|110"
+          },
+          {
+            "id": "I-find-treasures-115",
+            "type": "FIND_TREASURE",
+            "goal": 115,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|115"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|115"
+          },
+          {
+            "id": "I-deliver-treasure-race-cargo-15",
+            "type": "DELIVER_TREASURE_RACE_CARGO",
+            "goal": 15,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|15"
+            },
+            "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|15"
+          },
+          {
+            "id": "I-deliver-treasure-race-cargo-16",
+            "type": "DELIVER_TREASURE_RACE_CARGO",
+            "goal": 16,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|16"
+            },
+            "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|16"
+          },
+          {
+            "id": "I-deliver-treasure-race-cargo-17",
+            "type": "DELIVER_TREASURE_RACE_CARGO",
+            "goal": 17,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|17"
+            },
+            "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|17"
+          },
+          {
+            "id": "I-use-tnt-50",
+            "type": "USE_TNT",
+            "goal": 50,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.use-tnt|!|50"
+            },
+            "description": "i18n.treasures.battlepass.quest.use-tnt|!|50"
+          },
+          {
+            "id": "I-use-tnt-55",
+            "type": "USE_TNT",
+            "goal": 55,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.use-tnt|!|55"
+            },
+            "description": "i18n.treasures.battlepass.quest.use-tnt|!|55"
+          },
+          {
+            "id": "I-use-tnt-60",
+            "type": "USE_TNT",
+            "goal": 60,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.use-tnt|!|60"
+            },
+            "description": "i18n.treasures.battlepass.quest.use-tnt|!|60"
+          },
+          {
+            "id": "I-use-tnt-65",
+            "type": "USE_TNT",
+            "goal": 65,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.use-tnt|!|65"
+            },
+            "description": "i18n.treasures.battlepass.quest.use-tnt|!|65"
+          },
+          {
+            "id": "I-open-pet-lootbox-10",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 10,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|10"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|10"
+          },
+          {
+            "id": "I-open-pet-lootbox-11",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 11,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|11"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|11"
+          },
+          {
+            "id": "I-open-pet-lootbox-12",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 12,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|12"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|12"
+          },
+          {
+            "id": "I-open-pet-lootbox-13",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 13,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|13"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|13"
+          },
+          {
+            "id": "I-open-rune-lootbox-8",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 8,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|8"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|8"
+          },
+          {
+            "id": "I-open-rune-lootbox-9",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 9,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|9"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|9"
+          },
+          {
+            "id": "I-open-rune-lootbox-10",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 10,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|10"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|10"
+          },
+          {
+            "id": "I-open-default-lootbox-50",
+            "type": "OPEN_DEFAULT_LOOTBOX",
+            "goal": 50,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|50"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|50"
+          },
+          {
+            "id": "I-open-default-lootbox-60",
+            "type": "OPEN_DEFAULT_LOOTBOX",
+            "goal": 60,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|60"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|60"
+          },
+          {
+            "id": "I-open-default-lootbox-70",
+            "type": "OPEN_DEFAULT_LOOTBOX",
+            "goal": 70,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|70"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|70"
+          },
+          {
+            "id": "I-open-default-lootbox-80",
+            "type": "OPEN_DEFAULT_LOOTBOX",
+            "goal": 80,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|80"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|80"
+          },
+          {
+            "id": "I-drop-common-pet-8",
+            "type": "DROP_COMMON_PET",
+            "goal": 8,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|8"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|8"
+          },
+          {
+            "id": "I-drop-common-pet-9",
+            "type": "DROP_COMMON_PET",
+            "goal": 9,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|9"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|9"
+          },
+          {
+            "id": "I-drop-common-pet-10",
+            "type": "DROP_COMMON_PET",
+            "goal": 10,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|10"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|10"
+          },
+          {
+            "id": "I-earn-mining-battle-points-20000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 20000,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|20000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|20000"
+          },
+          {
+            "id": "I-earn-mining-battle-points-22000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 22000,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|22000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|22000"
+          },
+          {
+            "id": "I-earn-mining-battle-points-24000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 24000,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|24000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|24000"
+          },
+          {
+            "id": "I-earn-mining-battle-points-26000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 26000,
+            "rewardExperience": 300,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|26000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|26000"
+          }
+        ],
+        "II": [
+          {
+            "id": "II-earn-shards-15000",
+            "type": "EARN_SHARDS",
+            "goal": 15000,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|15000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|15000"
+          },
+          {
+            "id": "II-earn-shards-16000",
+            "type": "EARN_SHARDS",
+            "goal": 16000,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|16000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|16000"
+          },
+          {
+            "id": "II-earn-shards-18000",
+            "type": "EARN_SHARDS",
+            "goal": 18000,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|18000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|18000"
+          },
+          {
+            "id": "II-earn-shards-20000",
+            "type": "EARN_SHARDS",
+            "goal": 20000,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|20000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|20000"
+          },
+          {
+            "id": "II-upgrade-pet-7",
+            "type": "UPGRADE_PET",
+            "goal": 7,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|7"
+            },
+            "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|7"
+          },
+          {
+            "id": "II-upgrade-pet-8",
+            "type": "UPGRADE_PET",
+            "goal": 8,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|8"
+            },
+            "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|8"
+          },
+          {
+            "id": "II-upgrade-pet-9",
+            "type": "UPGRADE_PET",
+            "goal": 9,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|9"
+            },
+            "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|9"
+          },
+          {
+            "id": "II-drop-rare-pet-5",
+            "type": "DROP_RARE_PET",
+            "goal": 5,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|5"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|5"
+          },
+          {
+            "id": "II-drop-rare-pet-6",
+            "type": "DROP_RARE_PET",
+            "goal": 6,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|6"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|6"
+          },
+          {
+            "id": "II-drop-rare-pet-7",
+            "type": "DROP_RARE_PET",
+            "goal": 7,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|7"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|7"
+          },
+          {
+            "id": "II-take-event-top-50-3",
+            "type": "TAKE_EVENT_TOP_3",
+            "goal": 3,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.take-event-top-3|!|3"
+            },
+            "description": "i18n.treasures.battlepass.quest.take-event-top-3|!|3"
+          },
+          {
+            "id": "II-find-expedition-treasure-5",
+            "type": "FIND_EXPEDITION_TREASURE",
+            "goal": 5,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|5"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|5"
+          },
+          {
+            "id": "II-find-expedition-treasure-6",
+            "type": "FIND_EXPEDITION_TREASURE",
+            "goal": 6,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|6"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|6"
+          },
+          {
+            "id": "II-earn-mining-battle-points-50000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 50000,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|50000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|50000"
+          },
+          {
+            "id": "II-earn-mining-battle-points-55000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 55000,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|55000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|55000"
+          },
+          {
+            "id": "II-earn-mining-battle-points-60000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 60000,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|60000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|60000"
+          },
+          {
+            "id": "II-earn-mining-battle-points-65000",
+            "type": "EARN_MINING_BATTLE_POINTS",
+            "goal": 65000,
+            "rewardExperience": 700,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|65000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|65000"
+          }
+        ],
+        "III": [
+          {
+            "id": "III-drop-epic-rune-5",
+            "type": "DROP_EPIC_RUNE",
+            "goal": 5,
+            "rewardExperience": 1625,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-epic-rune|!|5"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-epic-rune|!|5"
+          },
+          {
+            "id": "III-drop-epic-rune-6",
+            "type": "DROP_EPIC_RUNE",
+            "goal": 6,
+            "rewardExperience": 1625,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-epic-rune|!|6"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-epic-rune|!|6"
+          },
+          {
+            "id": "III-drop-epic-pet-7",
+            "type": "DROP_EPIC_PET",
+            "goal": 7,
+            "rewardExperience": 1625,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-epic-pet|!|7"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-epic-pet|!|7"
+          },
+          {
+            "id": "III-drop-epic-pet-8",
+            "type": "DROP_EPIC_PET",
+            "goal": 8,
+            "rewardExperience": 1625,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-epic-pet|!|8"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-epic-pet|!|8"
+          },
+          {
+            "id": "III-dig-mining-battle-secret-block-1",
+            "type": "DIG_MINING_BATTLE_SECRET_BLOCK",
+            "goal": 1,
+            "rewardExperience": 1625,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.dig-mining-battle-secret-block|!|1"
+            },
+            "description": "i18n.treasures.battlepass.quest.dig-mining-battle-secret-block|!|1"
+          },
+          {
+            "id": "III-break-blocks-15000",
+            "type": "BREAK_BLOCK",
+            "goal": 15000,
+            "rewardExperience": 1625,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|15000"
+            },
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|15000"
+          },
+          {
+            "id": "III-enchant-pickaxe-40",
+            "type": "ENCHANT_PICKAXE",
+            "goal": 40,
+            "rewardExperience": 1625,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.enchant-pickaxe|!|40"
+            },
+            "description": "i18n.treasures.battlepass.quest.enchant-pickaxe|!|40"
+          },
+          {
+            "id": "III-open-rune-lootbox-20",
+            "type": "OPEN_RUNE_LOOTBOX",
+            "goal": 20,
+            "rewardExperience": 1625,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|20"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|20"
+          }
+        ],
+        "IV": [
+          {
+            "id": "IV-drop-legendary-rune-2",
+            "type": "DROP_LEGENDARY_RUNE",
+            "goal": 2,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-rune|!|2"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-rune|!|2"
+          },
+          {
+            "id": "IV-drop-legendary-rune-3",
+            "type": "DROP_LEGENDARY_RUNE",
+            "goal": 3,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-rune|!|3"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-rune|!|3"
+          },
+          {
+            "id": "IV-drop-legendary-pet-7",
+            "type": "DROP_LEGENDARY_PET",
+            "goal": 7,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|7"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|7"
+          },
+          {
+            "id": "IV-drop-legendary-pet-8",
+            "type": "DROP_LEGENDARY_PET",
+            "goal": 8,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|8"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|8"
+          },
+          {
+            "id": "IV-drop-legendary-pet-9",
+            "type": "DROP_LEGENDARY_PET",
+            "goal": 9,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|9"
+            },
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|9"
+          },
+          {
+            "id": "IV-find-miner-cargo-1",
+            "type": "FIND_MINER_CARGO",
+            "goal": 1,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-miner-cargo|!|1"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-miner-cargo|!|1"
+          },
+          {
+            "id": "IV-find-treasures-1000",
+            "type": "FIND_TREASURE",
+            "goal": 1000,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|1000"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|1000"
+          },
+          {
+            "id": "IV-find-treasures-1500",
+            "type": "FIND_TREASURE",
+            "goal": 1500,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|1500"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|1500"
+          },
+          {
+            "id": "IV-find-expedition-treasure-15",
+            "type": "FIND_EXPEDITION_TREASURE",
+            "goal": 15,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|15"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|15"
+          },
+          {
+            "id": "IV-find-expedition-treasure-17",
+            "type": "FIND_EXPEDITION_TREASURE",
+            "goal": 17,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|17"
+            },
+            "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|17"
+          },
+          {
+            "id": "IV-open-pet-lootbox-40",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 40,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|40"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|40"
+          },
+          {
+            "id": "IV-open-pet-lootbox-45",
+            "type": "OPEN_PET_LOOTBOX",
+            "goal": 45,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|45"
+            },
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|45"
+          },
+          {
+            "id": "IV-earn-shards-50000",
+            "type": "EARN_SHARDS",
+            "goal": 50000,
+            "rewardExperience": 1925,
+            "tooltip": {
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|50000"
+            },
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|50000"
+          }
+        ]
+      },
+      "displayName": "treasures.battlepass.quests.daily.title",
+      "premiumQuestMapping": {
+        "I": 5,
+        "II": 3,
+        "III": 1,
+        "IV": 1
+      }
+    }
+  ],
+  "levelShareMessage": "",
+  "ignoreServiceDiscount": true,
+  "purchaseModalDescription": "treasures.battlepass.purchase-modal.description",
+  "giftPrice": {
+    "basePrice": 499,
+    "discountPercent": 10
+  },
+  "levelSkips": [
+    {
+      "level": 1,
+      "price": {
+        "basePrice": 0
+      }
+    },
+    {
+      "level": 2,
+      "price": {
+        "basePrice": 22,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 3,
+      "price": {
+        "basePrice": 24,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 4,
+      "price": {
+        "basePrice": 26,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 5,
+      "price": {
+        "basePrice": 28,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 6,
+      "price": {
+        "basePrice": 30,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 7,
+      "price": {
+        "basePrice": 32,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 8,
+      "price": {
+        "basePrice": 34,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 9,
+      "price": {
+        "basePrice": 36,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 10,
+      "price": {
+        "basePrice": 38,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 11,
+      "price": {
+        "basePrice": 40,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 12,
+      "price": {
+        "basePrice": 42,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 13,
+      "price": {
+        "basePrice": 44,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 14,
+      "price": {
+        "basePrice": 46,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 15,
+      "price": {
+        "basePrice": 48,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 16,
+      "price": {
+        "basePrice": 50,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 17,
+      "price": {
+        "basePrice": 52,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 18,
+      "price": {
+        "basePrice": 54,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 19,
+      "price": {
+        "basePrice": 56,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 20,
+      "price": {
+        "basePrice": 58,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 21,
+      "price": {
+        "basePrice": 60,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 22,
+      "price": {
+        "basePrice": 62,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 23,
+      "price": {
+        "basePrice": 64,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 24,
+      "price": {
+        "basePrice": 66,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 25,
+      "price": {
+        "basePrice": 68,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 26,
+      "price": {
+        "basePrice": 71,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 27,
+      "price": {
+        "basePrice": 73,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 28,
+      "price": {
+        "basePrice": 75,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 29,
+      "price": {
+        "basePrice": 77,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 30,
+      "price": {
+        "basePrice": 79,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 31,
+      "price": {
+        "basePrice": 81,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 32,
+      "price": {
+        "basePrice": 83,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 33,
+      "price": {
+        "basePrice": 85,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 34,
+      "price": {
+        "basePrice": 87,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 35,
+      "price": {
+        "basePrice": 89,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 36,
+      "price": {
+        "basePrice": 91,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 37,
+      "price": {
+        "basePrice": 93,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 38,
+      "price": {
+        "basePrice": 95,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 39,
+      "price": {
+        "basePrice": 97,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 40,
+      "price": {
+        "basePrice": 99,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 41,
+      "price": {
+        "basePrice": 101,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 42,
+      "price": {
+        "basePrice": 103,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 43,
+      "price": {
+        "basePrice": 105,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 44,
+      "price": {
+        "basePrice": 107,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 45,
+      "price": {
+        "basePrice": 109,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 46,
+      "price": {
+        "basePrice": 111,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 47,
+      "price": {
+        "basePrice": 113,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 48,
+      "price": {
+        "basePrice": 115,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 49,
+      "price": {
+        "basePrice": 117,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 50,
+      "price": {
+        "basePrice": 119,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 51,
+      "price": {
+        "basePrice": 121,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 52,
+      "price": {
+        "basePrice": 123,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 53,
+      "price": {
+        "basePrice": 125,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 54,
+      "price": {
+        "basePrice": 127,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 55,
+      "price": {
+        "basePrice": 129,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 56,
+      "price": {
+        "basePrice": 131,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 57,
+      "price": {
+        "basePrice": 133,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 58,
+      "price": {
+        "basePrice": 135,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 59,
+      "price": {
+        "basePrice": 137,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 60,
+      "price": {
+        "basePrice": 139,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 61,
+      "price": {
+        "basePrice": 141,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 62,
+      "price": {
+        "basePrice": 143,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 63,
+      "price": {
+        "basePrice": 145,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 64,
+      "price": {
+        "basePrice": 147,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 65,
+      "price": {
+        "basePrice": 149,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 66,
+      "price": {
+        "basePrice": 151,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 67,
+      "price": {
+        "basePrice": 153,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 68,
+      "price": {
+        "basePrice": 155,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 69,
+      "price": {
+        "basePrice": 157,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 70,
+      "price": {
+        "basePrice": 159,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 71,
+      "price": {
+        "basePrice": 161,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 72,
+      "price": {
+        "basePrice": 163,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 73,
+      "price": {
+        "basePrice": 165,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 74,
+      "price": {
+        "basePrice": 167,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 75,
+      "price": {
+        "basePrice": 169,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 76,
+      "price": {
+        "basePrice": 172,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 77,
+      "price": {
+        "basePrice": 174,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 78,
+      "price": {
+        "basePrice": 176,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 79,
+      "price": {
+        "basePrice": 178,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 80,
+      "price": {
+        "basePrice": 180,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 81,
+      "price": {
+        "basePrice": 182,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 82,
+      "price": {
+        "basePrice": 184,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 83,
+      "price": {
+        "basePrice": 186,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 84,
+      "price": {
+        "basePrice": 188,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 85,
+      "price": {
+        "basePrice": 190,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 86,
+      "price": {
+        "basePrice": 192,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 87,
+      "price": {
+        "basePrice": 194,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 88,
+      "price": {
+        "basePrice": 196,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 89,
+      "price": {
+        "basePrice": 198,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 90,
+      "price": {
+        "basePrice": 200,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 91,
+      "price": {
+        "basePrice": 202,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 92,
+      "price": {
+        "basePrice": 204,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 93,
+      "price": {
+        "basePrice": 206,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 94,
+      "price": {
+        "basePrice": 208,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 95,
+      "price": {
+        "basePrice": 210,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 96,
+      "price": {
+        "basePrice": 212,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 97,
+      "price": {
+        "basePrice": 214,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 98,
+      "price": {
+        "basePrice": 216,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 99,
+      "price": {
+        "basePrice": 218,
+        "discountPercent": 20
+      }
+    },
+    {
+      "level": 100,
+      "price": {
+        "basePrice": 220,
+        "discountPercent": 20
+      }
+    }
+  ]
+}

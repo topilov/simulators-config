@@ -1,6 +1,21 @@
 {
   "chests": {
     "SILVER": {
+      "appearance": {
+        "type": "item_stack",
+        "close": {
+          "type": "CLAY_BALL",
+          "data": {
+            "other": "silver_chest"
+          }
+        },
+        "open": {
+          "type": "CLAY_BALL",
+          "data": {
+            "other": "silver_chest_open"
+          }
+        }
+      },
       "alert": {
         "spawn": {
           "status": false
@@ -11,6 +26,21 @@
       }
     },
     "GOLDEN": {
+      "appearance": {
+        "type": "item_stack",
+        "close": {
+          "type": "CLAY_BALL",
+          "data": {
+            "other": "golden_chest"
+          }
+        },
+        "open": {
+          "type": "CLAY_BALL",
+          "data": {
+            "other": "golden_chest_open"
+          }
+        }
+      },
       "alert": {
         "spawn": {
           "status": false
@@ -21,6 +51,21 @@
       }
     },
     "CRYSTAL": {
+      "appearance": {
+        "type": "item_stack",
+        "close": {
+          "type": "CLAY_BALL",
+          "data": {
+            "other": "crystal_chest"
+          }
+        },
+        "open": {
+          "type": "CLAY_BALL",
+          "data": {
+            "other": "crystal_chest_open"
+          }
+        }
+      },
       "alert": {
         "spawn": {
           "status": false
@@ -31,6 +76,21 @@
       }
     },
     "LEGENDARY": {
+      "appearance": {
+        "type": "item_stack",
+        "close": {
+          "type": "CLAY_BALL",
+          "data": {
+            "other": "legendary_chest"
+          }
+        },
+        "open": {
+          "type": "CLAY_BALL",
+          "data": {
+            "other": "legendary_chest_open"
+          }
+        }
+      },
       "alert": {
         "spawn": {
           "status": true,
@@ -39,6 +99,28 @@
         "steal": {
           "status": true,
           "message": "treasures.chest.legendary.steal.message"
+        }
+      }
+    },
+    "CARGO": {
+      "appearance": {
+        "type": "bedrock_model",
+        "modelPath": "models/enchanted.model",
+        "idle": {
+          "animation": "shake",
+          "speed": 1.0
+        },
+        "open": {
+          "animation": "open",
+          "speed": 1.0
+        }
+      },
+      "alert": {
+        "spawn": {
+          "status": false
+        },
+        "steal": {
+          "status": false
         }
       }
     }

@@ -2,26 +2,26 @@
   "main": {
     "banner": {
       "texture": "banner.png",
-      "title": "Telegram канал Симуляторов",
-      "description": "Там все новости и обновления!",
+      "title": "treasures.menu.main.banner.title",
+      "description": "treasures.menu.main.banner.description",
       "buttons": [
         {
-          "name": "katana.menu.main.banner.buttons.telegram.name",
+          "name": "treasures.menu.main.banner.buttons.telegram.name",
           "openUrl": "https://t.me/crisimulators"
         },
         {
-          "name": "katana.menu.main.banner.buttons.discord.name",
+          "name": "treasures.menu.main.banner.buttons.discord.name",
           "openUrl": "https://discord.gg/4PQEz3H26g"
         }
       ]
     },
     "elements": [
       {
-        "icon": "equipment.png",
-        "title": "treasures.menu.main.buttons.equipment.title",
+        "icon": "battlepass.png",
+        "title": "treasures.menu.main.buttons.battlepass.title",
         "weight": 298,
         "onSelect": [
-          "sudo %player% equipment"
+          "sudo %player% battlepass"
         ]
       },
       {

@@ -1,0 +1,2860 @@
+{
+  "schedule": {
+    "checkEverySeconds": 600,
+    "spawnChance": 5.0
+  },
+  "chest": {
+    "type": "CARGO",
+    "lifetimeSeconds": 540
+  },
+  "messages": {
+    "spawned": "treasures.cargo.message.spawned",
+    "claimed": "treasures.cargo.message.claimed"
+  },
+  "locations": {
+    "BEACH": {
+      "spawnArea": {
+        "name": "cargo",
+        "tag": ""
+      },
+      "rewards": [
+        {
+          "chance": 0.1,
+          "title": "treasures.cargo.reward.set-geological-lottery",
+          "commands": [
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|50",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|25",
+          "commands": [
+            "give-key %player% PET 25"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|20",
+          "commands": [
+            "give-key %player% PET 20"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|15",
+          "commands": [
+            "give-key %player% PET 15"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|10",
+          "commands": [
+            "give-key %player% PET 10"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|30",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|15",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|10",
+          "commands": [
+            "give-key %player% RUNE 10"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|7",
+          "commands": [
+            "give-key %player% RUNE 7"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|5",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.default|!|200",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.default|!|100",
+          "commands": [
+            "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|75",
+          "commands": [
+            "give-key %player% DEFAULT 75"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|50",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.default|!|25",
+          "commands": [
+            "give-key %player% DEFAULT 25"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% EXP 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.bits|!|3000",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.bits|!|1500",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|1000",
+          "commands": [
+            "earn-bits %player% 1000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|750",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.bits|!|500",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.shards|!|15000",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.shards|!|5000",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|2500",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|1500",
+          "commands": [
+            "morestat %player% add 1500 shards"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.shards|!|1000",
+          "commands": [
+            "morestat %player% add 1000 shards"
+          ]
+        }
+      ]
+    },
+    "HELL": {
+      "spawnArea": {
+        "name": "cargo",
+        "tag": ""
+      },
+      "rewards": [
+        {
+          "chance": 0.1,
+          "title": "treasures.cargo.reward.set-geological-lottery",
+          "commands": [
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|50",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|25",
+          "commands": [
+            "give-key %player% PET 25"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|20",
+          "commands": [
+            "give-key %player% PET 20"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|15",
+          "commands": [
+            "give-key %player% PET 15"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|10",
+          "commands": [
+            "give-key %player% PET 10"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|30",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|15",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|10",
+          "commands": [
+            "give-key %player% RUNE 10"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|7",
+          "commands": [
+            "give-key %player% RUNE 7"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|5",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.default|!|200",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.default|!|100",
+          "commands": [
+            "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|75",
+          "commands": [
+            "give-key %player% DEFAULT 75"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|50",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.default|!|25",
+          "commands": [
+            "give-key %player% DEFAULT 25"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% EXP 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.bits|!|3000",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.bits|!|1500",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|1000",
+          "commands": [
+            "earn-bits %player% 1000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|750",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.bits|!|500",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.shards|!|15000",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.shards|!|5000",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|2500",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|1500",
+          "commands": [
+            "morestat %player% add 1500 shards"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.shards|!|1000",
+          "commands": [
+            "morestat %player% add 1000 shards"
+          ]
+        }
+      ]
+    },
+    "FROZEN_CAVE": {
+      "spawnArea": {
+        "name": "cargo",
+        "tag": ""
+      },
+      "rewards": [
+        {
+          "chance": 0.1,
+          "title": "treasures.cargo.reward.set-geological-lottery",
+          "commands": [
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|50",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|25",
+          "commands": [
+            "give-key %player% PET 25"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|20",
+          "commands": [
+            "give-key %player% PET 20"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|15",
+          "commands": [
+            "give-key %player% PET 15"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|10",
+          "commands": [
+            "give-key %player% PET 10"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|30",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|15",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|10",
+          "commands": [
+            "give-key %player% RUNE 10"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|7",
+          "commands": [
+            "give-key %player% RUNE 7"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|5",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.default|!|200",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.default|!|100",
+          "commands": [
+            "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|75",
+          "commands": [
+            "give-key %player% DEFAULT 75"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|50",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.default|!|25",
+          "commands": [
+            "give-key %player% DEFAULT 25"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% EXP 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.bits|!|3000",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.bits|!|1500",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|1000",
+          "commands": [
+            "earn-bits %player% 1000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|750",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.bits|!|500",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.shards|!|15000",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.shards|!|5000",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|2500",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|1500",
+          "commands": [
+            "morestat %player% add 1500 shards"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.shards|!|1000",
+          "commands": [
+            "morestat %player% add 1000 shards"
+          ]
+        }
+      ]
+    },
+    "DESERT": {
+      "spawnArea": {
+        "name": "cargo",
+        "tag": ""
+      },
+      "rewards": [
+        {
+          "chance": 0.1,
+          "title": "treasures.cargo.reward.set-geological-lottery",
+          "commands": [
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|50",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|25",
+          "commands": [
+            "give-key %player% PET 25"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|20",
+          "commands": [
+            "give-key %player% PET 20"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|15",
+          "commands": [
+            "give-key %player% PET 15"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|10",
+          "commands": [
+            "give-key %player% PET 10"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|30",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|15",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|10",
+          "commands": [
+            "give-key %player% RUNE 10"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|7",
+          "commands": [
+            "give-key %player% RUNE 7"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|5",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.default|!|200",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.default|!|100",
+          "commands": [
+            "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|75",
+          "commands": [
+            "give-key %player% DEFAULT 75"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|50",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.default|!|25",
+          "commands": [
+            "give-key %player% DEFAULT 25"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% EXP 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.bits|!|3000",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.bits|!|1500",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|1000",
+          "commands": [
+            "earn-bits %player% 1000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|750",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.bits|!|500",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.shards|!|15000",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.shards|!|5000",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|2500",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|1500",
+          "commands": [
+            "morestat %player% add 1500 shards"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.shards|!|1000",
+          "commands": [
+            "morestat %player% add 1000 shards"
+          ]
+        }
+      ]
+    },
+    "CAVE": {
+      "spawnArea": {
+        "name": "cargo",
+        "tag": ""
+      },
+      "rewards": [
+        {
+          "chance": 0.1,
+          "title": "treasures.cargo.reward.set-geological-lottery",
+          "commands": [
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|50",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|25",
+          "commands": [
+            "give-key %player% PET 25"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|20",
+          "commands": [
+            "give-key %player% PET 20"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|15",
+          "commands": [
+            "give-key %player% PET 15"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|10",
+          "commands": [
+            "give-key %player% PET 10"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|30",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|15",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|10",
+          "commands": [
+            "give-key %player% RUNE 10"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|7",
+          "commands": [
+            "give-key %player% RUNE 7"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|5",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.default|!|200",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.default|!|100",
+          "commands": [
+            "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|75",
+          "commands": [
+            "give-key %player% DEFAULT 75"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|50",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.default|!|25",
+          "commands": [
+            "give-key %player% DEFAULT 25"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% EXP 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.bits|!|3000",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.bits|!|1500",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|1000",
+          "commands": [
+            "earn-bits %player% 1000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|750",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.bits|!|500",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.shards|!|15000",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.shards|!|5000",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|2500",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|1500",
+          "commands": [
+            "morestat %player% add 1500 shards"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.shards|!|1000",
+          "commands": [
+            "morestat %player% add 1000 shards"
+          ]
+        }
+      ]
+    },
+    "DARK_CASTLE": {
+      "spawnArea": {
+        "name": "cargo",
+        "tag": ""
+      },
+      "rewards": [
+        {
+          "chance": 0.1,
+          "title": "treasures.cargo.reward.set-geological-lottery",
+          "commands": [
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|50",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|25",
+          "commands": [
+            "give-key %player% PET 25"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|20",
+          "commands": [
+            "give-key %player% PET 20"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|15",
+          "commands": [
+            "give-key %player% PET 15"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|10",
+          "commands": [
+            "give-key %player% PET 10"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|30",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|15",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|10",
+          "commands": [
+            "give-key %player% RUNE 10"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|7",
+          "commands": [
+            "give-key %player% RUNE 7"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|5",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.default|!|200",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.default|!|100",
+          "commands": [
+            "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|75",
+          "commands": [
+            "give-key %player% DEFAULT 75"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|50",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.default|!|25",
+          "commands": [
+            "give-key %player% DEFAULT 25"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% EXP 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.bits|!|3000",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.bits|!|1500",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|1000",
+          "commands": [
+            "earn-bits %player% 1000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|750",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.bits|!|500",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.shards|!|15000",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.shards|!|5000",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|2500",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|1500",
+          "commands": [
+            "morestat %player% add 1500 shards"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.shards|!|1000",
+          "commands": [
+            "morestat %player% add 1000 shards"
+          ]
+        }
+      ]
+    },
+    "EDGE": {
+      "spawnArea": {
+        "name": "cargo",
+        "tag": ""
+      },
+      "rewards": [
+        {
+          "chance": 0.1,
+          "title": "treasures.cargo.reward.set-geological-lottery",
+          "commands": [
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|50",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|25",
+          "commands": [
+            "give-key %player% PET 25"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|20",
+          "commands": [
+            "give-key %player% PET 20"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|15",
+          "commands": [
+            "give-key %player% PET 15"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|10",
+          "commands": [
+            "give-key %player% PET 10"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|30",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|15",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|10",
+          "commands": [
+            "give-key %player% RUNE 10"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|7",
+          "commands": [
+            "give-key %player% RUNE 7"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|5",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.default|!|200",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.default|!|100",
+          "commands": [
+            "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|75",
+          "commands": [
+            "give-key %player% DEFAULT 75"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|50",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.default|!|25",
+          "commands": [
+            "give-key %player% DEFAULT 25"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% EXP 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.bits|!|3000",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.bits|!|1500",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|1000",
+          "commands": [
+            "earn-bits %player% 1000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|750",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.bits|!|500",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.shards|!|15000",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.shards|!|5000",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|2500",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|1500",
+          "commands": [
+            "morestat %player% add 1500 shards"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.shards|!|1000",
+          "commands": [
+            "morestat %player% add 1000 shards"
+          ]
+        }
+      ]
+    },
+    "GATES_OF_HELL": {
+      "spawnArea": {
+        "name": "cargo",
+        "tag": ""
+      },
+      "rewards": [
+        {
+          "chance": 0.1,
+          "title": "treasures.cargo.reward.set-geological-lottery",
+          "commands": [
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|50",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|25",
+          "commands": [
+            "give-key %player% PET 25"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|20",
+          "commands": [
+            "give-key %player% PET 20"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|15",
+          "commands": [
+            "give-key %player% PET 15"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|10",
+          "commands": [
+            "give-key %player% PET 10"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|30",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|15",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|10",
+          "commands": [
+            "give-key %player% RUNE 10"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|7",
+          "commands": [
+            "give-key %player% RUNE 7"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|5",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.default|!|200",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.default|!|100",
+          "commands": [
+            "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|75",
+          "commands": [
+            "give-key %player% DEFAULT 75"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|50",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.default|!|25",
+          "commands": [
+            "give-key %player% DEFAULT 25"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% EXP 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.bits|!|3000",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.bits|!|1500",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|1000",
+          "commands": [
+            "earn-bits %player% 1000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|750",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.bits|!|500",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.shards|!|15000",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.shards|!|5000",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|2500",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|1500",
+          "commands": [
+            "morestat %player% add 1500 shards"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.shards|!|1000",
+          "commands": [
+            "morestat %player% add 1000 shards"
+          ]
+        }
+      ]
+    },
+    "CRYSTAL_RUINS": {
+      "spawnArea": {
+        "name": "cargo",
+        "tag": ""
+      },
+      "rewards": [
+        {
+          "chance": 0.1,
+          "title": "treasures.cargo.reward.set-geological-lottery",
+          "commands": [
+            "give-key %player% PET 30",
+            "give-key %player% RUNE 10",
+            "morestat %player% add 6000 shards",
+            "local-booster %player% BLOCKS 2 1800",
+            "local-booster %player% TREASURES 2 1800",
+            "local-booster %player% EXP 2 1800",
+            "local-booster %player% MONEY 2 1800"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|50",
+          "commands": [
+            "give-key %player% PET 50"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|25",
+          "commands": [
+            "give-key %player% PET 25"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|20",
+          "commands": [
+            "give-key %player% PET 20"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|15",
+          "commands": [
+            "give-key %player% PET 15"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.pet|!|10",
+          "commands": [
+            "give-key %player% PET 10"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|30",
+          "commands": [
+            "give-key %player% RUNE 30"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|15",
+          "commands": [
+            "give-key %player% RUNE 15"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|10",
+          "commands": [
+            "give-key %player% RUNE 10"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|7",
+          "commands": [
+            "give-key %player% RUNE 7"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.rune|!|5",
+          "commands": [
+            "give-key %player% RUNE 5"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.key.default|!|200",
+          "commands": [
+            "give-key %player% DEFAULT 200"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.key.default|!|100",
+          "commands": [
+            "give-key %player% DEFAULT 100"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|75",
+          "commands": [
+            "give-key %player% DEFAULT 75"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.key.default|!|50",
+          "commands": [
+            "give-key %player% DEFAULT 50"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.key.default|!|25",
+          "commands": [
+            "give-key %player% DEFAULT 25"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% EXP 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% EXP 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% EXP 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% EXP 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.experience|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% EXP 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.money|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.hour|!|1)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
+            "local-booster %player% MONEY 2 3600"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|20)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 1200",
+            "local-booster %player% TREASURES 2 1200",
+            "local-booster %player% EXP 2 1200",
+            "local-booster %player% MONEY 2 1200"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|15)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 900",
+            "local-booster %player% TREASURES 2 900",
+            "local-booster %player% EXP 2 900",
+            "local-booster %player% MONEY 2 900"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|10)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 600",
+            "local-booster %player% TREASURES 2 600",
+            "local-booster %player% EXP 2 600",
+            "local-booster %player% MONEY 2 600"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.local-booster.all|!|(i18n.treasures.cargo.duration.minutes|!|5)",
+          "commands": [
+            "local-booster %player% BLOCKS 2 300",
+            "local-booster %player% TREASURES 2 300",
+            "local-booster %player% EXP 2 300",
+            "local-booster %player% MONEY 2 300"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.bits|!|3000",
+          "commands": [
+            "earn-bits %player% 3000"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.bits|!|1500",
+          "commands": [
+            "earn-bits %player% 1500"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|1000",
+          "commands": [
+            "earn-bits %player% 1000"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.bits|!|750",
+          "commands": [
+            "earn-bits %player% 750"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.bits|!|500",
+          "commands": [
+            "earn-bits %player% 500"
+          ]
+        },
+        {
+          "chance": 0.35,
+          "title": "i18n.treasures.cargo.reward.shards|!|15000",
+          "commands": [
+            "morestat %player% add 15000 shards"
+          ]
+        },
+        {
+          "chance": 1.1,
+          "title": "i18n.treasures.cargo.reward.shards|!|5000",
+          "commands": [
+            "morestat %player% add 5000 shards"
+          ]
+        },
+        {
+          "chance": 2.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|2500",
+          "commands": [
+            "morestat %player% add 2500 shards"
+          ]
+        },
+        {
+          "chance": 4.0,
+          "title": "i18n.treasures.cargo.reward.shards|!|1500",
+          "commands": [
+            "morestat %player% add 1500 shards"
+          ]
+        },
+        {
+          "chance": 5.0375,
+          "title": "i18n.treasures.cargo.reward.shards|!|1000",
+          "commands": [
+            "morestat %player% add 1000 shards"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -5,30 +5,70 @@
       "title": "treasures.minigame.expedition.title",
       "description": "treasures.minigame.expedition.description",
       "spawnAt": [
-        "0:30:0",
-        "1:30:0",
-        "2:30:0",
-        "3:30:0",
-        "4:30:0",
-        "5:30:0",
-        "6:30:0",
-        "7:30:0",
-        "8:30:0",
-        "9:30:0",
-        "10:30:0",
-        "11:30:0",
-        "12:30:0",
-        "13:30:0",
-        "14:30:0",
-        "15:30:0",
-        "16:30:0",
-        "17:30:0",
-        "18:30:0",
-        "19:30:0",
-        "20:30:0",
-        "21:30:0",
-        "22:30:0",
-        "23:30:0"
+        "0:10:0",
+        "1:40:0",
+        "3:10:0",
+        "4:40:0",
+        "6:10:0",
+        "7:40:0",
+        "9:10:0",
+        "10:40:0",
+        "12:10:0",
+        "13:40:0",
+        "15:10:0",
+        "16:40:0",
+        "18:10:0",
+        "19:40:0",
+        "21:10:0",
+        "22:40:0"
+      ],
+      "awaitDuration": 10
+    },
+    "TREASURE_RACE": {
+      "texture": "treasure_race.png",
+      "title": "treasures.minigame.treasure_race.title",
+      "description": "treasures.minigame.treasure_race.description",
+      "spawnAt": [
+        "0:40:0",
+        "2:10:0",
+        "3:40:0",
+        "5:10:0",
+        "6:40:0",
+        "8:10:0",
+        "9:40:0",
+        "11:10:0",
+        "12:40:0",
+        "14:10:0",
+        "15:40:0",
+        "17:10:0",
+        "18:40:0",
+        "20:10:0",
+        "21:40:0",
+        "23:10:0"
+      ],
+      "awaitDuration": 10
+    },
+    "MINING_BATTLE": {
+      "texture": "mining_battle.png",
+      "title": "treasures.minigame.mining_battle.title",
+      "description": "treasures.minigame.mining_battle.description",
+      "spawnAt": [
+        "1:10:0",
+        "2:40:0",
+        "4:10:0",
+        "5:40:0",
+        "7:10:0",
+        "8:40:0",
+        "10:10:0",
+        "11:40:0",
+        "13:10:0",
+        "14:40:0",
+        "16:10:0",
+        "17:40:0",
+        "19:10:0",
+        "20:40:0",
+        "22:10:0",
+        "23:40:0"
       ],
       "awaitDuration": 10
     }
@@ -39,7 +79,7 @@
         "arenaStatus": "WAITING_PLAYERS",
         "duration": 15,
         "countdown": {
-          "title": "treasures.minigame.expedition.status.waiting.countdown.title"
+          "title": "treasures.minigame.common.status.waiting.countdown.title"
         },
         "description": {
           "title": "treasures.minigame.expedition.title",
@@ -48,14 +88,14 @@
       },
       "game": {
         "arenaStatus": "STARTED",
-        "duration": 120,
+        "duration": 180,
         "pointIndicator": {
           "type": "COMMON",
           "positions": 3,
           "valueName": "treasures.minigame.expedition.game.valuename"
         },
         "countdown": {
-          "title": "treasures.minigame.expedition.game.countdown.title"
+          "title": "treasures.minigame.common.game.countdown.title"
         }
       },
       "end": {
@@ -82,16 +122,1477 @@
         }
       ],
       "chest": {
-        "max": 30,
-        "chance": 0.05
+        "max": 100,
+        "chance": 0.075
+      },
+      "rewards": {
+        "participation": {
+          "simCoins": 2,
+          "shards": 500.0
+        },
+        "top": [
+          {
+            "simCoins": 3,
+            "shards": 500.0
+          },
+          {
+            "simCoins": 2,
+            "shards": 400.0
+          },
+          {
+            "simCoins": 1,
+            "shards": 300.0
+          }
+        ],
+        "byChest": {
+          "SILVER": {
+            "simCoins": 3,
+            "shards": 500.0
+          },
+          "GOLDEN": {
+            "simCoins": 3,
+            "shards": 600.0
+          },
+          "CRYSTAL": {
+            "simCoins": 4,
+            "shards": 700.0
+          },
+          "LEGENDARY": {
+            "simCoins": 5,
+            "shards": 850.0
+          },
+          "CARGO": {
+            "simCoins": 6,
+            "shards": 1000.0
+          }
+        }
       },
       "message": {
         "found": "treasures.minigame.expedition.message.found",
-        "foundLast": "treasures.minigame.expedition.message.found-last"
+        "foundLast": "treasures.minigame.expedition.message.found-last",
+        "endReward": "treasures.minigame.common.end.reward"
       },
       "blocks": {
         "SAND": {
           "data": 1
+        }
+      }
+    }
+  },
+  "miningBattle": {
+    "status": {
+      "waiting": {
+        "arenaStatus": "WAITING_PLAYERS",
+        "duration": 15,
+        "countdown": {
+          "title": "treasures.minigame.common.status.waiting.countdown.title"
+        },
+        "description": {
+          "title": "treasures.minigame.mining_battle.title",
+          "description": "treasures.minigame.mining_battle.description"
+        }
+      },
+      "game": {
+        "arenaStatus": "STARTED",
+        "duration": 180,
+        "pointIndicator": {
+          "type": "TEAM",
+          "positions": 3,
+          "valueName": "treasures.minigame.mining_battle.game.valuename"
+        },
+        "countdown": {
+          "title": "treasures.minigame.common.game.countdown.title"
+        }
+      },
+      "end": {
+        "arenaStatus": "TERMINATING",
+        "duration": 5,
+        "isCloseAfterExpire": true
+      }
+    },
+    "settings": {
+      "teams": {
+        "BLACK_SHARKS": {
+          "title": "treasures.minigame.mining_battle.team.black_sharks",
+          "icon": "§8◆"
+        },
+        "EARTHBREAKERS": {
+          "title": "treasures.minigame.mining_battle.team.earthbreakers",
+          "icon": "§6◆"
+        },
+        "CODEX": {
+          "title": "treasures.minigame.mining_battle.team.codex",
+          "icon": "§b◆"
+        }
+      },
+      "blocks": [
+        {
+          "block": {
+            "material": "SOUL_SAND",
+            "data": 0
+          },
+          "points": 50
+        },
+        {
+          "block": {
+            "material": "DIRT",
+            "data": 1
+          },
+          "points": 1
+        },
+        {
+          "block": {
+            "material": "CONCRETE_POWDER",
+            "data": 12
+          },
+          "points": 4
+        },
+        {
+          "block": {
+            "material": "DIRT",
+            "data": 0
+          },
+          "points": 10
+        },
+        {
+          "block": {
+            "material": "CONCRETE_POWDER",
+            "data": 1
+          },
+          "points": 5000
+        }
+      ],
+      "rockyBlock": {
+        "material": "CONCRETE_POWDER",
+        "data": 12
+      },
+      "secretBlock": {
+        "material": "SOUL_SAND",
+        "data": 0
+      },
+      "tool": {
+        "item": {
+          "type": "DIAMOND_SPADE",
+          "name": "treasures.minigame.mining_battle.tool.title",
+          "lore": "treasures.minigame.mining_battle.tool.lore",
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ],
+          "unbreakable": true,
+          "enchantments": {
+            "DIG_SPEED": 5
+          }
+        },
+        "slot": 0,
+        "abilityLore": "treasures.minigame.mining_battle.tool.ability",
+        "rarityLore": "treasures.minigame.mining_battle.tool.rarity"
+      },
+      "playerModes": {
+        "participant": {
+          "gameMode": "SURVIVAL",
+          "allowFlight": false,
+          "flying": false,
+          "walkSpeed": 0.2
+        },
+        "spectator": {
+          "gameMode": "ADVENTURE",
+          "allowFlight": true,
+          "flying": true,
+          "walkSpeed": 0.2
+        }
+      },
+      "results": {
+        "personalTopSize": 3,
+        "rewardFormat": "%s\uE1C2 %s\uE34D"
+      },
+      "rewards": {
+        "participation": {
+          "simCoins": 2,
+          "shards": 500.0
+        },
+        "top": {
+          "1": [
+            {
+              "simCoins": 13,
+              "shards": 3000.0
+            },
+            {
+              "simCoins": 12,
+              "shards": 2900.0
+            },
+            {
+              "simCoins": 11,
+              "shards": 2800.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2500.0
+            }
+          ],
+          "2": [
+            {
+              "simCoins": 11,
+              "shards": 2400.0
+            },
+            {
+              "simCoins": 10,
+              "shards": 2300.0
+            },
+            {
+              "simCoins": 9,
+              "shards": 2200.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            }
+          ],
+          "3": [
+            {
+              "simCoins": 9,
+              "shards": 2000.0
+            },
+            {
+              "simCoins": 8,
+              "shards": 1900.0
+            },
+            {
+              "simCoins": 7,
+              "shards": 1800.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            },
+            {
+              "simCoins": 6,
+              "shards": 1500.0
+            }
+          ]
+        }
+      },
+      "abilities": {
+        "chances": {
+          "DOUBLE_POINTS": 20,
+          "LAYER_BREAKER": 8,
+          "THIEF": 3,
+          "SORCERER": 21,
+          "RUNNER": 26,
+          "WINNER": 2,
+          "DIGGER": 11,
+          "DYNAMITE": 9
+        },
+        "rarityChances": {
+          "COMMON": 60.0,
+          "RARE": 25.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 1.0
+        },
+        "rarityTitles": {
+          "COMMON": "treasures.rarity.common",
+          "RARE": "treasures.rarity.rare",
+          "EPIC": "treasures.rarity.epic",
+          "LEGENDARY": "treasures.rarity.legendary",
+          "MYTHIC": "treasures.rarity.mythic"
+        },
+        "doublePoints": {
+          "title": "treasures.minigame.mining_battle.ability.double_points.title",
+          "description": "treasures.minigame.mining_battle.ability.double_points.description",
+          "rarities": {
+            "COMMON": {
+              "chance": 3.0,
+              "multiplier": 2.0
+            },
+            "RARE": {
+              "chance": 4.0,
+              "multiplier": 2.0
+            },
+            "EPIC": {
+              "chance": 5.0,
+              "multiplier": 2.0
+            },
+            "LEGENDARY": {
+              "chance": 7.0,
+              "multiplier": 2.0
+            },
+            "MYTHIC": {
+              "chance": 9.0,
+              "multiplier": 2.0
+            }
+          }
+        },
+        "layerBreaker": {
+          "title": "treasures.minigame.mining_battle.ability.layer_breaker.title",
+          "description": "treasures.minigame.mining_battle.ability.layer_breaker.description",
+          "rarities": {
+            "COMMON": {
+              "chance": 0.1,
+              "radius": 2
+            },
+            "RARE": {
+              "chance": 0.2,
+              "radius": 2
+            },
+            "EPIC": {
+              "chance": 0.3,
+              "radius": 2
+            },
+            "LEGENDARY": {
+              "chance": 0.4,
+              "radius": 2
+            },
+            "MYTHIC": {
+              "chance": 0.5,
+              "radius": 2
+            }
+          }
+        },
+        "thief": {
+          "title": "treasures.minigame.mining_battle.ability.thief.title",
+          "description": "treasures.minigame.mining_battle.ability.thief.description",
+          "rarities": {
+            "COMMON": {
+              "chance": 0.25,
+              "percent": 1.0
+            },
+            "RARE": {
+              "chance": 0.25,
+              "percent": 2.0
+            },
+            "EPIC": {
+              "chance": 0.25,
+              "percent": 3.0
+            },
+            "LEGENDARY": {
+              "chance": 0.25,
+              "percent": 4.5
+            },
+            "MYTHIC": {
+              "chance": 0.25,
+              "percent": 5.0
+            }
+          }
+        },
+        "sorcerer": {
+          "title": "treasures.minigame.mining_battle.ability.sorcerer.title",
+          "description": "treasures.minigame.mining_battle.ability.sorcerer.description",
+          "effect": "SLOW",
+          "rarities": {
+            "COMMON": {
+              "chance": 0.1,
+              "level": 3,
+              "durationSeconds": 3
+            },
+            "RARE": {
+              "chance": 0.2,
+              "level": 3,
+              "durationSeconds": 3
+            },
+            "EPIC": {
+              "chance": 0.3,
+              "level": 3,
+              "durationSeconds": 3
+            },
+            "LEGENDARY": {
+              "chance": 0.4,
+              "level": 3,
+              "durationSeconds": 3
+            },
+            "MYTHIC": {
+              "chance": 0.5,
+              "level": 3,
+              "durationSeconds": 3
+            }
+          }
+        },
+        "runner": {
+          "title": "treasures.minigame.mining_battle.ability.runner.title",
+          "description": "treasures.minigame.mining_battle.ability.runner.description",
+          "effect": "SPEED",
+          "rarities": {
+            "COMMON": {
+              "chance": 0.1,
+              "level": 3,
+              "durationSeconds": 5
+            },
+            "RARE": {
+              "chance": 0.1,
+              "level": 3,
+              "durationSeconds": 5
+            },
+            "EPIC": {
+              "chance": 0.1,
+              "level": 3,
+              "durationSeconds": 5
+            },
+            "LEGENDARY": {
+              "chance": 0.1,
+              "level": 3,
+              "durationSeconds": 5
+            },
+            "MYTHIC": {
+              "chance": 0.1,
+              "level": 3,
+              "durationSeconds": 5
+            }
+          }
+        },
+        "winner": {
+          "title": "treasures.minigame.mining_battle.ability.winner.title",
+          "description": "treasures.minigame.mining_battle.ability.winner.description",
+          "rarities": {
+            "COMMON": {
+              "multiplier": 1.5
+            },
+            "RARE": {
+              "multiplier": 1.7
+            },
+            "EPIC": {
+              "multiplier": 2.0
+            },
+            "LEGENDARY": {
+              "multiplier": 2.5
+            },
+            "MYTHIC": {
+              "multiplier": 3.0
+            }
+          }
+        },
+        "digger": {
+          "title": "treasures.minigame.mining_battle.ability.digger.title",
+          "description": "treasures.minigame.mining_battle.ability.digger.description",
+          "rarities": {
+            "COMMON": {
+              "multiplier": 2.0
+            },
+            "RARE": {
+              "multiplier": 2.5
+            },
+            "EPIC": {
+              "multiplier": 3.0
+            },
+            "LEGENDARY": {
+              "multiplier": 4.0
+            },
+            "MYTHIC": {
+              "multiplier": 5.0
+            }
+          }
+        },
+        "dynamite": {
+          "title": "treasures.minigame.mining_battle.ability.dynamite.title",
+          "description": "treasures.minigame.mining_battle.ability.dynamite.description",
+          "effect": "EXPLOSION_LARGE",
+          "effectData": 0,
+          "sound": "ENTITY_GENERIC_EXPLODE",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "rarities": {
+            "COMMON": {
+              "chance": 0.1,
+              "radius": 3
+            },
+            "RARE": {
+              "chance": 0.2,
+              "radius": 3
+            },
+            "EPIC": {
+              "chance": 0.3,
+              "radius": 3
+            },
+            "LEGENDARY": {
+              "chance": 0.4,
+              "radius": 3
+            },
+            "MYTHIC": {
+              "chance": 0.5,
+              "radius": 3
+            }
+          }
+        }
+      },
+      "messages": {
+        "assignedTeam": "treasures.minigame.mining_battle.message.assigned_team",
+        "endTopTitle": "treasures.minigame.mining_battle.end.top_title",
+        "endTeamRow": "treasures.minigame.mining_battle.end.team_row",
+        "endPlayerRow": "treasures.minigame.mining_battle.end.player_row",
+        "endYourResult": "treasures.minigame.common.end.your-result",
+        "endReward": "treasures.minigame.common.end.reward"
+      }
+    }
+  },
+  "treasureRace": {
+    "status": {
+      "waiting": {
+        "arenaStatus": "WAITING_PLAYERS",
+        "duration": 15,
+        "countdown": {
+          "title": "treasures.minigame.common.status.waiting.countdown.title"
+        },
+        "description": {
+          "title": "treasures.minigame.treasure_race.title",
+          "description": "treasures.minigame.treasure_race.description"
+        }
+      },
+      "game": {
+        "arenaStatus": "STARTED",
+        "duration": 240,
+        "pointIndicator": {
+          "type": "COMMON",
+          "positions": 3,
+          "valueName": "treasures.minigame.treasure_race.game.valuename"
+        },
+        "countdown": {
+          "title": "treasures.minigame.common.game.countdown.title"
+        }
+      },
+      "end": {
+        "arenaStatus": "TERMINATING",
+        "duration": 5,
+        "isCloseAfterExpire": true
+      }
+    },
+    "settings": {
+      "spawn": {
+        "name": "spawn",
+        "yaw": 0,
+        "pitch": 0
+      },
+      "rewards": {
+        "participation": {
+          "simCoins": 2,
+          "shards": 500.0
+        },
+        "top": [
+          {
+            "simCoins": 3,
+            "shards": 500.0
+          },
+          {
+            "simCoins": 2,
+            "shards": 400.0
+          },
+          {
+            "simCoins": 1,
+            "shards": 300.0
+          }
+        ]
+      },
+      "npcs": {
+        "buyer": {
+          "location": {
+            "name": "buyer",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "name": "treasures.minigame.treasure_race.buyer.name",
+          "skin": "https://storage.c7x.dev/topil_ov/treasures/npc/sell_treasures.png",
+          "lookAtPlayer": true,
+          "lookAtPlayerDistanceLimit": 12,
+          "onClick": [
+            "treasure-race-sell %player%"
+          ]
+        }
+      },
+      "buyerArrival": {
+        "name": "buyer-arrival",
+        "yaw": 0,
+        "pitch": 0
+      },
+      "treasuresChests": {
+        "1": {
+          "location": {
+            "name": "treasure-case",
+            "tag": "1",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "caseType": "SILVER",
+          "treasures": {
+            "GOLD_COIN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.gold_coin.name",
+                "data": {
+                  "sim": "gold_coin",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "ANCIENT_SCROLL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.ancient_scroll.name",
+                "data": {
+                  "sim": "ancient_scroll",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "GOLDEN_CUP": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.golden_cup.name",
+                "data": {
+                  "sim": "golden_cup",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "QUEENS_CROWN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.queens_crown.name",
+                "data": {
+                  "sim": "queens_crown",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            }
+          }
+        },
+        "2": {
+          "location": {
+            "name": "treasure-case",
+            "tag": "2",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "caseType": "GOLDEN",
+          "treasures": {
+            "GOLD_COIN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.marmalade_bear.name",
+                "data": {
+                  "sim": "marmalade_bear",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "ANCIENT_SCROLL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.toy_unicorn.name",
+                "data": {
+                  "sim": "toy_unicorn",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "GOLDEN_CUP": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.enchanted_shell.name",
+                "data": {
+                  "sim": "enchanted_shell",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "QUEENS_CROWN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.hangman_hook.name",
+                "data": {
+                  "sim": "hangman_hook",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            }
+          }
+        },
+        "3": {
+          "location": {
+            "name": "treasure-case",
+            "tag": "3",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "caseType": "CRYSTAL",
+          "treasures": {
+            "GOLD_COIN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.shell.name",
+                "data": {
+                  "sim": "shell",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "ANCIENT_SCROLL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.amulet_ocean.name",
+                "data": {
+                  "sim": "amulet_ocean",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "GOLDEN_CUP": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.antique_lamp.name",
+                "data": {
+                  "sim": "antique_lamp",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "QUEENS_CROWN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.stone.name",
+                "data": {
+                  "sim": "stone",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            }
+          }
+        },
+        "4": {
+          "location": {
+            "name": "treasure-case",
+            "tag": "4",
+            "yaw": 0,
+            "pitch": 0
+          },
+          "caseType": "LEGENDARY",
+          "treasures": {
+            "GOLD_COIN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.mirror_of_magic.name",
+                "data": {
+                  "sim": "mirror_of_magic",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "ANCIENT_SCROLL": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.obsidian_key.name",
+                "data": {
+                  "sim": "_obsidian_key",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "GOLDEN_CUP": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.ender_feather.name",
+                "data": {
+                  "sim": "ender_feather",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            },
+            "QUEENS_CROWN": {
+              "item": {
+                "type": "CLAY_BALL",
+                "name": "treasures.treasures.scepter_of_the_sea_king.name",
+                "data": {
+                  "sim": "scepter_of_the_sea_king",
+                  "treasure-race-cargo": 1
+                },
+                "unbreakable": true,
+                "flags": [
+                  "HIDE_ATTRIBUTES",
+                  "HIDE_ENCHANTS",
+                  "HIDE_UNBREAKABLE"
+                ]
+              },
+              "reward": {
+                "simCoins": 3,
+                "shards": 400.0
+              },
+              "weight": 25
+            }
+          }
+        }
+      },
+      "elixirChests": [
+        {
+          "name": "elixir-spawn",
+          "tag": "1",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "2",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "3",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "4",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "5",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "6",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "7",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "8",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "9",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "10",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "11",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "12",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "13",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "14",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "15",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "16",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "17",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "18",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "19",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "20",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "21",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "22",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "23",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "24",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "25",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "26",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "27",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "28",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "29",
+          "yaw": 0,
+          "pitch": 0
+        },
+        {
+          "name": "elixir-spawn",
+          "tag": "30",
+          "yaw": 0,
+          "pitch": 0
+        }
+      ],
+      "activeCases": 4,
+      "elixir": {
+        "spawnEverySeconds": 40,
+        "spawnCount": 5,
+        "chestType": "CARGO",
+        "skill": {
+          "type": "CLAY_BALL",
+          "name": "treasures.minigame.treasure_race.elixir.hud.title",
+          "data": {
+            "sim": "enchanted_lava_potion",
+            "treasure-race-elixir": 1
+          },
+          "unbreakable": true,
+          "flags": [
+            "HIDE_ATTRIBUTES",
+            "HIDE_ENCHANTS",
+            "HIDE_UNBREAKABLE"
+          ]
+        }
+      },
+      "events": {
+        "applyEverySeconds": 10,
+        "entries": {
+          "slowdown": {
+            "chance": 15,
+            "blockedByElixir": true,
+            "message": "treasures.minigame.treasure_race.event.slowdown",
+            "commands": [
+              "effect %player% 2 5 1 true"
+            ]
+          },
+          "stun": {
+            "chance": 7,
+            "blockedByElixir": true,
+            "message": "treasures.minigame.treasure_race.event.stun",
+            "commands": [
+              "effect %player% 2 2 255 true"
+            ]
+          },
+          "teleport-back": {
+            "chance": 5,
+            "blockedByElixir": true,
+            "message": "treasures.minigame.treasure_race.event.teleport-back",
+            "commands": [
+              "tp %player% %spawn-x% %spawn-y% %spawn-z%"
+            ]
+          },
+          "teleport-forward": {
+            "chance": 5,
+            "blockedByElixir": false,
+            "message": "treasures.minigame.treasure_race.event.teleport-forward",
+            "commands": [
+              "tp %player% %buyer-x% %buyer-y% %buyer-z%"
+            ]
+          },
+          "speed": {
+            "chance": 25,
+            "blockedByElixir": false,
+            "message": "treasures.minigame.treasure_race.event.speed",
+            "commands": [
+              "effect %player% 1 5 2 true"
+            ]
+          },
+          "jump-boost": {
+            "chance": 25,
+            "blockedByElixir": false,
+            "message": "treasures.minigame.treasure_race.event.jump-boost",
+            "commands": [
+              "effect %player% 8 7 2 true"
+            ]
+          },
+          "blindness": {
+            "chance": 15,
+            "blockedByElixir": true,
+            "message": "treasures.minigame.treasure_race.event.blindness",
+            "commands": [
+              "effect %player% 15 4 0 true"
+            ]
+          },
+          "jackpot": {
+            "chance": 3,
+            "blockedByElixir": false,
+            "message": "treasures.minigame.treasure_race.event.jackpot",
+            "commands": [
+              "treasure-race-jackpot %player%"
+            ]
+          }
+        }
+      },
+      "voidY": -10,
+      "messages": {
+        "caseAlreadyCarrying": "treasures.minigame.treasure_race.message.case-already-carrying",
+        "treasurePickedUp": "treasures.minigame.treasure_race.message.treasure-picked-up",
+        "buyerEmptyCargo": "treasures.minigame.treasure_race.message.buyer-empty-cargo",
+        "buyerSold": "treasures.minigame.treasure_race.message.buyer-sold",
+        "elixirWaveSpawned": "treasures.minigame.treasure_race.message.elixir-wave-spawned",
+        "elixirPickedUp": "treasures.minigame.treasure_race.message.elixir-picked-up",
+        "elixirProtected": "treasures.minigame.treasure_race.message.elixir-protected",
+        "endYourResult": "treasures.minigame.common.end.your-result",
+        "endTopTitle": "treasures.minigame.treasure_race.end.top-title",
+        "endReward": "treasures.minigame.common.end.reward"
+      },
+      "sounds": {
+        "caseOpen": {
+          "sound": "ENTITY_ITEM_PICKUP",
+          "volume": 0.5,
+          "pitch": 1.0
+        },
+        "buyerSell": {
+          "sound": "ENTITY_PLAYER_LEVELUP",
+          "volume": 0.5,
+          "pitch": 2.0
+        },
+        "elixirWaveSpawn": {
+          "sound": "UI_TOAST_CHALLENGE_COMPLETE",
+          "volume": 0.4,
+          "pitch": 1.0
+        },
+        "elixirPickup": {
+          "sound": "ENTITY_EXPERIENCE_ORB_PICKUP",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "elixirProtect": {
+          "sound": "UI_TOAST_CHALLENGE_COMPLETE",
+          "volume": 0.5,
+          "pitch": 2.0
         }
       }
     }
