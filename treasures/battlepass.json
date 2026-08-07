@@ -114,6 +114,7 @@
     "resetEnabled": false,
     "resetUnlockLevel": 100,
     "premiumQuestExperienceBonusPercent": 20,
+    "questCompletionMessage": "treasures.battlepass.quest-completed",
     "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
   },
   "specialPurchaseOffer": {
@@ -210,7 +211,7 @@
         {
           "id": "level-3-default",
           "onClaim": [
-            "morestat %player% add 300 shards"
+            "earn-shards %player% 300"
           ],
           "icon": {
             "type": "textured",
@@ -668,7 +669,7 @@
         {
           "id": "level-11-premium",
           "onClaim": [
-            "morestat %player% add 300 shards"
+            "earn-shards %player% 300"
           ],
           "icon": {
             "type": "textured",
@@ -851,7 +852,7 @@
         {
           "id": "level-15-default-a",
           "onClaim": [
-            "morestat %player% add 600 shards"
+            "earn-shards %player% 600"
           ],
           "icon": {
             "type": "textured",
@@ -1231,7 +1232,7 @@
         {
           "id": "level-22-premium",
           "onClaim": [
-            "morestat %player% add 600 shards"
+            "earn-shards %player% 600"
           ],
           "icon": {
             "type": "textured",
@@ -1507,8 +1508,8 @@
         {
           "id": "level-27-premium",
           "onClaim": [
-            "morestat %player% add 900 shards",
-            "morestat %player% add 20 minigamePoints"
+            "earn-shards %player% 900",
+            "earn-simcoins %player% 20"
           ],
           "icon": {
             "type": "item",
@@ -1617,7 +1618,7 @@
         {
           "id": "level-30-default-a",
           "onClaim": [
-            "morestat %player% add 1200 shards"
+            "earn-shards %player% 1200"
           ],
           "icon": {
             "type": "textured",
@@ -2144,7 +2145,7 @@
         {
           "id": "level-41-premium",
           "onClaim": [
-            "morestat %player% add 1200 shards"
+            "earn-shards %player% 1200"
           ],
           "icon": {
             "type": "textured",
@@ -2324,7 +2325,7 @@
         {
           "id": "level-45-default",
           "onClaim": [
-            "morestat %player% add 1750 shards"
+            "earn-shards %player% 1750"
           ],
           "icon": {
             "type": "textured",
@@ -2450,9 +2451,9 @@
         {
           "id": "level-47-default",
           "onClaim": [
-            "morestat %player% add 5000 shards",
+            "earn-shards %player% 5000",
             "give-incident-points %player% 50",
-            "morestat %player% add 40 minigamePoints"
+            "earn-simcoins %player% 40"
           ],
           "icon": {
             "type": "item",
@@ -2760,7 +2761,7 @@
         {
           "id": "level-53-premium",
           "onClaim": [
-            "morestat %player% add 1750 shards"
+            "earn-shards %player% 1750"
           ],
           "icon": {
             "type": "textured",
@@ -2983,7 +2984,7 @@
           "id": "level-57-premium",
           "onClaim": [
             "random-money %player% 199.8 199.9 1",
-            "morestat %player% add 1800 shards"
+            "earn-shards %player% 1800"
           ],
           "icon": {
             "type": "item",
@@ -3106,7 +3107,7 @@
         {
           "id": "level-60-default-a",
           "onClaim": [
-            "morestat %player% add 2100 shards"
+            "earn-shards %player% 2100"
           ],
           "icon": {
             "type": "textured",
@@ -3464,7 +3465,7 @@
         {
           "id": "level-67-default",
           "onClaim": [
-            "morestat %player% add 5000 shards",
+            "earn-shards %player% 5000",
             "give-save-crystals %player% 3",
             "give-key %player% RUNE 5"
           ],
@@ -3566,7 +3567,7 @@
         {
           "id": "level-69-default",
           "onClaim": [
-            "morestat %player% add 40 minigamePoints"
+            "earn-simcoins %player% 40"
           ],
           "icon": {
             "type": "item",
@@ -3586,7 +3587,7 @@
         {
           "id": "level-69-premium",
           "onClaim": [
-            "morestat %player% add 2100 shards"
+            "earn-shards %player% 2100"
           ],
           "icon": {
             "type": "textured",
@@ -3872,7 +3873,7 @@
         {
           "id": "level-75-default-a",
           "onClaim": [
-            "morestat %player% add 3000 shards"
+            "earn-shards %player% 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4451,7 +4452,7 @@
         {
           "id": "level-86-premium",
           "onClaim": [
-            "morestat %player% add 3000 shards"
+            "earn-shards %player% 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4630,7 +4631,7 @@
         {
           "id": "level-90-default-a",
           "onClaim": [
-            "morestat %player% add 3500 shards"
+            "earn-shards %player% 3500"
           ],
           "icon": {
             "type": "textured",
@@ -5033,7 +5034,7 @@
         {
           "id": "level-97-premium",
           "onClaim": [
-            "morestat %player% add 5000 shards",
+            "earn-shards %player% 5000",
             "earn-bits %player% 500"
           ],
           "icon": {
@@ -5184,8 +5185,8 @@
             "tell %player% Claimed level 100 default reward"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "player_personalization",
+            "modelId": "b01947b6-95a0-4e8e-91e9-691ef1aa0ef2"
           },
           "tooltip": {
             "title": "treasures.battlepass.rewards.default.level-100.title"
@@ -5199,8 +5200,8 @@
             "tell %player% Claimed level 100 premium reward"
           ],
           "icon": {
-            "type": "textured",
-            "texture": "cache/simulator/goldkey.png"
+            "type": "player_personalization",
+            "modelId": "2373e12a-ebb5-4aa8-8ec4-3c8397c5df39"
           },
           "quality": "epic",
           "tooltip": {
@@ -5234,9 +5235,6 @@
             "type": "BREAK_BLOCK",
             "goal": 3000,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-break-blocks-3000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-break-blocks-3000.description"
             },
@@ -5247,9 +5245,6 @@
             "type": "BREAK_BLOCK",
             "goal": 3500,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-break-blocks-3500 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-break-blocks-3500.description"
             },
@@ -5260,9 +5255,6 @@
             "type": "BREAK_BLOCK",
             "goal": 4000,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-break-blocks-4000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-break-blocks-4000.description"
             },
@@ -5273,9 +5265,6 @@
             "type": "BREAK_BLOCK",
             "goal": 4500,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-break-blocks-4500 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-break-blocks-4500.description"
             },
@@ -5286,9 +5275,6 @@
             "type": "FIND_TREASURE",
             "goal": 100,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-find-treasures-100 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-find-treasures-100.description"
             },
@@ -5299,9 +5285,6 @@
             "type": "FIND_TREASURE",
             "goal": 105,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-find-treasures-105 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-find-treasures-105.description"
             },
@@ -5312,9 +5295,6 @@
             "type": "FIND_TREASURE",
             "goal": 110,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-find-treasures-110 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-find-treasures-110.description"
             },
@@ -5325,9 +5305,6 @@
             "type": "FIND_TREASURE",
             "goal": 115,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-find-treasures-115 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-find-treasures-115.description"
             },
@@ -5338,9 +5315,6 @@
             "type": "DELIVER_TREASURE_RACE_CARGO",
             "goal": 15,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-deliver-treasure-race-cargo-15 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-15.description"
             },
@@ -5351,9 +5325,6 @@
             "type": "DELIVER_TREASURE_RACE_CARGO",
             "goal": 16,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-deliver-treasure-race-cargo-16 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-16.description"
             },
@@ -5364,9 +5335,6 @@
             "type": "DELIVER_TREASURE_RACE_CARGO",
             "goal": 17,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-deliver-treasure-race-cargo-17 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-17.description"
             },
@@ -5377,9 +5345,6 @@
             "type": "USE_TNT",
             "goal": 50,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-use-tnt-50 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-use-tnt-50.description"
             },
@@ -5390,9 +5355,6 @@
             "type": "USE_TNT",
             "goal": 55,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-use-tnt-55 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-use-tnt-55.description"
             },
@@ -5403,9 +5365,6 @@
             "type": "USE_TNT",
             "goal": 60,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-use-tnt-60 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-use-tnt-60.description"
             },
@@ -5416,9 +5375,6 @@
             "type": "USE_TNT",
             "goal": 65,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-use-tnt-65 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-use-tnt-65.description"
             },
@@ -5429,9 +5385,6 @@
             "type": "OPEN_PET_LOOTBOX",
             "goal": 10,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-pet-lootbox-10 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-10.description"
             },
@@ -5442,9 +5395,6 @@
             "type": "OPEN_PET_LOOTBOX",
             "goal": 11,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-pet-lootbox-11 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-11.description"
             },
@@ -5455,9 +5405,6 @@
             "type": "OPEN_PET_LOOTBOX",
             "goal": 12,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-pet-lootbox-12 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-12.description"
             },
@@ -5468,9 +5415,6 @@
             "type": "OPEN_PET_LOOTBOX",
             "goal": 13,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-pet-lootbox-13 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-13.description"
             },
@@ -5481,9 +5425,6 @@
             "type": "OPEN_RUNE_LOOTBOX",
             "goal": 8,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-rune-lootbox-8 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-8.description"
             },
@@ -5494,9 +5435,6 @@
             "type": "OPEN_RUNE_LOOTBOX",
             "goal": 9,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-rune-lootbox-9 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-9.description"
             },
@@ -5507,9 +5445,6 @@
             "type": "OPEN_RUNE_LOOTBOX",
             "goal": 10,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-rune-lootbox-10 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-10.description"
             },
@@ -5520,9 +5455,6 @@
             "type": "OPEN_DEFAULT_LOOTBOX",
             "goal": 50,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-default-lootbox-50 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-50.description"
             },
@@ -5533,9 +5465,6 @@
             "type": "OPEN_DEFAULT_LOOTBOX",
             "goal": 60,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-default-lootbox-60 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-60.description"
             },
@@ -5546,9 +5475,6 @@
             "type": "OPEN_DEFAULT_LOOTBOX",
             "goal": 70,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-default-lootbox-70 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-70.description"
             },
@@ -5559,9 +5485,6 @@
             "type": "OPEN_DEFAULT_LOOTBOX",
             "goal": 80,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-open-default-lootbox-80 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-80.description"
             },
@@ -5572,9 +5495,6 @@
             "type": "DROP_COMMON_PET",
             "goal": 8,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-drop-common-pet-8 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-drop-common-pet-8.description"
             },
@@ -5585,9 +5505,6 @@
             "type": "DROP_COMMON_PET",
             "goal": 9,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-drop-common-pet-9 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-drop-common-pet-9.description"
             },
@@ -5598,9 +5515,6 @@
             "type": "DROP_COMMON_PET",
             "goal": 10,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-drop-common-pet-10 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-drop-common-pet-10.description"
             },
@@ -5611,9 +5525,6 @@
             "type": "EARN_MINING_BATTLE_POINTS",
             "goal": 20000,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-earn-mining-battle-points-20000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-20000.description"
             },
@@ -5624,9 +5535,6 @@
             "type": "EARN_MINING_BATTLE_POINTS",
             "goal": 22000,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-earn-mining-battle-points-22000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-22000.description"
             },
@@ -5637,9 +5545,6 @@
             "type": "EARN_MINING_BATTLE_POINTS",
             "goal": 24000,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-earn-mining-battle-points-24000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-24000.description"
             },
@@ -5650,9 +5555,6 @@
             "type": "EARN_MINING_BATTLE_POINTS",
             "goal": 26000,
             "rewardExperience": 300,
-            "commands": [
-              "tell %player% Claimed I-earn-mining-battle-points-26000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-26000.description"
             },
@@ -5665,9 +5567,6 @@
             "type": "EARN_SHARDS",
             "goal": 15000,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-earn-shards-15000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-earn-shards-15000.description"
             },
@@ -5678,9 +5577,6 @@
             "type": "EARN_SHARDS",
             "goal": 16000,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-earn-shards-16000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-earn-shards-16000.description"
             },
@@ -5691,9 +5587,6 @@
             "type": "EARN_SHARDS",
             "goal": 18000,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-earn-shards-18000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-earn-shards-18000.description"
             },
@@ -5704,9 +5597,6 @@
             "type": "EARN_SHARDS",
             "goal": 20000,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-earn-shards-20000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-earn-shards-20000.description"
             },
@@ -5717,9 +5607,6 @@
             "type": "UPGRADE_PET",
             "goal": 7,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-upgrade-pet-7 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-upgrade-pet-7.description"
             },
@@ -5730,9 +5617,6 @@
             "type": "UPGRADE_PET",
             "goal": 8,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-upgrade-pet-8 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-upgrade-pet-8.description"
             },
@@ -5743,9 +5627,6 @@
             "type": "UPGRADE_PET",
             "goal": 9,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-upgrade-pet-9 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-upgrade-pet-9.description"
             },
@@ -5756,9 +5637,6 @@
             "type": "DROP_RARE_PET",
             "goal": 5,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-drop-rare-pet-5 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-drop-rare-pet-5.description"
             },
@@ -5769,9 +5647,6 @@
             "type": "DROP_RARE_PET",
             "goal": 6,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-drop-rare-pet-6 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-drop-rare-pet-6.description"
             },
@@ -5782,9 +5657,6 @@
             "type": "DROP_RARE_PET",
             "goal": 7,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-drop-rare-pet-7 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-drop-rare-pet-7.description"
             },
@@ -5795,9 +5667,6 @@
             "type": "TAKE_EVENT_TOP_3",
             "goal": 3,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-take-event-top-50-3 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-take-event-top-50-3.description"
             },
@@ -5808,9 +5677,6 @@
             "type": "FIND_EXPEDITION_TREASURE",
             "goal": 5,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-find-expedition-treasure-5 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-find-expedition-treasure-5.description"
             },
@@ -5821,9 +5687,6 @@
             "type": "FIND_EXPEDITION_TREASURE",
             "goal": 6,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-find-expedition-treasure-6 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-find-expedition-treasure-6.description"
             },
@@ -5834,9 +5697,6 @@
             "type": "EARN_MINING_BATTLE_POINTS",
             "goal": 50000,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-earn-mining-battle-points-50000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-50000.description"
             },
@@ -5847,9 +5707,6 @@
             "type": "EARN_MINING_BATTLE_POINTS",
             "goal": 55000,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-earn-mining-battle-points-55000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-55000.description"
             },
@@ -5860,9 +5717,6 @@
             "type": "EARN_MINING_BATTLE_POINTS",
             "goal": 60000,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-earn-mining-battle-points-60000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-60000.description"
             },
@@ -5873,9 +5727,6 @@
             "type": "EARN_MINING_BATTLE_POINTS",
             "goal": 65000,
             "rewardExperience": 700,
-            "commands": [
-              "tell %player% Claimed II-earn-mining-battle-points-65000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-65000.description"
             },
@@ -5888,9 +5739,6 @@
             "type": "DROP_EPIC_RUNE",
             "goal": 5,
             "rewardExperience": 1625,
-            "commands": [
-              "tell %player% Claimed III-drop-epic-rune-5 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.III-drop-epic-rune-5.description"
             },
@@ -5901,9 +5749,6 @@
             "type": "DROP_EPIC_RUNE",
             "goal": 6,
             "rewardExperience": 1625,
-            "commands": [
-              "tell %player% Claimed III-drop-epic-rune-6 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.III-drop-epic-rune-6.description"
             },
@@ -5914,9 +5759,6 @@
             "type": "DROP_EPIC_PET",
             "goal": 7,
             "rewardExperience": 1625,
-            "commands": [
-              "tell %player% Claimed III-drop-epic-pet-7 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.III-drop-epic-pet-7.description"
             },
@@ -5927,9 +5769,6 @@
             "type": "DROP_EPIC_PET",
             "goal": 8,
             "rewardExperience": 1625,
-            "commands": [
-              "tell %player% Claimed III-drop-epic-pet-8 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.III-drop-epic-pet-8.description"
             },
@@ -5940,9 +5779,6 @@
             "type": "DIG_MINING_BATTLE_SECRET_BLOCK",
             "goal": 1,
             "rewardExperience": 1625,
-            "commands": [
-              "tell %player% Claimed III-dig-mining-battle-secret-block-1 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.III-dig-mining-battle-secret-block-1.description"
             },
@@ -5953,9 +5789,6 @@
             "type": "BREAK_BLOCK",
             "goal": 15000,
             "rewardExperience": 1625,
-            "commands": [
-              "tell %player% Claimed III-break-blocks-15000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.III-break-blocks-15000.description"
             },
@@ -5966,9 +5799,6 @@
             "type": "ENCHANT_PICKAXE",
             "goal": 40,
             "rewardExperience": 1625,
-            "commands": [
-              "tell %player% Claimed III-enchant-pickaxe-40 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.III-enchant-pickaxe-40.description"
             },
@@ -5979,9 +5809,6 @@
             "type": "OPEN_RUNE_LOOTBOX",
             "goal": 20,
             "rewardExperience": 1625,
-            "commands": [
-              "tell %player% Claimed III-open-rune-lootbox-20 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.III-open-rune-lootbox-20.description"
             },
@@ -5994,9 +5821,6 @@
             "type": "DROP_LEGENDARY_RUNE",
             "goal": 2,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-drop-legendary-rune-2 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-drop-legendary-rune-2.description"
             },
@@ -6007,9 +5831,6 @@
             "type": "DROP_LEGENDARY_RUNE",
             "goal": 3,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-drop-legendary-rune-3 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-drop-legendary-rune-3.description"
             },
@@ -6020,9 +5841,6 @@
             "type": "DROP_LEGENDARY_PET",
             "goal": 7,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-drop-legendary-pet-7 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-drop-legendary-pet-7.description"
             },
@@ -6033,9 +5851,6 @@
             "type": "DROP_LEGENDARY_PET",
             "goal": 8,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-drop-legendary-pet-8 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-drop-legendary-pet-8.description"
             },
@@ -6046,9 +5861,6 @@
             "type": "DROP_LEGENDARY_PET",
             "goal": 9,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-drop-legendary-pet-9 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-drop-legendary-pet-9.description"
             },
@@ -6059,9 +5871,6 @@
             "type": "FIND_MINER_CARGO",
             "goal": 1,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-find-miner-cargo-1 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-find-miner-cargo-1.description"
             },
@@ -6072,9 +5881,6 @@
             "type": "FIND_TREASURE",
             "goal": 1000,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-find-treasures-1000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-find-treasures-1000.description"
             },
@@ -6085,9 +5891,6 @@
             "type": "FIND_TREASURE",
             "goal": 1500,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-find-treasures-1500 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-find-treasures-1500.description"
             },
@@ -6098,9 +5901,6 @@
             "type": "FIND_EXPEDITION_TREASURE",
             "goal": 15,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-find-expedition-treasure-15 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-find-expedition-treasure-15.description"
             },
@@ -6111,9 +5911,6 @@
             "type": "FIND_EXPEDITION_TREASURE",
             "goal": 17,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-find-expedition-treasure-17 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-find-expedition-treasure-17.description"
             },
@@ -6124,9 +5921,6 @@
             "type": "OPEN_PET_LOOTBOX",
             "goal": 40,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-open-pet-lootbox-40 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-open-pet-lootbox-40.description"
             },
@@ -6137,9 +5931,6 @@
             "type": "OPEN_PET_LOOTBOX",
             "goal": 45,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-open-pet-lootbox-45 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-open-pet-lootbox-45.description"
             },
@@ -6150,9 +5941,6 @@
             "type": "EARN_SHARDS",
             "goal": 50000,
             "rewardExperience": 1925,
-            "commands": [
-              "tell %player% Claimed IV-earn-shards-50000 quest"
-            ],
             "tooltip": {
               "description": "treasures.battlepass.quests.daily.IV-earn-shards-50000.description"
             },
