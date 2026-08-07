@@ -109,7 +109,7 @@
   },
   "gameplaySettings": {
     "claimAllEnabled": true,
-    "levelShareEnabled": true,
+    "levelShareEnabled": false,
     "levelShareCooldownMillis": 5000,
     "resetEnabled": false,
     "resetUnlockLevel": 100,
@@ -124,8 +124,7 @@
     },
     "title": "treasures.battlepass.purchase-modal.special.title",
     "benefits": [
-      "treasures.battlepass.purchase-modal.special.benefit.premium-rewards",
-      "treasures.battlepass.purchase-modal.special.benefit.bonus-levels"
+      "treasures.battlepass.purchase-modal.special.benefit.premium-rewards"
     ]
   },
   "rewardTiers": [
@@ -148,7 +147,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-1.title"
+            "title": "i18n.treasures.battlepass.reward.money|!|1000"
           }
         }
       ],
@@ -164,7 +163,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-1.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|1"
           }
         }
       ]
@@ -183,7 +182,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-2.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|3"
           }
         }
       ],
@@ -199,7 +198,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-2.title"
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|1"
           }
         }
       ]
@@ -218,7 +217,7 @@
             "texture": "cache/simulator/storage.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-3.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|300"
           }
         }
       ],
@@ -226,7 +225,7 @@
         {
           "id": "level-3-premium",
           "onClaim": [
-            "local-booster %player% EXP 1 600"
+            "local-booster %player% EXP 2 600"
           ],
           "icon": {
             "type": "textured",
@@ -234,13 +233,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-3.title"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|10"
           }
         },
         {
           "id": "level-3-premium-2",
           "onClaim": [
-            "local-booster %player% TREASURES 1 600"
+            "local-booster %player% TREASURES 2 600"
           ],
           "icon": {
             "type": "textured",
@@ -248,13 +247,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-3.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|10"
           }
         },
         {
           "id": "level-3-premium-3",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 600"
+            "local-booster %player% BLOCKS 2 600"
           ],
           "icon": {
             "type": "textured",
@@ -262,7 +261,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-3.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|10"
           }
         }
       ]
@@ -274,14 +273,14 @@
         {
           "id": "level-4-default-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 600"
+            "local-booster %player% MONEY 2 600"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-4.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|10"
           }
         }
       ],
@@ -297,7 +296,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-4.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
           }
         }
       ]
@@ -316,7 +315,7 @@
             "texture": "cache/simulator/purple_cristal_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-5.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -329,7 +328,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-5.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
           }
         },
         {
@@ -342,7 +341,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-5.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
           }
         },
         {
@@ -355,7 +354,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-5.title-4"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
           }
         }
       ],
@@ -373,7 +372,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-5.title"
+            "title": "i18n.treasures.battlepass.reward.tnt|!|5"
           }
         }
       ]
@@ -397,7 +396,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-6.title"
+            "title": "i18n.treasures.battlepass.reward.case-opening|!|2"
           }
         }
       ],
@@ -405,7 +404,7 @@
         {
           "id": "level-6-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 600"
+            "local-booster %player% MONEY 2 600"
           ],
           "icon": {
             "type": "textured",
@@ -413,13 +412,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-6.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|10"
           }
         },
         {
           "id": "level-6-premium-2",
           "onClaim": [
-            "local-booster %player% TREASURES 1 600"
+            "local-booster %player% TREASURES 2 600"
           ],
           "icon": {
             "type": "textured",
@@ -427,7 +426,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-6.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|10"
           }
         }
       ]
@@ -440,7 +439,7 @@
           "id": "level-7-default",
           "onClaim": [
             "random-money %player% 99.8 99.9 1",
-            "local-booster %player% MONEY 1 1200"
+            "local-booster %player% MONEY 2 1200"
           ],
           "icon": {
             "type": "item",
@@ -452,7 +451,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-7.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.minutes|!|20)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|100)"
           }
         }
       ],
@@ -474,7 +473,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-7.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.save-crystal|!|1)|!|(i18n.treasures.battlepass.reward.key.rune|!|1)"
           }
         }
       ]
@@ -495,7 +494,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-8.title"
+            "title": "i18n.treasures.battlepass.reward.tnt|!|5"
           }
         }
       ],
@@ -511,7 +510,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-8.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
           }
         },
         {
@@ -525,7 +524,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-8.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
           }
         }
       ]
@@ -537,14 +536,14 @@
         {
           "id": "level-9-default",
           "onClaim": [
-            "local-booster %player% TREASURES 1 600"
+            "local-booster %player% TREASURES 2 600"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-9.title"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|10"
           }
         }
       ],
@@ -565,7 +564,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-9.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|30"
           }
         }
       ]
@@ -584,7 +583,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-10.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
           }
         }
       ],
@@ -592,7 +591,7 @@
         {
           "id": "level-10-premium-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 600"
+            "local-booster %player% MONEY 2 600"
           ],
           "icon": {
             "type": "textured",
@@ -600,13 +599,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-10.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|10"
           }
         },
         {
           "id": "level-10-premium-a-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 600"
+            "local-booster %player% BLOCKS 2 600"
           ],
           "icon": {
             "type": "textured",
@@ -614,13 +613,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-10.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|10"
           }
         },
         {
           "id": "level-10-premium-a-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 600"
+            "local-booster %player% TREASURES 2 600"
           ],
           "icon": {
             "type": "textured",
@@ -628,7 +627,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-10.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|10"
           }
         },
         {
@@ -642,7 +641,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-10.title-4"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|10"
           }
         }
       ]
@@ -661,7 +660,7 @@
             "texture": "cache/simulator/save_crystal.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-11.title"
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|1"
           }
         }
       ],
@@ -677,7 +676,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-11.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|300"
           }
         }
       ]
@@ -701,7 +700,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-12.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|30"
           }
         }
       ],
@@ -709,7 +708,7 @@
         {
           "id": "level-12-premium",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 600"
+            "local-booster %player% BLOCKS 2 600"
           ],
           "icon": {
             "type": "textured",
@@ -717,7 +716,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-12.title"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|10"
           }
         }
       ]
@@ -736,7 +735,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-13.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
           }
         }
       ],
@@ -752,7 +751,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-13.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
           }
         },
         {
@@ -766,7 +765,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-13.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
           }
         }
       ]
@@ -778,40 +777,40 @@
         {
           "id": "level-14-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 1200"
+            "local-booster %player% MONEY 2 1200"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-14.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
           }
         },
         {
           "id": "level-14-default-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 1200"
+            "local-booster %player% BLOCKS 2 1200"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-14.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20"
           }
         },
         {
           "id": "level-14-default-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 1200"
+            "local-booster %player% TREASURES 2 1200"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-14.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
           }
         },
         {
@@ -824,7 +823,7 @@
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-14.title-4"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
           }
         }
       ],
@@ -832,7 +831,7 @@
         {
           "id": "level-14-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 1200"
+            "local-booster %player% MONEY 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -840,7 +839,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-14.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
           }
         }
       ]
@@ -859,7 +858,7 @@
             "texture": "cache/simulator/storage.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-15.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|600"
           }
         }
       ],
@@ -875,7 +874,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-15.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
           }
         }
       ]
@@ -894,7 +893,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-16.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
           }
         },
         {
@@ -907,7 +906,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-16.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
           }
         },
         {
@@ -920,7 +919,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-16.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
           }
         }
       ],
@@ -941,7 +940,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-16.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|30"
           }
         }
       ]
@@ -953,7 +952,7 @@
         {
           "id": "level-17-default",
           "onClaim": [
-            "local-booster %player% TREASURES 1 1200",
+            "local-booster %player% TREASURES 2 1200",
             "give-key %player% DEFAULT 30"
           ],
           "icon": {
@@ -966,7 +965,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-17.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20)|!|(i18n.treasures.battlepass.reward.key.default|!|30)"
           }
         }
       ],
@@ -974,7 +973,7 @@
         {
           "id": "level-17-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 1200",
+            "local-booster %player% MONEY 2 1200",
             "random-money %player% 149.8 149.9 1"
           ],
           "icon": {
@@ -988,7 +987,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-17.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.minutes|!|20)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|150)"
           }
         }
       ]
@@ -1009,7 +1008,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-18.title"
+            "title": "i18n.treasures.battlepass.reward.tnt|!|8"
           }
         }
       ],
@@ -1017,7 +1016,7 @@
         {
           "id": "level-18-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 1200"
+            "local-booster %player% MONEY 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -1025,13 +1024,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-18.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
           }
         },
         {
           "id": "level-18-premium-2",
           "onClaim": [
-            "local-booster %player% EXP 1 1200"
+            "local-booster %player% EXP 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -1039,13 +1038,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-18.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
           }
         },
         {
           "id": "level-18-premium-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 1200"
+            "local-booster %player% TREASURES 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -1053,7 +1052,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-18.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
           }
         }
       ]
@@ -1077,7 +1076,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-19.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|40"
           }
         }
       ],
@@ -1093,7 +1092,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-19.title"
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|1"
           }
         }
       ]
@@ -1105,14 +1104,14 @@
         {
           "id": "level-20-default-a",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 1200"
+            "local-booster %player% BLOCKS 2 1200"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-20.title"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20"
           }
         }
       ],
@@ -1120,7 +1119,7 @@
         {
           "id": "level-20-premium-a",
           "onClaim": [
-            "local-booster %player% TREASURES 1 1200"
+            "local-booster %player% TREASURES 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -1128,7 +1127,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-20.title"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
           }
         }
       ]
@@ -1147,7 +1146,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-21.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
           }
         }
       ],
@@ -1163,7 +1162,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-21.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -1177,7 +1176,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-21.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
           }
         },
         {
@@ -1191,7 +1190,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-21.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|1"
           }
         },
         {
@@ -1205,7 +1204,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-21.title-4"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|6"
           }
         }
       ]
@@ -1224,7 +1223,7 @@
             "texture": "cache/simulator/incident_points.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-22.title"
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|10"
           }
         }
       ],
@@ -1240,7 +1239,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-22.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|600"
           }
         }
       ]
@@ -1259,7 +1258,7 @@
             "texture": "cache/simulator/save_crystal.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-23.title"
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|2"
           }
         }
       ],
@@ -1275,7 +1274,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-23.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|3"
           }
         }
       ]
@@ -1287,14 +1286,14 @@
         {
           "id": "level-24-default-a",
           "onClaim": [
-            "local-booster %player% EXP 1 1200"
+            "local-booster %player% EXP 2 1200"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-24.title"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
           }
         },
         {
@@ -1307,7 +1306,7 @@
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-24.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
           }
         }
       ],
@@ -1328,7 +1327,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-24.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|40"
           }
         }
       ]
@@ -1352,7 +1351,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-25.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|50"
           }
         }
       ],
@@ -1368,7 +1367,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-25.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
           }
         },
         {
@@ -1382,7 +1381,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-25.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
           }
         },
         {
@@ -1396,7 +1395,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-25.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
           }
         }
       ]
@@ -1415,7 +1414,7 @@
             "texture": "cache/simulator/purple_cristal_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-26.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -1428,7 +1427,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-26.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
           }
         },
         {
@@ -1441,7 +1440,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-26.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
           }
         },
         {
@@ -1454,7 +1453,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-26.title-4"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
           }
         }
       ],
@@ -1475,7 +1474,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-26.title"
+            "title": "i18n.treasures.battlepass.reward.bits|!|150"
           }
         }
       ]
@@ -1487,7 +1486,7 @@
         {
           "id": "level-27-default",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 1200",
+            "local-booster %player% BLOCKS 2 1200",
             "give-tnt %player% 30"
           ],
           "icon": {
@@ -1500,7 +1499,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-27.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20)|!|(i18n.treasures.battlepass.reward.tnt|!|30)"
           }
         }
       ],
@@ -1522,7 +1521,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-27.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.shards|!|900)|!|(i18n.treasures.battlepass.reward.simcoins|!|20)"
           }
         }
       ]
@@ -1534,14 +1533,14 @@
         {
           "id": "level-28-default",
           "onClaim": [
-            "local-booster %player% EXP 1 1200"
+            "local-booster %player% EXP 2 1200"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-28.title"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
           }
         }
       ],
@@ -1557,7 +1556,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-28.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
           }
         }
       ]
@@ -1576,7 +1575,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-29.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
           }
         }
       ],
@@ -1584,7 +1583,7 @@
         {
           "id": "level-29-premium",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 1200"
+            "local-booster %player% BLOCKS 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -1592,13 +1591,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-29.title"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20"
           }
         },
         {
           "id": "level-29-premium-2",
           "onClaim": [
-            "local-booster %player% TREASURES 1 1200"
+            "local-booster %player% TREASURES 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -1606,7 +1605,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-29.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
           }
         }
       ]
@@ -1625,7 +1624,7 @@
             "texture": "cache/simulator/storage.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-30.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|1200"
           }
         }
       ],
@@ -1646,7 +1645,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-30.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|50"
           }
         }
       ]
@@ -1658,14 +1657,14 @@
         {
           "id": "level-31-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 1200"
+            "local-booster %player% MONEY 2 1200"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-31.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
           }
         }
       ],
@@ -1681,7 +1680,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-31.title"
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|10"
           }
         }
       ]
@@ -1705,7 +1704,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-32.title"
+            "title": "i18n.treasures.battlepass.reward.bits|!|150"
           }
         }
       ],
@@ -1721,7 +1720,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-32.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
           }
         },
         {
@@ -1735,7 +1734,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-32.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
           }
         }
       ]
@@ -1754,7 +1753,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-33.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
           }
         }
       ],
@@ -1762,7 +1761,7 @@
         {
           "id": "level-33-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 1200"
+            "local-booster %player% MONEY 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -1770,7 +1769,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-33.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
           }
         }
       ]
@@ -1789,7 +1788,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-34.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
           }
         }
       ],
@@ -1797,7 +1796,7 @@
         {
           "id": "level-34-premium",
           "onClaim": [
-            "local-booster %player% EXP 1 1200"
+            "local-booster %player% EXP 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -1805,7 +1804,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-34.title"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
           }
         }
       ]
@@ -1817,40 +1816,40 @@
         {
           "id": "level-35-default-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 1800"
+            "local-booster %player% MONEY 2 1800"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-35.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
           }
         },
         {
           "id": "level-35-default-a-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 1800"
+            "local-booster %player% BLOCKS 2 1800"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-35.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|30"
           }
         },
         {
           "id": "level-35-default-a-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 1800"
+            "local-booster %player% TREASURES 2 1800"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-35.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|30"
           }
         },
         {
@@ -1863,7 +1862,7 @@
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-35.title-4"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|30"
           }
         }
       ],
@@ -1879,7 +1878,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-35.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
           }
         }
       ]
@@ -1898,7 +1897,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-36.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
           }
         },
         {
@@ -1911,7 +1910,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-36.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
           }
         }
       ],
@@ -1932,7 +1931,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-36.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|50"
           }
         }
       ]
@@ -1958,7 +1957,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-37.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.3|!|(i18n.treasures.battlepass.reward.key.title|!|1)|!|(i18n.treasures.battlepass.reward.key.rune|!|2)|!|(i18n.treasures.battlepass.reward.key.pet|!|6)"
           }
         }
       ],
@@ -1966,7 +1965,7 @@
         {
           "id": "level-37-premium",
           "onClaim": [
-            "local-booster %player% EXP 1 1800",
+            "local-booster %player% EXP 2 1800",
             "give-tnt %player% 30"
           ],
           "icon": {
@@ -1980,7 +1979,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-37.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.experience.minutes|!|30)|!|(i18n.treasures.battlepass.reward.tnt|!|30)"
           }
         }
       ]
@@ -2004,7 +2003,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-38.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|60"
           }
         }
       ],
@@ -2020,7 +2019,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-38.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -2034,7 +2033,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-38.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
           }
         },
         {
@@ -2048,7 +2047,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-38.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|2"
           }
         }
       ]
@@ -2067,7 +2066,7 @@
             "texture": "cache/simulator/rune_slot.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-39.title"
+            "title": "i18n.treasures.battlepass.reward.rune-slot"
           }
         }
       ],
@@ -2083,7 +2082,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-39.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|12"
           }
         }
       ]
@@ -2102,7 +2101,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-40.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
           }
         }
       ],
@@ -2110,7 +2109,7 @@
         {
           "id": "level-40-premium-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 1800"
+            "local-booster %player% MONEY 2 1800"
           ],
           "icon": {
             "type": "textured",
@@ -2118,7 +2117,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-40.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
           }
         }
       ]
@@ -2130,14 +2129,14 @@
         {
           "id": "level-41-default",
           "onClaim": [
-            "local-booster %player% TREASURES 1 1800"
+            "local-booster %player% TREASURES 2 1800"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-41.title"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|30"
           }
         }
       ],
@@ -2153,7 +2152,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-41.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|1200"
           }
         }
       ]
@@ -2172,7 +2171,7 @@
             "texture": "cache/simulator/save_crystal.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-42.title"
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|3"
           }
         }
       ],
@@ -2180,7 +2179,7 @@
         {
           "id": "level-42-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 1800"
+            "local-booster %player% MONEY 2 1800"
           ],
           "icon": {
             "type": "textured",
@@ -2188,13 +2187,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-42.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
           }
         },
         {
           "id": "level-42-premium-2",
           "onClaim": [
-            "local-booster %player% EXP 1 1800"
+            "local-booster %player% EXP 2 1800"
           ],
           "icon": {
             "type": "textured",
@@ -2202,7 +2201,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-42.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|30"
           }
         }
       ]
@@ -2223,7 +2222,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-43.title"
+            "title": "i18n.treasures.battlepass.reward.tnt|!|20"
           }
         }
       ],
@@ -2239,7 +2238,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-43.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|6"
           }
         }
       ]
@@ -2258,7 +2257,7 @@
             "texture": "cache/simulator/purple_cristal_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-44.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -2271,7 +2270,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-44.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|9"
           }
         },
         {
@@ -2284,7 +2283,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-44.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
           }
         },
         {
@@ -2297,7 +2296,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-44.title-4"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|18"
           }
         }
       ],
@@ -2305,7 +2304,7 @@
         {
           "id": "level-44-premium-a",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 1800"
+            "local-booster %player% BLOCKS 2 1800"
           ],
           "icon": {
             "type": "textured",
@@ -2313,7 +2312,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-44.title"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|30"
           }
         }
       ]
@@ -2332,7 +2331,7 @@
             "texture": "cache/simulator/storage.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-45.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|1750"
           }
         }
       ],
@@ -2350,7 +2349,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-45.title"
+            "title": "i18n.treasures.battlepass.reward.tnt|!|20"
           }
         }
       ]
@@ -2362,27 +2361,27 @@
         {
           "id": "level-46-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 1800"
+            "local-booster %player% MONEY 2 1800"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-46.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
           }
         },
         {
           "id": "level-46-default-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 1800"
+            "local-booster %player% BLOCKS 2 1800"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-46.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|30"
           }
         },
         {
@@ -2395,7 +2394,7 @@
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-46.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|30"
           }
         }
       ],
@@ -2411,7 +2410,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-46.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|9"
           }
         },
         {
@@ -2425,7 +2424,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-46.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
           }
         },
         {
@@ -2439,7 +2438,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-46.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|18"
           }
         }
       ]
@@ -2465,7 +2464,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-47.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.3|!|(i18n.treasures.battlepass.reward.shards|!|5000)|!|(i18n.treasures.battlepass.reward.incident-points|!|50)|!|(i18n.treasures.battlepass.reward.simcoins|!|40)"
           }
         }
       ],
@@ -2473,7 +2472,7 @@
         {
           "id": "level-47-premium",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 1800",
+            "local-booster %player% BLOCKS 2 1800",
             "give-key %player% DEFAULT 18",
             "earn-bits %player% 200"
           ],
@@ -2488,7 +2487,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-47.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.3|!|(i18n.treasures.battlepass.reward.booster.blocks.minutes|!|30)|!|(i18n.treasures.battlepass.reward.key.default|!|18)|!|(i18n.treasures.battlepass.reward.bits|!|200)"
           }
         }
       ]
@@ -2512,7 +2511,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-48.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|70"
           }
         }
       ],
@@ -2528,7 +2527,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-48.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|9"
           }
         },
         {
@@ -2542,7 +2541,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-48.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|18"
           }
         }
       ]
@@ -2566,7 +2565,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-49.title"
+            "title": "i18n.treasures.battlepass.reward.bits|!|250"
           }
         }
       ],
@@ -2587,7 +2586,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-49.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|70"
           }
         }
       ]
@@ -2606,7 +2605,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-50.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|9"
           }
         }
       ],
@@ -2614,7 +2613,7 @@
         {
           "id": "level-50-premium-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 1200"
+            "local-booster %player% MONEY 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -2622,13 +2621,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-50.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|20"
           }
         },
         {
           "id": "level-50-premium-a-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 1200"
+            "local-booster %player% BLOCKS 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -2636,13 +2635,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-50.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|20"
           }
         },
         {
           "id": "level-50-premium-a-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 1200"
+            "local-booster %player% TREASURES 2 1200"
           ],
           "icon": {
             "type": "textured",
@@ -2650,7 +2649,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-50.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|20"
           }
         },
         {
@@ -2664,7 +2663,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-50.title-4"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|20"
           }
         }
       ]
@@ -2683,7 +2682,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-51.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|24"
           }
         }
       ],
@@ -2699,7 +2698,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-51.title"
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|3"
           }
         }
       ]
@@ -2711,14 +2710,14 @@
         {
           "id": "level-52-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 1800"
+            "local-booster %player% MONEY 2 1800"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-52.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
           }
         }
       ],
@@ -2734,7 +2733,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-52.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
           }
         }
       ]
@@ -2753,7 +2752,7 @@
             "texture": "cache/simulator/save_crystal.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-53.title"
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|3"
           }
         }
       ],
@@ -2769,7 +2768,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-53.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|1750"
           }
         }
       ]
@@ -2788,7 +2787,7 @@
             "texture": "cache/simulator/purple_cristal_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-54.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -2801,7 +2800,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-54.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|3"
           }
         }
       ],
@@ -2809,7 +2808,7 @@
         {
           "id": "level-54-premium",
           "onClaim": [
-            "local-booster %player% EXP 1 1800"
+            "local-booster %player% EXP 2 1800"
           ],
           "icon": {
             "type": "textured",
@@ -2817,13 +2816,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-54.title"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|30"
           }
         },
         {
           "id": "level-54-premium-2",
           "onClaim": [
-            "local-booster %player% TREASURES 1 1800"
+            "local-booster %player% TREASURES 2 1800"
           ],
           "icon": {
             "type": "textured",
@@ -2831,7 +2830,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-54.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|30"
           }
         }
       ]
@@ -2855,7 +2854,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-55.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|80"
           }
         }
       ],
@@ -2863,7 +2862,7 @@
         {
           "id": "level-55-premium-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 1800"
+            "local-booster %player% MONEY 2 1800"
           ],
           "icon": {
             "type": "textured",
@@ -2871,7 +2870,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-55.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|30"
           }
         }
       ]
@@ -2883,40 +2882,40 @@
         {
           "id": "level-56-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 2400"
+            "local-booster %player% MONEY 2 2400"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-56.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
           }
         },
         {
           "id": "level-56-default-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 2400"
+            "local-booster %player% BLOCKS 2 2400"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-56.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
           }
         },
         {
           "id": "level-56-default-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 2400"
+            "local-booster %player% TREASURES 2 2400"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-56.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|40"
           }
         },
         {
@@ -2929,7 +2928,7 @@
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-56.title-4"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|40"
           }
         }
       ],
@@ -2950,7 +2949,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-56.title"
+            "title": "i18n.treasures.battlepass.reward.bits|!|250"
           }
         }
       ]
@@ -2975,7 +2974,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-57.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.key.pet|!|10)|!|(i18n.treasures.battlepass.reward.bits|!|500)"
           }
         }
       ],
@@ -2997,7 +2996,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-57.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.balance-money|!|200)|!|(i18n.treasures.battlepass.reward.shards|!|1800)"
           }
         }
       ]
@@ -3016,7 +3015,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-58.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|4"
           }
         }
       ],
@@ -3032,7 +3031,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-58.title"
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|15"
           }
         }
       ]
@@ -3044,14 +3043,14 @@
         {
           "id": "level-59-default",
           "onClaim": [
-            "local-booster %player% EXP 1 2400"
+            "local-booster %player% EXP 2 2400"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-59.title"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|40"
           }
         }
       ],
@@ -3059,7 +3058,7 @@
         {
           "id": "level-59-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 2400"
+            "local-booster %player% MONEY 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3067,13 +3066,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-59.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
           }
         },
         {
           "id": "level-59-premium-2",
           "onClaim": [
-            "local-booster %player% TREASURES 1 2400"
+            "local-booster %player% TREASURES 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3081,13 +3080,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-59.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|40"
           }
         },
         {
           "id": "level-59-premium-3",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 2400"
+            "local-booster %player% BLOCKS 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3095,7 +3094,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-59.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
           }
         }
       ]
@@ -3114,7 +3113,7 @@
             "texture": "cache/simulator/storage.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-60.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|2100"
           }
         }
       ],
@@ -3135,7 +3134,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-60.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|80"
           }
         }
       ]
@@ -3154,7 +3153,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-61.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|25"
           }
         }
       ],
@@ -3162,7 +3161,7 @@
         {
           "id": "level-61-premium",
           "onClaim": [
-            "local-booster %player% TREASURES 1 2400"
+            "local-booster %player% TREASURES 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3170,7 +3169,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-61.title"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|40"
           }
         }
       ]
@@ -3191,7 +3190,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-62.title"
+            "title": "i18n.treasures.battlepass.reward.tnt|!|30"
           }
         }
       ],
@@ -3199,7 +3198,7 @@
         {
           "id": "level-62-premium",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 2400"
+            "local-booster %player% BLOCKS 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3207,7 +3206,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-62.title"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
           }
         }
       ]
@@ -3231,7 +3230,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-63.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|90"
           }
         }
       ],
@@ -3247,7 +3246,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-63.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -3261,7 +3260,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-63.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|12"
           }
         },
         {
@@ -3275,7 +3274,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-63.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|4"
           }
         },
         {
@@ -3289,7 +3288,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-63.title-4"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|24"
           }
         }
       ]
@@ -3308,7 +3307,7 @@
             "texture": "cache/simulator/incident_points.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-64.title"
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|15"
           }
         }
       ],
@@ -3324,7 +3323,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-64.title"
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|3"
           }
         }
       ]
@@ -3343,7 +3342,7 @@
             "texture": "cache/simulator/purple_cristal_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-65.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -3356,7 +3355,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-65.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
           }
         },
         {
@@ -3369,7 +3368,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-65.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|5"
           }
         },
         {
@@ -3382,7 +3381,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-65.title-4"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
           }
         }
       ],
@@ -3400,7 +3399,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-65.title"
+            "title": "i18n.treasures.battlepass.reward.tnt|!|30"
           }
         }
       ]
@@ -3412,14 +3411,14 @@
         {
           "id": "level-66-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 2400"
+            "local-booster %player% MONEY 2 2400"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-66.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
           }
         },
         {
@@ -3432,7 +3431,7 @@
             "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-66.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
           }
         }
       ],
@@ -3453,7 +3452,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-66.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|90"
           }
         }
       ]
@@ -3479,7 +3478,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-67.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.3|!|(i18n.treasures.battlepass.reward.shards|!|5000)|!|(i18n.treasures.battlepass.reward.save-crystal|!|3)|!|(i18n.treasures.battlepass.reward.key.rune|!|5)"
           }
         }
       ],
@@ -3487,7 +3486,7 @@
         {
           "id": "level-67-premium",
           "onClaim": [
-            "local-booster %player% EXP 1 2400",
+            "local-booster %player% EXP 2 2400",
             "give-incident-points %player% 10"
           ],
           "icon": {
@@ -3501,7 +3500,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-67.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.experience.minutes|!|40)|!|(i18n.treasures.battlepass.reward.incident-points|!|10)"
           }
         }
       ]
@@ -3525,7 +3524,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-68.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|90"
           }
         }
       ],
@@ -3541,7 +3540,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-68.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -3555,7 +3554,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-68.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
           }
         }
       ]
@@ -3579,7 +3578,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-69.title"
+            "title": "i18n.treasures.battlepass.reward.simcoins-bag|!|40"
           }
         }
       ],
@@ -3595,7 +3594,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-69.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|2100"
           }
         }
       ]
@@ -3614,7 +3613,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-70.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
           }
         }
       ],
@@ -3622,7 +3621,7 @@
         {
           "id": "level-70-premium-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 2400"
+            "local-booster %player% MONEY 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3630,13 +3629,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-70.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
           }
         },
         {
           "id": "level-70-premium-a-2",
           "onClaim": [
-            "local-booster %player% EXP 1 2400"
+            "local-booster %player% EXP 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3644,13 +3643,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-70.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|40"
           }
         },
         {
           "id": "level-70-premium-a-3",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 2400"
+            "local-booster %player% BLOCKS 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3658,7 +3657,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-70.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
           }
         }
       ]
@@ -3670,14 +3669,14 @@
         {
           "id": "level-71-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 2400"
+            "local-booster %player% MONEY 2 2400"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-71.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
           }
         }
       ],
@@ -3693,7 +3692,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-71.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
           }
         }
       ]
@@ -3712,7 +3711,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-72.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|5"
           }
         }
       ],
@@ -3720,7 +3719,7 @@
         {
           "id": "level-72-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 2400"
+            "local-booster %player% MONEY 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3728,13 +3727,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-72.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|40"
           }
         },
         {
           "id": "level-72-premium-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 2400"
+            "local-booster %player% BLOCKS 2 2400"
           ],
           "icon": {
             "type": "textured",
@@ -3742,7 +3741,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-72.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|40"
           }
         }
       ]
@@ -3766,7 +3765,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-73.title"
+            "title": "i18n.treasures.battlepass.reward.bits|!|300"
           }
         }
       ],
@@ -3782,7 +3781,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-73.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         }
       ]
@@ -3794,40 +3793,40 @@
         {
           "id": "level-74-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 3000"
+            "local-booster %player% MONEY 2 3000"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-74.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
           }
         },
         {
           "id": "level-74-default-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 3000"
+            "local-booster %player% BLOCKS 2 3000"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-74.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|50"
           }
         },
         {
           "id": "level-74-default-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3000"
+            "local-booster %player% TREASURES 2 3000"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-74.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
           }
         },
         {
@@ -3840,7 +3839,7 @@
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-74.title-4"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
           }
         }
       ],
@@ -3861,7 +3860,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-74.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|90"
           }
         }
       ]
@@ -3880,7 +3879,7 @@
             "texture": "cache/simulator/storage.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-75.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|3000"
           }
         }
       ],
@@ -3898,7 +3897,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-75.title"
+            "title": "i18n.treasures.battlepass.reward.tnt|!|30"
           }
         }
       ]
@@ -3917,7 +3916,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-76.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|5"
           }
         },
         {
@@ -3930,7 +3929,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-76.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
           }
         },
         {
@@ -3943,7 +3942,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-76.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
           }
         }
       ],
@@ -3951,7 +3950,7 @@
         {
           "id": "level-76-premium",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3000"
+            "local-booster %player% TREASURES 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -3959,13 +3958,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-76.title"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
           }
         },
         {
           "id": "level-76-premium-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 3000"
+            "local-booster %player% BLOCKS 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -3973,7 +3972,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-76.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|50"
           }
         }
       ]
@@ -3985,7 +3984,7 @@
         {
           "id": "level-77-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 2400",
+            "local-booster %player% MONEY 2 2400",
             "random-money %player% 299.8 299.9 1"
           ],
           "icon": {
@@ -3998,7 +3997,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-77.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.minutes|!|40)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|300)"
           }
         }
       ],
@@ -4020,7 +4019,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-77.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.save-crystal|!|5)|!|(i18n.treasures.battlepass.reward.bits|!|300)"
           }
         }
       ]
@@ -4039,7 +4038,7 @@
             "texture": "cache/simulator/save_crystal.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-78.title"
+            "title": "i18n.treasures.battlepass.reward.save-crystal|!|5"
           }
         }
       ],
@@ -4055,7 +4054,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-78.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
           }
         }
       ]
@@ -4079,7 +4078,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-79.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|100"
           }
         }
       ],
@@ -4087,7 +4086,7 @@
         {
           "id": "level-79-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 3000"
+            "local-booster %player% MONEY 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4095,13 +4094,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-79.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
           }
         },
         {
           "id": "level-79-premium-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 3000"
+            "local-booster %player% BLOCKS 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4109,13 +4108,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-79.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|50"
           }
         },
         {
           "id": "level-79-premium-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3000"
+            "local-booster %player% TREASURES 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4123,7 +4122,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-79.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
           }
         },
         {
@@ -4137,7 +4136,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-79.title-4"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
           }
         }
       ]
@@ -4149,14 +4148,14 @@
         {
           "id": "level-80-default-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 3000"
+            "local-booster %player% MONEY 2 3000"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-80.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
           }
         }
       ],
@@ -4172,7 +4171,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-80.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|30"
           }
         }
       ]
@@ -4191,7 +4190,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-81.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
           }
         }
       ],
@@ -4199,7 +4198,7 @@
         {
           "id": "level-81-premium",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 3000"
+            "local-booster %player% BLOCKS 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4207,7 +4206,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-81.title"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.minutes|!|50"
           }
         }
       ]
@@ -4219,14 +4218,14 @@
         {
           "id": "level-82-default",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3000"
+            "local-booster %player% TREASURES 2 3000"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-82.title"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
           }
         }
       ],
@@ -4247,7 +4246,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-82.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|100"
           }
         }
       ]
@@ -4268,7 +4267,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-83.title"
+            "title": "i18n.treasures.battlepass.reward.tnt|!|50"
           }
         }
       ],
@@ -4284,7 +4283,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-83.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|15"
           }
         },
         {
@@ -4298,7 +4297,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-83.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|5"
           }
         }
       ]
@@ -4310,14 +4309,14 @@
         {
           "id": "level-84-default-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 3000"
+            "local-booster %player% MONEY 2 3000"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-84.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
           }
         },
         {
@@ -4330,7 +4329,7 @@
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-84.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
           }
         }
       ],
@@ -4351,7 +4350,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-84.title"
+            "title": "i18n.treasures.battlepass.reward.bits|!|300"
           }
         }
       ]
@@ -4370,7 +4369,7 @@
             "texture": "cache/simulator/incident_points.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-85.title"
+            "title": "i18n.treasures.battlepass.reward.incident-points|!|25"
           }
         }
       ],
@@ -4378,7 +4377,7 @@
         {
           "id": "level-85-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 3000"
+            "local-booster %player% MONEY 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4386,7 +4385,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-85.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
           }
         }
       ]
@@ -4405,7 +4404,7 @@
             "texture": "cache/simulator/purple_cristal_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-86.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -4418,7 +4417,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-86.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
           }
         },
         {
@@ -4431,7 +4430,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-86.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
           }
         },
         {
@@ -4444,7 +4443,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-86.title-4"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
           }
         }
       ],
@@ -4460,7 +4459,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-86.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|3000"
           }
         }
       ]
@@ -4472,7 +4471,7 @@
         {
           "id": "level-87-default",
           "onClaim": [
-            "local-booster %player% EXP 1 2400",
+            "local-booster %player% EXP 2 2400",
             "earn-bits %player% 1000"
           ],
           "icon": {
@@ -4485,7 +4484,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-87.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.experience.minutes|!|40)|!|(i18n.treasures.battlepass.reward.bits|!|1000)"
           }
         }
       ],
@@ -4493,7 +4492,7 @@
         {
           "id": "level-87-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 3000",
+            "local-booster %player% MONEY 2 3000",
             "random-money %player% 349.8 349.9 1"
           ],
           "icon": {
@@ -4507,7 +4506,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-87.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.minutes|!|50)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|350)"
           }
         }
       ]
@@ -4519,14 +4518,14 @@
         {
           "id": "level-88-default",
           "onClaim": [
-            "local-booster %player% EXP 1 3000"
+            "local-booster %player% EXP 2 3000"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-88.title"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
           }
         }
       ],
@@ -4542,7 +4541,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-88.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -4556,7 +4555,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-88.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
           }
         },
         {
@@ -4570,7 +4569,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-88.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
           }
         },
         {
@@ -4584,7 +4583,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-88.title-4"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
           }
         }
       ]
@@ -4603,7 +4602,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-89.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
           }
         }
       ],
@@ -4611,7 +4610,7 @@
         {
           "id": "level-89-premium",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3000"
+            "local-booster %player% TREASURES 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4619,7 +4618,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-89.title"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
           }
         }
       ]
@@ -4638,7 +4637,7 @@
             "texture": "cache/simulator/storage.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-90.title"
+            "title": "i18n.treasures.battlepass.reward.shards-bag|!|3500"
           }
         }
       ],
@@ -4659,7 +4658,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-90.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|100"
           }
         }
       ]
@@ -4678,7 +4677,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-91.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
           }
         }
       ],
@@ -4686,7 +4685,7 @@
         {
           "id": "level-91-premium",
           "onClaim": [
-            "local-booster %player% EXP 1 3000"
+            "local-booster %player% EXP 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4694,13 +4693,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-91.title"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.minutes|!|50"
           }
         },
         {
           "id": "level-91-premium-2",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3000"
+            "local-booster %player% TREASURES 2 3000"
           ],
           "icon": {
             "type": "textured",
@@ -4708,7 +4707,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-91.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.minutes|!|50"
           }
         }
       ]
@@ -4720,14 +4719,14 @@
         {
           "id": "level-92-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 3000"
+            "local-booster %player% MONEY 2 3000"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-92.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.minutes|!|50"
           }
         }
       ],
@@ -4743,7 +4742,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-92.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
           }
         }
       ]
@@ -4767,7 +4766,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-93.title"
+            "title": "i18n.treasures.battlepass.reward.bits|!|400"
           }
         }
       ],
@@ -4775,7 +4774,7 @@
         {
           "id": "level-93-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600"
+            "local-booster %player% MONEY 2 3600"
           ],
           "icon": {
             "type": "textured",
@@ -4783,13 +4782,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-93.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.hours|!|1"
           }
         },
         {
           "id": "level-93-premium-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 3600"
+            "local-booster %player% BLOCKS 2 3600"
           ],
           "icon": {
             "type": "textured",
@@ -4797,13 +4796,13 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-93.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.hours|!|1"
           }
         },
         {
           "id": "level-93-premium-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3600"
+            "local-booster %player% TREASURES 2 3600"
           ],
           "icon": {
             "type": "textured",
@@ -4811,7 +4810,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-93.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.hours|!|1"
           }
         },
         {
@@ -4825,7 +4824,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-93.title-4"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.hours|!|1"
           }
         }
       ]
@@ -4849,7 +4848,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-94.title"
+            "title": "i18n.treasures.battlepass.reward.balance-money|!|150"
           }
         }
       ],
@@ -4865,7 +4864,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-94.title"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
           }
         },
         {
@@ -4879,7 +4878,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-94.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
           }
         }
       ]
@@ -4891,40 +4890,40 @@
         {
           "id": "level-95-default-a",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600"
+            "local-booster %player% MONEY 2 3600"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/money_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-95.title"
+            "title": "i18n.treasures.battlepass.reward.booster.money.hours|!|1"
           }
         },
         {
           "id": "level-95-default-a-2",
           "onClaim": [
-            "local-booster %player% BLOCKS 1 3600"
+            "local-booster %player% BLOCKS 2 3600"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/blocks_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-95.title-2"
+            "title": "i18n.treasures.battlepass.reward.booster.blocks.hours|!|1"
           }
         },
         {
           "id": "level-95-default-a-3",
           "onClaim": [
-            "local-booster %player% TREASURES 1 3600"
+            "local-booster %player% TREASURES 2 3600"
           ],
           "icon": {
             "type": "textured",
             "texture": "cache/simulator/treasures_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-95.title-3"
+            "title": "i18n.treasures.battlepass.reward.booster.treasures.hours|!|1"
           }
         },
         {
@@ -4937,7 +4936,7 @@
             "texture": "cache/simulator/exp_booster.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-95.title-4"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.hours|!|1"
           }
         }
       ],
@@ -4953,7 +4952,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-95.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
           }
         }
       ]
@@ -4972,7 +4971,7 @@
             "texture": "cache/simulator/fox_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-96.title"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
           }
         },
         {
@@ -4985,7 +4984,7 @@
             "texture": "cache/simulator/rune_key.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-96.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
           }
         }
       ],
@@ -4993,7 +4992,7 @@
         {
           "id": "level-96-premium",
           "onClaim": [
-            "local-booster %player% EXP 1 3600"
+            "local-booster %player% EXP 2 3600"
           ],
           "icon": {
             "type": "textured",
@@ -5001,7 +5000,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-96.title"
+            "title": "i18n.treasures.battlepass.reward.booster.experience.hours|!|1"
           }
         }
       ]
@@ -5013,7 +5012,7 @@
         {
           "id": "level-97-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600",
+            "local-booster %player% MONEY 2 3600",
             "random-money %player% 499.8 499.9 1"
           ],
           "icon": {
@@ -5026,7 +5025,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-97.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.booster.money.hours|!|1)|!|(i18n.treasures.battlepass.reward.balance-money.inline|!|500)"
           }
         }
       ],
@@ -5048,7 +5047,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-97.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.2|!|(i18n.treasures.battlepass.reward.shards|!|5000)|!|(i18n.treasures.battlepass.reward.bits|!|500)"
           }
         }
       ]
@@ -5067,7 +5066,7 @@
             "texture": "cache/simulator/goldkey.png"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-98.title"
+            "title": "i18n.treasures.battlepass.reward.key.default|!|42"
           }
         }
       ],
@@ -5083,7 +5082,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-98.title"
+            "title": "i18n.treasures.battlepass.reward.key.title|!|1"
           }
         },
         {
@@ -5097,7 +5096,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-98.title-2"
+            "title": "i18n.treasures.battlepass.reward.key.pet|!|21"
           }
         },
         {
@@ -5111,7 +5110,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-98.title-3"
+            "title": "i18n.treasures.battlepass.reward.key.rune|!|7"
           }
         }
       ]
@@ -5123,10 +5122,10 @@
         {
           "id": "level-99-default",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600",
-            "local-booster %player% BLOCKS 1 3600",
-            "local-booster %player% TREASURES 1 3600",
-            "local-booster %player% EXP 1 3600",
+            "local-booster %player% MONEY 2 3600",
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
             "give-key %player% TITLE 1",
             "give-key %player% PET 21",
             "give-key %player% RUNE 7",
@@ -5142,7 +5141,7 @@
             }
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-99.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.5|!|(i18n.treasures.battlepass.reward.booster.all.hours|!|1)|!|(i18n.treasures.battlepass.reward.key.default|!|42)|!|(i18n.treasures.battlepass.reward.key.pet|!|21)|!|(i18n.treasures.battlepass.reward.key.rune|!|7)|!|(i18n.treasures.battlepass.reward.key.title|!|1)"
           }
         }
       ],
@@ -5150,10 +5149,10 @@
         {
           "id": "level-99-premium",
           "onClaim": [
-            "local-booster %player% MONEY 1 3600",
-            "local-booster %player% BLOCKS 1 3600",
-            "local-booster %player% TREASURES 1 3600",
-            "local-booster %player% EXP 1 3600",
+            "local-booster %player% MONEY 2 3600",
+            "local-booster %player% BLOCKS 2 3600",
+            "local-booster %player% TREASURES 2 3600",
+            "local-booster %player% EXP 2 3600",
             "give-key %player% TITLE 1",
             "give-key %player% PET 21",
             "give-key %player% RUNE 7",
@@ -5170,7 +5169,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-99.title"
+            "title": "i18n.treasures.battlepass.reward.bundle.5|!|(i18n.treasures.battlepass.reward.booster.all.hours|!|1)|!|(i18n.treasures.battlepass.reward.key.default|!|42)|!|(i18n.treasures.battlepass.reward.key.pet|!|21)|!|(i18n.treasures.battlepass.reward.key.rune|!|7)|!|(i18n.treasures.battlepass.reward.key.title|!|1)"
           }
         }
       ]
@@ -5189,7 +5188,7 @@
             "modelId": "b01947b6-95a0-4e8e-91e9-691ef1aa0ef2"
           },
           "tooltip": {
-            "title": "treasures.battlepass.rewards.default.level-100.title"
+            "title": "i18n.treasures.battlepass.reward.personalization.pocoyo"
           }
         }
       ],
@@ -5205,7 +5204,7 @@
           },
           "quality": "epic",
           "tooltip": {
-            "title": "treasures.battlepass.rewards.premium.level-100.title"
+            "title": "i18n.treasures.battlepass.reward.personalization.pocket-pocoyo"
           }
         }
       ]
@@ -5236,9 +5235,9 @@
             "goal": 3000,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-break-blocks-3000.description"
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|3000"
             },
-            "description": "treasures.battlepass.quests.daily.I-break-blocks-3000.description"
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|3000"
           },
           {
             "id": "I-break-blocks-3500",
@@ -5246,9 +5245,9 @@
             "goal": 3500,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-break-blocks-3500.description"
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|3500"
             },
-            "description": "treasures.battlepass.quests.daily.I-break-blocks-3500.description"
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|3500"
           },
           {
             "id": "I-break-blocks-4000",
@@ -5256,9 +5255,9 @@
             "goal": 4000,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-break-blocks-4000.description"
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|4000"
             },
-            "description": "treasures.battlepass.quests.daily.I-break-blocks-4000.description"
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|4000"
           },
           {
             "id": "I-break-blocks-4500",
@@ -5266,9 +5265,9 @@
             "goal": 4500,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-break-blocks-4500.description"
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|4500"
             },
-            "description": "treasures.battlepass.quests.daily.I-break-blocks-4500.description"
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|4500"
           },
           {
             "id": "I-find-treasures-100",
@@ -5276,9 +5275,9 @@
             "goal": 100,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-find-treasures-100.description"
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|100"
             },
-            "description": "treasures.battlepass.quests.daily.I-find-treasures-100.description"
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|100"
           },
           {
             "id": "I-find-treasures-105",
@@ -5286,9 +5285,9 @@
             "goal": 105,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-find-treasures-105.description"
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|105"
             },
-            "description": "treasures.battlepass.quests.daily.I-find-treasures-105.description"
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|105"
           },
           {
             "id": "I-find-treasures-110",
@@ -5296,9 +5295,9 @@
             "goal": 110,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-find-treasures-110.description"
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|110"
             },
-            "description": "treasures.battlepass.quests.daily.I-find-treasures-110.description"
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|110"
           },
           {
             "id": "I-find-treasures-115",
@@ -5306,9 +5305,9 @@
             "goal": 115,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-find-treasures-115.description"
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|115"
             },
-            "description": "treasures.battlepass.quests.daily.I-find-treasures-115.description"
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|115"
           },
           {
             "id": "I-deliver-treasure-race-cargo-15",
@@ -5316,9 +5315,9 @@
             "goal": 15,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-15.description"
+              "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|15"
             },
-            "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-15.description"
+            "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|15"
           },
           {
             "id": "I-deliver-treasure-race-cargo-16",
@@ -5326,9 +5325,9 @@
             "goal": 16,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-16.description"
+              "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|16"
             },
-            "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-16.description"
+            "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|16"
           },
           {
             "id": "I-deliver-treasure-race-cargo-17",
@@ -5336,9 +5335,9 @@
             "goal": 17,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-17.description"
+              "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|17"
             },
-            "description": "treasures.battlepass.quests.daily.I-deliver-treasure-race-cargo-17.description"
+            "description": "i18n.treasures.battlepass.quest.deliver-treasure-race-cargo|!|17"
           },
           {
             "id": "I-use-tnt-50",
@@ -5346,9 +5345,9 @@
             "goal": 50,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-use-tnt-50.description"
+              "description": "i18n.treasures.battlepass.quest.use-tnt|!|50"
             },
-            "description": "treasures.battlepass.quests.daily.I-use-tnt-50.description"
+            "description": "i18n.treasures.battlepass.quest.use-tnt|!|50"
           },
           {
             "id": "I-use-tnt-55",
@@ -5356,9 +5355,9 @@
             "goal": 55,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-use-tnt-55.description"
+              "description": "i18n.treasures.battlepass.quest.use-tnt|!|55"
             },
-            "description": "treasures.battlepass.quests.daily.I-use-tnt-55.description"
+            "description": "i18n.treasures.battlepass.quest.use-tnt|!|55"
           },
           {
             "id": "I-use-tnt-60",
@@ -5366,9 +5365,9 @@
             "goal": 60,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-use-tnt-60.description"
+              "description": "i18n.treasures.battlepass.quest.use-tnt|!|60"
             },
-            "description": "treasures.battlepass.quests.daily.I-use-tnt-60.description"
+            "description": "i18n.treasures.battlepass.quest.use-tnt|!|60"
           },
           {
             "id": "I-use-tnt-65",
@@ -5376,9 +5375,9 @@
             "goal": 65,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-use-tnt-65.description"
+              "description": "i18n.treasures.battlepass.quest.use-tnt|!|65"
             },
-            "description": "treasures.battlepass.quests.daily.I-use-tnt-65.description"
+            "description": "i18n.treasures.battlepass.quest.use-tnt|!|65"
           },
           {
             "id": "I-open-pet-lootbox-10",
@@ -5386,9 +5385,9 @@
             "goal": 10,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-10.description"
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|10"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-10.description"
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|10"
           },
           {
             "id": "I-open-pet-lootbox-11",
@@ -5396,9 +5395,9 @@
             "goal": 11,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-11.description"
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|11"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-11.description"
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|11"
           },
           {
             "id": "I-open-pet-lootbox-12",
@@ -5406,9 +5405,9 @@
             "goal": 12,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-12.description"
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|12"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-12.description"
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|12"
           },
           {
             "id": "I-open-pet-lootbox-13",
@@ -5416,9 +5415,9 @@
             "goal": 13,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-13.description"
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|13"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-pet-lootbox-13.description"
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|13"
           },
           {
             "id": "I-open-rune-lootbox-8",
@@ -5426,9 +5425,9 @@
             "goal": 8,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-8.description"
+              "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|8"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-8.description"
+            "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|8"
           },
           {
             "id": "I-open-rune-lootbox-9",
@@ -5436,9 +5435,9 @@
             "goal": 9,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-9.description"
+              "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|9"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-9.description"
+            "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|9"
           },
           {
             "id": "I-open-rune-lootbox-10",
@@ -5446,9 +5445,9 @@
             "goal": 10,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-10.description"
+              "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|10"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-rune-lootbox-10.description"
+            "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|10"
           },
           {
             "id": "I-open-default-lootbox-50",
@@ -5456,9 +5455,9 @@
             "goal": 50,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-50.description"
+              "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|50"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-50.description"
+            "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|50"
           },
           {
             "id": "I-open-default-lootbox-60",
@@ -5466,9 +5465,9 @@
             "goal": 60,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-60.description"
+              "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|60"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-60.description"
+            "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|60"
           },
           {
             "id": "I-open-default-lootbox-70",
@@ -5476,9 +5475,9 @@
             "goal": 70,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-70.description"
+              "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|70"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-70.description"
+            "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|70"
           },
           {
             "id": "I-open-default-lootbox-80",
@@ -5486,9 +5485,9 @@
             "goal": 80,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-80.description"
+              "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|80"
             },
-            "description": "treasures.battlepass.quests.daily.I-open-default-lootbox-80.description"
+            "description": "i18n.treasures.battlepass.quest.open-default-lootbox|!|80"
           },
           {
             "id": "I-drop-common-pet-8",
@@ -5496,9 +5495,9 @@
             "goal": 8,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-drop-common-pet-8.description"
+              "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|8"
             },
-            "description": "treasures.battlepass.quests.daily.I-drop-common-pet-8.description"
+            "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|8"
           },
           {
             "id": "I-drop-common-pet-9",
@@ -5506,9 +5505,9 @@
             "goal": 9,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-drop-common-pet-9.description"
+              "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|9"
             },
-            "description": "treasures.battlepass.quests.daily.I-drop-common-pet-9.description"
+            "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|9"
           },
           {
             "id": "I-drop-common-pet-10",
@@ -5516,9 +5515,9 @@
             "goal": 10,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-drop-common-pet-10.description"
+              "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|10"
             },
-            "description": "treasures.battlepass.quests.daily.I-drop-common-pet-10.description"
+            "description": "i18n.treasures.battlepass.quest.drop-common-pet|!|10"
           },
           {
             "id": "I-earn-mining-battle-points-20000",
@@ -5526,9 +5525,9 @@
             "goal": 20000,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-20000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|20000"
             },
-            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-20000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|20000"
           },
           {
             "id": "I-earn-mining-battle-points-22000",
@@ -5536,9 +5535,9 @@
             "goal": 22000,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-22000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|22000"
             },
-            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-22000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|22000"
           },
           {
             "id": "I-earn-mining-battle-points-24000",
@@ -5546,9 +5545,9 @@
             "goal": 24000,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-24000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|24000"
             },
-            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-24000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|24000"
           },
           {
             "id": "I-earn-mining-battle-points-26000",
@@ -5556,9 +5555,9 @@
             "goal": 26000,
             "rewardExperience": 300,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-26000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|26000"
             },
-            "description": "treasures.battlepass.quests.daily.I-earn-mining-battle-points-26000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|26000"
           }
         ],
         "II": [
@@ -5568,9 +5567,9 @@
             "goal": 15000,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-earn-shards-15000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|15000"
             },
-            "description": "treasures.battlepass.quests.daily.II-earn-shards-15000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|15000"
           },
           {
             "id": "II-earn-shards-16000",
@@ -5578,9 +5577,9 @@
             "goal": 16000,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-earn-shards-16000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|16000"
             },
-            "description": "treasures.battlepass.quests.daily.II-earn-shards-16000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|16000"
           },
           {
             "id": "II-earn-shards-18000",
@@ -5588,9 +5587,9 @@
             "goal": 18000,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-earn-shards-18000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|18000"
             },
-            "description": "treasures.battlepass.quests.daily.II-earn-shards-18000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|18000"
           },
           {
             "id": "II-earn-shards-20000",
@@ -5598,9 +5597,9 @@
             "goal": 20000,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-earn-shards-20000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|20000"
             },
-            "description": "treasures.battlepass.quests.daily.II-earn-shards-20000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|20000"
           },
           {
             "id": "II-upgrade-pet-7",
@@ -5608,9 +5607,9 @@
             "goal": 7,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-upgrade-pet-7.description"
+              "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|7"
             },
-            "description": "treasures.battlepass.quests.daily.II-upgrade-pet-7.description"
+            "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|7"
           },
           {
             "id": "II-upgrade-pet-8",
@@ -5618,9 +5617,9 @@
             "goal": 8,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-upgrade-pet-8.description"
+              "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|8"
             },
-            "description": "treasures.battlepass.quests.daily.II-upgrade-pet-8.description"
+            "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|8"
           },
           {
             "id": "II-upgrade-pet-9",
@@ -5628,9 +5627,9 @@
             "goal": 9,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-upgrade-pet-9.description"
+              "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|9"
             },
-            "description": "treasures.battlepass.quests.daily.II-upgrade-pet-9.description"
+            "description": "i18n.treasures.battlepass.quest.upgrade-pet|!|9"
           },
           {
             "id": "II-drop-rare-pet-5",
@@ -5638,9 +5637,9 @@
             "goal": 5,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-drop-rare-pet-5.description"
+              "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|5"
             },
-            "description": "treasures.battlepass.quests.daily.II-drop-rare-pet-5.description"
+            "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|5"
           },
           {
             "id": "II-drop-rare-pet-6",
@@ -5648,9 +5647,9 @@
             "goal": 6,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-drop-rare-pet-6.description"
+              "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|6"
             },
-            "description": "treasures.battlepass.quests.daily.II-drop-rare-pet-6.description"
+            "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|6"
           },
           {
             "id": "II-drop-rare-pet-7",
@@ -5658,9 +5657,9 @@
             "goal": 7,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-drop-rare-pet-7.description"
+              "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|7"
             },
-            "description": "treasures.battlepass.quests.daily.II-drop-rare-pet-7.description"
+            "description": "i18n.treasures.battlepass.quest.drop-rare-pet|!|7"
           },
           {
             "id": "II-take-event-top-50-3",
@@ -5668,9 +5667,9 @@
             "goal": 3,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-take-event-top-50-3.description"
+              "description": "i18n.treasures.battlepass.quest.take-event-top-3|!|3"
             },
-            "description": "treasures.battlepass.quests.daily.II-take-event-top-50-3.description"
+            "description": "i18n.treasures.battlepass.quest.take-event-top-3|!|3"
           },
           {
             "id": "II-find-expedition-treasure-5",
@@ -5678,9 +5677,9 @@
             "goal": 5,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-find-expedition-treasure-5.description"
+              "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|5"
             },
-            "description": "treasures.battlepass.quests.daily.II-find-expedition-treasure-5.description"
+            "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|5"
           },
           {
             "id": "II-find-expedition-treasure-6",
@@ -5688,9 +5687,9 @@
             "goal": 6,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-find-expedition-treasure-6.description"
+              "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|6"
             },
-            "description": "treasures.battlepass.quests.daily.II-find-expedition-treasure-6.description"
+            "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|6"
           },
           {
             "id": "II-earn-mining-battle-points-50000",
@@ -5698,9 +5697,9 @@
             "goal": 50000,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-50000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|50000"
             },
-            "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-50000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|50000"
           },
           {
             "id": "II-earn-mining-battle-points-55000",
@@ -5708,9 +5707,9 @@
             "goal": 55000,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-55000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|55000"
             },
-            "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-55000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|55000"
           },
           {
             "id": "II-earn-mining-battle-points-60000",
@@ -5718,9 +5717,9 @@
             "goal": 60000,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-60000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|60000"
             },
-            "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-60000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|60000"
           },
           {
             "id": "II-earn-mining-battle-points-65000",
@@ -5728,9 +5727,9 @@
             "goal": 65000,
             "rewardExperience": 700,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-65000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|65000"
             },
-            "description": "treasures.battlepass.quests.daily.II-earn-mining-battle-points-65000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-mining-battle-points|!|65000"
           }
         ],
         "III": [
@@ -5740,9 +5739,9 @@
             "goal": 5,
             "rewardExperience": 1625,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.III-drop-epic-rune-5.description"
+              "description": "i18n.treasures.battlepass.quest.drop-epic-rune|!|5"
             },
-            "description": "treasures.battlepass.quests.daily.III-drop-epic-rune-5.description"
+            "description": "i18n.treasures.battlepass.quest.drop-epic-rune|!|5"
           },
           {
             "id": "III-drop-epic-rune-6",
@@ -5750,9 +5749,9 @@
             "goal": 6,
             "rewardExperience": 1625,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.III-drop-epic-rune-6.description"
+              "description": "i18n.treasures.battlepass.quest.drop-epic-rune|!|6"
             },
-            "description": "treasures.battlepass.quests.daily.III-drop-epic-rune-6.description"
+            "description": "i18n.treasures.battlepass.quest.drop-epic-rune|!|6"
           },
           {
             "id": "III-drop-epic-pet-7",
@@ -5760,9 +5759,9 @@
             "goal": 7,
             "rewardExperience": 1625,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.III-drop-epic-pet-7.description"
+              "description": "i18n.treasures.battlepass.quest.drop-epic-pet|!|7"
             },
-            "description": "treasures.battlepass.quests.daily.III-drop-epic-pet-7.description"
+            "description": "i18n.treasures.battlepass.quest.drop-epic-pet|!|7"
           },
           {
             "id": "III-drop-epic-pet-8",
@@ -5770,9 +5769,9 @@
             "goal": 8,
             "rewardExperience": 1625,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.III-drop-epic-pet-8.description"
+              "description": "i18n.treasures.battlepass.quest.drop-epic-pet|!|8"
             },
-            "description": "treasures.battlepass.quests.daily.III-drop-epic-pet-8.description"
+            "description": "i18n.treasures.battlepass.quest.drop-epic-pet|!|8"
           },
           {
             "id": "III-dig-mining-battle-secret-block-1",
@@ -5780,9 +5779,9 @@
             "goal": 1,
             "rewardExperience": 1625,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.III-dig-mining-battle-secret-block-1.description"
+              "description": "i18n.treasures.battlepass.quest.dig-mining-battle-secret-block|!|1"
             },
-            "description": "treasures.battlepass.quests.daily.III-dig-mining-battle-secret-block-1.description"
+            "description": "i18n.treasures.battlepass.quest.dig-mining-battle-secret-block|!|1"
           },
           {
             "id": "III-break-blocks-15000",
@@ -5790,9 +5789,9 @@
             "goal": 15000,
             "rewardExperience": 1625,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.III-break-blocks-15000.description"
+              "description": "i18n.treasures.battlepass.quest.break-blocks|!|15000"
             },
-            "description": "treasures.battlepass.quests.daily.III-break-blocks-15000.description"
+            "description": "i18n.treasures.battlepass.quest.break-blocks|!|15000"
           },
           {
             "id": "III-enchant-pickaxe-40",
@@ -5800,9 +5799,9 @@
             "goal": 40,
             "rewardExperience": 1625,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.III-enchant-pickaxe-40.description"
+              "description": "i18n.treasures.battlepass.quest.enchant-pickaxe|!|40"
             },
-            "description": "treasures.battlepass.quests.daily.III-enchant-pickaxe-40.description"
+            "description": "i18n.treasures.battlepass.quest.enchant-pickaxe|!|40"
           },
           {
             "id": "III-open-rune-lootbox-20",
@@ -5810,9 +5809,9 @@
             "goal": 20,
             "rewardExperience": 1625,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.III-open-rune-lootbox-20.description"
+              "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|20"
             },
-            "description": "treasures.battlepass.quests.daily.III-open-rune-lootbox-20.description"
+            "description": "i18n.treasures.battlepass.quest.open-rune-lootbox|!|20"
           }
         ],
         "IV": [
@@ -5822,9 +5821,9 @@
             "goal": 2,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-drop-legendary-rune-2.description"
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-rune|!|2"
             },
-            "description": "treasures.battlepass.quests.daily.IV-drop-legendary-rune-2.description"
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-rune|!|2"
           },
           {
             "id": "IV-drop-legendary-rune-3",
@@ -5832,9 +5831,9 @@
             "goal": 3,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-drop-legendary-rune-3.description"
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-rune|!|3"
             },
-            "description": "treasures.battlepass.quests.daily.IV-drop-legendary-rune-3.description"
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-rune|!|3"
           },
           {
             "id": "IV-drop-legendary-pet-7",
@@ -5842,9 +5841,9 @@
             "goal": 7,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-drop-legendary-pet-7.description"
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|7"
             },
-            "description": "treasures.battlepass.quests.daily.IV-drop-legendary-pet-7.description"
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|7"
           },
           {
             "id": "IV-drop-legendary-pet-8",
@@ -5852,9 +5851,9 @@
             "goal": 8,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-drop-legendary-pet-8.description"
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|8"
             },
-            "description": "treasures.battlepass.quests.daily.IV-drop-legendary-pet-8.description"
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|8"
           },
           {
             "id": "IV-drop-legendary-pet-9",
@@ -5862,9 +5861,9 @@
             "goal": 9,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-drop-legendary-pet-9.description"
+              "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|9"
             },
-            "description": "treasures.battlepass.quests.daily.IV-drop-legendary-pet-9.description"
+            "description": "i18n.treasures.battlepass.quest.drop-legendary-pet|!|9"
           },
           {
             "id": "IV-find-miner-cargo-1",
@@ -5872,9 +5871,9 @@
             "goal": 1,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-find-miner-cargo-1.description"
+              "description": "i18n.treasures.battlepass.quest.find-miner-cargo|!|1"
             },
-            "description": "treasures.battlepass.quests.daily.IV-find-miner-cargo-1.description"
+            "description": "i18n.treasures.battlepass.quest.find-miner-cargo|!|1"
           },
           {
             "id": "IV-find-treasures-1000",
@@ -5882,9 +5881,9 @@
             "goal": 1000,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-find-treasures-1000.description"
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|1000"
             },
-            "description": "treasures.battlepass.quests.daily.IV-find-treasures-1000.description"
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|1000"
           },
           {
             "id": "IV-find-treasures-1500",
@@ -5892,9 +5891,9 @@
             "goal": 1500,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-find-treasures-1500.description"
+              "description": "i18n.treasures.battlepass.quest.find-treasure|!|1500"
             },
-            "description": "treasures.battlepass.quests.daily.IV-find-treasures-1500.description"
+            "description": "i18n.treasures.battlepass.quest.find-treasure|!|1500"
           },
           {
             "id": "IV-find-expedition-treasure-15",
@@ -5902,9 +5901,9 @@
             "goal": 15,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-find-expedition-treasure-15.description"
+              "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|15"
             },
-            "description": "treasures.battlepass.quests.daily.IV-find-expedition-treasure-15.description"
+            "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|15"
           },
           {
             "id": "IV-find-expedition-treasure-17",
@@ -5912,9 +5911,9 @@
             "goal": 17,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-find-expedition-treasure-17.description"
+              "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|17"
             },
-            "description": "treasures.battlepass.quests.daily.IV-find-expedition-treasure-17.description"
+            "description": "i18n.treasures.battlepass.quest.find-expedition-treasure|!|17"
           },
           {
             "id": "IV-open-pet-lootbox-40",
@@ -5922,9 +5921,9 @@
             "goal": 40,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-open-pet-lootbox-40.description"
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|40"
             },
-            "description": "treasures.battlepass.quests.daily.IV-open-pet-lootbox-40.description"
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|40"
           },
           {
             "id": "IV-open-pet-lootbox-45",
@@ -5932,9 +5931,9 @@
             "goal": 45,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-open-pet-lootbox-45.description"
+              "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|45"
             },
-            "description": "treasures.battlepass.quests.daily.IV-open-pet-lootbox-45.description"
+            "description": "i18n.treasures.battlepass.quest.open-pet-lootbox|!|45"
           },
           {
             "id": "IV-earn-shards-50000",
@@ -5942,9 +5941,9 @@
             "goal": 50000,
             "rewardExperience": 1925,
             "tooltip": {
-              "description": "treasures.battlepass.quests.daily.IV-earn-shards-50000.description"
+              "description": "i18n.treasures.battlepass.quest.earn-shards|!|50000"
             },
-            "description": "treasures.battlepass.quests.daily.IV-earn-shards-50000.description"
+            "description": "i18n.treasures.battlepass.quest.earn-shards|!|50000"
           }
         ]
       },
