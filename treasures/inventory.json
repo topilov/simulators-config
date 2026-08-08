@@ -340,7 +340,7 @@
     "treasures:pet": {
       "kind": "EQUIPMENT",
       "categoryId": "treasures:pets",
-      "capabilities": ["EQUIPPABLE"],
+      "capabilities": ["EQUIPPABLE", "DISCARDABLE"],
       "compatibleEquipmentSlotIds": [
         "treasures:pet_1",
         "treasures:pet_2",
@@ -348,7 +348,7 @@
         "treasures:pet_4",
         "treasures:pet_5"
       ],
-      "actionIds": ["treasures:upgrade_pet"],
+      "actionIds": ["treasures:upgrade_pet", "treasures:discard_pet"],
       "order": 1,
       "weight": {"source": "NONE"},
       "stacking": {"strategy": "NEVER", "properties": []},
@@ -368,13 +368,13 @@
     "treasures:rune": {
       "kind": "EQUIPMENT",
       "categoryId": "treasures:runes",
-      "capabilities": ["EQUIPPABLE"],
+      "capabilities": ["EQUIPPABLE", "DISCARDABLE"],
       "compatibleEquipmentSlotIds": [
         "treasures:rune_1",
         "treasures:rune_2",
         "treasures:rune_3"
       ],
-      "actionIds": ["treasures:upgrade_rune"],
+      "actionIds": ["treasures:upgrade_rune", "treasures:discard_rune"],
       "order": 2,
       "weight": {"source": "NONE"},
       "stacking": {"strategy": "NEVER", "properties": []},
@@ -526,6 +526,19 @@
       "gesture": "MIDDLE_CLICK",
       "style": "PRIMARY"
     },
+    "treasures:discard_pet": {
+      "categoryId": "treasures:pets",
+      "targetMode": "MULTIPLE",
+      "order": 1,
+      "title": "Удалить",
+      "gesture": "CTRL_PRIMARY_CLICK",
+      "style": "DANGER",
+      "confirmation": {
+        "title": "Удалить выбранных питомцев?",
+        "lines": ["Выбранные питомцы будут удалены безвозвратно."],
+        "confirmLabel": "Удалить"
+      }
+    },
     "treasures:upgrade_rune": {
       "categoryId": "treasures:runes",
       "targetMode": "SINGLE",
@@ -533,6 +546,19 @@
       "title": "Улучшить",
       "gesture": "MIDDLE_CLICK",
       "style": "PRIMARY"
+    },
+    "treasures:discard_rune": {
+      "categoryId": "treasures:runes",
+      "targetMode": "MULTIPLE",
+      "order": 1,
+      "title": "Удалить",
+      "gesture": "CTRL_PRIMARY_CLICK",
+      "style": "DANGER",
+      "confirmation": {
+        "title": "Удалить выбранные руны?",
+        "lines": ["Выбранные руны будут удалены безвозвратно."],
+        "confirmLabel": "Удалить"
+      }
     }
   },
   "initialEntries": [
