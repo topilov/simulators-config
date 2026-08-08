@@ -47,7 +47,7 @@
               {
                 "title": "treasures.quest.exp4.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|50 \uE1D1",
+                "reward": "i18n.treasures.quest.reward|!|500 \uE34D, 50 \uE1D1",
                 "tasks": [
                   {
                     "name": "treasures.quest.exp.subtitle",
@@ -95,7 +95,7 @@
               {
                 "title": "treasures.quest.exp8.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|100 \uE1D1",
+                "reward": "i18n.treasures.quest.reward|!|1500 500 \uE34D, 100 \uE1D1",
                 "tasks": [
                   {
                     "name": "treasures.quest.exp.subtitle",
@@ -172,7 +172,7 @@
               {
                 "title": "treasures.quest.level4.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|50 \uE1D1",
+                "reward": "i18n.treasures.quest.reward|!|1000 \uE34D, 50 \uE1D1",
                 "tasks": [
                   {
                     "name": "treasures.quest.level.subtitle",
@@ -273,7 +273,7 @@
               {
                 "title": "treasures.quest.blocks5.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|75 \uE1D1",
+                "reward": "i18n.treasures.quest.reward|!|500 \uE34D, 75 \uE1D1",
                 "tasks": [
                   {
                     "name": "treasures.quest.blocks.subtitle",
@@ -321,7 +321,7 @@
               {
                 "title": "treasures.quest.blocks9.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|125 \uE1D1",
+                "reward": "i18n.treasures.quest.reward|!|1500 \uE34D, 125 \uE1D1",
                 "tasks": [
                   {
                     "name": "treasures.quest.blocks.subtitle",
@@ -398,7 +398,7 @@
               {
                 "title": "treasures.quest.treasures5.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|75 \uE1D1",
+                "reward": "i18n.treasures.quest.reward|!|500 \uE34D, 75 \uE1D1",
                 "tasks": [
                   {
                     "name": "treasures.quest.treasures.subtitle",
@@ -446,7 +446,7 @@
               {
                 "title": "treasures.quest.treasures9.title",
                 "icon": "achievements.png",
-                "reward": "i18n.treasures.quest.reward|!|125 \uE1D1",
+                "reward": "i18n.treasures.quest.reward|!|1500 \uE34D, 125 \uE1D1",
                 "tasks": [
                   {
                     "name": "treasures.quest.treasures.subtitle",
@@ -504,7 +504,8 @@
         "title": "treasures.quest.exp4.title",
         "goal": 27000,
         "onComplete": [
-          "earn-bits %player% 50"
+          "earn-bits %player% 50",
+          "earn-shards %player% 500"
         ]
       },
       {
@@ -536,7 +537,8 @@
         "title": "treasures.quest.exp8.title",
         "goal": 2180000,
         "onComplete": [
-          "earn-bits %player% 100"
+          "earn-bits %player% 100",
+          "earn-shards %player% 1500"
         ]
       },
       {
@@ -586,7 +588,8 @@
         "title": "treasures.quest.level4.title",
         "goal": 5,
         "onComplete": [
-          "earn-bits %player% 50"
+          "earn-bits %player% 50",
+          "earn-shards %player% 1000"
         ]
       },
       {
@@ -652,7 +655,8 @@
         "title": "treasures.quest.blocks5.title",
         "goal": 2300000,
         "onComplete": [
-          "earn-bits %player% 75"
+          "earn-bits %player% 75",
+          "earn-shards %player% 500"
         ]
       },
       {
@@ -684,7 +688,8 @@
         "title": "treasures.quest.blocks9.title",
         "goal": 517000000,
         "onComplete": [
-          "earn-bits %player% 125"
+          "earn-bits %player% 125",
+          "earn-shards %player% 1500"
         ]
       },
       {
@@ -734,7 +739,8 @@
         "title": "treasures.quest.treasures5.title",
         "goal": 600,
         "onComplete": [
-          "earn-bits %player% 75"
+          "earn-bits %player% 75",
+          "earn-shards %player% 500"
         ]
       },
       {
@@ -766,7 +772,8 @@
         "title": "treasures.quest.treasures9.title",
         "goal": 2000,
         "onComplete": [
-          "earn-bits %player% 125"
+          "earn-bits %player% 125",
+          "earn-shards %player% 1500"
         ]
       },
       {
