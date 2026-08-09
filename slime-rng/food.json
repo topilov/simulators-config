@@ -1,30 +1,29 @@
 {
-  "name": "srng.food.apple.name",
-  "description": "i18n.srng.inventory.food.apple.description|!|1.1|!|60",
-  "accentColor": {
-    "hex": "#727270"
-  },
-  "requiredUpgradeId": 100,
   "despawnAfterTicks": 3600,
   "maxActiveFood": 10,
-  "maxUseAmount": 9999,
   "spawnRadius": 5.0,
   "minSpawnHeight": 2.0,
   "maxSpawnHeight": 3.0,
   "pickupDistance": 1.5,
-  "rewardAmount": 1,
-  "rewards": [
-    "local-booster %player% DAMAGE 1.1 60 %count%"
+  "fruits": [
+    {
+      "name": "srng.food.apple.name",
+      "description": "i18n.srng.inventory.food.apple.description|!|1.1|!|60",
+      "accentColor": {
+        "hex": "#727270"
+      },
+      "requiredUpgradeId": 100,
+      "rewards": [
+        "local-booster %player% DAMAGE 1.1 60 %count%"
+      ],
+      "foodItem": {
+        "type": "CLAY_BALL",
+        "data": {
+          "rng": "apple"
+        }
+      }
+    }
   ],
-  "foodItem": {
-    "type": "APPLE"
-  },
-  "useMenu": {
-    "title": "srng.inventory.food.use.title",
-    "description": "srng.inventory.food.use.description",
-    "confirmLabel": "srng.inventory.food.use.confirm",
-    "cancelLabel": "srng.inventory.food.use.cancel"
-  },
   "messages": {
     "pickup": "srng.message.food.pickup"
   }
