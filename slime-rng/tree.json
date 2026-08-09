@@ -105,16 +105,16 @@
       },
       "price": 1000,
       "pos": {
-        "x": -325,
-        "y": -125
+        "x": -160,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -133,16 +133,16 @@
       },
       "price": 1000,
       "pos": {
-        "x": -195,
-        "y": -125
+        "x": -160,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -162,18 +162,18 @@
       },
       "price": 3000,
       "pos": {
-        "x": -260,
-        "y": -190
+        "x": -235,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
         1001,
         2001
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|I|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|I|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -192,18 +192,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 80000,
+      "price": 12000000,
       "pos": {
-        "x": -430,
-        "y": -225
+        "x": -310,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1001
+        3001
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -220,18 +220,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 80000,
+      "price": 12000000,
       "pos": {
-        "x": -300,
-        "y": -225
+        "x": -310,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2001
+        3001
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -249,20 +249,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 240000,
+      "price": 36000000,
       "pos": {
-        "x": -365,
-        "y": -290
+        "x": -385,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
         1002,
         2002
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|II|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|II|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -281,18 +281,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 12000000,
+      "price": 720000000000,
       "pos": {
-        "x": -535,
-        "y": -325
+        "x": -460,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1002
+        3002
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -309,18 +309,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 12000000,
+      "price": 720000000000,
       "pos": {
-        "x": -405,
-        "y": -325
+        "x": -460,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2002
+        3002
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|III|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|III|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -338,20 +338,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 36000000,
+      "price": 2160000000000,
       "pos": {
-        "x": -470,
-        "y": -390
+        "x": -535,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
         1003,
         2003
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|III|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|III|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -370,18 +370,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 2400000000,
+      "price": 560000000000000,
       "pos": {
-        "x": -640,
-        "y": -425
+        "x": -610,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
-        1003
+        3003
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|IV|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|IV|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -398,18 +398,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 2400000000,
+      "price": 560000000000000,
       "pos": {
-        "x": -510,
-        "y": -425
+        "x": -610,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
-        2003
+        3003
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|IV|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|IV|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -427,20 +427,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 7200000000,
+      "price": 1050000000000000000,
       "pos": {
-        "x": -575,
-        "y": -490
+        "x": -885,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        1004,
-        2004
+        1005,
+        2005
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IV|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IV|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -459,18 +459,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 720000000000,
+      "price": 350000000000000000,
       "pos": {
-        "x": -745,
-        "y": -525
+        "x": -810,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
         1004
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|V|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|V|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -487,18 +487,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 720000000000,
+      "price": 350000000000000000,
       "pos": {
-        "x": -615,
-        "y": -525
+        "x": -810,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
         2004
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|V|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|V|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -516,20 +516,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 2160000000000,
+      "price": 8.4e+23,
       "pos": {
-        "x": -680,
-        "y": -590
+        "x": -1035,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        1005,
-        2005
+        1006,
+        2006
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|V|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|V|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -548,18 +548,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 320000000000000,
+      "price": 280000000000000000000,
       "pos": {
-        "x": -850,
-        "y": -625
+        "x": -960,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1005
+        3004
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|VI|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|VI|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -576,18 +576,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 560000000000000,
+      "price": 2.8e+23,
       "pos": {
-        "x": -955,
-        "y": -725
+        "x": -1110,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1006
+        3005
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|VII|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|VII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -604,18 +604,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 320000000000000,
+      "price": 280000000000000000000,
       "pos": {
-        "x": -720,
-        "y": -625
+        "x": -960,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2005
+        3004
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|VI|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|VI|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -633,18 +633,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 560000000000000,
+      "price": 2.8e+23,
       "pos": {
-        "x": -825,
-        "y": -725
+        "x": -1110,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2006
+        3005
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|VII|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|VII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -662,20 +662,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 1680000000000000,
+      "price": 1.68e+36,
       "pos": {
-        "x": -890,
-        "y": -790
+        "x": -1185,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
         1007,
         2007
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VI|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VI|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -694,18 +694,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 200000000000000000,
+      "price": 3.5e+29,
       "pos": {
-        "x": -1060,
-        "y": -825
+        "x": -1260,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
-        1007
+        3006
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|VIII|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|VIII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -722,18 +722,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 350000000000000000,
+      "price": 5.6e+35,
       "pos": {
-        "x": -1165,
-        "y": -925
+        "x": -1460,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
         1008
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|IX|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|IX|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -750,18 +750,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 200000000000000000,
+      "price": 3.5e+29,
       "pos": {
-        "x": -930,
-        "y": -825
+        "x": -1260,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
-        2007
+        3006
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|VIII|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|VIII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -779,18 +779,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 350000000000000000,
+      "price": 5.6e+35,
       "pos": {
-        "x": -1035,
-        "y": -925
+        "x": -1460,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
         2008
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|IX|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|IX|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -808,20 +808,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 1050000000000000000,
+      "price": 3.15e+42,
       "pos": {
-        "x": -1100,
-        "y": -990
+        "x": -1535,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
         1009,
         2009
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VII|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VII|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -840,18 +840,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 160000000000000000000,
+      "price": 1.05e+42,
       "pos": {
-        "x": -1270,
-        "y": -1025
+        "x": -1610,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1009
+        3007
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|X|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|X|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -868,18 +868,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 280000000000000000000,
+      "price": 2.45e+48,
       "pos": {
-        "x": -1375,
-        "y": -1125
+        "x": -1760,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1010
+        3008
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XI|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XI|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -896,18 +896,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 160000000000000000000,
+      "price": 1.05e+42,
       "pos": {
-        "x": -1140,
-        "y": -1025
+        "x": -1610,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2009
+        3007
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|X|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|X|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -925,18 +925,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 280000000000000000000,
+      "price": 2.45e+48,
       "pos": {
-        "x": -1245,
-        "y": -1125
+        "x": -1760,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2010
+        3008
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XI|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XI|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -954,20 +954,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 840000000000000000000,
+      "price": 7.35e+48,
       "pos": {
-        "x": -1310,
-        "y": -1190
+        "x": -1685,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        1011,
-        2011
+        1010,
+        2010
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VIII|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VIII|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -986,18 +986,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 160000000000000000000000,
+      "price": 6.3e+54,
       "pos": {
-        "x": -1480,
-        "y": -1225
+        "x": -1910,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
-        1011
+        3009
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XII|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1014,18 +1014,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 280000000000000000000000,
+      "price": 1.96e+61,
       "pos": {
-        "x": -1585,
-        "y": -1325
+        "x": -2110,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
         1012
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XIII|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XIII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1042,18 +1042,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 160000000000000000000000,
+      "price": 6.3e+54,
       "pos": {
-        "x": -1350,
-        "y": -1225
+        "x": -1910,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
-        2011
+        3009
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XII|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1071,18 +1071,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 280000000000000000000000,
+      "price": 1.96e+61,
       "pos": {
-        "x": -1455,
-        "y": -1325
+        "x": -2110,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
         2012
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XIII|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XIII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1100,20 +1100,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 840000000000000000000000,
+      "price": 1.89e+55,
       "pos": {
-        "x": -1520,
-        "y": -1390
+        "x": -1835,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        1013,
-        2013
+        1011,
+        2011
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IX|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IX|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1132,18 +1132,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 200000000000000000000000000000,
+      "price": 1.4e+68,
       "pos": {
-        "x": -1690,
-        "y": -1425
+        "x": -2260,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1013
+        3010
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XIV|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XIV|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1160,18 +1160,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 350000000000000000000000000000,
+      "price": 8e+74,
       "pos": {
-        "x": -1795,
-        "y": -1525
+        "x": -2410,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1014
+        3011
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XV|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XV|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1188,18 +1188,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 200000000000000000000000000000,
+      "price": 1.4e+68,
       "pos": {
-        "x": -1560,
-        "y": -1425
+        "x": -2260,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2013
+        3010
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XIV|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XIV|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1217,18 +1217,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 350000000000000000000000000000,
+      "price": 8e+74,
       "pos": {
-        "x": -1665,
-        "y": -1525
+        "x": -2410,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2014
+        3011
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XV|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XV|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1246,20 +1246,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 1050000000000000000000000000000,
+      "price": 5.88e+61,
       "pos": {
-        "x": -1730,
-        "y": -1590
+        "x": -2185,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        1015,
-        2015
+        1013,
+        2013
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|X|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|X|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1278,18 +1278,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 320000000000000000000000000000000000,
+      "price": 2.2e+75,
       "pos": {
-        "x": -1900,
-        "y": -1625
+        "x": -2560,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
-        1015
+        3012
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XVI|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XVI|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1306,18 +1306,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 560000000000000000000000000000000000,
+      "price": 1.75e+82,
       "pos": {
-        "x": -2005,
-        "y": -1725
+        "x": -2760,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
         1016
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XVII|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XVII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1334,18 +1334,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 320000000000000000000000000000000000,
+      "price": 2.2e+75,
       "pos": {
-        "x": -1770,
-        "y": -1625
+        "x": -2560,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
-        2015
+        3012
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XVI|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XVI|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1363,18 +1363,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 560000000000000000000000000000000000,
+      "price": 1.75e+82,
       "pos": {
-        "x": -1875,
-        "y": -1725
+        "x": -2760,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
         2016
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XVII|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XVII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1392,20 +1392,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 1680000000000000000000000000000000000,
+      "price": 6.6e+68,
       "pos": {
-        "x": -1940,
-        "y": -1790
+        "x": -2335,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        1017,
-        2017
+        1014,
+        2014
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XI|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XI|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1424,21 +1424,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 1680000000000000000000000000000000000,
+      "price": 6.6e+75,
       "pos": {
-        "x": -1840,
-        "y": -1870
+        "x": -2485,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        3011,
-        1017,
-        2017
+        1015,
+        2015
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XII|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XII|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1457,18 +1456,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 600000000000000000000000000000000000000000,
+      "price": 2e+89,
       "pos": {
-        "x": -2110,
-        "y": -1825
+        "x": -2910,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1017
+        3013
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XVIII|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XVIII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1485,18 +1484,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 1050000000000000000000000000000000000000000,
+      "price": 5.5e+89,
       "pos": {
-        "x": -2215,
-        "y": -1925
+        "x": -3060,
+        "y": -480
       },
       "module": "PLAYER",
       "parents": [
-        1018
+        3014
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XIX|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XIX|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1513,18 +1512,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 600000000000000000000000000000000000000000,
+      "price": 2e+89,
       "pos": {
-        "x": -1980,
-        "y": -1825
+        "x": -2910,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2017
+        3013
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XVIII|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XVIII|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1542,18 +1541,18 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 1050000000000000000000000000000000000000000,
+      "price": 5.5e+89,
       "pos": {
-        "x": -2085,
-        "y": -1925
+        "x": -3060,
+        "y": -40
       },
       "module": "PLAYER",
       "parents": [
-        2018
+        3014
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XIX|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XIX|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1571,20 +1570,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 3150000000000000000000000000000000000000000,
+      "price": 8.25e+82,
       "pos": {
-        "x": -2150,
-        "y": -1990
+        "x": -2835,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        1019,
-        2019
+        1017,
+        2017
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIII|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIII|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1603,21 +1602,20 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 3150000000000000000000000000000000000000000,
+      "price": 1.65e+90,
       "pos": {
-        "x": -2150,
-        "y": -2180
+        "x": -2985,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        3013,
-        1019,
-        2019
+        1018,
+        2018
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIV|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIV|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1636,18 +1634,18 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 1400000000000000000000000000000000000000000000000,
+      "price": 7e+93,
       "pos": {
-        "x": -2320,
-        "y": -2025
+        "x": -3210,
+        "y": -370
       },
       "module": "PLAYER",
       "parents": [
         1019
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XX|!|10",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XX|!|21",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
+        "sudo %player% multiply-booster DAMAGE 1.21"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1659,51 +1657,23 @@
       }
     },
     {
-      "id": 1021,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXI",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 2450000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -2140,
-        "y": -2080
-      },
-      "module": "PLAYER",
-      "parents": [
-        1020
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXI|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXI",
-        "lore": ""
-      }
-    },
-    {
       "id": 2020,
       "name": "i18n.srng.tree.health.upgrade.name|!|XX",
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 1400000000000000000000000000000000000000000000000,
+      "price": 7e+93,
       "pos": {
-        "x": -2190,
-        "y": -2025
+        "x": -3210,
+        "y": -150
       },
       "module": "PLAYER",
       "parents": [
         2019
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XX|!|10",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XX|!|21",
       "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
+        "sudo %player% multiply-booster HEALTH 1.21",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1716,54 +1686,25 @@
       }
     },
     {
-      "id": 2021,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXI",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 2450000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -2010,
-        "y": -2080
-      },
-      "module": "PLAYER",
-      "parents": [
-        2020
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXI|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXI",
-        "lore": ""
-      }
-    },
-    {
       "id": 3015,
       "name": "i18n.srng.tree.health-damage.upgrade.name|!|XV",
       "color": {
         "hex": "#F2994A"
       },
-      "price": 7350000000000000000000000000000000000000000000000,
+      "price": 3.3e+94,
       "pos": {
-        "x": -2075,
-        "y": -2145
+        "x": -3285,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
-        1021,
-        2021
+        1020,
+        2020
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XV|!|15|!|15",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XV|!|32.25|!|32.25",
       "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
+        "sudo %player% multiply-booster DAMAGE 1.3225",
+        "sudo %player% multiply-booster HEALTH 1.3225",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1777,1577 +1718,6 @@
       }
     },
     {
-      "id": 3016,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XVI",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 7350000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1975,
-        "y": -2225
-      },
-      "module": "PLAYER",
-      "parents": [
-        3015,
-        1021,
-        2021
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XVI|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XVI",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1022,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXII",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 3600000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1960,
-        "y": -2135
-      },
-      "module": "PLAYER",
-      "parents": [
-        1021
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1023,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXIII",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 6300000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1780,
-        "y": -2190
-      },
-      "module": "PLAYER",
-      "parents": [
-        1022
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXIII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2022,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXII",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 3600000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1830,
-        "y": -2135
-      },
-      "module": "PLAYER",
-      "parents": [
-        2021
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2023,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXIII",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 6300000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1650,
-        "y": -2190
-      },
-      "module": "PLAYER",
-      "parents": [
-        2022
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXIII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3017,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XVII",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 18900000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1715,
-        "y": -2255
-      },
-      "module": "PLAYER",
-      "parents": [
-        1023,
-        2023
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XVII|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XVII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3018,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XVIII",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 18900000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1615,
-        "y": -2335
-      },
-      "module": "PLAYER",
-      "parents": [
-        3017,
-        1023,
-        2023
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XVIII|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XVIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1024,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXIV",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 11200000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1600,
-        "y": -2245
-      },
-      "module": "PLAYER",
-      "parents": [
-        1023
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXIV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXIV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1025,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXV",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 19600000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1420,
-        "y": -2300
-      },
-      "module": "PLAYER",
-      "parents": [
-        1024
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2024,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXIV",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 11200000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1470,
-        "y": -2245
-      },
-      "module": "PLAYER",
-      "parents": [
-        2023
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXIV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXIV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2025,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXV",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 19600000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1290,
-        "y": -2300
-      },
-      "module": "PLAYER",
-      "parents": [
-        2024
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3019,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XIX",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 58800000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1355,
-        "y": -2365
-      },
-      "module": "PLAYER",
-      "parents": [
-        1025,
-        2025
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIX|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XIX",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3020,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XX",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 58800000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1255,
-        "y": -2445
-      },
-      "module": "PLAYER",
-      "parents": [
-        3019,
-        1025,
-        2025
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XX|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XX",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1026,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXVI",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 80000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1240,
-        "y": -2355
-      },
-      "module": "PLAYER",
-      "parents": [
-        1025
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXVI|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXVI",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1027,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXVII",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 140000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1060,
-        "y": -2410
-      },
-      "module": "PLAYER",
-      "parents": [
-        1026
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXVII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXVII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1028,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXVIII",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 220000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -880,
-        "y": -2465
-      },
-      "module": "PLAYER",
-      "parents": [
-        1027
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXVIII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXVIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2026,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXVI",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 80000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -1110,
-        "y": -2355
-      },
-      "module": "PLAYER",
-      "parents": [
-        2025
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXVI|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXVI",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2027,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXVII",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 140000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -930,
-        "y": -2410
-      },
-      "module": "PLAYER",
-      "parents": [
-        2026
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXVII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXVII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2028,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXVIII",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 220000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -750,
-        "y": -2465
-      },
-      "module": "PLAYER",
-      "parents": [
-        2027
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXVIII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXVIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3021,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXI",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 660000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -815,
-        "y": -2530
-      },
-      "module": "PLAYER",
-      "parents": [
-        1028,
-        2028
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXI|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXI",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3022,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXII",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 660000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -715,
-        "y": -2610
-      },
-      "module": "PLAYER",
-      "parents": [
-        3021,
-        1028,
-        2028
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXII|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1029,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXIX",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 800000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -700,
-        "y": -2520
-      },
-      "module": "PLAYER",
-      "parents": [
-        1028
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXIX|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXIX",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1030,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXX",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 1400000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -520,
-        "y": -2575
-      },
-      "module": "PLAYER",
-      "parents": [
-        1029
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXX|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXX",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1031,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXXI",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 2200000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -340,
-        "y": -2630
-      },
-      "module": "PLAYER",
-      "parents": [
-        1030
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXXI|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXXI",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2029,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXIX",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 800000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -570,
-        "y": -2520
-      },
-      "module": "PLAYER",
-      "parents": [
-        2028
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXIX|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXIX",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2030,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXX",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 1400000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -390,
-        "y": -2575
-      },
-      "module": "PLAYER",
-      "parents": [
-        2029
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXX|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXX",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2031,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXXI",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 2200000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -210,
-        "y": -2630
-      },
-      "module": "PLAYER",
-      "parents": [
-        2030
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXXI|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXXI",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3023,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXIII",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 6600000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -275,
-        "y": -2695
-      },
-      "module": "PLAYER",
-      "parents": [
-        1031,
-        2031
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXIII|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3024,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXIV",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 6600000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -175,
-        "y": -2775
-      },
-      "module": "PLAYER",
-      "parents": [
-        3023,
-        1031,
-        2031
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXIV|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXIV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1032,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXXII",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -160,
-        "y": -2685
-      },
-      "module": "PLAYER",
-      "parents": [
-        1031
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXXII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXXII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1033,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXXIII",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 17500000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 20,
-        "y": -2740
-      },
-      "module": "PLAYER",
-      "parents": [
-        1032
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXXIII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXXIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1034,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXXIV",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 27500000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 200,
-        "y": -2795
-      },
-      "module": "PLAYER",
-      "parents": [
-        1033
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXXIV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXXIV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2032,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXXII",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": -30,
-        "y": -2685
-      },
-      "module": "PLAYER",
-      "parents": [
-        2031
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXXII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXXII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2033,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXXIII",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 17500000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 150,
-        "y": -2740
-      },
-      "module": "PLAYER",
-      "parents": [
-        2032
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXXIII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXXIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2034,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXXIV",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 27500000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 330,
-        "y": -2795
-      },
-      "module": "PLAYER",
-      "parents": [
-        2033
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXXIV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXXIV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3025,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXV",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 82500000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 265,
-        "y": -2860
-      },
-      "module": "PLAYER",
-      "parents": [
-        1034,
-        2034
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXV|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3026,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXVI",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 82500000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 365,
-        "y": -2940
-      },
-      "module": "PLAYER",
-      "parents": [
-        3025,
-        1034,
-        2034
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXVI|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXVI",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1035,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXXV",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 380,
-        "y": -2850
-      },
-      "module": "PLAYER",
-      "parents": [
-        1034
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXXV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXXV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1036,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXXVI",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 350000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 560,
-        "y": -2905
-      },
-      "module": "PLAYER",
-      "parents": [
-        1035
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXXVI|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXXVI",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1037,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXXVII",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 550000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 740,
-        "y": -2960
-      },
-      "module": "PLAYER",
-      "parents": [
-        1036
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXXVII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXXVII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2035,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXXV",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 510,
-        "y": -2850
-      },
-      "module": "PLAYER",
-      "parents": [
-        2034
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXXV|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXXV",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2036,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXXVI",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 350000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 690,
-        "y": -2905
-      },
-      "module": "PLAYER",
-      "parents": [
-        2035
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXXVI|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXXVI",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2037,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXXVII",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 550000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 870,
-        "y": -2960
-      },
-      "module": "PLAYER",
-      "parents": [
-        2036
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXXVII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXXVII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3027,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXVII",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 1650000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 805,
-        "y": -3025
-      },
-      "module": "PLAYER",
-      "parents": [
-        1037,
-        2037
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXVII|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXVII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3028,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXVIII",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 1650000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 905,
-        "y": -3105
-      },
-      "module": "PLAYER",
-      "parents": [
-        3027,
-        1037,
-        2037
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXVIII|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXVIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1038,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXXVIII",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 920,
-        "y": -3015
-      },
-      "module": "PLAYER",
-      "parents": [
-        1037
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXXVIII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXXVIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1039,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XXXIX",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 7000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 1100,
-        "y": -3070
-      },
-      "module": "PLAYER",
-      "parents": [
-        1038
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XXXIX|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XXXIX",
-        "lore": ""
-      }
-    },
-    {
-      "id": 1040,
-      "name": "i18n.srng.tree.damage.upgrade.name|!|XL",
-      "color": {
-        "hex": "#E74C3C"
-      },
-      "price": 11000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 1280,
-        "y": -3125
-      },
-      "module": "PLAYER",
-      "parents": [
-        1039
-      ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XL|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.1"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "damage"
-        },
-        "name": "i18n.srng.tree.damage.upgrade.name|!|XL",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2038,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXXVIII",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 1050,
-        "y": -3015
-      },
-      "module": "PLAYER",
-      "parents": [
-        2037
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXXVIII|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXXVIII",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2039,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XXXIX",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 7000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 1230,
-        "y": -3070
-      },
-      "module": "PLAYER",
-      "parents": [
-        2038
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XXXIX|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XXXIX",
-        "lore": ""
-      }
-    },
-    {
-      "id": 2040,
-      "name": "i18n.srng.tree.health.upgrade.name|!|XL",
-      "color": {
-        "hex": "#A84A4A"
-      },
-      "price": 11000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 1410,
-        "y": -3125
-      },
-      "module": "PLAYER",
-      "parents": [
-        2039
-      ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XL|!|10",
-      "rewards": [
-        "sudo %player% multiply-booster HEALTH 1.1",
-        "sudo %player% update-player-health"
-      ],
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "health"
-        },
-        "name": "i18n.srng.tree.health.upgrade.name|!|XL",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3029,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXIX",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 33000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 1345,
-        "y": -3190
-      },
-      "module": "PLAYER",
-      "parents": [
-        1040,
-        2040
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXIX|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXIX",
-        "lore": ""
-      }
-    },
-    {
-      "id": 3030,
-      "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXX",
-      "color": {
-        "hex": "#F2994A"
-      },
-      "price": 33000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-      "pos": {
-        "x": 1445,
-        "y": -3270
-      },
-      "module": "PLAYER",
-      "parents": [
-        3029,
-        1040,
-        2040
-      ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XXX|!|15|!|15",
-      "rewards": [
-        "sudo %player% multiply-booster DAMAGE 1.15",
-        "sudo %player% multiply-booster HEALTH 1.15",
-        "sudo %player% update-player-health"
-      ],
-      "anyParentUpgrade": false,
-      "icon": {
-        "type": "CLAY_BALL",
-        "data": {
-          "rng": "hp-damage"
-        },
-        "name": "i18n.srng.tree.health-damage.upgrade.name|!|XXX",
-        "lore": ""
-      }
-    },
-    {
       "id": 100,
       "name": "srng.tree.food.upgrade.name",
       "color": {
@@ -3355,7 +1725,7 @@
       },
       "price": 50,
       "pos": {
-        "x": 80,
+        "x": 220,
         "y": 315
       },
       "module": "REBIRTH_UPGRADES",
@@ -3381,8 +1751,8 @@
       },
       "price": 100,
       "pos": {
-        "x": 30,
-        "y": 435
+        "x": 50,
+        "y": 495
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -3407,8 +1777,8 @@
       },
       "price": 300,
       "pos": {
-        "x": 30,
-        "y": 545
+        "x": 120,
+        "y": 645
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -3433,8 +1803,8 @@
       },
       "price": 800,
       "pos": {
-        "x": 110,
-        "y": 435
+        "x": 220,
+        "y": 535
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -3459,8 +1829,8 @@
       },
       "price": 5000,
       "pos": {
-        "x": 190,
-        "y": 435
+        "x": 410,
+        "y": 565
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -3485,8 +1855,8 @@
       },
       "price": 12000,
       "pos": {
-        "x": 190,
-        "y": 545
+        "x": 520,
+        "y": 540
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -3511,8 +1881,8 @@
       },
       "price": 2000,
       "pos": {
-        "x": 110,
-        "y": 545
+        "x": 330,
+        "y": 665
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -3537,8 +1907,8 @@
       },
       "price": 15000000,
       "pos": {
-        "x": -320,
-        "y": -500
+        "x": -610,
+        "y": -260
       },
       "module": "PLAYER",
       "parents": [
@@ -3682,8 +2052,8 @@
       },
       "price": 3750,
       "pos": {
-        "x": 100,
-        "y": -160
+        "x": 44,
+        "y": -116
       },
       "module": "LUCK",
       "parents": [
@@ -3710,8 +2080,8 @@
       },
       "price": 300000,
       "pos": {
-        "x": 90,
-        "y": -300
+        "x": -21,
+        "y": -226
       },
       "module": "LUCK",
       "parents": [
@@ -3738,8 +2108,8 @@
       },
       "price": 45000000,
       "pos": {
-        "x": 95,
-        "y": -445
+        "x": -49,
+        "y": -351
       },
       "module": "LUCK",
       "parents": [
@@ -3766,8 +2136,8 @@
       },
       "price": 9000000000,
       "pos": {
-        "x": 115,
-        "y": -590
+        "x": -38,
+        "y": -479
       },
       "module": "LUCK",
       "parents": [
@@ -3794,8 +2164,8 @@
       },
       "price": 2700000000000,
       "pos": {
-        "x": 150,
-        "y": -735
+        "x": 11,
+        "y": -597
       },
       "module": "LUCK",
       "parents": [
@@ -3822,8 +2192,8 @@
       },
       "price": 1200000000000000,
       "pos": {
-        "x": 205,
-        "y": -875
+        "x": 93,
+        "y": -694
       },
       "module": "LUCK",
       "parents": [
@@ -3850,8 +2220,8 @@
       },
       "price": 750000000000000000,
       "pos": {
-        "x": 285,
-        "y": -1005
+        "x": 200,
+        "y": -760
       },
       "module": "LUCK",
       "parents": [
@@ -3878,8 +2248,8 @@
       },
       "price": 600000000000000000000,
       "pos": {
-        "x": 390,
-        "y": -1115
+        "x": 322,
+        "y": -789
       },
       "module": "LUCK",
       "parents": [
@@ -3906,8 +2276,8 @@
       },
       "price": 600000000000000000000000,
       "pos": {
-        "x": 515,
-        "y": -1195
+        "x": 447,
+        "y": -778
       },
       "module": "LUCK",
       "parents": [
@@ -3934,8 +2304,8 @@
       },
       "price": 750000000000000000000000000000,
       "pos": {
-        "x": 655,
-        "y": -1245
+        "x": 562,
+        "y": -728
       },
       "module": "LUCK",
       "parents": [
@@ -3962,8 +2332,8 @@
       },
       "price": 1200000000000000000000000000000000000,
       "pos": {
-        "x": 805,
-        "y": -1260
+        "x": 656,
+        "y": -644
       },
       "module": "LUCK",
       "parents": [
@@ -3990,8 +2360,8 @@
       },
       "price": 2250000000000000000000000000000000000000000,
       "pos": {
-        "x": 950,
-        "y": -1235
+        "x": 721,
+        "y": -534
       },
       "module": "LUCK",
       "parents": [
@@ -4018,8 +2388,8 @@
       },
       "price": 5250000000000000000000000000000000000000000000000,
       "pos": {
-        "x": 1080,
-        "y": -1170
+        "x": 749,
+        "y": -409
       },
       "module": "LUCK",
       "parents": [
@@ -4046,8 +2416,8 @@
       },
       "price": 13500000000000000000000000000000000000000000000000000000,
       "pos": {
-        "x": 1180,
-        "y": -1070
+        "x": 738,
+        "y": -281
       },
       "module": "LUCK",
       "parents": [
@@ -4074,8 +2444,8 @@
       },
       "price": 42000000000000000000000000000000000000000000000000000000000000,
       "pos": {
-        "x": 1250,
-        "y": -945
+        "x": 689,
+        "y": -163
       },
       "module": "LUCK",
       "parents": [
@@ -4102,8 +2472,8 @@
       },
       "price": 300000000000000000000000000000000000000000000000000000000000000000000,
       "pos": {
-        "x": 1285,
-        "y": -800
+        "x": 607,
+        "y": -66
       },
       "module": "LUCK",
       "parents": [
@@ -4130,8 +2500,8 @@
       },
       "price": 3000000000000000000000000000000000000000000000000000000000000000000000000000,
       "pos": {
-        "x": 1280,
-        "y": -650
+        "x": 520,
+        "y": 35
       },
       "module": "LUCK",
       "parents": [
@@ -4158,8 +2528,8 @@
       },
       "price": 37500000000000000000000000000000000000000000000000000000000000000000000000000000000,
       "pos": {
-        "x": 1240,
-        "y": -505
+        "x": 400,
+        "y": 90
       },
       "module": "LUCK",
       "parents": [
@@ -4186,8 +2556,8 @@
       },
       "price": 750000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
       "pos": {
-        "x": 1160,
-        "y": -380
+        "x": 270,
+        "y": 85
       },
       "module": "LUCK",
       "parents": [
@@ -4214,8 +2584,8 @@
       },
       "price": 15000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
       "pos": {
-        "x": 1050,
-        "y": -280
+        "x": 145,
+        "y": 25
       },
       "module": "LUCK",
       "parents": [
@@ -5033,8 +3403,8 @@
       },
       "price": 600,
       "pos": {
-        "x": 450,
-        "y": 315
+        "x": 435,
+        "y": 330
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -5061,8 +3431,8 @@
       },
       "price": 1500,
       "pos": {
-        "x": 600,
-        "y": 190
+        "x": 625,
+        "y": 175
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -5090,7 +3460,7 @@
       "price": 3500,
       "pos": {
         "x": 600,
-        "y": 440
+        "y": 470
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -5117,8 +3487,8 @@
       },
       "price": 8000,
       "pos": {
-        "x": 750,
-        "y": 315
+        "x": 790,
+        "y": 305
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
@@ -5145,7 +3515,7 @@
       },
       "price": 350,
       "pos": {
-        "x": 600,
+        "x": 610,
         "y": 315
       },
       "module": "REBIRTH_UPGRADES",
@@ -5176,8 +3546,8 @@
       },
       "price": 12000,
       "pos": {
-        "x": 750,
-        "y": 440
+        "x": 805,
+        "y": 485
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
