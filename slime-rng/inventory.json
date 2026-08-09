@@ -43,9 +43,11 @@
       "title": "Фрукты",
       "icon": {
         "kind": "ITEM_MODEL",
-        "resourceId": "minecraft:apple",
+        "resourceId": "minecraft:clay_ball",
         "modelId": 0,
-        "glint": false
+        "glint": false,
+        "modelTagKey": "rng",
+        "modelTag": "fruit"
       },
       "contributesToProfileCapacity": false,
       "blockingTitle": "Блокировка фруктов",
@@ -211,13 +213,9 @@
       "presentation": {
         "icon": {
           "kind": "ITEM_MODEL",
-          "resourceId": "minecraft:clay_ball",
+          "resourceId": "minecraft:apple",
           "modelId": 0,
-          "ownerTexture": null,
-          "tint": null,
-          "glint": false,
-          "modelTagKey": "rng",
-          "modelTag": "fruit"
+          "glint": false
         },
         "title": "srng.food.apple.name",
         "rows": [],
