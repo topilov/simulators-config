@@ -77,7 +77,7 @@
     {
       "id": 1,
       "name": "srng.bind.description.tree",
-      "size": 56,
+      "size": 64,
       "color": {
         "hex": "#51457A"
       },
@@ -112,9 +112,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -140,9 +140,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -170,10 +170,10 @@
         1001,
         2001
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|I|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|I|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -184,7 +184,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|I",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1002,
@@ -195,15 +196,15 @@
       "price": 12000000,
       "pos": {
         "x": -310,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3001
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -223,15 +224,15 @@
       "price": 12000000,
       "pos": {
         "x": -310,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3001
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -259,10 +260,10 @@
         1002,
         2002
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|II|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|II|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -273,7 +274,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|II",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1003,
@@ -284,15 +286,15 @@
       "price": 720000000000,
       "pos": {
         "x": -460,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3002
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -312,15 +314,15 @@
       "price": 720000000000,
       "pos": {
         "x": -460,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3002
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|III|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|III|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -348,10 +350,10 @@
         1003,
         2003
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|III|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|III|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -362,7 +364,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|III",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1004,
@@ -379,9 +382,9 @@
       "parents": [
         3003
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|IV|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|IV|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -407,9 +410,9 @@
       "parents": [
         3003
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|IV|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|IV|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -437,10 +440,10 @@
         1005,
         2005
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IV|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IV|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -451,7 +454,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|IV",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1005,
@@ -468,9 +472,9 @@
       "parents": [
         1004
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|V|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|V|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -496,9 +500,9 @@
       "parents": [
         2004
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|V|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|V|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -526,10 +530,10 @@
         1006,
         2006
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|V|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|V|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -540,7 +544,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|V",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1006,
@@ -551,15 +556,15 @@
       "price": 280000000000000000000,
       "pos": {
         "x": -960,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3004
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|VI|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|VI|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -579,15 +584,15 @@
       "price": 2.8e+23,
       "pos": {
         "x": -1110,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3005
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|VII|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|VII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -607,15 +612,15 @@
       "price": 280000000000000000000,
       "pos": {
         "x": -960,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3004
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|VI|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|VI|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -636,15 +641,15 @@
       "price": 2.8e+23,
       "pos": {
         "x": -1110,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3005
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|VII|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|VII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -672,10 +677,10 @@
         1007,
         2007
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VI|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VI|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -686,7 +691,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|VI",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1008,
@@ -703,9 +709,9 @@
       "parents": [
         3006
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|VIII|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|VIII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -731,9 +737,9 @@
       "parents": [
         1008
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|IX|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|IX|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -759,9 +765,9 @@
       "parents": [
         3006
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|VIII|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|VIII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -788,9 +794,9 @@
       "parents": [
         2008
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|IX|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|IX|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -818,10 +824,10 @@
         1009,
         2009
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VII|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VII|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -832,7 +838,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|VII",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1010,
@@ -843,15 +850,15 @@
       "price": 1.05e+42,
       "pos": {
         "x": -1610,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3007
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|X|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|X|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -871,15 +878,15 @@
       "price": 2.45e+48,
       "pos": {
         "x": -1760,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3008
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XI|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XI|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -899,15 +906,15 @@
       "price": 1.05e+42,
       "pos": {
         "x": -1610,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3007
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|X|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|X|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -928,15 +935,15 @@
       "price": 2.45e+48,
       "pos": {
         "x": -1760,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3008
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XI|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XI|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -964,10 +971,10 @@
         1010,
         2010
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VIII|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VIII|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -978,7 +985,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|VIII",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1012,
@@ -995,9 +1003,9 @@
       "parents": [
         3009
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XII|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1023,9 +1031,9 @@
       "parents": [
         1012
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XIII|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XIII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1051,9 +1059,9 @@
       "parents": [
         3009
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XII|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1080,9 +1088,9 @@
       "parents": [
         2012
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XIII|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XIII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1110,10 +1118,10 @@
         1011,
         2011
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IX|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IX|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1124,7 +1132,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|IX",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1014,
@@ -1135,15 +1144,15 @@
       "price": 1.4e+68,
       "pos": {
         "x": -2260,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3010
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XIV|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XIV|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1163,15 +1172,15 @@
       "price": 8e+74,
       "pos": {
         "x": -2410,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3011
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XV|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XV|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1191,15 +1200,15 @@
       "price": 1.4e+68,
       "pos": {
         "x": -2260,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3010
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XIV|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XIV|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1220,15 +1229,15 @@
       "price": 8e+74,
       "pos": {
         "x": -2410,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3011
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XV|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XV|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1256,10 +1265,10 @@
         1013,
         2013
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|X|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|X|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1270,7 +1279,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|X",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1016,
@@ -1287,9 +1297,9 @@
       "parents": [
         3012
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XVI|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XVI|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1315,9 +1325,9 @@
       "parents": [
         1016
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XVII|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XVII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1343,9 +1353,9 @@
       "parents": [
         3012
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XVI|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XVI|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1372,9 +1382,9 @@
       "parents": [
         2016
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XVII|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XVII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1402,10 +1412,10 @@
         1014,
         2014
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XI|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XI|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1416,7 +1426,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XI",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 3012,
@@ -1434,10 +1445,10 @@
         1015,
         2015
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XII|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XII|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1448,7 +1459,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XII",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1018,
@@ -1459,15 +1471,15 @@
       "price": 2e+89,
       "pos": {
         "x": -2910,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3013
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XVIII|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XVIII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1487,15 +1499,15 @@
       "price": 5.5e+89,
       "pos": {
         "x": -3060,
-        "y": -580
+        "y": -550
       },
       "module": "PLAYER",
       "parents": [
         3014
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XIX|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XIX|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1515,15 +1527,15 @@
       "price": 2e+89,
       "pos": {
         "x": -2910,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3013
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XVIII|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XVIII|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1544,15 +1556,15 @@
       "price": 5.5e+89,
       "pos": {
         "x": -3060,
-        "y": -140
+        "y": -170
       },
       "module": "PLAYER",
       "parents": [
         3014
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XIX|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XIX|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1580,10 +1592,10 @@
         1017,
         2017
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIII|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIII|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1594,7 +1606,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XIII",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 3014,
@@ -1612,10 +1625,10 @@
         1018,
         2018
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIV|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIV|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1626,7 +1639,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XIV",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 1020,
@@ -1643,9 +1657,9 @@
       "parents": [
         1019
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XX|!|30",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XX|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3"
+        "sudo %player% activate-infinity-booster DAMAGE 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1671,9 +1685,9 @@
       "parents": [
         2019
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XX|!|30",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XX|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1701,10 +1715,10 @@
         1020,
         2020
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XV|!|50|!|50",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XV|!|30|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
+        "sudo %player% activate-infinity-booster DAMAGE 1.3",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1715,7 +1729,8 @@
         },
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XV",
         "lore": ""
-      }
+      },
+      "size": 56
     },
     {
       "id": 100,
@@ -1741,7 +1756,8 @@
         },
         "name": "srng.tree.food.upgrade.name",
         "lore": ""
-      }
+      },
+      "size": 64
     },
     {
       "id": 101,
@@ -1907,7 +1923,7 @@
       },
       "price": 15000000,
       "pos": {
-        "x": -610,
+        "x": -670,
         "y": -360
       },
       "module": "PLAYER",
@@ -2059,9 +2075,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|I|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|I|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2087,9 +2103,9 @@
       "parents": [
         301
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|II|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|II|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2115,9 +2131,9 @@
       "parents": [
         302
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|III|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|III|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2143,9 +2159,9 @@
       "parents": [
         303
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|IV|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|IV|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2171,9 +2187,9 @@
       "parents": [
         304
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|V|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|V|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2199,9 +2215,9 @@
       "parents": [
         305
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|VI|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|VI|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2227,9 +2243,9 @@
       "parents": [
         306
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|VII|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|VII|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2255,9 +2271,9 @@
       "parents": [
         307
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|VIII|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|VIII|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2283,9 +2299,9 @@
       "parents": [
         308
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|IX|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|IX|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2311,9 +2327,9 @@
       "parents": [
         309
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|X|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|X|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2339,9 +2355,9 @@
       "parents": [
         310
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XI|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XI|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2367,9 +2383,9 @@
       "parents": [
         311
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XII|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XII|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2395,9 +2411,9 @@
       "parents": [
         312
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XIII|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XIII|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2423,9 +2439,9 @@
       "parents": [
         313
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XIV|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XIV|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2451,9 +2467,9 @@
       "parents": [
         314
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XV|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XV|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2479,9 +2495,9 @@
       "parents": [
         315
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XVI|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XVI|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2507,9 +2523,9 @@
       "parents": [
         316
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XVII|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XVII|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2535,9 +2551,9 @@
       "parents": [
         317
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XVIII|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XVIII|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2563,9 +2579,9 @@
       "parents": [
         318
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XIX|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XIX|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2591,9 +2607,9 @@
       "parents": [
         319
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XX|!|15",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XX|!|70",
       "rewards": [
-        "sudo %player% multiply-booster LUCK 1.15"
+        "sudo %player% activate-infinity-booster LUCK 1.7"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2875,7 +2891,6 @@
       "rewards": [
         "sudo %player% multiply-booster ROLL_SPEED 1.05"
       ],
-      "size": 60,
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -2904,7 +2919,7 @@
       "rewards": [
         "sudo %player% unlock-auto-roll"
       ],
-      "size": 60,
+      "size": 68,
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -2929,9 +2944,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.rebirth.core.description|!|25|!|50|!|50",
+      "description": "i18n.srng.tree.rebirth.core.description|!|50|!|50|!|50",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.25",
+        "sudo %player% activate-infinity-booster MONEY 1.5",
         "sudo %player% activate-infinity-booster DAMAGE 1.5",
         "sudo %player% activate-infinity-booster HEALTH 1.5",
         "sudo %player% update-player-health"
@@ -2961,9 +2976,9 @@
       "parents": [
         4000
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|I|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|I|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2989,9 +3004,9 @@
       "parents": [
         4030
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|II|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|II|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3017,9 +3032,9 @@
       "parents": [
         4031
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|III|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|III|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3045,9 +3060,9 @@
       "parents": [
         4032
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|IV|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|IV|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3073,9 +3088,9 @@
       "parents": [
         4033
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|V|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|V|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3101,9 +3116,9 @@
       "parents": [
         4034
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|VI|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|VI|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3129,9 +3144,9 @@
       "parents": [
         4035
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|VII|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|VII|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3157,9 +3172,9 @@
       "parents": [
         4036
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|VIII|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|VIII|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3185,9 +3200,9 @@
       "parents": [
         4037
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|IX|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|IX|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3213,9 +3228,9 @@
       "parents": [
         4038
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|X|!|30",
+      "description": "i18n.srng.tree.rebirth.money.description|!|X|!|35",
       "rewards": [
-        "sudo %player% multiply-booster MONEY 1.3"
+        "sudo %player% activate-infinity-booster MONEY 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
