@@ -8,13 +8,14 @@
   "fruits": [
     {
       "name": "srng.food.apple.name",
-      "description": "i18n.srng.inventory.food.apple.description|!|15|!|45",
+      "description": "i18n.srng.inventory.food.apple.description|!|5|!|5|!|60",
       "accentColor": {
         "hex": "#D9363E"
       },
       "requiredUpgradeId": 106,
       "rewards": [
-        "local-booster %player% HEALTH 1.15 45 %count%"
+        "local-booster %player% HEALTH 1.05 60 %count%",
+        "local-booster %player% DAMAGE 1.05 60 %count%"
       ],
       "foodItem": {
         "type": "CLAY_BALL",
@@ -35,14 +36,13 @@
     },
     {
       "name": "srng.tree.fruit.strawberry.name",
-      "description": "i18n.srng.inventory.food.strawberry.description|!|5|!|5|!|60",
+      "description": "i18n.srng.inventory.food.strawberry.description|!|5|!|60",
       "accentColor": {
         "hex": "#E83E62"
       },
       "requiredUpgradeId": 101,
       "rewards": [
-        "local-booster %player% HEALTH 1.05 60 %count%",
-        "local-booster %player% DAMAGE 1.05 60 %count%"
+        "local-booster %player% HEALTH 1.05 60 %count%"
       ],
       "foodItem": {
         "type": "CLAY_BALL",
@@ -63,13 +63,14 @@
     },
     {
       "name": "srng.tree.fruit.pineapple.name",
-      "description": "i18n.srng.inventory.food.pineapple.description|!|5|!|60",
+      "description": "i18n.srng.inventory.food.pineapple.description|!|5|!|2|!|60",
       "accentColor": {
         "hex": "#E5A92F"
       },
       "requiredUpgradeId": 103,
       "rewards": [
-        "local-booster %player% DAMAGE 1.05 60 %count%"
+        "local-booster %player% DAMAGE 1.05 60 %count%",
+        "local-booster %player% MONEY 1.02 60 %count%"
       ],
       "foodItem": {
         "type": "CLAY_BALL",
@@ -90,13 +91,13 @@
     },
     {
       "name": "srng.tree.fruit.pepper.name",
-      "description": "i18n.srng.inventory.food.pepper.description|!|15|!|45",
+      "description": "i18n.srng.inventory.food.pepper.description|!|10|!|20",
       "accentColor": {
         "hex": "#E85D2A"
       },
       "requiredUpgradeId": 104,
       "rewards": [
-        "local-booster %player% DAMAGE 1.15 45 %count%"
+        "local-booster %player% LUCK 1.1 20 %count%"
       ],
       "foodItem": {
         "type": "CLAY_BALL",
@@ -117,13 +118,13 @@
     },
     {
       "name": "srng.tree.fruit.kiwi.name",
-      "description": "i18n.srng.inventory.food.kiwi.description|!|10|!|20",
+      "description": "i18n.srng.inventory.food.kiwi.description|!|15|!|45",
       "accentColor": {
         "hex": "#78B83E"
       },
       "requiredUpgradeId": 102,
       "rewards": [
-        "local-booster %player% LUCK 1.1 20 %count%"
+        "local-booster %player% DAMAGE 1.15 45 %count%"
       ],
       "foodItem": {
         "type": "CLAY_BALL",
