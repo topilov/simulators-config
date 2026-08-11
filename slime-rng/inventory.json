@@ -54,6 +54,21 @@
       "blockingTitle": "Блокировка фруктов",
       "emptyText": "Фруктов пока нет",
       "actionIds": []
+    },
+    "slime-rng:equipment": {
+      "order": 2,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Оружие",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:blaze_rod",
+        "modelId": 0,
+        "glint": false
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка оружия",
+      "emptyText": "Оружия пока нет",
+      "actionIds": []
     }
   },
   "equipmentSlots": {
@@ -123,7 +138,7 @@
       "initiallyUnlocked": false
     },
     "slime-rng:gun": {
-      "categoryId": "slime-rng:food",
+      "categoryId": "slime-rng:equipment",
       "order": 5,
       "visualRole": "WEAPON",
       "title": "Магический посох",
@@ -211,7 +226,7 @@
     },
     "slime-rng:gun": {
       "kind": "EQUIPMENT",
-      "categoryId": "slime-rng:food",
+      "categoryId": "slime-rng:equipment",
       "capabilities": [
         "EQUIPPABLE"
       ],
