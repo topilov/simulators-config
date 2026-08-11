@@ -3,7 +3,10 @@
     "profileId": "slime-rng:main",
     "capacityMode": "SLOTS",
     "capacityLevels": [
-      25
+      25,
+      50,
+      75,
+      100
     ],
     "capacityFormatId": "slime-rng:slots",
     "defaultCategoryId": "slime-rng:pets",
@@ -27,12 +30,7 @@
         "modelId": 0,
         "glint": false
       },
-      "capacity": {
-        "mode": "SLOTS",
-        "limit": 25,
-        "formatId": "slime-rng:slots"
-      },
-      "contributesToProfileCapacity": false,
+      "contributesToProfileCapacity": true,
       "blockingTitle": "Блокировка слаймов",
       "emptyText": "Нет доступных слаймов",
       "actionIds": []
