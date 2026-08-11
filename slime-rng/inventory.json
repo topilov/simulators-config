@@ -58,14 +58,14 @@
     "slime-rng:equipment": {
       "order": 2,
       "layoutKind": "SLOT_CATALOG",
-      "title": "Магический посох",
+      "title": "Оружие",
       "icon": {
         "kind": "ITEM_MODEL",
         "resourceId": "minecraft:blaze_rod",
         "modelId": 0,
         "glint": false,
         "modelTagKey": "rng",
-        "modelTag": "h_weapon_diamond_3"
+        "modelTag": "h_weapon_3_diamond"
       },
       "contributesToProfileCapacity": false,
       "blockingTitle": "Блокировка оружия",
@@ -150,7 +150,7 @@
         "modelId": 0,
         "glint": false,
         "modelTagKey": "rng",
-        "modelTag": "h_weapon_diamond_3"
+        "modelTag": "h_weapon_3_diamond"
       },
       "initiallyUnlocked": true,
       "projectionTarget": "MAIN_HAND"
@@ -251,7 +251,9 @@
           "kind": "ITEM_MODEL",
           "resourceId": "minecraft:blaze_rod",
           "modelId": 0,
-          "glint": true
+          "glint": true,
+          "modelTagKey": "rng",
+          "modelTag": "h_weapon_3_diamond"
         },
         "title": "srng.gun.basic.name",
         "rows": [],
