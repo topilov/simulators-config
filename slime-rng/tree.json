@@ -3371,7 +3371,7 @@
       ],
       "description": "i18n.srng.tree.rebirth.inventory.description|!|I|!|10",
       "rewards": [
-        "sudo %player% add-inventory-slots 10"
+        "upgrade-capacity %player%"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3399,7 +3399,7 @@
       ],
       "description": "i18n.srng.tree.rebirth.inventory.description|!|II|!|10",
       "rewards": [
-        "sudo %player% add-inventory-slots 10"
+        "upgrade-capacity %player%"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3427,7 +3427,7 @@
       ],
       "description": "i18n.srng.tree.rebirth.inventory.description|!|III|!|10",
       "rewards": [
-        "sudo %player% add-inventory-slots 10"
+        "upgrade-capacity %player%"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3455,7 +3455,7 @@
       ],
       "description": "i18n.srng.tree.rebirth.inventory.description|!|IV|!|10",
       "rewards": [
-        "sudo %player% add-inventory-slots 10"
+        "upgrade-capacity %player%"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3481,9 +3481,9 @@
       "parents": [
         4200
       ],
-      "description": "i18n.srng.tree.rebirth.inventory.description|!|V|!|10",
+      "description": "i18n.srng.tree.rebirth.inventory.description|!|V|!|15",
       "rewards": [
-        "sudo %player% add-inventory-slots 10"
+        "upgrade-capacity %player%"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3509,9 +3509,9 @@
       "parents": [
         4200
       ],
-      "description": "i18n.srng.tree.rebirth.inventory.description|!|VI|!|25",
+      "description": "i18n.srng.tree.rebirth.inventory.description|!|VI|!|20",
       "rewards": [
-        "sudo %player% add-inventory-slots 25"
+        "upgrade-capacity %player%"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3540,7 +3540,7 @@
       ],
       "description": "i18n.srng.tree.rebirth.slime-slot.description|!|I",
       "rewards": [
-        "sudo %player% unlock-slime-slot"
+        "sudo %player% unlock-pet-slot"
       ],
       "size": 60,
       "anyParentUpgrade": false,
@@ -3571,7 +3571,7 @@
       ],
       "description": "i18n.srng.tree.rebirth.slime-slot.description|!|II",
       "rewards": [
-        "sudo %player% unlock-slime-slot"
+        "sudo %player% unlock-pet-slot"
       ],
       "size": 60,
       "anyParentUpgrade": false,
