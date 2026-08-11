@@ -1,0 +1,1449 @@
+{
+  "menuFactory": {
+    "balanceSymbol": "",
+    "promoEnabled": true,
+    "banner": {
+      "title": "ИНВЕСТИРУЙ В БУДУЩЕЕ!",
+      "subtitle": " 30% кристалликов вернется на следующий симулятор!",
+      "textureUrl": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+      "color": {
+        "hex": "#66131B",
+        "alpha": 0.62
+      }
+    },
+    "categories": [
+      {
+        "key": "boost",
+        "priority": 0,
+        "title": "katana.store.category.boosters.title",
+        "iconGlyph": "",
+        "color": {
+          "hex": "#275495"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/fire.png",
+        "itemKeys": [
+          "gexp",
+          "lexp",
+          "ghit",
+          "lhit",
+          "gkil",
+          "lkil",
+          "gmny",
+          "lmny",
+          "gall",
+          "lall"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "otherf",
+        "priority": 1,
+        "title": "katana.store.category.other-features.title",
+        "iconGlyph": "",
+        "color": {
+          "hex": "#8d6808"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/glow_spiral.png",
+        "itemKeys": [
+          "infst",
+          "case5",
+          "acase",
+          "amrge",
+          "super",
+          "speed",
+          "strhit",
+          "mhand",
+          "wallet"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "lootbox",
+        "priority": 2,
+        "title": "katana.store.category.lootbox.title",
+        "iconGlyph": "",
+        "color": {
+          "hex": "#8d6808"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/fire.png",
+        "itemKeys": [
+          "kdef",
+          "ktit",
+          "kpet",
+          "krune"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "items",
+        "priority": 3,
+        "title": "katana.store.category.game-items.title",
+        "iconGlyph": "",
+        "color": {
+          "hex": "#380d95"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/circle.png",
+        "itemKeys": [
+          "lktan",
+          "scrys"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "gift",
+        "priority": 4,
+        "title": "katana.store.category.gift.title",
+        "iconGlyph": "",
+        "color": {
+          "hex": "#66131b"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+        "itemKeys": [
+          "gifdf",
+          "gifpt",
+          "gifrn",
+          "giftt"
+        ],
+        "scrollable": false
+      },
+      {
+        "key": "other",
+        "priority": 5,
+        "title": "katana.store.category.other.title",
+        "iconGlyph": "",
+        "color": {
+          "hex": "#66131b"
+        },
+        "backgroundTexture": "https://storage.c7x.dev/wada/textures/store/linear_gradient.png",
+        "itemKeys": [
+          "pslot",
+          "rslot",
+          "esets",
+          "incpt",
+          "mbag",
+          "mhnd",
+          "mbox"
+        ],
+        "scrollable": false
+      }
+    ],
+    "items": [
+      {
+        "key": "gifdf",
+        "title": "katana.store.element.gifts-katana.title",
+        "description": [
+          "katana.store.element.gifts-katana.description"
+        ],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 129,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "gifpt",
+        "title": "katana.store.element.gifts-pet.title",
+        "description": [
+          "katana.store.element.gifts-pet.description"
+        ],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 119,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "gifrn",
+        "title": "katana.store.element.gifts-rune.title",
+        "description": [
+          "katana.store.element.gifts-rune.description"
+        ],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 199,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "giftt",
+        "title": "katana.store.element.gifts-title.title",
+        "description": [
+          "katana.store.element.gifts-title.description"
+        ],
+        "primaryCategoryKey": "gift",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 399,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "skyblock": "gift"
+            }
+          }
+        }
+      },
+      {
+        "key": "pslot",
+        "title": "katana.store.element.pet-slot.title",
+        "description": [
+          "katana.store.element.pet-slot.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 199,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/pet_slot.png"
+        }
+      },
+      {
+        "key": "rslot",
+        "title": "katana.store.element.rune-slot.title",
+        "description": [
+          "katana.store.element.rune-slot.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 399,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/rune_slot.png"
+        }
+      },
+      {
+        "key": "esets",
+        "title": "katana.store.element.inventory-equipment-sets.title",
+        "description": [
+          "katana.store.element.inventory-equipment-sets.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "CLAY_BALL",
+            "data": {
+              "other": "lock"
+            }
+          }
+        }
+      },
+      {
+        "key": "incpt",
+        "title": "katana.store.element.incident-point.title",
+        "description": [
+          "katana.store.element.incident-point.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 39,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/incident_points.png"
+        }
+      },
+      {
+        "key": "mbag",
+        "title": "katana.store.element.money-bag.title",
+        "description": [
+          "katana.store.element.money-bag.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 39,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/bag.png"
+        }
+      },
+      {
+        "key": "mhnd",
+        "title": "katana.store.element.money-handful.title",
+        "description": [
+          "katana.store.element.money-handful.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 9,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/bag.png"
+        }
+      },
+      {
+        "key": "lktan",
+        "title": "katana.store.element.legendary-katana.title",
+        "description": [
+          "katana.store.element.legendary-katana.description"
+        ],
+        "primaryCategoryKey": "items",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 499,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "item",
+          "item": {
+            "type": "IRON_SWORD",
+            "data": {
+              "weapons": "spider"
+            }
+          }
+        }
+      },
+      {
+        "key": "scrys",
+        "title": "katana.store.element.save-crystal.title",
+        "description": [
+          "katana.store.element.save-crystal.description"
+        ],
+        "primaryCategoryKey": "items",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/save_crystal.png"
+        }
+      },
+      {
+        "key": "kdef",
+        "title": "katana.store.element.katana-key.title",
+        "description": [
+          "katana.store.element.katana-key.description"
+        ],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 89,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/goldkey.png"
+        }
+      },
+      {
+        "key": "ktit",
+        "title": "katana.store.element.title-key.title",
+        "description": [
+          "katana.store.element.title-key.description"
+        ],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 199,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/purple_cristal_key.png"
+        }
+      },
+      {
+        "key": "kpet",
+        "title": "katana.store.element.pet-key.title",
+        "description": [
+          "katana.store.element.pet-key.description"
+        ],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 69,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/fox_key.png"
+        }
+      },
+      {
+        "key": "krune",
+        "title": "katana.store.element.rune-key.title",
+        "description": [
+          "katana.store.element.rune-key.description"
+        ],
+        "primaryCategoryKey": "lootbox",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10,
+          25
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/rune_key.png"
+        }
+      },
+      {
+        "key": "infst",
+        "title": "katana.store.element.infinity-storage.title",
+        "description": [
+          "katana.store.element.infinity-storage.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 349,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/storage.png"
+        }
+      },
+      {
+        "key": "case5",
+        "title": "katana.store.element.multiple-case.title",
+        "description": [
+          "katana.store.element.multiple-case.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/case5.png"
+        }
+      },
+      {
+        "key": "acase",
+        "title": "katana.store.element.auto-case.title",
+        "description": [
+          "katana.store.element.auto-case.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 299,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/autocase.png"
+        }
+      },
+      {
+        "key": "amrge",
+        "title": "katana.store.element.auto-merge.title",
+        "description": [
+          "katana.store.element.auto-merge.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 299,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/auto_merge.png"
+        }
+      },
+      {
+        "key": "super",
+        "title": "katana.store.element.super-player.title",
+        "description": [
+          "katana.store.element.super-player.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 199,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/vip.png"
+        }
+      },
+      {
+        "key": "speed",
+        "title": "katana.store.element.speed-perk.title",
+        "description": [
+          "katana.store.element.speed-perk.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/speed.png"
+        }
+      },
+      {
+        "key": "mbox",
+        "title": "katana.store.element.money-box.title",
+        "description": [
+          "katana.store.element.money-box.description"
+        ],
+        "primaryCategoryKey": "other",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 99,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": false,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/livesey.png"
+        }
+      },
+      {
+        "key": "strhit",
+        "title": "katana.store.element.strong-hit.title",
+        "description": [
+          "katana.store.element.strong-hit.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 139,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/strong-hit.png"
+        }
+      },
+      {
+        "key": "mhand",
+        "title": "katana.store.element.mechanic-hand.title",
+        "description": [
+          "katana.store.element.mechanic-hand.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 399,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/mechanic-hand.png"
+        }
+      },
+      {
+        "key": "wallet",
+        "title": "katana.store.element.new-wallet.title",
+        "description": [
+          "katana.store.element.new-wallet.description"
+        ],
+        "primaryCategoryKey": "otherf",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 149,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": true,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/new-wallet.png"
+        }
+      },
+      {
+        "key": "gexp",
+        "title": "katana.store.element.global-exp.title",
+        "description": [
+          "katana.store.element.global-exp.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/exp-booster.png"
+        }
+      },
+      {
+        "key": "lexp",
+        "title": "katana.store.element.local-exp.title",
+        "description": [
+          "katana.store.element.local-exp.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/exp-booster.png"
+        }
+      },
+      {
+        "key": "ghit",
+        "title": "katana.store.element.global-hits.title",
+        "description": [
+          "katana.store.element.global-hits.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/hits-booster.png"
+        }
+      },
+      {
+        "key": "lhit",
+        "title": "katana.store.element.local-hits.title",
+        "description": [
+          "katana.store.element.local-hits.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/hits-booster.png"
+        }
+      },
+      {
+        "key": "gkil",
+        "title": "katana.store.element.global-kills.title",
+        "description": [
+          "katana.store.element.global-kills.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/kills-booster.png"
+        }
+      },
+      {
+        "key": "lkil",
+        "title": "katana.store.element.local-kills.title",
+        "description": [
+          "katana.store.element.local-kills.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/kills-booster.png"
+        }
+      },
+      {
+        "key": "gmny",
+        "title": "katana.store.element.global-money.title",
+        "description": [
+          "katana.store.element.global-money.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 249,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/money-booster.png"
+        }
+      },
+      {
+        "key": "lmny",
+        "title": "katana.store.element.local-money.title",
+        "description": [
+          "katana.store.element.local-money.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 179,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/money-booster.png"
+        }
+      },
+      {
+        "key": "gall",
+        "title": "katana.store.element.global-all.title",
+        "description": [
+          "katana.store.element.global-all.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 749,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": true,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/all-booster.png"
+        }
+      },
+      {
+        "key": "lall",
+        "title": "katana.store.element.local-all.title",
+        "description": [
+          "katana.store.element.local-all.description"
+        ],
+        "primaryCategoryKey": "boost",
+        "bundleComponentKeys": [],
+        "bulkBuyOptions": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "markedAsNew": false,
+        "pricing": {
+          "basePrice": 549,
+          "discountPercent": 0
+        },
+        "oneTimePurchase": false,
+        "allowGift": true,
+        "instantBuyOnClick": false,
+        "confirmBeforeBuy": false,
+        "icon": {
+          "type": "textured",
+          "texture": "cache/simulator/all-booster.png"
+        }
+      }
+    ]
+  },
+  "purchaseAlertMessage": "katana.donate.notify",
+  "giftReceivedMessage": "katana.store.message.gift-received",
+  "elements": {
+    "GIFTS_KATANA": {
+      "key": "gifdf",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.gifts-katana.donate-name",
+      "onPurchase": [
+        "payload gifts-default %count%"
+      ]
+    },
+    "GIFTS_PET": {
+      "key": "gifpt",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.gifts-pet.donate-name",
+      "onPurchase": [
+        "payload gifts-pet %count%"
+      ]
+    },
+    "GIFTS_RUNE": {
+      "key": "gifrn",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.gifts-rune.donate-name",
+      "onPurchase": [
+        "payload gifts-rune %count%"
+      ]
+    },
+    "GIFTS_TITLE": {
+      "key": "giftt",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.gifts-title.donate-name",
+      "onPurchase": [
+        "payload gifts-title %count%"
+      ]
+    },
+    "PET_SLOT": {
+      "key": "pslot",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.pet-slot.donate-name",
+      "onPurchase": [
+        "unlock-pet-slot %player%"
+      ]
+    },
+    "RUNE_SLOT": {
+      "key": "rslot",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.rune-slot.donate-name",
+      "onPurchase": [
+        "unlock-rune-slot %player%"
+      ]
+    },
+    "INVENTORY_EQUIPMENT_SETS": {
+      "key": "esets",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.inventory-equipment-sets.donate-name",
+      "onPurchase": [
+        "unlock-inventory-equipment-sets %player% 3"
+      ]
+    },
+    "INCIDENT_POINT": {
+      "key": "incpt",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.incident-point.donate-name",
+      "onPurchase": [
+        "give-incident-points %player% %count%"
+      ]
+    },
+    "MONEY_BAG": {
+      "key": "mbag",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.money-bag.donate-name",
+      "onPurchase": [
+        "random-money %player% 15 35 %count%"
+      ]
+    },
+    "MONEY_HANDFUL": {
+      "key": "mhnd",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.money-handful.donate-name",
+      "onPurchase": [
+        "random-money %player% 1 10 %count%"
+      ]
+    },
+    "LEGENDARY_KATANA": {
+      "key": "lktan",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.legendary-katana.donate-name",
+      "onPurchase": [
+        "give-katana %player% LEGENDARY",
+        "morestat %player% set true hasLegendaryKatana"
+      ]
+    },
+    "SAVE_CRYSTAL": {
+      "key": "scrys",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.save-crystal.donate-name",
+      "onPurchase": [
+        "give-save-crystal %player% %count%"
+      ]
+    },
+    "KATANA_KEY": {
+      "key": "kdef",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.katana-key.donate-name",
+      "onPurchase": [
+        "give-key %player% KATANA %count%"
+      ]
+    },
+    "TITLE_KEY": {
+      "key": "ktit",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.title-key.donate-name",
+      "onPurchase": [
+        "give-key %player% TITLE %count%"
+      ]
+    },
+    "PET_KEY": {
+      "key": "kpet",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.pet-key.donate-name",
+      "onPurchase": [
+        "give-key %player% PET %count%"
+      ]
+    },
+    "RUNE_KEY": {
+      "key": "krune",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.rune-key.donate-name",
+      "onPurchase": [
+        "give-key %player% RUNE %count%"
+      ]
+    },
+    "INFINITY_STORAGE": {
+      "key": "infst",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.infinity-storage.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasInfinityStorage",
+        "earn-tutorial-stage-progress %player% UPGRADE_STORAGE"
+      ]
+    },
+    "MULTIPLE_CASE": {
+      "key": "case5",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.multiple-case.donate-name",
+      "onPurchase": [
+        "unlock-lootbox-open-tier %player% FIVE"
+      ]
+    },
+    "AUTO_CASE": {
+      "key": "acase",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.auto-case.donate-name",
+      "onPurchase": [
+        "morestat %player% set true autoOpenLootBox"
+      ]
+    },
+    "AUTO_MERGE": {
+      "key": "amrge",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.auto-merge.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasAutoMerge"
+      ]
+    },
+    "SUPER_PLAYER": {
+      "key": "super",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.super-player.donate-name",
+      "onPurchase": [
+        "morestat %player% set true sub",
+        "update-tab %player%"
+      ]
+    },
+    "SPEED_PERK": {
+      "key": "speed",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.speed-perk.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasSpeedPerk",
+        "morestat %player% set 0.4 speed",
+        "set-speed %player% 0.4"
+      ]
+    },
+    "MONEY_BOX": {
+      "key": "mbox",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.money-box.donate-name",
+      "onPurchase": [
+        "payload livesey 1"
+      ]
+    },
+    "STRONG_HIT": {
+      "key": "strhit",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.strong-hit.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasStrongHit"
+      ]
+    },
+    "MECHANIC_HAND": {
+      "key": "mhand",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.mechanic-hand.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasMechanicHand"
+      ]
+    },
+    "NEW_WALLET": {
+      "key": "wallet",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.new-wallet.donate-name",
+      "onPurchase": [
+        "morestat %player% set true hasNewWallet"
+      ]
+    },
+    "GLOBAL_EXP": {
+      "key": "gexp",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.global-exp.donate-name",
+      "onPurchase": [
+        "global-booster %player% EXP 2 3600 %count%"
+      ]
+    },
+    "LOCAL_EXP": {
+      "key": "lexp",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.local-exp.donate-name",
+      "onPurchase": [
+        "local-booster %player% EXP 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_HITS": {
+      "key": "ghit",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.global-hits.donate-name",
+      "onPurchase": [
+        "global-booster %player% HITS 2 3600 %count%"
+      ]
+    },
+    "LOCAL_HITS": {
+      "key": "lhit",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.local-hits.donate-name",
+      "onPurchase": [
+        "local-booster %player% HITS 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_KILLS": {
+      "key": "gkil",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.global-kills.donate-name",
+      "onPurchase": [
+        "global-booster %player% KILLS 2 3600 %count%"
+      ]
+    },
+    "LOCAL_KILLS": {
+      "key": "lkil",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.local-kills.donate-name",
+      "onPurchase": [
+        "local-booster %player% KILLS 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_MONEY": {
+      "key": "gmny",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.global-money.donate-name",
+      "onPurchase": [
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_MONEY": {
+      "key": "lmny",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.local-money.donate-name",
+      "onPurchase": [
+        "local-booster %player% MONEY 2 7200 %count%"
+      ]
+    },
+    "GLOBAL_ALL": {
+      "key": "gall",
+      "ignoreServiceDiscount": false,
+      "alert": true,
+      "alertName": "katana.store.element.global-all.donate-name",
+      "onPurchase": [
+        "global-booster %player% KILLS 2 3600 %count%",
+        "global-booster %player% HITS 2 3600 %count%",
+        "global-booster %player% EXP 2 3600 %count%",
+        "global-booster %player% MONEY 2 3600 %count%"
+      ]
+    },
+    "LOCAL_ALL": {
+      "key": "lall",
+      "ignoreServiceDiscount": false,
+      "alertName": "katana.store.element.local-all.donate-name",
+      "onPurchase": [
+        "local-booster %player% KILLS 2 7200 %count%",
+        "local-booster %player% HITS 2 7200 %count%",
+        "local-booster %player% EXP 2 7200 %count%",
+        "local-booster %player% MONEY 2 7200 %count%"
+      ]
+    }
+  }
+}

@@ -219,26 +219,6 @@
             ]
           },
           {
-            "id": "magic",
-            "rarity": "EPIC",
-            "itemStack": {
-              "type": "IRON_SWORD",
-              "name": "i18n.katana.katana.magic.title|!|¨ff55ff",
-              "flags": [
-                "HIDE_ATTRIBUTES",
-                "HIDE_ENCHANTS",
-                "HIDE_UNBREAKABLE"
-              ],
-              "data": {
-                "weapons": "bludgeon"
-              }
-            },
-            "chance": 0.96,
-            "onDrop": [
-              "give-katana %player% MAGIC"
-            ]
-          },
-          {
             "id": "levitation",
             "rarity": "RARE",
             "itemStack": {
@@ -378,21 +358,6 @@
             "chance": 10,
             "onDrop": [
               "give-pet %player% PIRATE_PARROT 1 100000"
-            ]
-          },
-          {
-            "id": "hedgehog",
-            "rarity": "COMMON",
-            "itemStack": {
-              "type": "SKULL_ITEM",
-              "name": "katana.pet.hedgehog.name",
-              "lore": "i18n.katana.pet.menu.hover.1|!|(i18n.katana.pet.booster.hits|!|1.25)",
-              "damage": 3,
-              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJkYWE2YmZiZWYyMDQ0MTk3NmIxZTUxNzk2MmUyNzQ0NGRiYjBhZmVmN2VlYjkwMWQzZWNmNjhjMWViNDllNiJ9fX0="
-            },
-            "chance": 10,
-            "onDrop": [
-              "give-pet %player% HEDGEHOG 1 100000"
             ]
           },
           {

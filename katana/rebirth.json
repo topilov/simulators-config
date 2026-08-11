@@ -1,4 +1,5 @@
 {
+  "hover": "katana.rebirth.hover",
   "messages": {
     "max": "katana.rebirth.message.max",
     "moreMoney": "katana.rebirth.message.more-MONEY",
@@ -8,24 +9,22 @@
     "alreadySuperPlayer": "katana.rebirth.message.already-super-player",
     "successPetSlot": "katana.rebirth.message.success-pet-slot",
     "maxPetsReached": "katana.rebirth.message.max-pets-reached",
-    "makeRebirthAlert": "katana.rebirth.message.make-rebirth-alert",
     "unknownError": "katana.simulator.unknown-error"
+  },
+  "notification": {
+    "evenWith": 50,
+    "message": "katana.rebirth.message.make-rebirth-alert"
+  },
+  "pipeline": {
+    "menuTitle": "katana.rebirth.pipeline.title",
+    "menuDescription": "katana.rebirth.pipeline.menu-description",
+    "title": "katana.rebirth.pipeline.title",
+    "description": "katana.rebirth.pipeline.description"
   },
   "commands": [
     "prestige",
     "rebirth"
   ],
-  "drop": {
-    "petSlot": {
-      "chance": 10,
-      "compensationMoney": 350000,
-      "compensationPetKeys": 2
-    },
-    "superPlayer": {
-      "since": 50,
-      "chance": 5
-    }
-  },
   "rebirth": {
     "1": {
       "price": 1000000,
