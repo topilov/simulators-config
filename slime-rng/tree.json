@@ -1,6 +1,6 @@
 {
   "default": {
-    "size": 48,
+    "size": 90,
     "color": {
       "hex": "#FFFFFF"
     },
@@ -77,7 +77,7 @@
     {
       "id": 1,
       "name": "srng.bind.description.tree",
-      "size": 64,
+      "size": 90,
       "color": {
         "hex": "#51457A"
       },
@@ -103,7 +103,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 1000,
+      "price": 400,
       "pos": {
         "x": -160,
         "y": -470
@@ -112,9 +112,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|I|!|5",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -131,7 +131,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 1000,
+      "price": 400,
       "pos": {
         "x": -160,
         "y": -250
@@ -140,9 +140,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|I|!|5",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.05",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -160,7 +160,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 3000,
+      "price": 600,
       "pos": {
         "x": -235,
         "y": -360
@@ -170,10 +170,10 @@
         1001,
         2001
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|I|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|I|!|5|!|5",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.05",
+        "sudo %player% activate-infinity-booster HEALTH 1.05",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -185,7 +185,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|I",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1002,
@@ -193,7 +193,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 12000000,
+      "price": 300000,
       "pos": {
         "x": -310,
         "y": -550
@@ -202,9 +202,9 @@
       "parents": [
         3001
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|II|!|5",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -221,7 +221,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 12000000,
+      "price": 300000,
       "pos": {
         "x": -310,
         "y": -170
@@ -230,9 +230,9 @@
       "parents": [
         3001
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|II|!|5",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.05",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -250,7 +250,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 36000000,
+      "price": 450000,
       "pos": {
         "x": -385,
         "y": -360
@@ -260,10 +260,10 @@
         1002,
         2002
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|II|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|II|!|5|!|5",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.05",
+        "sudo %player% activate-infinity-booster HEALTH 1.05",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -275,7 +275,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|II",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1003,
@@ -283,7 +283,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 720000000000,
+      "price": 250000000,
       "pos": {
         "x": -460,
         "y": -550
@@ -292,9 +292,9 @@
       "parents": [
         3002
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|III|!|10",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.1"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -311,7 +311,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 720000000000,
+      "price": 250000000,
       "pos": {
         "x": -460,
         "y": -170
@@ -320,9 +320,9 @@
       "parents": [
         3002
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|III|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|III|!|10",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.1",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -340,7 +340,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 2160000000000,
+      "price": 375000000,
       "pos": {
         "x": -535,
         "y": -360
@@ -350,10 +350,10 @@
         1003,
         2003
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|III|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|III|!|10|!|10",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.1",
+        "sudo %player% activate-infinity-booster HEALTH 1.1",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -365,7 +365,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|III",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1004,
@@ -373,7 +373,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 560000000000000,
+      "price": 200000000000,
       "pos": {
         "x": -610,
         "y": -470
@@ -382,9 +382,9 @@
       "parents": [
         3003
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|IV|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|IV|!|10",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.1"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -401,7 +401,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 560000000000000,
+      "price": 200000000000,
       "pos": {
         "x": -610,
         "y": -250
@@ -410,9 +410,9 @@
       "parents": [
         3003
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|IV|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|IV|!|10",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.1",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -430,7 +430,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 1050000000000000000,
+      "price": 300000000000000,
       "pos": {
         "x": -885,
         "y": -360
@@ -440,10 +440,10 @@
         1005,
         2005
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IV|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IV|!|10|!|10",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.1",
+        "sudo %player% activate-infinity-booster HEALTH 1.1",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -455,7 +455,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|IV",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1005,
@@ -463,7 +463,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 350000000000000000,
+      "price": 200000000000000,
       "pos": {
         "x": -810,
         "y": -470
@@ -472,9 +472,9 @@
       "parents": [
         1004
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|V|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|V|!|15",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.15"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -491,7 +491,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 350000000000000000,
+      "price": 200000000000000,
       "pos": {
         "x": -810,
         "y": -250
@@ -500,9 +500,9 @@
       "parents": [
         2004
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|V|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|V|!|15",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.15",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -520,7 +520,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 8.4e+23,
+      "price": 375000000000000000,
       "pos": {
         "x": -1035,
         "y": -360
@@ -530,10 +530,10 @@
         1006,
         2006
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|V|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|V|!|10|!|10",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.1",
+        "sudo %player% activate-infinity-booster HEALTH 1.1",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -545,7 +545,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|V",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1006,
@@ -553,7 +553,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 280000000000000000000,
+      "price": 250000000000000000,
       "pos": {
         "x": -960,
         "y": -550
@@ -562,9 +562,9 @@
       "parents": [
         3004
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|VI|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|VI|!|15",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.15"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -581,7 +581,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 2.8e+23,
+      "price": 300000000000000000000,
       "pos": {
         "x": -1110,
         "y": -550
@@ -609,7 +609,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 280000000000000000000,
+      "price": 250000000000000000,
       "pos": {
         "x": -960,
         "y": -170
@@ -618,9 +618,9 @@
       "parents": [
         3004
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|VI|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|VI|!|15",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.15",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -638,7 +638,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 2.8e+23,
+      "price": 300000000000000000000,
       "pos": {
         "x": -1110,
         "y": -170
@@ -667,7 +667,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 1.68e+36,
+      "price": 450000000000000000000,
       "pos": {
         "x": -1185,
         "y": -360
@@ -677,10 +677,10 @@
         1007,
         2007
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VI|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VI|!|15|!|15",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.15",
+        "sudo %player% activate-infinity-booster HEALTH 1.15",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -692,7 +692,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|VI",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1008,
@@ -700,7 +700,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 3.5e+29,
+      "price": 4.0000000000000003e+23,
       "pos": {
         "x": -1260,
         "y": -470
@@ -728,7 +728,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 5.6e+35,
+      "price": 6e+26,
       "pos": {
         "x": -1460,
         "y": -470
@@ -737,9 +737,9 @@
       "parents": [
         1008
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|IX|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|IX|!|25",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.25"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -756,7 +756,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 3.5e+29,
+      "price": 4.0000000000000003e+23,
       "pos": {
         "x": -1260,
         "y": -250
@@ -785,7 +785,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 5.6e+35,
+      "price": 6e+26,
       "pos": {
         "x": -1460,
         "y": -250
@@ -794,9 +794,9 @@
       "parents": [
         2008
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|IX|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|IX|!|25",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.25",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -814,7 +814,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 3.15e+42,
+      "price": 9e+26,
       "pos": {
         "x": -1535,
         "y": -360
@@ -824,10 +824,10 @@
         1009,
         2009
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VII|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VII|!|15|!|15",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.15",
+        "sudo %player% activate-infinity-booster HEALTH 1.15",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -839,7 +839,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|VII",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1010,
@@ -847,7 +847,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 1.05e+42,
+      "price": 1e+33,
       "pos": {
         "x": -1610,
         "y": -550
@@ -856,9 +856,9 @@
       "parents": [
         3007
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|X|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|X|!|25",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.25"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -875,7 +875,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 2.45e+48,
+      "price": 2.0000000000000002e+39,
       "pos": {
         "x": -1760,
         "y": -550
@@ -884,9 +884,9 @@
       "parents": [
         3008
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XI|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XI|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.3"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -903,7 +903,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 1.05e+42,
+      "price": 1e+33,
       "pos": {
         "x": -1610,
         "y": -170
@@ -912,9 +912,9 @@
       "parents": [
         3007
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|X|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|X|!|25",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.25",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -932,7 +932,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 2.45e+48,
+      "price": 2.0000000000000002e+39,
       "pos": {
         "x": -1760,
         "y": -170
@@ -941,9 +941,9 @@
       "parents": [
         3008
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XI|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XI|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -961,7 +961,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 7.35e+48,
+      "price": 1.5e+33,
       "pos": {
         "x": -1685,
         "y": -360
@@ -971,10 +971,10 @@
         1010,
         2010
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VIII|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|VIII|!|20|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -986,7 +986,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|VIII",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1012,
@@ -994,7 +994,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 6.3e+54,
+      "price": 5.0000000000000006e+45,
       "pos": {
         "x": -1910,
         "y": -470
@@ -1003,9 +1003,9 @@
       "parents": [
         3009
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XII|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XII|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.3"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1022,7 +1022,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 1.96e+61,
+      "price": 1.5e+52,
       "pos": {
         "x": -2110,
         "y": -470
@@ -1031,9 +1031,9 @@
       "parents": [
         1012
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XIII|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XIII|!|35",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1050,7 +1050,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 6.3e+54,
+      "price": 5.0000000000000006e+45,
       "pos": {
         "x": -1910,
         "y": -250
@@ -1059,9 +1059,9 @@
       "parents": [
         3009
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XII|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XII|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.3",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1079,7 +1079,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 1.96e+61,
+      "price": 1.5e+52,
       "pos": {
         "x": -2110,
         "y": -250
@@ -1088,9 +1088,9 @@
       "parents": [
         2012
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XIII|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XIII|!|35",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.35",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1108,7 +1108,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 1.89e+55,
+      "price": 3e+39,
       "pos": {
         "x": -1835,
         "y": -360
@@ -1118,10 +1118,10 @@
         1011,
         2011
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IX|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|IX|!|20|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.2",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1133,7 +1133,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|IX",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1014,
@@ -1141,7 +1141,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 1.4e+68,
+      "price": 5e+58,
       "pos": {
         "x": -2260,
         "y": -550
@@ -1150,9 +1150,9 @@
       "parents": [
         3010
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XIV|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XIV|!|35",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1169,7 +1169,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 8e+74,
+      "price": 2.0000000000000003e+62,
       "pos": {
         "x": -2410,
         "y": -550
@@ -1178,9 +1178,9 @@
       "parents": [
         3011
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XV|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XV|!|40",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.4"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1197,7 +1197,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 1.4e+68,
+      "price": 5e+58,
       "pos": {
         "x": -2260,
         "y": -170
@@ -1206,9 +1206,9 @@
       "parents": [
         3010
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XIV|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XIV|!|35",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.35",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1226,7 +1226,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 8e+74,
+      "price": 2.0000000000000003e+62,
       "pos": {
         "x": -2410,
         "y": -170
@@ -1235,9 +1235,9 @@
       "parents": [
         3011
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XV|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XV|!|40",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.4",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1255,7 +1255,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 5.88e+61,
+      "price": 2.25e+52,
       "pos": {
         "x": -2185,
         "y": -360
@@ -1265,10 +1265,10 @@
         1013,
         2013
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|X|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|X|!|25|!|25",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.25",
+        "sudo %player% activate-infinity-booster HEALTH 1.25",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1280,7 +1280,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|X",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1016,
@@ -1288,7 +1288,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 2.2e+75,
+      "price": 1e+69,
       "pos": {
         "x": -2560,
         "y": -470
@@ -1297,9 +1297,9 @@
       "parents": [
         3012
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XVI|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XVI|!|40",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.4"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1316,7 +1316,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 1.75e+82,
+      "price": 7e+78,
       "pos": {
         "x": -2760,
         "y": -470
@@ -1325,9 +1325,9 @@
       "parents": [
         1016
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XVII|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XVII|!|45",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.45"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1344,7 +1344,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 2.2e+75,
+      "price": 1e+69,
       "pos": {
         "x": -2560,
         "y": -250
@@ -1353,9 +1353,9 @@
       "parents": [
         3012
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XVI|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XVI|!|40",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.4",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1373,7 +1373,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 1.75e+82,
+      "price": 7e+78,
       "pos": {
         "x": -2760,
         "y": -250
@@ -1382,9 +1382,9 @@
       "parents": [
         2016
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XVII|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XVII|!|45",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.45",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1402,7 +1402,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 6.6e+68,
+      "price": 7.5e+58,
       "pos": {
         "x": -2335,
         "y": -360
@@ -1412,10 +1412,10 @@
         1014,
         2014
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XI|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XI|!|25|!|25",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.25",
+        "sudo %player% activate-infinity-booster HEALTH 1.25",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1427,7 +1427,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XI",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 3012,
@@ -1435,7 +1435,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 6.6e+75,
+      "price": 3e+62,
       "pos": {
         "x": -2485,
         "y": -360
@@ -1460,7 +1460,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XII",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1018,
@@ -1468,7 +1468,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 2e+89,
+      "price": 6.000000000000001e+88,
       "pos": {
         "x": -2910,
         "y": -550
@@ -1477,9 +1477,9 @@
       "parents": [
         3013
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XVIII|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XVIII|!|55",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.55"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1496,7 +1496,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 5.5e+89,
+      "price": 5.000000000000001e+95,
       "pos": {
         "x": -3060,
         "y": -550
@@ -1505,9 +1505,9 @@
       "parents": [
         3014
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XIX|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XIX|!|65",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.65"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1524,7 +1524,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 2e+89,
+      "price": 6.000000000000001e+88,
       "pos": {
         "x": -2910,
         "y": -170
@@ -1533,9 +1533,9 @@
       "parents": [
         3013
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XVIII|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XVIII|!|55",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.55",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1553,7 +1553,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 5.5e+89,
+      "price": 5.000000000000001e+95,
       "pos": {
         "x": -3060,
         "y": -170
@@ -1562,9 +1562,9 @@
       "parents": [
         3014
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XIX|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XIX|!|65",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.65",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1582,7 +1582,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 8.25e+82,
+      "price": 1.05e+79,
       "pos": {
         "x": -2835,
         "y": -360
@@ -1607,7 +1607,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XIII",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 3014,
@@ -1615,7 +1615,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 1.65e+90,
+      "price": 9e+88,
       "pos": {
         "x": -2985,
         "y": -360
@@ -1625,10 +1625,10 @@
         1018,
         2018
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIV|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XIV|!|35|!|35",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.35",
+        "sudo %player% activate-infinity-booster HEALTH 1.35",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1640,7 +1640,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XIV",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 1020,
@@ -1648,7 +1648,7 @@
       "color": {
         "hex": "#E74C3C"
       },
-      "price": 7e+93,
+      "price": 2.5e+98,
       "pos": {
         "x": -3210,
         "y": -470
@@ -1657,9 +1657,9 @@
       "parents": [
         1019
       ],
-      "description": "i18n.srng.tree.damage.upgrade.description|!|XX|!|20",
+      "description": "i18n.srng.tree.damage.upgrade.description|!|XX|!|75",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.2"
+        "sudo %player% activate-infinity-booster DAMAGE 1.75"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -1676,7 +1676,7 @@
       "color": {
         "hex": "#A84A4A"
       },
-      "price": 7e+93,
+      "price": 2.5e+98,
       "pos": {
         "x": -3210,
         "y": -250
@@ -1685,9 +1685,9 @@
       "parents": [
         2019
       ],
-      "description": "i18n.srng.tree.health.upgrade.description|!|XX|!|20",
+      "description": "i18n.srng.tree.health.upgrade.description|!|XX|!|75",
       "rewards": [
-        "sudo %player% activate-infinity-booster HEALTH 1.2",
+        "sudo %player% activate-infinity-booster HEALTH 1.75",
         "sudo %player% update-player-health"
       ],
       "icon": {
@@ -1705,7 +1705,7 @@
       "color": {
         "hex": "#F2994A"
       },
-      "price": 3.3e+94,
+      "price": 7.5e+98,
       "pos": {
         "x": -3285,
         "y": -360
@@ -1715,10 +1715,10 @@
         1020,
         2020
       ],
-      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XV|!|30|!|30",
+      "description": "i18n.srng.tree.health-damage.upgrade.description|!|XV|!|45|!|45",
       "rewards": [
-        "sudo %player% activate-infinity-booster DAMAGE 1.3",
-        "sudo %player% activate-infinity-booster HEALTH 1.3",
+        "sudo %player% activate-infinity-booster DAMAGE 1.45",
+        "sudo %player% activate-infinity-booster HEALTH 1.45",
         "sudo %player% update-player-health"
       ],
       "anyParentUpgrade": false,
@@ -1730,7 +1730,7 @@
         "name": "i18n.srng.tree.health-damage.upgrade.name|!|XV",
         "lore": ""
       },
-      "size": 56
+      "size": 90
     },
     {
       "id": 100,
@@ -1757,7 +1757,7 @@
         "name": "srng.tree.food.upgrade.name",
         "lore": ""
       },
-      "size": 64
+      "size": 90
     },
     {
       "id": 101,
@@ -1765,7 +1765,7 @@
       "color": {
         "hex": "#24C0E3"
       },
-      "price": 100,
+      "price": 45,
       "pos": {
         "x": 57,
         "y": 641
@@ -1774,7 +1774,7 @@
       "parents": [
         100
       ],
-      "description": "i18n.srng.tree.fruit.strawberry.description|!|20",
+      "description": "i18n.srng.tree.fruit.strawberry.description",
       "anyParentUpgrade": false,
       "icon": {
         "type": "CLAY_BALL",
@@ -1791,7 +1791,7 @@
       "color": {
         "hex": "#24C0E3"
       },
-      "price": 300,
+      "price": 160,
       "pos": {
         "x": 138,
         "y": 813
@@ -1800,7 +1800,7 @@
       "parents": [
         100
       ],
-      "description": "i18n.srng.tree.fruit.kiwi.description|!|12|!|90",
+      "description": "i18n.srng.tree.fruit.kiwi.description",
       "anyParentUpgrade": false,
       "icon": {
         "type": "CLAY_BALL",
@@ -1817,7 +1817,7 @@
       "color": {
         "hex": "#24C0E3"
       },
-      "price": 800,
+      "price": 550,
       "pos": {
         "x": 253,
         "y": 687
@@ -1826,7 +1826,7 @@
       "parents": [
         100
       ],
-      "description": "i18n.srng.tree.fruit.pineapple.description|!|8|!|90",
+      "description": "i18n.srng.tree.fruit.pineapple.description",
       "anyParentUpgrade": false,
       "icon": {
         "type": "CLAY_BALL",
@@ -1843,7 +1843,7 @@
       "color": {
         "hex": "#24C0E3"
       },
-      "price": 5000,
+      "price": 6500,
       "pos": {
         "x": 471,
         "y": 721
@@ -1852,7 +1852,7 @@
       "parents": [
         100
       ],
-      "description": "i18n.srng.tree.fruit.pepper.description|!|10|!|90",
+      "description": "i18n.srng.tree.fruit.pepper.description",
       "anyParentUpgrade": false,
       "icon": {
         "type": "CLAY_BALL",
@@ -1869,7 +1869,7 @@
       "color": {
         "hex": "#24C0E3"
       },
-      "price": 12000,
+      "price": 24000,
       "pos": {
         "x": 598,
         "y": 693
@@ -1878,7 +1878,7 @@
       "parents": [
         100
       ],
-      "description": "i18n.srng.tree.fruit.grape.description|!|50|!|8|!|60",
+      "description": "i18n.srng.tree.fruit.grape.description",
       "anyParentUpgrade": false,
       "icon": {
         "type": "CLAY_BALL",
@@ -1895,7 +1895,7 @@
       "color": {
         "hex": "#24C0E3"
       },
-      "price": 2000,
+      "price": 1800,
       "pos": {
         "x": 379,
         "y": 836
@@ -1921,7 +1921,7 @@
       "color": {
         "hex": "#5DADE2"
       },
-      "price": 15000000,
+      "price": 500000000,
       "pos": {
         "x": -720,
         "y": -360
@@ -1934,7 +1934,7 @@
       "rewards": [
         "sudo %player% earn-gun"
       ],
-      "size": 60,
+      "size": 90,
       "icon": {
         "type": "BLAZE_ROD",
         "data": {
@@ -1950,7 +1950,7 @@
       "color": {
         "hex": "#9B51E0"
       },
-      "price": 2000000000000000,
+      "price": 800000000000000,
       "pos": {
         "x": -170,
         "y": 70
@@ -1963,7 +1963,7 @@
       "rewards": [
         "sudo %player% unlock-additional-enemy"
       ],
-      "size": 60,
+      "size": 90,
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -1979,7 +1979,7 @@
       "color": {
         "hex": "#9B51E0"
       },
-      "price": 1.25e+30,
+      "price": 4e+33,
       "pos": {
         "x": -325,
         "y": 70
@@ -1992,7 +1992,7 @@
       "rewards": [
         "sudo %player% unlock-additional-enemy"
       ],
-      "size": 60,
+      "size": 90,
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -2008,7 +2008,7 @@
       "color": {
         "hex": "#9B51E0"
       },
-      "price": 2.25e+55,
+      "price": 8e+62,
       "pos": {
         "x": -480,
         "y": 70
@@ -2021,7 +2021,7 @@
       "rewards": [
         "sudo %player% unlock-additional-enemy"
       ],
-      "size": 60,
+      "size": 90,
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -2037,7 +2037,7 @@
       "color": {
         "hex": "#9B51E0"
       },
-      "price": 6.25e+82,
+      "price": 2.4e+89,
       "pos": {
         "x": -635,
         "y": 70
@@ -2050,7 +2050,7 @@
       "rewards": [
         "sudo %player% unlock-additional-enemy"
       ],
-      "size": 60,
+      "size": 90,
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -2066,7 +2066,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 3750,
+      "price": 1200,
       "pos": {
         "x": 264,
         "y": -116
@@ -2075,9 +2075,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|I|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|I|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2094,7 +2094,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 300000,
+      "price": 900000,
       "pos": {
         "x": 199,
         "y": -226
@@ -2103,9 +2103,9 @@
       "parents": [
         301
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|II|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|II|!|25",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.25"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2122,7 +2122,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 45000000,
+      "price": 750000000,
       "pos": {
         "x": 171,
         "y": -351
@@ -2131,9 +2131,9 @@
       "parents": [
         302
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|III|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|III|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.3"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2150,7 +2150,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 9000000000,
+      "price": 600000000000,
       "pos": {
         "x": 182,
         "y": -479
@@ -2159,9 +2159,9 @@
       "parents": [
         303
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|IV|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|IV|!|35",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.35"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2178,7 +2178,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 2700000000000,
+      "price": 600000000000000,
       "pos": {
         "x": 231,
         "y": -597
@@ -2187,9 +2187,9 @@
       "parents": [
         304
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|V|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|V|!|40",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.4"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2206,7 +2206,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 1200000000000000,
+      "price": 750000000000000000,
       "pos": {
         "x": 313,
         "y": -694
@@ -2215,9 +2215,9 @@
       "parents": [
         305
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|VI|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|VI|!|45",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.45"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2234,7 +2234,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 750000000000000000,
+      "price": 900000000000000000000,
       "pos": {
         "x": 420,
         "y": -760
@@ -2243,9 +2243,9 @@
       "parents": [
         306
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|VII|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|VII|!|50",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.5"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2262,7 +2262,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 600000000000000000000,
+      "price": 1.1999999999999999e+24,
       "pos": {
         "x": 542,
         "y": -789
@@ -2271,9 +2271,9 @@
       "parents": [
         307
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|VIII|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|VIII|!|55",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.55"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2290,7 +2290,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 6e+23,
+      "price": 1.8e+27,
       "pos": {
         "x": 667,
         "y": -778
@@ -2299,9 +2299,9 @@
       "parents": [
         308
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|IX|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|IX|!|60",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.6"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2318,7 +2318,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 7.5e+29,
+      "price": 3e+33,
       "pos": {
         "x": 782,
         "y": -728
@@ -2327,9 +2327,9 @@
       "parents": [
         309
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|X|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|X|!|65",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.65"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2346,7 +2346,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 1.2e+36,
+      "price": 6e+39,
       "pos": {
         "x": 876,
         "y": -644
@@ -2355,9 +2355,9 @@
       "parents": [
         310
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XI|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XI|!|75",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.75"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2374,7 +2374,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 2.25e+42,
+      "price": 1.5e+46,
       "pos": {
         "x": 941,
         "y": -534
@@ -2383,9 +2383,9 @@
       "parents": [
         311
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XII|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XII|!|80",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.8"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2402,7 +2402,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 5.25e+48,
+      "price": 4.5e+52,
       "pos": {
         "x": 969,
         "y": -409
@@ -2411,9 +2411,9 @@
       "parents": [
         312
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XIII|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XIII|!|85",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.85"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2430,7 +2430,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 1.35e+55,
+      "price": 1.4999999999999998e+59,
       "pos": {
         "x": 958,
         "y": -281
@@ -2439,9 +2439,9 @@
       "parents": [
         313
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XIV|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XIV|!|90",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.9"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2458,7 +2458,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 4.2e+61,
+      "price": 6e+62,
       "pos": {
         "x": 909,
         "y": -163
@@ -2467,9 +2467,9 @@
       "parents": [
         314
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XV|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XV|!|95",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 1.95"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2486,7 +2486,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 3e+68,
+      "price": 3.0000000000000002e+69,
       "pos": {
         "x": 827,
         "y": -66
@@ -2495,9 +2495,9 @@
       "parents": [
         315
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XVI|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XVI|!|100",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2514,7 +2514,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 3e+75,
+      "price": 2.0999999999999998e+79,
       "pos": {
         "x": 740,
         "y": 35
@@ -2523,9 +2523,9 @@
       "parents": [
         316
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XVII|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XVII|!|105",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 2.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2542,7 +2542,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 3.75e+82,
+      "price": 1.8e+89,
       "pos": {
         "x": 620,
         "y": 90
@@ -2551,9 +2551,9 @@
       "parents": [
         317
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XVIII|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XVIII|!|110",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 2.1"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2570,7 +2570,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 7.5e+89,
+      "price": 1.5e+96,
       "pos": {
         "x": 490,
         "y": 85
@@ -2579,9 +2579,9 @@
       "parents": [
         318
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XIX|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XIX|!|115",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 2.15"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2598,7 +2598,7 @@
       "color": {
         "hex": "#6FCF97"
       },
-      "price": 1.5e+94,
+      "price": 5e+98,
       "pos": {
         "x": 365,
         "y": 25
@@ -2607,9 +2607,9 @@
       "parents": [
         319
       ],
-      "description": "i18n.srng.tree.luck.upgrade.description|!|XX|!|70",
+      "description": "i18n.srng.tree.luck.upgrade.description|!|XX|!|120",
       "rewards": [
-        "sudo %player% activate-infinity-booster LUCK 1.7"
+        "sudo %player% activate-infinity-booster LUCK 2.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2623,6 +2623,7 @@
     {
       "id": 200,
       "name": "i18n.srng.tree.roll.upgrade.name|!|I",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2635,9 +2636,9 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|I|!|10|!|2.9",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|I|!|5|!|2.86",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.034483"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2651,6 +2652,7 @@
     {
       "id": 201,
       "name": "i18n.srng.tree.roll.upgrade.name|!|II",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2663,9 +2665,9 @@
       "parents": [
         200
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|II|!|10|!|2.8",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|II|!|5|!|2.73",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.035714"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2679,6 +2681,7 @@
     {
       "id": 202,
       "name": "i18n.srng.tree.roll.upgrade.name|!|III",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2691,9 +2694,9 @@
       "parents": [
         201
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|III|!|10|!|2.7",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|III|!|5|!|2.61",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.037037"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2707,6 +2710,7 @@
     {
       "id": 203,
       "name": "i18n.srng.tree.roll.upgrade.name|!|IV",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2719,9 +2723,9 @@
       "parents": [
         202
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|IV|!|10|!|2.6",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|IV|!|5|!|2.5",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.038462"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2735,6 +2739,7 @@
     {
       "id": 204,
       "name": "i18n.srng.tree.roll.upgrade.name|!|V",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2747,9 +2752,9 @@
       "parents": [
         203
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|V|!|10|!|2.5",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|V|!|5|!|2.4",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.04"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2763,6 +2768,7 @@
     {
       "id": 205,
       "name": "i18n.srng.tree.roll.upgrade.name|!|VI",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2775,9 +2781,9 @@
       "parents": [
         204
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|VI|!|10|!|2.4",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|VI|!|5|!|2.31",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.041667"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2791,6 +2797,7 @@
     {
       "id": 206,
       "name": "i18n.srng.tree.roll.upgrade.name|!|VII",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2803,9 +2810,9 @@
       "parents": [
         205
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|VII|!|10|!|2.3",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|VII|!|5|!|2.22",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.043478"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2819,6 +2826,7 @@
     {
       "id": 207,
       "name": "i18n.srng.tree.roll.upgrade.name|!|VIII",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2831,9 +2839,9 @@
       "parents": [
         206
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|VIII|!|10|!|2.2",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|VIII|!|5|!|2.14",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.045455"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2847,6 +2855,7 @@
     {
       "id": 208,
       "name": "i18n.srng.tree.roll.upgrade.name|!|IX",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2859,9 +2868,9 @@
       "parents": [
         207
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|IX|!|10|!|2.1",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|IX|!|5|!|2.07",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.047619"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2875,6 +2884,7 @@
     {
       "id": 209,
       "name": "i18n.srng.tree.roll.upgrade.name|!|X",
+      "size": 90,
       "color": {
         "hex": "#58D68D"
       },
@@ -2887,9 +2897,9 @@
       "parents": [
         208
       ],
-      "description": "i18n.srng.tree.roll.upgrade.description|!|X|!|10|!|2.0",
+      "description": "i18n.srng.tree.roll.upgrade.description|!|X|!|5|!|2.0",
       "rewards": [
-        "sudo %player% multiply-booster ROLL_SPEED 1.05"
+        "sudo %player% activate-infinity-booster ROLL_SPEED 1.05"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2919,7 +2929,7 @@
       "rewards": [
         "sudo %player% unlock-auto-roll"
       ],
-      "size": 68,
+      "size": 90,
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -2944,14 +2954,11 @@
       "parents": [
         1
       ],
-      "description": "i18n.srng.tree.rebirth.core.description|!|50|!|50|!|50",
+      "description": "i18n.srng.tree.rebirth.core.description|!|10",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.5",
-        "sudo %player% activate-infinity-booster DAMAGE 1.5",
-        "sudo %player% activate-infinity-booster HEALTH 1.5",
-        "sudo %player% update-player-health"
+        "sudo %player% activate-infinity-booster MONEY 1.1"
       ],
-      "size": 60,
+      "size": 90,
       "icon": {
         "type": "CLAY_BALL",
         "data": {
@@ -2969,16 +2976,16 @@
       },
       "price": 35,
       "pos": {
-        "x": -300,
+        "x": -375,
         "y": 330
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4000
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|I|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|I|!|10",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.1"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -2995,18 +3002,18 @@
       "color": {
         "hex": "#F2C94C"
       },
-      "price": 80,
+      "price": 100,
       "pos": {
-        "x": -470,
+        "x": -545,
         "y": 270
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4030
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|II|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|II|!|15",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.15"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3023,18 +3030,18 @@
       "color": {
         "hex": "#F2C94C"
       },
-      "price": 180,
+      "price": 300,
       "pos": {
-        "x": -640,
+        "x": -715,
         "y": 300
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4031
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|III|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|III|!|20",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.2"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3051,18 +3058,18 @@
       "color": {
         "hex": "#F2C94C"
       },
-      "price": 400,
+      "price": 900,
       "pos": {
-        "x": -780,
+        "x": -855,
         "y": 400
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4032
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|IV|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|IV|!|25",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.25"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3079,18 +3086,18 @@
       "color": {
         "hex": "#F2C94C"
       },
-      "price": 900,
+      "price": 2500,
       "pos": {
-        "x": -850,
+        "x": -925,
         "y": 550
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4033
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|V|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|V|!|30",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.3"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3107,18 +3114,18 @@
       "color": {
         "hex": "#F2C94C"
       },
-      "price": 2200,
+      "price": 7500,
       "pos": {
-        "x": -820,
+        "x": -895,
         "y": 700
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4034
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|VI|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|VI|!|40",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.4"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3135,18 +3142,18 @@
       "color": {
         "hex": "#F2C94C"
       },
-      "price": 5500,
+      "price": 22000,
       "pos": {
-        "x": -690,
+        "x": -765,
         "y": 820
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4035
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|VII|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|VII|!|50",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.5"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3163,18 +3170,18 @@
       "color": {
         "hex": "#F2C94C"
       },
-      "price": 14000,
+      "price": 65000,
       "pos": {
-        "x": -520,
+        "x": -595,
         "y": 800
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4036
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|VIII|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|VIII|!|60",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.6"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3191,18 +3198,18 @@
       "color": {
         "hex": "#F2C94C"
       },
-      "price": 36000,
+      "price": 180000,
       "pos": {
-        "x": -450,
+        "x": -525,
         "y": 680
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4037
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|IX|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|IX|!|65",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.65"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3219,18 +3226,18 @@
       "color": {
         "hex": "#F2C94C"
       },
-      "price": 90000,
+      "price": 450000,
       "pos": {
-        "x": -520,
+        "x": -595,
         "y": 550
       },
       "module": "REBIRTH_UPGRADES",
       "parents": [
         4038
       ],
-      "description": "i18n.srng.tree.rebirth.money.description|!|X|!|35",
+      "description": "i18n.srng.tree.rebirth.money.description|!|X|!|75",
       "rewards": [
-        "sudo %player% activate-infinity-booster MONEY 1.35"
+        "sudo %player% activate-infinity-booster MONEY 1.75"
       ],
       "icon": {
         "type": "CLAY_BALL",
@@ -3244,10 +3251,11 @@
     {
       "id": 4070,
       "name": "i18n.srng.tree.rebirth.run-speed.name|!|I",
+      "size": 80,
       "color": {
         "hex": "#56B4D3"
       },
-      "price": 100,
+      "price": 300,
       "pos": {
         "x": -207,
         "y": 624
@@ -3272,10 +3280,11 @@
     {
       "id": 4071,
       "name": "i18n.srng.tree.rebirth.run-speed.name|!|II",
+      "size": 80,
       "color": {
         "hex": "#56B4D3"
       },
-      "price": 500,
+      "price": 1800,
       "pos": {
         "x": -356,
         "y": 773
@@ -3300,10 +3309,11 @@
     {
       "id": 4072,
       "name": "i18n.srng.tree.rebirth.run-speed.name|!|III",
+      "size": 80,
       "color": {
         "hex": "#56B4D3"
       },
-      "price": 1500,
+      "price": 9000,
       "pos": {
         "x": -57,
         "y": 773
@@ -3328,10 +3338,11 @@
     {
       "id": 4073,
       "name": "i18n.srng.tree.rebirth.run-speed.name|!|IV",
+      "size": 80,
       "color": {
         "hex": "#56B4D3"
       },
-      "price": 5000,
+      "price": 40000,
       "pos": {
         "x": -207,
         "y": 923
@@ -3362,7 +3373,7 @@
       },
       "price": 100,
       "pos": {
-        "x": 345,
+        "x": 470,
         "y": 290
       },
       "module": "REBIRTH_UPGRADES",
@@ -3388,9 +3399,9 @@
       "color": {
         "hex": "#AAB7B8"
       },
-      "price": 250,
+      "price": 300,
       "pos": {
-        "x": 518,
+        "x": 643,
         "y": 290
       },
       "module": "REBIRTH_UPGRADES",
@@ -3416,9 +3427,9 @@
       "color": {
         "hex": "#AAB7B8"
       },
-      "price": 600,
+      "price": 900,
       "pos": {
-        "x": 518,
+        "x": 643,
         "y": 434
       },
       "module": "REBIRTH_UPGRADES",
@@ -3444,9 +3455,9 @@
       "color": {
         "hex": "#AAB7B8"
       },
-      "price": 1500,
+      "price": 2700,
       "pos": {
-        "x": 690,
+        "x": 815,
         "y": 290
       },
       "module": "REBIRTH_UPGRADES",
@@ -3472,9 +3483,9 @@
       "color": {
         "hex": "#AAB7B8"
       },
-      "price": 3500,
+      "price": 8000,
       "pos": {
-        "x": 690,
+        "x": 815,
         "y": 578
       },
       "module": "REBIRTH_UPGRADES",
@@ -3500,9 +3511,9 @@
       "color": {
         "hex": "#AAB7B8"
       },
-      "price": 8000,
+      "price": 24000,
       "pos": {
-        "x": 862,
+        "x": 987,
         "y": 434
       },
       "module": "REBIRTH_UPGRADES",
@@ -3528,9 +3539,9 @@
       "color": {
         "hex": "#24C0E3"
       },
-      "price": 350,
+      "price": 120,
       "pos": {
-        "x": 690,
+        "x": 815,
         "y": 434
       },
       "module": "REBIRTH_UPGRADES",
@@ -3542,7 +3553,7 @@
       "rewards": [
         "unlock-pet-slot %player%"
       ],
-      "size": 60,
+      "size": 90,
       "anyParentUpgrade": false,
       "icon": {
         "type": "CLAY_BALL",
@@ -3559,9 +3570,9 @@
       "color": {
         "hex": "#24C0E3"
       },
-      "price": 12000,
+      "price": 2600,
       "pos": {
-        "x": 862,
+        "x": 987,
         "y": 578
       },
       "module": "REBIRTH_UPGRADES",
@@ -3573,7 +3584,7 @@
       "rewards": [
         "unlock-pet-slot %player%"
       ],
-      "size": 60,
+      "size": 90,
       "anyParentUpgrade": false,
       "icon": {
         "type": "CLAY_BALL",

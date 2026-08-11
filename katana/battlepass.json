@@ -1,0 +1,243 @@
+{
+  "menuSettings": {
+    "pinnedPreviewLevel": 3,
+    "shouldAdaptQuestContainerHeightToY": true
+  },
+  "id": "katana-test-season-v1",
+  "maxLevel": 3,
+  "expPerLevel": {
+    "1": 0,
+    "2": 100,
+    "3": 250
+  },
+  "gameplaySettings": {
+    "claimAllEnabled": true,
+    "levelShareEnabled": false,
+    "levelShareCooldownMillis": 5000,
+    "resetEnabled": false,
+    "resetUnlockLevel": 3,
+    "premiumQuestExperienceBonusPercent": 20,
+    "questCompletionMessage": "Задание боевого пропуска выполнено",
+    "resetPolicy": "RESET_PROGRESS_KEEP_PREMIUM"
+  },
+  "purchaseModalDescription": "Тестовый боевой пропуск Katana",
+  "regularPurchaseOffer": {
+    "grant": {},
+    "price": {
+      "basePrice": 1
+    },
+    "title": "Премиальный пропуск",
+    "benefits": [
+      "Открывает премиальные награды тестового сезона"
+    ]
+  },
+  "giftPrice": {
+    "basePrice": 1
+  },
+  "levelSkips": [
+    {
+      "level": 2,
+      "price": {
+        "basePrice": 1
+      }
+    },
+    {
+      "level": 3,
+      "price": {
+        "basePrice": 1
+      }
+    }
+  ],
+  "rewardTiers": [
+    {
+      "level": 1,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-1-default",
+          "onClaim": [
+            "earn-money %player% 1000 false"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "money"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "1 000 монет"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-1-premium",
+          "onClaim": [
+            "give-key %player% KATANA 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/goldkey.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "1 ключ катан"
+          }
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-2-default",
+          "onClaim": [
+            "earn-money %player% 2500 false"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "money"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "2 500 монет"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-2-premium",
+          "onClaim": [
+            "give-key %player% PET 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/fox_key.png"
+          },
+          "quality": "epic",
+          "tooltip": {
+            "title": "1 ключ питомцев"
+          }
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "type": "PICKED",
+      "defaultRewards": [
+        {
+          "id": "level-3-default",
+          "onClaim": [
+            "earn-bits %player% 25"
+          ],
+          "icon": {
+            "type": "item",
+            "item": {
+              "type": "CLAY_BALL",
+              "data": {
+                "skyblock": "bits"
+              }
+            }
+          },
+          "tooltip": {
+            "title": "25 битов"
+          }
+        }
+      ],
+      "premiumRewards": [
+        {
+          "id": "level-3-premium",
+          "onClaim": [
+            "give-key %player% RUNE 1"
+          ],
+          "icon": {
+            "type": "textured",
+            "texture": "cache/simulator/rune_key.png"
+          },
+          "quality": "legendary",
+          "tooltip": {
+            "title": "1 ключ рун"
+          }
+        }
+      ]
+    }
+  ],
+  "questCategories": [
+    {
+      "id": "daily",
+      "displayName": "Ежедневные задания",
+      "refreshPolicy": {
+        "anchor": "2026-08-10T06:00:00",
+        "timeZone": "Europe/Belgrade",
+        "interval": "P1D"
+      },
+      "rerollPolicy": {
+        "maxRerollsPerCycle": 1
+      },
+      "questPools": {
+        "SMOKE": [
+          {
+            "id": "smoke-exp",
+            "type": "EXP",
+            "goal": 100,
+            "rewardExperience": 50,
+            "description": "Заработать 100 опыта",
+            "tooltip": {
+              "description": "Заработать 100 опыта"
+            }
+          },
+          {
+            "id": "smoke-level",
+            "type": "LEVEL",
+            "goal": 1,
+            "rewardExperience": 50,
+            "description": "Повысить уровень",
+            "tooltip": {
+              "description": "Повысить уровень"
+            }
+          },
+          {
+            "id": "smoke-hits",
+            "type": "HITS",
+            "goal": 50,
+            "rewardExperience": 50,
+            "description": "Заработать 50 ударов",
+            "tooltip": {
+              "description": "Заработать 50 ударов"
+            }
+          },
+          {
+            "id": "smoke-kills",
+            "type": "KILLS",
+            "goal": 5,
+            "rewardExperience": 50,
+            "description": "Заработать 5 убийств",
+            "tooltip": {
+              "description": "Заработать 5 убийств"
+            }
+          }
+        ]
+      },
+      "defaultQuestMapping": {
+        "SMOKE": 2
+      },
+      "premiumQuestMapping": {
+        "SMOKE": 2
+      }
+    }
+  ],
+  "duration": {
+    "startTimestamp": 1785542400000,
+    "endTimestamp": 1817078400000
+  },
+  "levelShareMessage": "Игрок %player% достиг уровня %level% тестового боевого пропуска",
+  "ignoreServiceDiscount": true
+}

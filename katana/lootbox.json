@@ -3,9 +3,9 @@
     "katana": {
       "title": "katana.lootbox.katana.title",
       "keyTitle": "katana.lootbox.katana.key.title",
-      "giveMessage": "i18n.katana.lootbox.message.give|!|katana.lootbox.katana.key.title",
+      "giveMessage": "katana.lootbox.message.give",
       "alertMessage": "katana.lootbox.katana.message.alert",
-      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.katana.key.title",
+      "useMessage": "katana.lootbox.message.use",
       "keyStack": {
         "type": "CLAY_BALL",
         "name": "katana.lootbox.katana.key.title",
@@ -219,26 +219,6 @@
             ]
           },
           {
-            "id": "magic",
-            "rarity": "EPIC",
-            "itemStack": {
-              "type": "IRON_SWORD",
-              "name": "i18n.katana.katana.magic.title|!|¨ff55ff",
-              "flags": [
-                "HIDE_ATTRIBUTES",
-                "HIDE_ENCHANTS",
-                "HIDE_UNBREAKABLE"
-              ],
-              "data": {
-                "weapons": "bludgeon"
-              }
-            },
-            "chance": 0.96,
-            "onDrop": [
-              "give-katana %player% MAGIC"
-            ]
-          },
-          {
             "id": "levitation",
             "rarity": "RARE",
             "itemStack": {
@@ -284,9 +264,9 @@
     "pets": {
       "title": "katana.lootbox.pets.title",
       "keyTitle": "katana.lootbox.pets.key.title",
-      "giveMessage": "i18n.katana.lootbox.message.give|!|katana.lootbox.pets.key.title",
+      "giveMessage": "katana.lootbox.message.give",
       "alertMessage": "katana.lootbox.pets.message.alert",
-      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.pets.key.title",
+      "useMessage": "katana.lootbox.message.use",
       "keyStack": {
         "type": "CLAY_BALL",
         "name": "katana.lootbox.pets.key.title",
@@ -378,21 +358,6 @@
             "chance": 10,
             "onDrop": [
               "give-pet %player% PIRATE_PARROT 1 100000"
-            ]
-          },
-          {
-            "id": "hedgehog",
-            "rarity": "COMMON",
-            "itemStack": {
-              "type": "SKULL_ITEM",
-              "name": "katana.pet.hedgehog.name",
-              "lore": "i18n.katana.pet.menu.hover.1|!|(i18n.katana.pet.booster.hits|!|1.25)",
-              "damage": 3,
-              "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJkYWE2YmZiZWYyMDQ0MTk3NmIxZTUxNzk2MmUyNzQ0NGRiYjBhZmVmN2VlYjkwMWQzZWNmNjhjMWViNDllNiJ9fX0="
-            },
-            "chance": 10,
-            "onDrop": [
-              "give-pet %player% HEDGEHOG 1 100000"
             ]
           },
           {
@@ -641,9 +606,9 @@
     "rune": {
       "title": "katana.lootbox.runes.title",
       "keyTitle": "katana.lootbox.runes.key.title",
-      "giveMessage": "i18n.katana.lootbox.message.give|!|katana.lootbox.runes.key.title",
+      "giveMessage": "katana.lootbox.message.give",
       "alertMessage": "katana.lootbox.runes.message.alert",
-      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.runes.key.title",
+      "useMessage": "katana.lootbox.message.use",
       "keyStack": {
         "type": "CLAY_BALL",
         "name": "katana.lootbox.runes.key.title",
@@ -968,9 +933,9 @@
     "title": {
       "title": "katana.lootbox.titles.title",
       "keyTitle": "katana.lootbox.titles.key.title",
-      "giveMessage": "i18n.katana.lootbox.message.give|!|katana.lootbox.titles.key.title",
+      "giveMessage": "katana.lootbox.message.give",
       "alertMessage": "katana.lootbox.titles.message.alert",
-      "useMessage": "i18n.katana.lootbox.message.use|!|katana.lootbox.titles.key.title",
+      "useMessage": "katana.lootbox.message.use",
       "keyStack": {
         "type": "CLAY_BALL",
         "name": "katana.lootbox.titles.key.title",

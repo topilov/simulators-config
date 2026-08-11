@@ -1,0 +1,702 @@
+{
+  "profile": {
+    "profileId": "katana:main",
+    "capacityMode": "SLOTS",
+    "capacityLevels": [100],
+    "capacityFormatId": "katana:slots",
+    "defaultCategoryId": "katana:katana",
+    "deletionEnabled": true
+  },
+  "formats": {
+    "katana:slots": {
+      "divisor": 1,
+      "suffix": "",
+      "fractionDigits": 0
+    }
+  },
+  "items": {
+    "katana:katana": {
+      "kind": "EQUIPMENT",
+      "categoryId": "katana:katana",
+      "capabilities": ["EQUIPPABLE", "SELLABLE"],
+      "compatibleEquipmentSlotIds": ["katana:primary"],
+      "actionIds": [
+        "katana:upgrade_katana",
+        "katana:use_save_crystal",
+        "katana:sell_katana"
+      ],
+      "order": 0,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:diamond_sword",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Катана",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "katana:helmet": {
+      "kind": "EQUIPMENT",
+      "categoryId": "katana:armor",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": ["katana:head"],
+      "actionIds": ["katana:upgrade_armor"],
+      "order": 1,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:diamond_helmet",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Шлем",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "katana:chestplate": {
+      "kind": "EQUIPMENT",
+      "categoryId": "katana:armor",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": ["katana:chest"],
+      "actionIds": ["katana:upgrade_armor"],
+      "order": 2,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:diamond_chestplate",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Нагрудник",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "katana:leggings": {
+      "kind": "EQUIPMENT",
+      "categoryId": "katana:armor",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": ["katana:legs"],
+      "actionIds": ["katana:upgrade_armor"],
+      "order": 3,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:diamond_leggings",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Поножи",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "katana:boots": {
+      "kind": "EQUIPMENT",
+      "categoryId": "katana:armor",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": ["katana:feet"],
+      "actionIds": ["katana:upgrade_armor"],
+      "order": 4,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "ITEM_MODEL",
+          "resourceId": "minecraft:diamond_boots",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Ботинки",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "katana:pet": {
+      "kind": "EQUIPMENT",
+      "categoryId": "katana:pets",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": [
+        "katana:pet_1",
+        "katana:pet_2",
+        "katana:pet_3",
+        "katana:pet_4",
+        "katana:pet_5"
+      ],
+      "actionIds": ["katana:upgrade_pet"],
+      "order": 5,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/pets.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Питомец",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "katana:rune": {
+      "kind": "EQUIPMENT",
+      "categoryId": "katana:runes",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": [
+        "katana:rune_1",
+        "katana:rune_2",
+        "katana:rune_3"
+      ],
+      "actionIds": ["katana:upgrade_rune"],
+      "order": 6,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/runes.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Руна",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "katana:title": {
+      "kind": "EQUIPMENT",
+      "categoryId": "katana:titles",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": ["katana:title"],
+      "actionIds": [],
+      "order": 7,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/titles.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Титул",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    },
+    "katana:perk": {
+      "kind": "EQUIPMENT",
+      "categoryId": "katana:perks",
+      "capabilities": ["EQUIPPABLE"],
+      "compatibleEquipmentSlotIds": ["katana:perk_1", "katana:perk_2"],
+      "actionIds": [],
+      "order": 8,
+      "weight": {"source": "NONE"},
+      "stacking": {"strategy": "NEVER", "properties": []},
+      "presentation": {
+        "icon": {
+          "kind": "RESOURCE_TEXTURE",
+          "resourceId": "cache/simulator/perk.png",
+          "modelId": 0,
+          "glint": false
+        },
+        "title": "Перк",
+        "rows": [],
+        "badges": [],
+        "variants": {}
+      }
+    }
+  },
+  "categories": {
+    "katana:katana": {
+      "order": 0,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Катаны",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_sword",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "katana:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка катан",
+      "emptyText": "Нет доступных катан",
+      "actionIds": []
+    },
+    "katana:armor": {
+      "order": 1,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Броня",
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_chestplate",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "katana:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка брони",
+      "emptyText": "Нет доступной брони",
+      "actionIds": []
+    },
+    "katana:pets": {
+      "order": 2,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Питомцы",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 300,
+        "formatId": "katana:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка питомцев",
+      "footerHint": {
+        "gesture": "MIDDLE_CLICK",
+        "title": "Улучшить"
+      },
+      "emptyText": "Нет доступных питомцев",
+      "actionIds": []
+    },
+    "katana:runes": {
+      "order": 3,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Руны",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 300,
+        "formatId": "katana:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка рун",
+      "footerHint": {
+        "gesture": "MIDDLE_CLICK",
+        "title": "Улучшить"
+      },
+      "emptyText": "Нет доступных рун",
+      "actionIds": []
+    },
+    "katana:titles": {
+      "order": 4,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Титулы",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/titles.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "katana:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка титулов",
+      "emptyText": "Нет доступных титулов",
+      "actionIds": []
+    },
+    "katana:perks": {
+      "order": 5,
+      "layoutKind": "SLOT_CATALOG",
+      "title": "Перки",
+      "icon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "capacity": {
+        "mode": "SLOTS",
+        "limit": 100,
+        "formatId": "katana:slots"
+      },
+      "contributesToProfileCapacity": false,
+      "blockingTitle": "Блокировка перков",
+      "emptyText": "Нет доступных перков",
+      "actionIds": []
+    }
+  },
+  "equipmentSlots": {
+    "katana:primary": {
+      "categoryId": "katana:katana",
+      "order": 0,
+      "visualRole": "WEAPON",
+      "title": "Катана",
+      "emptyIcon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_sword",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true,
+      "projectionTarget": "MAIN_HAND"
+    },
+    "katana:title": {
+      "categoryId": "katana:titles",
+      "order": 1,
+      "visualRole": "TITLE",
+      "title": "Титул",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/titles.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "katana:perk_1": {
+      "categoryId": "katana:perks",
+      "order": 2,
+      "visualRole": "PERK",
+      "title": "Перк 1",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "katana:perk_2": {
+      "categoryId": "katana:perks",
+      "order": 3,
+      "visualRole": "PERK",
+      "title": "Перк 2",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/perk.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "katana:pet_1": {
+      "categoryId": "katana:pets",
+      "order": 4,
+      "visualRole": "PET",
+      "title": "Питомец 1",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "katana:rune_1": {
+      "categoryId": "katana:runes",
+      "order": 5,
+      "visualRole": "RUNE",
+      "title": "Руна 1",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "katana:pet_2": {
+      "categoryId": "katana:pets",
+      "order": 6,
+      "visualRole": "PET",
+      "title": "Питомец 2",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true
+    },
+    "katana:rune_2": {
+      "categoryId": "katana:runes",
+      "order": 7,
+      "visualRole": "RUNE",
+      "title": "Руна 2",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "katana:pet_3": {
+      "categoryId": "katana:pets",
+      "order": 8,
+      "visualRole": "PET",
+      "title": "Питомец 3",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "katana:rune_3": {
+      "categoryId": "katana:runes",
+      "order": 9,
+      "visualRole": "RUNE",
+      "title": "Руна 3",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/runes.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "katana:pet_4": {
+      "categoryId": "katana:pets",
+      "order": 10,
+      "visualRole": "PET",
+      "title": "Питомец 4",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    },
+    "katana:head": {
+      "categoryId": "katana:armor",
+      "order": 11,
+      "visualRole": "HEAD",
+      "title": "Шлем",
+      "emptyIcon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_helmet",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true,
+      "projectionTarget": "HEAD"
+    },
+    "katana:chest": {
+      "categoryId": "katana:armor",
+      "order": 12,
+      "visualRole": "CHEST",
+      "title": "Нагрудник",
+      "emptyIcon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_chestplate",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true,
+      "projectionTarget": "CHEST"
+    },
+    "katana:legs": {
+      "categoryId": "katana:armor",
+      "order": 13,
+      "visualRole": "LEGS",
+      "title": "Поножи",
+      "emptyIcon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_leggings",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true,
+      "projectionTarget": "LEGS"
+    },
+    "katana:feet": {
+      "categoryId": "katana:armor",
+      "order": 14,
+      "visualRole": "FEET",
+      "title": "Ботинки",
+      "emptyIcon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:diamond_boots",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": true,
+      "projectionTarget": "FEET"
+    },
+    "katana:pet_5": {
+      "categoryId": "katana:pets",
+      "order": 15,
+      "visualRole": "PET",
+      "title": "Питомец 5",
+      "emptyIcon": {
+        "kind": "RESOURCE_TEXTURE",
+        "resourceId": "cache/simulator/pets.png",
+        "modelId": 0,
+        "glint": false
+      },
+      "initiallyUnlocked": false
+    }
+  },
+  "equipmentSets": {
+    "count": 3,
+    "initiallyUnlockedCount": 2
+  },
+  "initialEntries": [
+    {
+      "itemId": "katana:katana",
+      "version": 1,
+      "amount": 1,
+      "favorite": false,
+      "state": {
+        "type": "CLAYMORE",
+        "level": 1,
+        "crystals": 0,
+        "usedCrystals": 0
+      },
+      "equipmentSlotId": "katana:primary"
+    },
+    {
+      "itemId": "katana:helmet",
+      "version": 1,
+      "amount": 1,
+      "favorite": false,
+      "state": {
+        "type": "NINJA_HELMET",
+        "level": 1,
+        "crystals": 1,
+        "usedCrystals": 1
+      },
+      "equipmentSlotId": "katana:head"
+    },
+    {
+      "itemId": "katana:chestplate",
+      "version": 1,
+      "amount": 1,
+      "favorite": false,
+      "state": {
+        "type": "NINJA_CHESTPLATE",
+        "level": 1,
+        "crystals": 1,
+        "usedCrystals": 1
+      },
+      "equipmentSlotId": "katana:chest"
+    },
+    {
+      "itemId": "katana:leggings",
+      "version": 1,
+      "amount": 1,
+      "favorite": false,
+      "state": {
+        "type": "NINJA_LEGGINGS",
+        "level": 1,
+        "crystals": 1,
+        "usedCrystals": 1
+      },
+      "equipmentSlotId": "katana:legs"
+    },
+    {
+      "itemId": "katana:boots",
+      "version": 1,
+      "amount": 1,
+      "favorite": false,
+      "state": {
+        "type": "NINJA_BOOTS",
+        "level": 1,
+        "crystals": 1,
+        "usedCrystals": 1
+      },
+      "equipmentSlotId": "katana:feet"
+    }
+  ],
+  "actions": {
+    "katana:upgrade_katana": {
+      "categoryId": "katana:katana",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
+    },
+    "katana:use_save_crystal": {
+      "categoryId": "katana:katana",
+      "targetMode": "SINGLE",
+      "order": 1,
+      "title": "Добавить кристалл",
+      "gesture": "CTRL_SECONDARY_CLICK",
+      "style": "NORMAL"
+    },
+    "katana:sell_katana": {
+      "categoryId": "katana:katana",
+      "targetMode": "SINGLE",
+      "order": 2,
+      "title": "Продать",
+      "gesture": "SECONDARY_CLICK",
+      "style": "DANGER",
+      "confirmation": {
+        "title": "Продать катану?",
+        "lines": ["Катана будет безвозвратно продана."],
+        "confirmLabel": "Продать"
+      }
+    },
+    "katana:upgrade_armor": {
+      "categoryId": "katana:armor",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
+    },
+    "katana:upgrade_pet": {
+      "categoryId": "katana:pets",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
+    },
+    "katana:upgrade_rune": {
+      "categoryId": "katana:runes",
+      "targetMode": "SINGLE",
+      "order": 0,
+      "title": "Улучшить",
+      "gesture": "MIDDLE_CLICK",
+      "style": "PRIMARY"
+    }
+  }
+}
