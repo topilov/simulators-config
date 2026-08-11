@@ -1,15 +1,41 @@
 {
-  "text": {
-    "title": "katana.rune.text.title",
-    "level": "katana.rune.text.level",
-    "activate": "katana.rune.text.activate",
-    "takeHover": "katana.rune.text.hover.take",
-    "wearHover": "katana.rune.text.hover.wear",
-    "take": "katana.rune.text.take",
-    "wear": "katana.rune.text.wear",
-    "totalMax": "katana.rune.text.total-max",
-    "alreadyMax": "katana.rune.text.already-max",
-    "alreadyExists": "katana.lootbox.runes.message.already-exists"
+  "messages": {
+    "success": "katana.inventory.rune.upgrade.success",
+    "notEnoughItems": "katana.inventory.rune.upgrade.not-enough-items",
+    "maxLevel": "katana.inventory.rune.upgrade.max-level"
+  },
+  "activateMessage": "katana.rune.text.activate",
+  "rarities": {
+    "COMMON": {
+      "title": "katana.rarity.common",
+      "color": {
+        "hex": "#727270"
+      }
+    },
+    "RARE": {
+      "title": "katana.rarity.rare",
+      "color": {
+        "hex": "#4ADB72"
+      }
+    },
+    "EPIC": {
+      "title": "katana.rarity.epic",
+      "color": {
+        "hex": "#552BBF"
+      }
+    },
+    "LEGENDARY": {
+      "title": "katana.rarity.legendary",
+      "color": {
+        "hex": "#FCC12B"
+      }
+    },
+    "MYTHIC": {
+      "title": "katana.rarity.mythic",
+      "color": {
+        "hex": "#E73D4B"
+      }
+    }
   },
   "runes": {
     "BOOM": {
@@ -17,361 +43,1854 @@
       "title": "katana.runes.boom.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.boom.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "RARE",
+      "rarity": "RARE",
       "notify": true,
       "canDrop": false,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 3.0,
-      "per": 0.5,
-      "max": 11.0,
-      "isPercent": true
+      "maxLevel": 17,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 3,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 3.5,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 4,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 4.5,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5.5,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6.5,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7.5,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.5,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 9,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 9.5,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10.5,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 11,
+          "isPercent": true
+        }
+      }
     },
     "REINCARNATION": {
       "id": "reincarnation",
       "title": "katana.runes.reincarnation.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.reincarnation.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "LEGENDARY",
+      "rarity": "LEGENDARY",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 5.0,
-      "per": 0.625,
-      "max": 10.0,
-      "isPercent": true
+      "maxLevel": 9,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5.625,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6.25,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6.875,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7.5,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.125,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.75,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 9.375,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 10,
+          "isPercent": true
+        }
+      }
     },
     "MIRROR": {
       "id": "mirror",
       "title": "katana.runes.mirror.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.mirror.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "COMMON",
+      "rarity": "COMMON",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 10.0,
-      "per": 0.5,
-      "max": 20.0,
-      "isPercent": true
+      "maxLevel": 21,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10.5,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11.5,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 12,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 12.5,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13.5,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 14,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 14.5,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15.5,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16.5,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17.5,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18,
+          "isPercent": true
+        },
+        "18": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18.5,
+          "isPercent": true
+        },
+        "19": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 19,
+          "isPercent": true
+        },
+        "20": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 19.5,
+          "isPercent": true
+        },
+        "21": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 20,
+          "isPercent": true
+        }
+      }
     },
     "BERSERK": {
       "id": "berserk",
       "title": "katana.runes.berserk.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.berserk.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "EPIC",
+      "rarity": "EPIC",
       "notify": true,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 3,
-      "per": 0.5,
-      "max": 9,
-      "isPercent": true
+      "maxLevel": 13,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 3,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 3.5,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 4,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 4.5,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5.5,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6.5,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7.5,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.5,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 9,
+          "isPercent": true
+        }
+      }
     },
     "SHIELD": {
       "id": "shield",
       "title": "katana.runes.shield.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.shield.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "EPIC",
+      "rarity": "EPIC",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.reduce.ability.upgrade.name",
-      "current": 3,
-      "per": 0.5,
-      "max": 9,
-      "isPercent": true
+      "maxLevel": 13,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 3,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 3.5,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 4,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 4.5,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5.5,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6.5,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7.5,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.5,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 9,
+          "isPercent": true
+        }
+      }
     },
     "INVADER": {
       "id": "invader",
       "title": "katana.runes.invader.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.invader.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "EPIC",
+      "rarity": "EPIC",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 45,
-      "per": 1.25,
-      "max": 60,
-      "isPercent": true
+      "maxLevel": 13,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 45,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 46.25,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 47.5,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 48.75,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 50,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 51.25,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 52.5,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 53.75,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 55,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 56.25,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 57.5,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 58.75,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 60,
+          "isPercent": true
+        }
+      }
     },
     "COLLECTOR": {
       "id": "collector",
       "title": "katana.runes.collector.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.collector.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhNGFmMGU0ZjQ5NDFlM2Y5ZDBiNTcwZDA5NzkwOTQ0MDY2YWM5NjMxMmFhZWFmMGNhODhhOTk5MmU1In19fQ",
+        "tint": null,
+        "glint": false
       },
-      "rare": "RARE",
+      "rarity": "RARE",
       "notify": true,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 40,
-      "per": 10,
-      "max": 200,
-      "isPercent": true
+      "maxLevel": 17,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 40,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 50,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 60,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 70,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 80,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 90,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 100,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 110,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 120,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 130,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 140,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 150,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 160,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 170,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 180,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 190,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 200,
+          "isPercent": true
+        }
+      }
     },
     "LIVESEY": {
       "id": "livesey",
       "title": "katana.runes.livesey.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.livesey.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "RARE",
+      "rarity": "RARE",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 8,
-      "per": 0.75,
-      "max": 20.0,
-      "isPercent": true
+      "maxLevel": 17,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.75,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 9.5,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10.25,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11.75,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 12.5,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13.25,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 14,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 14.75,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15.5,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16.25,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17.75,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18.5,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 19.25,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 20,
+          "isPercent": true
+        }
+      }
     },
     "SAMURAI": {
       "id": "samurai",
       "title": "katana.runes.samurai.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.samurai.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "LEGENDARY",
+      "rarity": "LEGENDARY",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 20,
-      "per": 2.5,
-      "max": 40,
-      "isPercent": true
+      "maxLevel": 9,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 20,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 22.5,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 25,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 27.5,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 30,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 32.5,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 35,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 37.5,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 40,
+          "isPercent": true
+        }
+      }
     },
-    "BATTLESHIP":   {
+    "BATTLESHIP": {
       "id": "battleship",
       "title": "katana.runes.battleship.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.battleship.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "EPIC",
+      "rarity": "EPIC",
       "notify": true,
       "canDrop": false,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 10.0,
-      "per": 1.75,
-      "max": 31.0,
-      "isPercent": true
+      "maxLevel": 13,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11.75,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13.5,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15.25,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18.75,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 20.5,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 22.25,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 24,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 25.75,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 27.5,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 29.25,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 31,
+          "isPercent": true
+        }
+      }
     },
     "KEEPER": {
       "id": "keeper",
       "title": "katana.runes.keeper.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.keeper.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "COMMON",
+      "rarity": "COMMON",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 0.06,
-      "per": 0.01,
-      "max": 0.26,
-      "isPercent": true
+      "maxLevel": 21,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.06,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.07,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.08,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.09,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.1,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.11,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.12,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.13,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.14,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.15,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.16,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.17,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.18,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.19,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.2,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.21,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.22,
+          "isPercent": true
+        },
+        "18": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.23,
+          "isPercent": true
+        },
+        "19": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.24,
+          "isPercent": true
+        },
+        "20": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 0.25,
+          "isPercent": true
+        },
+        "21": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 0.26,
+          "isPercent": true
+        }
+      }
     },
     "PET": {
       "id": "pet",
       "title": "katana.runes.pet.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.pet.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "LEGENDARY",
+      "rarity": "LEGENDARY",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 15,
-      "per": 0.5,
-      "max": 19.0,
-      "isPercent": true
+      "maxLevel": 9,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15.5,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16.5,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17.5,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18.5,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 19,
+          "isPercent": true
+        }
+      }
     },
     "SUPER_PLAYER": {
       "id": "super_player",
       "title": "katana.runes.super_player.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.super_player.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "LEGENDARY",
+      "rarity": "LEGENDARY",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 8,
-      "per": 0.375,
-      "max": 11.0,
-      "isPercent": true
+      "maxLevel": 9,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.375,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.75,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 9.125,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 9.5,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 9.875,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10.25,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10.625,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 11,
+          "isPercent": true
+        }
+      }
     },
     "SELLER": {
       "id": "seller",
       "title": "katana.runes.seller.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.seller.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "COMMON",
+      "rarity": "COMMON",
       "notify": true,
       "canDrop": true,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 5,
-      "per": 1,
-      "max": 25,
-      "isPercent": true
+      "maxLevel": 21,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 9,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 12,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 14,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 19,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 20,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 21,
+          "isPercent": true
+        },
+        "18": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 22,
+          "isPercent": true
+        },
+        "19": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 23,
+          "isPercent": true
+        },
+        "20": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 24,
+          "isPercent": true
+        },
+        "21": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 25,
+          "isPercent": true
+        }
+      }
     },
     "KILLER": {
       "id": "killer",
       "title": "katana.runes.killer.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.killer.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "COMMON",
+      "rarity": "COMMON",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 10,
-      "per": 10,
-      "max": 210,
-      "isPercent": true
+      "maxLevel": 21,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 20,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 30,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 40,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 50,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 60,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 70,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 80,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 90,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 100,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 110,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 120,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 130,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 140,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 150,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 160,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 170,
+          "isPercent": true
+        },
+        "18": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 180,
+          "isPercent": true
+        },
+        "19": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 190,
+          "isPercent": true
+        },
+        "20": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 200,
+          "isPercent": true
+        },
+        "21": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 210,
+          "isPercent": true
+        }
+      }
     },
     "BOXER": {
       "id": "boxer",
       "title": "katana.runes.boxer.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.boxer.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "COMMON",
+      "rarity": "COMMON",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.increase.ability.upgrade.name",
-      "current": 10.0,
-      "per": 1.15,
-      "max": 33.0,
-      "isPercent": true
+      "maxLevel": 21,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11.15,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 12.3,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13.45,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 14.6,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15.75,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16.9,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18.05,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 19.2,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 20.35,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 21.5,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 22.65,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 23.8,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 24.95,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 26.1,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 27.25,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 28.4,
+          "isPercent": true
+        },
+        "18": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 29.55,
+          "isPercent": true
+        },
+        "19": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 30.7,
+          "isPercent": true
+        },
+        "20": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 31.85,
+          "isPercent": true
+        },
+        "21": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 33,
+          "isPercent": true
+        }
+      }
     },
     "UPGRADE": {
       "id": "upgrade",
       "title": "katana.runes.upgrade.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.upgrade.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "RARE",
+      "rarity": "RARE",
       "notify": true,
       "canDrop": false,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 10,
-      "per": 0.625,
-      "max": 20.0,
-      "isPercent": true
+      "maxLevel": 17,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10.625,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11.25,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11.875,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 12.5,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13.125,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13.75,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 14.375,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15.625,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16.25,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16.875,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17.5,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18.125,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18.75,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 19.375,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 20,
+          "isPercent": true
+        }
+      }
     },
     "BLACKSMITH": {
       "id": "blacksmith",
       "title": "katana.runes.blacksmith.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.blacksmith.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "EPIC",
+      "rarity": "EPIC",
       "notify": false,
       "canDrop": true,
       "upgradeText": "katana.runes.reduce.ability.upgrade.name",
-      "current": 5,
-      "per": 1.25,
-      "max": 20,
-      "isPercent": true
+      "maxLevel": 13,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6.25,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7.5,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8.75,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11.25,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 12.5,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13.75,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16.25,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17.5,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18.75,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 20,
+          "isPercent": true
+        }
+      }
     },
     "BITS": {
       "id": "bits",
       "title": "katana.runes.bits.name",
       "description": "katana.runes.description",
       "ability": "katana.runes.bits.ability.name",
-      "texture": {
-        "type": "SKULL_ITEM",
-        "damage": 3,
-        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0"
+      "icon": {
+        "kind": "ITEM_MODEL",
+        "resourceId": "minecraft:skull",
+        "modelId": 3,
+        "ownerTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhMmY4NWVhYjkxYmY2ZjNhZGRmNjQxN2FjNjI4NzkyZWUzNDdjMTRhNzVmMDZhNjJjODljNGU3NzcxYiJ9fX0",
+        "tint": null,
+        "glint": false
       },
-      "rare": "RARE",
+      "rarity": "RARE",
       "notify": true,
       "canDrop": true,
       "upgradeText": "katana.runes.chance.ability.upgrade.name",
-      "current": 5,
-      "per": 1,
-      "max": 21,
-      "isPercent": true
+      "maxLevel": 17,
+      "levels": {
+        "1": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 5,
+          "isPercent": true
+        },
+        "2": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 6,
+          "isPercent": true
+        },
+        "3": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 7,
+          "isPercent": true
+        },
+        "4": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 8,
+          "isPercent": true
+        },
+        "5": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 9,
+          "isPercent": true
+        },
+        "6": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 10,
+          "isPercent": true
+        },
+        "7": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 11,
+          "isPercent": true
+        },
+        "8": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 12,
+          "isPercent": true
+        },
+        "9": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 13,
+          "isPercent": true
+        },
+        "10": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 14,
+          "isPercent": true
+        },
+        "11": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 15,
+          "isPercent": true
+        },
+        "12": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 16,
+          "isPercent": true
+        },
+        "13": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 17,
+          "isPercent": true
+        },
+        "14": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 18,
+          "isPercent": true
+        },
+        "15": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 19,
+          "isPercent": true
+        },
+        "16": {
+          "itemsRequiredForNextLevel": 2,
+          "value": 20,
+          "isPercent": true
+        },
+        "17": {
+          "itemsRequiredForNextLevel": 0,
+          "value": 21,
+          "isPercent": true
+        }
+      }
     }
   }
 }
